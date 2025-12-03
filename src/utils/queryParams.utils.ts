@@ -7,17 +7,23 @@
  *          properly encoded and concatenated by '&'. If no parameters are provided,
  *          returns an empty string.
  */
-export function convertRequestParams<T extends Record<string, string | number | Array<string>>>(params: T) {
+
+export function convertRequestParams<T extends Record<string, string | number | Array<string | number>>>(params: T) {
 	if (!params) return "";
-	let url = "?";
+
+	const searchParams = new URLSearchParams();
+
 	for (const key of Object.keys(params)) {
-		if (Array.isArray(params[key])) {
-			for (const value of params[key]) {
-				url += `${url.length === 1 ? "" : "&"}${key}=${value.replaceAll(" ", "%20")}`;
+		const value = params[key];
+
+		if (Array.isArray(value)) {
+			for (const v of value) {
+				searchParams.append(key, String(v));
 			}
 		} else {
-			url += `${url.length === 1 ? "" : "&"}${key}=${params[key]!.toString().replaceAll(" ", "%20")}`;
+			searchParams.append(key, String(value));
 		}
 	}
-	return url;
+
+	return `?${searchParams.toString()}`;
 }
