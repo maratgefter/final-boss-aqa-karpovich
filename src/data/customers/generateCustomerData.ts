@@ -20,18 +20,18 @@ export function generateCustomerData(params?: Partial<ICustomer>): ICustomer {
 }
 
 export function generateCustomerResponseData(params?: Partial<ICustomer>): ICustomerFromResponse {
-  const initial = generateCustomerData(params);
-  return {
-    _id: new ObjectId().toHexString(),
-    email: initial.email,
-    name: initial.name,
-    country: initial.country,
-    city: initial.city,
-    street: initial.street,
-    house: initial.house,
-    flat: initial.flat,
-    phone: initial.phone,
-    createdOn: new Date().toISOString(),
-    notes: initial.notes!,
-  };
+	const initial = generateCustomerData(params);
+	return {
+		_id: new ObjectId().toHexString(),
+		email: initial.email,
+		name: initial.name,
+		country: initial.country,
+		city: initial.city,
+		street: initial.street,
+		house: initial.house,
+		flat: initial.flat,
+		phone: initial.phone,
+		createdOn: new Date().toISOString(),
+		notes: initial.notes!,
+	};
 }
