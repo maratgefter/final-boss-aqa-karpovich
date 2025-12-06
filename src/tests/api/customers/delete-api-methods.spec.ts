@@ -1,33 +1,46 @@
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
-import { test, expect } from "tests/api/customers/common/fixtures";
+import { expect, test } from "fixtures/api.fixture";
 
 test.describe("Delete customer", () => {
-	test(`success`, { tag: TAGS.CUSTOMERS }, async ({ prepareAndDeleteCustomer }) => {
-		const { deletedCustomerResponse } = await prepareAndDeleteCustomer();
+	let token = "";
 
-		expect(deletedCustomerResponse.status).toBe(STATUS_CODES.DELETED);
-		expect(deletedCustomerResponse.body).toBeNull();
+	test.beforeAll(async ({ loginApiService }) => {
+		token = await loginApiService.loginAsAdmin();
 	});
 
-	test(`fail: invalid token`, { tag: TAGS.CUSTOMERS }, async ({ prepareAndDeleteCustomer }) => {
-		const { deletedCustomerResponse } = await prepareAndDeleteCustomer({ token: `invalid_token` });
-		expect(deletedCustomerResponse.status).toBe(STATUS_CODES.UNAUTHORIZED);
-	});
+	test.describe("positive", () => {
+		let customerId: string;
 
-	test(`fail: invalid id`, { tag: TAGS.CUSTOMERS }, async ({ prepareAndDeleteCustomer }) => {
-		const { deletedCustomerResponse } = await prepareAndDeleteCustomer({ id: `invalid_id` });
-		expect(deletedCustomerResponse.status).toBe(STATUS_CODES.NOT_FOUND);
-	});
+		test.beforeEach(async ({ customersApiService }) => {
+			const customer = await customersApiService.create(token);
+			customerId = customer._id;
+		});
 
-	test(
-		`fail: customer already deleted`,
-		{ tag: TAGS.CUSTOMERS },
-		async ({ prepareAndDeleteCustomer, customersApiService, token }) => {
-			const { customerId } = await prepareAndDeleteCustomer();
-			const response = await customersApiService.delete(customerId, token);
+		test("success", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
+			const response = await customersApiService.delete(token, customerId);
 
+			expect(response.status).toBe(STATUS_CODES.DELETED);
+			expect(response.body).toBeNull();
+		});
+
+		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
+			await customersApiService.delete(token, customerId);
+
+			const response = await customersApiService.delete(token, customerId);
 			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-		},
-	);
+		});
+	});
+
+	test.describe("negative", () => {
+		test("invalid token", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
+			const response = await customersApiService.delete("invalid_token", "whatever");
+			expect(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
+		});
+
+		test("invalid id", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
+			const response = await customersApiService.delete(token, "invalid_id");
+			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+		});
+	});
 });
