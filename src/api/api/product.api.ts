@@ -13,12 +13,6 @@ import { logStep } from "utils/report/logStep.utils";
 
 export class ProductsApi {
 	constructor(private apiClient: IApiClient) {}
-	//post
-	//put
-	//get by id
-	//get all
-	//get with pagination
-	//delete
 
 	@logStep("POST /api/products")
 	async create(product: IProduct, token: string) {
