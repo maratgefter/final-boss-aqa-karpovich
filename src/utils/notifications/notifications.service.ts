@@ -1,11 +1,11 @@
 export class NotificationService {
-  constructor(private service: INotificationService) {}
+	constructor(private service: INotificationService) {}
 
-  async postNotification(notification: string) {
-    await this.service.postNotification(notification);
-  }
+	async postNotification(notification: string) {
+		await this.service.postNotification(notification);
+	}
 }
 
 export interface INotificationService {
-  postNotification(text: string): Promise<void>;
+	postNotification(text: string): Promise<void>;
 }
