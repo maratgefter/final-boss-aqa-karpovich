@@ -36,7 +36,6 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			const actualProductData = createdProduct.body.Product;
 			expect(_.omit(actualProductData, ["_id", "createdOn"])).toEqual(productData);
 
-			//TODO: Получить все продукты
 			const getProductResponse = await productsApi.getAll(token);
 			validateResponse(getProductResponse, {
 				status: STATUS_CODES.OK,
@@ -45,7 +44,6 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				ErrorMessage: null,
 			});
 
-			//проверить, что в массиве тела респонса есть созданный продукт
 			const allproduct = JSON.stringify(getProductResponse.body.Products);
 			const product = JSON.parse(allproduct).find((product: { _id: string }) => product._id === id);
 			expect(product).toMatchObject({ ...productData });
