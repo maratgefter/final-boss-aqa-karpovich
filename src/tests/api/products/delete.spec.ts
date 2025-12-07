@@ -6,7 +6,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test(
 		"Delete Product",
 		{
-			tag: [TAGS.PRODUCTS],
+			tag: [TAGS.PRODUCTS, TAGS.SMOKE],
 		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
 			const token = await loginApiService.loginAsAdmin();
@@ -22,7 +22,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test(
 		"Delete a deleted Product",
 		{
-			tag: [TAGS.PRODUCTS],
+			tag: [TAGS.PRODUCTS, TAGS.REGRESSION],
 		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
 			const token = await loginApiService.loginAsAdmin();
@@ -35,6 +35,22 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 
 			const response = await productsApi.delete(id, token);
 			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+		},
+	);
+
+	test(
+		"Delete Product without TOKEN",
+		{
+			tag: [TAGS.PRODUCTS, TAGS.REGRESSION],
+		},
+		async ({ loginApiService, productsApiService, productsApi }) => {
+			const token = await loginApiService.loginAsAdmin();
+
+			const createdProduct = await productsApiService.create(token);
+			const id = createdProduct._id;
+
+			const responsefirst = await productsApi.delete(id, "");
+			expect(responsefirst.status).toBe(STATUS_CODES.UNAUTHORIZED);
 		},
 	);
 });
