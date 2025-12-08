@@ -16,7 +16,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 		id = "";
 	});
 
-	test("Search by email", { tag: [TAGS.API] }, async ({ customersApiService, customersApi }) => {
+	test("Search by email", { tag: [TAGS.API, TAGS.SMOKE] }, async ({ customersApiService, customersApi }) => {
 		const createdCustomer = await customersApiService.create(token);
 
 		const response = await customersApi.getWithFilters(token, { search: createdCustomer.email });
