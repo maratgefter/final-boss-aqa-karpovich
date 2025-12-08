@@ -5,4 +5,5 @@ export enum TAGS {
 	CUSTOMERS = "@customer",
 	UI = "@ui",
 	API = "@api",
+	NEGATIVE = "@negative",
 }
