@@ -55,3 +55,7 @@ export interface IGetProductsParams {
 }
 
 export type ProductsTableHeader = "Name" | "Price" | "Manufacturer" | "Created On";
+
+export interface IProductForOrder extends IProduct, ID {
+	received: boolean;
+}
