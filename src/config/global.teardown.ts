@@ -10,7 +10,5 @@ export default async function () {
     
 Link to deployed report:
 
-//TODO: change link to report
-
-https://anatoly-karpovich.github.io/aqa-4-playwright/allure-report/#`);
+https://maratgefter.github.io/final-boss-aqa-karpovich/allure-report/#`);
 }
