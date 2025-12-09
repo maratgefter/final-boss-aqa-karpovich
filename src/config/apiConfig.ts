@@ -11,5 +11,11 @@ export const apiConfig = {
 		customers: "/api/customers",
 		customerById: (id: string) => `/api/customers/${id}`,
 		customersAll: "/api/customers/all",
+		orders: "/api/orders",
+		orderById: (id: string) => `/api/orders/${id}`,
+		assignManagerToOrder: (orderId: string, managerId: string) =>
+			`/api/orders/${orderId}/assign-manager/${managerId}`,
+		unAssignManagerToOrder: (orderId: string) => `/api/orders/${orderId}/unassign-manager`,
+		addCommentToOrder: (orderId: string) => `/api/orders/${orderId}/comments`,
 	},
 };
