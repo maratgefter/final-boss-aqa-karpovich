@@ -93,59 +93,20 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		});
 	});
 
-	// test("Get customer by id", async ({ customersApi, customersApiService }) => {
-	// 	const customer = await customersApiService.create(token);
-	// 	id = customer._id;
-	// 	const response = await customersApi.getById(id, token);
-	// 	validateResponse(response, {
-	// 		status: STATUS_CODES.OK,
+	test("Delete Order", async ({ customersApiService, productsApiService, ordersApi }) => {
+		const customer = await customersApiService.create(token);
+		customersId.push(customer._id);
+		const product = await productsApiService.create(token);
+		productsId.push(product._id);
 
-	// 		IsSuccess: true,
-	// 		ErrorMessage: null,
-	// 	});
-
-	// 	console.log(response);
-	// 	expect(response.body.Customer._id).toEqual(customer._id);
-	// });
-
-	// test("Update", async ({ customersApi }) => {
-	// 	const customerData = generateCustomerData();
-	// 	const createdCustomer = await customersApi.create(customerData, token);
-	// 	id = createdCustomer.body.Customer._id;
-
-	// 	const newCustomerData = generateCustomerData();
-	// 	const response = await customersApi.update(id, newCustomerData, token);
-	// 	validateResponse(response, {
-	// 		status: STATUS_CODES.OK,
-
-	// 		IsSuccess: true,
-	// 		ErrorMessage: null,
-	// 	});
-
-	// 	const updatedCustomer = response.body.Customer;
-	// 	expect(_.omit(updatedCustomer, ["_id", "createdOn"])).toEqual(newCustomerData);
-	// 	expect(id).toBe(updatedCustomer._id);
-	// });
-
-	// test("Search by email", async ({ customersApi }) => {
-	// 	const customerData = generateCustomerData();
-	// 	const createdCustomer = await customersApi.create(customerData, token);
-
-	// 	const response = await customersApi.getWithFilters(token, { search: createdCustomer.body.Customer.email });
-
-	// 	validateResponse(response, {
-	// 		status: STATUS_CODES.OK,
-	// 		IsSuccess: true,
-	// 		ErrorMessage: null,
-	// 	});
-	// 	const { limit, search, country, total, page, sorting } = response.body;
-	// 	// const found = response.body.Customer.find((el) => el._id === createdCustomer.body.Customer._id);
-	// 	// expect.soft(found, `Created product should be in response`).toBeTruthy();
-	// 	expect.soft(limit, `Limit should be ${limit}`).toBe(10);
-	// 	expect.soft(search).toBe(createdCustomer.body.Customer.email);
-	// 	expect.soft(country).toEqual([]);
-	// 	expect.soft(page).toBe(1);
-	// 	expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "desc" });
-	// 	expect.soft(total).toBeGreaterThanOrEqual(1);
-	// });
+		const order: IOrder = {
+			customer: customer._id,
+			products: [product._id],
+		};
+		const createdOrder = await ordersApi.create(order, token);
+		const response = await ordersApi.delete(createdOrder.body.Order._id, token);
+		validateResponse(response, {
+			status: STATUS_CODES.DELETED,
+		});
+	});
 });

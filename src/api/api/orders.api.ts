@@ -48,4 +48,18 @@ export class OrdersApi {
 
 		return await this.apiClient.send<IOrderResponse>(options);
 	}
+
+	async delete(id: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.orderById(id),
+			method: "delete",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<null>(options);
+	}
 }
