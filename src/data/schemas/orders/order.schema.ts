@@ -29,10 +29,6 @@ export const orderSchema = {
 				{ type: "null" },
 			],
 		},
-
-		// delivery: {
-		// 	type: [deliverySchema],
-		// },
 		total_price: {
 			type: "number",
 		},
