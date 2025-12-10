@@ -13,4 +13,6 @@ export const ERROR_MESSAGES = {
 	PRODUCT_ALREADY_EXISTS: (name: string) => `Product with name '${name}' already exists`,
 	INVALID_TOKEN: "Invalid access token",
 	CONFLICT: (email: string) => `Customer with email '${email}' already exists`,
+	CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
+	ORDER_NOT_FOUND: (id: string) => `Not found customer with ID: ${id}`,
 };

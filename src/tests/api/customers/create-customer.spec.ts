@@ -1,6 +1,6 @@
+import { invalidDataTypeForApi } from "data/customers/createUpdateCustomer.data";
 import { generateCustomerData } from "data/customers/generateCustomerData";
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
-import { errorSchema } from "data/schemas/core.schema";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
@@ -143,5 +143,16 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 				});
 			},
 		);
+
+		for (const { title, testCustomerData, tags } of invalidDataTypeForApi) {
+			test(`Create ${title}`, { tag: tags }, async ({ customersApi }) => {
+				const createdCustomer = await customersApi.create(testCustomerData, token);
+				validateResponse(createdCustomer, {
+					status: STATUS_CODES.BAD_REQUEST,
+					IsSuccess: false,
+					ErrorMessage: NOTIFICATIONS.CREATED_FAIL_INCORRET_REQUEST_BODY,
+				});
+			});
+		}
 	});
 });

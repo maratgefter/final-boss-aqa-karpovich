@@ -1,4 +1,5 @@
 import { COUNTRIES } from "data/customers/countries";
+import { invalidDataTypeForApi } from "data/customers/createUpdateCustomer.data";
 import { generateCustomerData } from "data/customers/generateCustomerData";
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
@@ -175,5 +176,18 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 				});
 			},
 		);
+
+		for (const { title, testCustomerData, tags } of invalidDataTypeForApi) {
+			test(`Update ${title}`, { tag: tags }, async ({ customersApi, customersApiService }) => {
+				const { _id } = await customersApiService.create(token);
+				ids.push(_id);
+				const updatedCustomer = await customersApi.update(_id, testCustomerData, token);
+				validateResponse(updatedCustomer, {
+					status: STATUS_CODES.BAD_REQUEST,
+					IsSuccess: false,
+					ErrorMessage: NOTIFICATIONS.CREATED_FAIL_INCORRET_REQUEST_BODY,
+				});
+			});
+		}
 	});
 });
