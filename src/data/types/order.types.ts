@@ -57,6 +57,6 @@ export interface IOrderResponse extends IResponseFields {
 	Order: IOrderFromResponse;
 }
 
-export interface ICustomerOrderResponse extends IResponseFields {
+export interface ICustomerOrdersResponse extends IResponseFields {
 	Orders: IOrderFromResponse[];
 }

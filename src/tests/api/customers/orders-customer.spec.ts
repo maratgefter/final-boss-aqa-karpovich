@@ -26,19 +26,15 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 	});
 
 	test.describe("[Customer Orders]", () => {
-		test(
-			"Get orders for non-existent customer",
-			{ tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-			async ({ customersApi }) => {
-				const _id = "6894b2471c508c5d5e93e111";
-				const getCustomerOrders = await customersApi.getOrdersForCustomer(_id, token);
-				validateResponse(getCustomerOrders, {
-					status: STATUS_CODES.NOT_FOUND,
-					IsSuccess: false,
-					ErrorMessage: ERROR_MESSAGES.ORDER_NOT_FOUND(_id),
-				});
-			},
-		);
+		test("Get orders for non-existent customer", { tag: [TAGS.API, TAGS.REGRESSION] }, async ({ customersApi }) => {
+			const _id = "6894b2471c508c5d5e93e111";
+			const getCustomerOrders = await customersApi.getOrdersForCustomer(_id, token);
+			validateResponse(getCustomerOrders, {
+				status: STATUS_CODES.NOT_FOUND,
+				IsSuccess: false,
+				ErrorMessage: ERROR_MESSAGES.ORDER_NOT_FOUND(_id),
+			});
+		});
 
 		test(
 			"Get list of orders for customer without Orders",
