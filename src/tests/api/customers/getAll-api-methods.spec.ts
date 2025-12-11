@@ -32,32 +32,30 @@ test.describe("Get customers all", () => {
 			expect(exists).toBe(true);
 		});
 
-		test("get sorted list", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const fields: CustomersSortField[] = ["email", "name", "country", "createdOn"];
-			const orders: SortOrder[] = ["asc", "desc"];
+		const fields: CustomersSortField[] = ["email", "name", "country", "createdOn"];
+		const orders: SortOrder[] = ["asc", "desc"];
 
-			for (const field of fields) {
-				await test.step(`sort by ${field}`, async () => {
-					for (const order of orders) {
-						await test.step(`sort order ${order}`, async () => {
-							const response = await customersApiService.getAll(token, {
-								sortField: field,
-								sortOrder: order,
-							});
-
-							validateResponse(response, { status: STATUS_CODES.OK });
-
-							const sorted = [...response.body.Customers].sort((a, b) => {
-								const base = compareValues(a[field], b[field]);
-								return order === "asc" ? base : -base;
-							});
-							console.log(response.body.Customers);
-							expect(response.body.Customers).toEqual(sorted);
+		for (const field of fields) {
+			test(`sort by ${field}`, async ({ customersApiService }) => {
+				for (const order of orders) {
+					await test.step(`sort order ${order}`, async () => {
+						const response = await customersApiService.getAll(token, {
+							sortField: field,
+							sortOrder: order,
 						});
-					}
-				});
-			}
-		});
+
+						validateResponse(response, { status: STATUS_CODES.OK });
+
+						const sorted = [...response.body.Customers].sort((a, b) => {
+							const base = compareValues(a[field], b[field]);
+							return order === "asc" ? base : -base;
+						});
+						console.log(response.body.Customers);
+						expect(response.body.Customers).toEqual(sorted);
+					});
+				}
+			});
+		}
 	});
 
 	test.describe("negative", () => {
