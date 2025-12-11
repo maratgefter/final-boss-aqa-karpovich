@@ -1,7 +1,7 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
 import { ICustomer, ICustomerResponse, ICustomersSortedResponse, IGetCustomersParams } from "data/types/customer.types";
-import { IOrderResponse } from "data/types/order.types";
+import { ICustomerOrdersResponse } from "data/types/order.types";
 import { convertRequestParams } from "utils/queryParams.utils";
 
 export class CustomersApi {
@@ -75,7 +75,7 @@ export class CustomersApi {
 			},
 		};
 
-		return await this.apiClient.send<IOrderResponse>(options);
+		return await this.apiClient.send<ICustomerOrdersResponse>(options);
 	}
 
 	async update(_id: string, newCustomer: ICustomer, token: string) {
