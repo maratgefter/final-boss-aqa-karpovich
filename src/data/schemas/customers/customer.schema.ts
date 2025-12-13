@@ -22,7 +22,7 @@ export const customerSchema = {
 	},
 	required: ["_id", "email", "name", "country", "city", "street", "house", "flat", "phone", "createdOn"],
 	additionalProperties: false,
-}
+};
 
 export const customerAllSchema = {
 	$id: "customerAllSchema",

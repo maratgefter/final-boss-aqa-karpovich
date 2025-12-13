@@ -1,11 +1,11 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
 import {
-    ICustomer,
-    ICustomerResponse,
-    ICustomersResponse,
-    ICustomersSortedResponse,
-    IGetCustomersParams,
+	ICustomer,
+	ICustomerResponse,
+	ICustomersResponse,
+	ICustomersSortedResponse,
+	IGetCustomersParams,
 } from "data/types/customer.types";
 import { ICustomerOrdersResponse } from "data/types/order.types";
 import { convertRequestParams } from "utils/queryParams.utils";
