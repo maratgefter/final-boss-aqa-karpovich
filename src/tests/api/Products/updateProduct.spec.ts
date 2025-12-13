@@ -8,6 +8,7 @@ import { errorSchema } from "data/schemas/core.schema";
 import { IProduct } from "data/types/product.types";
 import { negativeCasesProductCreate } from "data/products/createProductNegative.data";
 import { positiveCasesProductCreate } from "data/products/createProductPositive.data";
+import { TAGS } from "data/tags";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
 	let id = "";
@@ -18,8 +19,9 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	});
 
 	test(
-		"Update product without token",
-		{ tag: [TAGS.API, TAGS.NEGATIVE] },
+		"Update product without token", {
+			tag: [TAGS.API, TAGS.NEGATIVE]
+		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
 			token = await loginApiService.loginAsAdmin();
 			const createdProduct = await productsApiService.create(token);
