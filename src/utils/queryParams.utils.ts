@@ -11,18 +11,20 @@
 type QueryPrimitive = string | number;
 type QueryValue = QueryPrimitive | QueryPrimitive[] | undefined | null;
 
-export function convertRequestParams(params: Record<string, QueryValue>): string {
+export function convertRequestParams<T extends object>(params: T): string {
 	const searchParams = new URLSearchParams();
 
 	for (const [key, value] of Object.entries(params)) {
-		if (value === null || value === undefined) continue;
+		const v = value as QueryValue;
 
-		if (Array.isArray(value)) {
-			for (const v of value) {
-				searchParams.append(key, String(v));
+		if (v === null || v === undefined) continue;
+
+		if (Array.isArray(v)) {
+			for (const item of v) {
+				searchParams.append(key, String(item));
 			}
 		} else {
-			searchParams.append(key, String(value));
+			searchParams.append(key, String(v));
 		}
 	}
 
