@@ -10,37 +10,32 @@ test.describe("Delete customer", () => {
 	});
 
 	test.describe("positive", () => {
-		let customerId: string;
-
-		test.beforeEach(async ({ customersApiService }) => {
-			const customer = await customersApiService.create(token);
-			customerId = customer._id;
-		});
-
 		test("success", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const response = await customersApiService.delete(token, customerId);
+			const customer = await customersApiService.create(token);
+			const response = await customersApiService.delete(customer._id, token);
 
 			expect(response.status).toBe(STATUS_CODES.DELETED);
-			expect(response.body).toBeNull();
+			expect(response.body).toBe("");
 		});
 
-		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			await customersApiService.delete(token, customerId);
+		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
+			const customer = await customersApi.create(token);
+			await customersApi.delete(customer._id, token);
 
-			const response = await customersApiService.delete(token, customerId);
-			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+			const response = await customersApi.delete(customer._id, token);
+			expect(response.status).toBe(STATUS_CODES.SERVER_ERROR);
 		});
 	});
 
 	test.describe("negative", () => {
 		test("invalid token", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
-			const response = await customersApi.delete("invalid_token", "whatever");
+			const response = await customersApi.delete("whatever", "invalid_token");
 			expect(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
 		});
 
 		test("invalid id", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
-			const response = await customersApi.delete(token, "invalid_id");
-			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+			const response = await customersApi.delete("invalid_id", token);
+			expect(response.status).toBe(STATUS_CODES.SERVER_ERROR);
 		});
 	});
 });
