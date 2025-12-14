@@ -6,14 +6,17 @@ import { errorSchema } from "data/schemas/core.schema";
 import { ERROR_MESSAGES } from "data/notifications";
 
 test.describe("[API] [Sales Portal] [Orders]", () => {
+	let token = "";
+	test.beforeAll(async ({ loginApiService }) => {
+		token = await loginApiService.loginAsAdmin();
+	});
+
 	test(
 		"Delete Order",
 		{
 			tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE],
 		},
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			const token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const createdOrder = await ordersApiService.createDraft(token, 1);
 			const id = createdOrder._id;
 
@@ -27,9 +30,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		{
 			tag: [TAGS.ORDERS, TAGS.REGRESSION],
 		},
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			const token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const createdOrder = await ordersApiService.createDraft(token, 1);
 			const id = createdOrder._id;
 
