@@ -11,6 +11,7 @@ import { getRandomItemsFromArray } from "utils/getRandom.utils";
 import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { IProductFromResponse } from "data/types/product.types";
 import { ORDER_STATUS } from "data/orders/orderStatus";
+import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 
 export class OrdersApiService {
 	ordersIds: string[] = [];
@@ -50,7 +51,7 @@ export class OrdersApiService {
 
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
-			schema: orderResponseSchema,
+			schema: getOrdersSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});

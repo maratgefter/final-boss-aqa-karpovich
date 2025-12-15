@@ -142,7 +142,7 @@ export class OrdersApi {
 		return await this.apiClient.send<null>(options);
 	}
 
-	async updateDeliveryDetails(orderId: string, deliveryDetails: IOrderDelivery, token: string) {
+	async updateDeliveryDetails(orderId: string, deliveryDetails: IDelivery, token: string) {
 		const options: IRequestOptions = {
 			baseURL: apiConfig.baseUrl!,
 			url: apiConfig.endpoints.updateDelivery(orderId),
