@@ -22,7 +22,6 @@ export const historySchema = {
 		},
 		delivery: {
 			oneOf: [
-				deliverySchema,
 				{
 					type: "object",
 					items: deliverySchema,

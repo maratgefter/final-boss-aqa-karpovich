@@ -19,4 +19,5 @@ export const ERROR_MESSAGES = {
 	MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
 	INVALID_DELIVERY_DATE: "Invalid final date",
 	INVALID_ORDER_STATUS: "Invalid order status",
+	NOT_AUTHORIZED: "Not authorized",
 };

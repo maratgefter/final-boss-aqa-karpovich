@@ -61,12 +61,12 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 		});
 	});
 
-	test("Update delivery details without valid Request body", async ({ ordersApi, ordersApiService }) => {
+	test("Update delivery details without invalid delivery date", async ({ ordersApi, ordersApiService }) => {
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
 		const id_order = createOrderForCustomer._id;
 		idOrders.push(id_order);
 
-		const delivaryData = {
+		const deliveryData = {
 			finalDate: "",
 			address: {
 				country: "Belarus",
@@ -78,7 +78,7 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 			condition: "Pickup",
 		};
 
-		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, delivaryData, token);
+		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, deliveryData, token);
 		validateResponse(deliveryDetails, {
 			status: STATUS_CODES.BAD_REQUEST,
 			IsSuccess: false,
@@ -94,6 +94,10 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 		const delivaryData = generateDeliveryData();
 
 		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, delivaryData, "");
-		expect(deliveryDetails.status).toBe(STATUS_CODES.UNAUTHORIZED);
+		validateResponse(deliveryDetails, {
+			status: STATUS_CODES.UNAUTHORIZED,
+			IsSuccess: false,
+			ErrorMessage: ERROR_MESSAGES.NOT_AUTHORIZED,
+		});
 	});
 });
