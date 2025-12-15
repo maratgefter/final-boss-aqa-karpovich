@@ -15,16 +15,17 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
+	test.afterEach(async ({ ordersApiService }) => {
+		await ordersApiService.fullDelete(token);
+	});
 	test(
 		"Receive Product from order",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
-
 			const productIDs = [...orderInProcess.products];
 			const ids = productIDs.map((p) => p._id);
-
 			const receivedOrder = await ordersApi.markOrdersAsReceived(id, ids, token);
 
 			validateResponse(receivedOrder, {
@@ -116,7 +117,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				status: STATUS_CODES.NOT_FOUND,
 				schema: errorSchema,
 				IsSuccess: false,
-				ErrorMessage: ERROR_MESSAGES.ORDERID_NOT_FOUND(invalid_id), // undefined
+				ErrorMessage: ERROR_MESSAGES.ORDERID_NOT_FOUND, // undefined. Kostyl from backend
 			});
 		},
 	);

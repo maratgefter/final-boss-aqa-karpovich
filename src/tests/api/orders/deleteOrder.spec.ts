@@ -10,7 +10,9 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
-
+	test.afterEach(async ({ ordersApiService }) => {
+		await ordersApiService.fullDelete(token);
+	});
 	test(
 		"Delete Order",
 		{
@@ -19,9 +21,9 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		async ({ ordersApiService, ordersApi }) => {
 			const createdOrder = await ordersApiService.createDraft(token, 1);
 			const id = createdOrder._id;
-
 			const responsefirst = await ordersApi.delete(id, token);
 			expect(responsefirst.status).toBe(STATUS_CODES.DELETED);
+			ordersApiService.ordersIds.length = 0;
 		},
 	);
 
