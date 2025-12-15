@@ -5,6 +5,7 @@ export enum NOTIFICATIONS {
 	CREATED_FAIL_BAD_REQUEST = "CREATED_FAIL_BAD_REQUEST",
 	CREATED_FAIL_INCORRET_REQUEST_BODY = "Incorrect request body",
 	CUSTOMER_CREATED = "Customer was successfully created",
+	COMMENT_WAS_NOT_FOUND = "Comment was not found",
 }
 
 export const ERROR_MESSAGES = {
@@ -14,9 +15,13 @@ export const ERROR_MESSAGES = {
 	INVALID_TOKEN: "Invalid access token",
 	CONFLICT: (email: string) => `Customer with email '${email}' already exists`,
 	CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
-	ORDER_NOT_FOUND: (id: string) => `Not found customer with ID: ${id}`,
+	CUSTOMER_NOT_FOUND_WITH_ID: (id: string) => `Not found customer with ID: ${id}`,
+	ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
+	MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
 	INVALID_ORDER_STATUS: "Invalid order status",
 	INVALID_ARGUMENT: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
 	ORDERID_NOT_FOUND: `Order with id 'undefined' wasn't found`,
 	INCORRECT_REQUEST_BODY: "Incorrect request body",
+	CANT_PROCESS_ORDER_WITHOUT_DELIVERY: "Can't process order. Please, schedule delivery",
+	CANT_REOPEN_NOT_CANCELLED: "Can't reopen not canceled order",
 };
