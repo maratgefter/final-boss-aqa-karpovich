@@ -29,10 +29,7 @@ export const historySchema = {
 		action: {
 			type: "string",
 		},
-		performer: {
-			type: "object",
-			items: assignedManagerSchema,
-		},
+		performer: assignedManagerSchema,
 		assignedManager: {
 			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
