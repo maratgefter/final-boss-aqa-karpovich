@@ -31,7 +31,7 @@ export const orderSchema = {
 			oneOf: [
 				deliverySchema,
 				{
-					type: "array",
+					type: "object",
 					items: deliverySchema,
 				},
 				{ type: "null" },
@@ -96,7 +96,7 @@ export const orderSchemaWithCustomerData = {
 		delivery: {
 			oneOf: [
 				{
-					type: "array",
+					type: "object",
 					items: deliverySchema,
 				},
 				{ type: "null" },
