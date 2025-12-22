@@ -72,7 +72,7 @@ export class CreateOrderModal extends BaseModal {
 		}
 	}
 
-	@logStep("get Product Index By Name")
+	@logStep("Get Product Index By Name")
 	async getProductIndexByName(productName: string): Promise<number> {
 		const productFields = this.productField;
 		const count = await productFields.count();
@@ -87,7 +87,7 @@ export class CreateOrderModal extends BaseModal {
 		return -1;
 	}
 
-	@logStep("delete Product Index By Name")
+	@logStep("Delete Product Index By Name")
 	async deleteProductByIndex(index: number): Promise<boolean> {
 		const deleteButton = this.deleteProductButton.nth(index);
 		await deleteButton.click();
@@ -95,7 +95,7 @@ export class CreateOrderModal extends BaseModal {
 		return true;
 	}
 
-	@logStep("delete Product By Name")
+	@logStep("Delete Product By Name")
 	async deleteProductByName(productName: string): Promise<boolean> {
 		const productIndex = await this.getProductIndexByName(productName);
 
