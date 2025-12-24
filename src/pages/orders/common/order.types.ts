@@ -19,3 +19,8 @@ export type CustomerDetailsTitle =
 export type ProductDetailsTitle = "Name" | "Price" | "Manufacturer" | "Notes";
 
 export type DeliveryDetailsTitle = "Delivery Type" | "Delivery Date" | "Country" | "City" | "Street" | "House" | "Flat";
+
+export type HistoryChange = {
+	previous: string;
+	current: string;
+};
