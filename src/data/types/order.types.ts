@@ -118,6 +118,8 @@ export interface ICreatedCustomerForOrder {
 	customerId: string;
 	customerName: string;
 	customerEmail: string;
+}
+
 export interface IOrderMock {
 	_id: string;
 	status: ORDER_STATUS;
