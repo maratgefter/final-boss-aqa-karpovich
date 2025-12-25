@@ -1,16 +1,30 @@
-import { Page } from "@playwright/test";
+import { IAddressDelivery } from "data/types/order.types";
 import { BaseModal } from "./base/base.modal";
 
 export class EditCustomerModal extends BaseModal {
 	readonly container = this.page.locator("#delivery-container");
 	readonly uniqueElement = this.container;
 
-	constructor(page: Page) {
-		super(page);
+	readonly typeSelect = this.page.locator("#inputType");
+	readonly locationSelect = this.page.locator("#inputLocation");
+	readonly countryInput = this.page.locator("#inputCountry");
+	readonly cityInput = this.page.locator("#inputCity");
+	readonly streetInput = this.page.locator("#inputStreet");
+	readonly houseInput = this.page.locator("#inputHouse");
+	readonly flatInput = this.page.locator("#inputFlat");
+	readonly saveDeliveryButton = this.page.locator("#save-delivery");
+	readonly backToOrderDetailsButton = this.page.locator("#back-to-order-details-page");
+
+	async fillAddress(address: IAddressDelivery) {
+		await this.fillCoutry(address.country);
+		await this.fillCity(address.city);
+		await this.fillStreet(address.street);
+		await this.fillHouse(address.house);
+		await this.fillFlat(address.flat);
 	}
 
 	async selectType(type: "Delivery" | "Pickup") {
-		await this.page.selectOption("#inputType", type);
+		await this.typeSelect.selectOption(type);
 	}
 
 	async pickDate(date: Date) {
@@ -33,34 +47,34 @@ export class EditCustomerModal extends BaseModal {
 	}
 
 	async selectLocation(location: "Home" | "Other") {
-		await this.page.selectOption("#inputLocation", location);
+		await this.locationSelect.selectOption(location);
 	}
 
 	async fillCoutry(country: string) {
-		await this.page.locator("#inputCountry").fill(country);
+		await this.countryInput.fill(country);
 	}
 
 	async fillCity(city: string) {
-		await this.page.locator("#inputCity").fill(city);
+		await this.cityInput.fill(city);
 	}
 
 	async fillStreet(address: string) {
-		await this.page.locator("#inputStreet").fill(address);
+		await this.streetInput.fill(address);
 	}
 
-	async fillHouse(address: string) {
-		await this.page.locator("#inputHouse").fill(address);
+	async fillHouse(house: number) {
+		await this.houseInput.fill(String(house));
 	}
 
-	async fillFlat(address: string) {
-		await this.page.locator("#inputFlat").fill(address);
+	async fillFlat(flat: number) {
+		await this.flatInput.fill(String(flat));
 	}
 
 	async saveChanges() {
-		await this.page.locator("#save-delivery").click();
+		await this.saveDeliveryButton.click();
 	}
 
 	async backToOrderDetails() {
-		await this.page.locator("#back-to-order-details-page").click();
+		await this.backToOrderDetailsButton.click();
 	}
 }

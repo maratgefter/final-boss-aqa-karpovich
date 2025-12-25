@@ -1,25 +1,18 @@
-import { Locator, Page } from "@playwright/test";
 import { SalesPortalPage } from "pages/salesPortal.page";
 import { parseSummaryCell } from "utils/parseCells";
 import { CustomerDetailsTitle } from "../common/order.types";
 import { logStep } from "utils/report/logStep.utils";
 
-export class OrderDetailsPage extends SalesPortalPage {
-	readonly uniqueElement: Locator;
+export class OrderDetailsCustomerPage extends SalesPortalPage {
+	readonly customerSection = this.page.locator("#customer-section");
+	readonly uniqueElement = this.customerSection;
 
-	readonly customerSection: Locator;
-
-	constructor(page: Page) {
-		super(page);
-
-		this.customerSection = this.page.locator("#customer-section");
-		this.uniqueElement = this.customerSection;
-	}
+	readonly customerDetailsBlocks = this.page.locator("#customer-details .c-details");
+	readonly editCustomerButton = this.page.locator("#edit-customer-pencil");
 
 	@logStep("Get customer details")
 	async getCustomerDetails() {
-		const blocks = this.page.locator("#customer-details .c-details");
-		const texts = await blocks.allTextContents();
+		const texts = await this.customerDetailsBlocks.allTextContents();
 
 		return texts.map((text) =>
 			parseSummaryCell(
@@ -32,6 +25,6 @@ export class OrderDetailsPage extends SalesPortalPage {
 
 	@logStep("Open change customer modal")
 	async openChangeCustomerModal() {
-		await this.page.locator("#edit-customer-pencil").click();
+		await this.editCustomerButton.click();
 	}
 }
