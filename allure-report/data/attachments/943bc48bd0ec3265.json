@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:48:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-zvbVrSehjOQcGUHHFMcc/J1BG9s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e4be51c508c5d5e13ed1b",
+        "email": "Tessie_Barton89@gmail.com",
+        "name": "Kailey Price",
+        "country": "Germany",
+        "city": "Port Chadrickbury",
+        "street": "S High Street",
+        "house": 18,
+        "flat": 845,
+        "phone": "+18917967448",
+        "createdOn": "2025-12-26T08:48:37.000Z",
+        "notes": "902gJ3odEcMgrWF0cSpIJS4W2QNVURsj2M0Yi9Q5Mbofa5PUHMxeSZqTOGl2VPPb39TrdGevSFU9Ml1bUetXpm1j4L5oOg8FTwClPsE612QhuHBvEwYDprfoeEX1Iuaq6c7kiUoGnuBRxDm7XpbDgL5a8olESsOLUKHrBep0FLruWt11nwFysRN2ARAn8DZjOUKGv5ROvqgAzOQHJlSnWMbG40Lcy0Isk8W8HllbHQe99D80Es5DAGmaNs"
+      },
+      "products": [
+        {
+          "_id": "694e4be61c508c5d5e13ed97",
+          "name": "Mouse27843",
+          "amount": 665,
+          "price": 12729,
+          "manufacturer": "Amazon",
+          "notes": "WzkPU5570OZUT03HP810ROIw6NGtljUIUaoivSxSa488wSvP6GzfZwGvgvuka3eeXMCVGPHhP1oTI5cBkGP9nAhTdynXNzP8mqtQ9k902UlR5OiIbiz6p0QhPeStAW1GRTAMG398JfRUAfTSzwTL1xyEWE88TWKTC87BJ9HwDQBQHu2lR7qIvn3kDsr2H0mxi0eSLpq8ue8RLItvRSSZZxA8aiKSCywTgHC2KvqXNAC20YI3hdobTIXdRP",
+          "received": false
+        },
+        {
+          "_id": "694e4be71c508c5d5e13edfb",
+          "name": "Shoes80586",
+          "amount": 713,
+          "price": 58463,
+          "manufacturer": "Amazon",
+          "notes": "NztNuBWH3MadUCfniTbCOlrlY43bunzEi1hOI1EfIyLcLBaUuxNh0f23cPk6q0L0Mlz546G268tWae0gGUklcuPx3xtzftKt4pZUXPFZpUhwjc3cCKtveCLettfbVIZtcAOLlLzJWrQmyi66D7sRS1mi2m9csRpVWVFyqpMS9hxhAjIhUJY5D4x7fXbOV2no7e7XJCLDiiVftxBM9UPWKIRtzknZwSQtnC87LP8aQsnC3ZfISEePSp5mHp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71192,
+      "createdOn": "2025-12-26T08:48:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e4be51c508c5d5e13ed1b",
+          "products": [
+            {
+              "_id": "694e4be61c508c5d5e13ed97",
+              "name": "Mouse27843",
+              "amount": 665,
+              "price": 12729,
+              "manufacturer": "Amazon",
+              "notes": "WzkPU5570OZUT03HP810ROIw6NGtljUIUaoivSxSa488wSvP6GzfZwGvgvuka3eeXMCVGPHhP1oTI5cBkGP9nAhTdynXNzP8mqtQ9k902UlR5OiIbiz6p0QhPeStAW1GRTAMG398JfRUAfTSzwTL1xyEWE88TWKTC87BJ9HwDQBQHu2lR7qIvn3kDsr2H0mxi0eSLpq8ue8RLItvRSSZZxA8aiKSCywTgHC2KvqXNAC20YI3hdobTIXdRP",
+              "received": false
+            },
+            {
+              "_id": "694e4be71c508c5d5e13edfb",
+              "name": "Shoes80586",
+              "amount": 713,
+              "price": 58463,
+              "manufacturer": "Amazon",
+              "notes": "NztNuBWH3MadUCfniTbCOlrlY43bunzEi1hOI1EfIyLcLBaUuxNh0f23cPk6q0L0Mlz546G268tWae0gGUklcuPx3xtzftKt4pZUXPFZpUhwjc3cCKtveCLettfbVIZtcAOLlLzJWrQmyi66D7sRS1mi2m9csRpVWVFyqpMS9hxhAjIhUJY5D4x7fXbOV2no7e7XJCLDiiVftxBM9UPWKIRtzknZwSQtnC87LP8aQsnC3ZfISEePSp5mHp",
+              "received": false
+            }
+          ],
+          "total_price": 71192,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:48:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e4be81c508c5d5e13eeb4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

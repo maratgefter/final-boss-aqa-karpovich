@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:48:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2639",
+    "etag": "W/\"a4f-W8l6cID6ZjjtSrEkC8xl0BfismE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e4be01c508c5d5e13eaa4",
+        "email": "Fidel58@gmail.com",
+        "name": "Eve Anderson",
+        "country": "Canada",
+        "city": "East Jakobport",
+        "street": "Jubilee Close",
+        "house": 28,
+        "flat": 581,
+        "phone": "+19846827524",
+        "createdOn": "2025-12-26T08:48:32.000Z",
+        "notes": "r1G1qOQhoM09jVH4TV0DMiHiWOJUFdgHjpcu9QCOKtmOWVCU7M1V36fTVSmwd424eD3kGrEiwoW5o6bgmtli68LWRdHflG2r9SblGzIlecVgPSOOOAM0JNhcfdn1tUhopC7PnUlP5AVv1CVKvrdemRuruSlIlyNw8dqNyaFlVrcfCyxPo258w5KNDwOVYoqfyFwpix9ocJiWv9XnBUm0QIf3sZpMIJCb0gZPAnHEytrUv4M28M7VJaDFLD"
+      },
+      "products": [
+        {
+          "_id": "694e4be01c508c5d5e13eace",
+          "name": "Ball19257",
+          "amount": 758,
+          "price": 90780,
+          "manufacturer": "Tesla",
+          "notes": "CW40Oha9sT4xGY7fWlitP3opmmPWQN0LCbkkQbCxWfniDaPBrAfh4kzH1QlZbYi1V62ZoAlB4OUJ31Ahy3WnKwtW1hLgwklep43Nyt0ITOHyuLtPjbZ5foVRXKro2ZeKdmFkbrEfrkf8zlM9Zv0StxlmH8GvKtxns3LwGz8BrpuZa1IdsnfW1mwNlpTnQqCnP9a9gGGTVidIm2cH9cleJXfNhxkIpRSOPUhG2qKNVtXgceL6914LpkvCgI",
+          "received": false
+        },
+        {
+          "_id": "694e4be11c508c5d5e13eb13",
+          "name": "Bike96031",
+          "amount": 544,
+          "price": 22019,
+          "manufacturer": "Sony",
+          "notes": "2nZl6xBS3WM9r5a2PpgxUzmAZr0qZ8VMeoqAZoIWdsvxabs7EleYiVDRv7c6e25GLLy9p5InLRyFOM9aMfwYi8jZvT5GpOGMUZqobRLOVuZzOAlcWhqHCUxOvar25MIpxUQLRtrUqwBmrbIlyYnwBnuLijPRNf7L4pXtiCcEXpRQYAoYtak6la8UyKMA1WD9SIHSIxtDpHCMpiS50ZBAXPo6mv5ohE73gElNhog4K6fkJ5kof21tW0xHFc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112799,
+      "createdOn": "2025-12-26T08:48:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e4be01c508c5d5e13eaa4",
+          "products": [
+            {
+              "_id": "694e4be01c508c5d5e13eace",
+              "name": "Ball19257",
+              "amount": 758,
+              "price": 90780,
+              "manufacturer": "Tesla",
+              "notes": "CW40Oha9sT4xGY7fWlitP3opmmPWQN0LCbkkQbCxWfniDaPBrAfh4kzH1QlZbYi1V62ZoAlB4OUJ31Ahy3WnKwtW1hLgwklep43Nyt0ITOHyuLtPjbZ5foVRXKro2ZeKdmFkbrEfrkf8zlM9Zv0StxlmH8GvKtxns3LwGz8BrpuZa1IdsnfW1mwNlpTnQqCnP9a9gGGTVidIm2cH9cleJXfNhxkIpRSOPUhG2qKNVtXgceL6914LpkvCgI",
+              "received": false
+            },
+            {
+              "_id": "694e4be11c508c5d5e13eb13",
+              "name": "Bike96031",
+              "amount": 544,
+              "price": 22019,
+              "manufacturer": "Sony",
+              "notes": "2nZl6xBS3WM9r5a2PpgxUzmAZr0qZ8VMeoqAZoIWdsvxabs7EleYiVDRv7c6e25GLLy9p5InLRyFOM9aMfwYi8jZvT5GpOGMUZqobRLOVuZzOAlcWhqHCUxOvar25MIpxUQLRtrUqwBmrbIlyYnwBnuLijPRNf7L4pXtiCcEXpRQYAoYtak6la8UyKMA1WD9SIHSIxtDpHCMpiS50ZBAXPo6mv5ohE73gElNhog4K6fkJ5kof21tW0xHFc",
+              "received": false
+            }
+          ],
+          "total_price": 112799,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:48:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e4be11c508c5d5e13eb4f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

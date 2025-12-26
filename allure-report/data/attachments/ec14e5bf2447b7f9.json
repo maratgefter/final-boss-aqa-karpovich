@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:48:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3871",
+    "etag": "W/\"f1f-3cn5uPLo17TDuKM8nD1kCw28INw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e4bef1c508c5d5e13f1ec",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e4bee1c508c5d5e13f13b",
+        "email": "Godfrey_Paucek@gmail.com",
+        "name": "Nat Emmerich",
+        "country": "Germany",
+        "city": "Kirlintown",
+        "street": "Jacey Ville",
+        "house": 46,
+        "flat": 603,
+        "phone": "+14668117622",
+        "createdOn": "2025-12-26T08:48:46.000Z",
+        "notes": "HmG5kN48x0bYBq0aT1lIdIMzbrYqimWKEgFlVvbSewmf7SUz1NyTOwPyaT2QRDNbknl3epxa5WOj1OmZX11MOd7zToHzbmxrxcfgB1nifClSzMCf1Niirs2BY82Tgt72MSqLrCA1iEkLjQIsB8vGWQn9JZ2LJLrXKTAICt3LwzqmcnTzuEKtmj53bQocELWp7plOh5YPyneHhOWAdII1bXdR4SeKtDwKNGTBweoKVgdcFZaDFdNdu37eUH"
+      },
+      "products": [
+        {
+          "_id": "694e4bee1c508c5d5e13f172",
+          "name": "Chair51051",
+          "amount": 684,
+          "price": 50302,
+          "manufacturer": "Xiaomi",
+          "notes": "AydgcHpSM50Zn2wzMCN0eWdPHGZ1eAyzBOOYSZ0R7rXsrKNwF265rXBena5uBcRaayroqaeC9uauhI4FzWQ8IQc1KpzhCT8Hm4aJzqdk9NpmVfdPeQl7Zj1RSHgNWBK2l6uePX3PnFoEGQZvNub01PgF2bdiBzfDHSsriteOg9bMqS7pZHJ7in4MqHZoXMzRWaAdNWeovZUWUHmIluGZ26pX2ziKqGBSIdSVhDz0LpCz20CqTCn5GniZeD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Kirlintown",
+          "street": "Jacey Ville",
+          "house": 46,
+          "flat": 603
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 50302,
+      "createdOn": "2025-12-26T08:48:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e4bee1c508c5d5e13f13b",
+          "products": [
+            {
+              "_id": "694e4bee1c508c5d5e13f172",
+              "name": "Chair51051",
+              "amount": 684,
+              "price": 50302,
+              "manufacturer": "Xiaomi",
+              "notes": "AydgcHpSM50Zn2wzMCN0eWdPHGZ1eAyzBOOYSZ0R7rXsrKNwF265rXBena5uBcRaayroqaeC9uauhI4FzWQ8IQc1KpzhCT8Hm4aJzqdk9NpmVfdPeQl7Zj1RSHgNWBK2l6uePX3PnFoEGQZvNub01PgF2bdiBzfDHSsriteOg9bMqS7pZHJ7in4MqHZoXMzRWaAdNWeovZUWUHmIluGZ26pX2ziKqGBSIdSVhDz0LpCz20CqTCn5GniZeD",
+              "received": false
+            }
+          ],
+          "total_price": 50302,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kirlintown",
+              "street": "Jacey Ville",
+              "house": 46,
+              "flat": 603
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T08:48:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e4bee1c508c5d5e13f13b",
+          "products": [
+            {
+              "_id": "694e4bee1c508c5d5e13f172",
+              "name": "Chair51051",
+              "amount": 684,
+              "price": 50302,
+              "manufacturer": "Xiaomi",
+              "notes": "AydgcHpSM50Zn2wzMCN0eWdPHGZ1eAyzBOOYSZ0R7rXsrKNwF265rXBena5uBcRaayroqaeC9uauhI4FzWQ8IQc1KpzhCT8Hm4aJzqdk9NpmVfdPeQl7Zj1RSHgNWBK2l6uePX3PnFoEGQZvNub01PgF2bdiBzfDHSsriteOg9bMqS7pZHJ7in4MqHZoXMzRWaAdNWeovZUWUHmIluGZ26pX2ziKqGBSIdSVhDz0LpCz20CqTCn5GniZeD",
+              "received": false
+            }
+          ],
+          "total_price": 50302,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kirlintown",
+              "street": "Jacey Ville",
+              "house": 46,
+              "flat": 603
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T08:48:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e4bee1c508c5d5e13f13b",
+          "products": [
+            {
+              "_id": "694e4bee1c508c5d5e13f172",
+              "name": "Chair51051",
+              "amount": 684,
+              "price": 50302,
+              "manufacturer": "Xiaomi",
+              "notes": "AydgcHpSM50Zn2wzMCN0eWdPHGZ1eAyzBOOYSZ0R7rXsrKNwF265rXBena5uBcRaayroqaeC9uauhI4FzWQ8IQc1KpzhCT8Hm4aJzqdk9NpmVfdPeQl7Zj1RSHgNWBK2l6uePX3PnFoEGQZvNub01PgF2bdiBzfDHSsriteOg9bMqS7pZHJ7in4MqHZoXMzRWaAdNWeovZUWUHmIluGZ26pX2ziKqGBSIdSVhDz0LpCz20CqTCn5GniZeD",
+              "received": false
+            }
+          ],
+          "total_price": 50302,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:48:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:49:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5422",
+    "etag": "W/\"152e-iOh+i7ytp8m0tGznyglnSUZdvzE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e4c0d1c508c5d5e14028b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e4c081c508c5d5e13ff5e",
+        "email": "Olga_Collins79@hotmail.com",
+        "name": "Nona Shanahan",
+        "country": "Germany",
+        "city": "Port Mabelle",
+        "street": "Ferry Fords",
+        "house": 44,
+        "flat": 367,
+        "phone": "+18096080198",
+        "createdOn": "2025-12-26T08:49:12.000Z",
+        "notes": "y2N3TJxJzWmaYUS1R0D7nqJs0X4UlVmg7vEo6WYyDR7vgnP5ukEvJtsT2GO2V9603BFH1iOXAy1KiglmKxkz6BeImoSmilZfSvcS8VWo4WuzfAJ3M4ivtxc5HtOxsu2fzzd05JyJE5qnOUFbpagaMP4PzMvSZwaRzFMTF1cWA8OyDSzzC6sbv93HjxGvQLtiny8032hvpoWN438vz7tUrZTa0cXUfjLg9Jx4CstVW3s7BPtSTSoCeYFjrs"
+      },
+      "products": [
+        {
+          "_id": "694e4c091c508c5d5e140075",
+          "name": "Cheese64618",
+          "amount": 172,
+          "price": 17747,
+          "manufacturer": "Xiaomi",
+          "notes": "CnvOVl5kJ7L8yyppwZpoSlSps96ROIw0ydOdsf4Ro6n21laghSvJvWMxWTfcvLj50EHCpojdaLPlTvCJIgz75UNHLHMJ6dPt0nlmUddW2cg8eVp0G1iCuxitnT21K93lRkFZZIPdoYEG7KucDa1HdN1bwIDkQMxW1WtgyLC2hVNaoVqqJcrx2RMQ1t3peEKicyCQmaKkvbWEvgeseXW3v5r3ukXss8L5fFyztaFA0tJ0Ip3YGkiSLOiX15",
+          "received": false
+        },
+        {
+          "_id": "694e4c0b1c508c5d5e14015e",
+          "name": "Shirt39850",
+          "amount": 575,
+          "price": 72862,
+          "manufacturer": "Xiaomi",
+          "notes": "ER8GcnPa05RpPEn2nHzMa5MGAijqEcqDDPRLwCWkJtzTZrqP3GU57nWThufHalx0Gv63qdQsJd3UlJ6YyniNvyWNyrvkUoBCkLY0aA2Q6HEzV0O1CGZEoZZTP6hwu89MJfULbVdtc430qaTQd1xbrqqh2JU7RjvrQ6OfLMLq8LuGhBq8TE8EbCb4q6hLpEZ7Rbqpx15NcSoTwPSVXQzb2PtAIPh0z5T0oXro2C7Q8x1PWI5fZAFzFvU0Fk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Mabelle",
+          "street": "Ferry Fords",
+          "house": 44,
+          "flat": 367
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 90609,
+      "createdOn": "2025-12-26T08:49:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e4c081c508c5d5e13ff5e",
+          "products": [
+            {
+              "_id": "694e4c091c508c5d5e140075",
+              "name": "Cheese64618",
+              "amount": 172,
+              "price": 17747,
+              "manufacturer": "Xiaomi",
+              "notes": "CnvOVl5kJ7L8yyppwZpoSlSps96ROIw0ydOdsf4Ro6n21laghSvJvWMxWTfcvLj50EHCpojdaLPlTvCJIgz75UNHLHMJ6dPt0nlmUddW2cg8eVp0G1iCuxitnT21K93lRkFZZIPdoYEG7KucDa1HdN1bwIDkQMxW1WtgyLC2hVNaoVqqJcrx2RMQ1t3peEKicyCQmaKkvbWEvgeseXW3v5r3ukXss8L5fFyztaFA0tJ0Ip3YGkiSLOiX15",
+              "received": false
+            },
+            {
+              "_id": "694e4c0b1c508c5d5e14015e",
+              "name": "Shirt39850",
+              "amount": 575,
+              "price": 72862,
+              "manufacturer": "Xiaomi",
+              "notes": "ER8GcnPa05RpPEn2nHzMa5MGAijqEcqDDPRLwCWkJtzTZrqP3GU57nWThufHalx0Gv63qdQsJd3UlJ6YyniNvyWNyrvkUoBCkLY0aA2Q6HEzV0O1CGZEoZZTP6hwu89MJfULbVdtc430qaTQd1xbrqqh2JU7RjvrQ6OfLMLq8LuGhBq8TE8EbCb4q6hLpEZ7Rbqpx15NcSoTwPSVXQzb2PtAIPh0z5T0oXro2C7Q8x1PWI5fZAFzFvU0Fk",
+              "received": false
+            }
+          ],
+          "total_price": 90609,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Mabelle",
+              "street": "Ferry Fords",
+              "house": 44,
+              "flat": 367
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T08:49:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e4c081c508c5d5e13ff5e",
+          "products": [
+            {
+              "_id": "694e4c091c508c5d5e140075",
+              "name": "Cheese64618",
+              "amount": 172,
+              "price": 17747,
+              "manufacturer": "Xiaomi",
+              "notes": "CnvOVl5kJ7L8yyppwZpoSlSps96ROIw0ydOdsf4Ro6n21laghSvJvWMxWTfcvLj50EHCpojdaLPlTvCJIgz75UNHLHMJ6dPt0nlmUddW2cg8eVp0G1iCuxitnT21K93lRkFZZIPdoYEG7KucDa1HdN1bwIDkQMxW1WtgyLC2hVNaoVqqJcrx2RMQ1t3peEKicyCQmaKkvbWEvgeseXW3v5r3ukXss8L5fFyztaFA0tJ0Ip3YGkiSLOiX15",
+              "received": false
+            },
+            {
+              "_id": "694e4c0b1c508c5d5e14015e",
+              "name": "Shirt39850",
+              "amount": 575,
+              "price": 72862,
+              "manufacturer": "Xiaomi",
+              "notes": "ER8GcnPa05RpPEn2nHzMa5MGAijqEcqDDPRLwCWkJtzTZrqP3GU57nWThufHalx0Gv63qdQsJd3UlJ6YyniNvyWNyrvkUoBCkLY0aA2Q6HEzV0O1CGZEoZZTP6hwu89MJfULbVdtc430qaTQd1xbrqqh2JU7RjvrQ6OfLMLq8LuGhBq8TE8EbCb4q6hLpEZ7Rbqpx15NcSoTwPSVXQzb2PtAIPh0z5T0oXro2C7Q8x1PWI5fZAFzFvU0Fk",
+              "received": false
+            }
+          ],
+          "total_price": 90609,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Mabelle",
+              "street": "Ferry Fords",
+              "house": 44,
+              "flat": 367
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T08:49:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e4c081c508c5d5e13ff5e",
+          "products": [
+            {
+              "_id": "694e4c091c508c5d5e140075",
+              "name": "Cheese64618",
+              "amount": 172,
+              "price": 17747,
+              "manufacturer": "Xiaomi",
+              "notes": "CnvOVl5kJ7L8yyppwZpoSlSps96ROIw0ydOdsf4Ro6n21laghSvJvWMxWTfcvLj50EHCpojdaLPlTvCJIgz75UNHLHMJ6dPt0nlmUddW2cg8eVp0G1iCuxitnT21K93lRkFZZIPdoYEG7KucDa1HdN1bwIDkQMxW1WtgyLC2hVNaoVqqJcrx2RMQ1t3peEKicyCQmaKkvbWEvgeseXW3v5r3ukXss8L5fFyztaFA0tJ0Ip3YGkiSLOiX15",
+              "received": false
+            },
+            {
+              "_id": "694e4c0b1c508c5d5e14015e",
+              "name": "Shirt39850",
+              "amount": 575,
+              "price": 72862,
+              "manufacturer": "Xiaomi",
+              "notes": "ER8GcnPa05RpPEn2nHzMa5MGAijqEcqDDPRLwCWkJtzTZrqP3GU57nWThufHalx0Gv63qdQsJd3UlJ6YyniNvyWNyrvkUoBCkLY0aA2Q6HEzV0O1CGZEoZZTP6hwu89MJfULbVdtc430qaTQd1xbrqqh2JU7RjvrQ6OfLMLq8LuGhBq8TE8EbCb4q6hLpEZ7Rbqpx15NcSoTwPSVXQzb2PtAIPh0z5T0oXro2C7Q8x1PWI5fZAFzFvU0Fk",
+              "received": false
+            }
+          ],
+          "total_price": 90609,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:49:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

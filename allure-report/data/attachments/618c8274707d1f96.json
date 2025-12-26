@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:48:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-PE8mPsOYT3StxemQIJliHWcdLNg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e4be41c508c5d5e13ec5f",
+        "email": "Wanda79@gmail.com",
+        "name": "Silas Nikolaus",
+        "country": "Belarus",
+        "city": "Lake Clemmie",
+        "street": "Bartoletti Heights",
+        "house": 42,
+        "flat": 202,
+        "phone": "+18195019876",
+        "createdOn": "2025-12-26T08:48:36.000Z",
+        "notes": "NRXyUP4iQrgUbhRbCZ7ZeZoMOGcre6Es7LrAuusVeUxulpfPmcQ1f29I31gx2JRyibx9UahQpFsHkGPzp3nGT9NO8m0LaCnynrFo4vHkx8NfXJzaFaccjF3AbP3BhVZEyrUZadyu5LdSZP4ThP3NhXVDMx4hMHbcVi8q28xiIs6zcSYl5pDb89IuAz0Mzzmko9VRrdbHEao7vSygbgsBc9TfHYwzWKacmQ92lUFRV71AV6rGYD5n0Oc7SB"
+      },
+      "products": [
+        {
+          "_id": "694e4be41c508c5d5e13ecc9",
+          "name": "Computer27817",
+          "amount": 333,
+          "price": 76325,
+          "manufacturer": "Sony",
+          "notes": "rLi1ZE5LjauTcVE67J2osYl9AW8S0GtoMPPHnv2cR5L2d8NA4TIHLXFK2rY4LAsi1ARYH3XMAvMnPRi2AGX856iNc6M64G8IwvBfTqzOA7pOUHLxlaMlyGHQ1SbDODA331Aa7SOYIH1fXyaKeXptt2E2NjnUhMuU2O2JJl6NCN3N7JPesvL8zRisEuc7GeP3WHx319YbV2Zs3kIMjaR9zXFM8lmDXS2HefSrC4ObizmwRYYHT6IgVEiiTK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76325,
+      "createdOn": "2025-12-26T08:48:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e4be41c508c5d5e13ec5f",
+          "products": [
+            {
+              "_id": "694e4be41c508c5d5e13ecc9",
+              "name": "Computer27817",
+              "amount": 333,
+              "price": 76325,
+              "manufacturer": "Sony",
+              "notes": "rLi1ZE5LjauTcVE67J2osYl9AW8S0GtoMPPHnv2cR5L2d8NA4TIHLXFK2rY4LAsi1ARYH3XMAvMnPRi2AGX856iNc6M64G8IwvBfTqzOA7pOUHLxlaMlyGHQ1SbDODA331Aa7SOYIH1fXyaKeXptt2E2NjnUhMuU2O2JJl6NCN3N7JPesvL8zRisEuc7GeP3WHx319YbV2Zs3kIMjaR9zXFM8lmDXS2HefSrC4ObizmwRYYHT6IgVEiiTK",
+              "received": false
+            }
+          ],
+          "total_price": 76325,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:48:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e4be61c508c5d5e13ed8f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

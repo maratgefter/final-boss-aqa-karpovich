@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 08:48:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-8QeMFp0F0FVx8cX4aWhtV/pFwG4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e4bea1c508c5d5e13ef5f",
+        "email": "Rosemarie_Jacobs@gmail.com",
+        "name": "Domenico Jenkins",
+        "country": "France",
+        "city": "Miami Gardens",
+        "street": "Cronin Lock",
+        "house": 47,
+        "flat": 396,
+        "phone": "+15136197398",
+        "createdOn": "2025-12-26T08:48:42.000Z",
+        "notes": "MM6wWC8LptVxRAHskGbO5h7oJnMEJH3hNZfhn7AVx7hyowqco9HS8HKLwnPvTc6CuEc4zmIBzZ9oeLUBRtg1bBQGTFXgaNkELvoh8Sx8XTvZkQSEruyn8ebVsiNRtwdTqarNBIlDCX0EvgXwwbPL15OyPTZbK54oashO1Updf359dEgtOcvsvusj3gaG7saCxOUe1Nrj3wAN0yLkEGDLUkmwybLViLsRrM2ENP8eITyPAKxjJtL1oyPuYs"
+      },
+      "products": [
+        {
+          "_id": "694e4bea1c508c5d5e13ef88",
+          "name": "Hat31233",
+          "amount": 420,
+          "price": 87575,
+          "manufacturer": "Amazon",
+          "notes": "BEL3LL5hXqSyK0iiCvgbFjm3yPye4WfQeoXiuX3UdXxpnJxXVs1UA0rkU31XuPJswVWkUd9BZCYBxycoZtIsdOL5GLriNrUBsWALwgm8irlcG4Cr5K77UEDXoh7YMJNI6SeZ1j7blcIHwOojMUEfgNuAetthN8Vj95YKV9uMT8DRmyPn6mocrOBLJWlIOykVrSqTMZgx0yRQ4P95yyzHrbG53eGOFrhgXqM8itxrqqY4V4ryizwV7WuTkl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87575,
+      "createdOn": "2025-12-26T08:48:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e4bea1c508c5d5e13ef5f",
+          "products": [
+            {
+              "_id": "694e4bea1c508c5d5e13ef88",
+              "name": "Hat31233",
+              "amount": 420,
+              "price": 87575,
+              "manufacturer": "Amazon",
+              "notes": "BEL3LL5hXqSyK0iiCvgbFjm3yPye4WfQeoXiuX3UdXxpnJxXVs1UA0rkU31XuPJswVWkUd9BZCYBxycoZtIsdOL5GLriNrUBsWALwgm8irlcG4Cr5K77UEDXoh7YMJNI6SeZ1j7blcIHwOojMUEfgNuAetthN8Vj95YKV9uMT8DRmyPn6mocrOBLJWlIOykVrSqTMZgx0yRQ4P95yyzHrbG53eGOFrhgXqM8itxrqqY4V4ryizwV7WuTkl",
+              "received": false
+            }
+          ],
+          "total_price": 87575,
+          "delivery": null,
+          "changedOn": "2025-12-26T08:48:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e4bea1c508c5d5e13efb4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
