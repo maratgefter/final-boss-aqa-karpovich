@@ -23,7 +23,7 @@ export default defineConfig({
 	/* Retry on CI only */
 	retries: process.env.CI ? 1 : 0,
 	/* Opt out of parallel tests on CI. */
-	workers: process.env.CI ? 1 : undefined,
+	workers: process.env.CI ? 8 : undefined,
 	/* Reporter to use. See https://playwright.dev/docs/test-reporters */
 	reporter: [
 		["list"],
@@ -49,15 +49,39 @@ export default defineConfig({
 	/* Configure projects for major browsers */
 	projects: [
 		{
+			name: "setup",
+			use: { ...devices["Desktop Chrome"] },
+			testDir: "src/tests/ui/orders",
+			testMatch: /\.setup\.ts/,
+		},
+		{
+			name: "sales-portal-ui",
+			use: {
+				...devices["Desktop Chrome"],
+				viewport: { width: 1920, height: 1080 },
+				storageState: "src/.auth/user.json",
+			},
+			dependencies: ["setup"],
+			testDir: "src/tests/ui/orders",
+		},
+		{
 			name: "sales-portal-api",
 			use: {
 				...devices["Desktop Chrome"],
 			},
 			testDir: "src/tests/api",
 		},
+		// {
+		// 	name: "sales-portal-ui",
+		// 	use: {
+		// 		...devices["Desktop Chrome"],
+		// 		viewport: { width: 1920, height: 1080 },
+		// 	},
+		// 	testDir: "src/tests/ui",
+		// },
 		{
 			name: "chromium",
-			use: { ...devices["Desktop Chrome"] },
+			use: { ...devices["Desktop Chrome"], headless: true },
 		},
 
 		{

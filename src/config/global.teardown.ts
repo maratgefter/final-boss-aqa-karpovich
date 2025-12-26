@@ -10,5 +10,9 @@ export default async function () {
     
 Link to deployed report:
 
+<<<<<<< HEAD
 https://maratgefter.github.io/final-boss-aqa-karpovich/allure-report/#`);
+=======
+https://konstabe.github.io/final-boss-aqa-karpovich/allure-report/#`);
+>>>>>>> upstream/main
 }
