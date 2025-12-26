@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:07:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2812",
+    "etag": "W/\"afc-EM6HV0hyJ+PLgvSfzXSquYL5jbw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5e741c508c5d5e141435",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5e731c508c5d5e1413b4",
+        "email": "Anissa.Runolfsson@hotmail.com",
+        "name": "Greta Mraz",
+        "country": "France",
+        "city": "East Stacey",
+        "street": "Stefan Street",
+        "house": 27,
+        "flat": 739,
+        "phone": "+19964135935",
+        "createdOn": "2025-12-26T10:07:47.000Z",
+        "notes": "XwhN8nEztxPetZ3MAlPdZFeTvyoc4Ey3NMdzmv1XvD3B0BvDmxycowUImhQ4SG3mq78zi9sD8SKGDzgcr1wiXFjaWptwkX4J6yhtW6JKvseQLFq5u3OUUEYAwWbRTEN1MWAnI3xgjAtMLmVwkiCFxquPjBWeJEY4P07GqKvuVFkxHAZYvBTZrx9RhjWXKkWYa0QZxwrIfVPdAbWx0lppZLvnprpLdCRNkghcCmbivWNcu5HrBXOAaZP58t"
+      },
+      "products": [
+        {
+          "_id": "694e5e731c508c5d5e1413d8",
+          "name": "Cheese90581",
+          "amount": 814,
+          "price": 3714,
+          "manufacturer": "Samsung",
+          "notes": "mMm0cowSjTbtnr5UwKwYb5dB1dWUnS9GUC9Fw3n70WrwiNgMNksXhUhbjLtQIT5c6shQ0ffCWRk40PoTqGTm9bVYkGvuVYJAHalUvk5iPwChbSarmZVWgzh2pOQD9slIpu9thukhsiV9LVLYR3uo08Y37yHD1B30PFmiWdJ4uCm5UWxwbxNuQdvwkUBeYNRVEv7uCbBFjlQDK2D8Hkglk3e7xJJ3kLOvZANmD0zxDCOdRcgXqofeVIVLQm",
+          "received": false
+        },
+        {
+          "_id": "694e5e731c508c5d5e1413f4",
+          "name": "Chips14345",
+          "amount": 48,
+          "price": 93575,
+          "manufacturer": "Google",
+          "notes": "k5jNqLU8TUABps2KEi4980hdV0jFh6VBxQpnno4j4w1tBzlFgi8KCN6uuuOlXFwPVYqTCXSohMtUGN9eHzzMGgk0D3VU1jcit3ubHoNscDDxUjvypdPv1rg6ZUkTTqVp4M9E3TvK0LxsmP6YU1MUPg9yWYJ8Q5RfYIaXUvK2nklAGThuPOR9AcDhLNIT9CJRwtnfV1jcJXNJjRqkfqHJ6sI5O5d3VXdK9IgLmDeTxyzfy0vqYrrBJLbZSS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97289,
+      "createdOn": "2025-12-26T10:07:48.000Z",
+      "comments": [
+        {
+          "text": "RJgZffjgvkPJOLAH46KFHDY69kkFQg6jX5OQk6j53DZ7B6ajn3zuanOBkAjOHok19bvpxdC8TXO",
+          "createdOn": "2025-12-26T10:07:48.000Z",
+          "_id": "694e5e741c508c5d5e141479"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5e731c508c5d5e1413b4",
+          "products": [
+            {
+              "_id": "694e5e731c508c5d5e1413d8",
+              "name": "Cheese90581",
+              "amount": 814,
+              "price": 3714,
+              "manufacturer": "Samsung",
+              "notes": "mMm0cowSjTbtnr5UwKwYb5dB1dWUnS9GUC9Fw3n70WrwiNgMNksXhUhbjLtQIT5c6shQ0ffCWRk40PoTqGTm9bVYkGvuVYJAHalUvk5iPwChbSarmZVWgzh2pOQD9slIpu9thukhsiV9LVLYR3uo08Y37yHD1B30PFmiWdJ4uCm5UWxwbxNuQdvwkUBeYNRVEv7uCbBFjlQDK2D8Hkglk3e7xJJ3kLOvZANmD0zxDCOdRcgXqofeVIVLQm",
+              "received": false
+            },
+            {
+              "_id": "694e5e731c508c5d5e1413f4",
+              "name": "Chips14345",
+              "amount": 48,
+              "price": 93575,
+              "manufacturer": "Google",
+              "notes": "k5jNqLU8TUABps2KEi4980hdV0jFh6VBxQpnno4j4w1tBzlFgi8KCN6uuuOlXFwPVYqTCXSohMtUGN9eHzzMGgk0D3VU1jcit3ubHoNscDDxUjvypdPv1rg6ZUkTTqVp4M9E3TvK0LxsmP6YU1MUPg9yWYJ8Q5RfYIaXUvK2nklAGThuPOR9AcDhLNIT9CJRwtnfV1jcJXNJjRqkfqHJ6sI5O5d3VXdK9IgLmDeTxyzfy0vqYrrBJLbZSS",
+              "received": false
+            }
+          ],
+          "total_price": 97289,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:07:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

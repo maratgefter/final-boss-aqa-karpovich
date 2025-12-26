@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:08:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5433",
+    "etag": "W/\"1539-56MOygXxVZa+xXBSiQs8Do27tbQ\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5e8b1c508c5d5e1420cd",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e5e881c508c5d5e141ef5",
+        "email": "Travis.Olson10@yahoo.com",
+        "name": "Jeanette Mills",
+        "country": "Germany",
+        "city": "Wolffurt",
+        "street": "Cartwright Lodge",
+        "house": 33,
+        "flat": 860,
+        "phone": "+15368522501",
+        "createdOn": "2025-12-26T10:08:08.000Z",
+        "notes": "lgQwrXV7SfDhwrYJo13nguVNlR7p6EsmRMSG9rMVnipoGUL8FMyHm5CO6Fzd7cQv5AmSjohEOhYrCxP8rKjqWzZ9CgNYFo7D7y4lpSnzLSvxdkNB3KKYGxbg0AYsjTlgxNFjEpKoiWfpuBKnaeXRBqWO6RePeZ5K5MCfwQzu3A3n5TQ63qZzYTZ0nptak7jv4CHXCEgOTzvmAYRela8hwXfERSnJ7pbGnnzjJPfdZ7vYJXDVt4Q79ri7Ft"
+      },
+      "products": [
+        {
+          "_id": "694e5e891c508c5d5e141f2b",
+          "name": "Shirt1570",
+          "amount": 694,
+          "price": 98047,
+          "manufacturer": "Amazon",
+          "notes": "5dL93VrBYiXHpmgu9vBC5U5E2tJQmLZC9dGY086sVsNAuzLKkDFCfH4dstPtk0ELPApCOBTBjr5Ej7uzyM8xtd8dpjosIttVIvvDI3kMdRnjUWeYkaSHVmSLaMi7YyWuq3oqXtAwd2DNCthMGbjAaB2VXde8EN4mYwDEIGVAIuSuJ1MvU0AhkYhJOJkIEFrefYi6Ajj32irxvieGPTEgukt0P5XcGH6BxLJlXjoFdrKbXzf385c8Pv9bP3",
+          "received": false
+        },
+        {
+          "_id": "694e5e891c508c5d5e141f60",
+          "name": "Keyboard29105",
+          "amount": 909,
+          "price": 74402,
+          "manufacturer": "Xiaomi",
+          "notes": "DL6DW1WHSbdyOAFNV43XhbFzvb4gvtVmYwBLpP305K3XHg45DebmurG1Xjf1tvAIhNe6u6Jk35o1BCgccXgFaJAGJ0wfqIQm3BTgKu4X9bM9ZkDTe1cF2247B4XMfjBnBKLWkQEimgDbOZFQwBdeuCFSI02fIZul2awuVxDTeyid8CrIc4mRv7cjx2TM22vAgxk50g33TGkICXJF410z3WkTNsyjUt6vOKtkksk2tRp65n6Ff7jreE0KW9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Wolffurt",
+          "street": "Cartwright Lodge",
+          "house": 33,
+          "flat": 860
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 172449,
+      "createdOn": "2025-12-26T10:08:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e5e881c508c5d5e141ef5",
+          "products": [
+            {
+              "_id": "694e5e891c508c5d5e141f2b",
+              "name": "Shirt1570",
+              "amount": 694,
+              "price": 98047,
+              "manufacturer": "Amazon",
+              "notes": "5dL93VrBYiXHpmgu9vBC5U5E2tJQmLZC9dGY086sVsNAuzLKkDFCfH4dstPtk0ELPApCOBTBjr5Ej7uzyM8xtd8dpjosIttVIvvDI3kMdRnjUWeYkaSHVmSLaMi7YyWuq3oqXtAwd2DNCthMGbjAaB2VXde8EN4mYwDEIGVAIuSuJ1MvU0AhkYhJOJkIEFrefYi6Ajj32irxvieGPTEgukt0P5XcGH6BxLJlXjoFdrKbXzf385c8Pv9bP3",
+              "received": false
+            },
+            {
+              "_id": "694e5e891c508c5d5e141f60",
+              "name": "Keyboard29105",
+              "amount": 909,
+              "price": 74402,
+              "manufacturer": "Xiaomi",
+              "notes": "DL6DW1WHSbdyOAFNV43XhbFzvb4gvtVmYwBLpP305K3XHg45DebmurG1Xjf1tvAIhNe6u6Jk35o1BCgccXgFaJAGJ0wfqIQm3BTgKu4X9bM9ZkDTe1cF2247B4XMfjBnBKLWkQEimgDbOZFQwBdeuCFSI02fIZul2awuVxDTeyid8CrIc4mRv7cjx2TM22vAgxk50g33TGkICXJF410z3WkTNsyjUt6vOKtkksk2tRp65n6Ff7jreE0KW9",
+              "received": false
+            }
+          ],
+          "total_price": 172449,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wolffurt",
+              "street": "Cartwright Lodge",
+              "house": 33,
+              "flat": 860
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:08:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5e881c508c5d5e141ef5",
+          "products": [
+            {
+              "_id": "694e5e891c508c5d5e141f2b",
+              "name": "Shirt1570",
+              "amount": 694,
+              "price": 98047,
+              "manufacturer": "Amazon",
+              "notes": "5dL93VrBYiXHpmgu9vBC5U5E2tJQmLZC9dGY086sVsNAuzLKkDFCfH4dstPtk0ELPApCOBTBjr5Ej7uzyM8xtd8dpjosIttVIvvDI3kMdRnjUWeYkaSHVmSLaMi7YyWuq3oqXtAwd2DNCthMGbjAaB2VXde8EN4mYwDEIGVAIuSuJ1MvU0AhkYhJOJkIEFrefYi6Ajj32irxvieGPTEgukt0P5XcGH6BxLJlXjoFdrKbXzf385c8Pv9bP3",
+              "received": false
+            },
+            {
+              "_id": "694e5e891c508c5d5e141f60",
+              "name": "Keyboard29105",
+              "amount": 909,
+              "price": 74402,
+              "manufacturer": "Xiaomi",
+              "notes": "DL6DW1WHSbdyOAFNV43XhbFzvb4gvtVmYwBLpP305K3XHg45DebmurG1Xjf1tvAIhNe6u6Jk35o1BCgccXgFaJAGJ0wfqIQm3BTgKu4X9bM9ZkDTe1cF2247B4XMfjBnBKLWkQEimgDbOZFQwBdeuCFSI02fIZul2awuVxDTeyid8CrIc4mRv7cjx2TM22vAgxk50g33TGkICXJF410z3WkTNsyjUt6vOKtkksk2tRp65n6Ff7jreE0KW9",
+              "received": false
+            }
+          ],
+          "total_price": 172449,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wolffurt",
+              "street": "Cartwright Lodge",
+              "house": 33,
+              "flat": 860
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:08:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5e881c508c5d5e141ef5",
+          "products": [
+            {
+              "_id": "694e5e891c508c5d5e141f2b",
+              "name": "Shirt1570",
+              "amount": 694,
+              "price": 98047,
+              "manufacturer": "Amazon",
+              "notes": "5dL93VrBYiXHpmgu9vBC5U5E2tJQmLZC9dGY086sVsNAuzLKkDFCfH4dstPtk0ELPApCOBTBjr5Ej7uzyM8xtd8dpjosIttVIvvDI3kMdRnjUWeYkaSHVmSLaMi7YyWuq3oqXtAwd2DNCthMGbjAaB2VXde8EN4mYwDEIGVAIuSuJ1MvU0AhkYhJOJkIEFrefYi6Ajj32irxvieGPTEgukt0P5XcGH6BxLJlXjoFdrKbXzf385c8Pv9bP3",
+              "received": false
+            },
+            {
+              "_id": "694e5e891c508c5d5e141f60",
+              "name": "Keyboard29105",
+              "amount": 909,
+              "price": 74402,
+              "manufacturer": "Xiaomi",
+              "notes": "DL6DW1WHSbdyOAFNV43XhbFzvb4gvtVmYwBLpP305K3XHg45DebmurG1Xjf1tvAIhNe6u6Jk35o1BCgccXgFaJAGJ0wfqIQm3BTgKu4X9bM9ZkDTe1cF2247B4XMfjBnBKLWkQEimgDbOZFQwBdeuCFSI02fIZul2awuVxDTeyid8CrIc4mRv7cjx2TM22vAgxk50g33TGkICXJF410z3WkTNsyjUt6vOKtkksk2tRp65n6Ff7jreE0KW9",
+              "received": false
+            }
+          ],
+          "total_price": 172449,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:08:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

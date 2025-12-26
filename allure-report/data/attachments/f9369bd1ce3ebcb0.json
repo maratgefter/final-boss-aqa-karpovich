@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:07:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-eIwLuqweOX2VwfiEHR7OCx4uLV0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5e731c508c5d5e1413c8",
+        "email": "Rosalinda.Christiansen76@yahoo.com",
+        "name": "Lourdes Gottlieb",
+        "country": "France",
+        "city": "Port Jose",
+        "street": "Durward Creek",
+        "house": 28,
+        "flat": 413,
+        "phone": "+15512586550",
+        "createdOn": "2025-12-26T10:07:47.000Z",
+        "notes": "AMS5Ahc1aSWz6GFYdLDtEf6B8A8A0t3yvl3hXPoAJA4qA7OPWizbdvKS00iEJSFwsmC7L5z9B5PRJZD4h9J87WgwD8dCt5WkKBjv4GA6AKTSun08A6QV16Lp3EIuwbvqkHR94i08xnnlIduK25Nf8QKYejqLa7mkXH8JbepzNzcjhJoJgWqqnW0NxNss11UvRslr7vIMGOMoXoIbEoDnP81jZUUA77EyGGKpokme0YvJ70CY6k3sNG7FF9"
+      },
+      "products": [
+        {
+          "_id": "694e5e731c508c5d5e1413e7",
+          "name": "Bacon68408",
+          "amount": 623,
+          "price": 95913,
+          "manufacturer": "Google",
+          "notes": "qxnsbpnaOwZcXMljAAHRcu46G71aBjEE8KTUR0esus7LPEkG6nDi6VIpNGqRYqmFskrj1v73Oo3JAA0KRuMKsnIgk8iU1q7p1t4CZL5B4xy6QCJmyZjtyp8a2OgmZD7ihzJhVySFDjaQfNY4OqKW2F9r3iGXsjkbKJPBcKhwVnJPcNj8lMfdUHvsZ3T1Iq6plIKtINCKIaYEvmhHpnbaOCkVOvoXeHEUSN0smVwgL5Vpgphq5ip5ttLWhD",
+          "received": false
+        },
+        {
+          "_id": "694e5e741c508c5d5e141411",
+          "name": "Fish35411",
+          "amount": 357,
+          "price": 30770,
+          "manufacturer": "Tesla",
+          "notes": "eoFGgxnVd9M1hLpenDPOiNgusGjwL2yB0lAHrml7wKgvoqPOgxHbqciiOASXY17Vc2k5OxQhIfz0rNUF1ql037yIXIZQO84SmKftDzVIFslZvJU4uhz1RUyEBuL5jzBeLRGBChRodjQ0kBTUrgZogmpOqV6SZw1ZciKvOu76Rj88xd7Ofp7pO3BpcMeC0x60TdH78fSWPs2nHZYgUVJjAY2OFAR6c1Ezc1rRStVb58uqwTGmWXVMHYHFxU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126683,
+      "createdOn": "2025-12-26T10:07:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5e731c508c5d5e1413c8",
+          "products": [
+            {
+              "_id": "694e5e731c508c5d5e1413e7",
+              "name": "Bacon68408",
+              "amount": 623,
+              "price": 95913,
+              "manufacturer": "Google",
+              "notes": "qxnsbpnaOwZcXMljAAHRcu46G71aBjEE8KTUR0esus7LPEkG6nDi6VIpNGqRYqmFskrj1v73Oo3JAA0KRuMKsnIgk8iU1q7p1t4CZL5B4xy6QCJmyZjtyp8a2OgmZD7ihzJhVySFDjaQfNY4OqKW2F9r3iGXsjkbKJPBcKhwVnJPcNj8lMfdUHvsZ3T1Iq6plIKtINCKIaYEvmhHpnbaOCkVOvoXeHEUSN0smVwgL5Vpgphq5ip5ttLWhD",
+              "received": false
+            },
+            {
+              "_id": "694e5e741c508c5d5e141411",
+              "name": "Fish35411",
+              "amount": 357,
+              "price": 30770,
+              "manufacturer": "Tesla",
+              "notes": "eoFGgxnVd9M1hLpenDPOiNgusGjwL2yB0lAHrml7wKgvoqPOgxHbqciiOASXY17Vc2k5OxQhIfz0rNUF1ql037yIXIZQO84SmKftDzVIFslZvJU4uhz1RUyEBuL5jzBeLRGBChRodjQ0kBTUrgZogmpOqV6SZw1ZciKvOu76Rj88xd7Ofp7pO3BpcMeC0x60TdH78fSWPs2nHZYgUVJjAY2OFAR6c1Ezc1rRStVb58uqwTGmWXVMHYHFxU",
+              "received": false
+            }
+          ],
+          "total_price": 126683,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:07:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e5e741c508c5d5e14145d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

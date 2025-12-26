@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:08:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-pU1a8gJyVKMDN0oQuqcE+x4mtwU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5e921c508c5d5e1424a8",
+        "email": "Hosea.West@hotmail.com",
+        "name": "Braxton Ebert",
+        "country": "Russia",
+        "city": "Skokie",
+        "street": "Beech Road",
+        "house": 1,
+        "flat": 21,
+        "phone": "+12048611824",
+        "createdOn": "2025-12-26T10:08:18.000Z",
+        "notes": "ZtIOMje1Di2JSNldhuLGEefFUg2AmcrQsThIFZJqY8ujYfBwZ7xv6ToYTqPPJaqrdWrj2BfO2RZgEI6ZfWHnSKJEr3T0zdLfFPDpP5zZXUYPACaFICvaII900zTNDNXb1a1ntdl0hypFo9ijWt8FnMRbF7Cj0wITF2QmZYb2rERn5fWr3u3b9FMLSJVrBObbdj0nnghuXhXDGYWvFD5CaSNh6EqAiOUMaZg6I7Y3Uvg0QzutXa0jcKkmVD"
+      },
+      "products": [
+        {
+          "_id": "694e5e931c508c5d5e142534",
+          "name": "Salad58878",
+          "amount": 165,
+          "price": 31269,
+          "manufacturer": "Samsung",
+          "notes": "m8jjxTv6EiooOj8UAhe8XqQYiDQkNFHTUgYgSoIjERpDIPhsHByvsuoEIFYIebePD2xSbybuJW9clrBTz5fcSwpxalkIGSwZ4Fg6YrcKDOV5C5GTUs3G2bwnT1BXta05BhQZNLKQdg0E2CCnQo0M5GQdbKh4V079UIS8VkCa3Z8A0x8j6HqlduLOV5w2U5WdS1Bpnn7HjD9E2UDfyLQEOlu2W8AmJ15TWlZ4KvxbnMB44i46QmcLiQEDlh",
+          "received": false
+        },
+        {
+          "_id": "694e5e941c508c5d5e142593",
+          "name": "Towels95420",
+          "amount": 661,
+          "price": 98947,
+          "manufacturer": "Tesla",
+          "notes": "FctCudw1WbcxXtKpI15fPaQklBQ1qA1wKjwqAURzFStTREKr42nOEYGZaLEpKk33T2RZemgXDGAx9LyjMjPW2TLTbDmzaHZ0ZOrzwmaksxMvTYpWiqRcOWTsxRMmMrlURMaTFNqCqL1tRHUxOpUROU7tSWenVQtTINGWioa8R3UHiyBB1g6w26GHnBO0gQXxiQ8ZU2zVhbqobJlk8BQkTVScCW0lS02nHpJOhJFARZeypJ5puu8zgUCxFv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 130216,
+      "createdOn": "2025-12-26T10:08:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5e921c508c5d5e1424a8",
+          "products": [
+            {
+              "_id": "694e5e931c508c5d5e142534",
+              "name": "Salad58878",
+              "amount": 165,
+              "price": 31269,
+              "manufacturer": "Samsung",
+              "notes": "m8jjxTv6EiooOj8UAhe8XqQYiDQkNFHTUgYgSoIjERpDIPhsHByvsuoEIFYIebePD2xSbybuJW9clrBTz5fcSwpxalkIGSwZ4Fg6YrcKDOV5C5GTUs3G2bwnT1BXta05BhQZNLKQdg0E2CCnQo0M5GQdbKh4V079UIS8VkCa3Z8A0x8j6HqlduLOV5w2U5WdS1Bpnn7HjD9E2UDfyLQEOlu2W8AmJ15TWlZ4KvxbnMB44i46QmcLiQEDlh",
+              "received": false
+            },
+            {
+              "_id": "694e5e941c508c5d5e142593",
+              "name": "Towels95420",
+              "amount": 661,
+              "price": 98947,
+              "manufacturer": "Tesla",
+              "notes": "FctCudw1WbcxXtKpI15fPaQklBQ1qA1wKjwqAURzFStTREKr42nOEYGZaLEpKk33T2RZemgXDGAx9LyjMjPW2TLTbDmzaHZ0ZOrzwmaksxMvTYpWiqRcOWTsxRMmMrlURMaTFNqCqL1tRHUxOpUROU7tSWenVQtTINGWioa8R3UHiyBB1g6w26GHnBO0gQXxiQ8ZU2zVhbqobJlk8BQkTVScCW0lS02nHpJOhJFARZeypJ5puu8zgUCxFv",
+              "received": false
+            }
+          ],
+          "total_price": 130216,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:08:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e5e941c508c5d5e1425fd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

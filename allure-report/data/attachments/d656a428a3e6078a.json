@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:08:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3862",
+    "etag": "W/\"f16-MZ937N57kNmbpw4z4saq8IZU8SQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5e801c508c5d5e141a22",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e5e7f1c508c5d5e14198d",
+        "email": "Owen_Rath47@gmail.com",
+        "name": "Alice Schulist",
+        "country": "Germany",
+        "city": "Ezramouth",
+        "street": "Jonas Forge",
+        "house": 15,
+        "flat": 870,
+        "phone": "+17229996522",
+        "createdOn": "2025-12-26T10:07:59.000Z",
+        "notes": "1p2RTYEoiEqMtxyooroDsffhqn8vOlLglhFjOAgZYS1ATR3T4TQVmFNpunsFDW6M8HwC0T0e912PbWvJbNZvnZyPtGsu8n67aQw1Gn2jiQTGJR7IwWGwU0mMQix8Kp1BmQtRjz2bQekzJXCCWvOQOnxq6dIecMnIokqfA03I3kIbttN8qANsMhVHGrjBcA3mYxxYmW4yCxK0DiVBx5ol45ABurB0znaFMJI5CgFzCWmjnQUmEZ5PaX5wbh"
+      },
+      "products": [
+        {
+          "_id": "694e5e801c508c5d5e1419f1",
+          "name": "Bike54430",
+          "amount": 334,
+          "price": 43834,
+          "manufacturer": "Amazon",
+          "notes": "1ec1wSGYN0cqKNORbcswgvo1MXXCWFmCWmILDOjNyVIbM7hqGXoKNfE8Aaah9WMP8q6XNCgrhubc0sWquwGKL6un3veKTA1jTMNyYo7CULjpTOfy3t2Ysos97LL7ypdxiTGkUid83T7O6Bhz1YyHebMtNaruVBOsCEXSXvaB2lvs2esGkLjOhbvZdKdk7MVHarSWHC5pbv2ZAfdBRSnC3Gd7AkQ0MJijhVoF8M0jGOTTIrY1T8SFWou4z8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Ezramouth",
+          "street": "Jonas Forge",
+          "house": 15,
+          "flat": 870
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 43834,
+      "createdOn": "2025-12-26T10:08:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e5e7f1c508c5d5e14198d",
+          "products": [
+            {
+              "_id": "694e5e801c508c5d5e1419f1",
+              "name": "Bike54430",
+              "amount": 334,
+              "price": 43834,
+              "manufacturer": "Amazon",
+              "notes": "1ec1wSGYN0cqKNORbcswgvo1MXXCWFmCWmILDOjNyVIbM7hqGXoKNfE8Aaah9WMP8q6XNCgrhubc0sWquwGKL6un3veKTA1jTMNyYo7CULjpTOfy3t2Ysos97LL7ypdxiTGkUid83T7O6Bhz1YyHebMtNaruVBOsCEXSXvaB2lvs2esGkLjOhbvZdKdk7MVHarSWHC5pbv2ZAfdBRSnC3Gd7AkQ0MJijhVoF8M0jGOTTIrY1T8SFWou4z8",
+              "received": false
+            }
+          ],
+          "total_price": 43834,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ezramouth",
+              "street": "Jonas Forge",
+              "house": 15,
+              "flat": 870
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:08:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5e7f1c508c5d5e14198d",
+          "products": [
+            {
+              "_id": "694e5e801c508c5d5e1419f1",
+              "name": "Bike54430",
+              "amount": 334,
+              "price": 43834,
+              "manufacturer": "Amazon",
+              "notes": "1ec1wSGYN0cqKNORbcswgvo1MXXCWFmCWmILDOjNyVIbM7hqGXoKNfE8Aaah9WMP8q6XNCgrhubc0sWquwGKL6un3veKTA1jTMNyYo7CULjpTOfy3t2Ysos97LL7ypdxiTGkUid83T7O6Bhz1YyHebMtNaruVBOsCEXSXvaB2lvs2esGkLjOhbvZdKdk7MVHarSWHC5pbv2ZAfdBRSnC3Gd7AkQ0MJijhVoF8M0jGOTTIrY1T8SFWou4z8",
+              "received": false
+            }
+          ],
+          "total_price": 43834,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ezramouth",
+              "street": "Jonas Forge",
+              "house": 15,
+              "flat": 870
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:08:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5e7f1c508c5d5e14198d",
+          "products": [
+            {
+              "_id": "694e5e801c508c5d5e1419f1",
+              "name": "Bike54430",
+              "amount": 334,
+              "price": 43834,
+              "manufacturer": "Amazon",
+              "notes": "1ec1wSGYN0cqKNORbcswgvo1MXXCWFmCWmILDOjNyVIbM7hqGXoKNfE8Aaah9WMP8q6XNCgrhubc0sWquwGKL6un3veKTA1jTMNyYo7CULjpTOfy3t2Ysos97LL7ypdxiTGkUid83T7O6Bhz1YyHebMtNaruVBOsCEXSXvaB2lvs2esGkLjOhbvZdKdk7MVHarSWHC5pbv2ZAfdBRSnC3Gd7AkQ0MJijhVoF8M0jGOTTIrY1T8SFWou4z8",
+              "received": false
+            }
+          ],
+          "total_price": 43834,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:08:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
