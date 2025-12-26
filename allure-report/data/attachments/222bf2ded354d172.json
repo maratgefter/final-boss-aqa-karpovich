@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4111",
+    "etag": "W/\"100f-TKDiaNdZmR/KZIoKRK/QSnRW1ZM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5fe51c508c5d5e144772",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5fde1c508c5d5e144241",
+        "email": "Katrina_OKeefe@yahoo.com",
+        "name": "Samson Hagenes",
+        "country": "Canada",
+        "city": "Cincinnati",
+        "street": "Jennie Courts",
+        "house": 25,
+        "flat": 604,
+        "phone": "+15276245560",
+        "createdOn": "2025-12-26T10:13:50.000Z",
+        "notes": "8fHeWpC3mAtEseLmiOqL5WH3XlZHe9LlI1p8I9cevDoeUIUHaojnJdOOk9508IBiEiv6GDW7Q7BpztfBo6k82ScJJe8zFVITWkVDaxETjqL5xWkcZMf3Y2RDfsQkZcTPGcWXbuzJQSLq6aX8Q1ITzhR6OGesyDQEYn7yD3U3sa6SiglJP323blnXJprKahFftk24c7Pp2qfvO1thiPIS5OckvlWm1occNaFuDg3TomwRUzczIoPHgHWouy"
+      },
+      "products": [
+        {
+          "_id": "694e5fe11c508c5d5e1444d3",
+          "name": "Keyboard35136",
+          "amount": 831,
+          "price": 5735,
+          "manufacturer": "Microsoft",
+          "notes": "vIea3ct0KpCt32s4PlPCOjyuZjaJC86lGgQd0BuIZbo7HAwg2lgca8fqaYzoAbD6fbdefSQFaQRLN7gQu6p0I9K0MpS9jyG4pOtFAoDjdxCNnrExpWxbcgzIAlg06E5CeUrgXDMpk6ldFgYlRVa0XhUBw9Jp7F4f9avnPg78xqKeedAh1eDz8ciQOOAjFqvnamKsJoixgnO5G3HShEAhSkmL7oKYgM05RcSViHE9Czq4zMoRbUB8W8ik4r",
+          "received": false
+        },
+        {
+          "_id": "694e5fe21c508c5d5e1444fa",
+          "name": "Chips57064",
+          "amount": 871,
+          "price": 43955,
+          "manufacturer": "Sony",
+          "notes": "o6hZutJmbSLFZxzUEC1GtqN7YMvekXYC5ULjkBrswmC8YWhz3t81TmCwumtTonbvIx1BaB9cgkJCQddLTNRhDen6sCDr3gGXT6wGF4aSeznsF2XcjtNMmBmFdtVlWQcdqLCe6zLFJ8cwEEV8EFidH954pAKv05QM04mie92mVvN84xhUeW9gZlMvWJ54XRQMsmT26rv2iySH1MujLgeaBOlWHuOIebfgzBo1In2GzU5nUb3YuzWED0GfIv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Cincinnati",
+          "street": "Jennie Courts",
+          "house": 25,
+          "flat": 604
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 49690,
+      "createdOn": "2025-12-26T10:13:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5fde1c508c5d5e144241",
+          "products": [
+            {
+              "_id": "694e5fe11c508c5d5e1444d3",
+              "name": "Keyboard35136",
+              "amount": 831,
+              "price": 5735,
+              "manufacturer": "Microsoft",
+              "notes": "vIea3ct0KpCt32s4PlPCOjyuZjaJC86lGgQd0BuIZbo7HAwg2lgca8fqaYzoAbD6fbdefSQFaQRLN7gQu6p0I9K0MpS9jyG4pOtFAoDjdxCNnrExpWxbcgzIAlg06E5CeUrgXDMpk6ldFgYlRVa0XhUBw9Jp7F4f9avnPg78xqKeedAh1eDz8ciQOOAjFqvnamKsJoixgnO5G3HShEAhSkmL7oKYgM05RcSViHE9Czq4zMoRbUB8W8ik4r",
+              "received": false
+            },
+            {
+              "_id": "694e5fe21c508c5d5e1444fa",
+              "name": "Chips57064",
+              "amount": 871,
+              "price": 43955,
+              "manufacturer": "Sony",
+              "notes": "o6hZutJmbSLFZxzUEC1GtqN7YMvekXYC5ULjkBrswmC8YWhz3t81TmCwumtTonbvIx1BaB9cgkJCQddLTNRhDen6sCDr3gGXT6wGF4aSeznsF2XcjtNMmBmFdtVlWQcdqLCe6zLFJ8cwEEV8EFidH954pAKv05QM04mie92mVvN84xhUeW9gZlMvWJ54XRQMsmT26rv2iySH1MujLgeaBOlWHuOIebfgzBo1In2GzU5nUb3YuzWED0GfIv",
+              "received": false
+            }
+          ],
+          "total_price": 49690,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cincinnati",
+              "street": "Jennie Courts",
+              "house": 25,
+              "flat": 604
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:13:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5fde1c508c5d5e144241",
+          "products": [
+            {
+              "_id": "694e5fe11c508c5d5e1444d3",
+              "name": "Keyboard35136",
+              "amount": 831,
+              "price": 5735,
+              "manufacturer": "Microsoft",
+              "notes": "vIea3ct0KpCt32s4PlPCOjyuZjaJC86lGgQd0BuIZbo7HAwg2lgca8fqaYzoAbD6fbdefSQFaQRLN7gQu6p0I9K0MpS9jyG4pOtFAoDjdxCNnrExpWxbcgzIAlg06E5CeUrgXDMpk6ldFgYlRVa0XhUBw9Jp7F4f9avnPg78xqKeedAh1eDz8ciQOOAjFqvnamKsJoixgnO5G3HShEAhSkmL7oKYgM05RcSViHE9Czq4zMoRbUB8W8ik4r",
+              "received": false
+            },
+            {
+              "_id": "694e5fe21c508c5d5e1444fa",
+              "name": "Chips57064",
+              "amount": 871,
+              "price": 43955,
+              "manufacturer": "Sony",
+              "notes": "o6hZutJmbSLFZxzUEC1GtqN7YMvekXYC5ULjkBrswmC8YWhz3t81TmCwumtTonbvIx1BaB9cgkJCQddLTNRhDen6sCDr3gGXT6wGF4aSeznsF2XcjtNMmBmFdtVlWQcdqLCe6zLFJ8cwEEV8EFidH954pAKv05QM04mie92mVvN84xhUeW9gZlMvWJ54XRQMsmT26rv2iySH1MujLgeaBOlWHuOIebfgzBo1In2GzU5nUb3YuzWED0GfIv",
+              "received": false
+            }
+          ],
+          "total_price": 49690,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

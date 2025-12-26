@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4156",
+    "etag": "W/\"103c-SSYrQUkQGFtgZo3rpK9foNjS+j8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5fd31c508c5d5e143ca5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5fce1c508c5d5e1437d6",
+        "email": "Cletus_Kuhic42@hotmail.com",
+        "name": "Natasha Ruecker",
+        "country": "Great Britain",
+        "city": "Biankaville",
+        "street": "Pennsylvania Avenue",
+        "house": 10,
+        "flat": 729,
+        "phone": "+14255374526",
+        "createdOn": "2025-12-26T10:13:34.000Z",
+        "notes": "OOqrbuZP6BFgfmxkV4iiOveYWF3O7S8b4RpWDZyYv7S7iaGVZUwo9CFg1J73fNjZFUyncdQedhRdYdUKqdunzV488OFf0WDcAAlSNpARynWmHbMgbqdcBJ6Kklxo8PPQleSVo8EVXojZ4pyhrFXFlhpY49etZNZjDl8CJ8SCH1wXQ0819o9hIi7h2qeNnntLASpsJKmEYKYcZYqtCTdqseAys0D2yOWtajczpVIyQslug2vhFScTQeBWo2"
+      },
+      "products": [
+        {
+          "_id": "694e5fce1c508c5d5e14384d",
+          "name": "Chair9578",
+          "amount": 723,
+          "price": 51769,
+          "manufacturer": "Samsung",
+          "notes": "W7yG3GbOsAXxTdkN3lnGxkP9JYn4SK1oMfcFYie09GstECLccgkf5x0Q5JZfA8sarUEn9idX1SBH2WdrU9bT2yElp9AZC70BB6aPQStjiWb9QTe69fIFCmO6wLUbocjQxcnJuXm6x0f5df7HgVgBQ0G7JTR1wMZJpZZcg0Wdp4DcseZV7AWztGej85UkvkjlbS0jyCewA0TK0qHa2HmUB1BfhJibPm5zGouuoXKcnZjlgLknhQPHM4IY1M",
+          "received": false
+        },
+        {
+          "_id": "694e5fcf1c508c5d5e1438f6",
+          "name": "Towels30030",
+          "amount": 597,
+          "price": 57580,
+          "manufacturer": "Samsung",
+          "notes": "zhEZ988IEjCvYcIKjFdqahKIVJ1DkA7UttBr4yGKNeAJ0BFg3n92mIPgBlpDBHjhz4v4bcWfLsDoSa4cVHZOsmwwccyOh0UKjNy8Bqm2dWMlpkHn9Co0j7qkbggXoHX0cWwOobpSxn2PRg4mP36rV8vJXxyiLcS3MpAhznz7Ctn0YeZz8ge0RddASrCGph9LxaBmJjvpwWr4t5W7e4JppKwVUHcETvMsnqEHNyzwXMkht185jhW35IstaD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Biankaville",
+          "street": "Pennsylvania Avenue",
+          "house": 10,
+          "flat": 729
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 109349,
+      "createdOn": "2025-12-26T10:13:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5fce1c508c5d5e1437d6",
+          "products": [
+            {
+              "_id": "694e5fce1c508c5d5e14384d",
+              "name": "Chair9578",
+              "amount": 723,
+              "price": 51769,
+              "manufacturer": "Samsung",
+              "notes": "W7yG3GbOsAXxTdkN3lnGxkP9JYn4SK1oMfcFYie09GstECLccgkf5x0Q5JZfA8sarUEn9idX1SBH2WdrU9bT2yElp9AZC70BB6aPQStjiWb9QTe69fIFCmO6wLUbocjQxcnJuXm6x0f5df7HgVgBQ0G7JTR1wMZJpZZcg0Wdp4DcseZV7AWztGej85UkvkjlbS0jyCewA0TK0qHa2HmUB1BfhJibPm5zGouuoXKcnZjlgLknhQPHM4IY1M",
+              "received": false
+            },
+            {
+              "_id": "694e5fcf1c508c5d5e1438f6",
+              "name": "Towels30030",
+              "amount": 597,
+              "price": 57580,
+              "manufacturer": "Samsung",
+              "notes": "zhEZ988IEjCvYcIKjFdqahKIVJ1DkA7UttBr4yGKNeAJ0BFg3n92mIPgBlpDBHjhz4v4bcWfLsDoSa4cVHZOsmwwccyOh0UKjNy8Bqm2dWMlpkHn9Co0j7qkbggXoHX0cWwOobpSxn2PRg4mP36rV8vJXxyiLcS3MpAhznz7Ctn0YeZz8ge0RddASrCGph9LxaBmJjvpwWr4t5W7e4JppKwVUHcETvMsnqEHNyzwXMkht185jhW35IstaD",
+              "received": false
+            }
+          ],
+          "total_price": 109349,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Biankaville",
+              "street": "Pennsylvania Avenue",
+              "house": 10,
+              "flat": 729
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:13:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5fce1c508c5d5e1437d6",
+          "products": [
+            {
+              "_id": "694e5fce1c508c5d5e14384d",
+              "name": "Chair9578",
+              "amount": 723,
+              "price": 51769,
+              "manufacturer": "Samsung",
+              "notes": "W7yG3GbOsAXxTdkN3lnGxkP9JYn4SK1oMfcFYie09GstECLccgkf5x0Q5JZfA8sarUEn9idX1SBH2WdrU9bT2yElp9AZC70BB6aPQStjiWb9QTe69fIFCmO6wLUbocjQxcnJuXm6x0f5df7HgVgBQ0G7JTR1wMZJpZZcg0Wdp4DcseZV7AWztGej85UkvkjlbS0jyCewA0TK0qHa2HmUB1BfhJibPm5zGouuoXKcnZjlgLknhQPHM4IY1M",
+              "received": false
+            },
+            {
+              "_id": "694e5fcf1c508c5d5e1438f6",
+              "name": "Towels30030",
+              "amount": 597,
+              "price": 57580,
+              "manufacturer": "Samsung",
+              "notes": "zhEZ988IEjCvYcIKjFdqahKIVJ1DkA7UttBr4yGKNeAJ0BFg3n92mIPgBlpDBHjhz4v4bcWfLsDoSa4cVHZOsmwwccyOh0UKjNy8Bqm2dWMlpkHn9Co0j7qkbggXoHX0cWwOobpSxn2PRg4mP36rV8vJXxyiLcS3MpAhznz7Ctn0YeZz8ge0RddASrCGph9LxaBmJjvpwWr4t5W7e4JppKwVUHcETvMsnqEHNyzwXMkht185jhW35IstaD",
+              "received": false
+            }
+          ],
+          "total_price": 109349,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

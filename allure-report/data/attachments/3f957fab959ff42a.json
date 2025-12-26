@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2971",
+    "etag": "W/\"b9b-RRdzjSDmM4lua1NwdVLfSXBP7rY\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5fc11c508c5d5e1430fe",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5fc11c508c5d5e1430c1",
+        "email": "Edwin.Connelly@hotmail.com",
+        "name": "Duane Kuphal",
+        "country": "Russia",
+        "city": "Cuyahoga Falls",
+        "street": "Gutmann Islands",
+        "house": 44,
+        "flat": 391,
+        "phone": "+18783215440",
+        "createdOn": "2025-12-26T10:13:21.000Z",
+        "notes": "27O5lD3yoKNzotbzzMT32DpjKwEt3YGlKDVWSAvARc8u6LWn6pZ9rZczgHz64GrFWUSC6SnZk3pWpibKQcPJjVtUdKEMzupCmc7I0bYMRW0yzWbExf1jVBblmZSvDGIKfnCjApW9EIjkxmvfypXpRS8eJl2UZMoZcWhFbcu5q68Ul6s5mr9Ytpl3LvaFOxmWcFepuc4sAdH0ynBgJNpRSXFH9IaXzUp7J3bll7MjtNK9IDR7SqAlJJeZw5"
+      },
+      "products": [
+        {
+          "_id": "694e5fc11c508c5d5e1430d9",
+          "name": "Chicken1158",
+          "amount": 857,
+          "price": 69090,
+          "manufacturer": "Amazon",
+          "notes": "O213zk9kMxijezzNxgmzmP81IU1oe959j9kAH0W0Kh10mUIsNgqK4uTilpGOwn46D0jYypMurLtuohPK39oIZ50dunkE7CdBcGnide9hueUC4wnoA47Cxl6xj6DSZOgNKk01l563vzS0l365XmKoLjLFC2xM8bKgIMZ3bjH2k9FXbKcTX1ZLqaa2UXwhwWGERKWxweiyIFhHrIm9vwKNtmaC371ReZ0jasCEP8LIf1VirMqRvw2qBeWX5X",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Cuyahoga Falls",
+          "street": "Gutmann Islands",
+          "house": 44,
+          "flat": 391
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 69090,
+      "createdOn": "2025-12-26T10:13:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5fc11c508c5d5e1430c1",
+          "products": [
+            {
+              "_id": "694e5fc11c508c5d5e1430d9",
+              "name": "Chicken1158",
+              "amount": 857,
+              "price": 69090,
+              "manufacturer": "Amazon",
+              "notes": "O213zk9kMxijezzNxgmzmP81IU1oe959j9kAH0W0Kh10mUIsNgqK4uTilpGOwn46D0jYypMurLtuohPK39oIZ50dunkE7CdBcGnide9hueUC4wnoA47Cxl6xj6DSZOgNKk01l563vzS0l365XmKoLjLFC2xM8bKgIMZ3bjH2k9FXbKcTX1ZLqaa2UXwhwWGERKWxweiyIFhHrIm9vwKNtmaC371ReZ0jasCEP8LIf1VirMqRvw2qBeWX5X",
+              "received": false
+            }
+          ],
+          "total_price": 69090,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Cuyahoga Falls",
+              "street": "Gutmann Islands",
+              "house": 44,
+              "flat": 391
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:13:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5fc11c508c5d5e1430c1",
+          "products": [
+            {
+              "_id": "694e5fc11c508c5d5e1430d9",
+              "name": "Chicken1158",
+              "amount": 857,
+              "price": 69090,
+              "manufacturer": "Amazon",
+              "notes": "O213zk9kMxijezzNxgmzmP81IU1oe959j9kAH0W0Kh10mUIsNgqK4uTilpGOwn46D0jYypMurLtuohPK39oIZ50dunkE7CdBcGnide9hueUC4wnoA47Cxl6xj6DSZOgNKk01l563vzS0l365XmKoLjLFC2xM8bKgIMZ3bjH2k9FXbKcTX1ZLqaa2UXwhwWGERKWxweiyIFhHrIm9vwKNtmaC371ReZ0jasCEP8LIf1VirMqRvw2qBeWX5X",
+              "received": false
+            }
+          ],
+          "total_price": 69090,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

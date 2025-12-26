@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3872",
+    "etag": "W/\"f20-E0RguhX7gnQz8S/IB+UunZmwQsA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5fe11c508c5d5e1444d7",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e5fdc1c508c5d5e14416e",
+        "email": "Buford.Bauch@yahoo.com",
+        "name": "Sebastian Ferry",
+        "country": "USA",
+        "city": "Vinnieborough",
+        "street": "Forrest Trail",
+        "house": 24,
+        "flat": 529,
+        "phone": "+13638059335",
+        "createdOn": "2025-12-26T10:13:48.000Z",
+        "notes": "EHY2r4uhZlMhoJ34Y4pgSX5iqEr1LLoNPh16uHqbNLyiVpeLqHugyUpkagXgRmHzzFUmxJYsNVLAbkIXOylKym1W39k1K5LuBdK2FVVFcqrsbkokbQo8lkcFzXvfxQrq1Ovs8W3XZA6GW2aaxwjc0I5c5ibB9nCmLAtC3MWor1IV6rncm37qJKNypmBfz9EXRsdrd5aTa0ncf4LUCICQgrHvAcBiGCKVt60XSOrvZBg4TjwFfK68IDoPRe"
+      },
+      "products": [
+        {
+          "_id": "694e5fdf1c508c5d5e144365",
+          "name": "Fish14047",
+          "amount": 614,
+          "price": 72370,
+          "manufacturer": "Xiaomi",
+          "notes": "f7q2to8w8dUKpJSGug0kdVr8F9pGEXfWPPxCRCuz34AL0QENO9kR4Z116ZJBitycxFqsOgQgUZjRuA3QJMF99PKzKJMxvctc6FRJMbfIdbP6v7dow4Pe4jLH9SHml6N9W4JRveexB5QLZdHP1fy6pW2j5Aw3ruSTHROGlHky2S4WcxhkG7a8NOIvnl3Zy4oMtDOauUqEiq8c9DSl1P03Rv8gtDexiJBLgqmHVCO6ybNSvs9yBm5ja50WnA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Vinnieborough",
+          "street": "Forrest Trail",
+          "house": 24,
+          "flat": 529
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 72370,
+      "createdOn": "2025-12-26T10:13:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e5fdc1c508c5d5e14416e",
+          "products": [
+            {
+              "_id": "694e5fdf1c508c5d5e144365",
+              "name": "Fish14047",
+              "amount": 614,
+              "price": 72370,
+              "manufacturer": "Xiaomi",
+              "notes": "f7q2to8w8dUKpJSGug0kdVr8F9pGEXfWPPxCRCuz34AL0QENO9kR4Z116ZJBitycxFqsOgQgUZjRuA3QJMF99PKzKJMxvctc6FRJMbfIdbP6v7dow4Pe4jLH9SHml6N9W4JRveexB5QLZdHP1fy6pW2j5Aw3ruSTHROGlHky2S4WcxhkG7a8NOIvnl3Zy4oMtDOauUqEiq8c9DSl1P03Rv8gtDexiJBLgqmHVCO6ybNSvs9yBm5ja50WnA",
+              "received": false
+            }
+          ],
+          "total_price": 72370,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Vinnieborough",
+              "street": "Forrest Trail",
+              "house": 24,
+              "flat": 529
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:13:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5fdc1c508c5d5e14416e",
+          "products": [
+            {
+              "_id": "694e5fdf1c508c5d5e144365",
+              "name": "Fish14047",
+              "amount": 614,
+              "price": 72370,
+              "manufacturer": "Xiaomi",
+              "notes": "f7q2to8w8dUKpJSGug0kdVr8F9pGEXfWPPxCRCuz34AL0QENO9kR4Z116ZJBitycxFqsOgQgUZjRuA3QJMF99PKzKJMxvctc6FRJMbfIdbP6v7dow4Pe4jLH9SHml6N9W4JRveexB5QLZdHP1fy6pW2j5Aw3ruSTHROGlHky2S4WcxhkG7a8NOIvnl3Zy4oMtDOauUqEiq8c9DSl1P03Rv8gtDexiJBLgqmHVCO6ybNSvs9yBm5ja50WnA",
+              "received": false
+            }
+          ],
+          "total_price": 72370,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Vinnieborough",
+              "street": "Forrest Trail",
+              "house": 24,
+              "flat": 529
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:13:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e5fdc1c508c5d5e14416e",
+          "products": [
+            {
+              "_id": "694e5fdf1c508c5d5e144365",
+              "name": "Fish14047",
+              "amount": 614,
+              "price": 72370,
+              "manufacturer": "Xiaomi",
+              "notes": "f7q2to8w8dUKpJSGug0kdVr8F9pGEXfWPPxCRCuz34AL0QENO9kR4Z116ZJBitycxFqsOgQgUZjRuA3QJMF99PKzKJMxvctc6FRJMbfIdbP6v7dow4Pe4jLH9SHml6N9W4JRveexB5QLZdHP1fy6pW2j5Aw3ruSTHROGlHky2S4WcxhkG7a8NOIvnl3Zy4oMtDOauUqEiq8c9DSl1P03Rv8gtDexiJBLgqmHVCO6ybNSvs9yBm5ja50WnA",
+              "received": false
+            }
+          ],
+          "total_price": 72370,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

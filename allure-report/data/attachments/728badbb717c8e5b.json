@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-OID2XbQI0JzkMbG4B0UnOwFuNDQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e5fbe1c508c5d5e142f65",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5fbd1c508c5d5e142efe",
+        "email": "Luella_OConnell@gmail.com",
+        "name": "Pedro Kilback",
+        "country": "Canada",
+        "city": "Breitenbergberg",
+        "street": "Spruce Street",
+        "house": 21,
+        "flat": 394,
+        "phone": "+14672269631",
+        "createdOn": "2025-12-26T10:13:17.000Z",
+        "notes": "9GG8GWxibR6wnSbKZ4ii99meB1IIGpFojymRljEykMHs5440pdlc1lHIfAZXAVK0CnRp7k4nLiNKvrec7lrzvPdgmlz5Uto2v8Ne2X15EhHV2AYv3kmsSh2W9wpmGr4omrkvx4tooUkQln0CNwKCWiqHUYqJJiNUeKVMyUlPNQXcGemQlMqEXjHrS0oBWDLqHDnp4BjXC640tTyVfOwG72TQ1Ac3SHpcW57ronkquMwDEhSU1mhlYSUYMq"
+      },
+      "products": [
+        {
+          "_id": "694e5fbd1c508c5d5e142f37",
+          "name": "Shirt89383",
+          "amount": 448,
+          "price": 92769,
+          "manufacturer": "Apple",
+          "notes": "oBfRTTLVW1UNfoXZjV1KkjS8t4BuOqJ0ytqkjllpXblauYhLOGDQsSjeiVVNBMm1ivI4gykLa3s7rN1FmWGnIGTx8dJQS0JZLXQUNUguuu6ueHYl65BYknQRdQuUqvdrzS99zZuPIVIbEhT75PTu6I0nd6c8Pe9FAGaTpLFGigsvQNzkJLbMAXwZZhAevR2KgrXHxEbG9qG4MFPas55Nf5KCl9iGwYO0lamuWuoKWXCo5gxQ8BrUw9XxPW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92769,
+      "createdOn": "2025-12-26T10:13:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5fbd1c508c5d5e142efe",
+          "products": [
+            {
+              "_id": "694e5fbd1c508c5d5e142f37",
+              "name": "Shirt89383",
+              "amount": 448,
+              "price": 92769,
+              "manufacturer": "Apple",
+              "notes": "oBfRTTLVW1UNfoXZjV1KkjS8t4BuOqJ0ytqkjllpXblauYhLOGDQsSjeiVVNBMm1ivI4gykLa3s7rN1FmWGnIGTx8dJQS0JZLXQUNUguuu6ueHYl65BYknQRdQuUqvdrzS99zZuPIVIbEhT75PTu6I0nd6c8Pe9FAGaTpLFGigsvQNzkJLbMAXwZZhAevR2KgrXHxEbG9qG4MFPas55Nf5KCl9iGwYO0lamuWuoKWXCo5gxQ8BrUw9XxPW",
+              "received": false
+            }
+          ],
+          "total_price": 92769,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

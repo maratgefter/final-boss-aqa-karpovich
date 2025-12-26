@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:13:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2672",
+    "etag": "W/\"a70-g6ExXqkAEBua9QlixZBnQIz6dCM\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e5fc51c508c5d5e14333b",
+        "email": "Therese_Hagenes@hotmail.com",
+        "name": "Lorenza Bernhard",
+        "country": "Canada",
+        "city": "Laguna Niguel",
+        "street": "Wehner Causeway",
+        "house": 5,
+        "flat": 36,
+        "phone": "+16289490341",
+        "createdOn": "2025-12-26T10:13:25.000Z",
+        "notes": "IvTXZdGGnSCkPB7klU87kvdDw21bVjjIA4d9metlgWlweNX2YFhEAb3U7e19BEbcoGQm1LJ5Q5IUTqTmZqWtsbNP2JoO8MdyTsLvrcGoXNmKqQfrFnphpXylNJTncZdHQEJ3kFeAklwYUTzBnf6LDtFwrFQkduyWpKnfU3GtCacwlYOsYYO22Vva3dX7Ke3ElkK5WwOvaZmDMaZS0DvfFkVBXHysvNzsI4z4rZ88khejBcrjQjNvh7eaKW"
+      },
+      "products": [
+        {
+          "_id": "694e5fc61c508c5d5e1433c1",
+          "name": "Cheese15578",
+          "amount": 156,
+          "price": 41059,
+          "manufacturer": "Amazon",
+          "notes": "VQvLZNkOaVykqLPgnUWire1rYIK7kPyzixfkw8aUBrFgJZAEImS0DsIFc6aPKabkhGh0rd0A6kFVSfsKuS74rvYXBcx849CbIiZDzfDyWWKXoDJ7kWzmIvVY4ZgNLIADPUFyT0U1iSHA0pggRgCSinqlvmpPhJ1cyYKeOmvPhHInyCHvt6MdCb1VNhmZsA0SjDTGEYApYg2kuEm4vAt78c0NlEdeGHhLANnJMPaIr3GtiwjfMmkq2Znr2g",
+          "received": false
+        },
+        {
+          "_id": "694e5fc71c508c5d5e143475",
+          "name": "Keyboard63528",
+          "amount": 10,
+          "price": 30750,
+          "manufacturer": "Microsoft",
+          "notes": "WeYZqM7QI1917yd8AMSR32y0p34HWALMxOGoyvEsKWGG93Q4DeYGvzFxVRN4CYIDqFqjxofb2FgigDOBleFaglRXvHVozkZhMLotsUggwOcID5XyISvUo8H7gPinsVV1oSH5DSUu0PVFPgK0sBgo3dSmWIubw5lsInnjid5Yoo9Vwb5BDF8fTnzrqHgEb8ECU1iNYxPHXyzJO6O2VImPR7a85o8LJgfCiqS5TKMrfV7MCBZzwp2c1Ydyft",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71809,
+      "createdOn": "2025-12-26T10:13:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e5fc51c508c5d5e14333b",
+          "products": [
+            {
+              "_id": "694e5fc61c508c5d5e1433c1",
+              "name": "Cheese15578",
+              "amount": 156,
+              "price": 41059,
+              "manufacturer": "Amazon",
+              "notes": "VQvLZNkOaVykqLPgnUWire1rYIK7kPyzixfkw8aUBrFgJZAEImS0DsIFc6aPKabkhGh0rd0A6kFVSfsKuS74rvYXBcx849CbIiZDzfDyWWKXoDJ7kWzmIvVY4ZgNLIADPUFyT0U1iSHA0pggRgCSinqlvmpPhJ1cyYKeOmvPhHInyCHvt6MdCb1VNhmZsA0SjDTGEYApYg2kuEm4vAt78c0NlEdeGHhLANnJMPaIr3GtiwjfMmkq2Znr2g",
+              "received": false
+            },
+            {
+              "_id": "694e5fc71c508c5d5e143475",
+              "name": "Keyboard63528",
+              "amount": 10,
+              "price": 30750,
+              "manufacturer": "Microsoft",
+              "notes": "WeYZqM7QI1917yd8AMSR32y0p34HWALMxOGoyvEsKWGG93Q4DeYGvzFxVRN4CYIDqFqjxofb2FgigDOBleFaglRXvHVozkZhMLotsUggwOcID5XyISvUo8H7gPinsVV1oSH5DSUu0PVFPgK0sBgo3dSmWIubw5lsInnjid5Yoo9Vwb5BDF8fTnzrqHgEb8ECU1iNYxPHXyzJO6O2VImPR7a85o8LJgfCiqS5TKMrfV7MCBZzwp2c1Ydyft",
+              "received": false
+            }
+          ],
+          "total_price": 71809,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:13:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e5fc81c508c5d5e1434f4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
