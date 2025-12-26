@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:25:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-vlgPsRIWEH+9lnVXtLWBySTksqo\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694e62ac1c508c5d5e144f33",
+        "email": "John_Hartmann@hotmail.com",
+        "name": "Lionel Bednar",
+        "country": "Great Britain",
+        "city": "Dinaboro",
+        "street": "Jacobs Ports",
+        "house": 48,
+        "flat": 119,
+        "phone": "+19567616335",
+        "createdOn": "2025-12-26T10:25:48.000Z",
+        "notes": "uAF4xRpErLqkbwxd4yQumOAEWAyMCqqnseqooTBW1mj8asq9ddt0Aq3zTsaAJBdOQ0GNTTgnvzt7SRDAwpRChdEs6w9CQo5w9L7ngNBZwbFndWizE6cvVQw19TRVg1VmkezCnDzwDaoVv88qCl0tODGTTzvOtcILRFVeIt8KgqmLatW3oRCEnbQBIXLBt5STq4YvQL8T7ndQAbPHpCJ5SMZXMAyT7yjGJAPzTisi4LHbd81TM7tMTCg3cM"
+      },
+      "products": [
+        {
+          "_id": "694e62ac1c508c5d5e144f5f",
+          "name": "Towels94536",
+          "amount": 902,
+          "price": 31677,
+          "manufacturer": "Microsoft",
+          "notes": "8cISMPkZwixTvMJkBDoLehB3tCqgqyaIyGMSvpQxRu4raWMfD2WZSbhEUhEO631oQ3w5mgBWFWtEnUpDSaXjbeoTX70oxaBDZLXd8jG4lVpX5pO5t1m2ZzlN83gaszVTXymi2dSbyWp8bA8YIybTnMHkDwT7jLu1b9rC5vRt7sel1FEr0e9EQr3XXvOvOj07YlegOd5qf9tnlKpR5NaTcMqWHstpbOnIwUp3uOd2JDq2ZdXWgIh67wWFFb",
+          "received": false
+        },
+        {
+          "_id": "694e62ad1c508c5d5e144f77",
+          "name": "Shirt30043",
+          "amount": 299,
+          "price": 18751,
+          "manufacturer": "Microsoft",
+          "notes": "GpSDn7x3BzapvAkDmSDNNh3rPQ8xrhkvtoZ2xs0U1WDjlA0cuuOZs785sEA1rXGg7N7HpJpyuzrgbgC3V5DSyQqpJ7q9LQmhhSEZJaQrPWG59P9X65brwHp43mWoFwh02xa4zmGq9f3vm5dlZ7Bf1s0sbHJtFW8WtFuXmgvzuLCnEBFUp8bcML3W1OmkJixJTD4qe0YJXxHl3WTdGyzVXrwWJlWIZLlWzLve0gWDOUVRBpyF3P7RB0KgmR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50428,
+      "createdOn": "2025-12-26T10:25:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e62ac1c508c5d5e144f33",
+          "products": [
+            {
+              "_id": "694e62ac1c508c5d5e144f5f",
+              "name": "Towels94536",
+              "amount": 902,
+              "price": 31677,
+              "manufacturer": "Microsoft",
+              "notes": "8cISMPkZwixTvMJkBDoLehB3tCqgqyaIyGMSvpQxRu4raWMfD2WZSbhEUhEO631oQ3w5mgBWFWtEnUpDSaXjbeoTX70oxaBDZLXd8jG4lVpX5pO5t1m2ZzlN83gaszVTXymi2dSbyWp8bA8YIybTnMHkDwT7jLu1b9rC5vRt7sel1FEr0e9EQr3XXvOvOj07YlegOd5qf9tnlKpR5NaTcMqWHstpbOnIwUp3uOd2JDq2ZdXWgIh67wWFFb",
+              "received": false
+            },
+            {
+              "_id": "694e62ad1c508c5d5e144f77",
+              "name": "Shirt30043",
+              "amount": 299,
+              "price": 18751,
+              "manufacturer": "Microsoft",
+              "notes": "GpSDn7x3BzapvAkDmSDNNh3rPQ8xrhkvtoZ2xs0U1WDjlA0cuuOZs785sEA1rXGg7N7HpJpyuzrgbgC3V5DSyQqpJ7q9LQmhhSEZJaQrPWG59P9X65brwHp43mWoFwh02xa4zmGq9f3vm5dlZ7Bf1s0sbHJtFW8WtFuXmgvzuLCnEBFUp8bcML3W1OmkJixJTD4qe0YJXxHl3WTdGyzVXrwWJlWIZLlWzLve0gWDOUVRBpyF3P7RB0KgmR",
+              "received": false
+            }
+          ],
+          "total_price": 50428,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:25:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694e62ad1c508c5d5e144f97"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 10:26:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5380",
+    "etag": "W/\"1504-z+gQFTo6NDKqJcUuuPDDAfaYA64\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e62c91c508c5d5e14610d",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e62c11c508c5d5e145adc",
+        "email": "Noemy80@yahoo.com",
+        "name": "Laron Rogahn",
+        "country": "USA",
+        "city": "Ahmadtown",
+        "street": "Quigley Station",
+        "house": 19,
+        "flat": 413,
+        "phone": "+14747808837",
+        "createdOn": "2025-12-26T10:26:09.000Z",
+        "notes": "Lg3HStr9bFt2IORqG2U50kLlORK1KemScqBlLpZdoP9IFlwG4Wudz4Yga5KzQD0lGILf9qhdUMOkCKvpKQEijwb6xoocVV0FOtLTeJNQokKS7vMgqUcPIXlFJcJGg2Nz4aUpQJAQM19Tpx5E919cyYtbkC5HNEg657Adlag8oG8Qo88HmNtNKPpioLKetyTfEb3wAAw8gaTKll1R3v5PChtDHNMng5UMB9MibYC2ubjvgxtF53QxrBHOJh"
+      },
+      "products": [
+        {
+          "_id": "694e62c11c508c5d5e145af9",
+          "name": "Soap89222",
+          "amount": 505,
+          "price": 95900,
+          "manufacturer": "Tesla",
+          "notes": "Ca2eADJ9tUYD54xs1BAKZxU2VItiQihYZ32AwIuryCPf028o6iX6kIT0ogcthkksjg4wBEsrPiniFJ6iItVnn9DefVquDbcSPE8a4EcYbGBqXKONYGqD9zfD8j6YtnTgQt0GYKu64wSx7MeWsLUW83KLxhjfBe2ofRt6DhPu2dUqxjT0zDkkDdFBiYF9BkSihg50Pe9OvSHhleh5vZTTffNeB1KXMudk1hZf4lZwPCJ5dY2bMIbPix7swq",
+          "received": false
+        },
+        {
+          "_id": "694e62c21c508c5d5e145e6e",
+          "name": "Car40395",
+          "amount": 525,
+          "price": 44352,
+          "manufacturer": "Apple",
+          "notes": "Fpo6RtqRON8ayEr6LRFWnyApwOCVGw7RVO86Z9ao29RXSmdqJ19Anfehje5BqAR3VSiljt1pDd4upwpKxRHOWuzaw6aISpQLLDhDlR4pcDkJQHDwmvzTblDQBsCekAb4kxyTOtFvasfMpEsBuUTldehuiD8A17j6qhnQG32emGWQYeUDGGvY8TlZcRmfooukNhuZzb1nZQrLlOvp3Ph9l3WNQZqtmzD8ZZgTwU9UVn2nxl3giWFiqTrryD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Ahmadtown",
+          "street": "Quigley Station",
+          "house": 19,
+          "flat": 413
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 140252,
+      "createdOn": "2025-12-26T10:26:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e62c11c508c5d5e145adc",
+          "products": [
+            {
+              "_id": "694e62c11c508c5d5e145af9",
+              "name": "Soap89222",
+              "amount": 505,
+              "price": 95900,
+              "manufacturer": "Tesla",
+              "notes": "Ca2eADJ9tUYD54xs1BAKZxU2VItiQihYZ32AwIuryCPf028o6iX6kIT0ogcthkksjg4wBEsrPiniFJ6iItVnn9DefVquDbcSPE8a4EcYbGBqXKONYGqD9zfD8j6YtnTgQt0GYKu64wSx7MeWsLUW83KLxhjfBe2ofRt6DhPu2dUqxjT0zDkkDdFBiYF9BkSihg50Pe9OvSHhleh5vZTTffNeB1KXMudk1hZf4lZwPCJ5dY2bMIbPix7swq",
+              "received": false
+            },
+            {
+              "_id": "694e62c21c508c5d5e145e6e",
+              "name": "Car40395",
+              "amount": 525,
+              "price": 44352,
+              "manufacturer": "Apple",
+              "notes": "Fpo6RtqRON8ayEr6LRFWnyApwOCVGw7RVO86Z9ao29RXSmdqJ19Anfehje5BqAR3VSiljt1pDd4upwpKxRHOWuzaw6aISpQLLDhDlR4pcDkJQHDwmvzTblDQBsCekAb4kxyTOtFvasfMpEsBuUTldehuiD8A17j6qhnQG32emGWQYeUDGGvY8TlZcRmfooukNhuZzb1nZQrLlOvp3Ph9l3WNQZqtmzD8ZZgTwU9UVn2nxl3giWFiqTrryD",
+              "received": false
+            }
+          ],
+          "total_price": 140252,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Ahmadtown",
+              "street": "Quigley Station",
+              "house": 19,
+              "flat": 413
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:26:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e62c11c508c5d5e145adc",
+          "products": [
+            {
+              "_id": "694e62c11c508c5d5e145af9",
+              "name": "Soap89222",
+              "amount": 505,
+              "price": 95900,
+              "manufacturer": "Tesla",
+              "notes": "Ca2eADJ9tUYD54xs1BAKZxU2VItiQihYZ32AwIuryCPf028o6iX6kIT0ogcthkksjg4wBEsrPiniFJ6iItVnn9DefVquDbcSPE8a4EcYbGBqXKONYGqD9zfD8j6YtnTgQt0GYKu64wSx7MeWsLUW83KLxhjfBe2ofRt6DhPu2dUqxjT0zDkkDdFBiYF9BkSihg50Pe9OvSHhleh5vZTTffNeB1KXMudk1hZf4lZwPCJ5dY2bMIbPix7swq",
+              "received": false
+            },
+            {
+              "_id": "694e62c21c508c5d5e145e6e",
+              "name": "Car40395",
+              "amount": 525,
+              "price": 44352,
+              "manufacturer": "Apple",
+              "notes": "Fpo6RtqRON8ayEr6LRFWnyApwOCVGw7RVO86Z9ao29RXSmdqJ19Anfehje5BqAR3VSiljt1pDd4upwpKxRHOWuzaw6aISpQLLDhDlR4pcDkJQHDwmvzTblDQBsCekAb4kxyTOtFvasfMpEsBuUTldehuiD8A17j6qhnQG32emGWQYeUDGGvY8TlZcRmfooukNhuZzb1nZQrLlOvp3Ph9l3WNQZqtmzD8ZZgTwU9UVn2nxl3giWFiqTrryD",
+              "received": false
+            }
+          ],
+          "total_price": 140252,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Ahmadtown",
+              "street": "Quigley Station",
+              "house": 19,
+              "flat": 413
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T10:26:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e62c11c508c5d5e145adc",
+          "products": [
+            {
+              "_id": "694e62c11c508c5d5e145af9",
+              "name": "Soap89222",
+              "amount": 505,
+              "price": 95900,
+              "manufacturer": "Tesla",
+              "notes": "Ca2eADJ9tUYD54xs1BAKZxU2VItiQihYZ32AwIuryCPf028o6iX6kIT0ogcthkksjg4wBEsrPiniFJ6iItVnn9DefVquDbcSPE8a4EcYbGBqXKONYGqD9zfD8j6YtnTgQt0GYKu64wSx7MeWsLUW83KLxhjfBe2ofRt6DhPu2dUqxjT0zDkkDdFBiYF9BkSihg50Pe9OvSHhleh5vZTTffNeB1KXMudk1hZf4lZwPCJ5dY2bMIbPix7swq",
+              "received": false
+            },
+            {
+              "_id": "694e62c21c508c5d5e145e6e",
+              "name": "Car40395",
+              "amount": 525,
+              "price": 44352,
+              "manufacturer": "Apple",
+              "notes": "Fpo6RtqRON8ayEr6LRFWnyApwOCVGw7RVO86Z9ao29RXSmdqJ19Anfehje5BqAR3VSiljt1pDd4upwpKxRHOWuzaw6aISpQLLDhDlR4pcDkJQHDwmvzTblDQBsCekAb4kxyTOtFvasfMpEsBuUTldehuiD8A17j6qhnQG32emGWQYeUDGGvY8TlZcRmfooukNhuZzb1nZQrLlOvp3Ph9l3WNQZqtmzD8ZZgTwU9UVn2nxl3giWFiqTrryD",
+              "received": false
+            }
+          ],
+          "total_price": 140252,
+          "delivery": null,
+          "changedOn": "2025-12-26T10:26:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
