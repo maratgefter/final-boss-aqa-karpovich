@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-6JBRpQWYG/XsYyj21kJM9Dhjokg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b471c508c5d5e3217e5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b461c508c5d5e32176d",
+        "email": "Tillman20@gmail.com",
+        "name": "Henriette Schiller",
+        "country": "Germany",
+        "city": "Colinhaven",
+        "street": "Wilderman Circle",
+        "house": 16,
+        "flat": 335,
+        "phone": "+14495215114",
+        "createdOn": "2025-12-26T22:25:10.000Z",
+        "notes": "Ha8ZCLk4UKeTDkjFILyoO29EQILqEhhFrMCs60LDi1Fi1YNXa5TmuxzTbYG2gSYnwHEbespIbMlUtl8I3GtOzJGvlqaQ9rHXsyaExi5i40FOUs73JElBPyKLL2dHznNMDGa9oXMW21hIzE2tidKYYs6PMWbH1dCtTEpAftKdKfX1C8ow0YY0rqEFaq1J5F1B0139j1qSjBq9zmHtMf3udwf6mJJZ9SWaGXFxbFmKSDag8VvxyyY8Ygw1sC"
+      },
+      "products": [
+        {
+          "_id": "694f0b461c508c5d5e3217cd",
+          "name": "Sausages67404",
+          "amount": 381,
+          "price": 77076,
+          "manufacturer": "Sony",
+          "notes": "6REtTom4VlD9TqEXwIs5ZIBwJpPfsvO5ZpEAKoIVz4eV1WTszLBmSx5TrjhlSbUPQz7Ulogi130Soyi6prgdCtxE3zV8n1rk4bRRHmqzM4859kBjGzG5JhlOUhi7ICNyWmOuEOEHWIf4wcLy3OVrpPJUguI9QB9lLpduXlHUpqtMGdOyq29VFcXgMfMSOLuT9QvbrWtBoTzca4dBfuMoTcHm1YXDKy7R37RgXq0AOCvvdK3GLnr6MhKgg2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Tulsa",
+          "street": "Western Road",
+          "house": 19,
+          "flat": 541
+        },
+        "finalDate": "2025-12-26T22:25:11.242Z",
+        "condition": "Pickup"
+      },
+      "total_price": 77076,
+      "createdOn": "2025-12-26T22:25:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b461c508c5d5e32176d",
+          "products": [
+            {
+              "_id": "694f0b461c508c5d5e3217cd",
+              "name": "Sausages67404",
+              "amount": 381,
+              "price": 77076,
+              "manufacturer": "Sony",
+              "notes": "6REtTom4VlD9TqEXwIs5ZIBwJpPfsvO5ZpEAKoIVz4eV1WTszLBmSx5TrjhlSbUPQz7Ulogi130Soyi6prgdCtxE3zV8n1rk4bRRHmqzM4859kBjGzG5JhlOUhi7ICNyWmOuEOEHWIf4wcLy3OVrpPJUguI9QB9lLpduXlHUpqtMGdOyq29VFcXgMfMSOLuT9QvbrWtBoTzca4dBfuMoTcHm1YXDKy7R37RgXq0AOCvvdK3GLnr6MhKgg2",
+              "received": false
+            }
+          ],
+          "total_price": 77076,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Tulsa",
+              "street": "Western Road",
+              "house": 19,
+              "flat": 541
+            },
+            "finalDate": "2025-12-26T22:25:11.242Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b461c508c5d5e32176d",
+          "products": [
+            {
+              "_id": "694f0b461c508c5d5e3217cd",
+              "name": "Sausages67404",
+              "amount": 381,
+              "price": 77076,
+              "manufacturer": "Sony",
+              "notes": "6REtTom4VlD9TqEXwIs5ZIBwJpPfsvO5ZpEAKoIVz4eV1WTszLBmSx5TrjhlSbUPQz7Ulogi130Soyi6prgdCtxE3zV8n1rk4bRRHmqzM4859kBjGzG5JhlOUhi7ICNyWmOuEOEHWIf4wcLy3OVrpPJUguI9QB9lLpduXlHUpqtMGdOyq29VFcXgMfMSOLuT9QvbrWtBoTzca4dBfuMoTcHm1YXDKy7R37RgXq0AOCvvdK3GLnr6MhKgg2",
+              "received": false
+            }
+          ],
+          "total_price": 77076,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

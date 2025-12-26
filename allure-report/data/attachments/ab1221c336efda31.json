@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4813",
+    "etag": "W/\"12cd-D9lECe7iF58sNo9fpdKlD7qUUCU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b521c508c5d5e321f6d",
+      "status": "Received",
+      "customer": {
+        "_id": "694f0b4f1c508c5d5e321f3c",
+        "email": "Cleve.Davis@hotmail.com",
+        "name": "Forest Kuphal",
+        "country": "Great Britain",
+        "city": "Virgilshire",
+        "street": "Park Place",
+        "house": 34,
+        "flat": 701,
+        "phone": "+17149821400",
+        "createdOn": "2025-12-26T22:25:19.000Z",
+        "notes": "9IioSrivhO6n4ynB9XBw7TAh1JRP9qxU2g1cX9JcHkmkRg200JSd137b5CGtUByMtGDtf57jUhWb0XRYEFgweGgrTnjKaUEuR9OcDQ6SvbEBdwiMj4MrAGasTnECmwmC8cOFUBHD6AcXRW4t443baY0c6O88LeGKmpdUVwUiCDG4zM6naZdMlKes1V65MemfkNCDSe4GhInDUHgIhajzJQjv7ZkYU0IxYcrbd3z0Ox5hBqOtTAUgGTCxDZ"
+      },
+      "products": [
+        {
+          "_id": "694f0b521c508c5d5e321f63",
+          "name": "Chair62328",
+          "amount": 854,
+          "price": 22356,
+          "manufacturer": "Google",
+          "notes": "qbRQuvo6gFNidyJ3IZWWP57n7vHeZoi42qhnKCDgiWatSOuIP7lh1XuNt2NMT5l9v4Nd38Ymp2voyT98LaGRFfsMKaDKi9SOjv9JhhwbRwVLRhH1cIhsCTn39MErYHR4uPDzcnukGwvJgtcwqTZ2l1lQTng6se4EBmb5S3DtRd4T9MwQNpSwSkHgrO9DaEVrQFLCge0ajqiY29ljE8vKTmynhfgu796Rk9iMa13eDyA2MHW7GZ4chsVX4e",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Virgilshire",
+          "street": "Park Place",
+          "house": 34,
+          "flat": 701
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22356,
+      "createdOn": "2025-12-26T22:25:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694f0b4f1c508c5d5e321f3c",
+          "products": [
+            {
+              "_id": "694f0b521c508c5d5e321f63",
+              "name": "Chair62328",
+              "amount": 854,
+              "price": 22356,
+              "manufacturer": "Google",
+              "notes": "qbRQuvo6gFNidyJ3IZWWP57n7vHeZoi42qhnKCDgiWatSOuIP7lh1XuNt2NMT5l9v4Nd38Ymp2voyT98LaGRFfsMKaDKi9SOjv9JhhwbRwVLRhH1cIhsCTn39MErYHR4uPDzcnukGwvJgtcwqTZ2l1lQTng6se4EBmb5S3DtRd4T9MwQNpSwSkHgrO9DaEVrQFLCge0ajqiY29ljE8vKTmynhfgu796Rk9iMa13eDyA2MHW7GZ4chsVX4e",
+              "received": true
+            }
+          ],
+          "total_price": 22356,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Virgilshire",
+              "street": "Park Place",
+              "house": 34,
+              "flat": 701
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:26.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694f0b4f1c508c5d5e321f3c",
+          "products": [
+            {
+              "_id": "694f0b521c508c5d5e321f63",
+              "name": "Chair62328",
+              "amount": 854,
+              "price": 22356,
+              "manufacturer": "Google",
+              "notes": "qbRQuvo6gFNidyJ3IZWWP57n7vHeZoi42qhnKCDgiWatSOuIP7lh1XuNt2NMT5l9v4Nd38Ymp2voyT98LaGRFfsMKaDKi9SOjv9JhhwbRwVLRhH1cIhsCTn39MErYHR4uPDzcnukGwvJgtcwqTZ2l1lQTng6se4EBmb5S3DtRd4T9MwQNpSwSkHgrO9DaEVrQFLCge0ajqiY29ljE8vKTmynhfgu796Rk9iMa13eDyA2MHW7GZ4chsVX4e",
+              "received": false
+            }
+          ],
+          "total_price": 22356,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Virgilshire",
+              "street": "Park Place",
+              "house": 34,
+              "flat": 701
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b4f1c508c5d5e321f3c",
+          "products": [
+            {
+              "_id": "694f0b521c508c5d5e321f63",
+              "name": "Chair62328",
+              "amount": 854,
+              "price": 22356,
+              "manufacturer": "Google",
+              "notes": "qbRQuvo6gFNidyJ3IZWWP57n7vHeZoi42qhnKCDgiWatSOuIP7lh1XuNt2NMT5l9v4Nd38Ymp2voyT98LaGRFfsMKaDKi9SOjv9JhhwbRwVLRhH1cIhsCTn39MErYHR4uPDzcnukGwvJgtcwqTZ2l1lQTng6se4EBmb5S3DtRd4T9MwQNpSwSkHgrO9DaEVrQFLCge0ajqiY29ljE8vKTmynhfgu796Rk9iMa13eDyA2MHW7GZ4chsVX4e",
+              "received": false
+            }
+          ],
+          "total_price": 22356,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Virgilshire",
+              "street": "Park Place",
+              "house": 34,
+              "flat": 701
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b4f1c508c5d5e321f3c",
+          "products": [
+            {
+              "_id": "694f0b521c508c5d5e321f63",
+              "name": "Chair62328",
+              "amount": 854,
+              "price": 22356,
+              "manufacturer": "Google",
+              "notes": "qbRQuvo6gFNidyJ3IZWWP57n7vHeZoi42qhnKCDgiWatSOuIP7lh1XuNt2NMT5l9v4Nd38Ymp2voyT98LaGRFfsMKaDKi9SOjv9JhhwbRwVLRhH1cIhsCTn39MErYHR4uPDzcnukGwvJgtcwqTZ2l1lQTng6se4EBmb5S3DtRd4T9MwQNpSwSkHgrO9DaEVrQFLCge0ajqiY29ljE8vKTmynhfgu796Rk9iMa13eDyA2MHW7GZ4chsVX4e",
+              "received": false
+            }
+          ],
+          "total_price": 22356,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

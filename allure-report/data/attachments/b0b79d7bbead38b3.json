@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-bZIQLPFRMJB7AqW9BZTOKIxMQBg\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b571c508c5d5e3222c2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b551c508c5d5e322178",
+        "email": "Erich.Gulgowski@yahoo.com",
+        "name": "Lorenz Mills",
+        "country": "Canada",
+        "city": "Ismaelfort",
+        "street": "Hills Dale",
+        "house": 36,
+        "flat": 14,
+        "phone": "+18249101809",
+        "createdOn": "2025-12-26T22:25:25.000Z",
+        "notes": "Jb5kzAFMCsJBJ8Oz26YlZuFFjMe1IBgXubggFpgeBp7OaqsUW3VlHGREwnFzhTpsWKDMztaAEernoxKVjCAKXHz84eg8tSNdm7MeokEbLum6HKriGUbcaiPtn1HzwHVGt33UbtvfY1tdjI9nUVTakGBkOtZYcUc5yhZS7wbgpJLg6sCuiAYk8aV4pmnt0y7aPdRHIH7a0vsHA19lblmN5vJlkdWcGAfn99VcC2dPh4NT7mYqSqXMTlqZyy"
+      },
+      "products": [
+        {
+          "_id": "694f0b571c508c5d5e3222a4",
+          "name": "Bacon3176",
+          "amount": 727,
+          "price": 17659,
+          "manufacturer": "Samsung",
+          "notes": "7IgNfxZnCzimVb3mHOnzymEoSfVSIvKpeqGRiV1ykMcdp0AkZ3sV0AkzRVETwGsd0hR1RRM0FuHqrfN2Y1dPual8IQoBj9C6DCBUBsZXVPBQXeKFZ8dtK1yFrquzWu4Cy75rqDXWSx6WZbBMIKBtd8KVlGxSpX05Hmih7k6bWsBlJN3La1ARGZm241c4hGXcxGVnxJINvfAj8h4uDxgKFpK3GHQlSv1M87d1vxkUeVKUTICLmayUBaOes3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Ismaelfort",
+          "street": "Hills Dale",
+          "house": 36,
+          "flat": 14
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 17659,
+      "createdOn": "2025-12-26T22:25:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b551c508c5d5e322178",
+          "products": [
+            {
+              "_id": "694f0b571c508c5d5e3222a4",
+              "name": "Bacon3176",
+              "amount": 727,
+              "price": 17659,
+              "manufacturer": "Samsung",
+              "notes": "7IgNfxZnCzimVb3mHOnzymEoSfVSIvKpeqGRiV1ykMcdp0AkZ3sV0AkzRVETwGsd0hR1RRM0FuHqrfN2Y1dPual8IQoBj9C6DCBUBsZXVPBQXeKFZ8dtK1yFrquzWu4Cy75rqDXWSx6WZbBMIKBtd8KVlGxSpX05Hmih7k6bWsBlJN3La1ARGZm241c4hGXcxGVnxJINvfAj8h4uDxgKFpK3GHQlSv1M87d1vxkUeVKUTICLmayUBaOes3",
+              "received": false
+            }
+          ],
+          "total_price": 17659,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ismaelfort",
+              "street": "Hills Dale",
+              "house": 36,
+              "flat": 14
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b551c508c5d5e322178",
+          "products": [
+            {
+              "_id": "694f0b571c508c5d5e3222a4",
+              "name": "Bacon3176",
+              "amount": 727,
+              "price": 17659,
+              "manufacturer": "Samsung",
+              "notes": "7IgNfxZnCzimVb3mHOnzymEoSfVSIvKpeqGRiV1ykMcdp0AkZ3sV0AkzRVETwGsd0hR1RRM0FuHqrfN2Y1dPual8IQoBj9C6DCBUBsZXVPBQXeKFZ8dtK1yFrquzWu4Cy75rqDXWSx6WZbBMIKBtd8KVlGxSpX05Hmih7k6bWsBlJN3La1ARGZm241c4hGXcxGVnxJINvfAj8h4uDxgKFpK3GHQlSv1M87d1vxkUeVKUTICLmayUBaOes3",
+              "received": false
+            }
+          ],
+          "total_price": 17659,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4093",
+    "etag": "W/\"ffd-7vQa/JMYSG/UxRO7OcT8hunNrWc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b651c508c5d5e32295f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b621c508c5d5e3228dc",
+        "email": "Rose_Batz@gmail.com",
+        "name": "Albertha Volkman",
+        "country": "Canada",
+        "city": "Korbinhaven",
+        "street": "Park Avenue",
+        "house": 45,
+        "flat": 882,
+        "phone": "+15693980657",
+        "createdOn": "2025-12-26T22:25:38.000Z",
+        "notes": "wuaKfmgiuJnzzlNJLanGjItipxQNC8vmab8Kry3EFLnJXLt7QVbGWEOcMsgE1lXRTq3UP9h2Wru2I7ly9qpxA0BmoWNuCe6hRB66TzMDoPZXEjaXET6m5QqDf70dQyY7aFVSrlNLWwpzyRAa3RbvI2XpqjwiP3kWufUgRk82Xmr9FymLRnxgwc6ABHJJizRrA9dUUAw5pEAAWWM4xp6gBsjRPQDRTA9YWPyr8okTl5Tm8kx6yRsZ13TW4y"
+      },
+      "products": [
+        {
+          "_id": "694f0b631c508c5d5e322922",
+          "name": "Pants39100",
+          "amount": 753,
+          "price": 49876,
+          "manufacturer": "Tesla",
+          "notes": "gfehv01Ls34gY91GKJCYdVKNmVNrXYX6CZSit1ecDpfi4giqZL8KoV81u3kNkYoR71zqeMEBCFg6W0PZCzMZWnhJlTWPvZgxIRAjA4KtKueX3rm0QKBE7g0CE5L6S1qkflLWKMh1R880eGRf4AYnk6zapnSB6MBJ8tp1flXr1q2tKLSy4959cZ4Gs2N2DkAz46pU3h6AiMR1aOGcZnEQ42FrymTF320vGEX5RxjL8M7XtIFkiMu8iLhJFz",
+          "received": false
+        },
+        {
+          "_id": "694f0b641c508c5d5e322949",
+          "name": "Hat42335",
+          "amount": 252,
+          "price": 96076,
+          "manufacturer": "Samsung",
+          "notes": "rqopw6yoMjeY6tH4eyKXkUgjDZ98zjAq1WdKFvoz0lmc97uZzA2sbLUFF7g6g3pTHeCNyiP2UpdzgvuCZTrvP69OV58yVCiNUOmyLo7Dgf05nw8vJkLx0jcv3FFFABERD5aLHxIPPJsOrM26u1b5cx7UaGwdPkJ4SNw1HLSPAjLeIiz8PEBVGDveGq956nSspHwudngecWbjXSkUeiuquNmE2zkIVp3HTjTKHZ9mPaPb25uWqPdtwg32Z0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Korbinhaven",
+          "street": "Park Avenue",
+          "house": 45,
+          "flat": 882
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 145952,
+      "createdOn": "2025-12-26T22:25:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b621c508c5d5e3228dc",
+          "products": [
+            {
+              "_id": "694f0b631c508c5d5e322922",
+              "name": "Pants39100",
+              "amount": 753,
+              "price": 49876,
+              "manufacturer": "Tesla",
+              "notes": "gfehv01Ls34gY91GKJCYdVKNmVNrXYX6CZSit1ecDpfi4giqZL8KoV81u3kNkYoR71zqeMEBCFg6W0PZCzMZWnhJlTWPvZgxIRAjA4KtKueX3rm0QKBE7g0CE5L6S1qkflLWKMh1R880eGRf4AYnk6zapnSB6MBJ8tp1flXr1q2tKLSy4959cZ4Gs2N2DkAz46pU3h6AiMR1aOGcZnEQ42FrymTF320vGEX5RxjL8M7XtIFkiMu8iLhJFz",
+              "received": false
+            },
+            {
+              "_id": "694f0b641c508c5d5e322949",
+              "name": "Hat42335",
+              "amount": 252,
+              "price": 96076,
+              "manufacturer": "Samsung",
+              "notes": "rqopw6yoMjeY6tH4eyKXkUgjDZ98zjAq1WdKFvoz0lmc97uZzA2sbLUFF7g6g3pTHeCNyiP2UpdzgvuCZTrvP69OV58yVCiNUOmyLo7Dgf05nw8vJkLx0jcv3FFFABERD5aLHxIPPJsOrM26u1b5cx7UaGwdPkJ4SNw1HLSPAjLeIiz8PEBVGDveGq956nSspHwudngecWbjXSkUeiuquNmE2zkIVp3HTjTKHZ9mPaPb25uWqPdtwg32Z0",
+              "received": false
+            }
+          ],
+          "total_price": 145952,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Korbinhaven",
+              "street": "Park Avenue",
+              "house": 45,
+              "flat": 882
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b621c508c5d5e3228dc",
+          "products": [
+            {
+              "_id": "694f0b631c508c5d5e322922",
+              "name": "Pants39100",
+              "amount": 753,
+              "price": 49876,
+              "manufacturer": "Tesla",
+              "notes": "gfehv01Ls34gY91GKJCYdVKNmVNrXYX6CZSit1ecDpfi4giqZL8KoV81u3kNkYoR71zqeMEBCFg6W0PZCzMZWnhJlTWPvZgxIRAjA4KtKueX3rm0QKBE7g0CE5L6S1qkflLWKMh1R880eGRf4AYnk6zapnSB6MBJ8tp1flXr1q2tKLSy4959cZ4Gs2N2DkAz46pU3h6AiMR1aOGcZnEQ42FrymTF320vGEX5RxjL8M7XtIFkiMu8iLhJFz",
+              "received": false
+            },
+            {
+              "_id": "694f0b641c508c5d5e322949",
+              "name": "Hat42335",
+              "amount": 252,
+              "price": 96076,
+              "manufacturer": "Samsung",
+              "notes": "rqopw6yoMjeY6tH4eyKXkUgjDZ98zjAq1WdKFvoz0lmc97uZzA2sbLUFF7g6g3pTHeCNyiP2UpdzgvuCZTrvP69OV58yVCiNUOmyLo7Dgf05nw8vJkLx0jcv3FFFABERD5aLHxIPPJsOrM26u1b5cx7UaGwdPkJ4SNw1HLSPAjLeIiz8PEBVGDveGq956nSspHwudngecWbjXSkUeiuquNmE2zkIVp3HTjTKHZ9mPaPb25uWqPdtwg32Z0",
+              "received": false
+            }
+          ],
+          "total_price": 145952,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

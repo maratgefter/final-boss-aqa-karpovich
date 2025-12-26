@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-CvjSP+osRXLdoV3mMfSu+Auhbuk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b4b1c508c5d5e321a85",
+        "email": "Tyrel_Torp2@gmail.com",
+        "name": "Drew Krajcik",
+        "country": "Belarus",
+        "city": "West Hartford",
+        "street": "Stehr Causeway",
+        "house": 14,
+        "flat": 940,
+        "phone": "+17866154067",
+        "createdOn": "2025-12-26T22:25:15.000Z",
+        "notes": "jMte0BUGQvIiqephm0Ancth4y36zcSc7hDvLt0EnQS9B5HLAkgCuxvFVgUpR5VZyqc7SbdOjjSIJPEuaZPLGZzn2QgR3dGLipQMwm17TjhABr9BvFH0xcRhOQZWped4laQxAtZ2vBd6MC7ogZA4vDi0UJHi6gCH70R1uuStcNaHlS2YZE3mL2I4levWpGPT7Bm5Pzk19vBBY4MMSCUV1RZR72stQbTtQtF6vmm5VgAK3ZznHnSutT2IJIA"
+      },
+      "products": [
+        {
+          "_id": "694f0b4c1c508c5d5e321b86",
+          "name": "Bacon16068",
+          "amount": 349,
+          "price": 92883,
+          "manufacturer": "Amazon",
+          "notes": "7ngR416ejPhZeDXgT30raGZKf2BklTDNUyNKSAxf38Hozk9b10AhkUlRMGhu9F6Q5Q0VxQjlpJuCJbvLzwGd0ztz70zLPqisg0MaCHDvkceKHT6gbtiNF6pO7IvtyvLh3egnKMt8DJ3rpOBKKLZx9VRaWcLZtvd4hxGisVinsKVnSVJ71vYm6U9pMC55STok8VbKt6TpbXxXce981VsOHcsGxcNyvYfT4xnasA5qwOjyd4uyVBAaKKuH2j",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92883,
+      "createdOn": "2025-12-26T22:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b4b1c508c5d5e321a85",
+          "products": [
+            {
+              "_id": "694f0b4c1c508c5d5e321b86",
+              "name": "Bacon16068",
+              "amount": 349,
+              "price": 92883,
+              "manufacturer": "Amazon",
+              "notes": "7ngR416ejPhZeDXgT30raGZKf2BklTDNUyNKSAxf38Hozk9b10AhkUlRMGhu9F6Q5Q0VxQjlpJuCJbvLzwGd0ztz70zLPqisg0MaCHDvkceKHT6gbtiNF6pO7IvtyvLh3egnKMt8DJ3rpOBKKLZx9VRaWcLZtvd4hxGisVinsKVnSVJ71vYm6U9pMC55STok8VbKt6TpbXxXce981VsOHcsGxcNyvYfT4xnasA5qwOjyd4uyVBAaKKuH2j",
+              "received": false
+            }
+          ],
+          "total_price": 92883,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f0b4c1c508c5d5e321ba3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

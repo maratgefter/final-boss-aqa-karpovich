@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:25:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2958",
+    "etag": "W/\"b8e-kv89YtChvEz0uaEHKvyzku3OSA0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b5a1c508c5d5e322459",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b581c508c5d5e322368",
+        "email": "Eldred_Osinski@gmail.com",
+        "name": "Makenna Klein",
+        "country": "Great Britain",
+        "city": "Port Janet",
+        "street": "Talon Trail",
+        "house": 48,
+        "flat": 639,
+        "phone": "+19272841174",
+        "createdOn": "2025-12-26T22:25:28.000Z",
+        "notes": "G4xY3Ms0uvA32UIwj1o2CGRfX0wdn00QlihrhpDLRHid10YXtsocpj4gXGFmIIPPlpGjeL2iEDAxsWtxEiztbbDtNpmftFrnIheD0BpZa6hH14CYCriIf43jllojXGG8pbT8uzrgbNCB1JqECKoOxXjxU9YzjtMz4uX5MRAdcK1qgRKtE0Gj2UgegDgGYLnJvJzpjbWS6BA2eol4h6Aftq54LQzvOey1xZGnKXdqtb4TY3s4UjdMSgFLwQ"
+      },
+      "products": [
+        {
+          "_id": "694f0b5a1c508c5d5e32243f",
+          "name": "Table83395",
+          "amount": 879,
+          "price": 36701,
+          "manufacturer": "Sony",
+          "notes": "cNgg6sBRHBSQaThMlgI7QTcY4x2TittXs2S3YpthoEDOyRrvJPOiumpMAiLbQZCVqPRNUKW6FMkGwmd0gzU57To91sn1yItEo9y2FUG6TulWVrW2h5wPwSTZFQpIp8ucme70rRT9a4Hobv5zOdYv1aL9oWAp5SV3rcLlkkRHxZ2mRPfPIcjQcwezN1dqSoWtvJ0B9gDBEixSaZ7HlAOmJ2UOP5x7q454eGBh6OwUgGHZefOXNSZZygzzN7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Janet",
+          "street": "Talon Trail",
+          "house": 48,
+          "flat": 639
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 36701,
+      "createdOn": "2025-12-26T22:25:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b581c508c5d5e322368",
+          "products": [
+            {
+              "_id": "694f0b5a1c508c5d5e32243f",
+              "name": "Table83395",
+              "amount": 879,
+              "price": 36701,
+              "manufacturer": "Sony",
+              "notes": "cNgg6sBRHBSQaThMlgI7QTcY4x2TittXs2S3YpthoEDOyRrvJPOiumpMAiLbQZCVqPRNUKW6FMkGwmd0gzU57To91sn1yItEo9y2FUG6TulWVrW2h5wPwSTZFQpIp8ucme70rRT9a4Hobv5zOdYv1aL9oWAp5SV3rcLlkkRHxZ2mRPfPIcjQcwezN1dqSoWtvJ0B9gDBEixSaZ7HlAOmJ2UOP5x7q454eGBh6OwUgGHZefOXNSZZygzzN7",
+              "received": false
+            }
+          ],
+          "total_price": 36701,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Janet",
+              "street": "Talon Trail",
+              "house": 48,
+              "flat": 639
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:25:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f0b581c508c5d5e322368",
+          "products": [
+            {
+              "_id": "694f0b5a1c508c5d5e32243f",
+              "name": "Table83395",
+              "amount": 879,
+              "price": 36701,
+              "manufacturer": "Sony",
+              "notes": "cNgg6sBRHBSQaThMlgI7QTcY4x2TittXs2S3YpthoEDOyRrvJPOiumpMAiLbQZCVqPRNUKW6FMkGwmd0gzU57To91sn1yItEo9y2FUG6TulWVrW2h5wPwSTZFQpIp8ucme70rRT9a4Hobv5zOdYv1aL9oWAp5SV3rcLlkkRHxZ2mRPfPIcjQcwezN1dqSoWtvJ0B9gDBEixSaZ7HlAOmJ2UOP5x7q454eGBh6OwUgGHZefOXNSZZygzzN7",
+              "received": false
+            }
+          ],
+          "total_price": 36701,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:25:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

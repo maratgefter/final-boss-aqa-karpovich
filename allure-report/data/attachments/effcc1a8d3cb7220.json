@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:24:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2733",
+    "etag": "W/\"aad-p+BxqQrBUZ+uExhLQMavRk8Plqc\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f0b381c508c5d5e321117",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f0b361c508c5d5e321071",
+        "email": "Alyce.Welch@yahoo.com",
+        "name": "Caesar Leuschke",
+        "country": "Belarus",
+        "city": "Aliciashire",
+        "street": "W River Road",
+        "house": 41,
+        "flat": 922,
+        "phone": "+12909650490",
+        "createdOn": "2025-12-26T22:24:54.000Z",
+        "notes": "Zcd0G5ODY52GJs2uNdfvlgW8t3kXqtpxQpIIjVhblQU44qHWgMG1fjmFACTwLJKJWcYbGLgHuSPZb8ZgKbquTRuBi9QRYs0JlJqnFLbsM91Lx4Zy5ZSJdY1czERCFUgBgIxVwLlgsdqPfYeEM1XMdb2W2RD4zSRw7xQ6qzbrtdoaFj3AZXZh5i2BD1rb38aCunvsXtGP3SxYQJjfQOUyzwNWjYiSadaosTIbn579RDJgwAiwCqnArwT9On"
+      },
+      "products": [
+        {
+          "_id": "694f0b371c508c5d5e3210a1",
+          "name": "Ball49947",
+          "amount": 15,
+          "price": 45313,
+          "manufacturer": "Apple",
+          "notes": "SsVqSlmf8EhTE19zykkVSGEkOeHrgLD0KEng0qGZDtZSXMjPhIoGJ7Gawr2aWNAjOJmHKvCPy1oOG53lqp9BhEpRvkzn6KeuR8cjzWsg0bmi4QIQLxUqS7DVZMLXvGM64SJzqDHUUQF3gxjdCFbX4xEbqmOqZBKEhusp3XKfkekj5cpsoWlgDoPmIKAmVV7SBzaz2crU9JpTR7cb5w9UHABTjnGP0mVKOadESwQ0ZT7CHB7nbwU1tVHoqF",
+          "received": false
+        },
+        {
+          "_id": "694f0b381c508c5d5e3210ff",
+          "name": "Towels80407",
+          "amount": 678,
+          "price": 80602,
+          "manufacturer": "Amazon",
+          "notes": "oMTS8aESShOIwF4IARnBbOle6rXSyfjjJafM2DDtGtGz7FTA70tEEBHFQ9etGd1JbbNAV9PyW7zy5zXV5EqI74nSUKpwBc8zlyqtaV17alhuD1cdh3eiDxbwd9hwh5ChQw2X5Xr9qpvLtnhtLkUfzUBIpBXIAMz7D1lX9O8ZrAPlxA9gD07Nh1mhRZK9gJlcOV9Pzx3sif1T4VQJjOEoBMnLuuWOQRmiHijPHE56aH4imp76xDJGPii4qA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 125915,
+      "createdOn": "2025-12-26T22:24:56.000Z",
+      "comments": [
+        {
+          "text": "p",
+          "createdOn": "2025-12-26T22:24:56.000Z",
+          "_id": "694f0b381c508c5d5e32113b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f0b361c508c5d5e321071",
+          "products": [
+            {
+              "_id": "694f0b371c508c5d5e3210a1",
+              "name": "Ball49947",
+              "amount": 15,
+              "price": 45313,
+              "manufacturer": "Apple",
+              "notes": "SsVqSlmf8EhTE19zykkVSGEkOeHrgLD0KEng0qGZDtZSXMjPhIoGJ7Gawr2aWNAjOJmHKvCPy1oOG53lqp9BhEpRvkzn6KeuR8cjzWsg0bmi4QIQLxUqS7DVZMLXvGM64SJzqDHUUQF3gxjdCFbX4xEbqmOqZBKEhusp3XKfkekj5cpsoWlgDoPmIKAmVV7SBzaz2crU9JpTR7cb5w9UHABTjnGP0mVKOadESwQ0ZT7CHB7nbwU1tVHoqF",
+              "received": false
+            },
+            {
+              "_id": "694f0b381c508c5d5e3210ff",
+              "name": "Towels80407",
+              "amount": 678,
+              "price": 80602,
+              "manufacturer": "Amazon",
+              "notes": "oMTS8aESShOIwF4IARnBbOle6rXSyfjjJafM2DDtGtGz7FTA70tEEBHFQ9etGd1JbbNAV9PyW7zy5zXV5EqI74nSUKpwBc8zlyqtaV17alhuD1cdh3eiDxbwd9hwh5ChQw2X5Xr9qpvLtnhtLkUfzUBIpBXIAMz7D1lX9O8ZrAPlxA9gD07Nh1mhRZK9gJlcOV9Pzx3sif1T4VQJjOEoBMnLuuWOQRmiHijPHE56aH4imp76xDJGPii4qA",
+              "received": false
+            }
+          ],
+          "total_price": 125915,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:24:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
