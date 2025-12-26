@@ -93,7 +93,7 @@ jobs:
         run: npm run allure-report
 
       - name: Copy history into report
-        run: cp -r allure-results/history allure-report/history || true
+        run: cp -r allure-results/history allure-report/history || true    
 
       - name: Save Allure report
         uses: actions/upload-artifact@v4
