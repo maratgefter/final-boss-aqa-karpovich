@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-sz3OOxoLPMD8aYvfJXCEI+5FrRc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cb91c508c5d5e37d2c0",
+        "email": "Nyah.Hickle28@yahoo.com",
+        "name": "Hollie Schimmel",
+        "country": "France",
+        "city": "Muellertown",
+        "street": "Blick Springs",
+        "house": 48,
+        "flat": 205,
+        "phone": "+14177448005",
+        "createdOn": "2025-12-27T22:24:57.000Z",
+        "notes": "tfIm97e0cBG0TnJWYLh96VkZUedyffPU5RruSdvRA4B9gqa9fPd0OE8LeKwGyiQUoaNfs9F6EhNw2WnMOIjogUSsQYtO4WuuPwtmGm9xEG1fWIN9yOmtTX9mWVyOkmHxrtKQmmGRcPBgf7YUqZq2lT1SKnVUKt7uOiip54nYgb8O6BxvHFuil6OiMuBJWi3H67gCKUOepuRn8bBCDlnYRMrFnAY4shDaekSeuvcsb9rHd3vJ3tUZJRTR1B"
+      },
+      "products": [
+        {
+          "_id": "69505cbc1c508c5d5e37d3b4",
+          "name": "Pizza21160",
+          "amount": 742,
+          "price": 67072,
+          "manufacturer": "Sony",
+          "notes": "TJ5yei6Ovl80ieZUnFz972rLkULpIgsKwBpXIgtVRuZCFVZaxiky61QYNVj2xaz5usYYf9557QYGloMwty28JZYZQ0XYc27JMIW5iDyPS6SUQUUC8mnb1zmMV4A2UgP8OAmulUqZ7gnYCDdnFbHpjNc4r0dzkFOWIiDtPi01GFL7XXHvDSzwf5lEHxaUXWkJNJHm4uWKrgtaCOf8meFg8t48jHlauSY6egiKOhFCa0q6yCIDPwKbqkd9jF",
+          "received": false
+        },
+        {
+          "_id": "69505cbe1c508c5d5e37d40f",
+          "name": "Table61062",
+          "amount": 415,
+          "price": 49988,
+          "manufacturer": "Apple",
+          "notes": "9ZAWxVX2B0oqTvxnUVIDsRyYpDBe25C2pMoFrj4hMzWved2pReTzHRAHvs2P3H4Mq9mT2KN4cc6vueqqBnbhqTivpfMIfIJDhOTSqTBrBQFa1AOk1Zmjbq8xSwyFzXmIA0A21ZbxlBWW2O1X3vAE7p3dlWYWFY0izMlmxFN3t85gRSlxLA6vYtQfMVDuWxrHcOe4DaaN0GFnJdYMy21sPYnWitjzYoUFYEos25lmtdGvENt6ezhbBUWS8H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 117060,
+      "createdOn": "2025-12-27T22:25:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cb91c508c5d5e37d2c0",
+          "products": [
+            {
+              "_id": "69505cbc1c508c5d5e37d3b4",
+              "name": "Pizza21160",
+              "amount": 742,
+              "price": 67072,
+              "manufacturer": "Sony",
+              "notes": "TJ5yei6Ovl80ieZUnFz972rLkULpIgsKwBpXIgtVRuZCFVZaxiky61QYNVj2xaz5usYYf9557QYGloMwty28JZYZQ0XYc27JMIW5iDyPS6SUQUUC8mnb1zmMV4A2UgP8OAmulUqZ7gnYCDdnFbHpjNc4r0dzkFOWIiDtPi01GFL7XXHvDSzwf5lEHxaUXWkJNJHm4uWKrgtaCOf8meFg8t48jHlauSY6egiKOhFCa0q6yCIDPwKbqkd9jF",
+              "received": false
+            },
+            {
+              "_id": "69505cbe1c508c5d5e37d40f",
+              "name": "Table61062",
+              "amount": 415,
+              "price": 49988,
+              "manufacturer": "Apple",
+              "notes": "9ZAWxVX2B0oqTvxnUVIDsRyYpDBe25C2pMoFrj4hMzWved2pReTzHRAHvs2P3H4Mq9mT2KN4cc6vueqqBnbhqTivpfMIfIJDhOTSqTBrBQFa1AOk1Zmjbq8xSwyFzXmIA0A21ZbxlBWW2O1X3vAE7p3dlWYWFY0izMlmxFN3t85gRSlxLA6vYtQfMVDuWxrHcOe4DaaN0GFnJdYMy21sPYnWitjzYoUFYEos25lmtdGvENt6ezhbBUWS8H",
+              "received": false
+            }
+          ],
+          "total_price": 117060,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cbe1c508c5d5e37d426"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

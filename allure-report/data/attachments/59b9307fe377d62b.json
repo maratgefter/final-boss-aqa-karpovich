@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:26:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4743",
+    "etag": "W/\"1287-Yec7nsFsq5mT/EUb8vHJULrz9bI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505d1b1c508c5d5e380306",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69505d131c508c5d5e37fdd8",
+        "email": "Matt_Ward77@gmail.com",
+        "name": "Junior Reichert",
+        "country": "USA",
+        "city": "Fort Maya",
+        "street": "Buck Pass",
+        "house": 26,
+        "flat": 763,
+        "phone": "+18257159974",
+        "createdOn": "2025-12-27T22:26:27.000Z",
+        "notes": "Ww7zMgHRvbbBFBs19c1KdJ2MUHdrEsjjSvPx6X7qpmriHGEqTzaIsLwxhQ3eHBaPQRKVP38jlg6w4D9yTvWlIs8Tq1tEzfuNuG1HncAIeGH6RuPR0gdeq2EdMN0WnllOG4jyq1egk6QlRSLEdaTulAgyoDus4TAHNdRnY5moNw14BGDIGNf6O8HXn3kK1G0osirQvmvKVsUmu2NeKLJi6sQNVPlbrrigSIr6d8DvOOTzb0ofp90Tl2zZeP"
+      },
+      "products": [
+        {
+          "_id": "69505d161c508c5d5e3802ce",
+          "name": "Cheese13281",
+          "amount": 177,
+          "price": 52995,
+          "manufacturer": "Tesla",
+          "notes": "XgXDYhQHz7WNhWtwT6JvcJKby3aUz0KtUKb6sEONjmKtmd5MZXzH0AkUUILQc9KwhVibcOnYtBci3GlbfjjHQDLDbZnudicYau7it1kWyZyNXaZIdOp8uERUPvZFtGUZhsdJSwuulTe66IMtPAyknPeMLjMEphYICK2NPxtujEDXB3H0Ex81rBtkdDk9PG2736U3qlZuMZwU65Gmq5WgfWxRncr5fnEaJcD00lPPf7fuD4mb9l3jMUAhmo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Maya",
+          "street": "Buck Pass",
+          "house": 26,
+          "flat": 763
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 52995,
+      "createdOn": "2025-12-27T22:26:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69505d131c508c5d5e37fdd8",
+          "products": [
+            {
+              "_id": "69505d161c508c5d5e3802ce",
+              "name": "Cheese13281",
+              "amount": 177,
+              "price": 52995,
+              "manufacturer": "Tesla",
+              "notes": "XgXDYhQHz7WNhWtwT6JvcJKby3aUz0KtUKb6sEONjmKtmd5MZXzH0AkUUILQc9KwhVibcOnYtBci3GlbfjjHQDLDbZnudicYau7it1kWyZyNXaZIdOp8uERUPvZFtGUZhsdJSwuulTe66IMtPAyknPeMLjMEphYICK2NPxtujEDXB3H0Ex81rBtkdDk9PG2736U3qlZuMZwU65Gmq5WgfWxRncr5fnEaJcD00lPPf7fuD4mb9l3jMUAhmo",
+              "received": false
+            }
+          ],
+          "total_price": 52995,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Maya",
+              "street": "Buck Pass",
+              "house": 26,
+              "flat": 763
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:51.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69505d131c508c5d5e37fdd8",
+          "products": [
+            {
+              "_id": "69505d161c508c5d5e3802ce",
+              "name": "Cheese13281",
+              "amount": 177,
+              "price": 52995,
+              "manufacturer": "Tesla",
+              "notes": "XgXDYhQHz7WNhWtwT6JvcJKby3aUz0KtUKb6sEONjmKtmd5MZXzH0AkUUILQc9KwhVibcOnYtBci3GlbfjjHQDLDbZnudicYau7it1kWyZyNXaZIdOp8uERUPvZFtGUZhsdJSwuulTe66IMtPAyknPeMLjMEphYICK2NPxtujEDXB3H0Ex81rBtkdDk9PG2736U3qlZuMZwU65Gmq5WgfWxRncr5fnEaJcD00lPPf7fuD4mb9l3jMUAhmo",
+              "received": false
+            }
+          ],
+          "total_price": 52995,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Maya",
+              "street": "Buck Pass",
+              "house": 26,
+              "flat": 763
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d131c508c5d5e37fdd8",
+          "products": [
+            {
+              "_id": "69505d161c508c5d5e3802ce",
+              "name": "Cheese13281",
+              "amount": 177,
+              "price": 52995,
+              "manufacturer": "Tesla",
+              "notes": "XgXDYhQHz7WNhWtwT6JvcJKby3aUz0KtUKb6sEONjmKtmd5MZXzH0AkUUILQc9KwhVibcOnYtBci3GlbfjjHQDLDbZnudicYau7it1kWyZyNXaZIdOp8uERUPvZFtGUZhsdJSwuulTe66IMtPAyknPeMLjMEphYICK2NPxtujEDXB3H0Ex81rBtkdDk9PG2736U3qlZuMZwU65Gmq5WgfWxRncr5fnEaJcD00lPPf7fuD4mb9l3jMUAhmo",
+              "received": false
+            }
+          ],
+          "total_price": 52995,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Maya",
+              "street": "Buck Pass",
+              "house": 26,
+              "flat": 763
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d131c508c5d5e37fdd8",
+          "products": [
+            {
+              "_id": "69505d161c508c5d5e3802ce",
+              "name": "Cheese13281",
+              "amount": 177,
+              "price": 52995,
+              "manufacturer": "Tesla",
+              "notes": "XgXDYhQHz7WNhWtwT6JvcJKby3aUz0KtUKb6sEONjmKtmd5MZXzH0AkUUILQc9KwhVibcOnYtBci3GlbfjjHQDLDbZnudicYau7it1kWyZyNXaZIdOp8uERUPvZFtGUZhsdJSwuulTe66IMtPAyknPeMLjMEphYICK2NPxtujEDXB3H0Ex81rBtkdDk9PG2736U3qlZuMZwU65Gmq5WgfWxRncr5fnEaJcD00lPPf7fuD4mb9l3jMUAhmo",
+              "received": false
+            }
+          ],
+          "total_price": 52995,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

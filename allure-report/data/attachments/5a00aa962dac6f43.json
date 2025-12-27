@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2929",
+    "etag": "W/\"b71-4gkClj6HdOIr1Ab/t44A0vj6cPY\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cf51c508c5d5e37ee3c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cf31c508c5d5e37ed36",
+        "email": "Jamarcus69@yahoo.com",
+        "name": "Carmela McGlynn",
+        "country": "Russia",
+        "city": "Lacey",
+        "street": "Mosciski Pines",
+        "house": 19,
+        "flat": 904,
+        "phone": "+17836164653",
+        "createdOn": "2025-12-27T22:25:55.000Z",
+        "notes": "YkYeyKbPYIWREMZaLo0DAGjjJG5XkfxSRu8Zdxni0P3joLjV74OBguhOPPSGXLPxkp9eGYoWYqqRdZSxnNvyxrouqIN9usEA9Sx3MlgHWwHoJaPMeXkva1cSyY21G4qwWPqiuEZyZjFhoHmoituD1E4VYayHOoHyY2M1lQuXwJPNT0GPKMRpzz4yZQ9v6uv2593ZfWSrUDU1dwdepi6RYYpc5Usj6wFCoOkdBzbDY53neCX0RndpV7kO2c"
+      },
+      "products": [
+        {
+          "_id": "69505cf51c508c5d5e37ee34",
+          "name": "Car94138",
+          "amount": 763,
+          "price": 70220,
+          "manufacturer": "Amazon",
+          "notes": "rglxUBy2XskNnyRF5JapwhU7dw2svgm0Pn23dIb6S2XG0NR3MpqcVWHZlgx2W2u6UiONQOn1PW4HpnLP5bd7FyLG4H4pkYSUdTcNOIU5vTVLhEOhrB0ZiI523fu7KdVAHJ5u1a2ihl6JvqzeHyMYL9xeIhiRGQxXBrzQ2g7YzCAW2d9rAqyVKpKsPgimtETzlHjU3qXRpRL2aTlfDg8TI8uQtufWx4F1SYX4JFrWW10I3kVGMnkbqz8FG6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lacey",
+          "street": "Mosciski Pines",
+          "house": 19,
+          "flat": 904
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 70220,
+      "createdOn": "2025-12-27T22:25:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cf31c508c5d5e37ed36",
+          "products": [
+            {
+              "_id": "69505cf51c508c5d5e37ee34",
+              "name": "Car94138",
+              "amount": 763,
+              "price": 70220,
+              "manufacturer": "Amazon",
+              "notes": "rglxUBy2XskNnyRF5JapwhU7dw2svgm0Pn23dIb6S2XG0NR3MpqcVWHZlgx2W2u6UiONQOn1PW4HpnLP5bd7FyLG4H4pkYSUdTcNOIU5vTVLhEOhrB0ZiI523fu7KdVAHJ5u1a2ihl6JvqzeHyMYL9xeIhiRGQxXBrzQ2g7YzCAW2d9rAqyVKpKsPgimtETzlHjU3qXRpRL2aTlfDg8TI8uQtufWx4F1SYX4JFrWW10I3kVGMnkbqz8FG6",
+              "received": false
+            }
+          ],
+          "total_price": 70220,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lacey",
+              "street": "Mosciski Pines",
+              "house": 19,
+              "flat": 904
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:25:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505cf31c508c5d5e37ed36",
+          "products": [
+            {
+              "_id": "69505cf51c508c5d5e37ee34",
+              "name": "Car94138",
+              "amount": 763,
+              "price": 70220,
+              "manufacturer": "Amazon",
+              "notes": "rglxUBy2XskNnyRF5JapwhU7dw2svgm0Pn23dIb6S2XG0NR3MpqcVWHZlgx2W2u6UiONQOn1PW4HpnLP5bd7FyLG4H4pkYSUdTcNOIU5vTVLhEOhrB0ZiI523fu7KdVAHJ5u1a2ihl6JvqzeHyMYL9xeIhiRGQxXBrzQ2g7YzCAW2d9rAqyVKpKsPgimtETzlHjU3qXRpRL2aTlfDg8TI8uQtufWx4F1SYX4JFrWW10I3kVGMnkbqz8FG6",
+              "received": false
+            }
+          ],
+          "total_price": 70220,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

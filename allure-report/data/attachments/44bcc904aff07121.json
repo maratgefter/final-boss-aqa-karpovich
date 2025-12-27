@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-fAwbL28wRzYtIpKpeTMcjWqShBQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cf41c508c5d5e37ee17",
+        "email": "Donnie.Hahn@yahoo.com",
+        "name": "Elmore Green",
+        "country": "Canada",
+        "city": "Bettemouth",
+        "street": "McLaughlin Field",
+        "house": 19,
+        "flat": 581,
+        "phone": "+14198497348",
+        "createdOn": "2025-12-27T22:25:56.000Z",
+        "notes": "vxlNVPII2qB9U0DylaG4d8bnvALU9m8b4AWVqKuNwUuMfqw5IfXiwbiFPhYLIQBP1lziDdTxPTRoqIh1WEwkLpyFHOjjqdBRA67vm3FBurOtKfIZVE0VmOJ6wNszwXaWQxK5AA1QmrOcyhjPNJDuR32WeMfZ2lAOBLZYLv8sKH8uPNKxaetdkqnV6AGGy1SyVfhaGpWWi5ZYE8b5vvJDXKXhhETvwam4GVVSx7io3w6EPdOZ7nb15JuXOx"
+      },
+      "products": [
+        {
+          "_id": "69505cf61c508c5d5e37ef9e",
+          "name": "Bike56505",
+          "amount": 912,
+          "price": 74197,
+          "manufacturer": "Xiaomi",
+          "notes": "FCNI3vzMhMiMt4J19htQIEV5PIoLMJie0PSEGKDhCG2KgdLx23n1SBLAJlFTDXt8W8lKQ0wygf5On5Iyn86OKLQEbpikZ1czp3IwSeFn4oV5uQ9kvcpnHwg4QUoY8Mo4z2KvWpAkys9bo1umhXpY1KalDbXmHpWTHmweuu5p4hYm0uM1mvzya8JThGnHWcQzfCKCxJlIvF2EGIbyNOjAC8FLgCq9UbV6h8ElA9ko3F7EaOvMRJ9IQvxQU8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74197,
+      "createdOn": "2025-12-27T22:25:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cf41c508c5d5e37ee17",
+          "products": [
+            {
+              "_id": "69505cf61c508c5d5e37ef9e",
+              "name": "Bike56505",
+              "amount": 912,
+              "price": 74197,
+              "manufacturer": "Xiaomi",
+              "notes": "FCNI3vzMhMiMt4J19htQIEV5PIoLMJie0PSEGKDhCG2KgdLx23n1SBLAJlFTDXt8W8lKQ0wygf5On5Iyn86OKLQEbpikZ1czp3IwSeFn4oV5uQ9kvcpnHwg4QUoY8Mo4z2KvWpAkys9bo1umhXpY1KalDbXmHpWTHmweuu5p4hYm0uM1mvzya8JThGnHWcQzfCKCxJlIvF2EGIbyNOjAC8FLgCq9UbV6h8ElA9ko3F7EaOvMRJ9IQvxQU8",
+              "received": false
+            }
+          ],
+          "total_price": 74197,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cf71c508c5d5e37efc8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

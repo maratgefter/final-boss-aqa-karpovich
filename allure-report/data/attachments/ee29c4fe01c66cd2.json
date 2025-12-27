@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-8/OyxSMFEMj3BZuiWupEiA1D/uY\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cd71c508c5d5e37de7c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cd31c508c5d5e37db65",
+        "email": "Lemuel26@gmail.com",
+        "name": "Mya Tromp",
+        "country": "France",
+        "city": "Aliciashire",
+        "street": "Chapel Close",
+        "house": 22,
+        "flat": 153,
+        "phone": "+16255129844",
+        "createdOn": "2025-12-27T22:25:23.000Z",
+        "notes": "SOk4ECHjfRbZje1sK2fok1MOGCkpwd4AfFSM5fhMx90QzehL2HiEetRostAlEjSDXNNkD7J5NZ3Rd6DtlAlWfq1DAqQ9Lyr3mfLw4ypUbFk6rOwjvSvygD9CBJDBLJgzF8oaU9o4Vp1H60HKz6zfV1DQgdwKmHJAK1KP9nUN2lW2XiH1aMxizwZkGXn2YVzQgepKHqKyvHea182SPC5Z46XhI1vYKYhAlg7SADXAsESjLNjOMOX1KixZ72"
+      },
+      "products": [
+        {
+          "_id": "69505cd51c508c5d5e37de50",
+          "name": "Chips39913",
+          "amount": 617,
+          "price": 97805,
+          "manufacturer": "Google",
+          "notes": "NM1RHdd2Bxu4PoYEOnWIaZf4LGwrcykp0V5cBMgamhTCDFoFRXMlKSRmKt8luPnQGbMLWDQI0eEYGnjgoCDNOJofRzTb78Ri7A0uHKKmhB1NP7gf0kUYOiVMLoS6vjANnSA2WyMensVti2AEGn1GeKFOfJBvRPzxCcu4kueJ2uQoS3CHyUJpIMdj2QU5rMxLoLKZHBFvdVguT07kLhdxkdHt0CKqC2r2rzwGQpmsnZSLyd1pYK6aTAoKFw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Hicksville",
+          "street": "Hoppe Lane",
+          "house": 14,
+          "flat": 860
+        },
+        "finalDate": "2025-12-27T22:25:27.860Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97805,
+      "createdOn": "2025-12-27T22:25:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cd31c508c5d5e37db65",
+          "products": [
+            {
+              "_id": "69505cd51c508c5d5e37de50",
+              "name": "Chips39913",
+              "amount": 617,
+              "price": 97805,
+              "manufacturer": "Google",
+              "notes": "NM1RHdd2Bxu4PoYEOnWIaZf4LGwrcykp0V5cBMgamhTCDFoFRXMlKSRmKt8luPnQGbMLWDQI0eEYGnjgoCDNOJofRzTb78Ri7A0uHKKmhB1NP7gf0kUYOiVMLoS6vjANnSA2WyMensVti2AEGn1GeKFOfJBvRPzxCcu4kueJ2uQoS3CHyUJpIMdj2QU5rMxLoLKZHBFvdVguT07kLhdxkdHt0CKqC2r2rzwGQpmsnZSLyd1pYK6aTAoKFw",
+              "received": false
+            }
+          ],
+          "total_price": 97805,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Hicksville",
+              "street": "Hoppe Lane",
+              "house": 14,
+              "flat": 860
+            },
+            "finalDate": "2025-12-27T22:25:27.860Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:25:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505cd31c508c5d5e37db65",
+          "products": [
+            {
+              "_id": "69505cd51c508c5d5e37de50",
+              "name": "Chips39913",
+              "amount": 617,
+              "price": 97805,
+              "manufacturer": "Google",
+              "notes": "NM1RHdd2Bxu4PoYEOnWIaZf4LGwrcykp0V5cBMgamhTCDFoFRXMlKSRmKt8luPnQGbMLWDQI0eEYGnjgoCDNOJofRzTb78Ri7A0uHKKmhB1NP7gf0kUYOiVMLoS6vjANnSA2WyMensVti2AEGn1GeKFOfJBvRPzxCcu4kueJ2uQoS3CHyUJpIMdj2QU5rMxLoLKZHBFvdVguT07kLhdxkdHt0CKqC2r2rzwGQpmsnZSLyd1pYK6aTAoKFw",
+              "received": false
+            }
+          ],
+          "total_price": 97805,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

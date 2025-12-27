@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:26:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5431",
+    "etag": "W/\"1537-AeWnviFv5Jc0J7GNKeViINLj3L8\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505d071c508c5d5e37f583",
+      "status": "In Process",
+      "customer": {
+        "_id": "69505d021c508c5d5e37f4e4",
+        "email": "Stanley_Cartwright30@gmail.com",
+        "name": "Kenyon Zboncak",
+        "country": "Russia",
+        "city": "East Easterside",
+        "street": "Miller Skyway",
+        "house": 30,
+        "flat": 96,
+        "phone": "+19417160155",
+        "createdOn": "2025-12-27T22:26:10.000Z",
+        "notes": "l2hdN1bYGWQYnb1EKkItJkier5sITvdUg89OUP7cbo5uIWElFmF8or5RMHRvyEPG60NDoMcBy5xlOkA0XwCc67pd8HsbbZpeq4fYh6YQMopWhw99RHu1I5Nu4o9dBl5DrvC3GBWNevcInmb7lrNbODIZb1T0Zo5yoIzM0luQP8MVFtMM0zqdIiPtPigdu3bLScHNxHJKi023WWCqbqIvv6tMF3T9UcJcEHJDTSNP1lXwBIRtvNVsG9loZC"
+      },
+      "products": [
+        {
+          "_id": "69505d041c508c5d5e37f517",
+          "name": "Tuna59033",
+          "amount": 237,
+          "price": 41188,
+          "manufacturer": "Samsung",
+          "notes": "d0Q4h2IjxDnhgP2UVbscuG3EpIytQWTZh9BlwDeuJ6OgQFwXQYnGcy9cgJbjoNZ1B1RMC8081UiGXaKHbrTBRBPg4liAo0Nxm4c1L95LbjYL4kJbYUrFspaFTgTKsiN5nSCDmpFKFOot9i7aQGu8iR0JENwPlglN2E8MSmB8d7ylVYORX6RlxxuJxFj4YsIvefmMsgcNwfptCxX2ODs2pRdtUN649RFLYEyhX1HGoOq0z4Qx1A9ZfrMLjQ",
+          "received": false
+        },
+        {
+          "_id": "69505d061c508c5d5e37f565",
+          "name": "Ball59790",
+          "amount": 919,
+          "price": 56602,
+          "manufacturer": "Xiaomi",
+          "notes": "eaNLG1T0mIIcwshsXIxynDL73yYJkPkKx3xCh6ZIsI5oo92S9PIXNUVfZ8eXVGbJ8FXw3Sr1vghDR5H1xE9CZca86JLFmx8Q4Fi8UP3PcwdXiI303afJNaBkJIqg46aLWgXKos52RqdEbiDXpCGZHqlYhGlfmUhcJJRRUYktftWzwaB3W1NqbINsZtKcYAOao2jEzJvk0NTEkRdxSOY7t11PrEirQ5zVxfojoXJEuckeepnLkHY67DKN90",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Easterside",
+          "street": "Miller Skyway",
+          "house": 30,
+          "flat": 96
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 97790,
+      "createdOn": "2025-12-27T22:26:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69505d021c508c5d5e37f4e4",
+          "products": [
+            {
+              "_id": "69505d041c508c5d5e37f517",
+              "name": "Tuna59033",
+              "amount": 237,
+              "price": 41188,
+              "manufacturer": "Samsung",
+              "notes": "d0Q4h2IjxDnhgP2UVbscuG3EpIytQWTZh9BlwDeuJ6OgQFwXQYnGcy9cgJbjoNZ1B1RMC8081UiGXaKHbrTBRBPg4liAo0Nxm4c1L95LbjYL4kJbYUrFspaFTgTKsiN5nSCDmpFKFOot9i7aQGu8iR0JENwPlglN2E8MSmB8d7ylVYORX6RlxxuJxFj4YsIvefmMsgcNwfptCxX2ODs2pRdtUN649RFLYEyhX1HGoOq0z4Qx1A9ZfrMLjQ",
+              "received": false
+            },
+            {
+              "_id": "69505d061c508c5d5e37f565",
+              "name": "Ball59790",
+              "amount": 919,
+              "price": 56602,
+              "manufacturer": "Xiaomi",
+              "notes": "eaNLG1T0mIIcwshsXIxynDL73yYJkPkKx3xCh6ZIsI5oo92S9PIXNUVfZ8eXVGbJ8FXw3Sr1vghDR5H1xE9CZca86JLFmx8Q4Fi8UP3PcwdXiI303afJNaBkJIqg46aLWgXKos52RqdEbiDXpCGZHqlYhGlfmUhcJJRRUYktftWzwaB3W1NqbINsZtKcYAOao2jEzJvk0NTEkRdxSOY7t11PrEirQ5zVxfojoXJEuckeepnLkHY67DKN90",
+              "received": false
+            }
+          ],
+          "total_price": 97790,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Easterside",
+              "street": "Miller Skyway",
+              "house": 30,
+              "flat": 96
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d021c508c5d5e37f4e4",
+          "products": [
+            {
+              "_id": "69505d041c508c5d5e37f517",
+              "name": "Tuna59033",
+              "amount": 237,
+              "price": 41188,
+              "manufacturer": "Samsung",
+              "notes": "d0Q4h2IjxDnhgP2UVbscuG3EpIytQWTZh9BlwDeuJ6OgQFwXQYnGcy9cgJbjoNZ1B1RMC8081UiGXaKHbrTBRBPg4liAo0Nxm4c1L95LbjYL4kJbYUrFspaFTgTKsiN5nSCDmpFKFOot9i7aQGu8iR0JENwPlglN2E8MSmB8d7ylVYORX6RlxxuJxFj4YsIvefmMsgcNwfptCxX2ODs2pRdtUN649RFLYEyhX1HGoOq0z4Qx1A9ZfrMLjQ",
+              "received": false
+            },
+            {
+              "_id": "69505d061c508c5d5e37f565",
+              "name": "Ball59790",
+              "amount": 919,
+              "price": 56602,
+              "manufacturer": "Xiaomi",
+              "notes": "eaNLG1T0mIIcwshsXIxynDL73yYJkPkKx3xCh6ZIsI5oo92S9PIXNUVfZ8eXVGbJ8FXw3Sr1vghDR5H1xE9CZca86JLFmx8Q4Fi8UP3PcwdXiI303afJNaBkJIqg46aLWgXKos52RqdEbiDXpCGZHqlYhGlfmUhcJJRRUYktftWzwaB3W1NqbINsZtKcYAOao2jEzJvk0NTEkRdxSOY7t11PrEirQ5zVxfojoXJEuckeepnLkHY67DKN90",
+              "received": false
+            }
+          ],
+          "total_price": 97790,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Easterside",
+              "street": "Miller Skyway",
+              "house": 30,
+              "flat": 96
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d021c508c5d5e37f4e4",
+          "products": [
+            {
+              "_id": "69505d041c508c5d5e37f517",
+              "name": "Tuna59033",
+              "amount": 237,
+              "price": 41188,
+              "manufacturer": "Samsung",
+              "notes": "d0Q4h2IjxDnhgP2UVbscuG3EpIytQWTZh9BlwDeuJ6OgQFwXQYnGcy9cgJbjoNZ1B1RMC8081UiGXaKHbrTBRBPg4liAo0Nxm4c1L95LbjYL4kJbYUrFspaFTgTKsiN5nSCDmpFKFOot9i7aQGu8iR0JENwPlglN2E8MSmB8d7ylVYORX6RlxxuJxFj4YsIvefmMsgcNwfptCxX2ODs2pRdtUN649RFLYEyhX1HGoOq0z4Qx1A9ZfrMLjQ",
+              "received": false
+            },
+            {
+              "_id": "69505d061c508c5d5e37f565",
+              "name": "Ball59790",
+              "amount": 919,
+              "price": 56602,
+              "manufacturer": "Xiaomi",
+              "notes": "eaNLG1T0mIIcwshsXIxynDL73yYJkPkKx3xCh6ZIsI5oo92S9PIXNUVfZ8eXVGbJ8FXw3Sr1vghDR5H1xE9CZca86JLFmx8Q4Fi8UP3PcwdXiI303afJNaBkJIqg46aLWgXKos52RqdEbiDXpCGZHqlYhGlfmUhcJJRRUYktftWzwaB3W1NqbINsZtKcYAOao2jEzJvk0NTEkRdxSOY7t11PrEirQ5zVxfojoXJEuckeepnLkHY67DKN90",
+              "received": false
+            }
+          ],
+          "total_price": 97790,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

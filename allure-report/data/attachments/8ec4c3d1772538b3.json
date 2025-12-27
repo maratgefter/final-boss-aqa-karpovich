@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:24:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-28wpi+OKMf0KmJanmoCvYumOGts\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cb61c508c5d5e37d22b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cb41c508c5d5e37d1d4",
+        "email": "Marlen.Sipes@gmail.com",
+        "name": "August Prosacco",
+        "country": "Canada",
+        "city": "North Bennyboro",
+        "street": "Woodlands Avenue",
+        "house": 49,
+        "flat": 217,
+        "phone": "+15124030725",
+        "createdOn": "2025-12-27T22:24:52.000Z",
+        "notes": "ul5GyHa9IdvZ1fAFvIYJLhukVXYDgVJjSdxqmbRW6mMlaATfaADdNNmrk6FZecVa1WDtTCBHXipLF7UimoT6EdEbnvbtUdSmHdDByCX4LmKWyIrQNXJ4keFArF8MzzU9Gh49QTypb0u5C7ffvcsL72voYGRtOAiBe06Io8vvmcvOKdOHBkhzpyMMSLRgh2mG5t9TFBpi1NC7LYybGWKrwPA6DeQhxOHc4n9g36lts6Kp4sGo1q36yJ5kKP"
+      },
+      "products": [
+        {
+          "_id": "69505cb61c508c5d5e37d21e",
+          "name": "Pants29777",
+          "amount": 260,
+          "price": 14973,
+          "manufacturer": "Sony",
+          "notes": "yefZoVeVUmCeXbWMhAfivyztrXNif3FslihhFQAzM8sizCpQmdNlx4wT6I9qucYNvCsAOfomimbYkZAyFYjkCJ5l9caw4Ab4G0RWG5T4bEPo6NPj2bRji5ynoKMctSl2mY6gJrZ3p8uszv9wrfqVWsLpa26yeLMWt4wkLYi7uKI5nsB73jGCMcfhJ1ZKvyVzNg01JaPhRkGSCHunlzoxNObFl5HFKbG9gUPqjau5hTM1wrLDbvibBNAWfG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14973,
+      "createdOn": "2025-12-27T22:24:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cb41c508c5d5e37d1d4",
+          "products": [
+            {
+              "_id": "69505cb61c508c5d5e37d21e",
+              "name": "Pants29777",
+              "amount": 260,
+              "price": 14973,
+              "manufacturer": "Sony",
+              "notes": "yefZoVeVUmCeXbWMhAfivyztrXNif3FslihhFQAzM8sizCpQmdNlx4wT6I9qucYNvCsAOfomimbYkZAyFYjkCJ5l9caw4Ab4G0RWG5T4bEPo6NPj2bRji5ynoKMctSl2mY6gJrZ3p8uszv9wrfqVWsLpa26yeLMWt4wkLYi7uKI5nsB73jGCMcfhJ1ZKvyVzNg01JaPhRkGSCHunlzoxNObFl5HFKbG9gUPqjau5hTM1wrLDbvibBNAWfG",
+              "received": false
+            }
+          ],
+          "total_price": 14973,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:24:55.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69505cb41c508c5d5e37d1d4",
+          "products": [
+            {
+              "_id": "69505cb61c508c5d5e37d21e",
+              "name": "Pants29777",
+              "amount": 260,
+              "price": 14973,
+              "manufacturer": "Sony",
+              "notes": "yefZoVeVUmCeXbWMhAfivyztrXNif3FslihhFQAzM8sizCpQmdNlx4wT6I9qucYNvCsAOfomimbYkZAyFYjkCJ5l9caw4Ab4G0RWG5T4bEPo6NPj2bRji5ynoKMctSl2mY6gJrZ3p8uszv9wrfqVWsLpa26yeLMWt4wkLYi7uKI5nsB73jGCMcfhJ1ZKvyVzNg01JaPhRkGSCHunlzoxNObFl5HFKbG9gUPqjau5hTM1wrLDbvibBNAWfG",
+              "received": false
+            }
+          ],
+          "total_price": 14973,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:24:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:26:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-Q0kKfoc6KKt+FW5opBwY28hKpPc\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cfd1c508c5d5e37f318",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cf61c508c5d5e37ef9c",
+        "email": "Chandler85@yahoo.com",
+        "name": "Chanelle Baumbach",
+        "country": "Ukraine",
+        "city": "Fort Bridget",
+        "street": "Upton Haven",
+        "house": 40,
+        "flat": 172,
+        "phone": "+17243091554",
+        "createdOn": "2025-12-27T22:25:58.000Z",
+        "notes": "fWOltdAfesEZAWDwaPOqBkuOLbRSlHh8QlBzH9l3UqVDr8wWsQbl2jVVr99pjnQdzY9mxAPt1zfBIGJlRTSVonhcQZ6GdjlXNY3uzfeelwN4W9VE7P9dh34WO82DNxC3jZeREeSyiK7DECFQvraRiu2s51gzAlxdL1F1hD4g1y1T7ALdzHgoSM18ZF1Iz94kkgl4TRqZK6ksmjp1lQMkTL8C2avT4f3qNuwxIQ0UVfxCTMlUE5GPyR13Ih"
+      },
+      "products": [
+        {
+          "_id": "69505cfc1c508c5d5e37f304",
+          "name": "Cheese68664",
+          "amount": 25,
+          "price": 79292,
+          "manufacturer": "Google",
+          "notes": "EJsDBOjTmyVNJrm7bGHudaA1UoJAC6T8etdyREwabc9IG7iCGxrJ6BEvssMkqQLkmTCFAsR4G2k7AvCaCJ2yt7Gh3DaIRsrs1GPfMDgiXZaqu5IHzPz5bO1XODiCEVTQgNBnRAx4qRTE99yVHwH7V7SRP7O8TUahpyDzHamdR5hHnrmeb6nyinUizupfKJUnW5c0gwbT7BmYK71u76k8JzoBSepEJMxo4SGp3zWYjRIA2COvFcvHie4nAl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79292,
+      "createdOn": "2025-12-27T22:26:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cf61c508c5d5e37ef9c",
+          "products": [
+            {
+              "_id": "69505cfc1c508c5d5e37f304",
+              "name": "Cheese68664",
+              "amount": 25,
+              "price": 79292,
+              "manufacturer": "Google",
+              "notes": "EJsDBOjTmyVNJrm7bGHudaA1UoJAC6T8etdyREwabc9IG7iCGxrJ6BEvssMkqQLkmTCFAsR4G2k7AvCaCJ2yt7Gh3DaIRsrs1GPfMDgiXZaqu5IHzPz5bO1XODiCEVTQgNBnRAx4qRTE99yVHwH7V7SRP7O8TUahpyDzHamdR5hHnrmeb6nyinUizupfKJUnW5c0gwbT7BmYK71u76k8JzoBSepEJMxo4SGp3zWYjRIA2COvFcvHie4nAl",
+              "received": false
+            }
+          ],
+          "total_price": 79292,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:05.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69505cf61c508c5d5e37ef9c",
+          "products": [
+            {
+              "_id": "69505cfc1c508c5d5e37f304",
+              "name": "Cheese68664",
+              "amount": 25,
+              "price": 79292,
+              "manufacturer": "Google",
+              "notes": "EJsDBOjTmyVNJrm7bGHudaA1UoJAC6T8etdyREwabc9IG7iCGxrJ6BEvssMkqQLkmTCFAsR4G2k7AvCaCJ2yt7Gh3DaIRsrs1GPfMDgiXZaqu5IHzPz5bO1XODiCEVTQgNBnRAx4qRTE99yVHwH7V7SRP7O8TUahpyDzHamdR5hHnrmeb6nyinUizupfKJUnW5c0gwbT7BmYK71u76k8JzoBSepEJMxo4SGp3zWYjRIA2COvFcvHie4nAl",
+              "received": false
+            }
+          ],
+          "total_price": 79292,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

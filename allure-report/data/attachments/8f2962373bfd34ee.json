@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-LVWrRemG8iUyMf9O5T0rY7HC74A\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ccd1c508c5d5e37d93e",
+        "email": "Harry_Barrows99@yahoo.com",
+        "name": "Hubert Weber",
+        "country": "Russia",
+        "city": "Malachiport",
+        "street": "Erik Dale",
+        "house": 31,
+        "flat": 439,
+        "phone": "+19297992451",
+        "createdOn": "2025-12-27T22:25:17.000Z",
+        "notes": "w3W53WKalRg4zPprEfGiLmoPbzAP35EI0fLRqYfn5xzB5Ev5IDSLPgpr0TPJ1Th0G9ikKUq3Lq7Bll9ylep8RqeAhXnocbbVr7uaNSYmDGqkvqeRxwf129Do191FpwPU5FnSr4VaNKKJPqSa4E8FvhifyKc1fufHcXuLW4j1jrrZKWURlmQ2iY0SrYr7E4ON4tdly5at29dFZQkn63efUBWhwgeRlIAHTX43cnMnY2wsRbzeMS2ZU8xXMN"
+      },
+      "products": [
+        {
+          "_id": "69505ccf1c508c5d5e37d971",
+          "name": "Mouse83527",
+          "amount": 244,
+          "price": 25008,
+          "manufacturer": "Google",
+          "notes": "FSFOQKT0col3Rai017QFR1ef1UrrE5rslsyscetz9RQeMxsm76o5iSadUIjT1l1puMP1roQhvOCuVkAUftuG1kGLmu6xpXSThv3XSjp0ESAQRMJymdnL0SfiULU8fUNtjbFFyO5TbV2idkBog9pHQP98FMVfB6ZPzG66nW8NIqLgunMEK4VH83ZP8PpBp2KisyOZe1qfooKE8wG7KeCEDTtyxzzNZjpCjPzZepaCsP08m6qDkcWVvf6ac7",
+          "received": false
+        },
+        {
+          "_id": "69505cd11c508c5d5e37daed",
+          "name": "Shoes78475",
+          "amount": 273,
+          "price": 21163,
+          "manufacturer": "Amazon",
+          "notes": "lKVTaLtIMKeDUduBSVulmoUhv8FniNyMjDkbQhBys9xkSPSiv5Z5DU0rcw31vCvtjxcxqc13UHBYr1D355RWQttGIKHBhkeCSmTqN5ZxPbAwLRtIyTEyzIgDUcXrBr6t6eQsP87SG12EvLbNlMrkAOHMipxxD8wrIuBTusjVYRBkHn2olwo5AWGsDyJLFW7P8mM531YKL9BDxFHmnxi0StVpQCdvGU0f7twhMspjJNHz8TOkqFqbFnDVwP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46171,
+      "createdOn": "2025-12-27T22:25:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ccd1c508c5d5e37d93e",
+          "products": [
+            {
+              "_id": "69505ccf1c508c5d5e37d971",
+              "name": "Mouse83527",
+              "amount": 244,
+              "price": 25008,
+              "manufacturer": "Google",
+              "notes": "FSFOQKT0col3Rai017QFR1ef1UrrE5rslsyscetz9RQeMxsm76o5iSadUIjT1l1puMP1roQhvOCuVkAUftuG1kGLmu6xpXSThv3XSjp0ESAQRMJymdnL0SfiULU8fUNtjbFFyO5TbV2idkBog9pHQP98FMVfB6ZPzG66nW8NIqLgunMEK4VH83ZP8PpBp2KisyOZe1qfooKE8wG7KeCEDTtyxzzNZjpCjPzZepaCsP08m6qDkcWVvf6ac7",
+              "received": false
+            },
+            {
+              "_id": "69505cd11c508c5d5e37daed",
+              "name": "Shoes78475",
+              "amount": 273,
+              "price": 21163,
+              "manufacturer": "Amazon",
+              "notes": "lKVTaLtIMKeDUduBSVulmoUhv8FniNyMjDkbQhBys9xkSPSiv5Z5DU0rcw31vCvtjxcxqc13UHBYr1D355RWQttGIKHBhkeCSmTqN5ZxPbAwLRtIyTEyzIgDUcXrBr6t6eQsP87SG12EvLbNlMrkAOHMipxxD8wrIuBTusjVYRBkHn2olwo5AWGsDyJLFW7P8mM531YKL9BDxFHmnxi0StVpQCdvGU0f7twhMspjJNHz8TOkqFqbFnDVwP",
+              "received": false
+            }
+          ],
+          "total_price": 46171,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cd21c508c5d5e37db05"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

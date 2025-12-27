@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-pP9LyXfVTyqM7oprsENWephoZc0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cdc1c508c5d5e37dfeb",
+        "email": "Ryan_Barton53@yahoo.com",
+        "name": "Eusebio Murphy",
+        "country": "Canada",
+        "city": "Feestchester",
+        "street": "Daphnee Grove",
+        "house": 37,
+        "flat": 247,
+        "phone": "+15914943983",
+        "createdOn": "2025-12-27T22:25:32.000Z",
+        "notes": "az72rASC1GqEpyCKnyhLd0q5wUpxmYcG4BJYgu7C1u97wEypN00VNXfHg4i9ErgoxZjDCVPUJO4wbcNTubZU1FKQuRbf8lRQJrEWhD0W1iJXuLelgO60PNi9HMosXEBmVpPzUlK77dn0PKC6QNuMLN6RTDVJ8cPWcjWKrTrn0fbyQ7PtG111tSojXIqxryaBxQegAk56aovDSeXBzROaTcHRCBApyhw1JZu4D9jAO2RGPkGDaqQpdcpEFY"
+      },
+      "products": [
+        {
+          "_id": "69505cde1c508c5d5e37e217",
+          "name": "Shoes72824",
+          "amount": 225,
+          "price": 64409,
+          "manufacturer": "Xiaomi",
+          "notes": "Lt8n0qCj2QLu8uh5kB36OF0yvRKkfXCC0OHJHgCdRGsjkGdLXwpNOKEf4StyISR3AybN6rjWo444lzp3lGddLYYZypMtbAOQk5pZlzAFOfWCuGEzDNNmbkfj1bQCor6dlFIdS81J6RECR5jthhrjjejAUesx5qElWvN3uvccF8CDbkBYUIHWOWksowrNjRCLx3Q59u67Uhvan2a6sNhTu5EBF6byAF7yebTT9GD0Yt21sZYjFk0NiN2e8U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64409,
+      "createdOn": "2025-12-27T22:25:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cdc1c508c5d5e37dfeb",
+          "products": [
+            {
+              "_id": "69505cde1c508c5d5e37e217",
+              "name": "Shoes72824",
+              "amount": 225,
+              "price": 64409,
+              "manufacturer": "Xiaomi",
+              "notes": "Lt8n0qCj2QLu8uh5kB36OF0yvRKkfXCC0OHJHgCdRGsjkGdLXwpNOKEf4StyISR3AybN6rjWo444lzp3lGddLYYZypMtbAOQk5pZlzAFOfWCuGEzDNNmbkfj1bQCor6dlFIdS81J6RECR5jthhrjjejAUesx5qElWvN3uvccF8CDbkBYUIHWOWksowrNjRCLx3Q59u67Uhvan2a6sNhTu5EBF6byAF7yebTT9GD0Yt21sZYjFk0NiN2e8U",
+              "received": false
+            }
+          ],
+          "total_price": 64409,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505ce11c508c5d5e37e435"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

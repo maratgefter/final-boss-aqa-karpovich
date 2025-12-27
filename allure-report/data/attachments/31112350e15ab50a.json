@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-B0cjQjkac87gxmcv8AvrsIgOejI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cd51c508c5d5e37dcfa",
+        "email": "Franco17@hotmail.com",
+        "name": "Joaquin Walter",
+        "country": "Great Britain",
+        "city": "Redding",
+        "street": "Yundt Overpass",
+        "house": 10,
+        "flat": 904,
+        "phone": "+12885789561",
+        "createdOn": "2025-12-27T22:25:25.000Z",
+        "notes": "UqVqdiuhCOi4MT5aoV2DQBungMzZPeHgC9wVdzpVlcg8dlC1jrCLIXpStuv2EC5CktFWuZWzBT4nsWYUXPdqejVivkLzNgrkoW7JmtctE7VbHBhC93U3lkrFQLwrjocWnoZFFCSUQx687G3054zlmYoH7nQuByWKxxBrQ3RdFT64qQFPPslibdrm6hjRSauBN940xjGomTIJkif9hhPEDjrlvX43Wjr5F7ksiadwmezZdx89HnB1QK0LsU"
+      },
+      "products": [
+        {
+          "_id": "69505cd91c508c5d5e37dea4",
+          "name": "Pants23305",
+          "amount": 77,
+          "price": 76404,
+          "manufacturer": "Google",
+          "notes": "wKEZcYxvoW0P0d9P3ts2g7EoIw1JcAYU1Jo7sqD6P5E6eA9mJ924YcN14us0CuyK1IhWE1pU2Juuf5gXLP1V1uMcDOqFXYyIH5abUxL51w4bJy2Ra1LrtBEHLfozm3hF2kqQpX3GjHy5l3l79d7leZwZ0cWm03iVSttGCUEWmmF8XQcuYsxXLaI5Bm34D8cwk3csWhMaXSyVebFQovE1pz9f59eUJk4q0sVskL9Qsv62UF3Qtq1pyxfL5Q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76404,
+      "createdOn": "2025-12-27T22:25:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cd51c508c5d5e37dcfa",
+          "products": [
+            {
+              "_id": "69505cd91c508c5d5e37dea4",
+              "name": "Pants23305",
+              "amount": 77,
+              "price": 76404,
+              "manufacturer": "Google",
+              "notes": "wKEZcYxvoW0P0d9P3ts2g7EoIw1JcAYU1Jo7sqD6P5E6eA9mJ924YcN14us0CuyK1IhWE1pU2Juuf5gXLP1V1uMcDOqFXYyIH5abUxL51w4bJy2Ra1LrtBEHLfozm3hF2kqQpX3GjHy5l3l79d7leZwZ0cWm03iVSttGCUEWmmF8XQcuYsxXLaI5Bm34D8cwk3csWhMaXSyVebFQovE1pz9f59eUJk4q0sVskL9Qsv62UF3Qtq1pyxfL5Q",
+              "received": false
+            }
+          ],
+          "total_price": 76404,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cd91c508c5d5e37deba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

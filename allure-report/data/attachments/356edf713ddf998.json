@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-G+0lvvWX6q+ZETJK7QPX0RfGY6U\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cd51c508c5d5e37de4e",
+        "email": "Lydia.Schowalter28@gmail.com",
+        "name": "Cleta Zboncak",
+        "country": "Russia",
+        "city": "South Bella",
+        "street": "Elsa Mountain",
+        "house": 41,
+        "flat": 280,
+        "phone": "+19642574066",
+        "createdOn": "2025-12-27T22:25:25.000Z",
+        "notes": "imMFNkv8baQBp3bJESczpq23dp60HUSMnBNgQgEh9BfwNJEXGnzdkfF4j7WdQpgB3NCYrSfswqwYZTn3Er61dubYech0BuMQOVO8P0JjEfsh5hQmSpDr2FMkyaVehUfqH7bCdX37xfRSs8nlCAnH0BOiOZ5kK7FPzuVfhkWA1tSbYBDkI1vKzdA7zSTHfSPvEvaw0KNbtigUBW7bP7LS8OndxB4PQtogkGPN8Qfsq44QSGF6hXpuZU9isB"
+      },
+      "products": [
+        {
+          "_id": "69505cd91c508c5d5e37deb7",
+          "name": "Towels42267",
+          "amount": 215,
+          "price": 27253,
+          "manufacturer": "Tesla",
+          "notes": "msvH2zHkByPPJs6JLAxaTASWPoyWWhAPyeREgkgz2PYPFTuoxhhqIgU8z8aftCtlUbvMI3Z2lrVAHk2J94pLatMNR96UU3ictTDGOe3yrCNzOXYpyQvocQBtWlwCuIui4qc9SISBOEx6qidf0v89cmgZ0EmGJRfWMNtpV30NUexQGsc9UTpKMsZR5pek5H6qfy30dPkFkHl1EwIqkgpgnrXRyqgYSZoSx6WWAkLbC6m1Sm4yIuQMgbAZmr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27253,
+      "createdOn": "2025-12-27T22:25:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cd51c508c5d5e37de4e",
+          "products": [
+            {
+              "_id": "69505cd91c508c5d5e37deb7",
+              "name": "Towels42267",
+              "amount": 215,
+              "price": 27253,
+              "manufacturer": "Tesla",
+              "notes": "msvH2zHkByPPJs6JLAxaTASWPoyWWhAPyeREgkgz2PYPFTuoxhhqIgU8z8aftCtlUbvMI3Z2lrVAHk2J94pLatMNR96UU3ictTDGOe3yrCNzOXYpyQvocQBtWlwCuIui4qc9SISBOEx6qidf0v89cmgZ0EmGJRfWMNtpV30NUexQGsc9UTpKMsZR5pek5H6qfy30dPkFkHl1EwIqkgpgnrXRyqgYSZoSx6WWAkLbC6m1Sm4yIuQMgbAZmr",
+              "received": false
+            }
+          ],
+          "total_price": 27253,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cd91c508c5d5e37dedb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

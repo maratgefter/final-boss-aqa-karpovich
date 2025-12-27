@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:26:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-sq5uiOTntK5mNxbcOCRi1tP2CdM\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cfd1c508c5d5e37f323",
+        "email": "Soledad8@gmail.com",
+        "name": "Adolf Rogahn",
+        "country": "Belarus",
+        "city": "East Alexanecester",
+        "street": "Brad Valley",
+        "house": 19,
+        "flat": 389,
+        "phone": "+14035479649",
+        "createdOn": "2025-12-27T22:26:05.000Z",
+        "notes": "faLLX0DeGHIfesz6jiLjH4VRmvsO0EALXLFQlwTA398vPKY0JySlZGgLjCaMWpwrJB9LYovoDmUIsZbkM8xWe9CdHEUN8FtqIIdauPQkeyoQ21AHjNHuPbreyGg1V9uL7vyevsWYq9wUJM2PmBScsx16iYKcpWxN8sFJwIQcfu2hKFFxNPkKwzJlfJeo9MNP6dpgcviD9uPqKBihV4keA9ut65eqvodC7T0s3FRlD4Pzhp80FxPDxcaXKk"
+      },
+      "products": [
+        {
+          "_id": "69505cff1c508c5d5e37f3fe",
+          "name": "Bacon10577",
+          "amount": 119,
+          "price": 14825,
+          "manufacturer": "Apple",
+          "notes": "YYuR8WaOKAR4VuAR5Ba3igBJxy6wb6iGAuqZWMcRbKG7mLYkhRVnfTaqoatiMKySUq4xnF065AAyo09JoVWj7o5YoSJcieo6ad41VTnX6IOxwMsfCZ806ADHy5gVtC1eLH669RTfGTmhKot0XFEapg9b8BW10gS7r1vGXFV26mlWdwFdlcbVceKwweEEqtgFQ2rLbL7v6Vdy6nr1ekpoGN31W6HOynddiQ2XkTwTy8gZfLLaaD6cHIVQy9",
+          "received": false
+        },
+        {
+          "_id": "69505d021c508c5d5e37f4e2",
+          "name": "Soap95352",
+          "amount": 142,
+          "price": 23076,
+          "manufacturer": "Tesla",
+          "notes": "1EJbNEq5v7NsMeJnxGVeiC6twv0gLBIH5Vee3mHaHprilcdNbbGTIY1lAtTvWyTimZYXFbYuASdhBjyChoR6xIGYfmlgMkLXieueYuLDtzv03vN2BdmyNd1kIp2OCsh4cp6r3pln08Q4iOA1tQcovE3cXD0TWYfWbj7fz1YdMY75nV3n7aFB9ma3xu5CGVW8nL0V3GRlmA1joKHJP5wr94RoBaJ4aqN4dXfj8279DkTtiyFSuJjgpgGH44",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37901,
+      "createdOn": "2025-12-27T22:26:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cfd1c508c5d5e37f323",
+          "products": [
+            {
+              "_id": "69505cff1c508c5d5e37f3fe",
+              "name": "Bacon10577",
+              "amount": 119,
+              "price": 14825,
+              "manufacturer": "Apple",
+              "notes": "YYuR8WaOKAR4VuAR5Ba3igBJxy6wb6iGAuqZWMcRbKG7mLYkhRVnfTaqoatiMKySUq4xnF065AAyo09JoVWj7o5YoSJcieo6ad41VTnX6IOxwMsfCZ806ADHy5gVtC1eLH669RTfGTmhKot0XFEapg9b8BW10gS7r1vGXFV26mlWdwFdlcbVceKwweEEqtgFQ2rLbL7v6Vdy6nr1ekpoGN31W6HOynddiQ2XkTwTy8gZfLLaaD6cHIVQy9",
+              "received": false
+            },
+            {
+              "_id": "69505d021c508c5d5e37f4e2",
+              "name": "Soap95352",
+              "amount": 142,
+              "price": 23076,
+              "manufacturer": "Tesla",
+              "notes": "1EJbNEq5v7NsMeJnxGVeiC6twv0gLBIH5Vee3mHaHprilcdNbbGTIY1lAtTvWyTimZYXFbYuASdhBjyChoR6xIGYfmlgMkLXieueYuLDtzv03vN2BdmyNd1kIp2OCsh4cp6r3pln08Q4iOA1tQcovE3cXD0TWYfWbj7fz1YdMY75nV3n7aFB9ma3xu5CGVW8nL0V3GRlmA1joKHJP5wr94RoBaJ4aqN4dXfj8279DkTtiyFSuJjgpgGH44",
+              "received": false
+            }
+          ],
+          "total_price": 37901,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505d021c508c5d5e37f4f9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

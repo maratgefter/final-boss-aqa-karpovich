@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2943",
+    "etag": "W/\"b7f-vWVXB5Migh0nJNHvQZXejVNjvJg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cc01c508c5d5e37d46c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cbe1c508c5d5e37d40b",
+        "email": "Jewel81@hotmail.com",
+        "name": "Velva Renner",
+        "country": "Great Britain",
+        "city": "Fort Darriontown",
+        "street": "Milton Road",
+        "house": 41,
+        "flat": 204,
+        "phone": "+15115031411",
+        "createdOn": "2025-12-27T22:25:02.000Z",
+        "notes": "rxdWa1Xf8OOYikYpL3ehnFnTxabbPgM5ojlqKFSj4xZfJscPdJaEU3ecnNLzUxnizr5SiVdPOZrxa4IQvNBrhjUNw4QUoYeUXr5sUkQsxgfLdZoLcyJDctgJhsqZaXW7hPlBHPEP2ohW6esVk9dIVEyGOiOHhLpyp8S8XjwBhdRrb78h83Bl5SGPovP73cMZK1Nk9qiILZWZDJctX2YAo5C7tjy9rHOgQlAsS7300WRJzbVfgTBQpUeh9a"
+      },
+      "products": [
+        {
+          "_id": "69505cc01c508c5d5e37d464",
+          "name": "Pizza59104",
+          "amount": 911,
+          "price": 606,
+          "manufacturer": "Apple",
+          "notes": "vBUr2GmI05uRJ1Xqrn8kqKI8HuDhkXLRgpLerlxLTZZ7FAhjT0imkSKz6qftDRYQWYGMTdH7Jx4rjEHNxg5mXp0I0RrDfiX6F39L5HyulVOlgkKv8lSM3coJtzz5Lesj9lZwEJaEbu9W9LQqeQUZ2sg3j21uCqjL7ffrE8gelNFuqtvpMEZowbHsaC6LWFAoytgQBn5Jn6kjjSEKZPCRbFSqCsYVyiPMIj5NCyWNwjb1WVxgHeqvqlvhLH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 606,
+      "createdOn": "2025-12-27T22:25:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cbe1c508c5d5e37d40b",
+          "products": [
+            {
+              "_id": "69505cc01c508c5d5e37d464",
+              "name": "Pizza59104",
+              "amount": 911,
+              "price": 606,
+              "manufacturer": "Apple",
+              "notes": "vBUr2GmI05uRJ1Xqrn8kqKI8HuDhkXLRgpLerlxLTZZ7FAhjT0imkSKz6qftDRYQWYGMTdH7Jx4rjEHNxg5mXp0I0RrDfiX6F39L5HyulVOlgkKv8lSM3coJtzz5Lesj9lZwEJaEbu9W9LQqeQUZ2sg3j21uCqjL7ffrE8gelNFuqtvpMEZowbHsaC6LWFAoytgQBn5Jn6kjjSEKZPCRbFSqCsYVyiPMIj5NCyWNwjb1WVxgHeqvqlvhLH",
+              "received": false
+            }
+          ],
+          "total_price": 606,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:05.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69505cbe1c508c5d5e37d40b",
+          "products": [
+            {
+              "_id": "69505cc01c508c5d5e37d464",
+              "name": "Pizza59104",
+              "amount": 911,
+              "price": 606,
+              "manufacturer": "Apple",
+              "notes": "vBUr2GmI05uRJ1Xqrn8kqKI8HuDhkXLRgpLerlxLTZZ7FAhjT0imkSKz6qftDRYQWYGMTdH7Jx4rjEHNxg5mXp0I0RrDfiX6F39L5HyulVOlgkKv8lSM3coJtzz5Lesj9lZwEJaEbu9W9LQqeQUZ2sg3j21uCqjL7ffrE8gelNFuqtvpMEZowbHsaC6LWFAoytgQBn5Jn6kjjSEKZPCRbFSqCsYVyiPMIj5NCyWNwjb1WVxgHeqvqlvhLH",
+              "received": false
+            }
+          ],
+          "total_price": 606,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

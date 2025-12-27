@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-i6GwSMno5b/2AF8cmjMrrkpVXoY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cd91c508c5d5e37deb5",
+        "email": "Eulalia_Rodriguez@hotmail.com",
+        "name": "Cletus Dicki",
+        "country": "Ukraine",
+        "city": "Port Leannaport",
+        "street": "Koelpin Heights",
+        "house": 36,
+        "flat": 635,
+        "phone": "+15022837870",
+        "createdOn": "2025-12-27T22:25:29.000Z",
+        "notes": "Oy709CmZK8tzjvzxaHAq2XoFLWx119KsLjlJvmz3P9zDzoeQQwT8O4zhSFeVoKGhW2vbID2wtfkhyVNqk8Y26nIrCS7LE7wBHQUimn9RZeAzE41JxVcCjWs2BE0gsuvFx2wLXLQBnMCxL2vwpcIKXaA6Z9un8TujsLacYMooUym9PbsKj8RAFB9grD4dlaJ7UEkvom2JVbszvhHHjbNElFQ9pK20t2uUMC6kuotUG2ZzmsBO8NzBLaKQDI"
+      },
+      "products": [
+        {
+          "_id": "69505cdb1c508c5d5e37dfd8",
+          "name": "Ball83282",
+          "amount": 193,
+          "price": 60296,
+          "manufacturer": "Xiaomi",
+          "notes": "anOn3644WSC1Agjj7ZK39zaip22ML7KJe4hLSZBh52fswGA8VBboIrRGLTer4oaGiLSuOlzA1JVct8NraYkwptuWZqBb35B0vbQMww23GpKFELOIhKXl0ugs1SZ5UNRmtlZvgP3SUeZjCEL5EdgcoFBLiRcZdygt2F6k4ZS8bBslcPuGAKW9V7t0A0IKpEYbKCMlEFIp59Ll2J6Aw9ePbNOZL8XUZBC95E7dSsADHVXvROnNGaxMYb5ZLM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60296,
+      "createdOn": "2025-12-27T22:25:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cd91c508c5d5e37deb5",
+          "products": [
+            {
+              "_id": "69505cdb1c508c5d5e37dfd8",
+              "name": "Ball83282",
+              "amount": 193,
+              "price": 60296,
+              "manufacturer": "Xiaomi",
+              "notes": "anOn3644WSC1Agjj7ZK39zaip22ML7KJe4hLSZBh52fswGA8VBboIrRGLTer4oaGiLSuOlzA1JVct8NraYkwptuWZqBb35B0vbQMww23GpKFELOIhKXl0ugs1SZ5UNRmtlZvgP3SUeZjCEL5EdgcoFBLiRcZdygt2F6k4ZS8bBslcPuGAKW9V7t0A0IKpEYbKCMlEFIp59Ll2J6Aw9ePbNOZL8XUZBC95E7dSsADHVXvROnNGaxMYb5ZLM",
+              "received": false
+            }
+          ],
+          "total_price": 60296,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505cdc1c508c5d5e37dff2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

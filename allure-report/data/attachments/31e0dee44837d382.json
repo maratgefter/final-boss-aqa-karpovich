@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-d3LRvr+a0lkERYzACT/L4P/gNV0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cd91c508c5d5e37dec7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505cd61c508c5d5e37de56",
+        "email": "Arturo.Homenick79@hotmail.com",
+        "name": "Justine Vandervort",
+        "country": "USA",
+        "city": "Fort Jazmyne",
+        "street": "Church View",
+        "house": 2,
+        "flat": 1000,
+        "phone": "+14414030576",
+        "createdOn": "2025-12-27T22:25:26.000Z",
+        "notes": "VPLFtUKlPVgvtEIYOOoKrWBs2GHBLVk4LuAHCBjH7d6DzF04rfjlNAxhe9hHDnMFw4ZcnghYl6B31auqirJMAXDtbb9mMrZXxG9swINOwUwsGkalwAZy1oOvqBqUfkVyF6erpEdRGFWas2IDV9NmR84uImozUi6pXUYFdQ67lCuUiM8vfmzSwypDp02JF2qysXdxYcqMCVgmG5AHRXE1MIY2oMdC8pRgODeAbKDsR9XOOpGMbvqk1vBi1u"
+      },
+      "products": [
+        {
+          "_id": "69505cd91c508c5d5e37deac",
+          "name": "Salad27803",
+          "amount": 44,
+          "price": 56251,
+          "manufacturer": "Google",
+          "notes": "FUL8K0hRwV53ZNu0fJlXcJaEwLw7l86wWlt6q8aArDiQ96iOnh2YbUlt3ZnKwitBA50DRSXGwf4JdUPkabtQooVgJZv87JYnPZZjgjk9a0n45gkQWlF9J71EYnp9sqfY3s7VDqZHSPvYb0qhsAfLsVHWbx3nTF5vpiHrHqSNRLh8arEhhcxaRIMxDOxN3l74BSfl0bcJ5hQrMbR2aFvjM0F9QBWrgt3ISDekZPBXBQPVgqqEfAzOF9PTW5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56251,
+      "createdOn": "2025-12-27T22:25:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505cd61c508c5d5e37de56",
+          "products": [
+            {
+              "_id": "69505cd91c508c5d5e37deac",
+              "name": "Salad27803",
+              "amount": 44,
+              "price": 56251,
+              "manufacturer": "Google",
+              "notes": "FUL8K0hRwV53ZNu0fJlXcJaEwLw7l86wWlt6q8aArDiQ96iOnh2YbUlt3ZnKwitBA50DRSXGwf4JdUPkabtQooVgJZv87JYnPZZjgjk9a0n45gkQWlF9J71EYnp9sqfY3s7VDqZHSPvYb0qhsAfLsVHWbx3nTF5vpiHrHqSNRLh8arEhhcxaRIMxDOxN3l74BSfl0bcJ5hQrMbR2aFvjM0F9QBWrgt3ISDekZPBXBQPVgqqEfAzOF9PTW5",
+              "received": false
+            }
+          ],
+          "total_price": 56251,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

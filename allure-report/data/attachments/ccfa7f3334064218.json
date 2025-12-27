@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:25:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2967",
+    "etag": "W/\"b97-wFnGTUjjvtF2Iqc27pupc67NhnM\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505cee1c508c5d5e37eb06",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ce91c508c5d5e37e8b0",
+        "email": "Angie78@gmail.com",
+        "name": "Marisa Bode",
+        "country": "Great Britain",
+        "city": "Fort Raeganstad",
+        "street": "Windsor Close",
+        "house": 11,
+        "flat": 596,
+        "phone": "+16638347160",
+        "createdOn": "2025-12-27T22:25:45.000Z",
+        "notes": "T4ANRPjZLBKzokhHvjf2VlW1C6cIsadkQZI4sXOQfbO0zVD56ndwuqwQ0daucbvpbYMiMN95LS9R8Z7dVI5u78Nm4rGBblNkTcmYdTCaRySELm3mtiUHDE1DMK5cWQnuoCd1yg5qrwcXHdwGfT5eYNW1IT27uNfLn5aoo0WkqNC8DduiFXqgbok8Waj8wJPf5HNoMvaiP4oMALPj53TdIMx2IDQZH9epIPq68llbR3GCPlh1GSI9Xs6evK"
+      },
+      "products": [
+        {
+          "_id": "69505cee1c508c5d5e37eaf4",
+          "name": "Bike16921",
+          "amount": 673,
+          "price": 11664,
+          "manufacturer": "Sony",
+          "notes": "3ADPgSHuVPptKxEKskWPqC9TRKBnQBg7BWA1ak2DVnQJHDOivBj6gEWUTNF1ShJFjIUebdcM5ZvlsS5CApyG3BOinPrWQU8L7mWOPi2FHf7hXgDllFLtTgnSqGAR8E7JvfGqd6iYEAcogYSH5ZzVWHMoF5iSAVijUVmvE6kMJQhmZjJGvvAAlkI1Pw6kgmxzdZsQ5DH8hA1F86THy5EuN4oM0Bpf6fXA8TmDw8aEWsLlp0mHyRz8JAQfuE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Raeganstad",
+          "street": "Windsor Close",
+          "house": 11,
+          "flat": 596
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 11664,
+      "createdOn": "2025-12-27T22:25:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ce91c508c5d5e37e8b0",
+          "products": [
+            {
+              "_id": "69505cee1c508c5d5e37eaf4",
+              "name": "Bike16921",
+              "amount": 673,
+              "price": 11664,
+              "manufacturer": "Sony",
+              "notes": "3ADPgSHuVPptKxEKskWPqC9TRKBnQBg7BWA1ak2DVnQJHDOivBj6gEWUTNF1ShJFjIUebdcM5ZvlsS5CApyG3BOinPrWQU8L7mWOPi2FHf7hXgDllFLtTgnSqGAR8E7JvfGqd6iYEAcogYSH5ZzVWHMoF5iSAVijUVmvE6kMJQhmZjJGvvAAlkI1Pw6kgmxzdZsQ5DH8hA1F86THy5EuN4oM0Bpf6fXA8TmDw8aEWsLlp0mHyRz8JAQfuE",
+              "received": false
+            }
+          ],
+          "total_price": 11664,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Raeganstad",
+              "street": "Windsor Close",
+              "house": 11,
+              "flat": 596
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:25:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505ce91c508c5d5e37e8b0",
+          "products": [
+            {
+              "_id": "69505cee1c508c5d5e37eaf4",
+              "name": "Bike16921",
+              "amount": 673,
+              "price": 11664,
+              "manufacturer": "Sony",
+              "notes": "3ADPgSHuVPptKxEKskWPqC9TRKBnQBg7BWA1ak2DVnQJHDOivBj6gEWUTNF1ShJFjIUebdcM5ZvlsS5CApyG3BOinPrWQU8L7mWOPi2FHf7hXgDllFLtTgnSqGAR8E7JvfGqd6iYEAcogYSH5ZzVWHMoF5iSAVijUVmvE6kMJQhmZjJGvvAAlkI1Pw6kgmxzdZsQ5DH8hA1F86THy5EuN4oM0Bpf6fXA8TmDw8aEWsLlp0mHyRz8JAQfuE",
+              "received": false
+            }
+          ],
+          "total_price": 11664,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:25:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

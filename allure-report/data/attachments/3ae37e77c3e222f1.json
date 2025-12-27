@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:26:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5453",
+    "etag": "W/\"154d-r6mSFSwEwnNBsUvx3Tjkx7UykBQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505d1b1c508c5d5e380308",
+      "status": "In Process",
+      "customer": {
+        "_id": "69505d101c508c5d5e37fc37",
+        "email": "Isabel45@yahoo.com",
+        "name": "Lavada Price",
+        "country": "Great Britain",
+        "city": "Port Carminehaven",
+        "street": "W Jackson Street",
+        "house": 8,
+        "flat": 166,
+        "phone": "+12026774177",
+        "createdOn": "2025-12-27T22:26:24.000Z",
+        "notes": "lPPsKJah4mCFmz0pyNbr1EqgWcaxijCC6LIz1BYoumGvkVQAD7yYxkdXCagPziG3Zv0HTY4E4V2cg5Pxe80Khftdbv2xs4lD06UZBRUOn1FcaaSC9HhpQArKGlcDS95F4xLd0gsFWPGslXnyHbKh6VrT0BCMyAT4nJHW4veYeqBrxI8WltVo3u72W8G2Fx8Y04qXqzv4HZ4KNXk6SivktMgXPZz2kOXk71jDiIWbNm68RjPPli2kozqrNv"
+      },
+      "products": [
+        {
+          "_id": "69505d141c508c5d5e37fde8",
+          "name": "Chicken52367",
+          "amount": 828,
+          "price": 2681,
+          "manufacturer": "Sony",
+          "notes": "cAdzv3UOf4ILgczd9BIZeplPXhI86QUTd5K7ptSYiBLtIQiixQCwukt4gTgSxfiASaTdVMFxueXISCIHDOiT21sknl0CdY5kv0tfYjGHkrs6hcfa4r4ui4WxhanqXtMtov5jenhPoDJofA1goc1MKfT4AkCy7Ma4xB7oOcptL8U1wV5pANSDuqlKMH98l7dPwCinkukDGkk2jyKmxHEk8kHkhAOPOfJWYvjqpoB5nO8uGcfr1M90aJT0Jj",
+          "received": false
+        },
+        {
+          "_id": "69505d161c508c5d5e3802d2",
+          "name": "Soap7677",
+          "amount": 964,
+          "price": 78667,
+          "manufacturer": "Tesla",
+          "notes": "LwTeW2H9tmyHoNdAO9tkijedyj7a9o45sJMVddsu41yQhT7O4XbhQb3kN1AuYbEoFw3A3E2gp9EeIqhATdNucUuL16bwLjNpGFFVZFcf5eV3D4iMO1g6kRAFwUTkIXJi3grY4R6hvcfGe6Rk7OTdd6l8CASmvhtOAZwtxcHxiLopSNhrQfA8PrvqToUgma3wF1cOqSf6ksAWiSc46Yw51bGVmqzkYttX0ondL3bNfru7R2aGRIzar6r63p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Carminehaven",
+          "street": "W Jackson Street",
+          "house": 8,
+          "flat": 166
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 81348,
+      "createdOn": "2025-12-27T22:26:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69505d101c508c5d5e37fc37",
+          "products": [
+            {
+              "_id": "69505d141c508c5d5e37fde8",
+              "name": "Chicken52367",
+              "amount": 828,
+              "price": 2681,
+              "manufacturer": "Sony",
+              "notes": "cAdzv3UOf4ILgczd9BIZeplPXhI86QUTd5K7ptSYiBLtIQiixQCwukt4gTgSxfiASaTdVMFxueXISCIHDOiT21sknl0CdY5kv0tfYjGHkrs6hcfa4r4ui4WxhanqXtMtov5jenhPoDJofA1goc1MKfT4AkCy7Ma4xB7oOcptL8U1wV5pANSDuqlKMH98l7dPwCinkukDGkk2jyKmxHEk8kHkhAOPOfJWYvjqpoB5nO8uGcfr1M90aJT0Jj",
+              "received": false
+            },
+            {
+              "_id": "69505d161c508c5d5e3802d2",
+              "name": "Soap7677",
+              "amount": 964,
+              "price": 78667,
+              "manufacturer": "Tesla",
+              "notes": "LwTeW2H9tmyHoNdAO9tkijedyj7a9o45sJMVddsu41yQhT7O4XbhQb3kN1AuYbEoFw3A3E2gp9EeIqhATdNucUuL16bwLjNpGFFVZFcf5eV3D4iMO1g6kRAFwUTkIXJi3grY4R6hvcfGe6Rk7OTdd6l8CASmvhtOAZwtxcHxiLopSNhrQfA8PrvqToUgma3wF1cOqSf6ksAWiSc46Yw51bGVmqzkYttX0ondL3bNfru7R2aGRIzar6r63p",
+              "received": false
+            }
+          ],
+          "total_price": 81348,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Carminehaven",
+              "street": "W Jackson Street",
+              "house": 8,
+              "flat": 166
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:44.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d101c508c5d5e37fc37",
+          "products": [
+            {
+              "_id": "69505d141c508c5d5e37fde8",
+              "name": "Chicken52367",
+              "amount": 828,
+              "price": 2681,
+              "manufacturer": "Sony",
+              "notes": "cAdzv3UOf4ILgczd9BIZeplPXhI86QUTd5K7ptSYiBLtIQiixQCwukt4gTgSxfiASaTdVMFxueXISCIHDOiT21sknl0CdY5kv0tfYjGHkrs6hcfa4r4ui4WxhanqXtMtov5jenhPoDJofA1goc1MKfT4AkCy7Ma4xB7oOcptL8U1wV5pANSDuqlKMH98l7dPwCinkukDGkk2jyKmxHEk8kHkhAOPOfJWYvjqpoB5nO8uGcfr1M90aJT0Jj",
+              "received": false
+            },
+            {
+              "_id": "69505d161c508c5d5e3802d2",
+              "name": "Soap7677",
+              "amount": 964,
+              "price": 78667,
+              "manufacturer": "Tesla",
+              "notes": "LwTeW2H9tmyHoNdAO9tkijedyj7a9o45sJMVddsu41yQhT7O4XbhQb3kN1AuYbEoFw3A3E2gp9EeIqhATdNucUuL16bwLjNpGFFVZFcf5eV3D4iMO1g6kRAFwUTkIXJi3grY4R6hvcfGe6Rk7OTdd6l8CASmvhtOAZwtxcHxiLopSNhrQfA8PrvqToUgma3wF1cOqSf6ksAWiSc46Yw51bGVmqzkYttX0ondL3bNfru7R2aGRIzar6r63p",
+              "received": false
+            }
+          ],
+          "total_price": 81348,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Carminehaven",
+              "street": "W Jackson Street",
+              "house": 8,
+              "flat": 166
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:26:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505d101c508c5d5e37fc37",
+          "products": [
+            {
+              "_id": "69505d141c508c5d5e37fde8",
+              "name": "Chicken52367",
+              "amount": 828,
+              "price": 2681,
+              "manufacturer": "Sony",
+              "notes": "cAdzv3UOf4ILgczd9BIZeplPXhI86QUTd5K7ptSYiBLtIQiixQCwukt4gTgSxfiASaTdVMFxueXISCIHDOiT21sknl0CdY5kv0tfYjGHkrs6hcfa4r4ui4WxhanqXtMtov5jenhPoDJofA1goc1MKfT4AkCy7Ma4xB7oOcptL8U1wV5pANSDuqlKMH98l7dPwCinkukDGkk2jyKmxHEk8kHkhAOPOfJWYvjqpoB5nO8uGcfr1M90aJT0Jj",
+              "received": false
+            },
+            {
+              "_id": "69505d161c508c5d5e3802d2",
+              "name": "Soap7677",
+              "amount": 964,
+              "price": 78667,
+              "manufacturer": "Tesla",
+              "notes": "LwTeW2H9tmyHoNdAO9tkijedyj7a9o45sJMVddsu41yQhT7O4XbhQb3kN1AuYbEoFw3A3E2gp9EeIqhATdNucUuL16bwLjNpGFFVZFcf5eV3D4iMO1g6kRAFwUTkIXJi3grY4R6hvcfGe6Rk7OTdd6l8CASmvhtOAZwtxcHxiLopSNhrQfA8PrvqToUgma3wF1cOqSf6ksAWiSc46Yw51bGVmqzkYttX0ondL3bNfru7R2aGRIzar6r63p",
+              "received": false
+            }
+          ],
+          "total_price": 81348,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:26:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
