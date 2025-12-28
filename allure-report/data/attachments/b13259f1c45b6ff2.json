@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:26:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2952",
+    "etag": "W/\"b88-LgPTuN6HbfyxfE1s362pSAnB4xo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ae7b1c508c5d5e45efe4",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae791c508c5d5e45ef4e",
+        "email": "Jimmie_Glover18@yahoo.com",
+        "name": "Sid McDermott",
+        "country": "Great Britain",
+        "city": "Evanston",
+        "street": "Yvette Forest",
+        "house": 49,
+        "flat": 730,
+        "phone": "+13233749188",
+        "createdOn": "2025-12-28T22:26:01.000Z",
+        "notes": "CG2xRUBLUivBP0nny9qLfDp5OnPjVGRf6JeMYSdsGR0bkziZcfsZs7UuNVqLW5OoUzTRa2ZNbOFL3hyo8y7Lz5ktH93fd8WIB2tGqyo00PgNHINFEcsZcJOuD5HMshLIXKWI1aNOz4HUNqpjoP21Tds0IGciaEnrlkaAwwP4aIHgCKhJHMWck4IwsadIadYZRQSTch0krUNwmtBdSJyrS4vFXLsKdbxzulfbViwI9J6LOdyE244mPrAxQ1"
+      },
+      "products": [
+        {
+          "_id": "6951ae7b1c508c5d5e45efcf",
+          "name": "Shoes41699",
+          "amount": 985,
+          "price": 64969,
+          "manufacturer": "Apple",
+          "notes": "CkUqq64U4ZsH72Hkx2LhI83KKUF5N0mppVoDHvbJWjFofkzcSZdhIfHUUUpaZdvOdDEozSmbcNujy4mDpMghWC8YqMPip3oEEuhs79yZikX0AlWyMj7lNusQT7n6ygCVIcHpq4JG1EOjqPgKtnO1PZinDLPGhEHopyNn2PSzmjV4U08kEKLEKdE4ia4qGqK2EGWyXd8SABTuBhrIY3ugJDkl6uLLUlTAVxjoAr5CcDjV4UO03irr9R73UG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fremont",
+          "street": "Schneider Rue",
+          "house": 31,
+          "flat": 381
+        },
+        "finalDate": "2025-12-28T22:26:04.014Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64969,
+      "createdOn": "2025-12-28T22:26:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae791c508c5d5e45ef4e",
+          "products": [
+            {
+              "_id": "6951ae7b1c508c5d5e45efcf",
+              "name": "Shoes41699",
+              "amount": 985,
+              "price": 64969,
+              "manufacturer": "Apple",
+              "notes": "CkUqq64U4ZsH72Hkx2LhI83KKUF5N0mppVoDHvbJWjFofkzcSZdhIfHUUUpaZdvOdDEozSmbcNujy4mDpMghWC8YqMPip3oEEuhs79yZikX0AlWyMj7lNusQT7n6ygCVIcHpq4JG1EOjqPgKtnO1PZinDLPGhEHopyNn2PSzmjV4U08kEKLEKdE4ia4qGqK2EGWyXd8SABTuBhrIY3ugJDkl6uLLUlTAVxjoAr5CcDjV4UO03irr9R73UG",
+              "received": false
+            }
+          ],
+          "total_price": 64969,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fremont",
+              "street": "Schneider Rue",
+              "house": 31,
+              "flat": 381
+            },
+            "finalDate": "2025-12-28T22:26:04.014Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:26:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ae791c508c5d5e45ef4e",
+          "products": [
+            {
+              "_id": "6951ae7b1c508c5d5e45efcf",
+              "name": "Shoes41699",
+              "amount": 985,
+              "price": 64969,
+              "manufacturer": "Apple",
+              "notes": "CkUqq64U4ZsH72Hkx2LhI83KKUF5N0mppVoDHvbJWjFofkzcSZdhIfHUUUpaZdvOdDEozSmbcNujy4mDpMghWC8YqMPip3oEEuhs79yZikX0AlWyMj7lNusQT7n6ygCVIcHpq4JG1EOjqPgKtnO1PZinDLPGhEHopyNn2PSzmjV4U08kEKLEKdE4ia4qGqK2EGWyXd8SABTuBhrIY3ugJDkl6uLLUlTAVxjoAr5CcDjV4UO03irr9R73UG",
+              "received": false
+            }
+          ],
+          "total_price": 64969,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:26:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

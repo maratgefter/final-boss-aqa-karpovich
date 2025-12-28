@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:26:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-e9nBybVPcTZr3iFZmYEgBWzehWM\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae901c508c5d5e45f7f0",
+        "email": "Lennie.Dicki56@hotmail.com",
+        "name": "Presley Kunde",
+        "country": "Great Britain",
+        "city": "East Jacques",
+        "street": "Green Street",
+        "house": 25,
+        "flat": 864,
+        "phone": "+14529482028",
+        "createdOn": "2025-12-28T22:26:24.000Z",
+        "notes": "6Dq0MjmJkymAAUFrnlZM8J8mfmJqjCwAnhA5vbZ5YYc6AdX9qGV0sEjaNthoIi4TsJNnb7rc891h6GneEejgdK9VmfAeS0oNKElcuHM5GTVncmh0lkegGvCcpAzHqkWDLbtzLq6ERrHRdQrmvIPqzJpAmZc8hSMELVbikACHhzzU3bQuphW3DC9zNzcqkFdCoganjl2ZrsYhafTEhaQbC4m5G7etYIG8wWN3mPUpdtjbXCcQFwHnyknGKf"
+      },
+      "products": [
+        {
+          "_id": "6951ae931c508c5d5e45f873",
+          "name": "Mouse85590",
+          "amount": 145,
+          "price": 84643,
+          "manufacturer": "Samsung",
+          "notes": "OyrK9wyeByjkqnB44nCXWOY2iOvZQC10VxPAoSG6wTPc0DnveRLMzWb3kdBxxXRZsUi9SlAQbRcbu3VAks01YiMTOggD2bZe5dIjTAc1Jqnq3FvoDoP7jPj3L3zuUdW8ytdWS0V3Q9UQ5orUawz3l2EOzHwjZ5sllo0EebVIG1XMELHmbWkmkwGOhN3SKs1OKzoad06V62KwQCXkkKvGaRytPrDeeTwI7DCLJxY5cFW2vrIJ0vMwczHrd1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84643,
+      "createdOn": "2025-12-28T22:26:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae901c508c5d5e45f7f0",
+          "products": [
+            {
+              "_id": "6951ae931c508c5d5e45f873",
+              "name": "Mouse85590",
+              "amount": 145,
+              "price": 84643,
+              "manufacturer": "Samsung",
+              "notes": "OyrK9wyeByjkqnB44nCXWOY2iOvZQC10VxPAoSG6wTPc0DnveRLMzWb3kdBxxXRZsUi9SlAQbRcbu3VAks01YiMTOggD2bZe5dIjTAc1Jqnq3FvoDoP7jPj3L3zuUdW8ytdWS0V3Q9UQ5orUawz3l2EOzHwjZ5sllo0EebVIG1XMELHmbWkmkwGOhN3SKs1OKzoad06V62KwQCXkkKvGaRytPrDeeTwI7DCLJxY5cFW2vrIJ0vMwczHrd1",
+              "received": false
+            }
+          ],
+          "total_price": 84643,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:26:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ae931c508c5d5e45f87b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

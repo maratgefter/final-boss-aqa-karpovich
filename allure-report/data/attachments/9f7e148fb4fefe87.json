@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:25:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-1UclvVTHhvXeGcrecCJgwV/Buyo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae5e1c508c5d5e45e55b",
+        "email": "Destin40@hotmail.com",
+        "name": "Martine Kunde",
+        "country": "Belarus",
+        "city": "East Berniece",
+        "street": "Alyson Court",
+        "house": 9,
+        "flat": 741,
+        "phone": "+16205569586",
+        "createdOn": "2025-12-28T22:25:34.000Z",
+        "notes": "tATaWgs7TpH4UjiAX6NQGuwuon9ruCeT7WryLji3VMLnFWQ6KgOzN5vr1VGkKh12HCD5GKpBXdZ8cU2vxbszVqWAUJEXnCA7ig35QNlaI7GKJF4romN3BLlYEK82tsjlZQExDUOkGPYbFbsxqPHOBbpPUpdkkMeAkrEz2uUXlOMovXUd0SjCEkBvMSe6MYF4z2yCsP77dDctn5WoWDNGYgL2eQJWR6z6gFnDhdRNhHTz3d1XaeE9oEW2jd"
+      },
+      "products": [
+        {
+          "_id": "6951ae601c508c5d5e45e640",
+          "name": "Chair75334",
+          "amount": 565,
+          "price": 20663,
+          "manufacturer": "Apple",
+          "notes": "eVTFDKWwxv6SPZWidzAAihBtkucNwYI0xH17CdDD5MNR3BNsfcp2Imtg4x26RlO2YkoD1qKIw6ktPxPn2aHzrvFSxjM86OKUIbIhaZ3pOw7yJ0rJaZYgosk6jIepK8TsOnDQ0pQji35O1ONwxHoFHhhR85r5KuJF6x15dgjJhDLuSsQyL0D7oZJVSUt7SKyioOdb6LUk1vlVvN2hsVHFFJG9hRUcem6lrgP8wnoF2kpaVTXpzz13etJpIM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20663,
+      "createdOn": "2025-12-28T22:25:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae5e1c508c5d5e45e55b",
+          "products": [
+            {
+              "_id": "6951ae601c508c5d5e45e640",
+              "name": "Chair75334",
+              "amount": 565,
+              "price": 20663,
+              "manufacturer": "Apple",
+              "notes": "eVTFDKWwxv6SPZWidzAAihBtkucNwYI0xH17CdDD5MNR3BNsfcp2Imtg4x26RlO2YkoD1qKIw6ktPxPn2aHzrvFSxjM86OKUIbIhaZ3pOw7yJ0rJaZYgosk6jIepK8TsOnDQ0pQji35O1ONwxHoFHhhR85r5KuJF6x15dgjJhDLuSsQyL0D7oZJVSUt7SKyioOdb6LUk1vlVvN2hsVHFFJG9hRUcem6lrgP8wnoF2kpaVTXpzz13etJpIM",
+              "received": false
+            }
+          ],
+          "total_price": 20663,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:25:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ae601c508c5d5e45e65c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:26:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-1AiA1wY1HvU1PzgSZYPD3hQ1gTo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae821c508c5d5e45f24b",
+        "email": "Reginald59@yahoo.com",
+        "name": "Caleb Stoltenberg",
+        "country": "Russia",
+        "city": "Carolanneville",
+        "street": "Bednar Path",
+        "house": 44,
+        "flat": 849,
+        "phone": "+19776138025",
+        "createdOn": "2025-12-28T22:26:10.000Z",
+        "notes": "CrNTTnvvdyL9F7WXWrwSeDO2EchvgSkIZKtB47PnMSqcySrgyqxTSlN05wMkoVBJ2UhaNugWPHLl7d1Q6VoAHCn5kiwAWVlOIQX2ryON2UXENkIBNcCrrn5wo5oYJdGkquEGwDbZ1U3sVkF9z9fqio5gVdFL8JgLrRnkdihUB9HbuXVlgivnXfyUyRYb9iv3gflMmxr4SBsaHC0ApUKa1hFMIqqQHI7nWmjGlA7GVLAoYHznGnBEJmU0kc"
+      },
+      "products": [
+        {
+          "_id": "6951ae851c508c5d5e45f33f",
+          "name": "Chair75532",
+          "amount": 192,
+          "price": 61790,
+          "manufacturer": "Tesla",
+          "notes": "AL7q6pQwIsA8kniTu7tFyKKgVANNaXAgmyJSLNL3aqRnhqpkVmmlR1Sno7b4hHuoOBf0jv7jHg6NbKSscMfIJKeExdcJF5RFkT41nubZB2o5jqwDmw2vw3GsOyDhlhkWd1XPGpkvqPKh9LaHZH3RtTpnwkkpVRUHd8GgoMZDRdiX07oLt481ocnSTHXqLuD9rr5XCsoZTd8hqT7JJTEPzOz4NuuNcnGoLd4S33rEDTIPRIyGZc7xrfUcOP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61790,
+      "createdOn": "2025-12-28T22:26:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae821c508c5d5e45f24b",
+          "products": [
+            {
+              "_id": "6951ae851c508c5d5e45f33f",
+              "name": "Chair75532",
+              "amount": 192,
+              "price": 61790,
+              "manufacturer": "Tesla",
+              "notes": "AL7q6pQwIsA8kniTu7tFyKKgVANNaXAgmyJSLNL3aqRnhqpkVmmlR1Sno7b4hHuoOBf0jv7jHg6NbKSscMfIJKeExdcJF5RFkT41nubZB2o5jqwDmw2vw3GsOyDhlhkWd1XPGpkvqPKh9LaHZH3RtTpnwkkpVRUHd8GgoMZDRdiX07oLt481ocnSTHXqLuD9rr5XCsoZTd8hqT7JJTEPzOz4NuuNcnGoLd4S33rEDTIPRIyGZc7xrfUcOP",
+              "received": false
+            }
+          ],
+          "total_price": 61790,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:26:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ae851c508c5d5e45f37c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

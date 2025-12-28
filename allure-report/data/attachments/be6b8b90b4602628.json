@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:25:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-ntu33y4OVFevs9zA1CXBc9xUda8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae701c508c5d5e45ec30",
+        "email": "Donna34@gmail.com",
+        "name": "Agustina Reichel",
+        "country": "USA",
+        "city": "Port Jarredfield",
+        "street": "Prohaska Green",
+        "house": 20,
+        "flat": 575,
+        "phone": "+14467532753",
+        "createdOn": "2025-12-28T22:25:52.000Z",
+        "notes": "8a0eHizj0GzegiWZLDidF4TbzwiHzgvDBlp0SzxepGXDuMya5MboTUX4lCQ3jPLyBpPOyh8OK0OE29hVppiSRgBZ7oXNYaSNTLbckTG825gZpaATjPJO91BYqQKqrzXcCosFr4yZaqbbKEwebOyoEU05mRU25SDpYy6pe2fH2eua8q4uWBOoOFkqwNnQk3tLZNNECVlRb75OMnVV3A4snhaEVBSel9MQkk6WDcoISIc3ae4pkdcGqfcz2O"
+      },
+      "products": [
+        {
+          "_id": "6951ae721c508c5d5e45ed18",
+          "name": "Chips25115",
+          "amount": 696,
+          "price": 73334,
+          "manufacturer": "Apple",
+          "notes": "bCsfMNxGOx9s4VlQ7R7hRPzKjqH4zlPG7wQa3hSnWHOacG4BgtabQC8LeXaT8S6mQA4CWwF5yRMSZ5apkU27J2lrlkReog11XivoTEMcGQGZaqAqBx6l9Lq3sCYNOSvhlD1ohG88EIebInhPqY5lCGfTB5SanwM7xhEJDZifDujWf1nQOEr7odxCVwnWhbg2GzLtLGifX7kuEHB9aFyyFMaTxJ39iHf6QLq79PcGBHlp0sLxrbIne6Bz95",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73334,
+      "createdOn": "2025-12-28T22:25:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae701c508c5d5e45ec30",
+          "products": [
+            {
+              "_id": "6951ae721c508c5d5e45ed18",
+              "name": "Chips25115",
+              "amount": 696,
+              "price": 73334,
+              "manufacturer": "Apple",
+              "notes": "bCsfMNxGOx9s4VlQ7R7hRPzKjqH4zlPG7wQa3hSnWHOacG4BgtabQC8LeXaT8S6mQA4CWwF5yRMSZ5apkU27J2lrlkReog11XivoTEMcGQGZaqAqBx6l9Lq3sCYNOSvhlD1ohG88EIebInhPqY5lCGfTB5SanwM7xhEJDZifDujWf1nQOEr7odxCVwnWhbg2GzLtLGifX7kuEHB9aFyyFMaTxJ39iHf6QLq79PcGBHlp0sLxrbIne6Bz95",
+              "received": false
+            }
+          ],
+          "total_price": 73334,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:25:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ae741c508c5d5e45ed5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
