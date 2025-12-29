@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4787",
+    "etag": "W/\"12b3-sAq8f8ip7Pd+a/GEZlqK5hN9YbM\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695300481c508c5d5e4eccd6",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695300361c508c5d5e4ebf24",
+        "email": "Hal52@yahoo.com",
+        "name": "Weston MacGyver",
+        "country": "Canada",
+        "city": "Fort Tadview",
+        "street": "Victoria Place",
+        "house": 46,
+        "flat": 47,
+        "phone": "+19579762821",
+        "createdOn": "2025-12-29T22:27:02.000Z",
+        "notes": "qfHRhPOwidL4duzL5F0YKJhTuTuCJUsdgcVnKHPaLW6Tb0GRcBfUo1UsmTBG7jzPwLrzMwhdtRPUtP4H9wBAaZblaNkgBb7dx7TMHI0mvHouvxiIOsSkrVFmRXKhHqsuKnuH3VbAmTuR1p2yGel7iuF8qNuagAZYdojvC5vb8z8wsuZfG5b7RPO3iHcXG3VloBz0GJmkWwYMmeX7sP2h5V2w5mcfPlBHgQnHpH1XQ16mqU4j51BlV9EaUu"
+      },
+      "products": [
+        {
+          "_id": "695300381c508c5d5e4ebf4e",
+          "name": "Pizza41290",
+          "amount": 781,
+          "price": 49512,
+          "manufacturer": "Amazon",
+          "notes": "1XpxgelR5L7GqqYLCymEk2PRe4HVs1AXQcounlSOR6lJxsjo4W22vXNYU3cwCJDaN1gVjCEr7clcMBdLuHYlnv0YWKI9ANdJ3gNrCoqBFMjg1ZxzqHVxXhWX5ttU6ObxB5ZVi1CPrTv62gk6OIxnyXM9ZIOh645drWGzRekLBNuUUEfaM2DEqK5e2fxdNtvH3Wu4FDK1WNoJfwwRIJhe5YXssxaUuPBIkyaLLUICznfxbeZmzi7STLcgWf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Tadview",
+          "street": "Victoria Place",
+          "house": 46,
+          "flat": 47
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 49512,
+      "createdOn": "2025-12-29T22:27:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695300361c508c5d5e4ebf24",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf4e",
+              "name": "Pizza41290",
+              "amount": 781,
+              "price": 49512,
+              "manufacturer": "Amazon",
+              "notes": "1XpxgelR5L7GqqYLCymEk2PRe4HVs1AXQcounlSOR6lJxsjo4W22vXNYU3cwCJDaN1gVjCEr7clcMBdLuHYlnv0YWKI9ANdJ3gNrCoqBFMjg1ZxzqHVxXhWX5ttU6ObxB5ZVi1CPrTv62gk6OIxnyXM9ZIOh645drWGzRekLBNuUUEfaM2DEqK5e2fxdNtvH3Wu4FDK1WNoJfwwRIJhe5YXssxaUuPBIkyaLLUICznfxbeZmzi7STLcgWf",
+              "received": false
+            }
+          ],
+          "total_price": 49512,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Tadview",
+              "street": "Victoria Place",
+              "house": 46,
+              "flat": 47
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T22:27:23.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695300361c508c5d5e4ebf24",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf4e",
+              "name": "Pizza41290",
+              "amount": 781,
+              "price": 49512,
+              "manufacturer": "Amazon",
+              "notes": "1XpxgelR5L7GqqYLCymEk2PRe4HVs1AXQcounlSOR6lJxsjo4W22vXNYU3cwCJDaN1gVjCEr7clcMBdLuHYlnv0YWKI9ANdJ3gNrCoqBFMjg1ZxzqHVxXhWX5ttU6ObxB5ZVi1CPrTv62gk6OIxnyXM9ZIOh645drWGzRekLBNuUUEfaM2DEqK5e2fxdNtvH3Wu4FDK1WNoJfwwRIJhe5YXssxaUuPBIkyaLLUICznfxbeZmzi7STLcgWf",
+              "received": false
+            }
+          ],
+          "total_price": 49512,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Tadview",
+              "street": "Victoria Place",
+              "house": 46,
+              "flat": 47
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T22:27:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695300361c508c5d5e4ebf24",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf4e",
+              "name": "Pizza41290",
+              "amount": 781,
+              "price": 49512,
+              "manufacturer": "Amazon",
+              "notes": "1XpxgelR5L7GqqYLCymEk2PRe4HVs1AXQcounlSOR6lJxsjo4W22vXNYU3cwCJDaN1gVjCEr7clcMBdLuHYlnv0YWKI9ANdJ3gNrCoqBFMjg1ZxzqHVxXhWX5ttU6ObxB5ZVi1CPrTv62gk6OIxnyXM9ZIOh645drWGzRekLBNuUUEfaM2DEqK5e2fxdNtvH3Wu4FDK1WNoJfwwRIJhe5YXssxaUuPBIkyaLLUICznfxbeZmzi7STLcgWf",
+              "received": false
+            }
+          ],
+          "total_price": 49512,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Tadview",
+              "street": "Victoria Place",
+              "house": 46,
+              "flat": 47
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T22:27:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695300361c508c5d5e4ebf24",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf4e",
+              "name": "Pizza41290",
+              "amount": 781,
+              "price": 49512,
+              "manufacturer": "Amazon",
+              "notes": "1XpxgelR5L7GqqYLCymEk2PRe4HVs1AXQcounlSOR6lJxsjo4W22vXNYU3cwCJDaN1gVjCEr7clcMBdLuHYlnv0YWKI9ANdJ3gNrCoqBFMjg1ZxzqHVxXhWX5ttU6ObxB5ZVi1CPrTv62gk6OIxnyXM9ZIOh645drWGzRekLBNuUUEfaM2DEqK5e2fxdNtvH3Wu4FDK1WNoJfwwRIJhe5YXssxaUuPBIkyaLLUICznfxbeZmzi7STLcgWf",
+              "received": false
+            }
+          ],
+          "total_price": 49512,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:27:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

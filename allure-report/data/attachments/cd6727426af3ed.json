@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-hV8RAVbVRqt0aJxGyfZ4s5aE+lk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952ffd01c508c5d5e4e8504",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffce1c508c5d5e4e84be",
+        "email": "Cyrus_Murazik65@yahoo.com",
+        "name": "Jasen Grady",
+        "country": "France",
+        "city": "Rolfsonmouth",
+        "street": "Antwon Crossing",
+        "house": 44,
+        "flat": 680,
+        "phone": "+19279572984",
+        "createdOn": "2025-12-29T22:25:18.000Z",
+        "notes": "g6hu63tKtO2WO3IbkvG2FAh9waf9NMdY7Rz12zcqSYZXC5t8kduAwCJ7zYO2RmC7qKmXUe1wB9Jnqn5ZwLdL31O6k1MBaDyaxO58wLhPex5uaT1zErzOrHzUvGDLHAEy9mF4cpVckSJzEw7HoUTJlseNXo14UgQrUVHzE0PMvGkyXW7lrXiejAMhCSuue9nEZlthX1j7YICyrMXzKm6mqwqx0gdZ2HYrzQCkSEnPCe4Fxw11ws6pLXI1xr"
+      },
+      "products": [
+        {
+          "_id": "6952ffd01c508c5d5e4e84e8",
+          "name": "Computer26587",
+          "amount": 89,
+          "price": 77153,
+          "manufacturer": "Tesla",
+          "notes": "66Ov5dztRoSTnjp8OnAAWpmvvVuAfXbvzrGiGuhFAkcWbXqGBKVEiAw9ZMvpgpE28KAilv2ZoioLAdfYxxLIUYtTNJvzxfwLiWf9MtDscA9Rom4q9u4wk2TOg6TK6LHReAttznorKg99BgzvHRd7gieCiC6AxTqUu9lMZQk1StT2ZTNGxxnRsIvicpM1eNbUxggwhTBbGJCsQhnnQX8yQ0GiINXCLDjHDbeZE4eLYYEKIrvmiLOYrsFCmh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77153,
+      "createdOn": "2025-12-29T22:25:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffce1c508c5d5e4e84be",
+          "products": [
+            {
+              "_id": "6952ffd01c508c5d5e4e84e8",
+              "name": "Computer26587",
+              "amount": 89,
+              "price": 77153,
+              "manufacturer": "Tesla",
+              "notes": "66Ov5dztRoSTnjp8OnAAWpmvvVuAfXbvzrGiGuhFAkcWbXqGBKVEiAw9ZMvpgpE28KAilv2ZoioLAdfYxxLIUYtTNJvzxfwLiWf9MtDscA9Rom4q9u4wk2TOg6TK6LHReAttznorKg99BgzvHRd7gieCiC6AxTqUu9lMZQk1StT2ZTNGxxnRsIvicpM1eNbUxggwhTBbGJCsQhnnQX8yQ0GiINXCLDjHDbeZE4eLYYEKIrvmiLOYrsFCmh",
+              "received": false
+            }
+          ],
+          "total_price": 77153,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:20.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6952ffce1c508c5d5e4e84be",
+          "products": [
+            {
+              "_id": "6952ffd01c508c5d5e4e84e8",
+              "name": "Computer26587",
+              "amount": 89,
+              "price": 77153,
+              "manufacturer": "Tesla",
+              "notes": "66Ov5dztRoSTnjp8OnAAWpmvvVuAfXbvzrGiGuhFAkcWbXqGBKVEiAw9ZMvpgpE28KAilv2ZoioLAdfYxxLIUYtTNJvzxfwLiWf9MtDscA9Rom4q9u4wk2TOg6TK6LHReAttznorKg99BgzvHRd7gieCiC6AxTqUu9lMZQk1StT2ZTNGxxnRsIvicpM1eNbUxggwhTBbGJCsQhnnQX8yQ0GiINXCLDjHDbeZE4eLYYEKIrvmiLOYrsFCmh",
+              "received": false
+            }
+          ],
+          "total_price": 77153,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

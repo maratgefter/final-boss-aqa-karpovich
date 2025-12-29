@@ -1,0 +1,152 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:26:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3548",
+    "etag": "W/\"ddc-0uxqkyCCwx/lnmUVEWYzYdLCwnQ\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695300151c508c5d5e4eabd5",
+      "status": "Draft",
+      "customer": {
+        "_id": "695300131c508c5d5e4eab6a",
+        "email": "Dante_Beier77@gmail.com",
+        "name": "Hellen Kulas",
+        "country": "Ukraine",
+        "city": "Reingerchester",
+        "street": "N Poplar Street",
+        "house": 25,
+        "flat": 326,
+        "phone": "+16072933329",
+        "createdOn": "2025-12-29T22:26:27.000Z",
+        "notes": "pLAggte71BIjLLZ9oTRGKIi5r5dh2Jehs9emjKFuiYOzM5K9mBC7YIghGeRtoiPWpV5Ft2KD0Fe9XOCdl5u7SAPCh4sEGImRULMWqw9tXzLj47houEs6zBOX3ybAPDi9Qi1a0U54h96ih2H12FTHpPhVaZL0YClNLE5NkaWQ71rsBhyaDKXENcvRapj9kg0tefRPdU6vcu88x6pTBBmAN0oyweAdbtpYLIq9xB0QL11EVZoUVfdxKpMpJ2"
+      },
+      "products": [
+        {
+          "_id": "695300151c508c5d5e4eabc7",
+          "name": "Bacon87065",
+          "amount": 373,
+          "price": 98178,
+          "manufacturer": "Sony",
+          "notes": "kUmaXf3K4CbqYwgBi2BcUoy9jGfiOzSOV7J4PvUP3839dtonbuSA6S9RiTiee0CCv0SeUWPdNIAW9GkPqWvaYCFfpNMMc49EmI4sbQpWWuHFqTAAWLlGiQ9r5iTKGBCgXWgwsY33YZ3fP9p02qBBSqBL5iHTvFxjApMy49u5PQE4k2O1wK6TW58kHm6BAGw6HpDqGcKNxFaoLHvOv69199H2Ozf3AvxKSCSJfo1jJoIGxbjxA31algkjpD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98178,
+      "createdOn": "2025-12-29T22:26:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695300131c508c5d5e4eab6a",
+          "products": [
+            {
+              "_id": "695300151c508c5d5e4eabc7",
+              "name": "Bacon87065",
+              "amount": 373,
+              "price": 98178,
+              "manufacturer": "Sony",
+              "notes": "kUmaXf3K4CbqYwgBi2BcUoy9jGfiOzSOV7J4PvUP3839dtonbuSA6S9RiTiee0CCv0SeUWPdNIAW9GkPqWvaYCFfpNMMc49EmI4sbQpWWuHFqTAAWLlGiQ9r5iTKGBCgXWgwsY33YZ3fP9p02qBBSqBL5iHTvFxjApMy49u5PQE4k2O1wK6TW58kHm6BAGw6HpDqGcKNxFaoLHvOv69199H2Ozf3AvxKSCSJfo1jJoIGxbjxA31algkjpD",
+              "received": false
+            }
+          ],
+          "total_price": 98178,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:26:33.000Z",
+          "action": "Manager Unassigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695300131c508c5d5e4eab6a",
+          "products": [
+            {
+              "_id": "695300151c508c5d5e4eabc7",
+              "name": "Bacon87065",
+              "amount": 373,
+              "price": 98178,
+              "manufacturer": "Sony",
+              "notes": "kUmaXf3K4CbqYwgBi2BcUoy9jGfiOzSOV7J4PvUP3839dtonbuSA6S9RiTiee0CCv0SeUWPdNIAW9GkPqWvaYCFfpNMMc49EmI4sbQpWWuHFqTAAWLlGiQ9r5iTKGBCgXWgwsY33YZ3fP9p02qBBSqBL5iHTvFxjApMy49u5PQE4k2O1wK6TW58kHm6BAGw6HpDqGcKNxFaoLHvOv69199H2Ozf3AvxKSCSJfo1jJoIGxbjxA31algkjpD",
+              "received": false
+            }
+          ],
+          "total_price": 98178,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:26:29.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695300131c508c5d5e4eab6a",
+          "products": [
+            {
+              "_id": "695300151c508c5d5e4eabc7",
+              "name": "Bacon87065",
+              "amount": 373,
+              "price": 98178,
+              "manufacturer": "Sony",
+              "notes": "kUmaXf3K4CbqYwgBi2BcUoy9jGfiOzSOV7J4PvUP3839dtonbuSA6S9RiTiee0CCv0SeUWPdNIAW9GkPqWvaYCFfpNMMc49EmI4sbQpWWuHFqTAAWLlGiQ9r5iTKGBCgXWgwsY33YZ3fP9p02qBBSqBL5iHTvFxjApMy49u5PQE4k2O1wK6TW58kHm6BAGw6HpDqGcKNxFaoLHvOv69199H2Ozf3AvxKSCSJfo1jJoIGxbjxA31algkjpD",
+              "received": false
+            }
+          ],
+          "total_price": 98178,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:26:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

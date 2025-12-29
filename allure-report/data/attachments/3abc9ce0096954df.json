@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:26:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2652",
+    "etag": "W/\"a5c-Lfls82yAqIczZtOCkLwEYDzusJs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6953001e1c508c5d5e4eb193",
+        "email": "Cara.Rohan73@yahoo.com",
+        "name": "Jerry Parisian",
+        "country": "Ukraine",
+        "city": "Fort Tobyport",
+        "street": "Rectory Close",
+        "house": 26,
+        "flat": 271,
+        "phone": "+19273211838",
+        "createdOn": "2025-12-29T22:26:38.000Z",
+        "notes": "QQJJD8f1gMgvmpyKWBByEBA1mcQzKI6smmaAGLqXrmjKraGCF0g6WErYF5YUI1VdXM9ngBVZFLFrUJZcYO8uKHajC66a8ZdNKyPTFUcfyGJtMkUsY2JNCBdeJyrKhHAJIHQQrRn6GBUm3c9pG1EMwTGs9bQtNAGGtA7enQFGhqMgohNipjUmF3omo6MqcJQpoSuYuVMpXrSvOuQI8VxHAj77zLiWCezNUhzNhHrAizxsbvQOWY1pZ5lZY4"
+      },
+      "products": [
+        {
+          "_id": "6953001f1c508c5d5e4eb1bb",
+          "name": "Shirt16609",
+          "amount": 729,
+          "price": 54865,
+          "manufacturer": "Apple",
+          "notes": "XvWithEnMMOZa9gCBfsOG66MuMKLDpxI5UYrjMcgWTcs7w7WSmtuhUBjoR1IPJaIuFka4HxUwjBYxlsxFUXi6UVYb9Qh6f3VyxxME3JRYhrd65lrEikEhdVjLV0JtrWcUfA8dqSfKh8G6GmCoA2Yp3KkPF1LlFzMwXKdRwYfqM4gMLnWJuI0RBOQ3IGHPZ77b5ZGXoNa4NjD7qfIKC6futgFCOkiVPbPxHjlr9frk1Y3VB1ShMQxWuf84Z",
+          "received": false
+        },
+        {
+          "_id": "695300211c508c5d5e4eb1f4",
+          "name": "Shirt65360",
+          "amount": 240,
+          "price": 28432,
+          "manufacturer": "Google",
+          "notes": "JmhLmLxNyv94umkWAIXbwGrujzNQ3DfTxXAhvWbfahqGw0aqGCS762mBthL6smTtwvkEsXdEo20xc7lpHso9b8W9uHzk7EdEvFpDaTWBGaJoR76dsQq0M3QacXsVV3hpd0sqV5OLaqlKGpLfEK4IZ6iG4KUkJoXR2Rsr0S2ybI1ZNQWCDrL8Dj51FgJdMgBHjmzH2g3fy0kee7MALLa8hShqmwFhq8gLLKMG3FBhQlObsQX3nBBi8Xrs8O",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83297,
+      "createdOn": "2025-12-29T22:26:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953001e1c508c5d5e4eb193",
+          "products": [
+            {
+              "_id": "6953001f1c508c5d5e4eb1bb",
+              "name": "Shirt16609",
+              "amount": 729,
+              "price": 54865,
+              "manufacturer": "Apple",
+              "notes": "XvWithEnMMOZa9gCBfsOG66MuMKLDpxI5UYrjMcgWTcs7w7WSmtuhUBjoR1IPJaIuFka4HxUwjBYxlsxFUXi6UVYb9Qh6f3VyxxME3JRYhrd65lrEikEhdVjLV0JtrWcUfA8dqSfKh8G6GmCoA2Yp3KkPF1LlFzMwXKdRwYfqM4gMLnWJuI0RBOQ3IGHPZ77b5ZGXoNa4NjD7qfIKC6futgFCOkiVPbPxHjlr9frk1Y3VB1ShMQxWuf84Z",
+              "received": false
+            },
+            {
+              "_id": "695300211c508c5d5e4eb1f4",
+              "name": "Shirt65360",
+              "amount": 240,
+              "price": 28432,
+              "manufacturer": "Google",
+              "notes": "JmhLmLxNyv94umkWAIXbwGrujzNQ3DfTxXAhvWbfahqGw0aqGCS762mBthL6smTtwvkEsXdEo20xc7lpHso9b8W9uHzk7EdEvFpDaTWBGaJoR76dsQq0M3QacXsVV3hpd0sqV5OLaqlKGpLfEK4IZ6iG4KUkJoXR2Rsr0S2ybI1ZNQWCDrL8Dj51FgJdMgBHjmzH2g3fy0kee7MALLa8hShqmwFhq8gLLKMG3FBhQlObsQX3nBBi8Xrs8O",
+              "received": false
+            }
+          ],
+          "total_price": 83297,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:26:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695300211c508c5d5e4eb1fe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

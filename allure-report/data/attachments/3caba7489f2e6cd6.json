@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-BX+Mt9CqHk0d56dHhObYTDn104M\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952ffee1c508c5d5e4e93f6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffe81c508c5d5e4e9270",
+        "email": "Elmo42@yahoo.com",
+        "name": "Nathanial Johns",
+        "country": "Ukraine",
+        "city": "North Cristopher",
+        "street": "Geovanny Meadow",
+        "house": 11,
+        "flat": 573,
+        "phone": "+18328996637",
+        "createdOn": "2025-12-29T22:25:44.000Z",
+        "notes": "yBk9eDSgmNolPWomexPRd9IqUquaY5mlZyZI6sWtHoqRRdLkzstnc6GpH1EyvR94NfCZ7mmjnD7oNuBLRwpTMaWGpeCKx1vNXIGDVyzBhGQYjofUEaGGeyVDUIwN4Uj3Xd0Ff8E0z8TJ6Qj6iC92DFVv47eP50bJKO77DQT6zlngcxBpT2qF0UhF8cy6t8FKX7IFeOZd2glN7eHiuum41ks02vrI9ggIdGuvude2ry0slDwdrafomDEikN"
+      },
+      "products": [
+        {
+          "_id": "6952ffee1c508c5d5e4e93e7",
+          "name": "Gloves86566",
+          "amount": 125,
+          "price": 22654,
+          "manufacturer": "Sony",
+          "notes": "Otdsdwb0VhiG1QLt5rP1WhSOmahEBJh8Ia9WjKsAPFNAL2RRP0hz3L2vpwGEvA91p3ga76R1hZIe9DnkJ4p3qPwtqA1kE5zVPnmEBP7rKIp2kDZT16P65uSVhNq8pZuTexws3j2iyHKzeqZ3UbvcnTy4lTfwK9YUqTkm70VcswMPwRVC7yN3QXUTjagO80QdFBzUHiRVDaMwoVmOzgc102H3mwa1b4fohwHAG0F8XbzdClbIvJfyD7eO3p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22654,
+      "createdOn": "2025-12-29T22:25:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffe81c508c5d5e4e9270",
+          "products": [
+            {
+              "_id": "6952ffee1c508c5d5e4e93e7",
+              "name": "Gloves86566",
+              "amount": 125,
+              "price": 22654,
+              "manufacturer": "Sony",
+              "notes": "Otdsdwb0VhiG1QLt5rP1WhSOmahEBJh8Ia9WjKsAPFNAL2RRP0hz3L2vpwGEvA91p3ga76R1hZIe9DnkJ4p3qPwtqA1kE5zVPnmEBP7rKIp2kDZT16P65uSVhNq8pZuTexws3j2iyHKzeqZ3UbvcnTy4lTfwK9YUqTkm70VcswMPwRVC7yN3QXUTjagO80QdFBzUHiRVDaMwoVmOzgc102H3mwa1b4fohwHAG0F8XbzdClbIvJfyD7eO3p",
+              "received": false
+            }
+          ],
+          "total_price": 22654,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

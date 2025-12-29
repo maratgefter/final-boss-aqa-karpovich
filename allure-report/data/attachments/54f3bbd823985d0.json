@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2819",
+    "etag": "W/\"b03-siO6sI85F8GDCm6tUguT7FzQ2Ok\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952ffe41c508c5d5e4e8e02",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffdf1c508c5d5e4e8b6b",
+        "email": "Dortha.Monahan@gmail.com",
+        "name": "Brennan Smitham",
+        "country": "Germany",
+        "city": "Hermannworth",
+        "street": "Runolfsson Rue",
+        "house": 36,
+        "flat": 646,
+        "phone": "+13037476128",
+        "createdOn": "2025-12-29T22:25:35.000Z",
+        "notes": "7YC6pRdj8OZ3GJqLPyaO3bhtrpX8ibcSNoiiUTjefITzvhIutSDleJ2BxNfEaWj8lFrSOikyPd05uS7ag4a320IYzUOpG94pVVnNIaQ0wKsQBwaKbiV27PZGmuaMmEelQgVW0qhyIPg4YohbJqYiOSbXueLDHWdoV98IB8SvvYHHYVbEhSQHM9QbWCBsBq4PlPu1J9woE3toHTAyCQAxwgRLWcgWUrYuEqUu2G9XIXzkRqm4BQFduZ6vS7"
+      },
+      "products": [
+        {
+          "_id": "6952ffe11c508c5d5e4e8b9a",
+          "name": "Sausages40825",
+          "amount": 191,
+          "price": 2016,
+          "manufacturer": "Tesla",
+          "notes": "Wh2xXCbVWn3kNhAi9YhowK05AYVBEDOziHfdLx2PibVht454c9SLjqYhHXdo6sV8SpahzEqleX1zcGm2Iv3iyOV1AzCj8WFFyG0urTY0N2EfbeHIdnaFgROPs7EC8Dbus2nRfz2Fw3nyPtXl7zCBKgLQkKnOt96B70wdiseCnmT73fXWiKOI8fUV6Xot8Mr2y9O1GjYjRXzB5eRZFxMdKnWFGwPcPQYgzEF0rpyvTzml5sKmFDoNdmzWjE",
+          "received": false
+        },
+        {
+          "_id": "6952ffe21c508c5d5e4e8dc9",
+          "name": "Shoes45163",
+          "amount": 552,
+          "price": 78995,
+          "manufacturer": "Samsung",
+          "notes": "B1IGzb4KJFGv8cVN7ISHy1wXeRfHFJvSq2X8vQT2RKCPr1AgteLsAu63qtCln8QWCNTuhsVjfJISpPG8ZzIw51pI0A8kH3PNyhni4jtRAMLQsNRvT3UwRw8RYscKXgCZlDz3UVzHP31Y2ybUz2TedKOq2w52MPaWTFNqZyvvl8oPCKynhjiyxsNzoaHvBYBYzCZf0t1x3SYFdUegyoASwbR7qu6ELm7HASEqjCpLHW5qnVoJiZ9KykpVoy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81011,
+      "createdOn": "2025-12-29T22:25:40.000Z",
+      "comments": [
+        {
+          "text": "K14VzFshhSpSuTBEN0YXs1WRxk0GwJbXsSUuoi0YqRUVMitfKkQb9qfjN5xooIj6vKkLngTDOfE",
+          "createdOn": "2025-12-29T22:25:41.000Z",
+          "_id": "6952ffe51c508c5d5e4e8e2c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffdf1c508c5d5e4e8b6b",
+          "products": [
+            {
+              "_id": "6952ffe11c508c5d5e4e8b9a",
+              "name": "Sausages40825",
+              "amount": 191,
+              "price": 2016,
+              "manufacturer": "Tesla",
+              "notes": "Wh2xXCbVWn3kNhAi9YhowK05AYVBEDOziHfdLx2PibVht454c9SLjqYhHXdo6sV8SpahzEqleX1zcGm2Iv3iyOV1AzCj8WFFyG0urTY0N2EfbeHIdnaFgROPs7EC8Dbus2nRfz2Fw3nyPtXl7zCBKgLQkKnOt96B70wdiseCnmT73fXWiKOI8fUV6Xot8Mr2y9O1GjYjRXzB5eRZFxMdKnWFGwPcPQYgzEF0rpyvTzml5sKmFDoNdmzWjE",
+              "received": false
+            },
+            {
+              "_id": "6952ffe21c508c5d5e4e8dc9",
+              "name": "Shoes45163",
+              "amount": 552,
+              "price": 78995,
+              "manufacturer": "Samsung",
+              "notes": "B1IGzb4KJFGv8cVN7ISHy1wXeRfHFJvSq2X8vQT2RKCPr1AgteLsAu63qtCln8QWCNTuhsVjfJISpPG8ZzIw51pI0A8kH3PNyhni4jtRAMLQsNRvT3UwRw8RYscKXgCZlDz3UVzHP31Y2ybUz2TedKOq2w52MPaWTFNqZyvvl8oPCKynhjiyxsNzoaHvBYBYzCZf0t1x3SYFdUegyoASwbR7qu6ELm7HASEqjCpLHW5qnVoJiZ9KykpVoy",
+              "received": false
+            }
+          ],
+          "total_price": 81011,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

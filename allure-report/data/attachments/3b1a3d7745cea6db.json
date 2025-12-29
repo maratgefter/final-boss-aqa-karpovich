@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-1/YF/PnaaMij4kOqM1IFbqgTLTg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffca1c508c5d5e4e8313",
+        "email": "Donnie11@yahoo.com",
+        "name": "Mckenzie Christiansen",
+        "country": "Germany",
+        "city": "West Rubiefield",
+        "street": "Bode Mission",
+        "house": 41,
+        "flat": 484,
+        "phone": "+16367586905",
+        "createdOn": "2025-12-29T22:25:14.000Z",
+        "notes": "mv01r3eqa2PsSWN6CqQ2RAxP7lrOUQLHbTTJlCs0Bm1hKFjmifdCv5kVEOqUMu9xmX1IOUXCOdKl3KNqPnoozoyGZRiCJG8m3uHrOtPPmQKEUYo01L6d30uhEraaWUGmLN2GwqGtAT35e27mhYg9I7YgmWxWNGuWiAJvZezNZr8nGpQ0bmc0b9ncRGQDdVoAcvcw5tqukyrFAxElzef8XHFk8MH6gduoyliKVC1EM2xTwQrS3X9UJNffUD"
+      },
+      "products": [
+        {
+          "_id": "6952ffcb1c508c5d5e4e8425",
+          "name": "Mouse59233",
+          "amount": 283,
+          "price": 77482,
+          "manufacturer": "Samsung",
+          "notes": "W8h9H3QPuxf4pMqa0e0Oca4nn5Fl3CLuEHNoxDPHE3oui6cW0JhGZ83zIQV2GiyIMMFRZvU4Q6TlrhVfaqZDZPbKgZl1sQmswCwOmALr56Et2TPWgr6Dbi1ECjqmXbj7aUymmQVau1bgLMcOcvIl7QUISBT751Egq8rHoERXwgwFyK80gsNIPODmItZebcV2GIG4HNtKR4FttDbwZBeiIcciF48AxDMSJa3IWBLPjNE0nqRDgITo7RAhKu",
+          "received": false
+        },
+        {
+          "_id": "6952ffcd1c508c5d5e4e8492",
+          "name": "Shoes25404",
+          "amount": 259,
+          "price": 79702,
+          "manufacturer": "Amazon",
+          "notes": "N7G8MISVMPTqv3eTFZymcxm8VrdQcwl8WhFwZNrK4qbhlRyKJVE16nWIW2q9rztkOjYggN0Qq3hQj5W0AzsApC3Vy3Kbuwe30Q6JBXamPeyI5REn59FepGxBWMybqRNqas7DIyQSKgX6datCclXha9wUYlV1dVsmvJZPoyr9yox84bg7ikhRR3aGHkkCprzQjBf5S9jrjBbYSwgq53Pf8bwxEVYg6cf2BbGsma2eZv12JPXdIHdiScU9ps",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 157184,
+      "createdOn": "2025-12-29T22:25:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffca1c508c5d5e4e8313",
+          "products": [
+            {
+              "_id": "6952ffcb1c508c5d5e4e8425",
+              "name": "Mouse59233",
+              "amount": 283,
+              "price": 77482,
+              "manufacturer": "Samsung",
+              "notes": "W8h9H3QPuxf4pMqa0e0Oca4nn5Fl3CLuEHNoxDPHE3oui6cW0JhGZ83zIQV2GiyIMMFRZvU4Q6TlrhVfaqZDZPbKgZl1sQmswCwOmALr56Et2TPWgr6Dbi1ECjqmXbj7aUymmQVau1bgLMcOcvIl7QUISBT751Egq8rHoERXwgwFyK80gsNIPODmItZebcV2GIG4HNtKR4FttDbwZBeiIcciF48AxDMSJa3IWBLPjNE0nqRDgITo7RAhKu",
+              "received": false
+            },
+            {
+              "_id": "6952ffcd1c508c5d5e4e8492",
+              "name": "Shoes25404",
+              "amount": 259,
+              "price": 79702,
+              "manufacturer": "Amazon",
+              "notes": "N7G8MISVMPTqv3eTFZymcxm8VrdQcwl8WhFwZNrK4qbhlRyKJVE16nWIW2q9rztkOjYggN0Qq3hQj5W0AzsApC3Vy3Kbuwe30Q6JBXamPeyI5REn59FepGxBWMybqRNqas7DIyQSKgX6datCclXha9wUYlV1dVsmvJZPoyr9yox84bg7ikhRR3aGHkkCprzQjBf5S9jrjBbYSwgq53Pf8bwxEVYg6cf2BbGsma2eZv12JPXdIHdiScU9ps",
+              "received": false
+            }
+          ],
+          "total_price": 157184,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952ffcd1c508c5d5e4e84a9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

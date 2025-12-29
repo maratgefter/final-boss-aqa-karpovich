@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-IR8lqZVG2os6Hbx7wVKmLs49swE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffe81c508c5d5e4e8f71",
+        "email": "Genesis_Bergstrom88@gmail.com",
+        "name": "Ashlee Blanda",
+        "country": "Canada",
+        "city": "Rubieboro",
+        "street": "Ivory Ville",
+        "house": 42,
+        "flat": 172,
+        "phone": "+19016919257",
+        "createdOn": "2025-12-29T22:25:44.000Z",
+        "notes": "B1ILtWr3YpvNX6TipBSTdAommYHUGMn9APflDscBhWL5ergKUEucQ2IFdcd96bt8TsJijgNYapIrJcEdJyLGS3hLputZwbvpHwcEWSEqGRSARiEU1vwNScGMuWm0HpxIxTjrDUe9Z7JKjO7CZVIQDLtmwlNoMaNL0auVfv8SLBNX6dQZH6Z7kejijeTaQfOYlvuXS6zxIlStHPKBbiuHqFPQSXwZwUv9enXOmA7ZcjNHQTqWX4C7Ytt4AL"
+      },
+      "products": [
+        {
+          "_id": "6952ffed1c508c5d5e4e9377",
+          "name": "Mouse55099",
+          "amount": 666,
+          "price": 98320,
+          "manufacturer": "Xiaomi",
+          "notes": "dbDBtzBzY4hDFFB5ZR8u9t24RAqu53uc7N5WLF7LHKjrm6pv5RGRxeiy5BiZezWqSVvapbu9x2WWr9H8SC6KytA11KKqrekVxua2QpT6FwbysPyvi21lqYluTRL5DUi1Tr8j070qugUzE4QM5l7XeE1Cm9UkgFmnluvEIeIjpX9hLcQJo5EPpYtW6LKpWD8bn3LkVy9QOikP57l4t1lkxGopEHzWk7YpsaeMnfq3y8Kbd8SWICkn2IeYJy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98320,
+      "createdOn": "2025-12-29T22:25:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffe81c508c5d5e4e8f71",
+          "products": [
+            {
+              "_id": "6952ffed1c508c5d5e4e9377",
+              "name": "Mouse55099",
+              "amount": 666,
+              "price": 98320,
+              "manufacturer": "Xiaomi",
+              "notes": "dbDBtzBzY4hDFFB5ZR8u9t24RAqu53uc7N5WLF7LHKjrm6pv5RGRxeiy5BiZezWqSVvapbu9x2WWr9H8SC6KytA11KKqrekVxua2QpT6FwbysPyvi21lqYluTRL5DUi1Tr8j070qugUzE4QM5l7XeE1Cm9UkgFmnluvEIeIjpX9hLcQJo5EPpYtW6LKpWD8bn3LkVy9QOikP57l4t1lkxGopEHzWk7YpsaeMnfq3y8Kbd8SWICkn2IeYJy",
+              "received": false
+            }
+          ],
+          "total_price": 98320,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952ffed1c508c5d5e4e93a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

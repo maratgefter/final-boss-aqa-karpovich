@@ -1,0 +1,541 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:26:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "11978",
+    "etag": "W/\"2eca-/6HxfF/CW2YPm/2PHhmDedZ8mYY\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6952b4e21c508c5d5e496be0",
+        "status": "Received",
+        "customer": {
+          "_id": "6952b4e11c508c5d5e496ae4",
+          "email": "Granville_Jaskolski@hotmail.com",
+          "name": "Katelyn Fay",
+          "country": "Great Britain",
+          "city": "New Bernhard",
+          "street": "Christiana Creek 34",
+          "house": 60,
+          "flat": 3030,
+          "phone": "+191261080905816",
+          "createdOn": "2025-12-29T17:05:37.000Z",
+          "notes": "8Ui76fyiHOEQMQsJeFKLgl5faCu3Ys"
+        },
+        "products": [
+          {
+            "_id": "6952b4e21c508c5d5e496bc1",
+            "name": "Ball45657",
+            "amount": 33,
+            "price": 89166,
+            "manufacturer": "Apple",
+            "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+            "received": true
+          }
+        ],
+        "delivery": {
+          "address": {
+            "country": "Germany",
+            "city": "A",
+            "street": "5th Avenue",
+            "house": 1,
+            "flat": 101
+          },
+          "finalDate": "2026-01-05T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "total_price": 89166,
+        "createdOn": "2025-12-29T17:05:38.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Received",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": true
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "Germany",
+                "city": "A",
+                "street": "5th Avenue",
+                "house": 1,
+                "flat": 101
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T17:31:46.000Z",
+            "action": "All products received",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953339",
+              "username": "student8@gmail.com",
+              "firstName": "Virginie",
+              "lastName": "Schmitt",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "In Process",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "Germany",
+                "city": "A",
+                "street": "5th Avenue",
+                "house": 1,
+                "flat": 101
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T17:31:12.000Z",
+            "action": "Order processing started",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953339",
+              "username": "student8@gmail.com",
+              "firstName": "Virginie",
+              "lastName": "Schmitt",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "Germany",
+                "city": "A",
+                "street": "5th Avenue",
+                "house": 1,
+                "flat": 101
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T17:05:43.000Z",
+            "action": "Delivery Edited",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "France",
+                "city": "Kansas City",
+                "street": "S State Street",
+                "house": 908,
+                "flat": 973
+              },
+              "finalDate": "2025-12-31T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T17:05:40.000Z",
+            "action": "Delivery Edited",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "Russia",
+                "city": "Fort Ellieberg",
+                "street": "W 2nd Street",
+                "house": 953,
+                "flat": 7928
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Pickup"
+            },
+            "changedOn": "2025-12-29T17:05:39.000Z",
+            "action": "Delivery Edited",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": {
+              "address": {
+                "country": "USA",
+                "city": "Kuphalburgh",
+                "street": "Heller Junctions",
+                "house": 963,
+                "flat": 6886
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T17:05:39.000Z",
+            "action": "Delivery Scheduled",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952b4e11c508c5d5e496ae4",
+            "products": [
+              {
+                "_id": "6952b4e21c508c5d5e496bc1",
+                "name": "Ball45657",
+                "amount": 33,
+                "price": 89166,
+                "manufacturer": "Apple",
+                "notes": "BlO3W4UA3P04scPNeYsFoqYiGZEGEqGp0X5FdVcWkLTMRJN8g5uS1NOLded0TqZYLzL9298KmtvtpuHCJx4ErZTfwkQj29jQUlYa6GxByCUbVFa0kzmYqzyOITjL64MxM52ZO5VnDIJXinYXJgA1rojwMAk3joR5yOiAsuieUKHmg9bKfOmKzzP3PCeFkSdKtvMhCYn6pFTxpdKwWfU8UtnUIDKsrYEe52yIXy4WHdMGPrwxHovhC48wk3",
+                "received": false
+              }
+            ],
+            "total_price": 89166,
+            "delivery": null,
+            "changedOn": "2025-12-29T17:05:38.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "6952fd061c508c5d5e4df077",
+        "status": "Received",
+        "customer": {
+          "_id": "6952fd001c508c5d5e4dec87",
+          "email": "Miller.Dooley26@gmail.com",
+          "name": "Stella Watsica",
+          "country": "France",
+          "city": "Lake Ivy",
+          "street": "Carter Estate 64",
+          "house": 605,
+          "flat": 403,
+          "phone": "+596438323740274",
+          "createdOn": "2025-12-29T22:13:20.000Z",
+          "notes": "93afB7QCCKNLY9jPrz1PClnCre1s2U"
+        },
+        "products": [
+          {
+            "_id": "6952fd051c508c5d5e4df055",
+            "name": "Mouse64262",
+            "amount": 285,
+            "price": 24931,
+            "manufacturer": "Microsoft",
+            "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+            "received": true
+          }
+        ],
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "Lake Ebbaland",
+            "street": "Jabari Square",
+            "house": 566,
+            "flat": 867
+          },
+          "finalDate": "2026-01-05T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "total_price": 24931,
+        "createdOn": "2025-12-29T22:13:26.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Received",
+            "customer": "6952fd001c508c5d5e4dec87",
+            "products": [
+              {
+                "_id": "6952fd051c508c5d5e4df055",
+                "name": "Mouse64262",
+                "amount": 285,
+                "price": 24931,
+                "manufacturer": "Microsoft",
+                "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+                "received": true
+              }
+            ],
+            "total_price": 24931,
+            "delivery": {
+              "address": {
+                "country": "France",
+                "city": "Lake Ebbaland",
+                "street": "Jabari Square",
+                "house": 566,
+                "flat": 867
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T22:13:27.000Z",
+            "action": "All products received",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "In Process",
+            "customer": "6952fd001c508c5d5e4dec87",
+            "products": [
+              {
+                "_id": "6952fd051c508c5d5e4df055",
+                "name": "Mouse64262",
+                "amount": 285,
+                "price": 24931,
+                "manufacturer": "Microsoft",
+                "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+                "received": false
+              }
+            ],
+            "total_price": 24931,
+            "delivery": {
+              "address": {
+                "country": "France",
+                "city": "Lake Ebbaland",
+                "street": "Jabari Square",
+                "house": 566,
+                "flat": 867
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T22:13:27.000Z",
+            "action": "Order processing started",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952fd001c508c5d5e4dec87",
+            "products": [
+              {
+                "_id": "6952fd051c508c5d5e4df055",
+                "name": "Mouse64262",
+                "amount": 285,
+                "price": 24931,
+                "manufacturer": "Microsoft",
+                "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+                "received": false
+              }
+            ],
+            "total_price": 24931,
+            "delivery": {
+              "address": {
+                "country": "France",
+                "city": "Lake Ebbaland",
+                "street": "Jabari Square",
+                "house": 566,
+                "flat": 867
+              },
+              "finalDate": "2026-01-05T00:00:00.000Z",
+              "condition": "Delivery"
+            },
+            "changedOn": "2025-12-29T22:13:26.000Z",
+            "action": "Delivery Scheduled",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          },
+          {
+            "status": "Draft",
+            "customer": "6952fd001c508c5d5e4dec87",
+            "products": [
+              {
+                "_id": "6952fd051c508c5d5e4df055",
+                "name": "Mouse64262",
+                "amount": 285,
+                "price": 24931,
+                "manufacturer": "Microsoft",
+                "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+                "received": false
+              }
+            ],
+            "total_price": 24931,
+            "delivery": null,
+            "changedOn": "2025-12-29T22:13:26.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95334b",
+              "username": "student11@gmail.com",
+              "firstName": "Julie",
+              "lastName": "Satterfield",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "total": 2,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": [
+      "Received"
+    ],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "asc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

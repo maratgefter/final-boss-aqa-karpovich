@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-UBCjnaDNd/l9c3rX1c3j2DCiIf4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fff01c508c5d5e4e9520",
+        "email": "Ludwig77@hotmail.com",
+        "name": "Bo Romaguera",
+        "country": "France",
+        "city": "Lake Giovaniberg",
+        "street": "E Bridge Street",
+        "house": 28,
+        "flat": 859,
+        "phone": "+13799536057",
+        "createdOn": "2025-12-29T22:25:52.000Z",
+        "notes": "UxxNz99Dc849BgytTHgmoxPQEwVnhRMYv7vxlY0xrQloXxi1IZo46a66fmCjZbX6IfucKWIygpuOVs6oefLYbWQWdk2sEeDv6m9o9OzO4ivYnSDWeFcsldbdCHEs3IJuthGpE6TskGWO1XaEuXhMjGTqjbIW76401nIRV3N6HAnTcfeyZgFmZ95Bt6nPXFhIdEAVaXv0Ox5R0IrH1QC2vRF2S1tbwxI3F70Yc44mRsWfuT8PDxLy5jdhTc"
+      },
+      "products": [
+        {
+          "_id": "6952fff21c508c5d5e4e9837",
+          "name": "Chicken96988",
+          "amount": 952,
+          "price": 13303,
+          "manufacturer": "Tesla",
+          "notes": "9Wc29Ya289s1ToSkFK9JGXZrO9fci9O8NvNVJFvonoRfhWz68lxem8ejn4ZrDWOQ0JIUwdXzLAoSFHU8j8qDWRWL25bIT8frezDMYCnG4Day14tvg4G1ILiKc5MZksC9nfojRICb0ZuDqqF4pqXzvNB0GbLgiK3Bq4VQcNX0EYM5dD3Nn3DulS7KCqInkvn8ZskzuxYZLQ4ASxiZEAsq4sCTf49wPcXTfHpbPrEULWQl7CPei1cAcUbbVC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13303,
+      "createdOn": "2025-12-29T22:25:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fff01c508c5d5e4e9520",
+          "products": [
+            {
+              "_id": "6952fff21c508c5d5e4e9837",
+              "name": "Chicken96988",
+              "amount": 952,
+              "price": 13303,
+              "manufacturer": "Tesla",
+              "notes": "9Wc29Ya289s1ToSkFK9JGXZrO9fci9O8NvNVJFvonoRfhWz68lxem8ejn4ZrDWOQ0JIUwdXzLAoSFHU8j8qDWRWL25bIT8frezDMYCnG4Day14tvg4G1ILiKc5MZksC9nfojRICb0ZuDqqF4pqXzvNB0GbLgiK3Bq4VQcNX0EYM5dD3Nn3DulS7KCqInkvn8ZskzuxYZLQ4ASxiZEAsq4sCTf49wPcXTfHpbPrEULWQl7CPei1cAcUbbVC",
+              "received": false
+            }
+          ],
+          "total_price": 13303,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952fff51c508c5d5e4e985c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

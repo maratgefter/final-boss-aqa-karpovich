@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4114",
+    "etag": "W/\"1012-jp/BrzWoSLP2948hcePLNPV1lm8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953004b1c508c5d5e4ece45",
+      "status": "Draft",
+      "customer": {
+        "_id": "695300371c508c5d5e4ebf32",
+        "email": "Maurice63@hotmail.com",
+        "name": "Hailee Hackett",
+        "country": "Belarus",
+        "city": "Beaufield",
+        "street": "Frami Squares",
+        "house": 41,
+        "flat": 597,
+        "phone": "+18333925477",
+        "createdOn": "2025-12-29T22:27:03.000Z",
+        "notes": "yf3mm97p4Nw0ZDr6X99Ha3ZFjNjG8sY3Cs9pUiixYufT0m6y4G6f6JZwgZTGAPP6EeaHK84igivHCaZQYRjDnt8cAtbwfnhwvFx2y90AZ4Z78DnGP0ZynihyJ7IfG7bCpLKm335nuIoRuP4Dz6e7Z2o3bN6U6og5dFmDnLCZ5gSASNgncpo5A1mRP5coABE6FxtUx2Lt8gNJ9JdeVFKktgK3aNLdQdUryV0A5C86ECh3sW13bEPlWH65Na"
+      },
+      "products": [
+        {
+          "_id": "695300381c508c5d5e4ebf59",
+          "name": "Chips21720",
+          "amount": 603,
+          "price": 55929,
+          "manufacturer": "Samsung",
+          "notes": "uHJS1XzeP7pe4RMeb90I7zr0QSBO9nO6D0XqV8OV8i1yXqZqf3Z2hE8vJ9yuNFi5KN90RJtDCqXWsUbGBM7OHFzo9K2mu9W3BgcnKGEQLTLOWi8Hjtlv56zcKp513TUkGJXSkOcrqaTIPy6LbAnZyemhWOv1QHoqHC2KaBBQaC4Chi4laNXGJsSE6eiv8biqK2EAgvReHPTCnnDfldJiquKDVc8XDl03IXhtbhV860wSHLdVusdMzJ5L9v",
+          "received": false
+        },
+        {
+          "_id": "6953004a1c508c5d5e4ece26",
+          "name": "Sausages58409",
+          "amount": 228,
+          "price": 68171,
+          "manufacturer": "Xiaomi",
+          "notes": "zU2pORZw9YEa6ox7TP1EaIMNRFJWjuoOwUn5zMPCBZiuCz22mo50VVcicMVhvqABtxI3I1rhIliJhjKLRpClaja2SKNsFoR1iJgeanKaqehGHQWtBjOqfGuPRBEcG8qy1wY6TJgiRGxVNSpixiMtzmyMYwuYNS5O3z5V3qlIAiBbrtaRSO8bTFdgKlCR4KAY277d7mvdwtszsG5a36GinKXXEUVSWhuOAJGqgdmEpTU4PjfHEuVxZoa7j5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Beaufield",
+          "street": "Frami Squares",
+          "house": 41,
+          "flat": 597
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 124100,
+      "createdOn": "2025-12-29T22:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695300371c508c5d5e4ebf32",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf59",
+              "name": "Chips21720",
+              "amount": 603,
+              "price": 55929,
+              "manufacturer": "Samsung",
+              "notes": "uHJS1XzeP7pe4RMeb90I7zr0QSBO9nO6D0XqV8OV8i1yXqZqf3Z2hE8vJ9yuNFi5KN90RJtDCqXWsUbGBM7OHFzo9K2mu9W3BgcnKGEQLTLOWi8Hjtlv56zcKp513TUkGJXSkOcrqaTIPy6LbAnZyemhWOv1QHoqHC2KaBBQaC4Chi4laNXGJsSE6eiv8biqK2EAgvReHPTCnnDfldJiquKDVc8XDl03IXhtbhV860wSHLdVusdMzJ5L9v",
+              "received": false
+            },
+            {
+              "_id": "6953004a1c508c5d5e4ece26",
+              "name": "Sausages58409",
+              "amount": 228,
+              "price": 68171,
+              "manufacturer": "Xiaomi",
+              "notes": "zU2pORZw9YEa6ox7TP1EaIMNRFJWjuoOwUn5zMPCBZiuCz22mo50VVcicMVhvqABtxI3I1rhIliJhjKLRpClaja2SKNsFoR1iJgeanKaqehGHQWtBjOqfGuPRBEcG8qy1wY6TJgiRGxVNSpixiMtzmyMYwuYNS5O3z5V3qlIAiBbrtaRSO8bTFdgKlCR4KAY277d7mvdwtszsG5a36GinKXXEUVSWhuOAJGqgdmEpTU4PjfHEuVxZoa7j5",
+              "received": false
+            }
+          ],
+          "total_price": 124100,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Beaufield",
+              "street": "Frami Squares",
+              "house": 41,
+              "flat": 597
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T22:27:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695300371c508c5d5e4ebf32",
+          "products": [
+            {
+              "_id": "695300381c508c5d5e4ebf59",
+              "name": "Chips21720",
+              "amount": 603,
+              "price": 55929,
+              "manufacturer": "Samsung",
+              "notes": "uHJS1XzeP7pe4RMeb90I7zr0QSBO9nO6D0XqV8OV8i1yXqZqf3Z2hE8vJ9yuNFi5KN90RJtDCqXWsUbGBM7OHFzo9K2mu9W3BgcnKGEQLTLOWi8Hjtlv56zcKp513TUkGJXSkOcrqaTIPy6LbAnZyemhWOv1QHoqHC2KaBBQaC4Chi4laNXGJsSE6eiv8biqK2EAgvReHPTCnnDfldJiquKDVc8XDl03IXhtbhV860wSHLdVusdMzJ5L9v",
+              "received": false
+            },
+            {
+              "_id": "6953004a1c508c5d5e4ece26",
+              "name": "Sausages58409",
+              "amount": 228,
+              "price": 68171,
+              "manufacturer": "Xiaomi",
+              "notes": "zU2pORZw9YEa6ox7TP1EaIMNRFJWjuoOwUn5zMPCBZiuCz22mo50VVcicMVhvqABtxI3I1rhIliJhjKLRpClaja2SKNsFoR1iJgeanKaqehGHQWtBjOqfGuPRBEcG8qy1wY6TJgiRGxVNSpixiMtzmyMYwuYNS5O3z5V3qlIAiBbrtaRSO8bTFdgKlCR4KAY277d7mvdwtszsG5a36GinKXXEUVSWhuOAJGqgdmEpTU4PjfHEuVxZoa7j5",
+              "received": false
+            }
+          ],
+          "total_price": 124100,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-3eXkPorlqpwhikxGANkYhr0he6Q\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffdd1c508c5d5e4e8b0c",
+        "email": "Rick.Kreiger@yahoo.com",
+        "name": "Jazmin Langworth",
+        "country": "Germany",
+        "city": "East Aiyana",
+        "street": "Deonte Mill",
+        "house": 25,
+        "flat": 455,
+        "phone": "+15976528640",
+        "createdOn": "2025-12-29T22:25:33.000Z",
+        "notes": "faEUHe7me2yINqyzAdc9CZLNXipT63cHh3C1BoxijkWFa6pdmbTq0lig18XfMMth7eiu0bAqcpGexEL2UgR5waCQbfaUYfuJycQAi2V53MS8HVCDgLfwmsUx4ylXgICRuCntoxLebrX6iOVUO84nk2vj9ITtdM7xlu0mNEAzIWLf7DUkhVHDxW2qfOE4DnpaV2gwakrEkSuNFlfonLK7sRce28ZxxxKxCT5u38VDxSqmnHjkKr9vOeRwli"
+      },
+      "products": [
+        {
+          "_id": "6952ffde1c508c5d5e4e8b55",
+          "name": "Chair96136",
+          "amount": 20,
+          "price": 57300,
+          "manufacturer": "Apple",
+          "notes": "oz9pZjNcIF6U5qK6rbWKaD2GfPhfUPAHDgNLNefiJBvOB5wedCeoaW5trzb6LGR2fZAwgUvDgLm6gSr9cZTc4smPpcSZnyUkHijUjLXDvvRk6o9vJu1BWz07EVIkuNLoXsCo4DXfm5HQN1dCVcIo92GxrFixz2v1oJo5eb4r55n6LrGf6dENKRHKBj095AeCHkuL4aHgy9Ks9smIPqKfLihvTSvd49dnFBBJsiSFra4XhNIaSxBv2NZUDT",
+          "received": false
+        },
+        {
+          "_id": "6952ffe01c508c5d5e4e8b75",
+          "name": "Shoes15493",
+          "amount": 266,
+          "price": 56935,
+          "manufacturer": "Apple",
+          "notes": "KlsbLvtYqBn2eWjLvNOW6zLtCIkyPavsnETZCoodKV0n8HollAI7FOtclu8nVV6hzRbSArZQxR0de3XO9mEShRQ3QpwHaBEDbn9HB9YgRtPfCSVeNfYrDEQIXQfOBOBxcfZQLv6Rxvs9t1Esr89eEWQW35Kum48s2FqDSRCc7EkzqmcTooZO9e5KcaCoYPmBejEgvOkJkewhr0tRSefrPyV7BJYtuc056XIicGAay9VDZB0eVbhGfabJ99",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114235,
+      "createdOn": "2025-12-29T22:25:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffdd1c508c5d5e4e8b0c",
+          "products": [
+            {
+              "_id": "6952ffde1c508c5d5e4e8b55",
+              "name": "Chair96136",
+              "amount": 20,
+              "price": 57300,
+              "manufacturer": "Apple",
+              "notes": "oz9pZjNcIF6U5qK6rbWKaD2GfPhfUPAHDgNLNefiJBvOB5wedCeoaW5trzb6LGR2fZAwgUvDgLm6gSr9cZTc4smPpcSZnyUkHijUjLXDvvRk6o9vJu1BWz07EVIkuNLoXsCo4DXfm5HQN1dCVcIo92GxrFixz2v1oJo5eb4r55n6LrGf6dENKRHKBj095AeCHkuL4aHgy9Ks9smIPqKfLihvTSvd49dnFBBJsiSFra4XhNIaSxBv2NZUDT",
+              "received": false
+            },
+            {
+              "_id": "6952ffe01c508c5d5e4e8b75",
+              "name": "Shoes15493",
+              "amount": 266,
+              "price": 56935,
+              "manufacturer": "Apple",
+              "notes": "KlsbLvtYqBn2eWjLvNOW6zLtCIkyPavsnETZCoodKV0n8HollAI7FOtclu8nVV6hzRbSArZQxR0de3XO9mEShRQ3QpwHaBEDbn9HB9YgRtPfCSVeNfYrDEQIXQfOBOBxcfZQLv6Rxvs9t1Esr89eEWQW35Kum48s2FqDSRCc7EkzqmcTooZO9e5KcaCoYPmBejEgvOkJkewhr0tRSefrPyV7BJYtuc056XIicGAay9VDZB0eVbhGfabJ99",
+              "received": false
+            }
+          ],
+          "total_price": 114235,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952ffe01c508c5d5e4e8b83"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:25:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-QQRtiWmOW48EYMgo7fCflp/JXwE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952ffce1c508c5d5e4e84b8",
+        "email": "Lionel.Kulas59@hotmail.com",
+        "name": "Ella Kreiger",
+        "country": "France",
+        "city": "West Nannie",
+        "street": "S 8th Street",
+        "house": 34,
+        "flat": 928,
+        "phone": "+17488616864",
+        "createdOn": "2025-12-29T22:25:18.000Z",
+        "notes": "WoHzp3UPROqMmlI6yiQV4WDUtwBuO38l6zmIa1ZzoREj9EV7T8XSQGdO1jrJDG9iJqlhcWXQQFoTAh1TInkFCob41R5v8xaLJWYRARLxdEoYGMKt6Da8UMFBYy5BBILYgR95XRUEpMiXQW8E19T7dq4nrWHWemn7gyx7btBGiAHaxfSYTCV3M20la2Orp0B7Bwi2r7vsSCFXPfVo5wrS9jwlC494l4q5f36VsRl1mx7rMgDNe73cZxBSbP"
+      },
+      "products": [
+        {
+          "_id": "6952ffcf1c508c5d5e4e84db",
+          "name": "Chips62592",
+          "amount": 554,
+          "price": 35263,
+          "manufacturer": "Google",
+          "notes": "PhbD87knqBFvltYGGepQC7JBD4eUGF0NK2KREy80mY1NJfflgXuYQSC8NcaYmU3Ilg8TpuEa9znJq2IsYg8rNrFtUiuLNY8zkg0mOuFUkT4t8BgnuqWgHyZQdlH3oxv1xtfA7dDjcFVtp2ZpyS1EcgK003uO0OFDsJDl29AnHEmC0NUY0QElXFMSfBnfNcj9sAzudTvvEwcGKVkiBy0BOfiIEzx7Kf7Azypozj2FXOh42IrTPZRWqIANbU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35263,
+      "createdOn": "2025-12-29T22:25:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952ffce1c508c5d5e4e84b8",
+          "products": [
+            {
+              "_id": "6952ffcf1c508c5d5e4e84db",
+              "name": "Chips62592",
+              "amount": 554,
+              "price": 35263,
+              "manufacturer": "Google",
+              "notes": "PhbD87knqBFvltYGGepQC7JBD4eUGF0NK2KREy80mY1NJfflgXuYQSC8NcaYmU3Ilg8TpuEa9znJq2IsYg8rNrFtUiuLNY8zkg0mOuFUkT4t8BgnuqWgHyZQdlH3oxv1xtfA7dDjcFVtp2ZpyS1EcgK003uO0OFDsJDl29AnHEmC0NUY0QElXFMSfBnfNcj9sAzudTvvEwcGKVkiBy0BOfiIEzx7Kf7Azypozj2FXOh42IrTPZRWqIANbU",
+              "received": false
+            }
+          ],
+          "total_price": 35263,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:25:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952ffd01c508c5d5e4e84f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

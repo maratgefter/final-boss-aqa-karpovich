@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:26:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2960",
+    "etag": "W/\"b90-nKw8HeDNbXD5HxupQ/o1HC+rxAw\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695300061c508c5d5e4ea34a",
+      "status": "Draft",
+      "customer": {
+        "_id": "695300001c508c5d5e4e9fdb",
+        "email": "Cleveland55@yahoo.com",
+        "name": "Elenor Satterfield",
+        "country": "Russia",
+        "city": "Lake Garrett",
+        "street": "Gabriella Courts",
+        "house": 20,
+        "flat": 370,
+        "phone": "+18365572742",
+        "createdOn": "2025-12-29T22:26:08.000Z",
+        "notes": "Oqv9nOGjy5kMNdXCtfLyD0X9626rQMNoS2jlwhnFYbao4W8Kf1vMZJEO6FRm9ETYOWLsOqvijXlPl6Kro4cxbNtHN5eN4zWrvAhaigh5RrsxjO29RvJwKlBFXbg1XVyHvT4jOc2ijKQgy2mPlmoT2DaNayYG2BQdcs4BGCW5SzAgmwp5qhyQW8cyTq6fsBoia5sqa0iQ54HKaT7UegQsh4RfgMeQfHplO2kYRJYqfEIEpkdcU6mnD3u4t6"
+      },
+      "products": [
+        {
+          "_id": "695300021c508c5d5e4ea02b",
+          "name": "Car13467",
+          "amount": 241,
+          "price": 10275,
+          "manufacturer": "Google",
+          "notes": "Iuz1JjFluyuRCHDZOqSHdwhQ6CuGiEb7YpoErnbbknKAW32aJ5BNq0Zv4Li1vw6bl6UJSI9ejwrJD1MhWO7wFvd1XG6bT9juJI08wKShkshNzeQo4C3TxzgDLvvWDKkdenTaEbJIFq2rodCpUuGTUWGGg3dunAn2xgTnnyPlPzSocz0GYNCBIj9xrOGkgoFkji5ymiseqNft8AESLGHIeBH5K4KSYtw3p7D1SS6aUb5SchkKsYxVCWiSu9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Garrett",
+          "street": "Gabriella Courts",
+          "house": 20,
+          "flat": 370
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 10275,
+      "createdOn": "2025-12-29T22:26:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695300001c508c5d5e4e9fdb",
+          "products": [
+            {
+              "_id": "695300021c508c5d5e4ea02b",
+              "name": "Car13467",
+              "amount": 241,
+              "price": 10275,
+              "manufacturer": "Google",
+              "notes": "Iuz1JjFluyuRCHDZOqSHdwhQ6CuGiEb7YpoErnbbknKAW32aJ5BNq0Zv4Li1vw6bl6UJSI9ejwrJD1MhWO7wFvd1XG6bT9juJI08wKShkshNzeQo4C3TxzgDLvvWDKkdenTaEbJIFq2rodCpUuGTUWGGg3dunAn2xgTnnyPlPzSocz0GYNCBIj9xrOGkgoFkji5ymiseqNft8AESLGHIeBH5K4KSYtw3p7D1SS6aUb5SchkKsYxVCWiSu9",
+              "received": false
+            }
+          ],
+          "total_price": 10275,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Garrett",
+              "street": "Gabriella Courts",
+              "house": 20,
+              "flat": 370
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T22:26:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695300001c508c5d5e4e9fdb",
+          "products": [
+            {
+              "_id": "695300021c508c5d5e4ea02b",
+              "name": "Car13467",
+              "amount": 241,
+              "price": 10275,
+              "manufacturer": "Google",
+              "notes": "Iuz1JjFluyuRCHDZOqSHdwhQ6CuGiEb7YpoErnbbknKAW32aJ5BNq0Zv4Li1vw6bl6UJSI9ejwrJD1MhWO7wFvd1XG6bT9juJI08wKShkshNzeQo4C3TxzgDLvvWDKkdenTaEbJIFq2rodCpUuGTUWGGg3dunAn2xgTnnyPlPzSocz0GYNCBIj9xrOGkgoFkji5ymiseqNft8AESLGHIeBH5K4KSYtw3p7D1SS6aUb5SchkKsYxVCWiSu9",
+              "received": false
+            }
+          ],
+          "total_price": 10275,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:26:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
