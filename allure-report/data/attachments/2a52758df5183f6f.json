@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:25:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3848",
+    "etag": "W/\"f08-Xgb3n5H+7ET6guvRpfsh+Y6uS9Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695451611c508c5d5e584d9e",
+      "status": "In Process",
+      "customer": {
+        "_id": "695451601c508c5d5e584d42",
+        "email": "Destinee_VonRueden-Pfeffer@hotmail.com",
+        "name": "Bridie Haag",
+        "country": "USA",
+        "city": "Hellerworth",
+        "street": "High Road",
+        "house": 18,
+        "flat": 6,
+        "phone": "+19809855403",
+        "createdOn": "2025-12-30T22:25:36.000Z",
+        "notes": "OB49XtHbcOamuFdYSKkM8rVSANtuqeAg7UptoD2FrAb4VFc6A8fH5ShnTivOy0wVLBRvvw3ECiYkZmQHUm3Od1dhJgfBaXEDkXlrqjfnIywvOl8tMaeSO50EbskUl0q4S5b94drjq8xYnvOIyMAN6N5LmgMe9pClFa85ffoFtIiRUp6pKPEHWY66CPMJ18zf0qfHZSCxFSKTIpIBQOqRBrhCzXUqzcnbdGqd1o2tpLRrGmraqjYRqWgOrm"
+      },
+      "products": [
+        {
+          "_id": "695451611c508c5d5e584d8c",
+          "name": "Bacon50855",
+          "amount": 513,
+          "price": 91327,
+          "manufacturer": "Sony",
+          "notes": "TP4CuMGlCMZdwlYtc4ZRelDL4OaTo9Yriu8BIL3779A8d4hSPR0QpG5ZMcdiFYNpMIMUGEPQk2DPZRL21ctkanoVPp7DZaF3gfSiN27o6uZn40yl88cz0iXJcLkgoSoihnwKc7sf6yFHUlvUFI86AOaKoBHtgbOQQS828MdEh3GbtB7oTrZ2A4six9dLJh0vfT1v4yIxktw92ffHjVZzyNxhtikLQAymkOaVsMH3aQlSv9U4wxJwyRaR3a",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Hellerworth",
+          "street": "High Road",
+          "house": 18,
+          "flat": 6
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 91327,
+      "createdOn": "2025-12-30T22:25:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695451601c508c5d5e584d42",
+          "products": [
+            {
+              "_id": "695451611c508c5d5e584d8c",
+              "name": "Bacon50855",
+              "amount": 513,
+              "price": 91327,
+              "manufacturer": "Sony",
+              "notes": "TP4CuMGlCMZdwlYtc4ZRelDL4OaTo9Yriu8BIL3779A8d4hSPR0QpG5ZMcdiFYNpMIMUGEPQk2DPZRL21ctkanoVPp7DZaF3gfSiN27o6uZn40yl88cz0iXJcLkgoSoihnwKc7sf6yFHUlvUFI86AOaKoBHtgbOQQS828MdEh3GbtB7oTrZ2A4six9dLJh0vfT1v4yIxktw92ffHjVZzyNxhtikLQAymkOaVsMH3aQlSv9U4wxJwyRaR3a",
+              "received": false
+            }
+          ],
+          "total_price": 91327,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hellerworth",
+              "street": "High Road",
+              "house": 18,
+              "flat": 6
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T22:25:38.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695451601c508c5d5e584d42",
+          "products": [
+            {
+              "_id": "695451611c508c5d5e584d8c",
+              "name": "Bacon50855",
+              "amount": 513,
+              "price": 91327,
+              "manufacturer": "Sony",
+              "notes": "TP4CuMGlCMZdwlYtc4ZRelDL4OaTo9Yriu8BIL3779A8d4hSPR0QpG5ZMcdiFYNpMIMUGEPQk2DPZRL21ctkanoVPp7DZaF3gfSiN27o6uZn40yl88cz0iXJcLkgoSoihnwKc7sf6yFHUlvUFI86AOaKoBHtgbOQQS828MdEh3GbtB7oTrZ2A4six9dLJh0vfT1v4yIxktw92ffHjVZzyNxhtikLQAymkOaVsMH3aQlSv9U4wxJwyRaR3a",
+              "received": false
+            }
+          ],
+          "total_price": 91327,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hellerworth",
+              "street": "High Road",
+              "house": 18,
+              "flat": 6
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T22:25:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695451601c508c5d5e584d42",
+          "products": [
+            {
+              "_id": "695451611c508c5d5e584d8c",
+              "name": "Bacon50855",
+              "amount": 513,
+              "price": 91327,
+              "manufacturer": "Sony",
+              "notes": "TP4CuMGlCMZdwlYtc4ZRelDL4OaTo9Yriu8BIL3779A8d4hSPR0QpG5ZMcdiFYNpMIMUGEPQk2DPZRL21ctkanoVPp7DZaF3gfSiN27o6uZn40yl88cz0iXJcLkgoSoihnwKc7sf6yFHUlvUFI86AOaKoBHtgbOQQS828MdEh3GbtB7oTrZ2A4six9dLJh0vfT1v4yIxktw92ffHjVZzyNxhtikLQAymkOaVsMH3aQlSv9U4wxJwyRaR3a",
+              "received": false
+            }
+          ],
+          "total_price": 91327,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:25:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

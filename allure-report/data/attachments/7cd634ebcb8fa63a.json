@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:26:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4125",
+    "etag": "W/\"101d-pGEcZRVXwJOLlqkO1xxQa4O/fpM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695451811c508c5d5e586411",
+      "status": "Draft",
+      "customer": {
+        "_id": "695451731c508c5d5e58590a",
+        "email": "Flo_Wisoky21@yahoo.com",
+        "name": "Ashlee Johnston",
+        "country": "Canada",
+        "city": "East Presleyboro",
+        "street": "Park Avenue",
+        "house": 19,
+        "flat": 478,
+        "phone": "+19436585287",
+        "createdOn": "2025-12-30T22:25:55.000Z",
+        "notes": "wgJEMtUL0jcj0yYjPaGsU8ULmGPqEhIVQJF5P6dJM98OdA6B8NZymc3f02H0vG61fUbhnVWw6CnWL0avEO52NZIVbmCSCXYlvdNtPR6CCuaIAqmUlEtc50E5MM8VDv39pqkFFCtJP3SAAU5BaVsbTes7SMWMQK4gltIclM9PTNtjMGecPEkeDPATNT0dKm89kIeuI46PP5nxdjsuF3yYFaBUlHAomMxikgcycouYTwa9nh9uN4P7FiAVWm"
+      },
+      "products": [
+        {
+          "_id": "695451791c508c5d5e585d38",
+          "name": "Chair54863",
+          "amount": 8,
+          "price": 46101,
+          "manufacturer": "Tesla",
+          "notes": "IaLSv8j5N6uSqRBenJJxBxSQyFVLdd7G63bu81DqvCVFNkk8LKZziPrUpunFezSwfLmJvevG5OvxZwZjxO5CxhKj0CPsgcUGzXoa9r3Hv5fEi7wiZOPJn9l3IxF3uBqFsJZct8GNdoemIs4PxaaN9a4itZQcaCaKoLyp4Px2j91IA0B2qPvN2hy5YqwutrVJeVkGbYCfq9aJtrQQawyx92hn4MSAiuTwBxXXU8LARV07zNqKvm3fjQYxWU",
+          "received": false
+        },
+        {
+          "_id": "695451801c508c5d5e58629d",
+          "name": "Computer30606",
+          "amount": 547,
+          "price": 77294,
+          "manufacturer": "Microsoft",
+          "notes": "G24TARti7OHKabefQ6domiGFg5G1C1Xu694ZmLe8njShIBj0Pb9yTmXYdXJFc4yHLYIcUB2m536uYhWLDMI1b3G1hwTgMzQ4EEm7TLEjTmJdDTw12pzjVUtobFs5vP7FG6dpfatffGxPhndDMbrCdAK2kPghA0pghsTzcgDAL3aT7NkeekCoEhGIOpsinbD9iP2ChNhkHCSpzbmLNXDYvUBBMa6enNyzdy3A9ID2Vi5hslQSItGCa5aJpr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Presleyboro",
+          "street": "Park Avenue",
+          "house": 19,
+          "flat": 478
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 123395,
+      "createdOn": "2025-12-30T22:26:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695451731c508c5d5e58590a",
+          "products": [
+            {
+              "_id": "695451791c508c5d5e585d38",
+              "name": "Chair54863",
+              "amount": 8,
+              "price": 46101,
+              "manufacturer": "Tesla",
+              "notes": "IaLSv8j5N6uSqRBenJJxBxSQyFVLdd7G63bu81DqvCVFNkk8LKZziPrUpunFezSwfLmJvevG5OvxZwZjxO5CxhKj0CPsgcUGzXoa9r3Hv5fEi7wiZOPJn9l3IxF3uBqFsJZct8GNdoemIs4PxaaN9a4itZQcaCaKoLyp4Px2j91IA0B2qPvN2hy5YqwutrVJeVkGbYCfq9aJtrQQawyx92hn4MSAiuTwBxXXU8LARV07zNqKvm3fjQYxWU",
+              "received": false
+            },
+            {
+              "_id": "695451801c508c5d5e58629d",
+              "name": "Computer30606",
+              "amount": 547,
+              "price": 77294,
+              "manufacturer": "Microsoft",
+              "notes": "G24TARti7OHKabefQ6domiGFg5G1C1Xu694ZmLe8njShIBj0Pb9yTmXYdXJFc4yHLYIcUB2m536uYhWLDMI1b3G1hwTgMzQ4EEm7TLEjTmJdDTw12pzjVUtobFs5vP7FG6dpfatffGxPhndDMbrCdAK2kPghA0pghsTzcgDAL3aT7NkeekCoEhGIOpsinbD9iP2ChNhkHCSpzbmLNXDYvUBBMa6enNyzdy3A9ID2Vi5hslQSItGCa5aJpr",
+              "received": false
+            }
+          ],
+          "total_price": 123395,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Presleyboro",
+              "street": "Park Avenue",
+              "house": 19,
+              "flat": 478
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T22:26:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695451731c508c5d5e58590a",
+          "products": [
+            {
+              "_id": "695451791c508c5d5e585d38",
+              "name": "Chair54863",
+              "amount": 8,
+              "price": 46101,
+              "manufacturer": "Tesla",
+              "notes": "IaLSv8j5N6uSqRBenJJxBxSQyFVLdd7G63bu81DqvCVFNkk8LKZziPrUpunFezSwfLmJvevG5OvxZwZjxO5CxhKj0CPsgcUGzXoa9r3Hv5fEi7wiZOPJn9l3IxF3uBqFsJZct8GNdoemIs4PxaaN9a4itZQcaCaKoLyp4Px2j91IA0B2qPvN2hy5YqwutrVJeVkGbYCfq9aJtrQQawyx92hn4MSAiuTwBxXXU8LARV07zNqKvm3fjQYxWU",
+              "received": false
+            },
+            {
+              "_id": "695451801c508c5d5e58629d",
+              "name": "Computer30606",
+              "amount": 547,
+              "price": 77294,
+              "manufacturer": "Microsoft",
+              "notes": "G24TARti7OHKabefQ6domiGFg5G1C1Xu694ZmLe8njShIBj0Pb9yTmXYdXJFc4yHLYIcUB2m536uYhWLDMI1b3G1hwTgMzQ4EEm7TLEjTmJdDTw12pzjVUtobFs5vP7FG6dpfatffGxPhndDMbrCdAK2kPghA0pghsTzcgDAL3aT7NkeekCoEhGIOpsinbD9iP2ChNhkHCSpzbmLNXDYvUBBMa6enNyzdy3A9ID2Vi5hslQSItGCa5aJpr",
+              "received": false
+            }
+          ],
+          "total_price": 123395,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:26:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

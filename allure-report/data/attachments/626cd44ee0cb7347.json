@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3877",
+    "etag": "W/\"f25-V5ZwBE96FI23pmJZGJ3FNiNw4CY\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695451561c508c5d5e58467b",
+      "status": "In Process",
+      "customer": {
+        "_id": "695451551c508c5d5e58461f",
+        "email": "Nils_Kreiger75@hotmail.com",
+        "name": "Forest Smith",
+        "country": "Russia",
+        "city": "Pittsfield",
+        "street": "Orchard Street",
+        "house": 26,
+        "flat": 344,
+        "phone": "+17525260270",
+        "createdOn": "2025-12-30T22:25:25.000Z",
+        "notes": "VbvONj6aARYznTSbRr46GKNmMz6yMTclGRkqOyx0f4VbeUHVePI5UUzT77zFIsM7z0SMtpVsexuowcbh3AaS5iFWZ7sqRyI01vJD8opBIOyHDZU9svtdIFphKcLwsFwttuvJKkgMhIZHaaUHklt6i0Msm7HnI4xuncxZYyef6CPkaInh95IFJE0HtnwlwtGZ6B3XyYTAfAQwr1TyJr5CQF2Q41n58TLKk6ywblFGrdPWV4PrXNO6XMmCG8"
+      },
+      "products": [
+        {
+          "_id": "695451561c508c5d5e58465f",
+          "name": "Shoes72805",
+          "amount": 51,
+          "price": 66598,
+          "manufacturer": "Amazon",
+          "notes": "PR817ZQxAWUaVyXPLYVQ009o82MF09MSxuEr0hlnqnE3tItKQ59xrBODNeEc65fdSBHj1lsS4W62AuBXAtLsXF2FgyptKrteon9yXPQSYTfSXnWWSn4fxVczVOr2d6hxTrSIbzHqpaCLBaEHGmxCAZh6UblEOiS6HNInzPReHPalDOPk4uNw0uaCSeujlKDyGlQ72AbdWQ5xk2oBQJuWtoyIScUUMx4dD5vl03ZZOFx5YfPqB4Cik2jS7r",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Pittsfield",
+          "street": "Orchard Street",
+          "house": 26,
+          "flat": 344
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66598,
+      "createdOn": "2025-12-30T22:25:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695451551c508c5d5e58461f",
+          "products": [
+            {
+              "_id": "695451561c508c5d5e58465f",
+              "name": "Shoes72805",
+              "amount": 51,
+              "price": 66598,
+              "manufacturer": "Amazon",
+              "notes": "PR817ZQxAWUaVyXPLYVQ009o82MF09MSxuEr0hlnqnE3tItKQ59xrBODNeEc65fdSBHj1lsS4W62AuBXAtLsXF2FgyptKrteon9yXPQSYTfSXnWWSn4fxVczVOr2d6hxTrSIbzHqpaCLBaEHGmxCAZh6UblEOiS6HNInzPReHPalDOPk4uNw0uaCSeujlKDyGlQ72AbdWQ5xk2oBQJuWtoyIScUUMx4dD5vl03ZZOFx5YfPqB4Cik2jS7r",
+              "received": false
+            }
+          ],
+          "total_price": 66598,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Pittsfield",
+              "street": "Orchard Street",
+              "house": 26,
+              "flat": 344
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T22:25:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695451551c508c5d5e58461f",
+          "products": [
+            {
+              "_id": "695451561c508c5d5e58465f",
+              "name": "Shoes72805",
+              "amount": 51,
+              "price": 66598,
+              "manufacturer": "Amazon",
+              "notes": "PR817ZQxAWUaVyXPLYVQ009o82MF09MSxuEr0hlnqnE3tItKQ59xrBODNeEc65fdSBHj1lsS4W62AuBXAtLsXF2FgyptKrteon9yXPQSYTfSXnWWSn4fxVczVOr2d6hxTrSIbzHqpaCLBaEHGmxCAZh6UblEOiS6HNInzPReHPalDOPk4uNw0uaCSeujlKDyGlQ72AbdWQ5xk2oBQJuWtoyIScUUMx4dD5vl03ZZOFx5YfPqB4Cik2jS7r",
+              "received": false
+            }
+          ],
+          "total_price": 66598,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Pittsfield",
+              "street": "Orchard Street",
+              "house": 26,
+              "flat": 344
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T22:25:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695451551c508c5d5e58461f",
+          "products": [
+            {
+              "_id": "695451561c508c5d5e58465f",
+              "name": "Shoes72805",
+              "amount": 51,
+              "price": 66598,
+              "manufacturer": "Amazon",
+              "notes": "PR817ZQxAWUaVyXPLYVQ009o82MF09MSxuEr0hlnqnE3tItKQ59xrBODNeEc65fdSBHj1lsS4W62AuBXAtLsXF2FgyptKrteon9yXPQSYTfSXnWWSn4fxVczVOr2d6hxTrSIbzHqpaCLBaEHGmxCAZh6UblEOiS6HNInzPReHPalDOPk4uNw0uaCSeujlKDyGlQ72AbdWQ5xk2oBQJuWtoyIScUUMx4dD5vl03ZZOFx5YfPqB4Cik2jS7r",
+              "received": false
+            }
+          ],
+          "total_price": 66598,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:25:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

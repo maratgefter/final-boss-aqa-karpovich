@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-2GyHMecIygZpLDjIG3Bq+L+RJmU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954512d1c508c5d5e582f7e",
+        "email": "Toney.Block45@hotmail.com",
+        "name": "Greyson Cartwright",
+        "country": "Germany",
+        "city": "Kelsieview",
+        "street": "Poplar Road",
+        "house": 11,
+        "flat": 840,
+        "phone": "+18969753946",
+        "createdOn": "2025-12-30T22:24:45.000Z",
+        "notes": "CQlxKjYgWpASohHpaa33JZJyttXCB97LdkklzpWTk9LxLTKyZ5qOArxodPDnoVEtM7zeKrsfQk307NeoZIAnQXc3VhGZGkxfySUNzQyFN49byGPG364GTAkQPfX4hoI2116JTt9DHU3qITqCozAO8VkWa1HmaNT9My14OKnnCpqru6pGuupiH609HDeKYCqO4AmqMEVW5Wl042cVikwVOkYuRVI9CdQ6F3oOMFIw4tAcALROT7dpXwHFbj"
+      },
+      "products": [
+        {
+          "_id": "6954512e1c508c5d5e582fcf",
+          "name": "Bike73294",
+          "amount": 972,
+          "price": 43549,
+          "manufacturer": "Sony",
+          "notes": "GHOWgzS6REHwDVltrKJTcPgYvAFS5IleUQ0dkttSNoaa4ClvsRaKEttQsJjHl1AF60OmNoaHZYxwv6hcmijhZz7k3JmD8JFVaJmYaq8q5gcT5tYZsbvZ9wu5lUsY1IOFIQhZTLGq0yhyMI3jKF9RLRxDb5NhRj91ZU5bessGuLSFf0ESB8ozbZFlbVqHmPltyQxUkdwkelAIPgDWp06nOYeKkwmb15JMGrFlXSRCrEqGNYChSoKWqcvJoX",
+          "received": false
+        },
+        {
+          "_id": "6954512e1c508c5d5e582fef",
+          "name": "Fish56732",
+          "amount": 248,
+          "price": 6272,
+          "manufacturer": "Sony",
+          "notes": "cdTPYT25vTNbc0et2o1z2za1EPnsUQNagGifB2YRizpKhuvrt3IIhuv29akwCtwOfjfoGFcRDHexvVehnguKlRnNPAwBTcZeyYF5PnKdedUxzSwVED0NPWjyvPu8uognCicGYxDP4WplK8jxWq8dfUWCeI0XFFwciCcWYJnuMvMhBC9ZT0zmMO14qX7Fx10T2cuD0wgiNGnEWeSaH8b1AvFY0m2BR4OrlENqXFmm0qktLA1XxqFU2fEPVV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49821,
+      "createdOn": "2025-12-30T22:24:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954512d1c508c5d5e582f7e",
+          "products": [
+            {
+              "_id": "6954512e1c508c5d5e582fcf",
+              "name": "Bike73294",
+              "amount": 972,
+              "price": 43549,
+              "manufacturer": "Sony",
+              "notes": "GHOWgzS6REHwDVltrKJTcPgYvAFS5IleUQ0dkttSNoaa4ClvsRaKEttQsJjHl1AF60OmNoaHZYxwv6hcmijhZz7k3JmD8JFVaJmYaq8q5gcT5tYZsbvZ9wu5lUsY1IOFIQhZTLGq0yhyMI3jKF9RLRxDb5NhRj91ZU5bessGuLSFf0ESB8ozbZFlbVqHmPltyQxUkdwkelAIPgDWp06nOYeKkwmb15JMGrFlXSRCrEqGNYChSoKWqcvJoX",
+              "received": false
+            },
+            {
+              "_id": "6954512e1c508c5d5e582fef",
+              "name": "Fish56732",
+              "amount": 248,
+              "price": 6272,
+              "manufacturer": "Sony",
+              "notes": "cdTPYT25vTNbc0et2o1z2za1EPnsUQNagGifB2YRizpKhuvrt3IIhuv29akwCtwOfjfoGFcRDHexvVehnguKlRnNPAwBTcZeyYF5PnKdedUxzSwVED0NPWjyvPu8uognCicGYxDP4WplK8jxWq8dfUWCeI0XFFwciCcWYJnuMvMhBC9ZT0zmMO14qX7Fx10T2cuD0wgiNGnEWeSaH8b1AvFY0m2BR4OrlENqXFmm0qktLA1XxqFU2fEPVV",
+              "received": false
+            }
+          ],
+          "total_price": 49821,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954512f1c508c5d5e583005"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

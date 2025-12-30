@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1419",
+    "etag": "W/\"58b-syUh8ZpVsEYrcaTd/P9hz2nH1Ss\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695451211c508c5d5e582ba0",
+        "status": "Draft",
+        "customer": "695451201c508c5d5e582b6e",
+        "products": [
+          {
+            "_id": "695451211c508c5d5e582b8b",
+            "name": "Chicken42498",
+            "amount": 76,
+            "price": 10864,
+            "manufacturer": "Microsoft",
+            "notes": "kp7OIQPUpS2MVH0LwKkJDJLhbBU7VanxTuIJl0VnVMRM5Lk1PAXeCO9WfMY1BjvyvyKbbpwx4UK8y55ouTUDD2UcLjv3ZIDVhIFFVzCtmQEZMsC1TP4etJy2ltDyDAurbwXjtiCYSIhQBdEhLsIj1SokCh8mpAAJuIf1U3PrONkQhvpiBfT6L5lDLKbHmHy3UYCa2PFnR7xlZKhwFvY5pAoSem7svnQioZntnXTiU9exPsZD50TSmY0ip8",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 10864,
+        "createdOn": "2025-12-30T22:24:33.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695451201c508c5d5e582b6e",
+            "products": [
+              {
+                "_id": "695451211c508c5d5e582b8b",
+                "name": "Chicken42498",
+                "amount": 76,
+                "price": 10864,
+                "manufacturer": "Microsoft",
+                "notes": "kp7OIQPUpS2MVH0LwKkJDJLhbBU7VanxTuIJl0VnVMRM5Lk1PAXeCO9WfMY1BjvyvyKbbpwx4UK8y55ouTUDD2UcLjv3ZIDVhIFFVzCtmQEZMsC1TP4etJy2ltDyDAurbwXjtiCYSIhQBdEhLsIj1SokCh8mpAAJuIf1U3PrONkQhvpiBfT6L5lDLKbHmHy3UYCa2PFnR7xlZKhwFvY5pAoSem7svnQioZntnXTiU9exPsZD50TSmY0ip8",
+                "received": false
+              }
+            ],
+            "total_price": 10864,
+            "delivery": null,
+            "changedOn": "2025-12-30T22:24:33.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

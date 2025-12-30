@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:25:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-M1qh/Jp8/PQE6Kdssh9JR53U02s\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695451671c508c5d5e584f97",
+        "email": "Jarod_Hudson17@gmail.com",
+        "name": "Tracy Wilderman",
+        "country": "Russia",
+        "city": "West Fernando",
+        "street": "Rey Freeway",
+        "house": 15,
+        "flat": 726,
+        "phone": "+16146047937",
+        "createdOn": "2025-12-30T22:25:43.000Z",
+        "notes": "AHKWwcFHZ6u0UYG1QxRCQpwegTtuI8Yp10iyvvQqOdBhBrXDRH49vAIoHOBan2VhlHX4fBtb259gI4aVD6P3edUn8D82jyzwAQlwVfBbyXvjcfTA7gzCEHWwHNohT86UesxHtfWdY7sNbHRWC14IThT1LANy0ktpznqiNwdym2nUqBCNjlHILpaNa7aNGB5IRj3vI5mE1I2vIKZRsEHKdP7UmrqBkYHUHpuCYC76ildwda2FiWEMQ4032D"
+      },
+      "products": [
+        {
+          "_id": "6954516a1c508c5d5e5851d6",
+          "name": "Pants3307",
+          "amount": 534,
+          "price": 88236,
+          "manufacturer": "Sony",
+          "notes": "8KrXRdQrYAmjxpap0GqRR3vhnYghYaA6eYIcSdBwN62D2XrCPgm7sdX08S3rHNch7duQsyN8aD8gSiRQJq2cXB0Lv59d1HBuAslxOoG49ig1SP1pjR0VEGeRoJwYdopoehNM3YCk8yZBGr0wd0u2h7h8sagtXaodEENikHFI2kPnL632mcqfduJuSr57becB4x2WrXLBVA3V0h4zRLEpKpFcyDoSIp2zFK6Cxi885fk8kWACa7aWpO3cjf",
+          "received": false
+        },
+        {
+          "_id": "6954516c1c508c5d5e58571f",
+          "name": "Pants37539",
+          "amount": 911,
+          "price": 36879,
+          "manufacturer": "Tesla",
+          "notes": "qEd5m3EsuTk2LDK4VFyGayeowKSXun67qkUtUPtyGzLGvmuK8ngBw3NU1djDFP7bj8suJYj3ub1L7PrfIVCRWOirKuJrktjHkpnbBFrk7rmqXrhrYT1xv20Gikc9M9tRzjNeHLfb9ghoo1NweTG0anbWwujO4kKH9kig68F9GVptZI9N9oyIX7rvT9rOaxAvkfCZFmIBy06zMl9QLy6ei8EBNKxdrsHZCBBLr5QoInlz6UlooN46gabQKP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 125115,
+      "createdOn": "2025-12-30T22:25:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695451671c508c5d5e584f97",
+          "products": [
+            {
+              "_id": "6954516a1c508c5d5e5851d6",
+              "name": "Pants3307",
+              "amount": 534,
+              "price": 88236,
+              "manufacturer": "Sony",
+              "notes": "8KrXRdQrYAmjxpap0GqRR3vhnYghYaA6eYIcSdBwN62D2XrCPgm7sdX08S3rHNch7duQsyN8aD8gSiRQJq2cXB0Lv59d1HBuAslxOoG49ig1SP1pjR0VEGeRoJwYdopoehNM3YCk8yZBGr0wd0u2h7h8sagtXaodEENikHFI2kPnL632mcqfduJuSr57becB4x2WrXLBVA3V0h4zRLEpKpFcyDoSIp2zFK6Cxi885fk8kWACa7aWpO3cjf",
+              "received": false
+            },
+            {
+              "_id": "6954516c1c508c5d5e58571f",
+              "name": "Pants37539",
+              "amount": 911,
+              "price": 36879,
+              "manufacturer": "Tesla",
+              "notes": "qEd5m3EsuTk2LDK4VFyGayeowKSXun67qkUtUPtyGzLGvmuK8ngBw3NU1djDFP7bj8suJYj3ub1L7PrfIVCRWOirKuJrktjHkpnbBFrk7rmqXrhrYT1xv20Gikc9M9tRzjNeHLfb9ghoo1NweTG0anbWwujO4kKH9kig68F9GVptZI9N9oyIX7rvT9rOaxAvkfCZFmIBy06zMl9QLy6ei8EBNKxdrsHZCBBLr5QoInlz6UlooN46gabQKP",
+              "received": false
+            }
+          ],
+          "total_price": 125115,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:25:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695451711c508c5d5e585740"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

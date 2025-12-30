@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-mZMQxEVCtEvsMJhJle31tApO4S4\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954512b1c508c5d5e582ef1",
+        "email": "Destiney_Nikolaus70@hotmail.com",
+        "name": "Hortense Runolfsdottir",
+        "country": "Ukraine",
+        "city": "Palm Coast",
+        "street": "Verla Brooks",
+        "house": 47,
+        "flat": 735,
+        "phone": "+13588034404",
+        "createdOn": "2025-12-30T22:24:43.000Z",
+        "notes": "QVXdLeP4xS8X0ywyzRfc6Wz3oq2rFaeSCuoI5hLfQiTsfJ8UlHVh7jfFTm9x8opseBOnZI66lz4wzURfpYrp8UkdjQHHkk6XQTOEWsOjVe8wqMIVFnex7c0vJnNBhVI06DDjAwheUyJ07V8sXQ5TzqPdL4psXCzsCHOUQOfQLwaxtbQYBmB7Qh3kniRQOjpFl3L9BTRJrMEENQ2mddwyD9jUy4lT1WrpUzHXYN9uqKJDPb8fw6Gkhq407l"
+      },
+      "products": [
+        {
+          "_id": "6954512c1c508c5d5e582f5d",
+          "name": "Towels15241",
+          "amount": 64,
+          "price": 64254,
+          "manufacturer": "Microsoft",
+          "notes": "7lmpKVgK4DACdww3V7p4aulJGUQCplwQAq2bzFewUxqvSM367m4PtPbT58n7Q5tzINjGHTDSIWlOhqsFcAMZuhcqe1AlactH3F0QE9pbcOZZ9FGu1rTwimDjWUVe0FRes22gI55dpgBwIZwpRMpEKgV7VZM2LvCyoM2N5afNggwWqpfo4ORGdKCNpKeXnntixpNfPIrJOZHcrd5gv6Td9UYmvwsmlt8sLxMSaVvbDRwxst2ZIW7m3KHNlP",
+          "received": false
+        },
+        {
+          "_id": "6954512d1c508c5d5e582f9d",
+          "name": "Shirt16150",
+          "amount": 552,
+          "price": 52740,
+          "manufacturer": "Apple",
+          "notes": "2FvTkTDTjPXaNMDv2URmuIHO4DuIC2LspPuJdP86pYvre9XOPnkQDwuUmYwcNNAJmyeAbNMRiKUAp827cEzGTnR6zplD9w7dW1jqDCgijc0iNcwDSya1OczYoOopdlJEQjGBsxSiWxEL7uNKsngQh1UKRtxHLE8r1RfYDDZl1rvIKzJ1M8mcwd17YFj6fo5Zkww6IWLyqbEHUm7hjK5KCJDnrVQlWInncdHQhhgVldrmtNaPNBK914fJK2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 116994,
+      "createdOn": "2025-12-30T22:24:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954512b1c508c5d5e582ef1",
+          "products": [
+            {
+              "_id": "6954512c1c508c5d5e582f5d",
+              "name": "Towels15241",
+              "amount": 64,
+              "price": 64254,
+              "manufacturer": "Microsoft",
+              "notes": "7lmpKVgK4DACdww3V7p4aulJGUQCplwQAq2bzFewUxqvSM367m4PtPbT58n7Q5tzINjGHTDSIWlOhqsFcAMZuhcqe1AlactH3F0QE9pbcOZZ9FGu1rTwimDjWUVe0FRes22gI55dpgBwIZwpRMpEKgV7VZM2LvCyoM2N5afNggwWqpfo4ORGdKCNpKeXnntixpNfPIrJOZHcrd5gv6Td9UYmvwsmlt8sLxMSaVvbDRwxst2ZIW7m3KHNlP",
+              "received": false
+            },
+            {
+              "_id": "6954512d1c508c5d5e582f9d",
+              "name": "Shirt16150",
+              "amount": 552,
+              "price": 52740,
+              "manufacturer": "Apple",
+              "notes": "2FvTkTDTjPXaNMDv2URmuIHO4DuIC2LspPuJdP86pYvre9XOPnkQDwuUmYwcNNAJmyeAbNMRiKUAp827cEzGTnR6zplD9w7dW1jqDCgijc0iNcwDSya1OczYoOopdlJEQjGBsxSiWxEL7uNKsngQh1UKRtxHLE8r1RfYDDZl1rvIKzJ1M8mcwd17YFj6fo5Zkww6IWLyqbEHUm7hjK5KCJDnrVQlWInncdHQhhgVldrmtNaPNBK914fJK2",
+              "received": false
+            }
+          ],
+          "total_price": 116994,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954512d1c508c5d5e582fc1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

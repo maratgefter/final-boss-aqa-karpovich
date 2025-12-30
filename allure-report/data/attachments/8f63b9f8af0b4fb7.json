@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:25:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-Skw/FCiCul5jYALGjgVplPEFgJ0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954514e1c508c5d5e584242",
+        "email": "Catalina_Gusikowski80@gmail.com",
+        "name": "Paul Cartwright",
+        "country": "Belarus",
+        "city": "Amelieboro",
+        "street": "Schmitt Alley",
+        "house": 43,
+        "flat": 120,
+        "phone": "+16504270180",
+        "createdOn": "2025-12-30T22:25:18.000Z",
+        "notes": "X9MCWzRlY0FHYqC5cD9WDnNaPPGkg1v7IuW2jmu2uYE45vvah6cX76yKfkKiqKmCFX4faCND7ctNAKTzLyRLVOCoMtVFrCfgnnJ4risV997jEZL29NvuvUJOqJ6eCIu99s5DchTXeqZ2A8JbTzZPDzjKFzIB02wQKXkRzQcIvmDVClCSczn62XV15S6b6DRZySpL4JKTJBQRSGXQYzkYl65h6SxyMAyKNu1a649Jb2xPepWeJZ0H7Iu1aS"
+      },
+      "products": [
+        {
+          "_id": "6954514f1c508c5d5e5842f4",
+          "name": "Tuna76037",
+          "amount": 870,
+          "price": 32793,
+          "manufacturer": "Sony",
+          "notes": "gV1wgi2aAhXHgihJI9dy53guWd47RkEcrPLh71m9rBofjEMHdR7WPMmDDNruuIbaFWfPOJKk0xqkEzl66NiNQrKlEodm0pNSL81uet2oSsRqVuErmPv3UTfQG0O4aVhje7suyf0y2nDZfral16k6BQcObM9qw5SDM6EMb8sEuJYvbzTWuNVdW8h0SnMgXWHuHKGSahpCXm1cuPjfOxW7b0zuHf8yngg97TNvv11fB4fWcUmkMRQOOfC40d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32793,
+      "createdOn": "2025-12-30T22:25:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954514e1c508c5d5e584242",
+          "products": [
+            {
+              "_id": "6954514f1c508c5d5e5842f4",
+              "name": "Tuna76037",
+              "amount": 870,
+              "price": 32793,
+              "manufacturer": "Sony",
+              "notes": "gV1wgi2aAhXHgihJI9dy53guWd47RkEcrPLh71m9rBofjEMHdR7WPMmDDNruuIbaFWfPOJKk0xqkEzl66NiNQrKlEodm0pNSL81uet2oSsRqVuErmPv3UTfQG0O4aVhje7suyf0y2nDZfral16k6BQcObM9qw5SDM6EMb8sEuJYvbzTWuNVdW8h0SnMgXWHuHKGSahpCXm1cuPjfOxW7b0zuHf8yngg97TNvv11fB4fWcUmkMRQOOfC40d",
+              "received": false
+            }
+          ],
+          "total_price": 32793,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:25:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695451501c508c5d5e584304"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

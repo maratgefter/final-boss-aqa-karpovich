@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-1SbMlvnxm83Lp9XR7bX14VuIZso\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695451211c508c5d5e582b87",
+        "email": "Gayle_Johnson81@gmail.com",
+        "name": "Stan Mitchell",
+        "country": "Belarus",
+        "city": "Newtonside",
+        "street": "Javier Trail",
+        "house": 46,
+        "flat": 953,
+        "phone": "+14746248107",
+        "createdOn": "2025-12-30T22:24:33.000Z",
+        "notes": "HO3OQJ64pDNmNSXH3zJALb6NQYAWkKhHA1RRMNQqbxhGauYFo3PVdBngF66QQjaVivEi8BEtMWouTwPqYodULdAGc7k4eqj1I6UkfyuYzyBZgcgZXqdSTKReyVFVsD2lHdt6ylkv5d3OvgDHKqMIMldEtclrDhEP7LpLnN1X3LQOAgn1irpuIbSnSIrmZVVCcA30Te2hbRl95Upbrx52Ldr91Iqnu7vqXeEVOBR3ZrukdkRnlpzcOkbHbt"
+      },
+      "products": [
+        {
+          "_id": "695451221c508c5d5e582bba",
+          "name": "Chips73531",
+          "amount": 973,
+          "price": 51319,
+          "manufacturer": "Microsoft",
+          "notes": "Eh3LFjXh8YyaJXgplauC1P4uiYUa8ZfI7NMkAbkqhkoKRBsv94zmjpMm9MxeyV5reG3g2IlhwpaPrH7cs5R8hPBK4yLaxlD11hi1OycUtMSYN8FCbEYMpyU3HpSBrMFpdTZz1OOYLfOjc4RFlIyoWMhwFk2G5dpAdyyKphnXnFvfDZ7VbgNWQu2guQeb19BhzsOkeXge9hipm20rWI1RbiluTHi4banDr51XKz1Mp0nGlQTscVhXIlzUwR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 51319,
+      "createdOn": "2025-12-30T22:24:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695451211c508c5d5e582b87",
+          "products": [
+            {
+              "_id": "695451221c508c5d5e582bba",
+              "name": "Chips73531",
+              "amount": 973,
+              "price": 51319,
+              "manufacturer": "Microsoft",
+              "notes": "Eh3LFjXh8YyaJXgplauC1P4uiYUa8ZfI7NMkAbkqhkoKRBsv94zmjpMm9MxeyV5reG3g2IlhwpaPrH7cs5R8hPBK4yLaxlD11hi1OycUtMSYN8FCbEYMpyU3HpSBrMFpdTZz1OOYLfOjc4RFlIyoWMhwFk2G5dpAdyyKphnXnFvfDZ7VbgNWQu2guQeb19BhzsOkeXge9hipm20rWI1RbiluTHi4banDr51XKz1Mp0nGlQTscVhXIlzUwR",
+              "received": false
+            }
+          ],
+          "total_price": 51319,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695451221c508c5d5e582bd4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

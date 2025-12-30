@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-aLTdqLV2GyF69P9VNpDd+ziDnaI\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695451201c508c5d5e582b6e",
+        "email": "Emmie84@gmail.com",
+        "name": "Nolan Veum",
+        "country": "Great Britain",
+        "city": "North Sophie",
+        "street": "Mount Street",
+        "house": 15,
+        "flat": 779,
+        "phone": "+17888903095",
+        "createdOn": "2025-12-30T22:24:32.000Z",
+        "notes": "RMknmpwxgVJdeBb6MHwErVU6HgvmLLTFFyk78b5NhpnFCiGu7wHBLB67gWUOr0z2mfHFWiG3GSAELX8PBEUpfraCIwRHezyZyDlZS6MT1UWs7FgmRepToxNxHWovcrjs9ylxz8auSa3iY0b5Anq3ZvErTaSg19JQvGx3f1xbrPhw0xNvph10lboINYgLmIdldstDgELDkfuA2XxvSX1a75GtMaeUPhfxRt4SdHX5HWAibBYOjkpDO5qt3M"
+      },
+      "products": [
+        {
+          "_id": "695451211c508c5d5e582b8b",
+          "name": "Chicken42498",
+          "amount": 76,
+          "price": 10864,
+          "manufacturer": "Microsoft",
+          "notes": "kp7OIQPUpS2MVH0LwKkJDJLhbBU7VanxTuIJl0VnVMRM5Lk1PAXeCO9WfMY1BjvyvyKbbpwx4UK8y55ouTUDD2UcLjv3ZIDVhIFFVzCtmQEZMsC1TP4etJy2ltDyDAurbwXjtiCYSIhQBdEhLsIj1SokCh8mpAAJuIf1U3PrONkQhvpiBfT6L5lDLKbHmHy3UYCa2PFnR7xlZKhwFvY5pAoSem7svnQioZntnXTiU9exPsZD50TSmY0ip8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10864,
+      "createdOn": "2025-12-30T22:24:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695451201c508c5d5e582b6e",
+          "products": [
+            {
+              "_id": "695451211c508c5d5e582b8b",
+              "name": "Chicken42498",
+              "amount": 76,
+              "price": 10864,
+              "manufacturer": "Microsoft",
+              "notes": "kp7OIQPUpS2MVH0LwKkJDJLhbBU7VanxTuIJl0VnVMRM5Lk1PAXeCO9WfMY1BjvyvyKbbpwx4UK8y55ouTUDD2UcLjv3ZIDVhIFFVzCtmQEZMsC1TP4etJy2ltDyDAurbwXjtiCYSIhQBdEhLsIj1SokCh8mpAAJuIf1U3PrONkQhvpiBfT6L5lDLKbHmHy3UYCa2PFnR7xlZKhwFvY5pAoSem7svnQioZntnXTiU9exPsZD50TSmY0ip8",
+              "received": false
+            }
+          ],
+          "total_price": 10864,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695451211c508c5d5e582ba0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:24:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3879",
+    "etag": "W/\"f27-P/gRHzUZUhxHXzIwYRQiARVBKhQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695451301c508c5d5e583107",
+      "status": "Draft",
+      "customer": {
+        "_id": "6954512f1c508c5d5e583009",
+        "email": "Tianna.Denesik@gmail.com",
+        "name": "Zane Cassin",
+        "country": "Great Britain",
+        "city": "Clifton",
+        "street": "Cromwell Road",
+        "house": 18,
+        "flat": 693,
+        "phone": "+16179683353",
+        "createdOn": "2025-12-30T22:24:47.000Z",
+        "notes": "mI76Ag8ls3vDZpSnQftSsrxmKk268CBlrZHWuNyW8fLZlmLWeY5IVp6daBgnIhp1BygmeUL3YSQBjhBm1Us6YPQxPTSRK2FhdvbAXB3Q9wAsNKAhKe1fkprDkWtZuAWeEm27I3QpYVliVaPSZJlLEM90mtT3E8DsSzF2i3YMOQ9dhmUTNcZLUW7OS8i4tnt9khyo42F1hGvXwsnA00XIwJrKvsagMtdxfKEbvQPCIjQuAZ0rzQIMyuhEfX"
+      },
+      "products": [
+        {
+          "_id": "695451301c508c5d5e5830e8",
+          "name": "Pants73731",
+          "amount": 955,
+          "price": 98532,
+          "manufacturer": "Microsoft",
+          "notes": "6MtKszhIIgb6JkGcw4wbvto65p0gpCXOCiZK5J2gp8kzw1WrOCKO8f6h9AEtRuAAz55Uka6pu9uK45TipwEUwXCXFpgpg93vekX3fqDRAQmDIbstSBQkZYwD9KbIfllH6gAfyKYNgEoQslKhFWxD8skp8lAZkn9hJzonkrhyPjJRwLk4lD54L4TKlTmTIxQeN35AukEIRLmanOOOHZDcE40xk4mnnaMzzlSF4gcRGt349G6n2U8SZ6CtIu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98532,
+      "createdOn": "2025-12-30T22:24:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954512f1c508c5d5e583009",
+          "products": [
+            {
+              "_id": "695451301c508c5d5e5830e8",
+              "name": "Pants73731",
+              "amount": 955,
+              "price": 98532,
+              "manufacturer": "Microsoft",
+              "notes": "6MtKszhIIgb6JkGcw4wbvto65p0gpCXOCiZK5J2gp8kzw1WrOCKO8f6h9AEtRuAAz55Uka6pu9uK45TipwEUwXCXFpgpg93vekX3fqDRAQmDIbstSBQkZYwD9KbIfllH6gAfyKYNgEoQslKhFWxD8skp8lAZkn9hJzonkrhyPjJRwLk4lD54L4TKlTmTIxQeN35AukEIRLmanOOOHZDcE40xk4mnnaMzzlSF4gcRGt349G6n2U8SZ6CtIu",
+              "received": false
+            }
+          ],
+          "total_price": 98532,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:49.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6954512f1c508c5d5e583009",
+          "products": [
+            {
+              "_id": "695451301c508c5d5e5830e8",
+              "name": "Pants73731",
+              "amount": 955,
+              "price": 98532,
+              "manufacturer": "Microsoft",
+              "notes": "6MtKszhIIgb6JkGcw4wbvto65p0gpCXOCiZK5J2gp8kzw1WrOCKO8f6h9AEtRuAAz55Uka6pu9uK45TipwEUwXCXFpgpg93vekX3fqDRAQmDIbstSBQkZYwD9KbIfllH6gAfyKYNgEoQslKhFWxD8skp8lAZkn9hJzonkrhyPjJRwLk4lD54L4TKlTmTIxQeN35AukEIRLmanOOOHZDcE40xk4mnnaMzzlSF4gcRGt349G6n2U8SZ6CtIu",
+              "received": false
+            }
+          ],
+          "total_price": 98532,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:49.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6954512f1c508c5d5e583009",
+          "products": [
+            {
+              "_id": "695451301c508c5d5e5830e8",
+              "name": "Pants73731",
+              "amount": 955,
+              "price": 98532,
+              "manufacturer": "Microsoft",
+              "notes": "6MtKszhIIgb6JkGcw4wbvto65p0gpCXOCiZK5J2gp8kzw1WrOCKO8f6h9AEtRuAAz55Uka6pu9uK45TipwEUwXCXFpgpg93vekX3fqDRAQmDIbstSBQkZYwD9KbIfllH6gAfyKYNgEoQslKhFWxD8skp8lAZkn9hJzonkrhyPjJRwLk4lD54L4TKlTmTIxQeN35AukEIRLmanOOOHZDcE40xk4mnnaMzzlSF4gcRGt349G6n2U8SZ6CtIu",
+              "received": false
+            }
+          ],
+          "total_price": 98532,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:24:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
