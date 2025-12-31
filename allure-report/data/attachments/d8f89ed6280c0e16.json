@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:26:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1870",
+    "etag": "W/\"74e-+pT4i8L/MxnZ6xOJVg+PEAYxK5A\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a32a1c508c5d5e60ec36",
+        "email": "Modesto.Lehner@gmail.com",
+        "name": "Bryon Stark",
+        "country": "USA",
+        "city": "Lake Ryleetown",
+        "street": "Rice Inlet",
+        "house": 47,
+        "flat": 61,
+        "phone": "+18673945414",
+        "createdOn": "2025-12-31T22:26:50.000Z",
+        "notes": "7mmX1Uym99hm3UCHgTlFBik7i2pQE4GgnB6FcRnx85qRRxm1PoGe9NFeVCnYiecPFuyFkOno9M1w9uEPUy69Zi4JWGA9QwFpNRH7Rt3fKsoO5u1A2imT5d99tfqFnL13meLstt3ATf61hMeJmOqt5Yt62KbTPM7y3JEzuAH6aRmDzVRkJRAInPbyR7DPIei748fnSnPkJLDkFPQCKy5YSOiKdsly1CpbxHKCuREigVhPiydQf6hJ61jqxS"
+      },
+      "products": [
+        {
+          "_id": "6955a32c1c508c5d5e60edf5",
+          "name": "Soap86953",
+          "amount": 918,
+          "price": 8522,
+          "manufacturer": "Tesla",
+          "notes": "PCIXtoDD2ralfg39FdiS460FiUY011vUFgjmOpyOCUWFwM1MdrAYzY4fsv0N8kVkUiu1zoSLAfowkp6KBbqnlOUchYtAzeEoLwgYp25yvgEyxNqwsB42WXOTZoIeNl4j4xoljIHCIQcCWOOu9ZIFbXUbEU3tTTXYWcFeDmPcA2JXxcC2eQ5zdvUPoNooXrvOlm9EjtShx3j5RDfdKxBaAzMflpezfA31YBftqDiWaWJqwrorzTPOIjmCAn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8522,
+      "createdOn": "2025-12-31T22:26:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a32a1c508c5d5e60ec36",
+          "products": [
+            {
+              "_id": "6955a32c1c508c5d5e60edf5",
+              "name": "Soap86953",
+              "amount": 918,
+              "price": 8522,
+              "manufacturer": "Tesla",
+              "notes": "PCIXtoDD2ralfg39FdiS460FiUY011vUFgjmOpyOCUWFwM1MdrAYzY4fsv0N8kVkUiu1zoSLAfowkp6KBbqnlOUchYtAzeEoLwgYp25yvgEyxNqwsB42WXOTZoIeNl4j4xoljIHCIQcCWOOu9ZIFbXUbEU3tTTXYWcFeDmPcA2JXxcC2eQ5zdvUPoNooXrvOlm9EjtShx3j5RDfdKxBaAzMflpezfA31YBftqDiWaWJqwrorzTPOIjmCAn",
+              "received": false
+            }
+          ],
+          "total_price": 8522,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:26:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a32e1c508c5d5e60ee1e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

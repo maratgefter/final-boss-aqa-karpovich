@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:27:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3908",
+    "etag": "W/\"f44-cALWdGRJPZT4Ek/0ZcpiUWXetZM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a3671c508c5d5e610ebe",
+      "status": "In Process",
+      "customer": {
+        "_id": "6955a3601c508c5d5e610947",
+        "email": "Manley81@yahoo.com",
+        "name": "Theresa Fay",
+        "country": "Russia",
+        "city": "West Nickolaston",
+        "street": "Claud Knoll",
+        "house": 39,
+        "flat": 653,
+        "phone": "+19079032117",
+        "createdOn": "2025-12-31T22:27:44.000Z",
+        "notes": "EQoLVgO2jRICbfwTsGuWzGQT65N2MlhhtoUGT2eearckmiF9I6AG8cIccVefG1LzabouNg5mPYZhpjfuqgX7trkICczpKWhmUK3kDc5jg77hD15LrUPdKWxWaRtijHgoGBZz6scolnBrtMakyT3fNuNWfrDrJHLu9ks2RtMfKGTQDDY0wow8w4wBlRceiKGOCJs3mDlQbGfKVpltqilh0oZkVnjVbFJWPC76DFMA9HAexsGlAwVPapWLNs"
+      },
+      "products": [
+        {
+          "_id": "6955a3631c508c5d5e610e87",
+          "name": "Computer99332",
+          "amount": 365,
+          "price": 30672,
+          "manufacturer": "Microsoft",
+          "notes": "rm6C2jBzHfBfFYi4DSjaClpTyYx2Co8R2RwUNPqmrtoqLWBwV7KuhAcF1bsgmLq0iSvJj6xqWFDjjkCkLLLo5gwuazdqwXoIbe7eABUrbDY2QPevKHAxJeeTwpyuJBqTAzi3szKl4KAX4O6wuv66bQjH1BKUDZLDS3asFjNw8U0qpK6RcPZksUWAJyG7AMer5cCM4Ccv1CQmMcbDQnOo7NPQ6gDQXKk8ntYMmiFTSdMLVt0zdtXivs37yX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Nickolaston",
+          "street": "Claud Knoll",
+          "house": 39,
+          "flat": 653
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30672,
+      "createdOn": "2025-12-31T22:27:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6955a3601c508c5d5e610947",
+          "products": [
+            {
+              "_id": "6955a3631c508c5d5e610e87",
+              "name": "Computer99332",
+              "amount": 365,
+              "price": 30672,
+              "manufacturer": "Microsoft",
+              "notes": "rm6C2jBzHfBfFYi4DSjaClpTyYx2Co8R2RwUNPqmrtoqLWBwV7KuhAcF1bsgmLq0iSvJj6xqWFDjjkCkLLLo5gwuazdqwXoIbe7eABUrbDY2QPevKHAxJeeTwpyuJBqTAzi3szKl4KAX4O6wuv66bQjH1BKUDZLDS3asFjNw8U0qpK6RcPZksUWAJyG7AMer5cCM4Ccv1CQmMcbDQnOo7NPQ6gDQXKk8ntYMmiFTSdMLVt0zdtXivs37yX",
+              "received": false
+            }
+          ],
+          "total_price": 30672,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Nickolaston",
+              "street": "Claud Knoll",
+              "house": 39,
+              "flat": 653
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T22:27:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a3601c508c5d5e610947",
+          "products": [
+            {
+              "_id": "6955a3631c508c5d5e610e87",
+              "name": "Computer99332",
+              "amount": 365,
+              "price": 30672,
+              "manufacturer": "Microsoft",
+              "notes": "rm6C2jBzHfBfFYi4DSjaClpTyYx2Co8R2RwUNPqmrtoqLWBwV7KuhAcF1bsgmLq0iSvJj6xqWFDjjkCkLLLo5gwuazdqwXoIbe7eABUrbDY2QPevKHAxJeeTwpyuJBqTAzi3szKl4KAX4O6wuv66bQjH1BKUDZLDS3asFjNw8U0qpK6RcPZksUWAJyG7AMer5cCM4Ccv1CQmMcbDQnOo7NPQ6gDQXKk8ntYMmiFTSdMLVt0zdtXivs37yX",
+              "received": false
+            }
+          ],
+          "total_price": 30672,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Nickolaston",
+              "street": "Claud Knoll",
+              "house": 39,
+              "flat": 653
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T22:27:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a3601c508c5d5e610947",
+          "products": [
+            {
+              "_id": "6955a3631c508c5d5e610e87",
+              "name": "Computer99332",
+              "amount": 365,
+              "price": 30672,
+              "manufacturer": "Microsoft",
+              "notes": "rm6C2jBzHfBfFYi4DSjaClpTyYx2Co8R2RwUNPqmrtoqLWBwV7KuhAcF1bsgmLq0iSvJj6xqWFDjjkCkLLLo5gwuazdqwXoIbe7eABUrbDY2QPevKHAxJeeTwpyuJBqTAzi3szKl4KAX4O6wuv66bQjH1BKUDZLDS3asFjNw8U0qpK6RcPZksUWAJyG7AMer5cCM4Ccv1CQmMcbDQnOo7NPQ6gDQXKk8ntYMmiFTSdMLVt0zdtXivs37yX",
+              "received": false
+            }
+          ],
+          "total_price": 30672,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:27:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

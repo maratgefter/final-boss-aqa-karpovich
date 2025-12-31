@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:28:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-tcPj6ayhpCa7Ux44a5RveqSy6W0\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a3741c508c5d5e611691",
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a36a1c508c5d5e610f9b",
+        "email": "Betty78@yahoo.com",
+        "name": "Brannon Koss",
+        "country": "Belarus",
+        "city": "Robertsport",
+        "street": "Tillman Fort",
+        "house": 34,
+        "flat": 407,
+        "phone": "+18169933937",
+        "createdOn": "2025-12-31T22:27:54.000Z",
+        "notes": "SKYnOTGMeqRWuF8tAIdMIuGoBvZ28osZUJq0Kd1ORvOXcDJo2CWqk2yhHslCi6pIhqt3sY7TkfNFxiA09k3HgFunfIMGcpPy6axwFT5F5aDuSWD7ft4WjMgH1JImFmF3aXRcfqEnNPNeAhyYLQHtezdmnfDDh3shhuNxqFiJXdTASoDBGyyDFv2ulJ5dUbAvGlSVsDf213ehHHXWoQ4myEbifygoSKEt59Nl3cfOzuNwCyUefZedLzk0RJ"
+      },
+      "products": [
+        {
+          "_id": "6955a36d1c508c5d5e6113e1",
+          "name": "Cheese21253",
+          "amount": 690,
+          "price": 76250,
+          "manufacturer": "Tesla",
+          "notes": "zt0bryaB3SLtir3faWXgIKmguB7NDxJHQh3CPHQl1c4cSOTg4CDFok0Od2Q9c6NfJ6tHJEoZoWOJkZB2L8RGT3ITx7J5b7M490Ij7ajKUYduQLJE35M2rHEgu6pS35HhIGaT3lYTZKPA33IJCmwWgMPQM6YNDbMiTuKhUkXdkmZlTiAd2jj6TSwDbPwTo8wv0EzXIUbXlG7HuFxSLnTszYPbXuYPsNnJxi9QaJKAEDumgPFwofvavjN8pL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Robertsport",
+          "street": "Tillman Fort",
+          "house": 34,
+          "flat": 407
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 76250,
+      "createdOn": "2025-12-31T22:28:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a36a1c508c5d5e610f9b",
+          "products": [
+            {
+              "_id": "6955a36d1c508c5d5e6113e1",
+              "name": "Cheese21253",
+              "amount": 690,
+              "price": 76250,
+              "manufacturer": "Tesla",
+              "notes": "zt0bryaB3SLtir3faWXgIKmguB7NDxJHQh3CPHQl1c4cSOTg4CDFok0Od2Q9c6NfJ6tHJEoZoWOJkZB2L8RGT3ITx7J5b7M490Ij7ajKUYduQLJE35M2rHEgu6pS35HhIGaT3lYTZKPA33IJCmwWgMPQM6YNDbMiTuKhUkXdkmZlTiAd2jj6TSwDbPwTo8wv0EzXIUbXlG7HuFxSLnTszYPbXuYPsNnJxi9QaJKAEDumgPFwofvavjN8pL",
+              "received": false
+            }
+          ],
+          "total_price": 76250,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Robertsport",
+              "street": "Tillman Fort",
+              "house": 34,
+              "flat": 407
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T22:28:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a36a1c508c5d5e610f9b",
+          "products": [
+            {
+              "_id": "6955a36d1c508c5d5e6113e1",
+              "name": "Cheese21253",
+              "amount": 690,
+              "price": 76250,
+              "manufacturer": "Tesla",
+              "notes": "zt0bryaB3SLtir3faWXgIKmguB7NDxJHQh3CPHQl1c4cSOTg4CDFok0Od2Q9c6NfJ6tHJEoZoWOJkZB2L8RGT3ITx7J5b7M490Ij7ajKUYduQLJE35M2rHEgu6pS35HhIGaT3lYTZKPA33IJCmwWgMPQM6YNDbMiTuKhUkXdkmZlTiAd2jj6TSwDbPwTo8wv0EzXIUbXlG7HuFxSLnTszYPbXuYPsNnJxi9QaJKAEDumgPFwofvavjN8pL",
+              "received": false
+            }
+          ],
+          "total_price": 76250,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:28:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

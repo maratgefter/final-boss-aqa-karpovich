@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:28:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2634",
+    "etag": "W/\"a4a-jTs4fXL+brPLQe8UNm4aArMuRsk\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a3851c508c5d5e612028",
+        "email": "Callie.Block@gmail.com",
+        "name": "Elyse Hammes",
+        "country": "USA",
+        "city": "West Carmela",
+        "street": "Salisbury Road",
+        "house": 15,
+        "flat": 228,
+        "phone": "+12995339109",
+        "createdOn": "2025-12-31T22:28:21.000Z",
+        "notes": "5Pt5VAMlayeuCyEdGATKSul1gPQnab7T4urWMQJRp0g2j31loosQOQA5WIZVr0pDxtREMaU3akMVeMxG9Ovr0E9eJfpWPcG8QXSJsDYzU1BEUo5m3c5Xjjvoe4VyJ0bmkKsVBVtrnmFd0MBtc1vY6SrmpTrcSRFcD4q7UAIWxmb202uh8sMDzirLFut8oVdEWLOuMb4Njgtq9lu5ZxDJKJ66NYFee8ng6VA8MLYnJqNRBzKJsqQdjEjKOQ"
+      },
+      "products": [
+        {
+          "_id": "6955a3881c508c5d5e6120c8",
+          "name": "Table6938",
+          "amount": 968,
+          "price": 3488,
+          "manufacturer": "Tesla",
+          "notes": "Txiy9BsaBqGCnKGnU5aFqSPk0IynHcGnAnUuv54MdqqxiWSjGhWuviGJtlfh6LkcTCbkpBAqmvQ65GIMd2qpZLYXkc0YBSc79sy5v0i4s3RKMk58wIaQpIN8YNkhK20nJidvQxyZe7s4auabkNwQp7tEBYBawSx2dZakWQ7XIo9GDWSM9G2CSnshj7717ExIC9f7narWuaGawHVfZwc0r1IeOBzw7qsULPlXfUDFG6Q3jtxE9K39qlMTrm",
+          "received": false
+        },
+        {
+          "_id": "6955a38a1c508c5d5e6121ae",
+          "name": "Shirt58769",
+          "amount": 605,
+          "price": 3493,
+          "manufacturer": "Sony",
+          "notes": "RF53woNlfltTuK9nzWVRKPnLP3nTlTbTQr3eKdqsLdlCH2ApZBTLrabd72NOnnor92iM99ceS63kFIYDMvUh9JFBOAc5HBPo0BsCojD5C1NNg5jliCwF34kot6VH62GnRZL5zoU137PnfA0Ry8d0HmopE5brb1rhOHDKUKziAZ6RIeYjyIK1w61TyIieyQvz8bnGjqOfyPNfVlcDq8pMLJAhWHwZxyvqARMRlK024X93WtPfFbAOf42ZEM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6981,
+      "createdOn": "2025-12-31T22:28:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a3851c508c5d5e612028",
+          "products": [
+            {
+              "_id": "6955a3881c508c5d5e6120c8",
+              "name": "Table6938",
+              "amount": 968,
+              "price": 3488,
+              "manufacturer": "Tesla",
+              "notes": "Txiy9BsaBqGCnKGnU5aFqSPk0IynHcGnAnUuv54MdqqxiWSjGhWuviGJtlfh6LkcTCbkpBAqmvQ65GIMd2qpZLYXkc0YBSc79sy5v0i4s3RKMk58wIaQpIN8YNkhK20nJidvQxyZe7s4auabkNwQp7tEBYBawSx2dZakWQ7XIo9GDWSM9G2CSnshj7717ExIC9f7narWuaGawHVfZwc0r1IeOBzw7qsULPlXfUDFG6Q3jtxE9K39qlMTrm",
+              "received": false
+            },
+            {
+              "_id": "6955a38a1c508c5d5e6121ae",
+              "name": "Shirt58769",
+              "amount": 605,
+              "price": 3493,
+              "manufacturer": "Sony",
+              "notes": "RF53woNlfltTuK9nzWVRKPnLP3nTlTbTQr3eKdqsLdlCH2ApZBTLrabd72NOnnor92iM99ceS63kFIYDMvUh9JFBOAc5HBPo0BsCojD5C1NNg5jliCwF34kot6VH62GnRZL5zoU137PnfA0Ry8d0HmopE5brb1rhOHDKUKziAZ6RIeYjyIK1w61TyIieyQvz8bnGjqOfyPNfVlcDq8pMLJAhWHwZxyvqARMRlK024X93WtPfFbAOf42ZEM",
+              "received": false
+            }
+          ],
+          "total_price": 6981,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:28:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a38b1c508c5d5e6121c6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

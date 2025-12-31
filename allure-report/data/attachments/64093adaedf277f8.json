@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-nJFMO23wp8j8sMM0gYAjdXGTv4Y\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a33c1c508c5d5e60f46d",
+        "email": "Elijah_Rolfson@hotmail.com",
+        "name": "Everardo Bogisich",
+        "country": "Canada",
+        "city": "Annabelland",
+        "street": "Nitzsche View",
+        "house": 24,
+        "flat": 751,
+        "phone": "+12553364226",
+        "createdOn": "2025-12-31T22:27:08.000Z",
+        "notes": "hsgdCxGsupual6zWbGcosSoWU4hEZ9yMKt8oGh6xIWZfEmKgUwP0orfsKfAEEFi738T9wALBhRYiOxe0Eu0azp2puNMMGQ32xYk61kjglgM0gUK1kLY1GJ4FGVA5EKoCOpHaQXWqPfSwoT3MHq5q0V7aoBhSUv02uMPrO5qbqcvmBpyc7qqp8S0Bkx6GrCSeERG3StwEvpqbb14Y4MHSu4gfjgkIEltLUrbtFad0uDroifdmpYxtWCsjWK"
+      },
+      "products": [
+        {
+          "_id": "6955a33e1c508c5d5e60f89d",
+          "name": "Computer54681",
+          "amount": 788,
+          "price": 44777,
+          "manufacturer": "Tesla",
+          "notes": "aIO3oYWUOxgTQvGw4QgBZOIGYUjtCL751PPDd61jlaaej4P4ZaGcQFEMvYkAAUzI6x1NGwgzeucXQgNx7RirNfNXORfoEEVZHcZgDlgK0XejsM0dj048BfHkzcs3fAJ9gZkiXApReMtxiHPlbiY5DMgrilBa9HC9foIFUAH9jI656HmxhIuEIcrgbNUcvJMuvStZVxER5vYPsxUf0Z0SaA7aVovLc8VzBqFs3GsZTzZMB3LfOxL1THmMQP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44777,
+      "createdOn": "2025-12-31T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a33c1c508c5d5e60f46d",
+          "products": [
+            {
+              "_id": "6955a33e1c508c5d5e60f89d",
+              "name": "Computer54681",
+              "amount": 788,
+              "price": 44777,
+              "manufacturer": "Tesla",
+              "notes": "aIO3oYWUOxgTQvGw4QgBZOIGYUjtCL751PPDd61jlaaej4P4ZaGcQFEMvYkAAUzI6x1NGwgzeucXQgNx7RirNfNXORfoEEVZHcZgDlgK0XejsM0dj048BfHkzcs3fAJ9gZkiXApReMtxiHPlbiY5DMgrilBa9HC9foIFUAH9jI656HmxhIuEIcrgbNUcvJMuvStZVxER5vYPsxUf0Z0SaA7aVovLc8VzBqFs3GsZTzZMB3LfOxL1THmMQP",
+              "received": false
+            }
+          ],
+          "total_price": 44777,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3421c508c5d5e60f8ce"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

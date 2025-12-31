@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:26:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-crJcsyB9aE7jeLsDjmQ+kYDSA9o\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a30d1c508c5d5e60dec0",
+        "email": "Annabel_Kuphal@hotmail.com",
+        "name": "Jake Hirthe",
+        "country": "France",
+        "city": "Wilfridhaven",
+        "street": "Geoffrey Plains",
+        "house": 38,
+        "flat": 980,
+        "phone": "+18195809268",
+        "createdOn": "2025-12-31T22:26:21.000Z",
+        "notes": "uuEHDqHW3pKJaXZjZuprNLkmqLZt1W3M28XzXA1oUUpAo5kWyAGLJGwJFh8KvDBpNOMNgIxJzXBVZoTavZOhCMZ7VAk7K4fsIA2Ky5fYEmztgW0pagps1CyeI7aN13PD677uZF7DpuZL5UIJ7BMMUYHzp27VnQNx8pGu1e5C9iXQlbMREPxHdroKAW6digJK7XWaD4njWJvYF83KzxzPkg9p5Nt7oyMpaUTxZhAkd8sxYjs1HiwuX6RFu2"
+      },
+      "products": [
+        {
+          "_id": "6955a3101c508c5d5e60dfd0",
+          "name": "Shoes59093",
+          "amount": 524,
+          "price": 14355,
+          "manufacturer": "Google",
+          "notes": "VooHyR1wu2cWC1x1cJjgkwhSPsj6NR6dO9lsxDm6j4F4G1iDMbGiah7NapBzEatCdsnwLN9zttBcvKKA6UNfFWOMcz9UAeOXENnAe0v3mBrPq2E8vvjd6Vjgry1sVV9hs5BVbsFPdXbBasIVZGaNAM6PKMJnNxLOUrJFL0wI5f3xLmimV8cJe3dwGGJZbguOi7UXZm5MWymcQI67LGSVySgr2dSmzPqmfjs1Wt2ElKpVD7dim0xykp6Q7L",
+          "received": false
+        },
+        {
+          "_id": "6955a3121c508c5d5e60e0c1",
+          "name": "Shirt99965",
+          "amount": 310,
+          "price": 96527,
+          "manufacturer": "Sony",
+          "notes": "fpzMiYF0nvvCaLjNgeHBQxXTDURtPR3hvzBaTB7BajqNcmoeG8LKQHMq40k3Hth1Um3frRm9veEatAC3xfdR0P16Baa1nJo0EBljz2RRcSwYHZ4zmyLtpE3jBwfTUD3xSYL1tsopACnBwH3SfgNk4YPWFaZY3s7qW1jbttFVVjDETXWl2jPladc5Oube5qIeVOWSD28nVqkkca6ZLYupnFTVq9z8P8NOXqnnCPOST3XuXusBNb5ueilAwp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110882,
+      "createdOn": "2025-12-31T22:26:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a30d1c508c5d5e60dec0",
+          "products": [
+            {
+              "_id": "6955a3101c508c5d5e60dfd0",
+              "name": "Shoes59093",
+              "amount": 524,
+              "price": 14355,
+              "manufacturer": "Google",
+              "notes": "VooHyR1wu2cWC1x1cJjgkwhSPsj6NR6dO9lsxDm6j4F4G1iDMbGiah7NapBzEatCdsnwLN9zttBcvKKA6UNfFWOMcz9UAeOXENnAe0v3mBrPq2E8vvjd6Vjgry1sVV9hs5BVbsFPdXbBasIVZGaNAM6PKMJnNxLOUrJFL0wI5f3xLmimV8cJe3dwGGJZbguOi7UXZm5MWymcQI67LGSVySgr2dSmzPqmfjs1Wt2ElKpVD7dim0xykp6Q7L",
+              "received": false
+            },
+            {
+              "_id": "6955a3121c508c5d5e60e0c1",
+              "name": "Shirt99965",
+              "amount": 310,
+              "price": 96527,
+              "manufacturer": "Sony",
+              "notes": "fpzMiYF0nvvCaLjNgeHBQxXTDURtPR3hvzBaTB7BajqNcmoeG8LKQHMq40k3Hth1Um3frRm9veEatAC3xfdR0P16Baa1nJo0EBljz2RRcSwYHZ4zmyLtpE3jBwfTUD3xSYL1tsopACnBwH3SfgNk4YPWFaZY3s7qW1jbttFVVjDETXWl2jPladc5Oube5qIeVOWSD28nVqkkca6ZLYupnFTVq9z8P8NOXqnnCPOST3XuXusBNb5ueilAwp",
+              "received": false
+            }
+          ],
+          "total_price": 110882,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:26:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3121c508c5d5e60e0e2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

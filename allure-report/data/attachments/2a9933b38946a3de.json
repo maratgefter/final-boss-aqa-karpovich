@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:30:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4086",
+    "etag": "W/\"ff6-tsk27ixycHvhrA9x2WRMxMpvuXg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a4061c508c5d5e616534",
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a3ff1c508c5d5e61623a",
+        "email": "Juanita96@yahoo.com",
+        "name": "Gladyce Keeling",
+        "country": "France",
+        "city": "Port Koreystead",
+        "street": "Amalia Pass",
+        "house": 5,
+        "flat": 241,
+        "phone": "+13599365377",
+        "createdOn": "2025-12-31T22:30:23.000Z",
+        "notes": "dPITSSliyNrfgJerYH20vTl6yUjwNjQYgbagpp252VUBBQdqIWufDh5JrqvyJk1oeEpG28MIoYUYlLpATV8es4L2s4WpnNsh3OShjT8YTdJnxRngiXAiZzK2zA2MF9ZiBeKXsrChAeXwyWGCnsw9Ky7eEnkMeTwxms0fSzbwuVHiFpFfXrRY0jswqQ2PXaRYtaJk8ClgqXv1evLljPG4s7VustGIpuQ47mMsnlmuySyTokFGGglhA0Er1o"
+      },
+      "products": [
+        {
+          "_id": "6955a4021c508c5d5e6163a5",
+          "name": "Car2043",
+          "amount": 329,
+          "price": 708,
+          "manufacturer": "Google",
+          "notes": "kX14FerxMNYTaYOBFCH36vH5kwXboV5WrKAVrULf9oPBE7T7AMH2yTsFriPsOALl6L8VbfNgv6daDBrWKCXBqjoE0HIgyFRzRXTTbYr4FJ30DlIDWlMG08GkHTAyRJnH0Q9R4Lu6kPha0ZQH5nUAVCRLJQXOxizJRJr058PIILGZWCBn3FsjuQBcorabYSIHA9EA19ZXvA9OBwWyFzPDCYmnzp4ticCwyxrTJbKDjpxGnkI9OwPLrc2X6i",
+          "received": false
+        },
+        {
+          "_id": "6955a4061c508c5d5e616514",
+          "name": "Hat65154",
+          "amount": 157,
+          "price": 13337,
+          "manufacturer": "Samsung",
+          "notes": "qxqg1LPkgOUTxO04JWNpQsf2QiC7LEtmApoeLT9VGNkjI2Or2uJEa52S5VDT2htNxz5B7HBZjD2bjxD4MOSyajjEGvT69zba6DKAqSkqfaPZlUMjfZqytCNKCq4dvZRHXzhX23rB4oo6fQ0tZOGqiaGSvGoBGIyHuDzzEfQtGYTw99B3mH8JufdmcNBIFYOKaG8GH08ZtkdKgMUSwIIikxV90j6lhHFQcSj65Z6LcCZRicVo708jcEDvrV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Koreystead",
+          "street": "Amalia Pass",
+          "house": 5,
+          "flat": 241
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 14045,
+      "createdOn": "2025-12-31T22:30:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a3ff1c508c5d5e61623a",
+          "products": [
+            {
+              "_id": "6955a4021c508c5d5e6163a5",
+              "name": "Car2043",
+              "amount": 329,
+              "price": 708,
+              "manufacturer": "Google",
+              "notes": "kX14FerxMNYTaYOBFCH36vH5kwXboV5WrKAVrULf9oPBE7T7AMH2yTsFriPsOALl6L8VbfNgv6daDBrWKCXBqjoE0HIgyFRzRXTTbYr4FJ30DlIDWlMG08GkHTAyRJnH0Q9R4Lu6kPha0ZQH5nUAVCRLJQXOxizJRJr058PIILGZWCBn3FsjuQBcorabYSIHA9EA19ZXvA9OBwWyFzPDCYmnzp4ticCwyxrTJbKDjpxGnkI9OwPLrc2X6i",
+              "received": false
+            },
+            {
+              "_id": "6955a4061c508c5d5e616514",
+              "name": "Hat65154",
+              "amount": 157,
+              "price": 13337,
+              "manufacturer": "Samsung",
+              "notes": "qxqg1LPkgOUTxO04JWNpQsf2QiC7LEtmApoeLT9VGNkjI2Or2uJEa52S5VDT2htNxz5B7HBZjD2bjxD4MOSyajjEGvT69zba6DKAqSkqfaPZlUMjfZqytCNKCq4dvZRHXzhX23rB4oo6fQ0tZOGqiaGSvGoBGIyHuDzzEfQtGYTw99B3mH8JufdmcNBIFYOKaG8GH08ZtkdKgMUSwIIikxV90j6lhHFQcSj65Z6LcCZRicVo708jcEDvrV",
+              "received": false
+            }
+          ],
+          "total_price": 14045,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Koreystead",
+              "street": "Amalia Pass",
+              "house": 5,
+              "flat": 241
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T22:30:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a3ff1c508c5d5e61623a",
+          "products": [
+            {
+              "_id": "6955a4021c508c5d5e6163a5",
+              "name": "Car2043",
+              "amount": 329,
+              "price": 708,
+              "manufacturer": "Google",
+              "notes": "kX14FerxMNYTaYOBFCH36vH5kwXboV5WrKAVrULf9oPBE7T7AMH2yTsFriPsOALl6L8VbfNgv6daDBrWKCXBqjoE0HIgyFRzRXTTbYr4FJ30DlIDWlMG08GkHTAyRJnH0Q9R4Lu6kPha0ZQH5nUAVCRLJQXOxizJRJr058PIILGZWCBn3FsjuQBcorabYSIHA9EA19ZXvA9OBwWyFzPDCYmnzp4ticCwyxrTJbKDjpxGnkI9OwPLrc2X6i",
+              "received": false
+            },
+            {
+              "_id": "6955a4061c508c5d5e616514",
+              "name": "Hat65154",
+              "amount": 157,
+              "price": 13337,
+              "manufacturer": "Samsung",
+              "notes": "qxqg1LPkgOUTxO04JWNpQsf2QiC7LEtmApoeLT9VGNkjI2Or2uJEa52S5VDT2htNxz5B7HBZjD2bjxD4MOSyajjEGvT69zba6DKAqSkqfaPZlUMjfZqytCNKCq4dvZRHXzhX23rB4oo6fQ0tZOGqiaGSvGoBGIyHuDzzEfQtGYTw99B3mH8JufdmcNBIFYOKaG8GH08ZtkdKgMUSwIIikxV90j6lhHFQcSj65Z6LcCZRicVo708jcEDvrV",
+              "received": false
+            }
+          ],
+          "total_price": 14045,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:30:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

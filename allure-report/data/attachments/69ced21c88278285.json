@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:28:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-vl5eIsGH99JcZWhboyYRoVKOn1s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a3881c508c5d5e6120e3",
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a3851c508c5d5e61202a",
+        "email": "Deborah91@hotmail.com",
+        "name": "Katharina Kovacek",
+        "country": "Belarus",
+        "city": "Reichertview",
+        "street": "Oxford Road",
+        "house": 31,
+        "flat": 655,
+        "phone": "+13943146240",
+        "createdOn": "2025-12-31T22:28:21.000Z",
+        "notes": "memZSZQi0VOVOmhvXucvxkfsSa6l9nRn19SDY7no5P4vnTRyTexuv3MUwRDA9yS4yJfTTyD6PWmZ1QEMFxEaCtGVbzGLnVqQZhXmOK3g8UwdM3H2ZX4zCegajqjjYi51HCpzvY5V7oDkGNrzITkbOM7yfNTNXgNJrFROJNky7WzFM0GlKSbwMW56dR892AnrQ54PitTR6mJzqTJGF5xTt7EMjQcDG57hZq4yc0SaMTsYVwQeeitwz46ztb"
+      },
+      "products": [
+        {
+          "_id": "6955a3881c508c5d5e6120ca",
+          "name": "Soap46113",
+          "amount": 255,
+          "price": 87561,
+          "manufacturer": "Amazon",
+          "notes": "BMF8Jor7J67eEZ7zSwkUW1AqRXthAYtS2gMOslkDfaPxXTZVZyQQIBxIr4WVSzwtJOEefZdBNAWSELoyP8en9DxCbKRzeZ7O6qkTkOy8XoYLa6NiGD9612Kw0oGee8LP4wMX9yxmBitcsTfLWpMyzlOqZtWyMKm5KCHDHrdDatstzERb8xTPsTN9JFvI1XprHibpNiw0cFr1xyrpRy5JhsI0LuNEOLBhMWaKOnoB02FIJt1TGZSZhAdOY8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Reichertview",
+          "street": "Oxford Road",
+          "house": 31,
+          "flat": 655
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 87561,
+      "createdOn": "2025-12-31T22:28:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a3851c508c5d5e61202a",
+          "products": [
+            {
+              "_id": "6955a3881c508c5d5e6120ca",
+              "name": "Soap46113",
+              "amount": 255,
+              "price": 87561,
+              "manufacturer": "Amazon",
+              "notes": "BMF8Jor7J67eEZ7zSwkUW1AqRXthAYtS2gMOslkDfaPxXTZVZyQQIBxIr4WVSzwtJOEefZdBNAWSELoyP8en9DxCbKRzeZ7O6qkTkOy8XoYLa6NiGD9612Kw0oGee8LP4wMX9yxmBitcsTfLWpMyzlOqZtWyMKm5KCHDHrdDatstzERb8xTPsTN9JFvI1XprHibpNiw0cFr1xyrpRy5JhsI0LuNEOLBhMWaKOnoB02FIJt1TGZSZhAdOY8",
+              "received": false
+            }
+          ],
+          "total_price": 87561,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Reichertview",
+              "street": "Oxford Road",
+              "house": 31,
+              "flat": 655
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T22:28:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a3851c508c5d5e61202a",
+          "products": [
+            {
+              "_id": "6955a3881c508c5d5e6120ca",
+              "name": "Soap46113",
+              "amount": 255,
+              "price": 87561,
+              "manufacturer": "Amazon",
+              "notes": "BMF8Jor7J67eEZ7zSwkUW1AqRXthAYtS2gMOslkDfaPxXTZVZyQQIBxIr4WVSzwtJOEefZdBNAWSELoyP8en9DxCbKRzeZ7O6qkTkOy8XoYLa6NiGD9612Kw0oGee8LP4wMX9yxmBitcsTfLWpMyzlOqZtWyMKm5KCHDHrdDatstzERb8xTPsTN9JFvI1XprHibpNiw0cFr1xyrpRy5JhsI0LuNEOLBhMWaKOnoB02FIJt1TGZSZhAdOY8",
+              "received": false
+            }
+          ],
+          "total_price": 87561,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:28:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

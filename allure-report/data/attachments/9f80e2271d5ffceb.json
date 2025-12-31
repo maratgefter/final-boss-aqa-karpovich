@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:27:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-8xdueIJo4qjMl8PrjyEjAN4DdQw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a3491c508c5d5e60fe02",
+        "email": "Abraham55@yahoo.com",
+        "name": "Lora Rice",
+        "country": "France",
+        "city": "La Crosse",
+        "street": "Russel Falls",
+        "house": 40,
+        "flat": 64,
+        "phone": "+18758038172",
+        "createdOn": "2025-12-31T22:27:21.000Z",
+        "notes": "Cuu2V2yFAzRg1NVslQxruzqMqPsyuJ1rMrrcLvDDHWRXHsZcTllG7jOaBhba1GoxlFuk5vD8r5DVFLUeEzcI41b4hhTKjbuH9E2iAwWPcvJMzzC8N3M0nrxaHaM7DAdd0eL6mJ9M777CP33n05VqfgvLQDFCC0sfBYSEsZT0SsJiudqUYuXYtVRioW8qQeX4veXb9RgIgIhhGTFDfASVp5UlueIxAhnvPjKcMU05s6hqGRLgHExtyVAswQ"
+      },
+      "products": [
+        {
+          "_id": "6955a3511c508c5d5e61000b",
+          "name": "Chicken40090",
+          "amount": 373,
+          "price": 13575,
+          "manufacturer": "Amazon",
+          "notes": "tw6D1n3D4zJqlxzoe8gulSkrh5FPFrHfiOUeXmUDXJ2ZhYiLgfqekwVACNv9MnNkuelos1TCDybRlVgT7SCczozII3els9PdAeifeSQ0WLQOb44WlHDtrm2e1dzyzg1JiZWaPQoYQyKEZDbbJ9PxsClDK2YtSj78ZadDbeYxSfLIFdfJykAZa23YDpdgk8PkJzKXZbnikef1ygWoab0rXdWE8pKsoB16HY7p9kno5CQMz6LuoD9yoxAYYn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13575,
+      "createdOn": "2025-12-31T22:27:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a3491c508c5d5e60fe02",
+          "products": [
+            {
+              "_id": "6955a3511c508c5d5e61000b",
+              "name": "Chicken40090",
+              "amount": 373,
+              "price": 13575,
+              "manufacturer": "Amazon",
+              "notes": "tw6D1n3D4zJqlxzoe8gulSkrh5FPFrHfiOUeXmUDXJ2ZhYiLgfqekwVACNv9MnNkuelos1TCDybRlVgT7SCczozII3els9PdAeifeSQ0WLQOb44WlHDtrm2e1dzyzg1JiZWaPQoYQyKEZDbbJ9PxsClDK2YtSj78ZadDbeYxSfLIFdfJykAZa23YDpdgk8PkJzKXZbnikef1ygWoab0rXdWE8pKsoB16HY7p9kno5CQMz6LuoD9yoxAYYn",
+              "received": false
+            }
+          ],
+          "total_price": 13575,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:27:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3511c508c5d5e61002b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-IMf9zm/imINTvZz7QwBhfX1sI8Q\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a33c1c508c5d5e60f46f",
+        "email": "Valentin_McClure@gmail.com",
+        "name": "Terence Schiller",
+        "country": "Ukraine",
+        "city": "Homenickfort",
+        "street": "Collier Mills",
+        "house": 44,
+        "flat": 238,
+        "phone": "+18485865779",
+        "createdOn": "2025-12-31T22:27:08.000Z",
+        "notes": "haZtg4xPk2HKtR70fSNKHgodwuJKiCGKPgpuiJHDS75gIVDnPrBLBJ21O310hdFdTRvFjaJDEJgG2aGDwSUa22veQt4wnZloMBidgiwLNV54UQG1XX0qECKOzmnqXCfmLDLYxPdeUzaCEKdcepMvpO6ofCnvwN5DtM4mCutQsPQZRRgjxnOqi8zmVlomT6217nJKah8xcZIbWAFKYNfGJicwfniO8tmlzhcN7enBLc9DspoEO61rtTRzEi"
+      },
+      "products": [
+        {
+          "_id": "6955a33e1c508c5d5e60f89b",
+          "name": "Towels17168",
+          "amount": 789,
+          "price": 44691,
+          "manufacturer": "Sony",
+          "notes": "jSHE6fhcQorVGNrLQ4cOZ5JboKwLIpeB5Q68Niz0ak1J1mzP1vSWmsXfa38ojyDmwlb9gpmp5eWgnbNJnuWpH7oXKARXblDRBwGyHdYuIkqZUGAqNq3UYXfCpOwKkdADoOLlQE1pTvXXRDZVhPiR4jIwxzdSoB7byPfipMc8Ktlx5Yfb7c59ebbjCPIYLLWQSF53vQiAA8cwRct53Pyw4QfM3pPJpGcsJFs3CqxP754eGlve9dJc6ezRLI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44691,
+      "createdOn": "2025-12-31T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a33c1c508c5d5e60f46f",
+          "products": [
+            {
+              "_id": "6955a33e1c508c5d5e60f89b",
+              "name": "Towels17168",
+              "amount": 789,
+              "price": 44691,
+              "manufacturer": "Sony",
+              "notes": "jSHE6fhcQorVGNrLQ4cOZ5JboKwLIpeB5Q68Niz0ak1J1mzP1vSWmsXfa38ojyDmwlb9gpmp5eWgnbNJnuWpH7oXKARXblDRBwGyHdYuIkqZUGAqNq3UYXfCpOwKkdADoOLlQE1pTvXXRDZVhPiR4jIwxzdSoB7byPfipMc8Ktlx5Yfb7c59ebbjCPIYLLWQSF53vQiAA8cwRct53Pyw4QfM3pPJpGcsJFs3CqxP754eGlve9dJc6ezRLI",
+              "received": false
+            }
+          ],
+          "total_price": 44691,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3421c508c5d5e60f8d1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

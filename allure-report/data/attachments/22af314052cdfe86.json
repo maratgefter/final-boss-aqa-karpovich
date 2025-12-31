@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:27:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-kdSpOtSQmzogHTgUWzggtvVHAXw\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a3421c508c5d5e60f8b7",
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a33b1c508c5d5e60f426",
+        "email": "Israel.Cronin29@yahoo.com",
+        "name": "Oma Goodwin",
+        "country": "Ukraine",
+        "city": "Hintzfort",
+        "street": "Haley Courts",
+        "house": 41,
+        "flat": 131,
+        "phone": "+16802880634",
+        "createdOn": "2025-12-31T22:27:07.000Z",
+        "notes": "7BLoW8jVB8TVisr95XSsc6PnlillaQRV5dt7VRyRjrROQJATERf5yFDXompA0FKyEMRTkHLYvyHgVzBk3m3VwcJljlP3S64RcjRYSmQ5VybMJyF65xsq3aQ7xW1VJJ2JYgbwdfKuzl86IguJD3C3zaSCU9STorEXZz6BZzTPOgVhYCvcgZ2vHW3fHxYYX4izDZucPCERj64W0HgHtMB88rz3LYDCS0iR9KOJAFaLKExuBTNFneZnDAevRP"
+      },
+      "products": [
+        {
+          "_id": "6955a33d1c508c5d5e60f4d9",
+          "name": "Bike29727",
+          "amount": 219,
+          "price": 20234,
+          "manufacturer": "Microsoft",
+          "notes": "k05dlT5OKKfft3LzKKcgRA2WWVFmRKL8mFvkf8ZUDZdg4G7CVdFEiMhdGNXR2o6CVaIaEq9fyTXCCzL9s9ThKSP3WHrf9HEZ9nsHLF38IYYTo9h0zVVBDwEoAGPcMkwL57nvY3eHZxKvSRDLHUxhqElv5FDwLikNzhlnFfzt8at1zLsPkO4s5YUjcxXhhMC9EHLmpT3nl4aPey8SFZru65IqkIGDIJJDJuWrUwrZmPuHyBwDLPv5nQnrLh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Alfreda",
+          "street": "N Harrison Street",
+          "house": 23,
+          "flat": 49
+        },
+        "finalDate": "2025-12-31T22:27:14.704Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20234,
+      "createdOn": "2025-12-31T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a33b1c508c5d5e60f426",
+          "products": [
+            {
+              "_id": "6955a33d1c508c5d5e60f4d9",
+              "name": "Bike29727",
+              "amount": 219,
+              "price": 20234,
+              "manufacturer": "Microsoft",
+              "notes": "k05dlT5OKKfft3LzKKcgRA2WWVFmRKL8mFvkf8ZUDZdg4G7CVdFEiMhdGNXR2o6CVaIaEq9fyTXCCzL9s9ThKSP3WHrf9HEZ9nsHLF38IYYTo9h0zVVBDwEoAGPcMkwL57nvY3eHZxKvSRDLHUxhqElv5FDwLikNzhlnFfzt8at1zLsPkO4s5YUjcxXhhMC9EHLmpT3nl4aPey8SFZru65IqkIGDIJJDJuWrUwrZmPuHyBwDLPv5nQnrLh",
+              "received": false
+            }
+          ],
+          "total_price": 20234,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Alfreda",
+              "street": "N Harrison Street",
+              "house": 23,
+              "flat": 49
+            },
+            "finalDate": "2025-12-31T22:27:14.704Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T22:27:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a33b1c508c5d5e60f426",
+          "products": [
+            {
+              "_id": "6955a33d1c508c5d5e60f4d9",
+              "name": "Bike29727",
+              "amount": 219,
+              "price": 20234,
+              "manufacturer": "Microsoft",
+              "notes": "k05dlT5OKKfft3LzKKcgRA2WWVFmRKL8mFvkf8ZUDZdg4G7CVdFEiMhdGNXR2o6CVaIaEq9fyTXCCzL9s9ThKSP3WHrf9HEZ9nsHLF38IYYTo9h0zVVBDwEoAGPcMkwL57nvY3eHZxKvSRDLHUxhqElv5FDwLikNzhlnFfzt8at1zLsPkO4s5YUjcxXhhMC9EHLmpT3nl4aPey8SFZru65IqkIGDIJJDJuWrUwrZmPuHyBwDLPv5nQnrLh",
+              "received": false
+            }
+          ],
+          "total_price": 20234,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:28:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-3TCfhrYh2Ju+DrcHKiWRyt/6eWg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a36a1c508c5d5e610f80",
+        "email": "Porter.Buckridge@gmail.com",
+        "name": "Mervin Brekke",
+        "country": "France",
+        "city": "Oberbrunnertown",
+        "street": "Manuel Landing",
+        "house": 10,
+        "flat": 839,
+        "phone": "+16407176354",
+        "createdOn": "2025-12-31T22:27:54.000Z",
+        "notes": "8QGfcf1UpCGTMRjFrQuAFOgUvxI60EGO3OxlaIBtAiccdo21bAdeMG2mgeCIevQSCSCaQnV17y9J33HUGz4qKNeuW62xSFrkhcsB0zOsyvNmpBi8V6cWVD8XxVCRivpMKs2SyKhL7wYgxpPauvFJSjKQaIpEp9Q1EexcosUr68pdhLp1XQMof3d5Ci5PasZv85CyxiSoR2VQR9TZHdwfiYfmaFXflBWf8nHvGI9JzlT92vHBxj2KPjdl0U"
+      },
+      "products": [
+        {
+          "_id": "6955a36d1c508c5d5e6113de",
+          "name": "Gloves40449",
+          "amount": 788,
+          "price": 34909,
+          "manufacturer": "Amazon",
+          "notes": "546YblBIAahulAj1IiASO7dULDQoCCpNvuiBjBndoNGPLKHEDoLFosk6Wb4rZCvstdJ9ZiM0qcLI5pCHBIK9zkrnsLz7T6cbU7V32Mw4VfMNq8M23HcOK7ANs4VxCTCdDEkBq667ah4pCwXGik6zfKYLGDbs0mBJeFr9CcLPXonGqEX1Pqf97uDaOHo4AROYAtTiQRrC2yRx8ztVaRSDukxfi5ftIO89UzKSSgKdLj8GAyXSYLSxQQY2q8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34909,
+      "createdOn": "2025-12-31T22:28:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a36a1c508c5d5e610f80",
+          "products": [
+            {
+              "_id": "6955a36d1c508c5d5e6113de",
+              "name": "Gloves40449",
+              "amount": 788,
+              "price": 34909,
+              "manufacturer": "Amazon",
+              "notes": "546YblBIAahulAj1IiASO7dULDQoCCpNvuiBjBndoNGPLKHEDoLFosk6Wb4rZCvstdJ9ZiM0qcLI5pCHBIK9zkrnsLz7T6cbU7V32Mw4VfMNq8M23HcOK7ANs4VxCTCdDEkBq667ah4pCwXGik6zfKYLGDbs0mBJeFr9CcLPXonGqEX1Pqf97uDaOHo4AROYAtTiQRrC2yRx8ztVaRSDukxfi5ftIO89UzKSSgKdLj8GAyXSYLSxQQY2q8",
+              "received": false
+            }
+          ],
+          "total_price": 34909,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:28:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3741c508c5d5e611693"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

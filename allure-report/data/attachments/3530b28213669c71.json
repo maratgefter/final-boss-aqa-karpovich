@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:26:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-VbLBDHzEFkpQ43OubIa5qOfSwx0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a30e1c508c5d5e60df27",
+        "email": "Hosea_Boehm32@gmail.com",
+        "name": "Gregg Stoltenberg",
+        "country": "Ukraine",
+        "city": "Lehigh Acres",
+        "street": "VonRueden Key",
+        "house": 9,
+        "flat": 795,
+        "phone": "+18326785032",
+        "createdOn": "2025-12-31T22:26:22.000Z",
+        "notes": "FkCHvvqJziuVNbRDl5X35GGmBemqVjtTZy3JwNwqEqhySi3u40H03MqauKpmOZ6WXp1OnH9vmhTRml7eJw7GI79ADSix1U4OktVUoPhjsXvgOx4SuAczxye7Ihpy3AUmtqxvKLkkk8AKtO6iZAoUWeSOrEA98ayy2P4ltcjI1htHASojvieRmgmrKali7j9s3xQgfSLTIrDEopp5pGOvlEPRMaX8YGFVRqsmGLUWq6vVmCorY7pVXbmEqy"
+      },
+      "products": [
+        {
+          "_id": "6955a3111c508c5d5e60e029",
+          "name": "Chips35372",
+          "amount": 581,
+          "price": 19381,
+          "manufacturer": "Samsung",
+          "notes": "pn3DwOH6ugTZrivpntxzRWWQpoM0rDm5cd0RpdgYsuhz5rMVwm7vWveMeJ5fIZ6yWPSIArWlnNNfNGBzaGY5QgA6B53kUevO8fWyGaSzX3YACkcOdczDErq7lbQjieuuquM0HIWy8icvjKPymhRKlkX9YLQLZ3hQKXLAPSrMmlfH0ds8d5kyofyouklFwKrv9zlxrWeEzjCmJBjEteYacXAH0qSZdIVgiOTYcqCo2aYpESyCBGgCe8wi6I",
+          "received": false
+        },
+        {
+          "_id": "6955a3131c508c5d5e60e233",
+          "name": "Chips51904",
+          "amount": 733,
+          "price": 81745,
+          "manufacturer": "Apple",
+          "notes": "8Fn11xnCuDmO34AhLOfo4iYLUMh096AQxaJHdJrNE6vQf4ebaVuGZzhfta9iE9ssjDi3BWY4seN9YkOEHWrwuajwxWb9Y7ocUFDh6rtoOWqK6Lxgsd965gi2gt9WBylpX6fUQwGDjvIXZnxj6JS87cJ3AVGfTkgwFkAtma2TmqxjTZJDnWhw34KDaUFocaY9kaEA2IlQ7zG2GQDpKzbjIPwYkfoj0BFfFVZ1a02VP1Fhbi5jul5f45L9Ua",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101126,
+      "createdOn": "2025-12-31T22:26:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a30e1c508c5d5e60df27",
+          "products": [
+            {
+              "_id": "6955a3111c508c5d5e60e029",
+              "name": "Chips35372",
+              "amount": 581,
+              "price": 19381,
+              "manufacturer": "Samsung",
+              "notes": "pn3DwOH6ugTZrivpntxzRWWQpoM0rDm5cd0RpdgYsuhz5rMVwm7vWveMeJ5fIZ6yWPSIArWlnNNfNGBzaGY5QgA6B53kUevO8fWyGaSzX3YACkcOdczDErq7lbQjieuuquM0HIWy8icvjKPymhRKlkX9YLQLZ3hQKXLAPSrMmlfH0ds8d5kyofyouklFwKrv9zlxrWeEzjCmJBjEteYacXAH0qSZdIVgiOTYcqCo2aYpESyCBGgCe8wi6I",
+              "received": false
+            },
+            {
+              "_id": "6955a3131c508c5d5e60e233",
+              "name": "Chips51904",
+              "amount": 733,
+              "price": 81745,
+              "manufacturer": "Apple",
+              "notes": "8Fn11xnCuDmO34AhLOfo4iYLUMh096AQxaJHdJrNE6vQf4ebaVuGZzhfta9iE9ssjDi3BWY4seN9YkOEHWrwuajwxWb9Y7ocUFDh6rtoOWqK6Lxgsd965gi2gt9WBylpX6fUQwGDjvIXZnxj6JS87cJ3AVGfTkgwFkAtma2TmqxjTZJDnWhw34KDaUFocaY9kaEA2IlQ7zG2GQDpKzbjIPwYkfoj0BFfFVZ1a02VP1Fhbi5jul5f45L9Ua",
+              "received": false
+            }
+          ],
+          "total_price": 101126,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:26:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a3141c508c5d5e60e25c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
