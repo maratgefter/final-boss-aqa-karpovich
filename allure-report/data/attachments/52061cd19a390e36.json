@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:28:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-83iMeKVVlOGDb+sQExw6Cl9ELks\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f50b1c508c5d5e6c2886",
+        "email": "Jennyfer.Kub@hotmail.com",
+        "name": "Helmer Berge",
+        "country": "Canada",
+        "city": "North Thomaston",
+        "street": "Osinski Turnpike",
+        "house": 2,
+        "flat": 322,
+        "phone": "+15005320764",
+        "createdOn": "2026-01-01T22:28:27.000Z",
+        "notes": "lOKCoFSa5bEZ1TXFg9HAF4kGiNiQKWMUFzosgRFfHaGgeI6eb2PsmHmTG4BI9D3iu9B9mgywWTTCl9tDHJys6FEvvE7DO1Y4ZNspOzecYMIeD3hJJLefWHMZwO3ZIC9csM4CTJCsGyTjKAsghbTcsZFS2vRN9Pkrb8SHS7UA91nkTvxwuERUds67IbwT9xGepp0Z9hb1a8iwJmPtm4p12mlCoUyfMM9M5OfDnf0Zn1hhrIiwxIxkwfZC3U"
+      },
+      "products": [
+        {
+          "_id": "6956f50d1c508c5d5e6c2a17",
+          "name": "Pants37798",
+          "amount": 682,
+          "price": 65151,
+          "manufacturer": "Apple",
+          "notes": "YI6mLg6iEW1sS9eY6pILmGqjfJhhdgLzqnbHD3hL1KfCNFtvZajiBQsC2Vg9Aa7oYvQBKr0efwTfglIQUW3qvWogiO4XMDZPtRbqUGisMvIFBFss2LS7OxH8iw7HB6EomSn2binT8KTcQG1sVlbElxTS8DLSDvsOBisasKt6conTCHMBT9t18BQaT3LCVwfh0sqzprITZH3suLDKonwjmZknWNGuwUVoMAgHLVrVj253Mo9GJ5Ta0zbieW",
+          "received": false
+        },
+        {
+          "_id": "6956f5151c508c5d5e6c2f9d",
+          "name": "Computer50392",
+          "amount": 515,
+          "price": 88619,
+          "manufacturer": "Apple",
+          "notes": "DYrZqsZZfozjzvhO94W4ywDxJct5SXm7ev2deG6JtaV7Q1kPbCdsF97AEgR9jUdJnibdI33zw0M3PXvePXcn9I7eJ4OsCRIleeYP5O4wkZZDnN1torGlkvS3AbaCjeb1REEPSQ6LapYTQIE6uEnPawYC7bFr2vY1DaFIuq7HryXrD1kSdygwFZ9oAyX5ra5ensvn3mofCOTwAxOZN6esX2MzsjjQKfya18BMsmIxsIOtVpKyQZIEodu0E6",
+          "received": false
+        },
+        {
+          "_id": "6956f5181c508c5d5e6c305b",
+          "name": "Soap99015",
+          "amount": 422,
+          "price": 42795,
+          "manufacturer": "Amazon",
+          "notes": "jCYEs6r5mubDSKXNQJZjz4Er5iOpa6KtLERWFfkSU4C8MH6RYuBkN8Kg835EjjE4Ffv9b7d9Vi4ImePbup4ZonvfN324voP02tJTVnwtuyB6P1AJUu3J4Bwm4u0rUH9BKtjWFzvVOwBzltvFfoYh4oGxUMYsLwstQvCCKJYGSeZPiaa4YqqHqnKNCve2uzjEoQ5PtEAvHWnqTxY0MuzYoBOb8P52JmGw9ulh1aniDeuuDtKg5DX8s0WIpY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 196565,
+      "createdOn": "2026-01-01T22:28:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f50b1c508c5d5e6c2886",
+          "products": [
+            {
+              "_id": "6956f50d1c508c5d5e6c2a17",
+              "name": "Pants37798",
+              "amount": 682,
+              "price": 65151,
+              "manufacturer": "Apple",
+              "notes": "YI6mLg6iEW1sS9eY6pILmGqjfJhhdgLzqnbHD3hL1KfCNFtvZajiBQsC2Vg9Aa7oYvQBKr0efwTfglIQUW3qvWogiO4XMDZPtRbqUGisMvIFBFss2LS7OxH8iw7HB6EomSn2binT8KTcQG1sVlbElxTS8DLSDvsOBisasKt6conTCHMBT9t18BQaT3LCVwfh0sqzprITZH3suLDKonwjmZknWNGuwUVoMAgHLVrVj253Mo9GJ5Ta0zbieW",
+              "received": false
+            },
+            {
+              "_id": "6956f5151c508c5d5e6c2f9d",
+              "name": "Computer50392",
+              "amount": 515,
+              "price": 88619,
+              "manufacturer": "Apple",
+              "notes": "DYrZqsZZfozjzvhO94W4ywDxJct5SXm7ev2deG6JtaV7Q1kPbCdsF97AEgR9jUdJnibdI33zw0M3PXvePXcn9I7eJ4OsCRIleeYP5O4wkZZDnN1torGlkvS3AbaCjeb1REEPSQ6LapYTQIE6uEnPawYC7bFr2vY1DaFIuq7HryXrD1kSdygwFZ9oAyX5ra5ensvn3mofCOTwAxOZN6esX2MzsjjQKfya18BMsmIxsIOtVpKyQZIEodu0E6",
+              "received": false
+            },
+            {
+              "_id": "6956f5181c508c5d5e6c305b",
+              "name": "Soap99015",
+              "amount": 422,
+              "price": 42795,
+              "manufacturer": "Amazon",
+              "notes": "jCYEs6r5mubDSKXNQJZjz4Er5iOpa6KtLERWFfkSU4C8MH6RYuBkN8Kg835EjjE4Ffv9b7d9Vi4ImePbup4ZonvfN324voP02tJTVnwtuyB6P1AJUu3J4Bwm4u0rUH9BKtjWFzvVOwBzltvFfoYh4oGxUMYsLwstQvCCKJYGSeZPiaa4YqqHqnKNCve2uzjEoQ5PtEAvHWnqTxY0MuzYoBOb8P52JmGw9ulh1aniDeuuDtKg5DX8s0WIpY",
+              "received": false
+            }
+          ],
+          "total_price": 196565,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:28:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f5181c508c5d5e6c3077"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

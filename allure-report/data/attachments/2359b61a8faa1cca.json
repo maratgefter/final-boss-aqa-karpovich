@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-P11lu2SldbIg472COpzZ28xU8+E\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f4a31c508c5d5e6be5e8",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f49e1c508c5d5e6be4fe",
+        "email": "Matilda_Bogan@gmail.com",
+        "name": "Muhammad Zboncak",
+        "country": "Russia",
+        "city": "Memphis",
+        "street": "Arvilla Ford",
+        "house": 15,
+        "flat": 692,
+        "phone": "+18225420308",
+        "createdOn": "2026-01-01T22:26:38.000Z",
+        "notes": "ooalvaI70zeaPUhdWdZfZVgtjrnC9temvFJL2y0DrcJB3TNjxQQcIePWArqBKFm0Nui12eCT7NeUQHerJKuzuKmcFeVsUaikPjZkAOaBMi9cuZLpF9FQr45w2aqbFbTuSGbw3kq6qef8qvQew1zVtH4NVECotM2eNgymyTX9dAbYhlEPDvGOqfu6Ln9ZBjITCz4XENx7f1mlvzgIhuRajshc0osGAb0vXRKKXNUdU2KvaZXToF35VaIjIT"
+      },
+      "products": [
+        {
+          "_id": "6956f4a31c508c5d5e6be5c4",
+          "name": "Salad24547",
+          "amount": 738,
+          "price": 56890,
+          "manufacturer": "Xiaomi",
+          "notes": "MGkMgxeEn6cKZ1wqi1zun2pRvrZXqJsST4SokppYI4InqJR7riTADFRqmzUZGStrwb8ciHzScIrWGR2oe7YfiuusPBrCkgdF3E9FWn7qerwhLz1PTsEMaWxRpeMIgZXL3yO8QvXULiX81tBt6wTcOrxKZuFSGrbNanx5pcax9DxPLVuC92b5Eq9ggcmcv23abOI7tIKLs3BfZP3xscd4mwXRiKpJ2dmhgo4TEkUQHrK1uWKG02v7HxnuwG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56890,
+      "createdOn": "2026-01-01T22:26:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f49e1c508c5d5e6be4fe",
+          "products": [
+            {
+              "_id": "6956f4a31c508c5d5e6be5c4",
+              "name": "Salad24547",
+              "amount": 738,
+              "price": 56890,
+              "manufacturer": "Xiaomi",
+              "notes": "MGkMgxeEn6cKZ1wqi1zun2pRvrZXqJsST4SokppYI4InqJR7riTADFRqmzUZGStrwb8ciHzScIrWGR2oe7YfiuusPBrCkgdF3E9FWn7qerwhLz1PTsEMaWxRpeMIgZXL3yO8QvXULiX81tBt6wTcOrxKZuFSGrbNanx5pcax9DxPLVuC92b5Eq9ggcmcv23abOI7tIKLs3BfZP3xscd4mwXRiKpJ2dmhgo4TEkUQHrK1uWKG02v7HxnuwG",
+              "received": false
+            }
+          ],
+          "total_price": 56890,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

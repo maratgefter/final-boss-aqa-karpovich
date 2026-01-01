@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2667",
+    "etag": "W/\"a6b-7+WAwiChuJj/QVZfQQKHFNIqd38\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4911c508c5d5e6bdbc9",
+        "email": "Alison.Ritchie64@yahoo.com",
+        "name": "Kyle Marquardt",
+        "country": "France",
+        "city": "Rosaliaton",
+        "street": "Declan Manor",
+        "house": 38,
+        "flat": 851,
+        "phone": "+15412945605",
+        "createdOn": "2026-01-01T22:26:25.000Z",
+        "notes": "nhwvTOnNK6ziVztCAV1HUcZccLLkN7xuHnHrpeg8xfNiiaJ4jKUZYMVCmy9TJ51TnHpdw8ECD9VzQEzjWeD6YqZVOFxfsjNqaGxTWi4PUE1QMx2AqpnutIOKvYrEnuRCQxlA9sVMW9rvWy9JjO0jfQftMzcIb52yyAVfaJym3Al2PDHoCYCWWkM90PfVwXdwijutdyQyqlMAtMlrjBiEC8O9uEnpP4yoWXfSp2KvttDorIT2VVY6aHnjtY"
+      },
+      "products": [
+        {
+          "_id": "6956f4931c508c5d5e6bdc30",
+          "name": "Tuna99933",
+          "amount": 770,
+          "price": 72369,
+          "manufacturer": "Microsoft",
+          "notes": "gZekVlKPKGrUKEwaWn2TYamAUYujJtNzqBSS0u420BhM2S1YuQJJMPbdkedD2v28CaSfEIenQIKsKIVfKPWVnA8HDoQAyqJUXs1LnCsEflmF7gh9u3WdsCm4KfvCR0yMs7sKdYdf5glLCMWH6e6XyJZHAaXxa4MV3x68q79fLj5pMiisT4aMKl7IhTKxFdulUXtJZPeVfm9CdNsCv1ZEhYkKpf3CRXXqbeHz2iA6Uey8VhEbXUn3WDx5V2",
+          "received": false
+        },
+        {
+          "_id": "6956f4951c508c5d5e6bdcad",
+          "name": "Sausages81738",
+          "amount": 395,
+          "price": 72279,
+          "manufacturer": "Samsung",
+          "notes": "wJSh7z6NMtoK6qMnpmtJCSTx8NBNImznNwH1W35eDRl4MBT8tvVkVTlOLiDwmz0I8saitvLYn9yuIJBq1mKkYOiCVBExE7hQSKyF6MYcRNB7snoaOhOE9dGw8Iluu8N7LVtRwhgy6nsxNRD0nHRPhag4YvgASEdlkcSos1NyH50guUsPmfKeS7BPkb0LhuIlIuubKoi6wQqY2vuhxyKfK7RNQNbLFZKDFB6eRz6qCB4ZSUEcgjV7WR4PIf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 144648,
+      "createdOn": "2026-01-01T22:26:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4911c508c5d5e6bdbc9",
+          "products": [
+            {
+              "_id": "6956f4931c508c5d5e6bdc30",
+              "name": "Tuna99933",
+              "amount": 770,
+              "price": 72369,
+              "manufacturer": "Microsoft",
+              "notes": "gZekVlKPKGrUKEwaWn2TYamAUYujJtNzqBSS0u420BhM2S1YuQJJMPbdkedD2v28CaSfEIenQIKsKIVfKPWVnA8HDoQAyqJUXs1LnCsEflmF7gh9u3WdsCm4KfvCR0yMs7sKdYdf5glLCMWH6e6XyJZHAaXxa4MV3x68q79fLj5pMiisT4aMKl7IhTKxFdulUXtJZPeVfm9CdNsCv1ZEhYkKpf3CRXXqbeHz2iA6Uey8VhEbXUn3WDx5V2",
+              "received": false
+            },
+            {
+              "_id": "6956f4951c508c5d5e6bdcad",
+              "name": "Sausages81738",
+              "amount": 395,
+              "price": 72279,
+              "manufacturer": "Samsung",
+              "notes": "wJSh7z6NMtoK6qMnpmtJCSTx8NBNImznNwH1W35eDRl4MBT8tvVkVTlOLiDwmz0I8saitvLYn9yuIJBq1mKkYOiCVBExE7hQSKyF6MYcRNB7snoaOhOE9dGw8Iluu8N7LVtRwhgy6nsxNRD0nHRPhag4YvgASEdlkcSos1NyH50guUsPmfKeS7BPkb0LhuIlIuubKoi6wQqY2vuhxyKfK7RNQNbLFZKDFB6eRz6qCB4ZSUEcgjV7WR4PIf",
+              "received": false
+            }
+          ],
+          "total_price": 144648,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f4951c508c5d5e6bdccb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

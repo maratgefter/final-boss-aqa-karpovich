@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3884",
+    "etag": "W/\"f2c-ebftjmqMSBloDGOqej0/fuz4BWg\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f4831c508c5d5e6bd3e2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4811c508c5d5e6bd31a",
+        "email": "Eugenia.McClure@yahoo.com",
+        "name": "Lyric Towne",
+        "country": "Germany",
+        "city": "Lacey",
+        "street": "Moore Mills",
+        "house": 41,
+        "flat": 818,
+        "phone": "+19855627306",
+        "createdOn": "2026-01-01T22:26:09.000Z",
+        "notes": "8G4CaWV6cndWAEgphI2yz6Gk5wYWIErE9ZX4tInqvjwY4W7Am9Uv9zsO2hP9vBV8vZJo7y6UApjrRYcKgwArKFYIuWZVgPc9ky5wBWwggaU9cs0gNKuS8oux1smmplTrck4S2SLs5VRVA4RLz3hUJxhx982Z7qAeujb3ikOEo5P2z2Imcf09dGdFIwTo0QLqCAVlTDeKDDLRQlEkItHLjhOG1mMi1CFJVhxna41aBJ4853OuisQtnNUFW4"
+      },
+      "products": [
+        {
+          "_id": "6956f4821c508c5d5e6bd3be",
+          "name": "Pizza18664",
+          "amount": 257,
+          "price": 90313,
+          "manufacturer": "Samsung",
+          "notes": "yBM6kxIjUFsLNjspVR5Q0iJwE9VhZVoYGsbbaiIsk5vr55ZXdiUiOM0OOC9ZkT5FNvXAQhjWG8MGeXFr9bwhuDqhAc05pFzbD16Jgj3s890XhKkSXJazCimVAdFjWnTkglrf25L7mGteZxx7mdZy5FdOf6oeP4gvCuznzz4BwyI8xGiMQPhevfkLk6kVONPAKGSF1J00oie3eX3oIF311swJiKc1iMnv4R7tiIWdLU1sNzb1KuYt4St26v",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90313,
+      "createdOn": "2026-01-01T22:26:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4811c508c5d5e6bd31a",
+          "products": [
+            {
+              "_id": "6956f4821c508c5d5e6bd3be",
+              "name": "Pizza18664",
+              "amount": 257,
+              "price": 90313,
+              "manufacturer": "Samsung",
+              "notes": "yBM6kxIjUFsLNjspVR5Q0iJwE9VhZVoYGsbbaiIsk5vr55ZXdiUiOM0OOC9ZkT5FNvXAQhjWG8MGeXFr9bwhuDqhAc05pFzbD16Jgj3s890XhKkSXJazCimVAdFjWnTkglrf25L7mGteZxx7mdZy5FdOf6oeP4gvCuznzz4BwyI8xGiMQPhevfkLk6kVONPAKGSF1J00oie3eX3oIF311swJiKc1iMnv4R7tiIWdLU1sNzb1KuYt4St26v",
+              "received": false
+            }
+          ],
+          "total_price": 90313,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f4811c508c5d5e6bd31a",
+          "products": [
+            {
+              "_id": "6956f4821c508c5d5e6bd3be",
+              "name": "Pizza18664",
+              "amount": 257,
+              "price": 90313,
+              "manufacturer": "Samsung",
+              "notes": "yBM6kxIjUFsLNjspVR5Q0iJwE9VhZVoYGsbbaiIsk5vr55ZXdiUiOM0OOC9ZkT5FNvXAQhjWG8MGeXFr9bwhuDqhAc05pFzbD16Jgj3s890XhKkSXJazCimVAdFjWnTkglrf25L7mGteZxx7mdZy5FdOf6oeP4gvCuznzz4BwyI8xGiMQPhevfkLk6kVONPAKGSF1J00oie3eX3oIF311swJiKc1iMnv4R7tiIWdLU1sNzb1KuYt4St26v",
+              "received": false
+            }
+          ],
+          "total_price": 90313,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f4811c508c5d5e6bd31a",
+          "products": [
+            {
+              "_id": "6956f4821c508c5d5e6bd3be",
+              "name": "Pizza18664",
+              "amount": 257,
+              "price": 90313,
+              "manufacturer": "Samsung",
+              "notes": "yBM6kxIjUFsLNjspVR5Q0iJwE9VhZVoYGsbbaiIsk5vr55ZXdiUiOM0OOC9ZkT5FNvXAQhjWG8MGeXFr9bwhuDqhAc05pFzbD16Jgj3s890XhKkSXJazCimVAdFjWnTkglrf25L7mGteZxx7mdZy5FdOf6oeP4gvCuznzz4BwyI8xGiMQPhevfkLk6kVONPAKGSF1J00oie3eX3oIF311swJiKc1iMnv4R7tiIWdLU1sNzb1KuYt4St26v",
+              "received": false
+            }
+          ],
+          "total_price": 90313,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

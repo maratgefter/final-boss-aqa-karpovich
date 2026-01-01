@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-CCqajKuyWLHs4QcJhhCPkbdzK1I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4921c508c5d5e6bdbfc",
+        "email": "Emmanuelle37@hotmail.com",
+        "name": "Brandyn Effertz",
+        "country": "USA",
+        "city": "Sandy",
+        "street": "Lavada Cape",
+        "house": 5,
+        "flat": 129,
+        "phone": "+15296641796",
+        "createdOn": "2026-01-01T22:26:26.000Z",
+        "notes": "nkHCOrQmALof6oMfXA1FColkSjCsI7u8WXgvXZ5A6tgWGZDoLUQLgoGrYNkX4ZKRbK9Tx5nnzEZWanZ1zyDymoXYP7rKVAWuIZAQKxwqx7qVm1S9r8N5N7osTaEIZfue3MIVdDRY85fHDoIpc0eV5AfKnic0ThauWmBTflUlQUXjN78UbSzibnlGvIuSj7tEzqgGcDk3iBudGO9CP1dxlbWvLmFA7OpGD3dLkgXGkyX4JUJm9u3dx6q4HY"
+      },
+      "products": [
+        {
+          "_id": "6956f4941c508c5d5e6bdc5f",
+          "name": "Chicken69073",
+          "amount": 816,
+          "price": 88849,
+          "manufacturer": "Xiaomi",
+          "notes": "uQpqjcMwLiHEqAhNu6iIdMOBOoi0kp9JFNRIWfHqdaQgbZi0oaoivPUWyw8Y43r1bNmJVoff6QkTt8QD8xNVzS6qilHdHW3kwW3NG5UmFGld7PsKOnAHeqmXOCbYPcLskOue5dqR18uaSVFt94AnCztmsX8l66jsYKn4WnGyGg6xg9pphxlliiDcbII6eskU8AtwrkrnSkwoWjNFliUUfuwr79rZpXnJTz1WDBM4xbNwQUQLfuJRPhhTX1",
+          "received": false
+        },
+        {
+          "_id": "6956f4951c508c5d5e6bdebc",
+          "name": "Soap6528",
+          "amount": 979,
+          "price": 14021,
+          "manufacturer": "Apple",
+          "notes": "KVn2XahyftG1tzOYFDTjE7csI687X8E1FDcQW7gEc0SFkRKUJkGSDVY5SJDhMTq0sdwcUAhRqmZddhN9feAiN7ha2zfnGxh3cGBoOWMJQWuKCmHXddgj5ShU2qCywESPhhphxaLbvlcp5YjPJaiGkvntcXS6fgPbQfsW6TivxmpJIELo4gWIDElowOruHKEZL3mKSfZlwNvnUvdN3UCpA9nNUa8kHsikbtzgHIuGiq2tA5eBrc5Jb7utIX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 102870,
+      "createdOn": "2026-01-01T22:26:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4921c508c5d5e6bdbfc",
+          "products": [
+            {
+              "_id": "6956f4941c508c5d5e6bdc5f",
+              "name": "Chicken69073",
+              "amount": 816,
+              "price": 88849,
+              "manufacturer": "Xiaomi",
+              "notes": "uQpqjcMwLiHEqAhNu6iIdMOBOoi0kp9JFNRIWfHqdaQgbZi0oaoivPUWyw8Y43r1bNmJVoff6QkTt8QD8xNVzS6qilHdHW3kwW3NG5UmFGld7PsKOnAHeqmXOCbYPcLskOue5dqR18uaSVFt94AnCztmsX8l66jsYKn4WnGyGg6xg9pphxlliiDcbII6eskU8AtwrkrnSkwoWjNFliUUfuwr79rZpXnJTz1WDBM4xbNwQUQLfuJRPhhTX1",
+              "received": false
+            },
+            {
+              "_id": "6956f4951c508c5d5e6bdebc",
+              "name": "Soap6528",
+              "amount": 979,
+              "price": 14021,
+              "manufacturer": "Apple",
+              "notes": "KVn2XahyftG1tzOYFDTjE7csI687X8E1FDcQW7gEc0SFkRKUJkGSDVY5SJDhMTq0sdwcUAhRqmZddhN9feAiN7ha2zfnGxh3cGBoOWMJQWuKCmHXddgj5ShU2qCywESPhhphxaLbvlcp5YjPJaiGkvntcXS6fgPbQfsW6TivxmpJIELo4gWIDElowOruHKEZL3mKSfZlwNvnUvdN3UCpA9nNUa8kHsikbtzgHIuGiq2tA5eBrc5Jb7utIX",
+              "received": false
+            }
+          ],
+          "total_price": 102870,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f4981c508c5d5e6bdf0e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2637",
+    "etag": "W/\"a4d-r6d4xmYUvN+YOj3fr2fWTVCdQ9A\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4781c508c5d5e6bcf39",
+        "email": "Jadon30@gmail.com",
+        "name": "Guido Lueilwitz",
+        "country": "Germany",
+        "city": "New Golda",
+        "street": "Amani Divide",
+        "house": 26,
+        "flat": 543,
+        "phone": "+14894246643",
+        "createdOn": "2026-01-01T22:26:00.000Z",
+        "notes": "k6JEzMs2Weyn6jUnlSZI6FXR50Apvy7SsCuFQhoakrxeN3hrl6Otbil7SMaRx3IG5ZwQWEcmDboMftL8Bm73toy9qyIclbiCslH6Emyw9LDujf74Vc2MqfMKKAgWIDb6SLuwgg5yiKWB1EWvMItzdDMd76hZP80Yc5kw3gOHL7Vu6QbZoZURWZimMuYBpJCuKMkOSUTzT6dMZ1dPFrpIdTRwdGumT7CGFoYgI2BM3180iMv5CzoSoiFRKs"
+      },
+      "products": [
+        {
+          "_id": "6956f47a1c508c5d5e6bcfd5",
+          "name": "Bacon58496",
+          "amount": 288,
+          "price": 49004,
+          "manufacturer": "Sony",
+          "notes": "U641nwVDNEJJClXf6LmcnSB9teblFEJKizL7ShRuAroHnfo3H7tyGsWdD1JByeJFGJo4EFa2b2uyFTX5eDAsEYGqhGRz51Yti8PfKTj7kfy0fPjwytMNY7no2S6Q45Fo9OFuHVTkh8F0GXpbzq2xLBimCOsuMxp7D5HQmTpehxQ3uBlpFfKapzzQhh2SQaauhmS2WBUwsTyn2Q7AKFNNBKwyA0xsvBxMUJkx8e3V3xPCmuKgRBSrDsHCJB",
+          "received": false
+        },
+        {
+          "_id": "6956f47b1c508c5d5e6bd060",
+          "name": "Table49808",
+          "amount": 931,
+          "price": 32622,
+          "manufacturer": "Sony",
+          "notes": "pL7ojmqzi8CrKdBBakDj9bTIOZrvZsmUGFU6AcBFmASkM9UyWBgMlB15eTr8roj7RYS2lGFvq7STGSkyQxtx9WQZDH9KDS8RN0tL168VngYbiEE4V22T4pmQDXMpTlsTl7FfZGm3VCGslZWvNhusaP3D21cMVRchddDDiYHK6XhfznizjnmVjDhciJcB0L7WGVkWY86rPgpeh19jCxYE6I1gsAE9k35yYJqxqb99MlbTP0kzwbpMGaBLXy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81626,
+      "createdOn": "2026-01-01T22:26:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4781c508c5d5e6bcf39",
+          "products": [
+            {
+              "_id": "6956f47a1c508c5d5e6bcfd5",
+              "name": "Bacon58496",
+              "amount": 288,
+              "price": 49004,
+              "manufacturer": "Sony",
+              "notes": "U641nwVDNEJJClXf6LmcnSB9teblFEJKizL7ShRuAroHnfo3H7tyGsWdD1JByeJFGJo4EFa2b2uyFTX5eDAsEYGqhGRz51Yti8PfKTj7kfy0fPjwytMNY7no2S6Q45Fo9OFuHVTkh8F0GXpbzq2xLBimCOsuMxp7D5HQmTpehxQ3uBlpFfKapzzQhh2SQaauhmS2WBUwsTyn2Q7AKFNNBKwyA0xsvBxMUJkx8e3V3xPCmuKgRBSrDsHCJB",
+              "received": false
+            },
+            {
+              "_id": "6956f47b1c508c5d5e6bd060",
+              "name": "Table49808",
+              "amount": 931,
+              "price": 32622,
+              "manufacturer": "Sony",
+              "notes": "pL7ojmqzi8CrKdBBakDj9bTIOZrvZsmUGFU6AcBFmASkM9UyWBgMlB15eTr8roj7RYS2lGFvq7STGSkyQxtx9WQZDH9KDS8RN0tL168VngYbiEE4V22T4pmQDXMpTlsTl7FfZGm3VCGslZWvNhusaP3D21cMVRchddDDiYHK6XhfznizjnmVjDhciJcB0L7WGVkWY86rPgpeh19jCxYE6I1gsAE9k35yYJqxqb99MlbTP0kzwbpMGaBLXy",
+              "received": false
+            }
+          ],
+          "total_price": 81626,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f47c1c508c5d5e6bd08e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

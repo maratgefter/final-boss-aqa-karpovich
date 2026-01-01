@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3854",
+    "etag": "W/\"f0e-AaiuNZNMatrQA7MuGx768qjqDeo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f4841c508c5d5e6bd444",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4821c508c5d5e6bd363",
+        "email": "Ethyl36@yahoo.com",
+        "name": "Randall Bosco",
+        "country": "Russia",
+        "city": "Alleneside",
+        "street": "Javier Greens",
+        "house": 35,
+        "flat": 460,
+        "phone": "+17152589344",
+        "createdOn": "2026-01-01T22:26:10.000Z",
+        "notes": "owulARD0H5SGqZAJq8FVXCdU9VvaZzI1eezBXPIF6pb1OZz5Wo3LnS1NDhHZemaCL4uteEuNcACrQC0gdie5dZqA1WEKrXVwcshsdDGRGn3cU4CWyAFs7hGPxKKuTvHP2YhPeiFvyKYburkIgxib0IIekT8tFrC8WEvoOMX6XFK8UCoozTjZaaqY5dPVWsd4OmT5FgLYfXLtatX8O4xbIpl4HP3RJiBXCyJfWgpLtZf9PWrZfensOwHauf"
+      },
+      "products": [
+        {
+          "_id": "6956f4831c508c5d5e6bd421",
+          "name": "Chair34249",
+          "amount": 698,
+          "price": 82823,
+          "manufacturer": "Tesla",
+          "notes": "eMeTiTzhImo2RSqld7dMPKS5oEOvVfSkUr1f0KabhwII3xUcZ4EfKD9Gdtq368d0OJkyMei01b4gUuJ7i3RlmacFpNhM7okpIPfcRWJVDDcH84iGKsHfR3qlg9epv3rGaiCXjmen8Fvseb0kdAwUHp0dJXgAYpMgihO9HFcMkQQGwNOw9sXPov32zPM8uUl0P6buCKEd26ykS4QbA26eJFd0TweKAjE4ckYs9fZMTWl9qpMsu622vOBYIC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82823,
+      "createdOn": "2026-01-01T22:26:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4821c508c5d5e6bd363",
+          "products": [
+            {
+              "_id": "6956f4831c508c5d5e6bd421",
+              "name": "Chair34249",
+              "amount": 698,
+              "price": 82823,
+              "manufacturer": "Tesla",
+              "notes": "eMeTiTzhImo2RSqld7dMPKS5oEOvVfSkUr1f0KabhwII3xUcZ4EfKD9Gdtq368d0OJkyMei01b4gUuJ7i3RlmacFpNhM7okpIPfcRWJVDDcH84iGKsHfR3qlg9epv3rGaiCXjmen8Fvseb0kdAwUHp0dJXgAYpMgihO9HFcMkQQGwNOw9sXPov32zPM8uUl0P6buCKEd26ykS4QbA26eJFd0TweKAjE4ckYs9fZMTWl9qpMsu622vOBYIC",
+              "received": false
+            }
+          ],
+          "total_price": 82823,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:13.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f4821c508c5d5e6bd363",
+          "products": [
+            {
+              "_id": "6956f4831c508c5d5e6bd421",
+              "name": "Chair34249",
+              "amount": 698,
+              "price": 82823,
+              "manufacturer": "Tesla",
+              "notes": "eMeTiTzhImo2RSqld7dMPKS5oEOvVfSkUr1f0KabhwII3xUcZ4EfKD9Gdtq368d0OJkyMei01b4gUuJ7i3RlmacFpNhM7okpIPfcRWJVDDcH84iGKsHfR3qlg9epv3rGaiCXjmen8Fvseb0kdAwUHp0dJXgAYpMgihO9HFcMkQQGwNOw9sXPov32zPM8uUl0P6buCKEd26ykS4QbA26eJFd0TweKAjE4ckYs9fZMTWl9qpMsu622vOBYIC",
+              "received": false
+            }
+          ],
+          "total_price": 82823,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:12.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f4821c508c5d5e6bd363",
+          "products": [
+            {
+              "_id": "6956f4831c508c5d5e6bd421",
+              "name": "Chair34249",
+              "amount": 698,
+              "price": 82823,
+              "manufacturer": "Tesla",
+              "notes": "eMeTiTzhImo2RSqld7dMPKS5oEOvVfSkUr1f0KabhwII3xUcZ4EfKD9Gdtq368d0OJkyMei01b4gUuJ7i3RlmacFpNhM7okpIPfcRWJVDDcH84iGKsHfR3qlg9epv3rGaiCXjmen8Fvseb0kdAwUHp0dJXgAYpMgihO9HFcMkQQGwNOw9sXPov32zPM8uUl0P6buCKEd26ykS4QbA26eJFd0TweKAjE4ckYs9fZMTWl9qpMsu622vOBYIC",
+              "received": false
+            }
+          ],
+          "total_price": 82823,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

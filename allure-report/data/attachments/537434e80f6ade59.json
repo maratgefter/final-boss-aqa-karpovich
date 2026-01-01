@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-pH+2gTO/2AabWaAgc1g2+6BHUR8\"",
+    "keep-alive": "timeout=5, max=49",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f49a1c508c5d5e6be18a",
+        "email": "Shana88@hotmail.com",
+        "name": "Jermaine Johnson",
+        "country": "Germany",
+        "city": "North Aliyaborough",
+        "street": "Devonshire Road",
+        "house": 49,
+        "flat": 759,
+        "phone": "+15554830502",
+        "createdOn": "2026-01-01T22:26:34.000Z",
+        "notes": "4x3GN69AYzh9dpTxBZT5cvlSNfnClgzgwNsiQA8rawaHGvbmrhUUO0iCOpQubb65vgxUnxJh6mZ6Ecnmz91GUrHroj76azEPL507xYFaca9eLWQ3LLolHNa3r38AT4IjZLKnc218bmNg1SOs6lSA5W15MSWlQudRNm9JOe9ivN44FISgF1wj4C6is93Dl4L5DaDWhLyZI8pPysoTROfBL6tcpOtlDdGr3uAsBvNAQjF7GB6nbibZ1s8sGk"
+      },
+      "products": [
+        {
+          "_id": "6956f49e1c508c5d5e6be4fa",
+          "name": "Shirt11171",
+          "amount": 609,
+          "price": 99462,
+          "manufacturer": "Tesla",
+          "notes": "vnKz1AK8zcBBu7ZV104JcfLSIUI5hfZZ3WgKpwME5fxfl2kr4VgkrYctRFXPMDKmebGmiQL72ntkuXlAwXZLTMHTguHiOzoy2xZI4hiSYMqMz6oPEesYJNqvkUO6TevMgJV7sDFYYVuKp2zcsopRADEnrMdmbR2qWL4T8nVswzorcUjJXJtGcrdOlwMBi634YNB8YYm73Cqv7K6M15jY8js9FgxUXAohexxe0WMukhuy2HL04vt6fDnuwA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99462,
+      "createdOn": "2026-01-01T22:26:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f49a1c508c5d5e6be18a",
+          "products": [
+            {
+              "_id": "6956f49e1c508c5d5e6be4fa",
+              "name": "Shirt11171",
+              "amount": 609,
+              "price": 99462,
+              "manufacturer": "Tesla",
+              "notes": "vnKz1AK8zcBBu7ZV104JcfLSIUI5hfZZ3WgKpwME5fxfl2kr4VgkrYctRFXPMDKmebGmiQL72ntkuXlAwXZLTMHTguHiOzoy2xZI4hiSYMqMz6oPEesYJNqvkUO6TevMgJV7sDFYYVuKp2zcsopRADEnrMdmbR2qWL4T8nVswzorcUjJXJtGcrdOlwMBi634YNB8YYm73Cqv7K6M15jY8js9FgxUXAohexxe0WMukhuy2HL04vt6fDnuwA",
+              "received": false
+            }
+          ],
+          "total_price": 99462,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f4a11c508c5d5e6be52c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

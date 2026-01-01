@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:27:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-nJDICfZwRcP+u7mtmUg9gpNBIw4\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f4c81c508c5d5e6c00e1",
+        "email": "Lillian.DuBuque82@gmail.com",
+        "name": "Ned Hartmann",
+        "country": "France",
+        "city": "Port Lynnchester",
+        "street": "Allison Common",
+        "house": 37,
+        "flat": 885,
+        "phone": "+16772175529",
+        "createdOn": "2026-01-01T22:27:20.000Z",
+        "notes": "kCvHI0tjA0UWyKZeESlbbmKfHRE82cal4p3mC0eNHM4NKJRce096ichdmGn58t3PIVCmaFLEebuBqpjRIpdRaZY7jhAMAUU1fbkUmywPY2gDkID4MFzJSYOrhi7GpQd2nZXzu5TSRlCiYxqbWraRuLe3a4bGd391DFFmSpcFiAg2aVgqVYR4qutbAwLAeyRQXQwnSBJSlJLHIFfrjDtBeBbbTPE4kVKhmw4tq7YzS4K7XuSWs7hjCyuOoQ"
+      },
+      "products": [
+        {
+          "_id": "6956f4cf1c508c5d5e6c01c5",
+          "name": "Chicken37479",
+          "amount": 474,
+          "price": 81441,
+          "manufacturer": "Apple",
+          "notes": "wiP0FNXaaUEgVNELuUHrBWZfHB20Z7KnAPpgVKQ0FGASfyfKUlUdT9LT6qlsDxADFN3kVztHwzyopcOBRnnMqOi2ONo0zhlYAq8USvuPVxBpU9aDVvEoPZ8yEGPeuZsKkqVak6vjib1ufAbHOyEzKd0rztFuQc78kaHlqFHEDonWzsJvwaeEqRem7ZuomqiS8RCgsUB6T7PYCQ31D4LtjyMeghklzVwpZnMxlyDtyfRPARI5eB23d90luX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81441,
+      "createdOn": "2026-01-01T22:27:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f4c81c508c5d5e6c00e1",
+          "products": [
+            {
+              "_id": "6956f4cf1c508c5d5e6c01c5",
+              "name": "Chicken37479",
+              "amount": 474,
+              "price": 81441,
+              "manufacturer": "Apple",
+              "notes": "wiP0FNXaaUEgVNELuUHrBWZfHB20Z7KnAPpgVKQ0FGASfyfKUlUdT9LT6qlsDxADFN3kVztHwzyopcOBRnnMqOi2ONo0zhlYAq8USvuPVxBpU9aDVvEoPZ8yEGPeuZsKkqVak6vjib1ufAbHOyEzKd0rztFuQc78kaHlqFHEDonWzsJvwaeEqRem7ZuomqiS8RCgsUB6T7PYCQ31D4LtjyMeghklzVwpZnMxlyDtyfRPARI5eB23d90luX",
+              "received": false
+            }
+          ],
+          "total_price": 81441,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:27:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f4cf1c508c5d5e6c01e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

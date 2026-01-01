@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:26:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-YMx7ZOniZ9caef11Fsm8i/lINgg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f47c1c508c5d5e6bd08b",
+        "email": "Alden_Kerluke35@yahoo.com",
+        "name": "Davin Dooley",
+        "country": "Belarus",
+        "city": "DuBuqueland",
+        "street": "Lisa Street",
+        "house": 25,
+        "flat": 887,
+        "phone": "+13176225743",
+        "createdOn": "2026-01-01T22:26:04.000Z",
+        "notes": "2x2YZjm8RfXFdvd9uoqpH3UoIkcqlM2wCX1ZV4nPkV8mwFpeJP6NHWC91Z80Bx6YYKufp3VJScSb5LmefhjOcS0aOtOy3EU1PBtL3Tx5psGghaueoFAsngalWJFQMwyOHR6CJ7Vob15ACHGT76qZqvcqB5NAwlsGcGFhWWpLYOGCMU6RlMdrytlHj3nmkPsFnCWhrLgkYRE7SXtcMX3omIQTOohumjFd0p61uKH0e6WbCsrb0EOkvu9p7H"
+      },
+      "products": [
+        {
+          "_id": "6956f47d1c508c5d5e6bd124",
+          "name": "Computer1157",
+          "amount": 342,
+          "price": 75312,
+          "manufacturer": "Amazon",
+          "notes": "kCAD6GsUeqL5LsrNhBq3UoaEpYgG0zCOMdacTa1n62s5Qr8I29aqpB0JYJtgEQVNCft07GbkE3bfdJDvytLWmD7td0nmnEI3ZiPHYW3gLuL31sm5QIKZg6TpnX9FC0kbdjFiR4iUBctYQSdpRHGtMVrda30vtWtE74tqPerNpIb64RroTHpNUjpfLsTHcFAFjlBOTrFmDPx8bCwGz2bHsZUAbHIDOXszs0JnoQmlboa78bz73rIDXp04Ub",
+          "received": false
+        },
+        {
+          "_id": "6956f4801c508c5d5e6bd2ab",
+          "name": "Shirt34936",
+          "amount": 579,
+          "price": 28334,
+          "manufacturer": "Amazon",
+          "notes": "7L4iNsCH7t6qf9fklmvlNvursqWGhOoUY4FKqAsAL2APsvllOvgFqnE0wgqyeN3AGDDKOG8WlR9D3aCcRlkVrwCcTmVkhbAR4mwRgmsRffaygqvLgs9EBOQYY29Fywdm1EkiN4sNjtZM6nM5DUy9E3HSAwnBO53pQFwJDpZ7T9pYZYLFInYJVJhwT5CqpdmSFPMSZCoS4OYZKKVlrVvK5dqlXRNkOfou61GAesuLKZqpXQdbTm7aED6yiR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 103646,
+      "createdOn": "2026-01-01T22:26:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f47c1c508c5d5e6bd08b",
+          "products": [
+            {
+              "_id": "6956f47d1c508c5d5e6bd124",
+              "name": "Computer1157",
+              "amount": 342,
+              "price": 75312,
+              "manufacturer": "Amazon",
+              "notes": "kCAD6GsUeqL5LsrNhBq3UoaEpYgG0zCOMdacTa1n62s5Qr8I29aqpB0JYJtgEQVNCft07GbkE3bfdJDvytLWmD7td0nmnEI3ZiPHYW3gLuL31sm5QIKZg6TpnX9FC0kbdjFiR4iUBctYQSdpRHGtMVrda30vtWtE74tqPerNpIb64RroTHpNUjpfLsTHcFAFjlBOTrFmDPx8bCwGz2bHsZUAbHIDOXszs0JnoQmlboa78bz73rIDXp04Ub",
+              "received": false
+            },
+            {
+              "_id": "6956f4801c508c5d5e6bd2ab",
+              "name": "Shirt34936",
+              "amount": 579,
+              "price": 28334,
+              "manufacturer": "Amazon",
+              "notes": "7L4iNsCH7t6qf9fklmvlNvursqWGhOoUY4FKqAsAL2APsvllOvgFqnE0wgqyeN3AGDDKOG8WlR9D3aCcRlkVrwCcTmVkhbAR4mwRgmsRffaygqvLgs9EBOQYY29Fywdm1EkiN4sNjtZM6nM5DUy9E3HSAwnBO53pQFwJDpZ7T9pYZYLFInYJVJhwT5CqpdmSFPMSZCoS4OYZKKVlrVvK5dqlXRNkOfou61GAesuLKZqpXQdbTm7aED6yiR",
+              "received": false
+            }
+          ],
+          "total_price": 103646,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:26:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f4801c508c5d5e6bd2d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
