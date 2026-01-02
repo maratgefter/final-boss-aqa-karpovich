@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:28:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3424",
+    "etag": "W/\"d60-XsT7KvJbWfsCYHDgyNx4mQu5fJU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958466f1c508c5d5e785e44",
+        "email": "Aric23@hotmail.com",
+        "name": "Horace Zulauf",
+        "country": "France",
+        "city": "Fond du Lac",
+        "street": "Silver Street",
+        "house": 9,
+        "flat": 99,
+        "phone": "+15968910253",
+        "createdOn": "2026-01-02T22:27:59.000Z",
+        "notes": "l8JungfdZrFRIWegsw96qfguFHJefdu6Tkx2qcDT6B8mNurdKcvAnG0GVMQZid6MjazMmVbEAMLx8bipKxFeOGZrCXykj1wzfHs67cQZqfT9bDC8hw5rVpXESjiuVF01K1YNdAcYhhbWPdNLkwJpalFFmkn7TjcJ7VE2xvJ7a6k5TJgIzojLSpTVrl5I3gSQLdUJBR6f02PiFIhbpmSkzbBhURTuBQG1dTSDBQ2Rcrqo0HgbZwItC6bFm0"
+      },
+      "products": [
+        {
+          "_id": "6958467a1c508c5d5e7866e5",
+          "name": "Ball99390",
+          "amount": 146,
+          "price": 66688,
+          "manufacturer": "Amazon",
+          "notes": "3J1Hl8ogFY9atzcqnYMGGNrWBwwVOZ4JfGfdnCWtGUiAH0BGrY5cipXePrAFArftRMmnojqvAPUzzBDpefPtJsgCBgtcTGwAjxbJLy8g6P8Da9Yo1RS4GtZDQUUvokcSyogzV9pLGfFRFH2B0H3ggGsxapIqI6HAnBKpkOS7mRGVHgtVbhjIOnsQeZ0kq1OGS78iofqT23LAPg8hnI3niLg1oHkciTeesU8nbD20fRuivoK39iyEl5m1kI",
+          "received": false
+        },
+        {
+          "_id": "6958467c1c508c5d5e7867df",
+          "name": "Sausages91122",
+          "amount": 536,
+          "price": 24923,
+          "manufacturer": "Google",
+          "notes": "EQganINtUjmTxNBWlm1yXWQ9IwlFyqRfyxojztp3f1aqbMEgBcXLqYDwdCsAtEVf27I8h5tw40L6lr3KVhJ7C1zVxkWIKlnuCzJDw9BesSve9rE38B3wRjX33bSx9SgR0FVZAI1OXH24n6jSXXkvO24rzBOAHOza3AXyXRNxw9LqUHFv9OSrZsz3hKrtY4sj2pyc1vrFiam3cb6oW3JyilJa3oh2euUjK3oQKYME0yhxIrGvVE866KKVwj",
+          "received": false
+        },
+        {
+          "_id": "6958467f1c508c5d5e786a5f",
+          "name": "Sausages57943",
+          "amount": 353,
+          "price": 76191,
+          "manufacturer": "Amazon",
+          "notes": "PeI19w6JYRSqrB5uF3BJCj3biWXS1s2uKiQroyCDBTnI839BxitVQB4EV0QvpiIVX4BivqjnmjOfxNTZwia2Iqp7wp7B6AfMfKeHLx7JpeWD7HdLse1G2a5IG4UYHSs6eGPSQYwuD32gAdQsBJ0AvDD8m0lLH7lX59Gkt2CzNdK4OPJ6RyoyQWzRVmKZpB3OziLZU56KEoAyOPWc7PZLNkUfTxJ6ODOTyySoM3r3ilhPeLGY5pSovIWLQm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 167802,
+      "createdOn": "2026-01-02T22:28:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958466f1c508c5d5e785e44",
+          "products": [
+            {
+              "_id": "6958467a1c508c5d5e7866e5",
+              "name": "Ball99390",
+              "amount": 146,
+              "price": 66688,
+              "manufacturer": "Amazon",
+              "notes": "3J1Hl8ogFY9atzcqnYMGGNrWBwwVOZ4JfGfdnCWtGUiAH0BGrY5cipXePrAFArftRMmnojqvAPUzzBDpefPtJsgCBgtcTGwAjxbJLy8g6P8Da9Yo1RS4GtZDQUUvokcSyogzV9pLGfFRFH2B0H3ggGsxapIqI6HAnBKpkOS7mRGVHgtVbhjIOnsQeZ0kq1OGS78iofqT23LAPg8hnI3niLg1oHkciTeesU8nbD20fRuivoK39iyEl5m1kI",
+              "received": false
+            },
+            {
+              "_id": "6958467c1c508c5d5e7867df",
+              "name": "Sausages91122",
+              "amount": 536,
+              "price": 24923,
+              "manufacturer": "Google",
+              "notes": "EQganINtUjmTxNBWlm1yXWQ9IwlFyqRfyxojztp3f1aqbMEgBcXLqYDwdCsAtEVf27I8h5tw40L6lr3KVhJ7C1zVxkWIKlnuCzJDw9BesSve9rE38B3wRjX33bSx9SgR0FVZAI1OXH24n6jSXXkvO24rzBOAHOza3AXyXRNxw9LqUHFv9OSrZsz3hKrtY4sj2pyc1vrFiam3cb6oW3JyilJa3oh2euUjK3oQKYME0yhxIrGvVE866KKVwj",
+              "received": false
+            },
+            {
+              "_id": "6958467f1c508c5d5e786a5f",
+              "name": "Sausages57943",
+              "amount": 353,
+              "price": 76191,
+              "manufacturer": "Amazon",
+              "notes": "PeI19w6JYRSqrB5uF3BJCj3biWXS1s2uKiQroyCDBTnI839BxitVQB4EV0QvpiIVX4BivqjnmjOfxNTZwia2Iqp7wp7B6AfMfKeHLx7JpeWD7HdLse1G2a5IG4UYHSs6eGPSQYwuD32gAdQsBJ0AvDD8m0lLH7lX59Gkt2CzNdK4OPJ6RyoyQWzRVmKZpB3OziLZU56KEoAyOPWc7PZLNkUfTxJ6ODOTyySoM3r3ilhPeLGY5pSovIWLQm",
+              "received": false
+            }
+          ],
+          "total_price": 167802,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:28:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846801c508c5d5e786a90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

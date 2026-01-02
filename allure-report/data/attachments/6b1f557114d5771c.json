@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-FS5EQ+JDuol9jjeuoJ6enX/sA0I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695846111c508c5d5e78265e",
+        "email": "Maybelle_Rau@yahoo.com",
+        "name": "Garland Wuckert",
+        "country": "USA",
+        "city": "Gusikowskiside",
+        "street": "Welch Ridge",
+        "house": 4,
+        "flat": 59,
+        "phone": "+15418866123",
+        "createdOn": "2026-01-02T22:26:25.000Z",
+        "notes": "ot5qcrolP93zXg04SSx0AsiZ8tMGYXUFXVHSiZrSQMsdttuUyvL6diRLg3uBAO48l0VTkHK02Mr8gSuy0DN5KKpcHwj3fsQrg6PQE2jdksVA5BJgbonSwMvTw4VKD7ClfmVVOzaRhOpHsMuakHZw1JvI0CPvhuMYsl8UhDiGXN7WTnccjGO5FmjDxIgwW6Fm6CZ7xmV3o4ipKRsauPhHSWEYCLLOEVn3widVFaN1FP9FptNxOQLKW8UmlI"
+      },
+      "products": [
+        {
+          "_id": "695846131c508c5d5e782753",
+          "name": "Pizza23634",
+          "amount": 116,
+          "price": 75270,
+          "manufacturer": "Microsoft",
+          "notes": "SgHuqs10hpFgSxvXRJlqHzZWkrSzzxzCCfOexYyuFVJS7Ijdsqpd6EblENvcBKf9NynHu74OqnIZ7k21tF3p1ep3nURW3SwZ7qkv8gwAH5S64KYukw9gGkIUSAxpB1FMIcAg6BzhLXh2aoqJWxkNA3YwPw4M1LyR3cEHNoZp01Y04s0xmUqRCFspLcob8V4Hclr6DR1TlqVc1cIzec6yIJ68piySdXEPC7RwcMHR72cJFTFMjz4NuvkvcK",
+          "received": false
+        },
+        {
+          "_id": "695846151c508c5d5e782897",
+          "name": "Gloves17874",
+          "amount": 995,
+          "price": 88784,
+          "manufacturer": "Tesla",
+          "notes": "eFLi7APc9v1OjSe1LYBaoq4KY1eR1clsyreH6XjJhp3KKE64vfJ26H2G70EJwDbov4qEF0xZG9lyXj9wvHx8bgmLbAh7EvMIs0BPppEGOoT4fAsoz5UoQwJaAVFz6lvGCTYszVY2Wjre3ZhducKWl29suUlqY1HCHa99Qj5L60o2ufIZ1TAZuphK7OICtntC1aRneMAfhs4mLpgLMpVLs6EdIQHIT0qyfBP13HvNFQMpkUDCjIFJNW7ohc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 164054,
+      "createdOn": "2026-01-02T22:26:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695846111c508c5d5e78265e",
+          "products": [
+            {
+              "_id": "695846131c508c5d5e782753",
+              "name": "Pizza23634",
+              "amount": 116,
+              "price": 75270,
+              "manufacturer": "Microsoft",
+              "notes": "SgHuqs10hpFgSxvXRJlqHzZWkrSzzxzCCfOexYyuFVJS7Ijdsqpd6EblENvcBKf9NynHu74OqnIZ7k21tF3p1ep3nURW3SwZ7qkv8gwAH5S64KYukw9gGkIUSAxpB1FMIcAg6BzhLXh2aoqJWxkNA3YwPw4M1LyR3cEHNoZp01Y04s0xmUqRCFspLcob8V4Hclr6DR1TlqVc1cIzec6yIJ68piySdXEPC7RwcMHR72cJFTFMjz4NuvkvcK",
+              "received": false
+            },
+            {
+              "_id": "695846151c508c5d5e782897",
+              "name": "Gloves17874",
+              "amount": 995,
+              "price": 88784,
+              "manufacturer": "Tesla",
+              "notes": "eFLi7APc9v1OjSe1LYBaoq4KY1eR1clsyreH6XjJhp3KKE64vfJ26H2G70EJwDbov4qEF0xZG9lyXj9wvHx8bgmLbAh7EvMIs0BPppEGOoT4fAsoz5UoQwJaAVFz6lvGCTYszVY2Wjre3ZhducKWl29suUlqY1HCHa99Qj5L60o2ufIZ1TAZuphK7OICtntC1aRneMAfhs4mLpgLMpVLs6EdIQHIT0qyfBP13HvNFQMpkUDCjIFJNW7ohc",
+              "received": false
+            }
+          ],
+          "total_price": 164054,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846161c508c5d5e7828cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

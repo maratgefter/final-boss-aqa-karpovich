@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2732",
+    "etag": "W/\"aac-6gXAIugdhiS8cEsKrlhiR/CtlhM\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695846081c508c5d5e782216",
+      "status": "Draft",
+      "customer": {
+        "_id": "695846051c508c5d5e782104",
+        "email": "Bryce_Beier@hotmail.com",
+        "name": "Sigurd Lindgren",
+        "country": "Belarus",
+        "city": "Huelshaven",
+        "street": "Market Place",
+        "house": 22,
+        "flat": 702,
+        "phone": "+17452492018",
+        "createdOn": "2026-01-02T22:26:13.000Z",
+        "notes": "ynrFjEZtrelKBufjJbyYJDbaL0rkpzMH0u68Mb5qYNhSIST0GciFYooCVwU511MqNlOvScrzUrk1pgyq5H55EyEMDfgdTlDUR3Jfp0DHY3fTOqiWg7By0qEQYHjUYfPQXf8Bzer0M4OXQh5Kg2q5XNnWR8s74c8CgCaGuQ1DhYBxEkSUwPIRSYQsJADwmmz1mcFcWrFXLZtugZdyT1E9FDq0zHgwsKmm8waCbodCDBXRrPAnd8JNL0jqCx"
+      },
+      "products": [
+        {
+          "_id": "695846071c508c5d5e782187",
+          "name": "Chair99545",
+          "amount": 279,
+          "price": 26270,
+          "manufacturer": "Google",
+          "notes": "wN2VwmBsu2SgTtu4aMSfdWcGgcvV6MpKDtpuo1KHuhrLBfDR7HwWz8BRCLuuPgAjG54TrlVgZqqtYOr7rh8nRG9qsKOaTTFViRe9N8b4FHGUJWlVEtCTmk8LbzQvgyu51CDV7ZPBYWATuh8WLkJtBHqwhJqAiKXOg7leIE3v70ywHvobTK21huVxKvVghgDtBj3fAIJh3m4wnTNsEOp6qDiS13BtrVfqsIfDMimkHOFuRwya4NUl1CLPjB",
+          "received": false
+        },
+        {
+          "_id": "695846081c508c5d5e7821ec",
+          "name": "Mouse60554",
+          "amount": 969,
+          "price": 17850,
+          "manufacturer": "Sony",
+          "notes": "ps2m1orcu7nU9UUmrP2EmaSyIokqTavpphNTJtNjtywoMZDaEW2u7c6AAf97DcLf2cvMMMAfgBozC3SLBlHhT9vnNHy0HF9s5xFpFvHWIziRxB713yIBezA8C7LczfXRLuHvZTkHgBVbLbd77pB2onfUw9yEPnWnF4IkAwaisyXYMCGjEkaGnLd43mSg7TkuYf5UwgVifk7QVN7fJCILGN0ksYNQtHE4Dw5UupYSLaERXARj5ATdTktnH9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44120,
+      "createdOn": "2026-01-02T22:26:16.000Z",
+      "comments": [
+        {
+          "text": "B",
+          "createdOn": "2026-01-02T22:26:16.000Z",
+          "_id": "695846081c508c5d5e782245"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695846051c508c5d5e782104",
+          "products": [
+            {
+              "_id": "695846071c508c5d5e782187",
+              "name": "Chair99545",
+              "amount": 279,
+              "price": 26270,
+              "manufacturer": "Google",
+              "notes": "wN2VwmBsu2SgTtu4aMSfdWcGgcvV6MpKDtpuo1KHuhrLBfDR7HwWz8BRCLuuPgAjG54TrlVgZqqtYOr7rh8nRG9qsKOaTTFViRe9N8b4FHGUJWlVEtCTmk8LbzQvgyu51CDV7ZPBYWATuh8WLkJtBHqwhJqAiKXOg7leIE3v70ywHvobTK21huVxKvVghgDtBj3fAIJh3m4wnTNsEOp6qDiS13BtrVfqsIfDMimkHOFuRwya4NUl1CLPjB",
+              "received": false
+            },
+            {
+              "_id": "695846081c508c5d5e7821ec",
+              "name": "Mouse60554",
+              "amount": 969,
+              "price": 17850,
+              "manufacturer": "Sony",
+              "notes": "ps2m1orcu7nU9UUmrP2EmaSyIokqTavpphNTJtNjtywoMZDaEW2u7c6AAf97DcLf2cvMMMAfgBozC3SLBlHhT9vnNHy0HF9s5xFpFvHWIziRxB713yIBezA8C7LczfXRLuHvZTkHgBVbLbd77pB2onfUw9yEPnWnF4IkAwaisyXYMCGjEkaGnLd43mSg7TkuYf5UwgVifk7QVN7fJCILGN0ksYNQtHE4Dw5UupYSLaERXARj5ATdTktnH9",
+              "received": false
+            }
+          ],
+          "total_price": 44120,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-hSTGUe1f5APGZrDRhjyqtZw5YmI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695846251c508c5d5e7830ab",
+        "email": "Jayne.Kuhlman9@hotmail.com",
+        "name": "Kellen Jacobi",
+        "country": "Ukraine",
+        "city": "New Marianoboro",
+        "street": "Yundt Burgs",
+        "house": 28,
+        "flat": 498,
+        "phone": "+18737937053",
+        "createdOn": "2026-01-02T22:26:45.000Z",
+        "notes": "75WGquRbC80GY5T8e7PxeeGaEuCWclO3o6tYBBbZavdv1urOU4e8F6TMUZqOdztPy2bcSIXaRuY5XMw9B9d26OSFyaaoYqtsquAYhrkRe8na0t4WLLxCSM9xmUzXLJKqXxns2ANXVEuuwqqDhDn5KWMQBOaSzinm1UGi5oFTpZ9Dfa0uqApYgs0BfIo9mOzuJbbHWKVZ5SV9LfLOqTs7SoWLmTO28TGUJ1v2ZYmUUZ0WtcHCWdJkOuhqxJ"
+      },
+      "products": [
+        {
+          "_id": "695846281c508c5d5e7832a4",
+          "name": "Keyboard84940",
+          "amount": 394,
+          "price": 33067,
+          "manufacturer": "Sony",
+          "notes": "xqWB8PJM0d2CaAQ2AgXooPXCdD7MGkPV7jiKZhJ0nQnvgGPR6XiiyFzWOnWOqymQn4A62PXBbbA2kjCT8I6iCuuNVPzH8B2PkPBD0ZlZ6u1RuRIaRGd5ZGAeCX3vzQhQlYfuQEsQhMEfYslFybiIFKGRmOhj5Ju9qKD0zo2GLoyANvkchoJN0SG7Ju8Z3ppaNZQhuLJtPgIf3KOlWLAipy9NSwXMUuYqHUJWMJH2tuBvteBhWLKRkZuwmo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33067,
+      "createdOn": "2026-01-02T22:26:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695846251c508c5d5e7830ab",
+          "products": [
+            {
+              "_id": "695846281c508c5d5e7832a4",
+              "name": "Keyboard84940",
+              "amount": 394,
+              "price": 33067,
+              "manufacturer": "Sony",
+              "notes": "xqWB8PJM0d2CaAQ2AgXooPXCdD7MGkPV7jiKZhJ0nQnvgGPR6XiiyFzWOnWOqymQn4A62PXBbbA2kjCT8I6iCuuNVPzH8B2PkPBD0ZlZ6u1RuRIaRGd5ZGAeCX3vzQhQlYfuQEsQhMEfYslFybiIFKGRmOhj5Ju9qKD0zo2GLoyANvkchoJN0SG7Ju8Z3ppaNZQhuLJtPgIf3KOlWLAipy9NSwXMUuYqHUJWMJH2tuBvteBhWLKRkZuwmo",
+              "received": false
+            }
+          ],
+          "total_price": 33067,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846291c508c5d5e7832fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

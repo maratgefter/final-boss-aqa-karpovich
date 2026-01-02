@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-KpoHjuqtzw6YecLghkowLMjhMN0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958460e1c508c5d5e78247e",
+        "email": "Christ_Cremin63@gmail.com",
+        "name": "Kole Schmeler",
+        "country": "France",
+        "city": "Towson",
+        "street": "Yundt Mills",
+        "house": 3,
+        "flat": 821,
+        "phone": "+16924713957",
+        "createdOn": "2026-01-02T22:26:22.000Z",
+        "notes": "ZUyxAYFYZifsOculCS0GcEWFJe4tl9soUYlm1MwIFWy7JZZNNyyiHArFXYnMVaAeLoqBKh8MBDzG4du9ZztQ4POE6TTehDBW17mkUg7HvbwbL1yMyuuo14c0d4Zz3uKZkTHcti8DsVd0cMIXDVinM3exLTXk8LoY8WWM43JHLvVZv6E9fr53peEv1tS9FBvnKyq6nxU96jtjeFRmbOS1WOZWu3FNIYiAHOvHKOPUdttndagPvWZYpHkvH9"
+      },
+      "products": [
+        {
+          "_id": "6958460f1c508c5d5e78250a",
+          "name": "Keyboard35190",
+          "amount": 314,
+          "price": 30516,
+          "manufacturer": "Samsung",
+          "notes": "kcGHO6rTx6KvCPmEP77LDg4xPjkWJNwSgkBDYGeZf3LVqYteu40vFDPDW3kYjUQ9QN5JjMMoEK6Uj6Hkoweqnu8ZHIMDcrg3Z96yXhJpO8J7d0JijID21cdQAVkjZCA6J47novhrYzHM2fdXG1KagTB3LgdYeGOk66Can6QKaY7HLeFiHRztwv1258AQiQbibhDFk0BwCYJZEDXHzRf6y8c1UD3D0kb3RtTIbhuwcYNOe7woEWEGIhsG0X",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30516,
+      "createdOn": "2026-01-02T22:26:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958460e1c508c5d5e78247e",
+          "products": [
+            {
+              "_id": "6958460f1c508c5d5e78250a",
+              "name": "Keyboard35190",
+              "amount": 314,
+              "price": 30516,
+              "manufacturer": "Samsung",
+              "notes": "kcGHO6rTx6KvCPmEP77LDg4xPjkWJNwSgkBDYGeZf3LVqYteu40vFDPDW3kYjUQ9QN5JjMMoEK6Uj6Hkoweqnu8ZHIMDcrg3Z96yXhJpO8J7d0JijID21cdQAVkjZCA6J47novhrYzHM2fdXG1KagTB3LgdYeGOk66Can6QKaY7HLeFiHRztwv1258AQiQbibhDFk0BwCYJZEDXHzRf6y8c1UD3D0kb3RtTIbhuwcYNOe7woEWEGIhsG0X",
+              "received": false
+            }
+          ],
+          "total_price": 30516,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958460f1c508c5d5e78259a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

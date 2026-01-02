@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:28:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4093",
+    "etag": "W/\"ffd-dvs+eVIiR178D+u1fmwgQwheD8Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695846861c508c5d5e786e30",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958467f1c508c5d5e786a59",
+        "email": "Brandt_Orn@gmail.com",
+        "name": "Norval Schiller",
+        "country": "France",
+        "city": "Anchorage",
+        "street": "Berta Meadow",
+        "house": 50,
+        "flat": 373,
+        "phone": "+16084368120",
+        "createdOn": "2026-01-02T22:28:15.000Z",
+        "notes": "T8FZvrlNS3aMfOHm4U7VyiLZiWFkxPQc1R5NpKACcQKkus0SWwqHsCgVSDekDll5EbqDkpyndtcKAE6ZyBT3OMOVKPPJ4JKh5kyd2itGzaOhM6uMWCEWOB1U6ABuJa9eJeSGM5w0ed6efOZNITNokRasNmmffJjvNdklrMumQFZeC2WEurkzS8VfwMNthiftCvrLS2h2rMgqeCYuZUndfa9xMWGsgHVP6cfoKaWjXFMUbJgt6M5MhMZg0q"
+      },
+      "products": [
+        {
+          "_id": "695846811c508c5d5e786b03",
+          "name": "Tuna14004",
+          "amount": 322,
+          "price": 34185,
+          "manufacturer": "Google",
+          "notes": "piX8XO5y0zlHDWUnzMaBSnlyuCwIVy7QnkcUnsaPKydaFVAALbNq5iTbjXcoJ4CqySgWQQEBXIBa5iuPfzfvxjNxhSeUQJdTgRcRPMqf0Npvt7yUr0htUcCvpmgHjree4HydN6iob44PijEIjCXHKZjTgdlSuU9w0WfJ4kyJYGa8oq00RlaPnBhNas3VGIXZ0nEtKI1tphysvsp2Ip6warZRXbn64CjLnDLDYUJUEd0HLh7J8yaACpLiAZ",
+          "received": false
+        },
+        {
+          "_id": "695846831c508c5d5e786c88",
+          "name": "Gloves47928",
+          "amount": 710,
+          "price": 20210,
+          "manufacturer": "Amazon",
+          "notes": "LeAvY2Ka2JBB2oJm4cTnvF9vD7oZoWp3gTyMdABkznHvwUQw4LaoiybUlbe6UQ6F3xH7N8bm6G8wIL9ZMnQkLznVtRwDFjYyQCOWAGtZQWH9WlG74pBN7taPnUmLTm8lSiYgwaPfFFHD2mYJDnQlej9pAglmj6JtXyGhjSh21SlgZERr8JIKTtEko89cJ0Gwm6ixVsgjo0hB6gnLDTxaU5vedkdGnd4GOXHYbhr0j0GwQBy76kEli9KQAf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Anchorage",
+          "street": "Berta Meadow",
+          "house": 50,
+          "flat": 373
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 54395,
+      "createdOn": "2026-01-02T22:28:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958467f1c508c5d5e786a59",
+          "products": [
+            {
+              "_id": "695846811c508c5d5e786b03",
+              "name": "Tuna14004",
+              "amount": 322,
+              "price": 34185,
+              "manufacturer": "Google",
+              "notes": "piX8XO5y0zlHDWUnzMaBSnlyuCwIVy7QnkcUnsaPKydaFVAALbNq5iTbjXcoJ4CqySgWQQEBXIBa5iuPfzfvxjNxhSeUQJdTgRcRPMqf0Npvt7yUr0htUcCvpmgHjree4HydN6iob44PijEIjCXHKZjTgdlSuU9w0WfJ4kyJYGa8oq00RlaPnBhNas3VGIXZ0nEtKI1tphysvsp2Ip6warZRXbn64CjLnDLDYUJUEd0HLh7J8yaACpLiAZ",
+              "received": false
+            },
+            {
+              "_id": "695846831c508c5d5e786c88",
+              "name": "Gloves47928",
+              "amount": 710,
+              "price": 20210,
+              "manufacturer": "Amazon",
+              "notes": "LeAvY2Ka2JBB2oJm4cTnvF9vD7oZoWp3gTyMdABkznHvwUQw4LaoiybUlbe6UQ6F3xH7N8bm6G8wIL9ZMnQkLznVtRwDFjYyQCOWAGtZQWH9WlG74pBN7taPnUmLTm8lSiYgwaPfFFHD2mYJDnQlej9pAglmj6JtXyGhjSh21SlgZERr8JIKTtEko89cJ0Gwm6ixVsgjo0hB6gnLDTxaU5vedkdGnd4GOXHYbhr0j0GwQBy76kEli9KQAf",
+              "received": false
+            }
+          ],
+          "total_price": 54395,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Anchorage",
+              "street": "Berta Meadow",
+              "house": 50,
+              "flat": 373
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:28:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958467f1c508c5d5e786a59",
+          "products": [
+            {
+              "_id": "695846811c508c5d5e786b03",
+              "name": "Tuna14004",
+              "amount": 322,
+              "price": 34185,
+              "manufacturer": "Google",
+              "notes": "piX8XO5y0zlHDWUnzMaBSnlyuCwIVy7QnkcUnsaPKydaFVAALbNq5iTbjXcoJ4CqySgWQQEBXIBa5iuPfzfvxjNxhSeUQJdTgRcRPMqf0Npvt7yUr0htUcCvpmgHjree4HydN6iob44PijEIjCXHKZjTgdlSuU9w0WfJ4kyJYGa8oq00RlaPnBhNas3VGIXZ0nEtKI1tphysvsp2Ip6warZRXbn64CjLnDLDYUJUEd0HLh7J8yaACpLiAZ",
+              "received": false
+            },
+            {
+              "_id": "695846831c508c5d5e786c88",
+              "name": "Gloves47928",
+              "amount": 710,
+              "price": 20210,
+              "manufacturer": "Amazon",
+              "notes": "LeAvY2Ka2JBB2oJm4cTnvF9vD7oZoWp3gTyMdABkznHvwUQw4LaoiybUlbe6UQ6F3xH7N8bm6G8wIL9ZMnQkLznVtRwDFjYyQCOWAGtZQWH9WlG74pBN7taPnUmLTm8lSiYgwaPfFFHD2mYJDnQlej9pAglmj6JtXyGhjSh21SlgZERr8JIKTtEko89cJ0Gwm6ixVsgjo0hB6gnLDTxaU5vedkdGnd4GOXHYbhr0j0GwQBy76kEli9KQAf",
+              "received": false
+            }
+          ],
+          "total_price": 54395,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:28:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

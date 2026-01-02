@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-hXggPyWqqqWaKSC/1pyGGr9H2oU\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958460b1c508c5d5e782359",
+        "email": "Kade8@gmail.com",
+        "name": "Elwin Brekke",
+        "country": "Belarus",
+        "city": "Candiceview",
+        "street": "Beatty Circles",
+        "house": 9,
+        "flat": 639,
+        "phone": "+13313196885",
+        "createdOn": "2026-01-02T22:26:19.000Z",
+        "notes": "RFNbf1I3FPtgb7irWd5S5FpXUaCjRXQyPkdxIYV1uNcTX3SRnjJFekqgKrZbXicNnib1Af6LDC57DKzOmwArqaeUelqlVqvoCCc7SPNGRbiYDGg4YctEZrFVm2KPTMZxaaoKlI8AkAoWAL021GOMrFEmAr81P2tEqn6PfdGyxWt2v7QnZ4C684ww8EsY7z0VsbFy8HnHRdJMe5AjW1PKAt6kG0t3mMtjMs6IPwcnyAJiMdf1xk8HWzNygs"
+      },
+      "products": [
+        {
+          "_id": "6958460c1c508c5d5e7823b6",
+          "name": "Chair82138",
+          "amount": 955,
+          "price": 95215,
+          "manufacturer": "Google",
+          "notes": "2xWjfmGC40K2YvknCmpOrbrhKGdZEJGLNN8PmtzjvhDDf7ixuyl3DvFJCCZoPYyUr8O5pIOj2qQc4CY3NPuR8eEF6jBM7me8uJVIpFFSnvYizwXEQEXvRpv0S43XuCu8Ut0gvLZf9y9URwPSTKvN0vFivh4uZtIVrhEQCvzEzXWG5fbCqxUnAtocrJOVn86DZCZUYYXBNZw3iZqktTlvlVQQOBJvK8NY2vjpRUVbRFCy7ZZd0ALEm41u4Y",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95215,
+      "createdOn": "2026-01-02T22:26:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958460b1c508c5d5e782359",
+          "products": [
+            {
+              "_id": "6958460c1c508c5d5e7823b6",
+              "name": "Chair82138",
+              "amount": 955,
+              "price": 95215,
+              "manufacturer": "Google",
+              "notes": "2xWjfmGC40K2YvknCmpOrbrhKGdZEJGLNN8PmtzjvhDDf7ixuyl3DvFJCCZoPYyUr8O5pIOj2qQc4CY3NPuR8eEF6jBM7me8uJVIpFFSnvYizwXEQEXvRpv0S43XuCu8Ut0gvLZf9y9URwPSTKvN0vFivh4uZtIVrhEQCvzEzXWG5fbCqxUnAtocrJOVn86DZCZUYYXBNZw3iZqktTlvlVQQOBJvK8NY2vjpRUVbRFCy7ZZd0ALEm41u4Y",
+              "received": false
+            }
+          ],
+          "total_price": 95215,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958460c1c508c5d5e7823d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

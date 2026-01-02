@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-H3HdWrdLyCvnlf07m9yTQSzhNks\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695845fe1c508c5d5e781d9b",
+        "email": "Lesly_Kerluke@hotmail.com",
+        "name": "Roberto Waters",
+        "country": "France",
+        "city": "West Fridaside",
+        "street": "Carli Park",
+        "house": 11,
+        "flat": 373,
+        "phone": "+14663505858",
+        "createdOn": "2026-01-02T22:26:06.000Z",
+        "notes": "aTd2vyCstghlIdLKxiijsd0JNuzEo4QsN69PBlfpArP9dnm8xgk1yUXAZizE6bzl31Et9At3jjRr5ZszsWbddvv2oydTpqJXKzJcTlCLlsc1vwJICBEzCU1TKCeQFqfHr449vnvrTTsTLc7GNYs5F7zJkkJledgAVnyAWqT96zQ4uCGRp3pkTae5I2nw5BHtjZyfskLDSHD7d6uQVaBbdzEZDEzmd4b4BSMovC9DAT7ps441sdCTryZxUW"
+      },
+      "products": [
+        {
+          "_id": "695845ff1c508c5d5e781e35",
+          "name": "Bacon73419",
+          "amount": 797,
+          "price": 5426,
+          "manufacturer": "Sony",
+          "notes": "np2ZdoowRVPhBOSRsVDwOV06BsjrBJmv7DeggLHp7lzt6SIyZUe7rnUkT14zzKIC3DoL7hPT6NRCbFDh4WaKPhR6TnZYjfMF9ySSp5NXOvHhGnI48vVG44exArtDxKmwLVbCtFtRAvUm8rn4Ij6lYuMRcTFZ4oQ9qmw4nTmUgmDI4rJhg69zujoAFJE5Dumdz2YYWjagSy9CUWkw15F67QKqyCq9JCrkQJZyPwyAtaGKFeCtJ8axJwELqd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5426,
+      "createdOn": "2026-01-02T22:26:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695845fe1c508c5d5e781d9b",
+          "products": [
+            {
+              "_id": "695845ff1c508c5d5e781e35",
+              "name": "Bacon73419",
+              "amount": 797,
+              "price": 5426,
+              "manufacturer": "Sony",
+              "notes": "np2ZdoowRVPhBOSRsVDwOV06BsjrBJmv7DeggLHp7lzt6SIyZUe7rnUkT14zzKIC3DoL7hPT6NRCbFDh4WaKPhR6TnZYjfMF9ySSp5NXOvHhGnI48vVG44exArtDxKmwLVbCtFtRAvUm8rn4Ij6lYuMRcTFZ4oQ9qmw4nTmUgmDI4rJhg69zujoAFJE5Dumdz2YYWjagSy9CUWkw15F67QKqyCq9JCrkQJZyPwyAtaGKFeCtJ8axJwELqd",
+              "received": false
+            }
+          ],
+          "total_price": 5426,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695845ff1c508c5d5e781e46"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

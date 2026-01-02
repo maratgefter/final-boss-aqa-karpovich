@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-kRrp+2JLz1tBc6oIhbdUuB8tlDM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695846251c508c5d5e7830a9",
+        "email": "Jovani_Skiles@yahoo.com",
+        "name": "Tavares Lebsack",
+        "country": "Canada",
+        "city": "East Viva",
+        "street": "Clark Street",
+        "house": 1,
+        "flat": 28,
+        "phone": "+13562966846",
+        "createdOn": "2026-01-02T22:26:45.000Z",
+        "notes": "h2NSkVcdLzDM2ZAnvWWDqkJczPyP6ILAaWGCdOM5SDZ4hyKo46YoQrpg9LAFCFLHkxZb9gR1pZyHe2G5RUYE8vOxoyBzTTQvcz4BsfPQXFcBjZKXWOfn0DRu1WTkURZjyTBB1S0UwWFaqMPwcPLQqZ7WhDax2Go9ARGGr6mkwqTOVHBb5O4aMaHfMXPUk2A495SuENsIJkSJnKeTNU6WrzsQvdMIVTUurvwSBVrW5HWFnpzgNekkc8HuC2"
+      },
+      "products": [
+        {
+          "_id": "695846281c508c5d5e7832a2",
+          "name": "Tuna52305",
+          "amount": 894,
+          "price": 46713,
+          "manufacturer": "Apple",
+          "notes": "HVVMJwV0bK95dbzh42zPVNovCm9pDpcHLYuxVrAJPftp5T4syT15ZJBCOcRZAkC2A8DO1amYQ1o7NnJ1hji3YXVVEVWCGaSmbYZ7Jtpv6TGEuLrIW6ORoGNVkerAw16OOHcVFs5XpEA9kCuB4pBAVCaWOz5dQ0IfIridTNdS8wJ3141p4gyXgypsAOdQ9vYaFcy6JT0sjAN25sLz1ATOrGlgZ5Y0L1CLQ86tN3iG5Um9FfjPKWtmV0CMKE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46713,
+      "createdOn": "2026-01-02T22:26:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695846251c508c5d5e7830a9",
+          "products": [
+            {
+              "_id": "695846281c508c5d5e7832a2",
+              "name": "Tuna52305",
+              "amount": 894,
+              "price": 46713,
+              "manufacturer": "Apple",
+              "notes": "HVVMJwV0bK95dbzh42zPVNovCm9pDpcHLYuxVrAJPftp5T4syT15ZJBCOcRZAkC2A8DO1amYQ1o7NnJ1hji3YXVVEVWCGaSmbYZ7Jtpv6TGEuLrIW6ORoGNVkerAw16OOHcVFs5XpEA9kCuB4pBAVCaWOz5dQ0IfIridTNdS8wJ3141p4gyXgypsAOdQ9vYaFcy6JT0sjAN25sLz1ATOrGlgZ5Y0L1CLQ86tN3iG5Um9FfjPKWtmV0CMKE",
+              "received": false
+            }
+          ],
+          "total_price": 46713,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846291c508c5d5e7832f8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

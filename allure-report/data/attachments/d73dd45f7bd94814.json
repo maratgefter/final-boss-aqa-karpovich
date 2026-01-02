@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-mVctDI0F9BHgAwMbJDW54qXtmTM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958460b1c508c5d5e78237e",
+        "email": "Tracey80@gmail.com",
+        "name": "Cayla Oberbrunner",
+        "country": "Germany",
+        "city": "Uptonchester",
+        "street": "Smitham Mills",
+        "house": 16,
+        "flat": 198,
+        "phone": "+17033378076",
+        "createdOn": "2026-01-02T22:26:19.000Z",
+        "notes": "8yTxF4PEUQ0DYiGOFuJKaLmHWFYMihxiM29RqzcZTQ9UtQImpN8hw9866H6CTyjqX68bewA5rljLzz7L9g23ksSLRbi24HiwscAQ9rLtMH7R66A9PHKWWIOjrdZuKyaJ8pG394gtuVIpHFv3BbzaeLvJjbbFoljnMrBOcXhKVk3QXiw9eCECqaTXoqhiBUNu3jHGATe6Qfhc3HuTePQIBly482t9w2iIo3EvT1iLSBlAcWRoQ1pUYXeAKk"
+      },
+      "products": [
+        {
+          "_id": "6958460c1c508c5d5e7823eb",
+          "name": "Soap24373",
+          "amount": 535,
+          "price": 13587,
+          "manufacturer": "Amazon",
+          "notes": "v0GkkN4GQ9KmNUAhFCNVh4Igfvy49gL86YdVRjrZFb3xOGUKRosLnGeod8anAS9MGhEt8n9F6atPOJ5YoSKLCw6FqoBPIQItQPru7ityGJHEQHLY1A4qBngrnGFINIBeRFW54BBLx81kk0WCC5jq4Bbmb8RuBxC2hzEpbOMxYQT8CX9gUBYr988VtyqePNprhU6gujMtV1kj7smvFVUjTwYmr9HoEy7YuyHjkvco5cF6wG8pGhuR67lKqT",
+          "received": false
+        },
+        {
+          "_id": "6958460e1c508c5d5e78247a",
+          "name": "Chair71182",
+          "amount": 484,
+          "price": 38929,
+          "manufacturer": "Apple",
+          "notes": "T2vC1qR87ueqWq3WO6YBJ3mPQAaelGoCPB0llNX4blXliaWW21H56oJy3pqrEfw9b1SUz5UwvflBVAjRgvd4fcA0PSowqTMNmpDuC6fcvKyz8x9WjQqBAq9Wx01dOgh0D8i07s664V9GxIAoG8RI59RZhKXL7zVwmXwY3neD1KTTmp1yTnPkQMuf9xqV7Dbi4CgqPWDS2fmgGnjnlCmdfm1wykF0hyszpLrwCDpvkKLRR1H7pPTaXTvwnX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52516,
+      "createdOn": "2026-01-02T22:26:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958460b1c508c5d5e78237e",
+          "products": [
+            {
+              "_id": "6958460c1c508c5d5e7823eb",
+              "name": "Soap24373",
+              "amount": 535,
+              "price": 13587,
+              "manufacturer": "Amazon",
+              "notes": "v0GkkN4GQ9KmNUAhFCNVh4Igfvy49gL86YdVRjrZFb3xOGUKRosLnGeod8anAS9MGhEt8n9F6atPOJ5YoSKLCw6FqoBPIQItQPru7ityGJHEQHLY1A4qBngrnGFINIBeRFW54BBLx81kk0WCC5jq4Bbmb8RuBxC2hzEpbOMxYQT8CX9gUBYr988VtyqePNprhU6gujMtV1kj7smvFVUjTwYmr9HoEy7YuyHjkvco5cF6wG8pGhuR67lKqT",
+              "received": false
+            },
+            {
+              "_id": "6958460e1c508c5d5e78247a",
+              "name": "Chair71182",
+              "amount": 484,
+              "price": 38929,
+              "manufacturer": "Apple",
+              "notes": "T2vC1qR87ueqWq3WO6YBJ3mPQAaelGoCPB0llNX4blXliaWW21H56oJy3pqrEfw9b1SUz5UwvflBVAjRgvd4fcA0PSowqTMNmpDuC6fcvKyz8x9WjQqBAq9Wx01dOgh0D8i07s664V9GxIAoG8RI59RZhKXL7zVwmXwY3neD1KTTmp1yTnPkQMuf9xqV7Dbi4CgqPWDS2fmgGnjnlCmdfm1wykF0hyszpLrwCDpvkKLRR1H7pPTaXTvwnX",
+              "received": false
+            }
+          ],
+          "total_price": 52516,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958460e1c508c5d5e7824a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

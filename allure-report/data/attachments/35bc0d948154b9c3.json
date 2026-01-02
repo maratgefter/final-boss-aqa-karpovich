@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:27:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3423",
+    "etag": "W/\"d5f-a/YbiIBz/Lw1dWFQILh9UGzepNM\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958464e1c508c5d5e784ab5",
+        "email": "Modesta.Beahan@yahoo.com",
+        "name": "Orville Beier",
+        "country": "France",
+        "city": "Cranston",
+        "street": "Larch Close",
+        "house": 30,
+        "flat": 211,
+        "phone": "+17948914968",
+        "createdOn": "2026-01-02T22:27:26.000Z",
+        "notes": "6adGZK8osvQc4F7NqIeLTEJDpcWjMR2QmJ9r5jV6u2G3JVoPokqlscexpFvzJJHOQX94YRf6qAqGJ91paS1YWjDyX9IPqA65PiNbmDqkS10TLVG8EkPzlw3ov0KAoX3d1fH1hQnctBqVGdVuwgH6dhNrsNHnvJAyHuVk2WHJY4ciRLWHeIAf3s4vOfUdd28b7YFbWUzAHACn8ik7hYdnsD9Zv8x7ZQw9tJn5ntOH3AS3OJfljrCzROsNbb"
+      },
+      "products": [
+        {
+          "_id": "695846501c508c5d5e784bdb",
+          "name": "Computer76859",
+          "amount": 755,
+          "price": 48956,
+          "manufacturer": "Samsung",
+          "notes": "V2y4z3WkBuRQMMYAZiaWqgX2mRtahPVMqtfnlnwaYPmh08S8Bkxt9K8BDZM45uJxDOrvjey63sDyEjyQWj7mx2fOg8yxblPrWvwesrTv8DepvDUEaRSFtetRyWqHKbOorvNRbK3lsPlt9N6wCSpGZo8q9S6ZsCkYwapN6SDtruVXoiGmRsquaqLUGgLe7Z9yCjHgorEatFELIHgh3ECZPQRVYv3H5dRUXV2cYhOhzHVAo7dg6YIyeZeus9",
+          "received": false
+        },
+        {
+          "_id": "695846521c508c5d5e784c46",
+          "name": "Shirt55068",
+          "amount": 671,
+          "price": 74802,
+          "manufacturer": "Sony",
+          "notes": "SzIn0DNauABldDZId84ivq83iWJz4VZyhy4lmXLXsRUI2TCu6VlrW9nFRggiOdjahaAne3QE34aYWkd26FVaqqLzBpIr4trVSQJP7z59c6u3N5O0sR7ryUcFoMS20AB7VZinmt20ThBNDDhDhUUCzSRjoRbynm36jipYsEZIo0FSTY7DMn4sIIoAf40CDI4R6jAWYU5gP6PMk2q2PLYTBIcVwJJLlJrZwXSLh2S6NyRDKRsaTj5ptcshDj",
+          "received": false
+        },
+        {
+          "_id": "695846531c508c5d5e784d21",
+          "name": "Bike69323",
+          "amount": 30,
+          "price": 85850,
+          "manufacturer": "Microsoft",
+          "notes": "dblJP0rx2s0vAijABvhLO6yxLAqfqoOgll2WefVc8eqPzRI5L1MSWmQEAerclV9CkYFUcqffItQjtabjyd0DHQq6kNxS3qDlm3NN36OxLZ4B1eHC4Bhu3yn4lTrsEpFmGns1Qz12JTKQZAbLm4QRAoyYpEezPSkYaKDdeRQ7iN93fUW5nLjKHELYg9fqnp1Krh5H0s7ZTxz1dDrnwezCYHmM5MUrrzZgGNhVTi2kHbhfo7TpXzCAz2xCiW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 209608,
+      "createdOn": "2026-01-02T22:27:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958464e1c508c5d5e784ab5",
+          "products": [
+            {
+              "_id": "695846501c508c5d5e784bdb",
+              "name": "Computer76859",
+              "amount": 755,
+              "price": 48956,
+              "manufacturer": "Samsung",
+              "notes": "V2y4z3WkBuRQMMYAZiaWqgX2mRtahPVMqtfnlnwaYPmh08S8Bkxt9K8BDZM45uJxDOrvjey63sDyEjyQWj7mx2fOg8yxblPrWvwesrTv8DepvDUEaRSFtetRyWqHKbOorvNRbK3lsPlt9N6wCSpGZo8q9S6ZsCkYwapN6SDtruVXoiGmRsquaqLUGgLe7Z9yCjHgorEatFELIHgh3ECZPQRVYv3H5dRUXV2cYhOhzHVAo7dg6YIyeZeus9",
+              "received": false
+            },
+            {
+              "_id": "695846521c508c5d5e784c46",
+              "name": "Shirt55068",
+              "amount": 671,
+              "price": 74802,
+              "manufacturer": "Sony",
+              "notes": "SzIn0DNauABldDZId84ivq83iWJz4VZyhy4lmXLXsRUI2TCu6VlrW9nFRggiOdjahaAne3QE34aYWkd26FVaqqLzBpIr4trVSQJP7z59c6u3N5O0sR7ryUcFoMS20AB7VZinmt20ThBNDDhDhUUCzSRjoRbynm36jipYsEZIo0FSTY7DMn4sIIoAf40CDI4R6jAWYU5gP6PMk2q2PLYTBIcVwJJLlJrZwXSLh2S6NyRDKRsaTj5ptcshDj",
+              "received": false
+            },
+            {
+              "_id": "695846531c508c5d5e784d21",
+              "name": "Bike69323",
+              "amount": 30,
+              "price": 85850,
+              "manufacturer": "Microsoft",
+              "notes": "dblJP0rx2s0vAijABvhLO6yxLAqfqoOgll2WefVc8eqPzRI5L1MSWmQEAerclV9CkYFUcqffItQjtabjyd0DHQq6kNxS3qDlm3NN36OxLZ4B1eHC4Bhu3yn4lTrsEpFmGns1Qz12JTKQZAbLm4QRAoyYpEezPSkYaKDdeRQ7iN93fUW5nLjKHELYg9fqnp1Krh5H0s7ZTxz1dDrnwezCYHmM5MUrrzZgGNhVTi2kHbhfo7TpXzCAz2xCiW",
+              "received": false
+            }
+          ],
+          "total_price": 209608,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:27:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846541c508c5d5e784d53"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

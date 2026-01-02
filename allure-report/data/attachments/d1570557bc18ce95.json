@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:26:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-AFw+AW5Hlk8AQPuDJhbmmFoF/lA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695846251c508c5d5e7830a7",
+        "email": "Tyra_Schultz@yahoo.com",
+        "name": "Marian Murazik",
+        "country": "France",
+        "city": "Yundtchester",
+        "street": "Spencer Expressway",
+        "house": 48,
+        "flat": 72,
+        "phone": "+17374397393",
+        "createdOn": "2026-01-02T22:26:45.000Z",
+        "notes": "ttRveGwPE5TfhxTIqeHn6Sc27KHJs5YapJRv0hkx6In4YVyMgih053L4owx2X7vwbaKlpHp3fF4u1nybtgAmNnHzy2a5X0gaucmBFKxVgP0eBAE72e2ksgQYSpeQrJLpOnDuVWSg14D1l8A4Y1INZfXlIl9j7nf1JO2XnxTu7vHOzuvO91VfRs2elUujNA3GLCxGSQ1dzy30f0MCRxkAZdmQ5BQ3HjiOGrYnqR2ZF2dn9QzV85a7cR33VO"
+      },
+      "products": [
+        {
+          "_id": "695846281c508c5d5e7832a6",
+          "name": "Shirt80462",
+          "amount": 209,
+          "price": 30485,
+          "manufacturer": "Amazon",
+          "notes": "EBJZX6qGmchaZuWCNhgPcs5TQ0gmjJljQXtS3tesankKg6GHo98Pk2OEEFJ4N5PNk7zcHQvDFXtP5oX1eOHqnX4GVhUq7MJ8r6sOaZUyf2FWqSRj0GDgC5MvJSAGKOyd6NMG7cgr81rButDUvrYwxjDdSDAHaYZoeIHCL4qvJaW9O0uLP61pv6y5lJWUCEKS6J8p0DGou3aiBXt2IZJd7n1jGsoS48RW2EHGdM6N14ePdx8UO06cg2UENi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30485,
+      "createdOn": "2026-01-02T22:26:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695846251c508c5d5e7830a7",
+          "products": [
+            {
+              "_id": "695846281c508c5d5e7832a6",
+              "name": "Shirt80462",
+              "amount": 209,
+              "price": 30485,
+              "manufacturer": "Amazon",
+              "notes": "EBJZX6qGmchaZuWCNhgPcs5TQ0gmjJljQXtS3tesankKg6GHo98Pk2OEEFJ4N5PNk7zcHQvDFXtP5oX1eOHqnX4GVhUq7MJ8r6sOaZUyf2FWqSRj0GDgC5MvJSAGKOyd6NMG7cgr81rButDUvrYwxjDdSDAHaYZoeIHCL4qvJaW9O0uLP61pv6y5lJWUCEKS6J8p0DGou3aiBXt2IZJd7n1jGsoS48RW2EHGdM6N14ePdx8UO06cg2UENi",
+              "received": false
+            }
+          ],
+          "total_price": 30485,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:26:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695846291c508c5d5e7832fc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
