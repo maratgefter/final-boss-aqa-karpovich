@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:28:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4089",
+    "etag": "W/\"ff9-foNXvdweqUxtOeZkorXT5HFfQ3w\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959980e1c508c5d5e9c1db3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695997fa1c508c5d5e9c12aa",
+        "email": "Abbigail_Jerde@gmail.com",
+        "name": "Jackeline Bechtelar",
+        "country": "USA",
+        "city": "Sengerchester",
+        "street": "Ova Harbor",
+        "house": 14,
+        "flat": 38,
+        "phone": "+12324868950",
+        "createdOn": "2026-01-03T22:28:10.000Z",
+        "notes": "RCsxFWYGTEQgUW5QjRhEFoe62uJ3Feog71tFeByRiTqBDKrnnFVco3h64EVRMh2hvMKTfiMIwzyh4wu2sxh53RJ3BX8Ath1emQlTSX9ui1Nb1lR4knWoSWw64fpAvaQCK80DXXhWFd78T7oGUZyJryfZgBUae4lfVZyqMLkTitenUEi85veufEqWY6THwnRGZU40VjeM7wB5Wzm8dJRXtH3b9HtoKLsvDYk9d6cIrwu4eec0vCUYVjrz48"
+      },
+      "products": [
+        {
+          "_id": "695997fd1c508c5d5e9c1c6d",
+          "name": "Shirt92919",
+          "amount": 627,
+          "price": 20851,
+          "manufacturer": "Apple",
+          "notes": "YIP2bk3SLuduQOThFM4NMn1eRhldC5e9suxsMjibazH8HMKBgjHBGhK8ZNVMPheY8Ndh41xX2QMmBddbalnDqtuTT8heoZ8NvQnCvglaCJCqiWVfKzDx4DeTScIKOcKsAFkOyzKyxDvLd8Su3rhcUXTTMNKVxNO3sXrr7Y3BntQjfmvMQLWBklvHGs2VO9FZB1O2WQu1bO4fIfYQebyEEPKVQFtrWJbOKK3b5LGDFkHBdPASzM3r1dCuv4",
+          "received": false
+        },
+        {
+          "_id": "6959980d1c508c5d5e9c1d93",
+          "name": "Chips30328",
+          "amount": 210,
+          "price": 2387,
+          "manufacturer": "Amazon",
+          "notes": "R7ON3NCN8KxDIMskzC7UjrqtStgCsDzjN1X3Z18XSyC5yO99mGzaX8788RGx0kRUaKVaQpyo5gofsPb7FUOZEhQHP22z9L9wQklPLr8Zowh8FrPNtciznH9HMrST78TWlLbpD90UUMieAEpIPXsHxzHe7EdIloFGEu5PizMMSNyz9CCULIYZwTuMxVVkjgFE16ZoA7yXd64dtvHewOffEIH0wdLUcyiunGkJsSaYITarjEwoKCivxSKMMn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Sengerchester",
+          "street": "Ova Harbor",
+          "house": 14,
+          "flat": 38
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 23238,
+      "createdOn": "2026-01-03T22:28:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997fa1c508c5d5e9c12aa",
+          "products": [
+            {
+              "_id": "695997fd1c508c5d5e9c1c6d",
+              "name": "Shirt92919",
+              "amount": 627,
+              "price": 20851,
+              "manufacturer": "Apple",
+              "notes": "YIP2bk3SLuduQOThFM4NMn1eRhldC5e9suxsMjibazH8HMKBgjHBGhK8ZNVMPheY8Ndh41xX2QMmBddbalnDqtuTT8heoZ8NvQnCvglaCJCqiWVfKzDx4DeTScIKOcKsAFkOyzKyxDvLd8Su3rhcUXTTMNKVxNO3sXrr7Y3BntQjfmvMQLWBklvHGs2VO9FZB1O2WQu1bO4fIfYQebyEEPKVQFtrWJbOKK3b5LGDFkHBdPASzM3r1dCuv4",
+              "received": false
+            },
+            {
+              "_id": "6959980d1c508c5d5e9c1d93",
+              "name": "Chips30328",
+              "amount": 210,
+              "price": 2387,
+              "manufacturer": "Amazon",
+              "notes": "R7ON3NCN8KxDIMskzC7UjrqtStgCsDzjN1X3Z18XSyC5yO99mGzaX8788RGx0kRUaKVaQpyo5gofsPb7FUOZEhQHP22z9L9wQklPLr8Zowh8FrPNtciznH9HMrST78TWlLbpD90UUMieAEpIPXsHxzHe7EdIloFGEu5PizMMSNyz9CCULIYZwTuMxVVkjgFE16ZoA7yXd64dtvHewOffEIH0wdLUcyiunGkJsSaYITarjEwoKCivxSKMMn",
+              "received": false
+            }
+          ],
+          "total_price": 23238,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Sengerchester",
+              "street": "Ova Harbor",
+              "house": 14,
+              "flat": 38
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T22:28:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695997fa1c508c5d5e9c12aa",
+          "products": [
+            {
+              "_id": "695997fd1c508c5d5e9c1c6d",
+              "name": "Shirt92919",
+              "amount": 627,
+              "price": 20851,
+              "manufacturer": "Apple",
+              "notes": "YIP2bk3SLuduQOThFM4NMn1eRhldC5e9suxsMjibazH8HMKBgjHBGhK8ZNVMPheY8Ndh41xX2QMmBddbalnDqtuTT8heoZ8NvQnCvglaCJCqiWVfKzDx4DeTScIKOcKsAFkOyzKyxDvLd8Su3rhcUXTTMNKVxNO3sXrr7Y3BntQjfmvMQLWBklvHGs2VO9FZB1O2WQu1bO4fIfYQebyEEPKVQFtrWJbOKK3b5LGDFkHBdPASzM3r1dCuv4",
+              "received": false
+            },
+            {
+              "_id": "6959980d1c508c5d5e9c1d93",
+              "name": "Chips30328",
+              "amount": 210,
+              "price": 2387,
+              "manufacturer": "Amazon",
+              "notes": "R7ON3NCN8KxDIMskzC7UjrqtStgCsDzjN1X3Z18XSyC5yO99mGzaX8788RGx0kRUaKVaQpyo5gofsPb7FUOZEhQHP22z9L9wQklPLr8Zowh8FrPNtciznH9HMrST78TWlLbpD90UUMieAEpIPXsHxzHe7EdIloFGEu5PizMMSNyz9CCULIYZwTuMxVVkjgFE16ZoA7yXd64dtvHewOffEIH0wdLUcyiunGkJsSaYITarjEwoKCivxSKMMn",
+              "received": false
+            }
+          ],
+          "total_price": 23238,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:28:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

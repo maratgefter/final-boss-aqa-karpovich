@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-0e+RoZ8uJsl5Ot/K+QQYBtmjT4k\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959976f1c508c5d5e9bcf02",
+        "email": "Presley_Mertz81@hotmail.com",
+        "name": "Abdullah Prohaska",
+        "country": "USA",
+        "city": "Fort Yessenia",
+        "street": "Kohler Mountains",
+        "house": 31,
+        "flat": 153,
+        "phone": "+15578003919",
+        "createdOn": "2026-01-03T22:25:51.000Z",
+        "notes": "HA9AVRSCaKoIoozEf28EHn7qh34WtOiQCwDcyIrxjlf7a1oKPhuZclLSjbqWYWM1ZtKddzo6M0lzB4hF3hDKOcvosgiacg2BWFDVXjda72qNKAocHqrzr9XyRQXzV4ajrOy0ggcJKJFejkIR4Resm7UVk1nDPkNIzTkxjCbFsAufq8UkIJim9Ab52nhxTfnztrFUbe4t9eAZwEHR6z6KvivHx4VSHPWqjg1IMpQ2zb3dEW9wupl6vAzIsx"
+      },
+      "products": [
+        {
+          "_id": "695997721c508c5d5e9bd02b",
+          "name": "Car74748",
+          "amount": 180,
+          "price": 66701,
+          "manufacturer": "Tesla",
+          "notes": "FGFoEOyKB60meKApPZVrP1u0fIeTWPtgqaswHy4dItK7EQuVVt5wmnEoa10hNXC1WWD2EBYvumONasfHHnbi9HgGXyeZeiriYLuNFxHLab1GFV8ghCKERli0venbqCgoxIlIBa0efAeFvs5GAeC2RvjlGP5MhjJvumppQy6fWMaMmZM3NpG0A5DOPmhybahBB7JKEglsOUsfUCLStigHuA7joFkdhY58wvpudeYZh3PFRRqcG55ECK0U2Z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66701,
+      "createdOn": "2026-01-03T22:25:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959976f1c508c5d5e9bcf02",
+          "products": [
+            {
+              "_id": "695997721c508c5d5e9bd02b",
+              "name": "Car74748",
+              "amount": 180,
+              "price": 66701,
+              "manufacturer": "Tesla",
+              "notes": "FGFoEOyKB60meKApPZVrP1u0fIeTWPtgqaswHy4dItK7EQuVVt5wmnEoa10hNXC1WWD2EBYvumONasfHHnbi9HgGXyeZeiriYLuNFxHLab1GFV8ghCKERli0venbqCgoxIlIBa0efAeFvs5GAeC2RvjlGP5MhjJvumppQy6fWMaMmZM3NpG0A5DOPmhybahBB7JKEglsOUsfUCLStigHuA7joFkdhY58wvpudeYZh3PFRRqcG55ECK0U2Z",
+              "received": false
+            }
+          ],
+          "total_price": 66701,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997721c508c5d5e9bd051"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

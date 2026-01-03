@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-STUEJQvQyW/bH+7Tly5b8wNiAq4\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959973f1c508c5d5e9bbe9f",
+        "email": "Toby26@hotmail.com",
+        "name": "Concepcion Roberts",
+        "country": "Great Britain",
+        "city": "Christiansenview",
+        "street": "Commerce Street",
+        "house": 47,
+        "flat": 35,
+        "phone": "+16053437833",
+        "createdOn": "2026-01-03T22:25:03.000Z",
+        "notes": "HB6Jp0jmXbg6bNQAPKwD5YlvKEH5jmORorUQSBLcbvu58qRwTF3RBKaZgEK9XArPVFrhKfheASF823OTVLt6Rg3gcFCq0mxUN3ULAjmWVcnSo3FzTriQSm2UfPIpjcG5dMZXddzoWVJmXM2zaBSnIve4GUaTC3VOtT1vZehAtMUzGwDl1ntg018QEvRfipeA7rQckGnrjJP4YKVvaxMOJowPzAqLKgDhUYNy6QcMoh6BMGS8NcvkiFrjXN"
+      },
+      "products": [
+        {
+          "_id": "695997491c508c5d5e9bbfba",
+          "name": "Mouse79589",
+          "amount": 634,
+          "price": 55600,
+          "manufacturer": "Amazon",
+          "notes": "6dUAeHwScc1K42KJv2BvNgrYClvlJDqDcga4SUBlgGDpxa0gp6m5ju80IFcjzG25kvWxqQaJxnhHsKUpGZLzNxvdADnUrmooVZ7u0p3KP8p7FUemoBzoWBkLDEZ67hnZdEcnWFlKBxjaIGfcyTaSl4D1tYPhaP40Yjh5hcQ5LDoXn0Afif6OMY0PF4rWOp9nvY61CZgaNX2Tp7pX5aXZla0KtZLdAbyKvHtzfiw0pKawWX6gLqwPpVS2Xb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55600,
+      "createdOn": "2026-01-03T22:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959973f1c508c5d5e9bbe9f",
+          "products": [
+            {
+              "_id": "695997491c508c5d5e9bbfba",
+              "name": "Mouse79589",
+              "amount": 634,
+              "price": 55600,
+              "manufacturer": "Amazon",
+              "notes": "6dUAeHwScc1K42KJv2BvNgrYClvlJDqDcga4SUBlgGDpxa0gp6m5ju80IFcjzG25kvWxqQaJxnhHsKUpGZLzNxvdADnUrmooVZ7u0p3KP8p7FUemoBzoWBkLDEZ67hnZdEcnWFlKBxjaIGfcyTaSl4D1tYPhaP40Yjh5hcQ5LDoXn0Afif6OMY0PF4rWOp9nvY61CZgaNX2Tp7pX5aXZla0KtZLdAbyKvHtzfiw0pKawWX6gLqwPpVS2Xb",
+              "received": false
+            }
+          ],
+          "total_price": 55600,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959974c1c508c5d5e9bc1d8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

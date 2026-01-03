@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:28:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2666",
+    "etag": "W/\"a6a-CnQAjoXIqiGsSiQCiJZ8uF97U8k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959980c1c508c5d5e9c1d5f",
+        "email": "Haskell.Metz@yahoo.com",
+        "name": "Raphaelle Kris",
+        "country": "Great Britain",
+        "city": "South Zenaport",
+        "street": "The Croft",
+        "house": 46,
+        "flat": 34,
+        "phone": "+19638038774",
+        "createdOn": "2026-01-03T22:28:28.000Z",
+        "notes": "6jAJTyzqCLSp0QYUNo8nChrLx5uV47mk3Hfzr5GbmgNuIl8Vi4VAvsASIbmtwWeqkXFNHMg7JvrgBgWIra8z7k6ufoQxkCElc8ml5Kr1GhfwlNgPwdNgd9L2T0JHDI6ovKSwNTnwivvNnOpohMgGWBI0xUJnOC7ZYXLo1A7mXbUQhRVhreFtpB4x6xt3ZvubFs2bnfDIXEHYXK7WmL5FWuKqjnBm6HhdLccmrDcUXiaQYuop5BIOuzij3S"
+      },
+      "products": [
+        {
+          "_id": "695998101c508c5d5e9c1e2b",
+          "name": "Pants59870",
+          "amount": 37,
+          "price": 14556,
+          "manufacturer": "Microsoft",
+          "notes": "Cmk1hUjtOnRmT6J3nKjdLYFX8twcrNS8kN1dPHEt4kALOkUUPc34BqowU88lVlbEg7HLXxKImRh4Ib0suzu7n7aLT0A3niqxu0zEYDqROKC4lwRGUve7wLJtGTmr0VPq0nTBv9tzSVKsSJI55k2lhIcsEnD4gMalgStugSorqyvpNpFtJEzTg9PYcT0E3yEKT3p0kOBfWIAmL78CcnokTP1WAnvITlUag3UUcZTV5KalFy1EzejWqDwUeT",
+          "received": false
+        },
+        {
+          "_id": "695998151c508c5d5e9c20b5",
+          "name": "Computer54080",
+          "amount": 443,
+          "price": 64454,
+          "manufacturer": "Google",
+          "notes": "HdnVbKSXZnwBukvf7HZDZnpKiFmhUfPhKInxgb16l9zzBXPPe888mNJXC6VC3GeVtxkttHHtdCuvoBBtFpIMMRmP1cifJDEFviSzCNPeKk8wqrrfJHXR1vFMWVZXTNPdHTdMwrxMlCLxchs606W0zC5Ambt4qvb5B5Dm0tI71hsQ5fKrRLx4YofN8JyUieFq2XDhNdshtjFmG5VdraZy2dwaZlClpOo6gAMrrf3J4LcW42tIeBl7HB82H9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79010,
+      "createdOn": "2026-01-03T22:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959980c1c508c5d5e9c1d5f",
+          "products": [
+            {
+              "_id": "695998101c508c5d5e9c1e2b",
+              "name": "Pants59870",
+              "amount": 37,
+              "price": 14556,
+              "manufacturer": "Microsoft",
+              "notes": "Cmk1hUjtOnRmT6J3nKjdLYFX8twcrNS8kN1dPHEt4kALOkUUPc34BqowU88lVlbEg7HLXxKImRh4Ib0suzu7n7aLT0A3niqxu0zEYDqROKC4lwRGUve7wLJtGTmr0VPq0nTBv9tzSVKsSJI55k2lhIcsEnD4gMalgStugSorqyvpNpFtJEzTg9PYcT0E3yEKT3p0kOBfWIAmL78CcnokTP1WAnvITlUag3UUcZTV5KalFy1EzejWqDwUeT",
+              "received": false
+            },
+            {
+              "_id": "695998151c508c5d5e9c20b5",
+              "name": "Computer54080",
+              "amount": 443,
+              "price": 64454,
+              "manufacturer": "Google",
+              "notes": "HdnVbKSXZnwBukvf7HZDZnpKiFmhUfPhKInxgb16l9zzBXPPe888mNJXC6VC3GeVtxkttHHtdCuvoBBtFpIMMRmP1cifJDEFviSzCNPeKk8wqrrfJHXR1vFMWVZXTNPdHTdMwrxMlCLxchs606W0zC5Ambt4qvb5B5Dm0tI71hsQ5fKrRLx4YofN8JyUieFq2XDhNdshtjFmG5VdraZy2dwaZlClpOo6gAMrrf3J4LcW42tIeBl7HB82H9",
+              "received": false
+            }
+          ],
+          "total_price": 79010,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695998151c508c5d5e9c20cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

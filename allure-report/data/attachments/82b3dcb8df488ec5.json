@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-/uc7SZqKLO2FlEM0EzViFMj/WTg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695997641c508c5d5e9bcbf2",
+        "email": "Lamont_Auer29@hotmail.com",
+        "name": "Hayley Thiel",
+        "country": "USA",
+        "city": "North Alyssonfort",
+        "street": "Station Road",
+        "house": 22,
+        "flat": 942,
+        "phone": "+18819578206",
+        "createdOn": "2026-01-03T22:25:40.000Z",
+        "notes": "2FH61pHSRknvdWPK6piwnbPZIfB5WJwSprv2p6jlKr7XKzVZDK6BtO2qWEHDt4xLMYNz3C0ONEw5NTku1VzrLPWdB0fCEE4be6gBatEnmSgUUTg6zSGze0O87P7Gkv26RKM4ktVLZnaGQCY8kbW1l1l1kWHQjWYONDS4MyKwR3lT9ywv6V2n8tJpPintcUbnEQcUKU6SMQcuospIMqfc3F7A6Es8ElEI9tN7EjMNCXucHCq6DWyF4fo6gK"
+      },
+      "products": [
+        {
+          "_id": "695997681c508c5d5e9bcd8d",
+          "name": "Keyboard59764",
+          "amount": 445,
+          "price": 49346,
+          "manufacturer": "Sony",
+          "notes": "KS3qQL49U8cOENnaFP1wA67w06QIS25uUOaYldkQLawoWm2egB3pbK5GN2nWgTfTs5E4VFQpJ7HArpL2VggMMZkCnw5UUzvYUJ3hw67MZwhsSGQQFZ3kaFlkPlq03bFOMe94RkcfNCxeuHAKgMv7jmvMLLTmxeEfxJufzcUWlGLiFlPy5WcMPVCDbUe9SDvqORWZNNm2CtSNHyLrNfDt3bmXCzZTA6cUaZ9UKAxz7Ps9Y80daQDUCM1llc",
+          "received": false
+        },
+        {
+          "_id": "6959976b1c508c5d5e9bce76",
+          "name": "Towels90233",
+          "amount": 261,
+          "price": 64104,
+          "manufacturer": "Google",
+          "notes": "fUtbk97oQlx9WwQg46vfW0DR3Nfa9fxnjSlJFMowTf7zFfF1O98vla68ZaJ7zIWhDqNFNsOG3Pc2PynUbamYluixVBVTXLnVwxRsO7mSKW4OubQIflsiWxldWTVNKzMzp1kKrWAeVuyJvxg5WykXxp7MdeuKLCW6VlnnENg56uGuBm80NlNalITo1nAdG3UNfqOVaDzQaiJGewdAbl1QniwDh7LKELMBpXlABC0ITGgnHhAmbmHvhLKqUQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 113450,
+      "createdOn": "2026-01-03T22:25:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997641c508c5d5e9bcbf2",
+          "products": [
+            {
+              "_id": "695997681c508c5d5e9bcd8d",
+              "name": "Keyboard59764",
+              "amount": 445,
+              "price": 49346,
+              "manufacturer": "Sony",
+              "notes": "KS3qQL49U8cOENnaFP1wA67w06QIS25uUOaYldkQLawoWm2egB3pbK5GN2nWgTfTs5E4VFQpJ7HArpL2VggMMZkCnw5UUzvYUJ3hw67MZwhsSGQQFZ3kaFlkPlq03bFOMe94RkcfNCxeuHAKgMv7jmvMLLTmxeEfxJufzcUWlGLiFlPy5WcMPVCDbUe9SDvqORWZNNm2CtSNHyLrNfDt3bmXCzZTA6cUaZ9UKAxz7Ps9Y80daQDUCM1llc",
+              "received": false
+            },
+            {
+              "_id": "6959976b1c508c5d5e9bce76",
+              "name": "Towels90233",
+              "amount": 261,
+              "price": 64104,
+              "manufacturer": "Google",
+              "notes": "fUtbk97oQlx9WwQg46vfW0DR3Nfa9fxnjSlJFMowTf7zFfF1O98vla68ZaJ7zIWhDqNFNsOG3Pc2PynUbamYluixVBVTXLnVwxRsO7mSKW4OubQIflsiWxldWTVNKzMzp1kKrWAeVuyJvxg5WykXxp7MdeuKLCW6VlnnENg56uGuBm80NlNalITo1nAdG3UNfqOVaDzQaiJGewdAbl1QniwDh7LKELMBpXlABC0ITGgnHhAmbmHvhLKqUQ",
+              "received": false
+            }
+          ],
+          "total_price": 113450,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959976c1c508c5d5e9bcea0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

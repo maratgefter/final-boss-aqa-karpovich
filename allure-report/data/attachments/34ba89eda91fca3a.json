@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-LanDfnJZ+AHUOjIweOOR1OlzAdc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695997bb1c508c5d5e9bf41d",
+        "email": "Anabelle_DuBuque@hotmail.com",
+        "name": "Consuelo Quigley",
+        "country": "Ukraine",
+        "city": "Leuschkeland",
+        "street": "Koss Key",
+        "house": 36,
+        "flat": 449,
+        "phone": "+16523428374",
+        "createdOn": "2026-01-03T22:27:07.000Z",
+        "notes": "T1Y0iSIUSfAu7irTganN8e2p7DUeANOKxLKV1jM9E3xFjLarYwPr2oZQkiqKu08BBp2zaOgbPWPnLKQqFAfsobZkASgtS5PxlR18RbWrow2XFHPCUqndGQkQDjH9HxV2ZCIiCnULTMKzqShJTD9ngi57W7k9ssS7CkpK5O6FARKphSA6DSldZrfpcm1J0te46sAChs9UMG9cnwoS8EkTgCkSeUIz4X477oRWk0qK8ehgH0tzOllknBFXA9"
+      },
+      "products": [
+        {
+          "_id": "695997bf1c508c5d5e9bf78a",
+          "name": "Soap19916",
+          "amount": 308,
+          "price": 88190,
+          "manufacturer": "Google",
+          "notes": "uu5fKYpYPpLJJT4bhL7gqjdH2rM05VVVBmYZ1OBOxMZnh3061aNNcwfQsy6rCBIheuptdvI3kHYZKQfeizpBmz5BCD0GsYfWp2uJZ2EIwMBz6PLgW7amaODTwL68CphTTPQG9RKosyYuaNJJ8PA1H1c69btJFmkddNNiLDxMHnrYX6poEZV47BHNzDjw7KW0UXNZxqYMDYmV5becuwZ4PM3yPAjJvoPCvqEswNB1kTm6E4oZ5v9sS3g96U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88190,
+      "createdOn": "2026-01-03T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997bb1c508c5d5e9bf41d",
+          "products": [
+            {
+              "_id": "695997bf1c508c5d5e9bf78a",
+              "name": "Soap19916",
+              "amount": 308,
+              "price": 88190,
+              "manufacturer": "Google",
+              "notes": "uu5fKYpYPpLJJT4bhL7gqjdH2rM05VVVBmYZ1OBOxMZnh3061aNNcwfQsy6rCBIheuptdvI3kHYZKQfeizpBmz5BCD0GsYfWp2uJZ2EIwMBz6PLgW7amaODTwL68CphTTPQG9RKosyYuaNJJ8PA1H1c69btJFmkddNNiLDxMHnrYX6poEZV47BHNzDjw7KW0UXNZxqYMDYmV5becuwZ4PM3yPAjJvoPCvqEswNB1kTm6E4oZ5v9sS3g96U",
+              "received": false
+            }
+          ],
+          "total_price": 88190,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997c21c508c5d5e9bf7d4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

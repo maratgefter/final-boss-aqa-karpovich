@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:27:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4113",
+    "etag": "W/\"1011-MjdAZst5po/ADwyho91qCW15V5o\"",
+    "keep-alive": "timeout=5, max=45",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695997e31c508c5d5e9c079b",
+      "status": "Draft",
+      "customer": {
+        "_id": "695997dc1c508c5d5e9c0517",
+        "email": "Wayne.Aufderhar@hotmail.com",
+        "name": "Fanny Bins",
+        "country": "Russia",
+        "city": "Wunschport",
+        "street": "Rosalind Haven",
+        "house": 18,
+        "flat": 684,
+        "phone": "+12626059352",
+        "createdOn": "2026-01-03T22:27:40.000Z",
+        "notes": "InWNdu6VCeyg9x9CvuX51g1qx3ToyUWIkmeIMedRvW1HuWQBdgVrkEXt1REC96agcNJIkZHnjrT1bMQNtDhCL0wd9WvLLTMQztOeLRzqN2qqMpCskLZiDfJrwGGxb9cYVvHF0Hz7aKrX7uKHmvhESHTHxrUWKuRyvDiq601KeyNWBKumtHRueLldBh9Hx1T9E7wRnt55J6QpQpqQE7nVaAehEhkqU3zV67JakIgJRiq3Ek0cnwF157YKEn"
+      },
+      "products": [
+        {
+          "_id": "695997df1c508c5d5e9c05bd",
+          "name": "Fish54650",
+          "amount": 797,
+          "price": 56483,
+          "manufacturer": "Samsung",
+          "notes": "OI7zGoBt8SUO6z9kxjLlhp8HgjyZjIXdYtaMfif5pCwvaFz2HQfCcUYxPs0L2WDVcjwkjL6M31PPLLTCZcrrQDTn6Y8ThEH5EmM6x7WQW8tfgHYl6SH94Vg285jhK6dpR5DMnASiGaVVckAKEcvKyQBqavU29ZEK9uSYvoANIPJMNuB83t9enbo3c5oS9dhLinVtf5KPuZ3caRlC8RT3RbJq42OJPwNzLSu6YbIMtcpyw5ep6Xt4VbAo42",
+          "received": false
+        },
+        {
+          "_id": "695997e31c508c5d5e9c0769",
+          "name": "Keyboard4440",
+          "amount": 486,
+          "price": 30964,
+          "manufacturer": "Samsung",
+          "notes": "Iso5Wqc5rX2XlPRow9F9cxB6lJRe0ehWzL9DaQNaNQHqBP72Tf7LVK0ZzscfHMLWItNT8jQoVnyHa1E0xSjVgwYzYE4Vo23Ac0gyXx7AgZ8RWqfCgZEsyAaq9sS6RpsKBhZhc3x7ZOrQQI2dMZGPRriOFjuCDXVd7AIGscSDWXBlrAviInTv9tfXXN1MtrgaQ0b0GTJu7R8p58UFB1bIubz2qpQmBEYyyaD3F8P6a4yV2zGULpnDgp4X1h",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Wunschport",
+          "street": "Rosalind Haven",
+          "house": 18,
+          "flat": 684
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 87447,
+      "createdOn": "2026-01-03T22:27:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997dc1c508c5d5e9c0517",
+          "products": [
+            {
+              "_id": "695997df1c508c5d5e9c05bd",
+              "name": "Fish54650",
+              "amount": 797,
+              "price": 56483,
+              "manufacturer": "Samsung",
+              "notes": "OI7zGoBt8SUO6z9kxjLlhp8HgjyZjIXdYtaMfif5pCwvaFz2HQfCcUYxPs0L2WDVcjwkjL6M31PPLLTCZcrrQDTn6Y8ThEH5EmM6x7WQW8tfgHYl6SH94Vg285jhK6dpR5DMnASiGaVVckAKEcvKyQBqavU29ZEK9uSYvoANIPJMNuB83t9enbo3c5oS9dhLinVtf5KPuZ3caRlC8RT3RbJq42OJPwNzLSu6YbIMtcpyw5ep6Xt4VbAo42",
+              "received": false
+            },
+            {
+              "_id": "695997e31c508c5d5e9c0769",
+              "name": "Keyboard4440",
+              "amount": 486,
+              "price": 30964,
+              "manufacturer": "Samsung",
+              "notes": "Iso5Wqc5rX2XlPRow9F9cxB6lJRe0ehWzL9DaQNaNQHqBP72Tf7LVK0ZzscfHMLWItNT8jQoVnyHa1E0xSjVgwYzYE4Vo23Ac0gyXx7AgZ8RWqfCgZEsyAaq9sS6RpsKBhZhc3x7ZOrQQI2dMZGPRriOFjuCDXVd7AIGscSDWXBlrAviInTv9tfXXN1MtrgaQ0b0GTJu7R8p58UFB1bIubz2qpQmBEYyyaD3F8P6a4yV2zGULpnDgp4X1h",
+              "received": false
+            }
+          ],
+          "total_price": 87447,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wunschport",
+              "street": "Rosalind Haven",
+              "house": 18,
+              "flat": 684
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T22:27:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695997dc1c508c5d5e9c0517",
+          "products": [
+            {
+              "_id": "695997df1c508c5d5e9c05bd",
+              "name": "Fish54650",
+              "amount": 797,
+              "price": 56483,
+              "manufacturer": "Samsung",
+              "notes": "OI7zGoBt8SUO6z9kxjLlhp8HgjyZjIXdYtaMfif5pCwvaFz2HQfCcUYxPs0L2WDVcjwkjL6M31PPLLTCZcrrQDTn6Y8ThEH5EmM6x7WQW8tfgHYl6SH94Vg285jhK6dpR5DMnASiGaVVckAKEcvKyQBqavU29ZEK9uSYvoANIPJMNuB83t9enbo3c5oS9dhLinVtf5KPuZ3caRlC8RT3RbJq42OJPwNzLSu6YbIMtcpyw5ep6Xt4VbAo42",
+              "received": false
+            },
+            {
+              "_id": "695997e31c508c5d5e9c0769",
+              "name": "Keyboard4440",
+              "amount": 486,
+              "price": 30964,
+              "manufacturer": "Samsung",
+              "notes": "Iso5Wqc5rX2XlPRow9F9cxB6lJRe0ehWzL9DaQNaNQHqBP72Tf7LVK0ZzscfHMLWItNT8jQoVnyHa1E0xSjVgwYzYE4Vo23Ac0gyXx7AgZ8RWqfCgZEsyAaq9sS6RpsKBhZhc3x7ZOrQQI2dMZGPRriOFjuCDXVd7AIGscSDWXBlrAviInTv9tfXXN1MtrgaQ0b0GTJu7R8p58UFB1bIubz2qpQmBEYyyaD3F8P6a4yV2zGULpnDgp4X1h",
+              "received": false
+            }
+          ],
+          "total_price": 87447,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:27:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

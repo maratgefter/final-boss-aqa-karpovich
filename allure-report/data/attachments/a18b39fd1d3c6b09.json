@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-N7IavrOavGDz1UPqL+nugASHAWY\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959976d1c508c5d5e9bced6",
+        "email": "Elian_Barrows93@hotmail.com",
+        "name": "Cortez Orn",
+        "country": "Belarus",
+        "city": "Champlincester",
+        "street": "Center Street",
+        "house": 26,
+        "flat": 741,
+        "phone": "+16696420996",
+        "createdOn": "2026-01-03T22:25:49.000Z",
+        "notes": "8Sf8lmVNBrMZdjeH6V7Mn0dX16L5PPdNyZyvDEeFCgGaHvSrbAKsZwrNw56EjGHmPiI0TYDAYSFZ9WZrkLV0MHZMBSE5VeSfah2F7uQmGztvXZwehN0co8Qr6LkoM3KqC5KqbhGIe49QqN9idSV0Ori6yhnYoNGLDT0tOGwYbJLo3V3k5R6F9xQQKay1xUlZGMta5R5FBkLFHkUyYr3jXxDmGIqh0aneS8kocsPYiUhvRIdjXgAH6DCWgi"
+      },
+      "products": [
+        {
+          "_id": "695997701c508c5d5e9bcf98",
+          "name": "Keyboard60422",
+          "amount": 38,
+          "price": 17283,
+          "manufacturer": "Microsoft",
+          "notes": "6oec5VET3VKvD27EtsLf2IZ8Ab7Qiwf0lPyyV0ULX4OS6ebHZ2iS7yVeAqvpG7fJzwZK4Sv1Vc5bJ1kp0TQHLaSWGv4cdlVyE1n0IjboLWsgBABLXHU93Hmg2QploMfBcmAZ8CaQtw4ARh1x63JJkc3okaXYwzPXT8oLON8VkVnghUUYv2f7zSFHsYCYA4KW5ULBhdcSPBCuo9HecyujCDovOCrKqbc69l55l0PxpZHCLvGxpd5ZN4oXeH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17283,
+      "createdOn": "2026-01-03T22:25:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959976d1c508c5d5e9bced6",
+          "products": [
+            {
+              "_id": "695997701c508c5d5e9bcf98",
+              "name": "Keyboard60422",
+              "amount": 38,
+              "price": 17283,
+              "manufacturer": "Microsoft",
+              "notes": "6oec5VET3VKvD27EtsLf2IZ8Ab7Qiwf0lPyyV0ULX4OS6ebHZ2iS7yVeAqvpG7fJzwZK4Sv1Vc5bJ1kp0TQHLaSWGv4cdlVyE1n0IjboLWsgBABLXHU93Hmg2QploMfBcmAZ8CaQtw4ARh1x63JJkc3okaXYwzPXT8oLON8VkVnghUUYv2f7zSFHsYCYA4KW5ULBhdcSPBCuo9HecyujCDovOCrKqbc69l55l0PxpZHCLvGxpd5ZN4oXeH",
+              "received": false
+            }
+          ],
+          "total_price": 17283,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997711c508c5d5e9bcfa9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

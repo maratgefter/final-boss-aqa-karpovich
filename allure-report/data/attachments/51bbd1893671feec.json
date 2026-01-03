@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-OQDKwjHxnoM2M/mvek6aOAhs3AA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695997731c508c5d5e9bd06b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959976f1c508c5d5e9bcf0d",
+        "email": "Casper_Hamill39@gmail.com",
+        "name": "Astrid Rice",
+        "country": "Canada",
+        "city": "Corbinstead",
+        "street": "Union Street",
+        "house": 40,
+        "flat": 948,
+        "phone": "+15614782608",
+        "createdOn": "2026-01-03T22:25:51.000Z",
+        "notes": "BJG77TxyCizFI0AOoSg26zATdMDQROnm93lD58jmGoRN6NkZTWNRx1lZocYwolSgSF0pQqxQuKljVxFaXo5InMvQDGM1TnaixHBYWaZDJzA0L7Dbn9I7tpq3NUldXw8lEQUEDvncJuqOFT9wAfdTNMDmyWGdUe26FkCoecTpDjuPYpTzMsRHe5nMyMLPiwgzAepfC7FTJgpp1xTUUOGE2pWAy0LQRj0m6XJA1HNcdST3lWSRE1GfYfzu0I"
+      },
+      "products": [
+        {
+          "_id": "695997721c508c5d5e9bd03d",
+          "name": "Towels93750",
+          "amount": 225,
+          "price": 23414,
+          "manufacturer": "Google",
+          "notes": "GUAP7VaZz7fiGNl0mAik8GAOPZ4T4XeIB7mhi2GVPjWmhSO3g215i4av27NxjeLxlqanL3VB7X4BxIBmqZmgC4PXaE5mdcwsJPJLuNeDv0QUIYAFDZFP3ZTmcTWQzHwo6fuQFwxOii8jz0sjxzIAMlPf9CNL6Xp3nmJ9IbbTnZnfkwHdcOWFA0kBHvExGl28u5ZSoogForCM5jJRUBtf0OvW656pRYQxMarCtxKoOMjQE4mQ41DgeNKPVS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23414,
+      "createdOn": "2026-01-03T22:25:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959976f1c508c5d5e9bcf0d",
+          "products": [
+            {
+              "_id": "695997721c508c5d5e9bd03d",
+              "name": "Towels93750",
+              "amount": 225,
+              "price": 23414,
+              "manufacturer": "Google",
+              "notes": "GUAP7VaZz7fiGNl0mAik8GAOPZ4T4XeIB7mhi2GVPjWmhSO3g215i4av27NxjeLxlqanL3VB7X4BxIBmqZmgC4PXaE5mdcwsJPJLuNeDv0QUIYAFDZFP3ZTmcTWQzHwo6fuQFwxOii8jz0sjxzIAMlPf9CNL6Xp3nmJ9IbbTnZnfkwHdcOWFA0kBHvExGl28u5ZSoogForCM5jJRUBtf0OvW656pRYQxMarCtxKoOMjQE4mQ41DgeNKPVS",
+              "received": false
+            }
+          ],
+          "total_price": 23414,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:55.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6959976f1c508c5d5e9bcf0d",
+          "products": [
+            {
+              "_id": "695997721c508c5d5e9bd03d",
+              "name": "Towels93750",
+              "amount": 225,
+              "price": 23414,
+              "manufacturer": "Google",
+              "notes": "GUAP7VaZz7fiGNl0mAik8GAOPZ4T4XeIB7mhi2GVPjWmhSO3g215i4av27NxjeLxlqanL3VB7X4BxIBmqZmgC4PXaE5mdcwsJPJLuNeDv0QUIYAFDZFP3ZTmcTWQzHwo6fuQFwxOii8jz0sjxzIAMlPf9CNL6Xp3nmJ9IbbTnZnfkwHdcOWFA0kBHvExGl28u5ZSoogForCM5jJRUBtf0OvW656pRYQxMarCtxKoOMjQE4mQ41DgeNKPVS",
+              "received": false
+            }
+          ],
+          "total_price": 23414,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

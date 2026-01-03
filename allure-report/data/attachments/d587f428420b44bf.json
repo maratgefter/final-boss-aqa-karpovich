@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:26:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-hJAIbd5POZuVlS9CsgLg4RDdxqo\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695997981c508c5d5e9be14a",
+        "email": "Dallin.Jerde53@yahoo.com",
+        "name": "Jimmie Schultz",
+        "country": "Canada",
+        "city": "North Tiara",
+        "street": "Church Walk",
+        "house": 42,
+        "flat": 982,
+        "phone": "+12613478936",
+        "createdOn": "2026-01-03T22:26:32.000Z",
+        "notes": "KiZAXghUqgR1e4AkMmfnLTKrAM5rhls7sIXHc9WufLWu6OOeqhp0tICKvHYioknybyuUne8IW4I2U1S8dfKCTi9fQ2aT1dofULBeSbD5ezhD2bcjrNdZaSeZ1u6rxrWy8Yd2Mqfby2IwIFUkhxRW08gzPID9fzSC8O05Fr1zTER74px4kyxPiIeNiXmrz3BVAYx2GG34kbur8YGWiKgvdnbPJBR38np20LuODCHOCCs8BAKcIUCO2W1egI"
+      },
+      "products": [
+        {
+          "_id": "6959979c1c508c5d5e9be4de",
+          "name": "Keyboard26276",
+          "amount": 158,
+          "price": 10097,
+          "manufacturer": "Sony",
+          "notes": "dYwRQ8OuHGxCsF7ICPiHucpbFCO0QvcBXyIC3hSV96sbioPkrlAefkJSZMDekstjh04CuT9AYMW46EP4SFwDhO1Un0NIczhTQKIY1tHYglZ5yzDuVKDDhCG1r4KKsS11QySmNXgXw1Y9y0p2Rv5xgpT0TZynR1GO7f1YlbegG6x5cSZzJG7qaF7FYkUi2YReUwenaLs0jo6pIW6YLgPabaaDPv4ktuJWrIPT8hjXEFgiO8Shh4Eo4936AU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10097,
+      "createdOn": "2026-01-03T22:26:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997981c508c5d5e9be14a",
+          "products": [
+            {
+              "_id": "6959979c1c508c5d5e9be4de",
+              "name": "Keyboard26276",
+              "amount": 158,
+              "price": 10097,
+              "manufacturer": "Sony",
+              "notes": "dYwRQ8OuHGxCsF7ICPiHucpbFCO0QvcBXyIC3hSV96sbioPkrlAefkJSZMDekstjh04CuT9AYMW46EP4SFwDhO1Un0NIczhTQKIY1tHYglZ5yzDuVKDDhCG1r4KKsS11QySmNXgXw1Y9y0p2Rv5xgpT0TZynR1GO7f1YlbegG6x5cSZzJG7qaF7FYkUi2YReUwenaLs0jo6pIW6YLgPabaaDPv4ktuJWrIPT8hjXEFgiO8Shh4Eo4936AU",
+              "received": false
+            }
+          ],
+          "total_price": 10097,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:26:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959979f1c508c5d5e9be512"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

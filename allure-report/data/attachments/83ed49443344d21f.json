@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:27:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2935",
+    "etag": "W/\"b77-O4gm/737BhCVm1QMxfXJybVsjGk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695997c11c508c5d5e9bf7b1",
+      "status": "Draft",
+      "customer": {
+        "_id": "695997ba1c508c5d5e9bf3e1",
+        "email": "Domenico77@yahoo.com",
+        "name": "Myrtle Rohan",
+        "country": "Ukraine",
+        "city": "Lefflerville",
+        "street": "New Lane",
+        "house": 46,
+        "flat": 239,
+        "phone": "+12143215969",
+        "createdOn": "2026-01-03T22:27:06.000Z",
+        "notes": "VrPsqNjKrJs735whLnTdQIwbpAYodX5caYm4CrTSE7asIac02OlKbFCKYqPQRKdVeQpb8UUXSY1E8vaUlHO13VjlBXNa4rimxqP9xSNCr0o88L9acdurQ0KbKICh6F5jur9evJOXr6KzSYViHFEIiY7QgCmqrpsDJTp1XPYgZ8pJimKTnCMK7FdQUfzGqFmEubc8iLtuiWVDP5H4HntpPc7FQyzcJGg8c0n4hbdhKRPLY1WWznz8rT5L6K"
+      },
+      "products": [
+        {
+          "_id": "695997be1c508c5d5e9bf67a",
+          "name": "Shirt23682",
+          "amount": 896,
+          "price": 42848,
+          "manufacturer": "Tesla",
+          "notes": "WKA1oVA6PoBnJ8bQIDeOCDzjpqJI8S8ZnPaTvZcimo1w4QsAPbZMJus8gh4Fawo8NRiBYl9NX3mc3pr6xjbEAcpbLkKZtqq894AoqIazlhMpId6lnAkbM8MnZzQr12rPT7iujpbtSKy4j6SmDN4xrctqpz2kbUB0fwEC4Wm4ZjzusrwqTTPgwh0V4UzxF5LEN8e73RM7RBYm2uT9BUn2ciGndoaCyXzeEzy5EA6l5lLUd24tcE8yr6PRiP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lefflerville",
+          "street": "New Lane",
+          "house": 46,
+          "flat": 239
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 42848,
+      "createdOn": "2026-01-03T22:27:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997ba1c508c5d5e9bf3e1",
+          "products": [
+            {
+              "_id": "695997be1c508c5d5e9bf67a",
+              "name": "Shirt23682",
+              "amount": 896,
+              "price": 42848,
+              "manufacturer": "Tesla",
+              "notes": "WKA1oVA6PoBnJ8bQIDeOCDzjpqJI8S8ZnPaTvZcimo1w4QsAPbZMJus8gh4Fawo8NRiBYl9NX3mc3pr6xjbEAcpbLkKZtqq894AoqIazlhMpId6lnAkbM8MnZzQr12rPT7iujpbtSKy4j6SmDN4xrctqpz2kbUB0fwEC4Wm4ZjzusrwqTTPgwh0V4UzxF5LEN8e73RM7RBYm2uT9BUn2ciGndoaCyXzeEzy5EA6l5lLUd24tcE8yr6PRiP",
+              "received": false
+            }
+          ],
+          "total_price": 42848,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lefflerville",
+              "street": "New Lane",
+              "house": 46,
+              "flat": 239
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T22:27:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695997ba1c508c5d5e9bf3e1",
+          "products": [
+            {
+              "_id": "695997be1c508c5d5e9bf67a",
+              "name": "Shirt23682",
+              "amount": 896,
+              "price": 42848,
+              "manufacturer": "Tesla",
+              "notes": "WKA1oVA6PoBnJ8bQIDeOCDzjpqJI8S8ZnPaTvZcimo1w4QsAPbZMJus8gh4Fawo8NRiBYl9NX3mc3pr6xjbEAcpbLkKZtqq894AoqIazlhMpId6lnAkbM8MnZzQr12rPT7iujpbtSKy4j6SmDN4xrctqpz2kbUB0fwEC4Wm4ZjzusrwqTTPgwh0V4UzxF5LEN8e73RM7RBYm2uT9BUn2ciGndoaCyXzeEzy5EA6l5lLUd24tcE8yr6PRiP",
+              "received": false
+            }
+          ],
+          "total_price": 42848,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:27:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

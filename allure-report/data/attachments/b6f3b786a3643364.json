@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-fytVH8+QcKJU77iBiHfyV2IcEQg\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959975e1c508c5d5e9bc996",
+        "email": "Walter_Larkin3@gmail.com",
+        "name": "Garland Barrows",
+        "country": "France",
+        "city": "Lake Isommouth",
+        "street": "Johnson Street",
+        "house": 19,
+        "flat": 895,
+        "phone": "+15452080189",
+        "createdOn": "2026-01-03T22:25:34.000Z",
+        "notes": "jfJmILOyR0tc2f4765ykPqVp4VxssmBYkYuBWzx2JCJ4RexI4EPk4ZZD5AUbv9N7wWTGfo0ukASEwF00yiWytCEkFB8maCLo6RoHeLmRnUUr1kf234LRkCFqPxZRozMIfct50tKEPFUZkFr2RrYSRDGvT63l3wjdxurER6bFHmfEeCWKLN18DziEioBarUWztRdfvC5XtEgja1MQRwehiAfspvuEHoxD71sd6oKx8SFqiRCxn4GQZpaFYt"
+      },
+      "products": [
+        {
+          "_id": "695997631c508c5d5e9bcb8e",
+          "name": "Gloves18980",
+          "amount": 495,
+          "price": 97883,
+          "manufacturer": "Sony",
+          "notes": "MND8DUkEqv9W9Iiw8kmejivT3LRYsVZa2MtI4IAwIA2yJ8EJIIC1yAclAvEW5bg9toeL6pCoN6HWyuSXhsgOXq8a0sRtvYDL0LafRkid0Hvsyh59MGHKzzgU0GI5dy7A9JPy4sDhCu8yriOeVjwaj0KrfSCuiIkED5Shva20jKdtLOPI9HE092kNvb3fZ9cK1jRy09IArwBS6azNs3qVrp0fw9BvuM7T7Kvdrr8FCW61NPdYJwSVg0gzOj",
+          "received": false
+        },
+        {
+          "_id": "695997661c508c5d5e9bcc7f",
+          "name": "Chips15748",
+          "amount": 910,
+          "price": 28746,
+          "manufacturer": "Amazon",
+          "notes": "R4QDN5h2E9GcG7WiihUY4r3PwSPcm2CToEyxbx8zWhsvu6gfljiiz2OEZdvNQtOK48t7awHG7vhNSdvjfXuV1lVU1xX9057bZsJmPz7m9jDgOTu6vrFsgkDVryFKzCZlT4HGGZ48k0mOfJKunuIfE57845xDiWxpvZznNeFHCT9MT7cKg5orjD9uFAq3mMaM2U85zxomBe89xzWModSv8shOxlybwmsS8iYnEURgZSAdoM9tqdjw3kK5ip",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126629,
+      "createdOn": "2026-01-03T22:25:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959975e1c508c5d5e9bc996",
+          "products": [
+            {
+              "_id": "695997631c508c5d5e9bcb8e",
+              "name": "Gloves18980",
+              "amount": 495,
+              "price": 97883,
+              "manufacturer": "Sony",
+              "notes": "MND8DUkEqv9W9Iiw8kmejivT3LRYsVZa2MtI4IAwIA2yJ8EJIIC1yAclAvEW5bg9toeL6pCoN6HWyuSXhsgOXq8a0sRtvYDL0LafRkid0Hvsyh59MGHKzzgU0GI5dy7A9JPy4sDhCu8yriOeVjwaj0KrfSCuiIkED5Shva20jKdtLOPI9HE092kNvb3fZ9cK1jRy09IArwBS6azNs3qVrp0fw9BvuM7T7Kvdrr8FCW61NPdYJwSVg0gzOj",
+              "received": false
+            },
+            {
+              "_id": "695997661c508c5d5e9bcc7f",
+              "name": "Chips15748",
+              "amount": 910,
+              "price": 28746,
+              "manufacturer": "Amazon",
+              "notes": "R4QDN5h2E9GcG7WiihUY4r3PwSPcm2CToEyxbx8zWhsvu6gfljiiz2OEZdvNQtOK48t7awHG7vhNSdvjfXuV1lVU1xX9057bZsJmPz7m9jDgOTu6vrFsgkDVryFKzCZlT4HGGZ48k0mOfJKunuIfE57845xDiWxpvZznNeFHCT9MT7cKg5orjD9uFAq3mMaM2U85zxomBe89xzWModSv8shOxlybwmsS8iYnEURgZSAdoM9tqdjw3kK5ip",
+              "received": false
+            }
+          ],
+          "total_price": 126629,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997681c508c5d5e9bcd99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

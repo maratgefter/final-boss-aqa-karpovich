@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:29:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3425",
+    "etag": "W/\"d61-800VlElmCTGkrN+X8DFFakgYfPo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959981c1c508c5d5e9c23c8",
+        "email": "Freeda.Swaniawski@yahoo.com",
+        "name": "Julianne Krajcik",
+        "country": "Ukraine",
+        "city": "Pflugerville",
+        "street": "Steuber Points",
+        "house": 42,
+        "flat": 237,
+        "phone": "+12903372252",
+        "createdOn": "2026-01-03T22:28:44.000Z",
+        "notes": "i0uzFnKowSGEh7wh8oKjx1VPgxLLBFdBl2sMy0td8p7hEze9Ku3XSj1DMRDSqNtMTx9OfFYrxWyC0jPxwLb63EKyexnJzS1cCs75rbAtay90EGvvcelRiXbax6qenj7bxooLx7vULtpHC1OPpE5OCec3WQdPMfVzaA3RrZjFlqIGUCz3EKw061R4Ooh07rxpDEXLljWmBqo7PNlZ5WoINTiEwq4cqPWai8SzrC4ZyLSLunfH4BWXKvAmWL"
+      },
+      "products": [
+        {
+          "_id": "695998201c508c5d5e9c26b7",
+          "name": "Hat45809",
+          "amount": 685,
+          "price": 58556,
+          "manufacturer": "Google",
+          "notes": "xhQvlALXmSUYA0NqKWZ2stvaD7mEAL2WVwSoo3GiAnjpq0uDYXDISgUZocLvEb3vg0umvO0eJdKJoHeG2ogHkC2YIDSR5CLP8oyYfViu9GkDw4extaJBV3ddEdIovYc6uxF70w3W0l144RlVg68xiDQgeO9GO3ZToRZqZ200rZaPLEX0exfPMMMLYqWYaE99HozPBXgh11nEwnRQhBxSwwSJY75zlQ5kiz64zOiDUjBp0XaTaC9GL5sJyt",
+          "received": false
+        },
+        {
+          "_id": "695998291c508c5d5e9c29c1",
+          "name": "Pants55486",
+          "amount": 615,
+          "price": 23072,
+          "manufacturer": "Xiaomi",
+          "notes": "OljY4qsW6bfX66isewa8aMePgaQUqwjUJsRc02Ko7VzkjX2CujoV6DnrNV0ghGTSlsKrhvZjkwgjuzbFjLLisF0bH63lw5wqNhhSqUiVz4brdFgiTIcReg4u0gy7bkWLJVXmlWT78h0N0auEghNP2Dc25Ein0O0sUPkV536OsS39Pi1FfvxEuFzIbUAWxkzJ1TaGxFHa09Ej86wK2UtJeHbE60SpLmjn5SAzKrhIxNHBZOz4oMXvhJqnnp",
+          "received": false
+        },
+        {
+          "_id": "6959982d1c508c5d5e9c2aea",
+          "name": "Salad43956",
+          "amount": 106,
+          "price": 97246,
+          "manufacturer": "Apple",
+          "notes": "4sdOIt8HdhvKT7Mc2eBo7YA0gwFUKS070epnAD6lghzdGVnHRYE414W97GnIxekkqhPFzBd7ylBO2epkwEB26WbEctbYs4QwDlqZkZDoMW75P7IFaWMezMfvRKwu5oS0l6gLw7HVwoyDsVpyxzmmwFPDGYzt4jAgMbEEJaktOi3z5kZT1LQRrTPWKoUouPqsl7Vcn6bkbT8MlsgvTlRpNn59nJNQfvfUaZ6YzuG4vTbndzi5z2DsGQVj7T",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 178874,
+      "createdOn": "2026-01-03T22:29:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959981c1c508c5d5e9c23c8",
+          "products": [
+            {
+              "_id": "695998201c508c5d5e9c26b7",
+              "name": "Hat45809",
+              "amount": 685,
+              "price": 58556,
+              "manufacturer": "Google",
+              "notes": "xhQvlALXmSUYA0NqKWZ2stvaD7mEAL2WVwSoo3GiAnjpq0uDYXDISgUZocLvEb3vg0umvO0eJdKJoHeG2ogHkC2YIDSR5CLP8oyYfViu9GkDw4extaJBV3ddEdIovYc6uxF70w3W0l144RlVg68xiDQgeO9GO3ZToRZqZ200rZaPLEX0exfPMMMLYqWYaE99HozPBXgh11nEwnRQhBxSwwSJY75zlQ5kiz64zOiDUjBp0XaTaC9GL5sJyt",
+              "received": false
+            },
+            {
+              "_id": "695998291c508c5d5e9c29c1",
+              "name": "Pants55486",
+              "amount": 615,
+              "price": 23072,
+              "manufacturer": "Xiaomi",
+              "notes": "OljY4qsW6bfX66isewa8aMePgaQUqwjUJsRc02Ko7VzkjX2CujoV6DnrNV0ghGTSlsKrhvZjkwgjuzbFjLLisF0bH63lw5wqNhhSqUiVz4brdFgiTIcReg4u0gy7bkWLJVXmlWT78h0N0auEghNP2Dc25Ein0O0sUPkV536OsS39Pi1FfvxEuFzIbUAWxkzJ1TaGxFHa09Ej86wK2UtJeHbE60SpLmjn5SAzKrhIxNHBZOz4oMXvhJqnnp",
+              "received": false
+            },
+            {
+              "_id": "6959982d1c508c5d5e9c2aea",
+              "name": "Salad43956",
+              "amount": 106,
+              "price": 97246,
+              "manufacturer": "Apple",
+              "notes": "4sdOIt8HdhvKT7Mc2eBo7YA0gwFUKS070epnAD6lghzdGVnHRYE414W97GnIxekkqhPFzBd7ylBO2epkwEB26WbEctbYs4QwDlqZkZDoMW75P7IFaWMezMfvRKwu5oS0l6gLw7HVwoyDsVpyxzmmwFPDGYzt4jAgMbEEJaktOi3z5kZT1LQRrTPWKoUouPqsl7Vcn6bkbT8MlsgvTlRpNn59nJNQfvfUaZ6YzuG4vTbndzi5z2DsGQVj7T",
+              "received": false
+            }
+          ],
+          "total_price": 178874,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:29:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959982e1c508c5d5e9c2b15"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-2VQ+vCtJDheobcIEWq0l2q8CWy4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695997ba1c508c5d5e9bf3e3",
+        "email": "Claudie27@hotmail.com",
+        "name": "Terrance Schulist",
+        "country": "Great Britain",
+        "city": "Greenwood",
+        "street": "E 4th Avenue",
+        "house": 37,
+        "flat": 214,
+        "phone": "+15814085152",
+        "createdOn": "2026-01-03T22:27:06.000Z",
+        "notes": "wCRi1DGzshg0rqUtNhdliNMVbPt8A5LInGLoyzKDUNAlvZm1Br9Rww3NhepISIbFwrgNjZTkZOZfRaEcDT7278xUSYdGiKEAvSZm642WW6uy62uFq9SngpUJcuRb6iSxLaVpHwhB3lBdMsBP6iB94AiIXKQRYph0iGk1XiXJbZvLryItZHEs46eNS776CoqRIPhlsBtv4DMK5MKEuB34CQw0hBQ1ZylZgX3ZPtrDtzdWjvmW9Du3GRllAN"
+      },
+      "products": [
+        {
+          "_id": "695997be1c508c5d5e9bf678",
+          "name": "Pizza7642",
+          "amount": 26,
+          "price": 71064,
+          "manufacturer": "Apple",
+          "notes": "ZW793g6u6mRWnjKCsbTk8CeBejiT6aUeTVo7cocJadWvspce1j0kBSl703oRBV4qe2x6HXK1DXQ84fiiOxI2b6NQgN5q0AU05UzZ0RhKn1qNC3o1RFM9uBDTuJ6kBPMb5HcsfbRCdrArE97mH9k0OKZuiCvFjPvHzdtjyaKxn24C0mCqDSbu5FBVz0ndYGeuevq2b7MRmcu8Y8KZkAXfysDBT3qpGu83rzirthrQl3rL93owlaQt963BAp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71064,
+      "createdOn": "2026-01-03T22:27:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695997ba1c508c5d5e9bf3e3",
+          "products": [
+            {
+              "_id": "695997be1c508c5d5e9bf678",
+              "name": "Pizza7642",
+              "amount": 26,
+              "price": 71064,
+              "manufacturer": "Apple",
+              "notes": "ZW793g6u6mRWnjKCsbTk8CeBejiT6aUeTVo7cocJadWvspce1j0kBSl703oRBV4qe2x6HXK1DXQ84fiiOxI2b6NQgN5q0AU05UzZ0RhKn1qNC3o1RFM9uBDTuJ6kBPMb5HcsfbRCdrArE97mH9k0OKZuiCvFjPvHzdtjyaKxn24C0mCqDSbu5FBVz0ndYGeuevq2b7MRmcu8Y8KZkAXfysDBT3qpGu83rzirthrQl3rL93owlaQt963BAp",
+              "received": false
+            }
+          ],
+          "total_price": 71064,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:27:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997c11c508c5d5e9bf7ad"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

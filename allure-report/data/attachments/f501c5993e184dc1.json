@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:25:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-IvSBKp5SDTKQJ1zA4WaqTLJ2lsI\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959975e1c508c5d5e9bc978",
+        "email": "Rachael.Kessler@gmail.com",
+        "name": "Jedidiah Buckridge",
+        "country": "Ukraine",
+        "city": "Kellyshire",
+        "street": "Ethyl Knoll",
+        "house": 38,
+        "flat": 631,
+        "phone": "+14777623844",
+        "createdOn": "2026-01-03T22:25:34.000Z",
+        "notes": "V2cD4X1oNHSsQteXVAL4tks5qRr6hPEoIY3KNlBKCQdQpYIz4Lk4NMmPX76KHjCIkSTf0DHLLGybw8KbNIIKkAsKpX0Z9C9KGg6R4I8YyP4jMgd7AZhkp7ABpqUbX1A6RfFMbEfjJmLPpbTRjuq0533LVnI43H8UCko5uJrPwoKdGphFiUvcIGWYbEe0vy6huGnzQsbcNzYJ6pmawERRmovvTZlurt8xelNvJkGZNajMCXD3gqz0FruGlA"
+      },
+      "products": [
+        {
+          "_id": "695997621c508c5d5e9bcb32",
+          "name": "Tuna87596",
+          "amount": 272,
+          "price": 4091,
+          "manufacturer": "Amazon",
+          "notes": "pXgNsJBpUEjedDAHiEfREP6DN9SBtYflYQoJ1COzc13PWXp5rrDCe9lO5Sqxb9dDTp6IOKGlryrwDlvFdSyXypI9ddntHdKSyG59sqAtWBFql7QoCxX6qG4ySRSgvLJFCWQOHM6kW7Qf1j3Wg0Wyxyy9yUjwupFJKdFefHqxb4GXWwi6L0shcVvts7MMukLw7RLP2IeAKFK6tpfaW8eYIB15qmstnhxeodbdNDw7rpTSqcEtjbMpyC9Xoq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4091,
+      "createdOn": "2026-01-03T22:25:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959975e1c508c5d5e9bc978",
+          "products": [
+            {
+              "_id": "695997621c508c5d5e9bcb32",
+              "name": "Tuna87596",
+              "amount": 272,
+              "price": 4091,
+              "manufacturer": "Amazon",
+              "notes": "pXgNsJBpUEjedDAHiEfREP6DN9SBtYflYQoJ1COzc13PWXp5rrDCe9lO5Sqxb9dDTp6IOKGlryrwDlvFdSyXypI9ddntHdKSyG59sqAtWBFql7QoCxX6qG4ySRSgvLJFCWQOHM6kW7Qf1j3Wg0Wyxyy9yUjwupFJKdFefHqxb4GXWwi6L0shcVvts7MMukLw7RLP2IeAKFK6tpfaW8eYIB15qmstnhxeodbdNDw7rpTSqcEtjbMpyC9Xoq",
+              "received": false
+            }
+          ],
+          "total_price": 4091,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:25:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695997621c508c5d5e9bcb4e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
