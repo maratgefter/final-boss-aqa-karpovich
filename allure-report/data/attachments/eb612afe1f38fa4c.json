@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-53s/V7lRJ+CR0AhuoL+TWq9rg8g\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8df1c508c5d5ea9a8a4",
+        "email": "Richard_Schuppe@gmail.com",
+        "name": "Clint Purdy",
+        "country": "Canada",
+        "city": "Borerborough",
+        "street": "Price Ville",
+        "house": 29,
+        "flat": 424,
+        "phone": "+19506179437",
+        "createdOn": "2026-01-04T22:25:35.000Z",
+        "notes": "AlPJZiBHaVXOzroryw1vQi2Dtt9fAanp94oM5Fk2NSoOGJjmXPFzFkAr4HoUrwia5zInNjlaCZLCdTv0AMfqnHHfJizDZgIoD1MMNGd2Yyq1j77b7vswFPahW53iaXHMJBkb593yGOIOBIlXJO2jXHHubqHFqB5E8ypXrIaOaFTyJOpvqBCL2DmxjiW5rBY4ZOwKjpgvItZLg4CgfNlY94vPbrIBv9kfATB4hY8jWqWZ8cfcCANxMFyVJu"
+      },
+      "products": [
+        {
+          "_id": "695ae8e01c508c5d5ea9a958",
+          "name": "Cheese65747",
+          "amount": 892,
+          "price": 85484,
+          "manufacturer": "Microsoft",
+          "notes": "pJoVQ8KOXmZdppSONCQduiEECcuRGer7A7JBweEZFu5RqZrps7UgKW0fBqI7QShwVAgYSH4iFoqliZdrhdULfpHpBE5mwzbIeKZIb4OwzEcCj1ewLW0vDU8VPFDSTeH7AxuZ0wBYzZQLPfzAoJJE38IAAbbe4ckKEDvTz9saENWa6AC5yQvWS5LoPU3tCldnOUespqiON5S3DEVlOaOzloBTFVYRwUyhopltopkRwCp2MMdaoIxqyw3j0H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85484,
+      "createdOn": "2026-01-04T22:25:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8df1c508c5d5ea9a8a4",
+          "products": [
+            {
+              "_id": "695ae8e01c508c5d5ea9a958",
+              "name": "Cheese65747",
+              "amount": 892,
+              "price": 85484,
+              "manufacturer": "Microsoft",
+              "notes": "pJoVQ8KOXmZdppSONCQduiEECcuRGer7A7JBweEZFu5RqZrps7UgKW0fBqI7QShwVAgYSH4iFoqliZdrhdULfpHpBE5mwzbIeKZIb4OwzEcCj1ewLW0vDU8VPFDSTeH7AxuZ0wBYzZQLPfzAoJJE38IAAbbe4ckKEDvTz9saENWa6AC5yQvWS5LoPU3tCldnOUespqiON5S3DEVlOaOzloBTFVYRwUyhopltopkRwCp2MMdaoIxqyw3j0H",
+              "received": false
+            }
+          ],
+          "total_price": 85484,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8e01c508c5d5ea9a985"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

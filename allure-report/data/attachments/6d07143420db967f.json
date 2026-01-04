@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-qLJdCyKpyIyfCH4hjqQreDIVrXU\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8c71c508c5d5ea99d13",
+        "email": "Vinnie75@hotmail.com",
+        "name": "Kobe Fisher",
+        "country": "Germany",
+        "city": "Port Gordonfurt",
+        "street": "Whitney Route",
+        "house": 41,
+        "flat": 925,
+        "phone": "+17443730717",
+        "createdOn": "2026-01-04T22:25:11.000Z",
+        "notes": "VgqVQhiXCDPZy4Xjc9U39pcQTW5S2Qp9ga1ka5kGTILq2JBd28zcRzdKyvUr0KRQU3GcssfejztiEkLXldzjgxaCpQaUoyvDKfCpDxgef7wcwBlgXApId32elNCjSjSpknoLmhLZhq2b2ePJIJ9fZncLx9U4oDREA9mBj2Qz4Tk2CAWlIZr0GE7eISD2wbTPwPWQDRoUI7qsukHK3aEg4VvS5uINnhoYhnSQiAo2av6oGHHJGK5G9nwTK2"
+      },
+      "products": [
+        {
+          "_id": "695ae8c81c508c5d5ea99d48",
+          "name": "Car61050",
+          "amount": 868,
+          "price": 30436,
+          "manufacturer": "Microsoft",
+          "notes": "xmJsojeC3MT67auyq2keoaiaF0N4ML8TmiDW3ziThzJDmiSRvTzMutirt5bVIpQGYAaNECTK3QYF8owJtjiWi9WyEo3xHcKv6R3Munq3BRPzHd7PKp9kdzOpkVTRcI5Yat36KcYrSrdCDz17z4MIpyimVXNMu602qbPXGMSKeN09p1KFt01iTw3OB4475ZK41rHBbUBQKwlNAzdtFfCUFC98F79j1KHVsqpXo41XX9QUIAcDrWiyW4B7e1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30436,
+      "createdOn": "2026-01-04T22:25:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8c71c508c5d5ea99d13",
+          "products": [
+            {
+              "_id": "695ae8c81c508c5d5ea99d48",
+              "name": "Car61050",
+              "amount": 868,
+              "price": 30436,
+              "manufacturer": "Microsoft",
+              "notes": "xmJsojeC3MT67auyq2keoaiaF0N4ML8TmiDW3ziThzJDmiSRvTzMutirt5bVIpQGYAaNECTK3QYF8owJtjiWi9WyEo3xHcKv6R3Munq3BRPzHd7PKp9kdzOpkVTRcI5Yat36KcYrSrdCDz17z4MIpyimVXNMu602qbPXGMSKeN09p1KFt01iTw3OB4475ZK41rHBbUBQKwlNAzdtFfCUFC98F79j1KHVsqpXo41XX9QUIAcDrWiyW4B7e1",
+              "received": false
+            }
+          ],
+          "total_price": 30436,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8c81c508c5d5ea99d60"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

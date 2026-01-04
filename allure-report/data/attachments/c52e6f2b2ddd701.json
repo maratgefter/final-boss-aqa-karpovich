@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2961",
+    "etag": "W/\"b91-U0bqi2KIGGSnbdG+dB9CKL6DFto\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae8ee1c508c5d5ea9b0fe",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8ec1c508c5d5ea9b045",
+        "email": "Bethany_Sawayn@yahoo.com",
+        "name": "Alec Pfeffer",
+        "country": "France",
+        "city": "Citrus Heights",
+        "street": "Mayert Circles",
+        "house": 44,
+        "flat": 684,
+        "phone": "+14833094280",
+        "createdOn": "2026-01-04T22:25:48.000Z",
+        "notes": "J8bgkagKr2TEjkCn4Lmm0nOfVyoZ3nU5P3wIHnj0MhxiavsJKaEWs21es6EvDTOM9WlPFN996PTIrTwCNybWy2QI4iQWUXbjwHHbv9VPojzX7F5EcX1xAPMOhIlaDXmO3WZPqVb4Wb78zP56deQF1yC9wyk9DOKWGHif7hU6gk1hmbpIimtZ1qmiE3iwZjpSxloxK2LhKcV8MQMlfXi37DCvgeAf2t1R125KhuusOyykI1so0H5WlPH3LJ"
+      },
+      "products": [
+        {
+          "_id": "695ae8ed1c508c5d5ea9b0b9",
+          "name": "Cheese40656",
+          "amount": 850,
+          "price": 99151,
+          "manufacturer": "Samsung",
+          "notes": "6cPatRSLvmQXnBpwRqqieOVqlQGoW9SEJ7ZFVzFsz06XZPj8o815MYnHcTbYvHvsIZx8HPmOiGPfVktNUmHN9CbKGqoaKHbFej6noqcoKHWTWuqDLddIIOWpHG0075rnCJ9pWNvaiweP6wZ7X0vXqmx3yMfPuBRz9n5hsLQt00pocwdvigeHul2lmOTKpkcVnbjMCRLfDsEJV6ArD2T4Rd51n6D3RuoC53Sr6suwGnJURUr0b2oysML6uH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99151,
+      "createdOn": "2026-01-04T22:25:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8ec1c508c5d5ea9b045",
+          "products": [
+            {
+              "_id": "695ae8ed1c508c5d5ea9b0b9",
+              "name": "Cheese40656",
+              "amount": 850,
+              "price": 99151,
+              "manufacturer": "Samsung",
+              "notes": "6cPatRSLvmQXnBpwRqqieOVqlQGoW9SEJ7ZFVzFsz06XZPj8o815MYnHcTbYvHvsIZx8HPmOiGPfVktNUmHN9CbKGqoaKHbFej6noqcoKHWTWuqDLddIIOWpHG0075rnCJ9pWNvaiweP6wZ7X0vXqmx3yMfPuBRz9n5hsLQt00pocwdvigeHul2lmOTKpkcVnbjMCRLfDsEJV6ArD2T4Rd51n6D3RuoC53Sr6suwGnJURUr0b2oysML6uH",
+              "received": false
+            }
+          ],
+          "total_price": 99151,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:50.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8ec1c508c5d5ea9b045",
+          "products": [
+            {
+              "_id": "695ae8ed1c508c5d5ea9b0b9",
+              "name": "Cheese40656",
+              "amount": 850,
+              "price": 99151,
+              "manufacturer": "Samsung",
+              "notes": "6cPatRSLvmQXnBpwRqqieOVqlQGoW9SEJ7ZFVzFsz06XZPj8o815MYnHcTbYvHvsIZx8HPmOiGPfVktNUmHN9CbKGqoaKHbFej6noqcoKHWTWuqDLddIIOWpHG0075rnCJ9pWNvaiweP6wZ7X0vXqmx3yMfPuBRz9n5hsLQt00pocwdvigeHul2lmOTKpkcVnbjMCRLfDsEJV6ArD2T4Rd51n6D3RuoC53Sr6suwGnJURUr0b2oysML6uH",
+              "received": false
+            }
+          ],
+          "total_price": 99151,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

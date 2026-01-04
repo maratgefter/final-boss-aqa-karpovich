@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-BKm/cJsbl0MDDmY9oxoZB1FpgsQ\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8bf1c508c5d5ea999f9",
+        "email": "Sophie30@hotmail.com",
+        "name": "Wilhelm Kunze",
+        "country": "Germany",
+        "city": "Christaland",
+        "street": "E Walnut Street",
+        "house": 39,
+        "flat": 874,
+        "phone": "+12148991531",
+        "createdOn": "2026-01-04T22:25:03.000Z",
+        "notes": "clTj8RWA4vh6sUr4n8Lfo4hXo7KkTniBuP7RTb4Q1dIHELeRknSq3DXygYq7mS3d1RhO0ajN2vMOU0Zetc864dBOW1QTmT2QoNhsv4EuqgADVR6ug4RxcQfJzX8Qn5LQDUfLXYHfGIfvzxWUqFzZr7k8pzcdVR3q8VOpeTVJwqxXxIaX04vAKnGM6NR54j275PfdwWCSVHOkzIWyTZQgzVKHs6lT33JQZmPDoY7KIRRvjxesceyJWOOLOx"
+      },
+      "products": [
+        {
+          "_id": "695ae8c01c508c5d5ea99a5d",
+          "name": "Salad34123",
+          "amount": 127,
+          "price": 91268,
+          "manufacturer": "Tesla",
+          "notes": "mq7Ozu6ni4xoWVaUG0k0EsZSNERfrAd6M9xgStZ1KVng1r2XMiouKKWrHntEe3s1LDAypY2oFWuhtvE5D18ZM3p0hYdV7jow3eiP4a0pA49olCoaTPwrnyM9bFkcYdoK2gCrNLtOOny0PRIy0yaB9kQomT3sJbZGubGSlKcuXXlqdanL8HL0emdRcrvil5VFwn8vzwsqPPWpmCPw4Dyx2c8AyCeTjBt97kZdWhLr5SoS1wgAUdB38vDTlq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91268,
+      "createdOn": "2026-01-04T22:25:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8bf1c508c5d5ea999f9",
+          "products": [
+            {
+              "_id": "695ae8c01c508c5d5ea99a5d",
+              "name": "Salad34123",
+              "amount": 127,
+              "price": 91268,
+              "manufacturer": "Tesla",
+              "notes": "mq7Ozu6ni4xoWVaUG0k0EsZSNERfrAd6M9xgStZ1KVng1r2XMiouKKWrHntEe3s1LDAypY2oFWuhtvE5D18ZM3p0hYdV7jow3eiP4a0pA49olCoaTPwrnyM9bFkcYdoK2gCrNLtOOny0PRIy0yaB9kQomT3sJbZGubGSlKcuXXlqdanL8HL0emdRcrvil5VFwn8vzwsqPPWpmCPw4Dyx2c8AyCeTjBt97kZdWhLr5SoS1wgAUdB38vDTlq",
+              "received": false
+            }
+          ],
+          "total_price": 91268,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8c11c508c5d5ea99a7c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

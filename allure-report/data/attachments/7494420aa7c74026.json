@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-wNmEuBQwfP3MYbzh8KnnWYif3f0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8e11c508c5d5ea9a9fc",
+        "email": "Cullen97@gmail.com",
+        "name": "Kennedy Corwin",
+        "country": "Great Britain",
+        "city": "Ebertview",
+        "street": "Schaefer Shoal",
+        "house": 8,
+        "flat": 532,
+        "phone": "+12586022564",
+        "createdOn": "2026-01-04T22:25:37.000Z",
+        "notes": "bq3pxpvcW2ZelehuWHqDKpSd23ljZyWpCxPCeRESXiVsxiJ6OgKbv9wiuoeUCrpaEzPnD9L2twwgFKZMjC5dn6MDU0vOj8G6AbtTgbWgl6bD39Xj14ud8e39sXbDW3qyYTE9wRmvEOpmN9GcH9V8moIRdMFAdzMt4PArGYzS1421izocbLZyED0XZO5nPcWVs4iJH18iQUod10T8QjGLAliUNg4o3zqyQXdFMkQYd8C4z8R2PP7soj6pGj"
+      },
+      "products": [
+        {
+          "_id": "695ae8e31c508c5d5ea9ab3a",
+          "name": "Towels59955",
+          "amount": 604,
+          "price": 59829,
+          "manufacturer": "Xiaomi",
+          "notes": "Ima72Q9EfuJwj5ylWjS1E1XPJmidIIMld5cnWcWwNsDqkH7ib2lTrd3w5ehSWWs4WMxwkg8kT74NNb6cx6GxZWN79xDfWX2NgHpDjVxTbT91xHcHVpgaq0GWz0LdHbmvIoeBpBIObkFy58w6dR50vIDyCr1jiXGLRuqS9GterZanqHptFi0H7vy1qHAz4qYRfbn3AKovt4MpZ7sJmvR8eGjGBHG5Xx14o6inirdBcvgAZzxEEUCj3x3oyD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59829,
+      "createdOn": "2026-01-04T22:25:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8e11c508c5d5ea9a9fc",
+          "products": [
+            {
+              "_id": "695ae8e31c508c5d5ea9ab3a",
+              "name": "Towels59955",
+              "amount": 604,
+              "price": 59829,
+              "manufacturer": "Xiaomi",
+              "notes": "Ima72Q9EfuJwj5ylWjS1E1XPJmidIIMld5cnWcWwNsDqkH7ib2lTrd3w5ehSWWs4WMxwkg8kT74NNb6cx6GxZWN79xDfWX2NgHpDjVxTbT91xHcHVpgaq0GWz0LdHbmvIoeBpBIObkFy58w6dR50vIDyCr1jiXGLRuqS9GterZanqHptFi0H7vy1qHAz4qYRfbn3AKovt4MpZ7sJmvR8eGjGBHG5Xx14o6inirdBcvgAZzxEEUCj3x3oyD",
+              "received": false
+            }
+          ],
+          "total_price": 59829,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8e41c508c5d5ea9ab4e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

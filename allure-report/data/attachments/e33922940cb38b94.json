@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-kP+QHNti5silP6h1Sh4b0D2UJbQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae8eb1c508c5d5ea9afbc",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8e71c508c5d5ea9ae29",
+        "email": "Sierra81@gmail.com",
+        "name": "Vaughn Heidenreich",
+        "country": "Canada",
+        "city": "Welchfurt",
+        "street": "Harris Passage",
+        "house": 25,
+        "flat": 156,
+        "phone": "+16229825147",
+        "createdOn": "2026-01-04T22:25:43.000Z",
+        "notes": "zs4plZB5HxBQFfmSBc13A84rRHNsfw8G4ZvlPlFZu9HTxTz71sM31w8pQAB79k586jXTGQ8TuWFv0h9KJfrN1m04Pbs3o7mBmaa2zlsRkvkNfIAENswhlLAZy6TyH1pOhOr0hgWfwJ7Kf0PlvPZA1zkrpfsOSgnznVQrPr1mu1pOOAMjXgDwH9HBlnSiZNbNkoMT9RhGsbPiA5eBRGMZjBz6AQEo6wZjYEJe4pzHJ0szzqYuPOCKcsNh4a"
+      },
+      "products": [
+        {
+          "_id": "695ae8ea1c508c5d5ea9af88",
+          "name": "Cheese74285",
+          "amount": 86,
+          "price": 6118,
+          "manufacturer": "Xiaomi",
+          "notes": "GVqEsHGeb6Ua8jSF7ZKSXZgk0tBRqsD0kbf3UD1ADpxyhJZdZYAZsGjZgf0HxhqWnnAJibFfZwU9Iobd5lsFNJQVvShKGivMFaF3f1bEPHp5eKrCCUDB1PMGPYy0mjG8QnZHUTatr6xWvVqYrEf3vqyZdVuN6dWeHF0F5pCthpiBgFwl5pkPN2IiN55qOFCjomlfXnkhSforKFLlkvNqH0UNwMquWr6CAgjD7EjW6pxQitbrZfM3HjDJbj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Welchfurt",
+          "street": "Harris Passage",
+          "house": 25,
+          "flat": 156
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 6118,
+      "createdOn": "2026-01-04T22:25:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8e71c508c5d5ea9ae29",
+          "products": [
+            {
+              "_id": "695ae8ea1c508c5d5ea9af88",
+              "name": "Cheese74285",
+              "amount": 86,
+              "price": 6118,
+              "manufacturer": "Xiaomi",
+              "notes": "GVqEsHGeb6Ua8jSF7ZKSXZgk0tBRqsD0kbf3UD1ADpxyhJZdZYAZsGjZgf0HxhqWnnAJibFfZwU9Iobd5lsFNJQVvShKGivMFaF3f1bEPHp5eKrCCUDB1PMGPYy0mjG8QnZHUTatr6xWvVqYrEf3vqyZdVuN6dWeHF0F5pCthpiBgFwl5pkPN2IiN55qOFCjomlfXnkhSforKFLlkvNqH0UNwMquWr6CAgjD7EjW6pxQitbrZfM3HjDJbj",
+              "received": false
+            }
+          ],
+          "total_price": 6118,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Welchfurt",
+              "street": "Harris Passage",
+              "house": 25,
+              "flat": 156
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T22:25:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8e71c508c5d5ea9ae29",
+          "products": [
+            {
+              "_id": "695ae8ea1c508c5d5ea9af88",
+              "name": "Cheese74285",
+              "amount": 86,
+              "price": 6118,
+              "manufacturer": "Xiaomi",
+              "notes": "GVqEsHGeb6Ua8jSF7ZKSXZgk0tBRqsD0kbf3UD1ADpxyhJZdZYAZsGjZgf0HxhqWnnAJibFfZwU9Iobd5lsFNJQVvShKGivMFaF3f1bEPHp5eKrCCUDB1PMGPYy0mjG8QnZHUTatr6xWvVqYrEf3vqyZdVuN6dWeHF0F5pCthpiBgFwl5pkPN2IiN55qOFCjomlfXnkhSforKFLlkvNqH0UNwMquWr6CAgjD7EjW6pxQitbrZfM3HjDJbj",
+              "received": false
+            }
+          ],
+          "total_price": 6118,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

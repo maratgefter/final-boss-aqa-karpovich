@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3890",
+    "etag": "W/\"f32-V9z/SWGevg0FVj3CTo+mRQTl3LA\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae8ce1c508c5d5ea9a035",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8cc1c508c5d5ea99f99",
+        "email": "Garrison83@yahoo.com",
+        "name": "Maymie Purdy",
+        "country": "Germany",
+        "city": "North Ferneborough",
+        "street": "W 4th Street",
+        "house": 27,
+        "flat": 999,
+        "phone": "+19889230735",
+        "createdOn": "2026-01-04T22:25:16.000Z",
+        "notes": "NemoV8gQy1UQ1qfEhnZpzh0bgJuSiAoapwtwaZ3j8bKu1JiT4idjYncZvnDTkk1OJfKtUAnzU2Uu1yWCHrvpMso59IiJysGyytavBJBIwIKVoOvl1tQnMCefHfmwPCdJ0Q92oBCUd6Laic8nS0HgBOEO4eGXoLN6BTrP36kCT9nF6nbyH4z681N1glcrN0BMFoinRvtsk1G2gnllJl7FlGD66dT4OFyUskxrBXafskbTVxo52NvBNEwaAh"
+      },
+      "products": [
+        {
+          "_id": "695ae8cd1c508c5d5ea9a002",
+          "name": "Bike57327",
+          "amount": 315,
+          "price": 49792,
+          "manufacturer": "Samsung",
+          "notes": "XR5Nf5X6UHmvVON5YV4vpgFFjePMJ2AFPGsjuWkbxqYciURnQYuzeAXYbHC78IIYLTvCJKHci6pS0SD2lWYaKZODeLFLK9cUrHOfhV9f9KgfkqeweDHeFciFug7yHT6ZyI2BDzIwnliAspStFriNuFtQejn9hovpcaKAjU7G7IiQLyTOTGBQ0jPOCfVwP96hXFFfd2Hek7zkNe6NkkTQJQjR4uTsI6XDQDz6BainItBc9XAclEvdMbCwL2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49792,
+      "createdOn": "2026-01-04T22:25:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8cc1c508c5d5ea99f99",
+          "products": [
+            {
+              "_id": "695ae8cd1c508c5d5ea9a002",
+              "name": "Bike57327",
+              "amount": 315,
+              "price": 49792,
+              "manufacturer": "Samsung",
+              "notes": "XR5Nf5X6UHmvVON5YV4vpgFFjePMJ2AFPGsjuWkbxqYciURnQYuzeAXYbHC78IIYLTvCJKHci6pS0SD2lWYaKZODeLFLK9cUrHOfhV9f9KgfkqeweDHeFciFug7yHT6ZyI2BDzIwnliAspStFriNuFtQejn9hovpcaKAjU7G7IiQLyTOTGBQ0jPOCfVwP96hXFFfd2Hek7zkNe6NkkTQJQjR4uTsI6XDQDz6BainItBc9XAclEvdMbCwL2",
+              "received": false
+            }
+          ],
+          "total_price": 49792,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:19.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8cc1c508c5d5ea99f99",
+          "products": [
+            {
+              "_id": "695ae8cd1c508c5d5ea9a002",
+              "name": "Bike57327",
+              "amount": 315,
+              "price": 49792,
+              "manufacturer": "Samsung",
+              "notes": "XR5Nf5X6UHmvVON5YV4vpgFFjePMJ2AFPGsjuWkbxqYciURnQYuzeAXYbHC78IIYLTvCJKHci6pS0SD2lWYaKZODeLFLK9cUrHOfhV9f9KgfkqeweDHeFciFug7yHT6ZyI2BDzIwnliAspStFriNuFtQejn9hovpcaKAjU7G7IiQLyTOTGBQ0jPOCfVwP96hXFFfd2Hek7zkNe6NkkTQJQjR4uTsI6XDQDz6BainItBc9XAclEvdMbCwL2",
+              "received": false
+            }
+          ],
+          "total_price": 49792,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:18.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8cc1c508c5d5ea99f99",
+          "products": [
+            {
+              "_id": "695ae8cd1c508c5d5ea9a002",
+              "name": "Bike57327",
+              "amount": 315,
+              "price": 49792,
+              "manufacturer": "Samsung",
+              "notes": "XR5Nf5X6UHmvVON5YV4vpgFFjePMJ2AFPGsjuWkbxqYciURnQYuzeAXYbHC78IIYLTvCJKHci6pS0SD2lWYaKZODeLFLK9cUrHOfhV9f9KgfkqeweDHeFciFug7yHT6ZyI2BDzIwnliAspStFriNuFtQejn9hovpcaKAjU7G7IiQLyTOTGBQ0jPOCfVwP96hXFFfd2Hek7zkNe6NkkTQJQjR4uTsI6XDQDz6BainItBc9XAclEvdMbCwL2",
+              "received": false
+            }
+          ],
+          "total_price": 49792,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2948",
+    "etag": "W/\"b84-biIyeh1q8SoDWA2H/SGu5wLYTXg\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae8ce1c508c5d5ea9a033",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8cc1c508c5d5ea99f97",
+        "email": "Carter54@hotmail.com",
+        "name": "Robbie Nolan",
+        "country": "Belarus",
+        "city": "Domenickboro",
+        "street": "Yazmin Isle",
+        "house": 37,
+        "flat": 49,
+        "phone": "+14864580404",
+        "createdOn": "2026-01-04T22:25:16.000Z",
+        "notes": "xga3902UuebdIKHUgQT5GokiSc0Z1kjMKacuhXiiFqPwCytP6j4magzVMHL4fJVXK9E8QlvVDk7Jba4JdpUR9yu0QNqHZfPrfG41yByV8ubETGqO7WnOLWAgKcZpqIrR4sVDT9lCNOR9uHgKJhnEYqTtSofU513cWEyHLMVXoWAveRLfimpMWdZBK2ZReoShBAfISgQyPybRjkaGGsLvQ2s0ggyf6Aeo7O0dv5t8jb5ZE8iBsdhEUced5w"
+      },
+      "products": [
+        {
+          "_id": "695ae8cd1c508c5d5ea9a000",
+          "name": "Chair19101",
+          "amount": 763,
+          "price": 27277,
+          "manufacturer": "Xiaomi",
+          "notes": "fWBUGNe27nDtzntr6zFPWJkVkPUrDCekI0lNUjx09CrKS1PikQzwtWwHrcNAoGwIYSq0cEKIv280CYoTObPkT9nyjKEevkwlBweCWJk0BUXoVFtyxDRBaFB21JRS0FK6ZZZezSuQgfN39MsTupPjk5ZEMLMRJYo3R8uajNhMwmL6y9ycLTmZcLmMr1vEQCjZc4ABsLielmOWey7gdL0wnmdgPGZC95FwLiOWWL3qr66DEFdJsnonQz5brN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27277,
+      "createdOn": "2026-01-04T22:25:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8cc1c508c5d5ea99f97",
+          "products": [
+            {
+              "_id": "695ae8cd1c508c5d5ea9a000",
+              "name": "Chair19101",
+              "amount": 763,
+              "price": 27277,
+              "manufacturer": "Xiaomi",
+              "notes": "fWBUGNe27nDtzntr6zFPWJkVkPUrDCekI0lNUjx09CrKS1PikQzwtWwHrcNAoGwIYSq0cEKIv280CYoTObPkT9nyjKEevkwlBweCWJk0BUXoVFtyxDRBaFB21JRS0FK6ZZZezSuQgfN39MsTupPjk5ZEMLMRJYo3R8uajNhMwmL6y9ycLTmZcLmMr1vEQCjZc4ABsLielmOWey7gdL0wnmdgPGZC95FwLiOWWL3qr66DEFdJsnonQz5brN",
+              "received": false
+            }
+          ],
+          "total_price": 27277,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:18.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8cc1c508c5d5ea99f97",
+          "products": [
+            {
+              "_id": "695ae8cd1c508c5d5ea9a000",
+              "name": "Chair19101",
+              "amount": 763,
+              "price": 27277,
+              "manufacturer": "Xiaomi",
+              "notes": "fWBUGNe27nDtzntr6zFPWJkVkPUrDCekI0lNUjx09CrKS1PikQzwtWwHrcNAoGwIYSq0cEKIv280CYoTObPkT9nyjKEevkwlBweCWJk0BUXoVFtyxDRBaFB21JRS0FK6ZZZezSuQgfN39MsTupPjk5ZEMLMRJYo3R8uajNhMwmL6y9ycLTmZcLmMr1vEQCjZc4ABsLielmOWey7gdL0wnmdgPGZC95FwLiOWWL3qr66DEFdJsnonQz5brN",
+              "received": false
+            }
+          ],
+          "total_price": 27277,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:26:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4113",
+    "etag": "W/\"1011-ZeQ/uPEKW6aXzOhcxmfi13QHMhE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae9011c508c5d5ea9bbb5",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8fc1c508c5d5ea9b836",
+        "email": "Merlin27@yahoo.com",
+        "name": "Hosea McCullough",
+        "country": "Ukraine",
+        "city": "Schuppeport",
+        "street": "Raynor Wells",
+        "house": 28,
+        "flat": 953,
+        "phone": "+17592466355",
+        "createdOn": "2026-01-04T22:26:04.000Z",
+        "notes": "SJi6g4kDRaBCBFgtibBNApLv1T0tpAjbT9sPjeS1o5afBgDWQUuKlUYB2pVkjM2zNsKaSNN33ajv7xAO90xBlciuvXUhLeQ3JmLp7hRHbA4ZNalmLyfe5ETCFulrx7ZIi6eOBUxR2uqQqlZqsMhfdq94OWBC3qeRT6AGHd42KI5uDmRJgOKq15XiofBe7WfocB9I9icn18cD244NlaMD0mFwCo57Xtjhc25vCFgZEs6g33UfVtcKPxV70z"
+      },
+      "products": [
+        {
+          "_id": "695ae8fd1c508c5d5ea9b88e",
+          "name": "Sausages91082",
+          "amount": 869,
+          "price": 91532,
+          "manufacturer": "Sony",
+          "notes": "lfm67F8px0vtT1HkxI809NqhW9pXwqSaR2bdPqulJC6S8yknODZQ0eV7IfML7if2QTZfyFySvuPARcLPTmtB5PlQatpy4i4J4vxDHG5P0iks5u8WypziRoafDffC1qeqwrKZvqPgCcZqPrMVco2oh6gaZ5VaonHj3gwhLkjibnvlAo4Qk91V95onpo28jKVq0UxqNCUN2s0d4z4ttkhy3e5IFfkYfXd4oE0j1iaDzG1aLA3KfEdulT1Krp",
+          "received": false
+        },
+        {
+          "_id": "695ae8fe1c508c5d5ea9ba6c",
+          "name": "Chicken12256",
+          "amount": 984,
+          "price": 37593,
+          "manufacturer": "Google",
+          "notes": "JvebDAABD48B7vB0k2ntHFKYoEXMsfertCuJtlJADaz9B3LSppj8DBx00OfPh1Z3fWWwEL5ukXg3zojrYHdmKId9INoXXkB8VPfHZWnL0kZdbEmuCtU51PwQ7iGYsRyOhe0KM3whNoMvRJM9mU1hGT8p46iVcWCE6VARKG5H70hCQyDB3RlvEX9GhYMQtxhchxtySJXkfaUUh6HDSf0ehnGCrwuuMD5Zi8ySXOgPyoxRfUIFSIpOy7Lx3F",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Schuppeport",
+          "street": "Raynor Wells",
+          "house": 28,
+          "flat": 953
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 129125,
+      "createdOn": "2026-01-04T22:26:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8fc1c508c5d5ea9b836",
+          "products": [
+            {
+              "_id": "695ae8fd1c508c5d5ea9b88e",
+              "name": "Sausages91082",
+              "amount": 869,
+              "price": 91532,
+              "manufacturer": "Sony",
+              "notes": "lfm67F8px0vtT1HkxI809NqhW9pXwqSaR2bdPqulJC6S8yknODZQ0eV7IfML7if2QTZfyFySvuPARcLPTmtB5PlQatpy4i4J4vxDHG5P0iks5u8WypziRoafDffC1qeqwrKZvqPgCcZqPrMVco2oh6gaZ5VaonHj3gwhLkjibnvlAo4Qk91V95onpo28jKVq0UxqNCUN2s0d4z4ttkhy3e5IFfkYfXd4oE0j1iaDzG1aLA3KfEdulT1Krp",
+              "received": false
+            },
+            {
+              "_id": "695ae8fe1c508c5d5ea9ba6c",
+              "name": "Chicken12256",
+              "amount": 984,
+              "price": 37593,
+              "manufacturer": "Google",
+              "notes": "JvebDAABD48B7vB0k2ntHFKYoEXMsfertCuJtlJADaz9B3LSppj8DBx00OfPh1Z3fWWwEL5ukXg3zojrYHdmKId9INoXXkB8VPfHZWnL0kZdbEmuCtU51PwQ7iGYsRyOhe0KM3whNoMvRJM9mU1hGT8p46iVcWCE6VARKG5H70hCQyDB3RlvEX9GhYMQtxhchxtySJXkfaUUh6HDSf0ehnGCrwuuMD5Zi8ySXOgPyoxRfUIFSIpOy7Lx3F",
+              "received": false
+            }
+          ],
+          "total_price": 129125,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Schuppeport",
+              "street": "Raynor Wells",
+              "house": 28,
+              "flat": 953
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T22:26:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae8fc1c508c5d5ea9b836",
+          "products": [
+            {
+              "_id": "695ae8fd1c508c5d5ea9b88e",
+              "name": "Sausages91082",
+              "amount": 869,
+              "price": 91532,
+              "manufacturer": "Sony",
+              "notes": "lfm67F8px0vtT1HkxI809NqhW9pXwqSaR2bdPqulJC6S8yknODZQ0eV7IfML7if2QTZfyFySvuPARcLPTmtB5PlQatpy4i4J4vxDHG5P0iks5u8WypziRoafDffC1qeqwrKZvqPgCcZqPrMVco2oh6gaZ5VaonHj3gwhLkjibnvlAo4Qk91V95onpo28jKVq0UxqNCUN2s0d4z4ttkhy3e5IFfkYfXd4oE0j1iaDzG1aLA3KfEdulT1Krp",
+              "received": false
+            },
+            {
+              "_id": "695ae8fe1c508c5d5ea9ba6c",
+              "name": "Chicken12256",
+              "amount": 984,
+              "price": 37593,
+              "manufacturer": "Google",
+              "notes": "JvebDAABD48B7vB0k2ntHFKYoEXMsfertCuJtlJADaz9B3LSppj8DBx00OfPh1Z3fWWwEL5ukXg3zojrYHdmKId9INoXXkB8VPfHZWnL0kZdbEmuCtU51PwQ7iGYsRyOhe0KM3whNoMvRJM9mU1hGT8p46iVcWCE6VARKG5H70hCQyDB3RlvEX9GhYMQtxhchxtySJXkfaUUh6HDSf0ehnGCrwuuMD5Zi8ySXOgPyoxRfUIFSIpOy7Lx3F",
+              "received": false
+            }
+          ],
+          "total_price": 129125,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:26:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

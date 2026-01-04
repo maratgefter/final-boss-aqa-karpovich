@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-ECwPt4xlJHNLJiWcnluws9j08mQ\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae8c91c508c5d5ea99e0e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8c81c508c5d5ea99d4a",
+        "email": "Emmalee.Bins@hotmail.com",
+        "name": "Coleman Kilback",
+        "country": "Russia",
+        "city": "Fort Caleigh",
+        "street": "Hilll Parkways",
+        "house": 27,
+        "flat": 176,
+        "phone": "+17726736626",
+        "createdOn": "2026-01-04T22:25:12.000Z",
+        "notes": "M7kv5TRPDhKTEKNRz5o17w4aLLiavAL87W0kRi2PFwgiF9v0HFneBgXGp5n1zGAkAJ4U57lZneXNMKuwJNZHQ6PHIMmdCfBBBQjP9slMdT76QbCwEPQmHZLrY8K2yRTDk2o864xxZsLgTSWCjaC8wbvWou7UrGFWBJWNTRj8o6BLZkNSbkoDFXSZapXVfgvdn5ko8MpyyvkG7xOe2MdA6k1XhJW8c70qYUZGUsDfIRAeysuVNftAELSnuJ"
+      },
+      "products": [
+        {
+          "_id": "695ae8c81c508c5d5ea99da3",
+          "name": "Fish86396",
+          "amount": 899,
+          "price": 21951,
+          "manufacturer": "Apple",
+          "notes": "s1s3Bq8q4HTw1ASxqqTrW1XipxKD06wCCzrmV16KyJXUL2gOc239667bg4U5XaHALiFZU4oN5RnXPLWwIHw5OHTXWnheYZ0LBhxOQK5ddwvXTwDgpR9tqJLhaqZMtMYn9rXsRsaeRpOcreSOeVAVlnG859YUwXM8AxhqglqftNqiFph9OxC6CMWqgWQzDt36gDrGNcfHvG0zmFMPrWrYCSIGJDwunuEEGEXEjf9f7oqXxBADZGFb04Hc74",
+          "received": false
+        },
+        {
+          "_id": "695ae8c91c508c5d5ea99dd8",
+          "name": "Sausages32592",
+          "amount": 732,
+          "price": 34846,
+          "manufacturer": "Google",
+          "notes": "MMScxQUKg8yhqy0pQoLluLdgJVQIvJ1Rat4lhYF3hWuch4yHXEsJFOYcaDzROMHIRLF6ljcmFs7ls71ckYeEsFL9Jx1KEnROQO8pGmpCajwlBA22fK8g7xpo87GzUcjRp9Wznc8W5aCw4T1M59MSiekGPM4euCH92XEvu98vd6ApztScCRaFFsugi7BjShdDNgXZ35FEgOeYfxGdXQaq2QXW0TdSnrAn1zhM4C2JeMmwE589rFiYAF2RTD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56797,
+      "createdOn": "2026-01-04T22:25:13.000Z",
+      "comments": [
+        {
+          "text": "C",
+          "createdOn": "2026-01-04T22:25:14.000Z",
+          "_id": "695ae8ca1c508c5d5ea99e5a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8c81c508c5d5ea99d4a",
+          "products": [
+            {
+              "_id": "695ae8c81c508c5d5ea99da3",
+              "name": "Fish86396",
+              "amount": 899,
+              "price": 21951,
+              "manufacturer": "Apple",
+              "notes": "s1s3Bq8q4HTw1ASxqqTrW1XipxKD06wCCzrmV16KyJXUL2gOc239667bg4U5XaHALiFZU4oN5RnXPLWwIHw5OHTXWnheYZ0LBhxOQK5ddwvXTwDgpR9tqJLhaqZMtMYn9rXsRsaeRpOcreSOeVAVlnG859YUwXM8AxhqglqftNqiFph9OxC6CMWqgWQzDt36gDrGNcfHvG0zmFMPrWrYCSIGJDwunuEEGEXEjf9f7oqXxBADZGFb04Hc74",
+              "received": false
+            },
+            {
+              "_id": "695ae8c91c508c5d5ea99dd8",
+              "name": "Sausages32592",
+              "amount": 732,
+              "price": 34846,
+              "manufacturer": "Google",
+              "notes": "MMScxQUKg8yhqy0pQoLluLdgJVQIvJ1Rat4lhYF3hWuch4yHXEsJFOYcaDzROMHIRLF6ljcmFs7ls71ckYeEsFL9Jx1KEnROQO8pGmpCajwlBA22fK8g7xpo87GzUcjRp9Wznc8W5aCw4T1M59MSiekGPM4euCH92XEvu98vd6ApztScCRaFFsugi7BjShdDNgXZ35FEgOeYfxGdXQaq2QXW0TdSnrAn1zhM4C2JeMmwE589rFiYAF2RTD",
+              "received": false
+            }
+          ],
+          "total_price": 56797,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

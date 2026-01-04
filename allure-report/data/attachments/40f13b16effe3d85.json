@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-4fmgXcv+wZZwDnAmYjbp8/GgnU4\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8d31c508c5d5ea9a2ee",
+        "email": "Zack.Collier13@hotmail.com",
+        "name": "Avis Keeling",
+        "country": "Ukraine",
+        "city": "Marianoview",
+        "street": "Main Street E",
+        "house": 20,
+        "flat": 1000,
+        "phone": "+18286834943",
+        "createdOn": "2026-01-04T22:25:23.000Z",
+        "notes": "k2WBuOC8JYmxuFZhjyIs3MIXhh3i1zy6vqX9yQfPbEbI6FrjBQ8XWepWcd5DqO1op1ubW736OTZsnhwveXip1GWPPu2uSfSaCA5AY9ghy6Qgz74Tz8IiqfNT795sG23Hl1FlPh5oZYYQkn0vf6X6mGcizKuZuSK3af1eNr5DKPGVavTf4QzY6Yj5Rb0g9sNXzWsKnJLQcI2enBnlTMq6icF2ONly0UZE3E0JsN4YMP7WTemUmbaHc4Jsla"
+      },
+      "products": [
+        {
+          "_id": "695ae8d41c508c5d5ea9a345",
+          "name": "Bacon40171",
+          "amount": 388,
+          "price": 24752,
+          "manufacturer": "Tesla",
+          "notes": "9JAdsvrhUL2a6zdgpFg7FUIhCHucco5fY6ak0S6F0POkgDxjomT0Oc2LBmjjmbDpZimS6odi8hB3XTRj3nDSTVJ4rR9cDpbs5Pe95Q5kPuoqm1CIahpeBKJ94gW7GpqkaDB97pLcHsUj8HzY7ZcUhnjoxkfPKqz9lxKoCusHseUm7dP1SymEW45hq4pMfJCUUVjuWrZhpDO0eNJsvOWLCMe9KBZ9qMCBikWTvUx9Z5Pvr5X1CzfkSwijKE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24752,
+      "createdOn": "2026-01-04T22:25:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8d31c508c5d5ea9a2ee",
+          "products": [
+            {
+              "_id": "695ae8d41c508c5d5ea9a345",
+              "name": "Bacon40171",
+              "amount": 388,
+              "price": 24752,
+              "manufacturer": "Tesla",
+              "notes": "9JAdsvrhUL2a6zdgpFg7FUIhCHucco5fY6ak0S6F0POkgDxjomT0Oc2LBmjjmbDpZimS6odi8hB3XTRj3nDSTVJ4rR9cDpbs5Pe95Q5kPuoqm1CIahpeBKJ94gW7GpqkaDB97pLcHsUj8HzY7ZcUhnjoxkfPKqz9lxKoCusHseUm7dP1SymEW45hq4pMfJCUUVjuWrZhpDO0eNJsvOWLCMe9KBZ9qMCBikWTvUx9Z5Pvr5X1CzfkSwijKE",
+              "received": false
+            }
+          ],
+          "total_price": 24752,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8d41c508c5d5ea9a375"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

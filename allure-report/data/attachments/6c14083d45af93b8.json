@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-NjQOcJyJS9rSCVRH743hhGHkfKY\"",
+    "keep-alive": "timeout=5, max=45",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8f41c508c5d5ea9b43a",
+        "email": "Kiara.Tremblay79@yahoo.com",
+        "name": "Nicole Effertz",
+        "country": "Germany",
+        "city": "West Katrinamouth",
+        "street": "Hadley Square",
+        "house": 3,
+        "flat": 945,
+        "phone": "+15656608512",
+        "createdOn": "2026-01-04T22:25:56.000Z",
+        "notes": "N8vpQGqj2UG9WyFNUxfTwyltpbGvF18vpZNORzbiownkSXpHscPQWATiNFv0W4qH4pFmMFodZBodO3mIJcvf9lqRsJoGL8pGIHNmYp7MZT1kWZG2giMljFJe3zQr8HlB86lw1nSqeoEANh4gRSkJDf7xAaPW3AEG7VZMKojvFLjvga7g4qVbZFnuiFb6bGRj71cYFFHqWFdhOT4pV9F5XTAp7CXDQYUZM75IYnaHcGHhrza088XxTunRj1"
+      },
+      "products": [
+        {
+          "_id": "695ae8f51c508c5d5ea9b483",
+          "name": "Car81112",
+          "amount": 96,
+          "price": 34357,
+          "manufacturer": "Sony",
+          "notes": "YjrWQ05xlHinz77QFXmM8jSdqjHbSrzMzlSXdKIjbArSgTbDih4QUXQZLKp0JdmVJFhDBCP0wp3XS5b0jzkpdgvr9HH8QKcSh451sRDybrTVKi32Al2bd7EtsSjP8vURMykWyUM2uA1k2JLVUMYSapMSRDeM7NtUGiQyPimgnFdPSDxR247c8eqCREv2vHc8tFeCCF9GeHY2DtfE5SRFcfjWYU2Di7X9nZr9ZNXhAKdC9XhMHec7skuOV3",
+          "received": false
+        },
+        {
+          "_id": "695ae8f61c508c5d5ea9b54b",
+          "name": "Gloves43851",
+          "amount": 275,
+          "price": 51881,
+          "manufacturer": "Google",
+          "notes": "3cJAfPp7hbJ1p17VZLWZzFHjhAzqs80QT2aPVMZ7GJrYojXv2L4OY7v3EhzcttZEGEXMusETU5fFV8zhoeTEMl21tviJg6evbKW447aGCT2UQtQMYv5eViZOm6k5yZ1nT256cxBTGzCs0zM6zj25ZDtYGQxJGVCsKLTp7Nsb7ndBfnUVcrxx5hPZmzbwYcep3Wmb1xhXBL7PIVgrGpf4AJvuWg467T8guUugORGYXqGBSah3b94st4BP5H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86238,
+      "createdOn": "2026-01-04T22:25:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8f41c508c5d5ea9b43a",
+          "products": [
+            {
+              "_id": "695ae8f51c508c5d5ea9b483",
+              "name": "Car81112",
+              "amount": 96,
+              "price": 34357,
+              "manufacturer": "Sony",
+              "notes": "YjrWQ05xlHinz77QFXmM8jSdqjHbSrzMzlSXdKIjbArSgTbDih4QUXQZLKp0JdmVJFhDBCP0wp3XS5b0jzkpdgvr9HH8QKcSh451sRDybrTVKi32Al2bd7EtsSjP8vURMykWyUM2uA1k2JLVUMYSapMSRDeM7NtUGiQyPimgnFdPSDxR247c8eqCREv2vHc8tFeCCF9GeHY2DtfE5SRFcfjWYU2Di7X9nZr9ZNXhAKdC9XhMHec7skuOV3",
+              "received": false
+            },
+            {
+              "_id": "695ae8f61c508c5d5ea9b54b",
+              "name": "Gloves43851",
+              "amount": 275,
+              "price": 51881,
+              "manufacturer": "Google",
+              "notes": "3cJAfPp7hbJ1p17VZLWZzFHjhAzqs80QT2aPVMZ7GJrYojXv2L4OY7v3EhzcttZEGEXMusETU5fFV8zhoeTEMl21tviJg6evbKW447aGCT2UQtQMYv5eViZOm6k5yZ1nT256cxBTGzCs0zM6zj25ZDtYGQxJGVCsKLTp7Nsb7ndBfnUVcrxx5hPZmzbwYcep3Wmb1xhXBL7PIVgrGpf4AJvuWg467T8guUugORGYXqGBSah3b94st4BP5H",
+              "received": false
+            }
+          ],
+          "total_price": 86238,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8f61c508c5d5ea9b570"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

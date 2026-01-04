@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-dzXwLZIsyG2ZcCUzqcIQRTC7JHw\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8d81c508c5d5ea9a56f",
+        "email": "Rudolph53@gmail.com",
+        "name": "Alene Wisozk",
+        "country": "Germany",
+        "city": "Southaven",
+        "street": "N Railroad Street",
+        "house": 33,
+        "flat": 865,
+        "phone": "+15765291161",
+        "createdOn": "2026-01-04T22:25:28.000Z",
+        "notes": "7u0kS20nqV5F6NGgWDqdQ9rWkLDHyv1k5fCi0xYVXy7pmwlFW07VZtCQsNlorLrYSEnqdCprYGcMEm1ikhS1xnLQEQJqFziZHbD1JDVh0hJBJwO2c3zciblahcou5ZXamSHFvsvGEeb9c771caeyfcilv413Pqnltwp2P96gWujIJg7sEsQZikfQfb1lUaU1kwjfWXNdn5z7MtdEZgFjWyffLAPKDGLe9hIYyYEg0XgfFl5InxmwOIINHx"
+      },
+      "products": [
+        {
+          "_id": "695ae8d91c508c5d5ea9a606",
+          "name": "Ball90568",
+          "amount": 794,
+          "price": 73627,
+          "manufacturer": "Amazon",
+          "notes": "QvVZUOvpeNanpnS9FWXRt8HslJxpbKJSlLS0wSYrAsw93dHhl6JQLKZcqXFgH39oY7IFrRfIYjZFN5thCFPhaSFXZdLlXyteMGlZ2ypVkZVcxxZ105EDRNjWPsMhwUhRsKMKRMjXFqHqV5PJy0mQcbF3MsS9wnCWdtDEXHfYGt5DLyhbyznzAOvw8Lg1fVNErdvlaaqVwLjEvUeMGhdY384RFdVRPRCiYWPKaI1mvSt2UDD4D9aU5s80gM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73627,
+      "createdOn": "2026-01-04T22:25:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8d81c508c5d5ea9a56f",
+          "products": [
+            {
+              "_id": "695ae8d91c508c5d5ea9a606",
+              "name": "Ball90568",
+              "amount": 794,
+              "price": 73627,
+              "manufacturer": "Amazon",
+              "notes": "QvVZUOvpeNanpnS9FWXRt8HslJxpbKJSlLS0wSYrAsw93dHhl6JQLKZcqXFgH39oY7IFrRfIYjZFN5thCFPhaSFXZdLlXyteMGlZ2ypVkZVcxxZ105EDRNjWPsMhwUhRsKMKRMjXFqHqV5PJy0mQcbF3MsS9wnCWdtDEXHfYGt5DLyhbyznzAOvw8Lg1fVNErdvlaaqVwLjEvUeMGhdY384RFdVRPRCiYWPKaI1mvSt2UDD4D9aU5s80gM",
+              "received": false
+            }
+          ],
+          "total_price": 73627,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8db1c508c5d5ea9a6e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

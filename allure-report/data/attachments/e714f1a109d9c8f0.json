@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-5+cm6yrsZII/NBoo0/Fp6WvKbTA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8d11c508c5d5ea9a1d0",
+        "email": "Rowan.Windler-Treutel59@yahoo.com",
+        "name": "Winifred Pagac",
+        "country": "Germany",
+        "city": "New Anaborough",
+        "street": "Armstrong Port",
+        "house": 45,
+        "flat": 370,
+        "phone": "+17637149084",
+        "createdOn": "2026-01-04T22:25:21.000Z",
+        "notes": "8KfueKs3JTTPwxgUHpJq7PyscW8lT26smruajlWx2RRYy7yxEUYCAEUXOPmqwG9BkyaHdZeB0GV9Z4R4VizWKwdXhzypNnYDMyvstuFqm7eyeJWAICg4MiZQGc0JGBf0Fs9EF75W3iai3xpOY2Nj2k8SkdxvOIE5EBUGOfggxp2uK31B0Z64NUK6adZscGcCXebgsrKWRFUlclBScMgiklSZJaPdlKxOFcs6vkESfcAhl6H3Gk9rQeFgLX"
+      },
+      "products": [
+        {
+          "_id": "695ae8d31c508c5d5ea9a2ec",
+          "name": "Hat360",
+          "amount": 188,
+          "price": 71832,
+          "manufacturer": "Xiaomi",
+          "notes": "CtJNVQV7p6eqT7mk7THe7ujAvHVXkmLnb3vFp5x7KA8hm1cwTqlfZ6DXqbSa3H85pxow7ZznBJfAoQQI6xCiGRThYSE4ejVNVZfJqGVpLE1TJnrqueyKiy101asRhiFKhyeokvFa5JM6fIha44vEyCNyhHTReM614hxSf4XDVtlBS031PlTTuS7TirFfnJ1C9y46XBiDbFOrJUCbpIJHnKXhveMn8ZrXhnVf87918ODFkbMAJNZuuYKL6h",
+          "received": false
+        },
+        {
+          "_id": "695ae8d41c508c5d5ea9a347",
+          "name": "Pizza95061",
+          "amount": 753,
+          "price": 59064,
+          "manufacturer": "Sony",
+          "notes": "58LVBpdTXtNV3EI3YZjp05xb6PEyFIoFmJpeW2H2ph7AqpAkmZCxEzpjhRHf411cFTIX6E4GZEbHvob8xO2HGZiIYxsr1Mdv1xltp58pvsmWS4zunSzZIanAnoLLrGxLs7nxLMbD9XxdTkMsC6eR0W2R27QT8myJraeYW2kzUlx8DaZ5qkC3LJ0Ela7OCxI5IavYx0RiFx3ja7Q1jBoVVvGfKLa89ecWJmNDfhcRg20aFVfId6uVGQ73CF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 130896,
+      "createdOn": "2026-01-04T22:25:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8d11c508c5d5ea9a1d0",
+          "products": [
+            {
+              "_id": "695ae8d31c508c5d5ea9a2ec",
+              "name": "Hat360",
+              "amount": 188,
+              "price": 71832,
+              "manufacturer": "Xiaomi",
+              "notes": "CtJNVQV7p6eqT7mk7THe7ujAvHVXkmLnb3vFp5x7KA8hm1cwTqlfZ6DXqbSa3H85pxow7ZznBJfAoQQI6xCiGRThYSE4ejVNVZfJqGVpLE1TJnrqueyKiy101asRhiFKhyeokvFa5JM6fIha44vEyCNyhHTReM614hxSf4XDVtlBS031PlTTuS7TirFfnJ1C9y46XBiDbFOrJUCbpIJHnKXhveMn8ZrXhnVf87918ODFkbMAJNZuuYKL6h",
+              "received": false
+            },
+            {
+              "_id": "695ae8d41c508c5d5ea9a347",
+              "name": "Pizza95061",
+              "amount": 753,
+              "price": 59064,
+              "manufacturer": "Sony",
+              "notes": "58LVBpdTXtNV3EI3YZjp05xb6PEyFIoFmJpeW2H2ph7AqpAkmZCxEzpjhRHf411cFTIX6E4GZEbHvob8xO2HGZiIYxsr1Mdv1xltp58pvsmWS4zunSzZIanAnoLLrGxLs7nxLMbD9XxdTkMsC6eR0W2R27QT8myJraeYW2kzUlx8DaZ5qkC3LJ0Ela7OCxI5IavYx0RiFx3ja7Q1jBoVVvGfKLa89ecWJmNDfhcRg20aFVfId6uVGQ73CF",
+              "received": false
+            }
+          ],
+          "total_price": 130896,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8d41c508c5d5ea9a37d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

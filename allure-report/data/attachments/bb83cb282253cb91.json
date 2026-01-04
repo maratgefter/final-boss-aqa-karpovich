@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:26:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4804",
+    "etag": "W/\"12c4-9WSDozengQ+MODYWN/ppITLHIDk\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ae9111c508c5d5ea9c51a",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695ae9101c508c5d5ea9c4a1",
+        "email": "Geovanny7@gmail.com",
+        "name": "Marquis Runolfsson",
+        "country": "Canada",
+        "city": "Glen Burnie",
+        "street": "College Street",
+        "house": 1,
+        "flat": 159,
+        "phone": "+12332367157",
+        "createdOn": "2026-01-04T22:26:24.000Z",
+        "notes": "k6Bk46jfsM886DfMcfIDWWZStZwwF0YiNySeODkKRo875N9W8R0IxJImFlnAaPw6N1IC6YUPuvq55Q4yxUfTPrYOyw8Wb7IUmG8dH0hp5g80sUzfRsSwc4UTsPppL8cOCmfzqLmiu7VBGKa0doxEcQhvjLTS1oPhttAClRYkP5M1cVmpPlidzRhnS7f3rLO1TRVGia8GDHsiQU66adnArnYwOv1eSI1iAkeQBvy0UeGDk9vyTzguDWcJot"
+      },
+      "products": [
+        {
+          "_id": "695ae9111c508c5d5ea9c4f4",
+          "name": "Table45553",
+          "amount": 301,
+          "price": 49244,
+          "manufacturer": "Microsoft",
+          "notes": "rq1Cf8snY0kAfORQ0ELa3EQ0nINsbK6lZXtcmf5Y4rt4y6upSURrEWqJ6UysSLjxoCXyt081sLQ0MPZSdiWFzJ2Ws3lT7q9PiKk6jKpEMWT6C5A2A1XuDRvj9uUjLCNCwNuIgbVoe0oTiRuKVI3m45btCrmp1yY1ZxUy6cChogPCSDSPoTD0U6ysprJYAevKdS5kJGHTzGNy8SAxtfrZODehOhvXyvg0EgMSmNQQcmT3KnIUMLIeiQSJBe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Glen Burnie",
+          "street": "College Street",
+          "house": 1,
+          "flat": 159
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 49244,
+      "createdOn": "2026-01-04T22:26:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695ae9101c508c5d5ea9c4a1",
+          "products": [
+            {
+              "_id": "695ae9111c508c5d5ea9c4f4",
+              "name": "Table45553",
+              "amount": 301,
+              "price": 49244,
+              "manufacturer": "Microsoft",
+              "notes": "rq1Cf8snY0kAfORQ0ELa3EQ0nINsbK6lZXtcmf5Y4rt4y6upSURrEWqJ6UysSLjxoCXyt081sLQ0MPZSdiWFzJ2Ws3lT7q9PiKk6jKpEMWT6C5A2A1XuDRvj9uUjLCNCwNuIgbVoe0oTiRuKVI3m45btCrmp1yY1ZxUy6cChogPCSDSPoTD0U6ysprJYAevKdS5kJGHTzGNy8SAxtfrZODehOhvXyvg0EgMSmNQQcmT3KnIUMLIeiQSJBe",
+              "received": false
+            }
+          ],
+          "total_price": 49244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Glen Burnie",
+              "street": "College Street",
+              "house": 1,
+              "flat": 159
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T22:26:34.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695ae9101c508c5d5ea9c4a1",
+          "products": [
+            {
+              "_id": "695ae9111c508c5d5ea9c4f4",
+              "name": "Table45553",
+              "amount": 301,
+              "price": 49244,
+              "manufacturer": "Microsoft",
+              "notes": "rq1Cf8snY0kAfORQ0ELa3EQ0nINsbK6lZXtcmf5Y4rt4y6upSURrEWqJ6UysSLjxoCXyt081sLQ0MPZSdiWFzJ2Ws3lT7q9PiKk6jKpEMWT6C5A2A1XuDRvj9uUjLCNCwNuIgbVoe0oTiRuKVI3m45btCrmp1yY1ZxUy6cChogPCSDSPoTD0U6ysprJYAevKdS5kJGHTzGNy8SAxtfrZODehOhvXyvg0EgMSmNQQcmT3KnIUMLIeiQSJBe",
+              "received": false
+            }
+          ],
+          "total_price": 49244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Glen Burnie",
+              "street": "College Street",
+              "house": 1,
+              "flat": 159
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T22:26:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae9101c508c5d5ea9c4a1",
+          "products": [
+            {
+              "_id": "695ae9111c508c5d5ea9c4f4",
+              "name": "Table45553",
+              "amount": 301,
+              "price": 49244,
+              "manufacturer": "Microsoft",
+              "notes": "rq1Cf8snY0kAfORQ0ELa3EQ0nINsbK6lZXtcmf5Y4rt4y6upSURrEWqJ6UysSLjxoCXyt081sLQ0MPZSdiWFzJ2Ws3lT7q9PiKk6jKpEMWT6C5A2A1XuDRvj9uUjLCNCwNuIgbVoe0oTiRuKVI3m45btCrmp1yY1ZxUy6cChogPCSDSPoTD0U6ysprJYAevKdS5kJGHTzGNy8SAxtfrZODehOhvXyvg0EgMSmNQQcmT3KnIUMLIeiQSJBe",
+              "received": false
+            }
+          ],
+          "total_price": 49244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Glen Burnie",
+              "street": "College Street",
+              "house": 1,
+              "flat": 159
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T22:26:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695ae9101c508c5d5ea9c4a1",
+          "products": [
+            {
+              "_id": "695ae9111c508c5d5ea9c4f4",
+              "name": "Table45553",
+              "amount": 301,
+              "price": 49244,
+              "manufacturer": "Microsoft",
+              "notes": "rq1Cf8snY0kAfORQ0ELa3EQ0nINsbK6lZXtcmf5Y4rt4y6upSURrEWqJ6UysSLjxoCXyt081sLQ0MPZSdiWFzJ2Ws3lT7q9PiKk6jKpEMWT6C5A2A1XuDRvj9uUjLCNCwNuIgbVoe0oTiRuKVI3m45btCrmp1yY1ZxUy6cChogPCSDSPoTD0U6ysprJYAevKdS5kJGHTzGNy8SAxtfrZODehOhvXyvg0EgMSmNQQcmT3KnIUMLIeiQSJBe",
+              "received": false
+            }
+          ],
+          "total_price": 49244,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:26:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

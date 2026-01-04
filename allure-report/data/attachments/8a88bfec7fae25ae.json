@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-y/oW2riARX0dY6gc2PqfWuw3XAg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8ca1c508c5d5ea99e4f",
+        "email": "Dayne_OKon@hotmail.com",
+        "name": "Flo Cummings",
+        "country": "Ukraine",
+        "city": "Cedar Rapids",
+        "street": "Albion Street",
+        "house": 3,
+        "flat": 655,
+        "phone": "+17544328003",
+        "createdOn": "2026-01-04T22:25:14.000Z",
+        "notes": "dlViyIdV2IHTc0gpISWht4iM9jmIhClujkW9hcsCQEGpIv0BiCUtV5GELWu9gIegEU43agZttBUknwRgjFNnvN6o1BaIez4tsAmq4mmVGcaPjUNN8gUK6acJNj4RExSNN22lJiY9nksCzA3AP8WWHNPja4l3BLnERRkM3FCYRGCELWCGH82bYTsU0xUowWFe4CGehODApANROK0gaNzj8796JRv3kDRZChKnZZhSMPT8yQuTzkRNhuXlCY"
+      },
+      "products": [
+        {
+          "_id": "695ae8cb1c508c5d5ea99ef2",
+          "name": "Shoes86550",
+          "amount": 257,
+          "price": 95424,
+          "manufacturer": "Microsoft",
+          "notes": "s2tvQMZZ4Un39dNqJgjZFsgWM44LLhFpXvG29h2qHGjA5ZaIRfJejpKjGaqxCVLDn9LCH98WeY363gVUhRu5falTsqoMQrBVoOMDRUXJxHHfycldMW5es9o3R6FRvrhNfH16GTJW6LHhb8HfBquBsKxVH9jLhdqtuj2ORWt2dJ9gs0dR0ZzLCiA6fowkEFAlGlgFV2yl04gwaNXxhBeisDi5zlvbT1QjinJkmDNDPOKaNpY4wG02vR0lYf",
+          "received": false
+        },
+        {
+          "_id": "695ae8cc1c508c5d5ea99f46",
+          "name": "Shoes23632",
+          "amount": 172,
+          "price": 40835,
+          "manufacturer": "Apple",
+          "notes": "nLD3hsyz1Xyeh56fYVM2DyM7pLOZMuY6xVzW8dX2HwO4BNBHjbMPVimHYtpUwsaJfzOXXlM8AGgj3uimIlH4TMdkry95Jqi0wpo78AFTTTDPpsirSuEqPWIo2BC1s2ly7OcLhwlzQ1R9IzxpCYeINjKQ4XwEXl5W8V69L3NeQw4NysytxMJkVvYECkXtFYaouDkOA4zvnaEsAlocpeduKGXZwUt4UOzNb9B990v1nm2pyRqzmYKDQSQZpu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 136259,
+      "createdOn": "2026-01-04T22:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8ca1c508c5d5ea99e4f",
+          "products": [
+            {
+              "_id": "695ae8cb1c508c5d5ea99ef2",
+              "name": "Shoes86550",
+              "amount": 257,
+              "price": 95424,
+              "manufacturer": "Microsoft",
+              "notes": "s2tvQMZZ4Un39dNqJgjZFsgWM44LLhFpXvG29h2qHGjA5ZaIRfJejpKjGaqxCVLDn9LCH98WeY363gVUhRu5falTsqoMQrBVoOMDRUXJxHHfycldMW5es9o3R6FRvrhNfH16GTJW6LHhb8HfBquBsKxVH9jLhdqtuj2ORWt2dJ9gs0dR0ZzLCiA6fowkEFAlGlgFV2yl04gwaNXxhBeisDi5zlvbT1QjinJkmDNDPOKaNpY4wG02vR0lYf",
+              "received": false
+            },
+            {
+              "_id": "695ae8cc1c508c5d5ea99f46",
+              "name": "Shoes23632",
+              "amount": 172,
+              "price": 40835,
+              "manufacturer": "Apple",
+              "notes": "nLD3hsyz1Xyeh56fYVM2DyM7pLOZMuY6xVzW8dX2HwO4BNBHjbMPVimHYtpUwsaJfzOXXlM8AGgj3uimIlH4TMdkry95Jqi0wpo78AFTTTDPpsirSuEqPWIo2BC1s2ly7OcLhwlzQ1R9IzxpCYeINjKQ4XwEXl5W8V69L3NeQw4NysytxMJkVvYECkXtFYaouDkOA4zvnaEsAlocpeduKGXZwUt4UOzNb9B990v1nm2pyRqzmYKDQSQZpu",
+              "received": false
+            }
+          ],
+          "total_price": 136259,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8cc1c508c5d5ea99f7b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

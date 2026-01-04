@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-6U4gWPqXdfP3ylZTbMGDk0c2Qio\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae8ca1c508c5d5ea99e4d",
+        "email": "Bradford99@hotmail.com",
+        "name": "Christina Reynolds",
+        "country": "Belarus",
+        "city": "Langworthhaven",
+        "street": "Johnston Prairie",
+        "house": 1,
+        "flat": 72,
+        "phone": "+19189001848",
+        "createdOn": "2026-01-04T22:25:14.000Z",
+        "notes": "fJVXzODavwYMC9xTwf0SIvNg36xYYfMCxBITWufG4e3Yp3xXmxAtw6ViRz8IBwSls5PH3WUe6Sk2oXTtLyD2aXVtXAz5CYQaaed3X1Whvp9H5mS1QqcsyEj5Zg7WAr3cgIYYaLiu9NVcaWrHY7KFLUPGt8n2ELVaIqzIbnlwKEjCgLhhVQqjFHxIBNh3NTZIs14Dpb57kakqMqJ5PzzLZjom1CdGPdl9iyg9NGJmN83HlsPe09nAa1o5bP"
+      },
+      "products": [
+        {
+          "_id": "695ae8cb1c508c5d5ea99ef0",
+          "name": "Pizza50989",
+          "amount": 275,
+          "price": 30543,
+          "manufacturer": "Sony",
+          "notes": "b2QuNL5tsuGZ34z5IWPy9lppFsCCC0H5Z7tTP1LfEHvSg82hY7hDJVWeZA6CfrBsgPPEdlxPlVMqZtxkBeubQQMfsVoTZmJKazHPYwdpsognjM4FYOBy28OlF5nwe4uyAgXVCOVAyhC3P9fB5Ewei19LAWwV9qMH1ONRjJQ0RMFfQokHfPIQ3RJ9SQo7xgirB6YL3gQrNVrVuPQHANg4p6gCd8GsYIXXdMtN4upgsFeOzJlETzpyf62Gd8",
+          "received": false
+        },
+        {
+          "_id": "695ae8cc1c508c5d5ea99f4a",
+          "name": "Pizza52015",
+          "amount": 291,
+          "price": 58184,
+          "manufacturer": "Microsoft",
+          "notes": "IgKJywjRjc7jLeJvHYvX17c1n4AI2U545W9vAdkP1eINqc6hMe84IL99IznctAtkrcLJYyjF8BxDLcQoUOH8wisYeMaAIeGaQPdr1KpZhG6XM59DkWAKM6ZAeKp2Z4ljzEF0u6dwITiKGu7MWqbe68tv622tiBPlSGBHxqjJ6wMgcV3RKpKfFXESD2zPK8oXQ5aB7RWnBOFCS2XedbwcJ5k2sNg6oywYWk4FD3eTdT9wN9jxtgUkxKLbU0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88727,
+      "createdOn": "2026-01-04T22:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae8ca1c508c5d5ea99e4d",
+          "products": [
+            {
+              "_id": "695ae8cb1c508c5d5ea99ef0",
+              "name": "Pizza50989",
+              "amount": 275,
+              "price": 30543,
+              "manufacturer": "Sony",
+              "notes": "b2QuNL5tsuGZ34z5IWPy9lppFsCCC0H5Z7tTP1LfEHvSg82hY7hDJVWeZA6CfrBsgPPEdlxPlVMqZtxkBeubQQMfsVoTZmJKazHPYwdpsognjM4FYOBy28OlF5nwe4uyAgXVCOVAyhC3P9fB5Ewei19LAWwV9qMH1ONRjJQ0RMFfQokHfPIQ3RJ9SQo7xgirB6YL3gQrNVrVuPQHANg4p6gCd8GsYIXXdMtN4upgsFeOzJlETzpyf62Gd8",
+              "received": false
+            },
+            {
+              "_id": "695ae8cc1c508c5d5ea99f4a",
+              "name": "Pizza52015",
+              "amount": 291,
+              "price": 58184,
+              "manufacturer": "Microsoft",
+              "notes": "IgKJywjRjc7jLeJvHYvX17c1n4AI2U545W9vAdkP1eINqc6hMe84IL99IznctAtkrcLJYyjF8BxDLcQoUOH8wisYeMaAIeGaQPdr1KpZhG6XM59DkWAKM6ZAeKp2Z4ljzEF0u6dwITiKGu7MWqbe68tv622tiBPlSGBHxqjJ6wMgcV3RKpKfFXESD2zPK8oXQ5aB7RWnBOFCS2XedbwcJ5k2sNg6oywYWk4FD3eTdT9wN9jxtgUkxKLbU0",
+              "received": false
+            }
+          ],
+          "total_price": 88727,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae8cc1c508c5d5ea99f7d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
