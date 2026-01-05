@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-IVjHh9LFOWcA+EmEL8r5eV9aHLQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695c3ac91c508c5d5eaaaa36",
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3ac61c508c5d5eaaa7fb",
+        "email": "Niko_Daniel78@yahoo.com",
+        "name": "Birdie Marks",
+        "country": "USA",
+        "city": "Plano",
+        "street": "N 3rd Street",
+        "house": 47,
+        "flat": 697,
+        "phone": "+19533298421",
+        "createdOn": "2026-01-05T22:27:18.000Z",
+        "notes": "YyZ861WoF1SGqjr01TPdpglxODVF3X2C0yv5JuHCoehf3PvjINWl6HCX32lrGMm2x7vGuCwoDhirX1nkDmmXP2lWrGuMkkanTaraDAikDUfDzVPKyu7k4yxteucwXXMJrIUdVWmOJsF6mUM3xw1NrLYO7SgfnPXv0BLtzZF3JHTztj9qIURuBHuyvlqKTkx4Zjo2ejklyVd7D5CUOcW0HUtz55JPfv7yH2xFacLNi2g3ACsgDfFvkskwvp"
+      },
+      "products": [
+        {
+          "_id": "695c3ac71c508c5d5eaaa924",
+          "name": "Keyboard63837",
+          "amount": 310,
+          "price": 54009,
+          "manufacturer": "Samsung",
+          "notes": "yGOjJaSg7nOxxcSxJLOgtteHyncl6rxCaaRqxoSgg3O2KQ76BXqcmJlXUubug8ZsL9eCJWkt4M6x9qkRppDiXGOhzMuZaLgxp17fleOxc1XHFImLp16h648KXsKYWGqUnYscitofrbadm176RB1a4g67jNdMIGr2kch6LJDuWpOFChstYywRUbHnv17Ty7Rt7k0qBHZZeCzzthAqWPuYqXJT4N28fAoTDQQ9sDhmS5yrW9BC80JJOaCamM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54009,
+      "createdOn": "2026-01-05T22:27:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3ac61c508c5d5eaaa7fb",
+          "products": [
+            {
+              "_id": "695c3ac71c508c5d5eaaa924",
+              "name": "Keyboard63837",
+              "amount": 310,
+              "price": 54009,
+              "manufacturer": "Samsung",
+              "notes": "yGOjJaSg7nOxxcSxJLOgtteHyncl6rxCaaRqxoSgg3O2KQ76BXqcmJlXUubug8ZsL9eCJWkt4M6x9qkRppDiXGOhzMuZaLgxp17fleOxc1XHFImLp16h648KXsKYWGqUnYscitofrbadm176RB1a4g67jNdMIGr2kch6LJDuWpOFChstYywRUbHnv17Ty7Rt7k0qBHZZeCzzthAqWPuYqXJT4N28fAoTDQQ9sDhmS5yrW9BC80JJOaCamM",
+              "received": false
+            }
+          ],
+          "total_price": 54009,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

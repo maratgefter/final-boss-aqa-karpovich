@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3911",
+    "etag": "W/\"f47-uZykqXbGPzHEcCBiim0Vju6C+hI\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695c3ad31c508c5d5eaab0cb",
+      "status": "In Process",
+      "customer": {
+        "_id": "695c3ad01c508c5d5eaaaeb2",
+        "email": "Emely_Haag@yahoo.com",
+        "name": "Jarrod Boehm",
+        "country": "Great Britain",
+        "city": "New Michellefort",
+        "street": "Reagan Estates",
+        "house": 18,
+        "flat": 96,
+        "phone": "+17315611948",
+        "createdOn": "2026-01-05T22:27:28.000Z",
+        "notes": "BGBkUTRZI46GMaOzWvPS5vRhfliaZF2vhhIGiyOIwqiK0j2wYKfdaN9g5T64PqqVtlnfqGvupAsETlHUaSZwEVn77NwLBFV4joWQSMBknfJG9Z61aYJ4P0N5nyboY0sMKwWG89ich270plop2wjgb2vUrVP9xaLrPZfphQ2PhCQZpBtXvu1WMhhli1d4lsqWlcp3TUqYa73pNsaugEIE3ctKvrJWqIu13sWElhMZo8birCdsxbh4W2WxsF"
+      },
+      "products": [
+        {
+          "_id": "695c3ad31c508c5d5eaab0ab",
+          "name": "Soap80773",
+          "amount": 581,
+          "price": 2475,
+          "manufacturer": "Amazon",
+          "notes": "3gCJtO6B0mToMMNwLpOIxWxVQK3hzaa0mgfYxDoeWlgWf8bCu3DRlq4c1akhBrIJGaS0L4J4Y0IVlGot2DgGeMYTIyXmZbeR1s6KKV1tf0GZpweFCjuYZiPe6w55AYTLHFGbbALVRTjdjcX7DEPz2jIHc8JjERClDFW7JJcM8ja0LhviqWfqsUB1U4njg7kVbXCAsZlNcFO0UaeFkwS78cmXlBKkezKbJePWPQv857xFc2zYldXvhzjxgL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Michellefort",
+          "street": "Reagan Estates",
+          "house": 18,
+          "flat": 96
+        },
+        "finalDate": "2026-01-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 2475,
+      "createdOn": "2026-01-05T22:27:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695c3ad01c508c5d5eaaaeb2",
+          "products": [
+            {
+              "_id": "695c3ad31c508c5d5eaab0ab",
+              "name": "Soap80773",
+              "amount": 581,
+              "price": 2475,
+              "manufacturer": "Amazon",
+              "notes": "3gCJtO6B0mToMMNwLpOIxWxVQK3hzaa0mgfYxDoeWlgWf8bCu3DRlq4c1akhBrIJGaS0L4J4Y0IVlGot2DgGeMYTIyXmZbeR1s6KKV1tf0GZpweFCjuYZiPe6w55AYTLHFGbbALVRTjdjcX7DEPz2jIHc8JjERClDFW7JJcM8ja0LhviqWfqsUB1U4njg7kVbXCAsZlNcFO0UaeFkwS78cmXlBKkezKbJePWPQv857xFc2zYldXvhzjxgL",
+              "received": false
+            }
+          ],
+          "total_price": 2475,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Michellefort",
+              "street": "Reagan Estates",
+              "house": 18,
+              "flat": 96
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-05T22:27:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695c3ad01c508c5d5eaaaeb2",
+          "products": [
+            {
+              "_id": "695c3ad31c508c5d5eaab0ab",
+              "name": "Soap80773",
+              "amount": 581,
+              "price": 2475,
+              "manufacturer": "Amazon",
+              "notes": "3gCJtO6B0mToMMNwLpOIxWxVQK3hzaa0mgfYxDoeWlgWf8bCu3DRlq4c1akhBrIJGaS0L4J4Y0IVlGot2DgGeMYTIyXmZbeR1s6KKV1tf0GZpweFCjuYZiPe6w55AYTLHFGbbALVRTjdjcX7DEPz2jIHc8JjERClDFW7JJcM8ja0LhviqWfqsUB1U4njg7kVbXCAsZlNcFO0UaeFkwS78cmXlBKkezKbJePWPQv857xFc2zYldXvhzjxgL",
+              "received": false
+            }
+          ],
+          "total_price": 2475,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Michellefort",
+              "street": "Reagan Estates",
+              "house": 18,
+              "flat": 96
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-05T22:27:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695c3ad01c508c5d5eaaaeb2",
+          "products": [
+            {
+              "_id": "695c3ad31c508c5d5eaab0ab",
+              "name": "Soap80773",
+              "amount": 581,
+              "price": 2475,
+              "manufacturer": "Amazon",
+              "notes": "3gCJtO6B0mToMMNwLpOIxWxVQK3hzaa0mgfYxDoeWlgWf8bCu3DRlq4c1akhBrIJGaS0L4J4Y0IVlGot2DgGeMYTIyXmZbeR1s6KKV1tf0GZpweFCjuYZiPe6w55AYTLHFGbbALVRTjdjcX7DEPz2jIHc8JjERClDFW7JJcM8ja0LhviqWfqsUB1U4njg7kVbXCAsZlNcFO0UaeFkwS78cmXlBKkezKbJePWPQv857xFc2zYldXvhzjxgL",
+              "received": false
+            }
+          ],
+          "total_price": 2475,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

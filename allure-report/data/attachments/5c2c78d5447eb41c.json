@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-FqicWyQVqi87WM/ZI7I7lgyBNDo\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3ab61c508c5d5eaa9f80",
+        "email": "Ofelia.Raynor25@hotmail.com",
+        "name": "Lloyd Russel",
+        "country": "Belarus",
+        "city": "Yundtworth",
+        "street": "Reinger Square",
+        "house": 49,
+        "flat": 729,
+        "phone": "+17093106978",
+        "createdOn": "2026-01-05T22:27:02.000Z",
+        "notes": "XUdSutQeS6T3WAUwuGPyamCkvgOckok4UsW3tNFADyZKsXSGqtq1WmmTvYMJT9YsoKDCOBroebcUusKLzlLaPS26tfzjDycuM0wiahtVaOzKZhuBej5EnOHBbnWJMkd3IOEEsAfxHabifJMv2neugpIfsqYvoANyBS8npqjNwRCdEyjgW3OVRJ4AE3WUdzIlv0D8sAZCaGP7qyOA2PHvlMw1awHzMR2OgztSsQw1P6Y3A2KDtQKRntpBAD"
+      },
+      "products": [
+        {
+          "_id": "695c3ab71c508c5d5eaa9fdf",
+          "name": "Cheese61369",
+          "amount": 729,
+          "price": 50164,
+          "manufacturer": "Tesla",
+          "notes": "eKmQPcIU75Hpo7CCBxMGFsUlVtp6B6uDUhriXwU2y7eqahIU9Br3qMQJnXwm0pRmbPS1igO50CalZ6NniGsk0L2OQ4d8NtjsgsRL9atYoFdAOmAnIUm9iBtrkUCNmCLWFY7n6lAvlsUhGNrs936lit1LXZAlfpsm1nA4uNVDQJJ2uFVCgg8C7nIC4OVelTOEYWfQ4rYT3IIbDTqjqpMmPjUPrAQ02tRgVj8XHgoJyjfrzdNq0tpiUmrF59",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50164,
+      "createdOn": "2026-01-05T22:27:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3ab61c508c5d5eaa9f80",
+          "products": [
+            {
+              "_id": "695c3ab71c508c5d5eaa9fdf",
+              "name": "Cheese61369",
+              "amount": 729,
+              "price": 50164,
+              "manufacturer": "Tesla",
+              "notes": "eKmQPcIU75Hpo7CCBxMGFsUlVtp6B6uDUhriXwU2y7eqahIU9Br3qMQJnXwm0pRmbPS1igO50CalZ6NniGsk0L2OQ4d8NtjsgsRL9atYoFdAOmAnIUm9iBtrkUCNmCLWFY7n6lAvlsUhGNrs936lit1LXZAlfpsm1nA4uNVDQJJ2uFVCgg8C7nIC4OVelTOEYWfQ4rYT3IIbDTqjqpMmPjUPrAQ02tRgVj8XHgoJyjfrzdNq0tpiUmrF59",
+              "received": false
+            }
+          ],
+          "total_price": 50164,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3ab81c508c5d5eaaa063"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

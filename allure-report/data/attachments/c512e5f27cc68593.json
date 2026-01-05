@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-3mAkHT/2Wk86NlCZSKkFa2aUwe4\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695c3add1c508c5d5eaab6ba",
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3adb1c508c5d5eaab4fb",
+        "email": "Monty87@hotmail.com",
+        "name": "Dayna Pfeffer",
+        "country": "Canada",
+        "city": "Port Sammyworth",
+        "street": "Hoeger Lane",
+        "house": 32,
+        "flat": 230,
+        "phone": "+15316160229",
+        "createdOn": "2026-01-05T22:27:39.000Z",
+        "notes": "FmT9K95cd7LAQ9pBQ79hyTWNSbyunVLtmxCrlxtzL8MSuWMpmcRyIJcBF6u2NY97M0lq6RQX2VobBlcUx0Rat2srtqXNltHspt48fLC62KdOmQB6N9BI0fSGwB4aTkt9fkiGCpbk7sW8IWazBfPbdfmHiiyqYNIJJCpFlgDiUuLBqt0hYh3LY1jmmveoxREIsP3ZSUcjvxAD8NBACkesdGzDNyBKz1lyiCcKYjUrBfO5nyYDu63oUT4qJ3"
+      },
+      "products": [
+        {
+          "_id": "695c3adc1c508c5d5eaab62f",
+          "name": "Chips93268",
+          "amount": 702,
+          "price": 94634,
+          "manufacturer": "Samsung",
+          "notes": "JPuasmInyN6z0hkyKid3IzSULa0hvuaIgaDWwWWZ7yn9p9DWrFt3qE0QzcUGWLK6XFY6xdE7CxaNTjRoQbuizIZR5TnAwVNekKfqelV1pjETHfv2K8Tsd03Mwwoy0YJomElF4Itdswv5Xwu4n6wrYUfPTe01O9avOb8YmCycuSltdHrkyPjFBFm0Jbmhkakb5O5NVLDgki1SomrfCHEZufgHYE2e6vffxW5x6MVKTmOPQmWYUcxkBo6Wct",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94634,
+      "createdOn": "2026-01-05T22:27:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3adb1c508c5d5eaab4fb",
+          "products": [
+            {
+              "_id": "695c3adc1c508c5d5eaab62f",
+              "name": "Chips93268",
+              "amount": 702,
+              "price": 94634,
+              "manufacturer": "Samsung",
+              "notes": "JPuasmInyN6z0hkyKid3IzSULa0hvuaIgaDWwWWZ7yn9p9DWrFt3qE0QzcUGWLK6XFY6xdE7CxaNTjRoQbuizIZR5TnAwVNekKfqelV1pjETHfv2K8Tsd03Mwwoy0YJomElF4Itdswv5Xwu4n6wrYUfPTe01O9avOb8YmCycuSltdHrkyPjFBFm0Jbmhkakb5O5NVLDgki1SomrfCHEZufgHYE2e6vffxW5x6MVKTmOPQmWYUcxkBo6Wct",
+              "received": false
+            }
+          ],
+          "total_price": 94634,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:43.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695c3adb1c508c5d5eaab4fb",
+          "products": [
+            {
+              "_id": "695c3adc1c508c5d5eaab62f",
+              "name": "Chips93268",
+              "amount": 702,
+              "price": 94634,
+              "manufacturer": "Samsung",
+              "notes": "JPuasmInyN6z0hkyKid3IzSULa0hvuaIgaDWwWWZ7yn9p9DWrFt3qE0QzcUGWLK6XFY6xdE7CxaNTjRoQbuizIZR5TnAwVNekKfqelV1pjETHfv2K8Tsd03Mwwoy0YJomElF4Itdswv5Xwu4n6wrYUfPTe01O9avOb8YmCycuSltdHrkyPjFBFm0Jbmhkakb5O5NVLDgki1SomrfCHEZufgHYE2e6vffxW5x6MVKTmOPQmWYUcxkBo6Wct",
+              "received": false
+            }
+          ],
+          "total_price": 94634,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

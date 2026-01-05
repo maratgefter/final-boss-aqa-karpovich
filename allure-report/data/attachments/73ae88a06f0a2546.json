@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:26:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2668",
+    "etag": "W/\"a6c-3fNhg6wf7FXqnBdT/jHfoeY2oLc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3aaa1c508c5d5eaa9967",
+        "email": "Rudy_Zboncak@gmail.com",
+        "name": "Mafalda Witting",
+        "country": "Belarus",
+        "city": "Port Dedric",
+        "street": "Schoen Circles",
+        "house": 30,
+        "flat": 494,
+        "phone": "+12732681824",
+        "createdOn": "2026-01-05T22:26:50.000Z",
+        "notes": "X7K5Z2NscdzKOpQQw5TM26UiU4brWuUus52N3Qq1Gdn3rmhVaz8hhge8gK9PZaVDySccMs2zLkLHxiuEY1s9GHCMmVBcvS8zzBbImzPH0Ws79GqqiNxYZF7TaQ2UzxpWpc9yIWmplhcvXyM5CZOyfeQ382UZzN5mGTmKofP0usvu6QSmv43kEI3txJ95MNhIJbMiyuHEhFtlKzHrnUhHKCAjBgI8kRyldW0NhPRnBQ45hs1TPZ1UaJBMoL"
+      },
+      "products": [
+        {
+          "_id": "695c3aab1c508c5d5eaa99e6",
+          "name": "Computer28624",
+          "amount": 219,
+          "price": 85131,
+          "manufacturer": "Tesla",
+          "notes": "X7scT6j2KdGRml41OC4JQC1dxX4FIlt10HSmow46L3A3dt312fo2wZIBxOTfKAOfh4cvOZNJQfbncHpZAoOho0SDsud1SEO8WkUnahbnU8XEuRI2jHSQdrkG1dNm9osF5UW3k0htar2Ctax0TkPUnndJFCfDXmSIGVYXHiWnoQq58nBLGh2DL0oO0tkwEL315QspcdWJeL9fXFm346GLzlZxjqDKH93CfLnWVx8IBrpAFYC3fEaDUZFbVn",
+          "received": false
+        },
+        {
+          "_id": "695c3aac1c508c5d5eaa9a5e",
+          "name": "Cheese84232",
+          "amount": 895,
+          "price": 31038,
+          "manufacturer": "Microsoft",
+          "notes": "Mk3EEaeSQacXS5wZJrDrrC53Og1ybdyP2Aar0ksirwJG3JwIfoo16vz0bGAxqjkYYihmCJYywVqNaZrlxBMDaIwUID4BvJA78sn5uiU5iIYGL83tmSHZ6MC9CXEO8WQsEKR7haGelBBuKZqixEk1cSrzULdXSVk5SGTBNz3VelWz21JK2SLzZKhFVR2IpasoZNLYvweWN2zHX7uoFypcc7ONjXQeFb4NrQ8WZ2WtApvB7pYQOlywtdwBGZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 116169,
+      "createdOn": "2026-01-05T22:26:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3aaa1c508c5d5eaa9967",
+          "products": [
+            {
+              "_id": "695c3aab1c508c5d5eaa99e6",
+              "name": "Computer28624",
+              "amount": 219,
+              "price": 85131,
+              "manufacturer": "Tesla",
+              "notes": "X7scT6j2KdGRml41OC4JQC1dxX4FIlt10HSmow46L3A3dt312fo2wZIBxOTfKAOfh4cvOZNJQfbncHpZAoOho0SDsud1SEO8WkUnahbnU8XEuRI2jHSQdrkG1dNm9osF5UW3k0htar2Ctax0TkPUnndJFCfDXmSIGVYXHiWnoQq58nBLGh2DL0oO0tkwEL315QspcdWJeL9fXFm346GLzlZxjqDKH93CfLnWVx8IBrpAFYC3fEaDUZFbVn",
+              "received": false
+            },
+            {
+              "_id": "695c3aac1c508c5d5eaa9a5e",
+              "name": "Cheese84232",
+              "amount": 895,
+              "price": 31038,
+              "manufacturer": "Microsoft",
+              "notes": "Mk3EEaeSQacXS5wZJrDrrC53Og1ybdyP2Aar0ksirwJG3JwIfoo16vz0bGAxqjkYYihmCJYywVqNaZrlxBMDaIwUID4BvJA78sn5uiU5iIYGL83tmSHZ6MC9CXEO8WQsEKR7haGelBBuKZqixEk1cSrzULdXSVk5SGTBNz3VelWz21JK2SLzZKhFVR2IpasoZNLYvweWN2zHX7uoFypcc7ONjXQeFb4NrQ8WZ2WtApvB7pYQOlywtdwBGZ",
+              "received": false
+            }
+          ],
+          "total_price": 116169,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:26:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3aac1c508c5d5eaa9a79"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

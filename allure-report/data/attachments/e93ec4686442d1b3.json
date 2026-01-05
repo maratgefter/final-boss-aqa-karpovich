@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-P+qUOODuyS5d1dTZWyudmz4Mdkw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3ab31c508c5d5eaa9da8",
+        "email": "Leland55@yahoo.com",
+        "name": "Leta Cole",
+        "country": "France",
+        "city": "North Hobartboro",
+        "street": "Russel Lights",
+        "house": 25,
+        "flat": 238,
+        "phone": "+12256569902",
+        "createdOn": "2026-01-05T22:26:59.000Z",
+        "notes": "dCU1ucN6W90HEGB56FSgk6UqCu8xoxUAThcfjXIjUzAOQrBVMU0LC6D67RH1uFetmzLjPf7UWu7CEmhtUkhNZLubXNWiWC9IAD4zrAUqWNNKy4DFiVvGlVcrYo9zi9Cu0XcbKNDT5Enx481vefhXoo0VWAP412vP1eqSss1C0T9OivhkPg9xnufhg4Kdqvtlb0xFQnsyvGynHIjzeJLXFdU7wS0KpexedQpj6QpqTKt3c5Vg7bto0gF7sl"
+      },
+      "products": [
+        {
+          "_id": "695c3ab41c508c5d5eaa9e67",
+          "name": "Fish34534",
+          "amount": 239,
+          "price": 18646,
+          "manufacturer": "Amazon",
+          "notes": "p5PqpX3prnklJ2ZhDKFMqw2Vzul5wO4kGS8HxGBooMEzE5lDPU0v5E2nwWxC6uRQau4FB72fof3Z8gyFI4KARYvhIZoktuNh4iG1FYBgBIARKfXl0g8eE8wW6aHhLeHr2y4OAZfCGjTJFl7iJK0x5azU24WPF0XhUySxW77FTrw4DB6Pk8L3zPwtcOF9YuTvQp2poH0LE0JWj9ffq5HsY1tCjxzm4xnlNXXnL0ZKGZnV5V9bimkLtThEn6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18646,
+      "createdOn": "2026-01-05T22:27:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3ab31c508c5d5eaa9da8",
+          "products": [
+            {
+              "_id": "695c3ab41c508c5d5eaa9e67",
+              "name": "Fish34534",
+              "amount": 239,
+              "price": 18646,
+              "manufacturer": "Amazon",
+              "notes": "p5PqpX3prnklJ2ZhDKFMqw2Vzul5wO4kGS8HxGBooMEzE5lDPU0v5E2nwWxC6uRQau4FB72fof3Z8gyFI4KARYvhIZoktuNh4iG1FYBgBIARKfXl0g8eE8wW6aHhLeHr2y4OAZfCGjTJFl7iJK0x5azU24WPF0XhUySxW77FTrw4DB6Pk8L3zPwtcOF9YuTvQp2poH0LE0JWj9ffq5HsY1tCjxzm4xnlNXXnL0ZKGZnV5V9bimkLtThEn6",
+              "received": false
+            }
+          ],
+          "total_price": 18646,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3ab41c508c5d5eaa9e87"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

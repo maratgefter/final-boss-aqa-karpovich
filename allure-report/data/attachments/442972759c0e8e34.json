@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-4h8dHpIbGR464byrzRa/Gz8udAQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3abd1c508c5d5eaaa337",
+        "email": "Cleve14@hotmail.com",
+        "name": "Geovany Baumbach",
+        "country": "Belarus",
+        "city": "Grimesfurt",
+        "street": "West Expressway",
+        "house": 22,
+        "flat": 792,
+        "phone": "+18192086713",
+        "createdOn": "2026-01-05T22:27:09.000Z",
+        "notes": "zROtaWS98535bzmuXZ7eLQwrCLMaljqb2TA3G42SnxmeKN1uPfQ7Cu7kGjQNMRQXQy6UhhBk3MZO51aD3JqPxGWrllPbSnHch128l53UK3XXa12w8E6eiITJSi5kd8owT7NUq2l3POkHDSxfYM9s8WDZVvdjkPHqTyAkcrrFHwmSLYFF4Y2ZxtuuxymPiDMHHltHdt8rDgnOFKmj5Mn1FioHHM9ejsSVNY42cu5B4qcX9WmQ2xozqxFoPk"
+      },
+      "products": [
+        {
+          "_id": "695c3abe1c508c5d5eaaa396",
+          "name": "Shoes39842",
+          "amount": 407,
+          "price": 37962,
+          "manufacturer": "Microsoft",
+          "notes": "xr4AWcGJCssthHiAkdQ8rEO3aAZ4TSY9spJ5D6p1mo2u3u0x3IPO2LJbsZpVsvFJHBffvsKA47b2EoLOZqz5MstmtDfclLJ0oJk8PhAnS7rrUVJW7YSCk1sbd0Yu0xn8uLvjn1LZOEsdLy8JyDqSG32gCYHkbb7NRPJCRJle98358ONYO51qhZPJ06JMAND1P08JWjcIi6FMbRJ6O2zPNvLfKwVeiRDBupNXXg9a0BSUzJWjp72yPjBAyZ",
+          "received": false
+        },
+        {
+          "_id": "695c3abf1c508c5d5eaaa44d",
+          "name": "Chair65642",
+          "amount": 759,
+          "price": 16112,
+          "manufacturer": "Sony",
+          "notes": "U0EUVjQGOvnrlk5T3ZzIfq79z86O76CvevbYgC0C5rkAKsB3BEv7jZrpOIOi6aHiPtxXt1IsQ7nPvn7Lo6dnGRFaU4xSnkjDK4kBN5fJ7YhJl6yIBrRbJV8ve507ZTy5nybGLbe7A6Y5HvNX5edCAKipXHMP6XI1FAeY2YuHASHUF5KpjazVSnUxJ34DGBdCHH08kNe09RyrBXWCYtVo7P8le333HLlvbVMTnPFTj4G2Y0oQh8UrW47NDv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54074,
+      "createdOn": "2026-01-05T22:27:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3abd1c508c5d5eaaa337",
+          "products": [
+            {
+              "_id": "695c3abe1c508c5d5eaaa396",
+              "name": "Shoes39842",
+              "amount": 407,
+              "price": 37962,
+              "manufacturer": "Microsoft",
+              "notes": "xr4AWcGJCssthHiAkdQ8rEO3aAZ4TSY9spJ5D6p1mo2u3u0x3IPO2LJbsZpVsvFJHBffvsKA47b2EoLOZqz5MstmtDfclLJ0oJk8PhAnS7rrUVJW7YSCk1sbd0Yu0xn8uLvjn1LZOEsdLy8JyDqSG32gCYHkbb7NRPJCRJle98358ONYO51qhZPJ06JMAND1P08JWjcIi6FMbRJ6O2zPNvLfKwVeiRDBupNXXg9a0BSUzJWjp72yPjBAyZ",
+              "received": false
+            },
+            {
+              "_id": "695c3abf1c508c5d5eaaa44d",
+              "name": "Chair65642",
+              "amount": 759,
+              "price": 16112,
+              "manufacturer": "Sony",
+              "notes": "U0EUVjQGOvnrlk5T3ZzIfq79z86O76CvevbYgC0C5rkAKsB3BEv7jZrpOIOi6aHiPtxXt1IsQ7nPvn7Lo6dnGRFaU4xSnkjDK4kBN5fJ7YhJl6yIBrRbJV8ve507ZTy5nybGLbe7A6Y5HvNX5edCAKipXHMP6XI1FAeY2YuHASHUF5KpjazVSnUxJ34DGBdCHH08kNe09RyrBXWCYtVo7P8le333HLlvbVMTnPFTj4G2Y0oQh8UrW47NDv",
+              "received": false
+            }
+          ],
+          "total_price": 54074,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3ac01c508c5d5eaaa485"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

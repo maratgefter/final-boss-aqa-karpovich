@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-j1F23GHhYAu2Cl0dyBK4i9HFJ6I\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3ad01c508c5d5eaaaea7",
+        "email": "Ruby.Klocko@yahoo.com",
+        "name": "Dahlia Thompson",
+        "country": "Germany",
+        "city": "Chino Hills",
+        "street": "Kirlin Vista",
+        "house": 49,
+        "flat": 675,
+        "phone": "+14098873523",
+        "createdOn": "2026-01-05T22:27:28.000Z",
+        "notes": "VRYVxScSqoZim4dbhvbs6EAGWvegd6BTZcnYMU1wHnyW6dU2jxk5LdrDlpL4in0bnlJUyVcn7GHzHQdiYEyxLJu339nRBmmLqF6LLkGNX8iKjADgF6GbfSoszPSAXLF1XryL9l9Pid57VhaXPAgUknjlDbxKTW6smXXiG9k4SUSxq38zLjH39iTl44T5DgguEgDd6p7E3fIDuvMiSjIeTzJGK4v35TcQVF5jSAWH0nyk1akazHdMesGND8"
+      },
+      "products": [
+        {
+          "_id": "695c3ad21c508c5d5eaab09e",
+          "name": "Keyboard36637",
+          "amount": 503,
+          "price": 51948,
+          "manufacturer": "Google",
+          "notes": "HNkryWuyoojiLaOYxVRvYiuzTLXBqge7UfDJSmrPeu9naWRIGhmN7iXIjWQ93LReJvzDMQ0Xcw4WMy9JTNouPw1ouWMmKPvciuKhQnIcDPkCLHtk2119C9qBzZin0FCqSKxtEKKPFMuvfmoo2Wgsu1u5VFBx8B5hZn9Hlv7V3bvNqmlcDt2JHFWSAp3KW6DQPyQBzHS0HmYpavtpQfBklf6KsbWwUioO55hXdKyiyL3HPUlO745wddb3r6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 51948,
+      "createdOn": "2026-01-05T22:27:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3ad01c508c5d5eaaaea7",
+          "products": [
+            {
+              "_id": "695c3ad21c508c5d5eaab09e",
+              "name": "Keyboard36637",
+              "amount": 503,
+              "price": 51948,
+              "manufacturer": "Google",
+              "notes": "HNkryWuyoojiLaOYxVRvYiuzTLXBqge7UfDJSmrPeu9naWRIGhmN7iXIjWQ93LReJvzDMQ0Xcw4WMy9JTNouPw1ouWMmKPvciuKhQnIcDPkCLHtk2119C9qBzZin0FCqSKxtEKKPFMuvfmoo2Wgsu1u5VFBx8B5hZn9Hlv7V3bvNqmlcDt2JHFWSAp3KW6DQPyQBzHS0HmYpavtpQfBklf6KsbWwUioO55hXdKyiyL3HPUlO745wddb3r6",
+              "received": false
+            }
+          ],
+          "total_price": 51948,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3ad31c508c5d5eaab0b5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

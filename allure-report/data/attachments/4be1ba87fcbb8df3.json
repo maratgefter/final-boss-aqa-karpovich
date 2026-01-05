@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-0qXBqhugoW+Yq4ryhf9OHRLFi3Q\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c3abc1c508c5d5eaaa306",
+        "email": "Gabriel.Wilderman@yahoo.com",
+        "name": "Kellen Herman",
+        "country": "Belarus",
+        "city": "Wymanside",
+        "street": "Albin Manor",
+        "house": 6,
+        "flat": 599,
+        "phone": "+14067519183",
+        "createdOn": "2026-01-05T22:27:08.000Z",
+        "notes": "0oLveFFZdyBa7sKJF4nf5a3k78aDHXASC0puwKDagWOInOhp16Uybmqp3sla1Txh5zlp9J7J7ZmOoDQOhtLuxpaHwNM8YZL5W3h2DDBYxKHBQYajDe7vcTbSflZoXBYEi5dCtVvgWfXhAG9l49z6d1JlYKmDe76jKIUGQWS6hOb57ePJnXhFZjbGias0HknRwFPK80dpDhFKMIzIYjONMTWHnBGrMBJOvgx679aDDSY6weJ8em1CU7tQHg"
+      },
+      "products": [
+        {
+          "_id": "695c3abd1c508c5d5eaaa361",
+          "name": "Car18128",
+          "amount": 795,
+          "price": 2849,
+          "manufacturer": "Xiaomi",
+          "notes": "I2QW78ZwoTb6Vbv3mozXQwpD5ZicemJ7rUn3JBCVVE0BEv8qzgSzKVjrR2hoNK7eXZ7kiiKJ0Ob9WplkBIvoMhUsThSIT4OpWrQtAXm8qPki3sGj7hVRqVbGdUwVRL7Z9OUSu4koAkfEjOYUjnz9eyVHePXHfJbXtcbpVLapSMpouQ3xM9PqMTaDVLmmqM8wIBPwfrT1pb9P5weVjP14gquwlw1AQ9uAiRkxcWcMMaq9Ap1SjRTscG1Rpr",
+          "received": false
+        },
+        {
+          "_id": "695c3abe1c508c5d5eaaa3ce",
+          "name": "Chicken41353",
+          "amount": 369,
+          "price": 97810,
+          "manufacturer": "Tesla",
+          "notes": "im3eARfZRFCZ07ZERWZqdEgJ0RZPLDMftI4w7RDPp47Gm96AKIzRQ7m445JTDHRYFwDSQ5jFrxLZ2JLYoAxYUexu23kHZii75STLjSWbMlO2LjziQ8spRaAIHdtPwwWIYWeGt5zaE876bqeT9s87qug40YoRCAdQDsU5HQGAIfjRBrqZm2aXTUZZUbQkBRzx7OUlhE2QlGqlbS4XVXgJKxwkvUuHpyfzcwmqrHHhURT4YEEOsu3Lm6kMjx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100659,
+      "createdOn": "2026-01-05T22:27:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c3abc1c508c5d5eaaa306",
+          "products": [
+            {
+              "_id": "695c3abd1c508c5d5eaaa361",
+              "name": "Car18128",
+              "amount": 795,
+              "price": 2849,
+              "manufacturer": "Xiaomi",
+              "notes": "I2QW78ZwoTb6Vbv3mozXQwpD5ZicemJ7rUn3JBCVVE0BEv8qzgSzKVjrR2hoNK7eXZ7kiiKJ0Ob9WplkBIvoMhUsThSIT4OpWrQtAXm8qPki3sGj7hVRqVbGdUwVRL7Z9OUSu4koAkfEjOYUjnz9eyVHePXHfJbXtcbpVLapSMpouQ3xM9PqMTaDVLmmqM8wIBPwfrT1pb9P5weVjP14gquwlw1AQ9uAiRkxcWcMMaq9Ap1SjRTscG1Rpr",
+              "received": false
+            },
+            {
+              "_id": "695c3abe1c508c5d5eaaa3ce",
+              "name": "Chicken41353",
+              "amount": 369,
+              "price": 97810,
+              "manufacturer": "Tesla",
+              "notes": "im3eARfZRFCZ07ZERWZqdEgJ0RZPLDMftI4w7RDPp47Gm96AKIzRQ7m445JTDHRYFwDSQ5jFrxLZ2JLYoAxYUexu23kHZii75STLjSWbMlO2LjziQ8spRaAIHdtPwwWIYWeGt5zaE876bqeT9s87qug40YoRCAdQDsU5HQGAIfjRBrqZm2aXTUZZUbQkBRzx7OUlhE2QlGqlbS4XVXgJKxwkvUuHpyfzcwmqrHHhURT4YEEOsu3Lm6kMjx",
+              "received": false
+            }
+          ],
+          "total_price": 100659,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:27:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c3abf1c508c5d5eaaa41b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
