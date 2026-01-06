@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-EIUiLdmCTfLLPap5GfnE6gSuXls\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d8c9d1c508c5d5eabfe11",
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c991c508c5d5eabfb5c",
+        "email": "Jarret.Schmitt@hotmail.com",
+        "name": "Johnnie Conn",
+        "country": "Russia",
+        "city": "West Makenna",
+        "street": "N Broadway",
+        "house": 2,
+        "flat": 181,
+        "phone": "+17128501890",
+        "createdOn": "2026-01-06T22:28:41.000Z",
+        "notes": "lvwf1WOSSV3jqrJjVOghUJCEPLRlxR2eMH1D8VtqITh8wnCg76ofiACSwi0tWbBLNjqfdEqmsDYuF8OWENFyKJuZ4awY0FN0pMMo6riRiBNOCtn9Ty4EoefDad7gyFRJLUsQVCDDRUihSjRQTcqxaR3mzVjGVCPY1iQglpld92lDjNbu6MfV8yKqy1mZs5mBfA1s0ARvgIkkgAmSqqScyDS1dgq7BefHTPqTBxcVoSbgWUV0VIAUA5XUBD"
+      },
+      "products": [
+        {
+          "_id": "695d8c9b1c508c5d5eabfdda",
+          "name": "Chicken27610",
+          "amount": 15,
+          "price": 86452,
+          "manufacturer": "Xiaomi",
+          "notes": "EfN1S5uoIa0bMp3m39PoaMbzGsUK7EyKzgaBnl8yzv0CL1oJrw4SSSXKN23ma2ZzfPpX8wvfCXd0VQs3cxF2qOxuHNAFJGgrieVk8ShbLS0qzQNiJmBllwK5etLIAmja1o4j3XtEuEKoJRGlbpNaDWoSQP1CvbHOP5H2mQnq5tcmOzk5qSqTClduVhCjuE8m1NYAQ1UZGvSQrACds4ZD3bh0tZclsPMTAHFyu7TpX7i5jSRIFuqGP856Ku",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86452,
+      "createdOn": "2026-01-06T22:28:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c991c508c5d5eabfb5c",
+          "products": [
+            {
+              "_id": "695d8c9b1c508c5d5eabfdda",
+              "name": "Chicken27610",
+              "amount": 15,
+              "price": 86452,
+              "manufacturer": "Xiaomi",
+              "notes": "EfN1S5uoIa0bMp3m39PoaMbzGsUK7EyKzgaBnl8yzv0CL1oJrw4SSSXKN23ma2ZzfPpX8wvfCXd0VQs3cxF2qOxuHNAFJGgrieVk8ShbLS0qzQNiJmBllwK5etLIAmja1o4j3XtEuEKoJRGlbpNaDWoSQP1CvbHOP5H2mQnq5tcmOzk5qSqTClduVhCjuE8m1NYAQ1UZGvSQrACds4ZD3bh0tZclsPMTAHFyu7TpX7i5jSRIFuqGP856Ku",
+              "received": false
+            }
+          ],
+          "total_price": 86452,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:46.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695d8c991c508c5d5eabfb5c",
+          "products": [
+            {
+              "_id": "695d8c9b1c508c5d5eabfdda",
+              "name": "Chicken27610",
+              "amount": 15,
+              "price": 86452,
+              "manufacturer": "Xiaomi",
+              "notes": "EfN1S5uoIa0bMp3m39PoaMbzGsUK7EyKzgaBnl8yzv0CL1oJrw4SSSXKN23ma2ZzfPpX8wvfCXd0VQs3cxF2qOxuHNAFJGgrieVk8ShbLS0qzQNiJmBllwK5etLIAmja1o4j3XtEuEKoJRGlbpNaDWoSQP1CvbHOP5H2mQnq5tcmOzk5qSqTClduVhCjuE8m1NYAQ1UZGvSQrACds4ZD3bh0tZclsPMTAHFyu7TpX7i5jSRIFuqGP856Ku",
+              "received": false
+            }
+          ],
+          "total_price": 86452,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

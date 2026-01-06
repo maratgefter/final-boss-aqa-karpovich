@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-w6EAWQ81f23mTKD9Et5O5YasCto\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c931c508c5d5eabf7f7",
+        "email": "Bruce_Beier@hotmail.com",
+        "name": "Patsy Orn",
+        "country": "Canada",
+        "city": "Port Goldenbury",
+        "street": "Muller Freeway",
+        "house": 15,
+        "flat": 705,
+        "phone": "+12565763769",
+        "createdOn": "2026-01-06T22:28:35.000Z",
+        "notes": "9rgwJxC9sbLAXs1PUTyz8RtiCd3nkAvKhpd7uIBNboF7weG3mpZk4HJykbF79iLb5B7Ima7PSGbJBbGhV7fPt5PTUsocBmoxCZ0jWebPNWT2X6gBJHsvmcIQxB2Fp2PRsklA1hIWlHA9D07JQl0Rl0B8OHvZGioEcn47UnhOysAGq1WUmzIg0VJUC9XW1RqacHCIIoYXH98f7SA2jj0B2a4TOv9FrSIR2ctrNz0fmKMgJKTmPzfERgTURz"
+      },
+      "products": [
+        {
+          "_id": "695d8c941c508c5d5eabf998",
+          "name": "Sausages16775",
+          "amount": 864,
+          "price": 75846,
+          "manufacturer": "Amazon",
+          "notes": "pThL0pOzcBMoqcJMgiLoUg4VwsNvOpjjSZhzERP5Cm8FOAa1QJmBeZ5tfADsQd3ZxPajcmMz38CSuQ9lEZlenK4NbEdNW6STKZ9aZINW7Oxu8bnJl2mKwd2fzGEs1FyTP2tu8T5PgW41Rh0WV8ba0yGMGjahYdbA1ATBZrd1GNEZuKLS2YEusEuw8AJjqy7R4508ucICgObganQxRFAjAdw9uJKwff9Tel9kD8GzwvjDwiBu4B3NkpFV6U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75846,
+      "createdOn": "2026-01-06T22:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c931c508c5d5eabf7f7",
+          "products": [
+            {
+              "_id": "695d8c941c508c5d5eabf998",
+              "name": "Sausages16775",
+              "amount": 864,
+              "price": 75846,
+              "manufacturer": "Amazon",
+              "notes": "pThL0pOzcBMoqcJMgiLoUg4VwsNvOpjjSZhzERP5Cm8FOAa1QJmBeZ5tfADsQd3ZxPajcmMz38CSuQ9lEZlenK4NbEdNW6STKZ9aZINW7Oxu8bnJl2mKwd2fzGEs1FyTP2tu8T5PgW41Rh0WV8ba0yGMGjahYdbA1ATBZrd1GNEZuKLS2YEusEuw8AJjqy7R4508ucICgObganQxRFAjAdw9uJKwff9Tel9kD8GzwvjDwiBu4B3NkpFV6U",
+              "received": false
+            }
+          ],
+          "total_price": 75846,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8c951c508c5d5eabf9c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

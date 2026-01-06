@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-k4FlNdbVs8UezTx+CVwYb5KIqFs\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c8e1c508c5d5eabf4eb",
+        "email": "Brian_Jerde61@hotmail.com",
+        "name": "Mariano Green",
+        "country": "Belarus",
+        "city": "Lake Loren",
+        "street": "Thompson Glens",
+        "house": 19,
+        "flat": 464,
+        "phone": "+17758507529",
+        "createdOn": "2026-01-06T22:28:30.000Z",
+        "notes": "QeItmGqB94jkn8S6cp20DiBRWNzwBP6pSOXwZfgWWTUvWWlgi5Ocip39cqOcqhxp2AQ7EfnpqFtqOjYgsO3QRxAltEXS6z9nNa4csiKIzW6sjKiyzZWQNWJxXdZEX2FpKiiHbqjqaqzKUQLoGhj9b9zyTr8GNaa5EUW3a9agDzVcwNa0Fjnmlen7SuwVhSfB92mqTaIssKVmR1hBYL2yFIOLbEBhuDUjujtby4y9NpKVek8dcoAfpX8Sik"
+      },
+      "products": [
+        {
+          "_id": "695d8c911c508c5d5eabf788",
+          "name": "Pizza36245",
+          "amount": 168,
+          "price": 86405,
+          "manufacturer": "Samsung",
+          "notes": "HYa5PJx1lMNBgfDkS7itIrAsVqrS7JoK7YMBtoLs2AWvyX9FuqXBRfAX2nXgcQPJ0hSsiPmUh9j2QgIgyOj2QiJz5vkwgnp0et3kSY8aXWgmCFCAPSxwdJ7Vz82WCVYaC5JtL42TeMP2nSMr9rIAIw1cJmSEucv73FNqjdqSW126fpikp0zA8PlkDKauMhtEygPWNyYpwE63JBdljiPJkj58jF0HOY86u5uKqf1BeBgkH3UtwmtWYkcXUL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86405,
+      "createdOn": "2026-01-06T22:28:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c8e1c508c5d5eabf4eb",
+          "products": [
+            {
+              "_id": "695d8c911c508c5d5eabf788",
+              "name": "Pizza36245",
+              "amount": 168,
+              "price": 86405,
+              "manufacturer": "Samsung",
+              "notes": "HYa5PJx1lMNBgfDkS7itIrAsVqrS7JoK7YMBtoLs2AWvyX9FuqXBRfAX2nXgcQPJ0hSsiPmUh9j2QgIgyOj2QiJz5vkwgnp0et3kSY8aXWgmCFCAPSxwdJ7Vz82WCVYaC5JtL42TeMP2nSMr9rIAIw1cJmSEucv73FNqjdqSW126fpikp0zA8PlkDKauMhtEygPWNyYpwE63JBdljiPJkj58jF0HOY86u5uKqf1BeBgkH3UtwmtWYkcXUL",
+              "received": false
+            }
+          ],
+          "total_price": 86405,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8c921c508c5d5eabf7a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

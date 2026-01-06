@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:29:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4803",
+    "etag": "W/\"12c3-xMJ7JlHkftQXwYsu11cOtLXDi44\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d8cb71c508c5d5eac0c2d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695d8cb41c508c5d5eac0997",
+        "email": "Natalie.Nitzsche96@yahoo.com",
+        "name": "Ruthe Roberts",
+        "country": "Germany",
+        "city": "Port Fletaport",
+        "street": "Dark Lane",
+        "house": 9,
+        "flat": 678,
+        "phone": "+12598083902",
+        "createdOn": "2026-01-06T22:29:08.000Z",
+        "notes": "gcAttlxkIW9ObRsz4e4fEPwlgxs8tznXFXnSOd9VxUxonHsM4dOWf0JKF58yX6JMRkxJX07T7BlH2Wrotmt0SSMFLrqMNMBBnSpTWkjkgu1dcmbRA4fu67nQZcOaQht2snmounuFksVDXbmkSrpX6ncL59kDPbQrpxe17ZnMQyiju5ld5OJnSDKm8ZvH0JTbX3CdoL7I6UEM75pzMy0DHEQLLi0CbuzMnttZhev9fIcXz9a2uYuMrh3ja9"
+      },
+      "products": [
+        {
+          "_id": "695d8cb61c508c5d5eac0c06",
+          "name": "Keyboard76742",
+          "amount": 299,
+          "price": 34158,
+          "manufacturer": "Xiaomi",
+          "notes": "DqTNkNPpUfwsFwCahfJvDSnSjQyFhLmooAWPpfirS9uUsHlsjAkbRN2xANcjO6hyQvSmKuJceMVlw9N7Au76txaajlZGtLXdMdq56lUK1kSM2oJR3YjxF3EI22qBLu3Cn2za0TuNH7Fm5s0KqCMbQFSY0KxC0XicKJp6i6vGufLAEUeRETNhdEfCPzRGGJnJx0pcgxXMellW02GpojybrgSBUtuINbqurVS5jv7nBDsEjQkADQlh4gy9Xn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Fletaport",
+          "street": "Dark Lane",
+          "house": 9,
+          "flat": 678
+        },
+        "finalDate": "2026-01-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 34158,
+      "createdOn": "2026-01-06T22:29:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695d8cb41c508c5d5eac0997",
+          "products": [
+            {
+              "_id": "695d8cb61c508c5d5eac0c06",
+              "name": "Keyboard76742",
+              "amount": 299,
+              "price": 34158,
+              "manufacturer": "Xiaomi",
+              "notes": "DqTNkNPpUfwsFwCahfJvDSnSjQyFhLmooAWPpfirS9uUsHlsjAkbRN2xANcjO6hyQvSmKuJceMVlw9N7Au76txaajlZGtLXdMdq56lUK1kSM2oJR3YjxF3EI22qBLu3Cn2za0TuNH7Fm5s0KqCMbQFSY0KxC0XicKJp6i6vGufLAEUeRETNhdEfCPzRGGJnJx0pcgxXMellW02GpojybrgSBUtuINbqurVS5jv7nBDsEjQkADQlh4gy9Xn",
+              "received": false
+            }
+          ],
+          "total_price": 34158,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Fletaport",
+              "street": "Dark Lane",
+              "house": 9,
+              "flat": 678
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-06T22:29:33.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695d8cb41c508c5d5eac0997",
+          "products": [
+            {
+              "_id": "695d8cb61c508c5d5eac0c06",
+              "name": "Keyboard76742",
+              "amount": 299,
+              "price": 34158,
+              "manufacturer": "Xiaomi",
+              "notes": "DqTNkNPpUfwsFwCahfJvDSnSjQyFhLmooAWPpfirS9uUsHlsjAkbRN2xANcjO6hyQvSmKuJceMVlw9N7Au76txaajlZGtLXdMdq56lUK1kSM2oJR3YjxF3EI22qBLu3Cn2za0TuNH7Fm5s0KqCMbQFSY0KxC0XicKJp6i6vGufLAEUeRETNhdEfCPzRGGJnJx0pcgxXMellW02GpojybrgSBUtuINbqurVS5jv7nBDsEjQkADQlh4gy9Xn",
+              "received": false
+            }
+          ],
+          "total_price": 34158,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Fletaport",
+              "street": "Dark Lane",
+              "house": 9,
+              "flat": 678
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-06T22:29:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695d8cb41c508c5d5eac0997",
+          "products": [
+            {
+              "_id": "695d8cb61c508c5d5eac0c06",
+              "name": "Keyboard76742",
+              "amount": 299,
+              "price": 34158,
+              "manufacturer": "Xiaomi",
+              "notes": "DqTNkNPpUfwsFwCahfJvDSnSjQyFhLmooAWPpfirS9uUsHlsjAkbRN2xANcjO6hyQvSmKuJceMVlw9N7Au76txaajlZGtLXdMdq56lUK1kSM2oJR3YjxF3EI22qBLu3Cn2za0TuNH7Fm5s0KqCMbQFSY0KxC0XicKJp6i6vGufLAEUeRETNhdEfCPzRGGJnJx0pcgxXMellW02GpojybrgSBUtuINbqurVS5jv7nBDsEjQkADQlh4gy9Xn",
+              "received": false
+            }
+          ],
+          "total_price": 34158,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Fletaport",
+              "street": "Dark Lane",
+              "house": 9,
+              "flat": 678
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-06T22:29:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695d8cb41c508c5d5eac0997",
+          "products": [
+            {
+              "_id": "695d8cb61c508c5d5eac0c06",
+              "name": "Keyboard76742",
+              "amount": 299,
+              "price": 34158,
+              "manufacturer": "Xiaomi",
+              "notes": "DqTNkNPpUfwsFwCahfJvDSnSjQyFhLmooAWPpfirS9uUsHlsjAkbRN2xANcjO6hyQvSmKuJceMVlw9N7Au76txaajlZGtLXdMdq56lUK1kSM2oJR3YjxF3EI22qBLu3Cn2za0TuNH7Fm5s0KqCMbQFSY0KxC0XicKJp6i6vGufLAEUeRETNhdEfCPzRGGJnJx0pcgxXMellW02GpojybrgSBUtuINbqurVS5jv7nBDsEjQkADQlh4gy9Xn",
+              "received": false
+            }
+          ],
+          "total_price": 34158,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:29:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

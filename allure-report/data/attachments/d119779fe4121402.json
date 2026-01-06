@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2948",
+    "etag": "W/\"b84-vQaB9y/78RyUQqyDSoHoVrNpk+0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d8c951c508c5d5eabf9c1",
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c931c508c5d5eabf7f9",
+        "email": "Eusebio.Collins@yahoo.com",
+        "name": "Kayleigh Lubowitz",
+        "country": "Canada",
+        "city": "East Mack",
+        "street": "Langosh Pines",
+        "house": 21,
+        "flat": 259,
+        "phone": "+14112970610",
+        "createdOn": "2026-01-06T22:28:35.000Z",
+        "notes": "c1DyxmXgGI6j3gBfFsAZ35BBJP7bS9v3bHaOQX08tiKV4TjQ3z1vIQ6baSNgAn9TfPwzS0u5lTovLpgzJfuaqj0iQcP2ADGAadMPDvgVj3ZdI3pozISqFKvovyjtYsMRzHJAxjekVnil7k61IVO3sXBHkA6uknCOiAUO5VWqn6YkyKZmtZ2vBZUn5yeu5A5385YvO3pNYkWSnxkRt2TWQUOdm21nBzRFhTYivrGCXpeso5EmCZ0KVOES6R"
+      },
+      "products": [
+        {
+          "_id": "695d8c941c508c5d5eabf99a",
+          "name": "Chair21376",
+          "amount": 28,
+          "price": 96647,
+          "manufacturer": "Google",
+          "notes": "f0JCfzb0UTlreJSPFLhEh1g6CST9I7KoRmIi9RXrpIqDjbZ61Ggafh4OljP0zU4QojXfy56B2879JXOH1FsRpKFiGjhYT7QiT1j7zopFRay5sYDu1XFrSIV1ZuTSgGxDaLcfZnR9gCFQBo7wLi2GNMFOefBvz7LG5vJMO0eEYhfIfGp2zTTugbwjuc799WB5HcEmDhjyVHSHAUSuesc45wH5bO050436rxC1TJvPoLn2pVvmzWDMeqGYLJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Mack",
+          "street": "Langosh Pines",
+          "house": 21,
+          "flat": 259
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 96647,
+      "createdOn": "2026-01-06T22:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c931c508c5d5eabf7f9",
+          "products": [
+            {
+              "_id": "695d8c941c508c5d5eabf99a",
+              "name": "Chair21376",
+              "amount": 28,
+              "price": 96647,
+              "manufacturer": "Google",
+              "notes": "f0JCfzb0UTlreJSPFLhEh1g6CST9I7KoRmIi9RXrpIqDjbZ61Ggafh4OljP0zU4QojXfy56B2879JXOH1FsRpKFiGjhYT7QiT1j7zopFRay5sYDu1XFrSIV1ZuTSgGxDaLcfZnR9gCFQBo7wLi2GNMFOefBvz7LG5vJMO0eEYhfIfGp2zTTugbwjuc799WB5HcEmDhjyVHSHAUSuesc45wH5bO050436rxC1TJvPoLn2pVvmzWDMeqGYLJ",
+              "received": false
+            }
+          ],
+          "total_price": 96647,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Mack",
+              "street": "Langosh Pines",
+              "house": 21,
+              "flat": 259
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-06T22:28:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695d8c931c508c5d5eabf7f9",
+          "products": [
+            {
+              "_id": "695d8c941c508c5d5eabf99a",
+              "name": "Chair21376",
+              "amount": 28,
+              "price": 96647,
+              "manufacturer": "Google",
+              "notes": "f0JCfzb0UTlreJSPFLhEh1g6CST9I7KoRmIi9RXrpIqDjbZ61Ggafh4OljP0zU4QojXfy56B2879JXOH1FsRpKFiGjhYT7QiT1j7zopFRay5sYDu1XFrSIV1ZuTSgGxDaLcfZnR9gCFQBo7wLi2GNMFOefBvz7LG5vJMO0eEYhfIfGp2zTTugbwjuc799WB5HcEmDhjyVHSHAUSuesc45wH5bO050436rxC1TJvPoLn2pVvmzWDMeqGYLJ",
+              "received": false
+            }
+          ],
+          "total_price": 96647,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

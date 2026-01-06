@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2666",
+    "etag": "W/\"a6a-ViJSs9nquHa1IbjfnNqO+AFmjY0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c721c508c5d5eabe5b8",
+        "email": "Sophie_Thompson@gmail.com",
+        "name": "Valentin Wunsch",
+        "country": "Canada",
+        "city": "Annettatown",
+        "street": "S Center Street",
+        "house": 34,
+        "flat": 20,
+        "phone": "+14655125409",
+        "createdOn": "2026-01-06T22:28:02.000Z",
+        "notes": "RmFf4G5CEZhdyYJ3ztvGa56YutCzdwAExA81TOpdkcbWjCrvhXHOypHH9rea037YvUlxQSxRGJjmBGADpOouKZYbfmRyZnJOOHPsZCs8ig68VwvuPwYEtupbRUPtzSstE9IC8Q6h7S90Mp8vooJQb8XGNt8zJtWQPnj2J6dYgXlC5VLUnCPePcYCcScXOHc88TWkiV73rlmALj19ehCUnTodUZPv79LaFsw1jiTvlXzW29fNlgv3IX1yBz"
+      },
+      "products": [
+        {
+          "_id": "695d8c741c508c5d5eabe6bf",
+          "name": "Computer15948",
+          "amount": 936,
+          "price": 42141,
+          "manufacturer": "Google",
+          "notes": "jJqErXu1hUXUEpCP2jAF4WDK5xHCfgTKtLqogOVHzg1QgCipTKQBNH1aLnHWIw0KcsUvY0TKjusEJZnV4P8TpsTojY1gVYuvTgbjAeDsJgqzeE7Vb5mRR27inZCm9KOaLXPHPMjViYslQsFG0fWddebize7LepUV3Eg5826GN4Y7be2qLrEDflagIPpSKxUjORcIhCxxp6HMaOpluFN8TwINzOa4XQp9QaWcD0OwTYp5sxqDAO9P5QQJt5",
+          "received": false
+        },
+        {
+          "_id": "695d8c761c508c5d5eabe77b",
+          "name": "Computer27432",
+          "amount": 271,
+          "price": 34512,
+          "manufacturer": "Tesla",
+          "notes": "kKrw7tDNXFLlNSD0OqBGWNz6PitMilbZpnFpC0wxJf7V8ZNQaJtGyOVnfk1TbOhGqnfHWyGdulbOveP6968rYxuA5oZ2wNylriSpq6yAfQ1QQa0SGNFanoinRWBTKtSr2xQQWl4lkwfc074UK4lSilkAqRvfcf52FaOUqyeAfK647h1QzQz8DPBGbUOBxJcEZWzwEpRJyDcHtq1D9zTuWKKLSXeb30v0u1aydV33qDCEnOdkvw7LQwzFbj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76653,
+      "createdOn": "2026-01-06T22:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c721c508c5d5eabe5b8",
+          "products": [
+            {
+              "_id": "695d8c741c508c5d5eabe6bf",
+              "name": "Computer15948",
+              "amount": 936,
+              "price": 42141,
+              "manufacturer": "Google",
+              "notes": "jJqErXu1hUXUEpCP2jAF4WDK5xHCfgTKtLqogOVHzg1QgCipTKQBNH1aLnHWIw0KcsUvY0TKjusEJZnV4P8TpsTojY1gVYuvTgbjAeDsJgqzeE7Vb5mRR27inZCm9KOaLXPHPMjViYslQsFG0fWddebize7LepUV3Eg5826GN4Y7be2qLrEDflagIPpSKxUjORcIhCxxp6HMaOpluFN8TwINzOa4XQp9QaWcD0OwTYp5sxqDAO9P5QQJt5",
+              "received": false
+            },
+            {
+              "_id": "695d8c761c508c5d5eabe77b",
+              "name": "Computer27432",
+              "amount": 271,
+              "price": 34512,
+              "manufacturer": "Tesla",
+              "notes": "kKrw7tDNXFLlNSD0OqBGWNz6PitMilbZpnFpC0wxJf7V8ZNQaJtGyOVnfk1TbOhGqnfHWyGdulbOveP6968rYxuA5oZ2wNylriSpq6yAfQ1QQa0SGNFanoinRWBTKtSr2xQQWl4lkwfc074UK4lSilkAqRvfcf52FaOUqyeAfK647h1QzQz8DPBGbUOBxJcEZWzwEpRJyDcHtq1D9zTuWKKLSXeb30v0u1aydV33qDCEnOdkvw7LQwzFbj",
+              "received": false
+            }
+          ],
+          "total_price": 76653,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8c761c508c5d5eabe7a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

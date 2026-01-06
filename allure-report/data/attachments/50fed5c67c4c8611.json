@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-jrOEFRL+/qNj/rJHnPH3KhPzTME\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8ca01c508c5d5eabff32",
+        "email": "Geo.Senger16@yahoo.com",
+        "name": "Cullen Greenfelder",
+        "country": "France",
+        "city": "Ricecester",
+        "street": "Jairo Keys",
+        "house": 27,
+        "flat": 346,
+        "phone": "+16875424332",
+        "createdOn": "2026-01-06T22:28:48.000Z",
+        "notes": "t4zAcfT5z04dDcKGR0fDd4ggpMJWKbzQpgB9VR02dkRsisqQv5UfyV0RqEQfYmxT7cAamulvt8XlhZw8zUEp0NW5x7DwhZ1vpdp5h8na5MZReJwpnKpVKhaQL4rCOD6SmwSaUJCZnE882esaawZBxSLeoLaIakCq6N3Sy0lMfZL9RNySp9sZRvLMkYFmIFQlnNpRGGZn1IwPMB1nj3v1wazVyIZA92bUJqQX3FxNbdLSH0pe8SzajQLKKJ"
+      },
+      "products": [
+        {
+          "_id": "695d8ca41c508c5d5eac0110",
+          "name": "Ball118",
+          "amount": 450,
+          "price": 61808,
+          "manufacturer": "Apple",
+          "notes": "EWjqVp6KaLLSEc1zueNggXyt2qsnsXJxMunLv5keOx2FLMnuWsX7137yUlvRyIBaWNpOkacZxeliQZdJ3Vf5oGFjkosT8ZFWgTFWJJgIBduECGCnZk9ZuBvN0GYwSaFgHzE9wC1zcuoz8WAmjdMLoQD1ibyCGX6VvKnwuhNeWRVScLbkzdjSdzRLCzcYTTAlMdSzQaTlrcQJAcKt5A7IPT4UaJHuBb5lqJlh4BaO9PbeFCtulIuxqPgy0g",
+          "received": false
+        },
+        {
+          "_id": "695d8ca61c508c5d5eac01d8",
+          "name": "Towels27302",
+          "amount": 670,
+          "price": 27194,
+          "manufacturer": "Google",
+          "notes": "5fckvzOJEOHB1HGcjr0VdjcOmXaswIwbvbNp9frKEoX3mW44se0zlmoPsGooF4xegt3EZZo5D8V3cDacVcazapGeDcSH6AdyHfitlGR8VNyrMdFeHS3VX9PSVF7KBqTKTQwL9WkhVMjkHAbl0Z07YvrPOLU0utWmZDOY7exLg3iRcKCCvht76wZkcxxHIpTF3WSrT9IHKGDTxXU3EEtfY1YxyZ8qDDxHJDRWM7l9w3bGIclbXWB8pR7eYP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89002,
+      "createdOn": "2026-01-06T22:28:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8ca01c508c5d5eabff32",
+          "products": [
+            {
+              "_id": "695d8ca41c508c5d5eac0110",
+              "name": "Ball118",
+              "amount": 450,
+              "price": 61808,
+              "manufacturer": "Apple",
+              "notes": "EWjqVp6KaLLSEc1zueNggXyt2qsnsXJxMunLv5keOx2FLMnuWsX7137yUlvRyIBaWNpOkacZxeliQZdJ3Vf5oGFjkosT8ZFWgTFWJJgIBduECGCnZk9ZuBvN0GYwSaFgHzE9wC1zcuoz8WAmjdMLoQD1ibyCGX6VvKnwuhNeWRVScLbkzdjSdzRLCzcYTTAlMdSzQaTlrcQJAcKt5A7IPT4UaJHuBb5lqJlh4BaO9PbeFCtulIuxqPgy0g",
+              "received": false
+            },
+            {
+              "_id": "695d8ca61c508c5d5eac01d8",
+              "name": "Towels27302",
+              "amount": 670,
+              "price": 27194,
+              "manufacturer": "Google",
+              "notes": "5fckvzOJEOHB1HGcjr0VdjcOmXaswIwbvbNp9frKEoX3mW44se0zlmoPsGooF4xegt3EZZo5D8V3cDacVcazapGeDcSH6AdyHfitlGR8VNyrMdFeHS3VX9PSVF7KBqTKTQwL9WkhVMjkHAbl0Z07YvrPOLU0utWmZDOY7exLg3iRcKCCvht76wZkcxxHIpTF3WSrT9IHKGDTxXU3EEtfY1YxyZ8qDDxHJDRWM7l9w3bGIclbXWB8pR7eYP",
+              "received": false
+            }
+          ],
+          "total_price": 89002,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8ca61c508c5d5eac020a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:27:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-iE50ExDCeOUNg5C98n9q9kmUiMk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c601c508c5d5eabdcc9",
+        "email": "Houston34@gmail.com",
+        "name": "Holly Stiedemann",
+        "country": "Russia",
+        "city": "Port Tedcester",
+        "street": "Remington Roads",
+        "house": 46,
+        "flat": 884,
+        "phone": "+18607702074",
+        "createdOn": "2026-01-06T22:27:44.000Z",
+        "notes": "uzg068oQ4WXtv2wl91PkVJ2SKrODxSSoYpK7JHtB9FzON6ROsZHmlLHyCOlGDYy1KdeuikTZ8CjdPo0kDURY0R53tUK9tPsyp0IKGUTxCvCRrYnzih3ybM5UTeMaCFLBXBBUFezVNhBTpTVBYyyr6b446Il5TtJBendnhIt4lF3k7AHEob98U2yrewt09Z8j0Vay5hrkekwxVbiCMqVo65vuf28CCuZtIAuaYWtggxEgHRliuOHX1kaPdQ"
+      },
+      "products": [
+        {
+          "_id": "695d8c611c508c5d5eabdd9d",
+          "name": "Car31231",
+          "amount": 192,
+          "price": 50487,
+          "manufacturer": "Amazon",
+          "notes": "EGoNnqiEfzIkvtb6B9ZnwQ88AnQNGbBfAXWvEbxmcXwCv13kDHqjTZhUYdoncoXpZSwY8kCl2PWIwWT5w5jBNM5fFqT6wSUSlu0HOHS4gAVbFXTPkpJioD0LXkJo6UOqTCKXqfi4rCUb9t3eMgEjdVHL5fPK72nSAyZeheBkTHhp9jAw2WxvETOyHn1YyrYTguJjHNzYTsg9AuXqUyMZ9YZNciuqFAZWtokg24zKADVAZiDgDBWp9COeVm",
+          "received": false
+        },
+        {
+          "_id": "695d8c631c508c5d5eabde7a",
+          "name": "Shoes67690",
+          "amount": 228,
+          "price": 29669,
+          "manufacturer": "Tesla",
+          "notes": "60RiUKNaHIwctsCDhHs0UAhiaOpGX6MgSXgNWYagGYhMqgBp5QCQRCARPKxx6v8x0k3gVUh4IqsVv50LkIsjGZHlSByA4cDIE7yuRFjufzcX3JRYxwV9ySk6dmV0YKkb4v9y1WGchU4DpIK7d3hyxlTpTxh2dPaUxrwybjj6H012xqyeNExIwKcLTdueY9eqKuidpAmb9Vu3ANSRj9M0iCoOHJAJuZOLsY0JUTCEksbDa5WdRIu73whK1A",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80156,
+      "createdOn": "2026-01-06T22:27:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c601c508c5d5eabdcc9",
+          "products": [
+            {
+              "_id": "695d8c611c508c5d5eabdd9d",
+              "name": "Car31231",
+              "amount": 192,
+              "price": 50487,
+              "manufacturer": "Amazon",
+              "notes": "EGoNnqiEfzIkvtb6B9ZnwQ88AnQNGbBfAXWvEbxmcXwCv13kDHqjTZhUYdoncoXpZSwY8kCl2PWIwWT5w5jBNM5fFqT6wSUSlu0HOHS4gAVbFXTPkpJioD0LXkJo6UOqTCKXqfi4rCUb9t3eMgEjdVHL5fPK72nSAyZeheBkTHhp9jAw2WxvETOyHn1YyrYTguJjHNzYTsg9AuXqUyMZ9YZNciuqFAZWtokg24zKADVAZiDgDBWp9COeVm",
+              "received": false
+            },
+            {
+              "_id": "695d8c631c508c5d5eabde7a",
+              "name": "Shoes67690",
+              "amount": 228,
+              "price": 29669,
+              "manufacturer": "Tesla",
+              "notes": "60RiUKNaHIwctsCDhHs0UAhiaOpGX6MgSXgNWYagGYhMqgBp5QCQRCARPKxx6v8x0k3gVUh4IqsVv50LkIsjGZHlSByA4cDIE7yuRFjufzcX3JRYxwV9ySk6dmV0YKkb4v9y1WGchU4DpIK7d3hyxlTpTxh2dPaUxrwybjj6H012xqyeNExIwKcLTdueY9eqKuidpAmb9Vu3ANSRj9M0iCoOHJAJuZOLsY0JUTCEksbDa5WdRIu73whK1A",
+              "received": false
+            }
+          ],
+          "total_price": 80156,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:27:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8c651c508c5d5eabdf3d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

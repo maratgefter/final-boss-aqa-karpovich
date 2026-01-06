@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:27:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-2xCJy5QoFmvUm/d0J/4X/tki3vU\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c571c508c5d5eabd906",
+        "email": "Courtney.Grimes@hotmail.com",
+        "name": "Trenton Swift",
+        "country": "Germany",
+        "city": "Kerlukeworth",
+        "street": "Lind Stream",
+        "house": 26,
+        "flat": 492,
+        "phone": "+12543262948",
+        "createdOn": "2026-01-06T22:27:35.000Z",
+        "notes": "uNg0bMlijZpP0yHmG7wAvN5JBPIuqOdGoJQQsSrRwNYfRiUL79fXb0Leh81ar2XUh6Tn2SrrIv8FlB8sERjkhZw4kIW0IeuPBOPoSS3EcKsSDlslZYo21thCmSg3RAfA6fldEugKfyxI0sz7DBhYkdwvtkDC90zIAcOOTshdawIKvGnufZdCGM26nkVGoEcjjaEZTquPImiXdl7GVuDvP3c9wrMlGsWGa8aamWHB6YnFaDkVYvj9p77I4i"
+      },
+      "products": [
+        {
+          "_id": "695d8c591c508c5d5eabd9b1",
+          "name": "Shoes71104",
+          "amount": 965,
+          "price": 36477,
+          "manufacturer": "Sony",
+          "notes": "Zfxo0g5j5THEw8AcOiFdDl5lbRyO9DlcLkualMfHNiJZNpiXSl2tbOQgEt6dl3jWPIBkr8jFkxgMg23fHAWj7pimvf8jEE4xcuJlzJ9XJAfCXdc5xdWeIoSLBatTGdTwVQG3Bw4GBWAgAAA3eeVmJ6NucE4eKhOLgOjAFMYuEOJRViRi7mqmsZCBPuSPcRCONJj5UOr34nFi3oanQwv3YZEfga9BzNgoHp1sS9I0o5Q0l7p0mS4e3eoca7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36477,
+      "createdOn": "2026-01-06T22:27:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c571c508c5d5eabd906",
+          "products": [
+            {
+              "_id": "695d8c591c508c5d5eabd9b1",
+              "name": "Shoes71104",
+              "amount": 965,
+              "price": 36477,
+              "manufacturer": "Sony",
+              "notes": "Zfxo0g5j5THEw8AcOiFdDl5lbRyO9DlcLkualMfHNiJZNpiXSl2tbOQgEt6dl3jWPIBkr8jFkxgMg23fHAWj7pimvf8jEE4xcuJlzJ9XJAfCXdc5xdWeIoSLBatTGdTwVQG3Bw4GBWAgAAA3eeVmJ6NucE4eKhOLgOjAFMYuEOJRViRi7mqmsZCBPuSPcRCONJj5UOr34nFi3oanQwv3YZEfga9BzNgoHp1sS9I0o5Q0l7p0mS4e3eoca7",
+              "received": false
+            }
+          ],
+          "total_price": 36477,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:27:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8c591c508c5d5eabd9d3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

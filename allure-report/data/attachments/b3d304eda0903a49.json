@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2962",
+    "etag": "W/\"b92-JuSFyfOqEbzDoJ37bVnYuhly/+Q\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d8c8e1c508c5d5eabf4e4",
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8c861c508c5d5eabf001",
+        "email": "Amya.Fay@gmail.com",
+        "name": "Reymundo Donnelly",
+        "country": "Germany",
+        "city": "North Mayborough",
+        "street": "West Lane",
+        "house": 27,
+        "flat": 918,
+        "phone": "+12094161200",
+        "createdOn": "2026-01-06T22:28:22.000Z",
+        "notes": "19PCMFCtfDKvLgAEqv4Dop2mt5mNC8ACb5EAhORNhy5R0ma56QsBFw08wsqSYjr00VEPSnbMWZiJZUz2bmGVf7CSzvwgdTbi6v1Mqz6qqVzi78Dr3wCjYczZxv3GmXpRrfkeWSaXy09ZdZm3uYZUhxHEk8RtzYomwFrvEajNyPVxpeK9fL59Htwi78OI7keTF0rw9sY4p4pmsZy9wUPHJd9o6mKwv4IHTIsGkPtWSUSSLeIZZFiBkeNjSn"
+      },
+      "products": [
+        {
+          "_id": "695d8c8d1c508c5d5eabf4d1",
+          "name": "Shirt9476",
+          "amount": 467,
+          "price": 22694,
+          "manufacturer": "Microsoft",
+          "notes": "ETDCDBoyZaThj0hUiIIFEKKfkGwywdFbqi1nY3rJ3ZQLoDFv7EQf1TP3gojMWU0BlvaFHQfSDHBuCQXE98fH8iaGIBCde5aZUYuo6azhWM6FZfmx5sw1LfD3gowrhyppfBKyI84gWGST6kmQNrjnr0aDqu8c69nYjM2aPEBX2Pw7CXamNSWcQrMra2e1Rjg6rsCfmM14rkZxWp5YEOUq4hGYgAcggjI9MVsIGxkzO4Eb9MWLbdKflQNQWN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Mayborough",
+          "street": "West Lane",
+          "house": 27,
+          "flat": 918
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22694,
+      "createdOn": "2026-01-06T22:28:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8c861c508c5d5eabf001",
+          "products": [
+            {
+              "_id": "695d8c8d1c508c5d5eabf4d1",
+              "name": "Shirt9476",
+              "amount": 467,
+              "price": 22694,
+              "manufacturer": "Microsoft",
+              "notes": "ETDCDBoyZaThj0hUiIIFEKKfkGwywdFbqi1nY3rJ3ZQLoDFv7EQf1TP3gojMWU0BlvaFHQfSDHBuCQXE98fH8iaGIBCde5aZUYuo6azhWM6FZfmx5sw1LfD3gowrhyppfBKyI84gWGST6kmQNrjnr0aDqu8c69nYjM2aPEBX2Pw7CXamNSWcQrMra2e1Rjg6rsCfmM14rkZxWp5YEOUq4hGYgAcggjI9MVsIGxkzO4Eb9MWLbdKflQNQWN",
+              "received": false
+            }
+          ],
+          "total_price": 22694,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Mayborough",
+              "street": "West Lane",
+              "house": 27,
+              "flat": 918
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-06T22:28:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695d8c861c508c5d5eabf001",
+          "products": [
+            {
+              "_id": "695d8c8d1c508c5d5eabf4d1",
+              "name": "Shirt9476",
+              "amount": 467,
+              "price": 22694,
+              "manufacturer": "Microsoft",
+              "notes": "ETDCDBoyZaThj0hUiIIFEKKfkGwywdFbqi1nY3rJ3ZQLoDFv7EQf1TP3gojMWU0BlvaFHQfSDHBuCQXE98fH8iaGIBCde5aZUYuo6azhWM6FZfmx5sw1LfD3gowrhyppfBKyI84gWGST6kmQNrjnr0aDqu8c69nYjM2aPEBX2Pw7CXamNSWcQrMra2e1Rjg6rsCfmM14rkZxWp5YEOUq4hGYgAcggjI9MVsIGxkzO4Eb9MWLbdKflQNQWN",
+              "received": false
+            }
+          ],
+          "total_price": 22694,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

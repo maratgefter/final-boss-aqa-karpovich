@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:28:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-HKdgLm5WOy9+75DtAD94z560dp0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d8ca41c508c5d5eac0131",
+        "email": "Lazaro_McDermott47@hotmail.com",
+        "name": "Heloise Smitham",
+        "country": "Great Britain",
+        "city": "Dameonville",
+        "street": "Laburnum Grove",
+        "house": 9,
+        "flat": 917,
+        "phone": "+16109989542",
+        "createdOn": "2026-01-06T22:28:52.000Z",
+        "notes": "TXIBEHW1guvSIqFDekTA9VzrN0SDst46gurxANtzeZmfhstbmY7Fru7WKDononQ4nF6CruYxpeECG59ZJitzyQcu1mhKUAxooLCGUy4tAHKebHhYQA2pWTYnM8I8d29tnHXEZkAmWzWGpiSs7xXLjLVTjZY8UH8s5Ah72IkGzbyrH6eMG33jQL5y6cqLuN6uwJbVqjYdHe8SLCDLUPSXm7q69SW2oiWqRYGhkuF899tRlRxfytbF4mfpc8"
+      },
+      "products": [
+        {
+          "_id": "695d8ca61c508c5d5eac01ea",
+          "name": "Bike11424",
+          "amount": 21,
+          "price": 64129,
+          "manufacturer": "Xiaomi",
+          "notes": "y7dHO7h3u4A9BVWqOMMEM9BXhn6awEZiImr9AORSYNq45XTu6nvE8TqWXZ9b63IvNl048ScbRmZE1Xrx7R2qeiu9BU2EBIeEj0CjDEJzOFAlOFbSB6RLPjXKPfjtG45RbIGGTPbdECC9S07KeSVXW4qMwdxLA3NY3Brn4nJlJiC2HG5NbivcZ2M5KPYdx7MqKhgnfqidtOl57xkNswhrVM6zDCN0fQxJACzsBfMHD7sIO9jXttZCjqhgsB",
+          "received": false
+        },
+        {
+          "_id": "695d8ca81c508c5d5eac02c6",
+          "name": "Pizza81644",
+          "amount": 85,
+          "price": 79059,
+          "manufacturer": "Microsoft",
+          "notes": "ZDjRFJGR78zA8MANsdZLzcmykMEzb81yK5MLBAVqro7FBAtw9xsj9SIRPBAQQiziksTVFIokBv2gMllo7hsDokUE0LD9we3ChPuhqAw0yhCk89tZDDs2293UB5LlfOadSrkEJ0gIouEsPWWkXP1mAKT5J7JqJBz7nC5eGNXSEznibLwSPLOpGyjVwOcUongkecdX8AZfcJ2ZsBqBxWVe3dPjuNCLbYIccMBeh158jbQWANpeDvvEnm1Ttu",
+          "received": false
+        },
+        {
+          "_id": "695d8caa1c508c5d5eac03d4",
+          "name": "Tuna6967",
+          "amount": 350,
+          "price": 6117,
+          "manufacturer": "Sony",
+          "notes": "t9uEytcUsT2rWTwROHp256MyzYp9Rf7fIIcQmblIpVgeaPpMKgPVJ41Cz0jDPgBFp1OnCpOF5YvuQztpT85AYsJj5gyuwgWqrt8j5qy4n2WTBWIi7vptibnEMUXhlBJhjlvQRPwch8i421JkkfVXWDDZFT6JJMSbZetOFa9Y0NCPpEFJeqKOJ9RGShhgKyixhQ28bsddK6Encp5fa67sNxwXbD5aQhsAUQoFTeoFWw26AtlnjfXWxBvtrh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 149305,
+      "createdOn": "2026-01-06T22:28:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d8ca41c508c5d5eac0131",
+          "products": [
+            {
+              "_id": "695d8ca61c508c5d5eac01ea",
+              "name": "Bike11424",
+              "amount": 21,
+              "price": 64129,
+              "manufacturer": "Xiaomi",
+              "notes": "y7dHO7h3u4A9BVWqOMMEM9BXhn6awEZiImr9AORSYNq45XTu6nvE8TqWXZ9b63IvNl048ScbRmZE1Xrx7R2qeiu9BU2EBIeEj0CjDEJzOFAlOFbSB6RLPjXKPfjtG45RbIGGTPbdECC9S07KeSVXW4qMwdxLA3NY3Brn4nJlJiC2HG5NbivcZ2M5KPYdx7MqKhgnfqidtOl57xkNswhrVM6zDCN0fQxJACzsBfMHD7sIO9jXttZCjqhgsB",
+              "received": false
+            },
+            {
+              "_id": "695d8ca81c508c5d5eac02c6",
+              "name": "Pizza81644",
+              "amount": 85,
+              "price": 79059,
+              "manufacturer": "Microsoft",
+              "notes": "ZDjRFJGR78zA8MANsdZLzcmykMEzb81yK5MLBAVqro7FBAtw9xsj9SIRPBAQQiziksTVFIokBv2gMllo7hsDokUE0LD9we3ChPuhqAw0yhCk89tZDDs2293UB5LlfOadSrkEJ0gIouEsPWWkXP1mAKT5J7JqJBz7nC5eGNXSEznibLwSPLOpGyjVwOcUongkecdX8AZfcJ2ZsBqBxWVe3dPjuNCLbYIccMBeh158jbQWANpeDvvEnm1Ttu",
+              "received": false
+            },
+            {
+              "_id": "695d8caa1c508c5d5eac03d4",
+              "name": "Tuna6967",
+              "amount": 350,
+              "price": 6117,
+              "manufacturer": "Sony",
+              "notes": "t9uEytcUsT2rWTwROHp256MyzYp9Rf7fIIcQmblIpVgeaPpMKgPVJ41Cz0jDPgBFp1OnCpOF5YvuQztpT85AYsJj5gyuwgWqrt8j5qy4n2WTBWIi7vptibnEMUXhlBJhjlvQRPwch8i421JkkfVXWDDZFT6JJMSbZetOFa9Y0NCPpEFJeqKOJ9RGShhgKyixhQ28bsddK6Encp5fa67sNxwXbD5aQhsAUQoFTeoFWw26AtlnjfXWxBvtrh",
+              "received": false
+            }
+          ],
+          "total_price": 149305,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:28:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d8cab1c508c5d5eac03fc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
