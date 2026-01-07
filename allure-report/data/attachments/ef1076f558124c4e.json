@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1907",
+    "etag": "W/\"773-1XYdxh7kVIdxGcOR5hdLe1pLHSM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695eddb11c508c5d5ead4cee",
+        "email": "Arnold_Harber-DuBuque18@gmail.com",
+        "name": "Rosella Zulauf",
+        "country": "Great Britain",
+        "city": "Lake Jasper",
+        "street": "Hubert Bridge",
+        "house": 36,
+        "flat": 745,
+        "phone": "+15015987636",
+        "createdOn": "2026-01-07T22:26:57.000Z",
+        "notes": "Xc8L8WMDoLR0C14jD0eHlSS3khk5rFqL9yMwjdCHF5iknujt4yVBjmiLSOlyO6IE32aApDGb6JXE9ZIlsZV16hYMNkgXPxP9vRg3FNwROq5hfC0cMXB6ErHa1eqrWWeLfPmN4sJ9E4XilsoivB8ESb61vXhasp41kZXIUqCQepw7OaBd4wY9yhx7pGo5gR7NvEtwjOUkPok2BTflV7W0I1RfwrxxubYdkyuKVoIwXWGhoeHp5FcXRjidDZ"
+      },
+      "products": [
+        {
+          "_id": "695eddb41c508c5d5ead4d22",
+          "name": "Salad95242",
+          "amount": 544,
+          "price": 94470,
+          "manufacturer": "Microsoft",
+          "notes": "LzRFIEO7KBY0i9Nyody8pgnPqubd2R77s96fkpq3wQsHaacMzvDncjEX0Wn976JLvWzWn0OmidpXBif6Lv3aYKduA7HxCrRC9KQ9PTOXjLuWgGlBQ1pM5uqpITXFZP17kf9TVZanj48Ow5kqBGe8JciKxnstrt2vtqLQKD9532BiVavQlmJNh1hadiZfz8ptw1RTMBB1Sj0CplUc2lEVRnfGjHPjnQG4DoxuL0nOS0X9urUnCb4WmtTPYK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94470,
+      "createdOn": "2026-01-07T22:27:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695eddb11c508c5d5ead4cee",
+          "products": [
+            {
+              "_id": "695eddb41c508c5d5ead4d22",
+              "name": "Salad95242",
+              "amount": 544,
+              "price": 94470,
+              "manufacturer": "Microsoft",
+              "notes": "LzRFIEO7KBY0i9Nyody8pgnPqubd2R77s96fkpq3wQsHaacMzvDncjEX0Wn976JLvWzWn0OmidpXBif6Lv3aYKduA7HxCrRC9KQ9PTOXjLuWgGlBQ1pM5uqpITXFZP17kf9TVZanj48Ow5kqBGe8JciKxnstrt2vtqLQKD9532BiVavQlmJNh1hadiZfz8ptw1RTMBB1Sj0CplUc2lEVRnfGjHPjnQG4DoxuL0nOS0X9urUnCb4WmtTPYK",
+              "received": false
+            }
+          ],
+          "total_price": 94470,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:27:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddb41c508c5d5ead4d4d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:29:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2669",
+    "etag": "W/\"a6d-5UVIiVbxTbyKuXmKnsu61A0vEXk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ede251c508c5d5ead86d9",
+        "email": "Hildegard.Welch@gmail.com",
+        "name": "Myron Ullrich",
+        "country": "USA",
+        "city": "New Jonathanburgh",
+        "street": "Yew Tree Close",
+        "house": 39,
+        "flat": 810,
+        "phone": "+19373530243",
+        "createdOn": "2026-01-07T22:28:53.000Z",
+        "notes": "H9aW1rIGyrZ99JoQzoIWNbInTNE9XMxdTPyuVcWci48lUP559Sq0SBp0wtUbSxGpBqIJj9hguEEfHMwdMXJMbGQBmZ6XcE8lyGS1uNEcVFRGHTnDydKTpriBNMFa260AbCvzsO3VMLvloC8EjDpGZZx2hj3sBANkOmQcrJAYUYuqdxe3RegKIZZVV2g63eI96NRrEU5wvoqJ1xzly4JNZSvCg0EPm7Yk3JRxiNwU7qvd94qezYY1BWqJEZ"
+      },
+      "products": [
+        {
+          "_id": "695ede281c508c5d5ead88bd",
+          "name": "Keyboard68425",
+          "amount": 379,
+          "price": 64820,
+          "manufacturer": "Microsoft",
+          "notes": "ARR6A8Opqw9d8c3sGgmESDSeE2kkhTuCgcojl0KKeQXq1FSKeU6n0gTqePc7UQEG8UcUxnpDBvyHMx2MnGEaiFIKRbcLSz69QRwvNTZnG6trqrwZOsnkyjXehVuwgodN9qNNlDx3zLONGoLvCUTyj7urp7La8984Q7kjDik4hncCM9v7CTLSfmuFmVzyM4vDRWKQgqcCPruTJuydmN1vXX5ucHzQsTppibX7hDIArhyQTC3BfRGhzg8zIX",
+          "received": false
+        },
+        {
+          "_id": "695ede2b1c508c5d5ead8b1b",
+          "name": "Chips77419",
+          "amount": 550,
+          "price": 10355,
+          "manufacturer": "Amazon",
+          "notes": "K6DZQS9a2FqRvPi7u2Y5aa5q9xSnPcKBvLqoKDlR84AgW2XxNVIE8plSjPdegN5J4j4sBpc94UBjtOmubQgg4BQ7XqGb3GLNzMkyEstdlesa3hPDBYczITMnYWHHmP1xRUbMorUK0JHV2appxkNJQ1aODuv5yyw7tqZC640RHjvlV5dsG0DdwV129OUgwgwYS64DKthW2Gl6NQc26pBl2flMIJaOBt7zbOWevZS2prEAUNxQR5zZWjoPSo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75175,
+      "createdOn": "2026-01-07T22:29:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ede251c508c5d5ead86d9",
+          "products": [
+            {
+              "_id": "695ede281c508c5d5ead88bd",
+              "name": "Keyboard68425",
+              "amount": 379,
+              "price": 64820,
+              "manufacturer": "Microsoft",
+              "notes": "ARR6A8Opqw9d8c3sGgmESDSeE2kkhTuCgcojl0KKeQXq1FSKeU6n0gTqePc7UQEG8UcUxnpDBvyHMx2MnGEaiFIKRbcLSz69QRwvNTZnG6trqrwZOsnkyjXehVuwgodN9qNNlDx3zLONGoLvCUTyj7urp7La8984Q7kjDik4hncCM9v7CTLSfmuFmVzyM4vDRWKQgqcCPruTJuydmN1vXX5ucHzQsTppibX7hDIArhyQTC3BfRGhzg8zIX",
+              "received": false
+            },
+            {
+              "_id": "695ede2b1c508c5d5ead8b1b",
+              "name": "Chips77419",
+              "amount": 550,
+              "price": 10355,
+              "manufacturer": "Amazon",
+              "notes": "K6DZQS9a2FqRvPi7u2Y5aa5q9xSnPcKBvLqoKDlR84AgW2XxNVIE8plSjPdegN5J4j4sBpc94UBjtOmubQgg4BQ7XqGb3GLNzMkyEstdlesa3hPDBYczITMnYWHHmP1xRUbMorUK0JHV2appxkNJQ1aODuv5yyw7tqZC640RHjvlV5dsG0DdwV129OUgwgwYS64DKthW2Gl6NQc26pBl2flMIJaOBt7zbOWevZS2prEAUNxQR5zZWjoPSo",
+              "received": false
+            }
+          ],
+          "total_price": 75175,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:29:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ede2e1c508c5d5ead8b36"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

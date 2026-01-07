@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:26:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-5Gl2y68JMxWmA5C8AbUbfZO3GE0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695edda81c508c5d5ead4aed",
+        "email": "Hilton40@gmail.com",
+        "name": "Waino Schaefer",
+        "country": "France",
+        "city": "Isabelberg",
+        "street": "Caleb Spring",
+        "house": 40,
+        "flat": 893,
+        "phone": "+12766515030",
+        "createdOn": "2026-01-07T22:26:48.000Z",
+        "notes": "7NfLEyYVVanOZjBpIQ23AOpOpCgq4BxMdUhAxkIXDMNsHaVEZdNmuGvMVerHzFmKqJbmhz0PTUR04YwrkqifjfWOcXEUFVCFapsuSc6OBqwTzADaDZfCVT14RTWybkKLdeAUUFQJRdE3aygNqxM71lIp3W3yZIwmYe42EX000AJ21kWO6zJSgACvrHf9BmMDWnzSJimWXRq0ZF03e0HPrCeBY5ommIuK9tdWwBcVvkJ85V7IVveEUq8Gf4"
+      },
+      "products": [
+        {
+          "_id": "695eddab1c508c5d5ead4b55",
+          "name": "Cheese24756",
+          "amount": 870,
+          "price": 18549,
+          "manufacturer": "Microsoft",
+          "notes": "xgTHSWr3PiqEkGd84CeF5BOvoXKV5QrW7zGjmyAkXSZIfbETEZjxsIN0a3BNIHHfMJubYi6C0b4LctQFgjjwgBq6uEE4QrtSzsYx8jhtdGP1bEVDp050cJsOMrCDpNNcELK5tgqtW95VKFQ4sTr6yQlHKI2l4NH6MK1MaSBt8bQhjPK7Otnu30YuMQjcUYn5VYE3TJoV4PJDPV1lrbugz8uBd3CvqLVRLzWcb9QM9Oqy4ItCndra3SBhv1",
+          "received": false
+        },
+        {
+          "_id": "695eddad1c508c5d5ead4c24",
+          "name": "Gloves44771",
+          "amount": 244,
+          "price": 6763,
+          "manufacturer": "Apple",
+          "notes": "H9nchlt7QuumX5YxKGI445WXDesBF6WLUkHsj2PgubK456bxeJUaz41kLYbwlHFhQ8b7EDHug4E2Ipzug34q9GeLVPb5rcp0UBQUrDWA0sSeik0LuAbSL3E7DFSSOttPcuNMcZQSDVWHT15lG2OPsEquLJAQabahwhWJhpG2ERO0tSjJLsXr15MbdvDLMM4GxhH4hJ8fwxxL22wSyt4L7OgbKWcHENc4QOTeInkBE4Ddcngf9YcvL1bzey",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25312,
+      "createdOn": "2026-01-07T22:26:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695edda81c508c5d5ead4aed",
+          "products": [
+            {
+              "_id": "695eddab1c508c5d5ead4b55",
+              "name": "Cheese24756",
+              "amount": 870,
+              "price": 18549,
+              "manufacturer": "Microsoft",
+              "notes": "xgTHSWr3PiqEkGd84CeF5BOvoXKV5QrW7zGjmyAkXSZIfbETEZjxsIN0a3BNIHHfMJubYi6C0b4LctQFgjjwgBq6uEE4QrtSzsYx8jhtdGP1bEVDp050cJsOMrCDpNNcELK5tgqtW95VKFQ4sTr6yQlHKI2l4NH6MK1MaSBt8bQhjPK7Otnu30YuMQjcUYn5VYE3TJoV4PJDPV1lrbugz8uBd3CvqLVRLzWcb9QM9Oqy4ItCndra3SBhv1",
+              "received": false
+            },
+            {
+              "_id": "695eddad1c508c5d5ead4c24",
+              "name": "Gloves44771",
+              "amount": 244,
+              "price": 6763,
+              "manufacturer": "Apple",
+              "notes": "H9nchlt7QuumX5YxKGI445WXDesBF6WLUkHsj2PgubK456bxeJUaz41kLYbwlHFhQ8b7EDHug4E2Ipzug34q9GeLVPb5rcp0UBQUrDWA0sSeik0LuAbSL3E7DFSSOttPcuNMcZQSDVWHT15lG2OPsEquLJAQabahwhWJhpG2ERO0tSjJLsXr15MbdvDLMM4GxhH4hJ8fwxxL22wSyt4L7OgbKWcHENc4QOTeInkBE4Ddcngf9YcvL1bzey",
+              "received": false
+            }
+          ],
+          "total_price": 25312,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:26:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddae1c508c5d5ead4c53"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

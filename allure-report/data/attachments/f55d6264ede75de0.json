@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:26:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-4OjAJEQIpMo/joXKT6eowzgmwVw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695edda71c508c5d5ead4ad3",
+        "email": "Marc11@hotmail.com",
+        "name": "Lizzie Schneider",
+        "country": "Great Britain",
+        "city": "North Meaghanchester",
+        "street": "Railroad Street",
+        "house": 25,
+        "flat": 422,
+        "phone": "+19053659738",
+        "createdOn": "2026-01-07T22:26:47.000Z",
+        "notes": "C5zZRYeC31Le7ZMC34esXER78TaUmyWoP5xmNO4cEHOXABWSnF1wmFDudn7JNlckiTP7aD0hCXRe3pv0YzFsii7SXpnp0eInPzIJpdTEgjKhMSYtrZzLMgUcdQCYbn4yoAzlOCZBGdigVyip43XZMhzz6pEUZDBMYXAeQ6PmYqpVtiau2HeWyBf1ystYN0n8wzV7SZbf1WkzJ2dHqijgQkmjQRC2JDzTLYBXRBzHEz5kPgfOp2jDgvQ8zd"
+      },
+      "products": [
+        {
+          "_id": "695eddaa1c508c5d5ead4b04",
+          "name": "Car18214",
+          "amount": 614,
+          "price": 61936,
+          "manufacturer": "Microsoft",
+          "notes": "1hmPzvzLGLParka5wgWhZmVX86XFQxqH9od9UCCOTVPSgPEa5L1Xo6zADgDKnj0CfBzFfHmkwQckFGxgsiW2p4HI1yK38i1XSCA0n32TlERu6AB6mUmZVI59JIunDwAYBQL7guLGDBQIW31hm9WdjuaTqXF9UCYMptmjfVVyi8wMoiIb4ec97AvTRXIzCCeXSHrbmGgRqFqzifOE1g7etuhaLMyBPju0kOs92w8njKdIgd4ZgMe8zh2e2z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61936,
+      "createdOn": "2026-01-07T22:26:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695edda71c508c5d5ead4ad3",
+          "products": [
+            {
+              "_id": "695eddaa1c508c5d5ead4b04",
+              "name": "Car18214",
+              "amount": 614,
+              "price": 61936,
+              "manufacturer": "Microsoft",
+              "notes": "1hmPzvzLGLParka5wgWhZmVX86XFQxqH9od9UCCOTVPSgPEa5L1Xo6zADgDKnj0CfBzFfHmkwQckFGxgsiW2p4HI1yK38i1XSCA0n32TlERu6AB6mUmZVI59JIunDwAYBQL7guLGDBQIW31hm9WdjuaTqXF9UCYMptmjfVVyi8wMoiIb4ec97AvTRXIzCCeXSHrbmGgRqFqzifOE1g7etuhaLMyBPju0kOs92w8njKdIgd4ZgMe8zh2e2z",
+              "received": false
+            }
+          ],
+          "total_price": 61936,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:26:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddaa1c508c5d5ead4b13"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

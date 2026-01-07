@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:28:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-MUWPSH6ZfsyWoinpdsu7KTW0n4Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ede1a1c508c5d5ead82f3",
+        "email": "Oliver_White82@hotmail.com",
+        "name": "Tressie Zemlak",
+        "country": "Germany",
+        "city": "New Everettchester",
+        "street": "Hilll Stravenue",
+        "house": 31,
+        "flat": 980,
+        "phone": "+16312221457",
+        "createdOn": "2026-01-07T22:28:42.000Z",
+        "notes": "0RrX4paRAUpVa5ktIDW99UjrKPNL9PFDbq7mOsSDry4GnocMTiHG36ry1LOCBh72DO9eEnZ8cdy1vM4fm7cqbNqv8EwZkpUhWdBuVUdyc4lxwCbA2yNHFmiSiCy9A93KRskZjsOfA7toKMGPhIhlmZyuuxKcgUJ8jtXlea3XUUqr7DzPnFsLlXsvZm8ajdpeFHFVtX3DrsnipHIlwpaZ7ICsZ3YQggRkZeAERqYvs8caxRHuZMAoYDV9Ty"
+      },
+      "products": [
+        {
+          "_id": "695ede211c508c5d5ead8699",
+          "name": "Bike86633",
+          "amount": 438,
+          "price": 82759,
+          "manufacturer": "Microsoft",
+          "notes": "r6toKUYZU4pD2jfywIYwNvAiMzI2eZvjJDfdCZJJtLUmITPgvacB9cQvno0eqtwjBLWBUdPfSwqJ8yqufiBehkipYSynJDEYVvCh2hqLyfQflfffAPx8UJUOhw9jcMkMiolZbO7md2fwheqZi2q3XgBOxy2kceUU6XGKub4xt5ZL6spXSAaQzMTjUEqU3zz3Yy0ybvotkdQQ3q3sYuNkCIDWvX1T3GXuja0n31uBnd2mavbo1rsgKomkKe",
+          "received": false
+        },
+        {
+          "_id": "695ede261c508c5d5ead86e3",
+          "name": "Hat9872",
+          "amount": 495,
+          "price": 8820,
+          "manufacturer": "Tesla",
+          "notes": "v0nK1Q3jM7exeua3crQJDKtyxWKf5MuDTP3yzMcQT0gg6zwN8e6YHS3pVyqQKOW0GaCRb5WH20I0DaIoImP3zwL3uTYOlXxTTKhY7arK9hSoXA6LBGWAXVEkwapI59as5MtJ2E62aq3dQgN2BlTMZeOVSBlYBfCor3ElxKlaNuJDNgXB3Rlv0ybzmYk37yAmK6CHviFRS5kmOB0S76nkxGw12JGlMsU5Cvwhgyq2IoDluy6ktKWdYlNXhR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91579,
+      "createdOn": "2026-01-07T22:28:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ede1a1c508c5d5ead82f3",
+          "products": [
+            {
+              "_id": "695ede211c508c5d5ead8699",
+              "name": "Bike86633",
+              "amount": 438,
+              "price": 82759,
+              "manufacturer": "Microsoft",
+              "notes": "r6toKUYZU4pD2jfywIYwNvAiMzI2eZvjJDfdCZJJtLUmITPgvacB9cQvno0eqtwjBLWBUdPfSwqJ8yqufiBehkipYSynJDEYVvCh2hqLyfQflfffAPx8UJUOhw9jcMkMiolZbO7md2fwheqZi2q3XgBOxy2kceUU6XGKub4xt5ZL6spXSAaQzMTjUEqU3zz3Yy0ybvotkdQQ3q3sYuNkCIDWvX1T3GXuja0n31uBnd2mavbo1rsgKomkKe",
+              "received": false
+            },
+            {
+              "_id": "695ede261c508c5d5ead86e3",
+              "name": "Hat9872",
+              "amount": 495,
+              "price": 8820,
+              "manufacturer": "Tesla",
+              "notes": "v0nK1Q3jM7exeua3crQJDKtyxWKf5MuDTP3yzMcQT0gg6zwN8e6YHS3pVyqQKOW0GaCRb5WH20I0DaIoImP3zwL3uTYOlXxTTKhY7arK9hSoXA6LBGWAXVEkwapI59as5MtJ2E62aq3dQgN2BlTMZeOVSBlYBfCor3ElxKlaNuJDNgXB3Rlv0ybzmYk37yAmK6CHviFRS5kmOB0S76nkxGw12JGlMsU5Cvwhgyq2IoDluy6ktKWdYlNXhR",
+              "received": false
+            }
+          ],
+          "total_price": 91579,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:28:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ede271c508c5d5ead8862"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

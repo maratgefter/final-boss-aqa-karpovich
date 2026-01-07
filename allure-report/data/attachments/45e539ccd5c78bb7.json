@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:28:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4092",
+    "etag": "W/\"ffc-envtA54Sv2H2Dm4AcyZNhRLB+gQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695ede191c508c5d5ead7f67",
+      "status": "Draft",
+      "customer": {
+        "_id": "695ede071c508c5d5ead726f",
+        "email": "Norene_Klocko@yahoo.com",
+        "name": "Melvin Denesik",
+        "country": "Belarus",
+        "city": "Handworth",
+        "street": "Rogahn Mill",
+        "house": 26,
+        "flat": 370,
+        "phone": "+13167080604",
+        "createdOn": "2026-01-07T22:28:23.000Z",
+        "notes": "TLf6mUuODoi84y9zbirLiVYMjfmd5EeO90iIx7vAplC8r4KHTB8jw52E4HLxGxejpq4RzkQpSV6R5vtpYt97ehQGXahxAq1cjXoXJNQ7Frfugg6VBHK3yV8wmymiR9EN8f3jPYgKw9s9w6Zh2HWpk5gMk4wYn5R8M9mAV4R1FPG8RS7cCVXXsM81wFYCc7VLWACB8tfTFCfFtsDyHwmsDB3Yo52Fi87u8b9G8alLLVV0xlT0sdTsZE9cJN"
+      },
+      "products": [
+        {
+          "_id": "695ede101c508c5d5ead7a66",
+          "name": "Hat97266",
+          "amount": 888,
+          "price": 18527,
+          "manufacturer": "Samsung",
+          "notes": "nAl6yWuvvTR2FWZeaVTD7F84hsPudec0n5QgQcbygWEMs0tA2aKFSZdfA7hZqligC1cOZjmYZthNNTObRZOAP66ejYUEKBid6iYQf6sMrIaevPxPBocZcZ7YXjwdUt0lfVqQ3RUO8SeQw5OnK7YidUOhJlhXnJQvVqsjNp0GvEF4ceAjdYGX0cQBDhOrZh7O8u6mkuACVaZ7TRVK2KtEcDm8McFHjd19GshNGcdgO6hgMFZxUWkp0yqIJB",
+          "received": false
+        },
+        {
+          "_id": "695ede151c508c5d5ead7f4b",
+          "name": "Gloves35594",
+          "amount": 791,
+          "price": 47562,
+          "manufacturer": "Tesla",
+          "notes": "bgnCci8Or0FGy7h4MO3A0gkirmKaZJzp0EF1eghVvuw4OcxtUtQYzKHaJty1BMAKuOCAvAxZ7HVfi9l9PY6NZJRNwomIx4ErkdA3ZigFuT5l72xyQlOsZV1nyAiDzwEHwLPzSmq7HxqwtwklnpVBiqElvRGLVWFB4DpcvgC4rYzwBCs9jlcaUszCooHaAVXf6VMf7myKRId92z4QMlOUY8aXTzZwTLnT0HBUrnIXpIUcN6PX7K1e3vpRAY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Handworth",
+          "street": "Rogahn Mill",
+          "house": 26,
+          "flat": 370
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66089,
+      "createdOn": "2026-01-07T22:28:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ede071c508c5d5ead726f",
+          "products": [
+            {
+              "_id": "695ede101c508c5d5ead7a66",
+              "name": "Hat97266",
+              "amount": 888,
+              "price": 18527,
+              "manufacturer": "Samsung",
+              "notes": "nAl6yWuvvTR2FWZeaVTD7F84hsPudec0n5QgQcbygWEMs0tA2aKFSZdfA7hZqligC1cOZjmYZthNNTObRZOAP66ejYUEKBid6iYQf6sMrIaevPxPBocZcZ7YXjwdUt0lfVqQ3RUO8SeQw5OnK7YidUOhJlhXnJQvVqsjNp0GvEF4ceAjdYGX0cQBDhOrZh7O8u6mkuACVaZ7TRVK2KtEcDm8McFHjd19GshNGcdgO6hgMFZxUWkp0yqIJB",
+              "received": false
+            },
+            {
+              "_id": "695ede151c508c5d5ead7f4b",
+              "name": "Gloves35594",
+              "amount": 791,
+              "price": 47562,
+              "manufacturer": "Tesla",
+              "notes": "bgnCci8Or0FGy7h4MO3A0gkirmKaZJzp0EF1eghVvuw4OcxtUtQYzKHaJty1BMAKuOCAvAxZ7HVfi9l9PY6NZJRNwomIx4ErkdA3ZigFuT5l72xyQlOsZV1nyAiDzwEHwLPzSmq7HxqwtwklnpVBiqElvRGLVWFB4DpcvgC4rYzwBCs9jlcaUszCooHaAVXf6VMf7myKRId92z4QMlOUY8aXTzZwTLnT0HBUrnIXpIUcN6PX7K1e3vpRAY",
+              "received": false
+            }
+          ],
+          "total_price": 66089,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Handworth",
+              "street": "Rogahn Mill",
+              "house": 26,
+              "flat": 370
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-07T22:28:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695ede071c508c5d5ead726f",
+          "products": [
+            {
+              "_id": "695ede101c508c5d5ead7a66",
+              "name": "Hat97266",
+              "amount": 888,
+              "price": 18527,
+              "manufacturer": "Samsung",
+              "notes": "nAl6yWuvvTR2FWZeaVTD7F84hsPudec0n5QgQcbygWEMs0tA2aKFSZdfA7hZqligC1cOZjmYZthNNTObRZOAP66ejYUEKBid6iYQf6sMrIaevPxPBocZcZ7YXjwdUt0lfVqQ3RUO8SeQw5OnK7YidUOhJlhXnJQvVqsjNp0GvEF4ceAjdYGX0cQBDhOrZh7O8u6mkuACVaZ7TRVK2KtEcDm8McFHjd19GshNGcdgO6hgMFZxUWkp0yqIJB",
+              "received": false
+            },
+            {
+              "_id": "695ede151c508c5d5ead7f4b",
+              "name": "Gloves35594",
+              "amount": 791,
+              "price": 47562,
+              "manufacturer": "Tesla",
+              "notes": "bgnCci8Or0FGy7h4MO3A0gkirmKaZJzp0EF1eghVvuw4OcxtUtQYzKHaJty1BMAKuOCAvAxZ7HVfi9l9PY6NZJRNwomIx4ErkdA3ZigFuT5l72xyQlOsZV1nyAiDzwEHwLPzSmq7HxqwtwklnpVBiqElvRGLVWFB4DpcvgC4rYzwBCs9jlcaUszCooHaAVXf6VMf7myKRId92z4QMlOUY8aXTzZwTLnT0HBUrnIXpIUcN6PX7K1e3vpRAY",
+              "received": false
+            }
+          ],
+          "total_price": 66089,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:28:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

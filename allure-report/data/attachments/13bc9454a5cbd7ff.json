@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-fP65+PtCHmgH/OHFtcJ2/YnTUUQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695eddd41c508c5d5ead59bf",
+        "email": "Rozella35@gmail.com",
+        "name": "Lew Schowalter",
+        "country": "USA",
+        "city": "South Lisette",
+        "street": "Zieme Lights",
+        "house": 9,
+        "flat": 291,
+        "phone": "+12077725398",
+        "createdOn": "2026-01-07T22:27:32.000Z",
+        "notes": "8bn8qtggNGxVXxPs13sN4yJCgCIXjc8I14sZO1r4IYxLWJXAnYHI3oflDbTz5fzHH9nnmviZJmt0PisLYNz2j5WI48yf1CgSS6Sg4zwjiJt1zLblL9EYlI1WzKuINOGyecfLD7l28tvngIXflUq2g1I3YTmQ48LUCM22URn3dz5N9v5peOngg2RU3blngv1PZrVyQWit4vHRqvCdw4KhxHSOtdB6rT7mAKq5T8H11wF3hwExAkCLlxAUNE"
+      },
+      "products": [
+        {
+          "_id": "695eddd71c508c5d5ead5c7f",
+          "name": "Table24694",
+          "amount": 167,
+          "price": 90196,
+          "manufacturer": "Microsoft",
+          "notes": "fIB6H6sTB7xbb5tAWpC7ZZR8xkDFdsOLQBE2dmGfoNgXosEX6pqf7R9w091fpIaxUfaeY1fKEkYZSXskj85zRpclx3Z3pQJlMSJ0vD1S6TZgV6pN7IJPdCFtEFUzhXyE92tEtCdJL9puJUT73oKOpUv57Q1l4hpM91Cegj5h08lV74u9jhopER141tFdgT34Va4pOKTBLSlPQF5aRrfiFQMwIYqQFY6sk1vaXqaWCukC3nT2fHXQW8teO8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90196,
+      "createdOn": "2026-01-07T22:27:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695eddd41c508c5d5ead59bf",
+          "products": [
+            {
+              "_id": "695eddd71c508c5d5ead5c7f",
+              "name": "Table24694",
+              "amount": 167,
+              "price": 90196,
+              "manufacturer": "Microsoft",
+              "notes": "fIB6H6sTB7xbb5tAWpC7ZZR8xkDFdsOLQBE2dmGfoNgXosEX6pqf7R9w091fpIaxUfaeY1fKEkYZSXskj85zRpclx3Z3pQJlMSJ0vD1S6TZgV6pN7IJPdCFtEFUzhXyE92tEtCdJL9puJUT73oKOpUv57Q1l4hpM91Cegj5h08lV74u9jhopER141tFdgT34Va4pOKTBLSlPQF5aRrfiFQMwIYqQFY6sk1vaXqaWCukC3nT2fHXQW8teO8",
+              "received": false
+            }
+          ],
+          "total_price": 90196,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:27:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddd81c508c5d5ead5ca0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

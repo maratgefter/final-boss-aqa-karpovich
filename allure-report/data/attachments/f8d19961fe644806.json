@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:26:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-QDgaGOCaMvAsJFxN+OtTHJ+zG/0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695edda71c508c5d5ead4ad7",
+        "email": "Edmond94@gmail.com",
+        "name": "Brent Cassin",
+        "country": "Great Britain",
+        "city": "Macejkovicmouth",
+        "street": "Jarvis Drives",
+        "house": 13,
+        "flat": 754,
+        "phone": "+15383906528",
+        "createdOn": "2026-01-07T22:26:47.000Z",
+        "notes": "gQVetufnoTv27AlibVrJzhwf6a7wpa2ZZydK1zYUfvKjPuFVJyhBzoGPuXjYR7f20EogkAA6JN0wvYl1kRAs0AJI148zjGvKtxEsZBWtfMG9lqmmMnNcn9eAGuFCgPxjegSK0engQ6U3hnnyrEk4RrEaeUpB75GHKZfxyoZoSs0pTzADgy3NMVMlcDPysZ1gzeACR8v65FFCI3Tib8rEX7ug9LVjUnmXrtipIHYOKrm93KJJF5WElgolKy"
+      },
+      "products": [
+        {
+          "_id": "695eddaa1c508c5d5ead4b06",
+          "name": "Tuna92690",
+          "amount": 524,
+          "price": 30660,
+          "manufacturer": "Samsung",
+          "notes": "QZWFSDKP28AysFXLc6wEU8GideBmtbxAhlHYnDixvR0ZkxzQUg65G2T6XYah5RdjcS5SRvWgCnzLzsLD7B37AcjeaJHd3KEm8WEJMLlVaLmvhUWKdZi2IRuF1Jyl4orLd2bqS3DnzrAD92LOqNJorp8mXrwlJUiDcge2TJ1LqZbX8Zfigiocopjmfwn1n2ViG9XsOTAOmxs0C8se28oNCas64CAvdZUsMmyrekUg9yJrXyAOKiuHwvymIv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30660,
+      "createdOn": "2026-01-07T22:26:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695edda71c508c5d5ead4ad7",
+          "products": [
+            {
+              "_id": "695eddaa1c508c5d5ead4b06",
+              "name": "Tuna92690",
+              "amount": 524,
+              "price": 30660,
+              "manufacturer": "Samsung",
+              "notes": "QZWFSDKP28AysFXLc6wEU8GideBmtbxAhlHYnDixvR0ZkxzQUg65G2T6XYah5RdjcS5SRvWgCnzLzsLD7B37AcjeaJHd3KEm8WEJMLlVaLmvhUWKdZi2IRuF1Jyl4orLd2bqS3DnzrAD92LOqNJorp8mXrwlJUiDcge2TJ1LqZbX8Zfigiocopjmfwn1n2ViG9XsOTAOmxs0C8se28oNCas64CAvdZUsMmyrekUg9yJrXyAOKiuHwvymIv",
+              "received": false
+            }
+          ],
+          "total_price": 30660,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:26:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddaa1c508c5d5ead4b1c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

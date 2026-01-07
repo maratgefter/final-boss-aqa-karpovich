@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3863",
+    "etag": "W/\"f17-wXbcgFNf9ilwagWKr3ISP3bEtBg\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695eddec1c508c5d5ead6734",
+      "status": "In Process",
+      "customer": {
+        "_id": "695edde81c508c5d5ead6467",
+        "email": "Jarvis_Wilderman@yahoo.com",
+        "name": "Howell Padberg",
+        "country": "USA",
+        "city": "Fort Mason",
+        "street": "Karina Circle",
+        "house": 16,
+        "flat": 656,
+        "phone": "+15019351394",
+        "createdOn": "2026-01-07T22:27:52.000Z",
+        "notes": "2rDaMlqHArAncIdBwT1WtZGOqilCEgmxSRZbv3IvmhgXSQNdOsuwbsslUCGaCJxnddnrLoIzMEG8xzcap8DkSOnlYD7MPESj2KGbkZdJVjBPXCW7l4hiXxZRI1XkKLTBDLyzQmE2yxguMCv9GHMZzc800mUlM1AsN3npgqyeY6LNcRbwwcqXqWC5ygtHQ9bJjMpZO8F6GHVnxsZ9NSOiWPtnh3TPAgDaOrjeqPVBZV35AltcI2yYssBaAt"
+      },
+      "products": [
+        {
+          "_id": "695eddeb1c508c5d5ead6711",
+          "name": "Bike65614",
+          "amount": 371,
+          "price": 64252,
+          "manufacturer": "Xiaomi",
+          "notes": "WW5ta96Q7dyAMKpQdGt1Oq7TJdXgBjGHMB0MiYUxC9d2HlUDhyfkQAFJwz8Gjwlzrfhfid3e3XiPf9Hk8OffoSxo0h94Aimt0TJImEzjaHxGpjMwRWaTz8WXcPBUab6KPXnJ1naPW7eEKGqF14miCRs2Et4AEDl4tmdS8ajbpypPeXfGlgqXwZZOS3Lxl8ilJrT8fc7borbqQ6TVdqvlVvnglyfAQ3kgWz9d0MlBigV1XkjouMLxFsjeIY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Mason",
+          "street": "Karina Circle",
+          "house": 16,
+          "flat": 656
+        },
+        "finalDate": "2026-01-15T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 64252,
+      "createdOn": "2026-01-07T22:27:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695edde81c508c5d5ead6467",
+          "products": [
+            {
+              "_id": "695eddeb1c508c5d5ead6711",
+              "name": "Bike65614",
+              "amount": 371,
+              "price": 64252,
+              "manufacturer": "Xiaomi",
+              "notes": "WW5ta96Q7dyAMKpQdGt1Oq7TJdXgBjGHMB0MiYUxC9d2HlUDhyfkQAFJwz8Gjwlzrfhfid3e3XiPf9Hk8OffoSxo0h94Aimt0TJImEzjaHxGpjMwRWaTz8WXcPBUab6KPXnJ1naPW7eEKGqF14miCRs2Et4AEDl4tmdS8ajbpypPeXfGlgqXwZZOS3Lxl8ilJrT8fc7borbqQ6TVdqvlVvnglyfAQ3kgWz9d0MlBigV1XkjouMLxFsjeIY",
+              "received": false
+            }
+          ],
+          "total_price": 64252,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Mason",
+              "street": "Karina Circle",
+              "house": 16,
+              "flat": 656
+            },
+            "finalDate": "2026-01-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-07T22:27:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695edde81c508c5d5ead6467",
+          "products": [
+            {
+              "_id": "695eddeb1c508c5d5ead6711",
+              "name": "Bike65614",
+              "amount": 371,
+              "price": 64252,
+              "manufacturer": "Xiaomi",
+              "notes": "WW5ta96Q7dyAMKpQdGt1Oq7TJdXgBjGHMB0MiYUxC9d2HlUDhyfkQAFJwz8Gjwlzrfhfid3e3XiPf9Hk8OffoSxo0h94Aimt0TJImEzjaHxGpjMwRWaTz8WXcPBUab6KPXnJ1naPW7eEKGqF14miCRs2Et4AEDl4tmdS8ajbpypPeXfGlgqXwZZOS3Lxl8ilJrT8fc7borbqQ6TVdqvlVvnglyfAQ3kgWz9d0MlBigV1XkjouMLxFsjeIY",
+              "received": false
+            }
+          ],
+          "total_price": 64252,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Mason",
+              "street": "Karina Circle",
+              "house": 16,
+              "flat": 656
+            },
+            "finalDate": "2026-01-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-07T22:27:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695edde81c508c5d5ead6467",
+          "products": [
+            {
+              "_id": "695eddeb1c508c5d5ead6711",
+              "name": "Bike65614",
+              "amount": 371,
+              "price": 64252,
+              "manufacturer": "Xiaomi",
+              "notes": "WW5ta96Q7dyAMKpQdGt1Oq7TJdXgBjGHMB0MiYUxC9d2HlUDhyfkQAFJwz8Gjwlzrfhfid3e3XiPf9Hk8OffoSxo0h94Aimt0TJImEzjaHxGpjMwRWaTz8WXcPBUab6KPXnJ1naPW7eEKGqF14miCRs2Et4AEDl4tmdS8ajbpypPeXfGlgqXwZZOS3Lxl8ilJrT8fc7borbqQ6TVdqvlVvnglyfAQ3kgWz9d0MlBigV1XkjouMLxFsjeIY",
+              "received": false
+            }
+          ],
+          "total_price": 64252,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:27:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,865 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "25418",
+    "etag": "W/\"634a-XCYZEPIrAUHKt1/9U3u42PDSRpw\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695eddd81c508c5d5ead5c9e",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddd41c508c5d5ead59c1",
+          "email": "Summer42@yahoo.com",
+          "name": "Karelle Wuckert",
+          "country": "Russia",
+          "city": "East Bria",
+          "street": "Rowland Fort",
+          "house": 27,
+          "flat": 977,
+          "phone": "+17772615307",
+          "createdOn": "2026-01-07T22:27:32.000Z",
+          "notes": "9nGiwKcSh3DZ0KJcSi8Offc9XA0Hv48W81PowJcvZ5WgvOla6vL5aHi6nyAztnG8jvQYSC6iAn9j8y5iGueVJG2Jjquhtj6ZfwFwoWKBCIuHXDP5ozv0UqhD6NAaG8mviLm4GpWYkk7rW4Ha2fRikbYhxvLTzGK581Rb635bEFzB3k9ykdG3AZu0gzxRLMTY7mzIXVTp75Nq47gAtl985GYzzYu5KvVf0eOkYh8VH6k7lMEZSvWG6SL0Ab"
+        },
+        "products": [
+          {
+            "_id": "695eddd71c508c5d5ead5c7a",
+            "name": "Salad30088",
+            "amount": 212,
+            "price": 47194,
+            "manufacturer": "Apple",
+            "notes": "lidVltG1svjvCLPSa0BQoCbM18vL9sEjvO98dk1KdM3cPI3U26Yf32Cp3ADd3GrEAlOXEiEOu7PnVWhr3VqbS20p0QpG2s0lGPdORs7TaOBDPdlj6onhAgXepLJAQPKpnWCU0Wi5i3mLYdwGOeMmYwPFtyMuIWo3ovBzqXSIIHXeQj6wR5JakQhD3OE8qodGqeryLqAttzPhjtNQjPZejRgDpKMTsr9ad2CO7TYofLgz6ynpogV68jqMGQ",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 47194,
+        "createdOn": "2026-01-07T22:27:36.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddd41c508c5d5ead59c1",
+            "products": [
+              {
+                "_id": "695eddd71c508c5d5ead5c7a",
+                "name": "Salad30088",
+                "amount": 212,
+                "price": 47194,
+                "manufacturer": "Apple",
+                "notes": "lidVltG1svjvCLPSa0BQoCbM18vL9sEjvO98dk1KdM3cPI3U26Yf32Cp3ADd3GrEAlOXEiEOu7PnVWhr3VqbS20p0QpG2s0lGPdORs7TaOBDPdlj6onhAgXepLJAQPKpnWCU0Wi5i3mLYdwGOeMmYwPFtyMuIWo3ovBzqXSIIHXeQj6wR5JakQhD3OE8qodGqeryLqAttzPhjtNQjPZejRgDpKMTsr9ad2CO7TYofLgz6ynpogV68jqMGQ",
+                "received": false
+              }
+            ],
+            "total_price": 47194,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:36.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddd81c508c5d5ead5ca0",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddd41c508c5d5ead59bf",
+          "email": "Rozella35@gmail.com",
+          "name": "Lew Schowalter",
+          "country": "USA",
+          "city": "South Lisette",
+          "street": "Zieme Lights",
+          "house": 9,
+          "flat": 291,
+          "phone": "+12077725398",
+          "createdOn": "2026-01-07T22:27:32.000Z",
+          "notes": "8bn8qtggNGxVXxPs13sN4yJCgCIXjc8I14sZO1r4IYxLWJXAnYHI3oflDbTz5fzHH9nnmviZJmt0PisLYNz2j5WI48yf1CgSS6Sg4zwjiJt1zLblL9EYlI1WzKuINOGyecfLD7l28tvngIXflUq2g1I3YTmQ48LUCM22URn3dz5N9v5peOngg2RU3blngv1PZrVyQWit4vHRqvCdw4KhxHSOtdB6rT7mAKq5T8H11wF3hwExAkCLlxAUNE"
+        },
+        "products": [
+          {
+            "_id": "695eddd71c508c5d5ead5c7f",
+            "name": "Table24694",
+            "amount": 167,
+            "price": 90196,
+            "manufacturer": "Microsoft",
+            "notes": "fIB6H6sTB7xbb5tAWpC7ZZR8xkDFdsOLQBE2dmGfoNgXosEX6pqf7R9w091fpIaxUfaeY1fKEkYZSXskj85zRpclx3Z3pQJlMSJ0vD1S6TZgV6pN7IJPdCFtEFUzhXyE92tEtCdJL9puJUT73oKOpUv57Q1l4hpM91Cegj5h08lV74u9jhopER141tFdgT34Va4pOKTBLSlPQF5aRrfiFQMwIYqQFY6sk1vaXqaWCukC3nT2fHXQW8teO8",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 90196,
+        "createdOn": "2026-01-07T22:27:36.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddd41c508c5d5ead59bf",
+            "products": [
+              {
+                "_id": "695eddd71c508c5d5ead5c7f",
+                "name": "Table24694",
+                "amount": 167,
+                "price": 90196,
+                "manufacturer": "Microsoft",
+                "notes": "fIB6H6sTB7xbb5tAWpC7ZZR8xkDFdsOLQBE2dmGfoNgXosEX6pqf7R9w091fpIaxUfaeY1fKEkYZSXskj85zRpclx3Z3pQJlMSJ0vD1S6TZgV6pN7IJPdCFtEFUzhXyE92tEtCdJL9puJUT73oKOpUv57Q1l4hpM91Cegj5h08lV74u9jhopER141tFdgT34Va4pOKTBLSlPQF5aRrfiFQMwIYqQFY6sk1vaXqaWCukC3nT2fHXQW8teO8",
+                "received": false
+              }
+            ],
+            "total_price": 90196,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:36.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddd71c508c5d5ead5c84",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddd01c508c5d5ead597f",
+          "email": "Helmer4@yahoo.com",
+          "name": "Marguerite Feil",
+          "country": "Great Britain",
+          "city": "Kirkland",
+          "street": "Quitzon Meadow",
+          "house": 30,
+          "flat": 205,
+          "phone": "+18763978872",
+          "createdOn": "2026-01-07T22:27:28.000Z",
+          "notes": "igeYcXCNegqwfpAu1tlqgtHYE1GLg589xFogfNhfxhf1lSjPhiwZYKtGG1stpcXvPuwjarpx9L9F305ySPGs2E9YUnpDT3u0j7Hif1OwYzpeg1d23QIto09Z07LDzp0j9vQPTIz1Y3tassbjDw5nuCICUK27OLqWcxuO0ipfHqFmbZq9HnLoIyHS1WzoLeSF6L0nNlXupjKxyYAhgI28FNYqNBJMoeAL2VQvDJt4T8oSBj6WEswAP5HZoT"
+        },
+        "products": [
+          {
+            "_id": "695eddd41c508c5d5ead5b19",
+            "name": "Tuna37400",
+            "amount": 354,
+            "price": 56016,
+            "manufacturer": "Google",
+            "notes": "GmLsPGlDp8x8WTWy7aWKAPtKshKQlfCmXZD5lUOxrFsfWUpNCobzxQp7Z3oC29FO0LTYM2QwJ0G8pser6u78XQ0vsx6BSzwJ62sQ8k9IYHsZCxveqo5RB8tUdwDk1HxusfyBn9ryK1ht65n6d6YntukusxxgTqGUQcAeoKGW7IZBKaDArAhsWWl6KSQjptaLJtBWgC6v4Z6fssDjL5Lx2SAsnrHhDOEqpY0FWPC9SEht71BkvuU715t0fk",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 56016,
+        "createdOn": "2026-01-07T22:27:35.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddd01c508c5d5ead597f",
+            "products": [
+              {
+                "_id": "695eddd41c508c5d5ead5b19",
+                "name": "Tuna37400",
+                "amount": 354,
+                "price": 56016,
+                "manufacturer": "Google",
+                "notes": "GmLsPGlDp8x8WTWy7aWKAPtKshKQlfCmXZD5lUOxrFsfWUpNCobzxQp7Z3oC29FO0LTYM2QwJ0G8pser6u78XQ0vsx6BSzwJ62sQ8k9IYHsZCxveqo5RB8tUdwDk1HxusfyBn9ryK1ht65n6d6YntukusxxgTqGUQcAeoKGW7IZBKaDArAhsWWl6KSQjptaLJtBWgC6v4Z6fssDjL5Lx2SAsnrHhDOEqpY0FWPC9SEht71BkvuU715t0fk",
+                "received": false
+              }
+            ],
+            "total_price": 56016,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:35.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddd01c508c5d5ead580b",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddcb1c508c5d5ead56c8",
+          "email": "Abner.Zboncak@gmail.com",
+          "name": "Marty Parisian",
+          "country": "Canada",
+          "city": "Port Olliefurt",
+          "street": "Lehner Forge",
+          "house": 26,
+          "flat": 611,
+          "phone": "+14434595742",
+          "createdOn": "2026-01-07T22:27:23.000Z",
+          "notes": "2U5Ww6hAQwlWcLp7syMCQsC5X4wvMqcyUpdjLfINeGyE9IbhX0zhXCIBqvKwoxFneri3NzU9swG5zLv3G2I1bbyxoLYi4A27GZfZVOPfRHp0k0oR8wO6Fr1b71NN1Rfjh8BCu1SuMtZGzAzEDiPWlwuv2JKWnvIpmdMgHlpSb16usEHb5pHNRSSuhaiZJ14HNuPmZ1lRugiTy51sPFkJyK6D7K4yUOesJTer4IeOfdUQ6XnaTya2fZfGU4"
+        },
+        "products": [
+          {
+            "_id": "695eddcf1c508c5d5ead57ef",
+            "name": "Bacon94762",
+            "amount": 557,
+            "price": 8015,
+            "manufacturer": "Sony",
+            "notes": "f6o4J7vKGGrRFEKskTlqRT9ldipyxSU1lsGZABuWz831ZmtYc8Oci7S5tohyw4mohWeLXYKAYVoycF2SQE0CNQapbLHZT7Tx2G763u73GabeRQfNBHya1vNowFikATFm6kolfDDGoCz2bmYd9jRIEiqGFhKQNXFHD7Gunszfn5Xp7fXdGz90W7agOwCu0YI4SoN0dalqYI4bh4u8xJaw9D8CSz4Ddhfsx8KNFrvBlcEA545gN1bXUzsWuu",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 8015,
+        "createdOn": "2026-01-07T22:27:28.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddcb1c508c5d5ead56c8",
+            "products": [
+              {
+                "_id": "695eddcf1c508c5d5ead57ef",
+                "name": "Bacon94762",
+                "amount": 557,
+                "price": 8015,
+                "manufacturer": "Sony",
+                "notes": "f6o4J7vKGGrRFEKskTlqRT9ldipyxSU1lsGZABuWz831ZmtYc8Oci7S5tohyw4mohWeLXYKAYVoycF2SQE0CNQapbLHZT7Tx2G763u73GabeRQfNBHya1vNowFikATFm6kolfDDGoCz2bmYd9jRIEiqGFhKQNXFHD7Gunszfn5Xp7fXdGz90W7agOwCu0YI4SoN0dalqYI4bh4u8xJaw9D8CSz4Ddhfsx8KNFrvBlcEA545gN1bXUzsWuu",
+                "received": false
+              }
+            ],
+            "total_price": 8015,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:28.000Z",
+            "action": "Manager Assigned",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": {
+              "_id": "692337cd1c508c5d5e953339",
+              "username": "student8@gmail.com",
+              "firstName": "Virginie",
+              "lastName": "Schmitt",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            }
+          },
+          {
+            "status": "Draft",
+            "customer": "695eddcb1c508c5d5ead56c8",
+            "products": [
+              {
+                "_id": "695eddcf1c508c5d5ead57ef",
+                "name": "Bacon94762",
+                "amount": 557,
+                "price": 8015,
+                "manufacturer": "Sony",
+                "notes": "f6o4J7vKGGrRFEKskTlqRT9ldipyxSU1lsGZABuWz831ZmtYc8Oci7S5tohyw4mohWeLXYKAYVoycF2SQE0CNQapbLHZT7Tx2G763u73GabeRQfNBHya1vNowFikATFm6kolfDDGoCz2bmYd9jRIEiqGFhKQNXFHD7Gunszfn5Xp7fXdGz90W7agOwCu0YI4SoN0dalqYI4bh4u8xJaw9D8CSz4Ddhfsx8KNFrvBlcEA545gN1bXUzsWuu",
+                "received": false
+              }
+            ],
+            "total_price": 8015,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:28.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": {
+          "_id": "692337cd1c508c5d5e953339",
+          "username": "student8@gmail.com",
+          "firstName": "Virginie",
+          "lastName": "Schmitt",
+          "roles": [
+            "USER"
+          ],
+          "createdOn": "2025/11/23 16:35:25"
+        }
+      },
+      {
+        "_id": "695eddcd1c508c5d5ead56f9",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddc71c508c5d5ead537f",
+          "email": "Vella.Pfannerstill60@yahoo.com",
+          "name": "Mckayla Cartwright",
+          "country": "Ukraine",
+          "city": "Jeanbury",
+          "street": "Jon Manors",
+          "house": 41,
+          "flat": 411,
+          "phone": "+18732759256",
+          "createdOn": "2026-01-07T22:27:19.000Z",
+          "notes": "U82rFdvukPnVn5t6w5LNlKIpBidTYpPNPMfE386NJUoekxUCxL1VdDSmWbvYgRGw17pfr9O77Whxy0aWenY4WPSCg2ng8VcNJlhLeFHWLNPz55LWVIYfndkeqdwFLWh7auWSFqDVN4sGabe27FPzYiC6clSFXKPmlMzNM7NEM32Rp5aVULn43Z0rFwy6ECcZ8sauJFJnOl6etZngnYWS2W30gBH1A306nINDOFbYIHbQgtilH1tH761qBC"
+        },
+        "products": [
+          {
+            "_id": "695eddca1c508c5d5ead54b8",
+            "name": "Ball1625",
+            "amount": 750,
+            "price": 61229,
+            "manufacturer": "Amazon",
+            "notes": "BTC66jbuHlUEjmgbJgOwyygu09InXYQFXBgxTQj08n7HGKIWa1ZGWSS70DzGc3EhnF6gJ0cj7QdMvYDxOQ5EzutSv6J2DQ3SMEQVXKiRCmC8w1VF0OHFy5KeG1Q3fGsGC6oCWaNZhi1AGMI99LlWG1yowDG6DdbgHLDvizkjRuUGyeesTl1f5yHg6Z5iAEKZslk2ozjKYAvCIUvkinaWDBMr6URB0ZIugIwj01i5Ezt2myHhj8yXXdP4yW",
+            "received": false
+          },
+          {
+            "_id": "695eddcc1c508c5d5ead56cf",
+            "name": "Cheese36554",
+            "amount": 773,
+            "price": 94537,
+            "manufacturer": "Amazon",
+            "notes": "nUagQ8kCXVejvvHK2iY28ZXlpgtoCVcKcv39vc1LLudJgjtzgtvrZK9ZnOqWnJtcEisiM5ahdAk1IFZXGAzajHICEw9pzI8Thhb12v72sepf61yFtGfP9CV11tlbmrzaeBchPvn3Bi6vnmXDU3UBBszJaQrbx5smmnJSctvRehTi7iM9GvGbS4SNCrmwmPkHUyirfbN987YLWo3PGRVkeDEhPcuyPE6ErjHBsam4Bs9FbAZgai3JsD8Gsk",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 155766,
+        "createdOn": "2026-01-07T22:27:25.000Z",
+        "comments": [
+          {
+            "text": "EdAYkpLBPfyx1MmCBWybANKqrAHAmpeEnks1gxBrfHw2YxflV3ElitYlVEXaHbFHxzQmxtWJpgC",
+            "createdOn": "2026-01-07T22:27:25.000Z",
+            "_id": "695eddcd1c508c5d5ead571f"
+          }
+        ],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddc71c508c5d5ead537f",
+            "products": [
+              {
+                "_id": "695eddca1c508c5d5ead54b8",
+                "name": "Ball1625",
+                "amount": 750,
+                "price": 61229,
+                "manufacturer": "Amazon",
+                "notes": "BTC66jbuHlUEjmgbJgOwyygu09InXYQFXBgxTQj08n7HGKIWa1ZGWSS70DzGc3EhnF6gJ0cj7QdMvYDxOQ5EzutSv6J2DQ3SMEQVXKiRCmC8w1VF0OHFy5KeG1Q3fGsGC6oCWaNZhi1AGMI99LlWG1yowDG6DdbgHLDvizkjRuUGyeesTl1f5yHg6Z5iAEKZslk2ozjKYAvCIUvkinaWDBMr6URB0ZIugIwj01i5Ezt2myHhj8yXXdP4yW",
+                "received": false
+              },
+              {
+                "_id": "695eddcc1c508c5d5ead56cf",
+                "name": "Cheese36554",
+                "amount": 773,
+                "price": 94537,
+                "manufacturer": "Amazon",
+                "notes": "nUagQ8kCXVejvvHK2iY28ZXlpgtoCVcKcv39vc1LLudJgjtzgtvrZK9ZnOqWnJtcEisiM5ahdAk1IFZXGAzajHICEw9pzI8Thhb12v72sepf61yFtGfP9CV11tlbmrzaeBchPvn3Bi6vnmXDU3UBBszJaQrbx5smmnJSctvRehTi7iM9GvGbS4SNCrmwmPkHUyirfbN987YLWo3PGRVkeDEhPcuyPE6ErjHBsam4Bs9FbAZgai3JsD8Gsk",
+                "received": false
+              }
+            ],
+            "total_price": 155766,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:25.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddc81c508c5d5ead5451",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddc11c508c5d5ead51c1",
+          "email": "Brooks84@hotmail.com",
+          "name": "Devin Douglas",
+          "country": "Russia",
+          "city": "South Jeremietown",
+          "street": "S 7th Street",
+          "house": 12,
+          "flat": 695,
+          "phone": "+13012710970",
+          "createdOn": "2026-01-07T22:27:13.000Z",
+          "notes": "pvXFaxOUKYSTW1ddwldB2FVDS5mDIV42SrHDqfW5NZwGVlDIjPTWVS079KgjRM8JxETIPydS2pxIaRBcCy0r6YkNwOpXNBZEQBWll8t5f7yMtTK30XEV7Ym7HOc8DNl6d4J2X6IoJxytAEdDftP5jgT3cqxLtBOFbH7UQ34AHwNYbZrf6zekg2VW9r1rPDhb5Su7gjHNnY26AlTGbpDQEXHeEMpk0djaKkrENv3jVm6BTWyhfnDX3OZwcu"
+        },
+        "products": [
+          {
+            "_id": "695eddc31c508c5d5ead5329",
+            "name": "Towels85872",
+            "amount": 586,
+            "price": 17930,
+            "manufacturer": "Tesla",
+            "notes": "4SZNTxHxSCPH1L7WJ9oB705QnJGdMd8UjrlUc9SaQDhgk1pMeqkL72odJCsGXp0ghGo9z51Lgw0RNSS80pMjzFkVgp7D56rJ1AGhoWdM5GVnCgFXlxqF4TkVyxrzdDuPVcknB8kq1zoQZXZ9aTvN3GQQs06Oc0M79Ryvb1bVaVgtnTYBJRtRvcchZXPKvqYg0UY6hbGXbX4pwRmeCFkSGcoAEn5jg3VOOjew5IAdtbQXtQ6azbJbOfrJT7",
+            "received": false
+          },
+          {
+            "_id": "695eddc71c508c5d5ead5425",
+            "name": "Tuna88460",
+            "amount": 342,
+            "price": 14588,
+            "manufacturer": "Google",
+            "notes": "DHMFg4uFeCme9I2g5w6QoGXk4UJCWLn0qReIrji6P7HogoYExo9c1zcmNnkh0oaxrhJUqb1rfmpiGxSPYouSwgM8YEmXJzI9Y04XY7Mh7UGIpODIpqwmaXdORtshdE8C7aY8Ytvriadv2IBuc3ISaaP7mx6Ni57jtSsevtY48yWWaoSN3Px3SSeZ4BxqKYgAm7t994gXER6urOV0CSuTxvAnYOEiZbmmlfiiax4B6BKIkXkAbBWzc1qAtA",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 32518,
+        "createdOn": "2026-01-07T22:27:20.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddc11c508c5d5ead51c1",
+            "products": [
+              {
+                "_id": "695eddc31c508c5d5ead5329",
+                "name": "Towels85872",
+                "amount": 586,
+                "price": 17930,
+                "manufacturer": "Tesla",
+                "notes": "4SZNTxHxSCPH1L7WJ9oB705QnJGdMd8UjrlUc9SaQDhgk1pMeqkL72odJCsGXp0ghGo9z51Lgw0RNSS80pMjzFkVgp7D56rJ1AGhoWdM5GVnCgFXlxqF4TkVyxrzdDuPVcknB8kq1zoQZXZ9aTvN3GQQs06Oc0M79Ryvb1bVaVgtnTYBJRtRvcchZXPKvqYg0UY6hbGXbX4pwRmeCFkSGcoAEn5jg3VOOjew5IAdtbQXtQ6azbJbOfrJT7",
+                "received": false
+              },
+              {
+                "_id": "695eddc71c508c5d5ead5425",
+                "name": "Tuna88460",
+                "amount": 342,
+                "price": 14588,
+                "manufacturer": "Google",
+                "notes": "DHMFg4uFeCme9I2g5w6QoGXk4UJCWLn0qReIrji6P7HogoYExo9c1zcmNnkh0oaxrhJUqb1rfmpiGxSPYouSwgM8YEmXJzI9Y04XY7Mh7UGIpODIpqwmaXdORtshdE8C7aY8Ytvriadv2IBuc3ISaaP7mx6Ni57jtSsevtY48yWWaoSN3Px3SSeZ4BxqKYgAm7t994gXER6urOV0CSuTxvAnYOEiZbmmlfiiax4B6BKIkXkAbBWzc1qAtA",
+                "received": false
+              }
+            ],
+            "total_price": 32518,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:20.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddc81c508c5d5ead5454",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddc11c508c5d5ead51c3",
+          "email": "Kathlyn2@gmail.com",
+          "name": "Alessandra Streich",
+          "country": "Great Britain",
+          "city": "Lake Bettieton",
+          "street": "Savion Ports",
+          "house": 25,
+          "flat": 835,
+          "phone": "+18694401614",
+          "createdOn": "2026-01-07T22:27:13.000Z",
+          "notes": "1OJoBLxLS13q5MVjvavgCAL2uhSMclP2o6w567qTKHSYK9owbDricTiHpohMTQTbGPWOMm4FeQxlXsTOmegEQrAhW9LFHApj5drBPVoBw8RtCyxeUWlX8RFncfljCcLWgB9nJxIR61gxRuYcBQSXM37QWIQc1w05l6Pbi18DvP1a93afcWrOWwFCdbxfjyltk5ikmIem3QmrXlE8YNRLSI6o642ZnfHpCPoUrTO2HF8XIbMD8Ts0yMyhKI"
+        },
+        "products": [
+          {
+            "_id": "695eddc31c508c5d5ead532f",
+            "name": "Keyboard41123",
+            "amount": 680,
+            "price": 16865,
+            "manufacturer": "Google",
+            "notes": "4ucdc0d7LdaE1xHgmspWBQkoRIOxTDqdoFHLvRo6stKAU8Vq9WdUzF3xKGRHsdqnWG2zvdtFakcswkjvJwsLyiCwqrULsuwatrpd6m2CoLoI0duzZhkz3RuFJqBVdZKlRqEOGVrYI68ibmVB50m5qQFSB3zNr9SwNCAbABuXaniKxB3kCi0GkGcNu6AKTWAuqTkSeqqSmFmng8ZgrRgTFWxMau65lkQUnpCWv2olLdlJ4LIjjnyhUf3p3n",
+            "received": false
+          },
+          {
+            "_id": "695eddc71c508c5d5ead5427",
+            "name": "Ball38383",
+            "amount": 492,
+            "price": 477,
+            "manufacturer": "Samsung",
+            "notes": "z4DbwFAK3YR5846fmJgTrf8vihXXu7JY6gFZHgpM0fryzpnekJwEwHloPJtu5pzjVAJq8cf1fTmAtYV1UN2XaSdyr3FMPF4eFxhiLBMWoEhstKUAYjB5gjzee0aZryHYFsFtjkOQgigUWsOBJI3ghsRaCGh8BsgPCvZRUTZJJNtSWYDwA5IKI5s4ZQE5Cn6N1Ldw5skFXMayLAFtFdruIOKFQvplTqDPDzcVKSy0FVBtvMNOWEQQhMJ9BF",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 17342,
+        "createdOn": "2026-01-07T22:27:20.000Z",
+        "comments": [
+          {
+            "text": "txYqr9gtXKvHMNBs0Xl2kfrpSO9KTrxpeym9jMfsghW6FybHMqLr3hdZ4HYBMQgJQbfp0YcOFkH",
+            "createdOn": "2026-01-07T22:27:20.000Z",
+            "_id": "695eddc81c508c5d5ead5473"
+          }
+        ],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddc11c508c5d5ead51c3",
+            "products": [
+              {
+                "_id": "695eddc31c508c5d5ead532f",
+                "name": "Keyboard41123",
+                "amount": 680,
+                "price": 16865,
+                "manufacturer": "Google",
+                "notes": "4ucdc0d7LdaE1xHgmspWBQkoRIOxTDqdoFHLvRo6stKAU8Vq9WdUzF3xKGRHsdqnWG2zvdtFakcswkjvJwsLyiCwqrULsuwatrpd6m2CoLoI0duzZhkz3RuFJqBVdZKlRqEOGVrYI68ibmVB50m5qQFSB3zNr9SwNCAbABuXaniKxB3kCi0GkGcNu6AKTWAuqTkSeqqSmFmng8ZgrRgTFWxMau65lkQUnpCWv2olLdlJ4LIjjnyhUf3p3n",
+                "received": false
+              },
+              {
+                "_id": "695eddc71c508c5d5ead5427",
+                "name": "Ball38383",
+                "amount": 492,
+                "price": 477,
+                "manufacturer": "Samsung",
+                "notes": "z4DbwFAK3YR5846fmJgTrf8vihXXu7JY6gFZHgpM0fryzpnekJwEwHloPJtu5pzjVAJq8cf1fTmAtYV1UN2XaSdyr3FMPF4eFxhiLBMWoEhstKUAYjB5gjzee0aZryHYFsFtjkOQgigUWsOBJI3ghsRaCGh8BsgPCvZRUTZJJNtSWYDwA5IKI5s4ZQE5Cn6N1Ldw5skFXMayLAFtFdruIOKFQvplTqDPDzcVKSy0FVBtvMNOWEQQhMJ9BF",
+                "received": false
+              }
+            ],
+            "total_price": 17342,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:20.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddc31c508c5d5ead51e1",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddbd1c508c5d5ead5155",
+          "email": "Tobin.Quitzon90@yahoo.com",
+          "name": "Aisha Hartmann",
+          "country": "Germany",
+          "city": "West Jeanne",
+          "street": "The Paddock",
+          "house": 1,
+          "flat": 193,
+          "phone": "+19656945374",
+          "createdOn": "2026-01-07T22:27:09.000Z",
+          "notes": "yw6nQT54UAw9uC9ckgapbT0RkdxGIQMNwxO3piy67nFqJYBlgS26eWyuNZioScdZsmEegNT3AGEXPXofeN3Ac1LaTrTfwta3IJ0MqhOEPUvCewMvE3osAGYAWiNkN9YtNKqRcwmNghAuJvSIcrw8UjYxVKMFvFeBEFovGRgrcRIFaUPKtdBNX4n5cI9NZTSytKIk3xlQKDcjRqd4iPJzNom5LpCK1VNZFkMRrYBIifdyE06YNHdiWAGRQk"
+        },
+        "products": [
+          {
+            "_id": "695eddc01c508c5d5ead5184",
+            "name": "Computer24284",
+            "amount": 579,
+            "price": 34604,
+            "manufacturer": "Samsung",
+            "notes": "0fGiQyy2IkNkxrV97WYwW1pMRyfvSMdjjD9cQkiJxqiph9On9vE74bkpMN72xw93ZTwTKE5onAMtWr4YPqwARySDAG7mAeZS9r8TSeKZC86tAPHLOuCJhhhSw42TPEMM3WOk6taGDEijqCedDgVPieMcTyULvJenqbWVtuAr8azWYUCQRKCTI6TKv8Fajtq6fcMFvVWbKT7uVpHRAfGY8HvNhi563NBvWJ153cySrqQvsKWAJlC6wP3qFn",
+            "received": false
+          },
+          {
+            "_id": "695eddc21c508c5d5ead51cd",
+            "name": "Sausages32852",
+            "amount": 650,
+            "price": 43689,
+            "manufacturer": "Amazon",
+            "notes": "Umbvw5qqEjepvIXJwJTuFvd4x5JmQoCdhY8NGbuV7376riuIsO34CWck6LSyWRaaOlwcidw5ueResTH34I8JWRgyUfE78TsUMnEnyOujmbfYgKXgBYxcnqZkmYdEs3RzX6h3vwf6dlRyJslXgGATlnD7vBJ2is3iXFuFVGVSgmXZ2nsSon6sVERSHbKC4YbNgRN3Gc37fhMNfXJCIvHzKLecFE8SbN3RmhJ97gVSctYO1YebDUOzG6ar9I",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 78293,
+        "createdOn": "2026-01-07T22:27:15.000Z",
+        "comments": [
+          {
+            "text": "gTn73yN11MqPljpSJRX3jwiHBmD8GXtTpzOcDYuA657NmfLtFVMOcKhcR7Nwss2EbXmqI7XQn0YF1txqoenkJZpJSsZCuuZ4fXOhZCqPz0fq0exNHn32qYYMlnzM0n15mC04291rEcKGKC22iqoNHo7Ft27VWixHiFZuqT73E469unCsWkgKCkswBbdMyBdKFKVFrn49 <",
+            "createdOn": "2026-01-07T22:27:16.000Z",
+            "_id": "695eddc41c508c5d5ead5344"
+          }
+        ],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddbd1c508c5d5ead5155",
+            "products": [
+              {
+                "_id": "695eddc01c508c5d5ead5184",
+                "name": "Computer24284",
+                "amount": 579,
+                "price": 34604,
+                "manufacturer": "Samsung",
+                "notes": "0fGiQyy2IkNkxrV97WYwW1pMRyfvSMdjjD9cQkiJxqiph9On9vE74bkpMN72xw93ZTwTKE5onAMtWr4YPqwARySDAG7mAeZS9r8TSeKZC86tAPHLOuCJhhhSw42TPEMM3WOk6taGDEijqCedDgVPieMcTyULvJenqbWVtuAr8azWYUCQRKCTI6TKv8Fajtq6fcMFvVWbKT7uVpHRAfGY8HvNhi563NBvWJ153cySrqQvsKWAJlC6wP3qFn",
+                "received": false
+              },
+              {
+                "_id": "695eddc21c508c5d5ead51cd",
+                "name": "Sausages32852",
+                "amount": 650,
+                "price": 43689,
+                "manufacturer": "Amazon",
+                "notes": "Umbvw5qqEjepvIXJwJTuFvd4x5JmQoCdhY8NGbuV7376riuIsO34CWck6LSyWRaaOlwcidw5ueResTH34I8JWRgyUfE78TsUMnEnyOujmbfYgKXgBYxcnqZkmYdEs3RzX6h3vwf6dlRyJslXgGATlnD7vBJ2is3iXFuFVGVSgmXZ2nsSon6sVERSHbKC4YbNgRN3Gc37fhMNfXJCIvHzKLecFE8SbN3RmhJ97gVSctYO1YebDUOzG6ar9I",
+                "received": false
+              }
+            ],
+            "total_price": 78293,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:15.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddc21c508c5d5ead51de",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddbd1c508c5d5ead5153",
+          "email": "Devonte.Schaefer62@gmail.com",
+          "name": "Enrico Keeling",
+          "country": "France",
+          "city": "Port Tiarastead",
+          "street": "Dibbert Mall",
+          "house": 17,
+          "flat": 792,
+          "phone": "+18218650903",
+          "createdOn": "2026-01-07T22:27:09.000Z",
+          "notes": "F0yD7p5bzqWVjvryq06wqhFmrIcubmXoqHv5Oca5GDPclZIWjDZzdGJkEzZc1NmqgOFuJbdBLyrFFjJBhGKFWQq7Et9PefgDcSAqa72CgIA2AsNfYlWbNZrCORh9TIrKVnkKEpBrIhWAxAuwBqgocJ4VyPyCBTV48GnDGoYelds2HBY2q6nMhCdI0PBzJ9UonfPGrBw0cQ7kgUV1n8f42M2hB7yZdkoLhtsyHVIZUDzxim50hzFJGmsmPj"
+        },
+        "products": [
+          {
+            "_id": "695eddc01c508c5d5ead5182",
+            "name": "Tuna659",
+            "amount": 539,
+            "price": 32150,
+            "manufacturer": "Google",
+            "notes": "x5tyJvX7OYMnopebmoxUnpmx7KQzXFOmU0Xrmuk93kkTJ42qYAoX3uxReHL6GAmjVKh4N7kSDX7LZaQ9LSAocK1lp4mtynujTOk20kSGrk9mwagNVmZ9nbWyPkd6nqpcACDKElwJIQGesVkJcVrx17PCR608zjYZYyrGk7gFAAUpXZGdJqy4lMhmj4DezH7NdvcbaGZbJT1F8bLVjY3xpA0zBYrACl4ISotuVFSMQhqvjkugrdcI9ipeIY",
+            "received": false
+          },
+          {
+            "_id": "695eddc21c508c5d5ead51cb",
+            "name": "Tuna79335",
+            "amount": 999,
+            "price": 36816,
+            "manufacturer": "Tesla",
+            "notes": "r5VIzaIxZooHvh4KgAE7BMiLE6Oa5taN7B1sT265BlgNHFs5GeBuYRfm7nrNPlEWCkiIOboWkMnyWptklDQi0FZReHtGaBYZFZfeFBHDtfO8ctPOQwvIqdK0olhlnWVeWyrtb4tEydfi1mqN3hme7q4uKyKBeFzVNEZxQ8egUlJZyH4XsxD6cdO87wCOgcSCsbBXfKYvz1RINnA2nmuxlHJI90f9SjMBFqy3p19sKfWgPVTwhXlTrAJcXk",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 68966,
+        "createdOn": "2026-01-07T22:27:14.000Z",
+        "comments": [
+          {
+            "text": "<script>9le6lzz10Xv8hv7Yy4omFrXAyCgI8wSxAf9wx4J3LkkO06R56PA7ySFVYY8Ry2suKGU2lfH3Eefi67u8aR224r3oDhIPDp3iJAjcgrWY6o1yqBVYJWJPQ6Cbq9L4ybXjsY9m6zgfCWcSEUMGP8QmwavfKg8yb6c9FGRGNQUFK7hL0dKdLSzNpAr9efvpVeNEZa24xKhl >",
+            "createdOn": "2026-01-07T22:27:16.000Z",
+            "_id": "695eddc41c508c5d5ead534a"
+          }
+        ],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddbd1c508c5d5ead5153",
+            "products": [
+              {
+                "_id": "695eddc01c508c5d5ead5182",
+                "name": "Tuna659",
+                "amount": 539,
+                "price": 32150,
+                "manufacturer": "Google",
+                "notes": "x5tyJvX7OYMnopebmoxUnpmx7KQzXFOmU0Xrmuk93kkTJ42qYAoX3uxReHL6GAmjVKh4N7kSDX7LZaQ9LSAocK1lp4mtynujTOk20kSGrk9mwagNVmZ9nbWyPkd6nqpcACDKElwJIQGesVkJcVrx17PCR608zjYZYyrGk7gFAAUpXZGdJqy4lMhmj4DezH7NdvcbaGZbJT1F8bLVjY3xpA0zBYrACl4ISotuVFSMQhqvjkugrdcI9ipeIY",
+                "received": false
+              },
+              {
+                "_id": "695eddc21c508c5d5ead51cb",
+                "name": "Tuna79335",
+                "amount": 999,
+                "price": 36816,
+                "manufacturer": "Tesla",
+                "notes": "r5VIzaIxZooHvh4KgAE7BMiLE6Oa5taN7B1sT265BlgNHFs5GeBuYRfm7nrNPlEWCkiIOboWkMnyWptklDQi0FZReHtGaBYZFZfeFBHDtfO8ctPOQwvIqdK0olhlnWVeWyrtb4tEydfi1mqN3hme7q4uKyKBeFzVNEZxQ8egUlJZyH4XsxD6cdO87wCOgcSCsbBXfKYvz1RINnA2nmuxlHJI90f9SjMBFqy3p19sKfWgPVTwhXlTrAJcXk",
+                "received": false
+              }
+            ],
+            "total_price": 68966,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:14.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695eddb61c508c5d5ead4db8",
+        "status": "Draft",
+        "customer": {
+          "_id": "695eddb01c508c5d5ead4cd5",
+          "email": "Tommie_Kshlerin97@yahoo.com",
+          "name": "Macy Bergstrom",
+          "country": "Canada",
+          "city": "Osinskistead",
+          "street": "Weimann Keys",
+          "house": 20,
+          "flat": 843,
+          "phone": "+14288239667",
+          "createdOn": "2026-01-07T22:26:56.000Z",
+          "notes": "Op9UAgr8sJMon60GYaTy7Z2EE6G5aF4Iqtmlf0gaTq6Amnx193jZyQoYQVIcfQhLPcH0FYzDPMYuYz7BLYceOoIP8KmegVFvvkOVPbHej64Wue7WrUQnvmc8rQuWvOyZyDXxdJ0fO1bGOgKvU8VuXv7fe0NSTrfTmLfIPFkfEESgPoP9nCqxWUXCTA8Ts9v7SwaDotcaVKN5HLCYUHopW2H5kSnRNqigA8Vyd989cycPdtYppN2dKpL20b"
+        },
+        "products": [
+          {
+            "_id": "695eddb31c508c5d5ead4cf8",
+            "name": "Tuna66665",
+            "amount": 348,
+            "price": 92036,
+            "manufacturer": "Tesla",
+            "notes": "WFq5Pz2E3qM2mG84pDy3nXmIS2EnY1IEHMJnKl95PHDKDw23idBc7ISZrdNXVHmCEmtTj8rqxtFx80bGsbL6DBmG4HvmHvj44nKxLNNxNKlZvBhOT3WcsEPyQsO8wgit2Sp7LQMbP2vxLIL8rysBjjxQq9uvSnjtpV3kFDKtzq7UVsn3fWTkMXUHMcKYKO0AX5RDokjU45quwFCGYiAE3dXGzIRm2IfMrfKdffQ6HBZujTYL3nacFgHrph",
+            "received": false
+          },
+          {
+            "_id": "695eddb61c508c5d5ead4dae",
+            "name": "Sausages62356",
+            "amount": 504,
+            "price": 87006,
+            "manufacturer": "Samsung",
+            "notes": "AnnCiHcraMFZWEwtfIHLeM4tJf1nHHxQLzBbuOPSkAhPNzJHwzYt60rtrbi7K7v4nnKZAiojjJwCTXxIchl4jbosJbBi53sIocKMhWAj3NEuPM0AKo8lnqkmjRX6P8DMSW4qWCr1ToH61PXVbgMPaY9nwDVisA7K27o2Tmr0Y9KAaOp9SSynshqd65V40pDeIIik6nHzAY1JPYfx59vI0axBEPkJe7khUz9dQBKNnGTuOwIlYp2BhuO8nn",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 179042,
+        "createdOn": "2026-01-07T22:27:02.000Z",
+        "comments": [
+          {
+            "text": "<script>4OZPDOKyjbtunObMuBMGVArS4gW0N2bJPNLpbHCopFl1r7778ewW1pNcs9CC8L2D4gDbAHhvtTJGRM5EvGHxV3OorlYzD4aQaM40CuOu7cZUcJ69yl6IBRNS7HKFMtwA8PSMxet6W58ZRa3kBorvVAOs0nGtJGmsu5NwHJawpBuuf505DOGFhbNPEtPRRQu2dB6SNSVm >",
+            "createdOn": "2026-01-07T22:27:02.000Z",
+            "_id": "695eddb61c508c5d5ead4dc3"
+          }
+        ],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695eddb01c508c5d5ead4cd5",
+            "products": [
+              {
+                "_id": "695eddb31c508c5d5ead4cf8",
+                "name": "Tuna66665",
+                "amount": 348,
+                "price": 92036,
+                "manufacturer": "Tesla",
+                "notes": "WFq5Pz2E3qM2mG84pDy3nXmIS2EnY1IEHMJnKl95PHDKDw23idBc7ISZrdNXVHmCEmtTj8rqxtFx80bGsbL6DBmG4HvmHvj44nKxLNNxNKlZvBhOT3WcsEPyQsO8wgit2Sp7LQMbP2vxLIL8rysBjjxQq9uvSnjtpV3kFDKtzq7UVsn3fWTkMXUHMcKYKO0AX5RDokjU45quwFCGYiAE3dXGzIRm2IfMrfKdffQ6HBZujTYL3nacFgHrph",
+                "received": false
+              },
+              {
+                "_id": "695eddb61c508c5d5ead4dae",
+                "name": "Sausages62356",
+                "amount": 504,
+                "price": 87006,
+                "manufacturer": "Samsung",
+                "notes": "AnnCiHcraMFZWEwtfIHLeM4tJf1nHHxQLzBbuOPSkAhPNzJHwzYt60rtrbi7K7v4nnKZAiojjJwCTXxIchl4jbosJbBi53sIocKMhWAj3NEuPM0AKo8lnqkmjRX6P8DMSW4qWCr1ToH61PXVbgMPaY9nwDVisA7K27o2Tmr0Y9KAaOp9SSynshqd65V40pDeIIik6nHzAY1JPYfx59vI0axBEPkJe7khUz9dQBKNnGTuOwIlYp2BhuO8nn",
+                "received": false
+              }
+            ],
+            "total_price": 179042,
+            "delivery": null,
+            "changedOn": "2026-01-07T22:27:02.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "total": 130,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

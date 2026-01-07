@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-iDSRCEZLnsUIQ6LNbpVx/kIXl2c\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695edde81c508c5d5ead6459",
+      "status": "Draft",
+      "customer": {
+        "_id": "695edde51c508c5d5ead6318",
+        "email": "Audra77@gmail.com",
+        "name": "Lilla Hackett",
+        "country": "Ukraine",
+        "city": "Wavafield",
+        "street": "Thiel Forks",
+        "house": 18,
+        "flat": 651,
+        "phone": "+14103203724",
+        "createdOn": "2026-01-07T22:27:49.000Z",
+        "notes": "HWCDc9UyZMIJhgD2fZyBsdLxYD0vizxrM0EauNIhL4ajonZfNEAXIyS4v1wj1OMnIObhVorl4Rd3T0EalTUEVY9DaKzLVZuoos6bZxKdzlkXSFCNr0fpGWLxAEq2KLhuc5SWMTkQMI16w7I6bSjbbb9jqEwFZERtw9vOcDQQOLLyKJGY4HiUet23Eqall8FmlfUQmJ2nLbCIxuNQGD6FreBkGuJFEYrIQBC3lIoepGmfgzi7xQbc6q4IDC"
+      },
+      "products": [
+        {
+          "_id": "695edde81c508c5d5ead644f",
+          "name": "Keyboard11731",
+          "amount": 276,
+          "price": 37436,
+          "manufacturer": "Sony",
+          "notes": "ZaHV8xWZ1RzSlYrsZ0iXuntQCBq29RSUMfPU6EBT4H7ZzKzKx6M5SOlbMhFdYLo2ivVkXcwNdeba6n8iu4gTqanivgoLrcjCVAeJrMVHvcZfmEA2bvkeusxXYicTN62FUOLrWzLmXaUu8Xq10JqrazDzRG0KIJuwtkgYq0m2wWuMeCTlMqdcNftcmFSbcgYClYrgxwXywqxWVRgHf1mgplwqAZhggsVA2ldHdgApE4ztwWZWbcBpX2UArf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Wavafield",
+          "street": "Thiel Forks",
+          "house": 18,
+          "flat": 651
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 37436,
+      "createdOn": "2026-01-07T22:27:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695edde51c508c5d5ead6318",
+          "products": [
+            {
+              "_id": "695edde81c508c5d5ead644f",
+              "name": "Keyboard11731",
+              "amount": 276,
+              "price": 37436,
+              "manufacturer": "Sony",
+              "notes": "ZaHV8xWZ1RzSlYrsZ0iXuntQCBq29RSUMfPU6EBT4H7ZzKzKx6M5SOlbMhFdYLo2ivVkXcwNdeba6n8iu4gTqanivgoLrcjCVAeJrMVHvcZfmEA2bvkeusxXYicTN62FUOLrWzLmXaUu8Xq10JqrazDzRG0KIJuwtkgYq0m2wWuMeCTlMqdcNftcmFSbcgYClYrgxwXywqxWVRgHf1mgplwqAZhggsVA2ldHdgApE4ztwWZWbcBpX2UArf",
+              "received": false
+            }
+          ],
+          "total_price": 37436,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Wavafield",
+              "street": "Thiel Forks",
+              "house": 18,
+              "flat": 651
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-07T22:27:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695edde51c508c5d5ead6318",
+          "products": [
+            {
+              "_id": "695edde81c508c5d5ead644f",
+              "name": "Keyboard11731",
+              "amount": 276,
+              "price": 37436,
+              "manufacturer": "Sony",
+              "notes": "ZaHV8xWZ1RzSlYrsZ0iXuntQCBq29RSUMfPU6EBT4H7ZzKzKx6M5SOlbMhFdYLo2ivVkXcwNdeba6n8iu4gTqanivgoLrcjCVAeJrMVHvcZfmEA2bvkeusxXYicTN62FUOLrWzLmXaUu8Xq10JqrazDzRG0KIJuwtkgYq0m2wWuMeCTlMqdcNftcmFSbcgYClYrgxwXywqxWVRgHf1mgplwqAZhggsVA2ldHdgApE4ztwWZWbcBpX2UArf",
+              "received": false
+            }
+          ],
+          "total_price": 37436,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:27:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

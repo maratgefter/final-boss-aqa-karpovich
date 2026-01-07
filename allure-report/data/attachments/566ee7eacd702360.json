@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:28:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-2eAc8gKlYnlYvyQyi5DT75LbE7Q\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695eddf31c508c5d5ead6ca2",
+        "email": "Marc.Maggio@yahoo.com",
+        "name": "Frederik Towne",
+        "country": "Russia",
+        "city": "New Albertoland",
+        "street": "Hilll Forks",
+        "house": 22,
+        "flat": 107,
+        "phone": "+14768216467",
+        "createdOn": "2026-01-07T22:28:03.000Z",
+        "notes": "6usFNC2B8kXUurWAnLJOj7Sq6tp3oXHOrFuL7wP2DlqcFxIYYRPNWr5UoFqsOPHKOdYtmdb7fhLsXOBiCKl8A43VXV5oZEu9vygBaXudm1afJUKzpkYp6y22wpuMsbNhlNb5fiRQ9I7bikqsi8QYhrUpZsYEc95SNNUky49ca1oBdx5IzGzI46qXZoF5zS93iq3NGAQkt2znFosAhzmaL7rq7NsUpSQT3nP7zEtYtapJ3ruQqIIxWtGHqD"
+      },
+      "products": [
+        {
+          "_id": "695eddf81c508c5d5ead6d37",
+          "name": "Pizza59161",
+          "amount": 343,
+          "price": 41376,
+          "manufacturer": "Samsung",
+          "notes": "fKK7lX3IZlZZPyufXsiUgYyk0lK3RF9x7A0YXhapyNA3HribIr7UIz37nUGX6ax6r0kiwjc6jkXp5V25ZNkK2dPZ3wnPinLuceOnukgWRFoTJYxuhlvcxGxJ3LncHLn1JnDOMiaAjx4Qn1fFCFKam5AJaeKohIOEbutkvzEjEygwzZrBkLYlQ2wcqRqrjWo5A2t7Uk9nIMqtkHfJeYmgXuAkzygcWSHHzycb8P0Um1V935cXy1KxcpBM0W",
+          "received": false
+        },
+        {
+          "_id": "695eddfb1c508c5d5ead6d6c",
+          "name": "Soap54583",
+          "amount": 402,
+          "price": 90472,
+          "manufacturer": "Xiaomi",
+          "notes": "EG4qPjsLkEMn2jARRlK5loPjBgmDMWaQ16OTjszCOptuhBI4ygnDO4zFxfM8YAfw90aThlFyNrzc19mLwLjClk3o24BZeYdmPyzYiL4UxtlJ8t5lB4RRqriT320vlJuOtjgw2CrViwCsmBhBGlfbcXZhCNycpLC8Qo3fJU4ZPjGRKKUJfm1bgIp3TZy370ZI9WeRnkHfqAVJQujoFjizLOiFI8Vqw8j7vmPPnOq20hgbRtWYzdGk8T8BxG",
+          "received": false
+        },
+        {
+          "_id": "695eddfd1c508c5d5ead6d94",
+          "name": "Gloves26651",
+          "amount": 415,
+          "price": 99521,
+          "manufacturer": "Apple",
+          "notes": "gAZ0PBRFUemVZazHcF2mg55krHj8dCRUZs03yXpMJfvYwWUJvgl2eUVP3l3Ech4YK0h3Nad9lNkKQaxJH0esipr9YqoDyBOxCTmwGplXiR2vKLfXOkmy3pjgFHLcpI5LNIKvpPyWjigCX8l24DluHkodGeuLUTYJKSdO4b4X0rVxmTEqy4nNIMTslV6z74RhquqPMEPW9IrF8slO3Ns89hQ1CW7wByrfi6ebjT8quQ5CRof0ncznaHU1Hj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 231369,
+      "createdOn": "2026-01-07T22:28:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695eddf31c508c5d5ead6ca2",
+          "products": [
+            {
+              "_id": "695eddf81c508c5d5ead6d37",
+              "name": "Pizza59161",
+              "amount": 343,
+              "price": 41376,
+              "manufacturer": "Samsung",
+              "notes": "fKK7lX3IZlZZPyufXsiUgYyk0lK3RF9x7A0YXhapyNA3HribIr7UIz37nUGX6ax6r0kiwjc6jkXp5V25ZNkK2dPZ3wnPinLuceOnukgWRFoTJYxuhlvcxGxJ3LncHLn1JnDOMiaAjx4Qn1fFCFKam5AJaeKohIOEbutkvzEjEygwzZrBkLYlQ2wcqRqrjWo5A2t7Uk9nIMqtkHfJeYmgXuAkzygcWSHHzycb8P0Um1V935cXy1KxcpBM0W",
+              "received": false
+            },
+            {
+              "_id": "695eddfb1c508c5d5ead6d6c",
+              "name": "Soap54583",
+              "amount": 402,
+              "price": 90472,
+              "manufacturer": "Xiaomi",
+              "notes": "EG4qPjsLkEMn2jARRlK5loPjBgmDMWaQ16OTjszCOptuhBI4ygnDO4zFxfM8YAfw90aThlFyNrzc19mLwLjClk3o24BZeYdmPyzYiL4UxtlJ8t5lB4RRqriT320vlJuOtjgw2CrViwCsmBhBGlfbcXZhCNycpLC8Qo3fJU4ZPjGRKKUJfm1bgIp3TZy370ZI9WeRnkHfqAVJQujoFjizLOiFI8Vqw8j7vmPPnOq20hgbRtWYzdGk8T8BxG",
+              "received": false
+            },
+            {
+              "_id": "695eddfd1c508c5d5ead6d94",
+              "name": "Gloves26651",
+              "amount": 415,
+              "price": 99521,
+              "manufacturer": "Apple",
+              "notes": "gAZ0PBRFUemVZazHcF2mg55krHj8dCRUZs03yXpMJfvYwWUJvgl2eUVP3l3Ech4YK0h3Nad9lNkKQaxJH0esipr9YqoDyBOxCTmwGplXiR2vKLfXOkmy3pjgFHLcpI5LNIKvpPyWjigCX8l24DluHkodGeuLUTYJKSdO4b4X0rVxmTEqy4nNIMTslV6z74RhquqPMEPW9IrF8slO3Ns89hQ1CW7wByrfi6ebjT8quQ5CRof0ncznaHU1Hj",
+              "received": false
+            }
+          ],
+          "total_price": 231369,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:28:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddfe1c508c5d5ead6da5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

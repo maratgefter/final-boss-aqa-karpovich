@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 22:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-f6rD/9tvKzkXzAHYopPXpnp7QDg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695eddbd1c508c5d5ead5151",
+        "email": "Jacky31@hotmail.com",
+        "name": "Norwood Brown",
+        "country": "Canada",
+        "city": "Weissnatstead",
+        "street": "Glenna Rest",
+        "house": 19,
+        "flat": 276,
+        "phone": "+15308192541",
+        "createdOn": "2026-01-07T22:27:09.000Z",
+        "notes": "iDvN876uqRWgoA9TxwkzRZzabQufbVVj7wq52JMDPt55lOhpaBN3ep0wtEDVAM4YbOxXU9L2XM5xCiYSHFFg1IIEdAaHZUDNTzgL0vJAXLxehxIHWtMJPnG4zM3OnbBIswTML5jj8kydhOrjznuJhWJDGILhOs3qFqtzz73bw3ZryzNgtdKOhepZFXwucSSkGJDcWf68mZeyNu3KFk3U7xCvLIiVzYOEktpMqzR0pjnjZrek4h9ujIieFD"
+      },
+      "products": [
+        {
+          "_id": "695eddc01c508c5d5ead5180",
+          "name": "Shirt31508",
+          "amount": 667,
+          "price": 86313,
+          "manufacturer": "Samsung",
+          "notes": "fmFO4zpvtcSW34hX2ajmORBciDLkQ3H6uWdsP4OkkHj5QrTFu1XxRrr9D2WCxVPuwEv6YqeGVy2t18hneWlAXz2SKfcuozun0MFY8Qks5bzrcOmlsennBGOF84gxmIpkkfD73tWSpvN5ZVGWck4pXAqu1otxzkaEYABRprR3c3kzYNDzC5Jr4mbh14BDQkYq25ZP2Ef8k0X8Uft4coJ51XzAzgdlrORgfd5afvw3DoAriDBSD6G0c73h4K",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86313,
+      "createdOn": "2026-01-07T22:27:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695eddbd1c508c5d5ead5151",
+          "products": [
+            {
+              "_id": "695eddc01c508c5d5ead5180",
+              "name": "Shirt31508",
+              "amount": 667,
+              "price": 86313,
+              "manufacturer": "Samsung",
+              "notes": "fmFO4zpvtcSW34hX2ajmORBciDLkQ3H6uWdsP4OkkHj5QrTFu1XxRrr9D2WCxVPuwEv6YqeGVy2t18hneWlAXz2SKfcuozun0MFY8Qks5bzrcOmlsennBGOF84gxmIpkkfD73tWSpvN5ZVGWck4pXAqu1otxzkaEYABRprR3c3kzYNDzC5Jr4mbh14BDQkYq25ZP2Ef8k0X8Uft4coJ51XzAzgdlrORgfd5afvw3DoAriDBSD6G0c73h4K",
+              "received": false
+            }
+          ],
+          "total_price": 86313,
+          "delivery": null,
+          "changedOn": "2026-01-07T22:27:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695eddc01c508c5d5ead5192"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
