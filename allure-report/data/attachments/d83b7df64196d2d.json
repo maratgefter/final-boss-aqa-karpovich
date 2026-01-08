@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:27:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2631",
+    "etag": "W/\"a47-948C6EkWcWxehRABwLlQOYA6z10\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f551c508c5d5eae0fb0",
+        "email": "Letitia.Hand@yahoo.com",
+        "name": "Amelia Feil",
+        "country": "Canada",
+        "city": "Whittier",
+        "street": "Main Street",
+        "house": 21,
+        "flat": 787,
+        "phone": "+14825158814",
+        "createdOn": "2026-01-08T22:27:33.000Z",
+        "notes": "W1DbWWIgXctSZWHyXdrof2wQS9CEmYMAhjdfT6ErxWxJsNxoRNzjDE835zd1GcZ7PbdrKMq9brx696bwl6GH4KhHEVnjZ0Dhu1qWXFBJwUnozo0HOlD60OB6BESMblTKVfyXSOX1kjDVYyk1VZzOmCTf2PoH6jvowxW4Su3J6Vtymy3jJK5o2C2uv4WNNiQeszJuou3UaeJFpW7rMzzDzwRDvNrNzimArCZfWC6jurXmUIUQHuguRgVEAQ"
+      },
+      "products": [
+        {
+          "_id": "69602f581c508c5d5eae10a1",
+          "name": "Bike32943",
+          "amount": 637,
+          "price": 7372,
+          "manufacturer": "Sony",
+          "notes": "R4CCkkUNafSxRFNOpqkwySW42BP0At1m2H59uEyKywVjZHexhzI4Pn7XyC8cYOwiWKpAtfiyqcVHAatJupLVs5uNcObQBk6OUKI4tXwNrZFBYGu9OOA9yxj56E4Hz3bigteYY2r4GK2MxMnf9mLLSaMYQ54Usu2ow4FgxnstvKznXQzZb5omc9NCLarhB9mnafJehKI56fUZIn0acQ91QNEy5G1YHe81D62fL9SGPocKWhHH06Mj5ek2qC",
+          "received": false
+        },
+        {
+          "_id": "69602f5c1c508c5d5eae13a0",
+          "name": "Pants15130",
+          "amount": 30,
+          "price": 3220,
+          "manufacturer": "Xiaomi",
+          "notes": "dydy2K1BvBdkRtN5qGvWqClWwHGn7eAxr5vZcHnlhznBQ3LQ554jGzAsS11jFXDLf8F4cUaah8l5iZyeHxIbQ3rrjC3xYh0jpuOIa8h84c0iy5OlwWgdTGquy876kTvlHHm7gy5Ol9uslqhl0cb2okyXBMwad6kgf77qOQLfguqn5hAaDtjWzqYcWn76hsW2OCntawwZ184PaU1Y7k8n6GQF8Tfsr5dodFWluyCY1MsewnJNOuwqcQlX2j",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10592,
+      "createdOn": "2026-01-08T22:27:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f551c508c5d5eae0fb0",
+          "products": [
+            {
+              "_id": "69602f581c508c5d5eae10a1",
+              "name": "Bike32943",
+              "amount": 637,
+              "price": 7372,
+              "manufacturer": "Sony",
+              "notes": "R4CCkkUNafSxRFNOpqkwySW42BP0At1m2H59uEyKywVjZHexhzI4Pn7XyC8cYOwiWKpAtfiyqcVHAatJupLVs5uNcObQBk6OUKI4tXwNrZFBYGu9OOA9yxj56E4Hz3bigteYY2r4GK2MxMnf9mLLSaMYQ54Usu2ow4FgxnstvKznXQzZb5omc9NCLarhB9mnafJehKI56fUZIn0acQ91QNEy5G1YHe81D62fL9SGPocKWhHH06Mj5ek2qC",
+              "received": false
+            },
+            {
+              "_id": "69602f5c1c508c5d5eae13a0",
+              "name": "Pants15130",
+              "amount": 30,
+              "price": 3220,
+              "manufacturer": "Xiaomi",
+              "notes": "dydy2K1BvBdkRtN5qGvWqClWwHGn7eAxr5vZcHnlhznBQ3LQ554jGzAsS11jFXDLf8F4cUaah8l5iZyeHxIbQ3rrjC3xYh0jpuOIa8h84c0iy5OlwWgdTGquy876kTvlHHm7gy5Ol9uslqhl0cb2okyXBMwad6kgf77qOQLfguqn5hAaDtjWzqYcWn76hsW2OCntawwZ184PaU1Y7k8n6GQF8Tfsr5dodFWluyCY1MsewnJNOuwqcQlX2j",
+              "received": false
+            }
+          ],
+          "total_price": 10592,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602f5d1c508c5d5eae13ca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

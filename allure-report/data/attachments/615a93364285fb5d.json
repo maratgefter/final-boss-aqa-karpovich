@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-56fJCYlqNLiAeQcQXLEvdoiXRbo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69602f761c508c5d5eae1dd9",
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f731c508c5d5eae1cc2",
+        "email": "Ardella_Erdman@gmail.com",
+        "name": "Georgiana Feest",
+        "country": "Belarus",
+        "city": "Armstrongfort",
+        "street": "Cow Lane",
+        "house": 15,
+        "flat": 289,
+        "phone": "+13872950244",
+        "createdOn": "2026-01-08T22:28:03.000Z",
+        "notes": "9YfAn0SjEAUVZ8NhAyQAuRt7n8lzUJq10kn4Iqh2gGz7GBHy31z2J220YEki8cIWkRRSYDeOhK2yfdSSBpt1l0GnzWOmT5UYVhqQPQPeV0OonTWgdq3W6NmuvPnuDKjWJJKyi91t3VT7ZcsPFywvsemV0iHpV9abPxohGpcvIdf10mPDmXeVZ1GLVemyQtBqt1quGMZaIUUn4xLJ9mq0jAX7qBZpzcZSSaI6HAtZ6VVxeECXW75vetv3yL"
+      },
+      "products": [
+        {
+          "_id": "69602f761c508c5d5eae1dc5",
+          "name": "Pants85255",
+          "amount": 187,
+          "price": 45715,
+          "manufacturer": "Google",
+          "notes": "UBwnOYerdKtej70RNKSTFBdGZxBlFIL5MxoXgfwBAOkunHZFoLvrhGOjeva22Ul91P8N8QTtgfZouJzPhk0rkV3BFiy8ok5lV5WGWHaFuJ0mz1dpscznRoOAcdqgHbUj21UcnePmyEeBRyGFD54sWkLsRb91hIPmSCDTIgKr5PRQqnIM3GGugkAe5HVg6rkHHfuQIwRah0Dh2kf1OKci6DnvBOa1oS4w0sV4GinRhpJtaG1CDejE8BXV2s",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45715,
+      "createdOn": "2026-01-08T22:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f731c508c5d5eae1cc2",
+          "products": [
+            {
+              "_id": "69602f761c508c5d5eae1dc5",
+              "name": "Pants85255",
+              "amount": 187,
+              "price": 45715,
+              "manufacturer": "Google",
+              "notes": "UBwnOYerdKtej70RNKSTFBdGZxBlFIL5MxoXgfwBAOkunHZFoLvrhGOjeva22Ul91P8N8QTtgfZouJzPhk0rkV3BFiy8ok5lV5WGWHaFuJ0mz1dpscznRoOAcdqgHbUj21UcnePmyEeBRyGFD54sWkLsRb91hIPmSCDTIgKr5PRQqnIM3GGugkAe5HVg6rkHHfuQIwRah0Dh2kf1OKci6DnvBOa1oS4w0sV4GinRhpJtaG1CDejE8BXV2s",
+              "received": false
+            }
+          ],
+          "total_price": 45715,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

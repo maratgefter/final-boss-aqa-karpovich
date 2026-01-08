@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:27:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-vBJ4NkcLRFKxEySfeoqHwKksEOc\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f301c508c5d5eae0a00",
+        "email": "Mathew.Flatley55@hotmail.com",
+        "name": "Granville Abernathy",
+        "country": "USA",
+        "city": "Port Elzabury",
+        "street": "Kassulke Vista",
+        "house": 4,
+        "flat": 350,
+        "phone": "+18038726379",
+        "createdOn": "2026-01-08T22:26:56.000Z",
+        "notes": "2EcDgCmvygoOjmSjJ6i2LmSroGpxIBTUxqau8sXWwJTP2oXQM6OlrqXvI6HrS2UonssTri4srdwWXefabse3Riwh22jMsbqtkQ7ni9Ndy8snpJiUtWyNU9mNPf4eyoeCNEnycytjvWlrXWw9mxFlFL5yei5RDUbKi5Yh9PaOs4BDM5J8aZNkZCbWEHlhGkDWuqCK02GUQaQC9uk9ixyYA4lnOdHNBNtmgTMi31qhMB0wjgjOQMg63NCm8E"
+      },
+      "products": [
+        {
+          "_id": "69602f331c508c5d5eae0a37",
+          "name": "Chicken96631",
+          "amount": 475,
+          "price": 7601,
+          "manufacturer": "Microsoft",
+          "notes": "MoBNa9izqS4Xi2pA4tT3c6EihqSiKFjUZ5SaPS1gPzNYr8BaJ5G8IVLg5mt79ZNvsiI8UQDvCiATO0i1YXzYpy2VUPYK8DFVNrkaFhX1OmrsFWFicRPYj0ayMREg4b41lMrTOBGY9UoMwjMqsEOYX951AMrDhw2b9jaMNFZzonKUUZwlEoJ1i7f3YuDUgXS07UzBMxzM41PpWVTVd6SidR0zyqwAg8unfNOiafPEKlqCHVwudMjnq6bpma",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7601,
+      "createdOn": "2026-01-08T22:27:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f301c508c5d5eae0a00",
+          "products": [
+            {
+              "_id": "69602f331c508c5d5eae0a37",
+              "name": "Chicken96631",
+              "amount": 475,
+              "price": 7601,
+              "manufacturer": "Microsoft",
+              "notes": "MoBNa9izqS4Xi2pA4tT3c6EihqSiKFjUZ5SaPS1gPzNYr8BaJ5G8IVLg5mt79ZNvsiI8UQDvCiATO0i1YXzYpy2VUPYK8DFVNrkaFhX1OmrsFWFicRPYj0ayMREg4b41lMrTOBGY9UoMwjMqsEOYX951AMrDhw2b9jaMNFZzonKUUZwlEoJ1i7f3YuDUgXS07UzBMxzM41PpWVTVd6SidR0zyqwAg8unfNOiafPEKlqCHVwudMjnq6bpma",
+              "received": false
+            }
+          ],
+          "total_price": 7601,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602f341c508c5d5eae0a4b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

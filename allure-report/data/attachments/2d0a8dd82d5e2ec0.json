@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:28:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2933",
+    "etag": "W/\"b75-KQnVzmXnGdZ3XQgtcE8RSkLmaIM\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69602f8e1c508c5d5eae2a85",
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f861c508c5d5eae2567",
+        "email": "Madyson7@hotmail.com",
+        "name": "Matilda Gottlieb",
+        "country": "Ukraine",
+        "city": "Toyfurt",
+        "street": "Field Lane",
+        "house": 6,
+        "flat": 411,
+        "phone": "+15769061525",
+        "createdOn": "2026-01-08T22:28:22.000Z",
+        "notes": "71NUdn7kNXTZjQfIYLPiisAYaNJXtkDjwFNdcUx4W2RFes7FjrXLVttAJbR02wJlGtZiev8X0UQc8wZpekoUML6IWa9R6RK6EJoLXrN3d1hHsd7hx65CyyhLXtKlOP8xzvcrzwTph56g7eP6UsSmnigs5UmhTrfKZMNldBCNnNyNmtMxmiSJgux0lxWZtuaFII1l7u5ciAwKa4Nlasw7vOnqveCyuraWC2tqVrTvXBX7hK7Gn8UY4NyI0u"
+      },
+      "products": [
+        {
+          "_id": "69602f8d1c508c5d5eae2a75",
+          "name": "Chicken76110",
+          "amount": 290,
+          "price": 22671,
+          "manufacturer": "Tesla",
+          "notes": "46948Kcl2zabChqa5MnW41GOUDFc3XRjfJO56WZnnLFhanxlMTpEyLarEbCXNI9I13iJt3RZONVpQ1aZSlgLis1r0aiWQzhtKbjqoXfE6LSiuLmwiR6Kq234MwuKDGOU2fjADtaLiNMsHyGNb40AyQitDi9qrgowvxzDyhyC0S7rn09jKTSxZ8fBANB9mJRdO40uXeerUrRUf4iw98BIhaHQYJ9x6R2qx4v09FosG7xcaOx7yqZ8c0rOAH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Toyfurt",
+          "street": "Field Lane",
+          "house": 6,
+          "flat": 411
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22671,
+      "createdOn": "2026-01-08T22:28:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f861c508c5d5eae2567",
+          "products": [
+            {
+              "_id": "69602f8d1c508c5d5eae2a75",
+              "name": "Chicken76110",
+              "amount": 290,
+              "price": 22671,
+              "manufacturer": "Tesla",
+              "notes": "46948Kcl2zabChqa5MnW41GOUDFc3XRjfJO56WZnnLFhanxlMTpEyLarEbCXNI9I13iJt3RZONVpQ1aZSlgLis1r0aiWQzhtKbjqoXfE6LSiuLmwiR6Kq234MwuKDGOU2fjADtaLiNMsHyGNb40AyQitDi9qrgowvxzDyhyC0S7rn09jKTSxZ8fBANB9mJRdO40uXeerUrRUf4iw98BIhaHQYJ9x6R2qx4v09FosG7xcaOx7yqZ8c0rOAH",
+              "received": false
+            }
+          ],
+          "total_price": 22671,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Toyfurt",
+              "street": "Field Lane",
+              "house": 6,
+              "flat": 411
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-08T22:28:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69602f861c508c5d5eae2567",
+          "products": [
+            {
+              "_id": "69602f8d1c508c5d5eae2a75",
+              "name": "Chicken76110",
+              "amount": 290,
+              "price": 22671,
+              "manufacturer": "Tesla",
+              "notes": "46948Kcl2zabChqa5MnW41GOUDFc3XRjfJO56WZnnLFhanxlMTpEyLarEbCXNI9I13iJt3RZONVpQ1aZSlgLis1r0aiWQzhtKbjqoXfE6LSiuLmwiR6Kq234MwuKDGOU2fjADtaLiNMsHyGNb40AyQitDi9qrgowvxzDyhyC0S7rn09jKTSxZ8fBANB9mJRdO40uXeerUrRUf4iw98BIhaHQYJ9x6R2qx4v09FosG7xcaOx7yqZ8c0rOAH",
+              "received": false
+            }
+          ],
+          "total_price": 22671,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:28:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:27:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-zT5odVOr+gemxLw5hY0e4ZQAb2Y\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f301c508c5d5eae09fe",
+        "email": "Nat_Ernser@hotmail.com",
+        "name": "Dimitri McKenzie",
+        "country": "USA",
+        "city": "East Providence",
+        "street": "Huel Crest",
+        "house": 44,
+        "flat": 510,
+        "phone": "+13449504306",
+        "createdOn": "2026-01-08T22:26:56.000Z",
+        "notes": "vk6fjNeEyOqQyk3UNsEzgQdklmvUStLvT2YOCIaIPiyUdMiJoxCqxnzfjuJ9njeJSZz4M0VzWKXrW3On7LnF90Gr4QJghQjowYDjKitw1YB4B889kirYwwiNK87eF8143FWYQUstHpRfCzAxkAClGMgd463CsqpAbGNPfbaistOfa6FF4xDYNlT0t5lSsdfJTtiasAeLQAwPKBAJk8l9i5Dy084BgvM719usKau5WikFaJepJ4U6LPCWSp"
+      },
+      "products": [
+        {
+          "_id": "69602f331c508c5d5eae0a35",
+          "name": "Mouse93574",
+          "amount": 593,
+          "price": 40104,
+          "manufacturer": "Google",
+          "notes": "j3WnNluJVbPAiQvlXbvKtbdu7HXuNvgYkX4vhPcQoG2fJgVfo65dl9orstlBTW8AJ0bzEC3UQvKAAyrprKyL4IIY8v1CnaiFXt1Md7t0CDWmo5tODHUzgoeTywHHTfMKdMGaxPF79BAm6ap7rKQfEV4NhqHRbWpOZ22Z3GHPZnxCM2fJJ1hVe5SqwUnLVtqJmV1sKVE4sfJlQTokRwIY70tEU5m95eJPfdd45cU3Q41EBb3WZCA7QwakSV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40104,
+      "createdOn": "2026-01-08T22:27:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f301c508c5d5eae09fe",
+          "products": [
+            {
+              "_id": "69602f331c508c5d5eae0a35",
+              "name": "Mouse93574",
+              "amount": 593,
+              "price": 40104,
+              "manufacturer": "Google",
+              "notes": "j3WnNluJVbPAiQvlXbvKtbdu7HXuNvgYkX4vhPcQoG2fJgVfo65dl9orstlBTW8AJ0bzEC3UQvKAAyrprKyL4IIY8v1CnaiFXt1Md7t0CDWmo5tODHUzgoeTywHHTfMKdMGaxPF79BAm6ap7rKQfEV4NhqHRbWpOZ22Z3GHPZnxCM2fJJ1hVe5SqwUnLVtqJmV1sKVE4sfJlQTokRwIY70tEU5m95eJPfdd45cU3Q41EBb3WZCA7QwakSV",
+              "received": false
+            }
+          ],
+          "total_price": 40104,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602f341c508c5d5eae0a45"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

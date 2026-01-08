@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:28:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3864",
+    "etag": "W/\"f18-Qhg0rabSgynhc3reOhjzz7PTm1c\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69602f8b1c508c5d5eae2965",
+      "status": "In Process",
+      "customer": {
+        "_id": "69602f7f1c508c5d5eae22f0",
+        "email": "Gonzalo.Purdy@yahoo.com",
+        "name": "Kaycee Collins",
+        "country": "Russia",
+        "city": "Beattyboro",
+        "street": "Sawayn Route",
+        "house": 41,
+        "flat": 602,
+        "phone": "+17882603245",
+        "createdOn": "2026-01-08T22:28:15.000Z",
+        "notes": "Qyezso6RFJbl9KMqZ9pY5RsT1LQJZvRrSByIUDtLLCO8R3NPrgP8OY6JYWaTPy1hFMFeLQNuHBQI181TkGsdmmf7GCxQsjQIuVNi6tHTRIcg8aSlaV4h5sGuJw03tMlRhs8Dhtu6jTa23UvDrqbG75s1luJIZtQWSIIrD5jv5TS0BJO0ZnEOQjNPMbXg3TBO1JCYOPnutUP26UyBliiYGdt41mxI8vDwS8kGuMQTdencVJRzJpKxdWk7MG"
+      },
+      "products": [
+        {
+          "_id": "69602f861c508c5d5eae293e",
+          "name": "Tuna12139",
+          "amount": 514,
+          "price": 9484,
+          "manufacturer": "Samsung",
+          "notes": "ipz83sYpREl9qiitQ08KoEjDgiRhKS2KbSvIwOiXrrmQKqS0MeOYCsHWlyn0ZIKFT2jCYYkwmXxXtVdAeXsmvLrhaCW2ojDQlLjdLxSlb5R9cybULaoi8wOZgooHbRyktLVGQ18vM6sBPBZPqEEy2sDg2vVV1lpnoBhY4HR0jjWAfcrlDJVFZqiCxc4bzwtvY6Jja0MISEarSNfacAc09IDyP7GG5twSZDm6V9tauFdRmAX52mQx7IEtUP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Beattyboro",
+          "street": "Sawayn Route",
+          "house": 41,
+          "flat": 602
+        },
+        "finalDate": "2026-01-16T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 9484,
+      "createdOn": "2026-01-08T22:28:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69602f7f1c508c5d5eae22f0",
+          "products": [
+            {
+              "_id": "69602f861c508c5d5eae293e",
+              "name": "Tuna12139",
+              "amount": 514,
+              "price": 9484,
+              "manufacturer": "Samsung",
+              "notes": "ipz83sYpREl9qiitQ08KoEjDgiRhKS2KbSvIwOiXrrmQKqS0MeOYCsHWlyn0ZIKFT2jCYYkwmXxXtVdAeXsmvLrhaCW2ojDQlLjdLxSlb5R9cybULaoi8wOZgooHbRyktLVGQ18vM6sBPBZPqEEy2sDg2vVV1lpnoBhY4HR0jjWAfcrlDJVFZqiCxc4bzwtvY6Jja0MISEarSNfacAc09IDyP7GG5twSZDm6V9tauFdRmAX52mQx7IEtUP",
+              "received": false
+            }
+          ],
+          "total_price": 9484,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Beattyboro",
+              "street": "Sawayn Route",
+              "house": 41,
+              "flat": 602
+            },
+            "finalDate": "2026-01-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-08T22:28:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69602f7f1c508c5d5eae22f0",
+          "products": [
+            {
+              "_id": "69602f861c508c5d5eae293e",
+              "name": "Tuna12139",
+              "amount": 514,
+              "price": 9484,
+              "manufacturer": "Samsung",
+              "notes": "ipz83sYpREl9qiitQ08KoEjDgiRhKS2KbSvIwOiXrrmQKqS0MeOYCsHWlyn0ZIKFT2jCYYkwmXxXtVdAeXsmvLrhaCW2ojDQlLjdLxSlb5R9cybULaoi8wOZgooHbRyktLVGQ18vM6sBPBZPqEEy2sDg2vVV1lpnoBhY4HR0jjWAfcrlDJVFZqiCxc4bzwtvY6Jja0MISEarSNfacAc09IDyP7GG5twSZDm6V9tauFdRmAX52mQx7IEtUP",
+              "received": false
+            }
+          ],
+          "total_price": 9484,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Beattyboro",
+              "street": "Sawayn Route",
+              "house": 41,
+              "flat": 602
+            },
+            "finalDate": "2026-01-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-08T22:28:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69602f7f1c508c5d5eae22f0",
+          "products": [
+            {
+              "_id": "69602f861c508c5d5eae293e",
+              "name": "Tuna12139",
+              "amount": 514,
+              "price": 9484,
+              "manufacturer": "Samsung",
+              "notes": "ipz83sYpREl9qiitQ08KoEjDgiRhKS2KbSvIwOiXrrmQKqS0MeOYCsHWlyn0ZIKFT2jCYYkwmXxXtVdAeXsmvLrhaCW2ojDQlLjdLxSlb5R9cybULaoi8wOZgooHbRyktLVGQ18vM6sBPBZPqEEy2sDg2vVV1lpnoBhY4HR0jjWAfcrlDJVFZqiCxc4bzwtvY6Jja0MISEarSNfacAc09IDyP7GG5twSZDm6V9tauFdRmAX52mQx7IEtUP",
+              "received": false
+            }
+          ],
+          "total_price": 9484,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:28:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

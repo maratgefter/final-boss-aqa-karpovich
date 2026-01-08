@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:29:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5432",
+    "etag": "W/\"1538-AQZ2HmtW2LrVlbVJq0r/Tx2dYBI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69602fcb1c508c5d5eae4866",
+      "status": "In Process",
+      "customer": {
+        "_id": "69602fba1c508c5d5eae3e11",
+        "email": "Marquise84@gmail.com",
+        "name": "Irwin Effertz",
+        "country": "Ukraine",
+        "city": "East Rudolphcester",
+        "street": "Fae Wall",
+        "house": 3,
+        "flat": 34,
+        "phone": "+14004407671",
+        "createdOn": "2026-01-08T22:29:14.000Z",
+        "notes": "0MZ5MyUIHmwV6C7FUbvCDm3ln27zQrF2lJ6x7j7YgbGGW2m6TDXa0j1zTcKdJF0X9gf6e1sMWh5vYK74NKghife7BO1uwMyBtVK6V4266ST6o3DFzFDTdP0gu7LFGykp2gNn6YqHWYjg71SD5bJRd8iaq52W3cDovuFY2Nl9KCLvnubDvVwW28w9cMRRKoiN8ABkLx9ESRFWNGltpD4ZyuTzW4vnwDRie0WeT81Y0yqOtTho3QPphjq0m8"
+      },
+      "products": [
+        {
+          "_id": "69602fbe1c508c5d5eae4008",
+          "name": "Gloves26144",
+          "amount": 590,
+          "price": 74227,
+          "manufacturer": "Apple",
+          "notes": "gKc1uUjEycsnPS7rAjkoY7NIlmGUaM1I20vNwOs71iJXOnBt6ndBvpCg8K0bKELYFkbvSSsgJL9b5hb2XQQRGGWSjeZQS7RR1yN0tQghBgVWoNc5SGKLOuf7luGHlZ9TAAuoUdxjU6hxulNedPNn6cDSBnDM7MPq42guIR9kTJDxqN7aqa6zmVrf27mkVTYdsn7EKUBYUA5PTassR2enKuGfhmNzdLnhs34dzOf2kokDUPBDdA0HKhK5lM",
+          "received": false
+        },
+        {
+          "_id": "69602fc11c508c5d5eae4216",
+          "name": "Pizza30989",
+          "amount": 144,
+          "price": 48290,
+          "manufacturer": "Microsoft",
+          "notes": "4KVGPgGRIu8QjCwzv0ljvu4VGCXqcRIyHWR6sHXFXHGuZ2qFvyibxg7vKCu0eAxBf2UETVg50EHGIW53SVJDMM72U5i1V9dWTGNujmt5ZYwNBoCGvq9Sa1XvAE61iItBoukeuBoOL3LUBf1jzcyKFdb3oTWBF3wxCSt4KbQHksxQYlT0YTxch467PLDXoOjTCGrccmXzVsWC900WH9t1HFLXoWUL8y5F5AkoiVRNd4zEGYwQcjHctc2xZP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Rudolphcester",
+          "street": "Fae Wall",
+          "house": 3,
+          "flat": 34
+        },
+        "finalDate": "2026-01-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 122517,
+      "createdOn": "2026-01-08T22:29:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69602fba1c508c5d5eae3e11",
+          "products": [
+            {
+              "_id": "69602fbe1c508c5d5eae4008",
+              "name": "Gloves26144",
+              "amount": 590,
+              "price": 74227,
+              "manufacturer": "Apple",
+              "notes": "gKc1uUjEycsnPS7rAjkoY7NIlmGUaM1I20vNwOs71iJXOnBt6ndBvpCg8K0bKELYFkbvSSsgJL9b5hb2XQQRGGWSjeZQS7RR1yN0tQghBgVWoNc5SGKLOuf7luGHlZ9TAAuoUdxjU6hxulNedPNn6cDSBnDM7MPq42guIR9kTJDxqN7aqa6zmVrf27mkVTYdsn7EKUBYUA5PTassR2enKuGfhmNzdLnhs34dzOf2kokDUPBDdA0HKhK5lM",
+              "received": false
+            },
+            {
+              "_id": "69602fc11c508c5d5eae4216",
+              "name": "Pizza30989",
+              "amount": 144,
+              "price": 48290,
+              "manufacturer": "Microsoft",
+              "notes": "4KVGPgGRIu8QjCwzv0ljvu4VGCXqcRIyHWR6sHXFXHGuZ2qFvyibxg7vKCu0eAxBf2UETVg50EHGIW53SVJDMM72U5i1V9dWTGNujmt5ZYwNBoCGvq9Sa1XvAE61iItBoukeuBoOL3LUBf1jzcyKFdb3oTWBF3wxCSt4KbQHksxQYlT0YTxch467PLDXoOjTCGrccmXzVsWC900WH9t1HFLXoWUL8y5F5AkoiVRNd4zEGYwQcjHctc2xZP",
+              "received": false
+            }
+          ],
+          "total_price": 122517,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Rudolphcester",
+              "street": "Fae Wall",
+              "house": 3,
+              "flat": 34
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-08T22:29:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69602fba1c508c5d5eae3e11",
+          "products": [
+            {
+              "_id": "69602fbe1c508c5d5eae4008",
+              "name": "Gloves26144",
+              "amount": 590,
+              "price": 74227,
+              "manufacturer": "Apple",
+              "notes": "gKc1uUjEycsnPS7rAjkoY7NIlmGUaM1I20vNwOs71iJXOnBt6ndBvpCg8K0bKELYFkbvSSsgJL9b5hb2XQQRGGWSjeZQS7RR1yN0tQghBgVWoNc5SGKLOuf7luGHlZ9TAAuoUdxjU6hxulNedPNn6cDSBnDM7MPq42guIR9kTJDxqN7aqa6zmVrf27mkVTYdsn7EKUBYUA5PTassR2enKuGfhmNzdLnhs34dzOf2kokDUPBDdA0HKhK5lM",
+              "received": false
+            },
+            {
+              "_id": "69602fc11c508c5d5eae4216",
+              "name": "Pizza30989",
+              "amount": 144,
+              "price": 48290,
+              "manufacturer": "Microsoft",
+              "notes": "4KVGPgGRIu8QjCwzv0ljvu4VGCXqcRIyHWR6sHXFXHGuZ2qFvyibxg7vKCu0eAxBf2UETVg50EHGIW53SVJDMM72U5i1V9dWTGNujmt5ZYwNBoCGvq9Sa1XvAE61iItBoukeuBoOL3LUBf1jzcyKFdb3oTWBF3wxCSt4KbQHksxQYlT0YTxch467PLDXoOjTCGrccmXzVsWC900WH9t1HFLXoWUL8y5F5AkoiVRNd4zEGYwQcjHctc2xZP",
+              "received": false
+            }
+          ],
+          "total_price": 122517,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Rudolphcester",
+              "street": "Fae Wall",
+              "house": 3,
+              "flat": 34
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-08T22:29:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69602fba1c508c5d5eae3e11",
+          "products": [
+            {
+              "_id": "69602fbe1c508c5d5eae4008",
+              "name": "Gloves26144",
+              "amount": 590,
+              "price": 74227,
+              "manufacturer": "Apple",
+              "notes": "gKc1uUjEycsnPS7rAjkoY7NIlmGUaM1I20vNwOs71iJXOnBt6ndBvpCg8K0bKELYFkbvSSsgJL9b5hb2XQQRGGWSjeZQS7RR1yN0tQghBgVWoNc5SGKLOuf7luGHlZ9TAAuoUdxjU6hxulNedPNn6cDSBnDM7MPq42guIR9kTJDxqN7aqa6zmVrf27mkVTYdsn7EKUBYUA5PTassR2enKuGfhmNzdLnhs34dzOf2kokDUPBDdA0HKhK5lM",
+              "received": false
+            },
+            {
+              "_id": "69602fc11c508c5d5eae4216",
+              "name": "Pizza30989",
+              "amount": 144,
+              "price": 48290,
+              "manufacturer": "Microsoft",
+              "notes": "4KVGPgGRIu8QjCwzv0ljvu4VGCXqcRIyHWR6sHXFXHGuZ2qFvyibxg7vKCu0eAxBf2UETVg50EHGIW53SVJDMM72U5i1V9dWTGNujmt5ZYwNBoCGvq9Sa1XvAE61iItBoukeuBoOL3LUBf1jzcyKFdb3oTWBF3wxCSt4KbQHksxQYlT0YTxch467PLDXoOjTCGrccmXzVsWC900WH9t1HFLXoWUL8y5F5AkoiVRNd4zEGYwQcjHctc2xZP",
+              "received": false
+            }
+          ],
+          "total_price": 122517,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:29:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

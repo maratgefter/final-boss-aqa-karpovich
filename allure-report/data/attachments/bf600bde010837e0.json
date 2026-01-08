@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:27:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-2PQntQUswCAMNEtztfKjptJTSr4\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69602f551c508c5d5eae0fb8",
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f511c508c5d5eae0f72",
+        "email": "Lemuel.Weber@hotmail.com",
+        "name": "Valerie Hagenes",
+        "country": "Belarus",
+        "city": "East Blanche",
+        "street": "Walker Fort",
+        "house": 30,
+        "flat": 840,
+        "phone": "+17734715663",
+        "createdOn": "2026-01-08T22:27:29.000Z",
+        "notes": "wvZliNJybt2ReOTndCK2JhIVKFp1VSwMR2sl3ahS63Z5YcNOq4X2MSQRtRZUUvrbD66OMXleNIIl1R3WNOd5JYAcaIxwFQYiWfUnuzE8udi7M0A9xmyycH5yvjaov2OvHQ8TPSxEOJftZJcZDzp1zlPE1sSfeBJGkdoD5M4Mb9yJsOylSpC3shi3uZ3tNXsY7FoZue93UDS3kBNCKXPQBIyNOshxUHN2yofNeTq4D8CvdMs1QpwpS0dokc"
+      },
+      "products": [
+        {
+          "_id": "69602f551c508c5d5eae0fae",
+          "name": "Mouse42120",
+          "amount": 557,
+          "price": 1148,
+          "manufacturer": "Samsung",
+          "notes": "bQ1n0VGlYPdUd513hKiddqTASelRZk0f0vremxdWXSrvWTWUZjff9SLGNisIechIsGHImsjKxP4KBqXLBQZkNx2Q0n4MSBWt9C6HxT5TfjTI4paSnmSPbAuYMcMrUk9KhFoZrRm6TguuBfKhTQEGHKID6AiWV6XTRXxwqs2w4FKELv9Xnjfu5IWCk0SPwQCti6HniBlhz9EUwUXui64xhB0sZ9bD9aN4YKc653Yt7DBefuThAHqpZxtjI8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1148,
+      "createdOn": "2026-01-08T22:27:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f511c508c5d5eae0f72",
+          "products": [
+            {
+              "_id": "69602f551c508c5d5eae0fae",
+              "name": "Mouse42120",
+              "amount": 557,
+              "price": 1148,
+              "manufacturer": "Samsung",
+              "notes": "bQ1n0VGlYPdUd513hKiddqTASelRZk0f0vremxdWXSrvWTWUZjff9SLGNisIechIsGHImsjKxP4KBqXLBQZkNx2Q0n4MSBWt9C6HxT5TfjTI4paSnmSPbAuYMcMrUk9KhFoZrRm6TguuBfKhTQEGHKID6AiWV6XTRXxwqs2w4FKELv9Xnjfu5IWCk0SPwQCti6HniBlhz9EUwUXui64xhB0sZ9bD9aN4YKc653Yt7DBefuThAHqpZxtjI8",
+              "received": false
+            }
+          ],
+          "total_price": 1148,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:33.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69602f511c508c5d5eae0f72",
+          "products": [
+            {
+              "_id": "69602f551c508c5d5eae0fae",
+              "name": "Mouse42120",
+              "amount": 557,
+              "price": 1148,
+              "manufacturer": "Samsung",
+              "notes": "bQ1n0VGlYPdUd513hKiddqTASelRZk0f0vremxdWXSrvWTWUZjff9SLGNisIechIsGHImsjKxP4KBqXLBQZkNx2Q0n4MSBWt9C6HxT5TfjTI4paSnmSPbAuYMcMrUk9KhFoZrRm6TguuBfKhTQEGHKID6AiWV6XTRXxwqs2w4FKELv9Xnjfu5IWCk0SPwQCti6HniBlhz9EUwUXui64xhB0sZ9bD9aN4YKc653Yt7DBefuThAHqpZxtjI8",
+              "received": false
+            }
+          ],
+          "total_price": 1148,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

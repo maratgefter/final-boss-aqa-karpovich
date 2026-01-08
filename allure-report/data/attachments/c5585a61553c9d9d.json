@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:27:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-d4D2T6bvmWx2n8IoDmuy7DH6aWo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f581c508c5d5eae109f",
+        "email": "Joseph91@hotmail.com",
+        "name": "Wilton Kiehn",
+        "country": "Russia",
+        "city": "Favianmouth",
+        "street": "Aspen Close",
+        "house": 34,
+        "flat": 862,
+        "phone": "+12693739837",
+        "createdOn": "2026-01-08T22:27:36.000Z",
+        "notes": "v28hQ8k6pgBqyml6WszY2n1ec64s5FprgsZauZ78ULBo7yAoYWXaefLzi8zaSQaHk6q5fUOumaXn5BU51Sr63H72td6UlUw9jv6LDFUf5uWJ8278NERHWfwzwBUfC5h3zUKObaFznoICt79xv0xUEWoGX3cCToeBSs0C1Qelry0hNI3cT1MSvGd3y19YJEHSDvf9Cd5k7hEzMjO6PBBlQT6H0KlDA9oQ0GOYCTNmQGqZcJBDHzxGhwRISf"
+      },
+      "products": [
+        {
+          "_id": "69602f5c1c508c5d5eae13a2",
+          "name": "Shirt98706",
+          "amount": 378,
+          "price": 20519,
+          "manufacturer": "Amazon",
+          "notes": "Yp2dppIUq8eF17UiFDYIOc0w0kf2YYsxFo3Gu5SSKTRVgHZSrXYZM8GHMs6apYxjwlRNSBArAxDiPxA0vNfNARAZkvNBRTbUnwBhWoiDazO8WcUDCbbQxI6vL521NLC7RgrSDZoAkhyTAxd7yRv8g5icja1KVr15gOgWlTMlsoY0uFXimxYzgnMFF9Afw5venDwi7ePyCc0O6cjg3xEe9J8dV2JhQXZVTFqtwQdQgmQbn9QPNi3Bw1o9EC",
+          "received": false
+        },
+        {
+          "_id": "69602f601c508c5d5eae14d5",
+          "name": "Hat26523",
+          "amount": 444,
+          "price": 74168,
+          "manufacturer": "Google",
+          "notes": "ckEOavjRWLBkU9XYkmyahtG3sWVFs5iFxCrCwE1C34scDnGSt5lYKQQNoMYdGE7gju5HzZlvQYHnV3T0Z2OGS8m2fiCfEhdKtxf2jSDspIgfwx4pzLC5hA7FPB81ORv0UmrlRn3RuimVpjlvvRntFWF2SUrYsJ0HX1pX4vtIL3h0CXRsW1lokwgTrOmKRIV9QCvpvKvXj6wNqWbRIgdcn88dSlPv3ka416eWpyer3l7w6U9LOsVfvWEq7L",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94687,
+      "createdOn": "2026-01-08T22:27:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f581c508c5d5eae109f",
+          "products": [
+            {
+              "_id": "69602f5c1c508c5d5eae13a2",
+              "name": "Shirt98706",
+              "amount": 378,
+              "price": 20519,
+              "manufacturer": "Amazon",
+              "notes": "Yp2dppIUq8eF17UiFDYIOc0w0kf2YYsxFo3Gu5SSKTRVgHZSrXYZM8GHMs6apYxjwlRNSBArAxDiPxA0vNfNARAZkvNBRTbUnwBhWoiDazO8WcUDCbbQxI6vL521NLC7RgrSDZoAkhyTAxd7yRv8g5icja1KVr15gOgWlTMlsoY0uFXimxYzgnMFF9Afw5venDwi7ePyCc0O6cjg3xEe9J8dV2JhQXZVTFqtwQdQgmQbn9QPNi3Bw1o9EC",
+              "received": false
+            },
+            {
+              "_id": "69602f601c508c5d5eae14d5",
+              "name": "Hat26523",
+              "amount": 444,
+              "price": 74168,
+              "manufacturer": "Google",
+              "notes": "ckEOavjRWLBkU9XYkmyahtG3sWVFs5iFxCrCwE1C34scDnGSt5lYKQQNoMYdGE7gju5HzZlvQYHnV3T0Z2OGS8m2fiCfEhdKtxf2jSDspIgfwx4pzLC5hA7FPB81ORv0UmrlRn3RuimVpjlvvRntFWF2SUrYsJ0HX1pX4vtIL3h0CXRsW1lokwgTrOmKRIV9QCvpvKvXj6wNqWbRIgdcn88dSlPv3ka416eWpyer3l7w6U9LOsVfvWEq7L",
+              "received": false
+            }
+          ],
+          "total_price": 94687,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:27:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602f611c508c5d5eae14ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

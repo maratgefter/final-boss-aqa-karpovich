@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:29:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-Js4NfO0vC02MncJbFpWgfmNilsM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602fc21c508c5d5eae4848",
+        "email": "Zelda65@hotmail.com",
+        "name": "Curt Heller",
+        "country": "Russia",
+        "city": "Richiehaven",
+        "street": "Ryan Harbor",
+        "house": 6,
+        "flat": 146,
+        "phone": "+18253840759",
+        "createdOn": "2026-01-08T22:29:22.000Z",
+        "notes": "GhxsWRZRe0vixJahyvtwh30NXNIQFLPyoAHWwvvB593tbsceQhrLyJNF9TofOSXb8P5wDs8tgdyNUqMbrcYRXKmgxbULtHzgA58ZL736e9z6smEMtzVZiyhJM1UqU2i2bNGfVZy7M09MWrOcb6Cunu6Dz9JScaVYo2AvxG0HoEsLEOXBOJ32H79dSEg12uCLz5Dl77CcGrxGSOLNveXCRdZGYdJm1azaoT7mYuFU0CtU50goh6hsGfM0hM"
+      },
+      "products": [
+        {
+          "_id": "69602fce1c508c5d5eae49b3",
+          "name": "Chair19104",
+          "amount": 924,
+          "price": 31960,
+          "manufacturer": "Tesla",
+          "notes": "5Yr1exh7aRgzwiTS45oCjhjo8JCFzPxqCbGruDzTuuVbXrLeJaqU8rqKcdgXyo2FtNyqzb4O4vUpJzXJW6gnsgud5zsXAKtueOPCH96yvEXM1Br3IotLDOdnsCSKgHeDvaCz5vpialAWEx2jkFiEBt3GnKXoC5ufKRUzEskN5jn6zZKKQy9qWMsQXqYAPsQiuR0edNs9PktcZqLiG2ctom4sJUd5cEYRA5FmPDxA72irKp8BW9fmjYS1f3",
+          "received": false
+        },
+        {
+          "_id": "69602fd21c508c5d5eae4b86",
+          "name": "Fish73566",
+          "amount": 689,
+          "price": 28243,
+          "manufacturer": "Microsoft",
+          "notes": "vC7J4bjBaQqvhZ1kFEGitWeYxWT2QwHBHTNkvirNcN67aJyGlkeGC8rrmjObxz43n9hNJlIaJ0Rc3VLBs7mKopTlHKWLEJLRENai59Uc6qcA50vcgnciDOj3D6vjEw7639NYBOMshBiWad0GKGPT9UjZ8PlZzKnUOFZT4eDRXsbEiR2P3mHRpTgQ4mJm94U3GatfVpv3wLwPuirMhGwnzcwLCOP74cG6dqjqOfp7iITTyz05lz5Sh5XboJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60203,
+      "createdOn": "2026-01-08T22:29:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602fc21c508c5d5eae4848",
+          "products": [
+            {
+              "_id": "69602fce1c508c5d5eae49b3",
+              "name": "Chair19104",
+              "amount": 924,
+              "price": 31960,
+              "manufacturer": "Tesla",
+              "notes": "5Yr1exh7aRgzwiTS45oCjhjo8JCFzPxqCbGruDzTuuVbXrLeJaqU8rqKcdgXyo2FtNyqzb4O4vUpJzXJW6gnsgud5zsXAKtueOPCH96yvEXM1Br3IotLDOdnsCSKgHeDvaCz5vpialAWEx2jkFiEBt3GnKXoC5ufKRUzEskN5jn6zZKKQy9qWMsQXqYAPsQiuR0edNs9PktcZqLiG2ctom4sJUd5cEYRA5FmPDxA72irKp8BW9fmjYS1f3",
+              "received": false
+            },
+            {
+              "_id": "69602fd21c508c5d5eae4b86",
+              "name": "Fish73566",
+              "amount": 689,
+              "price": 28243,
+              "manufacturer": "Microsoft",
+              "notes": "vC7J4bjBaQqvhZ1kFEGitWeYxWT2QwHBHTNkvirNcN67aJyGlkeGC8rrmjObxz43n9hNJlIaJ0Rc3VLBs7mKopTlHKWLEJLRENai59Uc6qcA50vcgnciDOj3D6vjEw7639NYBOMshBiWad0GKGPT9UjZ8PlZzKnUOFZT4eDRXsbEiR2P3mHRpTgQ4mJm94U3GatfVpv3wLwPuirMhGwnzcwLCOP74cG6dqjqOfp7iITTyz05lz5Sh5XboJ",
+              "received": false
+            }
+          ],
+          "total_price": 60203,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:29:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602fd31c508c5d5eae4ba9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

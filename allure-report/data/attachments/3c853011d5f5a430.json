@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 08 Jan 2026 22:28:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2667",
+    "etag": "W/\"a6b-Tn08Q89s6noREo5/EwDjU0SUSRo\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69602f981c508c5d5eae319b",
+        "email": "Otilia.Hamill-Ernser@hotmail.com",
+        "name": "Elody Okuneva",
+        "country": "Belarus",
+        "city": "New Ottiliehaven",
+        "street": "Kshlerin Green",
+        "house": 40,
+        "flat": 964,
+        "phone": "+16128206240",
+        "createdOn": "2026-01-08T22:28:40.000Z",
+        "notes": "wfkRpQLf5EylO3F3y4l54WRzLguLasqry0dOKgLvs2tDTZ0u8cVtFq77oXXJh2Tq2fYJrIeoVr6v3JQ0FHlRDtgk9DyvXriaBIWLM1liJnzRtoCuvQiYkfqgBOlyPoEY4VQFJ62LNp9q7dOKLamNC9j4HtjJ7hGHWk2KO8fzw6osPV84WWDzh7Xew6PL6BMxNzByhV7z9BllpGsIvI0gqq8OxzVUiwhYDrtqjPMWOHf72MCGHt03WaubQP"
+      },
+      "products": [
+        {
+          "_id": "69602fa11c508c5d5eae3390",
+          "name": "Bike48401",
+          "amount": 775,
+          "price": 83779,
+          "manufacturer": "Amazon",
+          "notes": "yxn4yoHXrftelai9vgyVlG4bSHx6BLnGdImmE3q9kdg6u3YPfkY66gbfbpNzcoUVyGYQx04CI0qjtUVi3fGzWReDfZfnZjQvgHIehaXJ1cGAMFH4fP3XUhcr83kESz734kBzshPfnv7vyrilw9Uv7oI9TASHRb7WPtBIzSpTDB1tUvEUrS7M61EROZ41GZbJKMBvuCnfMWnff7UpCdUHWxsysZO7lgmZrCJid6voMvBjXXEXkJG2g1ZyeW",
+          "received": false
+        },
+        {
+          "_id": "69602fa41c508c5d5eae33b8",
+          "name": "Gloves48055",
+          "amount": 247,
+          "price": 29234,
+          "manufacturer": "Apple",
+          "notes": "554qfklfJ5QFmy4PzwSlkbFwO7oFTCUAQOZgcoKbNe0VX2ogJfs6EQ8zALJu8FKUiKtYdIWdW5KEgpFCpvCm806gsWSSn2fWV4iErHETzj6jzl7UDaNVOokU8Ph4OkhWnhqjoZU2rrj6DBiPyKfOWsGICPz5HgSE0f169zqbFXJgTCRKgfuL7LLiDOt3wT9tFrq8Z2l7ywXnDA1UtiUBnRva95FQ6dnxeTVTwrwLIK5obJ78MHagxF4Qss",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 113013,
+      "createdOn": "2026-01-08T22:28:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69602f981c508c5d5eae319b",
+          "products": [
+            {
+              "_id": "69602fa11c508c5d5eae3390",
+              "name": "Bike48401",
+              "amount": 775,
+              "price": 83779,
+              "manufacturer": "Amazon",
+              "notes": "yxn4yoHXrftelai9vgyVlG4bSHx6BLnGdImmE3q9kdg6u3YPfkY66gbfbpNzcoUVyGYQx04CI0qjtUVi3fGzWReDfZfnZjQvgHIehaXJ1cGAMFH4fP3XUhcr83kESz734kBzshPfnv7vyrilw9Uv7oI9TASHRb7WPtBIzSpTDB1tUvEUrS7M61EROZ41GZbJKMBvuCnfMWnff7UpCdUHWxsysZO7lgmZrCJid6voMvBjXXEXkJG2g1ZyeW",
+              "received": false
+            },
+            {
+              "_id": "69602fa41c508c5d5eae33b8",
+              "name": "Gloves48055",
+              "amount": 247,
+              "price": 29234,
+              "manufacturer": "Apple",
+              "notes": "554qfklfJ5QFmy4PzwSlkbFwO7oFTCUAQOZgcoKbNe0VX2ogJfs6EQ8zALJu8FKUiKtYdIWdW5KEgpFCpvCm806gsWSSn2fWV4iErHETzj6jzl7UDaNVOokU8Ph4OkhWnhqjoZU2rrj6DBiPyKfOWsGICPz5HgSE0f169zqbFXJgTCRKgfuL7LLiDOt3wT9tFrq8Z2l7ywXnDA1UtiUBnRva95FQ6dnxeTVTwrwLIK5obJ78MHagxF4Qss",
+              "received": false
+            }
+          ],
+          "total_price": 113013,
+          "delivery": null,
+          "changedOn": "2026-01-08T22:28:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69602fa51c508c5d5eae33d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
