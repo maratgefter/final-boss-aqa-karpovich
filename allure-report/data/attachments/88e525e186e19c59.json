@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:26:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-Ou3Jh/6aWLyEH7Eqr0SOQRCc24U\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180b01c508c5d5eaeda8a",
+        "email": "Fritz24@hotmail.com",
+        "name": "Hailee Luettgen",
+        "country": "Germany",
+        "city": "West Annamae",
+        "street": "River Street",
+        "house": 28,
+        "flat": 821,
+        "phone": "+18124352380",
+        "createdOn": "2026-01-09T22:26:56.000Z",
+        "notes": "n7bc6MbuEj1xUTejV9r1YtBtfuerg7tYibkWe9DgeHsBe0M3hzGZLLSA4sGwZFSK0xg7LifGkWkMOrGkjMCTYqQMiYw4QrQAbLrOUGE7MBQneNHXrhoRP2F57V8BbW9VubO9CWjzlQVLTGTC8iKbDg7CDxtOnyUt9G1gdCL6WbDE2JNsw9RGwLC0MBjtChj3T8KEn8XkbulgxlNkNPH5Y4QcBk7h0W0NHkYz7y8OFKoqAEs0UdMQI3Gii2"
+      },
+      "products": [
+        {
+          "_id": "696180b21c508c5d5eaedc56",
+          "name": "Keyboard18039",
+          "amount": 784,
+          "price": 9633,
+          "manufacturer": "Google",
+          "notes": "2SvVjEGAh0E5WZXIwz2ZQwo6QpZOhOsXjEDgF0HaeTqNP0fnMZf7nsDbjU92Gzj3KknCg11drg9X35cb4zKH8kkRFENe4SXplPjexB0KE8aQym3jxycRrJsjhDnhODyfJ5HhT5HhfU1mfljrZyIRgKBG1EW4VP38xof2593FiMAynABQVHMiACL1L1vavAyec5H8HRh0EqXZj5nQEshdnZ5zgDuKD4juNnzwPPjYF5hQFiHbdb05g4Grrj",
+          "received": false
+        },
+        {
+          "_id": "696180b21c508c5d5eaedc76",
+          "name": "Chicken95954",
+          "amount": 673,
+          "price": 60149,
+          "manufacturer": "Google",
+          "notes": "yEC4Dv3lJNmXQYOSZSruNO9fXyQnZPm0iRQWUFw9utkMylfDfTQHIoYJzS3floyVbZk6bllluTlDyrmQqWZMaF7MQykIKjn8SnyyDG0dZZfdR9R7qWLU8c0Y6n1PEFE2lafLQMcytKJaOfYqAEGK2svDv64tb0rqDaxzf9Jb80vnRcxuzS0i5bsqBAxo7VhtDVQwXIlJsvRMHzo985MIqLE20qlCULEiaV0iU8TyYImWUfOQ1ZFeL1qUry",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69782,
+      "createdOn": "2026-01-09T22:26:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180b01c508c5d5eaeda8a",
+          "products": [
+            {
+              "_id": "696180b21c508c5d5eaedc56",
+              "name": "Keyboard18039",
+              "amount": 784,
+              "price": 9633,
+              "manufacturer": "Google",
+              "notes": "2SvVjEGAh0E5WZXIwz2ZQwo6QpZOhOsXjEDgF0HaeTqNP0fnMZf7nsDbjU92Gzj3KknCg11drg9X35cb4zKH8kkRFENe4SXplPjexB0KE8aQym3jxycRrJsjhDnhODyfJ5HhT5HhfU1mfljrZyIRgKBG1EW4VP38xof2593FiMAynABQVHMiACL1L1vavAyec5H8HRh0EqXZj5nQEshdnZ5zgDuKD4juNnzwPPjYF5hQFiHbdb05g4Grrj",
+              "received": false
+            },
+            {
+              "_id": "696180b21c508c5d5eaedc76",
+              "name": "Chicken95954",
+              "amount": 673,
+              "price": 60149,
+              "manufacturer": "Google",
+              "notes": "yEC4Dv3lJNmXQYOSZSruNO9fXyQnZPm0iRQWUFw9utkMylfDfTQHIoYJzS3floyVbZk6bllluTlDyrmQqWZMaF7MQykIKjn8SnyyDG0dZZfdR9R7qWLU8c0Y6n1PEFE2lafLQMcytKJaOfYqAEGK2svDv64tb0rqDaxzf9Jb80vnRcxuzS0i5bsqBAxo7VhtDVQwXIlJsvRMHzo985MIqLE20qlCULEiaV0iU8TyYImWUfOQ1ZFeL1qUry",
+              "received": false
+            }
+          ],
+          "total_price": 69782,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:26:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180b31c508c5d5eaedcab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

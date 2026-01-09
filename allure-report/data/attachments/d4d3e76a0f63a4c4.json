@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-mllulButQsjVLbiPuJBKdOayrvE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180c71c508c5d5eaeea4c",
+        "email": "Delbert.Wilderman@gmail.com",
+        "name": "Forrest Fisher",
+        "country": "USA",
+        "city": "Middletown",
+        "street": "Schulist Highway",
+        "house": 9,
+        "flat": 413,
+        "phone": "+17514607659",
+        "createdOn": "2026-01-09T22:27:19.000Z",
+        "notes": "EVqHO5czUWJA0G2nj6IPgwj1f2iDXX5sdcqmPFlVD03prwxIBBHTJVyyKRXp2kIjaMaMyu5u5uNC00IfKYwSjFvGzfDqzGar56C1aKPUnQa6nAMtEuPVBUkdbQJknre0uOmfnpAsrr33zcWj9as3MQ0vzkU6dyfkLjw7EEVi5cqWSaNMHQrKu8KLwjYbpru11XciccnoJ6j2cZaUamgQxcBa2N2OPZZlqFFCKj3M40m113ZcPuAFq9RA2R"
+      },
+      "products": [
+        {
+          "_id": "696180c91c508c5d5eaeec21",
+          "name": "Chips98849",
+          "amount": 947,
+          "price": 36485,
+          "manufacturer": "Google",
+          "notes": "z4a0SXU5JpdDK8UOV3TY8X5fpyVybCrBW1ZCRNESJbsoHz6vzcWTdFyJ3ufywEkx4fxlTSQMHmAXdSHP7NhctDO5tjfcaROviqInyYFLbYMvHqp7Q1KrxEDUoQSRjLprzSGwPvODWxoLYj2DsKiQbXpxr2KdEBdO0sx8s2MnEi8orccR076vS61hka5QTppNCfUPZiKQuIJ91oTWTQIrj79fGm05aWvwRqLiPIrpnhtXaVT3b2CqFMMXs3",
+          "received": false
+        },
+        {
+          "_id": "696180cb1c508c5d5eaeed1b",
+          "name": "Fish20201",
+          "amount": 313,
+          "price": 97243,
+          "manufacturer": "Apple",
+          "notes": "ffxo9ChWkAUjm4M56z6qSZjGagl5zS9RRtedXpylnQAqxBzmTCxIUnvoEYbpRDA4DZgn5495hEzRWsTD3Hmy5fWD1wsRsiDuvnUbBeWoTckMXZikCB3ybHbETD0OruqXu0PyX2WV1z2DyEZU2Yxs1Zc0pfN9Et2842rP2Qz7vd5vqzuyeMvSoFCblXfKuYdL919LtBD7YiVUyD9wrcCeC7gt9tVnjfoWHfRv0R0FrB2P4v30snqa1ZNz7f",
+          "received": false
+        },
+        {
+          "_id": "696180cc1c508c5d5eaeee17",
+          "name": "Salad48910",
+          "amount": 86,
+          "price": 64914,
+          "manufacturer": "Apple",
+          "notes": "sGH58bajNOQzG26xsfGhZ0wamCLBYSSEkX4MwuuStPXscjeppPlrtdNM2opTXCPjLNqp9kFRafskE0A2oVJ6wtZdfomTYGJ6MVkGrMgXFDAyiSxxC84WALHqv5xeGNU5lklmSY8YBe7iMtKldbZqk82v2WAghk5nIDNmdqiziUMUrRmrLRQkYUUyHRxD3HnQdgVvZNgDWFlhvQz4QGC3yJrZ03NPsk1BfIYOYJ2lRpUhxoftklDZ8rDIjA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 198642,
+      "createdOn": "2026-01-09T22:27:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180c71c508c5d5eaeea4c",
+          "products": [
+            {
+              "_id": "696180c91c508c5d5eaeec21",
+              "name": "Chips98849",
+              "amount": 947,
+              "price": 36485,
+              "manufacturer": "Google",
+              "notes": "z4a0SXU5JpdDK8UOV3TY8X5fpyVybCrBW1ZCRNESJbsoHz6vzcWTdFyJ3ufywEkx4fxlTSQMHmAXdSHP7NhctDO5tjfcaROviqInyYFLbYMvHqp7Q1KrxEDUoQSRjLprzSGwPvODWxoLYj2DsKiQbXpxr2KdEBdO0sx8s2MnEi8orccR076vS61hka5QTppNCfUPZiKQuIJ91oTWTQIrj79fGm05aWvwRqLiPIrpnhtXaVT3b2CqFMMXs3",
+              "received": false
+            },
+            {
+              "_id": "696180cb1c508c5d5eaeed1b",
+              "name": "Fish20201",
+              "amount": 313,
+              "price": 97243,
+              "manufacturer": "Apple",
+              "notes": "ffxo9ChWkAUjm4M56z6qSZjGagl5zS9RRtedXpylnQAqxBzmTCxIUnvoEYbpRDA4DZgn5495hEzRWsTD3Hmy5fWD1wsRsiDuvnUbBeWoTckMXZikCB3ybHbETD0OruqXu0PyX2WV1z2DyEZU2Yxs1Zc0pfN9Et2842rP2Qz7vd5vqzuyeMvSoFCblXfKuYdL919LtBD7YiVUyD9wrcCeC7gt9tVnjfoWHfRv0R0FrB2P4v30snqa1ZNz7f",
+              "received": false
+            },
+            {
+              "_id": "696180cc1c508c5d5eaeee17",
+              "name": "Salad48910",
+              "amount": 86,
+              "price": 64914,
+              "manufacturer": "Apple",
+              "notes": "sGH58bajNOQzG26xsfGhZ0wamCLBYSSEkX4MwuuStPXscjeppPlrtdNM2opTXCPjLNqp9kFRafskE0A2oVJ6wtZdfomTYGJ6MVkGrMgXFDAyiSxxC84WALHqv5xeGNU5lklmSY8YBe7iMtKldbZqk82v2WAghk5nIDNmdqiziUMUrRmrLRQkYUUyHRxD3HnQdgVvZNgDWFlhvQz4QGC3yJrZ03NPsk1BfIYOYJ2lRpUhxoftklDZ8rDIjA",
+              "received": false
+            }
+          ],
+          "total_price": 198642,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180cd1c508c5d5eaeee64"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

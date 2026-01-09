@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-AAWYy+YP6R41Ln0kj3lJTn096/Y\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180cc1c508c5d5eaeee13",
+        "email": "Toney71@yahoo.com",
+        "name": "Brisa Ullrich",
+        "country": "Canada",
+        "city": "Corkerytown",
+        "street": "Littel Mall",
+        "house": 33,
+        "flat": 569,
+        "phone": "+12918337575",
+        "createdOn": "2026-01-09T22:27:24.000Z",
+        "notes": "9BlFMG7v05OSwzGKKTg7LPDBsU96TXP7eXTlU9MnrVBVsSX129Zyh6NZy13fVKjtgIvuzBUngJ4f3oMTx6aP8wCB9F8zBSBFAEilTCEfbOBSJ18QjO7vVKgTTycB5vwzwKcvUyuuephXeHFtxNYGW40zQd4BuWhvFwFEF1DlSoTnYqbUsSDTIGFKBpRM51twpP0yNQ3nyCgdoG37bjSuTzq9dfMYdZglHJlYNjXRZ2ytoXRXDIWszywSoa"
+      },
+      "products": [
+        {
+          "_id": "696180cd1c508c5d5eaeee46",
+          "name": "Shirt64468",
+          "amount": 347,
+          "price": 77732,
+          "manufacturer": "Tesla",
+          "notes": "nr7ay4hTXiux0gfaa0DOfxASBvNMcLoFCvFrDMpPcB7jlELJzG60rDSHjC7sT4fdl3waoXOeYEfFXC74Pyev4pOmjHKtxjxwJCJVqWiV3gNWNZNECaGncXxRUnZ5aIHRqh70xEaR6IWLLJc0ii7b1Nck7izqW4D7tc7jXn1mELaDZeW8FZCLVlVpJHucJVmoS5zQYON7aeE7WSxhnEx1nPcPlbiel3spmcesXDNkanGNqXhPXfV2vSgMny",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77732,
+      "createdOn": "2026-01-09T22:27:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180cc1c508c5d5eaeee13",
+          "products": [
+            {
+              "_id": "696180cd1c508c5d5eaeee46",
+              "name": "Shirt64468",
+              "amount": 347,
+              "price": 77732,
+              "manufacturer": "Tesla",
+              "notes": "nr7ay4hTXiux0gfaa0DOfxASBvNMcLoFCvFrDMpPcB7jlELJzG60rDSHjC7sT4fdl3waoXOeYEfFXC74Pyev4pOmjHKtxjxwJCJVqWiV3gNWNZNECaGncXxRUnZ5aIHRqh70xEaR6IWLLJc0ii7b1Nck7izqW4D7tc7jXn1mELaDZeW8FZCLVlVpJHucJVmoS5zQYON7aeE7WSxhnEx1nPcPlbiel3spmcesXDNkanGNqXhPXfV2vSgMny",
+              "received": false
+            }
+          ],
+          "total_price": 77732,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180cd1c508c5d5eaeee72"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

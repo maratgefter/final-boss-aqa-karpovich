@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4779",
+    "etag": "W/\"12ab-CjU1PbmXu9bKwp3ipARPpyA7bZY\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696180cc1c508c5d5eaeee05",
+      "status": "Received",
+      "customer": {
+        "_id": "696180c71c508c5d5eaeea4e",
+        "email": "Aliyah.Kshlerin@gmail.com",
+        "name": "Isobel Thiel",
+        "country": "Belarus",
+        "city": "Port Asa",
+        "street": "Turner Burg",
+        "house": 18,
+        "flat": 27,
+        "phone": "+12974842197",
+        "createdOn": "2026-01-09T22:27:19.000Z",
+        "notes": "XIf2ZaOBHJqXIal79O3aQaK6vwomhtPGHVx5WkWvWJl865DkPbXLIRZCfoBd80AE0RIB6V4NKvKmu3yp87800xSxpHI1WaIUvELCTKuO8qno4w5vQSjxi3NMb5LXBfhFIoyeKBTE5rH98ODkBIl2XXYJD8OX0Y4N2Wri8ySJi3Y5eTkE2MITlTKhWO2VSdSLvHW59LHWBlqQPIw5iu01VejkRzl7u61HjiZkORZWdv1rAZgstoM0CkEUAw"
+      },
+      "products": [
+        {
+          "_id": "696180c91c508c5d5eaeec1f",
+          "name": "Chicken21793",
+          "amount": 962,
+          "price": 12610,
+          "manufacturer": "Xiaomi",
+          "notes": "XuEV37S1L7KtFcR4UI0Pq9nd53p4SaEqZzflAFL7dOPdXma5FZTosp38sf453Ix0nfIfal2YqvVUb46etg1aYIctR4YlncbFvMbozwi87NWnCDpBVoJEvtSmSMwqONhrT5REoNgc76ul5vsMpCi0jgVXLhoMm2E56q2PvLfK5Zc8g6IY3t5qQhibU3F7tE8ibNNLThX3tsTXd1xNWQkJlqhoqyOprUWdCj0aVtkmUOwyAVbkcDU4FUiBn6",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Asa",
+          "street": "Turner Burg",
+          "house": 18,
+          "flat": 27
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 12610,
+      "createdOn": "2026-01-09T22:27:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "696180c71c508c5d5eaeea4e",
+          "products": [
+            {
+              "_id": "696180c91c508c5d5eaeec1f",
+              "name": "Chicken21793",
+              "amount": 962,
+              "price": 12610,
+              "manufacturer": "Xiaomi",
+              "notes": "XuEV37S1L7KtFcR4UI0Pq9nd53p4SaEqZzflAFL7dOPdXma5FZTosp38sf453Ix0nfIfal2YqvVUb46etg1aYIctR4YlncbFvMbozwi87NWnCDpBVoJEvtSmSMwqONhrT5REoNgc76ul5vsMpCi0jgVXLhoMm2E56q2PvLfK5Zc8g6IY3t5qQhibU3F7tE8ibNNLThX3tsTXd1xNWQkJlqhoqyOprUWdCj0aVtkmUOwyAVbkcDU4FUiBn6",
+              "received": true
+            }
+          ],
+          "total_price": 12610,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Asa",
+              "street": "Turner Burg",
+              "house": 18,
+              "flat": 27
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-09T22:27:26.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "696180c71c508c5d5eaeea4e",
+          "products": [
+            {
+              "_id": "696180c91c508c5d5eaeec1f",
+              "name": "Chicken21793",
+              "amount": 962,
+              "price": 12610,
+              "manufacturer": "Xiaomi",
+              "notes": "XuEV37S1L7KtFcR4UI0Pq9nd53p4SaEqZzflAFL7dOPdXma5FZTosp38sf453Ix0nfIfal2YqvVUb46etg1aYIctR4YlncbFvMbozwi87NWnCDpBVoJEvtSmSMwqONhrT5REoNgc76ul5vsMpCi0jgVXLhoMm2E56q2PvLfK5Zc8g6IY3t5qQhibU3F7tE8ibNNLThX3tsTXd1xNWQkJlqhoqyOprUWdCj0aVtkmUOwyAVbkcDU4FUiBn6",
+              "received": false
+            }
+          ],
+          "total_price": 12610,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Asa",
+              "street": "Turner Burg",
+              "house": 18,
+              "flat": 27
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-09T22:27:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696180c71c508c5d5eaeea4e",
+          "products": [
+            {
+              "_id": "696180c91c508c5d5eaeec1f",
+              "name": "Chicken21793",
+              "amount": 962,
+              "price": 12610,
+              "manufacturer": "Xiaomi",
+              "notes": "XuEV37S1L7KtFcR4UI0Pq9nd53p4SaEqZzflAFL7dOPdXma5FZTosp38sf453Ix0nfIfal2YqvVUb46etg1aYIctR4YlncbFvMbozwi87NWnCDpBVoJEvtSmSMwqONhrT5REoNgc76ul5vsMpCi0jgVXLhoMm2E56q2PvLfK5Zc8g6IY3t5qQhibU3F7tE8ibNNLThX3tsTXd1xNWQkJlqhoqyOprUWdCj0aVtkmUOwyAVbkcDU4FUiBn6",
+              "received": false
+            }
+          ],
+          "total_price": 12610,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Asa",
+              "street": "Turner Burg",
+              "house": 18,
+              "flat": 27
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-09T22:27:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696180c71c508c5d5eaeea4e",
+          "products": [
+            {
+              "_id": "696180c91c508c5d5eaeec1f",
+              "name": "Chicken21793",
+              "amount": 962,
+              "price": 12610,
+              "manufacturer": "Xiaomi",
+              "notes": "XuEV37S1L7KtFcR4UI0Pq9nd53p4SaEqZzflAFL7dOPdXma5FZTosp38sf453Ix0nfIfal2YqvVUb46etg1aYIctR4YlncbFvMbozwi87NWnCDpBVoJEvtSmSMwqONhrT5REoNgc76ul5vsMpCi0jgVXLhoMm2E56q2PvLfK5Zc8g6IY3t5qQhibU3F7tE8ibNNLThX3tsTXd1xNWQkJlqhoqyOprUWdCj0aVtkmUOwyAVbkcDU4FUiBn6",
+              "received": false
+            }
+          ],
+          "total_price": 12610,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

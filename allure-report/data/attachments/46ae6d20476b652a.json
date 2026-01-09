@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:26:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-haqGsoagTSPaRZbWF4YMJTPOi9M\"",
+    "keep-alive": "timeout=5, max=52",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180b21c508c5d5eaedc4e",
+        "email": "Immanuel54@hotmail.com",
+        "name": "Precious Turner",
+        "country": "Germany",
+        "city": "Cruickshankhaven",
+        "street": "Ridge Road",
+        "house": 26,
+        "flat": 44,
+        "phone": "+14232808857",
+        "createdOn": "2026-01-09T22:26:58.000Z",
+        "notes": "DVUgphECHD7rAMEtQatwfCVcHp2QVYxizUgPsKSS3Oongy0Ntw9rm1fmM8fJ3Q2CvraTx1KHB80tz2SVccURZncJpEo1NMuGtVqfJGfjExJvr3M8I7Aq9CuMZNKz9oDleESj5RSfvKBueow7ZOjsVYfKPHxeSMeqj02aF6LHClggpJMrYt4bXVCDvMHwMhM6PnZ5WSIOjfLuKjV5mFVh5ecOuFghF2lvwuTungOFMhlQY9Y7GUUgrbYT18"
+      },
+      "products": [
+        {
+          "_id": "696180b21c508c5d5eaedc60",
+          "name": "Bacon45317",
+          "amount": 963,
+          "price": 2676,
+          "manufacturer": "Apple",
+          "notes": "YaDvpcdKdgWtVxLNwVDVNys1b7WE3qYkit8KrAD9M6T7M8H8AItolxmIreuMyVbvhFEa6AeiLO7K8lvZlweCz8klG8v38wB7ci8TTvvVd9BcL0ijNqT32nTZhOTZXXEBEG38TvkvW7iAEAh8s82TsYvV5d5ut8MVIFHJ7ZsJfy3wNPXrXBV6YhDwxAfKEqgZPEVOsNKoDPBjTr6BUZ7XzF20b0D6x73KEv2Ed0O56CC5hAC9J5E8G6H13O",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2676,
+      "createdOn": "2026-01-09T22:26:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180b21c508c5d5eaedc4e",
+          "products": [
+            {
+              "_id": "696180b21c508c5d5eaedc60",
+              "name": "Bacon45317",
+              "amount": 963,
+              "price": 2676,
+              "manufacturer": "Apple",
+              "notes": "YaDvpcdKdgWtVxLNwVDVNys1b7WE3qYkit8KrAD9M6T7M8H8AItolxmIreuMyVbvhFEa6AeiLO7K8lvZlweCz8klG8v38wB7ci8TTvvVd9BcL0ijNqT32nTZhOTZXXEBEG38TvkvW7iAEAh8s82TsYvV5d5ut8MVIFHJ7ZsJfy3wNPXrXBV6YhDwxAfKEqgZPEVOsNKoDPBjTr6BUZ7XzF20b0D6x73KEv2Ed0O56CC5hAC9J5E8G6H13O",
+              "received": false
+            }
+          ],
+          "total_price": 2676,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:26:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180b31c508c5d5eaedc90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

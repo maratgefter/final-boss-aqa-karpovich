@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3869",
+    "etag": "W/\"f1d-PpO+u/M1UpnnRhu3cBSBkL4hO/Y\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696180cd1c508c5d5eaeee8c",
+      "status": "In Process",
+      "customer": {
+        "_id": "696180cc1c508c5d5eaeee1b",
+        "email": "Nathen.Larkin2@hotmail.com",
+        "name": "Breanne Baumbach",
+        "country": "Germany",
+        "city": "Folsom",
+        "street": "Mante Harbors",
+        "house": 34,
+        "flat": 630,
+        "phone": "+15662641113",
+        "createdOn": "2026-01-09T22:27:24.000Z",
+        "notes": "pXQeUXo0YmnXLs6yTLL63vP26KZKBXrlRo33ega6v4bfWUBqVsonZpxTNFOEP3B97ZnmS6A5giepWWr2TlIyDh1FD8dRZoYYEgFfpfKGXa5h1brCBtD25FslfFKWi9GbqOd9EsiYLUU1nuxLENJrtAlQtJRQngWQgnAs7in0vkHaa4fVQ2T0mE4to4UMnmHoaRPyzVSyxwlMsNsbL7InX9aeFenIGDIRks88xFbrrzRJojQn27IoIY7kTm"
+      },
+      "products": [
+        {
+          "_id": "696180cd1c508c5d5eaeee52",
+          "name": "Pants71871",
+          "amount": 297,
+          "price": 19661,
+          "manufacturer": "Google",
+          "notes": "Soim2COYrcFznh3S64lcT8IERUHSc7Oacc2Jf3G0C8wZAKUFulWwDaQLqp5OBw8xfj36YuTQg288G3lj4BGExnPVA91Y42jmsm0M4vSp51aT1rryNGS7wDDxxVvvM1yLxoGb3lKBzsW7fmYeeDdhTyoFgy0JYBYpGTuPtR6XeDep2eTm6UN0kIvXzzUEtZXYeqa40JZApo4puZytokfoMJT1mSYhD1mENqRwMdgLiHUV5SIhqtqP57SIym",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Folsom",
+          "street": "Mante Harbors",
+          "house": 34,
+          "flat": 630
+        },
+        "finalDate": "2026-01-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 19661,
+      "createdOn": "2026-01-09T22:27:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696180cc1c508c5d5eaeee1b",
+          "products": [
+            {
+              "_id": "696180cd1c508c5d5eaeee52",
+              "name": "Pants71871",
+              "amount": 297,
+              "price": 19661,
+              "manufacturer": "Google",
+              "notes": "Soim2COYrcFznh3S64lcT8IERUHSc7Oacc2Jf3G0C8wZAKUFulWwDaQLqp5OBw8xfj36YuTQg288G3lj4BGExnPVA91Y42jmsm0M4vSp51aT1rryNGS7wDDxxVvvM1yLxoGb3lKBzsW7fmYeeDdhTyoFgy0JYBYpGTuPtR6XeDep2eTm6UN0kIvXzzUEtZXYeqa40JZApo4puZytokfoMJT1mSYhD1mENqRwMdgLiHUV5SIhqtqP57SIym",
+              "received": false
+            }
+          ],
+          "total_price": 19661,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Folsom",
+              "street": "Mante Harbors",
+              "house": 34,
+              "flat": 630
+            },
+            "finalDate": "2026-01-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-09T22:27:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696180cc1c508c5d5eaeee1b",
+          "products": [
+            {
+              "_id": "696180cd1c508c5d5eaeee52",
+              "name": "Pants71871",
+              "amount": 297,
+              "price": 19661,
+              "manufacturer": "Google",
+              "notes": "Soim2COYrcFznh3S64lcT8IERUHSc7Oacc2Jf3G0C8wZAKUFulWwDaQLqp5OBw8xfj36YuTQg288G3lj4BGExnPVA91Y42jmsm0M4vSp51aT1rryNGS7wDDxxVvvM1yLxoGb3lKBzsW7fmYeeDdhTyoFgy0JYBYpGTuPtR6XeDep2eTm6UN0kIvXzzUEtZXYeqa40JZApo4puZytokfoMJT1mSYhD1mENqRwMdgLiHUV5SIhqtqP57SIym",
+              "received": false
+            }
+          ],
+          "total_price": 19661,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Folsom",
+              "street": "Mante Harbors",
+              "house": 34,
+              "flat": 630
+            },
+            "finalDate": "2026-01-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-09T22:27:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696180cc1c508c5d5eaeee1b",
+          "products": [
+            {
+              "_id": "696180cd1c508c5d5eaeee52",
+              "name": "Pants71871",
+              "amount": 297,
+              "price": 19661,
+              "manufacturer": "Google",
+              "notes": "Soim2COYrcFznh3S64lcT8IERUHSc7Oacc2Jf3G0C8wZAKUFulWwDaQLqp5OBw8xfj36YuTQg288G3lj4BGExnPVA91Y42jmsm0M4vSp51aT1rryNGS7wDDxxVvvM1yLxoGb3lKBzsW7fmYeeDdhTyoFgy0JYBYpGTuPtR6XeDep2eTm6UN0kIvXzzUEtZXYeqa40JZApo4puZytokfoMJT1mSYhD1mENqRwMdgLiHUV5SIhqtqP57SIym",
+              "received": false
+            }
+          ],
+          "total_price": 19661,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

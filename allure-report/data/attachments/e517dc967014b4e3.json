@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-wSiCiUhXygOmFQkAK3Dk92ymoT0\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180b71c508c5d5eaedf3f",
+        "email": "Linwood.Stiedemann@yahoo.com",
+        "name": "Misael Kuhlman",
+        "country": "Russia",
+        "city": "Ferrycester",
+        "street": "Clementina Key",
+        "house": 45,
+        "flat": 806,
+        "phone": "+16898629602",
+        "createdOn": "2026-01-09T22:27:03.000Z",
+        "notes": "DTgCpl7tJd0FGzrJaOd1KxZQDzo57mpJfsT5fVtv8opwUpiI9OKH4xuG1euGg4lYF40Nu0G7KB5nHAIpdMF4zrWW6ZQIz8V5mhiRVBM4VmODWQ0cBWEpIET9PNDRJAO8lqEt89KNWhf3ptvvRtrWFqJEJcR4P2mFAW49QPVbaTb2XH6CBpo2zLB2cesJIElQDQX9kpUmFyYv5ocZzGvS47eIPccFvMBa62kNdYWEdtJh4D2UiyzN1fEzCK"
+      },
+      "products": [
+        {
+          "_id": "696180ba1c508c5d5eaee11a",
+          "name": "Hat25249",
+          "amount": 850,
+          "price": 54844,
+          "manufacturer": "Apple",
+          "notes": "fE9Qav9AQNmGeYA8ceKXEnuQx9KygyLC8A0qqvSu3GYbbLS4yV0gA5NQ5o5StZCYkX7eqBxbd7ugB0vjdQOfrmo9AMOQTiPWMON2piZX1W0jWYnVQ58WswqAbRWNx8F3MB4UYFLWqhZevo3kK9YiHjMCQoWt7hc3HcNOZTUjt1XMWvofPBGCBQ1GlzEXqNJeHcrO0VwBi87Svp2jfAXX1dQlLfq1D3e0OUelYLLlNkA7AGkQSJJqzKrA8v",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54844,
+      "createdOn": "2026-01-09T22:27:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180b71c508c5d5eaedf3f",
+          "products": [
+            {
+              "_id": "696180ba1c508c5d5eaee11a",
+              "name": "Hat25249",
+              "amount": 850,
+              "price": 54844,
+              "manufacturer": "Apple",
+              "notes": "fE9Qav9AQNmGeYA8ceKXEnuQx9KygyLC8A0qqvSu3GYbbLS4yV0gA5NQ5o5StZCYkX7eqBxbd7ugB0vjdQOfrmo9AMOQTiPWMON2piZX1W0jWYnVQ58WswqAbRWNx8F3MB4UYFLWqhZevo3kK9YiHjMCQoWt7hc3HcNOZTUjt1XMWvofPBGCBQ1GlzEXqNJeHcrO0VwBi87Svp2jfAXX1dQlLfq1D3e0OUelYLLlNkA7AGkQSJJqzKrA8v",
+              "received": false
+            }
+          ],
+          "total_price": 54844,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180ba1c508c5d5eaee13d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

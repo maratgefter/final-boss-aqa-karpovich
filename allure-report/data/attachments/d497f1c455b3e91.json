@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-0nQB3jUYlCMY64r2yDQqyFdo1K4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696180c21c508c5d5eaee6b4",
+      "status": "Draft",
+      "customer": {
+        "_id": "696180ba1c508c5d5eaee127",
+        "email": "Haley_Volkman16@yahoo.com",
+        "name": "Alivia Jacobson",
+        "country": "Belarus",
+        "city": "Reichelberg",
+        "street": "Adams Avenue",
+        "house": 34,
+        "flat": 823,
+        "phone": "+17346208464",
+        "createdOn": "2026-01-09T22:27:06.000Z",
+        "notes": "UyqhaZQqAyxK8Znk7oNhQbH6LWQjrvBAy72J2ZYly6fW5ooVefMeJlXqKtOXqq3KNFrua9ao8ibYJJVHa1mnfQ1nuc0oN9jW06tiSvteHLY2AOljHbQuk4e0DkeZWAMwhmZbH83t8yANxKheIaux835DbX9FkqCqw3OqGvcFWtb3l5cPneRIQlR1dkSgYVBmSGd9ABVW8k8zSP2GNfSjGYTgyFRPc4mWqJWzyFFggNWqjmjuPiQUZIbDZK"
+      },
+      "products": [
+        {
+          "_id": "696180be1c508c5d5eaee3ed",
+          "name": "Keyboard87372",
+          "amount": 237,
+          "price": 6162,
+          "manufacturer": "Xiaomi",
+          "notes": "AFBOkaAwqcV8SbtIiNrRuvkabjZs2ylq9WG0qOxqr9vxiYyS3TKbew9DKgb73pCVEO8xJQ9Veap3zSJr98PmrelTDaiEZ5LPfHWPftgKOYraHdURkYJGUXJuFdE9gozKphbVjjjpK5loESOMixrzArg05TwWZhlQSbzJD7fuAiiXSSK0njBMOEJa3K504mxLfKkMiQnvL1rbBBgH3TkFEgoJ88ClJb096YHOCX13s0K2zDdxcdOy7H2hD5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6162,
+      "createdOn": "2026-01-09T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180ba1c508c5d5eaee127",
+          "products": [
+            {
+              "_id": "696180be1c508c5d5eaee3ed",
+              "name": "Keyboard87372",
+              "amount": 237,
+              "price": 6162,
+              "manufacturer": "Xiaomi",
+              "notes": "AFBOkaAwqcV8SbtIiNrRuvkabjZs2ylq9WG0qOxqr9vxiYyS3TKbew9DKgb73pCVEO8xJQ9Veap3zSJr98PmrelTDaiEZ5LPfHWPftgKOYraHdURkYJGUXJuFdE9gozKphbVjjjpK5loESOMixrzArg05TwWZhlQSbzJD7fuAiiXSSK0njBMOEJa3K504mxLfKkMiQnvL1rbBBgH3TkFEgoJ88ClJb096YHOCX13s0K2zDdxcdOy7H2hD5",
+              "received": false
+            }
+          ],
+          "total_price": 6162,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:26:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-DyKqTX3McyChS9qWRFTIRzvVDzo\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180a11c508c5d5eaed18d",
+        "email": "Krista.Macejkovic@yahoo.com",
+        "name": "Zella Wiza",
+        "country": "Belarus",
+        "city": "Fort Novafield",
+        "street": "Bernadine Flats",
+        "house": 49,
+        "flat": 691,
+        "phone": "+15949318930",
+        "createdOn": "2026-01-09T22:26:41.000Z",
+        "notes": "pbsShH1VOWLTzfUXQnstlL0wNAPwDfsHk78Co5rdLU7pHsbL1hw6o2UZvLH4wF5LhXvzDpwMPgynlT9Vv4paxe1qsJPZd833UaYTgh1Ii2HORzvYPwHJgw7q10gWYtGHWnJ3M0SwZIuedzpOBNVjP5vW6d8p5pv9cBSMRrNyPBl1WNVyyDXDw7quNnO5iuGmxZDcPkDZZXNHO0zVDQoiGKFjCF0qp4eZijXuV0wUhR8u2m3FJoFTTsWzQc"
+      },
+      "products": [
+        {
+          "_id": "696180a21c508c5d5eaed1c6",
+          "name": "Car19280",
+          "amount": 105,
+          "price": 34395,
+          "manufacturer": "Amazon",
+          "notes": "8HakdL2Etkf6DBggoK3OI3mBMcvgFXatzKmMl9YhFI3JtYKCvWCfDmRQ3xCOuQLTnKF7gH0wX7t4OYq6sKPS8pPDARxVcwG7yylb8q69scphvvX188t1oyxduQc8Fa85gdAj4qZIJlDWIIViOpmMcwefJrozm0NmP64c83vyipQZV9zPhgAArE71ua69ezXERRg2wjRkQh2dS3iY3Jvy2lsIRanXzkVvSmGOUojyXAkQLm9KSUL26xhczD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34395,
+      "createdOn": "2026-01-09T22:26:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180a11c508c5d5eaed18d",
+          "products": [
+            {
+              "_id": "696180a21c508c5d5eaed1c6",
+              "name": "Car19280",
+              "amount": 105,
+              "price": 34395,
+              "manufacturer": "Amazon",
+              "notes": "8HakdL2Etkf6DBggoK3OI3mBMcvgFXatzKmMl9YhFI3JtYKCvWCfDmRQ3xCOuQLTnKF7gH0wX7t4OYq6sKPS8pPDARxVcwG7yylb8q69scphvvX188t1oyxduQc8Fa85gdAj4qZIJlDWIIViOpmMcwefJrozm0NmP64c83vyipQZV9zPhgAArE71ua69ezXERRg2wjRkQh2dS3iY3Jvy2lsIRanXzkVvSmGOUojyXAkQLm9KSUL26xhczD",
+              "received": false
+            }
+          ],
+          "total_price": 34395,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:26:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180a21c508c5d5eaed1f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

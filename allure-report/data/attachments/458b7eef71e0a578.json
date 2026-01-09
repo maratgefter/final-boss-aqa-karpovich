@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:28:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-VQhAF/um5NtzfNfKTTP8KQrnI8g\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696181121c508c5d5eaf1db5",
+        "email": "Isidro_Gerlach@gmail.com",
+        "name": "Lois Beahan",
+        "country": "Ukraine",
+        "city": "Murfreesboro",
+        "street": "Stanley Road",
+        "house": 17,
+        "flat": 317,
+        "phone": "+13228350616",
+        "createdOn": "2026-01-09T22:28:34.000Z",
+        "notes": "KS2f7M0bQR7fYcZxvDFGyb1bAqdablzQd9YYLnBCt07wysAGWltVlJHSfxHdqmiZGhryiOqTIUFIrajtO6IxEDDpEvclWFCgOjC15GvoiFOXyR0heCX0kd9eLve6b5nqqjBBDaxvLkoxsHaC52ixCzaYGMHj3tH2AV7iCIQrwotgUTC2hd0Wga9QMN2C8cbUHn12ZIeEw1YCroz0qbfHyTQQ0hGkD23BwzPZhnKlVQueUItPWJ4HbwdI0X"
+      },
+      "products": [
+        {
+          "_id": "696181141c508c5d5eaf1ed5",
+          "name": "Chair82368",
+          "amount": 617,
+          "price": 922,
+          "manufacturer": "Microsoft",
+          "notes": "ocMZd2HLGveBlYgQu4aL6CNpgMHuus10pYkb0mHucGtr0j3MVQ6Fxs7uLgmazH4HJap7OWyumzF5nN27ZP4MV7etHGVibMjte23odYQiv7pMBQjlCcZqglueHV9fK2O4c8cFBqtNsxL5nJ3SRizTu0iU5jCLkrn7QEPTeFaDqvEeC2rgiXZfHJNuPUdoRRXvJ5XcClMFlgAYiTBZMnlQ9TPeBwV1803HDyTndV9uJcAGmEd2xfTbuO6lUW",
+          "received": false
+        },
+        {
+          "_id": "696181171c508c5d5eaf20c3",
+          "name": "Cheese11433",
+          "amount": 677,
+          "price": 37218,
+          "manufacturer": "Sony",
+          "notes": "9dXwCn6gH1DZuA6xT0dqdhLTeBwRG2vGiCKAd8s7cL2J7Sdh6rOy7G3bFEu0rn2CDak0JZKVYl4AyPuusYvUvmnsCDBcPpQoxcFy1qgIqbq5V1sHjnIDrngprDmMMihTTH70s5PkEUQpN9xXmP5iKuwKzRCmeNzfMdNSl88v5DwFaZxRS9fPsABwhVIvOYVnE0Na7ijwnyzxOKo7pgk1Ib1obX8jpFBS9ChCEW49SwDpOqa0YJsHz4L9sC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38140,
+      "createdOn": "2026-01-09T22:28:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696181121c508c5d5eaf1db5",
+          "products": [
+            {
+              "_id": "696181141c508c5d5eaf1ed5",
+              "name": "Chair82368",
+              "amount": 617,
+              "price": 922,
+              "manufacturer": "Microsoft",
+              "notes": "ocMZd2HLGveBlYgQu4aL6CNpgMHuus10pYkb0mHucGtr0j3MVQ6Fxs7uLgmazH4HJap7OWyumzF5nN27ZP4MV7etHGVibMjte23odYQiv7pMBQjlCcZqglueHV9fK2O4c8cFBqtNsxL5nJ3SRizTu0iU5jCLkrn7QEPTeFaDqvEeC2rgiXZfHJNuPUdoRRXvJ5XcClMFlgAYiTBZMnlQ9TPeBwV1803HDyTndV9uJcAGmEd2xfTbuO6lUW",
+              "received": false
+            },
+            {
+              "_id": "696181171c508c5d5eaf20c3",
+              "name": "Cheese11433",
+              "amount": 677,
+              "price": 37218,
+              "manufacturer": "Sony",
+              "notes": "9dXwCn6gH1DZuA6xT0dqdhLTeBwRG2vGiCKAd8s7cL2J7Sdh6rOy7G3bFEu0rn2CDak0JZKVYl4AyPuusYvUvmnsCDBcPpQoxcFy1qgIqbq5V1sHjnIDrngprDmMMihTTH70s5PkEUQpN9xXmP5iKuwKzRCmeNzfMdNSl88v5DwFaZxRS9fPsABwhVIvOYVnE0Na7ijwnyzxOKo7pgk1Ib1obX8jpFBS9ChCEW49SwDpOqa0YJsHz4L9sC",
+              "received": false
+            }
+          ],
+          "total_price": 38140,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:28:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696181171c508c5d5eaf20ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

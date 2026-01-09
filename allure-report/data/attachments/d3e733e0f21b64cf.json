@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:27:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-VwhzO09bEirv69dxulCC6O6CNI4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696180b71c508c5d5eaedf06",
+        "email": "Buddy81@hotmail.com",
+        "name": "Anita Lakin",
+        "country": "Canada",
+        "city": "South Baronhaven",
+        "street": "Kestrel Close",
+        "house": 3,
+        "flat": 866,
+        "phone": "+13278124846",
+        "createdOn": "2026-01-09T22:27:03.000Z",
+        "notes": "6y522xhDAbs4V7H2R3xNGotdDVdgCRMUGCY7fgTMlOXwxoipAUIzLjhxTu6rKXdxJfVVTLlfXtpV1ZEdbmloid5SalJvRbNy6Jfv9sQkPFNABK7bzWUNr2ibtWjVsjKcgMIa4BXQWbcg6Ow9SPAA2R5r0QzjaSPnpXn1YIcSY45y5u0aack1JMguiFo7UrOlUuZpphrm05rots4B5Xes9YVtOhlPnBYgvbbza34feiwETqQy851GP0X5LA"
+      },
+      "products": [
+        {
+          "_id": "696180b71c508c5d5eaedf1b",
+          "name": "Shirt82972",
+          "amount": 353,
+          "price": 61091,
+          "manufacturer": "Tesla",
+          "notes": "65vqdWVcMe2PjCQ5JBVD3rrkdEI6MRaymtg3rcYMA5lLCuuPIeKbigpovOcxpnxEGzYBTBsv5vu0YgTQH6cI5EthvR9hhJpb9KgznDFRIK1h5dVhDqFe3CMHoKz02jXspyufa6e5M59jXW9EoKGYNiNbqbQ6oUErS3ebuh76mjoR13riii5C4PAPrHnYMLKCq78DeyKNImOdQMmJTYmsgTfBUismt03iLA1I7yz6RvpuULHUej23LSU1Ld",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61091,
+      "createdOn": "2026-01-09T22:27:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696180b71c508c5d5eaedf06",
+          "products": [
+            {
+              "_id": "696180b71c508c5d5eaedf1b",
+              "name": "Shirt82972",
+              "amount": 353,
+              "price": 61091,
+              "manufacturer": "Tesla",
+              "notes": "65vqdWVcMe2PjCQ5JBVD3rrkdEI6MRaymtg3rcYMA5lLCuuPIeKbigpovOcxpnxEGzYBTBsv5vu0YgTQH6cI5EthvR9hhJpb9KgznDFRIK1h5dVhDqFe3CMHoKz02jXspyufa6e5M59jXW9EoKGYNiNbqbQ6oUErS3ebuh76mjoR13riii5C4PAPrHnYMLKCq78DeyKNImOdQMmJTYmsgTfBUismt03iLA1I7yz6RvpuULHUej23LSU1Ld",
+              "received": false
+            }
+          ],
+          "total_price": 61091,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:27:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696180b71c508c5d5eaedf35"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

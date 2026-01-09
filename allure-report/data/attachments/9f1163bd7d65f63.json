@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 09 Jan 2026 22:29:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-HVukTQSmrvgxm+dYwGhYP7u5O/Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696181281c508c5d5eaf2ccb",
+        "email": "Leanna.Effertz2@gmail.com",
+        "name": "Jimmy Franecki",
+        "country": "Belarus",
+        "city": "Carrollfurt",
+        "street": "Trenton Loop",
+        "house": 20,
+        "flat": 227,
+        "phone": "+14519960350",
+        "createdOn": "2026-01-09T22:28:56.000Z",
+        "notes": "zKJ8DDoDqVzrqzFCx421Ayl1hpZocyowmu9LJ5hjnkwlXNzA08xLGalbB2rd3RL6jzN4AynhD80x6D05pLJibTSMECiY2J8gIEOjJop2k588zzWFhQGfKiWYcQ4B1qaqSgutD1bfDP9VI29OpoKwOAZZmlxR5MsQQPerDq6EO7l3hlUD47PxQkry8EJyQG5jC3ANWnlWQd7FpeY5fcA7254iWJmBHQFaZvZos7i1Hyy50IQJY9MPB2Qq9H"
+      },
+      "products": [
+        {
+          "_id": "696181291c508c5d5eaf2d02",
+          "name": "Computer47917",
+          "amount": 838,
+          "price": 84759,
+          "manufacturer": "Apple",
+          "notes": "EOGHlEsrkwUD4Uhc6HKgdEPZq2YSle7jIum77roZA8d2SPbLWZEjmU0JPDyu8AcX67RAbFnMtz2XNYGN7E9mPbdC7yPAWIFs3CUi9P1eUN5J2dCg0EFGVII4bUIPtil33vsaupx91cnstp7B3nj7jiDgcNU29wdIgCnt9H70FQqQxv2OmOHlyE9KkWQTbgLCn34av9QScDaMYSB5uYmaPMmui04QOzoKBeiqNsUwd6nBTGs2DkAF721JoH",
+          "received": false
+        },
+        {
+          "_id": "6961812c1c508c5d5eaf2eed",
+          "name": "Sausages6189",
+          "amount": 470,
+          "price": 13628,
+          "manufacturer": "Google",
+          "notes": "N6dg34TDM9RAe8jfs9EgHq9p9EFN3tXzE8E5Otu1unBWKOcflP1eKmbOy4DXWC0KxkQV46aJgN4VA6ssLTdN7yyMzuNQibDdWKxeDa35D2rO1G6mRIaCdBa0S3X8ahhqJURnVzJRoke3rSaIo8c8FhA1sstI9H9aLsb5XmLI6i8PsyOQfdnqF5GB4NgLGlR55SuRHp9v71dRdaZC9qWlrLuoqG9sLK72R77rvo93vqojCNS6p07owMts96",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98387,
+      "createdOn": "2026-01-09T22:29:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696181281c508c5d5eaf2ccb",
+          "products": [
+            {
+              "_id": "696181291c508c5d5eaf2d02",
+              "name": "Computer47917",
+              "amount": 838,
+              "price": 84759,
+              "manufacturer": "Apple",
+              "notes": "EOGHlEsrkwUD4Uhc6HKgdEPZq2YSle7jIum77roZA8d2SPbLWZEjmU0JPDyu8AcX67RAbFnMtz2XNYGN7E9mPbdC7yPAWIFs3CUi9P1eUN5J2dCg0EFGVII4bUIPtil33vsaupx91cnstp7B3nj7jiDgcNU29wdIgCnt9H70FQqQxv2OmOHlyE9KkWQTbgLCn34av9QScDaMYSB5uYmaPMmui04QOzoKBeiqNsUwd6nBTGs2DkAF721JoH",
+              "received": false
+            },
+            {
+              "_id": "6961812c1c508c5d5eaf2eed",
+              "name": "Sausages6189",
+              "amount": 470,
+              "price": 13628,
+              "manufacturer": "Google",
+              "notes": "N6dg34TDM9RAe8jfs9EgHq9p9EFN3tXzE8E5Otu1unBWKOcflP1eKmbOy4DXWC0KxkQV46aJgN4VA6ssLTdN7yyMzuNQibDdWKxeDa35D2rO1G6mRIaCdBa0S3X8ahhqJURnVzJRoke3rSaIo8c8FhA1sstI9H9aLsb5XmLI6i8PsyOQfdnqF5GB4NgLGlR55SuRHp9v71dRdaZC9qWlrLuoqG9sLK72R77rvo93vqojCNS6p07owMts96",
+              "received": false
+            }
+          ],
+          "total_price": 98387,
+          "delivery": null,
+          "changedOn": "2026-01-09T22:29:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696181301c508c5d5eaf31cc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
