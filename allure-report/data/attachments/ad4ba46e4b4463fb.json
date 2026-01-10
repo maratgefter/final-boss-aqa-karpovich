@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:24:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-+9Vc1dMXluLCB/fqBQNfeY8XTdA\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d1b91c508c5d5eafaea3",
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1b81c508c5d5eafae3a",
+        "email": "Keenan.Kuhn85@hotmail.com",
+        "name": "Noah Ryan",
+        "country": "Germany",
+        "city": "New Fredericfort",
+        "street": "S Market Street",
+        "house": 45,
+        "flat": 331,
+        "phone": "+13717488279",
+        "createdOn": "2026-01-10T22:24:56.000Z",
+        "notes": "8d55BZfYQCNuDVM4WF3tVoOMgh8xVa1QAFv2w04sB48U7uAMJUeVwJfaAxqvIk7wW6bJCa2i7uGdtEwW9MMHeWbpPH8hPBS3G8X8vhUhvlSZVYp73089Kav6KAREymdOcXV047ridzgPXxEMz3kw0Quhi7W4KdHwPK1titOxImCthOJcptZrfwBWl6FinFWl6qr0wqlmjcHEUsYfLy365cZQfawvCFF28GQaIJtKHxIVSjmOt1bFmEmpXS"
+      },
+      "products": [
+        {
+          "_id": "6962d1b91c508c5d5eafae54",
+          "name": "Chair46867",
+          "amount": 845,
+          "price": 71572,
+          "manufacturer": "Sony",
+          "notes": "Z9FZ5oG7Eu2M1ITqP5NvqZQn0Q6OPheBQ5CfDSF70FirnSrtIjETs1SaDW0gowm0ZDliuqVtOJGUh6LxYdRDTxbscUnT4G3GAUQ1j3jnhGRLD30cbFrzYz63qOxNQaMepw1MuV9ytMwpFuFs1sOQHN1c3hFIuvZydjOL9vuwCmkg8ulWnQbJvIrdSWaKApINNh7ApdkGnF1nWm4SpvTOg5ZPfRJadbExjFy0dU9xGYNBUPc6DIOg5YW50e",
+          "received": false
+        },
+        {
+          "_id": "6962d1b91c508c5d5eafae6f",
+          "name": "Hat27154",
+          "amount": 504,
+          "price": 74529,
+          "manufacturer": "Amazon",
+          "notes": "MOLf3cz8gkr2S6hko3npA8MGOGHyMZ838kPPWRDaLZIqVZP0yv0usgYJPzqGILFoMBtQ3B09uUbNAMhxRt1zGFOAMUi0gn4941OZsqMRyFJPwUQm0ZVIgRGv8u8N3YNmVP7BG6tyMODKMacB9GTBrrk1bsC40JJPRr0VgWVpZkzen5r05S4LKRyMLwF2kgvu6EvgawMMMFC9TMHXouMunPUwFh6oRM1jwmzvYl3LiQ3n3V2AJWPcSWJGEL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 146101,
+      "createdOn": "2026-01-10T22:24:57.000Z",
+      "comments": [
+        {
+          "text": "<script>HA6v53Db6C3GS9f2U3tH6E4jrLFPwsAzyynPXAkTg1lJF6iMvIZqgdXNEXpFPZv4dtDBCKzOdoaTx0YV3TLLOHzWMGcAoyOa22iFmeFMYfLwO5WEpMDplExuP1mXyDEedS4Jy4vVH13NTtG25KWvJ2Yc51WplsBoI2Dymn1i3Krr35Q8IKzga7vDn0h20Qisx0IfVEiO >",
+          "createdOn": "2026-01-10T22:24:58.000Z",
+          "_id": "6962d1ba1c508c5d5eafaec5"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1b81c508c5d5eafae3a",
+          "products": [
+            {
+              "_id": "6962d1b91c508c5d5eafae54",
+              "name": "Chair46867",
+              "amount": 845,
+              "price": 71572,
+              "manufacturer": "Sony",
+              "notes": "Z9FZ5oG7Eu2M1ITqP5NvqZQn0Q6OPheBQ5CfDSF70FirnSrtIjETs1SaDW0gowm0ZDliuqVtOJGUh6LxYdRDTxbscUnT4G3GAUQ1j3jnhGRLD30cbFrzYz63qOxNQaMepw1MuV9ytMwpFuFs1sOQHN1c3hFIuvZydjOL9vuwCmkg8ulWnQbJvIrdSWaKApINNh7ApdkGnF1nWm4SpvTOg5ZPfRJadbExjFy0dU9xGYNBUPc6DIOg5YW50e",
+              "received": false
+            },
+            {
+              "_id": "6962d1b91c508c5d5eafae6f",
+              "name": "Hat27154",
+              "amount": 504,
+              "price": 74529,
+              "manufacturer": "Amazon",
+              "notes": "MOLf3cz8gkr2S6hko3npA8MGOGHyMZ838kPPWRDaLZIqVZP0yv0usgYJPzqGILFoMBtQ3B09uUbNAMhxRt1zGFOAMUi0gn4941OZsqMRyFJPwUQm0ZVIgRGv8u8N3YNmVP7BG6tyMODKMacB9GTBrrk1bsC40JJPRr0VgWVpZkzen5r05S4LKRyMLwF2kgvu6EvgawMMMFC9TMHXouMunPUwFh6oRM1jwmzvYl3LiQ3n3V2AJWPcSWJGEL",
+              "received": false
+            }
+          ],
+          "total_price": 146101,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

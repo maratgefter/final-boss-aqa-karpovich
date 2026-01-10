@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:25:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-HLtDYfhJqtg4lsO9TmETyC/5TSE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d1ce1c508c5d5eafbb26",
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1ca1c508c5d5eafb905",
+        "email": "May_Conn@gmail.com",
+        "name": "Reta Hettinger",
+        "country": "Ukraine",
+        "city": "Tonawanda",
+        "street": "Morissette Expressway",
+        "house": 38,
+        "flat": 333,
+        "phone": "+17885817529",
+        "createdOn": "2026-01-10T22:25:14.000Z",
+        "notes": "pX5WbPnXJpTMSFQOsJrI0zsQGtxcGXVWD3EtPNrBA9pUWwJovmFwpFo47fBTq2A5lj1CWPo0Rqlo0o8b4Kv2bkGPIodn8uJuyGa0FNP7yuv5RvXDLuCUG0kL7QtfXoDofhDBnSMkpagMQiRxcgBMW4MtycK3eUc7I17D8EZNyYx82YcUZNfIAjChKk3R0TberpsNpTs0rCMi0BPCqPjo3Sq6wiHNhYDnbptQAj7TyQmtNs9V6h8TjJW7J8"
+      },
+      "products": [
+        {
+          "_id": "6962d1cd1c508c5d5eafbb04",
+          "name": "Pizza57044",
+          "amount": 416,
+          "price": 41231,
+          "manufacturer": "Apple",
+          "notes": "QM2IfJFhiULCwVXcg8shJ4BAZPrKJO1vQDCk1IeiJovKTXTsShGtVonhXAqWjGWVIiArbw2xJI4GU8HfqZn3lkU5GhWh2VIwZkgVoPCXHFFS9WCLZmEbQZK8zkyA1zkJMJOD9VrJ0lpHkX1P8YxVt0vmYpKRJvHpujQHlhNix9SbmV7HFnDO2MM1vx8b3o7bldOwAYROO3JvwZ1Rc8gph7RTJvjbgPoFfxsJaqGH4sAwAtQ1NWgTHv2wxk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Rosiemouth",
+          "street": "South Road",
+          "house": 21,
+          "flat": 196
+        },
+        "finalDate": "2026-01-10T22:25:18.618Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41231,
+      "createdOn": "2026-01-10T22:25:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1ca1c508c5d5eafb905",
+          "products": [
+            {
+              "_id": "6962d1cd1c508c5d5eafbb04",
+              "name": "Pizza57044",
+              "amount": 416,
+              "price": 41231,
+              "manufacturer": "Apple",
+              "notes": "QM2IfJFhiULCwVXcg8shJ4BAZPrKJO1vQDCk1IeiJovKTXTsShGtVonhXAqWjGWVIiArbw2xJI4GU8HfqZn3lkU5GhWh2VIwZkgVoPCXHFFS9WCLZmEbQZK8zkyA1zkJMJOD9VrJ0lpHkX1P8YxVt0vmYpKRJvHpujQHlhNix9SbmV7HFnDO2MM1vx8b3o7bldOwAYROO3JvwZ1Rc8gph7RTJvjbgPoFfxsJaqGH4sAwAtQ1NWgTHv2wxk",
+              "received": false
+            }
+          ],
+          "total_price": 41231,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Rosiemouth",
+              "street": "South Road",
+              "house": 21,
+              "flat": 196
+            },
+            "finalDate": "2026-01-10T22:25:18.618Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-10T22:25:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6962d1ca1c508c5d5eafb905",
+          "products": [
+            {
+              "_id": "6962d1cd1c508c5d5eafbb04",
+              "name": "Pizza57044",
+              "amount": 416,
+              "price": 41231,
+              "manufacturer": "Apple",
+              "notes": "QM2IfJFhiULCwVXcg8shJ4BAZPrKJO1vQDCk1IeiJovKTXTsShGtVonhXAqWjGWVIiArbw2xJI4GU8HfqZn3lkU5GhWh2VIwZkgVoPCXHFFS9WCLZmEbQZK8zkyA1zkJMJOD9VrJ0lpHkX1P8YxVt0vmYpKRJvHpujQHlhNix9SbmV7HFnDO2MM1vx8b3o7bldOwAYROO3JvwZ1Rc8gph7RTJvjbgPoFfxsJaqGH4sAwAtQ1NWgTHv2wxk",
+              "received": false
+            }
+          ],
+          "total_price": 41231,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:25:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

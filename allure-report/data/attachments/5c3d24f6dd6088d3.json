@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:24:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-Q7DsYvBZxIPEaXTROJisbJ8OtW4\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1b41c508c5d5eafac41",
+        "email": "Selina.Kihn@yahoo.com",
+        "name": "Alphonso Gottlieb",
+        "country": "France",
+        "city": "Gottliebton",
+        "street": "Jeanne Wells",
+        "house": 50,
+        "flat": 901,
+        "phone": "+15863809135",
+        "createdOn": "2026-01-10T22:24:52.000Z",
+        "notes": "0BdUr5vZLcv9TOtnntQweIh2YbjkC1eLooxQ3aX8rG2LXdLsC1e2FO0HwfiAmnVrp9V7l3Neg10BjVcyFFE58RH4rujnWnGSjZ1LTkh7bK5yXslvjm55a6NGuFc55bb3JuDhscst5qhPpbWZQaH8KfdgAWJ1EoS1iUrkb0mSeskYq6F5k1eIUyifeUiOCVu4Fexw3imzjvDSEa88PTWxrX8bVhVQsYEkRd64gmGp1xp5nUOK85BVJJUmkY"
+      },
+      "products": [
+        {
+          "_id": "6962d1b51c508c5d5eafac66",
+          "name": "Gloves88872",
+          "amount": 578,
+          "price": 94442,
+          "manufacturer": "Xiaomi",
+          "notes": "bpQW7zeiuxfyJk44KlCiXTcKkUVPuybbkdlQ0PVTYyMv6IylOn2GdE6gZhUH7xHIMB0RjnGcqTblfynJOGj1wsW9dmq35uxdAFQ99BVTk2CYvqaS0M6VWYwaxmb5NEj3K0KDuNXbgXSVtNXhwCJQxw927js6eKEqkFrPwGa9JoOiBXulD46ZSwjsrs7DEx5iWFj0KNLKbFzwYzZ0yhV2cR75t8Ku2RyKYCKo6TBYy9pXb9WQ2xm4VXpPJ7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94442,
+      "createdOn": "2026-01-10T22:24:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1b41c508c5d5eafac41",
+          "products": [
+            {
+              "_id": "6962d1b51c508c5d5eafac66",
+              "name": "Gloves88872",
+              "amount": 578,
+              "price": 94442,
+              "manufacturer": "Xiaomi",
+              "notes": "bpQW7zeiuxfyJk44KlCiXTcKkUVPuybbkdlQ0PVTYyMv6IylOn2GdE6gZhUH7xHIMB0RjnGcqTblfynJOGj1wsW9dmq35uxdAFQ99BVTk2CYvqaS0M6VWYwaxmb5NEj3K0KDuNXbgXSVtNXhwCJQxw927js6eKEqkFrPwGa9JoOiBXulD46ZSwjsrs7DEx5iWFj0KNLKbFzwYzZ0yhV2cR75t8Ku2RyKYCKo6TBYy9pXb9WQ2xm4VXpPJ7",
+              "received": false
+            }
+          ],
+          "total_price": 94442,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6962d1b51c508c5d5eafac7d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

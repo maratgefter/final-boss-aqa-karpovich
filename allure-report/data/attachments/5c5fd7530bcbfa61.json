@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:26:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-skVgONFghy0zohnvzrwhEqtRoZw\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1f71c508c5d5eafd704",
+        "email": "Sonya.Jerde@hotmail.com",
+        "name": "Holly Towne",
+        "country": "Belarus",
+        "city": "North Weldonside",
+        "street": "Wood Lane",
+        "house": 18,
+        "flat": 730,
+        "phone": "+17727099210",
+        "createdOn": "2026-01-10T22:25:59.000Z",
+        "notes": "qGX6RWyoLGTVsGOXVKodLjXNsXZDu4lhEdYRzSSxflHOaLV4KETCsK8sbjZBlXjbHuHf2etBAUKOSJnqsl3TZFPIFx9r5uzfzqO3SJwu9fIF5opwEI7ikIcNBKci0M2MkKhepjqj6Qo2KIzSuLPfbydOOeuyDaXPpQZaGpVvVVtMj3KspriWcSG0kTTMDhQKT3P5jS7c4zyxl6EZC4l43HJSZOGDifsTRC0MjLrlJdLO79jCFsrXnrz3y4"
+      },
+      "products": [
+        {
+          "_id": "6962d1f91c508c5d5eafd829",
+          "name": "Fish69998",
+          "amount": 699,
+          "price": 4844,
+          "manufacturer": "Amazon",
+          "notes": "vYBQInQzBKl0QmxCH9J5kKq31FcerGXOSHyxuxExCqVo1aY8CuTBcsSoB9iND2khzCIeiHfUwWLGfvJ1CeSmcLwClfbDtzNymCqL6RjaMpker7hFpTwgVnqqsTk4TxEtdJgyIwRHiVt2iRRBY1FoXpiJjJq3wP5FZHfQ3fsbQB5IwsrFPdpUTwf6sUO0kVearegguaPMxaRCag4b359aPEoIs3SV5BZ4BNcgmvHxblIiJPbnfa9Gfn8UMt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4844,
+      "createdOn": "2026-01-10T22:26:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1f71c508c5d5eafd704",
+          "products": [
+            {
+              "_id": "6962d1f91c508c5d5eafd829",
+              "name": "Fish69998",
+              "amount": 699,
+              "price": 4844,
+              "manufacturer": "Amazon",
+              "notes": "vYBQInQzBKl0QmxCH9J5kKq31FcerGXOSHyxuxExCqVo1aY8CuTBcsSoB9iND2khzCIeiHfUwWLGfvJ1CeSmcLwClfbDtzNymCqL6RjaMpker7hFpTwgVnqqsTk4TxEtdJgyIwRHiVt2iRRBY1FoXpiJjJq3wP5FZHfQ3fsbQB5IwsrFPdpUTwf6sUO0kVearegguaPMxaRCag4b359aPEoIs3SV5BZ4BNcgmvHxblIiJPbnfa9Gfn8UMt",
+              "received": false
+            }
+          ],
+          "total_price": 4844,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:26:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6962d1fa1c508c5d5eafd94a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:25:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-Bog+BWu0pl2G53jMgqtEUVI8KOk\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1ca1c508c5d5eafb8f6",
+        "email": "Lonnie86@hotmail.com",
+        "name": "Pauline Gislason",
+        "country": "Canada",
+        "city": "Torpton",
+        "street": "Tre Burgs",
+        "house": 18,
+        "flat": 961,
+        "phone": "+18934990502",
+        "createdOn": "2026-01-10T22:25:14.000Z",
+        "notes": "EkJysyDpd9IX83mIXpkLRDSuLcSZ4Shrk8vK0cIm4XZQXijeQj4fhecsnbXHaCA8o2seCzWGJlvE8K5vmdwKVmL8LDsOEH5vtbRjftBOCWcEaMjPXAfkrbb70ky4qU3o3GX7uMdyLikbOCH35X7zlcMHDrA5nZe2orn9hxKEhkkqBjSfa9I2zY8sODGZ0Vn1fmE0uKeXE4NQ3MRZgsTPwOxUiSQqdly8CNgvH7pW8WMoycbDIM1QiOWgjf"
+      },
+      "products": [
+        {
+          "_id": "6962d1cc1c508c5d5eafbafa",
+          "name": "Bike77676",
+          "amount": 582,
+          "price": 76624,
+          "manufacturer": "Google",
+          "notes": "qSOqRoG3mocMmuJ4g79RZjzRXOjV9TamjuBdnUXr2a4VscuJrIxradehXX5O3tV4FUnwNadIRo7o03tbnPNj1LilSia6ppcOu3ltWTDZ9ghnqvwUVB7PCf3asDiaGTFvPUxe05lfa7RQVVTGuIrylwypfpkNVQN54AG8jT4SAzz4iWUQTcAM3nXZ2wP2RkettQCVy0xK9JmrmhhUGCyKpNBbH8oPm3714Ok8gDGstL8cHEpKmU8wmwiLjC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76624,
+      "createdOn": "2026-01-10T22:25:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1ca1c508c5d5eafb8f6",
+          "products": [
+            {
+              "_id": "6962d1cc1c508c5d5eafbafa",
+              "name": "Bike77676",
+              "amount": 582,
+              "price": 76624,
+              "manufacturer": "Google",
+              "notes": "qSOqRoG3mocMmuJ4g79RZjzRXOjV9TamjuBdnUXr2a4VscuJrIxradehXX5O3tV4FUnwNadIRo7o03tbnPNj1LilSia6ppcOu3ltWTDZ9ghnqvwUVB7PCf3asDiaGTFvPUxe05lfa7RQVVTGuIrylwypfpkNVQN54AG8jT4SAzz4iWUQTcAM3nXZ2wP2RkettQCVy0xK9JmrmhhUGCyKpNBbH8oPm3714Ok8gDGstL8cHEpKmU8wmwiLjC",
+              "received": false
+            }
+          ],
+          "total_price": 76624,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:25:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6962d1ce1c508c5d5eafbb28"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

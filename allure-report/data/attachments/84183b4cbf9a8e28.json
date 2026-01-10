@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:24:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2966",
+    "etag": "W/\"b96-YVmv7ovpjkxo787PN6KK+63M1gU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d1ba1c508c5d5eafaedb",
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1b91c508c5d5eafae66",
+        "email": "Salvador_Considine47@hotmail.com",
+        "name": "Mireille Strosin",
+        "country": "Russia",
+        "city": "East Ignatiusborough",
+        "street": "Hodkiewicz Court",
+        "house": 18,
+        "flat": 561,
+        "phone": "+13265421875",
+        "createdOn": "2026-01-10T22:24:57.000Z",
+        "notes": "PMYGcYxowlPUTxckJcXXffpVJ9pZsocx6R4WOPJCPUjtnVRuys13tQ8HID66YLvRTP2CDzEik0YIxlOwaNEcCgsPSOq2pBxnN9GbzsjjX6mo5MbAjGsaZSyOH9bNltrTEvTRhP49LDJSeIqqX22lydF8eUy5MgYsSTcWnxxmU18MBhkON9qXP3VFVDrTxiX0BhZF4SrIIzffbcaohYdbrE8DSFoUFaCiAeazbDk0OnsM92j67HgCCI0KxK"
+      },
+      "products": [
+        {
+          "_id": "6962d1b91c508c5d5eafae8e",
+          "name": "Hat24863",
+          "amount": 440,
+          "price": 31201,
+          "manufacturer": "Samsung",
+          "notes": "hJtgYwwFwXPUc1HFCgVnNW4F9CdWXK8RzMCpfWfpNrWh2gwOnMZ68qyAZE1rnWy3wQLfrGl9oieeOT7gD4JbxAG4N0nK0odRMZxdhuLEeTEA2Sb5UuE8XcZeGtTfvsQdOuhMHdoeHLOYtCbW7jP2IQco33z7BFgpLOdLg9ufDnOyGkkebMDjjvZi8x5JvBdnH5WvE9dvqQoxzMIkTONbxmRyRtABhNVtuxfe6hhE68lGIbo6EH9VWJz0sD",
+          "received": false
+        },
+        {
+          "_id": "6962d1ba1c508c5d5eafaeab",
+          "name": "Keyboard3248",
+          "amount": 967,
+          "price": 9798,
+          "manufacturer": "Microsoft",
+          "notes": "POQtfgCBzYpZUq7tpAelziSNTWtOcfHgCAURaP2dzHKQibU9tNWaVwNo9hO62wWrloAui3QrWYTsEfOGxSLPD5LnwgUEUxCxdyEHhj64U9uiYYrWXechUkIJ9s92MSvoajd7Srd96xCtJz5MTZJfPM9ar4Uust3qEc8ZGhTItyCYd4fnxnnkjUnbRdAEuyB3jPRbTwEMNgeI3kcO8kAwkmEDro0geDS1blOjxKtmIQi8KyGta7VMUcrjj1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40999,
+      "createdOn": "2026-01-10T22:24:58.000Z",
+      "comments": [
+        {
+          "text": "PoMQXgTfsnAqcUOODrXSikpwOkXbZWb7uljaiyZolJrcsfirOHnBOdu64WuPAanflflQWlFWA9AtbZzosh7As2KetpfqCd4883LcPEFJSoomSZAngEJzUsJfxZn7WEnz7iDOoRt3Czt9RRqcZkrlFBBwYynodJD4ISors7JtvtIf28PW2jZnML4n7HzFECqZv8k7LB2Z <",
+          "createdOn": "2026-01-10T22:24:58.000Z",
+          "_id": "6962d1ba1c508c5d5eafaf08"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1b91c508c5d5eafae66",
+          "products": [
+            {
+              "_id": "6962d1b91c508c5d5eafae8e",
+              "name": "Hat24863",
+              "amount": 440,
+              "price": 31201,
+              "manufacturer": "Samsung",
+              "notes": "hJtgYwwFwXPUc1HFCgVnNW4F9CdWXK8RzMCpfWfpNrWh2gwOnMZ68qyAZE1rnWy3wQLfrGl9oieeOT7gD4JbxAG4N0nK0odRMZxdhuLEeTEA2Sb5UuE8XcZeGtTfvsQdOuhMHdoeHLOYtCbW7jP2IQco33z7BFgpLOdLg9ufDnOyGkkebMDjjvZi8x5JvBdnH5WvE9dvqQoxzMIkTONbxmRyRtABhNVtuxfe6hhE68lGIbo6EH9VWJz0sD",
+              "received": false
+            },
+            {
+              "_id": "6962d1ba1c508c5d5eafaeab",
+              "name": "Keyboard3248",
+              "amount": 967,
+              "price": 9798,
+              "manufacturer": "Microsoft",
+              "notes": "POQtfgCBzYpZUq7tpAelziSNTWtOcfHgCAURaP2dzHKQibU9tNWaVwNo9hO62wWrloAui3QrWYTsEfOGxSLPD5LnwgUEUxCxdyEHhj64U9uiYYrWXechUkIJ9s92MSvoajd7Srd96xCtJz5MTZJfPM9ar4Uust3qEc8ZGhTItyCYd4fnxnnkjUnbRdAEuyB3jPRbTwEMNgeI3kcO8kAwkmEDro0geDS1blOjxKtmIQi8KyGta7VMUcrjj1",
+              "received": false
+            }
+          ],
+          "total_price": 40999,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

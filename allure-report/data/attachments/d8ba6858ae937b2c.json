@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:24:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-IVLVS9oNKA3FTUDHHjILMwvhCBQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1b11c508c5d5eafaaab",
+        "email": "Prudence_Hauck@yahoo.com",
+        "name": "Vidal Simonis",
+        "country": "Russia",
+        "city": "Gerholdtown",
+        "street": "Boundary Road",
+        "house": 27,
+        "flat": 128,
+        "phone": "+19118596804",
+        "createdOn": "2026-01-10T22:24:49.000Z",
+        "notes": "OAXmkKTTZL731LYuGqOxhTEEnZMZovFeYvrCSr5sUcxCYifwchPiD6J5dGnDLJ7LYFKXQQ1ruahx9arJiRGzvu5veR29TpR4yl9kDk2Vsupwv4Bf8coMLnvpWP9dCWviNoHyAyNof5ckXuX833FM8kmyb9JPYdBbinFh7ikv8vnONXxbjmdMvDBMXQUfWQb1GKCSbLVlKSUHWCT5xNTLSjEFhnZ41v2ULFYvpOrFDJbLlLlEeLKLZm1x6S"
+      },
+      "products": [
+        {
+          "_id": "6962d1b21c508c5d5eafaad2",
+          "name": "Shirt37864",
+          "amount": 125,
+          "price": 32766,
+          "manufacturer": "Sony",
+          "notes": "GilORkb3WakuycivrFqiqlcITT4Ne9hEZt7Ygoe8AOsQFebDOegr9246RjdBxyffy0ctavDMgm0p5AYaTVk5e6GvpGLa8MEjELQOz2Bm0ATNndIm6JHHC2YzwBBQWYUpJH0XZrCpTSxoJgIZ6ihO0VPbpjupbDrbdl4rDrqTD9fQqBHjNungwgZjV6rjFYnXZZ1jnWwetAXs5YbWVVBBATlsvlxVFxCdGS0jfGwYzAuBQvLzg0vLCYxjvB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32766,
+      "createdOn": "2026-01-10T22:24:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1b11c508c5d5eafaaab",
+          "products": [
+            {
+              "_id": "6962d1b21c508c5d5eafaad2",
+              "name": "Shirt37864",
+              "amount": 125,
+              "price": 32766,
+              "manufacturer": "Sony",
+              "notes": "GilORkb3WakuycivrFqiqlcITT4Ne9hEZt7Ygoe8AOsQFebDOegr9246RjdBxyffy0ctavDMgm0p5AYaTVk5e6GvpGLa8MEjELQOz2Bm0ATNndIm6JHHC2YzwBBQWYUpJH0XZrCpTSxoJgIZ6ihO0VPbpjupbDrbdl4rDrqTD9fQqBHjNungwgZjV6rjFYnXZZ1jnWwetAXs5YbWVVBBATlsvlxVFxCdGS0jfGwYzAuBQvLzg0vLCYxjvB",
+              "received": false
+            }
+          ],
+          "total_price": 32766,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6962d1b21c508c5d5eafaafa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

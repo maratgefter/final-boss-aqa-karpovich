@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:26:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5426",
+    "etag": "W/\"1532-HZF2mwpl8Y7unsQaJ4hpken4JC0\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d2001c508c5d5eafdba7",
+      "status": "In Process",
+      "customer": {
+        "_id": "6962d1fe1c508c5d5eafdb0f",
+        "email": "Mazie_King16@hotmail.com",
+        "name": "Salvador McCullough",
+        "country": "Germany",
+        "city": "San Antonio",
+        "street": "The Coppice",
+        "house": 4,
+        "flat": 411,
+        "phone": "+16175127561",
+        "createdOn": "2026-01-10T22:26:06.000Z",
+        "notes": "kWMFsmh0LqbmXdMdxYqPR6YSjD6MJ2tRcwi9ZUOyK9nQTe7ZbW4VTq5cvm3AGsBZ2AL6k40MrdYjFeMVS1CtIt8rGGf6Hpl5kjf4lXGSb2aKGtdOwcaTXOdPmwgjtXN8yJsK7AXIKB0BZKUcizojxlFgfqTCyKnv0SvnLdReGaSsL7CcTxoZcXNrG2acjprZKa7FE5CRNZXu2oktbHl08zZ8Dgo9qAOu921NSJ83YemX9HbbWz6s6bihrV"
+      },
+      "products": [
+        {
+          "_id": "6962d1fe1c508c5d5eafdb4d",
+          "name": "Table59410",
+          "amount": 365,
+          "price": 82428,
+          "manufacturer": "Xiaomi",
+          "notes": "2Zts73wFIGK7Sq1dKskFgLtLuRlhLi06X6UN9oHdT3fSU5e4lXW8HE60KVB7CwlgZ0oE7mc6YF9M6UrbVLTnJULpzDTLtN2ckQNVSoQV2ffd9H0oJJPbWVBkhuFHT0uUNklPBlyhbAD6qsObj2aTP8swEXCiJnSzEhCmyAmZgnxTK2xwcHRK8IpNmuqAGkwJaBJDCFbRorBiFdXHTBIhtVqxuvhatI4XubAp3ja4N8TDPyVSTlxjVadgRh",
+          "received": false
+        },
+        {
+          "_id": "6962d1ff1c508c5d5eafdb7c",
+          "name": "Sausages91864",
+          "amount": 179,
+          "price": 66440,
+          "manufacturer": "Tesla",
+          "notes": "9qNC7frCxomeNpzvNotX7q1nQulEle3MhZmh2x1tpyVD2BalaWHabXrXsbvc4JfCFOIejmUE07zMD3N3JsRMU4dCUmCsRSsduP4N4yxh0wDI3u6eR217mXtpason7CrGg9mC0xENTMFhcCWEadVckx7vD2m2UUa1KMn0u4r1wKbLPMvDEdzZDJ84VbpP5RBnTy8rgmFpRSn4PUdpDVguDkC3IdU0mpzk4EcnYwLmggAfKcQPDqPWF9ZpHM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "San Antonio",
+          "street": "The Coppice",
+          "house": 4,
+          "flat": 411
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 148868,
+      "createdOn": "2026-01-10T22:26:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6962d1fe1c508c5d5eafdb0f",
+          "products": [
+            {
+              "_id": "6962d1fe1c508c5d5eafdb4d",
+              "name": "Table59410",
+              "amount": 365,
+              "price": 82428,
+              "manufacturer": "Xiaomi",
+              "notes": "2Zts73wFIGK7Sq1dKskFgLtLuRlhLi06X6UN9oHdT3fSU5e4lXW8HE60KVB7CwlgZ0oE7mc6YF9M6UrbVLTnJULpzDTLtN2ckQNVSoQV2ffd9H0oJJPbWVBkhuFHT0uUNklPBlyhbAD6qsObj2aTP8swEXCiJnSzEhCmyAmZgnxTK2xwcHRK8IpNmuqAGkwJaBJDCFbRorBiFdXHTBIhtVqxuvhatI4XubAp3ja4N8TDPyVSTlxjVadgRh",
+              "received": false
+            },
+            {
+              "_id": "6962d1ff1c508c5d5eafdb7c",
+              "name": "Sausages91864",
+              "amount": 179,
+              "price": 66440,
+              "manufacturer": "Tesla",
+              "notes": "9qNC7frCxomeNpzvNotX7q1nQulEle3MhZmh2x1tpyVD2BalaWHabXrXsbvc4JfCFOIejmUE07zMD3N3JsRMU4dCUmCsRSsduP4N4yxh0wDI3u6eR217mXtpason7CrGg9mC0xENTMFhcCWEadVckx7vD2m2UUa1KMn0u4r1wKbLPMvDEdzZDJ84VbpP5RBnTy8rgmFpRSn4PUdpDVguDkC3IdU0mpzk4EcnYwLmggAfKcQPDqPWF9ZpHM",
+              "received": false
+            }
+          ],
+          "total_price": 148868,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "San Antonio",
+              "street": "The Coppice",
+              "house": 4,
+              "flat": 411
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-10T22:26:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6962d1fe1c508c5d5eafdb0f",
+          "products": [
+            {
+              "_id": "6962d1fe1c508c5d5eafdb4d",
+              "name": "Table59410",
+              "amount": 365,
+              "price": 82428,
+              "manufacturer": "Xiaomi",
+              "notes": "2Zts73wFIGK7Sq1dKskFgLtLuRlhLi06X6UN9oHdT3fSU5e4lXW8HE60KVB7CwlgZ0oE7mc6YF9M6UrbVLTnJULpzDTLtN2ckQNVSoQV2ffd9H0oJJPbWVBkhuFHT0uUNklPBlyhbAD6qsObj2aTP8swEXCiJnSzEhCmyAmZgnxTK2xwcHRK8IpNmuqAGkwJaBJDCFbRorBiFdXHTBIhtVqxuvhatI4XubAp3ja4N8TDPyVSTlxjVadgRh",
+              "received": false
+            },
+            {
+              "_id": "6962d1ff1c508c5d5eafdb7c",
+              "name": "Sausages91864",
+              "amount": 179,
+              "price": 66440,
+              "manufacturer": "Tesla",
+              "notes": "9qNC7frCxomeNpzvNotX7q1nQulEle3MhZmh2x1tpyVD2BalaWHabXrXsbvc4JfCFOIejmUE07zMD3N3JsRMU4dCUmCsRSsduP4N4yxh0wDI3u6eR217mXtpason7CrGg9mC0xENTMFhcCWEadVckx7vD2m2UUa1KMn0u4r1wKbLPMvDEdzZDJ84VbpP5RBnTy8rgmFpRSn4PUdpDVguDkC3IdU0mpzk4EcnYwLmggAfKcQPDqPWF9ZpHM",
+              "received": false
+            }
+          ],
+          "total_price": 148868,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "San Antonio",
+              "street": "The Coppice",
+              "house": 4,
+              "flat": 411
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-10T22:26:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6962d1fe1c508c5d5eafdb0f",
+          "products": [
+            {
+              "_id": "6962d1fe1c508c5d5eafdb4d",
+              "name": "Table59410",
+              "amount": 365,
+              "price": 82428,
+              "manufacturer": "Xiaomi",
+              "notes": "2Zts73wFIGK7Sq1dKskFgLtLuRlhLi06X6UN9oHdT3fSU5e4lXW8HE60KVB7CwlgZ0oE7mc6YF9M6UrbVLTnJULpzDTLtN2ckQNVSoQV2ffd9H0oJJPbWVBkhuFHT0uUNklPBlyhbAD6qsObj2aTP8swEXCiJnSzEhCmyAmZgnxTK2xwcHRK8IpNmuqAGkwJaBJDCFbRorBiFdXHTBIhtVqxuvhatI4XubAp3ja4N8TDPyVSTlxjVadgRh",
+              "received": false
+            },
+            {
+              "_id": "6962d1ff1c508c5d5eafdb7c",
+              "name": "Sausages91864",
+              "amount": 179,
+              "price": 66440,
+              "manufacturer": "Tesla",
+              "notes": "9qNC7frCxomeNpzvNotX7q1nQulEle3MhZmh2x1tpyVD2BalaWHabXrXsbvc4JfCFOIejmUE07zMD3N3JsRMU4dCUmCsRSsduP4N4yxh0wDI3u6eR217mXtpason7CrGg9mC0xENTMFhcCWEadVckx7vD2m2UUa1KMn0u4r1wKbLPMvDEdzZDJ84VbpP5RBnTy8rgmFpRSn4PUdpDVguDkC3IdU0mpzk4EcnYwLmggAfKcQPDqPWF9ZpHM",
+              "received": false
+            }
+          ],
+          "total_price": 148868,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:26:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

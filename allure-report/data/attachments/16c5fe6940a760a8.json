@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:24:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-f6sRyXk4skM18KfMu6DcNlILv2U\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d1b51c508c5d5eafac75",
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1b41c508c5d5eafac3f",
+        "email": "Annalise_Tremblay@yahoo.com",
+        "name": "Morton Lind",
+        "country": "Belarus",
+        "city": "White Plains",
+        "street": "Dandre Park",
+        "house": 43,
+        "flat": 277,
+        "phone": "+19647828541",
+        "createdOn": "2026-01-10T22:24:52.000Z",
+        "notes": "7Yxg0bawuSwXSmJ66NxnXNkqHSDH3YOkPXaoULD5f22wTGPyrjC2N0gKCXnwUcStgCKM4gXtOSrgxtSaVP1YS3b2ynYnqjR9qF4G6Ydqhzdl8HHRfL8Q5egq2tWgiEbJx5mVBiekXJ4x2lfLyumz8E5dK14r50OLAN7u3GSikO7MbBpXE7AshWMPykNbVCvGM6NakfvhdQpsRPPWH7jwBnDFaIr2uMyf37jWP86hwm8xO2o9WbUOkcL5mB"
+      },
+      "products": [
+        {
+          "_id": "6962d1b51c508c5d5eafac64",
+          "name": "Tuna75452",
+          "amount": 494,
+          "price": 13929,
+          "manufacturer": "Samsung",
+          "notes": "9ptoTVezwy5hRp9lE8rx7kzGsC4AwBNMk1rKo0nWFhc22r1oQ4xZuczuq1Mf4ovLRItKeKcmnHfw1vmSd3VacbqOpfYaPD3p1y73NcLH5iAA3BH5YLi8Nk5ZtusApmk1Tfud8Sb2hNoaEP9xZ8Mc8Rj6l6LimkFiF2QkGnI53zZChkCn8pK5wdE7p3HTMT6EyoVXQWvt0u9jl8ZtupaLja1umzPanqqSnOM1Od2TyOfDYxE0vCWw5nYV8D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13929,
+      "createdOn": "2026-01-10T22:24:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1b41c508c5d5eafac3f",
+          "products": [
+            {
+              "_id": "6962d1b51c508c5d5eafac64",
+              "name": "Tuna75452",
+              "amount": 494,
+              "price": 13929,
+              "manufacturer": "Samsung",
+              "notes": "9ptoTVezwy5hRp9lE8rx7kzGsC4AwBNMk1rKo0nWFhc22r1oQ4xZuczuq1Mf4ovLRItKeKcmnHfw1vmSd3VacbqOpfYaPD3p1y73NcLH5iAA3BH5YLi8Nk5ZtusApmk1Tfud8Sb2hNoaEP9xZ8Mc8Rj6l6LimkFiF2QkGnI53zZChkCn8pK5wdE7p3HTMT6EyoVXQWvt0u9jl8ZtupaLja1umzPanqqSnOM1Od2TyOfDYxE0vCWw5nYV8D",
+              "received": false
+            }
+          ],
+          "total_price": 13929,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6962d1b41c508c5d5eafac3f",
+          "products": [
+            {
+              "_id": "6962d1b51c508c5d5eafac64",
+              "name": "Tuna75452",
+              "amount": 494,
+              "price": 13929,
+              "manufacturer": "Samsung",
+              "notes": "9ptoTVezwy5hRp9lE8rx7kzGsC4AwBNMk1rKo0nWFhc22r1oQ4xZuczuq1Mf4ovLRItKeKcmnHfw1vmSd3VacbqOpfYaPD3p1y73NcLH5iAA3BH5YLi8Nk5ZtusApmk1Tfud8Sb2hNoaEP9xZ8Mc8Rj6l6LimkFiF2QkGnI53zZChkCn8pK5wdE7p3HTMT6EyoVXQWvt0u9jl8ZtupaLja1umzPanqqSnOM1Od2TyOfDYxE0vCWw5nYV8D",
+              "received": false
+            }
+          ],
+          "total_price": 13929,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:24:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

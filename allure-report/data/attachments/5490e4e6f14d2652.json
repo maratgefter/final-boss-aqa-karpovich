@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 10 Jan 2026 22:25:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-vquXJlrNwTtIe9Ijs/e0voxmzWI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6962d1d41c508c5d5eafbeee",
+      "status": "Draft",
+      "customer": {
+        "_id": "6962d1d21c508c5d5eafbd9e",
+        "email": "Barry.Aufderhar@gmail.com",
+        "name": "Jordon Wisozk",
+        "country": "USA",
+        "city": "Florianview",
+        "street": "Mill Road",
+        "house": 50,
+        "flat": 367,
+        "phone": "+13198116526",
+        "createdOn": "2026-01-10T22:25:22.000Z",
+        "notes": "TpHY5L7odl28C0t9qrsSH4x7mDjCSbeoMS0jSplqseVIv8nJFv4CAIouVtyO8qky9OhgyOQCzIq1LngW5SVB4o93W0ajIkRMfupwPXY2ZmjWKXY9EJdegqb2UHjD5BuPEiV7j0tdFHZEvUXzUZSisuFfgFIs1W0klhSAnIoy0i6vTfNF6YeXPkCui8ylFpCfwUQUOCWnc7LatbIgqQxd67XV8cPq4JtKdKWZHB967MSwLpx449Pf7N0MNB"
+      },
+      "products": [
+        {
+          "_id": "6962d1d21c508c5d5eafbdc1",
+          "name": "Cheese89291",
+          "amount": 565,
+          "price": 93263,
+          "manufacturer": "Xiaomi",
+          "notes": "NNzxIeeRarkfWLQVRZq0cga7WsB8f9mp4AJGdR8YjeL3pF6Zg9mB37iCKTRWRRbzDi4NVm5mGvnBDwUqO8UUClc8HNgX3lDrT211ZROd61XVgm3AGITAzHeJbZHRjSakAtPUODhuKTG5UOAQKcSspknrweboTxu2mTS01ZqJvCa5sQrmlilkDOJ5qYLmUHqeS7UYtCcqAALR7bdvBMUX6QSwKNEYCO680lwGJKvRiI3fbrsDBl1DLTEcuj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93263,
+      "createdOn": "2026-01-10T22:25:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6962d1d21c508c5d5eafbd9e",
+          "products": [
+            {
+              "_id": "6962d1d21c508c5d5eafbdc1",
+              "name": "Cheese89291",
+              "amount": 565,
+              "price": 93263,
+              "manufacturer": "Xiaomi",
+              "notes": "NNzxIeeRarkfWLQVRZq0cga7WsB8f9mp4AJGdR8YjeL3pF6Zg9mB37iCKTRWRRbzDi4NVm5mGvnBDwUqO8UUClc8HNgX3lDrT211ZROd61XVgm3AGITAzHeJbZHRjSakAtPUODhuKTG5UOAQKcSspknrweboTxu2mTS01ZqJvCa5sQrmlilkDOJ5qYLmUHqeS7UYtCcqAALR7bdvBMUX6QSwKNEYCO680lwGJKvRiI3fbrsDBl1DLTEcuj",
+              "received": false
+            }
+          ],
+          "total_price": 93263,
+          "delivery": null,
+          "changedOn": "2026-01-10T22:25:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
