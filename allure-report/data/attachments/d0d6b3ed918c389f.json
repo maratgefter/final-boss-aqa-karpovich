@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:25:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-FdainJaY3Sk/g6/TMQYxjhYpd7I\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696423411c508c5d5eb0f622",
+        "email": "Raoul72@hotmail.com",
+        "name": "Hank Gerlach",
+        "country": "Canada",
+        "city": "Port Jazmynland",
+        "street": "Columbia Avenue",
+        "house": 34,
+        "flat": 550,
+        "phone": "+13758494561",
+        "createdOn": "2026-01-11T22:25:05.000Z",
+        "notes": "UidpAQW1aCWtHcTVE0OiMAIBi8Bb0eh3Xlrlen3UJXZs5HYyjIOQjJMzs5eaxdJRohTrENHaQbJav1WjGwDbHKR269AUYVB3DRjibS3QZpxNtDbE2wt7LPUgJ0azMXTqUjEntZYn38BMr7wSTNrfGKwxhwBhPgfGdZNBWA1z7vN2htYKizEgzMe4tQeVnQMe0dV2BwJ3RKCAOrh3fdRdcGeARPCjILzxZSkjnPpgyUpPtWTJQoiRf93QkL"
+      },
+      "products": [
+        {
+          "_id": "696423411c508c5d5eb0f64e",
+          "name": "Chair25205",
+          "amount": 374,
+          "price": 78739,
+          "manufacturer": "Tesla",
+          "notes": "bTbxEYgOMLJp5UZWfDvj2QKgJcuKJaLpy4Cc1moXXf6VZSMwHMnGLT7pi1oYAO3UjASKuBGSRYlOuuzdYjidopWEDmYn7W2aDiIEGrzk33s4RI1NOsTjPCVlFd94B1SCfRFeTQULwyf3JNtJNBpmJ84p9kYVcAvfoucPvRqozEBHKCflMOAMj8UD1pv8t4KY6if1ChnMF8DOcE0vyQwovSAmQN9r1VrjnWhLvVS715zObP6jS3fqtM1GAI",
+          "received": false
+        },
+        {
+          "_id": "696423421c508c5d5eb0f66b",
+          "name": "Ball39610",
+          "amount": 194,
+          "price": 34327,
+          "manufacturer": "Sony",
+          "notes": "HHhO8FT0LbMVJskeXqMglcQdfwScAJbmHe0ih5yCGtdjAIVyhnhdF60H67k6HGrha4W8rEQwC6mlF3LI3VCTMVc0xekeBPQjZ3cGh8gMwDZHe2F0pHBrsnBzmNbk4B0MqXK6MK9trISnxdFnBXMrtkzvZZgXuvdyGBq3pdyXWq9WgiNLZwODyqOKci8hfUGnxB3BIIUrxobyCytfrQEkQqcEqlLVK5hSNMYhqrN3lQzR6nQuGSbeMloHmN",
+          "received": false
+        },
+        {
+          "_id": "696423421c508c5d5eb0f690",
+          "name": "Keyboard16306",
+          "amount": 366,
+          "price": 20722,
+          "manufacturer": "Xiaomi",
+          "notes": "HKp3miZlrs5qmYQqKeM99SdjKo0srH5YTwGjry0yFMA1e3TeaE6aftfTaU0omShJXiM9SjdomNSXfWc1fBFqd8OEKlcspHmzueBWurKaNIYaNym7PyWOwBpCMQTwyx6Mkn1IsBYDDxFQWXxRGZmijj8x4fxdXyx6grWm4ParX7Bd8ujKZQ4F9mT0PLwFnN4MUeqS7Jwo3neXxoUr1hl6NXvYRwLJsvg66FbuitFCTbhn0JfH6yNOj6y1FS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 133788,
+      "createdOn": "2026-01-11T22:25:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696423411c508c5d5eb0f622",
+          "products": [
+            {
+              "_id": "696423411c508c5d5eb0f64e",
+              "name": "Chair25205",
+              "amount": 374,
+              "price": 78739,
+              "manufacturer": "Tesla",
+              "notes": "bTbxEYgOMLJp5UZWfDvj2QKgJcuKJaLpy4Cc1moXXf6VZSMwHMnGLT7pi1oYAO3UjASKuBGSRYlOuuzdYjidopWEDmYn7W2aDiIEGrzk33s4RI1NOsTjPCVlFd94B1SCfRFeTQULwyf3JNtJNBpmJ84p9kYVcAvfoucPvRqozEBHKCflMOAMj8UD1pv8t4KY6if1ChnMF8DOcE0vyQwovSAmQN9r1VrjnWhLvVS715zObP6jS3fqtM1GAI",
+              "received": false
+            },
+            {
+              "_id": "696423421c508c5d5eb0f66b",
+              "name": "Ball39610",
+              "amount": 194,
+              "price": 34327,
+              "manufacturer": "Sony",
+              "notes": "HHhO8FT0LbMVJskeXqMglcQdfwScAJbmHe0ih5yCGtdjAIVyhnhdF60H67k6HGrha4W8rEQwC6mlF3LI3VCTMVc0xekeBPQjZ3cGh8gMwDZHe2F0pHBrsnBzmNbk4B0MqXK6MK9trISnxdFnBXMrtkzvZZgXuvdyGBq3pdyXWq9WgiNLZwODyqOKci8hfUGnxB3BIIUrxobyCytfrQEkQqcEqlLVK5hSNMYhqrN3lQzR6nQuGSbeMloHmN",
+              "received": false
+            },
+            {
+              "_id": "696423421c508c5d5eb0f690",
+              "name": "Keyboard16306",
+              "amount": 366,
+              "price": 20722,
+              "manufacturer": "Xiaomi",
+              "notes": "HKp3miZlrs5qmYQqKeM99SdjKo0srH5YTwGjry0yFMA1e3TeaE6aftfTaU0omShJXiM9SjdomNSXfWc1fBFqd8OEKlcspHmzueBWurKaNIYaNym7PyWOwBpCMQTwyx6Mkn1IsBYDDxFQWXxRGZmijj8x4fxdXyx6grWm4ParX7Bd8ujKZQ4F9mT0PLwFnN4MUeqS7Jwo3neXxoUr1hl6NXvYRwLJsvg66FbuitFCTbhn0JfH6yNOj6y1FS",
+              "received": false
+            }
+          ],
+          "total_price": 133788,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:25:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696423421c508c5d5eb0f6c7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

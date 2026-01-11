@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-L7IqlV6YOa229Os7BZACHr0h9Nw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964231e1c508c5d5eb0e51e",
+        "email": "Myrtle42@hotmail.com",
+        "name": "Delta Schumm",
+        "country": "Ukraine",
+        "city": "Palm Beach Gardens",
+        "street": "W Maple Street",
+        "house": 18,
+        "flat": 25,
+        "phone": "+18089654800",
+        "createdOn": "2026-01-11T22:24:30.000Z",
+        "notes": "pOlf5X8sa8Gitlk4OpJJ7bV6a5tTkptNE3zkOBR8tPvboL5opjXwqx8TdP5G83FVsiEtnpRYz8IjOkTMcyAIMNtg38aDwq1MwxXnM0cINMZxz9MnmrKuEiuOWeYCOCyBKJXOHitwQ2okf74qQ2lBXEv6VsD05SbJ4jWpoTcCibJ89lVemVp0ekfFDFqBSLZRwrik2VMUOTttmRhtuiMeGY3Bx6w0ahbBvYPiDEyke8SEqgC3PM1U7ZWIRL"
+      },
+      "products": [
+        {
+          "_id": "6964231e1c508c5d5eb0e52c",
+          "name": "Bacon60468",
+          "amount": 214,
+          "price": 69119,
+          "manufacturer": "Amazon",
+          "notes": "JlGcED1xHNBMJ1slR09Fgd8QSibiJktnmTyptjhT8R7Y5Gtl6qkD21dv02BsYOQ7KrbPEqTqRcb3mA0zR8BbNSo99CfZKYhh0KNJwrKVeb3WS3Uo1iOiubCPjJNPxITIvdD0QxQd445QFh1or0krTK8dc1FkTI2gXbDM65NsDseUW5E96G8umLzW0CGLGps6XTr8Y3gX6lhjhslxsDjZaUXBUmxnDBHrC1GxF0Kfr5eA4JJGCBPD5pgifr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69119,
+      "createdOn": "2026-01-11T22:24:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964231e1c508c5d5eb0e51e",
+          "products": [
+            {
+              "_id": "6964231e1c508c5d5eb0e52c",
+              "name": "Bacon60468",
+              "amount": 214,
+              "price": 69119,
+              "manufacturer": "Amazon",
+              "notes": "JlGcED1xHNBMJ1slR09Fgd8QSibiJktnmTyptjhT8R7Y5Gtl6qkD21dv02BsYOQ7KrbPEqTqRcb3mA0zR8BbNSo99CfZKYhh0KNJwrKVeb3WS3Uo1iOiubCPjJNPxITIvdD0QxQd445QFh1or0krTK8dc1FkTI2gXbDM65NsDseUW5E96G8umLzW0CGLGps6XTr8Y3gX6lhjhslxsDjZaUXBUmxnDBHrC1GxF0Kfr5eA4JJGCBPD5pgifr",
+              "received": false
+            }
+          ],
+          "total_price": 69119,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964231f1c508c5d5eb0e555"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

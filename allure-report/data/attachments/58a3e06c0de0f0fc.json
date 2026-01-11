@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-maQDZUVz9LPsAE1psi0MYzgMadQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964232b1c508c5d5eb0eb04",
+        "email": "Hanna60@gmail.com",
+        "name": "Flavie Schmidt",
+        "country": "Ukraine",
+        "city": "Lake Palma",
+        "street": "Stone Shores",
+        "house": 25,
+        "flat": 632,
+        "phone": "+17312551200",
+        "createdOn": "2026-01-11T22:24:43.000Z",
+        "notes": "i3yXuBOlTTXaZnxVN3S9t7j8MFoFJV0egq7ncs8Yo6E03sGaM7BACeAa7ADnJtX6PtTFmo5bVeQREJPtHkqVQIiuk38woTcZAncooQjMgLiw7UwUmfhtaYXzqylqfi5chKNuneMJ0DoOjxIUX6wwHqB7fN7H6ohBKfnDhSMGDRW6RxVLkHOyYPdy2b1RNvxC0ecl2bkrxETu9LdE5Qm1uKfSTc5yDozuOdJjNljhRfZiXh33kkIlBL0iOK"
+      },
+      "products": [
+        {
+          "_id": "6964232b1c508c5d5eb0eb29",
+          "name": "Keyboard13018",
+          "amount": 560,
+          "price": 6526,
+          "manufacturer": "Microsoft",
+          "notes": "K3J2eis9alV8KgaKOqncb6AFd14Sq0CIY7aDtJQmCcLXDvtugQ1dI7QRsYf6kCDfayQECGJ5b4Dx9YrIFjoqJy2fp9cyZgeRw74krF7XPy0qj3CR1L45EimxmdtIdshPkjKCWrMM09C9ArfgBqLIZAB4kY1FOJVCNcVNc7if7VBAuF72567rSv0MdDnesvqEGH4iET6bthlLJX5LVy3XeASANKFq8X8nlO4KgPPx4aEHcpfA519DBLLG8M",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6526,
+      "createdOn": "2026-01-11T22:24:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964232b1c508c5d5eb0eb04",
+          "products": [
+            {
+              "_id": "6964232b1c508c5d5eb0eb29",
+              "name": "Keyboard13018",
+              "amount": 560,
+              "price": 6526,
+              "manufacturer": "Microsoft",
+              "notes": "K3J2eis9alV8KgaKOqncb6AFd14Sq0CIY7aDtJQmCcLXDvtugQ1dI7QRsYf6kCDfayQECGJ5b4Dx9YrIFjoqJy2fp9cyZgeRw74krF7XPy0qj3CR1L45EimxmdtIdshPkjKCWrMM09C9ArfgBqLIZAB4kY1FOJVCNcVNc7if7VBAuF72567rSv0MdDnesvqEGH4iET6bthlLJX5LVy3XeASANKFq8X8nlO4KgPPx4aEHcpfA519DBLLG8M",
+              "received": false
+            }
+          ],
+          "total_price": 6526,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964232c1c508c5d5eb0eb51"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

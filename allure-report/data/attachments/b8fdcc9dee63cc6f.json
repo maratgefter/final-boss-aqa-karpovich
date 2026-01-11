@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-lF3Hy+8YEDKcl8MwqZUlojRCDmM\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964231f1c508c5d5eb0e56e",
+        "email": "Margret48@yahoo.com",
+        "name": "Raymundo Heaney",
+        "country": "USA",
+        "city": "Wuckertcester",
+        "street": "Walnut Close",
+        "house": 33,
+        "flat": 933,
+        "phone": "+15357555348",
+        "createdOn": "2026-01-11T22:24:31.000Z",
+        "notes": "hU2NaqBriiYWbSBoGLINcnE5TrF5cMKewbuQHOllbcvjqdx1PlbEbCGATXcZYdBaDo81fB0teAXC246WHGlRRx3MYkpCWM7RQIJkzzK4GK6AuBgmoI11Bc6LftXQjQTTiXxuq08uoDKWOevSZHGqIkCQ0QVC3t2BQd67HLRWoa2Yer37Y40xFQKztjgYPJEARVM1koX57oKGyILt9smu2Ep7Sk8XszVuZwsiqh2NfA9WwIHNQA56LGND8n"
+      },
+      "products": [
+        {
+          "_id": "6964231f1c508c5d5eb0e598",
+          "name": "Table86506",
+          "amount": 322,
+          "price": 54870,
+          "manufacturer": "Xiaomi",
+          "notes": "Ve7VJCKHoJrGUUEfQnpgxoAjncX51d8AYzgJjTH3Q7xAdVKJqPgxpBDQUlArJkf91J1x8Ba0fAdOGncTJLOI6YQVZkJD2MtpmcnSWJqUKe0MY3QEa4TlJYEvF6G127bpjquKtDjVEpEcVpDbzIyhr8JdESzTi1lp9pjsjPFRp7PlvK7jrZiPTa379p5gJsB06RTMQSOcnxQ9qJIcX6z9jzRtbY0csl7yOxAiiFDjkNG4V6DQ2I4Rtbbwk9",
+          "received": false
+        },
+        {
+          "_id": "696423201c508c5d5eb0e5bd",
+          "name": "Chicken62106",
+          "amount": 89,
+          "price": 12265,
+          "manufacturer": "Samsung",
+          "notes": "nZrt7zOP1cPBQjHkQXBVG5s00Ofx7wjAGOzcOO9W9McKqK8YhHd5VaQ9IP6L9vdG1qfqjVSu6Kc2dGiCJmjtvxF4UhtDq4CLtN5CCTDiDNJTTmzyFsnR0zjxK7E0zxcthVpKAdcTSSebk4cnKRj6RkUIhSQWM5BlrVUJcSj7XQiZTV8xU4lElYsYxZWEkH6E5cLdsiViBTUMCHHsQ5dxO3eOn6aph0jEiglPKKs4q9dSyyIOW2PK2qjn19",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67135,
+      "createdOn": "2026-01-11T22:24:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964231f1c508c5d5eb0e56e",
+          "products": [
+            {
+              "_id": "6964231f1c508c5d5eb0e598",
+              "name": "Table86506",
+              "amount": 322,
+              "price": 54870,
+              "manufacturer": "Xiaomi",
+              "notes": "Ve7VJCKHoJrGUUEfQnpgxoAjncX51d8AYzgJjTH3Q7xAdVKJqPgxpBDQUlArJkf91J1x8Ba0fAdOGncTJLOI6YQVZkJD2MtpmcnSWJqUKe0MY3QEa4TlJYEvF6G127bpjquKtDjVEpEcVpDbzIyhr8JdESzTi1lp9pjsjPFRp7PlvK7jrZiPTa379p5gJsB06RTMQSOcnxQ9qJIcX6z9jzRtbY0csl7yOxAiiFDjkNG4V6DQ2I4Rtbbwk9",
+              "received": false
+            },
+            {
+              "_id": "696423201c508c5d5eb0e5bd",
+              "name": "Chicken62106",
+              "amount": 89,
+              "price": 12265,
+              "manufacturer": "Samsung",
+              "notes": "nZrt7zOP1cPBQjHkQXBVG5s00Ofx7wjAGOzcOO9W9McKqK8YhHd5VaQ9IP6L9vdG1qfqjVSu6Kc2dGiCJmjtvxF4UhtDq4CLtN5CCTDiDNJTTmzyFsnR0zjxK7E0zxcthVpKAdcTSSebk4cnKRj6RkUIhSQWM5BlrVUJcSj7XQiZTV8xU4lElYsYxZWEkH6E5cLdsiViBTUMCHHsQ5dxO3eOn6aph0jEiglPKKs4q9dSyyIOW2PK2qjn19",
+              "received": false
+            }
+          ],
+          "total_price": 67135,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696423201c508c5d5eb0e5d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

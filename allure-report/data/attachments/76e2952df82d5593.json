@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-a2jxLVhNsfvbS9IZ4rPGsewjRNM\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964232a1c508c5d5eb0ea50",
+        "email": "Hans.Stiedemann@hotmail.com",
+        "name": "Lea Hills",
+        "country": "Canada",
+        "city": "Williamsonside",
+        "street": "Abraham Spur",
+        "house": 7,
+        "flat": 159,
+        "phone": "+12625092973",
+        "createdOn": "2026-01-11T22:24:42.000Z",
+        "notes": "m89GyEOq3n6pqcVgGCOHIcwqlAIW3jGFfklkmxdr49pPGW6jXBJf4FCnKn8MgskVsZH2c2rZjY3pDPuSoxFAL8YjslW6fDPDoxtkmUKspPDKRzFwYkj7y5kW1gPNrEDFqcNSc0ouPKxvoBr8yFAXK1ykfL1DFrwEpMFSBF3Foowe1yjfvVqiilrUUb254MihRLdmHfCOj9Nv7XMiTF19683ABiSke2j28S99OZNrvcdrGyA3BTuG4r1QEG"
+      },
+      "products": [
+        {
+          "_id": "6964232a1c508c5d5eb0ea72",
+          "name": "Table73336",
+          "amount": 321,
+          "price": 17346,
+          "manufacturer": "Microsoft",
+          "notes": "IeY8AoTZ7dxXzXw0zPYIK77qgUhq4dW1k24vGJgR9Qw3N4f6T7iPrcBiK1Gr6zbnEFC5B2iM0B0L3lmrxVKODhBAA0qmc12bZrK1V1gwwcI1uEQ7V7nSytUSEZCXlC6RieNlTU8uQs9m1aB59q9WwtUH9Lf32EYPUzbVqr3bQnSZPZBLHlV4uGVO2f31fxQ0cWz96RnxDEPDYuYp5lQ2NhgVB8yAMMW0wZfmflDb6tsnpr3MLww82Xgig6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17346,
+      "createdOn": "2026-01-11T22:24:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964232a1c508c5d5eb0ea50",
+          "products": [
+            {
+              "_id": "6964232a1c508c5d5eb0ea72",
+              "name": "Table73336",
+              "amount": 321,
+              "price": 17346,
+              "manufacturer": "Microsoft",
+              "notes": "IeY8AoTZ7dxXzXw0zPYIK77qgUhq4dW1k24vGJgR9Qw3N4f6T7iPrcBiK1Gr6zbnEFC5B2iM0B0L3lmrxVKODhBAA0qmc12bZrK1V1gwwcI1uEQ7V7nSytUSEZCXlC6RieNlTU8uQs9m1aB59q9WwtUH9Lf32EYPUzbVqr3bQnSZPZBLHlV4uGVO2f31fxQ0cWz96RnxDEPDYuYp5lQ2NhgVB8yAMMW0wZfmflDb6tsnpr3MLww82Xgig6",
+              "received": false
+            }
+          ],
+          "total_price": 17346,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964232a1c508c5d5eb0eaab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

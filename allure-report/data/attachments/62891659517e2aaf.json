@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-i12m5xUM3q/AAlt92VuDpkBgHA0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696423291c508c5d5eb0e9dd",
+        "email": "Darius.Altenwerth51@yahoo.com",
+        "name": "Vicente Green",
+        "country": "Russia",
+        "city": "Jonesfort",
+        "street": "Russel Canyon",
+        "house": 19,
+        "flat": 869,
+        "phone": "+18448455472",
+        "createdOn": "2026-01-11T22:24:41.000Z",
+        "notes": "fbIjYqdsAPu9HsKPI8KLATgud4H9gqwbkPkrLfyKpZy38Vefl8Gg7NxEXc6YlJrUt6HRsma80PoxOuLFt7XS6vzUZxHSm7GqQN0DWj1YfBNSTQXDI3oUmqoxshlU0qE1e6iJLAlMsDxAP6J0wVwGxHpk4NuDGZlikCbYplUvHxnLeooTkZ3RmDfAbETYVvMP7DrmvqCcZ1gLhk5ElABY5uskJRT9RUJAIAYTAgDZqwujjEyVvYUj80Iqmz"
+      },
+      "products": [
+        {
+          "_id": "696423291c508c5d5eb0e9fd",
+          "name": "Towels72622",
+          "amount": 6,
+          "price": 65892,
+          "manufacturer": "Sony",
+          "notes": "aMiTcM04w6KGCzVVee2B2DIwH1R6fAopGX9z4TqGElMPndYWCgTIiZlBRN5LjSKY5wh8YCOUsVO0bZptuNJa9KVvY6GP6jPR6IK3q0z5KOUOkVrV4Uy8WvSDispCX0Lm0Muj7NW85GKxm6mLxDsFVdFOjNYkSDeCyo1yaecqk8OwTpnJYSdtnhzHjLJXvOrv7BH22GcQdwziWzTO24UpdZ2tzcQ6hDp7fD3eL9KfnVzXaoTfuInMaktXbY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65892,
+      "createdOn": "2026-01-11T22:24:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696423291c508c5d5eb0e9dd",
+          "products": [
+            {
+              "_id": "696423291c508c5d5eb0e9fd",
+              "name": "Towels72622",
+              "amount": 6,
+              "price": 65892,
+              "manufacturer": "Sony",
+              "notes": "aMiTcM04w6KGCzVVee2B2DIwH1R6fAopGX9z4TqGElMPndYWCgTIiZlBRN5LjSKY5wh8YCOUsVO0bZptuNJa9KVvY6GP6jPR6IK3q0z5KOUOkVrV4Uy8WvSDispCX0Lm0Muj7NW85GKxm6mLxDsFVdFOjNYkSDeCyo1yaecqk8OwTpnJYSdtnhzHjLJXvOrv7BH22GcQdwziWzTO24UpdZ2tzcQ6hDp7fD3eL9KfnVzXaoTfuInMaktXbY",
+              "received": false
+            }
+          ],
+          "total_price": 65892,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696423291c508c5d5eb0ea2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

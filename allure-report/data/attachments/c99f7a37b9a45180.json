@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-c/qk84rPNLFUV44hZNrc34ZJ86w\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964232b1c508c5d5eb0eb01",
+        "email": "Elinore.Lang88@hotmail.com",
+        "name": "Meagan Bednar",
+        "country": "France",
+        "city": "Gersonshire",
+        "street": "Belmont Road",
+        "house": 17,
+        "flat": 183,
+        "phone": "+15877883742",
+        "createdOn": "2026-01-11T22:24:43.000Z",
+        "notes": "TAUte0z0vgGE4VWINM6rnTYXTa6v1KkZ2IIAhZvEPJlkLSAdiqcSWoJMyVqC8nJU84sU0dY9rWhpRYD3x9Jc0sSIPEksklbUqwblIUEp54dduQTkLNNk6wR1gzLjqqqj8bZZFUZz98ZHfEKpXvEKp32woTuXaPxaOUigpQHLrSVsO4fsNFAAVpZxwDo3dxPW7qoOHo0VOZeaAvRXfUcKvcTxhXKz3sNc9wUtPOTNEZVupT9vVqacaMVmB5"
+      },
+      "products": [
+        {
+          "_id": "6964232b1c508c5d5eb0eb2b",
+          "name": "Car432",
+          "amount": 110,
+          "price": 30015,
+          "manufacturer": "Google",
+          "notes": "GOIOTD4V7hfabfmkxmrHmjh0zVweChr0zW52rqEqtzbe42JWE1tEbMpMKxd6nQHvGv2MI6BS4oxxcw4G9hjybJTH10ELOePdWlbsdQ2GA8BwUkwTqx08Ppsm6nuFmVsAaGRG0iAFOW8GuBPMYNSHWEFiYoQN4BClV0Z4fUv2je3GkzoyCgciHDBYyOfg1vVaCjNENntjOS5Emi3u0cjaeaQpSlXQy94uVHYVYmAwN5zMSOoYJAuv3hhNXz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30015,
+      "createdOn": "2026-01-11T22:24:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964232b1c508c5d5eb0eb01",
+          "products": [
+            {
+              "_id": "6964232b1c508c5d5eb0eb2b",
+              "name": "Car432",
+              "amount": 110,
+              "price": 30015,
+              "manufacturer": "Google",
+              "notes": "GOIOTD4V7hfabfmkxmrHmjh0zVweChr0zW52rqEqtzbe42JWE1tEbMpMKxd6nQHvGv2MI6BS4oxxcw4G9hjybJTH10ELOePdWlbsdQ2GA8BwUkwTqx08Ppsm6nuFmVsAaGRG0iAFOW8GuBPMYNSHWEFiYoQN4BClV0Z4fUv2je3GkzoyCgciHDBYyOfg1vVaCjNENntjOS5Emi3u0cjaeaQpSlXQy94uVHYVYmAwN5zMSOoYJAuv3hhNXz",
+              "received": false
+            }
+          ],
+          "total_price": 30015,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964232c1c508c5d5eb0eb54"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2810",
+    "etag": "W/\"afa-7FM4R1uqzn57ll37udwS1dTJT3k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696423291c508c5d5eb0ea12",
+      "status": "Draft",
+      "customer": {
+        "_id": "696423281c508c5d5eb0e9a7",
+        "email": "Deonte_Roberts@gmail.com",
+        "name": "Dawn Lindgren",
+        "country": "USA",
+        "city": "Cuyahoga Falls",
+        "street": "Graham Crossing",
+        "house": 14,
+        "flat": 171,
+        "phone": "+12108963012",
+        "createdOn": "2026-01-11T22:24:40.000Z",
+        "notes": "thwg1Sz2BC6WquDNwCSS9zNvkXONA4of48ZPMlTUX0oi120D55maQUAXczlKP25MPFHwe6Xbfh0bowft4ztfxmlcByabn7heJDOeWyd10vEPfCdMepfRKHrfzNBybu1ygfMDP7N2iQcFSGQ3NI4lRpFfYzf2d5PuHk9xAkjdIbClQWAQ7XmXjK3rRY58BaAsxWP19MpCikvu438cn293MQ9S1R6GOiE8nwxVk9a2r7PmycxH4oHe7bpiXg"
+      },
+      "products": [
+        {
+          "_id": "696423291c508c5d5eb0e9d5",
+          "name": "Chicken35982",
+          "amount": 831,
+          "price": 59374,
+          "manufacturer": "Tesla",
+          "notes": "ZLi9DE34ps2LoPSjPXmSxBTUuZYTtVtInXXwxMANNa3LYQmCRdyBjOPOWzDPaoIB23fqdG2KMgpU5S4awLLsCZPL3CE9td2Sh7d8KTKxs3qr0DWmmvYijKHmrNOMS6kUpt7eqVrDrCxYJrYxRAwZG7JCAhFtqXAaoCg7lU5eb6byojOStlI4tK7rBvBPLWC2UYUFHsswAVNOZ8jpuW1JS3GlfQPw7McNegdy6cO4uAYmBAVAkABpmC8r96",
+          "received": false
+        },
+        {
+          "_id": "696423291c508c5d5eb0e9ec",
+          "name": "Mouse60824",
+          "amount": 608,
+          "price": 8856,
+          "manufacturer": "Tesla",
+          "notes": "SnIlBSwZSNDbg3F3eIwxBgNjZTaotQD30sNcBH2T2DGVXDkdG5Yw0rPkjgAa6tXmopAhpAjQjkSCLA6zZTDH9xKuc138ZTSzVWmsxRJf3DQXEDDbRIb7qCCPlzTqB7ANJbIk6CBVbMmsr6huwDO7KMargEpgUXxGRnmRtvkiEsVarvFwqJztLj9qz3bS7NwulKrKenfPK52cxTLAMahw4xVZCDpuJmfehqH2rv4R0UBrICdbsgHoUnstRn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68230,
+      "createdOn": "2026-01-11T22:24:41.000Z",
+      "comments": [
+        {
+          "text": "0EwwNsFGwyoK1S6iWrAHhGnKz4zlbMbyZtIGe14710Y1rl3AowQySN6cvPsYJbNib2HsrKsbuOm",
+          "createdOn": "2026-01-11T22:24:41.000Z",
+          "_id": "696423291c508c5d5eb0ea3f"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696423281c508c5d5eb0e9a7",
+          "products": [
+            {
+              "_id": "696423291c508c5d5eb0e9d5",
+              "name": "Chicken35982",
+              "amount": 831,
+              "price": 59374,
+              "manufacturer": "Tesla",
+              "notes": "ZLi9DE34ps2LoPSjPXmSxBTUuZYTtVtInXXwxMANNa3LYQmCRdyBjOPOWzDPaoIB23fqdG2KMgpU5S4awLLsCZPL3CE9td2Sh7d8KTKxs3qr0DWmmvYijKHmrNOMS6kUpt7eqVrDrCxYJrYxRAwZG7JCAhFtqXAaoCg7lU5eb6byojOStlI4tK7rBvBPLWC2UYUFHsswAVNOZ8jpuW1JS3GlfQPw7McNegdy6cO4uAYmBAVAkABpmC8r96",
+              "received": false
+            },
+            {
+              "_id": "696423291c508c5d5eb0e9ec",
+              "name": "Mouse60824",
+              "amount": 608,
+              "price": 8856,
+              "manufacturer": "Tesla",
+              "notes": "SnIlBSwZSNDbg3F3eIwxBgNjZTaotQD30sNcBH2T2DGVXDkdG5Yw0rPkjgAa6tXmopAhpAjQjkSCLA6zZTDH9xKuc138ZTSzVWmsxRJf3DQXEDDbRIb7qCCPlzTqB7ANJbIk6CBVbMmsr6huwDO7KMargEpgUXxGRnmRtvkiEsVarvFwqJztLj9qz3bS7NwulKrKenfPK52cxTLAMahw4xVZCDpuJmfehqH2rv4R0UBrICdbsgHoUnstRn",
+              "received": false
+            }
+          ],
+          "total_price": 68230,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

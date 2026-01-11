@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3883",
+    "etag": "W/\"f2b-/Dp111gIzoYVAmFB+SkaKzRHgu8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696423231c508c5d5eb0e729",
+      "status": "Draft",
+      "customer": {
+        "_id": "696423221c508c5d5eb0e6e8",
+        "email": "Vivianne_Ryan86@hotmail.com",
+        "name": "Lewis Prohaska",
+        "country": "Great Britain",
+        "city": "Highlands Ranch",
+        "street": "Glen Highway",
+        "house": 24,
+        "flat": 41,
+        "phone": "+13827362301",
+        "createdOn": "2026-01-11T22:24:34.000Z",
+        "notes": "FPHSC3e03wfqBf8omMoodVAgZDJJsU5H98Vz3ij1CP9cR00WcVBQPs3rgRRySQPbc4j03ZF0GZ09n8q6l3upeEsGQ09mndzhHfqWZgG61P7yZghmsmNqlMeeZLB9JVvszp8KAJKb9rOoRsW0pYDDv5PDtyG2QxNG9mrP0f6tR9ovyevwM9JrcryQ29c5386Oh91phnH6fR2yjw6HJztasZsWo3q8dF8AoQwOrtIMtCSyhcdEZUKR7sKt2Y"
+      },
+      "products": [
+        {
+          "_id": "696423221c508c5d5eb0e705",
+          "name": "Cheese12397",
+          "amount": 327,
+          "price": 97572,
+          "manufacturer": "Xiaomi",
+          "notes": "R4A5PNopzs27rUxexAPO0xuuRPS7dMTN0xoltYhNC2uC13KC6NfKRAW9mgmRBtXzFSywa4d7iP8TYlC7AihK6udcZEO2gZLQxjoA9gs3JNSPuQNo0S2SIUC90H5HyvrknDRDjazSsigpEAQIrkvvBIBEi3HDCMxuTYUdq1Yep1kBVtVSB9y9dUMvXvoPIHkgozZapT0hiM17Smf5eCMWB7EPmc3r8AqqSqdEuXmEj5xLMiii0hy7PtRfVW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97572,
+      "createdOn": "2026-01-11T22:24:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696423221c508c5d5eb0e6e8",
+          "products": [
+            {
+              "_id": "696423221c508c5d5eb0e705",
+              "name": "Cheese12397",
+              "amount": 327,
+              "price": 97572,
+              "manufacturer": "Xiaomi",
+              "notes": "R4A5PNopzs27rUxexAPO0xuuRPS7dMTN0xoltYhNC2uC13KC6NfKRAW9mgmRBtXzFSywa4d7iP8TYlC7AihK6udcZEO2gZLQxjoA9gs3JNSPuQNo0S2SIUC90H5HyvrknDRDjazSsigpEAQIrkvvBIBEi3HDCMxuTYUdq1Yep1kBVtVSB9y9dUMvXvoPIHkgozZapT0hiM17Smf5eCMWB7EPmc3r8AqqSqdEuXmEj5xLMiii0hy7PtRfVW",
+              "received": false
+            }
+          ],
+          "total_price": 97572,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:36.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696423221c508c5d5eb0e6e8",
+          "products": [
+            {
+              "_id": "696423221c508c5d5eb0e705",
+              "name": "Cheese12397",
+              "amount": 327,
+              "price": 97572,
+              "manufacturer": "Xiaomi",
+              "notes": "R4A5PNopzs27rUxexAPO0xuuRPS7dMTN0xoltYhNC2uC13KC6NfKRAW9mgmRBtXzFSywa4d7iP8TYlC7AihK6udcZEO2gZLQxjoA9gs3JNSPuQNo0S2SIUC90H5HyvrknDRDjazSsigpEAQIrkvvBIBEi3HDCMxuTYUdq1Yep1kBVtVSB9y9dUMvXvoPIHkgozZapT0hiM17Smf5eCMWB7EPmc3r8AqqSqdEuXmEj5xLMiii0hy7PtRfVW",
+              "received": false
+            }
+          ],
+          "total_price": 97572,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:35.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696423221c508c5d5eb0e6e8",
+          "products": [
+            {
+              "_id": "696423221c508c5d5eb0e705",
+              "name": "Cheese12397",
+              "amount": 327,
+              "price": 97572,
+              "manufacturer": "Xiaomi",
+              "notes": "R4A5PNopzs27rUxexAPO0xuuRPS7dMTN0xoltYhNC2uC13KC6NfKRAW9mgmRBtXzFSywa4d7iP8TYlC7AihK6udcZEO2gZLQxjoA9gs3JNSPuQNo0S2SIUC90H5HyvrknDRDjazSsigpEAQIrkvvBIBEi3HDCMxuTYUdq1Yep1kBVtVSB9y9dUMvXvoPIHkgozZapT0hiM17Smf5eCMWB7EPmc3r8AqqSqdEuXmEj5xLMiii0hy7PtRfVW",
+              "received": false
+            }
+          ],
+          "total_price": 97572,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

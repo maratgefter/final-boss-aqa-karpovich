@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2793",
+    "etag": "W/\"ae9-nfaPcHDI9m2uW0eSbULflaa0FA0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696423291c508c5d5eb0e9f7",
+      "status": "Draft",
+      "customer": {
+        "_id": "696423281c508c5d5eb0e992",
+        "email": "Jasper74@hotmail.com",
+        "name": "Amina Littel",
+        "country": "France",
+        "city": "Kingsport",
+        "street": "Hand Park",
+        "house": 22,
+        "flat": 944,
+        "phone": "+15822212429",
+        "createdOn": "2026-01-11T22:24:40.000Z",
+        "notes": "VLZ1kq3aEhM7XrGY2h4dz60OHdEnDFQih8xxADjax66Lmcutll0m2Sf5TrNNmXEGEwa46ru5YFBP1is4IFNGOYULqe25KndKYwsxBqyZN040UjCl45JHtlcaCKAqwFYdV3KdJR7noGopsVkl2kMNxJoBfvNsnOwlp2ApFEjeFy50uAEqsPlFijMcVighgLSlEE7fFdzyZcgnEP24fxTFEh9oDm8RFoxMNT8S8WSZ3ED0omJ3J81uBL3ZO8"
+      },
+      "products": [
+        {
+          "_id": "696423281c508c5d5eb0e9b5",
+          "name": "Tuna53445",
+          "amount": 397,
+          "price": 50699,
+          "manufacturer": "Tesla",
+          "notes": "N02aPfsBg7ZuH61RRlXuENTULG8vqHyjCnpCLBexYf6s1g49uqTkeA0OkvDJkhXw3GQh0CX82FbZuc6LohD6QpIWS9ncjGps6auGNaavDmSWOThVXWafOqz8Y7enec6xyul1t13MbyDO0ROXyx0gA9F1fPQ53qHTd6edgFvnceU9QatttwBSFZR4qc8SemRFpBIdzFE0y8fWDRpHfxQp9Ugd875ojlbxjxqWdbkhTehNl0RTzrdvkXSBNY",
+          "received": false
+        },
+        {
+          "_id": "696423291c508c5d5eb0e9e1",
+          "name": "Mouse63872",
+          "amount": 91,
+          "price": 33548,
+          "manufacturer": "Xiaomi",
+          "notes": "E3a8jK4AFQuYIp4sEU4ExBI6jqLASyPEWd68NmGRs8tCNG5cEx7SNg0OA7BLY1UqCHZfrXo3wX5q0WCO8MMzaNdRKHhYBlEqx9gu8Lg8lnpGytCCo6ob1jVDbAR3J9Dlvhe0syArkyJOeEWYFlUJvDfLdjhtPCujC01qAsN5cGj2ofVpFDBVh1T64Kfg5rUDCf6ch9h1cd1fmai2lze4Ir3xHu9i1IWvPajezapFfEtnUS3QuCWUaJEwvw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84247,
+      "createdOn": "2026-01-11T22:24:41.000Z",
+      "comments": [
+        {
+          "text": "1z0cOSM84xdm8YwQBTzBcB4FRlrF62Q1CEjHygwYuxYFeofwUCjTf88D29eDVG4UJrouarad904",
+          "createdOn": "2026-01-11T22:24:41.000Z",
+          "_id": "696423291c508c5d5eb0ea30"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696423281c508c5d5eb0e992",
+          "products": [
+            {
+              "_id": "696423281c508c5d5eb0e9b5",
+              "name": "Tuna53445",
+              "amount": 397,
+              "price": 50699,
+              "manufacturer": "Tesla",
+              "notes": "N02aPfsBg7ZuH61RRlXuENTULG8vqHyjCnpCLBexYf6s1g49uqTkeA0OkvDJkhXw3GQh0CX82FbZuc6LohD6QpIWS9ncjGps6auGNaavDmSWOThVXWafOqz8Y7enec6xyul1t13MbyDO0ROXyx0gA9F1fPQ53qHTd6edgFvnceU9QatttwBSFZR4qc8SemRFpBIdzFE0y8fWDRpHfxQp9Ugd875ojlbxjxqWdbkhTehNl0RTzrdvkXSBNY",
+              "received": false
+            },
+            {
+              "_id": "696423291c508c5d5eb0e9e1",
+              "name": "Mouse63872",
+              "amount": 91,
+              "price": 33548,
+              "manufacturer": "Xiaomi",
+              "notes": "E3a8jK4AFQuYIp4sEU4ExBI6jqLASyPEWd68NmGRs8tCNG5cEx7SNg0OA7BLY1UqCHZfrXo3wX5q0WCO8MMzaNdRKHhYBlEqx9gu8Lg8lnpGytCCo6ob1jVDbAR3J9Dlvhe0syArkyJOeEWYFlUJvDfLdjhtPCujC01qAsN5cGj2ofVpFDBVh1T64Kfg5rUDCf6ch9h1cd1fmai2lze4Ir3xHu9i1IWvPajezapFfEtnUS3QuCWUaJEwvw",
+              "received": false
+            }
+          ],
+          "total_price": 84247,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

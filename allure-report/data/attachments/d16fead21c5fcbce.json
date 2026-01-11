@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-fUCSwSAJ9aTIIwjHrxO5Z0SB7ZQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964232b1c508c5d5eb0eb21",
+        "email": "Karianne_Dicki46@gmail.com",
+        "name": "Tyree Brekke",
+        "country": "Ukraine",
+        "city": "Kerlukefort",
+        "street": "Beer Squares",
+        "house": 4,
+        "flat": 439,
+        "phone": "+18012758989",
+        "createdOn": "2026-01-11T22:24:43.000Z",
+        "notes": "P2TjuWhhQdLf1fGmIM4ZMUdl6OEkEiDaM7qC9ZKecc26RXQkUPlqLCxvLgi9MmyAzUdZQoQzkw6zl83jIH3ia9lPZuHFAxgZUfpmoLfUVsbw5CL8NLuSj54mjNCk4xLBMxnoX8aQDQQhjOZQbungwMqqDybyjOOTq1uXkW5cZKW5t0O5SljpLlfR4Co7WX470tkB5vC9a00OAyoy5VTsB0wvso6pfpt4TXtsLt3h9loU1EYhdpUxmNHVjY"
+      },
+      "products": [
+        {
+          "_id": "6964232c1c508c5d5eb0eb41",
+          "name": "Mouse83485",
+          "amount": 818,
+          "price": 74612,
+          "manufacturer": "Sony",
+          "notes": "HKrSAJHLN1z8ZeU3LuCaXIpPv70xogXmOSracDP64XLsRN9uBhRbTBdTm7t3umVtxW49zRIfcqHYNCLULGxN8cbGQnoP0onU2hcVuxdzcl0a0H10o5LHAFqxLHjDkXqCdIy2vf8aNPs4fU9EyWlR7r40IWYLT0u95okli3AXfbAk5a5bufwlMmu34pLEMRNMeXT6UBzkAUdG6trFvhaWzj0KPaOhbDMvAvKbuDN3WQx6JRd0pUPZaHAIXS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74612,
+      "createdOn": "2026-01-11T22:24:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964232b1c508c5d5eb0eb21",
+          "products": [
+            {
+              "_id": "6964232c1c508c5d5eb0eb41",
+              "name": "Mouse83485",
+              "amount": 818,
+              "price": 74612,
+              "manufacturer": "Sony",
+              "notes": "HKrSAJHLN1z8ZeU3LuCaXIpPv70xogXmOSracDP64XLsRN9uBhRbTBdTm7t3umVtxW49zRIfcqHYNCLULGxN8cbGQnoP0onU2hcVuxdzcl0a0H10o5LHAFqxLHjDkXqCdIy2vf8aNPs4fU9EyWlR7r40IWYLT0u95okli3AXfbAk5a5bufwlMmu34pLEMRNMeXT6UBzkAUdG6trFvhaWzj0KPaOhbDMvAvKbuDN3WQx6JRd0pUPZaHAIXS",
+              "received": false
+            }
+          ],
+          "total_price": 74612,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964232c1c508c5d5eb0eb76"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

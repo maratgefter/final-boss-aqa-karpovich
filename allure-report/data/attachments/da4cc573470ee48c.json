@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 11 Jan 2026 22:24:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-e1tVds78M9zakhhHr2AFOti4pHE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6964232d1c508c5d5eb0ec11",
+        "email": "Reina96@gmail.com",
+        "name": "Fausto Barton",
+        "country": "USA",
+        "city": "Port Araside",
+        "street": "Rippin Common",
+        "house": 35,
+        "flat": 560,
+        "phone": "+14426965687",
+        "createdOn": "2026-01-11T22:24:45.000Z",
+        "notes": "BZ4IxEbZZLbGuooDaSu8OGZlpFcK34S2jtBXGuMRdnVpllxU23DbqI2Ct9x9LMGCHpg0eMo8eQ0MugeAfzWC7DMPfzH56c3Q3XMB36cgU3p5wGVqSxgW3K0D0oguTJMgMwC5f334m71Nt986F7jgxCgz226kvMyYNBfRFeGNiyhlM1y61WiNaZCgM8eVGnUoUlrllRpuxaDsK7gxxrPw9vVrvqxmfrlHiLaBTUZ0HAbDIFMHhuL9xvotSf"
+      },
+      "products": [
+        {
+          "_id": "6964232e1c508c5d5eb0ec52",
+          "name": "Shirt6779",
+          "amount": 918,
+          "price": 92342,
+          "manufacturer": "Samsung",
+          "notes": "ZkhT6AgtSCy4H30dXTG7Jd0LCll7I99NmafTAcCk1p0yQXakgJjyZlZzh2goPWf1g6EsanArMys2F476wB6hh4iaygJuszFc25XYQSoYmDrRGpNOt8oQajqPV1IKL7tTRiS3TTlkci1fte1FJ81V5xe04iJuA1eBUuJzbePE6tk1eR2IzjPbXUkAgJfjGmtVN9EJHauYP2mVujuuZQyo8dkfCJMCIRVMjIKNOAnbDi83hHlPzsyPqyXnu5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92342,
+      "createdOn": "2026-01-11T22:24:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6964232d1c508c5d5eb0ec11",
+          "products": [
+            {
+              "_id": "6964232e1c508c5d5eb0ec52",
+              "name": "Shirt6779",
+              "amount": 918,
+              "price": 92342,
+              "manufacturer": "Samsung",
+              "notes": "ZkhT6AgtSCy4H30dXTG7Jd0LCll7I99NmafTAcCk1p0yQXakgJjyZlZzh2goPWf1g6EsanArMys2F476wB6hh4iaygJuszFc25XYQSoYmDrRGpNOt8oQajqPV1IKL7tTRiS3TTlkci1fte1FJ81V5xe04iJuA1eBUuJzbePE6tk1eR2IzjPbXUkAgJfjGmtVN9EJHauYP2mVujuuZQyo8dkfCJMCIRVMjIKNOAnbDi83hHlPzsyPqyXnu5",
+              "received": false
+            }
+          ],
+          "total_price": 92342,
+          "delivery": null,
+          "changedOn": "2026-01-11T22:24:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6964232f1c508c5d5eb0ecd7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
