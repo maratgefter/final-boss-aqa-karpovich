@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:24:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-apuFtIExkwuGx6z0xfuWcXCLiqY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696574851c508c5d5eb120e7",
+        "email": "Osbaldo.Fahey25@yahoo.com",
+        "name": "Nova Rolfson",
+        "country": "USA",
+        "city": "New Jared",
+        "street": "Will Harbor",
+        "house": 34,
+        "flat": 880,
+        "phone": "+17675234008",
+        "createdOn": "2026-01-12T22:24:05.000Z",
+        "notes": "L5vRAdnaLZ8pIqlqxiUeIOlULZVyFUMB7jCU0aIL8xQPAFPArsm9OiUZhcBtvBC35UJ0i2MVmWMgri0liAdnsX8vJcsCxYWX0qrweqAthCTf8ezd5smP3JKb3ByeynLdTx0C6k4UCRAOtgSR8evlzuboz9rh10ujz5x17HCVkrFdRLJUAOOWWN77qWEszew1JHv3E0IUj2PIEkwt17vW9CI0FKzJZUtBdnpJ0sHJkqMCgdMJ5QVMw04i2W"
+      },
+      "products": [
+        {
+          "_id": "696574851c508c5d5eb12105",
+          "name": "Car96814",
+          "amount": 944,
+          "price": 22288,
+          "manufacturer": "Google",
+          "notes": "hNFqJ9h0Gk8BJhQkKwqrX0CaI5PmbFHHuaxg9GgYPxGmOdlI7qBHZBVDGS6l6xZ5pqG8OFKmuThIG05p4WkM1eI67JcATKKyiIBny9JH05lZYF1H78OGjAVjFGgUPf5prTthkA9Et969In7gzees5zE3JGSOMboh6quJrkQEEDdxEWSqwYAAOnYQ5P6xh2r0eqrkMdVc6vhVhaoNcYox3KcqRSlisgh9GNs5TLbFFfpwWsJKwpfIaNS4Nx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22288,
+      "createdOn": "2026-01-12T22:24:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696574851c508c5d5eb120e7",
+          "products": [
+            {
+              "_id": "696574851c508c5d5eb12105",
+              "name": "Car96814",
+              "amount": 944,
+              "price": 22288,
+              "manufacturer": "Google",
+              "notes": "hNFqJ9h0Gk8BJhQkKwqrX0CaI5PmbFHHuaxg9GgYPxGmOdlI7qBHZBVDGS6l6xZ5pqG8OFKmuThIG05p4WkM1eI67JcATKKyiIBny9JH05lZYF1H78OGjAVjFGgUPf5prTthkA9Et969In7gzees5zE3JGSOMboh6quJrkQEEDdxEWSqwYAAOnYQ5P6xh2r0eqrkMdVc6vhVhaoNcYox3KcqRSlisgh9GNs5TLbFFfpwWsJKwpfIaNS4Nx",
+              "received": false
+            }
+          ],
+          "total_price": 22288,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:24:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696574871c508c5d5eb121d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

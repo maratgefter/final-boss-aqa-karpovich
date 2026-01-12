@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:24:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3412",
+    "etag": "W/\"d54-3T+zB8i3u3PDZPALYirPfhVh4LA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696574831c508c5d5eb12001",
+        "email": "Ubaldo_Haag@yahoo.com",
+        "name": "Florian Zemlak",
+        "country": "Belarus",
+        "city": "New Aimee",
+        "street": "Fadel Valleys",
+        "house": 8,
+        "flat": 859,
+        "phone": "+13454903325",
+        "createdOn": "2026-01-12T22:24:03.000Z",
+        "notes": "7ky9H6CmcbV4cCBq4DVINsrnnu7AIWsWYKymL7hFnQS8jfhKT0OocH1Q3gl9jepmnU7YXIu00ox3AMhOFJc1mmNl9PIJ2b7Tusr36RuGH498VmhNuMZm6rctufJmKaS9vA4eILc71I5EleGN9hRnZn6bWZyVtlyNkXZYwzDCLLfOpjMGjNxq7l1VL53c65TC8jtZzqh3ssY7f2dLZCkOO1V44AN4sJeUBRu0p8jbxpVXYfHv0WOZQilMH3"
+      },
+      "products": [
+        {
+          "_id": "696574841c508c5d5eb1204b",
+          "name": "Bacon29670",
+          "amount": 576,
+          "price": 52738,
+          "manufacturer": "Sony",
+          "notes": "wHeielGjraF2R6D0VxyfCTTwUT0u6kEPfXjC7oiE42taldIR4Un2jypUMZzBGBcihKnwscWHLLvi8rJuvc2vKN4DL2XflAcxp3UbRq3yx2KMUE0zydSTNMaIqC2yu2oAcuUDcqQqXFjqPHUBJqMLGU7rX3L6481ib0Wtv7BGfBuyA1MJqbLxqvScmTxPLqxLF8iU0MGCwV7qtlZTob52msronNrodxBdh78n7aP1l7GfTfi34v6fC95l3b",
+          "received": false
+        },
+        {
+          "_id": "696574841c508c5d5eb1207e",
+          "name": "Bike20828",
+          "amount": 656,
+          "price": 34768,
+          "manufacturer": "Amazon",
+          "notes": "0kF3xEtvpgHN4kU2RXeb04IraekOCsNjpvGlyE8cmz5GCEWVqqfUhqeqQdAur2gdxDKWEWcnSR1nmFuWav8YhIimA3yREr3aQVRPQBmegla4fNUrwFO7K9xAUO2V9Lp21swaoZDFc0X0GOa67sBP00zIvGx2TO4TkUvS2eOZzydctw1g0TEYxapo8JxJ9nZlOyCdnlXgKKoMvLFTT5DtL20m1HeYHP7R6WfgHrtNp9awBhQyshaVqy90q9",
+          "received": false
+        },
+        {
+          "_id": "696574841c508c5d5eb1208c",
+          "name": "Pizza66130",
+          "amount": 136,
+          "price": 17646,
+          "manufacturer": "Google",
+          "notes": "VaKRh3X9tP7xHFhP4VDqJUS7zbXhfjIKJGmqUuz1ZTbdKDMhPs6mhE7YusCeBo7ayCAEieorKu3wgHm8Dsux0JZqpMYcKaENRcWslxW28CLZHWDnwNJrUYqt8W5dz0CZ23zDPRm0nXshMo6GiE3UK2FNka2KlxgvJ4yvklx1UHR2lGRkOesILyM1NMcgI9ZOZh7yMLHHepmsZ76PCrSRE5NQLyQmBCHNDrQD2yu9587xIDadbs1SUWkxJh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105152,
+      "createdOn": "2026-01-12T22:24:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696574831c508c5d5eb12001",
+          "products": [
+            {
+              "_id": "696574841c508c5d5eb1204b",
+              "name": "Bacon29670",
+              "amount": 576,
+              "price": 52738,
+              "manufacturer": "Sony",
+              "notes": "wHeielGjraF2R6D0VxyfCTTwUT0u6kEPfXjC7oiE42taldIR4Un2jypUMZzBGBcihKnwscWHLLvi8rJuvc2vKN4DL2XflAcxp3UbRq3yx2KMUE0zydSTNMaIqC2yu2oAcuUDcqQqXFjqPHUBJqMLGU7rX3L6481ib0Wtv7BGfBuyA1MJqbLxqvScmTxPLqxLF8iU0MGCwV7qtlZTob52msronNrodxBdh78n7aP1l7GfTfi34v6fC95l3b",
+              "received": false
+            },
+            {
+              "_id": "696574841c508c5d5eb1207e",
+              "name": "Bike20828",
+              "amount": 656,
+              "price": 34768,
+              "manufacturer": "Amazon",
+              "notes": "0kF3xEtvpgHN4kU2RXeb04IraekOCsNjpvGlyE8cmz5GCEWVqqfUhqeqQdAur2gdxDKWEWcnSR1nmFuWav8YhIimA3yREr3aQVRPQBmegla4fNUrwFO7K9xAUO2V9Lp21swaoZDFc0X0GOa67sBP00zIvGx2TO4TkUvS2eOZzydctw1g0TEYxapo8JxJ9nZlOyCdnlXgKKoMvLFTT5DtL20m1HeYHP7R6WfgHrtNp9awBhQyshaVqy90q9",
+              "received": false
+            },
+            {
+              "_id": "696574841c508c5d5eb1208c",
+              "name": "Pizza66130",
+              "amount": 136,
+              "price": 17646,
+              "manufacturer": "Google",
+              "notes": "VaKRh3X9tP7xHFhP4VDqJUS7zbXhfjIKJGmqUuz1ZTbdKDMhPs6mhE7YusCeBo7ayCAEieorKu3wgHm8Dsux0JZqpMYcKaENRcWslxW28CLZHWDnwNJrUYqt8W5dz0CZ23zDPRm0nXshMo6GiE3UK2FNka2KlxgvJ4yvklx1UHR2lGRkOesILyM1NMcgI9ZOZh7yMLHHepmsZ76PCrSRE5NQLyQmBCHNDrQD2yu9587xIDadbs1SUWkxJh",
+              "received": false
+            }
+          ],
+          "total_price": 105152,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:24:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696574851c508c5d5eb120b4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:24:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-eAzMUQXgpLL6mUq5ECvGgVM+sKc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696574801c508c5d5eb11ea7",
+        "email": "Warren_Bailey@gmail.com",
+        "name": "Tara Hyatt",
+        "country": "Ukraine",
+        "city": "East Susanna",
+        "street": "Raphael Expressway",
+        "house": 42,
+        "flat": 586,
+        "phone": "+19267473507",
+        "createdOn": "2026-01-12T22:24:00.000Z",
+        "notes": "x8hFclwydUnxyWlLq2cJ7hmC9PE1HZpehHIwAQfxO9UsSx5kfnBciCQ4o8QUdQxI9cnD7QoDo9tHWEEbndqfVuu2KIX8hXlgdNceOkuUlelJ6mbVcuS9cb3ZYiIuNyPOF06N2J3rlB0UmdX81LMs93roY9acJEpEKu7zzAE29FXTM3TiWD4h6hyGCZVMzz1f8ZKxvPEMUip2igtvpEiqm8QEtnw6mR2HjIlXJZRBph2QtYjXVnHtxOWOMn"
+      },
+      "products": [
+        {
+          "_id": "696574811c508c5d5eb11ef6",
+          "name": "Mouse54306",
+          "amount": 845,
+          "price": 55940,
+          "manufacturer": "Samsung",
+          "notes": "H573RffAZEVx44aVL4qIU099SQRUmRo710lIqhgrb5DHVcuHAZnl1z18au74Iu4HGbMeaq3x3AHKU6VCbzDYMYFK7MVa8blqrb4BfTId1q5JxyhGx8p6ZCpc9muPcQykzMqaVAjcppiYOWPUn6Ue0YAtPrJe41ikRsKPRh0xJKl7LMpa7xaT1NwlniampjXMJWMZBcUN95DqAdkKgYrPaSqKzvGOoDh2Whvk2yg5rmqlEQ8Qr65dD4Sz6W",
+          "received": false
+        },
+        {
+          "_id": "696574811c508c5d5eb11f37",
+          "name": "Chair75207",
+          "amount": 999,
+          "price": 52576,
+          "manufacturer": "Samsung",
+          "notes": "D4p6aMVB83UY4DDqV33Bt71xj7ePQj7ZBjnrmtl5rOTQ4cY1JBwsIQ5clIcEcWAUfgHTRxZCIbXmnKr03auIyUnP4YMSVls27huxC9N11TUmlFCIGoFJFyfEdqIIVZoXEUllb8HKAHB5EXDAvVA6HjZGsr7W4zhiXLqTQFxbt8fgeceO5nvGQdBOxlCIA9xNtM2SZPJlxjIPhTa8o1aWX5YlgAeCE47laEvfAacp847xtBmoyV5P2jEApI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108516,
+      "createdOn": "2026-01-12T22:24:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696574801c508c5d5eb11ea7",
+          "products": [
+            {
+              "_id": "696574811c508c5d5eb11ef6",
+              "name": "Mouse54306",
+              "amount": 845,
+              "price": 55940,
+              "manufacturer": "Samsung",
+              "notes": "H573RffAZEVx44aVL4qIU099SQRUmRo710lIqhgrb5DHVcuHAZnl1z18au74Iu4HGbMeaq3x3AHKU6VCbzDYMYFK7MVa8blqrb4BfTId1q5JxyhGx8p6ZCpc9muPcQykzMqaVAjcppiYOWPUn6Ue0YAtPrJe41ikRsKPRh0xJKl7LMpa7xaT1NwlniampjXMJWMZBcUN95DqAdkKgYrPaSqKzvGOoDh2Whvk2yg5rmqlEQ8Qr65dD4Sz6W",
+              "received": false
+            },
+            {
+              "_id": "696574811c508c5d5eb11f37",
+              "name": "Chair75207",
+              "amount": 999,
+              "price": 52576,
+              "manufacturer": "Samsung",
+              "notes": "D4p6aMVB83UY4DDqV33Bt71xj7ePQj7ZBjnrmtl5rOTQ4cY1JBwsIQ5clIcEcWAUfgHTRxZCIbXmnKr03auIyUnP4YMSVls27huxC9N11TUmlFCIGoFJFyfEdqIIVZoXEUllb8HKAHB5EXDAvVA6HjZGsr7W4zhiXLqTQFxbt8fgeceO5nvGQdBOxlCIA9xNtM2SZPJlxjIPhTa8o1aWX5YlgAeCE47laEvfAacp847xtBmoyV5P2jEApI",
+              "received": false
+            }
+          ],
+          "total_price": 108516,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:24:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696574821c508c5d5eb11fab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:24:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5446",
+    "etag": "W/\"1546-/tIRoRT1ZaoLdwdN6SnbJGymUXM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696574a71c508c5d5eb1325c",
+      "status": "In Process",
+      "customer": {
+        "_id": "696574a21c508c5d5eb12fb4",
+        "email": "Ardella29@yahoo.com",
+        "name": "Bella Littel",
+        "country": "Belarus",
+        "city": "Coral Gables",
+        "street": "Washington Street",
+        "house": 48,
+        "flat": 771,
+        "phone": "+15042516868",
+        "createdOn": "2026-01-12T22:24:34.000Z",
+        "notes": "29gAQ1w8ZkRFgpSsPtzNmGWtxVAMdqN5AHBdcmoehNR5bRbczlXQe1tyyloAHPP3WuPsgpb1nFv9fq72fYSWDVyA9LL9luvcxft04tvsU1P9tWcQQlp6jviHCNfFXAnO5AW4dl2PVBxWBX0Qfi19I0t8QieUE87ZIBzfsizKXh05XR0Uf2f72pna3OkiQn7tRlYUgjauYTT3vM8k7euqqGdg31D5gRowx7nv1aZLXxwKocQY4C4QFx4pB9"
+      },
+      "products": [
+        {
+          "_id": "696574a31c508c5d5eb1301e",
+          "name": "Shirt87695",
+          "amount": 456,
+          "price": 10626,
+          "manufacturer": "Amazon",
+          "notes": "KUGEPSbcfvatf1UIVaxRUIjeH0PIJU7Onx6lOPRsXJeiwIzKX9nTmgFhWqSrWHwTjG627bNJ1u4ty1qocjHniWgED0X6Jakva4m5nLm007tbeE7A3wH0BiM3eeqajEzg8fWvt6NHPiVkEuBLXRH7H8lfiyvHEfzGk9HoMZOaGtOJHCz1j8hokEZS8b0ZjQ79Yy3eCxmFrhRg2b2iIxqFCclzG3TbEL5pjLty7Sdu4wqYg1N7P05BvopwUT",
+          "received": false
+        },
+        {
+          "_id": "696574a51c508c5d5eb1319e",
+          "name": "Sausages91503",
+          "amount": 281,
+          "price": 49680,
+          "manufacturer": "Amazon",
+          "notes": "F37cRU7tjBF6zhe3TRos72lPTuhQG6iRMbBzTW5Pk4RQt2ucmrOtE563JE4QpgfRcuVF1OeveftikJoyDdR7OtC7MiNjA4W7QaBvAOljTUD7UZLZEELbYFoPHm7zWVY42oU6QoC72P86H5ute2bxloSJKwYvSGpzVElQBDcleHaaKCARR8C11Mo0RS1sPmycVVaZvP5NayKe7Jo0zQsmjSuPl55RYWKLTp7TO4tb1yOGpXX9Q8yZaJNcsl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Coral Gables",
+          "street": "Washington Street",
+          "house": 48,
+          "flat": 771
+        },
+        "finalDate": "2026-01-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 60306,
+      "createdOn": "2026-01-12T22:24:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696574a21c508c5d5eb12fb4",
+          "products": [
+            {
+              "_id": "696574a31c508c5d5eb1301e",
+              "name": "Shirt87695",
+              "amount": 456,
+              "price": 10626,
+              "manufacturer": "Amazon",
+              "notes": "KUGEPSbcfvatf1UIVaxRUIjeH0PIJU7Onx6lOPRsXJeiwIzKX9nTmgFhWqSrWHwTjG627bNJ1u4ty1qocjHniWgED0X6Jakva4m5nLm007tbeE7A3wH0BiM3eeqajEzg8fWvt6NHPiVkEuBLXRH7H8lfiyvHEfzGk9HoMZOaGtOJHCz1j8hokEZS8b0ZjQ79Yy3eCxmFrhRg2b2iIxqFCclzG3TbEL5pjLty7Sdu4wqYg1N7P05BvopwUT",
+              "received": false
+            },
+            {
+              "_id": "696574a51c508c5d5eb1319e",
+              "name": "Sausages91503",
+              "amount": 281,
+              "price": 49680,
+              "manufacturer": "Amazon",
+              "notes": "F37cRU7tjBF6zhe3TRos72lPTuhQG6iRMbBzTW5Pk4RQt2ucmrOtE563JE4QpgfRcuVF1OeveftikJoyDdR7OtC7MiNjA4W7QaBvAOljTUD7UZLZEELbYFoPHm7zWVY42oU6QoC72P86H5ute2bxloSJKwYvSGpzVElQBDcleHaaKCARR8C11Mo0RS1sPmycVVaZvP5NayKe7Jo0zQsmjSuPl55RYWKLTp7TO4tb1yOGpXX9Q8yZaJNcsl",
+              "received": false
+            }
+          ],
+          "total_price": 60306,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Coral Gables",
+              "street": "Washington Street",
+              "house": 48,
+              "flat": 771
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-12T22:24:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696574a21c508c5d5eb12fb4",
+          "products": [
+            {
+              "_id": "696574a31c508c5d5eb1301e",
+              "name": "Shirt87695",
+              "amount": 456,
+              "price": 10626,
+              "manufacturer": "Amazon",
+              "notes": "KUGEPSbcfvatf1UIVaxRUIjeH0PIJU7Onx6lOPRsXJeiwIzKX9nTmgFhWqSrWHwTjG627bNJ1u4ty1qocjHniWgED0X6Jakva4m5nLm007tbeE7A3wH0BiM3eeqajEzg8fWvt6NHPiVkEuBLXRH7H8lfiyvHEfzGk9HoMZOaGtOJHCz1j8hokEZS8b0ZjQ79Yy3eCxmFrhRg2b2iIxqFCclzG3TbEL5pjLty7Sdu4wqYg1N7P05BvopwUT",
+              "received": false
+            },
+            {
+              "_id": "696574a51c508c5d5eb1319e",
+              "name": "Sausages91503",
+              "amount": 281,
+              "price": 49680,
+              "manufacturer": "Amazon",
+              "notes": "F37cRU7tjBF6zhe3TRos72lPTuhQG6iRMbBzTW5Pk4RQt2ucmrOtE563JE4QpgfRcuVF1OeveftikJoyDdR7OtC7MiNjA4W7QaBvAOljTUD7UZLZEELbYFoPHm7zWVY42oU6QoC72P86H5ute2bxloSJKwYvSGpzVElQBDcleHaaKCARR8C11Mo0RS1sPmycVVaZvP5NayKe7Jo0zQsmjSuPl55RYWKLTp7TO4tb1yOGpXX9Q8yZaJNcsl",
+              "received": false
+            }
+          ],
+          "total_price": 60306,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Coral Gables",
+              "street": "Washington Street",
+              "house": 48,
+              "flat": 771
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-12T22:24:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696574a21c508c5d5eb12fb4",
+          "products": [
+            {
+              "_id": "696574a31c508c5d5eb1301e",
+              "name": "Shirt87695",
+              "amount": 456,
+              "price": 10626,
+              "manufacturer": "Amazon",
+              "notes": "KUGEPSbcfvatf1UIVaxRUIjeH0PIJU7Onx6lOPRsXJeiwIzKX9nTmgFhWqSrWHwTjG627bNJ1u4ty1qocjHniWgED0X6Jakva4m5nLm007tbeE7A3wH0BiM3eeqajEzg8fWvt6NHPiVkEuBLXRH7H8lfiyvHEfzGk9HoMZOaGtOJHCz1j8hokEZS8b0ZjQ79Yy3eCxmFrhRg2b2iIxqFCclzG3TbEL5pjLty7Sdu4wqYg1N7P05BvopwUT",
+              "received": false
+            },
+            {
+              "_id": "696574a51c508c5d5eb1319e",
+              "name": "Sausages91503",
+              "amount": 281,
+              "price": 49680,
+              "manufacturer": "Amazon",
+              "notes": "F37cRU7tjBF6zhe3TRos72lPTuhQG6iRMbBzTW5Pk4RQt2ucmrOtE563JE4QpgfRcuVF1OeveftikJoyDdR7OtC7MiNjA4W7QaBvAOljTUD7UZLZEELbYFoPHm7zWVY42oU6QoC72P86H5ute2bxloSJKwYvSGpzVElQBDcleHaaKCARR8C11Mo0RS1sPmycVVaZvP5NayKe7Jo0zQsmjSuPl55RYWKLTp7TO4tb1yOGpXX9Q8yZaJNcsl",
+              "received": false
+            }
+          ],
+          "total_price": 60306,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:24:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:23:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2924",
+    "etag": "W/\"b6c-p4LjiR8rT8SiXoDabYzu9dBN1Rw\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6965747e1c508c5d5eb11d97",
+      "status": "Draft",
+      "customer": {
+        "_id": "6965747d1c508c5d5eb11d13",
+        "email": "Arlie36@hotmail.com",
+        "name": "Marshall Jones",
+        "country": "Russia",
+        "city": "South Brennon",
+        "street": "Broad Street",
+        "house": 21,
+        "flat": 846,
+        "phone": "+14878066154",
+        "createdOn": "2026-01-12T22:23:57.000Z",
+        "notes": "ZtlwUbmXwgOsrz1XXJuoxKQxraq1WKGRD8HSbICEqIQHuiPPkVYLcteNv30EuBElKLEtUkzXJt882oLF1li5PUJ47k04YqxOFkzblff1WLK3XCKct2zVg7jvRTdM6Kk3ltbYISMzpGo1BroT15AOq4zQG6rREqFDC0BCMkStOmkX58yaF15fgnJs72HDutJd2vUr7eLeFj3APyCLlcL8cZIrp8wZ4C0d1d23Jkdw2dJBMJYD7As42dMcaN"
+      },
+      "products": [
+        {
+          "_id": "6965747d1c508c5d5eb11d37",
+          "name": "Car75242",
+          "amount": 856,
+          "price": 42956,
+          "manufacturer": "Sony",
+          "notes": "qo2rIsegUTMg9tnxNm79HEFOMEDTUrRnxhWUlG5eF0MpOQiu2NixONkS3URF1TwSHfsOvKyQkd25rt0ZIntuNjr2j4I4mVmHV6yjJJMc1Ljkq8pAyIGIYXW0u9HAPdmPE6CKGYoKbV3fmuhxOPYvNESy234ydSbUk0aZvUC3B0axKTXbZC1k6cl2sUiF9VkcyGoXFDuNnqedIWox5ANLJlLSzeU9qvpYyBMx1zyjcviEGghrdUrKgjcl7p",
+          "received": false
+        },
+        {
+          "_id": "6965747d1c508c5d5eb11d67",
+          "name": "Bacon51710",
+          "amount": 713,
+          "price": 4808,
+          "manufacturer": "Google",
+          "notes": "7PWODhdk1WigdHy0dPlPvaAiHUV8Gwc585wHzBchUsBWypDjWSXoV7LKvDOzhZWn9SUVCKjMgxa1L6F5C1gTGV78YjoNpQ1kY8BHU7CqUHHzuWq6e9JwaCn2TRgYjMdoreVfZrHiWwyZ2AzclAoYg4D1hu8F4pqZAodbh2jA5KjLXx6yikXS4dgmirHmVFawAIDpzFQw5ifzmKPBepUbBwKT1oS5vyWTPkeXazmLuRaBKlWyFLzMQvYOAu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47764,
+      "createdOn": "2026-01-12T22:23:58.000Z",
+      "comments": [
+        {
+          "text": "dphuE9AtgJEBuqPQ2kNsXuE1PIT1hBfDmwLUdlkSBGshMxpHZrg2UZK4EZmHTqE6b7TLWTo03R5vMuJfkXpb3E5GimZFfLOOBca3XQje30r6Wl61hrAFYwv3mZPYcmWgffN1IoRwSzQtrBYZph79S3JFqbd2jnBe9MJJARhRBl5eBQ2wa153Tafw0K6NnXJNhcR9krx2 <",
+          "createdOn": "2026-01-12T22:23:58.000Z",
+          "_id": "6965747e1c508c5d5eb11dd0"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6965747d1c508c5d5eb11d13",
+          "products": [
+            {
+              "_id": "6965747d1c508c5d5eb11d37",
+              "name": "Car75242",
+              "amount": 856,
+              "price": 42956,
+              "manufacturer": "Sony",
+              "notes": "qo2rIsegUTMg9tnxNm79HEFOMEDTUrRnxhWUlG5eF0MpOQiu2NixONkS3URF1TwSHfsOvKyQkd25rt0ZIntuNjr2j4I4mVmHV6yjJJMc1Ljkq8pAyIGIYXW0u9HAPdmPE6CKGYoKbV3fmuhxOPYvNESy234ydSbUk0aZvUC3B0axKTXbZC1k6cl2sUiF9VkcyGoXFDuNnqedIWox5ANLJlLSzeU9qvpYyBMx1zyjcviEGghrdUrKgjcl7p",
+              "received": false
+            },
+            {
+              "_id": "6965747d1c508c5d5eb11d67",
+              "name": "Bacon51710",
+              "amount": 713,
+              "price": 4808,
+              "manufacturer": "Google",
+              "notes": "7PWODhdk1WigdHy0dPlPvaAiHUV8Gwc585wHzBchUsBWypDjWSXoV7LKvDOzhZWn9SUVCKjMgxa1L6F5C1gTGV78YjoNpQ1kY8BHU7CqUHHzuWq6e9JwaCn2TRgYjMdoreVfZrHiWwyZ2AzclAoYg4D1hu8F4pqZAodbh2jA5KjLXx6yikXS4dgmirHmVFawAIDpzFQw5ifzmKPBepUbBwKT1oS5vyWTPkeXazmLuRaBKlWyFLzMQvYOAu",
+              "received": false
+            }
+          ],
+          "total_price": 47764,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:23:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

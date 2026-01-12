@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:23:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-g+Y8OHqIJ+8QCPFLEB7flIROmro\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696574751c508c5d5eb119ed",
+        "email": "Lauryn4@hotmail.com",
+        "name": "Jane Cummerata",
+        "country": "Great Britain",
+        "city": "Lake Madalineboro",
+        "street": "Sawayn Meadow",
+        "house": 44,
+        "flat": 944,
+        "phone": "+14197066108",
+        "createdOn": "2026-01-12T22:23:49.000Z",
+        "notes": "WUyRT14qWdhrZ4L9IZ2QuSamdFA99vt1FnJog7gKMSoPR6GZxduwsPPJ2eyC71SVVWGgNVmkxwipb7CSPZnHRlg9em4BRDQSsq6jdisUee79YiB1nHWcefw6l5DdQCqfppdCTGOcFGB7sEj8aC7WpLKSzhRQYqo9FjWK4x566IargtuVbjSROELgrsCznzQu2Bm0Br2JOzT5ZSYZOxFGv8nMPkgpIZFAgDKaZZLziKOE8s12ZFSYhqVUgh"
+      },
+      "products": [
+        {
+          "_id": "696574761c508c5d5eb11a04",
+          "name": "Chips21267",
+          "amount": 812,
+          "price": 40278,
+          "manufacturer": "Xiaomi",
+          "notes": "CX2y6FhKqborJMw9nBl3nweWnTYucJpeMpDhjSWbRuHEu5bDVkok2JeSucfewY7BJkhRKGXX6r1LbHymEQS2oX7UvA1FgsJ2Yutq29SBzulK3a2ulBGOx9qGYenudIwQ0hTharlgh2ZjHmCXcldwb0yWBSzWiINsBJkjF6LwJZXaxFab6Z3Tk8ZskjTBnFy7KwuwjOwDfNHJax39W1vIdcEOfmJ4bvUTycm0yFBMyXjiPeJY7qJpDNfOA1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40278,
+      "createdOn": "2026-01-12T22:23:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696574751c508c5d5eb119ed",
+          "products": [
+            {
+              "_id": "696574761c508c5d5eb11a04",
+              "name": "Chips21267",
+              "amount": 812,
+              "price": 40278,
+              "manufacturer": "Xiaomi",
+              "notes": "CX2y6FhKqborJMw9nBl3nweWnTYucJpeMpDhjSWbRuHEu5bDVkok2JeSucfewY7BJkhRKGXX6r1LbHymEQS2oX7UvA1FgsJ2Yutq29SBzulK3a2ulBGOx9qGYenudIwQ0hTharlgh2ZjHmCXcldwb0yWBSzWiINsBJkjF6LwJZXaxFab6Z3Tk8ZskjTBnFy7KwuwjOwDfNHJax39W1vIdcEOfmJ4bvUTycm0yFBMyXjiPeJY7qJpDNfOA1",
+              "received": false
+            }
+          ],
+          "total_price": 40278,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:23:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696574761c508c5d5eb11a2c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

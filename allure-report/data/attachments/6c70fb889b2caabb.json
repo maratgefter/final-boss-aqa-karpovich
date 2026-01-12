@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 12 Jan 2026 22:24:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-CQ6/uYmOy5/h6CqFPtT+WXMK7no\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696574881c508c5d5eb1227f",
+        "email": "Sheridan26@gmail.com",
+        "name": "Ardella Howell",
+        "country": "Great Britain",
+        "city": "West Jaydaville",
+        "street": "Mckenzie Summit",
+        "house": 17,
+        "flat": 224,
+        "phone": "+12186025008",
+        "createdOn": "2026-01-12T22:24:08.000Z",
+        "notes": "RQohX292rIBNKG5UjTpCVbwIeUlafsKMKSnOgrspUwLyeBod7NykXLCoBcz0LHOuUfYhhvyrSMmMIAO1UCAHQhmXD9NxA33Nr4qKJDwLcjhxSeFJC1RD6YFyUpponMMPfBuFbottsqZjs5xSf1LxuKD2h1S4NRxnG2br0CY8iHqiwI0Ih3K9CqKgMcuFyfI9jmnhC585OXaSHSACeQv2rtoikhdjnLl3teqUtT7JKmE2h9SPV61vnCnALQ"
+      },
+      "products": [
+        {
+          "_id": "696574891c508c5d5eb122cb",
+          "name": "Bike27900",
+          "amount": 809,
+          "price": 85423,
+          "manufacturer": "Amazon",
+          "notes": "eWhnrYTRQ4Sqi47pdkNiU7C4NHo12nXOr1S1L1jmIgqqpOVdYWDpsLWwzXDyHR7ARKFIhyGTsArZN7tQ3CnB05AKNygpBA3rmu7dyLPS0Tyh7GXNP5LCeTgEylRwaSMeNSGJ0naN84s4BuxriCc7HcQm2WXkHT53SgZJkhWIk1drMxxjeHhQzUgd3kUFDIJc9ZyPigi6bI7qLSljIW4bnOGGP077L8ESs8sRf5kJAGoeuNhldRtghW92Sn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85423,
+      "createdOn": "2026-01-12T22:24:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696574881c508c5d5eb1227f",
+          "products": [
+            {
+              "_id": "696574891c508c5d5eb122cb",
+              "name": "Bike27900",
+              "amount": 809,
+              "price": 85423,
+              "manufacturer": "Amazon",
+              "notes": "eWhnrYTRQ4Sqi47pdkNiU7C4NHo12nXOr1S1L1jmIgqqpOVdYWDpsLWwzXDyHR7ARKFIhyGTsArZN7tQ3CnB05AKNygpBA3rmu7dyLPS0Tyh7GXNP5LCeTgEylRwaSMeNSGJ0naN84s4BuxriCc7HcQm2WXkHT53SgZJkhWIk1drMxxjeHhQzUgd3kUFDIJc9ZyPigi6bI7qLSljIW4bnOGGP077L8ESs8sRf5kJAGoeuNhldRtghW92Sn",
+              "received": false
+            }
+          ],
+          "total_price": 85423,
+          "delivery": null,
+          "changedOn": "2026-01-12T22:24:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696574891c508c5d5eb122fe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
