@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4093",
+    "etag": "W/\"ffd-f2blYuIwTFGkosFSEw3lDcxzzso\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c70d1c508c5d5eb18686",
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c7081c508c5d5eb18273",
+        "email": "Mackenzie_Pouros-Rath@yahoo.com",
+        "name": "Jairo Moen",
+        "country": "USA",
+        "city": "Sawaynberg",
+        "street": "Prospect Street",
+        "house": 12,
+        "flat": 830,
+        "phone": "+14143039686",
+        "createdOn": "2026-01-13T22:28:24.000Z",
+        "notes": "ecvptHVKVtnCOG6QAMrOkyHktHguVH9mEJHkbkpyfW0YWENBSmsVqSiwWJ5tdbsVKYg94IqRjvcHcniUeakgJWS8PRkTmDR0mq9CqPSpGz9GkXBsIjB8WyrotQtuq7PGFaRZro1yXIoRjLPtyMVi6PvjkKSA6eCfITUKdKj6fOdtgxdbJbao8eJotfPJa0FsPSKzt3DGMXfCr6Xqum9XlXnDZZ8HdszWpn31G4iB9WYRnZYi6mB4lTmTVk"
+      },
+      "products": [
+        {
+          "_id": "6966c70b1c508c5d5eb184a6",
+          "name": "Pizza21577",
+          "amount": 942,
+          "price": 65669,
+          "manufacturer": "Amazon",
+          "notes": "7c7MLBtZPCD8tPB15FTCQaa58WmGLdHNakNuRnQ7SFMavT2y5601tMHvL8KVcPxarfZXzqO17gvdnD09o0wv0JsXagmdkqzKjN8b4eRa65KNpq6CekWCTo7UOqEzBQTBbr14CKU8xWM08pAHYcDGuZxTX5BUQyfd8NOiby3XhCw1tn5avONPwCs1F3zAsl3bnNkyqoCtRPEOwsdKbublKHuYu8uNEb4GveOnblgBCxGJ6Tgpqf77TZS0nZ",
+          "received": false
+        },
+        {
+          "_id": "6966c70b1c508c5d5eb184c9",
+          "name": "Bike34224",
+          "amount": 501,
+          "price": 122,
+          "manufacturer": "Xiaomi",
+          "notes": "Z1rHy4XeNwewzMEUxjoLJx5Ac62sMOoCebaENzEegXVebX9ZiZhqSQoveKUZr8kskES7M1s6orE81aDefRYFD2Id9QH2moOuLp5HW1H8MtxU4icNnj6tnsWq2ckaNPW9Li95E88tqMzKWSkKiE1qnuxbgWkBsu2v1DPnrXojKilA0YmD2BD9PQCoyv0F8neBzldzvD93QVo2XZMCIX00GefSjKBNBpln2T96Oxj2Rq9UsZoMu3ht4iKEuH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Sawaynberg",
+          "street": "Prospect Street",
+          "house": 12,
+          "flat": 830
+        },
+        "finalDate": "2026-01-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 65791,
+      "createdOn": "2026-01-13T22:28:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c7081c508c5d5eb18273",
+          "products": [
+            {
+              "_id": "6966c70b1c508c5d5eb184a6",
+              "name": "Pizza21577",
+              "amount": 942,
+              "price": 65669,
+              "manufacturer": "Amazon",
+              "notes": "7c7MLBtZPCD8tPB15FTCQaa58WmGLdHNakNuRnQ7SFMavT2y5601tMHvL8KVcPxarfZXzqO17gvdnD09o0wv0JsXagmdkqzKjN8b4eRa65KNpq6CekWCTo7UOqEzBQTBbr14CKU8xWM08pAHYcDGuZxTX5BUQyfd8NOiby3XhCw1tn5avONPwCs1F3zAsl3bnNkyqoCtRPEOwsdKbublKHuYu8uNEb4GveOnblgBCxGJ6Tgpqf77TZS0nZ",
+              "received": false
+            },
+            {
+              "_id": "6966c70b1c508c5d5eb184c9",
+              "name": "Bike34224",
+              "amount": 501,
+              "price": 122,
+              "manufacturer": "Xiaomi",
+              "notes": "Z1rHy4XeNwewzMEUxjoLJx5Ac62sMOoCebaENzEegXVebX9ZiZhqSQoveKUZr8kskES7M1s6orE81aDefRYFD2Id9QH2moOuLp5HW1H8MtxU4icNnj6tnsWq2ckaNPW9Li95E88tqMzKWSkKiE1qnuxbgWkBsu2v1DPnrXojKilA0YmD2BD9PQCoyv0F8neBzldzvD93QVo2XZMCIX00GefSjKBNBpln2T96Oxj2Rq9UsZoMu3ht4iKEuH",
+              "received": false
+            }
+          ],
+          "total_price": 65791,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Sawaynberg",
+              "street": "Prospect Street",
+              "house": 12,
+              "flat": 830
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c7081c508c5d5eb18273",
+          "products": [
+            {
+              "_id": "6966c70b1c508c5d5eb184a6",
+              "name": "Pizza21577",
+              "amount": 942,
+              "price": 65669,
+              "manufacturer": "Amazon",
+              "notes": "7c7MLBtZPCD8tPB15FTCQaa58WmGLdHNakNuRnQ7SFMavT2y5601tMHvL8KVcPxarfZXzqO17gvdnD09o0wv0JsXagmdkqzKjN8b4eRa65KNpq6CekWCTo7UOqEzBQTBbr14CKU8xWM08pAHYcDGuZxTX5BUQyfd8NOiby3XhCw1tn5avONPwCs1F3zAsl3bnNkyqoCtRPEOwsdKbublKHuYu8uNEb4GveOnblgBCxGJ6Tgpqf77TZS0nZ",
+              "received": false
+            },
+            {
+              "_id": "6966c70b1c508c5d5eb184c9",
+              "name": "Bike34224",
+              "amount": 501,
+              "price": 122,
+              "manufacturer": "Xiaomi",
+              "notes": "Z1rHy4XeNwewzMEUxjoLJx5Ac62sMOoCebaENzEegXVebX9ZiZhqSQoveKUZr8kskES7M1s6orE81aDefRYFD2Id9QH2moOuLp5HW1H8MtxU4icNnj6tnsWq2ckaNPW9Li95E88tqMzKWSkKiE1qnuxbgWkBsu2v1DPnrXojKilA0YmD2BD9PQCoyv0F8neBzldzvD93QVo2XZMCIX00GefSjKBNBpln2T96Oxj2Rq9UsZoMu3ht4iKEuH",
+              "received": false
+            }
+          ],
+          "total_price": 65791,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

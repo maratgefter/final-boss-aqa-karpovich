@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-grdZbBFkLduLw1+o8NBz9q5Gabo\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6f71c508c5d5eb1786d",
+        "email": "Hudson.Barton92@hotmail.com",
+        "name": "Leland DuBuque",
+        "country": "Ukraine",
+        "city": "New Seamusview",
+        "street": "Daija Island",
+        "house": 30,
+        "flat": 231,
+        "phone": "+12944261264",
+        "createdOn": "2026-01-13T22:28:07.000Z",
+        "notes": "i8Cx7q0VkEzOPWWeV5qBJEuueQPczRdgvxG86KAv1aGBSN23Ip178vjr9KJfd1FBtbuPVoPFIiul8sO8Fj3XiXHj1JXyrOpboY6strwYJ57tonRMHmA9se1K5JYY0pnFTsR2pz2PMlgn75n5sL5Er0o7eELSVyIPvrbOEnK0Hlwfy5nFMgayMgvKU7QuOn0rB7eNPMdiPh0qFWGVaG6Sw6OFdJiOu2MdWcOgKQXV8fyCx2SVv51Z0xBstj"
+      },
+      "products": [
+        {
+          "_id": "6966c6f81c508c5d5eb1791f",
+          "name": "Soap67821",
+          "amount": 766,
+          "price": 9286,
+          "manufacturer": "Sony",
+          "notes": "R9rYGdMpSHblZXqlfHECT1JHRlcBooOjnK1mVn1fJr3sH7rfPeekSTufNdTXgYCdr7GqVA7k60cFSpPkoAYMSPBdOrVovtgFpt4Y3xXUa9y6et6mgc5NQiDrE23mfE9xcp8dKlhCbHy1AMo3rWDTMyOL9iubzOWG8ow4zbcEAeLlij8zKibEYdvpuzRN3burTMsLT7k8WkgqSOg4QtpM3ejrFglqQt9i5xD16CU1CucBLJlBEOWbNtP3M9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9286,
+      "createdOn": "2026-01-13T22:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6f71c508c5d5eb1786d",
+          "products": [
+            {
+              "_id": "6966c6f81c508c5d5eb1791f",
+              "name": "Soap67821",
+              "amount": 766,
+              "price": 9286,
+              "manufacturer": "Sony",
+              "notes": "R9rYGdMpSHblZXqlfHECT1JHRlcBooOjnK1mVn1fJr3sH7rfPeekSTufNdTXgYCdr7GqVA7k60cFSpPkoAYMSPBdOrVovtgFpt4Y3xXUa9y6et6mgc5NQiDrE23mfE9xcp8dKlhCbHy1AMo3rWDTMyOL9iubzOWG8ow4zbcEAeLlij8zKibEYdvpuzRN3burTMsLT7k8WkgqSOg4QtpM3ejrFglqQt9i5xD16CU1CucBLJlBEOWbNtP3M9",
+              "received": false
+            }
+          ],
+          "total_price": 9286,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6fa1c508c5d5eb17a0b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

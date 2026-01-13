@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-7IH/1/wzGmNjpZ32ECu1CvAXjj4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c6f21c508c5d5eb175df",
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6f11c508c5d5eb17563",
+        "email": "Ceasar.Stark@yahoo.com",
+        "name": "Jabari Swaniawski",
+        "country": "Germany",
+        "city": "Ratkestad",
+        "street": "Remington Harbor",
+        "house": 35,
+        "flat": 869,
+        "phone": "+18145314841",
+        "createdOn": "2026-01-13T22:28:01.000Z",
+        "notes": "MpU6QZslZpkDEV6ullfgwChQohhpMdjcbZ40L0xaXF4VYLrPg1ufg2zj4ok8lUDMRwNQVIitCWhsKSQBELkJJMGwht1URus0Yhd0OaGHicFjxqTBQxDtLTQbuSkvqHzdEt8ETLYcVChQ8UBc9WqlJdZQU5As1yNkwg2pFMByB85PfD9tD4ccj3dknxi611pPGbvVXJn20K1st2zbQw6mzVmbOqnj3HToxW5Bx1tcwPOzjO4Z5PJeL1cseR"
+      },
+      "products": [
+        {
+          "_id": "6966c6f21c508c5d5eb175a2",
+          "name": "Sausages15323",
+          "amount": 405,
+          "price": 44040,
+          "manufacturer": "Sony",
+          "notes": "HQ6zY6g2C597ggnVcJbSJTHbQ9zSRQJfhButWWjbprUi2OsEux9cK6rO3XJqg4WiiYDuhxCFWZYYpW2rWqenLa3cnvZil2kh0MuiHAIkDQSGD7qmJbRN3WKuKAPJryS7K4zTWqmLujCSkngfUNQBea1BhgodSqCkerWsUJ3tVvnAwP9peKJkXvmKfM29iH4gRipwIX8ZJTGzDINRsh34z4EYUjO4GESJ4xs2jcRwcgU9ywHI1k9AtglwZ8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Ratkestad",
+          "street": "Remington Harbor",
+          "house": 35,
+          "flat": 869
+        },
+        "finalDate": "2026-01-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 44040,
+      "createdOn": "2026-01-13T22:28:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6f11c508c5d5eb17563",
+          "products": [
+            {
+              "_id": "6966c6f21c508c5d5eb175a2",
+              "name": "Sausages15323",
+              "amount": 405,
+              "price": 44040,
+              "manufacturer": "Sony",
+              "notes": "HQ6zY6g2C597ggnVcJbSJTHbQ9zSRQJfhButWWjbprUi2OsEux9cK6rO3XJqg4WiiYDuhxCFWZYYpW2rWqenLa3cnvZil2kh0MuiHAIkDQSGD7qmJbRN3WKuKAPJryS7K4zTWqmLujCSkngfUNQBea1BhgodSqCkerWsUJ3tVvnAwP9peKJkXvmKfM29iH4gRipwIX8ZJTGzDINRsh34z4EYUjO4GESJ4xs2jcRwcgU9ywHI1k9AtglwZ8",
+              "received": false
+            }
+          ],
+          "total_price": 44040,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ratkestad",
+              "street": "Remington Harbor",
+              "house": 35,
+              "flat": 869
+            },
+            "finalDate": "2026-01-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6f11c508c5d5eb17563",
+          "products": [
+            {
+              "_id": "6966c6f21c508c5d5eb175a2",
+              "name": "Sausages15323",
+              "amount": 405,
+              "price": 44040,
+              "manufacturer": "Sony",
+              "notes": "HQ6zY6g2C597ggnVcJbSJTHbQ9zSRQJfhButWWjbprUi2OsEux9cK6rO3XJqg4WiiYDuhxCFWZYYpW2rWqenLa3cnvZil2kh0MuiHAIkDQSGD7qmJbRN3WKuKAPJryS7K4zTWqmLujCSkngfUNQBea1BhgodSqCkerWsUJ3tVvnAwP9peKJkXvmKfM29iH4gRipwIX8ZJTGzDINRsh34z4EYUjO4GESJ4xs2jcRwcgU9ywHI1k9AtglwZ8",
+              "received": false
+            }
+          ],
+          "total_price": 44040,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-q4sbtzhZgmBlc0oAmwIbvPMfRwc\"",
+    "keep-alive": "timeout=5, max=45",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c6fa1c508c5d5eb17a27",
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6f81c508c5d5eb178d7",
+        "email": "Mallory50@gmail.com",
+        "name": "Maximillia Wisoky",
+        "country": "France",
+        "city": "Quitzontown",
+        "street": "2nd Street",
+        "house": 23,
+        "flat": 753,
+        "phone": "+18026827758",
+        "createdOn": "2026-01-13T22:28:08.000Z",
+        "notes": "UuCCEW3zqRAtL2HKRxmChW1cUoza4vCa8nVk9rZ2aOcdMRhtJMeVrSRtoh1sFXkeQR5876t9KLdfPbR7XOKkpWN6efLKCkYLxzRG8GlLXsFEKQqtRcAwA7RiITxOplcxAHcXUWf5donxVevJpUlNKQwdOXDFElOJslHSTLFBwJv6dXsshzZngsbI2IL1FhMN9UZ0lbvIDZnz59blp3CV0H0LkiqW7BFIMtFXnk17CdWZPkRu0fSd1hrgCj"
+      },
+      "products": [
+        {
+          "_id": "6966c6fa1c508c5d5eb17a01",
+          "name": "Table66773",
+          "amount": 495,
+          "price": 70651,
+          "manufacturer": "Amazon",
+          "notes": "COWFnIO3M2mnFSg809jjUmopSW0crT05rOoVPHdRBhMxVsCZFKG4LntqQTk62c4l22cxQLjA03lu2zy1IElYYBwy9OkXiPaTykoJR2XpOrTca0XsjAF7Yt2sR4Ck73flgbJAIGo2Wcg2OpqvyroZxmcXL9viqvgXyxpdshZPYdIT1isIjeeNfacz8zlGQRzSBy6ESt8RR7bmg85GMmoH54pt7Q1CcH2Vy5h8Lw6MYvVEhThiuDjiGwgJna",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70651,
+      "createdOn": "2026-01-13T22:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6f81c508c5d5eb178d7",
+          "products": [
+            {
+              "_id": "6966c6fa1c508c5d5eb17a01",
+              "name": "Table66773",
+              "amount": 495,
+              "price": 70651,
+              "manufacturer": "Amazon",
+              "notes": "COWFnIO3M2mnFSg809jjUmopSW0crT05rOoVPHdRBhMxVsCZFKG4LntqQTk62c4l22cxQLjA03lu2zy1IElYYBwy9OkXiPaTykoJR2XpOrTca0XsjAF7Yt2sR4Ck73flgbJAIGo2Wcg2OpqvyroZxmcXL9viqvgXyxpdshZPYdIT1isIjeeNfacz8zlGQRzSBy6ESt8RR7bmg85GMmoH54pt7Q1CcH2Vy5h8Lw6MYvVEhThiuDjiGwgJna",
+              "received": false
+            }
+          ],
+          "total_price": 70651,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:10.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6f81c508c5d5eb178d7",
+          "products": [
+            {
+              "_id": "6966c6fa1c508c5d5eb17a01",
+              "name": "Table66773",
+              "amount": 495,
+              "price": 70651,
+              "manufacturer": "Amazon",
+              "notes": "COWFnIO3M2mnFSg809jjUmopSW0crT05rOoVPHdRBhMxVsCZFKG4LntqQTk62c4l22cxQLjA03lu2zy1IElYYBwy9OkXiPaTykoJR2XpOrTca0XsjAF7Yt2sR4Ck73flgbJAIGo2Wcg2OpqvyroZxmcXL9viqvgXyxpdshZPYdIT1isIjeeNfacz8zlGQRzSBy6ESt8RR7bmg85GMmoH54pt7Q1CcH2Vy5h8Lw6MYvVEhThiuDjiGwgJna",
+              "received": false
+            }
+          ],
+          "total_price": 70651,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

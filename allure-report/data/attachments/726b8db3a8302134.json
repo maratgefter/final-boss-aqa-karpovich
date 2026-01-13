@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3833",
+    "etag": "W/\"ef9-Y1NqsUVhEkprBLZWIYKU70XSjxg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c6f31c508c5d5eb17616",
+      "status": "In Process",
+      "customer": {
+        "_id": "6966c6f21c508c5d5eb175a7",
+        "email": "Jude.Cremin@hotmail.com",
+        "name": "Lonnie Hane",
+        "country": "USA",
+        "city": "New Susie",
+        "street": "Mohr Spur",
+        "house": 19,
+        "flat": 49,
+        "phone": "+18492838427",
+        "createdOn": "2026-01-13T22:28:02.000Z",
+        "notes": "jerLWGlPYQBm7R3YpZB8edaEHAOyyCxBnT3T8F1hqQNWuspXc33nOhfTKtPMaeiCJOlGJ716uSGrrrUNf9k9CoSujjwyiLIzzW1iv3ZNRVESQ1evvb9Q7VzIZJl6UZauCBLxEoEDDmEdKaotXA8ZSX7g4Q6ZERNQShwabWU3R4wUR9KMgBf5x28jrG0XWE4kvwTnM3LOMjsHFsxq5hbNqeDGx3OcIQnRfIeeyxpTmYgRTIGVr7IwRO4awY"
+      },
+      "products": [
+        {
+          "_id": "6966c6f21c508c5d5eb175d7",
+          "name": "Chair24591",
+          "amount": 362,
+          "price": 90105,
+          "manufacturer": "Tesla",
+          "notes": "zZDFgFRoEHpXBtxvD5ONySTY61d5UdHyPvCdswOHnQYzRUF9Q3zxv5RHtRqEtrNXAwkHl8g34q5ghGLe6YUsK45BUj1bd9nnxiLl4e10OsPOpwUm0ccePI6PfMZW5d9WxjRP12JUOMpHD3adACBttAEXtpNGmYIJyFOrVRBZ74vLJPKwE3urkHjO4SLffw7eZwIh4ybfY9uAefFVjCzmJLZlaPxUUFB9IWhCU2rUsQvmFSZurumuj0qtAS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Susie",
+          "street": "Mohr Spur",
+          "house": 19,
+          "flat": 49
+        },
+        "finalDate": "2026-01-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 90105,
+      "createdOn": "2026-01-13T22:28:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6966c6f21c508c5d5eb175a7",
+          "products": [
+            {
+              "_id": "6966c6f21c508c5d5eb175d7",
+              "name": "Chair24591",
+              "amount": 362,
+              "price": 90105,
+              "manufacturer": "Tesla",
+              "notes": "zZDFgFRoEHpXBtxvD5ONySTY61d5UdHyPvCdswOHnQYzRUF9Q3zxv5RHtRqEtrNXAwkHl8g34q5ghGLe6YUsK45BUj1bd9nnxiLl4e10OsPOpwUm0ccePI6PfMZW5d9WxjRP12JUOMpHD3adACBttAEXtpNGmYIJyFOrVRBZ74vLJPKwE3urkHjO4SLffw7eZwIh4ybfY9uAefFVjCzmJLZlaPxUUFB9IWhCU2rUsQvmFSZurumuj0qtAS",
+              "received": false
+            }
+          ],
+          "total_price": 90105,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Susie",
+              "street": "Mohr Spur",
+              "house": 19,
+              "flat": 49
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:05.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6f21c508c5d5eb175a7",
+          "products": [
+            {
+              "_id": "6966c6f21c508c5d5eb175d7",
+              "name": "Chair24591",
+              "amount": 362,
+              "price": 90105,
+              "manufacturer": "Tesla",
+              "notes": "zZDFgFRoEHpXBtxvD5ONySTY61d5UdHyPvCdswOHnQYzRUF9Q3zxv5RHtRqEtrNXAwkHl8g34q5ghGLe6YUsK45BUj1bd9nnxiLl4e10OsPOpwUm0ccePI6PfMZW5d9WxjRP12JUOMpHD3adACBttAEXtpNGmYIJyFOrVRBZ74vLJPKwE3urkHjO4SLffw7eZwIh4ybfY9uAefFVjCzmJLZlaPxUUFB9IWhCU2rUsQvmFSZurumuj0qtAS",
+              "received": false
+            }
+          ],
+          "total_price": 90105,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Susie",
+              "street": "Mohr Spur",
+              "house": 19,
+              "flat": 49
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6f21c508c5d5eb175a7",
+          "products": [
+            {
+              "_id": "6966c6f21c508c5d5eb175d7",
+              "name": "Chair24591",
+              "amount": 362,
+              "price": 90105,
+              "manufacturer": "Tesla",
+              "notes": "zZDFgFRoEHpXBtxvD5ONySTY61d5UdHyPvCdswOHnQYzRUF9Q3zxv5RHtRqEtrNXAwkHl8g34q5ghGLe6YUsK45BUj1bd9nnxiLl4e10OsPOpwUm0ccePI6PfMZW5d9WxjRP12JUOMpHD3adACBttAEXtpNGmYIJyFOrVRBZ74vLJPKwE3urkHjO4SLffw7eZwIh4ybfY9uAefFVjCzmJLZlaPxUUFB9IWhCU2rUsQvmFSZurumuj0qtAS",
+              "received": false
+            }
+          ],
+          "total_price": 90105,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

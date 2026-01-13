@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-IVR5Pks+zsPPLw2K/En6d6nlCnw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c7131c508c5d5eb189e6",
+        "email": "Chelsey_Bednar@hotmail.com",
+        "name": "Rosina Goldner",
+        "country": "Russia",
+        "city": "New Coltonville",
+        "street": "Hills Trafficway",
+        "house": 24,
+        "flat": 136,
+        "phone": "+14297320004",
+        "createdOn": "2026-01-13T22:28:35.000Z",
+        "notes": "pMvlBz70DwwcqlazHcF4tD6IQD6rA8JJJ8aTeeoVa9td9Dk13fad7OrzKCyzmmJEn8BMXnV15TOsEEVv8USi8WLxQlR8vUtYigBJFB5O4MUNYcBhG5B18Lk7X2bpv1d9jVLdKOFZNZObtGJwjqUagjEb0DubekXkIpN6HtM5xcboaSmmVefUdxMlBoahooBuU9TTYSgmmcRzR1ty6EcN9amEPXzFmoYYwinqBBMNaw0y8OCsQS64hVRfRq"
+      },
+      "products": [
+        {
+          "_id": "6966c7141c508c5d5eb18a5b",
+          "name": "Car3063",
+          "amount": 454,
+          "price": 85386,
+          "manufacturer": "Amazon",
+          "notes": "Y9szdzaTSBHR43h4uzm4Osgz5ygmvlQ9etmUCTAXAthvppry6HjoyiV2AbJy5jWi3ZJzBfArplRvaNiEU06AArayZEt9XvcOeRVm8NsfiMSjqMTKPcDOxtzCZSWXe9kXIdQrStw3nts34VU5ubiKHB7ghkJx8103mxYuOe0Kc7qgnOCBhVOVAsZQENjl5nnpaouzMOEq6CogV7xNOpZX9zZ1uOf4Zz7ild90F5egwtL8mAEWqUVrQxWuve",
+          "received": false
+        },
+        {
+          "_id": "6966c7151c508c5d5eb18ac1",
+          "name": "Table12818",
+          "amount": 259,
+          "price": 72686,
+          "manufacturer": "Samsung",
+          "notes": "PNOrZYYGqWH6429pjJCmYKZsb1yPG72VgEG6MAxBS3exqVrlviNDlgudG8SKGS7pJqudKOgA3PgMx5OGeswyCwfsRMjYx0yMZwTqGLrZClADpvDjgaB3rQOGwnKr2qkpmrrvq5psl3OFDSPcfJcE8X4zKyqnjPTDSmRdojVXTslLU9pBhUDtEMliiYcXeD4xCRI9uKE9dpynNjdv73CBFUEbMq2usxrLjNtnYbxlpjWiULXiqDmPHkLrOl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 158072,
+      "createdOn": "2026-01-13T22:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c7131c508c5d5eb189e6",
+          "products": [
+            {
+              "_id": "6966c7141c508c5d5eb18a5b",
+              "name": "Car3063",
+              "amount": 454,
+              "price": 85386,
+              "manufacturer": "Amazon",
+              "notes": "Y9szdzaTSBHR43h4uzm4Osgz5ygmvlQ9etmUCTAXAthvppry6HjoyiV2AbJy5jWi3ZJzBfArplRvaNiEU06AArayZEt9XvcOeRVm8NsfiMSjqMTKPcDOxtzCZSWXe9kXIdQrStw3nts34VU5ubiKHB7ghkJx8103mxYuOe0Kc7qgnOCBhVOVAsZQENjl5nnpaouzMOEq6CogV7xNOpZX9zZ1uOf4Zz7ild90F5egwtL8mAEWqUVrQxWuve",
+              "received": false
+            },
+            {
+              "_id": "6966c7151c508c5d5eb18ac1",
+              "name": "Table12818",
+              "amount": 259,
+              "price": 72686,
+              "manufacturer": "Samsung",
+              "notes": "PNOrZYYGqWH6429pjJCmYKZsb1yPG72VgEG6MAxBS3exqVrlviNDlgudG8SKGS7pJqudKOgA3PgMx5OGeswyCwfsRMjYx0yMZwTqGLrZClADpvDjgaB3rQOGwnKr2qkpmrrvq5psl3OFDSPcfJcE8X4zKyqnjPTDSmRdojVXTslLU9pBhUDtEMliiYcXeD4xCRI9uKE9dpynNjdv73CBFUEbMq2usxrLjNtnYbxlpjWiULXiqDmPHkLrOl",
+              "received": false
+            }
+          ],
+          "total_price": 158072,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c7151c508c5d5eb18aef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

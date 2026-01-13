@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6737",
+    "etag": "W/\"1a51-4ubTmu3MGXYA/5avgEt6ABNWXyM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c7071c508c5d5eb181e8",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6966c6ff1c508c5d5eb17cc9",
+        "email": "Margarete75@hotmail.com",
+        "name": "Luciano Wiza",
+        "country": "Great Britain",
+        "city": "New Dwight",
+        "street": "Priory Close",
+        "house": 2,
+        "flat": 920,
+        "phone": "+18705229446",
+        "createdOn": "2026-01-13T22:28:15.000Z",
+        "notes": "Aj8CdEiU0UiwXKtQU0MaY2nzwdaQiHDR4nJLz0kzOY8visMCrOMepA3OdZTQ8r0dOFspRlcn6RxnkyjwLr2UhFGimJl8QFU4aCf6foq1OLifZADX6LjPVSPn7cIa7PT3QVunmxWOvSGYbBWMpSbCqQzgKGPmsvn2GZ5uIfrvk3vkdFnPBsxJ5Mu5hdwm7GXfSa7Rro5Bi5VpZ9bXSDV4MjvzmV9y4C9HLXZtpbn0sKIYkZmy7kaebtT0ZS"
+      },
+      "products": [
+        {
+          "_id": "6966c7001c508c5d5eb17d11",
+          "name": "Computer61713",
+          "amount": 469,
+          "price": 51661,
+          "manufacturer": "Amazon",
+          "notes": "m18Nva0kqFW10HLsZb9w5aCs82RBGSNBfe0tVsEBCOE4XS4IhOmmFJKlqvDEar1bWi7XQysOuvCGG5xBARnrwqHbsvyfdfqRJkZwWeKikXkdYj34mJ8neJjNQ1EOFTjOHGDPuoCgR49FNnMwygmEcNxcwlnHTg7iFnN6fM1pi4DGMVFrDKXcuCKOMNODeJw23d0pMZ5W4uzKHrCgfEuLSWuwYuD5BfaxzdAEl5BuAdpJVJeLBIODKeNUPy",
+          "received": false
+        },
+        {
+          "_id": "6966c7021c508c5d5eb17eb5",
+          "name": "Chips45538",
+          "amount": 449,
+          "price": 31894,
+          "manufacturer": "Apple",
+          "notes": "CseOntrU2FtBFkp6OZvrHcRlSJP15J88xTZCOmQahW5DRabgd781HqlqDBSg9lLzT1Dlw9icSmJVnaF1lD6Huxk2CubcYwDjuAlSpmi1a0n1qsmYLc0Z220VAXVJPNi2MW34IZxoONVDdwllsfcN3lOYMs6pU9V07Dsi8fbmF0Aw6bpBFBt2oXMBpjzIzhHQyfB67zXdzx3r1gmg7PLcFQ1dG6q9ZyVz9iUa8Z7C17BLJicVr3XbpUZz8M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Dwight",
+          "street": "Priory Close",
+          "house": 2,
+          "flat": 920
+        },
+        "finalDate": "2026-01-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 83555,
+      "createdOn": "2026-01-13T22:28:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6966c6ff1c508c5d5eb17cc9",
+          "products": [
+            {
+              "_id": "6966c7001c508c5d5eb17d11",
+              "name": "Computer61713",
+              "amount": 469,
+              "price": 51661,
+              "manufacturer": "Amazon",
+              "notes": "m18Nva0kqFW10HLsZb9w5aCs82RBGSNBfe0tVsEBCOE4XS4IhOmmFJKlqvDEar1bWi7XQysOuvCGG5xBARnrwqHbsvyfdfqRJkZwWeKikXkdYj34mJ8neJjNQ1EOFTjOHGDPuoCgR49FNnMwygmEcNxcwlnHTg7iFnN6fM1pi4DGMVFrDKXcuCKOMNODeJw23d0pMZ5W4uzKHrCgfEuLSWuwYuD5BfaxzdAEl5BuAdpJVJeLBIODKeNUPy",
+              "received": false
+            },
+            {
+              "_id": "6966c7021c508c5d5eb17eb5",
+              "name": "Chips45538",
+              "amount": 449,
+              "price": 31894,
+              "manufacturer": "Apple",
+              "notes": "CseOntrU2FtBFkp6OZvrHcRlSJP15J88xTZCOmQahW5DRabgd781HqlqDBSg9lLzT1Dlw9icSmJVnaF1lD6Huxk2CubcYwDjuAlSpmi1a0n1qsmYLc0Z220VAXVJPNi2MW34IZxoONVDdwllsfcN3lOYMs6pU9V07Dsi8fbmF0Aw6bpBFBt2oXMBpjzIzhHQyfB67zXdzx3r1gmg7PLcFQ1dG6q9ZyVz9iUa8Z7C17BLJicVr3XbpUZz8M",
+              "received": false
+            }
+          ],
+          "total_price": 83555,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Dwight",
+              "street": "Priory Close",
+              "house": 2,
+              "flat": 920
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6966c6ff1c508c5d5eb17cc9",
+          "products": [
+            {
+              "_id": "6966c7001c508c5d5eb17d11",
+              "name": "Computer61713",
+              "amount": 469,
+              "price": 51661,
+              "manufacturer": "Amazon",
+              "notes": "m18Nva0kqFW10HLsZb9w5aCs82RBGSNBfe0tVsEBCOE4XS4IhOmmFJKlqvDEar1bWi7XQysOuvCGG5xBARnrwqHbsvyfdfqRJkZwWeKikXkdYj34mJ8neJjNQ1EOFTjOHGDPuoCgR49FNnMwygmEcNxcwlnHTg7iFnN6fM1pi4DGMVFrDKXcuCKOMNODeJw23d0pMZ5W4uzKHrCgfEuLSWuwYuD5BfaxzdAEl5BuAdpJVJeLBIODKeNUPy",
+              "received": false
+            },
+            {
+              "_id": "6966c7021c508c5d5eb17eb5",
+              "name": "Chips45538",
+              "amount": 449,
+              "price": 31894,
+              "manufacturer": "Apple",
+              "notes": "CseOntrU2FtBFkp6OZvrHcRlSJP15J88xTZCOmQahW5DRabgd781HqlqDBSg9lLzT1Dlw9icSmJVnaF1lD6Huxk2CubcYwDjuAlSpmi1a0n1qsmYLc0Z220VAXVJPNi2MW34IZxoONVDdwllsfcN3lOYMs6pU9V07Dsi8fbmF0Aw6bpBFBt2oXMBpjzIzhHQyfB67zXdzx3r1gmg7PLcFQ1dG6q9ZyVz9iUa8Z7C17BLJicVr3XbpUZz8M",
+              "received": false
+            }
+          ],
+          "total_price": 83555,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Dwight",
+              "street": "Priory Close",
+              "house": 2,
+              "flat": 920
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6ff1c508c5d5eb17cc9",
+          "products": [
+            {
+              "_id": "6966c7001c508c5d5eb17d11",
+              "name": "Computer61713",
+              "amount": 469,
+              "price": 51661,
+              "manufacturer": "Amazon",
+              "notes": "m18Nva0kqFW10HLsZb9w5aCs82RBGSNBfe0tVsEBCOE4XS4IhOmmFJKlqvDEar1bWi7XQysOuvCGG5xBARnrwqHbsvyfdfqRJkZwWeKikXkdYj34mJ8neJjNQ1EOFTjOHGDPuoCgR49FNnMwygmEcNxcwlnHTg7iFnN6fM1pi4DGMVFrDKXcuCKOMNODeJw23d0pMZ5W4uzKHrCgfEuLSWuwYuD5BfaxzdAEl5BuAdpJVJeLBIODKeNUPy",
+              "received": false
+            },
+            {
+              "_id": "6966c7021c508c5d5eb17eb5",
+              "name": "Chips45538",
+              "amount": 449,
+              "price": 31894,
+              "manufacturer": "Apple",
+              "notes": "CseOntrU2FtBFkp6OZvrHcRlSJP15J88xTZCOmQahW5DRabgd781HqlqDBSg9lLzT1Dlw9icSmJVnaF1lD6Huxk2CubcYwDjuAlSpmi1a0n1qsmYLc0Z220VAXVJPNi2MW34IZxoONVDdwllsfcN3lOYMs6pU9V07Dsi8fbmF0Aw6bpBFBt2oXMBpjzIzhHQyfB67zXdzx3r1gmg7PLcFQ1dG6q9ZyVz9iUa8Z7C17BLJicVr3XbpUZz8M",
+              "received": false
+            }
+          ],
+          "total_price": 83555,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Dwight",
+              "street": "Priory Close",
+              "house": 2,
+              "flat": 920
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6ff1c508c5d5eb17cc9",
+          "products": [
+            {
+              "_id": "6966c7001c508c5d5eb17d11",
+              "name": "Computer61713",
+              "amount": 469,
+              "price": 51661,
+              "manufacturer": "Amazon",
+              "notes": "m18Nva0kqFW10HLsZb9w5aCs82RBGSNBfe0tVsEBCOE4XS4IhOmmFJKlqvDEar1bWi7XQysOuvCGG5xBARnrwqHbsvyfdfqRJkZwWeKikXkdYj34mJ8neJjNQ1EOFTjOHGDPuoCgR49FNnMwygmEcNxcwlnHTg7iFnN6fM1pi4DGMVFrDKXcuCKOMNODeJw23d0pMZ5W4uzKHrCgfEuLSWuwYuD5BfaxzdAEl5BuAdpJVJeLBIODKeNUPy",
+              "received": false
+            },
+            {
+              "_id": "6966c7021c508c5d5eb17eb5",
+              "name": "Chips45538",
+              "amount": 449,
+              "price": 31894,
+              "manufacturer": "Apple",
+              "notes": "CseOntrU2FtBFkp6OZvrHcRlSJP15J88xTZCOmQahW5DRabgd781HqlqDBSg9lLzT1Dlw9icSmJVnaF1lD6Huxk2CubcYwDjuAlSpmi1a0n1qsmYLc0Z220VAXVJPNi2MW34IZxoONVDdwllsfcN3lOYMs6pU9V07Dsi8fbmF0Aw6bpBFBt2oXMBpjzIzhHQyfB67zXdzx3r1gmg7PLcFQ1dG6q9ZyVz9iUa8Z7C17BLJicVr3XbpUZz8M",
+              "received": false
+            }
+          ],
+          "total_price": 83555,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

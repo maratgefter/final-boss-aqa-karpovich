@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:27:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-2989qSq72csS3S+AaOFmv+OHCfc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6e91c508c5d5eb1703d",
+        "email": "Jose.Willms@yahoo.com",
+        "name": "Brooke Bernhard",
+        "country": "Germany",
+        "city": "Fort Troyworth",
+        "street": "Jefferson Avenue",
+        "house": 42,
+        "flat": 328,
+        "phone": "+12155318430",
+        "createdOn": "2026-01-13T22:27:53.000Z",
+        "notes": "2XViHytA7vAMxY2mZmRoiwukzsPCAWM67hhxSONwobDPl926kximClZaiA0vODeb7Y2b2kUQrlo4sQfGmfU3JjsJh5Csi7761HQpZXIlBz9KyOxPO7i1udCy201mBQQZWI4yJ4S6hppYZYE7m1iwLB6J8KxBr0LpRBdrvyIe31bux8gN5P29WEJILbNHHXz6Ldwi7WEKvSwhzEXj4Xr0C5WtVaJDHtYi3V1COFSHPEWtRZBE9qS3urrNmp"
+      },
+      "products": [
+        {
+          "_id": "6966c6e91c508c5d5eb1705e",
+          "name": "Gloves5021",
+          "amount": 129,
+          "price": 23533,
+          "manufacturer": "Google",
+          "notes": "cEMruVUqMbPZqHfCnRxEJH3DPWQtAjhZYzNIozGtuq2pK7G9TRhCye6il4SKPucjYr33jRoWP0zJVggyGVx30kJlG2EB70rZB9GiwGB4HbBzINIyEu5d3Q5w9s6QOyZF1mkp9JxNhrI9MTypkCq9PQEOfKtnzijUfs5ODNw0sTDlowLlvm65rwcrpQOwWLIE66nvGLbGik4OX5Tz0UlLv74BF48YvZ01MaCs1BGj9M8xq1GgLdDvqI9KL1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23533,
+      "createdOn": "2026-01-13T22:27:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6e91c508c5d5eb1703d",
+          "products": [
+            {
+              "_id": "6966c6e91c508c5d5eb1705e",
+              "name": "Gloves5021",
+              "amount": 129,
+              "price": 23533,
+              "manufacturer": "Google",
+              "notes": "cEMruVUqMbPZqHfCnRxEJH3DPWQtAjhZYzNIozGtuq2pK7G9TRhCye6il4SKPucjYr33jRoWP0zJVggyGVx30kJlG2EB70rZB9GiwGB4HbBzINIyEu5d3Q5w9s6QOyZF1mkp9JxNhrI9MTypkCq9PQEOfKtnzijUfs5ODNw0sTDlowLlvm65rwcrpQOwWLIE66nvGLbGik4OX5Tz0UlLv74BF48YvZ01MaCs1BGj9M8xq1GgLdDvqI9KL1",
+              "received": false
+            }
+          ],
+          "total_price": 23533,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:27:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6e91c508c5d5eb1707e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

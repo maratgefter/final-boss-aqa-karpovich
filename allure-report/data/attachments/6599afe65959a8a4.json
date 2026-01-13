@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:27:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-6r+jZUjJtU0duBB7Eb86ZAv/MPo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6e51c508c5d5eb16e27",
+        "email": "Nico58@gmail.com",
+        "name": "Norberto Kuphal",
+        "country": "Ukraine",
+        "city": "Swaniawskichester",
+        "street": "Carter Via",
+        "house": 39,
+        "flat": 634,
+        "phone": "+17348837813",
+        "createdOn": "2026-01-13T22:27:49.000Z",
+        "notes": "mtX5qU1qNsDmK39xZ8a0PLTexRkRupsuManZx1enqM6cokEhbNIEToJCo1OLRr067UQcpNMXmOfzK9Mtu7AFt0rBMumOoH0IJRFUUqQiDIypuRtEuJPYTBbEQ0aTdA0rdxCpySzbperjjkO25NZvOc3RipOp2I9KTDErLMdsPGVGGEkpGttMxik4cTZtq2zYZvBJ3mR6IaWDCBEl3R2ItbFgzRDmNet5WHR2h2j4RZa9MzB7KhsARZSehk"
+      },
+      "products": [
+        {
+          "_id": "6966c6e51c508c5d5eb16e47",
+          "name": "Tuna41307",
+          "amount": 980,
+          "price": 62561,
+          "manufacturer": "Amazon",
+          "notes": "PlLJNIhdvxYhhNJRxu9iZylZu69XkEkvXpqTZhmqSXVL3LNj2jOFVUaGcmdRBGmBbJHQuT84j794yrOidEhClMQ68r5Q9T0KKMfhmLwQejxK0g2ucmK4NPNRIibPQ0FJIEmP5HqDatUFsQI0LU79HevwRTs6qEhsLCw3zUQe0VPzFIoHKkzKq4bRMNHlOMucvGBuheanA91en9xKeoozS8wLnU8ZdLDaLZH5jkeFsVPoDStmHeMghTKVR2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62561,
+      "createdOn": "2026-01-13T22:27:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6e51c508c5d5eb16e27",
+          "products": [
+            {
+              "_id": "6966c6e51c508c5d5eb16e47",
+              "name": "Tuna41307",
+              "amount": 980,
+              "price": 62561,
+              "manufacturer": "Amazon",
+              "notes": "PlLJNIhdvxYhhNJRxu9iZylZu69XkEkvXpqTZhmqSXVL3LNj2jOFVUaGcmdRBGmBbJHQuT84j794yrOidEhClMQ68r5Q9T0KKMfhmLwQejxK0g2ucmK4NPNRIibPQ0FJIEmP5HqDatUFsQI0LU79HevwRTs6qEhsLCw3zUQe0VPzFIoHKkzKq4bRMNHlOMucvGBuheanA91en9xKeoozS8wLnU8ZdLDaLZH5jkeFsVPoDStmHeMghTKVR2",
+              "received": false
+            }
+          ],
+          "total_price": 62561,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:27:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6e61c508c5d5eb16ee1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

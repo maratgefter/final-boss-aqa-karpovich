@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:27:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-diKcdfrg0QEF33HbdD055w47/LE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6e21c508c5d5eb16cbc",
+        "email": "Kaela.Legros@gmail.com",
+        "name": "Jairo Stracke",
+        "country": "USA",
+        "city": "West Everetteland",
+        "street": "Northfield Road",
+        "house": 38,
+        "flat": 262,
+        "phone": "+14929472804",
+        "createdOn": "2026-01-13T22:27:46.000Z",
+        "notes": "nCDzeieIkI9vdNH5Hkj7Oi8GpEHhyIyEYAaVAj8O4kKlFtMgXPyWwXjnC84P1e8dPJP4SqCPn0WJfZT5xPrbcdiwCWPb2k1WsC646DLFDcux3LK2lSQ86cCtiQA4MPjQr7JSCaWdgfdeOlSdo9BZ1spN87WTF5figp22SvXtSqy9DbH8ELK7nw5NY6kPeMS5LCMCXlPD03WgGBg2or8reo2iBKnlG91NXXHr4sSo6abMXWYBALE751IoJO"
+      },
+      "products": [
+        {
+          "_id": "6966c6e21c508c5d5eb16cd0",
+          "name": "Gloves72663",
+          "amount": 124,
+          "price": 30449,
+          "manufacturer": "Tesla",
+          "notes": "cOhzvNBIY59tidC1mxsYbf74tzNayjBeM9B4JKvFTWQSFqO5t4qrv0Rjsjt4Qqh13UB6lOxi4f3FP9vuF2NQougDIPXLquyWW8eChx553tBLpsCBYC3LaZlPPZYfNJaCGoR6VYEKwItTYfhkkpg2AuZ1h30AoXgaAaTXO25kw2XgUpQqXflNj3vwv2yILSoo6wMgEAp8i2zr7np6OlVc3EowNB65X6DAPZ16GEa402OMj9yOJXvyEMbnpc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30449,
+      "createdOn": "2026-01-13T22:27:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6e21c508c5d5eb16cbc",
+          "products": [
+            {
+              "_id": "6966c6e21c508c5d5eb16cd0",
+              "name": "Gloves72663",
+              "amount": 124,
+              "price": 30449,
+              "manufacturer": "Tesla",
+              "notes": "cOhzvNBIY59tidC1mxsYbf74tzNayjBeM9B4JKvFTWQSFqO5t4qrv0Rjsjt4Qqh13UB6lOxi4f3FP9vuF2NQougDIPXLquyWW8eChx553tBLpsCBYC3LaZlPPZYfNJaCGoR6VYEKwItTYfhkkpg2AuZ1h30AoXgaAaTXO25kw2XgUpQqXflNj3vwv2yILSoo6wMgEAp8i2zr7np6OlVc3EowNB65X6DAPZ16GEa402OMj9yOJXvyEMbnpc",
+              "received": false
+            }
+          ],
+          "total_price": 30449,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:27:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6e31c508c5d5eb16d44"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

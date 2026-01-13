@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:28:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-p7nMjbNWsrcNFkhPsOwBZ5j+XgU\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6966c6f11c508c5d5eb1754a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6ef1c508c5d5eb17407",
+        "email": "Joesph.Herman79@hotmail.com",
+        "name": "Chad Daugherty",
+        "country": "Ukraine",
+        "city": "North Brendamouth",
+        "street": "1st Street",
+        "house": 30,
+        "flat": 939,
+        "phone": "+17515690167",
+        "createdOn": "2026-01-13T22:27:59.000Z",
+        "notes": "mad2dzbzSuWAOdwv7wwoBLEKbBWwGluffmK14XvOzgA0KE1ZNhQ8c7BaHZXH5ZqqNci3ph8ZChL2BUPCFl8U8X8NUtEA6aDQ6Akzo9A4Bj1VT2O0YDzkI1tJeIVNFqoDVgpAYbeA2kAFHCIDKcZePQV5fTKy3scjLE8SJHeT31VwRVjIh8qd7LJbx8qsCoopzfxSfknaucR7oDawWswxtoJSmX8NIsGs1fvBlcr8OfkdRojTJouepEoCtZ"
+      },
+      "products": [
+        {
+          "_id": "6966c6f01c508c5d5eb174a6",
+          "name": "Chips2194",
+          "amount": 252,
+          "price": 11531,
+          "manufacturer": "Sony",
+          "notes": "63EYheccCKv6X0fCnxuvAihxQrKEyTSDLimAY1ufjN9ZX9uy09kEYVCD2MS3WoGGN0dJH5ulOZoBq51j01gqe1zk59lqZOPZ18S7pUjvKQPg7Fu3qEh0prb9wlaW9XGjp5VNtwO2yRqFMWxlhXRGOoj2GDoNDBeNOeIhkqI3YVoauWBgqgj62FYsyH9KZ1mnGA1USgYMGe8V4gQcGchk7n8fo4NMh0Z3rTLxUm6YdQ2mNF7A3WY0LAtzxu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "North Brendamouth",
+          "street": "1st Street",
+          "house": 30,
+          "flat": 939
+        },
+        "finalDate": "2026-01-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 11531,
+      "createdOn": "2026-01-13T22:28:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6ef1c508c5d5eb17407",
+          "products": [
+            {
+              "_id": "6966c6f01c508c5d5eb174a6",
+              "name": "Chips2194",
+              "amount": 252,
+              "price": 11531,
+              "manufacturer": "Sony",
+              "notes": "63EYheccCKv6X0fCnxuvAihxQrKEyTSDLimAY1ufjN9ZX9uy09kEYVCD2MS3WoGGN0dJH5ulOZoBq51j01gqe1zk59lqZOPZ18S7pUjvKQPg7Fu3qEh0prb9wlaW9XGjp5VNtwO2yRqFMWxlhXRGOoj2GDoNDBeNOeIhkqI3YVoauWBgqgj62FYsyH9KZ1mnGA1USgYMGe8V4gQcGchk7n8fo4NMh0Z3rTLxUm6YdQ2mNF7A3WY0LAtzxu",
+              "received": false
+            }
+          ],
+          "total_price": 11531,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Brendamouth",
+              "street": "1st Street",
+              "house": 30,
+              "flat": 939
+            },
+            "finalDate": "2026-01-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-13T22:28:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6966c6ef1c508c5d5eb17407",
+          "products": [
+            {
+              "_id": "6966c6f01c508c5d5eb174a6",
+              "name": "Chips2194",
+              "amount": 252,
+              "price": 11531,
+              "manufacturer": "Sony",
+              "notes": "63EYheccCKv6X0fCnxuvAihxQrKEyTSDLimAY1ufjN9ZX9uy09kEYVCD2MS3WoGGN0dJH5ulOZoBq51j01gqe1zk59lqZOPZ18S7pUjvKQPg7Fu3qEh0prb9wlaW9XGjp5VNtwO2yRqFMWxlhXRGOoj2GDoNDBeNOeIhkqI3YVoauWBgqgj62FYsyH9KZ1mnGA1USgYMGe8V4gQcGchk7n8fo4NMh0Z3rTLxUm6YdQ2mNF7A3WY0LAtzxu",
+              "received": false
+            }
+          ],
+          "total_price": 11531,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:28:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

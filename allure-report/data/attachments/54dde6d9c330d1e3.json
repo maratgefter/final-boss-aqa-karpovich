@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:27:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-BpUm5TLelzmoZxsE0wrDEniMFnI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6dc1c508c5d5eb16a0c",
+        "email": "Queen18@hotmail.com",
+        "name": "Margarita Bogan",
+        "country": "USA",
+        "city": "New Kylerchester",
+        "street": "Luigi Land",
+        "house": 11,
+        "flat": 295,
+        "phone": "+18789006695",
+        "createdOn": "2026-01-13T22:27:40.000Z",
+        "notes": "usWXdKLT5u9Wne7DlRnokjLbq3irObZM0zyWGzcGvjuO9pt9ul1TvsLm2RWM4kYc1FYnALc1zQpDDCmdSPFP1PY22qmxX1fvCAJdBcLKFbdMxt9arTwMilty1Is9O23slqulDkCnH5DyITGdrkZlM0xBM0u64SyTNCLaGWWcB1YUiTxGSIvDCd8qCqhKxXUAnRqmwfd1tdiaNuq2GDwXVJxfyWTbvU6AM047zg2sNR5zAhzdbslgMb1IqW"
+      },
+      "products": [
+        {
+          "_id": "6966c6dd1c508c5d5eb16a2e",
+          "name": "Chair94742",
+          "amount": 348,
+          "price": 30412,
+          "manufacturer": "Microsoft",
+          "notes": "vQOlMUeVcIIF5vcJ1YZsqt21i2CYikMH3XlqV25KH5IUACxBxLc1wPELtqHk9cmB5c91c8cgfHBhuGKssOv3UgUFSzLc1uqMgK9W0EzZdp4ee4LJvscIqNFmERBhtKJzzqBpEWWheXpiOvDcTzwfQGShvhAGSM09T3G7DVfmXV5zUafGxOaCr7FhdazijGQPdqfEzYmXGxYu4WNNzr2JLqcZrqUaM80FNZOsY5rHTzYuejkjnEp5muMDOm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30412,
+      "createdOn": "2026-01-13T22:27:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6dc1c508c5d5eb16a0c",
+          "products": [
+            {
+              "_id": "6966c6dd1c508c5d5eb16a2e",
+              "name": "Chair94742",
+              "amount": 348,
+              "price": 30412,
+              "manufacturer": "Microsoft",
+              "notes": "vQOlMUeVcIIF5vcJ1YZsqt21i2CYikMH3XlqV25KH5IUACxBxLc1wPELtqHk9cmB5c91c8cgfHBhuGKssOv3UgUFSzLc1uqMgK9W0EzZdp4ee4LJvscIqNFmERBhtKJzzqBpEWWheXpiOvDcTzwfQGShvhAGSM09T3G7DVfmXV5zUafGxOaCr7FhdazijGQPdqfEzYmXGxYu4WNNzr2JLqcZrqUaM80FNZOsY5rHTzYuejkjnEp5muMDOm",
+              "received": false
+            }
+          ],
+          "total_price": 30412,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:27:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6dd1c508c5d5eb16a58"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

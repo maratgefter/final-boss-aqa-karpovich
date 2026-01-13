@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 13 Jan 2026 22:27:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-act9Kns5ou8XZ9YnK2g0RYU5S+s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6966c6df1c508c5d5eb16b8d",
+        "email": "Brock.Hayes79@gmail.com",
+        "name": "Florence Greenfelder",
+        "country": "Germany",
+        "city": "West Bradford",
+        "street": "Marquardt Square",
+        "house": 42,
+        "flat": 159,
+        "phone": "+17968512268",
+        "createdOn": "2026-01-13T22:27:43.000Z",
+        "notes": "1kCfnXoaLPOZ7qgppeezPjIn9Dy7smp13Tzi9KyPpr0k7zQTPHIt76NTOFrDIikhCiFWz9DfUo0aXQsK8C3xSUcnCUMRzdt4cF2giQddLLx2awsxls1horbemS8DYOc9j7xcx4HkNAs8Wt67ghYDq915vVmHfjjFRZCfWXiQDXzxm2lF0pjlgZG8PR9Z9DDBDiIvZyOpKU1tXqkhiKRw8y5HQTSugbdhRMNtvAIKWE1N8XwfP6u3ROc81E"
+      },
+      "products": [
+        {
+          "_id": "6966c6e01c508c5d5eb16c26",
+          "name": "Shoes19576",
+          "amount": 31,
+          "price": 73412,
+          "manufacturer": "Apple",
+          "notes": "i3yxBa33cqJc0cUEZlmraA4Lk51yg80vuPNNvQULOINGePG08xv9KhEUSvIRtGhUutMl7JCJSAgIyT21sbdGdQa6emXKr9nthVBWP6qsUc5XT7X7x4JF4HhnKd1mhwnKrK6B4yb5ud5gjAeII392bMVYDZXkgqroGMviqh8yzFjEqztwleofOltMsKPnM65IyoTY5yakdOQBHhAYsjlAvLOX57eKyJmJUCQQLa1cGCWKxizX1gLIyhEJNA",
+          "received": false
+        },
+        {
+          "_id": "6966c6e11c508c5d5eb16c8d",
+          "name": "Soap17767",
+          "amount": 958,
+          "price": 59709,
+          "manufacturer": "Google",
+          "notes": "ZVQu1kwYrHuNOqXMEbeP56geUcyQVHTbMVkxnfS5ogdhVh0XANFMMCzPBedX94o9QcGUrDVw1UlFT8aEL8RQyrYEFuCSnDfV0CTxjPixbq2sYbyY8crMgTdEQnbTko1fncuLHaEv4RwiZ3gLy8dth2MaQMnTY27hFrhbOf6qImtfGTrgNYbxP0GAT3ZwceyLDASENWS0fIEVbUHPD35j864pl4foR9fDJdS8vMkjT6sTyIlA5dWwJ5G8N6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 133121,
+      "createdOn": "2026-01-13T22:27:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6966c6df1c508c5d5eb16b8d",
+          "products": [
+            {
+              "_id": "6966c6e01c508c5d5eb16c26",
+              "name": "Shoes19576",
+              "amount": 31,
+              "price": 73412,
+              "manufacturer": "Apple",
+              "notes": "i3yxBa33cqJc0cUEZlmraA4Lk51yg80vuPNNvQULOINGePG08xv9KhEUSvIRtGhUutMl7JCJSAgIyT21sbdGdQa6emXKr9nthVBWP6qsUc5XT7X7x4JF4HhnKd1mhwnKrK6B4yb5ud5gjAeII392bMVYDZXkgqroGMviqh8yzFjEqztwleofOltMsKPnM65IyoTY5yakdOQBHhAYsjlAvLOX57eKyJmJUCQQLa1cGCWKxizX1gLIyhEJNA",
+              "received": false
+            },
+            {
+              "_id": "6966c6e11c508c5d5eb16c8d",
+              "name": "Soap17767",
+              "amount": 958,
+              "price": 59709,
+              "manufacturer": "Google",
+              "notes": "ZVQu1kwYrHuNOqXMEbeP56geUcyQVHTbMVkxnfS5ogdhVh0XANFMMCzPBedX94o9QcGUrDVw1UlFT8aEL8RQyrYEFuCSnDfV0CTxjPixbq2sYbyY8crMgTdEQnbTko1fncuLHaEv4RwiZ3gLy8dth2MaQMnTY27hFrhbOf6qImtfGTrgNYbxP0GAT3ZwceyLDASENWS0fIEVbUHPD35j864pl4foR9fDJdS8vMkjT6sTyIlA5dWwJ5G8N6",
+              "received": false
+            }
+          ],
+          "total_price": 133121,
+          "delivery": null,
+          "changedOn": "2026-01-13T22:27:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6966c6e21c508c5d5eb16cc9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
