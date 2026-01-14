@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:28:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-sGV4sXqb9ZdlqtDBz7fY4j0EIJk\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696818971c508c5d5eb1d6e0",
+        "email": "Florine.Jast71@gmail.com",
+        "name": "Sabrina Lynch",
+        "country": "Germany",
+        "city": "New Earnest",
+        "street": "Sigurd Ridges",
+        "house": 40,
+        "flat": 704,
+        "phone": "+15153783590",
+        "createdOn": "2026-01-14T22:28:39.000Z",
+        "notes": "ttITZr5pa3d9awlcMbQUzxnY369Mm4mCgxNY0vR9AO9Le2Nof0PX8MA4oJszAl7VAx0C9zH4LS8ofSW2KKvr6FAWS7tJ3VPpMeGlCPPtB6UoqcGs8nC21vI3whmzfYISWGAXaLqBsUGlwIDgGIUQ2gsDtPU4jkZo43PtjVvtQraK7awCkOtu5fIV2OVejonuOqTuwPHP3lgif0vfyJyM5ShPkcgFG2uTCus512OmsddcfiEETNP44NsdhC"
+      },
+      "products": [
+        {
+          "_id": "696818981c508c5d5eb1d6f5",
+          "name": "Gloves4332",
+          "amount": 610,
+          "price": 77593,
+          "manufacturer": "Samsung",
+          "notes": "XerMT5CeyCEhWKtGml8kEBfyWjSlLmQQBHW06LMoYX4IPUoxHGrpa4VeNOUlqJoqELrdWdJbanYXiXiwltaMrJQyoLSKvnAeazeP53GtrG4K5nob9zKN9sqWvIBvSCfS7am3WOUusoStuTHl60TG0rFgOWVasx8iVh9QlFzuLhNcnK6XRJxyFRtC0wZJEiJUfyOqrQuCvVVU73CtPPOIsAo3KJDDF8DMXBYvUzlmD2ksGxxMZJD4cG2mGa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77593,
+      "createdOn": "2026-01-14T22:28:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818971c508c5d5eb1d6e0",
+          "products": [
+            {
+              "_id": "696818981c508c5d5eb1d6f5",
+              "name": "Gloves4332",
+              "amount": 610,
+              "price": 77593,
+              "manufacturer": "Samsung",
+              "notes": "XerMT5CeyCEhWKtGml8kEBfyWjSlLmQQBHW06LMoYX4IPUoxHGrpa4VeNOUlqJoqELrdWdJbanYXiXiwltaMrJQyoLSKvnAeazeP53GtrG4K5nob9zKN9sqWvIBvSCfS7am3WOUusoStuTHl60TG0rFgOWVasx8iVh9QlFzuLhNcnK6XRJxyFRtC0wZJEiJUfyOqrQuCvVVU73CtPPOIsAo3KJDDF8DMXBYvUzlmD2ksGxxMZJD4cG2mGa",
+              "received": false
+            }
+          ],
+          "total_price": 77593,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696818991c508c5d5eb1d77f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

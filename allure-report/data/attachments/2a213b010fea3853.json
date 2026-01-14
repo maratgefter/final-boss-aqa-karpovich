@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:29:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3873",
+    "etag": "W/\"f21-VtZ/YS9cKwBPFU5BoOFNBok87xY\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696818ae1c508c5d5eb1e29d",
+      "status": "In Process",
+      "customer": {
+        "_id": "696818ac1c508c5d5eb1e1a6",
+        "email": "Joesph.Stanton@gmail.com",
+        "name": "Dusty MacGyver",
+        "country": "Canada",
+        "city": "Port Adela",
+        "street": "Elliot Crescent",
+        "house": 4,
+        "flat": 638,
+        "phone": "+14702590066",
+        "createdOn": "2026-01-14T22:29:00.000Z",
+        "notes": "BcSPKksOwKOWEJyBZn2GkJC1qGDOQW5pnNMt3L9QcpH81E3SSQKWMA4wnSqQeFMYe7thq86U1ZZRIdYJP4w75e4PdMCqVc0WnBDFMdt3KXBbn024Y2ch0JguGA52fniwlalBEHOuRCu3q3GXiiXmjasrB32thZAneSn0ETFkWsZ9wrgUuUVIGnjrfxo1vRJtHYlj5dCCAAS0I94vqQybmR4xqiswK5MGokO1pFcRE5OFwEgeYf6SlzIecM"
+      },
+      "products": [
+        {
+          "_id": "696818ad1c508c5d5eb1e21d",
+          "name": "Car89104",
+          "amount": 562,
+          "price": 27651,
+          "manufacturer": "Xiaomi",
+          "notes": "UawZ1hznT2nyBnRHsZK6t1uU552pqQGDbMymBxJR3dmgeApJjSNaE625Mmjaax15LBW6vnXvquFL2AtJgPzRlP4ioPpYTEjHcRGpvvNfIJm9pYdcd4UnzOAgwkOyXqcTtmGL53MaT8reMoTKT147qrdJminI9M1WJDk8P15oToYjcDva3gtOGge3hIC5xwaBm3RndrEf4DlGs0U7vunEzHbvsMjH1ER9IBJuuS4hD27duAk206EdoOqM6W",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Port Adela",
+          "street": "Elliot Crescent",
+          "house": 4,
+          "flat": 638
+        },
+        "finalDate": "2026-01-15T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 27651,
+      "createdOn": "2026-01-14T22:29:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696818ac1c508c5d5eb1e1a6",
+          "products": [
+            {
+              "_id": "696818ad1c508c5d5eb1e21d",
+              "name": "Car89104",
+              "amount": 562,
+              "price": 27651,
+              "manufacturer": "Xiaomi",
+              "notes": "UawZ1hznT2nyBnRHsZK6t1uU552pqQGDbMymBxJR3dmgeApJjSNaE625Mmjaax15LBW6vnXvquFL2AtJgPzRlP4ioPpYTEjHcRGpvvNfIJm9pYdcd4UnzOAgwkOyXqcTtmGL53MaT8reMoTKT147qrdJminI9M1WJDk8P15oToYjcDva3gtOGge3hIC5xwaBm3RndrEf4DlGs0U7vunEzHbvsMjH1ER9IBJuuS4hD27duAk206EdoOqM6W",
+              "received": false
+            }
+          ],
+          "total_price": 27651,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Adela",
+              "street": "Elliot Crescent",
+              "house": 4,
+              "flat": 638
+            },
+            "finalDate": "2026-01-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-14T22:29:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696818ac1c508c5d5eb1e1a6",
+          "products": [
+            {
+              "_id": "696818ad1c508c5d5eb1e21d",
+              "name": "Car89104",
+              "amount": 562,
+              "price": 27651,
+              "manufacturer": "Xiaomi",
+              "notes": "UawZ1hznT2nyBnRHsZK6t1uU552pqQGDbMymBxJR3dmgeApJjSNaE625Mmjaax15LBW6vnXvquFL2AtJgPzRlP4ioPpYTEjHcRGpvvNfIJm9pYdcd4UnzOAgwkOyXqcTtmGL53MaT8reMoTKT147qrdJminI9M1WJDk8P15oToYjcDva3gtOGge3hIC5xwaBm3RndrEf4DlGs0U7vunEzHbvsMjH1ER9IBJuuS4hD27duAk206EdoOqM6W",
+              "received": false
+            }
+          ],
+          "total_price": 27651,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Adela",
+              "street": "Elliot Crescent",
+              "house": 4,
+              "flat": 638
+            },
+            "finalDate": "2026-01-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-14T22:29:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696818ac1c508c5d5eb1e1a6",
+          "products": [
+            {
+              "_id": "696818ad1c508c5d5eb1e21d",
+              "name": "Car89104",
+              "amount": 562,
+              "price": 27651,
+              "manufacturer": "Xiaomi",
+              "notes": "UawZ1hznT2nyBnRHsZK6t1uU552pqQGDbMymBxJR3dmgeApJjSNaE625Mmjaax15LBW6vnXvquFL2AtJgPzRlP4ioPpYTEjHcRGpvvNfIJm9pYdcd4UnzOAgwkOyXqcTtmGL53MaT8reMoTKT147qrdJminI9M1WJDk8P15oToYjcDva3gtOGge3hIC5xwaBm3RndrEf4DlGs0U7vunEzHbvsMjH1ER9IBJuuS4hD27duAk206EdoOqM6W",
+              "received": false
+            }
+          ],
+          "total_price": 27651,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

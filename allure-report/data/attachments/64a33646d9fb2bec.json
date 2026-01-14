@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:28:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2941",
+    "etag": "W/\"b7d-ghqeKXzy6hEOQxDC4A32RWqXtnE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696818981c508c5d5eb1d769",
+      "status": "Draft",
+      "customer": {
+        "_id": "696818961c508c5d5eb1d5f8",
+        "email": "Jaime.Denesik36@hotmail.com",
+        "name": "Michelle Bednar",
+        "country": "Belarus",
+        "city": "Gradytown",
+        "street": "Robb Walks",
+        "house": 2,
+        "flat": 767,
+        "phone": "+15938794947",
+        "createdOn": "2026-01-14T22:28:38.000Z",
+        "notes": "gfCXgIErngehFCjH0i4AeMU2IuZewkLSVYFkLBPpK2ci0bd0tOmwfHojUP0ngGwc49QLtOlgvFXnvHhH2h0ZfeWSEBfUVAjrwo6hQkq3pQzTfb7QH092hdrSpweLsLWsUHl1Tdtw2gkKkOlHD5e08vq2KJ99P9nmshPMKe3ZHYEsqRL5s0vCJSDtPf27rL2HgM9j4NanIXWloC6JqfjIwwuHJyqZnbrxsyI5raIqZGj5gwMHLFbHLBnqFn"
+      },
+      "products": [
+        {
+          "_id": "696818961c508c5d5eb1d61d",
+          "name": "Cheese52131",
+          "amount": 227,
+          "price": 35332,
+          "manufacturer": "Microsoft",
+          "notes": "CLDphG8MCQEaKnhqIpSZMBYO4PrTl1i1wphY76egih8DW5ARzO1KjQNE4nz6lljz78jRwSnh9yvEzVVYn6sUQzGiQconWJOrtC2LO0zKL0euRxbRZcQzK8LPkBfPRbBQHMIzFVNGFF7IeWMeAD9mO0C2o3pjQKv5NHNvuC4eaqpP1XvP7JRUFX2IXMMI5X25ghKqAXZjJhTj2GHTSSvnPxkjpH9RItutqOzYZxM19o8OEQ1pHrRETjuaPO",
+          "received": false
+        },
+        {
+          "_id": "696818981c508c5d5eb1d6e9",
+          "name": "Ball85465",
+          "amount": 471,
+          "price": 38691,
+          "manufacturer": "Apple",
+          "notes": "Uvw0ZuHyhPLuIydFMJtLIVzg0uMxaPuWY7LMPdKABfwFxbTLitAi7p3G8xGjiDzOC7KLcdQiIO3YkCh3gGEDfGOQ6HRJuDgxEf4aA9DaGBdy92kq0RWhhGQwcAdIe5phrxiEnTBDNTuSyndrpatXMh8tYRBRr13TzLSp03hGNeKTALw9AUqMhdas3QheEa95IQxNDQVE8KZvWS4D2i9Ygi1gvfs6DFZ0lmdJi17MOuI0W1IIujn7bL8WqV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74023,
+      "createdOn": "2026-01-14T22:28:40.000Z",
+      "comments": [
+        {
+          "text": "KAKAxlXgT4YZNoO34pV4OTnJbEIUGEHlcUrw3HEHJH2FAcPvn5VNlBuPFJLbRjDQK7eHd0yQkA6I7QMYrqRvUbY119mCdaDuKZOfQDjEoJeAyR5Zxmn1mSGaSFm0wp68kYyhlLFnHN2R2G36Tf0eX4FOU2OuCA925nkodizCNgxltGQwMBNrfrEEogYEquNFgGeWMLmN <",
+          "createdOn": "2026-01-14T22:28:42.000Z",
+          "_id": "6968189a1c508c5d5eb1d800"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818961c508c5d5eb1d5f8",
+          "products": [
+            {
+              "_id": "696818961c508c5d5eb1d61d",
+              "name": "Cheese52131",
+              "amount": 227,
+              "price": 35332,
+              "manufacturer": "Microsoft",
+              "notes": "CLDphG8MCQEaKnhqIpSZMBYO4PrTl1i1wphY76egih8DW5ARzO1KjQNE4nz6lljz78jRwSnh9yvEzVVYn6sUQzGiQconWJOrtC2LO0zKL0euRxbRZcQzK8LPkBfPRbBQHMIzFVNGFF7IeWMeAD9mO0C2o3pjQKv5NHNvuC4eaqpP1XvP7JRUFX2IXMMI5X25ghKqAXZjJhTj2GHTSSvnPxkjpH9RItutqOzYZxM19o8OEQ1pHrRETjuaPO",
+              "received": false
+            },
+            {
+              "_id": "696818981c508c5d5eb1d6e9",
+              "name": "Ball85465",
+              "amount": 471,
+              "price": 38691,
+              "manufacturer": "Apple",
+              "notes": "Uvw0ZuHyhPLuIydFMJtLIVzg0uMxaPuWY7LMPdKABfwFxbTLitAi7p3G8xGjiDzOC7KLcdQiIO3YkCh3gGEDfGOQ6HRJuDgxEf4aA9DaGBdy92kq0RWhhGQwcAdIe5phrxiEnTBDNTuSyndrpatXMh8tYRBRr13TzLSp03hGNeKTALw9AUqMhdas3QheEa95IQxNDQVE8KZvWS4D2i9Ygi1gvfs6DFZ0lmdJi17MOuI0W1IIujn7bL8WqV",
+              "received": false
+            }
+          ],
+          "total_price": 74023,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

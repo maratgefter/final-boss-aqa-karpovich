@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:28:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2646",
+    "etag": "W/\"a56-NLOIaDKRr9o7eJtoFUCqfuJoFeU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6968189c1c508c5d5eb1d934",
+        "email": "Norval13@gmail.com",
+        "name": "Lavada Lindgren",
+        "country": "Belarus",
+        "city": "Fort Shawn",
+        "street": "Alanna Dale",
+        "house": 11,
+        "flat": 386,
+        "phone": "+14938022704",
+        "createdOn": "2026-01-14T22:28:44.000Z",
+        "notes": "7JfdgpmFRK1ul2PrG8Lq9DSGuOyyjOLBEc0sGcKcsCkSPH5Ksc5PxAkTahThhoFXVlGUmORLaN4DYxXvI9spNgEkRe335fc8rOI6GdB60bo9lBr8tyHIAIF8ra7EtNIxWvD8XGuVGl1U29zdCLlf9dpGwoXvxVP0UVmz6EtyqUw7MG9LHPslscdUz4BaZNQBPh1Pwq9UBQbZyrHil9qoPUQ28QoErY6L3uFH8BTzlENXGAQgY0ktJIaiRS"
+      },
+      "products": [
+        {
+          "_id": "6968189d1c508c5d5eb1d94b",
+          "name": "Shoes51933",
+          "amount": 879,
+          "price": 55584,
+          "manufacturer": "Samsung",
+          "notes": "zzoLAbhWNcAat4X1kfrPNi0kULQeVrnhryLYoQzxjtFYtgX5dE8NBlS9NYpdMKnemDm1TPpssdbmtQhbj5OfrYc3dV0Spn7OYYwT3viROnd4FKCV4u9ZdMUz95vhjqbI0dl37XU3p5SYQEm4SV8Hs3RMH5OsPhYcSZzvsPVUB8Lbcinno4l3N6VvIqt4C5Asb6zTwbxvcHnVA3SLWOUxWECE1YAQD5BJiAuiKwoiGMah4NNNXJXxRezqHC",
+          "received": false
+        },
+        {
+          "_id": "6968189e1c508c5d5eb1da7d",
+          "name": "Pizza89624",
+          "amount": 971,
+          "price": 34570,
+          "manufacturer": "Apple",
+          "notes": "5IyFzTEysPiVamf9CDR3J3foST42YzvBbxIyQdgbAMvO52NkBfDqm0Oah8sM5LhqNlaEkXMkfFPdKrRvBqDiFgMSMISs3cCYPCc7jMXUaZMvmQpLwt7aGgAHUZ7FDGBcJQVIkGs1Cf4SfLAjEpNk3FNFrX6jWFMU7r9mZQteQucsI2PF1IhZ2U4pRmLR2ToLuVqUeTIxQm4xixmKtxMN4IvbXR3Gy4nk9QYH594cfdgRfd8gqXI0P1QbcS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90154,
+      "createdOn": "2026-01-14T22:28:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6968189c1c508c5d5eb1d934",
+          "products": [
+            {
+              "_id": "6968189d1c508c5d5eb1d94b",
+              "name": "Shoes51933",
+              "amount": 879,
+              "price": 55584,
+              "manufacturer": "Samsung",
+              "notes": "zzoLAbhWNcAat4X1kfrPNi0kULQeVrnhryLYoQzxjtFYtgX5dE8NBlS9NYpdMKnemDm1TPpssdbmtQhbj5OfrYc3dV0Spn7OYYwT3viROnd4FKCV4u9ZdMUz95vhjqbI0dl37XU3p5SYQEm4SV8Hs3RMH5OsPhYcSZzvsPVUB8Lbcinno4l3N6VvIqt4C5Asb6zTwbxvcHnVA3SLWOUxWECE1YAQD5BJiAuiKwoiGMah4NNNXJXxRezqHC",
+              "received": false
+            },
+            {
+              "_id": "6968189e1c508c5d5eb1da7d",
+              "name": "Pizza89624",
+              "amount": 971,
+              "price": 34570,
+              "manufacturer": "Apple",
+              "notes": "5IyFzTEysPiVamf9CDR3J3foST42YzvBbxIyQdgbAMvO52NkBfDqm0Oah8sM5LhqNlaEkXMkfFPdKrRvBqDiFgMSMISs3cCYPCc7jMXUaZMvmQpLwt7aGgAHUZ7FDGBcJQVIkGs1Cf4SfLAjEpNk3FNFrX6jWFMU7r9mZQteQucsI2PF1IhZ2U4pRmLR2ToLuVqUeTIxQm4xixmKtxMN4IvbXR3Gy4nk9QYH594cfdgRfd8gqXI0P1QbcS",
+              "received": false
+            }
+          ],
+          "total_price": 90154,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6968189f1c508c5d5eb1daa9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

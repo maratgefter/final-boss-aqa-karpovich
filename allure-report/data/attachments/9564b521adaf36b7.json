@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:29:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2961",
+    "etag": "W/\"b91-Lt4k6SzPEBmV+GWtCeS91fr32a0\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696818b01c508c5d5eb1e38a",
+      "status": "Draft",
+      "customer": {
+        "_id": "696818af1c508c5d5eb1e31c",
+        "email": "Roy_Nitzsche46@hotmail.com",
+        "name": "Mona Beatty",
+        "country": "Great Britain",
+        "city": "Ricefort",
+        "street": "Gunnar Well",
+        "house": 18,
+        "flat": 908,
+        "phone": "+12059643462",
+        "createdOn": "2026-01-14T22:29:03.000Z",
+        "notes": "HdZjAx5msdoQCvwuBNlWDzbI5HZBOH8t1SJ5T8UxKZiOsMAM8Yxf1VGPNavEc1xgupkP19Hl4nrOc0fG4oEH24uM4Wd2liS5SGRT2V2jcF1HWTshcsy83GO71lgBfmiYQfeejavmJXbjkzq4wa8xsNcq5EOPkgBT0DHhiIJwhk98G28uYopjQFZe8OtFXnOzYFAAlOuvkAFW7u0ZakP6qCDtu3OD1sFLe5h5AVREtZkXWbdOCZ17AN2in0"
+      },
+      "products": [
+        {
+          "_id": "696818af1c508c5d5eb1e340",
+          "name": "Gloves13157",
+          "amount": 877,
+          "price": 30952,
+          "manufacturer": "Xiaomi",
+          "notes": "2ZZ0ryAyPI29le8jxTYI0mMrQ2HaulIUUg1DaUdDC13JHbwdf6QEKWPv0J4i5gO0cMxEst0aYR2R0jq7cu2iY1b7Tuh0adc1PJSLD9qHAYBCcze3V5rVQwf1Mwp0T8qF0MUeniPP3pnreNyZdhn1ZwMIL4Rs8frgPds4m9lMn8EBVR6wxjIFvbNaButc2zsQKr9BEzAozDYrL1wi6IOZ3RLdz3NJnw19FMzKE6imk134RCD0C8ZgzrduDf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Ricefort",
+          "street": "Gunnar Well",
+          "house": 18,
+          "flat": 908
+        },
+        "finalDate": "2026-01-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30952,
+      "createdOn": "2026-01-14T22:29:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818af1c508c5d5eb1e31c",
+          "products": [
+            {
+              "_id": "696818af1c508c5d5eb1e340",
+              "name": "Gloves13157",
+              "amount": 877,
+              "price": 30952,
+              "manufacturer": "Xiaomi",
+              "notes": "2ZZ0ryAyPI29le8jxTYI0mMrQ2HaulIUUg1DaUdDC13JHbwdf6QEKWPv0J4i5gO0cMxEst0aYR2R0jq7cu2iY1b7Tuh0adc1PJSLD9qHAYBCcze3V5rVQwf1Mwp0T8qF0MUeniPP3pnreNyZdhn1ZwMIL4Rs8frgPds4m9lMn8EBVR6wxjIFvbNaButc2zsQKr9BEzAozDYrL1wi6IOZ3RLdz3NJnw19FMzKE6imk134RCD0C8ZgzrduDf",
+              "received": false
+            }
+          ],
+          "total_price": 30952,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ricefort",
+              "street": "Gunnar Well",
+              "house": 18,
+              "flat": 908
+            },
+            "finalDate": "2026-01-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-14T22:29:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696818af1c508c5d5eb1e31c",
+          "products": [
+            {
+              "_id": "696818af1c508c5d5eb1e340",
+              "name": "Gloves13157",
+              "amount": 877,
+              "price": 30952,
+              "manufacturer": "Xiaomi",
+              "notes": "2ZZ0ryAyPI29le8jxTYI0mMrQ2HaulIUUg1DaUdDC13JHbwdf6QEKWPv0J4i5gO0cMxEst0aYR2R0jq7cu2iY1b7Tuh0adc1PJSLD9qHAYBCcze3V5rVQwf1Mwp0T8qF0MUeniPP3pnreNyZdhn1ZwMIL4Rs8frgPds4m9lMn8EBVR6wxjIFvbNaButc2zsQKr9BEzAozDYrL1wi6IOZ3RLdz3NJnw19FMzKE6imk134RCD0C8ZgzrduDf",
+              "received": false
+            }
+          ],
+          "total_price": 30952,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

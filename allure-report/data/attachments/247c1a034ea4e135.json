@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:28:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2969",
+    "etag": "W/\"b99-cBfA4oxP5zgHsO3KbWo/CDurwMM\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6968188f1c508c5d5eb1d309",
+      "status": "Draft",
+      "customer": {
+        "_id": "6968188f1c508c5d5eb1d2b7",
+        "email": "Carroll.Okuneva-Johnson20@hotmail.com",
+        "name": "Dante Ward",
+        "country": "Canada",
+        "city": "Bell Gardens",
+        "street": "E Central Avenue",
+        "house": 48,
+        "flat": 507,
+        "phone": "+14066038431",
+        "createdOn": "2026-01-14T22:28:31.000Z",
+        "notes": "CK6MIE7weVLjXL2a2Ru1SWSmcXgtQsm5qZ9PGPDM0em9V65QMvQ252C0tWqlv1KxugHThHuNIX9xKELnyiktrzHPTHOJGcTJZ33tmrgSt8OVbClYArXh7sHOrIRDK1thftYApaEl2wvALJ8oRHVOUta4vHHXDivClJZVkYpuDDjTF606BIS75LxcL3cD370rIagXBMFtg3B3jF2vY8WxoihScZ3Dy5AHzveQXYdf3XY9TGQJLUpW7wZclT"
+      },
+      "products": [
+        {
+          "_id": "6968188f1c508c5d5eb1d2d6",
+          "name": "Car12126",
+          "amount": 696,
+          "price": 59069,
+          "manufacturer": "Microsoft",
+          "notes": "Tp6mzPIBgyYET5QDmfNWVVSnriykyPwFIqRMWY3xh3Qf4i4xpCtGjGwLHEzLtgEsoNhJqxdUOCw6M3LyqD9biGnbU8tKTkgucBlXr9mQG6PWYc53BeQvZustjlyGFXNzUwxpxjqPK6GVsCrCv9c80SCw4NVVfVKaqNFuThO2f7duWUq3J4B3yJqiMrQP4nX0TNDNO0h6OPTQfkPDPyCCnCE0oJWS4Tep9zVcsHYIYZsTRWzGfcG4U0E9Jj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59069,
+      "createdOn": "2026-01-14T22:28:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6968188f1c508c5d5eb1d2b7",
+          "products": [
+            {
+              "_id": "6968188f1c508c5d5eb1d2d6",
+              "name": "Car12126",
+              "amount": 696,
+              "price": 59069,
+              "manufacturer": "Microsoft",
+              "notes": "Tp6mzPIBgyYET5QDmfNWVVSnriykyPwFIqRMWY3xh3Qf4i4xpCtGjGwLHEzLtgEsoNhJqxdUOCw6M3LyqD9biGnbU8tKTkgucBlXr9mQG6PWYc53BeQvZustjlyGFXNzUwxpxjqPK6GVsCrCv9c80SCw4NVVfVKaqNFuThO2f7duWUq3J4B3yJqiMrQP4nX0TNDNO0h6OPTQfkPDPyCCnCE0oJWS4Tep9zVcsHYIYZsTRWzGfcG4U0E9Jj",
+              "received": false
+            }
+          ],
+          "total_price": 59069,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:32.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6968188f1c508c5d5eb1d2b7",
+          "products": [
+            {
+              "_id": "6968188f1c508c5d5eb1d2d6",
+              "name": "Car12126",
+              "amount": 696,
+              "price": 59069,
+              "manufacturer": "Microsoft",
+              "notes": "Tp6mzPIBgyYET5QDmfNWVVSnriykyPwFIqRMWY3xh3Qf4i4xpCtGjGwLHEzLtgEsoNhJqxdUOCw6M3LyqD9biGnbU8tKTkgucBlXr9mQG6PWYc53BeQvZustjlyGFXNzUwxpxjqPK6GVsCrCv9c80SCw4NVVfVKaqNFuThO2f7duWUq3J4B3yJqiMrQP4nX0TNDNO0h6OPTQfkPDPyCCnCE0oJWS4Tep9zVcsHYIYZsTRWzGfcG4U0E9Jj",
+              "received": false
+            }
+          ],
+          "total_price": 59069,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

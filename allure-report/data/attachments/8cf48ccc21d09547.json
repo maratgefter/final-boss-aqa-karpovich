@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:29:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-Z7KMt9sfJnuxpFNcIXCCnqRtpIw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696818b91c508c5d5eb1e8b9",
+        "email": "Alize_Kunde@hotmail.com",
+        "name": "Wilfredo Lind",
+        "country": "USA",
+        "city": "Fort Jana",
+        "street": "Eddie Course",
+        "house": 34,
+        "flat": 790,
+        "phone": "+12382229679",
+        "createdOn": "2026-01-14T22:29:13.000Z",
+        "notes": "DVf4wYC3NDlgqz0rtGYXsvLRbzho9K5XjCjPXxsG8TOSS67pBCqK1w2pRa9g4MZE8swqxr3WenNs5pX0fKQRSFvzGvDOYlRz1ARcXWoWEQkO5UPoKBE9omeEiN223CpN89M31NKM6iWGuq1sYqqePPKTKCRZR8kgL9PY6bnZhazJUAg7t4OjPTYR4mJG62TNT4cWIBFaImiEYwIm2xt5grpxtjtMaPUuhHyy8I9g5anYbuTkI9DetrrK6M"
+      },
+      "products": [
+        {
+          "_id": "696818ba1c508c5d5eb1e8de",
+          "name": "Bike88669",
+          "amount": 396,
+          "price": 89780,
+          "manufacturer": "Apple",
+          "notes": "92ymzYVzJvJC4Ig1bkL4luI2ogXXWbsPaoZAOc0LuDdLWcGVnrTyiUFCp8w9jTmrOKUx6H6DOgaSrp9nSM8WGLuyviB9f8apVROjc8olAT4daFzKj5G1ecqdwy5cPdLts0pGlsVyEmdvtAz5FqoRSMkAYCAwnkT3davoKkefW3N9OizqZ0iDJ1vZICbKnJOBW7jLGNd1khD2Kj5t297eLZIfoOSVoae5UOU8QNG29ipUq7u8RNXsKPW8aR",
+          "received": false
+        },
+        {
+          "_id": "696818ba1c508c5d5eb1e900",
+          "name": "Towels80668",
+          "amount": 121,
+          "price": 71914,
+          "manufacturer": "Microsoft",
+          "notes": "Lx3uujmx5nOgoW2n4o8PU6RBOXnVQRXNw1VQ6ti1eVB4f43Whi9E2QMGR6niUlAYht0nuv2rjyGT8BG3FQmBFKMALlPmnwq8hhLRdVESEQZztIsUItd2mKLH6rOZ4N0AXvdTyKDr0wc3PIcVrQaaG8ALND43zHIZ9e5jeFHGXorWMQJT66Kcd2rqfFHF7APFi05fhyCLeqB9IuhGEr0gMTSAa0MCeesMiW4FzckvOoEgsTfdttvwkYNLBG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 161694,
+      "createdOn": "2026-01-14T22:29:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818b91c508c5d5eb1e8b9",
+          "products": [
+            {
+              "_id": "696818ba1c508c5d5eb1e8de",
+              "name": "Bike88669",
+              "amount": 396,
+              "price": 89780,
+              "manufacturer": "Apple",
+              "notes": "92ymzYVzJvJC4Ig1bkL4luI2ogXXWbsPaoZAOc0LuDdLWcGVnrTyiUFCp8w9jTmrOKUx6H6DOgaSrp9nSM8WGLuyviB9f8apVROjc8olAT4daFzKj5G1ecqdwy5cPdLts0pGlsVyEmdvtAz5FqoRSMkAYCAwnkT3davoKkefW3N9OizqZ0iDJ1vZICbKnJOBW7jLGNd1khD2Kj5t297eLZIfoOSVoae5UOU8QNG29ipUq7u8RNXsKPW8aR",
+              "received": false
+            },
+            {
+              "_id": "696818ba1c508c5d5eb1e900",
+              "name": "Towels80668",
+              "amount": 121,
+              "price": 71914,
+              "manufacturer": "Microsoft",
+              "notes": "Lx3uujmx5nOgoW2n4o8PU6RBOXnVQRXNw1VQ6ti1eVB4f43Whi9E2QMGR6niUlAYht0nuv2rjyGT8BG3FQmBFKMALlPmnwq8hhLRdVESEQZztIsUItd2mKLH6rOZ4N0AXvdTyKDr0wc3PIcVrQaaG8ALND43zHIZ9e5jeFHGXorWMQJT66Kcd2rqfFHF7APFi05fhyCLeqB9IuhGEr0gMTSAa0MCeesMiW4FzckvOoEgsTfdttvwkYNLBG",
+              "received": false
+            }
+          ],
+          "total_price": 161694,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696818ba1c508c5d5eb1e92a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

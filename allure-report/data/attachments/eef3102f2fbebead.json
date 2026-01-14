@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:29:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-DifObHKXx9CDR1GUU+IY9QjXHQI\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696818b81c508c5d5eb1e85e",
+      "status": "Draft",
+      "customer": {
+        "_id": "696818b41c508c5d5eb1e5d8",
+        "email": "Ursula.Harvey21@yahoo.com",
+        "name": "Karolann DuBuque",
+        "country": "France",
+        "city": "Ethylborough",
+        "street": "Gilberto Overpass",
+        "house": 4,
+        "flat": 538,
+        "phone": "+12874835677",
+        "createdOn": "2026-01-14T22:29:08.000Z",
+        "notes": "d4TNGL56C7rdq1BLyTBk0ayk0gz9vSODGnFv54DQ3feWHkuqPLlH7QZ4uU81ofhEUdDC7IA7hzfl4pWxCZWwgDVdUWkMOWGs4VCF08YTULpy5FYMvj49oVEkXVLFiN2TTApNnCWcvSCwSUr5fhpP0CBbVK5A9yOTWgs7McEcdKFOQ1kpKEuu8SdIeNSzhZjxYy4xNH3SCEmvnZwXTDoE7EDUo8HXQTXAFdoOaU3MUaR6eFwv5cQTpPp5gX"
+      },
+      "products": [
+        {
+          "_id": "696818b51c508c5d5eb1e5f7",
+          "name": "Bike57018",
+          "amount": 538,
+          "price": 38755,
+          "manufacturer": "Sony",
+          "notes": "YQdNBnhvFihFRGobVOL3IxmfvqQbJKhIM2dJqX8D3QMN1ArFuHTN5kkAV1L3g2CGj2aouYEoI6ARvqMdrLygGrM3yJC1iTQhL3yWPWQOpqAEA1PDLhCyqMOdESJC6pLdzpRiChIZnW62h7KAsUfwkKddy8cWbsbj4bgE6yk2nfM7tlNykjbmCV1oBW0y63N1A9wFXSdA2z1fxmwwtZO2lCcXgScFifkZPMvuQMUFhgdldP1zI0xeBLC0qL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38755,
+      "createdOn": "2026-01-14T22:29:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818b41c508c5d5eb1e5d8",
+          "products": [
+            {
+              "_id": "696818b51c508c5d5eb1e5f7",
+              "name": "Bike57018",
+              "amount": 538,
+              "price": 38755,
+              "manufacturer": "Sony",
+              "notes": "YQdNBnhvFihFRGobVOL3IxmfvqQbJKhIM2dJqX8D3QMN1ArFuHTN5kkAV1L3g2CGj2aouYEoI6ARvqMdrLygGrM3yJC1iTQhL3yWPWQOpqAEA1PDLhCyqMOdESJC6pLdzpRiChIZnW62h7KAsUfwkKddy8cWbsbj4bgE6yk2nfM7tlNykjbmCV1oBW0y63N1A9wFXSdA2z1fxmwwtZO2lCcXgScFifkZPMvuQMUFhgdldP1zI0xeBLC0qL",
+              "received": false
+            }
+          ],
+          "total_price": 38755,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:13.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696818b41c508c5d5eb1e5d8",
+          "products": [
+            {
+              "_id": "696818b51c508c5d5eb1e5f7",
+              "name": "Bike57018",
+              "amount": 538,
+              "price": 38755,
+              "manufacturer": "Sony",
+              "notes": "YQdNBnhvFihFRGobVOL3IxmfvqQbJKhIM2dJqX8D3QMN1ArFuHTN5kkAV1L3g2CGj2aouYEoI6ARvqMdrLygGrM3yJC1iTQhL3yWPWQOpqAEA1PDLhCyqMOdESJC6pLdzpRiChIZnW62h7KAsUfwkKddy8cWbsbj4bgE6yk2nfM7tlNykjbmCV1oBW0y63N1A9wFXSdA2z1fxmwwtZO2lCcXgScFifkZPMvuQMUFhgdldP1zI0xeBLC0qL",
+              "received": false
+            }
+          ],
+          "total_price": 38755,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:29:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4091",
+    "etag": "W/\"ffb-r30e43ab19fGgA2l2Rlsiyu9lxo\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696818bc1c508c5d5eb1e9b8",
+      "status": "Draft",
+      "customer": {
+        "_id": "696818ba1c508c5d5eb1e907",
+        "email": "Holden.Buckridge10@hotmail.com",
+        "name": "Christophe Batz",
+        "country": "USA",
+        "city": "New Orleans",
+        "street": "Cronin Court",
+        "house": 34,
+        "flat": 613,
+        "phone": "+14533965324",
+        "createdOn": "2026-01-14T22:29:14.000Z",
+        "notes": "WTK4P2aPcIzi6YFCrWq6rFQTVnYdqS9DgCeJdWYyVBDRQf8MuiuV2rhG4yqpk8kZmHxryVnPMkHD3aKVXilvVgvVYKB9artYsMKNfFfrC5HxEkrkwZL0KIWQLkD7F0pa33RbVuRRbzLZHp1xJcK8gboFgdIKQ79ygmx01KqTA7UKH6OJjEwDdqIPf521zkN4Ibqf7NfimlvDQuaVWbwr6i2uSV2Y24ZJckA1N38gw4m1YX8kAy8RxaqEE2"
+      },
+      "products": [
+        {
+          "_id": "696818bb1c508c5d5eb1e93f",
+          "name": "Mouse43508",
+          "amount": 609,
+          "price": 8815,
+          "manufacturer": "Tesla",
+          "notes": "rS7XTOWrgsoSs5qIYl1rb5Ha0JHsljKLjvAuBoD8XIfRIohebY8DXQb8cwS5liFk83bwI9uoPZCk7PLblmuo5nawXfGm4rpvXhZhFssF7eziisqQFptfcV20xgZs5j9N6LDTgqDjbEJZ0w6JoCY4gt3guxOlejQE2d1O5ANmsxQXEDd1gPlTz0Z773LqNHx6VJI0L173upo7vJfoPQu1fhQBswGv4Zu0AYyA7c2epOCk47wL5x2NodSKC4",
+          "received": false
+        },
+        {
+          "_id": "696818bb1c508c5d5eb1e972",
+          "name": "Fish98224",
+          "amount": 589,
+          "price": 57634,
+          "manufacturer": "Amazon",
+          "notes": "45je0TAGsridFaXLmIh70UyJfkhQ98r1cwWccOxzXYepEmGggtfxDxzD2eE1BIRfuAucQYslx9ePRgJa9BayCy5RcwDLESSFnfK8NGgXKtb8GmSTTEZjRJfUZ5WdHuo82tZj8iSOhHXybocE0Rw27QQDwB1zAONTkaCTgPemDahwlED6PpjxsXPH5HDhzWctpZjIEVhWcKvoJFo49RqW0cXiwHDWE2reqQ5yhYr0fuUvpuzcnhg0HzW2MS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Orleans",
+          "street": "Cronin Court",
+          "house": 34,
+          "flat": 613
+        },
+        "finalDate": "2026-01-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66449,
+      "createdOn": "2026-01-14T22:29:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818ba1c508c5d5eb1e907",
+          "products": [
+            {
+              "_id": "696818bb1c508c5d5eb1e93f",
+              "name": "Mouse43508",
+              "amount": 609,
+              "price": 8815,
+              "manufacturer": "Tesla",
+              "notes": "rS7XTOWrgsoSs5qIYl1rb5Ha0JHsljKLjvAuBoD8XIfRIohebY8DXQb8cwS5liFk83bwI9uoPZCk7PLblmuo5nawXfGm4rpvXhZhFssF7eziisqQFptfcV20xgZs5j9N6LDTgqDjbEJZ0w6JoCY4gt3guxOlejQE2d1O5ANmsxQXEDd1gPlTz0Z773LqNHx6VJI0L173upo7vJfoPQu1fhQBswGv4Zu0AYyA7c2epOCk47wL5x2NodSKC4",
+              "received": false
+            },
+            {
+              "_id": "696818bb1c508c5d5eb1e972",
+              "name": "Fish98224",
+              "amount": 589,
+              "price": 57634,
+              "manufacturer": "Amazon",
+              "notes": "45je0TAGsridFaXLmIh70UyJfkhQ98r1cwWccOxzXYepEmGggtfxDxzD2eE1BIRfuAucQYslx9ePRgJa9BayCy5RcwDLESSFnfK8NGgXKtb8GmSTTEZjRJfUZ5WdHuo82tZj8iSOhHXybocE0Rw27QQDwB1zAONTkaCTgPemDahwlED6PpjxsXPH5HDhzWctpZjIEVhWcKvoJFo49RqW0cXiwHDWE2reqQ5yhYr0fuUvpuzcnhg0HzW2MS",
+              "received": false
+            }
+          ],
+          "total_price": 66449,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Orleans",
+              "street": "Cronin Court",
+              "house": 34,
+              "flat": 613
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-14T22:29:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696818ba1c508c5d5eb1e907",
+          "products": [
+            {
+              "_id": "696818bb1c508c5d5eb1e93f",
+              "name": "Mouse43508",
+              "amount": 609,
+              "price": 8815,
+              "manufacturer": "Tesla",
+              "notes": "rS7XTOWrgsoSs5qIYl1rb5Ha0JHsljKLjvAuBoD8XIfRIohebY8DXQb8cwS5liFk83bwI9uoPZCk7PLblmuo5nawXfGm4rpvXhZhFssF7eziisqQFptfcV20xgZs5j9N6LDTgqDjbEJZ0w6JoCY4gt3guxOlejQE2d1O5ANmsxQXEDd1gPlTz0Z773LqNHx6VJI0L173upo7vJfoPQu1fhQBswGv4Zu0AYyA7c2epOCk47wL5x2NodSKC4",
+              "received": false
+            },
+            {
+              "_id": "696818bb1c508c5d5eb1e972",
+              "name": "Fish98224",
+              "amount": 589,
+              "price": 57634,
+              "manufacturer": "Amazon",
+              "notes": "45je0TAGsridFaXLmIh70UyJfkhQ98r1cwWccOxzXYepEmGggtfxDxzD2eE1BIRfuAucQYslx9ePRgJa9BayCy5RcwDLESSFnfK8NGgXKtb8GmSTTEZjRJfUZ5WdHuo82tZj8iSOhHXybocE0Rw27QQDwB1zAONTkaCTgPemDahwlED6PpjxsXPH5HDhzWctpZjIEVhWcKvoJFo49RqW0cXiwHDWE2reqQ5yhYr0fuUvpuzcnhg0HzW2MS",
+              "received": false
+            }
+          ],
+          "total_price": 66449,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:29:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

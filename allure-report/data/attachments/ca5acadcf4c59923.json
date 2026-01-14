@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 14 Jan 2026 22:28:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-K77woE4G11OqXR620CGSV2e8y9c\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696818921c508c5d5eb1d405",
+        "email": "Jonatan1@hotmail.com",
+        "name": "Rae Gleichner",
+        "country": "Great Britain",
+        "city": "New Amir",
+        "street": "Walnut Street",
+        "house": 1,
+        "flat": 463,
+        "phone": "+14334972404",
+        "createdOn": "2026-01-14T22:28:34.000Z",
+        "notes": "LZr6AeGQILLgXqVxNhR5mLyKXS3iW7o4O2abpB4NBGsaa5mzDYozajImQF7NMNbLMRrHpBJfGe5dH3ztEuyoJ5jqVKfsRXvPkWsq7xi7Ynp7qvJ5DVGVF5fDP4nZz3aROXiTHGsemSFJvLQQbO4rGQOjjCN1rGVA2bg5MbGP2egrWPQYwirDQURlO1T92OoRpWQXeKeTh14q6itxcwz5EkOBxvg96dh3IlOk51ImgpIFxFRtZDI1wUHOn3"
+      },
+      "products": [
+        {
+          "_id": "696818921c508c5d5eb1d41f",
+          "name": "Mouse48501",
+          "amount": 25,
+          "price": 40431,
+          "manufacturer": "Amazon",
+          "notes": "4lwTHm3VfcUeu8NlXLSK3azzpWNaKGZkQd0TjccPuotA0EKBAcPZfyBUZRdEAxG06ZqUzMu0Ixd24d5lzTlOcNwMMIlMQtWqjxt1CKwrr7Ep4cYmk4doW8i4fx5CJjXGQ6FtwM5iVnUMmMWYnQoo1DCQg9YnvWhRZ2Jd0futuZ3ukeWtWS3g4WGwbr4LvBooclofYoeXZoTOzJn1P6IBAOMurWDCVgBwH3Mytmd8TdR5RYcRcEc3A30Bd9",
+          "received": false
+        },
+        {
+          "_id": "696818921c508c5d5eb1d43d",
+          "name": "Mouse72611",
+          "amount": 139,
+          "price": 77667,
+          "manufacturer": "Tesla",
+          "notes": "CUgRyRjFftGLNUKKeJj9lZjla2638Fo9g7tmV8Gr3h0zDm9cwLjSuLffdcjdrsHPZfawXoQqOYh0YqJSKt79ZMiseY2jl2zExyVDKT3TjM69utXcHoQXnhin4eI0rikpQcNIE4v6ZyX2lKQlff7HuVVd6kgUgDJMszWG4QUsdPQmaYpnRtB8vhJjks1HcMdFKTEcDrmgOFJCiXW5HOyNWYsjWFJTpov1iDlVhyXzajMchlVWKVkMCLRMme",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 118098,
+      "createdOn": "2026-01-14T22:28:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696818921c508c5d5eb1d405",
+          "products": [
+            {
+              "_id": "696818921c508c5d5eb1d41f",
+              "name": "Mouse48501",
+              "amount": 25,
+              "price": 40431,
+              "manufacturer": "Amazon",
+              "notes": "4lwTHm3VfcUeu8NlXLSK3azzpWNaKGZkQd0TjccPuotA0EKBAcPZfyBUZRdEAxG06ZqUzMu0Ixd24d5lzTlOcNwMMIlMQtWqjxt1CKwrr7Ep4cYmk4doW8i4fx5CJjXGQ6FtwM5iVnUMmMWYnQoo1DCQg9YnvWhRZ2Jd0futuZ3ukeWtWS3g4WGwbr4LvBooclofYoeXZoTOzJn1P6IBAOMurWDCVgBwH3Mytmd8TdR5RYcRcEc3A30Bd9",
+              "received": false
+            },
+            {
+              "_id": "696818921c508c5d5eb1d43d",
+              "name": "Mouse72611",
+              "amount": 139,
+              "price": 77667,
+              "manufacturer": "Tesla",
+              "notes": "CUgRyRjFftGLNUKKeJj9lZjla2638Fo9g7tmV8Gr3h0zDm9cwLjSuLffdcjdrsHPZfawXoQqOYh0YqJSKt79ZMiseY2jl2zExyVDKT3TjM69utXcHoQXnhin4eI0rikpQcNIE4v6ZyX2lKQlff7HuVVd6kgUgDJMszWG4QUsdPQmaYpnRtB8vhJjks1HcMdFKTEcDrmgOFJCiXW5HOyNWYsjWFJTpov1iDlVhyXzajMchlVWKVkMCLRMme",
+              "received": false
+            }
+          ],
+          "total_price": 118098,
+          "delivery": null,
+          "changedOn": "2026-01-14T22:28:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696818931c508c5d5eb1d475"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
