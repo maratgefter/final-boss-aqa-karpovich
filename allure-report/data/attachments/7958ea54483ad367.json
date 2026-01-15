@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:28:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3414",
+    "etag": "W/\"d56-Z1SvcoB57a9UZTTPkrgH55Uz5dc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969f41c508c5d5eb27c5b",
+        "email": "Floy.Nader6@hotmail.com",
+        "name": "Tamara Goldner",
+        "country": "Canada",
+        "city": "Turlock",
+        "street": "Jaycee Junctions",
+        "house": 6,
+        "flat": 312,
+        "phone": "+17899062597",
+        "createdOn": "2026-01-15T22:28:04.000Z",
+        "notes": "pjIBkJLd7XqDQJBVYJEvuGI4ZNXEYR8q6kdz5X2wbixFXmZAbtAZ95DbVGL4eXH0fmHcXu8xARK3axXA7BC239CNjkEFHDxpx7PW5F5becjIwdGSyrmxv6VCtcxLCSWBeyVyzJmn8DvlAHlMf7qgJfDoOLvUq4hGKcvE0y561BNNJZif0Li6wo51S8rTdKUvDyzXEDvMwr1cQJCppgIZ0CI3TU7cAeWQNxx9UL6Hbcxt3rpYIE8Yns6LCC"
+      },
+      "products": [
+        {
+          "_id": "696969f41c508c5d5eb27c8a",
+          "name": "Computer89198",
+          "amount": 907,
+          "price": 21527,
+          "manufacturer": "Sony",
+          "notes": "UYC67EDK81eSuzwmEfj0APx7Ed7xMXIg9bBCUJ4dKKYdxzGWDw15kAInhNx0zvn5VblDHcHcw546xe0mfVxnaIXPschdp3pJ9wHeykjR8ijMvhDXs301G1OvfF129xBkPVD6Sj0SbMfFZvOT3Cj1zdzxVeRFRIsst5WRJn75bE6G4C3BDMdz3AEwo4WHlF2IWdRhiNkq8tj87rVS9D9bHavK8uh0nyUqDK9JuC61efiZq3X8gKrtGnp8Ix",
+          "received": false
+        },
+        {
+          "_id": "696969f51c508c5d5eb27cb8",
+          "name": "Fish48361",
+          "amount": 438,
+          "price": 64376,
+          "manufacturer": "Apple",
+          "notes": "3NNIQuJPP3YI1EXaUgqvBXVcHxmSsugKGL8SX5j5zoGvqihfA7YX5c5DDnkRxqc9CrdH1GXh0nPTPxc1NfoEIAoAdLqKC8GxPm3acfSp5Vx0wuP9MzG7yFSUPNJGExCHWnUhY8lnxXjYNDLivTufoj3Ofl1PTSMiPbF2PUqwFDtxX9gMt1d8LuBqJmaw1xDRhM0E7cGJAfAikH7wAPjVxOborwv6mRoAKrsKcNqCCKFzD7ZHPxC3TmulUq",
+          "received": false
+        },
+        {
+          "_id": "696969f51c508c5d5eb27cd1",
+          "name": "Mouse38930",
+          "amount": 58,
+          "price": 90392,
+          "manufacturer": "Tesla",
+          "notes": "kbVAFy642wwsFIVkAkdqcpVlGjL43oTjwpT8fE8VjdDQBFmSeVPQCfgyHxZ3Is0oYEvRAQcVcCqGCDxeezGNJQlzTJYVESig2jbe71gnbDTIpFRTr8pUHMhtj6aoZUqH0PhYKOv6TrPInuf2taQL4sKvY2ZsF1YKLbF51icRFXTdHWO479FNBP5hRZ9gELq81cfs1NxJEHctIgPWbqcal38f4EetvU65v0UwKsipGH8h3iD7RfVmMT9gV9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 176295,
+      "createdOn": "2026-01-15T22:28:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969f41c508c5d5eb27c5b",
+          "products": [
+            {
+              "_id": "696969f41c508c5d5eb27c8a",
+              "name": "Computer89198",
+              "amount": 907,
+              "price": 21527,
+              "manufacturer": "Sony",
+              "notes": "UYC67EDK81eSuzwmEfj0APx7Ed7xMXIg9bBCUJ4dKKYdxzGWDw15kAInhNx0zvn5VblDHcHcw546xe0mfVxnaIXPschdp3pJ9wHeykjR8ijMvhDXs301G1OvfF129xBkPVD6Sj0SbMfFZvOT3Cj1zdzxVeRFRIsst5WRJn75bE6G4C3BDMdz3AEwo4WHlF2IWdRhiNkq8tj87rVS9D9bHavK8uh0nyUqDK9JuC61efiZq3X8gKrtGnp8Ix",
+              "received": false
+            },
+            {
+              "_id": "696969f51c508c5d5eb27cb8",
+              "name": "Fish48361",
+              "amount": 438,
+              "price": 64376,
+              "manufacturer": "Apple",
+              "notes": "3NNIQuJPP3YI1EXaUgqvBXVcHxmSsugKGL8SX5j5zoGvqihfA7YX5c5DDnkRxqc9CrdH1GXh0nPTPxc1NfoEIAoAdLqKC8GxPm3acfSp5Vx0wuP9MzG7yFSUPNJGExCHWnUhY8lnxXjYNDLivTufoj3Ofl1PTSMiPbF2PUqwFDtxX9gMt1d8LuBqJmaw1xDRhM0E7cGJAfAikH7wAPjVxOborwv6mRoAKrsKcNqCCKFzD7ZHPxC3TmulUq",
+              "received": false
+            },
+            {
+              "_id": "696969f51c508c5d5eb27cd1",
+              "name": "Mouse38930",
+              "amount": 58,
+              "price": 90392,
+              "manufacturer": "Tesla",
+              "notes": "kbVAFy642wwsFIVkAkdqcpVlGjL43oTjwpT8fE8VjdDQBFmSeVPQCfgyHxZ3Is0oYEvRAQcVcCqGCDxeezGNJQlzTJYVESig2jbe71gnbDTIpFRTr8pUHMhtj6aoZUqH0PhYKOv6TrPInuf2taQL4sKvY2ZsF1YKLbF51icRFXTdHWO479FNBP5hRZ9gELq81cfs1NxJEHctIgPWbqcal38f4EetvU65v0UwKsipGH8h3iD7RfVmMT9gV9",
+              "received": false
+            }
+          ],
+          "total_price": 176295,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:28:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969f51c508c5d5eb27cf2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

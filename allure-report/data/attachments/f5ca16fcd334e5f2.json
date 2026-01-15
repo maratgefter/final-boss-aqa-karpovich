@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-HeLhqVHKOSqREjgxi1c3JWYLTwc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969da1c508c5d5eb26c2d",
+        "email": "Citlalli.Kilback98@hotmail.com",
+        "name": "Erika Gorczany",
+        "country": "Russia",
+        "city": "Port Kacieberg",
+        "street": "Trevor Mall",
+        "house": 5,
+        "flat": 4,
+        "phone": "+17763970483",
+        "createdOn": "2026-01-15T22:27:38.000Z",
+        "notes": "CfwV0OjkKeDyKatsfiQZmTqcVj1WppRGb2PDz4cmRAnukVWCfGXipwTZSeDImQPzppmrgEG0DNRn2hLQInQPQySSbEimStLK0ogrU8qal9WP7Omc5N27qgxiMfZHCiIKOQwmQpdAEoQRMGnxvGqKy9ibiWPK50kTLC62Vi88DVteg3TuG1hDKTioPM9lD6scjMAq8ESKBXQPpPZ1iljb9ovSvQlDHzactkHwvauw3ZqgYYpJtYlUiteRJi"
+      },
+      "products": [
+        {
+          "_id": "696969db1c508c5d5eb26cb8",
+          "name": "Cheese19864",
+          "amount": 45,
+          "price": 61282,
+          "manufacturer": "Xiaomi",
+          "notes": "tMSFVAFBQ2E4RGWyX5BD1ex6t8F1b5fW61JhnZZjdAzVtQVq1zJeQWnfYIq17F9ZtJBRFkwp5hhwaXJvvAGsOBBTmUoKevCnXiU75s605u6fc83KGTckpyvIAnzYRYwx1RVx5Zs72qNbZtn7EyL64T99QFafXQV2KhrFmevL2jcpm6n4jiM0E2migQVcDv9OJ7REdyXDaKqJxvsqgdYWfoVEoHM8on4PR13sWUNtWnqNy6XwedDHY8LMek",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61282,
+      "createdOn": "2026-01-15T22:27:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969da1c508c5d5eb26c2d",
+          "products": [
+            {
+              "_id": "696969db1c508c5d5eb26cb8",
+              "name": "Cheese19864",
+              "amount": 45,
+              "price": 61282,
+              "manufacturer": "Xiaomi",
+              "notes": "tMSFVAFBQ2E4RGWyX5BD1ex6t8F1b5fW61JhnZZjdAzVtQVq1zJeQWnfYIq17F9ZtJBRFkwp5hhwaXJvvAGsOBBTmUoKevCnXiU75s605u6fc83KGTckpyvIAnzYRYwx1RVx5Zs72qNbZtn7EyL64T99QFafXQV2KhrFmevL2jcpm6n4jiM0E2migQVcDv9OJ7REdyXDaKqJxvsqgdYWfoVEoHM8on4PR13sWUNtWnqNy6XwedDHY8LMek",
+              "received": false
+            }
+          ],
+          "total_price": 61282,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969db1c508c5d5eb26cf9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

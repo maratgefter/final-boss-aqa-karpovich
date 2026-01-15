@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-JW90mqDRfdArVB+xbIwBrunx+D8\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969e71c508c5d5eb274db",
+        "email": "Guy_Block61@hotmail.com",
+        "name": "Elta Abshire",
+        "country": "USA",
+        "city": "Ameliaborough",
+        "street": "Javonte Camp",
+        "house": 28,
+        "flat": 963,
+        "phone": "+18399613676",
+        "createdOn": "2026-01-15T22:27:51.000Z",
+        "notes": "I41T6j8QXsx7DCc0VwALwzdTuidwskYOVB54jn5NBlKkCPMSkf4uNP9euvc1Z51mgwLGa2ZzyMYXMl8rxtXSBcDtlTv3guQfLjgWj8zfZxqnGb7KS8B7gEciXAwqAQWopx4xWgQiC83d8thVlxWz5KA3Eqj5CcM16Pk2vJzzC7G6gkkpKpTKhnpOWQIqd5FN75TvCpNOlwYP3EUTC8tl3fCTUF2OEAUeQG4zqw5bPyr5R44Km0PGHRMCUb"
+      },
+      "products": [
+        {
+          "_id": "696969e81c508c5d5eb27574",
+          "name": "Shoes71669",
+          "amount": 122,
+          "price": 68921,
+          "manufacturer": "Microsoft",
+          "notes": "wWq5yV8Ho0CYrYEnqylSWbKdGT0kCk76t4jinEVnzcesZ5zBff0pSXrwsimXhzXYkxQRytI78wLS1gmIrUWQf8J8Ziuhkx1JDCcrqhrUQNRPN08MQIt5Gw6UCo2UpfcWd2khDL2o92yCOHGGTQ7wotzYbJfUGkWGRwPBujl2jOT24fNTWkLKbvuPpsAKBHpI2JR61zxF6d924aMPrUy91zZgjTZCWf1Gd9P9vSf4dGwnJeYVe0O4vA2E9E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68921,
+      "createdOn": "2026-01-15T22:27:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969e71c508c5d5eb274db",
+          "products": [
+            {
+              "_id": "696969e81c508c5d5eb27574",
+              "name": "Shoes71669",
+              "amount": 122,
+              "price": 68921,
+              "manufacturer": "Microsoft",
+              "notes": "wWq5yV8Ho0CYrYEnqylSWbKdGT0kCk76t4jinEVnzcesZ5zBff0pSXrwsimXhzXYkxQRytI78wLS1gmIrUWQf8J8Ziuhkx1JDCcrqhrUQNRPN08MQIt5Gw6UCo2UpfcWd2khDL2o92yCOHGGTQ7wotzYbJfUGkWGRwPBujl2jOT24fNTWkLKbvuPpsAKBHpI2JR61zxF6d924aMPrUy91zZgjTZCWf1Gd9P9vSf4dGwnJeYVe0O4vA2E9E",
+              "received": false
+            }
+          ],
+          "total_price": 68921,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969e91c508c5d5eb275b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

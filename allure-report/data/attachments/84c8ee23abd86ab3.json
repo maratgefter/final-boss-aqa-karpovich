@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:28:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4103",
+    "etag": "W/\"1007-g2AB6hOwEBtwonxPWrLIcy+zGDU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69696a0b1c508c5d5eb28a22",
+      "status": "Draft",
+      "customer": {
+        "_id": "69696a0a1c508c5d5eb289c9",
+        "email": "Floy86@hotmail.com",
+        "name": "Ray White",
+        "country": "France",
+        "city": "Pfannerstillburgh",
+        "street": "Howell Dam",
+        "house": 16,
+        "flat": 905,
+        "phone": "+15323740347",
+        "createdOn": "2026-01-15T22:28:26.000Z",
+        "notes": "5gEnlGD0bZaecVOYZG7WQB7Z1iAXI7IZq6fTC4sxotDdkm95CFTarRHhMXNAwE3PJs4VVMrK0CugGjRkbCNFZzoOwhmbAObf6a7H4QIB9fZrYk1L1hltYczlewb1hjlgYO3uPSOvCMfBU5oNqU41vqZQuIGn0M0gwOfz65Z7bPu7MyUcgNW8SHdB7v5UwgmJWoxXklqnr82g9Wmuu0UH0w3JMiT3OMWEGivtjcYFgKGqFeEzNO0zAus2KD"
+      },
+      "products": [
+        {
+          "_id": "69696a0a1c508c5d5eb289dd",
+          "name": "Mouse45199",
+          "amount": 760,
+          "price": 31456,
+          "manufacturer": "Apple",
+          "notes": "arIrQ5c6FrB8ijaLFKYOO7af47kAEC7uVlJ2uorKMYf3jD2ul1aU5BhNITmamr78McB0fXxulzS7rQBacN5Hilosq78T4t7LEV5IFkiHzlkzC9a6BlhHGvm7OQ890lekzcqxfh4Zm3vbwz8hEmAkQi5kyjA1ZExwFaOp6Yct03wvcbrXyDx6SqtTV0nHaMhSCNfq0BjUOj0CQViSp3OFDvsvNa9rsvvpT1wgedRh03RMzrS6gkCewNkC7F",
+          "received": false
+        },
+        {
+          "_id": "69696a0b1c508c5d5eb289f9",
+          "name": "Soap33800",
+          "amount": 551,
+          "price": 75891,
+          "manufacturer": "Samsung",
+          "notes": "7ITdb0F8B7MPFS8kKP9IzhXBZMLNTeYUy45ZKitgChRHJnVid3W3R2vuEpsES9DPUccBFjg6KXVnapLNgW60tFNpra1q6WEbwYCDRgFRIKRnHLL80pHqYOt1jW0urIoOq4Yrvv4PqL5mSqyvWuT6A422Ryrl3mxDV5vh0eW3OujfjDENTJWi9mr2G5MTcbCKqBbxyYJw9yMoS06xbDNIco6H7ZUtS2WUcsolJBsa6jLI7oGCO211t3iLLQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Pfannerstillburgh",
+          "street": "Howell Dam",
+          "house": 16,
+          "flat": 905
+        },
+        "finalDate": "2026-01-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 107347,
+      "createdOn": "2026-01-15T22:28:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69696a0a1c508c5d5eb289c9",
+          "products": [
+            {
+              "_id": "69696a0a1c508c5d5eb289dd",
+              "name": "Mouse45199",
+              "amount": 760,
+              "price": 31456,
+              "manufacturer": "Apple",
+              "notes": "arIrQ5c6FrB8ijaLFKYOO7af47kAEC7uVlJ2uorKMYf3jD2ul1aU5BhNITmamr78McB0fXxulzS7rQBacN5Hilosq78T4t7LEV5IFkiHzlkzC9a6BlhHGvm7OQ890lekzcqxfh4Zm3vbwz8hEmAkQi5kyjA1ZExwFaOp6Yct03wvcbrXyDx6SqtTV0nHaMhSCNfq0BjUOj0CQViSp3OFDvsvNa9rsvvpT1wgedRh03RMzrS6gkCewNkC7F",
+              "received": false
+            },
+            {
+              "_id": "69696a0b1c508c5d5eb289f9",
+              "name": "Soap33800",
+              "amount": 551,
+              "price": 75891,
+              "manufacturer": "Samsung",
+              "notes": "7ITdb0F8B7MPFS8kKP9IzhXBZMLNTeYUy45ZKitgChRHJnVid3W3R2vuEpsES9DPUccBFjg6KXVnapLNgW60tFNpra1q6WEbwYCDRgFRIKRnHLL80pHqYOt1jW0urIoOq4Yrvv4PqL5mSqyvWuT6A422Ryrl3mxDV5vh0eW3OujfjDENTJWi9mr2G5MTcbCKqBbxyYJw9yMoS06xbDNIco6H7ZUtS2WUcsolJBsa6jLI7oGCO211t3iLLQ",
+              "received": false
+            }
+          ],
+          "total_price": 107347,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Pfannerstillburgh",
+              "street": "Howell Dam",
+              "house": 16,
+              "flat": 905
+            },
+            "finalDate": "2026-01-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-15T22:28:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69696a0a1c508c5d5eb289c9",
+          "products": [
+            {
+              "_id": "69696a0a1c508c5d5eb289dd",
+              "name": "Mouse45199",
+              "amount": 760,
+              "price": 31456,
+              "manufacturer": "Apple",
+              "notes": "arIrQ5c6FrB8ijaLFKYOO7af47kAEC7uVlJ2uorKMYf3jD2ul1aU5BhNITmamr78McB0fXxulzS7rQBacN5Hilosq78T4t7LEV5IFkiHzlkzC9a6BlhHGvm7OQ890lekzcqxfh4Zm3vbwz8hEmAkQi5kyjA1ZExwFaOp6Yct03wvcbrXyDx6SqtTV0nHaMhSCNfq0BjUOj0CQViSp3OFDvsvNa9rsvvpT1wgedRh03RMzrS6gkCewNkC7F",
+              "received": false
+            },
+            {
+              "_id": "69696a0b1c508c5d5eb289f9",
+              "name": "Soap33800",
+              "amount": 551,
+              "price": 75891,
+              "manufacturer": "Samsung",
+              "notes": "7ITdb0F8B7MPFS8kKP9IzhXBZMLNTeYUy45ZKitgChRHJnVid3W3R2vuEpsES9DPUccBFjg6KXVnapLNgW60tFNpra1q6WEbwYCDRgFRIKRnHLL80pHqYOt1jW0urIoOq4Yrvv4PqL5mSqyvWuT6A422Ryrl3mxDV5vh0eW3OujfjDENTJWi9mr2G5MTcbCKqBbxyYJw9yMoS06xbDNIco6H7ZUtS2WUcsolJBsa6jLI7oGCO211t3iLLQ",
+              "received": false
+            }
+          ],
+          "total_price": 107347,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:28:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

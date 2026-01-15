@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-yycGK3Dxqj+Qs9FquIjzEeR0Tqo\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969d81c508c5d5eb26b8b",
+        "email": "Jovany4@gmail.com",
+        "name": "Luisa Thiel",
+        "country": "Russia",
+        "city": "Othaville",
+        "street": "Payton Villages",
+        "house": 23,
+        "flat": 866,
+        "phone": "+18628919425",
+        "createdOn": "2026-01-15T22:27:36.000Z",
+        "notes": "WbFBpta53b4NrLpFH6qGlHOLh6UbkEW2hfOkJTP5cccCUmfr6PnPcgIbGYn0gKvUlbkcoeEgSObKMpnlmRl6cRjfITZFSUPBxUpBVZH2IE0ejoS2DMf0ZqbODkCWxRnPDlqFe2HkTsL791RLrluvPZKqL5L9QbymrRbwYSQZ6EnWBIFuVBRCXTi60HcQIkHRZPFdLbSqLjbVRYfStjz7RkcdVhHRJPwYCFBjRvc7SeJHscejEerldcf2Rm"
+      },
+      "products": [
+        {
+          "_id": "696969d81c508c5d5eb26ba0",
+          "name": "Chair20498",
+          "amount": 535,
+          "price": 63928,
+          "manufacturer": "Google",
+          "notes": "5gTyCqB9XQ8HwNreppMJrUqXfx8NESrIoeSjCgSRePRXyrvP5QzUOVm5G7j2GzfSE5npZAI05d1LR3eMs27SCnaXTtW4A32S8dNEttZMZXcNPhNdhx53CKuXkwAdWUAuMd5oBtkNw9a5zkTkpxpBaWsZH2kJfIdqvgihfyc6xSAECM3KlrXKdSmwzqBWfQZfqDkToAoCBmGtgDID98qqGmTCnF65Hx5buXSoq8xEMzpnVOItsA4gaA8wQ9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63928,
+      "createdOn": "2026-01-15T22:27:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969d81c508c5d5eb26b8b",
+          "products": [
+            {
+              "_id": "696969d81c508c5d5eb26ba0",
+              "name": "Chair20498",
+              "amount": 535,
+              "price": 63928,
+              "manufacturer": "Google",
+              "notes": "5gTyCqB9XQ8HwNreppMJrUqXfx8NESrIoeSjCgSRePRXyrvP5QzUOVm5G7j2GzfSE5npZAI05d1LR3eMs27SCnaXTtW4A32S8dNEttZMZXcNPhNdhx53CKuXkwAdWUAuMd5oBtkNw9a5zkTkpxpBaWsZH2kJfIdqvgihfyc6xSAECM3KlrXKdSmwzqBWfQZfqDkToAoCBmGtgDID98qqGmTCnF65Hx5buXSoq8xEMzpnVOItsA4gaA8wQ9",
+              "received": false
+            }
+          ],
+          "total_price": 63928,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969d91c508c5d5eb26bc8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

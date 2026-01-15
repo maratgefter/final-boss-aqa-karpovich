@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-BZ6o1ZzOBQfryHHy90CHWeA6KfY\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969c91c508c5d5eb262d2",
+        "email": "Felicia.Abshire@gmail.com",
+        "name": "Aniyah Ferry",
+        "country": "Canada",
+        "city": "Buena Park",
+        "street": "Ash Road",
+        "house": 48,
+        "flat": 917,
+        "phone": "+18139572770",
+        "createdOn": "2026-01-15T22:27:21.000Z",
+        "notes": "7D0lRTruj6tyYhBED51sWOAKkN49PCgpzE90OPkyMoJ9y6QqCVenCPhKgXFAZs60vJd5bkEAaxp7e4m7GZk3riHVhHrKmIylXdZ4Y4QlrRKS5YuuFYd15lbk1VChPKcdZJMxmgYN3FqUlPUXnBMaK9LYjSaCAHKqtBgTKo7XeCgUIFCgJKQmwZC4g85I8Z7S3N54QEt0sv7RMlIxrgCkJVELlP1Ovxy34S48CieXKvHqZXfnt7KzUohh2N"
+      },
+      "products": [
+        {
+          "_id": "696969ca1c508c5d5eb2630b",
+          "name": "Chair24077",
+          "amount": 553,
+          "price": 14906,
+          "manufacturer": "Amazon",
+          "notes": "5kryWZbfhYkkx7p8QCOKx76qSO61N3tG1vmKrxlEnHbD8sGLxRFf6CaCy1woHpCrwnf24gM1eia75fjuWAUv9xB4bd2zlEtC7RLpDyeokfnyYk66Kn1l4TOsMgZbicfXj7gs10WHjKYaa04C9jBPkRFnEFBVSozuA9z0CEnrfPLjR8vX7kDQFEK3OSdaeFN6KPkLQVCmWODtYnoYbH789aXG4zr2YVbHds5XgsvkSSZ1L8rY4BkT2Hz1tq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14906,
+      "createdOn": "2026-01-15T22:27:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969c91c508c5d5eb262d2",
+          "products": [
+            {
+              "_id": "696969ca1c508c5d5eb2630b",
+              "name": "Chair24077",
+              "amount": 553,
+              "price": 14906,
+              "manufacturer": "Amazon",
+              "notes": "5kryWZbfhYkkx7p8QCOKx76qSO61N3tG1vmKrxlEnHbD8sGLxRFf6CaCy1woHpCrwnf24gM1eia75fjuWAUv9xB4bd2zlEtC7RLpDyeokfnyYk66Kn1l4TOsMgZbicfXj7gs10WHjKYaa04C9jBPkRFnEFBVSozuA9z0CEnrfPLjR8vX7kDQFEK3OSdaeFN6KPkLQVCmWODtYnoYbH789aXG4zr2YVbHds5XgsvkSSZ1L8rY4BkT2Hz1tq",
+              "received": false
+            }
+          ],
+          "total_price": 14906,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969ca1c508c5d5eb26342"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

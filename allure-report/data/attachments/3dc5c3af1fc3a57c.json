@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-PJS+l8ZnBvmY6MnH6XQt+u3+844\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969e71c508c5d5eb274b8",
+        "email": "Dominic_Homenick@yahoo.com",
+        "name": "Jaylen McCullough",
+        "country": "USA",
+        "city": "Fort Damien",
+        "street": "Vincenza Alley",
+        "house": 11,
+        "flat": 277,
+        "phone": "+19109946813",
+        "createdOn": "2026-01-15T22:27:51.000Z",
+        "notes": "v43gOyORPZ4x6x0lASNgYJTSsNVxrJjTvrek5Q3kX25gFvDnyZNXmH7sqnCLmJFYNHaueAAwRaxfae3PoGldhXdsZNgmlqhf6HRvMdILnYoT6EqxM7PsfufVxlgnvKKitXiMeVvC3s2MCSnw5MuXe5MC836P4b2uIGBQeQU4AJjxZMjYMBGuVTCsvGpSjY4YECIwTpDMFKz60dByJLwzIhCMCNpnHGNVbQnkBFDvkjH5M0PrhP1KMwDtZM"
+      },
+      "products": [
+        {
+          "_id": "696969e71c508c5d5eb274cd",
+          "name": "Chair57907",
+          "amount": 338,
+          "price": 39213,
+          "manufacturer": "Amazon",
+          "notes": "CPursRJSG6oMgm00JMIZJIchuxXH9FG6lAsUnUXcaT9Yr5A4eTtfLRJpDLmkxZNwYwjbmSnSJwpZwKyRtwIKRIWLStZh501qSp2enMgwroNUupwQSwk6g20xYZZWlMErKOu2WYtBMWAJBfrGmzYeMZYHGiIYbcHk9QwMLKE03NlSGcUe4K8mk2XEFycDcir5xVbD52PwWMpnG8joRP17ud3tamUbk6nharDD3HJKy3I2lBvmtYHoQGCNeC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39213,
+      "createdOn": "2026-01-15T22:27:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969e71c508c5d5eb274b8",
+          "products": [
+            {
+              "_id": "696969e71c508c5d5eb274cd",
+              "name": "Chair57907",
+              "amount": 338,
+              "price": 39213,
+              "manufacturer": "Amazon",
+              "notes": "CPursRJSG6oMgm00JMIZJIchuxXH9FG6lAsUnUXcaT9Yr5A4eTtfLRJpDLmkxZNwYwjbmSnSJwpZwKyRtwIKRIWLStZh501qSp2enMgwroNUupwQSwk6g20xYZZWlMErKOu2WYtBMWAJBfrGmzYeMZYHGiIYbcHk9QwMLKE03NlSGcUe4K8mk2XEFycDcir5xVbD52PwWMpnG8joRP17ud3tamUbk6nharDD3HJKy3I2lBvmtYHoQGCNeC",
+              "received": false
+            }
+          ],
+          "total_price": 39213,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969e81c508c5d5eb27582"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

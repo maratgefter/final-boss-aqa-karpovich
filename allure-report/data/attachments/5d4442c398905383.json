@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-nT3L4Rl6FZVk6d67ff5hA0Xb/oE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969d81c508c5d5eb26ba2",
+        "email": "Philip.Halvorson96@yahoo.com",
+        "name": "Laura Konopelski",
+        "country": "Russia",
+        "city": "Brekkefield",
+        "street": "Vicarage Lane",
+        "house": 7,
+        "flat": 807,
+        "phone": "+19644997275",
+        "createdOn": "2026-01-15T22:27:36.000Z",
+        "notes": "GUeoKsaKpdhFt75tMbWs9nPyOfktSjkRfIMZn5jmQCz7IIyel543DlK66AYSswMevLkkwCmX3etRmAvngLiw5Wb4rirNQxBq6O0mtspAUJJ7UgbypMt6r0KfQcFIrPSAsPn1THrTl1Y4Zb2LAtczLmmLBCIkO8yvxU4dhRj41okQaZCnhBvwZ4t7mKOXRu5gcgpoXcpCjZ8GWwXEQgqR4KJMmGpkLGFhTRT9uCMCdUsVLL0xZ5Qw9a4llo"
+      },
+      "products": [
+        {
+          "_id": "696969d91c508c5d5eb26bcf",
+          "name": "Chicken46243",
+          "amount": 858,
+          "price": 80823,
+          "manufacturer": "Tesla",
+          "notes": "owXhPDQoGpIhMvjVjMD4m0Siy0A2AqlCFHqoESqtkBJ4u9ywsx7HMgJ3i0OkL9hOUncq0N1ytFiqr0Qg5FsY2UP5QKHdlRMTboR001iwm0t7wlzIV4aa4MVFG0EZWO1JYuDauSiy5Uv2jAaX6QciVWBLbNJpZ7BOqGguC9H56h0zeTR9ty60qzqZclPwyrJRiccwCpJHbx1QzqEYIiQdK75WGcQzdzeombb91EnqUgO8LCxHLEcNHx9YnQ",
+          "received": false
+        },
+        {
+          "_id": "696969d91c508c5d5eb26be6",
+          "name": "Pants34409",
+          "amount": 429,
+          "price": 40463,
+          "manufacturer": "Sony",
+          "notes": "IIrP5Z3nBGGYX6jkvYWovii7nxbAB2RZsXoqCh7EzsV041EUOJQEwW10k6s04DRhrzmvqSsRMU4BJpDHmR8xxAfQpO4d1qb45NTSHyoksZpRH4lOZ856GURJ0cCoWlwkt4o3KvjDjEh3naY4OC0JQVB4dAnsJHr9ekJlrj90PXUfmsIEJ1LgGRMrMFPyYuf8aMGfdiPSZ9DksBvnX88YMOYw2mOjs4xFW2OP8Vnqtg1IglLzz8img5eTpj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121286,
+      "createdOn": "2026-01-15T22:27:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969d81c508c5d5eb26ba2",
+          "products": [
+            {
+              "_id": "696969d91c508c5d5eb26bcf",
+              "name": "Chicken46243",
+              "amount": 858,
+              "price": 80823,
+              "manufacturer": "Tesla",
+              "notes": "owXhPDQoGpIhMvjVjMD4m0Siy0A2AqlCFHqoESqtkBJ4u9ywsx7HMgJ3i0OkL9hOUncq0N1ytFiqr0Qg5FsY2UP5QKHdlRMTboR001iwm0t7wlzIV4aa4MVFG0EZWO1JYuDauSiy5Uv2jAaX6QciVWBLbNJpZ7BOqGguC9H56h0zeTR9ty60qzqZclPwyrJRiccwCpJHbx1QzqEYIiQdK75WGcQzdzeombb91EnqUgO8LCxHLEcNHx9YnQ",
+              "received": false
+            },
+            {
+              "_id": "696969d91c508c5d5eb26be6",
+              "name": "Pants34409",
+              "amount": 429,
+              "price": 40463,
+              "manufacturer": "Sony",
+              "notes": "IIrP5Z3nBGGYX6jkvYWovii7nxbAB2RZsXoqCh7EzsV041EUOJQEwW10k6s04DRhrzmvqSsRMU4BJpDHmR8xxAfQpO4d1qb45NTSHyoksZpRH4lOZ856GURJ0cCoWlwkt4o3KvjDjEh3naY4OC0JQVB4dAnsJHr9ekJlrj90PXUfmsIEJ1LgGRMrMFPyYuf8aMGfdiPSZ9DksBvnX88YMOYw2mOjs4xFW2OP8Vnqtg1IglLzz8img5eTpj",
+              "received": false
+            }
+          ],
+          "total_price": 121286,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969da1c508c5d5eb26c34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

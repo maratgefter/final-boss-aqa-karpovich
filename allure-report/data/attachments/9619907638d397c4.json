@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 15 Jan 2026 22:27:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-CY8D+/5LM4DyXqAuxGNXMjIsUjQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696969cd1c508c5d5eb264dd",
+        "email": "Newell38@gmail.com",
+        "name": "Tressie Nicolas",
+        "country": "Canada",
+        "city": "Eagan",
+        "street": "Prospect Place",
+        "house": 41,
+        "flat": 437,
+        "phone": "+18868417189",
+        "createdOn": "2026-01-15T22:27:25.000Z",
+        "notes": "ZISayu4FFHp1XdTjOyTfPsxiKBSFCKm8kAZ1lmpKjv8xpyBejbePtp23tJRhhyLVo1bOSI7IFBSvuhUsV1IgaS3HWsLSvycr9IZxsETJxiG0uBzsrgqLmhWXJ7nCnTEGBhs0ssyVK7I9VQFeVNkDZPp8bJkJ4JfnbxdJoYokiQGggCFWDHqJWfwHmceDWuVTmutXXPQ8QOj8RcI2zT67KnrVv62K0yRbnLwOQeDfUxDLOGPFDqMdpWUXM7"
+      },
+      "products": [
+        {
+          "_id": "696969ce1c508c5d5eb264fa",
+          "name": "Chair35424",
+          "amount": 303,
+          "price": 99853,
+          "manufacturer": "Sony",
+          "notes": "qGaZ90RTK1eOaOzwBrAl57Qt46SOtaVOTb70yeNN7tXfu59pQzpr20x0W150FsPgauQYTtTcfDHntKLvWBp9ZjyihzliojfPsQxNEdjFeGNbXp0ESn7phBCmof6svBQ02KiOoZQMMfXVsiA0AFrxpuH90EpsaHgw4ADqYBTo37eWVMNuZeVOyS3zoRL3WheKYKGho5m4YsbHZNKhv7CQcCkiqphuwSsmdSdIkg0Roj8g0Ji2XGIzz3t028",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99853,
+      "createdOn": "2026-01-15T22:27:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696969cd1c508c5d5eb264dd",
+          "products": [
+            {
+              "_id": "696969ce1c508c5d5eb264fa",
+              "name": "Chair35424",
+              "amount": 303,
+              "price": 99853,
+              "manufacturer": "Sony",
+              "notes": "qGaZ90RTK1eOaOzwBrAl57Qt46SOtaVOTb70yeNN7tXfu59pQzpr20x0W150FsPgauQYTtTcfDHntKLvWBp9ZjyihzliojfPsQxNEdjFeGNbXp0ESn7phBCmof6svBQ02KiOoZQMMfXVsiA0AFrxpuH90EpsaHgw4ADqYBTo37eWVMNuZeVOyS3zoRL3WheKYKGho5m4YsbHZNKhv7CQcCkiqphuwSsmdSdIkg0Roj8g0Ji2XGIzz3t028",
+              "received": false
+            }
+          ],
+          "total_price": 99853,
+          "delivery": null,
+          "changedOn": "2026-01-15T22:27:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696969ce1c508c5d5eb26522"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
