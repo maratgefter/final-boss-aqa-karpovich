@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:29:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5385",
+    "etag": "W/\"1509-dL1+lRNcrKQzvw7sqORp4GuhCkU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696abba21c508c5d5eb3501f",
+      "status": "In Process",
+      "customer": {
+        "_id": "696abb9f1c508c5d5eb34e72",
+        "email": "Jaron86@yahoo.com",
+        "name": "Daniella Haag",
+        "country": "Belarus",
+        "city": "West Santiago",
+        "street": "Oak Drive",
+        "house": 19,
+        "flat": 206,
+        "phone": "+18659541978",
+        "createdOn": "2026-01-16T22:28:47.000Z",
+        "notes": "rm4wLeD2oUxA1shGZrUsTj0THYWgSSwvyEtmJ7gsICHSxGYqnCugJyBXam0ltqRI1xRS9YkSNyhPU4TRV9AIyYNmzxcmqiShOy7pyNWqg5AuwLjg5M5IemqHMB9lTYyOck0hTcuoVI3ekECG4YO2ACyMhDx2tV4vIrefUG2GkWUzSihnJRXOghjZzAx3PrbIXK24ScqEqN36axkoEURiTU8ErQUWw9xyIJ8a5U3MTImiDiOxMlSEjA3ZcG"
+      },
+      "products": [
+        {
+          "_id": "696abba01c508c5d5eb34f2a",
+          "name": "Table63156",
+          "amount": 492,
+          "price": 96983,
+          "manufacturer": "Sony",
+          "notes": "kHCjLLWDezFsSyK85HbUYnAp6D8w9uEhQgFcOB31wpcO0ZvBsMPqP9NYtb2kUqsrvWmzyXaQILV6Xaf1g364YvIHhRUmOYdjjH7ow3xLfRJ7CrFu6nCxat5wN7xgNVDx0xgue3KRnH33PD0L2ccJgwBWnJggrBrVX8KqQalmgynygaTvU46NOhpzQXNo1cwnYvrCOoc8ozireM1R3WsfqmJ82UzuPu2mBWEjwGHvvsNKtsUOwYVsyejPmR",
+          "received": false
+        },
+        {
+          "_id": "696abba11c508c5d5eb34fd9",
+          "name": "Tuna11383",
+          "amount": 573,
+          "price": 8790,
+          "manufacturer": "Sony",
+          "notes": "osEMeMslRYiMlxAoYsJRrhzVxkKkqBgCyVx0n420fbdsuxtyP1Iah0LwhqOqnauB4vpsiu1TEW9ZA847hrchN6gv1Rpz7LMovGoR8p2tOMxV1Kc85hpl8KqialIEieoOCo60UrminjfzX2yaC17AHJwZYh96zL3djpIsHMqS9tLn1lYbMuOnaSwF86aR1GScRY7IYDPg0yh2MJHZKXL7FUgjesm7ud9HGTO8FZejR63SfAwGfEkxJkv9m7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Santiago",
+          "street": "Oak Drive",
+          "house": 19,
+          "flat": 206
+        },
+        "finalDate": "2026-01-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 105773,
+      "createdOn": "2026-01-16T22:28:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696abb9f1c508c5d5eb34e72",
+          "products": [
+            {
+              "_id": "696abba01c508c5d5eb34f2a",
+              "name": "Table63156",
+              "amount": 492,
+              "price": 96983,
+              "manufacturer": "Sony",
+              "notes": "kHCjLLWDezFsSyK85HbUYnAp6D8w9uEhQgFcOB31wpcO0ZvBsMPqP9NYtb2kUqsrvWmzyXaQILV6Xaf1g364YvIHhRUmOYdjjH7ow3xLfRJ7CrFu6nCxat5wN7xgNVDx0xgue3KRnH33PD0L2ccJgwBWnJggrBrVX8KqQalmgynygaTvU46NOhpzQXNo1cwnYvrCOoc8ozireM1R3WsfqmJ82UzuPu2mBWEjwGHvvsNKtsUOwYVsyejPmR",
+              "received": false
+            },
+            {
+              "_id": "696abba11c508c5d5eb34fd9",
+              "name": "Tuna11383",
+              "amount": 573,
+              "price": 8790,
+              "manufacturer": "Sony",
+              "notes": "osEMeMslRYiMlxAoYsJRrhzVxkKkqBgCyVx0n420fbdsuxtyP1Iah0LwhqOqnauB4vpsiu1TEW9ZA847hrchN6gv1Rpz7LMovGoR8p2tOMxV1Kc85hpl8KqialIEieoOCo60UrminjfzX2yaC17AHJwZYh96zL3djpIsHMqS9tLn1lYbMuOnaSwF86aR1GScRY7IYDPg0yh2MJHZKXL7FUgjesm7ud9HGTO8FZejR63SfAwGfEkxJkv9m7",
+              "received": false
+            }
+          ],
+          "total_price": 105773,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Santiago",
+              "street": "Oak Drive",
+              "house": 19,
+              "flat": 206
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-16T22:29:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696abb9f1c508c5d5eb34e72",
+          "products": [
+            {
+              "_id": "696abba01c508c5d5eb34f2a",
+              "name": "Table63156",
+              "amount": 492,
+              "price": 96983,
+              "manufacturer": "Sony",
+              "notes": "kHCjLLWDezFsSyK85HbUYnAp6D8w9uEhQgFcOB31wpcO0ZvBsMPqP9NYtb2kUqsrvWmzyXaQILV6Xaf1g364YvIHhRUmOYdjjH7ow3xLfRJ7CrFu6nCxat5wN7xgNVDx0xgue3KRnH33PD0L2ccJgwBWnJggrBrVX8KqQalmgynygaTvU46NOhpzQXNo1cwnYvrCOoc8ozireM1R3WsfqmJ82UzuPu2mBWEjwGHvvsNKtsUOwYVsyejPmR",
+              "received": false
+            },
+            {
+              "_id": "696abba11c508c5d5eb34fd9",
+              "name": "Tuna11383",
+              "amount": 573,
+              "price": 8790,
+              "manufacturer": "Sony",
+              "notes": "osEMeMslRYiMlxAoYsJRrhzVxkKkqBgCyVx0n420fbdsuxtyP1Iah0LwhqOqnauB4vpsiu1TEW9ZA847hrchN6gv1Rpz7LMovGoR8p2tOMxV1Kc85hpl8KqialIEieoOCo60UrminjfzX2yaC17AHJwZYh96zL3djpIsHMqS9tLn1lYbMuOnaSwF86aR1GScRY7IYDPg0yh2MJHZKXL7FUgjesm7ud9HGTO8FZejR63SfAwGfEkxJkv9m7",
+              "received": false
+            }
+          ],
+          "total_price": 105773,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Santiago",
+              "street": "Oak Drive",
+              "house": 19,
+              "flat": 206
+            },
+            "finalDate": "2026-01-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-16T22:28:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696abb9f1c508c5d5eb34e72",
+          "products": [
+            {
+              "_id": "696abba01c508c5d5eb34f2a",
+              "name": "Table63156",
+              "amount": 492,
+              "price": 96983,
+              "manufacturer": "Sony",
+              "notes": "kHCjLLWDezFsSyK85HbUYnAp6D8w9uEhQgFcOB31wpcO0ZvBsMPqP9NYtb2kUqsrvWmzyXaQILV6Xaf1g364YvIHhRUmOYdjjH7ow3xLfRJ7CrFu6nCxat5wN7xgNVDx0xgue3KRnH33PD0L2ccJgwBWnJggrBrVX8KqQalmgynygaTvU46NOhpzQXNo1cwnYvrCOoc8ozireM1R3WsfqmJ82UzuPu2mBWEjwGHvvsNKtsUOwYVsyejPmR",
+              "received": false
+            },
+            {
+              "_id": "696abba11c508c5d5eb34fd9",
+              "name": "Tuna11383",
+              "amount": 573,
+              "price": 8790,
+              "manufacturer": "Sony",
+              "notes": "osEMeMslRYiMlxAoYsJRrhzVxkKkqBgCyVx0n420fbdsuxtyP1Iah0LwhqOqnauB4vpsiu1TEW9ZA847hrchN6gv1Rpz7LMovGoR8p2tOMxV1Kc85hpl8KqialIEieoOCo60UrminjfzX2yaC17AHJwZYh96zL3djpIsHMqS9tLn1lYbMuOnaSwF86aR1GScRY7IYDPg0yh2MJHZKXL7FUgjesm7ud9HGTO8FZejR63SfAwGfEkxJkv9m7",
+              "received": false
+            }
+          ],
+          "total_price": 105773,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:28:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

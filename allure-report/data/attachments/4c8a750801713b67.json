@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-3FLsFzxFyQNG9Zd4LbbzoKfy//s\"",
+    "keep-alive": "timeout=5, max=52",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696abb471c508c5d5eb3137a",
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb441c508c5d5eb3118d",
+        "email": "Natalia.Murazik86@yahoo.com",
+        "name": "Jeromy Hyatt",
+        "country": "France",
+        "city": "Janeville",
+        "street": "Ilene Throughway",
+        "house": 17,
+        "flat": 247,
+        "phone": "+17845014486",
+        "createdOn": "2026-01-16T22:27:16.000Z",
+        "notes": "kHEsWI3idFvqLwj6GXemcQJ6vsBNtpqUDe8H0p1kyaynF5TMeXCtuttFlIhigmn0mUdv3GOVGLwsYLOg6ZTZ8yq0TSmkYwiJTwQLkWGMa1EJG6eeSCR7WntLYLhvezlBF32Hn3PQjWLFYfhAzaA1CWUx2cKOflJZAmwFhAy9NKajCx7webD1Fc7zjZBwSipIMDMpKeoi6uY5hNjHDE6USQI82MRwX8zxvR7i9gFkSJMqz61UZ5VNQzOBjH"
+      },
+      "products": [
+        {
+          "_id": "696abb461c508c5d5eb3133b",
+          "name": "Chips48722",
+          "amount": 29,
+          "price": 67854,
+          "manufacturer": "Microsoft",
+          "notes": "4wC0gjN75N3WqxazE203gs0V9TffBX9PFiWgIDBKZZ9Y5QJprmiWX3uuWgYSwvkzRD32kPhZAc7P3B2ukGoVvR3cI0g2gLfXnZL0xqYFvBmEHlvwXlSsAAJGPN6PgL2tldZzxDrW4PyLGJ80bKKRg6v9D78IY74BZWut2n0gCVwtLY0HRB4WyjHVzV9ueBadt8MaFJZaK4e11IsSlSC9Ac1oFPlQtD6odqGLyp6EezS76RqRG60QxB7Feg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Jacobsonville",
+          "street": "Oak Lane",
+          "house": 5,
+          "flat": 478
+        },
+        "finalDate": "2026-01-16T22:27:19.253Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67854,
+      "createdOn": "2026-01-16T22:27:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb441c508c5d5eb3118d",
+          "products": [
+            {
+              "_id": "696abb461c508c5d5eb3133b",
+              "name": "Chips48722",
+              "amount": 29,
+              "price": 67854,
+              "manufacturer": "Microsoft",
+              "notes": "4wC0gjN75N3WqxazE203gs0V9TffBX9PFiWgIDBKZZ9Y5QJprmiWX3uuWgYSwvkzRD32kPhZAc7P3B2ukGoVvR3cI0g2gLfXnZL0xqYFvBmEHlvwXlSsAAJGPN6PgL2tldZzxDrW4PyLGJ80bKKRg6v9D78IY74BZWut2n0gCVwtLY0HRB4WyjHVzV9ueBadt8MaFJZaK4e11IsSlSC9Ac1oFPlQtD6odqGLyp6EezS76RqRG60QxB7Feg",
+              "received": false
+            }
+          ],
+          "total_price": 67854,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Jacobsonville",
+              "street": "Oak Lane",
+              "house": 5,
+              "flat": 478
+            },
+            "finalDate": "2026-01-16T22:27:19.253Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-16T22:27:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696abb441c508c5d5eb3118d",
+          "products": [
+            {
+              "_id": "696abb461c508c5d5eb3133b",
+              "name": "Chips48722",
+              "amount": 29,
+              "price": 67854,
+              "manufacturer": "Microsoft",
+              "notes": "4wC0gjN75N3WqxazE203gs0V9TffBX9PFiWgIDBKZZ9Y5QJprmiWX3uuWgYSwvkzRD32kPhZAc7P3B2ukGoVvR3cI0g2gLfXnZL0xqYFvBmEHlvwXlSsAAJGPN6PgL2tldZzxDrW4PyLGJ80bKKRg6v9D78IY74BZWut2n0gCVwtLY0HRB4WyjHVzV9ueBadt8MaFJZaK4e11IsSlSC9Ac1oFPlQtD6odqGLyp6EezS76RqRG60QxB7Feg",
+              "received": false
+            }
+          ],
+          "total_price": 67854,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

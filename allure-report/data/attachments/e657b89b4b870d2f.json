@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2650",
+    "etag": "W/\"a5a-BykO9df54GGZLpbEOg6R7aIk360\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb351c508c5d5eb309a8",
+        "email": "Demarco.Skiles@gmail.com",
+        "name": "Ophelia Ondricka",
+        "country": "Canada",
+        "city": "New Jaren",
+        "street": "Javier Point",
+        "house": 43,
+        "flat": 867,
+        "phone": "+14472425392",
+        "createdOn": "2026-01-16T22:27:01.000Z",
+        "notes": "uCLB55SHWwP6MhJSkuS9XWsJWo2EFHNr6MEgNlM5mxPGJw07rFzxZmBqUVoIwjcwyI6lIhw4UJsybjk0U2DjlRnlzp9BSh6M03WNMsMA6h5rD8srIR9Dae3sA8TZFegJHG1YUR9g665tsvkEyvzemR6rbNGGuaEj7zIv7x11LgA7KXrudE32aiYJAjQox40eERCYqfnFVpQbS9cvoTYbMLvKFWdvUCDDuFmKlZ3Y0BjTt2cIsZbfYGURxS"
+      },
+      "products": [
+        {
+          "_id": "696abb361c508c5d5eb309d3",
+          "name": "Ball70038",
+          "amount": 612,
+          "price": 38033,
+          "manufacturer": "Google",
+          "notes": "7mnKGyBwNFYActmSfnFiQxMf1xsZeeE03dpvu5dIu0GiNtqaoURhfsvqdsYBD4MkPhEeNoi7AKQGAy9a6l9hl4LHolr2PQZwdAyrWAAa4URDYnA8ABhK8oOeWxARENLEMErWa9rDnw8hxIj0wRqd2ZqKGNYh4EvUfXeGgFG11f26imJFQls91vNYOk8Al8rLSd4wo037MDQHbHmZMFBOKWw9MIMp9F4VZbAhjxTQZk9NT1bgsK46QlvG7a",
+          "received": false
+        },
+        {
+          "_id": "696abb361c508c5d5eb30a0a",
+          "name": "Shirt79045",
+          "amount": 806,
+          "price": 60164,
+          "manufacturer": "Xiaomi",
+          "notes": "pawjxDXXA1NmlFZsoHPjrMbQPBEKjNXDTkjDBiqAN8FZqj2F98m7fC6phLTf3lT4yaE4pYrDRCfuz5xgVL1IQl4xqRgEId5LcOwjVZCvPyELUJ5zYPTk4TNpaBSiKDJ83pqYKDzZeoM71GuSPUg8FY4NitbY6OCLKc2MjUVtkhOTmfQBfMfUv0PYdTEEu0Lut6wwRgLfHwveupGY136dymV5uH2ps4K5LHkm8xPLHl2qMkJas0eoZZdQum",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98197,
+      "createdOn": "2026-01-16T22:27:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb351c508c5d5eb309a8",
+          "products": [
+            {
+              "_id": "696abb361c508c5d5eb309d3",
+              "name": "Ball70038",
+              "amount": 612,
+              "price": 38033,
+              "manufacturer": "Google",
+              "notes": "7mnKGyBwNFYActmSfnFiQxMf1xsZeeE03dpvu5dIu0GiNtqaoURhfsvqdsYBD4MkPhEeNoi7AKQGAy9a6l9hl4LHolr2PQZwdAyrWAAa4URDYnA8ABhK8oOeWxARENLEMErWa9rDnw8hxIj0wRqd2ZqKGNYh4EvUfXeGgFG11f26imJFQls91vNYOk8Al8rLSd4wo037MDQHbHmZMFBOKWw9MIMp9F4VZbAhjxTQZk9NT1bgsK46QlvG7a",
+              "received": false
+            },
+            {
+              "_id": "696abb361c508c5d5eb30a0a",
+              "name": "Shirt79045",
+              "amount": 806,
+              "price": 60164,
+              "manufacturer": "Xiaomi",
+              "notes": "pawjxDXXA1NmlFZsoHPjrMbQPBEKjNXDTkjDBiqAN8FZqj2F98m7fC6phLTf3lT4yaE4pYrDRCfuz5xgVL1IQl4xqRgEId5LcOwjVZCvPyELUJ5zYPTk4TNpaBSiKDJ83pqYKDzZeoM71GuSPUg8FY4NitbY6OCLKc2MjUVtkhOTmfQBfMfUv0PYdTEEu0Lut6wwRgLfHwveupGY136dymV5uH2ps4K5LHkm8xPLHl2qMkJas0eoZZdQum",
+              "received": false
+            }
+          ],
+          "total_price": 98197,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb371c508c5d5eb30a44"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

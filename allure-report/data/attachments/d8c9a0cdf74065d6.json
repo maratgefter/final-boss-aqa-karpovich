@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2799",
+    "etag": "W/\"aef-iD9KKhyWMFedu207tBpdu80HicA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696abb461c508c5d5eb3135f",
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb431c508c5d5eb31126",
+        "email": "Skylar15@hotmail.com",
+        "name": "Valentine Maggio",
+        "country": "USA",
+        "city": "Emardtown",
+        "street": "Mary Street",
+        "house": 5,
+        "flat": 804,
+        "phone": "+14416995587",
+        "createdOn": "2026-01-16T22:27:15.000Z",
+        "notes": "vKacyjvuvqFaLWZd2FvALrMl7BAuOYhnNfkBJL7rm6qQ3o8fuhmhhQfcHJOutf5SIzy3kt7AbOWH2iRy0NYnPoFCmXy2dnQXhbtsqPRDJZ1j43vWD5XVrVhwdmNzCJc9vvY0JG37eeFT7AH5OiExqao92C7nT1odeZsUI9Ob1cRIg7sAiuzTFUfbNUUpJc36RUsR9874S6o64ZUiOdlFAXVMBqYIvVSpGvYqQj5ia9wRZ3GkaG2CKkhdTn"
+      },
+      "products": [
+        {
+          "_id": "696abb431c508c5d5eb3114b",
+          "name": "Car38664",
+          "amount": 761,
+          "price": 82593,
+          "manufacturer": "Amazon",
+          "notes": "XqPdN5zKw6wSsd7FyIWyXJQSVQupqY4oOwKfkeHer7JJvvuJiNwyZf1D0ZQ9hkeGWfYo4BPQXwF9L0yTz2jROyfZx0unrRBRfLD33SloLLryUYx0SCDgsCcO0GAWbKVye2XX4yK5YWWLQvvPNFZxKXT0QLBHjp7ZNWr2HBKpKknOZQKqdAAufH3FevOvyvtq2dOxYBnvW11oEx6UjQHMLKX8xgGDgdCmDG3PT6sK3dD2I9nszSFOENdbam",
+          "received": false
+        },
+        {
+          "_id": "696abb441c508c5d5eb31323",
+          "name": "Chips55943",
+          "amount": 863,
+          "price": 60602,
+          "manufacturer": "Google",
+          "notes": "Tb2Q9inH5yeitIgxxRP34HYfjcuI9fYXQhlk4dpMyGQtTx8hKkN4cYbXsHFAF6NJGZ8BSW1lauubAKPhLsuug55i8NvJrgNwnYudNmgPpl6ry8GXHkrUKpmxiWeXXlYhPENWSQR4D9KLEqhwPdLg4e3dCNCdRyKikPK0GPHqCt3ftZ8vmvqBjXVZNhsin6Yj7tXGq58BdeqDw9hULQJkl0gsjhkfj9P1sLkuQawGHuVOgEnnci5lMMSTFX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 143195,
+      "createdOn": "2026-01-16T22:27:18.000Z",
+      "comments": [
+        {
+          "text": "FVQep7JJAMkaaGNi8yJgXSbpVtdM1kCOAD3Y79zQpTvtjEHJZuyUDDJhnhbvACEylNqL0swushw",
+          "createdOn": "2026-01-16T22:27:19.000Z",
+          "_id": "696abb471c508c5d5eb3139a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb431c508c5d5eb31126",
+          "products": [
+            {
+              "_id": "696abb431c508c5d5eb3114b",
+              "name": "Car38664",
+              "amount": 761,
+              "price": 82593,
+              "manufacturer": "Amazon",
+              "notes": "XqPdN5zKw6wSsd7FyIWyXJQSVQupqY4oOwKfkeHer7JJvvuJiNwyZf1D0ZQ9hkeGWfYo4BPQXwF9L0yTz2jROyfZx0unrRBRfLD33SloLLryUYx0SCDgsCcO0GAWbKVye2XX4yK5YWWLQvvPNFZxKXT0QLBHjp7ZNWr2HBKpKknOZQKqdAAufH3FevOvyvtq2dOxYBnvW11oEx6UjQHMLKX8xgGDgdCmDG3PT6sK3dD2I9nszSFOENdbam",
+              "received": false
+            },
+            {
+              "_id": "696abb441c508c5d5eb31323",
+              "name": "Chips55943",
+              "amount": 863,
+              "price": 60602,
+              "manufacturer": "Google",
+              "notes": "Tb2Q9inH5yeitIgxxRP34HYfjcuI9fYXQhlk4dpMyGQtTx8hKkN4cYbXsHFAF6NJGZ8BSW1lauubAKPhLsuug55i8NvJrgNwnYudNmgPpl6ry8GXHkrUKpmxiWeXXlYhPENWSQR4D9KLEqhwPdLg4e3dCNCdRyKikPK0GPHqCt3ftZ8vmvqBjXVZNhsin6Yj7tXGq58BdeqDw9hULQJkl0gsjhkfj9P1sLkuQawGHuVOgEnnci5lMMSTFX",
+              "received": false
+            }
+          ],
+          "total_price": 143195,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

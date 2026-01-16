@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-NovlmsBXwu7g6tJeAZMH20olrzE\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb3e1c508c5d5eb30e4c",
+        "email": "Toby.Harber@hotmail.com",
+        "name": "Dayton Barton",
+        "country": "Great Britain",
+        "city": "Alenefort",
+        "street": "Champlin Loaf",
+        "house": 9,
+        "flat": 875,
+        "phone": "+12523813297",
+        "createdOn": "2026-01-16T22:27:10.000Z",
+        "notes": "MeRLPnPIm4d6g4Ql0jBrOLV2Hp7tt0Gld1cguYUZV0L7w4hkpGZgB2L2YSjei9VxjdLOLRFrSrpBnnx3RyC9ExXvXBTsrxPwWXZLB3XEhUUCkZej4VLfdLy5jBC7N0LoJ1vmXPrtBXOyGkSQe60UDdKdkrZNaoggkRGUAR1G5bWvcJhkpTy8agUOwYtUHenouBfbXZDvPEmFjJULr7XjlyGzeqvkLQHSKPy5zpTXpKcu4Mdytu3ydu75tb"
+      },
+      "products": [
+        {
+          "_id": "696abb3f1c508c5d5eb30ef4",
+          "name": "Computer63836",
+          "amount": 56,
+          "price": 33568,
+          "manufacturer": "Samsung",
+          "notes": "D4IvhxMD72O75HRyDAghlNs51WFX09hDz0CTIBWUwi36WkhBopfGxxesSMWruyDEkdy9fkQ9LMw9mv05SgqpW8EfOmdUiw07166N6Si7E0DYGZqczm5YjhWwBRpHtnIvECrezQgTB34eE7wkNfirqFIR6D7ZDsa8XCxkgMm2bOT0LsoZLWzaTeAJI39sb1C2RVgazJSh2K8K4aSGG4D601UXic7IQ2CHOrWihhOLWJGkXC0NbeMjvnqT3h",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33568,
+      "createdOn": "2026-01-16T22:27:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb3e1c508c5d5eb30e4c",
+          "products": [
+            {
+              "_id": "696abb3f1c508c5d5eb30ef4",
+              "name": "Computer63836",
+              "amount": 56,
+              "price": 33568,
+              "manufacturer": "Samsung",
+              "notes": "D4IvhxMD72O75HRyDAghlNs51WFX09hDz0CTIBWUwi36WkhBopfGxxesSMWruyDEkdy9fkQ9LMw9mv05SgqpW8EfOmdUiw07166N6Si7E0DYGZqczm5YjhWwBRpHtnIvECrezQgTB34eE7wkNfirqFIR6D7ZDsa8XCxkgMm2bOT0LsoZLWzaTeAJI39sb1C2RVgazJSh2K8K4aSGG4D601UXic7IQ2CHOrWihhOLWJGkXC0NbeMjvnqT3h",
+              "received": false
+            }
+          ],
+          "total_price": 33568,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb401c508c5d5eb30fa5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2805",
+    "etag": "W/\"af5-9QCwUP7omtuNPxHxclhRXA6hnSo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696abb461c508c5d5eb31361",
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb431c508c5d5eb31141",
+        "email": "Dallin54@gmail.com",
+        "name": "Meredith Cassin",
+        "country": "France",
+        "city": "New Rustybury",
+        "street": "Dulce Avenue",
+        "house": 28,
+        "flat": 718,
+        "phone": "+19017179052",
+        "createdOn": "2026-01-16T22:27:15.000Z",
+        "notes": "EbGJGFdmUBWkSGGkdHvIzdGWpA6CPzQQgtlabXcaSNiF3mPyfBR6pxCExxNzaA4mMh1ibElfZLuzL01XXxFCFEtm5ZXJ9gKCDYhCF35QUdPlXqUG9mgddEzHTNL2OH6wE1X6fMq64j33KA2XIKX8zyJyoBp0TH3wXtEHhqVP3eWR1y92fl0Usu5eCtvhhH1zrcpuWXOtiZwiU1WQi0CoJxLD3xHYq8avEVOQ55oucPhOzHXQUN4Irv14FL"
+      },
+      "products": [
+        {
+          "_id": "696abb431c508c5d5eb31163",
+          "name": "Pizza82967",
+          "amount": 809,
+          "price": 72627,
+          "manufacturer": "Amazon",
+          "notes": "sgZ7oz42nkbK0kqyTkGe3tEUpMenYuEXGu0p79QBMAYwY89TyoNWQE1qATDVjbM2JYVqkhsVRZMTlEpbeRdzB49wL3MuxfOEdQv9mfoINBnB4kXCuSdoo3ot6S93RFOnTfOZ8gRcPx7qkbegtaqIsvNP2a4IL1oAKIEi89E9VdOOsQhJFSzq0COm1It687eRQUcLxzy3rwVLs4Xqc85HXyShwVbhVIQuobIozxYg4HnU5c2TvUiqsf5BdK",
+          "received": false
+        },
+        {
+          "_id": "696abb441c508c5d5eb31321",
+          "name": "Table74198",
+          "amount": 133,
+          "price": 21135,
+          "manufacturer": "Tesla",
+          "notes": "XHa81zzYVT5DM9dFknRifHnT4XKfqeA8Fp3SFRgfGY5EHTTNH3jBeGrL1Txf1Qb5bbig0ojA39i2i1rO4NSImwDpMbZNGwvnEllCgwp77KoGRySywCwCTSKcCi8QmiPUHC98NHQzdhnJR8HLXf4gaezPndG3xFaHdVEExhTaAU1ZfV8zsqRoOrQWQI5QOcQgejhJ1SGMel2msKvL2HMmTj8FFoDnP2M10u7nIp5wwCyIYHBAdGm3ZJxKWi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93762,
+      "createdOn": "2026-01-16T22:27:18.000Z",
+      "comments": [
+        {
+          "text": "BnM3vE5YM35owKXXoHHP3rDiPr1cpVFoEKgnyiIoHNziNDqd8UNqwPykbmyXErv4beiEB9pHgj3",
+          "createdOn": "2026-01-16T22:27:19.000Z",
+          "_id": "696abb471c508c5d5eb3139e"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb431c508c5d5eb31141",
+          "products": [
+            {
+              "_id": "696abb431c508c5d5eb31163",
+              "name": "Pizza82967",
+              "amount": 809,
+              "price": 72627,
+              "manufacturer": "Amazon",
+              "notes": "sgZ7oz42nkbK0kqyTkGe3tEUpMenYuEXGu0p79QBMAYwY89TyoNWQE1qATDVjbM2JYVqkhsVRZMTlEpbeRdzB49wL3MuxfOEdQv9mfoINBnB4kXCuSdoo3ot6S93RFOnTfOZ8gRcPx7qkbegtaqIsvNP2a4IL1oAKIEi89E9VdOOsQhJFSzq0COm1It687eRQUcLxzy3rwVLs4Xqc85HXyShwVbhVIQuobIozxYg4HnU5c2TvUiqsf5BdK",
+              "received": false
+            },
+            {
+              "_id": "696abb441c508c5d5eb31321",
+              "name": "Table74198",
+              "amount": 133,
+              "price": 21135,
+              "manufacturer": "Tesla",
+              "notes": "XHa81zzYVT5DM9dFknRifHnT4XKfqeA8Fp3SFRgfGY5EHTTNH3jBeGrL1Txf1Qb5bbig0ojA39i2i1rO4NSImwDpMbZNGwvnEllCgwp77KoGRySywCwCTSKcCi8QmiPUHC98NHQzdhnJR8HLXf4gaezPndG3xFaHdVEExhTaAU1ZfV8zsqRoOrQWQI5QOcQgejhJ1SGMel2msKvL2HMmTj8FFoDnP2M10u7nIp5wwCyIYHBAdGm3ZJxKWi",
+              "received": false
+            }
+          ],
+          "total_price": 93762,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-mfFbUPXgZa3TMSj2UCldqEbbbW0\"",
+    "keep-alive": "timeout=5, max=40",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb581c508c5d5eb31f12",
+        "email": "Reina_Gusikowski72@yahoo.com",
+        "name": "Carolina Hamill",
+        "country": "USA",
+        "city": "Lake Orphafield",
+        "street": "Barton Estates",
+        "house": 10,
+        "flat": 931,
+        "phone": "+13798757871",
+        "createdOn": "2026-01-16T22:27:36.000Z",
+        "notes": "5G9ao2K8E5VVfubnscWXA6t82D3eiDpFL6R4n2mP6kyzXR7nRU0FnBDig35lqAxwT3ujibRk87PrM0aUWezvQnZ29JnmmD0YEYOOT2M4WvPYxspYaqttxnIR7Z9JvPQwIqtjNRQ3otek2dHRFXPsjHOFYKyb6Y3RSqHgT0O5FnrEr4sJfgq4NMYks0UlN3oQDzn7714EfRUf4qM6TcXxM5fuyeTPXEY8kYp4xVpzMn8QkzIvyreZHWELkS"
+      },
+      "products": [
+        {
+          "_id": "696abb581c508c5d5eb31f33",
+          "name": "Gloves40110",
+          "amount": 268,
+          "price": 80541,
+          "manufacturer": "Microsoft",
+          "notes": "7IMt6nCSrldypAAXw6q8XpyF1x4wQGH2P1ej7FikxRVEG65P6Of4jcnUj2y8McIoyhHhUPV0rLXhazL3ht36VpYLp8ohuPb7s7shJTzlgDQbJDOHJfmyXARfol4r8tHBqDPrKe10BqtBLC3n0FrKzsPFtW7jmELpGNWC0GGtQnhBjlof3KPbQni4PjUH5sTRIe0cfmHsvF9PVCCUCMr5BNjdL5gGt1ieeJ1O8yA010MQ2fRw0xujJqT9P0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80541,
+      "createdOn": "2026-01-16T22:27:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb581c508c5d5eb31f12",
+          "products": [
+            {
+              "_id": "696abb581c508c5d5eb31f33",
+              "name": "Gloves40110",
+              "amount": 268,
+              "price": 80541,
+              "manufacturer": "Microsoft",
+              "notes": "7IMt6nCSrldypAAXw6q8XpyF1x4wQGH2P1ej7FikxRVEG65P6Of4jcnUj2y8McIoyhHhUPV0rLXhazL3ht36VpYLp8ohuPb7s7shJTzlgDQbJDOHJfmyXARfol4r8tHBqDPrKe10BqtBLC3n0FrKzsPFtW7jmELpGNWC0GGtQnhBjlof3KPbQni4PjUH5sTRIe0cfmHsvF9PVCCUCMr5BNjdL5gGt1ieeJ1O8yA010MQ2fRw0xujJqT9P0",
+              "received": false
+            }
+          ],
+          "total_price": 80541,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb591c508c5d5eb31f6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

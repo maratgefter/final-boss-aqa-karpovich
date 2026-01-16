@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-DLiMhX9Qsfye8TvTEr09Wj1PTjU\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb431c508c5d5eb31167",
+        "email": "Damion.King-Abshire42@yahoo.com",
+        "name": "Terry Beahan",
+        "country": "Canada",
+        "city": "East Carolina",
+        "street": "Clarence Road",
+        "house": 16,
+        "flat": 134,
+        "phone": "+15326303811",
+        "createdOn": "2026-01-16T22:27:15.000Z",
+        "notes": "u10atCh46um8HvsuFh0qrMRuBnRvOZbpiLUuLd0piWk6Mq2o7ZreagaAgf7vRhhfsQcrV2B5jhYZT12Bj21zG5OYwQPRAzAarji9iunObLnsAPWnd5aSIaNdprO4ZuzdOVYuyhZYDnbYhP3I2h8mOKgkKMbZ7VO3vKEmnB7JBdOUJKjvDwfpVVSOlxHNRYaNdUWSGJ3aNOXVeZpI7HWVwKE8vvaNVALYUzrCMSsVw8yON5iRSNZDMD1mVi"
+      },
+      "products": [
+        {
+          "_id": "696abb441c508c5d5eb3118b",
+          "name": "Shoes43739",
+          "amount": 829,
+          "price": 5608,
+          "manufacturer": "Amazon",
+          "notes": "L7OktzkWHnQdYJb0ISzLtg9NSDs0bL4kjPDzsO9jPJMGEQJ97OdAT5i5GlDNegCi5mHzgwWcP9JOaE6W2AtLiZ7mayZF3Igg4mWgnyCLjwPqwkkwnZs02rwzFw9Zrc6CavqlX0vf3NYoxHOBsSNFWuzXnIYIzaC6jbTr5acePzdzVh5ObXLuVmM3rm3nH9SLL91L2XfYqMzoOrXtbhi5k097bZwf76PxMlY8W3e2KpGXwNiyZriqC6YWO3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5608,
+      "createdOn": "2026-01-16T22:27:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb431c508c5d5eb31167",
+          "products": [
+            {
+              "_id": "696abb441c508c5d5eb3118b",
+              "name": "Shoes43739",
+              "amount": 829,
+              "price": 5608,
+              "manufacturer": "Amazon",
+              "notes": "L7OktzkWHnQdYJb0ISzLtg9NSDs0bL4kjPDzsO9jPJMGEQJ97OdAT5i5GlDNegCi5mHzgwWcP9JOaE6W2AtLiZ7mayZF3Igg4mWgnyCLjwPqwkkwnZs02rwzFw9Zrc6CavqlX0vf3NYoxHOBsSNFWuzXnIYIzaC6jbTr5acePzdzVh5ObXLuVmM3rm3nH9SLL91L2XfYqMzoOrXtbhi5k097bZwf76PxMlY8W3e2KpGXwNiyZriqC6YWO3",
+              "received": false
+            }
+          ],
+          "total_price": 5608,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb461c508c5d5eb31340"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

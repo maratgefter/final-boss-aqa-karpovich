@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-nWbGLYVsNJbD+e84bzGYfcm0v4I\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb651c508c5d5eb326f5",
+        "email": "Amanda43@yahoo.com",
+        "name": "Doug Donnelly",
+        "country": "Canada",
+        "city": "West Mayefield",
+        "street": "Noemi Expressway",
+        "house": 22,
+        "flat": 227,
+        "phone": "+12526989287",
+        "createdOn": "2026-01-16T22:27:49.000Z",
+        "notes": "sOhk7km4qR1mDkCjO6lpBGQNgUVZCkkS40L0iA9umfHratciIiabA5PaHw2QC3LWVtZnsGwfGWXtfRGJC2jeMkTEDB6vSbpQDGGp0jJALWPW3xf4UjGOio9dKJ1ii51Hz3i68qBvvIS80wbx8YiqgeklxplGz4s0RnXYQn1C5aZLWgTdI4cC70YRqvJ2t2eFeJlv9tIXDMe3ERVKXbGyzZwib23hKvKMGVaH5X7jyj5Ie81ZuYWMJNpNLQ"
+      },
+      "products": [
+        {
+          "_id": "696abb651c508c5d5eb3271e",
+          "name": "Shoes65610",
+          "amount": 784,
+          "price": 74744,
+          "manufacturer": "Apple",
+          "notes": "z9Fs2aGNdDKLz5P4I94anGXuirJBwHGf6g3cjbAFs1o2MC4PV8xNzp48o9GPsmF8rSXZtorIYFJOZuNOENGisgJj1xR93UYq1DkNdRqxiDio20qdIClz9Tg6VuRBMJUo6eQMzxZ9u9WhfF0daBsORjnDC7dMEIuBJN7mp1HsVEhB0yyKQzkDgydPrc6bplLP0RXrznIyMuYuQGw0JZu3fvEop0xod18e2okRvuVRpDh6Ejutn0i8BVFSVD",
+          "received": false
+        },
+        {
+          "_id": "696abb661c508c5d5eb3274e",
+          "name": "Pants97089",
+          "amount": 60,
+          "price": 50489,
+          "manufacturer": "Amazon",
+          "notes": "6Zdv6Md0lVZSXR5Nj7BfJYNb463DApzbBxPtw9lwARxcXabDosLCKyVX8Vdohk8OtdbokytHze5mOg8aVXbjI0a0PjgRxN670cZRPi50nuCzWjSKfYuHZe5BfCCe7N8cX67dlS26ZzeL4gfUbuyDXFUiGlFK4FBkmB1bJAkEXNTcJqU4Y9hJHaq9R4HJIIUy0o1sd9XUy0BHvOAHhMkpB3fn2wj9ScnUqBVMiBGqs20hveP7GF3l4uwl2U",
+          "received": false
+        },
+        {
+          "_id": "696abb661c508c5d5eb3276f",
+          "name": "Sausages70717",
+          "amount": 56,
+          "price": 7429,
+          "manufacturer": "Amazon",
+          "notes": "aqUblnT1rUfLMkj7JD364itqWTP8qXntISEwMRrABbmf0MZoyQLrTMl7oJJfLMX42cNN0w8IhtICStRSOGGTH3bJJwedayqcr7qm991wUvitiliEE5RS1YcmZuuqu8qQ5WM04lOdCYwdRK2wU4JNzjibA6ezLWpFOm6dBV14BpE9Lj8XECkkPlJ7vCJwUpZ25xjgkEWx41ZfAmg0Qzux2Q6lLU4y4sP9ZKJbtRWQC6388HEHDtv9Evtfbi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 132662,
+      "createdOn": "2026-01-16T22:27:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb651c508c5d5eb326f5",
+          "products": [
+            {
+              "_id": "696abb651c508c5d5eb3271e",
+              "name": "Shoes65610",
+              "amount": 784,
+              "price": 74744,
+              "manufacturer": "Apple",
+              "notes": "z9Fs2aGNdDKLz5P4I94anGXuirJBwHGf6g3cjbAFs1o2MC4PV8xNzp48o9GPsmF8rSXZtorIYFJOZuNOENGisgJj1xR93UYq1DkNdRqxiDio20qdIClz9Tg6VuRBMJUo6eQMzxZ9u9WhfF0daBsORjnDC7dMEIuBJN7mp1HsVEhB0yyKQzkDgydPrc6bplLP0RXrznIyMuYuQGw0JZu3fvEop0xod18e2okRvuVRpDh6Ejutn0i8BVFSVD",
+              "received": false
+            },
+            {
+              "_id": "696abb661c508c5d5eb3274e",
+              "name": "Pants97089",
+              "amount": 60,
+              "price": 50489,
+              "manufacturer": "Amazon",
+              "notes": "6Zdv6Md0lVZSXR5Nj7BfJYNb463DApzbBxPtw9lwARxcXabDosLCKyVX8Vdohk8OtdbokytHze5mOg8aVXbjI0a0PjgRxN670cZRPi50nuCzWjSKfYuHZe5BfCCe7N8cX67dlS26ZzeL4gfUbuyDXFUiGlFK4FBkmB1bJAkEXNTcJqU4Y9hJHaq9R4HJIIUy0o1sd9XUy0BHvOAHhMkpB3fn2wj9ScnUqBVMiBGqs20hveP7GF3l4uwl2U",
+              "received": false
+            },
+            {
+              "_id": "696abb661c508c5d5eb3276f",
+              "name": "Sausages70717",
+              "amount": 56,
+              "price": 7429,
+              "manufacturer": "Amazon",
+              "notes": "aqUblnT1rUfLMkj7JD364itqWTP8qXntISEwMRrABbmf0MZoyQLrTMl7oJJfLMX42cNN0w8IhtICStRSOGGTH3bJJwedayqcr7qm991wUvitiliEE5RS1YcmZuuqu8qQ5WM04lOdCYwdRK2wU4JNzjibA6ezLWpFOm6dBV14BpE9Lj8XECkkPlJ7vCJwUpZ25xjgkEWx41ZfAmg0Qzux2Q6lLU4y4sP9ZKJbtRWQC6388HEHDtv9Evtfbi",
+              "received": false
+            }
+          ],
+          "total_price": 132662,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb671c508c5d5eb327b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

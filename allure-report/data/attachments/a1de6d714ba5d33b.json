@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:28:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-OwvxNtnZQPVssWAjjOW+bHarhEc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb751c508c5d5eb331b5",
+        "email": "Frida_Parker@yahoo.com",
+        "name": "Isac Kling",
+        "country": "Ukraine",
+        "city": "Folsom",
+        "street": "Newton Road",
+        "house": 50,
+        "flat": 518,
+        "phone": "+17246171704",
+        "createdOn": "2026-01-16T22:28:05.000Z",
+        "notes": "mt8mqR0293eG8C5eLQ3Fjqs6bwpPwgb0dXfLn3JnlKfJ7VcLM3NOTra1Z2qZmjuY3qepPHUmttmRzhmAzhdlyEWrKlDumwFQ7Q5BlUA3Slut8y4GxJyRxl7yp4FtK7tsyhXjMq9LHPkYpljetjSTqvPYqJg4OD8kdjaejobxajsmCznC3UsLvOKvLB0nK2kjrSX7dlzCFClrJN5Nlcbq0uNkfDyyDPV5AphxFO52OfH62wiSP4XbkP1mSv"
+      },
+      "products": [
+        {
+          "_id": "696abb781c508c5d5eb334d0",
+          "name": "Chair82097",
+          "amount": 200,
+          "price": 66930,
+          "manufacturer": "Xiaomi",
+          "notes": "ewPSUzQtwG5P5dRTKqG8l1hF9alAjizFKL3gN1PIakbpJbfTO7sMqq5KySx595EUexwaVgI41CLl0yy3WY8DHOS8qM0BUyAWW0ZdK52UU2oBv50iBMz3W14lElvPS1UTJ0JOFa8tqQ7t1e5tN6zRmZ8GrGS9ZsBVYV18KpAj3kz6baiwC59C2l7dm5iaZkxGlvlc28vjsSrdedmUqz4QDPQ8Trer4YUwc7G7K7XKQphUrowhpZrikIpic8",
+          "received": false
+        },
+        {
+          "_id": "696abb7e1c508c5d5eb33866",
+          "name": "Keyboard1072",
+          "amount": 553,
+          "price": 35556,
+          "manufacturer": "Xiaomi",
+          "notes": "pZn0EZ2g2wYDifChvZ99RhC4jk5qz8t6CGgDQNszGqgwpm8ZYxZh41zS9xusTtXc4vmrMBn2A9sOZLNb1d0TNznCqvzsdEe9D7pVM2z76WKDIC3ciyIcCIdhohp5jtDkJ2U3ottYShjC2AD4gVilXwnq77M6hgAcaVOJiCtNKcZX7hhE93UIuDej3bb2Naqx4eptgU3rNORDtpPzIxOuzpzIv9lQBN0XR23Fi0mutqlpkeq8tfoV1VJzoH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 102486,
+      "createdOn": "2026-01-16T22:28:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb751c508c5d5eb331b5",
+          "products": [
+            {
+              "_id": "696abb781c508c5d5eb334d0",
+              "name": "Chair82097",
+              "amount": 200,
+              "price": 66930,
+              "manufacturer": "Xiaomi",
+              "notes": "ewPSUzQtwG5P5dRTKqG8l1hF9alAjizFKL3gN1PIakbpJbfTO7sMqq5KySx595EUexwaVgI41CLl0yy3WY8DHOS8qM0BUyAWW0ZdK52UU2oBv50iBMz3W14lElvPS1UTJ0JOFa8tqQ7t1e5tN6zRmZ8GrGS9ZsBVYV18KpAj3kz6baiwC59C2l7dm5iaZkxGlvlc28vjsSrdedmUqz4QDPQ8Trer4YUwc7G7K7XKQphUrowhpZrikIpic8",
+              "received": false
+            },
+            {
+              "_id": "696abb7e1c508c5d5eb33866",
+              "name": "Keyboard1072",
+              "amount": 553,
+              "price": 35556,
+              "manufacturer": "Xiaomi",
+              "notes": "pZn0EZ2g2wYDifChvZ99RhC4jk5qz8t6CGgDQNszGqgwpm8ZYxZh41zS9xusTtXc4vmrMBn2A9sOZLNb1d0TNznCqvzsdEe9D7pVM2z76WKDIC3ciyIcCIdhohp5jtDkJ2U3ottYShjC2AD4gVilXwnq77M6hgAcaVOJiCtNKcZX7hhE93UIuDej3bb2Naqx4eptgU3rNORDtpPzIxOuzpzIv9lQBN0XR23Fi0mutqlpkeq8tfoV1VJzoH",
+              "received": false
+            }
+          ],
+          "total_price": 102486,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:28:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb7f1c508c5d5eb339cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

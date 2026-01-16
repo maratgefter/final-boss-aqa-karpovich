@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:28:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-BAZfh1J6d96q+vanuP3v3XoXmyg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb8e1c508c5d5eb342f5",
+        "email": "Darrion_McClure77@hotmail.com",
+        "name": "Shany Wiegand",
+        "country": "Great Britain",
+        "city": "Lake Luciemouth",
+        "street": "Elva Cliffs",
+        "house": 28,
+        "flat": 130,
+        "phone": "+12605236960",
+        "createdOn": "2026-01-16T22:28:30.000Z",
+        "notes": "T4e2nxVwXkIif5t7cRCx3QC9o4QP2hMuWBtwQ7mHyIbdvZJ7S02tKmnfacd66PUOfezlMBgHBZumz6MfFKY0delb0ChoFs95RMlkDk3uKNwJRD9ovkpSwBhkPSoajLdz7QW8joTMPhrtobcacypjhv6rYYyeLT1EU5THfhiApAPPWv3UZAqudtBDxmwSSKH2swFt8DKZtz9bOjyXapnbRxej9MLD8BV643RQBwnHXGBEkm7LUPRIkcx0YZ"
+      },
+      "products": [
+        {
+          "_id": "696abb8f1c508c5d5eb343c0",
+          "name": "Bike23251",
+          "amount": 584,
+          "price": 3575,
+          "manufacturer": "Tesla",
+          "notes": "alMLmMhES9DIpxrQha382AT7XhWQ03Bm8HeMe50QeKMJuBAUHUhrSDRfM9vZAqfA5WbeRjTl9d6mUGn6R5PsF33BtZ23wpd77ujY9E6zPBUkJvN3weqZp6GBYlzlnHYUbZUL7BKUecvgk5z06HEl3bA54Kar4G40vHCuTJTYrBH23a3hYBW6qfTGT9HKevbAOFWDOrHEf7PwQq1190n15bC9p9J3kG22wAx4rnwZjir34cB28LDMqQ42Qm",
+          "received": false
+        },
+        {
+          "_id": "696abb901c508c5d5eb343e3",
+          "name": "Mouse18550",
+          "amount": 507,
+          "price": 46227,
+          "manufacturer": "Xiaomi",
+          "notes": "fLwf6ldCFOvMssVUUrwLcIdy1It6dcYsDCyTeoJhDvmj5eBFq7WjvDMUGcb8F02Mwkb1Hu5zHqPXZnjLez9yG66w0gXsFoFjJQlzjJnj6UWdH8PSFsil27tDDZSun2jht4uFaPzuzMRzScaB8N5WdpW6HYwfDkmGRxJtUfb5NOV8dZSMQLKyIXxlDAF1px7r4MI8d4GZDTpcXbu4hV7Y7dHNmLHghG5paSiWkx1uRMhmQXuS40gZefP75L",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49802,
+      "createdOn": "2026-01-16T22:28:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb8e1c508c5d5eb342f5",
+          "products": [
+            {
+              "_id": "696abb8f1c508c5d5eb343c0",
+              "name": "Bike23251",
+              "amount": 584,
+              "price": 3575,
+              "manufacturer": "Tesla",
+              "notes": "alMLmMhES9DIpxrQha382AT7XhWQ03Bm8HeMe50QeKMJuBAUHUhrSDRfM9vZAqfA5WbeRjTl9d6mUGn6R5PsF33BtZ23wpd77ujY9E6zPBUkJvN3weqZp6GBYlzlnHYUbZUL7BKUecvgk5z06HEl3bA54Kar4G40vHCuTJTYrBH23a3hYBW6qfTGT9HKevbAOFWDOrHEf7PwQq1190n15bC9p9J3kG22wAx4rnwZjir34cB28LDMqQ42Qm",
+              "received": false
+            },
+            {
+              "_id": "696abb901c508c5d5eb343e3",
+              "name": "Mouse18550",
+              "amount": 507,
+              "price": 46227,
+              "manufacturer": "Xiaomi",
+              "notes": "fLwf6ldCFOvMssVUUrwLcIdy1It6dcYsDCyTeoJhDvmj5eBFq7WjvDMUGcb8F02Mwkb1Hu5zHqPXZnjLez9yG66w0gXsFoFjJQlzjJnj6UWdH8PSFsil27tDDZSun2jht4uFaPzuzMRzScaB8N5WdpW6HYwfDkmGRxJtUfb5NOV8dZSMQLKyIXxlDAF1px7r4MI8d4GZDTpcXbu4hV7Y7dHNmLHghG5paSiWkx1uRMhmQXuS40gZefP75L",
+              "received": false
+            }
+          ],
+          "total_price": 49802,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:28:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb941c508c5d5eb3479a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2665",
+    "etag": "W/\"a69-f44/mDB6ZXW2iIGBVaT58CVsaAY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb3a1c508c5d5eb30bdd",
+        "email": "Christine.Muller@hotmail.com",
+        "name": "Karlee Fritsch",
+        "country": "Ukraine",
+        "city": "Lake Sienna",
+        "street": "Kyler Fall",
+        "house": 15,
+        "flat": 198,
+        "phone": "+19194866468",
+        "createdOn": "2026-01-16T22:27:06.000Z",
+        "notes": "T2nTJ2wD0WLxgdZ7sOQuWZXHkV5MIEn1GmntYr9PTSLkYJ469Ky0KNwzoNB5rHWlAml1gi4FxXEtBw0bN62fkITE1P9BdvcIoQ9Z40oq6SwtbhdlZ2vcUsO4fGzG3sMEr53EqwFYdfOoDUdKaLAWcNfjhAjhspQ9Ps2YQbDmCwtFajmyc73sGZVAvTmi6MuAwmUQEIMGptvjrPvbhsRms07u5Su3BZoJ3E3MVbSfQ7kMwLaB3cwQCCiPNE"
+      },
+      "products": [
+        {
+          "_id": "696abb3b1c508c5d5eb30c2d",
+          "name": "Keyboard60421",
+          "amount": 887,
+          "price": 32199,
+          "manufacturer": "Apple",
+          "notes": "M9ajJ6gYGDpvzhgF1rnc296LjxRz5DH3cIWHwzjH4jASSmp3h2KHBOuJHWde0UoTzxlZTboOArqFnF0HjiBNkoQzoJRNqzzJLRusjGMPEZRDLKKMFgso4aH1FhRVXK2svxkH59htWklvzJhEMP9WAehjudXE3YOg1uKJVvKOayxZBYQv9jdBSWO08JHV04Vxu5qFRAkXJSaXddTXcU9QsPkncqEXDVX5MaJlNIPOmheqdDItn06zPyqYFj",
+          "received": false
+        },
+        {
+          "_id": "696abb3c1c508c5d5eb30ccc",
+          "name": "Chips48015",
+          "amount": 693,
+          "price": 47940,
+          "manufacturer": "Microsoft",
+          "notes": "PwbfbIwnaWM8rSodUrEFurTJPFz6BSEubIOlqdSVvKBXSP9ldwdUwFQI8IqBAaEhCkMrZ8yncJrASUn9de2uAwi1oW6XyWykudlLEvNtDPVSLVO8JcrYZrTIsNy2BjOVZxXpkE7iB4fHIQvDIzGphJf30MwyNhAP83LyGiII2QS1LSwNafn7nYV8QkFxX4VVZYQ1agIoEh1LFuSdtm5gAjZS31Bxy1lnk7y8CoyhplavJsI7c5Acvg2tAz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80139,
+      "createdOn": "2026-01-16T22:27:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb3a1c508c5d5eb30bdd",
+          "products": [
+            {
+              "_id": "696abb3b1c508c5d5eb30c2d",
+              "name": "Keyboard60421",
+              "amount": 887,
+              "price": 32199,
+              "manufacturer": "Apple",
+              "notes": "M9ajJ6gYGDpvzhgF1rnc296LjxRz5DH3cIWHwzjH4jASSmp3h2KHBOuJHWde0UoTzxlZTboOArqFnF0HjiBNkoQzoJRNqzzJLRusjGMPEZRDLKKMFgso4aH1FhRVXK2svxkH59htWklvzJhEMP9WAehjudXE3YOg1uKJVvKOayxZBYQv9jdBSWO08JHV04Vxu5qFRAkXJSaXddTXcU9QsPkncqEXDVX5MaJlNIPOmheqdDItn06zPyqYFj",
+              "received": false
+            },
+            {
+              "_id": "696abb3c1c508c5d5eb30ccc",
+              "name": "Chips48015",
+              "amount": 693,
+              "price": 47940,
+              "manufacturer": "Microsoft",
+              "notes": "PwbfbIwnaWM8rSodUrEFurTJPFz6BSEubIOlqdSVvKBXSP9ldwdUwFQI8IqBAaEhCkMrZ8yncJrASUn9de2uAwi1oW6XyWykudlLEvNtDPVSLVO8JcrYZrTIsNy2BjOVZxXpkE7iB4fHIQvDIzGphJf30MwyNhAP83LyGiII2QS1LSwNafn7nYV8QkFxX4VVZYQ1agIoEh1LFuSdtm5gAjZS31Bxy1lnk7y8CoyhplavJsI7c5Acvg2tAz",
+              "received": false
+            }
+          ],
+          "total_price": 80139,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb3e1c508c5d5eb30e01"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

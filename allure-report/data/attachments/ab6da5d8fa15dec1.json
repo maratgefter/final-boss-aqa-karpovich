@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-vqRerxfQWJZaPs7VnGdwheejNdc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb4d1c508c5d5eb317ce",
+        "email": "Ransom_Mayert46@hotmail.com",
+        "name": "Judy Cartwright",
+        "country": "Belarus",
+        "city": "West Concepcion",
+        "street": "Osbaldo Pike",
+        "house": 7,
+        "flat": 619,
+        "phone": "+13016066148",
+        "createdOn": "2026-01-16T22:27:25.000Z",
+        "notes": "W5bExNR99rhKuvyXa0HG8AEUjsdPHTr4kGTvxrfh5E9XXFAEV5NOmjUyNGaTfQByBakEWVdjRoXr5sUqaDMlSv9T41rIXKFkjns03sohguUWPAiZBTbUBPHnngd9mvGxBlDYVXp8LinkGOreunf7qxR5BoRlC93XJim6OF2blKzjUdZrj3DpRx2aHJnyUExOcJYsws3nfa8CtkhTyOCab4os49ywNO94g0JErATZkvgLbF2HyivR5f1mWl"
+      },
+      "products": [
+        {
+          "_id": "696abb4e1c508c5d5eb31903",
+          "name": "Keyboard70430",
+          "amount": 747,
+          "price": 65991,
+          "manufacturer": "Amazon",
+          "notes": "RFh7Seuai6NtJQZ6uZzg9SGT1zwIjSZdCvjV253eHBumMMLlNRjuXOAblqzVGNWYf7Nt3e7F8KrANmCFHvPAUMXahUOAIcIqQXByj6iLktrl0S9fHJEt8fuhW60FdpcnvzFk898lvRqPWTobMJyGKb2OcS9gsOGITNA1pNg6f2R20IlALS50yPsgCEA2lbaJde44hsCyGs2znFG1qaFY20FbBOZv84tc4nc9wbcP3xFJRRkDe1uhGGZhNe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65991,
+      "createdOn": "2026-01-16T22:27:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb4d1c508c5d5eb317ce",
+          "products": [
+            {
+              "_id": "696abb4e1c508c5d5eb31903",
+              "name": "Keyboard70430",
+              "amount": 747,
+              "price": 65991,
+              "manufacturer": "Amazon",
+              "notes": "RFh7Seuai6NtJQZ6uZzg9SGT1zwIjSZdCvjV253eHBumMMLlNRjuXOAblqzVGNWYf7Nt3e7F8KrANmCFHvPAUMXahUOAIcIqQXByj6iLktrl0S9fHJEt8fuhW60FdpcnvzFk898lvRqPWTobMJyGKb2OcS9gsOGITNA1pNg6f2R20IlALS50yPsgCEA2lbaJde44hsCyGs2znFG1qaFY20FbBOZv84tc4nc9wbcP3xFJRRkDe1uhGGZhNe",
+              "received": false
+            }
+          ],
+          "total_price": 65991,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb521c508c5d5eb31b5e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

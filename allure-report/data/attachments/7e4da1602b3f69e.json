@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-zcBXJdT8Iqo0g7uBgjZ2FV1u954\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb491c508c5d5eb3150e",
+        "email": "Dorris.McGlynn63@gmail.com",
+        "name": "Reese Harber",
+        "country": "Belarus",
+        "city": "Fort Erling",
+        "street": "Elyse Lights",
+        "house": 39,
+        "flat": 728,
+        "phone": "+18876259264",
+        "createdOn": "2026-01-16T22:27:21.000Z",
+        "notes": "VsblvDwGIHziHjPugfXxu9Ixujt7DJeSHMVI5f36wfpierhGWuNzJR079wQSKCgaQgoVG7LJN5d5gx9GTXjBZAi3HEIhGdrQZEUzS1VAoSr8mVBPLbqTIYfpUfNglKF8TaImqQA4ZipaoXDg4sKTVgdh4I6HIPeuyxaVCBckczM6qLX2QN4cgikC3jH5VwZaDtLnmIFC7fYU7Cov5ZyInZiK2difh8JNuOQLLe0H46jq39j0lpAuY3EiPA"
+      },
+      "products": [
+        {
+          "_id": "696abb4a1c508c5d5eb315be",
+          "name": "Keyboard27480",
+          "amount": 926,
+          "price": 30849,
+          "manufacturer": "Sony",
+          "notes": "mfKEvybGtoN7hxfHErdDmIN703GPddXpUtpF211p3MW40Fw531uMVRbw4HbgdcjxCC49s8q3hOFIxFXHbq94XhNyAfN5vyfCrWNs7Z19l5ez1nutLKReSzFhB1c6snexC2UQu4An4wuqAgVZ7N0N7FWsSqbd8Q4u3TT8RJNAzFenktpTE7Rjxol9rcvccrBWJg3wRIZ5oCdPECZpauf9gt8GQOQFQTd8FossizxNHAsGBdIMkAuHaMHn8b",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30849,
+      "createdOn": "2026-01-16T22:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb491c508c5d5eb3150e",
+          "products": [
+            {
+              "_id": "696abb4a1c508c5d5eb315be",
+              "name": "Keyboard27480",
+              "amount": 926,
+              "price": 30849,
+              "manufacturer": "Sony",
+              "notes": "mfKEvybGtoN7hxfHErdDmIN703GPddXpUtpF211p3MW40Fw531uMVRbw4HbgdcjxCC49s8q3hOFIxFXHbq94XhNyAfN5vyfCrWNs7Z19l5ez1nutLKReSzFhB1c6snexC2UQu4An4wuqAgVZ7N0N7FWsSqbd8Q4u3TT8RJNAzFenktpTE7Rjxol9rcvccrBWJg3wRIZ5oCdPECZpauf9gt8GQOQFQTd8FossizxNHAsGBdIMkAuHaMHn8b",
+              "received": false
+            }
+          ],
+          "total_price": 30849,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb4b1c508c5d5eb3167b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

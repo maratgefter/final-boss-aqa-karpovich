@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-Gt+A9XRLz2BpQTn3tWSaWU3Q7Pc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb491c508c5d5eb31513",
+        "email": "Karlee_Jakubowski-Boehm95@gmail.com",
+        "name": "Elliot Ledner",
+        "country": "Ukraine",
+        "city": "Cadenport",
+        "street": "Moen Pike",
+        "house": 6,
+        "flat": 388,
+        "phone": "+12995169705",
+        "createdOn": "2026-01-16T22:27:21.000Z",
+        "notes": "SPMrn1FdX8H1u2HIL1AFq404cjOESit2KimLWDEUqrz2ATpMJ3XI7a6QgIEhglWvH4NOTrufkLZBuY3trNTcPZmYNMabMHzMc9DXB6VYEWXL0jyPyh8Ftgn96xTLDutJrVZznlZFzhuVD2oIYQpodO4zDTha0wwrYCGRtXwsv1ReYaYsYjxaXs8aNAWjH5XfyDKX29ShbjiOiqP0FaJANy2lvPcTIRsKLKqWjt80JNYZBSqnKtORPEdBy2"
+      },
+      "products": [
+        {
+          "_id": "696abb4a1c508c5d5eb315c0",
+          "name": "Soap18327",
+          "amount": 397,
+          "price": 76551,
+          "manufacturer": "Tesla",
+          "notes": "xUYN9Bjwr6yOj1xeSOfKDRKbZnrsKgJNQFmNwZLsCPVN1lYdjzsHn7nNSFHT9qZtpiBU2DPE057BGwTBILnmQhofjuV1huVQkl09EmNF8aUgF42S0zJl3dmsPbXQIypelweRFNUA9PXxmwX4zKstgofQ4IAgliEllGlTZVhlIsJU1bZWRlYtZREXIAD53pcEaHSYpGye3ixgq5SdIBMaHTDEXW45gX3PVnuZfpiYoJ57PQ73VWFIXWNgUL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76551,
+      "createdOn": "2026-01-16T22:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb491c508c5d5eb31513",
+          "products": [
+            {
+              "_id": "696abb4a1c508c5d5eb315c0",
+              "name": "Soap18327",
+              "amount": 397,
+              "price": 76551,
+              "manufacturer": "Tesla",
+              "notes": "xUYN9Bjwr6yOj1xeSOfKDRKbZnrsKgJNQFmNwZLsCPVN1lYdjzsHn7nNSFHT9qZtpiBU2DPE057BGwTBILnmQhofjuV1huVQkl09EmNF8aUgF42S0zJl3dmsPbXQIypelweRFNUA9PXxmwX4zKstgofQ4IAgliEllGlTZVhlIsJU1bZWRlYtZREXIAD53pcEaHSYpGye3ixgq5SdIBMaHTDEXW45gX3PVnuZfpiYoJ57PQ73VWFIXWNgUL",
+              "received": false
+            }
+          ],
+          "total_price": 76551,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696abb4b1c508c5d5eb31679"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

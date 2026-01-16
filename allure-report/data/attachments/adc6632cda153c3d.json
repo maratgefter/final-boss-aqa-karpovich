@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Fri, 16 Jan 2026 22:27:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3866",
+    "etag": "W/\"f1a-tYREaHAYSDQku9DqFeXP1mgzV68\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696abb391c508c5d5eb30b8b",
+      "status": "Draft",
+      "customer": {
+        "_id": "696abb391c508c5d5eb30b43",
+        "email": "Jefferey.Reichel51@hotmail.com",
+        "name": "Fermin Rippin",
+        "country": "USA",
+        "city": "Port Hiram",
+        "street": "Aufderhar Views",
+        "house": 17,
+        "flat": 979,
+        "phone": "+18842412855",
+        "createdOn": "2026-01-16T22:27:05.000Z",
+        "notes": "OiEP8DdNqCcviYSSqD0vhyEUO7vskWjxSWpBMvj3z92ZFHbUWAde58xXO1DjIVHyKSgRZRet7aGE5nhgvujDrWwyAG5yNj9WrGV7VsI4DOfvu3KDOTH1tfEOkdsLlI6rrsnAdMcDknPF19AYWGHj7NiIWQZiEkSi5U7hR0VObt6TcckcTBiUAvfoh78wiyMclJUZJ21awUCd0e9NpNasjIrE3So7IJDUrZIecW5LQ2zpbSQaJNJRdHO0xn"
+      },
+      "products": [
+        {
+          "_id": "696abb391c508c5d5eb30b66",
+          "name": "Fish84086",
+          "amount": 362,
+          "price": 94423,
+          "manufacturer": "Google",
+          "notes": "5pXyVLd8mSxaRNJttoB1jp9f02mej0pSRtFfJoWhOv1mOE4GhVqJR7OI8TsC0TyyQauFhx56ijk04PUnGRxGkTVBuFGimQtt0oCkI67LPnPKBr28UGqGK6JPMDQ81jUCPoqNoOlPPPdTNGfY9HeZJwccOE9iy0gi15owxYme342sMBiGIwvlALsc6GODjUS7vhMKQLxzNsGg6PONMFhcdIpwdx1kU6p8JRn1ZLRHPzE4TDlYQocf31E2gr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94423,
+      "createdOn": "2026-01-16T22:27:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696abb391c508c5d5eb30b43",
+          "products": [
+            {
+              "_id": "696abb391c508c5d5eb30b66",
+              "name": "Fish84086",
+              "amount": 362,
+              "price": 94423,
+              "manufacturer": "Google",
+              "notes": "5pXyVLd8mSxaRNJttoB1jp9f02mej0pSRtFfJoWhOv1mOE4GhVqJR7OI8TsC0TyyQauFhx56ijk04PUnGRxGkTVBuFGimQtt0oCkI67LPnPKBr28UGqGK6JPMDQ81jUCPoqNoOlPPPdTNGfY9HeZJwccOE9iy0gi15owxYme342sMBiGIwvlALsc6GODjUS7vhMKQLxzNsGg6PONMFhcdIpwdx1kU6p8JRn1ZLRHPzE4TDlYQocf31E2gr",
+              "received": false
+            }
+          ],
+          "total_price": 94423,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:06.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696abb391c508c5d5eb30b43",
+          "products": [
+            {
+              "_id": "696abb391c508c5d5eb30b66",
+              "name": "Fish84086",
+              "amount": 362,
+              "price": 94423,
+              "manufacturer": "Google",
+              "notes": "5pXyVLd8mSxaRNJttoB1jp9f02mej0pSRtFfJoWhOv1mOE4GhVqJR7OI8TsC0TyyQauFhx56ijk04PUnGRxGkTVBuFGimQtt0oCkI67LPnPKBr28UGqGK6JPMDQ81jUCPoqNoOlPPPdTNGfY9HeZJwccOE9iy0gi15owxYme342sMBiGIwvlALsc6GODjUS7vhMKQLxzNsGg6PONMFhcdIpwdx1kU6p8JRn1ZLRHPzE4TDlYQocf31E2gr",
+              "received": false
+            }
+          ],
+          "total_price": 94423,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:06.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696abb391c508c5d5eb30b43",
+          "products": [
+            {
+              "_id": "696abb391c508c5d5eb30b66",
+              "name": "Fish84086",
+              "amount": 362,
+              "price": 94423,
+              "manufacturer": "Google",
+              "notes": "5pXyVLd8mSxaRNJttoB1jp9f02mej0pSRtFfJoWhOv1mOE4GhVqJR7OI8TsC0TyyQauFhx56ijk04PUnGRxGkTVBuFGimQtt0oCkI67LPnPKBr28UGqGK6JPMDQ81jUCPoqNoOlPPPdTNGfY9HeZJwccOE9iy0gi15owxYme342sMBiGIwvlALsc6GODjUS7vhMKQLxzNsGg6PONMFhcdIpwdx1kU6p8JRn1ZLRHPzE4TDlYQocf31E2gr",
+              "received": false
+            }
+          ],
+          "total_price": 94423,
+          "delivery": null,
+          "changedOn": "2026-01-16T22:27:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
