@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:24:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-FMiCafDxUIc5yMFGguw2HyGunPQ\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c381c508c5d5eb3c329",
+        "email": "Brandy60@yahoo.com",
+        "name": "Alycia Franey",
+        "country": "Germany",
+        "city": "Doylefield",
+        "street": "Jayme Walks",
+        "house": 23,
+        "flat": 361,
+        "phone": "+12198430740",
+        "createdOn": "2026-01-17T22:24:56.000Z",
+        "notes": "g2AK2ZaMBeDDOFtwai08vnyks6UYPWgAZhAiUMA6YIGkJocRUqqDxUvBzqxcX6PeAl4oEMoNeBn3mGWJflwA8mCVSwMCbYp9bkku3o8r4eUQaCxv4IlPQwbCxmiW3Ttmh60RaZVTB6pcpxXOdMv3jsQJvJ0zAko7XByNM6UN9Z9KHOMNfWOjJttgNYjdrqDrE4p4HlfDqSQzbbPiLYSpL6DSe4PFtPV72nnjyuM0NInalIjUKj9sr9fNuF"
+      },
+      "products": [
+        {
+          "_id": "696c0c381c508c5d5eb3c33a",
+          "name": "Sausages88235",
+          "amount": 432,
+          "price": 86490,
+          "manufacturer": "Amazon",
+          "notes": "8XCPKlxqKE6ckEVEw5qBTBAQz2CTxuIlloguxbz7BzBCuD8Ekf8B2tgIoyC0HDdqHoMeoGNyNz0xD1JNaBlu8LSqBYqhljPzV6Vj43zn0xGq09C3mo2EDHeVaSTz2Lwxm7iUGOQIpcd4YIVujizW18QS1Ad7M35f3mMaz75QbTTV1C7e8NPSMk1b70fEJ9hk4BiYcyqIMyTrPFxxlZZf0DjGykqhWSxZa2mJSMGqaSynmeBk4L6KpFExWl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86490,
+      "createdOn": "2026-01-17T22:24:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c381c508c5d5eb3c329",
+          "products": [
+            {
+              "_id": "696c0c381c508c5d5eb3c33a",
+              "name": "Sausages88235",
+              "amount": 432,
+              "price": 86490,
+              "manufacturer": "Amazon",
+              "notes": "8XCPKlxqKE6ckEVEw5qBTBAQz2CTxuIlloguxbz7BzBCuD8Ekf8B2tgIoyC0HDdqHoMeoGNyNz0xD1JNaBlu8LSqBYqhljPzV6Vj43zn0xGq09C3mo2EDHeVaSTz2Lwxm7iUGOQIpcd4YIVujizW18QS1Ad7M35f3mMaz75QbTTV1C7e8NPSMk1b70fEJ9hk4BiYcyqIMyTrPFxxlZZf0DjGykqhWSxZa2mJSMGqaSynmeBk4L6KpFExWl",
+              "received": false
+            }
+          ],
+          "total_price": 86490,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:24:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c391c508c5d5eb3c40d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

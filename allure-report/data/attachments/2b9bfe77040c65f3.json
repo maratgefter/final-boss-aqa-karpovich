@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-tCcOst89hiWRY7hB+8otxLOPMZc\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c551c508c5d5eb3d69e",
+        "email": "Camille.Pfannerstill@hotmail.com",
+        "name": "Herta Johnson",
+        "country": "France",
+        "city": "Hahnberg",
+        "street": "White Ford",
+        "house": 50,
+        "flat": 55,
+        "phone": "+18552216381",
+        "createdOn": "2026-01-17T22:25:25.000Z",
+        "notes": "i9k9Oh8UgNojH2kDTpM2unXuvY2h3OQexBh5fB5wDzAsNEwnpFWdaVPeRdJ3BGSxmCp34ZGgumwYeOOxMpGnVJkRAWC9IkeCAnqj3xxlTIl10RvtJnEwcxsE2Wjd8ztT7gfGlLC2IaIQi2hau9fDqIgelHQLg2asqduidAeLSfH1Dr9CSd8Ll9TpVolFcVskjTTsrdlT6r4ddneSd7nQXilnYR4MjD8XgnJkTKolJMjarQxzf1HXqOvFWz"
+      },
+      "products": [
+        {
+          "_id": "696c0c561c508c5d5eb3d6d5",
+          "name": "Chicken71477",
+          "amount": 835,
+          "price": 24712,
+          "manufacturer": "Tesla",
+          "notes": "zoGYR3egQzc9npBcSBd5IowZ8vEQHvRgtboZbFX4SECcj05mIxlOz0oHFfsSSPz5oHHP2LBBOu78FzOutmO5lD5x9U4JurHuMMSVto0hSRvtxhkrJqI87TBdDGgFbAZ1AN0Nx85MPCGC0lcYEfOqUBrlAPXDR2Bm5YpvUr26TqTKpdCJzF4FXrM6TOJXFHib1f53mrWfe5GqVXA7BMCfGdUSkixrKOimgXG7Kb8RH2dwuKtSY03goxNotI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24712,
+      "createdOn": "2026-01-17T22:25:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c551c508c5d5eb3d69e",
+          "products": [
+            {
+              "_id": "696c0c561c508c5d5eb3d6d5",
+              "name": "Chicken71477",
+              "amount": 835,
+              "price": 24712,
+              "manufacturer": "Tesla",
+              "notes": "zoGYR3egQzc9npBcSBd5IowZ8vEQHvRgtboZbFX4SECcj05mIxlOz0oHFfsSSPz5oHHP2LBBOu78FzOutmO5lD5x9U4JurHuMMSVto0hSRvtxhkrJqI87TBdDGgFbAZ1AN0Nx85MPCGC0lcYEfOqUBrlAPXDR2Bm5YpvUr26TqTKpdCJzF4FXrM6TOJXFHib1f53mrWfe5GqVXA7BMCfGdUSkixrKOimgXG7Kb8RH2dwuKtSY03goxNotI",
+              "received": false
+            }
+          ],
+          "total_price": 24712,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c561c508c5d5eb3d704"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

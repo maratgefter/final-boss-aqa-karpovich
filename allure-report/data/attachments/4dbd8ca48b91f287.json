@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4095",
+    "etag": "W/\"fff-egjWBXMkC0TdggZJ3y6UsfLpvpM\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696c0c651c508c5d5eb3dfe2",
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c641c508c5d5eb3df7b",
+        "email": "Ramiro76@hotmail.com",
+        "name": "Cielo Rohan",
+        "country": "Canada",
+        "city": "Bartonfort",
+        "street": "Margret Hollow",
+        "house": 37,
+        "flat": 260,
+        "phone": "+18418211708",
+        "createdOn": "2026-01-17T22:25:40.000Z",
+        "notes": "NGPiFC7ay1lmoJo0PIk0p9fq16O6PAMiiM7uS0hqLf6gZBMcJfjJne5X5jYLd6bq9TDhqqn5Dv4KBluA3g7gdc1ysBzp1UtqWMxodZ8CXy2l8hx4N9Hld56VbWzPXQUi8LFd4OpDLO9dsLmB75euh1vGEh7bp0Nls9nRtNiiLW7cPVO89hLtdDXw3jlSbS0KcSOdx6HGsb5WP58V0RgG2lAwASt3jZxYCCKaHtywyENqks4fvgcO9mgLGm"
+      },
+      "products": [
+        {
+          "_id": "696c0c641c508c5d5eb3df94",
+          "name": "Shirt72904",
+          "amount": 405,
+          "price": 9818,
+          "manufacturer": "Xiaomi",
+          "notes": "f05w4Wg32Vi53qJPllc5Q1932ucXeRaTYRIPAQgcuL7JNFsOFZdIbcOBWZmQCDutcvf5OJJ0nySGDQhpNCenME3tGU81oA5KXY9psE5SfSXUY3rWfqMF6aiuPv0IyDUa8zhRJcM9nOIyPOkMEL1oLHH8Ft5MaqEAyV2sHxDnaDEpMdOwU25nj9UXJjLo61T6JFEFQT79wD5TdxVQhKNkDhNxhYWI6TyigWq2llYs2me9AoV8qYvTnAszFo",
+          "received": false
+        },
+        {
+          "_id": "696c0c651c508c5d5eb3dfb6",
+          "name": "Fish23466",
+          "amount": 706,
+          "price": 97207,
+          "manufacturer": "Google",
+          "notes": "mQJp2jYrfOhIMAEYo7FE4RymyiFhKSjKmlYx9S09FMVnNFHpmHESrm4OzFAdyzPn0iSoU7MActEKN7FB1EU3BpnhZ7fsMjfUxrSl1kZ3jRJYSN6aL8tSR074oiP50JQGrSKePXszC7WIiR05scYm9aBu4LCCfHKXMpVkkhAXcGosxuVSYvAgMBFbg2Cj0HK7oHhaM9J6cZWvxZkFm3x6y2hAmFbjc6Jebwk6WZDncRDSDaWOYtLkZWevLB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Bartonfort",
+          "street": "Margret Hollow",
+          "house": 37,
+          "flat": 260
+        },
+        "finalDate": "2026-01-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 107025,
+      "createdOn": "2026-01-17T22:25:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c641c508c5d5eb3df7b",
+          "products": [
+            {
+              "_id": "696c0c641c508c5d5eb3df94",
+              "name": "Shirt72904",
+              "amount": 405,
+              "price": 9818,
+              "manufacturer": "Xiaomi",
+              "notes": "f05w4Wg32Vi53qJPllc5Q1932ucXeRaTYRIPAQgcuL7JNFsOFZdIbcOBWZmQCDutcvf5OJJ0nySGDQhpNCenME3tGU81oA5KXY9psE5SfSXUY3rWfqMF6aiuPv0IyDUa8zhRJcM9nOIyPOkMEL1oLHH8Ft5MaqEAyV2sHxDnaDEpMdOwU25nj9UXJjLo61T6JFEFQT79wD5TdxVQhKNkDhNxhYWI6TyigWq2llYs2me9AoV8qYvTnAszFo",
+              "received": false
+            },
+            {
+              "_id": "696c0c651c508c5d5eb3dfb6",
+              "name": "Fish23466",
+              "amount": 706,
+              "price": 97207,
+              "manufacturer": "Google",
+              "notes": "mQJp2jYrfOhIMAEYo7FE4RymyiFhKSjKmlYx9S09FMVnNFHpmHESrm4OzFAdyzPn0iSoU7MActEKN7FB1EU3BpnhZ7fsMjfUxrSl1kZ3jRJYSN6aL8tSR074oiP50JQGrSKePXszC7WIiR05scYm9aBu4LCCfHKXMpVkkhAXcGosxuVSYvAgMBFbg2Cj0HK7oHhaM9J6cZWvxZkFm3x6y2hAmFbjc6Jebwk6WZDncRDSDaWOYtLkZWevLB",
+              "received": false
+            }
+          ],
+          "total_price": 107025,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bartonfort",
+              "street": "Margret Hollow",
+              "house": 37,
+              "flat": 260
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-17T22:25:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696c0c641c508c5d5eb3df7b",
+          "products": [
+            {
+              "_id": "696c0c641c508c5d5eb3df94",
+              "name": "Shirt72904",
+              "amount": 405,
+              "price": 9818,
+              "manufacturer": "Xiaomi",
+              "notes": "f05w4Wg32Vi53qJPllc5Q1932ucXeRaTYRIPAQgcuL7JNFsOFZdIbcOBWZmQCDutcvf5OJJ0nySGDQhpNCenME3tGU81oA5KXY9psE5SfSXUY3rWfqMF6aiuPv0IyDUa8zhRJcM9nOIyPOkMEL1oLHH8Ft5MaqEAyV2sHxDnaDEpMdOwU25nj9UXJjLo61T6JFEFQT79wD5TdxVQhKNkDhNxhYWI6TyigWq2llYs2me9AoV8qYvTnAszFo",
+              "received": false
+            },
+            {
+              "_id": "696c0c651c508c5d5eb3dfb6",
+              "name": "Fish23466",
+              "amount": 706,
+              "price": 97207,
+              "manufacturer": "Google",
+              "notes": "mQJp2jYrfOhIMAEYo7FE4RymyiFhKSjKmlYx9S09FMVnNFHpmHESrm4OzFAdyzPn0iSoU7MActEKN7FB1EU3BpnhZ7fsMjfUxrSl1kZ3jRJYSN6aL8tSR074oiP50JQGrSKePXszC7WIiR05scYm9aBu4LCCfHKXMpVkkhAXcGosxuVSYvAgMBFbg2Cj0HK7oHhaM9J6cZWvxZkFm3x6y2hAmFbjc6Jebwk6WZDncRDSDaWOYtLkZWevLB",
+              "received": false
+            }
+          ],
+          "total_price": 107025,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

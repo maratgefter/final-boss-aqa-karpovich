@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:24:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2636",
+    "etag": "W/\"a4c-ftwJ9ASOgVRfUgsFVrJSrE6jgu8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c321c508c5d5eb3bfc7",
+        "email": "Antwon_OHara@hotmail.com",
+        "name": "Westley Boyer",
+        "country": "Canada",
+        "city": "Elk Grove",
+        "street": "Heller Light",
+        "house": 3,
+        "flat": 389,
+        "phone": "+12312487462",
+        "createdOn": "2026-01-17T22:24:50.000Z",
+        "notes": "qhCJs4pFOhLjT8LvgqGeduCM3DtFHVil8fMh0uKTKAQWQKs16q4Hj9qKi5aXwP4XSZabn7GfTG7TfLaDBAqujRDiVcGLrS3pAOfXeXEQ4ZxTmKWWXu28bmUeasp3K6obkSRMoLeCqnJqnCV2n218ZSnq7ahfuzI0AIhhAnR1zEhscZUxY9ppUVMYl4vXBRhI2yR15ELetijBSRUXVnQ5avVezUarJOj9xNRpYRye4XllTyb3KYQxWmxzzy"
+      },
+      "products": [
+        {
+          "_id": "696c0c331c508c5d5eb3c085",
+          "name": "Tuna17235",
+          "amount": 415,
+          "price": 2150,
+          "manufacturer": "Amazon",
+          "notes": "DJgZmX3t1L2STBTBVcSd42FDboqIxtVHqpMHHHqwF0Bd9bUH2YA0nRzOXiGbvxwQBfVuLgEGv66LYOiIymcNz1zAVm2URcrCD3U4SAdtkvGiYiV7JRZSmv6Y7mGGICj1ZaveTM29Ug57lvChpz3i1tUK9m6YntCoU4ncvFLuidKHo2mMpVcN5sWS078NEqVoFOtbwuWZiymmgIoC3tWV2vWl1IlrssE3UUh12TNNcQA7dcjongNLNFgD7G",
+          "received": false
+        },
+        {
+          "_id": "696c0c331c508c5d5eb3c0a1",
+          "name": "Car46850",
+          "amount": 228,
+          "price": 56460,
+          "manufacturer": "Sony",
+          "notes": "2wz6MWTSREXBD1SMufhfdqtYm4uaomh8m8fyBFfEezi7Li6SRH6dNki0P4xIR1tbeqvLgJief1GzYQoDOKRMuOHEHFVBDVuEgbtNaL1GyNx5mLnilR4JFgpcjes1gyAreqdnngzuXlr4MAJLnuMpiiBBsHyBPJyNVY1EBKAyFfUMZ7tZbWSCQSBg7ouBHHbDjvKVZLVgdiTZtF3GTldpy07g9elsRHTtJsWWZSHbpKxIU601cYX5cVivjO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58610,
+      "createdOn": "2026-01-17T22:24:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c321c508c5d5eb3bfc7",
+          "products": [
+            {
+              "_id": "696c0c331c508c5d5eb3c085",
+              "name": "Tuna17235",
+              "amount": 415,
+              "price": 2150,
+              "manufacturer": "Amazon",
+              "notes": "DJgZmX3t1L2STBTBVcSd42FDboqIxtVHqpMHHHqwF0Bd9bUH2YA0nRzOXiGbvxwQBfVuLgEGv66LYOiIymcNz1zAVm2URcrCD3U4SAdtkvGiYiV7JRZSmv6Y7mGGICj1ZaveTM29Ug57lvChpz3i1tUK9m6YntCoU4ncvFLuidKHo2mMpVcN5sWS078NEqVoFOtbwuWZiymmgIoC3tWV2vWl1IlrssE3UUh12TNNcQA7dcjongNLNFgD7G",
+              "received": false
+            },
+            {
+              "_id": "696c0c331c508c5d5eb3c0a1",
+              "name": "Car46850",
+              "amount": 228,
+              "price": 56460,
+              "manufacturer": "Sony",
+              "notes": "2wz6MWTSREXBD1SMufhfdqtYm4uaomh8m8fyBFfEezi7Li6SRH6dNki0P4xIR1tbeqvLgJief1GzYQoDOKRMuOHEHFVBDVuEgbtNaL1GyNx5mLnilR4JFgpcjes1gyAreqdnngzuXlr4MAJLnuMpiiBBsHyBPJyNVY1EBKAyFfUMZ7tZbWSCQSBg7ouBHHbDjvKVZLVgdiTZtF3GTldpy07g9elsRHTtJsWWZSHbpKxIU601cYX5cVivjO",
+              "received": false
+            }
+          ],
+          "total_price": 58610,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:24:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c341c508c5d5eb3c0d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

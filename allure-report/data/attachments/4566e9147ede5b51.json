@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3850",
+    "etag": "W/\"f0a-SUTnz2ypMdBCu73B7fyB4bkHrBI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696c0c561c508c5d5eb3d6d7",
+      "status": "In Process",
+      "customer": {
+        "_id": "696c0c551c508c5d5eb3d670",
+        "email": "Alicia47@gmail.com",
+        "name": "Sienna Schoen",
+        "country": "France",
+        "city": "Nashboro",
+        "street": "Dark Lane",
+        "house": 17,
+        "flat": 170,
+        "phone": "+19783278080",
+        "createdOn": "2026-01-17T22:25:25.000Z",
+        "notes": "lpxd1FOLcDCCm1SIKyHKE7mU4g1Ow7mUauecCw17WccTg9JzEcyVEqIeZu8ocwEiFhMBQpR0Z2QJ1PYhewD4WpdRrC8VFnq67YFBQBRxWZQkaDWntfyy8aPAshVL1beve7dns5Bkpj6EPUPxZFolAvSvIDtBnz4gT4QfU55Yfue0r8b2ycmGQzRkPYLDPPYQtf03oZRDKI7nIw8HtvG3B497pEQuIjrrf6vBBgMT7JcsKczhUWgcFkmQna"
+      },
+      "products": [
+        {
+          "_id": "696c0c551c508c5d5eb3d68d",
+          "name": "Gloves92112",
+          "amount": 464,
+          "price": 88400,
+          "manufacturer": "Xiaomi",
+          "notes": "uAagx5zSRNH5u6n4eVacoTlMNDrT1DLIs5OCmaBySaGe1c7edub8Ixpi6SN919p3eU0iP6YGQ84FUPuKJzB8yyEp7Zmov5r0U5qIWfZQn7LG8kFaJNAvUUjl4hp45nTgusgUP6goUFaiuVeagX39eu7B7ecAO0BgpzHwf8vXKehSudnuyOhbGzjthCJJ1pyhgl0CyEeAYoxAMpH5X8UwNafcsvwKSsXP7DxSrFWPPwxlJ7YNzUHxVkSsiC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Nashboro",
+          "street": "Dark Lane",
+          "house": 17,
+          "flat": 170
+        },
+        "finalDate": "2026-01-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 88400,
+      "createdOn": "2026-01-17T22:25:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696c0c551c508c5d5eb3d670",
+          "products": [
+            {
+              "_id": "696c0c551c508c5d5eb3d68d",
+              "name": "Gloves92112",
+              "amount": 464,
+              "price": 88400,
+              "manufacturer": "Xiaomi",
+              "notes": "uAagx5zSRNH5u6n4eVacoTlMNDrT1DLIs5OCmaBySaGe1c7edub8Ixpi6SN919p3eU0iP6YGQ84FUPuKJzB8yyEp7Zmov5r0U5qIWfZQn7LG8kFaJNAvUUjl4hp45nTgusgUP6goUFaiuVeagX39eu7B7ecAO0BgpzHwf8vXKehSudnuyOhbGzjthCJJ1pyhgl0CyEeAYoxAMpH5X8UwNafcsvwKSsXP7DxSrFWPPwxlJ7YNzUHxVkSsiC",
+              "received": false
+            }
+          ],
+          "total_price": 88400,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Nashboro",
+              "street": "Dark Lane",
+              "house": 17,
+              "flat": 170
+            },
+            "finalDate": "2026-01-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-17T22:25:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696c0c551c508c5d5eb3d670",
+          "products": [
+            {
+              "_id": "696c0c551c508c5d5eb3d68d",
+              "name": "Gloves92112",
+              "amount": 464,
+              "price": 88400,
+              "manufacturer": "Xiaomi",
+              "notes": "uAagx5zSRNH5u6n4eVacoTlMNDrT1DLIs5OCmaBySaGe1c7edub8Ixpi6SN919p3eU0iP6YGQ84FUPuKJzB8yyEp7Zmov5r0U5qIWfZQn7LG8kFaJNAvUUjl4hp45nTgusgUP6goUFaiuVeagX39eu7B7ecAO0BgpzHwf8vXKehSudnuyOhbGzjthCJJ1pyhgl0CyEeAYoxAMpH5X8UwNafcsvwKSsXP7DxSrFWPPwxlJ7YNzUHxVkSsiC",
+              "received": false
+            }
+          ],
+          "total_price": 88400,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Nashboro",
+              "street": "Dark Lane",
+              "house": 17,
+              "flat": 170
+            },
+            "finalDate": "2026-01-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-17T22:25:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696c0c551c508c5d5eb3d670",
+          "products": [
+            {
+              "_id": "696c0c551c508c5d5eb3d68d",
+              "name": "Gloves92112",
+              "amount": 464,
+              "price": 88400,
+              "manufacturer": "Xiaomi",
+              "notes": "uAagx5zSRNH5u6n4eVacoTlMNDrT1DLIs5OCmaBySaGe1c7edub8Ixpi6SN919p3eU0iP6YGQ84FUPuKJzB8yyEp7Zmov5r0U5qIWfZQn7LG8kFaJNAvUUjl4hp45nTgusgUP6goUFaiuVeagX39eu7B7ecAO0BgpzHwf8vXKehSudnuyOhbGzjthCJJ1pyhgl0CyEeAYoxAMpH5X8UwNafcsvwKSsXP7DxSrFWPPwxlJ7YNzUHxVkSsiC",
+              "received": false
+            }
+          ],
+          "total_price": 88400,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

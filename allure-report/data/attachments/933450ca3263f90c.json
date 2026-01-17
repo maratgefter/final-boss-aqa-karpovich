@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:24:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-+EF4a5hYmRMCttIuXiAPQQXv11M\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c301c508c5d5eb3bf18",
+        "email": "Marcus.Jacobson@hotmail.com",
+        "name": "Josue Herman",
+        "country": "Russia",
+        "city": "Mayshire",
+        "street": "Emilie Course",
+        "house": 16,
+        "flat": 206,
+        "phone": "+19128498042",
+        "createdOn": "2026-01-17T22:24:48.000Z",
+        "notes": "xnjdDSrafmmay79Jnsmeb26w60KvhQjc94og140YETBuH1aB0PlOgvxi7VE5xdKYKmdyW3xfu1mYbMnXMQ2CBs91xn9AnKAwtqTldPOcT2SJubxrQ6oTunExCTdPDibWqqHgRgpgjNWf6dCeRSU8aawXsRpOzteRuJE4dyVqhxrZ8tdXJpBxAie90uDxyRo5EfzuSazcKBgPDrdaEvgCD8ENqeILHedT5FKqDWEpeeQLZAHoXyZBDMKM3d"
+      },
+      "products": [
+        {
+          "_id": "696c0c311c508c5d5eb3bf51",
+          "name": "Car8154",
+          "amount": 627,
+          "price": 59079,
+          "manufacturer": "Sony",
+          "notes": "T5srZfHVEfvd94OYJh7srn2mUt4uSZyZI2RBfWl6fHQmsXL4ed10u4humvy6XTxa6w4D32YQy3RA9vLXPSAveV3UIpT6LQNszYSKzzvcMrqnXkhoki7mfxP9Kr5bcmgZOky5Ed9Bb3tqzMAaQQxxzr53PFlBUEM61kiMPDNYadJTbipCjts4TjYlm09XbaYmaokhbQErFE5CeCti87DPaOtTQxGgocYJsRWYgPeqneI3dj5XwTqUy2KPju",
+          "received": false
+        },
+        {
+          "_id": "696c0c311c508c5d5eb3bf76",
+          "name": "Shirt23941",
+          "amount": 340,
+          "price": 73499,
+          "manufacturer": "Amazon",
+          "notes": "LRAsc4JzV4lyf7WACRrdYJEDoYIUPfKRR91EuzACjQQujdrEsH6dhp3IuXUR28Lc3JKdHmiYx42JFmVphAagbl8gF0syibZjWuZAADWclrtbMC4407HZPCWdLeHAwwthQrxdEa1y9pdLTMyJc5upqQQrMnsWsjx42rR6pKYwZE51k57AAG33UjodclGLtSdXcq4cO5uCdoKb10NIXtS6avd0mRn9tooPliTwAEMSFllnTG1fsMxW7fgRbY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 132578,
+      "createdOn": "2026-01-17T22:24:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c301c508c5d5eb3bf18",
+          "products": [
+            {
+              "_id": "696c0c311c508c5d5eb3bf51",
+              "name": "Car8154",
+              "amount": 627,
+              "price": 59079,
+              "manufacturer": "Sony",
+              "notes": "T5srZfHVEfvd94OYJh7srn2mUt4uSZyZI2RBfWl6fHQmsXL4ed10u4humvy6XTxa6w4D32YQy3RA9vLXPSAveV3UIpT6LQNszYSKzzvcMrqnXkhoki7mfxP9Kr5bcmgZOky5Ed9Bb3tqzMAaQQxxzr53PFlBUEM61kiMPDNYadJTbipCjts4TjYlm09XbaYmaokhbQErFE5CeCti87DPaOtTQxGgocYJsRWYgPeqneI3dj5XwTqUy2KPju",
+              "received": false
+            },
+            {
+              "_id": "696c0c311c508c5d5eb3bf76",
+              "name": "Shirt23941",
+              "amount": 340,
+              "price": 73499,
+              "manufacturer": "Amazon",
+              "notes": "LRAsc4JzV4lyf7WACRrdYJEDoYIUPfKRR91EuzACjQQujdrEsH6dhp3IuXUR28Lc3JKdHmiYx42JFmVphAagbl8gF0syibZjWuZAADWclrtbMC4407HZPCWdLeHAwwthQrxdEa1y9pdLTMyJc5upqQQrMnsWsjx42rR6pKYwZE51k57AAG33UjodclGLtSdXcq4cO5uCdoKb10NIXtS6avd0mRn9tooPliTwAEMSFllnTG1fsMxW7fgRbY",
+              "received": false
+            }
+          ],
+          "total_price": 132578,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:24:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c321c508c5d5eb3bfab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

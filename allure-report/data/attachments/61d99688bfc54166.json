@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3436",
+    "etag": "W/\"d6c-d5ZpIevTDu8OExC9lNGOnljZP2s\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c641c508c5d5eb3df55",
+        "email": "Torrey.Smith@gmail.com",
+        "name": "Eveline Simonis",
+        "country": "Great Britain",
+        "city": "New Jerrycester",
+        "street": "Santiago Viaduct",
+        "house": 28,
+        "flat": 632,
+        "phone": "+16037385223",
+        "createdOn": "2026-01-17T22:25:40.000Z",
+        "notes": "3KJ64Yxgijgzf1bPdBc7jMScOE6KC6fGdAiyY7csS8FCKpvqE38sL30VrKiDsUP5iAxNNhUbrVPQS7DDj2QIPvYqVQJleJL7tCePyklMKaHlZlUp6prj5cfqst6NGXdLaVPKr8pWUIQPF9Oxo0vZ4wo8dWc2NQv1qlcPNARIGrUcilRrvktKpSLzHiOduUQauVDtGsc2s97E65dv6IRtkd7nJPOK3jcg3Y0zE8I9VE8frCCHkSeUFZeNMj"
+      },
+      "products": [
+        {
+          "_id": "696c0c641c508c5d5eb3df70",
+          "name": "Bacon59113",
+          "amount": 466,
+          "price": 51162,
+          "manufacturer": "Samsung",
+          "notes": "HgzOhEgAlLqjl26F4ujo1Yyd70ORzKmww61tElkdakduRR71AUpiYSk9idcV0GadIpZ6nqfS05Y52IqwOtJCbUn9Vjf9eZkKbT9vHlag7rtRFfz1oLxKoekAQZHe4nuRzVuDllIFflKKwL1ISLJ3MkB1IXmR002CLhFhIqtR04rffBhbrvysTGKz53aj1i1e3UAPEuujGRchiUhi7cmGLRgn1DbKVwNlFJVtdMcgssYjLOv5tiR9ujeKL1",
+          "received": false
+        },
+        {
+          "_id": "696c0c641c508c5d5eb3df88",
+          "name": "Cheese45471",
+          "amount": 601,
+          "price": 37127,
+          "manufacturer": "Sony",
+          "notes": "4cr2hIonVaQd0vARdxC2VJCXKxCvbn79ETmGVkGKSKhBXxSSIV5xOR4sWkrnAkX7Yi8WfFl0M1hpnLRnFKoyRqfWkwlnonASMjBIYGboQ1BrFWTUAH8g1UKsvks39CVTUxISrXgj2pfW1EROYpiLoDn6ErNkWRAa2LNBNLV9261k4IgE5A4tgA5ogEROLAibbr7Wfxs1BuTNOvIBeb3qbz1naufndSpDRxfqL6eU3x7gyqwokUZvLgwzX0",
+          "received": false
+        },
+        {
+          "_id": "696c0c651c508c5d5eb3dfab",
+          "name": "Chicken89927",
+          "amount": 454,
+          "price": 1748,
+          "manufacturer": "Google",
+          "notes": "LIEn31GLTCc5fXd2e2k5LCEUHqAPHhTIP4Y3iHJib4w2Gqm6OLMgdRPGabKCZ0XUMcMSsz4Iq2h3kvZF8YuvRe87wBFm1qxr3vFy2IoBARXDPEd4DpJ9sJV4dARpfV074UWkwVzgw1JxnFrGlbGashe6P5lVBiuyIVz9rbvInJMnBI46WQh3Zi6qX4gng5LXjKZGTexQvh0OXg4orUgnfo25theug6wX5s80UlwrNlWpvoZq0p51XWqRUT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90037,
+      "createdOn": "2026-01-17T22:25:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c641c508c5d5eb3df55",
+          "products": [
+            {
+              "_id": "696c0c641c508c5d5eb3df70",
+              "name": "Bacon59113",
+              "amount": 466,
+              "price": 51162,
+              "manufacturer": "Samsung",
+              "notes": "HgzOhEgAlLqjl26F4ujo1Yyd70ORzKmww61tElkdakduRR71AUpiYSk9idcV0GadIpZ6nqfS05Y52IqwOtJCbUn9Vjf9eZkKbT9vHlag7rtRFfz1oLxKoekAQZHe4nuRzVuDllIFflKKwL1ISLJ3MkB1IXmR002CLhFhIqtR04rffBhbrvysTGKz53aj1i1e3UAPEuujGRchiUhi7cmGLRgn1DbKVwNlFJVtdMcgssYjLOv5tiR9ujeKL1",
+              "received": false
+            },
+            {
+              "_id": "696c0c641c508c5d5eb3df88",
+              "name": "Cheese45471",
+              "amount": 601,
+              "price": 37127,
+              "manufacturer": "Sony",
+              "notes": "4cr2hIonVaQd0vARdxC2VJCXKxCvbn79ETmGVkGKSKhBXxSSIV5xOR4sWkrnAkX7Yi8WfFl0M1hpnLRnFKoyRqfWkwlnonASMjBIYGboQ1BrFWTUAH8g1UKsvks39CVTUxISrXgj2pfW1EROYpiLoDn6ErNkWRAa2LNBNLV9261k4IgE5A4tgA5ogEROLAibbr7Wfxs1BuTNOvIBeb3qbz1naufndSpDRxfqL6eU3x7gyqwokUZvLgwzX0",
+              "received": false
+            },
+            {
+              "_id": "696c0c651c508c5d5eb3dfab",
+              "name": "Chicken89927",
+              "amount": 454,
+              "price": 1748,
+              "manufacturer": "Google",
+              "notes": "LIEn31GLTCc5fXd2e2k5LCEUHqAPHhTIP4Y3iHJib4w2Gqm6OLMgdRPGabKCZ0XUMcMSsz4Iq2h3kvZF8YuvRe87wBFm1qxr3vFy2IoBARXDPEd4DpJ9sJV4dARpfV074UWkwVzgw1JxnFrGlbGashe6P5lVBiuyIVz9rbvInJMnBI46WQh3Zi6qX4gng5LXjKZGTexQvh0OXg4orUgnfo25theug6wX5s80UlwrNlWpvoZq0p51XWqRUT",
+              "received": false
+            }
+          ],
+          "total_price": 90037,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c651c508c5d5eb3dfc8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:26:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5385",
+    "etag": "W/\"1509-o6BpqKxvtwhWYJJwh8bHmWdN4bs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696c0c8c1c508c5d5eb3fd2a",
+      "status": "In Process",
+      "customer": {
+        "_id": "696c0c7c1c508c5d5eb3efd1",
+        "email": "Ali30@yahoo.com",
+        "name": "Imelda Lubowitz",
+        "country": "Canada",
+        "city": "Thielhaven",
+        "street": "The Coppice",
+        "house": 36,
+        "flat": 790,
+        "phone": "+12153363916",
+        "createdOn": "2026-01-17T22:26:04.000Z",
+        "notes": "AbAUQdyio1G2Hy125ItpBnyXkPQ74LPAeqs9vPU84rBvBLa5ZdJafdlebaRJjvNTwSvQ8z2OEbIXRSabDIqOJhmhbMQvXD1hXPYfRE4fzuGWVLnXA1cvQAhbhBynsA7tzsmA4CN07qJDqXJadQZsQcP0K4DJYKXJpjrgRWGLTJsOry8Smg7hqzAGhs25EqiXlZYMOyjc9L4UdHrSY6fRjoZk9jvMGyCwBFyYDFHHAe0mybuRpEt6VhufwL"
+      },
+      "products": [
+        {
+          "_id": "696c0c7e1c508c5d5eb3f22b",
+          "name": "Ball26350",
+          "amount": 805,
+          "price": 51685,
+          "manufacturer": "Xiaomi",
+          "notes": "F8uVSGOF1CBvvHdGIJdlBbOaWVoyPyH2K2fKr5GCWBEkL5e5iB2RUzOUgFKFRq3PHYXz0uZDuobodBEcQVNWCkrTKLctz9iLOoFBSAIsjf9bkJdcTvMklmf1LeLy5edOrAC6PsOjQm8R1LxNtHY3Btjh7c5QL33si5lnz9APPHXtxSwHu3O8ifzcrPaRFVQ1rZu5L6NtxuiJ7VBBhVJ7PGXgv8vshrex0iyZpVBp4VWWSReGNqbtTqI4So",
+          "received": false
+        },
+        {
+          "_id": "696c0c861c508c5d5eb3f7a2",
+          "name": "Chips10338",
+          "amount": 325,
+          "price": 12290,
+          "manufacturer": "Sony",
+          "notes": "IuakxmCPurOb2iYZawsscCvi0fiwZqz8YZoPWlqJ5eHPTBAvYC5PwIT7UPI83bPajiG36LO16hT5sKl9WtN0cacytFqNJOww0y6MNWqyYiL14ptg9mAOJGtwrP67HxGtSWv8PsmZOdHnep4C4Z6NgYzggWAm9xgiiwrkApy47wirrIPBB1QarAJKELBXMTI2Lpw7kdnjAeSNgjMHd4I7gkej1N1tvOfaYpPtnUOaQUcae2Qk5vTGcl9xmz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Thielhaven",
+          "street": "The Coppice",
+          "house": 36,
+          "flat": 790
+        },
+        "finalDate": "2026-01-18T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 63975,
+      "createdOn": "2026-01-17T22:26:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696c0c7c1c508c5d5eb3efd1",
+          "products": [
+            {
+              "_id": "696c0c7e1c508c5d5eb3f22b",
+              "name": "Ball26350",
+              "amount": 805,
+              "price": 51685,
+              "manufacturer": "Xiaomi",
+              "notes": "F8uVSGOF1CBvvHdGIJdlBbOaWVoyPyH2K2fKr5GCWBEkL5e5iB2RUzOUgFKFRq3PHYXz0uZDuobodBEcQVNWCkrTKLctz9iLOoFBSAIsjf9bkJdcTvMklmf1LeLy5edOrAC6PsOjQm8R1LxNtHY3Btjh7c5QL33si5lnz9APPHXtxSwHu3O8ifzcrPaRFVQ1rZu5L6NtxuiJ7VBBhVJ7PGXgv8vshrex0iyZpVBp4VWWSReGNqbtTqI4So",
+              "received": false
+            },
+            {
+              "_id": "696c0c861c508c5d5eb3f7a2",
+              "name": "Chips10338",
+              "amount": 325,
+              "price": 12290,
+              "manufacturer": "Sony",
+              "notes": "IuakxmCPurOb2iYZawsscCvi0fiwZqz8YZoPWlqJ5eHPTBAvYC5PwIT7UPI83bPajiG36LO16hT5sKl9WtN0cacytFqNJOww0y6MNWqyYiL14ptg9mAOJGtwrP67HxGtSWv8PsmZOdHnep4C4Z6NgYzggWAm9xgiiwrkApy47wirrIPBB1QarAJKELBXMTI2Lpw7kdnjAeSNgjMHd4I7gkej1N1tvOfaYpPtnUOaQUcae2Qk5vTGcl9xmz",
+              "received": false
+            }
+          ],
+          "total_price": 63975,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Thielhaven",
+              "street": "The Coppice",
+              "house": 36,
+              "flat": 790
+            },
+            "finalDate": "2026-01-18T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-17T22:26:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696c0c7c1c508c5d5eb3efd1",
+          "products": [
+            {
+              "_id": "696c0c7e1c508c5d5eb3f22b",
+              "name": "Ball26350",
+              "amount": 805,
+              "price": 51685,
+              "manufacturer": "Xiaomi",
+              "notes": "F8uVSGOF1CBvvHdGIJdlBbOaWVoyPyH2K2fKr5GCWBEkL5e5iB2RUzOUgFKFRq3PHYXz0uZDuobodBEcQVNWCkrTKLctz9iLOoFBSAIsjf9bkJdcTvMklmf1LeLy5edOrAC6PsOjQm8R1LxNtHY3Btjh7c5QL33si5lnz9APPHXtxSwHu3O8ifzcrPaRFVQ1rZu5L6NtxuiJ7VBBhVJ7PGXgv8vshrex0iyZpVBp4VWWSReGNqbtTqI4So",
+              "received": false
+            },
+            {
+              "_id": "696c0c861c508c5d5eb3f7a2",
+              "name": "Chips10338",
+              "amount": 325,
+              "price": 12290,
+              "manufacturer": "Sony",
+              "notes": "IuakxmCPurOb2iYZawsscCvi0fiwZqz8YZoPWlqJ5eHPTBAvYC5PwIT7UPI83bPajiG36LO16hT5sKl9WtN0cacytFqNJOww0y6MNWqyYiL14ptg9mAOJGtwrP67HxGtSWv8PsmZOdHnep4C4Z6NgYzggWAm9xgiiwrkApy47wirrIPBB1QarAJKELBXMTI2Lpw7kdnjAeSNgjMHd4I7gkej1N1tvOfaYpPtnUOaQUcae2Qk5vTGcl9xmz",
+              "received": false
+            }
+          ],
+          "total_price": 63975,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Thielhaven",
+              "street": "The Coppice",
+              "house": 36,
+              "flat": 790
+            },
+            "finalDate": "2026-01-18T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-17T22:26:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696c0c7c1c508c5d5eb3efd1",
+          "products": [
+            {
+              "_id": "696c0c7e1c508c5d5eb3f22b",
+              "name": "Ball26350",
+              "amount": 805,
+              "price": 51685,
+              "manufacturer": "Xiaomi",
+              "notes": "F8uVSGOF1CBvvHdGIJdlBbOaWVoyPyH2K2fKr5GCWBEkL5e5iB2RUzOUgFKFRq3PHYXz0uZDuobodBEcQVNWCkrTKLctz9iLOoFBSAIsjf9bkJdcTvMklmf1LeLy5edOrAC6PsOjQm8R1LxNtHY3Btjh7c5QL33si5lnz9APPHXtxSwHu3O8ifzcrPaRFVQ1rZu5L6NtxuiJ7VBBhVJ7PGXgv8vshrex0iyZpVBp4VWWSReGNqbtTqI4So",
+              "received": false
+            },
+            {
+              "_id": "696c0c861c508c5d5eb3f7a2",
+              "name": "Chips10338",
+              "amount": 325,
+              "price": 12290,
+              "manufacturer": "Sony",
+              "notes": "IuakxmCPurOb2iYZawsscCvi0fiwZqz8YZoPWlqJ5eHPTBAvYC5PwIT7UPI83bPajiG36LO16hT5sKl9WtN0cacytFqNJOww0y6MNWqyYiL14ptg9mAOJGtwrP67HxGtSWv8PsmZOdHnep4C4Z6NgYzggWAm9xgiiwrkApy47wirrIPBB1QarAJKELBXMTI2Lpw7kdnjAeSNgjMHd4I7gkej1N1tvOfaYpPtnUOaQUcae2Qk5vTGcl9xmz",
+              "received": false
+            }
+          ],
+          "total_price": 63975,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:26:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

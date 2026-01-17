@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-jgkb6gCYqOT0yNUP/q4vFtsMA6w\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c3e1c508c5d5eb3c6a0",
+        "email": "Bernita.Ankunding@yahoo.com",
+        "name": "Omer Fritsch",
+        "country": "Canada",
+        "city": "Willside",
+        "street": "Klocko Lodge",
+        "house": 16,
+        "flat": 998,
+        "phone": "+13236717010",
+        "createdOn": "2026-01-17T22:25:02.000Z",
+        "notes": "CkcIQJwLDvZojfM8ws2lGVgF5ee9fUlmvAKGOzeTwwIuyXZ2geLdTHao6oAtmtLJeQ1gsNNxKOWi5qHZpxw9tU5W52DEZRE1e4mHgzyTolZ2Hk2c6f2314raEwESF7n0Ik7E3earhgJkNMH1h6q1wRdihc7S28wn6xJp3BkICuTYHwxBzX5yGsPYw9R7azM9hnORK07Y99dRGIQXpT9w6BKnMIRKOsQmYUdgi9iTtZuBlvpG2Z4Po3iC1Z"
+      },
+      "products": [
+        {
+          "_id": "696c0c3e1c508c5d5eb3c6b0",
+          "name": "Tuna53004",
+          "amount": 711,
+          "price": 1900,
+          "manufacturer": "Apple",
+          "notes": "RbVb79lMYegTnYYGQcBxfaMVL3GPyISx9hEH8aHdbokOV78pqk9juAZpbsStJAiU3tlytAJbLSQhKbIK6eXMxgnGMXdQLkmWE4JKnS8h9a7f4N9Lxyw7Q7igU2wJ0ZyDkUGiGOn2GWF3A0dIf3DzchY4FszljVbHC63Y3n1vBeit6rWB63bWwN9Kcy7qpgtRDuHMK46j9za6JwgBRVykK42v3y2Y4jYYpMlxbAc9IsQd13XeKpsOPg2tyO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1900,
+      "createdOn": "2026-01-17T22:25:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c3e1c508c5d5eb3c6a0",
+          "products": [
+            {
+              "_id": "696c0c3e1c508c5d5eb3c6b0",
+              "name": "Tuna53004",
+              "amount": 711,
+              "price": 1900,
+              "manufacturer": "Apple",
+              "notes": "RbVb79lMYegTnYYGQcBxfaMVL3GPyISx9hEH8aHdbokOV78pqk9juAZpbsStJAiU3tlytAJbLSQhKbIK6eXMxgnGMXdQLkmWE4JKnS8h9a7f4N9Lxyw7Q7igU2wJ0ZyDkUGiGOn2GWF3A0dIf3DzchY4FszljVbHC63Y3n1vBeit6rWB63bWwN9Kcy7qpgtRDuHMK46j9za6JwgBRVykK42v3y2Y4jYYpMlxbAc9IsQd13XeKpsOPg2tyO",
+              "received": false
+            }
+          ],
+          "total_price": 1900,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c3e1c508c5d5eb3c6ce"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

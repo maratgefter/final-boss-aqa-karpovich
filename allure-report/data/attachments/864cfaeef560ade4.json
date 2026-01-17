@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-q/FP5SQ6+uYLOSTmVr7SQgGHe+I\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c3e1c508c5d5eb3c6b3",
+        "email": "Florencio_Sauer17@hotmail.com",
+        "name": "Leonardo Hermiston",
+        "country": "USA",
+        "city": "South Abigailboro",
+        "street": "Susan Motorway",
+        "house": 34,
+        "flat": 947,
+        "phone": "+19977879581",
+        "createdOn": "2026-01-17T22:25:02.000Z",
+        "notes": "QyQYKG0YxklPbOWY1DBkZhqzRa728FKUg7HRjPglRtUMQV59JCX3EZ3nw0D1LGIxUwjZNSpfWnTiseQLOF0tZgDpxMTMXygSrdIa3p11QaY0VVHUZ3SwQOY91kXwDn5a53UmgABmbsghBpqjTc2C1y2yNfXfsg0Sb3ya4ODDEz2ObGljxphMbnrTc2J7RDpsnlF0Q7ftcDmOCBwm1c101fDAgjh6yuwrukDRCCpyTl9owzFM3YiE5O4fSP"
+      },
+      "products": [
+        {
+          "_id": "696c0c3e1c508c5d5eb3c6d4",
+          "name": "Table90452",
+          "amount": 291,
+          "price": 58991,
+          "manufacturer": "Tesla",
+          "notes": "lRD0efwZHxysZ9q7BXPwKygNJcz4rkpux9Qztt9ktUmXNC5KkdPgmj9FwdOi7C1f5AQzguU2TDEzvm78ewP6XWPVDk2Ur0aYrNtYjm34C7geBUlps9fpVB1pAXFhEr5gYsXRJXhHpBnXT41CrlUUrXZc3UloKTdZbEAbJixYqxl3EygnEK31rMiR8r2MmsLkhKZCeIqHGFm7l7RmHtJ91PKaUp1avWzoZy10GO4a944ZljfzPqYVMYmVIE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58991,
+      "createdOn": "2026-01-17T22:25:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c3e1c508c5d5eb3c6b3",
+          "products": [
+            {
+              "_id": "696c0c3e1c508c5d5eb3c6d4",
+              "name": "Table90452",
+              "amount": 291,
+              "price": 58991,
+              "manufacturer": "Tesla",
+              "notes": "lRD0efwZHxysZ9q7BXPwKygNJcz4rkpux9Qztt9ktUmXNC5KkdPgmj9FwdOi7C1f5AQzguU2TDEzvm78ewP6XWPVDk2Ur0aYrNtYjm34C7geBUlps9fpVB1pAXFhEr5gYsXRJXhHpBnXT41CrlUUrXZc3UloKTdZbEAbJixYqxl3EygnEK31rMiR8r2MmsLkhKZCeIqHGFm7l7RmHtJ91PKaUp1avWzoZy10GO4a944ZljfzPqYVMYmVIE",
+              "received": false
+            }
+          ],
+          "total_price": 58991,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c3f1c508c5d5eb3c701"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

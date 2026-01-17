@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:25:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-bgveEgpMQVMiDzk6RKpJ12+s1eU\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c3c1c508c5d5eb3c5db",
+        "email": "Lessie.Wiegand42@yahoo.com",
+        "name": "Pietro Muller",
+        "country": "France",
+        "city": "Paigeberg",
+        "street": "Cletus Brook",
+        "house": 13,
+        "flat": 747,
+        "phone": "+18579202913",
+        "createdOn": "2026-01-17T22:25:00.000Z",
+        "notes": "FcHLxxY887rvUeBOWhzDOE8gU5pWhvbAn6RLFcSk2yHz7i7PLUP9oU2rxKJXqytxCDj8reyWG46tKQQ1M5xCbwTeZqxGX4sZsY6pJQdxYaIFo7fCLUOasK1gXiAKOPRaNmcxK4uLQWSd1pJuVygwKiYSJ2AnYQdZr3a4DmcVav3Lc6UFDyQ2Q5rCW9f8YnXQ5OUkKbzpl1o9HX0iZp5MyUWb8KryhMy73sgq4vStXuYAg3A5JGy0vGb70v"
+      },
+      "products": [
+        {
+          "_id": "696c0c3e1c508c5d5eb3c6a4",
+          "name": "Gloves25044",
+          "amount": 724,
+          "price": 30405,
+          "manufacturer": "Microsoft",
+          "notes": "dLjnFpSYWI79YxEoW3cg2Yoe3Xj5kwBSpKDrN4W42xAOfxEohKGQoqfhqAFbR2zsp5tJJbECAU1X1KbLEM0sx5IbWox3K1NAysds9jBMhtmmvvVlAV3M6Gj4lmul2itN0zKfpbuuIC14TAaZ5846nq6ULAI7Vz8lhuk7abh0K9342sxuCm1MCG6URrDASbwHVKwNmC1TeLLDeY2CqyAW897mofYkRleeibN48bs3XwR7bHtDQjQwcxHWcE",
+          "received": false
+        },
+        {
+          "_id": "696c0c3e1c508c5d5eb3c6c0",
+          "name": "Pants54440",
+          "amount": 41,
+          "price": 82542,
+          "manufacturer": "Amazon",
+          "notes": "ValI9wfwbBr17H6qXv3cQUhmKGqktz47fEtBmm0L8ZiMmAoyCkqdB7O6gEFlz0CH0t7pt5ucooJImWC0kL4rzOe5dQjigV8uGeJYl9H7R8Xhe2PLtRTbzP6rw2PwJfHCgKvxSRJZahwH04PYi83hbarqeiargIG0eNcVIHHAxvKTLHuVnAvSf2tAQJnicFxFekYP9oPZz5hDCxeWd456Ps41HhBpLFLmjrKu6Z3J4hYdKHrL65m4Fyx4Mv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112947,
+      "createdOn": "2026-01-17T22:25:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c3c1c508c5d5eb3c5db",
+          "products": [
+            {
+              "_id": "696c0c3e1c508c5d5eb3c6a4",
+              "name": "Gloves25044",
+              "amount": 724,
+              "price": 30405,
+              "manufacturer": "Microsoft",
+              "notes": "dLjnFpSYWI79YxEoW3cg2Yoe3Xj5kwBSpKDrN4W42xAOfxEohKGQoqfhqAFbR2zsp5tJJbECAU1X1KbLEM0sx5IbWox3K1NAysds9jBMhtmmvvVlAV3M6Gj4lmul2itN0zKfpbuuIC14TAaZ5846nq6ULAI7Vz8lhuk7abh0K9342sxuCm1MCG6URrDASbwHVKwNmC1TeLLDeY2CqyAW897mofYkRleeibN48bs3XwR7bHtDQjQwcxHWcE",
+              "received": false
+            },
+            {
+              "_id": "696c0c3e1c508c5d5eb3c6c0",
+              "name": "Pants54440",
+              "amount": 41,
+              "price": 82542,
+              "manufacturer": "Amazon",
+              "notes": "ValI9wfwbBr17H6qXv3cQUhmKGqktz47fEtBmm0L8ZiMmAoyCkqdB7O6gEFlz0CH0t7pt5ucooJImWC0kL4rzOe5dQjigV8uGeJYl9H7R8Xhe2PLtRTbzP6rw2PwJfHCgKvxSRJZahwH04PYi83hbarqeiargIG0eNcVIHHAxvKTLHuVnAvSf2tAQJnicFxFekYP9oPZz5hDCxeWd456Ps41HhBpLFLmjrKu6Z3J4hYdKHrL65m4Fyx4Mv",
+              "received": false
+            }
+          ],
+          "total_price": 112947,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:25:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c3e1c508c5d5eb3c6e5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

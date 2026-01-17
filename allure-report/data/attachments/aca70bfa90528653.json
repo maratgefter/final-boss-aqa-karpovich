@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 17 Jan 2026 22:24:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-Bya5qmXA8XGiT6dm7uwc8d3Jwbw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696c0c2a1c508c5d5eb3bbf6",
+        "email": "Fern82@hotmail.com",
+        "name": "Wilson West",
+        "country": "Belarus",
+        "city": "New Anthonymouth",
+        "street": "Main Street S",
+        "house": 2,
+        "flat": 867,
+        "phone": "+12404727762",
+        "createdOn": "2026-01-17T22:24:42.000Z",
+        "notes": "RdK7aVi0qWWVlqGhEegGqv6p8QeaOAAI2UAj16YNwZFeviNB8AnHW0oA3hUoeFK6vzNnp5CbYEvWM9R2E04ScGCEpjOv7dYtkOCOFpi7pODEAdDv2MCxMB1YahwFvWv9RAPp8gSZskioATSPGCHexteELuC0Ht0V3wpohIaqgj5N6IiuEMLEzFiowZ3Pq8hHECA5KeBJSeXIODjDKD8kDPAcurfIShuMnSYGF2hYc48iW4CYHZ1kqdwRbX"
+      },
+      "products": [
+        {
+          "_id": "696c0c2a1c508c5d5eb3bc09",
+          "name": "Tuna928",
+          "amount": 943,
+          "price": 67586,
+          "manufacturer": "Microsoft",
+          "notes": "tiaGLfnrqMEXkkHt5tGg1nMM2jkZW8Go9Yt6fw8VBAaTgQNpS42giodz9ucDjhfPEwXTYkGLl6eLIE53fFVh4ckk0sJas2iBw9BBKPTlnYXwDPQGoGk9IwkADtkdhKbPVD8k9cfojb6qfIBdh5k1flRM6cmmbvruz7ddu9LyjsFAJhu2Jr2jgXFCEBD0yxDVAWwtlnNSfgLH1Z3ESCTbTUetqqa5wSnl26Dwf85MsYo5q0as02kkmmmvE8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67586,
+      "createdOn": "2026-01-17T22:24:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696c0c2a1c508c5d5eb3bbf6",
+          "products": [
+            {
+              "_id": "696c0c2a1c508c5d5eb3bc09",
+              "name": "Tuna928",
+              "amount": 943,
+              "price": 67586,
+              "manufacturer": "Microsoft",
+              "notes": "tiaGLfnrqMEXkkHt5tGg1nMM2jkZW8Go9Yt6fw8VBAaTgQNpS42giodz9ucDjhfPEwXTYkGLl6eLIE53fFVh4ckk0sJas2iBw9BBKPTlnYXwDPQGoGk9IwkADtkdhKbPVD8k9cfojb6qfIBdh5k1flRM6cmmbvruz7ddu9LyjsFAJhu2Jr2jgXFCEBD0yxDVAWwtlnNSfgLH1Z3ESCTbTUetqqa5wSnl26Dwf85MsYo5q0as02kkmmmvE8",
+              "received": false
+            }
+          ],
+          "total_price": 67586,
+          "delivery": null,
+          "changedOn": "2026-01-17T22:24:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696c0c2a1c508c5d5eb3bc34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
