@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:26:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4810",
+    "etag": "W/\"12ca-4JTnwSwC9BUAiZ0cdZkftzIOWy4\"",
+    "keep-alive": "timeout=5, max=56",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696d5e1e1c508c5d5eb4bd2b",
+      "status": "Canceled",
+      "customer": {
+        "_id": "696d5e1c1c508c5d5eb4bc0d",
+        "email": "Torrance_Gutkowski@yahoo.com",
+        "name": "Asha Lesch",
+        "country": "Belarus",
+        "city": "Anastasiafort",
+        "street": "Emard Mountain",
+        "house": 2,
+        "flat": 734,
+        "phone": "+17256748110",
+        "createdOn": "2026-01-18T22:26:36.000Z",
+        "notes": "bpHhErqw6nam2EVDSQiMKSZZzYfygIZItWTfCT2kI1C77ce1Mw2C5YtdAkcprMx8mjXHZVPFClgCujKl7q9YotRDbFjC54RDf8ToNYhZ0vqleHb4BWfCmH9ql8pMIjPU0NaaZ3bjOyYLi49Z46fZ36k7fXQ1IIfZ5wRAh57GO1nTUrX3hwHO68pIyEHjkJNooKjVOHuaFSjsvCtJLzwZcxQyeS9WzUqtcLMe5ajmD2xZXDWSyT0JpSHE6g"
+      },
+      "products": [
+        {
+          "_id": "696d5e1e1c508c5d5eb4bd0a",
+          "name": "Cheese29955",
+          "amount": 753,
+          "price": 37729,
+          "manufacturer": "Amazon",
+          "notes": "iHUTP5zKCR9af5CR7M4eQiFGsNbaj65vQoWh6zFys8xc4MU8hDP7Nwv43fgRuHENrtVbMd2UtfShAZsgf36tYUmMx79c1f8ZVLKhNONhzossQF4fecfHocnyH1Lba4t5atRgS8bPOZz1TsiHeG2BjmvyfFchs2l66Z26J0citBA6CqK25Rh9khLpKZmLrxRl0DUVIKVvZNECY6X7BG9kfhLlMlCnKjz003VM3ZKMqUhZE1GpQbG0lRXJlX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Anastasiafort",
+          "street": "Emard Mountain",
+          "house": 2,
+          "flat": 734
+        },
+        "finalDate": "2026-01-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 37729,
+      "createdOn": "2026-01-18T22:26:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "696d5e1c1c508c5d5eb4bc0d",
+          "products": [
+            {
+              "_id": "696d5e1e1c508c5d5eb4bd0a",
+              "name": "Cheese29955",
+              "amount": 753,
+              "price": 37729,
+              "manufacturer": "Amazon",
+              "notes": "iHUTP5zKCR9af5CR7M4eQiFGsNbaj65vQoWh6zFys8xc4MU8hDP7Nwv43fgRuHENrtVbMd2UtfShAZsgf36tYUmMx79c1f8ZVLKhNONhzossQF4fecfHocnyH1Lba4t5atRgS8bPOZz1TsiHeG2BjmvyfFchs2l66Z26J0citBA6CqK25Rh9khLpKZmLrxRl0DUVIKVvZNECY6X7BG9kfhLlMlCnKjz003VM3ZKMqUhZE1GpQbG0lRXJlX",
+              "received": false
+            }
+          ],
+          "total_price": 37729,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Anastasiafort",
+              "street": "Emard Mountain",
+              "house": 2,
+              "flat": 734
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-18T22:26:56.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "696d5e1c1c508c5d5eb4bc0d",
+          "products": [
+            {
+              "_id": "696d5e1e1c508c5d5eb4bd0a",
+              "name": "Cheese29955",
+              "amount": 753,
+              "price": 37729,
+              "manufacturer": "Amazon",
+              "notes": "iHUTP5zKCR9af5CR7M4eQiFGsNbaj65vQoWh6zFys8xc4MU8hDP7Nwv43fgRuHENrtVbMd2UtfShAZsgf36tYUmMx79c1f8ZVLKhNONhzossQF4fecfHocnyH1Lba4t5atRgS8bPOZz1TsiHeG2BjmvyfFchs2l66Z26J0citBA6CqK25Rh9khLpKZmLrxRl0DUVIKVvZNECY6X7BG9kfhLlMlCnKjz003VM3ZKMqUhZE1GpQbG0lRXJlX",
+              "received": false
+            }
+          ],
+          "total_price": 37729,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Anastasiafort",
+              "street": "Emard Mountain",
+              "house": 2,
+              "flat": 734
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-18T22:26:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696d5e1c1c508c5d5eb4bc0d",
+          "products": [
+            {
+              "_id": "696d5e1e1c508c5d5eb4bd0a",
+              "name": "Cheese29955",
+              "amount": 753,
+              "price": 37729,
+              "manufacturer": "Amazon",
+              "notes": "iHUTP5zKCR9af5CR7M4eQiFGsNbaj65vQoWh6zFys8xc4MU8hDP7Nwv43fgRuHENrtVbMd2UtfShAZsgf36tYUmMx79c1f8ZVLKhNONhzossQF4fecfHocnyH1Lba4t5atRgS8bPOZz1TsiHeG2BjmvyfFchs2l66Z26J0citBA6CqK25Rh9khLpKZmLrxRl0DUVIKVvZNECY6X7BG9kfhLlMlCnKjz003VM3ZKMqUhZE1GpQbG0lRXJlX",
+              "received": false
+            }
+          ],
+          "total_price": 37729,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Anastasiafort",
+              "street": "Emard Mountain",
+              "house": 2,
+              "flat": 734
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-18T22:26:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696d5e1c1c508c5d5eb4bc0d",
+          "products": [
+            {
+              "_id": "696d5e1e1c508c5d5eb4bd0a",
+              "name": "Cheese29955",
+              "amount": 753,
+              "price": 37729,
+              "manufacturer": "Amazon",
+              "notes": "iHUTP5zKCR9af5CR7M4eQiFGsNbaj65vQoWh6zFys8xc4MU8hDP7Nwv43fgRuHENrtVbMd2UtfShAZsgf36tYUmMx79c1f8ZVLKhNONhzossQF4fecfHocnyH1Lba4t5atRgS8bPOZz1TsiHeG2BjmvyfFchs2l66Z26J0citBA6CqK25Rh9khLpKZmLrxRl0DUVIKVvZNECY6X7BG9kfhLlMlCnKjz003VM3ZKMqUhZE1GpQbG0lRXJlX",
+              "received": false
+            }
+          ],
+          "total_price": 37729,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:26:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

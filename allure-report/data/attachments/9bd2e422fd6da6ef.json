@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-mHnSf285ze87avcMPAvMB3Pxv5Y\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dc21c508c5d5eb47e70",
+        "email": "Kristin_Johnston@yahoo.com",
+        "name": "Antonina Abshire",
+        "country": "Canada",
+        "city": "Bismarck",
+        "street": "Oak Street",
+        "house": 8,
+        "flat": 623,
+        "phone": "+16832660185",
+        "createdOn": "2026-01-18T22:25:06.000Z",
+        "notes": "THXNrptqZYuIKaXYUjQCCfykx5eoExQzCEFrvUOvB2gVMS9UV7Otnq8GTrhyykku9lMff9iU6QAVf4gPJKJHnPyaYfHoKhVyiN45pBbRuLWNbNpPOQKsWj9oykxW68pvVarmK0zgapP2fOk4rW3uHFhtTajwCrZZICEMkuIufzDeXs2GtTWCXG7Q4MwO8HCfzLmU7opw72e06ifeZRnRGaFBfdriF4ZCFcgD5VsbxxeC6J4rCo7BJIWVbL"
+      },
+      "products": [
+        {
+          "_id": "696d5dc21c508c5d5eb47e8e",
+          "name": "Towels8607",
+          "amount": 526,
+          "price": 40983,
+          "manufacturer": "Apple",
+          "notes": "h5iglOsxoo2Q2FgckwtEGvb9kT3YOEN6M4vqZdsdH07S4Ed6DQ9TsbLbpVSSgYuu9EC5B8UumINgIbHXQ3BoHNwLn93r0u1R4MWX6bNtAqg3MxL500r0MYiA6xVsfKEv7AEE9ehIhGcxMabgpkyF1vdFKUHazyaQ8EYDmqwSo2yFnBKvhnMhOdnYVOzpnBWhCT1h2owuQ2WOz2VL0jRVh9WEXxClGIlZoCy8Qebfrei6oPJyCtojCOgA8Y",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40983,
+      "createdOn": "2026-01-18T22:25:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dc21c508c5d5eb47e70",
+          "products": [
+            {
+              "_id": "696d5dc21c508c5d5eb47e8e",
+              "name": "Towels8607",
+              "amount": 526,
+              "price": 40983,
+              "manufacturer": "Apple",
+              "notes": "h5iglOsxoo2Q2FgckwtEGvb9kT3YOEN6M4vqZdsdH07S4Ed6DQ9TsbLbpVSSgYuu9EC5B8UumINgIbHXQ3BoHNwLn93r0u1R4MWX6bNtAqg3MxL500r0MYiA6xVsfKEv7AEE9ehIhGcxMabgpkyF1vdFKUHazyaQ8EYDmqwSo2yFnBKvhnMhOdnYVOzpnBWhCT1h2owuQ2WOz2VL0jRVh9WEXxClGIlZoCy8Qebfrei6oPJyCtojCOgA8Y",
+              "received": false
+            }
+          ],
+          "total_price": 40983,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dc21c508c5d5eb47eae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

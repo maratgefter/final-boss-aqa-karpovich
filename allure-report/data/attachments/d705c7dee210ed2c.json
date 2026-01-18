@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2825",
+    "etag": "W/\"b09-jX9MnnqpsCZtpA/DxYTq0XdFejM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696d5dd31c508c5d5eb48853",
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dd21c508c5d5eb487e3",
+        "email": "Natalie_Osinski80@yahoo.com",
+        "name": "Pierce King",
+        "country": "Canada",
+        "city": "Marjolainechester",
+        "street": "N Chestnut Street",
+        "house": 10,
+        "flat": 149,
+        "phone": "+13812254973",
+        "createdOn": "2026-01-18T22:25:22.000Z",
+        "notes": "Rc7FstOZKsVbvKNBMFeYiVPrIXfJFXMFiUkoeMwXxB6oBzfWybVfJlnqls4aihq21HFNV9tZ7vd6W5M3DQW7NXER0mIc0SMMJomqlYb0lUtRr3d16mIeFdys4GImAyujYGmUedpBBsjpoXABWPCny6K89dOUiwG2JCW9ieBkFykvb30tM1ulQaWH4F5khCZYtiA5nFuxjvF6e7uL9cGP4ucmx80UsXzLOIlonA8zMto6mFfei9cHG6GXIc"
+      },
+      "products": [
+        {
+          "_id": "696d5dd21c508c5d5eb48804",
+          "name": "Sausages96622",
+          "amount": 65,
+          "price": 85258,
+          "manufacturer": "Xiaomi",
+          "notes": "znRbC1SEpn2vB7easu4d1ztuaXa3UmzpxFo0H9GIfxrcEnrYAkpfdetJgOqpVXl550G1spu3uhhw3q86uDkXqVaeUdzlwLiY4aHszcsL198uWiogHLTaG3HjEXLffWiB6pE93sbg4uRUE8Yi3DWVnDdcaKXDb9ZvqpGJqi0ZduaKOrAmhJbPKGrngoXev5Icg2oTdTpkloolPVXDuFNhzCkBxq0jn9X3A4m9gEgb608TPc48noWScAsgZK",
+          "received": false
+        },
+        {
+          "_id": "696d5dd31c508c5d5eb48822",
+          "name": "Pizza49314",
+          "amount": 470,
+          "price": 57499,
+          "manufacturer": "Tesla",
+          "notes": "2ABA5aCVVqmKByyZrdKAoLQwmX4w3L8PH1KlYFCa0TYWS2EP7rglueTuuXfLCcKF8GortzXVloFJkCid9gBV8bLXdGMIODkmTQMhsq5nzC6Wcp5zVNRH0JJgxYfYdq06dR6qCk4TtXUpMEmUMi3b0Fhr8YbKXSZY1fuDHT1KmdSJdJnWL7q8Qqg0rcrKieKEie32NhEVrWHrRde4uk69bNYzC0SiyMBWN3fuqt9pnFHM52KFoTTrG0j145",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 142757,
+      "createdOn": "2026-01-18T22:25:23.000Z",
+      "comments": [
+        {
+          "text": "XD42zexcufk8voUKeHgjI74Fq7T7QoevC5Ow6y94aWpXkfuMdfFVsQ8J2ZNlj6tnA0ZC1VYourg",
+          "createdOn": "2026-01-18T22:25:24.000Z",
+          "_id": "696d5dd61c508c5d5eb48ac7"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dd21c508c5d5eb487e3",
+          "products": [
+            {
+              "_id": "696d5dd21c508c5d5eb48804",
+              "name": "Sausages96622",
+              "amount": 65,
+              "price": 85258,
+              "manufacturer": "Xiaomi",
+              "notes": "znRbC1SEpn2vB7easu4d1ztuaXa3UmzpxFo0H9GIfxrcEnrYAkpfdetJgOqpVXl550G1spu3uhhw3q86uDkXqVaeUdzlwLiY4aHszcsL198uWiogHLTaG3HjEXLffWiB6pE93sbg4uRUE8Yi3DWVnDdcaKXDb9ZvqpGJqi0ZduaKOrAmhJbPKGrngoXev5Icg2oTdTpkloolPVXDuFNhzCkBxq0jn9X3A4m9gEgb608TPc48noWScAsgZK",
+              "received": false
+            },
+            {
+              "_id": "696d5dd31c508c5d5eb48822",
+              "name": "Pizza49314",
+              "amount": 470,
+              "price": 57499,
+              "manufacturer": "Tesla",
+              "notes": "2ABA5aCVVqmKByyZrdKAoLQwmX4w3L8PH1KlYFCa0TYWS2EP7rglueTuuXfLCcKF8GortzXVloFJkCid9gBV8bLXdGMIODkmTQMhsq5nzC6Wcp5zVNRH0JJgxYfYdq06dR6qCk4TtXUpMEmUMi3b0Fhr8YbKXSZY1fuDHT1KmdSJdJnWL7q8Qqg0rcrKieKEie32NhEVrWHrRde4uk69bNYzC0SiyMBWN3fuqt9pnFHM52KFoTTrG0j145",
+              "received": false
+            }
+          ],
+          "total_price": 142757,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

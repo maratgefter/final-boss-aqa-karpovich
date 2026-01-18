@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-sSnaQVGfwLK3BrXnS1eoBAG7ivk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dea1c508c5d5eb49901",
+        "email": "Victoria_Walker63@gmail.com",
+        "name": "Madyson Walsh",
+        "country": "Canada",
+        "city": "New Bedford",
+        "street": "Filiberto Islands",
+        "house": 12,
+        "flat": 60,
+        "phone": "+15985702879",
+        "createdOn": "2026-01-18T22:25:46.000Z",
+        "notes": "1KAR2UZ2eqkr5om0ksmAt1iqQ0wcG6Wbt8IUxKGbrgNs5aBgzYCN0CFlXjkpkFzWnD9Uh5Zkw0vOXWOwQgeGUoOBiDNebWR4UOLTGiIWkzYnyEuhs3VNlTyP20Fej0GBAaoOmBU7ZAfjgovkKdN4TizCtjKhpeoTxv8SBt6SLYHQvHg5KkU1trH93XSgbxlWs3xeucCv1sSlZZCYeuuDXoL0Xkh6WHNQj1e3sbf2q6MQahs87ulf7V6zAI"
+      },
+      "products": [
+        {
+          "_id": "696d5dec1c508c5d5eb499e0",
+          "name": "Salad25643",
+          "amount": 653,
+          "price": 57927,
+          "manufacturer": "Samsung",
+          "notes": "vpTf98jGuk95RtEa1vDkpoeY2wV8wFhzPxWaqKMYiBzsrUxywA5btp6XYhUj6OSXA0C6j07OGpLw2xBN1h3AI1XHMEG1Z8ct5UISlLdSuZqz40EcLw9DULfDAv6nMYBkQJrqpAOskl0t1ibWx8sn3O3iwQYGskzdwaegqcGKrNigF0I79zI2i2OMGCwjkyv3oYNzgBULjhrx6rhyBrq3DCxaSPRzUNMJMkq8Cz8uWUTQWUBCS8IFxfrgM0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57927,
+      "createdOn": "2026-01-18T22:25:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dea1c508c5d5eb49901",
+          "products": [
+            {
+              "_id": "696d5dec1c508c5d5eb499e0",
+              "name": "Salad25643",
+              "amount": 653,
+              "price": 57927,
+              "manufacturer": "Samsung",
+              "notes": "vpTf98jGuk95RtEa1vDkpoeY2wV8wFhzPxWaqKMYiBzsrUxywA5btp6XYhUj6OSXA0C6j07OGpLw2xBN1h3AI1XHMEG1Z8ct5UISlLdSuZqz40EcLw9DULfDAv6nMYBkQJrqpAOskl0t1ibWx8sn3O3iwQYGskzdwaegqcGKrNigF0I79zI2i2OMGCwjkyv3oYNzgBULjhrx6rhyBrq3DCxaSPRzUNMJMkq8Cz8uWUTQWUBCS8IFxfrgM0",
+              "received": false
+            }
+          ],
+          "total_price": 57927,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dec1c508c5d5eb49a02"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2636",
+    "etag": "W/\"a4c-P5Z3rpnCoFxc5eP5zdEMzOqLvGc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dc41c508c5d5eb47f63",
+        "email": "Mary72@yahoo.com",
+        "name": "Alaina White",
+        "country": "USA",
+        "city": "North Ward",
+        "street": "Maple Avenue",
+        "house": 45,
+        "flat": 301,
+        "phone": "+17655081170",
+        "createdOn": "2026-01-18T22:25:08.000Z",
+        "notes": "FnbhOyVuRqUwCU5KA0HFY9LhNpWnUPrpZgdQOzj5yF96JyOZ5MhVHctor0xB9PpZibUFq89Lcwcfu1kusBI6KvNZhcfEDQcbx632PdtUesuDtnI977JyQgiSVfzGxTv9dVhIa7OnRUqelz75Qxf79znwGYDi10hB5jbQ3W0QwysODC0CSyKWyxWtZJfIp9KR33JrgblU2YUnNu3ZBxqVECNKskH4JAJSqaXEQzuiB8rPooNuA2w9ghoJuN"
+      },
+      "products": [
+        {
+          "_id": "696d5dc51c508c5d5eb4802f",
+          "name": "Bike80513",
+          "amount": 915,
+          "price": 57745,
+          "manufacturer": "Xiaomi",
+          "notes": "OIRe0ndIttzzECL5PI16txtXaIYnwFSNeQuzxrryHqyFLN2kaPPmKdHlbtClG7BwHEWqWzZT42CsfPGOhufD5xCFdeTYortlpGS1YguujBJWJfvmwEreij0HHCQGOdVB3hWwGsR1vAaBljl72z1dy2VbtFpnzU3DLqVijSiZHwM7aN9hpBYuyobIaBZY3NCR84ezuWnUYkVFKzJp96fhUNkRTJM6ZKBlMTKoKSGvpjBoKimpVT0Hwvz6q3",
+          "received": false
+        },
+        {
+          "_id": "696d5dc51c508c5d5eb48053",
+          "name": "Cheese24662",
+          "amount": 279,
+          "price": 25871,
+          "manufacturer": "Tesla",
+          "notes": "x03YWOgwrAhjKGH3EpiVazybGAKrL8rOP9lHA23l23qt3JtBfr1NneluVICywe2vkJCR3a6aC1AY7qZllUxEOc8GhNdpEhHW4IDNPmPdkGZapIPGUy3JfE90VDw7Ef4byug1g7boOo0bcqbhrxVwohH51WM8VBIciVShVU0F3rgzDVzQk443ZWI123HhOO4IpNIPmlA6IMV2sQCqBLqZArRYVjmi75xhKSClqchd4qZYIfQlcKDE5wDt6z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83616,
+      "createdOn": "2026-01-18T22:25:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dc41c508c5d5eb47f63",
+          "products": [
+            {
+              "_id": "696d5dc51c508c5d5eb4802f",
+              "name": "Bike80513",
+              "amount": 915,
+              "price": 57745,
+              "manufacturer": "Xiaomi",
+              "notes": "OIRe0ndIttzzECL5PI16txtXaIYnwFSNeQuzxrryHqyFLN2kaPPmKdHlbtClG7BwHEWqWzZT42CsfPGOhufD5xCFdeTYortlpGS1YguujBJWJfvmwEreij0HHCQGOdVB3hWwGsR1vAaBljl72z1dy2VbtFpnzU3DLqVijSiZHwM7aN9hpBYuyobIaBZY3NCR84ezuWnUYkVFKzJp96fhUNkRTJM6ZKBlMTKoKSGvpjBoKimpVT0Hwvz6q3",
+              "received": false
+            },
+            {
+              "_id": "696d5dc51c508c5d5eb48053",
+              "name": "Cheese24662",
+              "amount": 279,
+              "price": 25871,
+              "manufacturer": "Tesla",
+              "notes": "x03YWOgwrAhjKGH3EpiVazybGAKrL8rOP9lHA23l23qt3JtBfr1NneluVICywe2vkJCR3a6aC1AY7qZllUxEOc8GhNdpEhHW4IDNPmPdkGZapIPGUy3JfE90VDw7Ef4byug1g7boOo0bcqbhrxVwohH51WM8VBIciVShVU0F3rgzDVzQk443ZWI123HhOO4IpNIPmlA6IMV2sQCqBLqZArRYVjmi75xhKSClqchd4qZYIfQlcKDE5wDt6z",
+              "received": false
+            }
+          ],
+          "total_price": 83616,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dc61c508c5d5eb4807a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

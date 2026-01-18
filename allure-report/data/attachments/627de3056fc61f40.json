@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-20tQBLzU4DXQJR0upnz+7m8k8xc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dd21c508c5d5eb487f0",
+        "email": "Kade43@yahoo.com",
+        "name": "Martine Huel",
+        "country": "Ukraine",
+        "city": "Mountain View",
+        "street": "Flatley Park",
+        "house": 24,
+        "flat": 902,
+        "phone": "+17147132004",
+        "createdOn": "2026-01-18T22:25:22.000Z",
+        "notes": "viiYIpvet8504H5UHKUh8n21E1L9MPy2AjBrB6T9W5pSo1wis3BVBP4vFhZDj8jvsg4EKXcivfwQmN9Dnp0P2RhRdg93IUZcEvpvfbo0oT2OVQGLt8xmcAtjV9BoEM7yL4J6TrL4JX0xNKwwTlnuJDagsEuBn8kb9tbNuUcflc3nx6MrxTcQLGsI7mdyDseNJfdL0XzQL5y84Xf2oP9KQlUD4EM0iIjbiD7q0vbIWOxzi7jgf2ELqecyAq"
+      },
+      "products": [
+        {
+          "_id": "696d5dd31c508c5d5eb48824",
+          "name": "Hat68431",
+          "amount": 284,
+          "price": 89184,
+          "manufacturer": "Google",
+          "notes": "bgt1bTs13WL6eAuO7T8H5HvWSCKJakQlFdtDBAbDhAV737Pon4iGqNOfx3q5FqykQxuU0umXaXaxJDikuDo8ItTmfMfo0kRUQssmrgHlSjE2DDw6ksfZ7eHsjPjWfYJ1pk58aFJVtw2GkZMlL6Oisu9DUULqOpDxiMsLj48pxzlIOFlY4wvgqfLlYXUGx7mR8rxf4yjFiDAx6I1CI1R1h3XfG9ZeKesmC41jJP9plw3fgAailvJL8aOToS",
+          "received": false
+        },
+        {
+          "_id": "696d5dd31c508c5d5eb4884b",
+          "name": "Gloves9675",
+          "amount": 867,
+          "price": 90924,
+          "manufacturer": "Apple",
+          "notes": "2ax2ZjBrmLXvnpYIDFtMAx7fgyqArBk6XDazCYfWhesufP0VcItFkxVMCANcfzuXHnPqLYWn4b54koQMnEwkm8G7mlWWk2fbpG4t48soBuTJk8QmfLfJBnfwumppbww2Ttsk5YhzagcWMtapE8CVItF7fi85qyOO1h6kA1UaAiEugEG5JpStZftgIrYvjbp5EiFEg3S80k764rU5AEip8Rgcf3fZMzcxHJduccrw7flurfXSG6RgbCjMWt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 180108,
+      "createdOn": "2026-01-18T22:25:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dd21c508c5d5eb487f0",
+          "products": [
+            {
+              "_id": "696d5dd31c508c5d5eb48824",
+              "name": "Hat68431",
+              "amount": 284,
+              "price": 89184,
+              "manufacturer": "Google",
+              "notes": "bgt1bTs13WL6eAuO7T8H5HvWSCKJakQlFdtDBAbDhAV737Pon4iGqNOfx3q5FqykQxuU0umXaXaxJDikuDo8ItTmfMfo0kRUQssmrgHlSjE2DDw6ksfZ7eHsjPjWfYJ1pk58aFJVtw2GkZMlL6Oisu9DUULqOpDxiMsLj48pxzlIOFlY4wvgqfLlYXUGx7mR8rxf4yjFiDAx6I1CI1R1h3XfG9ZeKesmC41jJP9plw3fgAailvJL8aOToS",
+              "received": false
+            },
+            {
+              "_id": "696d5dd31c508c5d5eb4884b",
+              "name": "Gloves9675",
+              "amount": 867,
+              "price": 90924,
+              "manufacturer": "Apple",
+              "notes": "2ax2ZjBrmLXvnpYIDFtMAx7fgyqArBk6XDazCYfWhesufP0VcItFkxVMCANcfzuXHnPqLYWn4b54koQMnEwkm8G7mlWWk2fbpG4t48soBuTJk8QmfLfJBnfwumppbww2Ttsk5YhzagcWMtapE8CVItF7fi85qyOO1h6kA1UaAiEugEG5JpStZftgIrYvjbp5EiFEg3S80k764rU5AEip8Rgcf3fZMzcxHJduccrw7flurfXSG6RgbCjMWt",
+              "received": false
+            }
+          ],
+          "total_price": 180108,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dd51c508c5d5eb4894e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:26:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-/NWjfHl2zzPZceiQxuqdr0woSXQ\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dfb1c508c5d5eb4a374",
+        "email": "Seth_Purdy48@hotmail.com",
+        "name": "Liza Bahringer",
+        "country": "Germany",
+        "city": "Fort Smith",
+        "street": "Greenfelder Spurs",
+        "house": 35,
+        "flat": 452,
+        "phone": "+19384295392",
+        "createdOn": "2026-01-18T22:26:03.000Z",
+        "notes": "aT02ux72uNu3WCbGxGy4piZXdHBdvl8hX0rZ2ONG4EUAaJPbC5ChBMaYYvQIRSzJZfL6ylfedPWz8tXsgZiRihrG8hS861WEFkq2u7cGJ6Q9SNEQyxr8HMK2fcXuUpZAOoqE89rsLcRfGv1cKlxGxvJ6Bx6EplbtcbmPGdGzVZVaZU4BuBsgk8YATiVtcoxNHHSXwffA7g3JMycqgt4e8isbcvuguzxdoct2qubicm3QmMGe25wX9l0JYx"
+      },
+      "products": [
+        {
+          "_id": "696d5dfb1c508c5d5eb4a39c",
+          "name": "Salad16629",
+          "amount": 913,
+          "price": 47744,
+          "manufacturer": "Sony",
+          "notes": "oIedyPAgWDgepYxCOTXSYLkLPyHHX86Bq5HbS17hAxHvC1HvNkMSAk5Y2YrVRyzvo0aB9P2KFamG34NpJiJYdAcfbybxeAlstJ2eqjyTroTTHwHUX1ajVqrX33DwrZrwGE2kn6J2Wm8muwQki2JO4c1teLcf7segqbJWHq5HTZ22uMVARLzNGdaDvIuKFSkeGZJF49Vvt90BdBDx4uewpMerKjF1MccjeQDt0zSHdv6eYY77KPJgp6NZZU",
+          "received": false
+        },
+        {
+          "_id": "696d5dfc1c508c5d5eb4a3d9",
+          "name": "Keyboard44981",
+          "amount": 347,
+          "price": 85798,
+          "manufacturer": "Samsung",
+          "notes": "TGifjP3ymqRwQ7k78ErW4AY8JEdQ7Djddnqu5qENJkQ5trmqAQL5bYmX02OgtH3x6i3r39MUhhlmpqB6S0ShRrD8xmRTer9SuVrEIhVxoG8BanDU0zfqqroW7rMXV4dJSWwErBwneWXxOzRb3fvZeMfqOn3yZnyUQhc00IaKluJmz4rZTGKF46JWENaZ5YbTc5TO5iSZVQxsCkAAQo4bTfum6fVJ72VAzAlu05nR3aySmkkLGBGzKCkyWn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 133542,
+      "createdOn": "2026-01-18T22:26:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dfb1c508c5d5eb4a374",
+          "products": [
+            {
+              "_id": "696d5dfb1c508c5d5eb4a39c",
+              "name": "Salad16629",
+              "amount": 913,
+              "price": 47744,
+              "manufacturer": "Sony",
+              "notes": "oIedyPAgWDgepYxCOTXSYLkLPyHHX86Bq5HbS17hAxHvC1HvNkMSAk5Y2YrVRyzvo0aB9P2KFamG34NpJiJYdAcfbybxeAlstJ2eqjyTroTTHwHUX1ajVqrX33DwrZrwGE2kn6J2Wm8muwQki2JO4c1teLcf7segqbJWHq5HTZ22uMVARLzNGdaDvIuKFSkeGZJF49Vvt90BdBDx4uewpMerKjF1MccjeQDt0zSHdv6eYY77KPJgp6NZZU",
+              "received": false
+            },
+            {
+              "_id": "696d5dfc1c508c5d5eb4a3d9",
+              "name": "Keyboard44981",
+              "amount": 347,
+              "price": 85798,
+              "manufacturer": "Samsung",
+              "notes": "TGifjP3ymqRwQ7k78ErW4AY8JEdQ7Djddnqu5qENJkQ5trmqAQL5bYmX02OgtH3x6i3r39MUhhlmpqB6S0ShRrD8xmRTer9SuVrEIhVxoG8BanDU0zfqqroW7rMXV4dJSWwErBwneWXxOzRb3fvZeMfqOn3yZnyUQhc00IaKluJmz4rZTGKF46JWENaZ5YbTc5TO5iSZVQxsCkAAQo4bTfum6fVJ72VAzAlu05nR3aySmkkLGBGzKCkyWn",
+              "received": false
+            }
+          ],
+          "total_price": 133542,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:26:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dfc1c508c5d5eb4a403"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

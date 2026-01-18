@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-3VlXe02u0wAbKhdyWTfe8tONd6w\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5ddb1c508c5d5eb48dae",
+        "email": "Otto_Donnelly55@gmail.com",
+        "name": "Noel Kessler",
+        "country": "Ukraine",
+        "city": "Flatleychester",
+        "street": "Antwan Causeway",
+        "house": 41,
+        "flat": 52,
+        "phone": "+16504625355",
+        "createdOn": "2026-01-18T22:25:31.000Z",
+        "notes": "B2vE5TFfP2TKLrdaUP3RqBPjnX8SCvBiHzh0kroG47ZqXZjFuC6Y9ilkQyElbrxanw1UAlXQBYTiOPvaDim82fWTvnkH7kHyvSIjFSba95WaKKMuCxNtUZDHY0nd5dILZIGAGE4ajVNHVv4NuBtbul1QsRuzZg5QUFGxqBD4SQeRvybN4l8Iy7lqdbV1SyCRpGcBSZmC9XeQpe80kmFjaJgTjbw93RsdU2CfOVZeJFMg7yCwuXYuwwNfbb"
+      },
+      "products": [
+        {
+          "_id": "696d5ddb1c508c5d5eb48dcc",
+          "name": "Chicken33722",
+          "amount": 362,
+          "price": 43337,
+          "manufacturer": "Samsung",
+          "notes": "VyxyoMmqoJw4qyzfzVz4hUngsinUK51HL8Ej8rHRhnbMM0CVj8v98uzxmZo0mXsPfCD9NVHMuouKwC8OuPOMXFP1ttOpNACwpItFSyqrsiKrrOXBWDWQkuRePLIRjOtQUgyzpxywjARhPPMcvoPfnLSVEhEPDGuzU7TNOKgI1BIsjwXKCjfTNrYmd9gtyQDajHoPRk6DNLUfnpzjBZuOrxtrujlf9PlbbZaTW1Q6G3NbVntFN0rVvv1sNw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43337,
+      "createdOn": "2026-01-18T22:25:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5ddb1c508c5d5eb48dae",
+          "products": [
+            {
+              "_id": "696d5ddb1c508c5d5eb48dcc",
+              "name": "Chicken33722",
+              "amount": 362,
+              "price": 43337,
+              "manufacturer": "Samsung",
+              "notes": "VyxyoMmqoJw4qyzfzVz4hUngsinUK51HL8Ej8rHRhnbMM0CVj8v98uzxmZo0mXsPfCD9NVHMuouKwC8OuPOMXFP1ttOpNACwpItFSyqrsiKrrOXBWDWQkuRePLIRjOtQUgyzpxywjARhPPMcvoPfnLSVEhEPDGuzU7TNOKgI1BIsjwXKCjfTNrYmd9gtyQDajHoPRk6DNLUfnpzjBZuOrxtrujlf9PlbbZaTW1Q6G3NbVntFN0rVvv1sNw",
+              "received": false
+            }
+          ],
+          "total_price": 43337,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5ddc1c508c5d5eb48de7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

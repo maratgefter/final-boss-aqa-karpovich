@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3884",
+    "etag": "W/\"f2c-yhDnWhCL7n0GxIk/Yu28S5LRbUA\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696d5dec1c508c5d5eb499e9",
+      "status": "In Process",
+      "customer": {
+        "_id": "696d5de91c508c5d5eb49821",
+        "email": "Audreanne.Mante@gmail.com",
+        "name": "Destiney Osinski",
+        "country": "Canada",
+        "city": "Noelfort",
+        "street": "Main Street E",
+        "house": 27,
+        "flat": 378,
+        "phone": "+18149814672",
+        "createdOn": "2026-01-18T22:25:45.000Z",
+        "notes": "EhOOUwBWKY4FNJQOQqd0kF9hw36JqIxY7Y0gogGTOJVVQcS71Yz1VXppQ4pIPwCEZs8NgQTLVHOtI1LXftFEsntkUIOLdQjJ4bh7C9rMs0qkdcbrjTqhyJtWpviRAOjruCXD5220iiGMLpkQ8NFkTqYYNqR7rKcFBjROkwM7kYppTB0ZLid2shg4ZxyZDQ4G8kqKoNriVqF8rldMbvlZXDyFn3nIe7lJWVb4NawYYVNqBW1C27gyLoOLAx"
+      },
+      "products": [
+        {
+          "_id": "696d5dea1c508c5d5eb49903",
+          "name": "Salad61031",
+          "amount": 745,
+          "price": 76767,
+          "manufacturer": "Microsoft",
+          "notes": "8T1o0nglYdn9otu4yq4whv7uzrV3Z97L93riX5XyfcrqaNBqBEwSgEGTSFBHhN09RqdDNbh30rlRrdQEj3LStdvfhL6yzEFyewNyC54oJ4mliWspQsx9qrfkwN61e760PooPX6n9frruieQZaiJaOK35rn3yzuyPCm7VNuXk1k3vhPqy3iCxfzvKszsrzmKiEEacxx7R2NnKgEhXUIbpU4Rxbt1TkrFPSHlOqswfcX2yLWF3qJvCGyJxzM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Noelfort",
+          "street": "Main Street E",
+          "house": 27,
+          "flat": 378
+        },
+        "finalDate": "2026-01-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 76767,
+      "createdOn": "2026-01-18T22:25:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696d5de91c508c5d5eb49821",
+          "products": [
+            {
+              "_id": "696d5dea1c508c5d5eb49903",
+              "name": "Salad61031",
+              "amount": 745,
+              "price": 76767,
+              "manufacturer": "Microsoft",
+              "notes": "8T1o0nglYdn9otu4yq4whv7uzrV3Z97L93riX5XyfcrqaNBqBEwSgEGTSFBHhN09RqdDNbh30rlRrdQEj3LStdvfhL6yzEFyewNyC54oJ4mliWspQsx9qrfkwN61e760PooPX6n9frruieQZaiJaOK35rn3yzuyPCm7VNuXk1k3vhPqy3iCxfzvKszsrzmKiEEacxx7R2NnKgEhXUIbpU4Rxbt1TkrFPSHlOqswfcX2yLWF3qJvCGyJxzM",
+              "received": false
+            }
+          ],
+          "total_price": 76767,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Noelfort",
+              "street": "Main Street E",
+              "house": 27,
+              "flat": 378
+            },
+            "finalDate": "2026-01-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-18T22:25:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696d5de91c508c5d5eb49821",
+          "products": [
+            {
+              "_id": "696d5dea1c508c5d5eb49903",
+              "name": "Salad61031",
+              "amount": 745,
+              "price": 76767,
+              "manufacturer": "Microsoft",
+              "notes": "8T1o0nglYdn9otu4yq4whv7uzrV3Z97L93riX5XyfcrqaNBqBEwSgEGTSFBHhN09RqdDNbh30rlRrdQEj3LStdvfhL6yzEFyewNyC54oJ4mliWspQsx9qrfkwN61e760PooPX6n9frruieQZaiJaOK35rn3yzuyPCm7VNuXk1k3vhPqy3iCxfzvKszsrzmKiEEacxx7R2NnKgEhXUIbpU4Rxbt1TkrFPSHlOqswfcX2yLWF3qJvCGyJxzM",
+              "received": false
+            }
+          ],
+          "total_price": 76767,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Noelfort",
+              "street": "Main Street E",
+              "house": 27,
+              "flat": 378
+            },
+            "finalDate": "2026-01-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-18T22:25:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696d5de91c508c5d5eb49821",
+          "products": [
+            {
+              "_id": "696d5dea1c508c5d5eb49903",
+              "name": "Salad61031",
+              "amount": 745,
+              "price": 76767,
+              "manufacturer": "Microsoft",
+              "notes": "8T1o0nglYdn9otu4yq4whv7uzrV3Z97L93riX5XyfcrqaNBqBEwSgEGTSFBHhN09RqdDNbh30rlRrdQEj3LStdvfhL6yzEFyewNyC54oJ4mliWspQsx9qrfkwN61e760PooPX6n9frruieQZaiJaOK35rn3yzuyPCm7VNuXk1k3vhPqy3iCxfzvKszsrzmKiEEacxx7R2NnKgEhXUIbpU4Rxbt1TkrFPSHlOqswfcX2yLWF3qJvCGyJxzM",
+              "received": false
+            }
+          ],
+          "total_price": 76767,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

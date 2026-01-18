@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-su+BR6eGgWucKq7mCKgrmq/HIqI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dca1c508c5d5eb48328",
+        "email": "Sanford_Blanda@gmail.com",
+        "name": "Eddie Parisian",
+        "country": "Russia",
+        "city": "Schaumburg",
+        "street": "Ferry Terrace",
+        "house": 12,
+        "flat": 64,
+        "phone": "+15454203437",
+        "createdOn": "2026-01-18T22:25:14.000Z",
+        "notes": "7c69Heti3PIryWO0ES1wWccVdBdoXR3THZaTdrJPANGRVJFHttvdJ1cVtSF6SxIbX3cBZWis1Av6SkqJRRJIEepZoQtUQur08IKwN1d7AZymq9s5L9iv1vsnl54gfZBTYdweSKd4fdO1G4DXoBCpBVXYkSLLDq8oLlqegxctCaCYulXCY2dttaeM3VVuUiJjNfM5Wz3oe2JEZYR1DgoEU9nPSjJVORxamzaUg0C26htWJKH0XzzY8tSgNK"
+      },
+      "products": [
+        {
+          "_id": "696d5dcb1c508c5d5eb48341",
+          "name": "Salad18521",
+          "amount": 437,
+          "price": 37280,
+          "manufacturer": "Samsung",
+          "notes": "kMKFbHxbZAZM5qDZd87mKvMcTn8yT5KtfwzYoJx0c5nvJA7SJMq7AJGKkXHvv4NSoRy4lcxppLvIjLtyVo0i6EprVAOisxxjDEraD3JR6zJzwuCDtw7BXXvGukNh6nX3QdXjHEYZ96nOlcRlOqt6bkefXcrfPrKPpFRjagrWfsztx4eBKnuVXIU5Px1Zqkq7z2TNU2xJNpGni8F5GoG9B10RMCVgNGRzwe3pcwZsCc8OV3Dn4xGUu5TZPt",
+          "received": false
+        },
+        {
+          "_id": "696d5dcc1c508c5d5eb4841a",
+          "name": "Shoes13961",
+          "amount": 23,
+          "price": 48703,
+          "manufacturer": "Apple",
+          "notes": "INmO5seUf8O0I6vAlkJbT9St20RQ461M8Dkoy7TBw9Qku5vM07azwAVi13pYkB8fute5W82eNAr988jbciNhFtMNQttgB0qWBqUwca7j1zH6zCNOqm1rIUdJp0ItTUCJ18UK0uRfwBPNUIGxSow2wHImjYIYCOaxFC8ZYikOjBSJYjC3m2hgIeIPRk7SzbShlZCPdJfWXApsn743ChKwxH27rSGlQ1vgKiXDV4QcRtIGSZBdtMW3otHgUr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85983,
+      "createdOn": "2026-01-18T22:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dca1c508c5d5eb48328",
+          "products": [
+            {
+              "_id": "696d5dcb1c508c5d5eb48341",
+              "name": "Salad18521",
+              "amount": 437,
+              "price": 37280,
+              "manufacturer": "Samsung",
+              "notes": "kMKFbHxbZAZM5qDZd87mKvMcTn8yT5KtfwzYoJx0c5nvJA7SJMq7AJGKkXHvv4NSoRy4lcxppLvIjLtyVo0i6EprVAOisxxjDEraD3JR6zJzwuCDtw7BXXvGukNh6nX3QdXjHEYZ96nOlcRlOqt6bkefXcrfPrKPpFRjagrWfsztx4eBKnuVXIU5Px1Zqkq7z2TNU2xJNpGni8F5GoG9B10RMCVgNGRzwe3pcwZsCc8OV3Dn4xGUu5TZPt",
+              "received": false
+            },
+            {
+              "_id": "696d5dcc1c508c5d5eb4841a",
+              "name": "Shoes13961",
+              "amount": 23,
+              "price": 48703,
+              "manufacturer": "Apple",
+              "notes": "INmO5seUf8O0I6vAlkJbT9St20RQ461M8Dkoy7TBw9Qku5vM07azwAVi13pYkB8fute5W82eNAr988jbciNhFtMNQttgB0qWBqUwca7j1zH6zCNOqm1rIUdJp0ItTUCJ18UK0uRfwBPNUIGxSow2wHImjYIYCOaxFC8ZYikOjBSJYjC3m2hgIeIPRk7SzbShlZCPdJfWXApsn743ChKwxH27rSGlQ1vgKiXDV4QcRtIGSZBdtMW3otHgUr",
+              "received": false
+            }
+          ],
+          "total_price": 85983,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dcc1c508c5d5eb48443"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

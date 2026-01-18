@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-UAsqVR+pvhlPY50H9pfkfoeUons\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5dd31c508c5d5eb48826",
+        "email": "Genoveva.Mueller52@gmail.com",
+        "name": "Lexi Bosco",
+        "country": "USA",
+        "city": "Gerholdmouth",
+        "street": "Meadow Way",
+        "house": 5,
+        "flat": 37,
+        "phone": "+15207267778",
+        "createdOn": "2026-01-18T22:25:23.000Z",
+        "notes": "JiR4JapZA5fZu81xJXEJa88qkWwjW7eP2At6F3LmjcfcMRZSZAR1Qsbf09EQjwXFAf8degvwH4iaQPyKbkQHhk2SeLryUA6SiIgxHFGJcNII3nZ5eshXqfiJoAG7XF9UGTmFqTkRh7mmmvsfhgrHTR8ZN7WKAwS8rxidHsnxohkjKl9rGAN8ESx3plqQnT5ZJ9MlbtgvWGn90AuXxNyY4EQzQEzGyNtqujBV6JYRCsWCY9oAWKrex0QgHE"
+      },
+      "products": [
+        {
+          "_id": "696d5dd31c508c5d5eb48849",
+          "name": "Chair23369",
+          "amount": 782,
+          "price": 38821,
+          "manufacturer": "Amazon",
+          "notes": "6oIjJMK7tETud1UrlkHauXmALgusCTcLNXIRmN4k1yfp3BVPQG3iHuoqGBT8TCAgdtDAKJfWBMEMxuLu2wwHKeoNHGRWQDqDRWlN5FhQuCk0riXzSkYUNWkqyqWNniGK7Ha5XoHwtmesBUtepu2vbWfugQemu3q5LlaeCzFr8tFid5PFbmBmuC7p4SmoqqUOJd2JegH6clV9pcvUK1CrRMiBFeHoU1IYvE59szHqrCmeUFWyOYG0VD6PV7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38821,
+      "createdOn": "2026-01-18T22:25:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5dd31c508c5d5eb48826",
+          "products": [
+            {
+              "_id": "696d5dd31c508c5d5eb48849",
+              "name": "Chair23369",
+              "amount": 782,
+              "price": 38821,
+              "manufacturer": "Amazon",
+              "notes": "6oIjJMK7tETud1UrlkHauXmALgusCTcLNXIRmN4k1yfp3BVPQG3iHuoqGBT8TCAgdtDAKJfWBMEMxuLu2wwHKeoNHGRWQDqDRWlN5FhQuCk0riXzSkYUNWkqyqWNniGK7Ha5XoHwtmesBUtepu2vbWfugQemu3q5LlaeCzFr8tFid5PFbmBmuC7p4SmoqqUOJd2JegH6clV9pcvUK1CrRMiBFeHoU1IYvE59szHqrCmeUFWyOYG0VD6PV7",
+              "received": false
+            }
+          ],
+          "total_price": 38821,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5dd41c508c5d5eb4893b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 18 Jan 2026 22:25:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-l4GxbFAF0cJj859Uxn1hwVMSKCw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696d5ddb1c508c5d5eb48dab",
+        "email": "Rachael.Kessler@yahoo.com",
+        "name": "Adrian Ratke",
+        "country": "Great Britain",
+        "city": "Minot",
+        "street": "S Main Street",
+        "house": 42,
+        "flat": 533,
+        "phone": "+19756489976",
+        "createdOn": "2026-01-18T22:25:31.000Z",
+        "notes": "YtW2czN7EonEFx8M9AjU0a9bYDQNxzLeENLNqKJQr2ht3POl2id5qOyTYjgnMCNSi0QakZrap30rzJDGfPO9V0eh2z7skb3Km6HcaIIRItAu9sL8BzsDTpf9YobYqb8OtPwTYK3k1wwxj4f0sihwPE4hzPkrII2CadLaglYhOAgQw8yAYRQR92IOYSEFlrew3q6TPeKrWaCo80w7OuWIrIzymjiNxD2G3OYsBYq3TWcqMz3O1pk1j5CLAZ"
+      },
+      "products": [
+        {
+          "_id": "696d5ddb1c508c5d5eb48dd2",
+          "name": "Salad84217",
+          "amount": 285,
+          "price": 70575,
+          "manufacturer": "Samsung",
+          "notes": "dEytMi5trYWWgLoITH2JYDc2FWEz2tPY7jj1kdCiVCJNNNSqHzjmHaWelgMzJ7h5YYmHeUWJDC7Bdl2asAKsUn3ck1jVAyvb5lhmqf97CMBpBsGok4QAxdnN56tAPE7ueEFdztSuZ76qqghJQOG0wllG7Ad8KyoPVfoiwd9PXKIDFsewWzUAtDnphqaLGwzOBIVBOklgKV9XmeN3OC5G2IODAqmoCjJZK1KZ8JX8DQMBMaSBOOMQsLBkJc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70575,
+      "createdOn": "2026-01-18T22:25:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696d5ddb1c508c5d5eb48dab",
+          "products": [
+            {
+              "_id": "696d5ddb1c508c5d5eb48dd2",
+              "name": "Salad84217",
+              "amount": 285,
+              "price": 70575,
+              "manufacturer": "Samsung",
+              "notes": "dEytMi5trYWWgLoITH2JYDc2FWEz2tPY7jj1kdCiVCJNNNSqHzjmHaWelgMzJ7h5YYmHeUWJDC7Bdl2asAKsUn3ck1jVAyvb5lhmqf97CMBpBsGok4QAxdnN56tAPE7ueEFdztSuZ76qqghJQOG0wllG7Ad8KyoPVfoiwd9PXKIDFsewWzUAtDnphqaLGwzOBIVBOklgKV9XmeN3OC5G2IODAqmoCjJZK1KZ8JX8DQMBMaSBOOMQsLBkJc",
+              "received": false
+            }
+          ],
+          "total_price": 70575,
+          "delivery": null,
+          "changedOn": "2026-01-18T22:25:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696d5ddc1c508c5d5eb48df3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
