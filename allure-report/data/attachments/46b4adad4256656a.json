@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-MRLj5zzMFOUYJ+0SMe4ruhDQ/oo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eaff51c508c5d5eb55578",
+        "email": "Glen.Lind27@yahoo.com",
+        "name": "Nils Brakus",
+        "country": "Ukraine",
+        "city": "South Stephan",
+        "street": "Odell Throughway",
+        "house": 21,
+        "flat": 988,
+        "phone": "+16792050977",
+        "createdOn": "2026-01-19T22:28:05.000Z",
+        "notes": "ntO4hy69ufDTifwgFtTDGh4V6ZYe5k0bJFmS1I8eh2qVs5GUyM8AYq3eKBmZhPH0aPPLLO3mtuA9n1AXFxCCDXgSmutLg2KgpL7nhPlAlsBYs7lVUZtqnTLOx3qwoZmPhAbhInFj6W9rLBtkwL7sC5NUxTdeRisO4pabAhOmzCdILdGMjxnfn871FmHdPfBEz704rZP1kkxR71Zwt38wkiwLqQn8ZXEp4JSVflXP8Lp3ChI6C1aYkRSgL4"
+      },
+      "products": [
+        {
+          "_id": "696eaff61c508c5d5eb555ac",
+          "name": "Towels12342",
+          "amount": 353,
+          "price": 22821,
+          "manufacturer": "Sony",
+          "notes": "G82crnm36aHpKaOz1GR4vj6yS7u4G1hq1oXgvsJDuoflGfqJBiwjUw4vMGWkDv0CFFR5u11WovCkWH739Et10cvzEMqy7eJOi99aPLIWfHXuPeWik1SUXwkzNkNEO4bKGqzVIs8nWc5xsNYmHRRtdSfzgEmFS8KSAWl6QWNM2FFLYpKxMfhmEL0bnW7XzgTw1cUrRfXkyt8rAOqnwDF6uUvEhWrY51nnOQ38ZaDnC0Uf2sz05CzUAxzGTX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22821,
+      "createdOn": "2026-01-19T22:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eaff51c508c5d5eb55578",
+          "products": [
+            {
+              "_id": "696eaff61c508c5d5eb555ac",
+              "name": "Towels12342",
+              "amount": 353,
+              "price": 22821,
+              "manufacturer": "Sony",
+              "notes": "G82crnm36aHpKaOz1GR4vj6yS7u4G1hq1oXgvsJDuoflGfqJBiwjUw4vMGWkDv0CFFR5u11WovCkWH739Et10cvzEMqy7eJOi99aPLIWfHXuPeWik1SUXwkzNkNEO4bKGqzVIs8nWc5xsNYmHRRtdSfzgEmFS8KSAWl6QWNM2FFLYpKxMfhmEL0bnW7XzgTw1cUrRfXkyt8rAOqnwDF6uUvEhWrY51nnOQ38ZaDnC0Uf2sz05CzUAxzGTX",
+              "received": false
+            }
+          ],
+          "total_price": 22821,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eaff61c508c5d5eb555d4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

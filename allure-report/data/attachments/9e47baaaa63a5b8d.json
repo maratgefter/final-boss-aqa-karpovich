@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:28:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-EzDQ46N4Es2QYNleumRt6OYH2Jc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eaff71c508c5d5eb5573a",
+        "email": "Vilma31@yahoo.com",
+        "name": "Eliane Little",
+        "country": "Russia",
+        "city": "Brucestad",
+        "street": "Crescent Road",
+        "house": 42,
+        "flat": 668,
+        "phone": "+14574333619",
+        "createdOn": "2026-01-19T22:28:07.000Z",
+        "notes": "wSBNSihiOUq9kQAdUEtkw5umWrEkHbWi7dkAZyf87ZKR0Yqh3I8hdvchC6WQRoevcqRaNEFQlM5c9HAvaAKBgoyFT5lks9u8WQLm8c8jVEVnVsnhFwYsk3ZUvgmZYbt3FD6Xs4f7GYoxaXw1hZauDz6nRZg0dZlBEPotjNHXUdwFfDUxcdmc9HASBlom1DBVahe7sxghq6Z8BvopvMdHSaTj4Kkz3JVy6AB3KKKh3tFXfrjExvCglf8UkR"
+      },
+      "products": [
+        {
+          "_id": "696eaffa1c508c5d5eb55846",
+          "name": "Towels46825",
+          "amount": 386,
+          "price": 62609,
+          "manufacturer": "Sony",
+          "notes": "8E7wZ3FspLV9p8svYWoiE2cFsmfSMc593Mi2ci8l2S2clHF9AnNPT0cRDotGT6fKtksPz2PsX4JCSKrQxvzZyZ3xhjCICe2vm3NdrkvwxH42bjZOYrJZq7A44YiPoOvThH4MtOnxUm3sqt9qq9Eyh4ONnMW9HqkW7ZOC2Gb39dnaBDECToaXTATVRofJYUMZG85zWvxd9jpWam7cSu7eLS4wCBDuI46gy0NJiCwd9973yAH7oWI1knEBNX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62609,
+      "createdOn": "2026-01-19T22:28:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eaff71c508c5d5eb5573a",
+          "products": [
+            {
+              "_id": "696eaffa1c508c5d5eb55846",
+              "name": "Towels46825",
+              "amount": 386,
+              "price": 62609,
+              "manufacturer": "Sony",
+              "notes": "8E7wZ3FspLV9p8svYWoiE2cFsmfSMc593Mi2ci8l2S2clHF9AnNPT0cRDotGT6fKtksPz2PsX4JCSKrQxvzZyZ3xhjCICe2vm3NdrkvwxH42bjZOYrJZq7A44YiPoOvThH4MtOnxUm3sqt9qq9Eyh4ONnMW9HqkW7ZOC2Gb39dnaBDECToaXTATVRofJYUMZG85zWvxd9jpWam7cSu7eLS4wCBDuI46gy0NJiCwd9973yAH7oWI1knEBNX",
+              "received": false
+            }
+          ],
+          "total_price": 62609,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eaffd1c508c5d5eb55b1d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

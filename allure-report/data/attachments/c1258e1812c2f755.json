@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-3aNhQLuW9r6UM8DDR47o4wbmX8c\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafc21c508c5d5eb53421",
+        "email": "Clinton.Fisher@hotmail.com",
+        "name": "Corine Spencer",
+        "country": "Great Britain",
+        "city": "South Bentonberg",
+        "street": "Watsica Springs",
+        "house": 8,
+        "flat": 923,
+        "phone": "+16313750558",
+        "createdOn": "2026-01-19T22:27:14.000Z",
+        "notes": "U5AiiVHHCAp4xnSDz7x48E70PBMw6fMOaYB0XxqoPtXLlxPiSCoF9GSE0QA5iHIo69bf9InnwScERNiA0hPEK7MYR2WvOHKgXTbqaFX8kmGl2k4SuOuS4cD9Bdq1VDV5qCguKwfxMskSfAqpY9lmiDTNbLje2vxZbDMli8SAG6khHhLG2d3BWxX5f4BEyvMz0Ubwx8UYhs12joIy2yJu610KgyD3J30yrKVDznbTSNHgThHXDbxLO18sEU"
+      },
+      "products": [
+        {
+          "_id": "696eafc21c508c5d5eb53440",
+          "name": "Soap7519",
+          "amount": 127,
+          "price": 28584,
+          "manufacturer": "Samsung",
+          "notes": "1wmsYfLE2u0k8XcoLbRL8NjbV2RxIATGxvUlY8yuxz9cgQuV3I1jq9rf2wp6MujLViBvtMl0rCn5CF8dzJjjMPLFMUyIQzCn1DEWicUFXeiHLWIYEiGnk4uIiklgZBNmGAh2RciqScTHB4w6p3wYPB6BfGMK94sI5hy4WI1l5hoklQuzJ8Wu6KqFs3Ky9zeVObj7R2FaTPGeyInxm755PAtNhZFcHNqldldbpYeoXjsqJVQ7xgnKrFQXiN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28584,
+      "createdOn": "2026-01-19T22:27:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafc21c508c5d5eb53421",
+          "products": [
+            {
+              "_id": "696eafc21c508c5d5eb53440",
+              "name": "Soap7519",
+              "amount": 127,
+              "price": 28584,
+              "manufacturer": "Samsung",
+              "notes": "1wmsYfLE2u0k8XcoLbRL8NjbV2RxIATGxvUlY8yuxz9cgQuV3I1jq9rf2wp6MujLViBvtMl0rCn5CF8dzJjjMPLFMUyIQzCn1DEWicUFXeiHLWIYEiGnk4uIiklgZBNmGAh2RciqScTHB4w6p3wYPB6BfGMK94sI5hy4WI1l5hoklQuzJ8Wu6KqFs3Ky9zeVObj7R2FaTPGeyInxm755PAtNhZFcHNqldldbpYeoXjsqJVQ7xgnKrFQXiN",
+              "received": false
+            }
+          ],
+          "total_price": 28584,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eafc21c508c5d5eb53468"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

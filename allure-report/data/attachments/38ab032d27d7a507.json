@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-8pYST2hJy8+ogZhSWCw2EH1KYf4\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafcf1c508c5d5eb53b38",
+        "email": "Fay84@hotmail.com",
+        "name": "Dusty Rempel",
+        "country": "France",
+        "city": "Runolfsdottirhaven",
+        "street": "Shaylee Drives",
+        "house": 36,
+        "flat": 700,
+        "phone": "+17146968114",
+        "createdOn": "2026-01-19T22:27:27.000Z",
+        "notes": "v88H5iv2ViTFF9wcT4074MOyREyuvDjbF0Yzn7SIalOOodDEQ30GfKaabGhiZ08Nv3Ai9lmhP4WVQo2VRW2KaGXep5mGdb4CqPR0CR0jhrJN7V2MWqjenAILosq2cenzTHUL5zJjxhuErLViWcN779vaD9dppO0q4jV6x1sQgKMetVwBRGBTuEoaWfdxswDDjD4zOT9ySy7Cm0qVV72mXfqV00NV0LrZJKpVLUefgyKQSlIFnuN14gnAaf"
+      },
+      "products": [
+        {
+          "_id": "696eafd01c508c5d5eb53c2a",
+          "name": "Chicken14583",
+          "amount": 732,
+          "price": 61410,
+          "manufacturer": "Microsoft",
+          "notes": "btkf6kd0OYTggBRfBXvlwqgOv4d2kZ3fGUjHnfd1gP1Vlwzem5KEcX05d6h3pkO2hrJlXo28QKIE1WZX6yVLWDklLts5BA8zNbYUnlA5qvKlFJHKpnqQBKUAxp9UrgRkXaHOczzKpltZqXegBklCU8xFJ41LnzOQCmT0dV27MCrHC5PYqKtGF7zR9nsqOHj8jbkxEGStPCzSYkLIksJwLL3LujfaN0RPVTJREvWIzjZl1FrwBWBp6gMGMl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61410,
+      "createdOn": "2026-01-19T22:27:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafcf1c508c5d5eb53b38",
+          "products": [
+            {
+              "_id": "696eafd01c508c5d5eb53c2a",
+              "name": "Chicken14583",
+              "amount": 732,
+              "price": 61410,
+              "manufacturer": "Microsoft",
+              "notes": "btkf6kd0OYTggBRfBXvlwqgOv4d2kZ3fGUjHnfd1gP1Vlwzem5KEcX05d6h3pkO2hrJlXo28QKIE1WZX6yVLWDklLts5BA8zNbYUnlA5qvKlFJHKpnqQBKUAxp9UrgRkXaHOczzKpltZqXegBklCU8xFJ41LnzOQCmT0dV27MCrHC5PYqKtGF7zR9nsqOHj8jbkxEGStPCzSYkLIksJwLL3LujfaN0RPVTJREvWIzjZl1FrwBWBp6gMGMl",
+              "received": false
+            }
+          ],
+          "total_price": 61410,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eafd11c508c5d5eb53c48"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

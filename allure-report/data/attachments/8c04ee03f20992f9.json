@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3886",
+    "etag": "W/\"f2e-RX0keI3J/ek+v24II3TOKFflZWU\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eafcd1c508c5d5eb539ed",
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafcd1c508c5d5eb539a8",
+        "email": "Jayda_Zemlak@gmail.com",
+        "name": "Tod Jenkins",
+        "country": "USA",
+        "city": "Amarabury",
+        "street": "Bedford Road",
+        "house": 17,
+        "flat": 255,
+        "phone": "+17235038121",
+        "createdOn": "2026-01-19T22:27:25.000Z",
+        "notes": "FN4oLKaQlDcfzTu70G8DwVWk4C7uS0V3DkRgfJtw0mmu6TJA2bhJqsrHepVGgu90QcrGITGGuBIYN0e5oc8ZaMiAx1ONppxxD2Dzkh00nVi4jnExNXSFRtSFK0zzHiSorKuG5phz1Ra70pnhXFP3R1vIfveUDY19BBh2jSMwslQlWaxjPGVy81nUUYJBGTTebB91UrPnju7df9If7jq64r8jwAYVEv33SOtmJHNCgzfozUWmXjGp4oLgT3"
+      },
+      "products": [
+        {
+          "_id": "696eafcd1c508c5d5eb539ce",
+          "name": "Fish52860",
+          "amount": 368,
+          "price": 22966,
+          "manufacturer": "Microsoft",
+          "notes": "pCrDW9RwlETxyktxBbKZkeD4woSFTWVgm7BmA6wqm5Eam1X5lIGvQUN7pDuyqWNh8RZcFAbYe953IOAVVlejauJaic86VCFLKBd1dctR0rUaGhJx2NAEOkoUPgs4GVaZrArmjwtra2YfMwgPtDtHoGky2MqFP0V3Qdls4dTv0DO9doRcsVi2PgiStUv84nbi5CyRXEE9HtmJVlcot2sKfQdCw0VkmJGbe7UAwo8Rz1bDPRdiKImyrknQ2b",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22966,
+      "createdOn": "2026-01-19T22:27:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafcd1c508c5d5eb539a8",
+          "products": [
+            {
+              "_id": "696eafcd1c508c5d5eb539ce",
+              "name": "Fish52860",
+              "amount": 368,
+              "price": 22966,
+              "manufacturer": "Microsoft",
+              "notes": "pCrDW9RwlETxyktxBbKZkeD4woSFTWVgm7BmA6wqm5Eam1X5lIGvQUN7pDuyqWNh8RZcFAbYe953IOAVVlejauJaic86VCFLKBd1dctR0rUaGhJx2NAEOkoUPgs4GVaZrArmjwtra2YfMwgPtDtHoGky2MqFP0V3Qdls4dTv0DO9doRcsVi2PgiStUv84nbi5CyRXEE9HtmJVlcot2sKfQdCw0VkmJGbe7UAwo8Rz1bDPRdiKImyrknQ2b",
+              "received": false
+            }
+          ],
+          "total_price": 22966,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:27.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696eafcd1c508c5d5eb539a8",
+          "products": [
+            {
+              "_id": "696eafcd1c508c5d5eb539ce",
+              "name": "Fish52860",
+              "amount": 368,
+              "price": 22966,
+              "manufacturer": "Microsoft",
+              "notes": "pCrDW9RwlETxyktxBbKZkeD4woSFTWVgm7BmA6wqm5Eam1X5lIGvQUN7pDuyqWNh8RZcFAbYe953IOAVVlejauJaic86VCFLKBd1dctR0rUaGhJx2NAEOkoUPgs4GVaZrArmjwtra2YfMwgPtDtHoGky2MqFP0V3Qdls4dTv0DO9doRcsVi2PgiStUv84nbi5CyRXEE9HtmJVlcot2sKfQdCw0VkmJGbe7UAwo8Rz1bDPRdiKImyrknQ2b",
+              "received": false
+            }
+          ],
+          "total_price": 22966,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:26.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696eafcd1c508c5d5eb539a8",
+          "products": [
+            {
+              "_id": "696eafcd1c508c5d5eb539ce",
+              "name": "Fish52860",
+              "amount": 368,
+              "price": 22966,
+              "manufacturer": "Microsoft",
+              "notes": "pCrDW9RwlETxyktxBbKZkeD4woSFTWVgm7BmA6wqm5Eam1X5lIGvQUN7pDuyqWNh8RZcFAbYe953IOAVVlejauJaic86VCFLKBd1dctR0rUaGhJx2NAEOkoUPgs4GVaZrArmjwtra2YfMwgPtDtHoGky2MqFP0V3Qdls4dTv0DO9doRcsVi2PgiStUv84nbi5CyRXEE9HtmJVlcot2sKfQdCw0VkmJGbe7UAwo8Rz1bDPRdiKImyrknQ2b",
+              "received": false
+            }
+          ],
+          "total_price": 22966,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

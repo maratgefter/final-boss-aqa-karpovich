@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:28:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5385",
+    "etag": "W/\"1509-/u7vMtUFcUhCVcNbaxod/AO54o8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eb01d1c508c5d5eb56e34",
+      "status": "In Process",
+      "customer": {
+        "_id": "696eb01b1c508c5d5eb56cd4",
+        "email": "Vilma.Parker91@yahoo.com",
+        "name": "Deangelo Hettinger",
+        "country": "France",
+        "city": "West Eva",
+        "street": "Jones Valleys",
+        "house": 40,
+        "flat": 162,
+        "phone": "+16056799730",
+        "createdOn": "2026-01-19T22:28:43.000Z",
+        "notes": "LnJLjjmU2R27LH6dB93rXxNTP59rlBcexkBJOi1mxd3jQmhaysvUPHXuUgHrVYrBX8qZrgkU5mKKnA3Y5AkWy4yewsrciGyyYT75MWybl2nH3qALY5bp0xud6NgEjzfVBYHjjKr6oV1kG3MHoEd0DdmlYnamY2gQnDTWELkXJMpmfvxGcOx7yhAmwPSt4L6Y9LfuD8mtmI1vMTT4oIG1F9rpO8shLDKOhjIAwJ0IuQd3Nz73aaotZiSbr0"
+      },
+      "products": [
+        {
+          "_id": "696eb01b1c508c5d5eb56cf5",
+          "name": "Fish67861",
+          "amount": 498,
+          "price": 35374,
+          "manufacturer": "Apple",
+          "notes": "fndiW6k1l8A3b6qJKxNCmTJrPfvTlQyE7lVCmLTsoQCJWmJ4dbh9Qfi2i3TlKLdQn5gaKH1lKZGNxuZU38KywXs7lhBtBfvsAYJmV9DQ8mghMK4rnnQmIsCXYn7ro7LcjW2JxFR5jcPu3QKsHoqBwwQvkUSG4KXLWAYF866whZLCr3imPfcCL4pPgKLdfpdatpP1XxQHt1famrzC0zuJZG61NMEWNjFO16Kens2HzbKoMYA42JQutqRwGA",
+          "received": false
+        },
+        {
+          "_id": "696eb01c1c508c5d5eb56d11",
+          "name": "Car41803",
+          "amount": 107,
+          "price": 6715,
+          "manufacturer": "Tesla",
+          "notes": "FeKzs7esYhKUxJwaprThHNqoAd8JyUd5RyhWXBf6A3REZ49NkBTCDS5ilOVfx6XoNc8ZUecRsuuteeRYNFs2MsmLE7nN2xZErd4ZnqDK4ZPRcxU8gS1b54ktvUNqPktBlkOBX5lD2mfMkkJaBbWZxXeCcjsmDQbevb8qomooRgMMYHiawf7k97uju2RXpjYXRw97SlrgMptMHaOELpKVdg7VwqdLZ2vjw9hzoNhByaFZaPhHXzJfHbHeEA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Eva",
+          "street": "Jones Valleys",
+          "house": 40,
+          "flat": 162
+        },
+        "finalDate": "2026-01-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 42089,
+      "createdOn": "2026-01-19T22:28:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696eb01b1c508c5d5eb56cd4",
+          "products": [
+            {
+              "_id": "696eb01b1c508c5d5eb56cf5",
+              "name": "Fish67861",
+              "amount": 498,
+              "price": 35374,
+              "manufacturer": "Apple",
+              "notes": "fndiW6k1l8A3b6qJKxNCmTJrPfvTlQyE7lVCmLTsoQCJWmJ4dbh9Qfi2i3TlKLdQn5gaKH1lKZGNxuZU38KywXs7lhBtBfvsAYJmV9DQ8mghMK4rnnQmIsCXYn7ro7LcjW2JxFR5jcPu3QKsHoqBwwQvkUSG4KXLWAYF866whZLCr3imPfcCL4pPgKLdfpdatpP1XxQHt1famrzC0zuJZG61NMEWNjFO16Kens2HzbKoMYA42JQutqRwGA",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d11",
+              "name": "Car41803",
+              "amount": 107,
+              "price": 6715,
+              "manufacturer": "Tesla",
+              "notes": "FeKzs7esYhKUxJwaprThHNqoAd8JyUd5RyhWXBf6A3REZ49NkBTCDS5ilOVfx6XoNc8ZUecRsuuteeRYNFs2MsmLE7nN2xZErd4ZnqDK4ZPRcxU8gS1b54ktvUNqPktBlkOBX5lD2mfMkkJaBbWZxXeCcjsmDQbevb8qomooRgMMYHiawf7k97uju2RXpjYXRw97SlrgMptMHaOELpKVdg7VwqdLZ2vjw9hzoNhByaFZaPhHXzJfHbHeEA",
+              "received": false
+            }
+          ],
+          "total_price": 42089,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Eva",
+              "street": "Jones Valleys",
+              "house": 40,
+              "flat": 162
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:28:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb01b1c508c5d5eb56cd4",
+          "products": [
+            {
+              "_id": "696eb01b1c508c5d5eb56cf5",
+              "name": "Fish67861",
+              "amount": 498,
+              "price": 35374,
+              "manufacturer": "Apple",
+              "notes": "fndiW6k1l8A3b6qJKxNCmTJrPfvTlQyE7lVCmLTsoQCJWmJ4dbh9Qfi2i3TlKLdQn5gaKH1lKZGNxuZU38KywXs7lhBtBfvsAYJmV9DQ8mghMK4rnnQmIsCXYn7ro7LcjW2JxFR5jcPu3QKsHoqBwwQvkUSG4KXLWAYF866whZLCr3imPfcCL4pPgKLdfpdatpP1XxQHt1famrzC0zuJZG61NMEWNjFO16Kens2HzbKoMYA42JQutqRwGA",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d11",
+              "name": "Car41803",
+              "amount": 107,
+              "price": 6715,
+              "manufacturer": "Tesla",
+              "notes": "FeKzs7esYhKUxJwaprThHNqoAd8JyUd5RyhWXBf6A3REZ49NkBTCDS5ilOVfx6XoNc8ZUecRsuuteeRYNFs2MsmLE7nN2xZErd4ZnqDK4ZPRcxU8gS1b54ktvUNqPktBlkOBX5lD2mfMkkJaBbWZxXeCcjsmDQbevb8qomooRgMMYHiawf7k97uju2RXpjYXRw97SlrgMptMHaOELpKVdg7VwqdLZ2vjw9hzoNhByaFZaPhHXzJfHbHeEA",
+              "received": false
+            }
+          ],
+          "total_price": 42089,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Eva",
+              "street": "Jones Valleys",
+              "house": 40,
+              "flat": 162
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:28:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb01b1c508c5d5eb56cd4",
+          "products": [
+            {
+              "_id": "696eb01b1c508c5d5eb56cf5",
+              "name": "Fish67861",
+              "amount": 498,
+              "price": 35374,
+              "manufacturer": "Apple",
+              "notes": "fndiW6k1l8A3b6qJKxNCmTJrPfvTlQyE7lVCmLTsoQCJWmJ4dbh9Qfi2i3TlKLdQn5gaKH1lKZGNxuZU38KywXs7lhBtBfvsAYJmV9DQ8mghMK4rnnQmIsCXYn7ro7LcjW2JxFR5jcPu3QKsHoqBwwQvkUSG4KXLWAYF866whZLCr3imPfcCL4pPgKLdfpdatpP1XxQHt1famrzC0zuJZG61NMEWNjFO16Kens2HzbKoMYA42JQutqRwGA",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d11",
+              "name": "Car41803",
+              "amount": 107,
+              "price": 6715,
+              "manufacturer": "Tesla",
+              "notes": "FeKzs7esYhKUxJwaprThHNqoAd8JyUd5RyhWXBf6A3REZ49NkBTCDS5ilOVfx6XoNc8ZUecRsuuteeRYNFs2MsmLE7nN2xZErd4ZnqDK4ZPRcxU8gS1b54ktvUNqPktBlkOBX5lD2mfMkkJaBbWZxXeCcjsmDQbevb8qomooRgMMYHiawf7k97uju2RXpjYXRw97SlrgMptMHaOELpKVdg7VwqdLZ2vjw9hzoNhByaFZaPhHXzJfHbHeEA",
+              "received": false
+            }
+          ],
+          "total_price": 42089,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

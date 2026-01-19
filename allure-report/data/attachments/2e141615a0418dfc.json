@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:29:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6943",
+    "etag": "W/\"1b1f-5S3qDPf9eoHmF2AUzq651j+uZg0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eb0201c508c5d5eb5703e",
+      "status": "In Process",
+      "customer": {
+        "_id": "696eb01b1c508c5d5eb56cc2",
+        "email": "Luna97@hotmail.com",
+        "name": "Jefferey Mertz",
+        "country": "France",
+        "city": "New Ericka",
+        "street": "Horacio Skyway",
+        "house": 28,
+        "flat": 18,
+        "phone": "+18237982854",
+        "createdOn": "2026-01-19T22:28:43.000Z",
+        "notes": "GsYPPBLKktJhKuuiyKRSNwwXToSC8R7uhtEaLrEHVIj8TLyGGugtv2hMR0peLdd3KSlQAW0fe5k1HDHLYNn1CZNPWrx48tPuM1R5y75a3s93g81wmhKCWrPp7KaUD6eYBkTffoDfIvNuP7FlI8R2LLENFvN6c1TGZPxeRt7K4WPVSahOZUrRBORrjvd1BuTJlueHzdTGqmzQmhE5xIxqJ2bNkEJemf4hIzdijo4TD5TJfY9lz20myP7G8S"
+      },
+      "products": [
+        {
+          "_id": "696eb01c1c508c5d5eb56cff",
+          "name": "Chicken2018",
+          "amount": 507,
+          "price": 52550,
+          "manufacturer": "Apple",
+          "notes": "szemqrVfinysXHXm1VzL9Z9Nq6bft6Fao6tF303mPkFMsmW0KftMJ3velKNKJxpIvo8X5M17WN6KAp3khjuvM88PFzyFcKlniy1Xx9Iggz61XIpbFX2JWYBC8SK6MKHM7H3jt5I0KSzhs8ovVOcGW0g57XVoCdYZwQXTNEWuzaBz2VrAbds5mOBghmXd2W3LEdliiEVjHl9ksDQSasoo2D5f9YjQ5ql2DXw9LTgsJz7BOowDKEW5j3Kg3Q",
+          "received": false
+        },
+        {
+          "_id": "696eb01c1c508c5d5eb56d30",
+          "name": "Towels62232",
+          "amount": 873,
+          "price": 6650,
+          "manufacturer": "Amazon",
+          "notes": "LiM0FnhS6gKfj5y7diOTvlqMg3HCkIg8ItkTVzClyiR6sUREEO1iIQ5qtlxvEdclE8yAjsC2NprP7IAT2E9IijimbRnl36OeM88TAbpqbgUMm7ZdgG6ACBfqodKOXF7dpzyHfmMB4jWKNHgBtgWpFYkcVYl963UpRyu5sAVG7c9nYTW7hgOHFWkZsxXHurEAuNSB0131uhlnitSYs6opfqd4R4YdE6Blro3bBP5nLxckAHxakk8Gk50hZI",
+          "received": false
+        },
+        {
+          "_id": "696eb01d1c508c5d5eb56e43",
+          "name": "Pants35461",
+          "amount": 338,
+          "price": 92052,
+          "manufacturer": "Apple",
+          "notes": "tk4Yfxp5Dwb8fD2I2I72OL9IBPxCvfsdkIpblvmq08SmuKqSlGmdZ4vVnnp0PY4Rn8u9t0p7d6KDSirBOMCj7cqAkX2ha0rnKwGgvlNPTggZIV0wIjZ1KLrXKFhR40Jme2wGDcxKr7WRodxGc4bUjWEzCJLNIL4m1BjihElFgQlueumqIjuBwQpdCcQx5NbhsPtEe0lMyIj6SaY8wd180crln7Ks6FHxVeMdPu3mYJ6Otggvq7VK4FtOAF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Ericka",
+          "street": "Horacio Skyway",
+          "house": 28,
+          "flat": 18
+        },
+        "finalDate": "2026-01-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 151252,
+      "createdOn": "2026-01-19T22:28:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696eb01b1c508c5d5eb56cc2",
+          "products": [
+            {
+              "_id": "696eb01c1c508c5d5eb56cff",
+              "name": "Chicken2018",
+              "amount": 507,
+              "price": 52550,
+              "manufacturer": "Apple",
+              "notes": "szemqrVfinysXHXm1VzL9Z9Nq6bft6Fao6tF303mPkFMsmW0KftMJ3velKNKJxpIvo8X5M17WN6KAp3khjuvM88PFzyFcKlniy1Xx9Iggz61XIpbFX2JWYBC8SK6MKHM7H3jt5I0KSzhs8ovVOcGW0g57XVoCdYZwQXTNEWuzaBz2VrAbds5mOBghmXd2W3LEdliiEVjHl9ksDQSasoo2D5f9YjQ5ql2DXw9LTgsJz7BOowDKEW5j3Kg3Q",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d30",
+              "name": "Towels62232",
+              "amount": 873,
+              "price": 6650,
+              "manufacturer": "Amazon",
+              "notes": "LiM0FnhS6gKfj5y7diOTvlqMg3HCkIg8ItkTVzClyiR6sUREEO1iIQ5qtlxvEdclE8yAjsC2NprP7IAT2E9IijimbRnl36OeM88TAbpqbgUMm7ZdgG6ACBfqodKOXF7dpzyHfmMB4jWKNHgBtgWpFYkcVYl963UpRyu5sAVG7c9nYTW7hgOHFWkZsxXHurEAuNSB0131uhlnitSYs6opfqd4R4YdE6Blro3bBP5nLxckAHxakk8Gk50hZI",
+              "received": false
+            },
+            {
+              "_id": "696eb01d1c508c5d5eb56e43",
+              "name": "Pants35461",
+              "amount": 338,
+              "price": 92052,
+              "manufacturer": "Apple",
+              "notes": "tk4Yfxp5Dwb8fD2I2I72OL9IBPxCvfsdkIpblvmq08SmuKqSlGmdZ4vVnnp0PY4Rn8u9t0p7d6KDSirBOMCj7cqAkX2ha0rnKwGgvlNPTggZIV0wIjZ1KLrXKFhR40Jme2wGDcxKr7WRodxGc4bUjWEzCJLNIL4m1BjihElFgQlueumqIjuBwQpdCcQx5NbhsPtEe0lMyIj6SaY8wd180crln7Ks6FHxVeMdPu3mYJ6Otggvq7VK4FtOAF",
+              "received": false
+            }
+          ],
+          "total_price": 151252,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Ericka",
+              "street": "Horacio Skyway",
+              "house": 28,
+              "flat": 18
+            },
+            "finalDate": "2026-01-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:29:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb01b1c508c5d5eb56cc2",
+          "products": [
+            {
+              "_id": "696eb01c1c508c5d5eb56cff",
+              "name": "Chicken2018",
+              "amount": 507,
+              "price": 52550,
+              "manufacturer": "Apple",
+              "notes": "szemqrVfinysXHXm1VzL9Z9Nq6bft6Fao6tF303mPkFMsmW0KftMJ3velKNKJxpIvo8X5M17WN6KAp3khjuvM88PFzyFcKlniy1Xx9Iggz61XIpbFX2JWYBC8SK6MKHM7H3jt5I0KSzhs8ovVOcGW0g57XVoCdYZwQXTNEWuzaBz2VrAbds5mOBghmXd2W3LEdliiEVjHl9ksDQSasoo2D5f9YjQ5ql2DXw9LTgsJz7BOowDKEW5j3Kg3Q",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d30",
+              "name": "Towels62232",
+              "amount": 873,
+              "price": 6650,
+              "manufacturer": "Amazon",
+              "notes": "LiM0FnhS6gKfj5y7diOTvlqMg3HCkIg8ItkTVzClyiR6sUREEO1iIQ5qtlxvEdclE8yAjsC2NprP7IAT2E9IijimbRnl36OeM88TAbpqbgUMm7ZdgG6ACBfqodKOXF7dpzyHfmMB4jWKNHgBtgWpFYkcVYl963UpRyu5sAVG7c9nYTW7hgOHFWkZsxXHurEAuNSB0131uhlnitSYs6opfqd4R4YdE6Blro3bBP5nLxckAHxakk8Gk50hZI",
+              "received": false
+            },
+            {
+              "_id": "696eb01d1c508c5d5eb56e43",
+              "name": "Pants35461",
+              "amount": 338,
+              "price": 92052,
+              "manufacturer": "Apple",
+              "notes": "tk4Yfxp5Dwb8fD2I2I72OL9IBPxCvfsdkIpblvmq08SmuKqSlGmdZ4vVnnp0PY4Rn8u9t0p7d6KDSirBOMCj7cqAkX2ha0rnKwGgvlNPTggZIV0wIjZ1KLrXKFhR40Jme2wGDcxKr7WRodxGc4bUjWEzCJLNIL4m1BjihElFgQlueumqIjuBwQpdCcQx5NbhsPtEe0lMyIj6SaY8wd180crln7Ks6FHxVeMdPu3mYJ6Otggvq7VK4FtOAF",
+              "received": false
+            }
+          ],
+          "total_price": 151252,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Ericka",
+              "street": "Horacio Skyway",
+              "house": 28,
+              "flat": 18
+            },
+            "finalDate": "2026-01-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:28:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb01b1c508c5d5eb56cc2",
+          "products": [
+            {
+              "_id": "696eb01c1c508c5d5eb56cff",
+              "name": "Chicken2018",
+              "amount": 507,
+              "price": 52550,
+              "manufacturer": "Apple",
+              "notes": "szemqrVfinysXHXm1VzL9Z9Nq6bft6Fao6tF303mPkFMsmW0KftMJ3velKNKJxpIvo8X5M17WN6KAp3khjuvM88PFzyFcKlniy1Xx9Iggz61XIpbFX2JWYBC8SK6MKHM7H3jt5I0KSzhs8ovVOcGW0g57XVoCdYZwQXTNEWuzaBz2VrAbds5mOBghmXd2W3LEdliiEVjHl9ksDQSasoo2D5f9YjQ5ql2DXw9LTgsJz7BOowDKEW5j3Kg3Q",
+              "received": false
+            },
+            {
+              "_id": "696eb01c1c508c5d5eb56d30",
+              "name": "Towels62232",
+              "amount": 873,
+              "price": 6650,
+              "manufacturer": "Amazon",
+              "notes": "LiM0FnhS6gKfj5y7diOTvlqMg3HCkIg8ItkTVzClyiR6sUREEO1iIQ5qtlxvEdclE8yAjsC2NprP7IAT2E9IijimbRnl36OeM88TAbpqbgUMm7ZdgG6ACBfqodKOXF7dpzyHfmMB4jWKNHgBtgWpFYkcVYl963UpRyu5sAVG7c9nYTW7hgOHFWkZsxXHurEAuNSB0131uhlnitSYs6opfqd4R4YdE6Blro3bBP5nLxckAHxakk8Gk50hZI",
+              "received": false
+            },
+            {
+              "_id": "696eb01d1c508c5d5eb56e43",
+              "name": "Pants35461",
+              "amount": 338,
+              "price": 92052,
+              "manufacturer": "Apple",
+              "notes": "tk4Yfxp5Dwb8fD2I2I72OL9IBPxCvfsdkIpblvmq08SmuKqSlGmdZ4vVnnp0PY4Rn8u9t0p7d6KDSirBOMCj7cqAkX2ha0rnKwGgvlNPTggZIV0wIjZ1KLrXKFhR40Jme2wGDcxKr7WRodxGc4bUjWEzCJLNIL4m1BjihElFgQlueumqIjuBwQpdCcQx5NbhsPtEe0lMyIj6SaY8wd180crln7Ks6FHxVeMdPu3mYJ6Otggvq7VK4FtOAF",
+              "received": false
+            }
+          ],
+          "total_price": 151252,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

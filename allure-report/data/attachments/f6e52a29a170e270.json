@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:28:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-L5IqcoshQmzV9/XzmiZHkbHDX3E\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eaff21c508c5d5eb55357",
+        "email": "Sebastian_Veum66@gmail.com",
+        "name": "Percival Leffler",
+        "country": "Russia",
+        "city": "Nitzscheshire",
+        "street": "Block Circle",
+        "house": 50,
+        "flat": 621,
+        "phone": "+17782651256",
+        "createdOn": "2026-01-19T22:28:02.000Z",
+        "notes": "0K6x8nxuiRhkf5hjMPNhvrszEq1G3PBGCylVpiSY3ul6ELLmlk1rt4Ewhe8QWr9hdwLL7WvAeeTXGsD7SeqtPZbYePMHuZzbBe1vBdgX3bCZq80Zo2Qiu8bkOi81OUjr3XiEzDk0fFIrQBEJWFPnFiSpeCTMZRpnEjdDFS7G4PxTu4Sq4AG8Uhiln4dxjwAoLm5uIa3tn2X580k3Aq2MUjnb3dsoy6o3SDRKms9I4yvLCWjLkJuHH8JXFB"
+      },
+      "products": [
+        {
+          "_id": "696eaff41c508c5d5eb55521",
+          "name": "Chair38046",
+          "amount": 952,
+          "price": 83370,
+          "manufacturer": "Google",
+          "notes": "7FpXH80fOn9pLHeL1EGCCHNI52serlrecIPgzTyzelFIml1vBQ4jXNmdTIQPySbHfJstZdFy1azHuTUDL2PuNqsZCGyMYqIit8d1alMwNzxYZKB4PNLihAFEUXUIj0pqVIoW35iCZiMVnb8traaKJUSMOXR0KoGjO1gksAaEvoitUDkc7fZ95AtTKWR28jTPYw2kRjQyI3vK3bknrAArFOT5dVZb77ptpO2HvEZ0t2zWRaC09ztJPkrwI8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83370,
+      "createdOn": "2026-01-19T22:28:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eaff21c508c5d5eb55357",
+          "products": [
+            {
+              "_id": "696eaff41c508c5d5eb55521",
+              "name": "Chair38046",
+              "amount": 952,
+              "price": 83370,
+              "manufacturer": "Google",
+              "notes": "7FpXH80fOn9pLHeL1EGCCHNI52serlrecIPgzTyzelFIml1vBQ4jXNmdTIQPySbHfJstZdFy1azHuTUDL2PuNqsZCGyMYqIit8d1alMwNzxYZKB4PNLihAFEUXUIj0pqVIoW35iCZiMVnb8traaKJUSMOXR0KoGjO1gksAaEvoitUDkc7fZ95AtTKWR28jTPYw2kRjQyI3vK3bknrAArFOT5dVZb77ptpO2HvEZ0t2zWRaC09ztJPkrwI8",
+              "received": false
+            }
+          ],
+          "total_price": 83370,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eaff41c508c5d5eb55543"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

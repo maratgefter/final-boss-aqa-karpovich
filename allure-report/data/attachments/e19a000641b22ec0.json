@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-qFAuVK/pv2nwnZF+pXhQNFO6S3M\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafd81c508c5d5eb540bf",
+        "email": "Kody.Ortiz@gmail.com",
+        "name": "Mona Stracke",
+        "country": "Ukraine",
+        "city": "West Ibrahim",
+        "street": "Arno Point",
+        "house": 48,
+        "flat": 6,
+        "phone": "+13269765982",
+        "createdOn": "2026-01-19T22:27:36.000Z",
+        "notes": "rVvOs3nU80G3dL6hRnQi97OHDuZ3GS3f7RmMnQeTKtyL3HjkniMAFyNAgWWlR9A1L7y0fWBkxoe3Xc3jrCJJ5XunYGScwnLHLnxXnxgItIJhXQxuHpAhEwX0nf7HrceummSBGsD1HlDli9QgzQE17DHXh8tvcbUpFuV2kCDYErnUdIGVMl4mB0xGUQPN7EGJGjis0GoZHW6FcxfcHhy8tLtCzBQZBfX6bhzyPmanyymYxaJ0s1oSenC2OH"
+      },
+      "products": [
+        {
+          "_id": "696eafd81c508c5d5eb540e8",
+          "name": "Salad71954",
+          "amount": 720,
+          "price": 97151,
+          "manufacturer": "Tesla",
+          "notes": "gkHOkXYLIMUdMtZVjMT4t7693woeExf748C1VnA1yd5mm28xbkshmEdyixQiJDVilH0TLeIQ9rjJCr0ARykTQa7DiuwJ8e7UIwrizaEHqT9banNOuxUGEnzPwUbOL5zcTDeIPJsNDKDiEwLYunhMN2xRRwAb183NsZE0LyF6cuAJrqXO0r31ld9YIOLo2Ne57k8e5ersKHHv88YrFzEkDD7m9QK7FRqdfWyQ0DT8cyPugJh8D8NIAVImIM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97151,
+      "createdOn": "2026-01-19T22:27:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafd81c508c5d5eb540bf",
+          "products": [
+            {
+              "_id": "696eafd81c508c5d5eb540e8",
+              "name": "Salad71954",
+              "amount": 720,
+              "price": 97151,
+              "manufacturer": "Tesla",
+              "notes": "gkHOkXYLIMUdMtZVjMT4t7693woeExf748C1VnA1yd5mm28xbkshmEdyixQiJDVilH0TLeIQ9rjJCr0ARykTQa7DiuwJ8e7UIwrizaEHqT9banNOuxUGEnzPwUbOL5zcTDeIPJsNDKDiEwLYunhMN2xRRwAb183NsZE0LyF6cuAJrqXO0r31ld9YIOLo2Ne57k8e5ersKHHv88YrFzEkDD7m9QK7FRqdfWyQ0DT8cyPugJh8D8NIAVImIM",
+              "received": false
+            }
+          ],
+          "total_price": 97151,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eafd91c508c5d5eb541dd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

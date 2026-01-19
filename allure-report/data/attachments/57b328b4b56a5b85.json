@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:29:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5422",
+    "etag": "W/\"152e-bKhGhTZsIDhhv5dcKP88xSHhLbY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eb0351c508c5d5eb58021",
+      "status": "In Process",
+      "customer": {
+        "_id": "696eb02a1c508c5d5eb5779c",
+        "email": "Elva_Miller@gmail.com",
+        "name": "Baylee Wuckert",
+        "country": "Germany",
+        "city": "South Bellastad",
+        "street": "Shaniya Street",
+        "house": 39,
+        "flat": 200,
+        "phone": "+15193218580",
+        "createdOn": "2026-01-19T22:28:58.000Z",
+        "notes": "6vGhldjTDizZgFt1weQUfqgJhkrk8v9Rpjlbij7Nq6YXd1moWSuacMlfNbdkmagHZf6N27TH7vVm6axKa7p2MpFKOZiOH2gd2K3i98kBvs9a6smolIHQk0Q0iGdS5QhABsFJrV4aaQ4UlaTEs12CRlXiEp9HLsyWkoVuA87LpbAimoFDxclTQgTx4AdnSoLhKpqZGTD0E27LD2lvNrjbovbtcvNmc844auANrWOAxHdWyBiIfyXomZ08aG"
+      },
+      "products": [
+        {
+          "_id": "696eb02b1c508c5d5eb577c4",
+          "name": "Pants7937",
+          "amount": 67,
+          "price": 94086,
+          "manufacturer": "Amazon",
+          "notes": "2LdFcN8hhdzSZa5NrZs8E7YnhT1ZO3onfBRWXz2MKxje5ztkJEIaqFRP6k57P31OQeeQ4P1bzdEC7qSd5bcQi5cWxy6RQpO6zaUICKhqXG14itsH3uaRFDGlaqctNSLkM9uCbniy6mVi2XmtIQ2ROfeIbovmpkjRwKHeOj3e9S0WKa8p2hTcOzBBpl1CZ6taPWhYrVlg97pjj2ffw3wxhiO6JUp9vMFKhDCOB0nWZJWPXn6ooEbH8h83Hs",
+          "received": false
+        },
+        {
+          "_id": "696eb02d1c508c5d5eb579d3",
+          "name": "Soap11448",
+          "amount": 699,
+          "price": 61633,
+          "manufacturer": "Sony",
+          "notes": "jYvVyqZs3G1yxMQNPjha3JCWE1TvzECtEnZoj8kQ2tW2npbVw4W4kzvZqkWJnHbE6j7LDQPD925YlCEATgfDV2QH534aDMQL4tFCnIsKaaJzm6qJCUxaICh0qceSRw6Qd2vNeASCQ3N40pH366BjltcxRA8E7iasC7o8AI6f8tmnNPNYxBKAkdaZj5rUibDwf0M9vK9TVkFu5Stjgj9LO7v68xGMrjiK35GigGmxB9AaX2Ma9dZc3aEqxu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "South Bellastad",
+          "street": "Shaniya Street",
+          "house": 39,
+          "flat": 200
+        },
+        "finalDate": "2026-01-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 155719,
+      "createdOn": "2026-01-19T22:29:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "696eb02a1c508c5d5eb5779c",
+          "products": [
+            {
+              "_id": "696eb02b1c508c5d5eb577c4",
+              "name": "Pants7937",
+              "amount": 67,
+              "price": 94086,
+              "manufacturer": "Amazon",
+              "notes": "2LdFcN8hhdzSZa5NrZs8E7YnhT1ZO3onfBRWXz2MKxje5ztkJEIaqFRP6k57P31OQeeQ4P1bzdEC7qSd5bcQi5cWxy6RQpO6zaUICKhqXG14itsH3uaRFDGlaqctNSLkM9uCbniy6mVi2XmtIQ2ROfeIbovmpkjRwKHeOj3e9S0WKa8p2hTcOzBBpl1CZ6taPWhYrVlg97pjj2ffw3wxhiO6JUp9vMFKhDCOB0nWZJWPXn6ooEbH8h83Hs",
+              "received": false
+            },
+            {
+              "_id": "696eb02d1c508c5d5eb579d3",
+              "name": "Soap11448",
+              "amount": 699,
+              "price": 61633,
+              "manufacturer": "Sony",
+              "notes": "jYvVyqZs3G1yxMQNPjha3JCWE1TvzECtEnZoj8kQ2tW2npbVw4W4kzvZqkWJnHbE6j7LDQPD925YlCEATgfDV2QH534aDMQL4tFCnIsKaaJzm6qJCUxaICh0qceSRw6Qd2vNeASCQ3N40pH366BjltcxRA8E7iasC7o8AI6f8tmnNPNYxBKAkdaZj5rUibDwf0M9vK9TVkFu5Stjgj9LO7v68xGMrjiK35GigGmxB9AaX2Ma9dZc3aEqxu",
+              "received": false
+            }
+          ],
+          "total_price": 155719,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Bellastad",
+              "street": "Shaniya Street",
+              "house": 39,
+              "flat": 200
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:29:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb02a1c508c5d5eb5779c",
+          "products": [
+            {
+              "_id": "696eb02b1c508c5d5eb577c4",
+              "name": "Pants7937",
+              "amount": 67,
+              "price": 94086,
+              "manufacturer": "Amazon",
+              "notes": "2LdFcN8hhdzSZa5NrZs8E7YnhT1ZO3onfBRWXz2MKxje5ztkJEIaqFRP6k57P31OQeeQ4P1bzdEC7qSd5bcQi5cWxy6RQpO6zaUICKhqXG14itsH3uaRFDGlaqctNSLkM9uCbniy6mVi2XmtIQ2ROfeIbovmpkjRwKHeOj3e9S0WKa8p2hTcOzBBpl1CZ6taPWhYrVlg97pjj2ffw3wxhiO6JUp9vMFKhDCOB0nWZJWPXn6ooEbH8h83Hs",
+              "received": false
+            },
+            {
+              "_id": "696eb02d1c508c5d5eb579d3",
+              "name": "Soap11448",
+              "amount": 699,
+              "price": 61633,
+              "manufacturer": "Sony",
+              "notes": "jYvVyqZs3G1yxMQNPjha3JCWE1TvzECtEnZoj8kQ2tW2npbVw4W4kzvZqkWJnHbE6j7LDQPD925YlCEATgfDV2QH534aDMQL4tFCnIsKaaJzm6qJCUxaICh0qceSRw6Qd2vNeASCQ3N40pH366BjltcxRA8E7iasC7o8AI6f8tmnNPNYxBKAkdaZj5rUibDwf0M9vK9TVkFu5Stjgj9LO7v68xGMrjiK35GigGmxB9AaX2Ma9dZc3aEqxu",
+              "received": false
+            }
+          ],
+          "total_price": 155719,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Bellastad",
+              "street": "Shaniya Street",
+              "house": 39,
+              "flat": 200
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:29:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eb02a1c508c5d5eb5779c",
+          "products": [
+            {
+              "_id": "696eb02b1c508c5d5eb577c4",
+              "name": "Pants7937",
+              "amount": 67,
+              "price": 94086,
+              "manufacturer": "Amazon",
+              "notes": "2LdFcN8hhdzSZa5NrZs8E7YnhT1ZO3onfBRWXz2MKxje5ztkJEIaqFRP6k57P31OQeeQ4P1bzdEC7qSd5bcQi5cWxy6RQpO6zaUICKhqXG14itsH3uaRFDGlaqctNSLkM9uCbniy6mVi2XmtIQ2ROfeIbovmpkjRwKHeOj3e9S0WKa8p2hTcOzBBpl1CZ6taPWhYrVlg97pjj2ffw3wxhiO6JUp9vMFKhDCOB0nWZJWPXn6ooEbH8h83Hs",
+              "received": false
+            },
+            {
+              "_id": "696eb02d1c508c5d5eb579d3",
+              "name": "Soap11448",
+              "amount": 699,
+              "price": 61633,
+              "manufacturer": "Sony",
+              "notes": "jYvVyqZs3G1yxMQNPjha3JCWE1TvzECtEnZoj8kQ2tW2npbVw4W4kzvZqkWJnHbE6j7LDQPD925YlCEATgfDV2QH534aDMQL4tFCnIsKaaJzm6qJCUxaICh0qceSRw6Qd2vNeASCQ3N40pH366BjltcxRA8E7iasC7o8AI6f8tmnNPNYxBKAkdaZj5rUibDwf0M9vK9TVkFu5Stjgj9LO7v68xGMrjiK35GigGmxB9AaX2Ma9dZc3aEqxu",
+              "received": false
+            }
+          ],
+          "total_price": 155719,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:29:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

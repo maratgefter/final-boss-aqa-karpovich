@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2990",
+    "etag": "W/\"bae-XsSkTcS3AYcOKmGkXwq37OH8juk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eaff81c508c5d5eb55749",
+      "status": "Draft",
+      "customer": {
+        "_id": "696eaff61c508c5d5eb5560c",
+        "email": "Adelia.Murphy14@yahoo.com",
+        "name": "Bettie Pacocha",
+        "country": "Great Britain",
+        "city": "Port Earlstead",
+        "street": "Howard Street",
+        "house": 6,
+        "flat": 276,
+        "phone": "+13793701887",
+        "createdOn": "2026-01-19T22:28:06.000Z",
+        "notes": "7MNEHyPqU8RHnWipN7JunsEbaxIPWcaiNHZq3S4S6nKjIYjBsqdB1zkwCaA5qI3NRqNCVPQWzqP6JKJhMyLmbjdzMhbySLbqE7Mx4esPwtmgXLcb1pIiwHZJFHWybBYSWa2QjEFJMaRMoP4jnZ3VKlW6ClOaD2KpMWtTV9Wfwe8rQG1kY5uaOnX8A4Jefg7Bwsjh7pIqrEdHvz0yqPubo91FNmVFVEWcYfTjFBlocN8wnSMeY5N6KtcgIw"
+      },
+      "products": [
+        {
+          "_id": "696eaff71c508c5d5eb55634",
+          "name": "Computer26251",
+          "amount": 363,
+          "price": 45234,
+          "manufacturer": "Google",
+          "notes": "9WapFE70ivovs9rfchdfPiu3efOiH8OVsZZoOqQpOhcNhHQHJRarJe0kVnzwnVPsnGKWmdNMN8TbInyt4KLUtGZGBKj1DGYPnyh89GnuDBPk2hJxv0RMe4GEBbca3jxOC5xUdTokLU40JLTK7yaLeEuKSK3QbI555Anq66aOYtldXCR7wYXSggWN2aNM3L1giVWmFRiZNm0JjDS0UQSZ8oRg3vQ4kb74n9baDfIOzYeLZ4e8ElvI9PDb0x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Earlstead",
+          "street": "Howard Street",
+          "house": 6,
+          "flat": 276
+        },
+        "finalDate": "2026-01-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 45234,
+      "createdOn": "2026-01-19T22:28:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eaff61c508c5d5eb5560c",
+          "products": [
+            {
+              "_id": "696eaff71c508c5d5eb55634",
+              "name": "Computer26251",
+              "amount": 363,
+              "price": 45234,
+              "manufacturer": "Google",
+              "notes": "9WapFE70ivovs9rfchdfPiu3efOiH8OVsZZoOqQpOhcNhHQHJRarJe0kVnzwnVPsnGKWmdNMN8TbInyt4KLUtGZGBKj1DGYPnyh89GnuDBPk2hJxv0RMe4GEBbca3jxOC5xUdTokLU40JLTK7yaLeEuKSK3QbI555Anq66aOYtldXCR7wYXSggWN2aNM3L1giVWmFRiZNm0JjDS0UQSZ8oRg3vQ4kb74n9baDfIOzYeLZ4e8ElvI9PDb0x",
+              "received": false
+            }
+          ],
+          "total_price": 45234,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Earlstead",
+              "street": "Howard Street",
+              "house": 6,
+              "flat": 276
+            },
+            "finalDate": "2026-01-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-19T22:28:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "696eaff61c508c5d5eb5560c",
+          "products": [
+            {
+              "_id": "696eaff71c508c5d5eb55634",
+              "name": "Computer26251",
+              "amount": 363,
+              "price": 45234,
+              "manufacturer": "Google",
+              "notes": "9WapFE70ivovs9rfchdfPiu3efOiH8OVsZZoOqQpOhcNhHQHJRarJe0kVnzwnVPsnGKWmdNMN8TbInyt4KLUtGZGBKj1DGYPnyh89GnuDBPk2hJxv0RMe4GEBbca3jxOC5xUdTokLU40JLTK7yaLeEuKSK3QbI555Anq66aOYtldXCR7wYXSggWN2aNM3L1giVWmFRiZNm0JjDS0UQSZ8oRg3vQ4kb74n9baDfIOzYeLZ4e8ElvI9PDb0x",
+              "received": false
+            }
+          ],
+          "total_price": 45234,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:28:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

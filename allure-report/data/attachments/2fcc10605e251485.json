@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-UaNJi+AkrGS6vGDtIhirsOvfCtc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafd81c508c5d5eb540bc",
+        "email": "Kristin.Little@yahoo.com",
+        "name": "Anabelle Witting",
+        "country": "Belarus",
+        "city": "Romainefield",
+        "street": "Little Mount",
+        "house": 5,
+        "flat": 348,
+        "phone": "+19274573774",
+        "createdOn": "2026-01-19T22:27:36.000Z",
+        "notes": "ZJao8pQpZZYSnXOQXaYzchSd608Hhs3AIHSv8Qxlso1wyKWSyEdTscPBRP9s34D8LMRMMZHcOtNn1obyFYBtV12aNXL98LMXHxumjEZ7rxH3mV8Z5JjbvgJZ58EwZ9M63uwdLgWzdxInMlvHc03bkwzyY3Ie2dTNFwuRH2s8oGrEQv9MvEUqDfE14R8YqWhzuZbktvvQ38zrZLybisXficPecf8KuHNG0l0rlUVSNj1IdDwWGumi1i6p6R"
+      },
+      "products": [
+        {
+          "_id": "696eafd81c508c5d5eb540eb",
+          "name": "Shirt77257",
+          "amount": 839,
+          "price": 7178,
+          "manufacturer": "Google",
+          "notes": "DhDHTP9AN3CuQFOSaaZdZuiAR7j7OKVY00I4kSYPzGYxfNZm2qYMZV8DkNs14IfbGM9FNwAf5u8jpudN4QrojnVq3oU0zKShyS7IWT0OO26vpNezqTpU88ySDKrfunEyPmMBiZkJECSm8LW99NDo8j4mWZVL2GeGCclyEAOnk1xq2mMW1ZngtEWDd5wfTBG2TB1GmuyGaG4XypwNuPlKcJUOWOJI5B94l3KAJWFfmxIrj5dvFJWwQho84R",
+          "received": false
+        },
+        {
+          "_id": "696eafd91c508c5d5eb541df",
+          "name": "Pizza90899",
+          "amount": 399,
+          "price": 96553,
+          "manufacturer": "Apple",
+          "notes": "oZX8jHEhWd6oMAp7CMZ3NII0J3wnksHGvyZKdKezDTWVgND9hQm6yMUyHJVWII9VZbFyIIXtcA5MXGeTx5MCVNvk5sMgY9RBJHiNdffcy2mhnOTNqYKQSd7XnafCx12AmSEvqc51sJrXPV0ebpEDEXyTmUcWmwvChCiXUPKpiwQfsvGXTb4woAKLbDDJ5417JtMDuYPuw7qh4D55Onw77LnBptuaXkbf4qadkFKemy5fydhee7n0ETqwLG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 103731,
+      "createdOn": "2026-01-19T22:27:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafd81c508c5d5eb540bc",
+          "products": [
+            {
+              "_id": "696eafd81c508c5d5eb540eb",
+              "name": "Shirt77257",
+              "amount": 839,
+              "price": 7178,
+              "manufacturer": "Google",
+              "notes": "DhDHTP9AN3CuQFOSaaZdZuiAR7j7OKVY00I4kSYPzGYxfNZm2qYMZV8DkNs14IfbGM9FNwAf5u8jpudN4QrojnVq3oU0zKShyS7IWT0OO26vpNezqTpU88ySDKrfunEyPmMBiZkJECSm8LW99NDo8j4mWZVL2GeGCclyEAOnk1xq2mMW1ZngtEWDd5wfTBG2TB1GmuyGaG4XypwNuPlKcJUOWOJI5B94l3KAJWFfmxIrj5dvFJWwQho84R",
+              "received": false
+            },
+            {
+              "_id": "696eafd91c508c5d5eb541df",
+              "name": "Pizza90899",
+              "amount": 399,
+              "price": 96553,
+              "manufacturer": "Apple",
+              "notes": "oZX8jHEhWd6oMAp7CMZ3NII0J3wnksHGvyZKdKezDTWVgND9hQm6yMUyHJVWII9VZbFyIIXtcA5MXGeTx5MCVNvk5sMgY9RBJHiNdffcy2mhnOTNqYKQSd7XnafCx12AmSEvqc51sJrXPV0ebpEDEXyTmUcWmwvChCiXUPKpiwQfsvGXTb4woAKLbDDJ5417JtMDuYPuw7qh4D55Onw77LnBptuaXkbf4qadkFKemy5fydhee7n0ETqwLG",
+              "received": false
+            }
+          ],
+          "total_price": 103731,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "696eafdc1c508c5d5eb543b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

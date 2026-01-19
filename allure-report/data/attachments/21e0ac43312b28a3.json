@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 19 Jan 2026 22:27:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-tLin7445qqsZYBQcJZI0B24AW9c\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "696eafc81c508c5d5eb53793",
+      "status": "Draft",
+      "customer": {
+        "_id": "696eafc71c508c5d5eb53744",
+        "email": "Vernice89@yahoo.com",
+        "name": "Raquel Douglas",
+        "country": "USA",
+        "city": "Cruickshankberg",
+        "street": "Runolfsson Stream",
+        "house": 50,
+        "flat": 884,
+        "phone": "+13804451670",
+        "createdOn": "2026-01-19T22:27:19.000Z",
+        "notes": "w9WVUP42hvgbQsc5oVket45QsEzBKngaEiWERYWffD7byQRXp9jN4alfvf3TaIJO9bISCk9nwaCsl2yrVvVv3t5qNvFN3Nbcuquclvc55Xi2C7civqCGE6fXyQeEDBj9WkJKfKdnpA5XRwJWgvbzvplMHV5werx5wC7WigJHD2luYBzqLXJhFDs3MnZTkbcw4JfJ4et5lCtccMMKWnVw2vYZryXLOt2DHxapHLttEnd2GRBGooLcBfZZTS"
+      },
+      "products": [
+        {
+          "_id": "696eafc81c508c5d5eb5375f",
+          "name": "Mouse26691",
+          "amount": 603,
+          "price": 94753,
+          "manufacturer": "Apple",
+          "notes": "TgsnFCO071Gd3k4MjRGHszvVWwComn9S0um2i2LFeXmCudz2dhJaHUAQSNSx2WzMNk0zWGAZMwiaW3sEbzfyTkOFEiBgDSy4KlcmUuFYRrwXljwCIBkIcAXADWF1zE1oi1r9W0jcNXztbQfUG4rHTCxaMyJ6ZCuIC7v30HE5qM44faCMXNyvN9SpLWaXHN0EZI47EJG6wZo0C8LSRutlVigrNqLzAkEwdKsbBFj7jNYN9ilaOoXt3g7FF1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94753,
+      "createdOn": "2026-01-19T22:27:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "696eafc71c508c5d5eb53744",
+          "products": [
+            {
+              "_id": "696eafc81c508c5d5eb5375f",
+              "name": "Mouse26691",
+              "amount": 603,
+              "price": 94753,
+              "manufacturer": "Apple",
+              "notes": "TgsnFCO071Gd3k4MjRGHszvVWwComn9S0um2i2LFeXmCudz2dhJaHUAQSNSx2WzMNk0zWGAZMwiaW3sEbzfyTkOFEiBgDSy4KlcmUuFYRrwXljwCIBkIcAXADWF1zE1oi1r9W0jcNXztbQfUG4rHTCxaMyJ6ZCuIC7v30HE5qM44faCMXNyvN9SpLWaXHN0EZI47EJG6wZo0C8LSRutlVigrNqLzAkEwdKsbBFj7jNYN9ilaOoXt3g7FF1",
+              "received": false
+            }
+          ],
+          "total_price": 94753,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:20.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "696eafc71c508c5d5eb53744",
+          "products": [
+            {
+              "_id": "696eafc81c508c5d5eb5375f",
+              "name": "Mouse26691",
+              "amount": 603,
+              "price": 94753,
+              "manufacturer": "Apple",
+              "notes": "TgsnFCO071Gd3k4MjRGHszvVWwComn9S0um2i2LFeXmCudz2dhJaHUAQSNSx2WzMNk0zWGAZMwiaW3sEbzfyTkOFEiBgDSy4KlcmUuFYRrwXljwCIBkIcAXADWF1zE1oi1r9W0jcNXztbQfUG4rHTCxaMyJ6ZCuIC7v30HE5qM44faCMXNyvN9SpLWaXHN0EZI47EJG6wZo0C8LSRutlVigrNqLzAkEwdKsbBFj7jNYN9ilaOoXt3g7FF1",
+              "received": false
+            }
+          ],
+          "total_price": 94753,
+          "delivery": null,
+          "changedOn": "2026-01-19T22:27:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
