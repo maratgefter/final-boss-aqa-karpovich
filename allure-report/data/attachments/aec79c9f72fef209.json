@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-+fcJTn6hAqvS+52vFJLVzVJfK5s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697001a71c508c5d5eb64933",
+        "email": "Faye49@gmail.com",
+        "name": "Gustave Parker",
+        "country": "Ukraine",
+        "city": "McLaughlinmouth",
+        "street": "S Market Street",
+        "house": 11,
+        "flat": 203,
+        "phone": "+17024287555",
+        "createdOn": "2026-01-20T22:28:55.000Z",
+        "notes": "Q04k8RqbR20hNnV1AHUqgM2L9LkFPL4EfGhGm7lpUVMOpAM4n97OTdNHe6aL1fVLKSXbvOcAv5D2BZrUsPnHDCK1LqCO0QzchKsjFMt3bPTTNh3aqoEn3tEm4VeUQwsgGiMwKPbXdV5sQaZgj4xWAWZ8GG5LCSfqi9fklPqE8RRFaGEHrrBGOWLxkSdxksxCpSnHffKKkovyFCqtpQJ5c2y2ztXKQGkR7yvgMEBdo7y6lyPUE0lmpzz1r7"
+      },
+      "products": [
+        {
+          "_id": "697001a81c508c5d5eb64969",
+          "name": "Mouse66341",
+          "amount": 779,
+          "price": 59023,
+          "manufacturer": "Samsung",
+          "notes": "UUdlPhu9JUudez7wIaElSjnfCCJAXCUzul87Q48oEi9Dv5nOnMd06PfbgLFP8XIf5G2m0MHuQx5iAUkOwAikoF41B4a770NISaGCP8anXFd3CETlqP5BhX9j48EiOBe6QeEQKOFX1BsXqzHFPd1IelFX0yneKeSEMHx2WMv90Ux1NmfTkbClUf6QOVG109gbECA2bn7zxokKDFIKGgMpO7n7Y3OKathehMiCFrIWSOWAXlhZggWVfnmwdv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59023,
+      "createdOn": "2026-01-20T22:28:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001a71c508c5d5eb64933",
+          "products": [
+            {
+              "_id": "697001a81c508c5d5eb64969",
+              "name": "Mouse66341",
+              "amount": 779,
+              "price": 59023,
+              "manufacturer": "Samsung",
+              "notes": "UUdlPhu9JUudez7wIaElSjnfCCJAXCUzul87Q48oEi9Dv5nOnMd06PfbgLFP8XIf5G2m0MHuQx5iAUkOwAikoF41B4a770NISaGCP8anXFd3CETlqP5BhX9j48EiOBe6QeEQKOFX1BsXqzHFPd1IelFX0yneKeSEMHx2WMv90Ux1NmfTkbClUf6QOVG109gbECA2bn7zxokKDFIKGgMpO7n7Y3OKathehMiCFrIWSOWAXlhZggWVfnmwdv",
+              "received": false
+            }
+          ],
+          "total_price": 59023,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001a91c508c5d5eb64a81"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-lQ5WxVZYCY45SLS44ZGdtgVBmjE\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6970019e1c508c5d5eb642c7",
+        "email": "Fern_Cummings93@yahoo.com",
+        "name": "Jeramie Steuber",
+        "country": "Great Britain",
+        "city": "Cornellchester",
+        "street": "Pound Lane",
+        "house": 8,
+        "flat": 664,
+        "phone": "+15529599931",
+        "createdOn": "2026-01-20T22:28:46.000Z",
+        "notes": "ULaATrMNZLHI4zUfvhsqtyZbgcnbVN60xdRcXo6ikbrU4DcnQz31e5CuZX88xuVSxUqVYpmxhmZHN2FlyVtOD0KDg7q83Qr8MeoqWMF6G6FLBKM24cJCaMobluLcIXKhVnCqKoeWp8dz5Cj5zRvY37m62fHsu45waWWbVdIOt1onPDR17BouGGn0LUqhIq1EK1lOiPtK3qzA1d6Dk19lZgZOVzr0agFv8jU1vTu49KH4VbZVdRrzmleeyl"
+      },
+      "products": [
+        {
+          "_id": "6970019e1c508c5d5eb642cd",
+          "name": "Ball89210",
+          "amount": 86,
+          "price": 38748,
+          "manufacturer": "Xiaomi",
+          "notes": "rLSLuy6U1Yg9pfbvpaRGDaNmfaYisGMnqEp7OowJvyBbuuNjcd5K1mIqNISsReRV4SSgXKYos1oMWB9Uvlv0NTbHdeqrXcKqea5XHQqnat71p8GM6nl9v7qlEjLaylTmkhFsRKdyXLspxvacNWwwVNOLnK1m3Qep9s5GhWyyGqcJaz3LTJi7f3p390uOU7KrgrDYvC0VLEXyFQkCPrInOSTbpoOouXIO1Jr49QTfjjtcFixr5bwfhnhPwZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38748,
+      "createdOn": "2026-01-20T22:28:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6970019e1c508c5d5eb642c7",
+          "products": [
+            {
+              "_id": "6970019e1c508c5d5eb642cd",
+              "name": "Ball89210",
+              "amount": 86,
+              "price": 38748,
+              "manufacturer": "Xiaomi",
+              "notes": "rLSLuy6U1Yg9pfbvpaRGDaNmfaYisGMnqEp7OowJvyBbuuNjcd5K1mIqNISsReRV4SSgXKYos1oMWB9Uvlv0NTbHdeqrXcKqea5XHQqnat71p8GM6nl9v7qlEjLaylTmkhFsRKdyXLspxvacNWwwVNOLnK1m3Qep9s5GhWyyGqcJaz3LTJi7f3p390uOU7KrgrDYvC0VLEXyFQkCPrInOSTbpoOouXIO1Jr49QTfjjtcFixr5bwfhnhPwZ",
+              "received": false
+            }
+          ],
+          "total_price": 38748,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6970019f1c508c5d5eb643d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

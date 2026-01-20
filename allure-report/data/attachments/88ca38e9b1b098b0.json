@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-O3X/Wv/KIom77ele7+opO7pHPic\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697001811c508c5d5eb62f29",
+        "email": "Mallie15@gmail.com",
+        "name": "Jennifer Sanford",
+        "country": "Canada",
+        "city": "North Ulicesville",
+        "street": "Lorenzo Track",
+        "house": 32,
+        "flat": 82,
+        "phone": "+15175256082",
+        "createdOn": "2026-01-20T22:28:17.000Z",
+        "notes": "HR2KVAe9grhIKEtk4AiYUFXYAmvAk6jiglONNUUBfmfTGE356nakQVf9JnN0DjaGo71q58kXDVfAabtFuGKXdwUvpL6GhkWiYkOPUeGTmdkDNLG5GN0Bwemw7ZusOYvI4SR3eX4IRYHqXLneRawHQ6Sq8696scl559PIDb8XlhGbBl8whHMN7WJFQD4Xurr96CE7EwFiTsGwNRiDGxJbl3qRGswNqnPmoqBD5w62RN5fyLrf1nGq3S7fVO"
+      },
+      "products": [
+        {
+          "_id": "697001821c508c5d5eb62f54",
+          "name": "Sausages4265",
+          "amount": 322,
+          "price": 69950,
+          "manufacturer": "Amazon",
+          "notes": "vbX6HI6NvGEM3bSxAg4fbpYZf8YWO6zc8XRb2y8hUCwYx7FgpisVBdFPAlYOTAlqQgScSpgKy4CvchvZHFYwyek3a5xmAvCqG9jx926MpPqUGhCcqiU0FopNCm6fCddTJvdHV43UnYRzdOI7pfs06fH8qOR1XRWARfSGWUkKb6FUmNufKd2619zrglr70aUmFXCWWQajalHRDJTwOKj3iSJQ1BYYNsQnfeMDOTvSkqmG71sg83KrKZXfQQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69950,
+      "createdOn": "2026-01-20T22:28:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001811c508c5d5eb62f29",
+          "products": [
+            {
+              "_id": "697001821c508c5d5eb62f54",
+              "name": "Sausages4265",
+              "amount": 322,
+              "price": 69950,
+              "manufacturer": "Amazon",
+              "notes": "vbX6HI6NvGEM3bSxAg4fbpYZf8YWO6zc8XRb2y8hUCwYx7FgpisVBdFPAlYOTAlqQgScSpgKy4CvchvZHFYwyek3a5xmAvCqG9jx926MpPqUGhCcqiU0FopNCm6fCddTJvdHV43UnYRzdOI7pfs06fH8qOR1XRWARfSGWUkKb6FUmNufKd2619zrglr70aUmFXCWWQajalHRDJTwOKj3iSJQ1BYYNsQnfeMDOTvSkqmG71sg83KrKZXfQQ",
+              "received": false
+            }
+          ],
+          "total_price": 69950,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001821c508c5d5eb62f78"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

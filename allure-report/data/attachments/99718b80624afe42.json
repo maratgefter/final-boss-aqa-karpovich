@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2967",
+    "etag": "W/\"b97-vtGUhqSz+RpneHEJCn0AEVjukmU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697001781c508c5d5eb62943",
+      "status": "Draft",
+      "customer": {
+        "_id": "697001771c508c5d5eb6289c",
+        "email": "Gino_Windler@gmail.com",
+        "name": "Flavio Gusikowski",
+        "country": "Germany",
+        "city": "Fort Chloechester",
+        "street": "Douglas Drives",
+        "house": 44,
+        "flat": 719,
+        "phone": "+14048456024",
+        "createdOn": "2026-01-20T22:28:07.000Z",
+        "notes": "MFlssvW77NEYKjLnjJYbLCuA58GzKNWEpLCS7ujUVOdqBpbdsQ8G1VBRBDScoKaljjKxrFZJDu7heMsQMj8DoFHkKtKCIbfujSMXZ8GNlFFmFODvnDYHaJmTjbyGWCnlyhBo8m1JxKtYwfI8EWDUPjIujOGoRNKHOqZOvVidbKIASYyOevBjvUB4cHseA0bjBPK5Yjalfd1hTH1ydFvHe9k04vsCsIXqDRxetT4w6eTBFvT7zx98xbpRXU"
+      },
+      "products": [
+        {
+          "_id": "697001771c508c5d5eb628d7",
+          "name": "Cheese96128",
+          "amount": 170,
+          "price": 62494,
+          "manufacturer": "Amazon",
+          "notes": "v8Kjp4xVs3nXdPTlAHkvGiHgmvyO7fcCDzi7jjwDSz2QNSZPIUe83TslKJwuFV7bwHstPqmSdqimOcxJWMCXiFRSBdovT0diouicQjVPlzMzxLRHfPZcvirhQaZRDbCcshHKuEW9ebiHKYuy0PKYCzK278cMMYshHV08yEGdk7nkWWJMKfOLZe2aM48GSR53Tp61G0a6SGOVMyKtKAHmnMpI96pYjD1aUiurvDojzG8dUEG4Auw50QMoR3",
+          "received": false
+        },
+        {
+          "_id": "697001781c508c5d5eb62910",
+          "name": "Gloves20687",
+          "amount": 163,
+          "price": 64789,
+          "manufacturer": "Microsoft",
+          "notes": "21Lp54hS1pWHZBbC92pRLjuDGsYcXCyAOLTBf0s0lX4NhP4vXk3WzpDj97E7DaCu6s2rvrsXq89xtvV8OclncRxsr1I32yp70guFw0AaZNVVANqooCAdSUNM3uanmF0fLjdkelx9q3rEStnyStkX9GeJ5kJAJt3jcjdMr4lUvseTPT3Opzv6Qw6JhFt7qthyL04bdQPoIaUmtkOPBDcV2ZMWFHORNn4doP6diMqCApgciZAneQKB5dTgc8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 127283,
+      "createdOn": "2026-01-20T22:28:08.000Z",
+      "comments": [
+        {
+          "text": "<script>uah8keJ6tLKxCecPAuUdtLOWL5kYjqsmo2xQUaFV0ebPfuib4iA7xGGe56ABIbi5DztVFRvjDZZQ2J3X3e1wsjlkfEZcXyLJvNKCsTYmu1rL3itBB5LkrIZSjyHExJrQeHT1CCpyLRm8IL1tOe6zCzwym59iibInKIHfDlTthGfPhIahWn6bbBHVCNTJSPEH8WfDul0T >",
+          "createdOn": "2026-01-20T22:28:09.000Z",
+          "_id": "697001791c508c5d5eb62977"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001771c508c5d5eb6289c",
+          "products": [
+            {
+              "_id": "697001771c508c5d5eb628d7",
+              "name": "Cheese96128",
+              "amount": 170,
+              "price": 62494,
+              "manufacturer": "Amazon",
+              "notes": "v8Kjp4xVs3nXdPTlAHkvGiHgmvyO7fcCDzi7jjwDSz2QNSZPIUe83TslKJwuFV7bwHstPqmSdqimOcxJWMCXiFRSBdovT0diouicQjVPlzMzxLRHfPZcvirhQaZRDbCcshHKuEW9ebiHKYuy0PKYCzK278cMMYshHV08yEGdk7nkWWJMKfOLZe2aM48GSR53Tp61G0a6SGOVMyKtKAHmnMpI96pYjD1aUiurvDojzG8dUEG4Auw50QMoR3",
+              "received": false
+            },
+            {
+              "_id": "697001781c508c5d5eb62910",
+              "name": "Gloves20687",
+              "amount": 163,
+              "price": 64789,
+              "manufacturer": "Microsoft",
+              "notes": "21Lp54hS1pWHZBbC92pRLjuDGsYcXCyAOLTBf0s0lX4NhP4vXk3WzpDj97E7DaCu6s2rvrsXq89xtvV8OclncRxsr1I32yp70guFw0AaZNVVANqooCAdSUNM3uanmF0fLjdkelx9q3rEStnyStkX9GeJ5kJAJt3jcjdMr4lUvseTPT3Opzv6Qw6JhFt7qthyL04bdQPoIaUmtkOPBDcV2ZMWFHORNn4doP6diMqCApgciZAneQKB5dTgc8",
+              "received": false
+            }
+          ],
+          "total_price": 127283,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

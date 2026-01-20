@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2809",
+    "etag": "W/\"af9-aNfm5AbRLj72/4mdmxFkpPrVllQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697001881c508c5d5eb634d2",
+      "status": "Draft",
+      "customer": {
+        "_id": "697001851c508c5d5eb6319c",
+        "email": "Roscoe28@hotmail.com",
+        "name": "Harmon Erdman",
+        "country": "USA",
+        "city": "Chicago",
+        "street": "N 6th Street",
+        "house": 3,
+        "flat": 188,
+        "phone": "+19919247387",
+        "createdOn": "2026-01-20T22:28:21.000Z",
+        "notes": "Fug690zHHfSsEDi1oH8wQO6Qmvg7Bx3hqgFWWQLm1zuT5aQooonDJjeGsGGAlzgEtDXY79c75BcKCHu7ZHxQspQBgeK977vMldrrAAq2Dh1HbJKgeAATclbtptCNZYHiDvTg4DxOfRAEU87GASwI9qLXGF5tFRJ4xEQcN8PqK0Qlk8cb0xnCEtiD6on4aa6HMyIxSxS6maGjrfFKzIYom00xsFc52NatJfWJY97mZAVUFJshbVBW5j5X5x"
+      },
+      "products": [
+        {
+          "_id": "697001861c508c5d5eb631cb",
+          "name": "Keyboard3267",
+          "amount": 660,
+          "price": 39853,
+          "manufacturer": "Samsung",
+          "notes": "ETk4CWckKYsCwx54skrBKsPmMTuApnGxsKyFwcCKOnD3eVCvS9aEn9oziF07FW4HgrRlMspY4NFAx113bhTB7fj7wY650rMWdFbyAqOsOaTRJWyL32eyWQvMRvNnxi0Dl52eb9ShbdWQ2FkVMWOlP8lO6EphQIkufhjmLsrvE98dMqwXTlgth45bRGmwdlWYLhLiwAk2y6W5Q6CRagnhxT4l1FnQfJlz1Hlq5OrWV62WtbP68jlvttKQ7w",
+          "received": false
+        },
+        {
+          "_id": "697001871c508c5d5eb631e7",
+          "name": "Computer63990",
+          "amount": 385,
+          "price": 64458,
+          "manufacturer": "Tesla",
+          "notes": "RGqZSUN7nnFOpfw0DVVl2uUH86odKzi9mno3ljXEfS6xinC0hFJlMO7PlhGCicBO09JK30JFVq7nsILQ54CmvVL0jIogWB1ATJESFg2feqJFcOVTDRtqFHB1VvrJrlh6qAmEUMoaEgAnqnj8oxiJwRDBmm6JAqVYN7ySfVuZesrJZTG0xtpn8sZu3dqX9JjIGBy2VgBYY1q4E0liD60JV2XuyM1dJsHksL0Q3u0OpPi2qMqroXhHebnfrC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 104311,
+      "createdOn": "2026-01-20T22:28:24.000Z",
+      "comments": [
+        {
+          "text": "l2r1ahwJyJ2x8XkNPCTvTAmnpsCNgZbcxl5VfgZiVqOIPKvOqF2MVFtnS3ho4VWbkx9ZdgxpebE",
+          "createdOn": "2026-01-20T22:28:27.000Z",
+          "_id": "6970018b1c508c5d5eb6352a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001851c508c5d5eb6319c",
+          "products": [
+            {
+              "_id": "697001861c508c5d5eb631cb",
+              "name": "Keyboard3267",
+              "amount": 660,
+              "price": 39853,
+              "manufacturer": "Samsung",
+              "notes": "ETk4CWckKYsCwx54skrBKsPmMTuApnGxsKyFwcCKOnD3eVCvS9aEn9oziF07FW4HgrRlMspY4NFAx113bhTB7fj7wY650rMWdFbyAqOsOaTRJWyL32eyWQvMRvNnxi0Dl52eb9ShbdWQ2FkVMWOlP8lO6EphQIkufhjmLsrvE98dMqwXTlgth45bRGmwdlWYLhLiwAk2y6W5Q6CRagnhxT4l1FnQfJlz1Hlq5OrWV62WtbP68jlvttKQ7w",
+              "received": false
+            },
+            {
+              "_id": "697001871c508c5d5eb631e7",
+              "name": "Computer63990",
+              "amount": 385,
+              "price": 64458,
+              "manufacturer": "Tesla",
+              "notes": "RGqZSUN7nnFOpfw0DVVl2uUH86odKzi9mno3ljXEfS6xinC0hFJlMO7PlhGCicBO09JK30JFVq7nsILQ54CmvVL0jIogWB1ATJESFg2feqJFcOVTDRtqFHB1VvrJrlh6qAmEUMoaEgAnqnj8oxiJwRDBmm6JAqVYN7ySfVuZesrJZTG0xtpn8sZu3dqX9JjIGBy2VgBYY1q4E0liD60JV2XuyM1dJsHksL0Q3u0OpPi2qMqroXhHebnfrC",
+              "received": false
+            }
+          ],
+          "total_price": 104311,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:29:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-AEOcWgIfcpzJsBtkAYRqywBr36A\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697001ad1c508c5d5eb64cf3",
+        "email": "Samara_Corkery@gmail.com",
+        "name": "Norene Hegmann",
+        "country": "Great Britain",
+        "city": "Flatleyhaven",
+        "street": "Maple Road",
+        "house": 8,
+        "flat": 803,
+        "phone": "+18453183918",
+        "createdOn": "2026-01-20T22:29:01.000Z",
+        "notes": "FLC0pj2vuONK4A3bceYeCb8IZFsKRGmiHokfjVQYqpi29c0D2ai6uFgc7eu5qz2nB5OAUjmrhREd1a3RWrIDsqAzvFcy01CvpAnA5yaKmwDPU5aQ5BQo25790hSVmzpBD2wycHNpLg59Q2OklO5M5izi8XodZ6UPh3oASUiTqSe4F5xgUutKethoSwVDlcI3rJFaF5NFihdUv8SoQCJzRyKIg8XI41UaKo91IcwqgtA7QbnyMorhUct9A7"
+      },
+      "products": [
+        {
+          "_id": "697001ad1c508c5d5eb64d0e",
+          "name": "Mouse49001",
+          "amount": 725,
+          "price": 91110,
+          "manufacturer": "Sony",
+          "notes": "cP7cGoUViUTwSg4J35UlmVnFF3QwrAq2VRoymBPGpwfZifNehn46FrvJUuVoKfFgE7CTL3yLYCNH8ZJmGAxHVDhrotEQEf8CtO1GtL6X46RRFOROS0gYv1gTTrDWPcoOASL3rl1qYNj5xHGhWD6CwJTgGRvPJcUtBvREw4gO6MAeyPbKDlH66R0MwuD6kZdCyJ0djPeZSz3ehpFnvUyuaXABxkRlrvCRRhjfpYtjdQDJfgwj202pM0b7zi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91110,
+      "createdOn": "2026-01-20T22:29:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001ad1c508c5d5eb64cf3",
+          "products": [
+            {
+              "_id": "697001ad1c508c5d5eb64d0e",
+              "name": "Mouse49001",
+              "amount": 725,
+              "price": 91110,
+              "manufacturer": "Sony",
+              "notes": "cP7cGoUViUTwSg4J35UlmVnFF3QwrAq2VRoymBPGpwfZifNehn46FrvJUuVoKfFgE7CTL3yLYCNH8ZJmGAxHVDhrotEQEf8CtO1GtL6X46RRFOROS0gYv1gTTrDWPcoOASL3rl1qYNj5xHGhWD6CwJTgGRvPJcUtBvREw4gO6MAeyPbKDlH66R0MwuD6kZdCyJ0djPeZSz3ehpFnvUyuaXABxkRlrvCRRhjfpYtjdQDJfgwj202pM0b7zi",
+              "received": false
+            }
+          ],
+          "total_price": 91110,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:29:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001ae1c508c5d5eb64d3e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:29:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-yllTGVXRTUL6D1XxadQmjvw2a/M\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697001b71c508c5d5eb653c5",
+        "email": "Pearline.Stracke68@hotmail.com",
+        "name": "Thurman Medhurst",
+        "country": "USA",
+        "city": "Considinehaven",
+        "street": "Murazik Underpass",
+        "house": 7,
+        "flat": 177,
+        "phone": "+17197283560",
+        "createdOn": "2026-01-20T22:29:11.000Z",
+        "notes": "mdPhj8VCX5N5u55usfwYHtu48yR3N9ThBHh0Be9mbjoNAhVtKo1IY2rgWFz6Vw3o2xbjD60KB8ey9LkcuK4541R5SgV6KLiDJsp2eHSOWcd9rHllYw1w3svxsoXEK8W7LBfRK9ezIWlBGVEbOj8HMD3kkT3oeGVtPJfkJ4t3WgQy2EhPglq60cYs4HYwGztYPzPJh1XFEmlD1gCWfwuBjT6Vd6PNaAVy3k6KZEHpTtK0QGg699BBsfHx3m"
+      },
+      "products": [
+        {
+          "_id": "697001b81c508c5d5eb653e9",
+          "name": "Chicken77279",
+          "amount": 808,
+          "price": 98284,
+          "manufacturer": "Xiaomi",
+          "notes": "1Hb6RHKVBaQA9U7p840RjxyoPxWCPgZJgUTRGUg2sjOXw1LzhqJQsyQK1QPiAd6wQAXAHw5DXwOpAoPg0YmymGvSpfK4jGbKPbYlKrKgj0UEw9Hq2pulQ6zUV5m1wv9gWPel9wLFtcZw7W9YAISQSx7GQWu3utYc2MJHDADYALKzHSySKGCaKMaC5RGNrarq4IqqQrfsipVvJ6L62ZgRqNMy0nJzXpK0qjC8Xh6Fk1pvMHJ77fBKOV2WZd",
+          "received": false
+        },
+        {
+          "_id": "697001b81c508c5d5eb65416",
+          "name": "Bike58247",
+          "amount": 508,
+          "price": 36653,
+          "manufacturer": "Samsung",
+          "notes": "hNNcRVSfOBvwnrrpDOTKAdQ1zoLOnrU4qxvrahZCgFt4xKooE2UhVWOLQUzpfidU8eRKPxaZnAulNGTGTvUp6xKh7FKFN5IDyaDL21HCNk3xjlunwk5s7LQkdzkkRXjN4nXTMGUsaSvrxwifL3uTQlLqMCpaLkCVv9IMteC2m4Hv6Hia2KPggswX3wh55K66YGzD2yWtYGOWjJqjdubZSeHAri4k7rFjS9fhSYfI2nKAgl3W1jiHobf7Rg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 134937,
+      "createdOn": "2026-01-20T22:29:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001b71c508c5d5eb653c5",
+          "products": [
+            {
+              "_id": "697001b81c508c5d5eb653e9",
+              "name": "Chicken77279",
+              "amount": 808,
+              "price": 98284,
+              "manufacturer": "Xiaomi",
+              "notes": "1Hb6RHKVBaQA9U7p840RjxyoPxWCPgZJgUTRGUg2sjOXw1LzhqJQsyQK1QPiAd6wQAXAHw5DXwOpAoPg0YmymGvSpfK4jGbKPbYlKrKgj0UEw9Hq2pulQ6zUV5m1wv9gWPel9wLFtcZw7W9YAISQSx7GQWu3utYc2MJHDADYALKzHSySKGCaKMaC5RGNrarq4IqqQrfsipVvJ6L62ZgRqNMy0nJzXpK0qjC8Xh6Fk1pvMHJ77fBKOV2WZd",
+              "received": false
+            },
+            {
+              "_id": "697001b81c508c5d5eb65416",
+              "name": "Bike58247",
+              "amount": 508,
+              "price": 36653,
+              "manufacturer": "Samsung",
+              "notes": "hNNcRVSfOBvwnrrpDOTKAdQ1zoLOnrU4qxvrahZCgFt4xKooE2UhVWOLQUzpfidU8eRKPxaZnAulNGTGTvUp6xKh7FKFN5IDyaDL21HCNk3xjlunwk5s7LQkdzkkRXjN4nXTMGUsaSvrxwifL3uTQlLqMCpaLkCVv9IMteC2m4Hv6Hia2KPggswX3wh55K66YGzD2yWtYGOWjJqjdubZSeHAri4k7rFjS9fhSYfI2nKAgl3W1jiHobf7Rg",
+              "received": false
+            }
+          ],
+          "total_price": 134937,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:29:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001b81c508c5d5eb65434"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2665",
+    "etag": "W/\"a69-y5e7O51HTiuSYW8ja6M/oGzkmqk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697001771c508c5d5eb6289e",
+        "email": "Marianne_Effertz@gmail.com",
+        "name": "Camden Schaden",
+        "country": "Russia",
+        "city": "Danielburgh",
+        "street": "Wiley Parks",
+        "house": 28,
+        "flat": 672,
+        "phone": "+13044216684",
+        "createdOn": "2026-01-20T22:28:07.000Z",
+        "notes": "EuFPttzqZtUaBHntwS46JanX8hPdxOaGlyJ38xDdfSjnA0LJQGTdFUvymom1hgrg13qzP062v9A0Zh02PABJlnEVsBX9IGqmOh3zPy2yiWrojvMb5Zx6f9ErUO3j5c4LAVKnOJWMM5wmrduzDoFKyaUfhOCnlKBQzNsuFJcoQyxssJcGMHYCm8a7Cnp2C5Er2GPDfAL3t75yJhOi59Tq242XKYVEVRXPEWbO399EYlaJsdf8bxYc0sVVbf"
+      },
+      "products": [
+        {
+          "_id": "697001771c508c5d5eb628d5",
+          "name": "Computer28861",
+          "amount": 192,
+          "price": 87281,
+          "manufacturer": "Amazon",
+          "notes": "dI8IS2VLeJnj70go9ZYjfZ3FCnXfZNQ8fmRgAJa4xzvpegUopzAlWCusAf74KeILYmdr5HaTXgDMxTLbcZJHwZ8g98F6MhGp34AoApeGFNUJSWsdmXijoqt67g8odWu98ZYj8SedQymnlHzpTuMMqzsyQyDN4XT43ZODw8bGp86zRsMtcRMnrAJYX48U8vwfn6cVCQCX8JXelbabgzCWGUMjfMlTlERwLitQYyULsJlGL06ty1oBCV9TYd",
+          "received": false
+        },
+        {
+          "_id": "697001781c508c5d5eb628fc",
+          "name": "Chicken24023",
+          "amount": 168,
+          "price": 86186,
+          "manufacturer": "Xiaomi",
+          "notes": "gq3ZNz6FsGklI55CFlgVg5BqKqJgYb7aDGhaq0csxS6AP6krCOISHuzfsHvPGl4lTVHkAphnQQzSGEdWROEmKIDNjzVupPGCHN4htpK0jESiJ5iv9FZThxsxFpc8MaQrH0TvXMxhEMYkzsBGE5E960Hv1E6BRr8Bc81HZGvOlti8049ezLcD7uMUxKaMZRItOPlCSy3jGO0p7JwRmPfkOeilmN9pUT8OBDHElk7UZRSkcKwELW1DafUHEI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 173467,
+      "createdOn": "2026-01-20T22:28:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697001771c508c5d5eb6289e",
+          "products": [
+            {
+              "_id": "697001771c508c5d5eb628d5",
+              "name": "Computer28861",
+              "amount": 192,
+              "price": 87281,
+              "manufacturer": "Amazon",
+              "notes": "dI8IS2VLeJnj70go9ZYjfZ3FCnXfZNQ8fmRgAJa4xzvpegUopzAlWCusAf74KeILYmdr5HaTXgDMxTLbcZJHwZ8g98F6MhGp34AoApeGFNUJSWsdmXijoqt67g8odWu98ZYj8SedQymnlHzpTuMMqzsyQyDN4XT43ZODw8bGp86zRsMtcRMnrAJYX48U8vwfn6cVCQCX8JXelbabgzCWGUMjfMlTlERwLitQYyULsJlGL06ty1oBCV9TYd",
+              "received": false
+            },
+            {
+              "_id": "697001781c508c5d5eb628fc",
+              "name": "Chicken24023",
+              "amount": 168,
+              "price": 86186,
+              "manufacturer": "Xiaomi",
+              "notes": "gq3ZNz6FsGklI55CFlgVg5BqKqJgYb7aDGhaq0csxS6AP6krCOISHuzfsHvPGl4lTVHkAphnQQzSGEdWROEmKIDNjzVupPGCHN4htpK0jESiJ5iv9FZThxsxFpc8MaQrH0TvXMxhEMYkzsBGE5E960Hv1E6BRr8Bc81HZGvOlti8049ezLcD7uMUxKaMZRItOPlCSy3jGO0p7JwRmPfkOeilmN9pUT8OBDHElk7UZRSkcKwELW1DafUHEI",
+              "received": false
+            }
+          ],
+          "total_price": 173467,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001781c508c5d5eb6292f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

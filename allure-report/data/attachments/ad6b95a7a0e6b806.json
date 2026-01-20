@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-kS1j87gmtFMfKlo7uYHCj1A6Ud4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697001811c508c5d5eb62f2b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6970017d1c508c5d5eb62c17",
+        "email": "Art_Bode23@hotmail.com",
+        "name": "Ivah Heidenreich",
+        "country": "Germany",
+        "city": "Clifton",
+        "street": "Lewis Stravenue",
+        "house": 20,
+        "flat": 893,
+        "phone": "+14938733065",
+        "createdOn": "2026-01-20T22:28:13.000Z",
+        "notes": "XZeoxnDrlvGdTaAgey36LPD9H2JeZVwUfNgmQBcgAn8JQnUTDi5WKSd8ln52orHHZUTg1xzIxcUhSP9ihp72ZXSJ6PD0jw8Cp3sOqdvarlx2oZe0BLLo9P16jBxm5VsSnRZrNrTmhU4OhuWnebdmHW7FULEo3vNmGQCW6r6Ow9zEQQ4EAjhKxOAXOtQW8lQvQ9O9nV1Qt2BZRfIbBGoAdWvJP7RECQSxlaewtS3UrzzQrRpHGnNrMllERs"
+      },
+      "products": [
+        {
+          "_id": "697001801c508c5d5eb62e0b",
+          "name": "Chicken95729",
+          "amount": 153,
+          "price": 84788,
+          "manufacturer": "Xiaomi",
+          "notes": "Lytt1oFy8vslmhwTUdS2Ey5iQC6D4VGjR38k68455UxZGCJMvgjlZQfVVpaOyzzfJloyWbtzhvkR6Yz8jHIJ0jxOtWZWDlPgbYRD6ZzOvgzmDIX6LIVXaNFnkbDGll4KmTn6pR3HqbLs6TTAAHEDhC753CbNRMEWLKknBX7FN8SgUqsq0zpK9Sdf6iCNO9OsKMl9uNjk4Qx6zAIbwpGJ06Gf1qoSO5I0PdRK0KitS8zyvOu14sQvKcUc8x",
+          "received": false
+        },
+        {
+          "_id": "697001801c508c5d5eb62e27",
+          "name": "Mouse1121",
+          "amount": 434,
+          "price": 40544,
+          "manufacturer": "Tesla",
+          "notes": "07EZJs8pgO2vwxBv1vp6v9NtCAkpw7aupRRaZTxi7EuWp9GjomkqzlZFHARCrQIDa1biXleHMQj4OEyBDek8KoJwHhhY228cN0hJ4L6NO5jmXBNhKN8AeqsGx2N2WbuIbxzY5Ro1QDxV0xSH1n4Tjbz73KDwJuBTPmgLskSMmbbT5Y7X3cngXjgfJWCAg3PHqtlVHPqISKBhAlC0wnYn5j7VNepu0qyYqznMtLl96SOVcKFqH5DdicQhww",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 125332,
+      "createdOn": "2026-01-20T22:28:17.000Z",
+      "comments": [
+        {
+          "text": "zWgCb8cbHOumdUMXWEqmwrjmVDR5kMpjfBcFSZGduwRXojIjQUi5Otg7r8YjgNxzFeLg872BPyKfteJWku58R2tNg00ERRXVwiSxdqdUJzMdYN3eMxPNyRdGVsjp4t6OFT7SGZKHMA3ObongYjgdQylWuoELQwm7Wim1Q0JFY5jYi9fGjODOO4mBQglkaDmwEhturlXc <",
+          "createdOn": "2026-01-20T22:28:18.000Z",
+          "_id": "697001821c508c5d5eb62f5c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6970017d1c508c5d5eb62c17",
+          "products": [
+            {
+              "_id": "697001801c508c5d5eb62e0b",
+              "name": "Chicken95729",
+              "amount": 153,
+              "price": 84788,
+              "manufacturer": "Xiaomi",
+              "notes": "Lytt1oFy8vslmhwTUdS2Ey5iQC6D4VGjR38k68455UxZGCJMvgjlZQfVVpaOyzzfJloyWbtzhvkR6Yz8jHIJ0jxOtWZWDlPgbYRD6ZzOvgzmDIX6LIVXaNFnkbDGll4KmTn6pR3HqbLs6TTAAHEDhC753CbNRMEWLKknBX7FN8SgUqsq0zpK9Sdf6iCNO9OsKMl9uNjk4Qx6zAIbwpGJ06Gf1qoSO5I0PdRK0KitS8zyvOu14sQvKcUc8x",
+              "received": false
+            },
+            {
+              "_id": "697001801c508c5d5eb62e27",
+              "name": "Mouse1121",
+              "amount": 434,
+              "price": 40544,
+              "manufacturer": "Tesla",
+              "notes": "07EZJs8pgO2vwxBv1vp6v9NtCAkpw7aupRRaZTxi7EuWp9GjomkqzlZFHARCrQIDa1biXleHMQj4OEyBDek8KoJwHhhY228cN0hJ4L6NO5jmXBNhKN8AeqsGx2N2WbuIbxzY5Ro1QDxV0xSH1n4Tjbz73KDwJuBTPmgLskSMmbbT5Y7X3cngXjgfJWCAg3PHqtlVHPqISKBhAlC0wnYn5j7VNepu0qyYqznMtLl96SOVcKFqH5DdicQhww",
+              "received": false
+            }
+          ],
+          "total_price": 125332,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

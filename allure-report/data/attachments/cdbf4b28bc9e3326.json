@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:30:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6691",
+    "etag": "W/\"1a23-otXTNQYO0m8icWIgPBebPYlJx8U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697001fe1c508c5d5eb688fb",
+      "status": "Canceled",
+      "customer": {
+        "_id": "697001ec1c508c5d5eb67a1a",
+        "email": "Lee_Steuber27@hotmail.com",
+        "name": "Mossie DuBuque",
+        "country": "USA",
+        "city": "Dietrichfurt",
+        "street": "Reynolds Path",
+        "house": 17,
+        "flat": 349,
+        "phone": "+12082182970",
+        "createdOn": "2026-01-20T22:30:04.000Z",
+        "notes": "0VGyzU5xqdwwaYLbOvYD8AhsfVDUj5l6PoVDA2F5xcdfshvGkhPjfm1XNEUE3e2kWSjgLoJUVZulYrAoH327O56Nh5ll3LvpUiSiT5zyRoMOwDpGYpokI2jOM9YdUoTngqiwMLRT22Lt76GQbbzm61QEV55LtpLscYJP60KMJOLNnu89nygnusVgLPU7i1337nyDJefSnbspHfyLUHkGgSvtyhJX0r89TFQxAOFqNZta8LZHkfu6a5kLSh"
+      },
+      "products": [
+        {
+          "_id": "697001ee1c508c5d5eb67c50",
+          "name": "Shoes63026",
+          "amount": 301,
+          "price": 8347,
+          "manufacturer": "Samsung",
+          "notes": "m9PvmlKtKmONSYd1CH6zIDTmJRStMdlrXFHY8U0nQLVAYLBOsOUCTcCoHGKPCXzN5yXg0fnKUKWPbePQzWWCmZuuJzuGkDu3emXTBlbrOBJcnOjt4OmI22YtI3x6h17TSdo1EjpX0gwlPr9aySGVv6r6TGI9dIj404lWOx3FzZVBVQ5C8882Sqgq8iz5Z5aMx2wb8HIsI4xWAmVSkbusrPwgHtJfJqBNwWJR0vdRuqOZtwIYG4eFflFbh5",
+          "received": false
+        },
+        {
+          "_id": "697001fa1c508c5d5eb685f6",
+          "name": "Table83130",
+          "amount": 960,
+          "price": 57961,
+          "manufacturer": "Sony",
+          "notes": "pvJ02NnlccOcnOhCkolS5YyENiFKvaeVDJlF16HCU7qaj4Dnk2Xe4nyALCkJcr5cLCw6gPzQh3XGpiQHYfMohR35HomsAlVxWeN5CaTJWwZlplcwhYnfhCTndOTvdX0wL6VPXcOpswllscE7IAJRMBwgIoOWhyHF07KoqOlw6ur92iDP02iZMwshcW0fm5EkDPXMXrbfyQRsguJs01QhxvT7SohIvYforFvxYgTwRmfK19yD0e5NatyUka",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Dietrichfurt",
+          "street": "Reynolds Path",
+          "house": 17,
+          "flat": 349
+        },
+        "finalDate": "2026-01-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66308,
+      "createdOn": "2026-01-20T22:30:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "697001ec1c508c5d5eb67a1a",
+          "products": [
+            {
+              "_id": "697001ee1c508c5d5eb67c50",
+              "name": "Shoes63026",
+              "amount": 301,
+              "price": 8347,
+              "manufacturer": "Samsung",
+              "notes": "m9PvmlKtKmONSYd1CH6zIDTmJRStMdlrXFHY8U0nQLVAYLBOsOUCTcCoHGKPCXzN5yXg0fnKUKWPbePQzWWCmZuuJzuGkDu3emXTBlbrOBJcnOjt4OmI22YtI3x6h17TSdo1EjpX0gwlPr9aySGVv6r6TGI9dIj404lWOx3FzZVBVQ5C8882Sqgq8iz5Z5aMx2wb8HIsI4xWAmVSkbusrPwgHtJfJqBNwWJR0vdRuqOZtwIYG4eFflFbh5",
+              "received": false
+            },
+            {
+              "_id": "697001fa1c508c5d5eb685f6",
+              "name": "Table83130",
+              "amount": 960,
+              "price": 57961,
+              "manufacturer": "Sony",
+              "notes": "pvJ02NnlccOcnOhCkolS5YyENiFKvaeVDJlF16HCU7qaj4Dnk2Xe4nyALCkJcr5cLCw6gPzQh3XGpiQHYfMohR35HomsAlVxWeN5CaTJWwZlplcwhYnfhCTndOTvdX0wL6VPXcOpswllscE7IAJRMBwgIoOWhyHF07KoqOlw6ur92iDP02iZMwshcW0fm5EkDPXMXrbfyQRsguJs01QhxvT7SohIvYforFvxYgTwRmfK19yD0e5NatyUka",
+              "received": false
+            }
+          ],
+          "total_price": 66308,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dietrichfurt",
+              "street": "Reynolds Path",
+              "house": 17,
+              "flat": 349
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-20T22:30:26.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "697001ec1c508c5d5eb67a1a",
+          "products": [
+            {
+              "_id": "697001ee1c508c5d5eb67c50",
+              "name": "Shoes63026",
+              "amount": 301,
+              "price": 8347,
+              "manufacturer": "Samsung",
+              "notes": "m9PvmlKtKmONSYd1CH6zIDTmJRStMdlrXFHY8U0nQLVAYLBOsOUCTcCoHGKPCXzN5yXg0fnKUKWPbePQzWWCmZuuJzuGkDu3emXTBlbrOBJcnOjt4OmI22YtI3x6h17TSdo1EjpX0gwlPr9aySGVv6r6TGI9dIj404lWOx3FzZVBVQ5C8882Sqgq8iz5Z5aMx2wb8HIsI4xWAmVSkbusrPwgHtJfJqBNwWJR0vdRuqOZtwIYG4eFflFbh5",
+              "received": false
+            },
+            {
+              "_id": "697001fa1c508c5d5eb685f6",
+              "name": "Table83130",
+              "amount": 960,
+              "price": 57961,
+              "manufacturer": "Sony",
+              "notes": "pvJ02NnlccOcnOhCkolS5YyENiFKvaeVDJlF16HCU7qaj4Dnk2Xe4nyALCkJcr5cLCw6gPzQh3XGpiQHYfMohR35HomsAlVxWeN5CaTJWwZlplcwhYnfhCTndOTvdX0wL6VPXcOpswllscE7IAJRMBwgIoOWhyHF07KoqOlw6ur92iDP02iZMwshcW0fm5EkDPXMXrbfyQRsguJs01QhxvT7SohIvYforFvxYgTwRmfK19yD0e5NatyUka",
+              "received": false
+            }
+          ],
+          "total_price": 66308,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dietrichfurt",
+              "street": "Reynolds Path",
+              "house": 17,
+              "flat": 349
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-20T22:30:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697001ec1c508c5d5eb67a1a",
+          "products": [
+            {
+              "_id": "697001ee1c508c5d5eb67c50",
+              "name": "Shoes63026",
+              "amount": 301,
+              "price": 8347,
+              "manufacturer": "Samsung",
+              "notes": "m9PvmlKtKmONSYd1CH6zIDTmJRStMdlrXFHY8U0nQLVAYLBOsOUCTcCoHGKPCXzN5yXg0fnKUKWPbePQzWWCmZuuJzuGkDu3emXTBlbrOBJcnOjt4OmI22YtI3x6h17TSdo1EjpX0gwlPr9aySGVv6r6TGI9dIj404lWOx3FzZVBVQ5C8882Sqgq8iz5Z5aMx2wb8HIsI4xWAmVSkbusrPwgHtJfJqBNwWJR0vdRuqOZtwIYG4eFflFbh5",
+              "received": false
+            },
+            {
+              "_id": "697001fa1c508c5d5eb685f6",
+              "name": "Table83130",
+              "amount": 960,
+              "price": 57961,
+              "manufacturer": "Sony",
+              "notes": "pvJ02NnlccOcnOhCkolS5YyENiFKvaeVDJlF16HCU7qaj4Dnk2Xe4nyALCkJcr5cLCw6gPzQh3XGpiQHYfMohR35HomsAlVxWeN5CaTJWwZlplcwhYnfhCTndOTvdX0wL6VPXcOpswllscE7IAJRMBwgIoOWhyHF07KoqOlw6ur92iDP02iZMwshcW0fm5EkDPXMXrbfyQRsguJs01QhxvT7SohIvYforFvxYgTwRmfK19yD0e5NatyUka",
+              "received": false
+            }
+          ],
+          "total_price": 66308,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dietrichfurt",
+              "street": "Reynolds Path",
+              "house": 17,
+              "flat": 349
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-20T22:30:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697001ec1c508c5d5eb67a1a",
+          "products": [
+            {
+              "_id": "697001ee1c508c5d5eb67c50",
+              "name": "Shoes63026",
+              "amount": 301,
+              "price": 8347,
+              "manufacturer": "Samsung",
+              "notes": "m9PvmlKtKmONSYd1CH6zIDTmJRStMdlrXFHY8U0nQLVAYLBOsOUCTcCoHGKPCXzN5yXg0fnKUKWPbePQzWWCmZuuJzuGkDu3emXTBlbrOBJcnOjt4OmI22YtI3x6h17TSdo1EjpX0gwlPr9aySGVv6r6TGI9dIj404lWOx3FzZVBVQ5C8882Sqgq8iz5Z5aMx2wb8HIsI4xWAmVSkbusrPwgHtJfJqBNwWJR0vdRuqOZtwIYG4eFflFbh5",
+              "received": false
+            },
+            {
+              "_id": "697001fa1c508c5d5eb685f6",
+              "name": "Table83130",
+              "amount": 960,
+              "price": 57961,
+              "manufacturer": "Sony",
+              "notes": "pvJ02NnlccOcnOhCkolS5YyENiFKvaeVDJlF16HCU7qaj4Dnk2Xe4nyALCkJcr5cLCw6gPzQh3XGpiQHYfMohR35HomsAlVxWeN5CaTJWwZlplcwhYnfhCTndOTvdX0wL6VPXcOpswllscE7IAJRMBwgIoOWhyHF07KoqOlw6ur92iDP02iZMwshcW0fm5EkDPXMXrbfyQRsguJs01QhxvT7SohIvYforFvxYgTwRmfK19yD0e5NatyUka",
+              "received": false
+            }
+          ],
+          "total_price": 66308,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:30:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

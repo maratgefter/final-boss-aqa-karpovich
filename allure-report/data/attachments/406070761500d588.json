@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 20 Jan 2026 22:28:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-9OAqeeEke5+Lg0ifUCHUJOVMne4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6970018e1c508c5d5eb6376c",
+        "email": "Alivia.Parisian@yahoo.com",
+        "name": "Skye Quigley",
+        "country": "Germany",
+        "city": "Richardson",
+        "street": "Cheyanne Glen",
+        "house": 21,
+        "flat": 717,
+        "phone": "+18094790090",
+        "createdOn": "2026-01-20T22:28:30.000Z",
+        "notes": "j061Le3xXDBMA5vfTXeN9GmsM1hn8TPZZRrrRyaydHKszEIz0KLC8pnF6WN0TdaOzT5PwuvdWtSA360VnPhFDiAYyMyJJ64EepsHi0SMGUlP0kmbYEb9hcnVUkAqJ0HhGKs0VFozdKm1CXGFrcz2422NdELcrXQCZyi725RG9vhCfnbnIF7dQHlWveZCjCiyUH7qQnMn9H4qMDRBMN2Yl12oG2Co7k98pCvMBLSEGWL1OFeGLO6hea6EA3"
+      },
+      "products": [
+        {
+          "_id": "6970018f1c508c5d5eb637a3",
+          "name": "Bike58275",
+          "amount": 573,
+          "price": 48384,
+          "manufacturer": "Google",
+          "notes": "ZmTQGJL8f4bpqg3RnIWO5Bh5QdeTiJ2YQwQqydNGnzDb2yanNoR7o6YdaI3K1rDkPqp56ZnRomR0yAjW5WZDn5hBXGGimPXQKqlHOtfVUhC5OeisWVSx0LFdoaTbrK6gouVKlUpj6i9NKctzoFlV9pIh6isGjqZ1iAotAcMFfeJQ36HJjxzTBEXCT0CSixPNw0HfOZNr0ZtpI43tO91er4eufj8iRS4VRLDgMtH9nyt8HFpEzl6XL6yoOW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48384,
+      "createdOn": "2026-01-20T22:28:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6970018e1c508c5d5eb6376c",
+          "products": [
+            {
+              "_id": "6970018f1c508c5d5eb637a3",
+              "name": "Bike58275",
+              "amount": 573,
+              "price": 48384,
+              "manufacturer": "Google",
+              "notes": "ZmTQGJL8f4bpqg3RnIWO5Bh5QdeTiJ2YQwQqydNGnzDb2yanNoR7o6YdaI3K1rDkPqp56ZnRomR0yAjW5WZDn5hBXGGimPXQKqlHOtfVUhC5OeisWVSx0LFdoaTbrK6gouVKlUpj6i9NKctzoFlV9pIh6isGjqZ1iAotAcMFfeJQ36HJjxzTBEXCT0CSixPNw0HfOZNr0ZtpI43tO91er4eufj8iRS4VRLDgMtH9nyt8HFpEzl6XL6yoOW",
+              "received": false
+            }
+          ],
+          "total_price": 48384,
+          "delivery": null,
+          "changedOn": "2026-01-20T22:28:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697001901c508c5d5eb638b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
