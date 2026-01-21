@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:30:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2650",
+    "etag": "W/\"a5a-keKSn6vxpD17+wqQE+Cne/Fwq4I\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6971539c1c508c5d5eb73f0a",
+        "email": "Malinda.Corkery40@gmail.com",
+        "name": "Kailyn Deckow",
+        "country": "USA",
+        "city": "San Juan",
+        "street": "Alexys Shore",
+        "house": 17,
+        "flat": 422,
+        "phone": "+14859273623",
+        "createdOn": "2026-01-21T22:30:52.000Z",
+        "notes": "BT7lwnVZMZbLwLDmNuVjdwX9PjaQVa6mrtVc66d1L3BP2zoyCY3gwtqGfTVaXpH6YQP6y8vZpYizlarSG2tIalkkQWtCFH4UweE5xB3t4iURdxJLbeVKOnVLm4dUW56w5ifgRB6lrOJv6lwskJ8D2UdRLeWOfdiTD04nNMFvuESxARppWWrz8vm1oOfWMcCtt5aDUn8vl4NZRuzc2XXgmbTIqjvCDMbsilhZnSHpjdS2o5Yz3gRNWyVTti"
+      },
+      "products": [
+        {
+          "_id": "6971539c1c508c5d5eb73f1c",
+          "name": "Pizza55396",
+          "amount": 827,
+          "price": 56451,
+          "manufacturer": "Google",
+          "notes": "EC5SXYN6pSzcLMr84kPXPUL9kdO67ZM5WyNrRLAVcOAWzCAPk8PQIHxTIiMLwEfeVGDQznqQmH2F7sQWJOZMIzKfK61a7DdvVZJOf8BppPhidwMunP3fGuHKXupCQoM42yzd5VVO9Ozbb8fXk5VqjSUA520AbPN2kYNV9YfE7LQ1eCeySgO4aGVt8IsiooUl71k6VJksZ7MmmfyQbnDP0C4GiN1iWlr82jp61PPkDi9AwcOnKIbEzmiskK",
+          "received": false
+        },
+        {
+          "_id": "6971539d1c508c5d5eb73f48",
+          "name": "Shoes30996",
+          "amount": 630,
+          "price": 94475,
+          "manufacturer": "Google",
+          "notes": "NjJa7bmau8mSKXYRAg4D7HZZGu5rp7RxC6upT22IQ3OkY2xYbe6xGOfVQU0ZhIT8OILaZpk80bUxHp4FruON0Xu8EtpuFh0vQH8WF5ZXaK0vtpMAx4B91iSEeWZWZMOU99HgRCJJOOuiTUXHgQLa88nwUrzlxb5iogXFPWYOM68PPPr2YFBVCYhEG8g6ZFfl8k8jCNOzyAIPlhXon7aDzNTGSSt1ll0AKxw4RXEEjbKwp3JxAEw35vkpll",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 150926,
+      "createdOn": "2026-01-21T22:30:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6971539c1c508c5d5eb73f0a",
+          "products": [
+            {
+              "_id": "6971539c1c508c5d5eb73f1c",
+              "name": "Pizza55396",
+              "amount": 827,
+              "price": 56451,
+              "manufacturer": "Google",
+              "notes": "EC5SXYN6pSzcLMr84kPXPUL9kdO67ZM5WyNrRLAVcOAWzCAPk8PQIHxTIiMLwEfeVGDQznqQmH2F7sQWJOZMIzKfK61a7DdvVZJOf8BppPhidwMunP3fGuHKXupCQoM42yzd5VVO9Ozbb8fXk5VqjSUA520AbPN2kYNV9YfE7LQ1eCeySgO4aGVt8IsiooUl71k6VJksZ7MmmfyQbnDP0C4GiN1iWlr82jp61PPkDi9AwcOnKIbEzmiskK",
+              "received": false
+            },
+            {
+              "_id": "6971539d1c508c5d5eb73f48",
+              "name": "Shoes30996",
+              "amount": 630,
+              "price": 94475,
+              "manufacturer": "Google",
+              "notes": "NjJa7bmau8mSKXYRAg4D7HZZGu5rp7RxC6upT22IQ3OkY2xYbe6xGOfVQU0ZhIT8OILaZpk80bUxHp4FruON0Xu8EtpuFh0vQH8WF5ZXaK0vtpMAx4B91iSEeWZWZMOU99HgRCJJOOuiTUXHgQLa88nwUrzlxb5iogXFPWYOM68PPPr2YFBVCYhEG8g6ZFfl8k8jCNOzyAIPlhXon7aDzNTGSSt1ll0AKxw4RXEEjbKwp3JxAEw35vkpll",
+              "received": false
+            }
+          ],
+          "total_price": 150926,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:30:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6971539d1c508c5d5eb73f7a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

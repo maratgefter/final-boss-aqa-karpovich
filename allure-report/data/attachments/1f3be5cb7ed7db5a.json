@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:31:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2650",
+    "etag": "W/\"a5a-nzVfXgYY835Fz5KLMJTRcKyIhs0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697153a31c508c5d5eb7443d",
+        "email": "Nico.Hintz@yahoo.com",
+        "name": "Charlene Nikolaus",
+        "country": "Great Britain",
+        "city": "Lake Clint",
+        "street": "Anna Ranch",
+        "house": 36,
+        "flat": 51,
+        "phone": "+15139826341",
+        "createdOn": "2026-01-21T22:30:59.000Z",
+        "notes": "wkWLruHqInuI5mXhpzkeLgBww2ltAAAX8R4UPlpHxR3FXmGKxMyn2z3imfpEFiMEpkFkxh2OzkuaLytYPzSaazF8tAHNLgBkiSIEIjSLriDSCoC4nMOSs2MXHxE9nXORyOKM5duQ86PNZg5Jp01uEqZLcznVXjPujg7MzyXk62CFl8YSsEOAnPK7gRqGq1flhq0aubtrhdNUFWco7wY8eAMB1Itij7fF8cMYFfdkw57YuUA8DrKweoFzR4"
+      },
+      "products": [
+        {
+          "_id": "697153a71c508c5d5eb74552",
+          "name": "Ball812",
+          "amount": 260,
+          "price": 95778,
+          "manufacturer": "Google",
+          "notes": "HoNtSoxXyGjP8Rio3TLWQByBCFROx4k6jWBQl7tJzQmdOAFCSJ3JE9odsPY5hkXVVyzRxxfQKFeRHuXAvOd4luZ7Whow6AOkhgSbezOpNP6tFXCdrsgTBkjalEdXNqrlnU8levfesEdwfWAt2wmNdjrsj8dThCiIdcC3BWcsFEfqT6vOQVIMwNpJvWmPTvhX9QT8c7fSQKMgS7OltYnlWaATzQySvzo3rvqx9zxk3XTLSQ6IUGuwElzwOS",
+          "received": false
+        },
+        {
+          "_id": "697153a81c508c5d5eb7457a",
+          "name": "Towels21569",
+          "amount": 489,
+          "price": 94857,
+          "manufacturer": "Tesla",
+          "notes": "6vvXOxE8KyYdWH1LAjurPaZTzKKM5vvcqUnsS3DoOchs68kWyHP9gbojItnOIsoTTFDjy0a1kUrH8iQpL78RtQQrYlpC99B9ULGiX011gXh9yFfPoJw78tzJ6XIFSVcMw5UtYovrwCTq3GSJIKhbqIIs1u4NaHdXES7giPmiZgVAL6FM2zHerrB99UWswdj5zTFpnighMBiFKQOEsFlW1NMDS7j0RYzfbUbXEw1lzZng4R11j2JZ5UZHX0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 190635,
+      "createdOn": "2026-01-21T22:31:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697153a31c508c5d5eb7443d",
+          "products": [
+            {
+              "_id": "697153a71c508c5d5eb74552",
+              "name": "Ball812",
+              "amount": 260,
+              "price": 95778,
+              "manufacturer": "Google",
+              "notes": "HoNtSoxXyGjP8Rio3TLWQByBCFROx4k6jWBQl7tJzQmdOAFCSJ3JE9odsPY5hkXVVyzRxxfQKFeRHuXAvOd4luZ7Whow6AOkhgSbezOpNP6tFXCdrsgTBkjalEdXNqrlnU8levfesEdwfWAt2wmNdjrsj8dThCiIdcC3BWcsFEfqT6vOQVIMwNpJvWmPTvhX9QT8c7fSQKMgS7OltYnlWaATzQySvzo3rvqx9zxk3XTLSQ6IUGuwElzwOS",
+              "received": false
+            },
+            {
+              "_id": "697153a81c508c5d5eb7457a",
+              "name": "Towels21569",
+              "amount": 489,
+              "price": 94857,
+              "manufacturer": "Tesla",
+              "notes": "6vvXOxE8KyYdWH1LAjurPaZTzKKM5vvcqUnsS3DoOchs68kWyHP9gbojItnOIsoTTFDjy0a1kUrH8iQpL78RtQQrYlpC99B9ULGiX011gXh9yFfPoJw78tzJ6XIFSVcMw5UtYovrwCTq3GSJIKhbqIIs1u4NaHdXES7giPmiZgVAL6FM2zHerrB99UWswdj5zTFpnighMBiFKQOEsFlW1NMDS7j0RYzfbUbXEw1lzZng4R11j2JZ5UZHX0",
+              "received": false
+            }
+          ],
+          "total_price": 190635,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:31:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697153a81c508c5d5eb7459e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

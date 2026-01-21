@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:30:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3867",
+    "etag": "W/\"f1b-CynHVth9CIWPOKBM0+TYe1fFixQ\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6971539d1c508c5d5eb73f53",
+      "status": "Draft",
+      "customer": {
+        "_id": "6971539c1c508c5d5eb73f13",
+        "email": "Rodolfo_Tromp-Rohan@gmail.com",
+        "name": "Casandra Kihn",
+        "country": "Belarus",
+        "city": "Reillyton",
+        "street": "The Sidings",
+        "house": 23,
+        "flat": 65,
+        "phone": "+17319340718",
+        "createdOn": "2026-01-21T22:30:52.000Z",
+        "notes": "D6wuxOCOw5JNV8DFB5AMPY0p6BngiX8cojO2cLVcLIYZVVNufqoHUvs8rG4QopPtByuZKTvjkzwHGIL8SKmOhlzfmMJMHpEdPVgPhQQuXqglc9WGyiy8IYGkjXV4sgrr9b7pLWtMhkwOrKgUg0ZmcVMbzm6vA0m77f0O90Z2vC7Vr6yfoffzAHb4j9Q8OHSnr9tHYIz1hwUfJ8L9JJlxWK1kp1Mab9t9w6DwN7A0KPrC2JkUecg645o3Pz"
+      },
+      "products": [
+        {
+          "_id": "6971539c1c508c5d5eb73f29",
+          "name": "Mouse19829",
+          "amount": 260,
+          "price": 68449,
+          "manufacturer": "Xiaomi",
+          "notes": "COWcSqC3o29LHUob2kJpXXB7FkYlrRjKWwV61HKdBktWMu5wJHgiDn10N8oHsgJ0NUqDVJAP7Nmh9nfM90UsRPzqCScCJH94REoPhyIubkUcVKKfxzMHfEVrT96jZcfU4bLUyGLMNxdRbyrmaVfCle8a0HirFW7KWVPYvgx2bcAzoSbChJRiQ8APRx8RzROZ6tIlUifSBaqKydIJBRcys4FXUnP5Nutl6zdIwO4agF8vuuBJLteNF1YOxS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68449,
+      "createdOn": "2026-01-21T22:30:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6971539c1c508c5d5eb73f13",
+          "products": [
+            {
+              "_id": "6971539c1c508c5d5eb73f29",
+              "name": "Mouse19829",
+              "amount": 260,
+              "price": 68449,
+              "manufacturer": "Xiaomi",
+              "notes": "COWcSqC3o29LHUob2kJpXXB7FkYlrRjKWwV61HKdBktWMu5wJHgiDn10N8oHsgJ0NUqDVJAP7Nmh9nfM90UsRPzqCScCJH94REoPhyIubkUcVKKfxzMHfEVrT96jZcfU4bLUyGLMNxdRbyrmaVfCle8a0HirFW7KWVPYvgx2bcAzoSbChJRiQ8APRx8RzROZ6tIlUifSBaqKydIJBRcys4FXUnP5Nutl6zdIwO4agF8vuuBJLteNF1YOxS",
+              "received": false
+            }
+          ],
+          "total_price": 68449,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:30:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6971539c1c508c5d5eb73f13",
+          "products": [
+            {
+              "_id": "6971539c1c508c5d5eb73f29",
+              "name": "Mouse19829",
+              "amount": 260,
+              "price": 68449,
+              "manufacturer": "Xiaomi",
+              "notes": "COWcSqC3o29LHUob2kJpXXB7FkYlrRjKWwV61HKdBktWMu5wJHgiDn10N8oHsgJ0NUqDVJAP7Nmh9nfM90UsRPzqCScCJH94REoPhyIubkUcVKKfxzMHfEVrT96jZcfU4bLUyGLMNxdRbyrmaVfCle8a0HirFW7KWVPYvgx2bcAzoSbChJRiQ8APRx8RzROZ6tIlUifSBaqKydIJBRcys4FXUnP5Nutl6zdIwO4agF8vuuBJLteNF1YOxS",
+              "received": false
+            }
+          ],
+          "total_price": 68449,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:30:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6971539c1c508c5d5eb73f13",
+          "products": [
+            {
+              "_id": "6971539c1c508c5d5eb73f29",
+              "name": "Mouse19829",
+              "amount": 260,
+              "price": 68449,
+              "manufacturer": "Xiaomi",
+              "notes": "COWcSqC3o29LHUob2kJpXXB7FkYlrRjKWwV61HKdBktWMu5wJHgiDn10N8oHsgJ0NUqDVJAP7Nmh9nfM90UsRPzqCScCJH94REoPhyIubkUcVKKfxzMHfEVrT96jZcfU4bLUyGLMNxdRbyrmaVfCle8a0HirFW7KWVPYvgx2bcAzoSbChJRiQ8APRx8RzROZ6tIlUifSBaqKydIJBRcys4FXUnP5Nutl6zdIwO4agF8vuuBJLteNF1YOxS",
+              "received": false
+            }
+          ],
+          "total_price": 68449,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:30:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:31:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-bliWkHmEO+hKUCe2gj6NSQWy+UM\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697153bb1c508c5d5eb750eb",
+      "status": "Draft",
+      "customer": {
+        "_id": "697153b91c508c5d5eb74f98",
+        "email": "Trevor.Morar73@gmail.com",
+        "name": "Ned Hermann",
+        "country": "Belarus",
+        "city": "Loyalmouth",
+        "street": "Orville Highway",
+        "house": 35,
+        "flat": 769,
+        "phone": "+14579037649",
+        "createdOn": "2026-01-21T22:31:21.000Z",
+        "notes": "nszb5WKmq24cpnt3CtySvW0Qgv52ykfxLxws1CguPgMpNxkVPW41zvACAJJ1ugojWTDBY0qluo1qVgFAhnqZw29983W35jEFgOhFhhVi4DO1n0S1Z35jYQcxcFjNKbb32mtJQGZBKZfQ7XJ1LWvBd8AyCnNaWtqHWwQEmMUBZmnsYjUw6z40nOcoqZuJ97Va8q4rUUEvXSdwWKhIaFPGZJRob0yyh9hxpiUMTKgWfFK0xjEk8LHWS81yJS"
+      },
+      "products": [
+        {
+          "_id": "697153bb1c508c5d5eb750ca",
+          "name": "Shoes48504",
+          "amount": 194,
+          "price": 81404,
+          "manufacturer": "Google",
+          "notes": "XsZAN5RShjPTckjricghZkKGzGkeJaOLgdXQQBFr3DUj8Ar4ImvUjxFTuURk1GdWaIiOqqb5pl5gIbM5wGzku5EbkvYN2IaEbBogJMvFi6iHPNDMxghWFQAEjMqocr0BLOCwTEW1oWur5HHwBG5jcITqwzRhWnpcvXJfkwUpI7deASoOPgl6BLgS4rn6q7r7AhQ79g1rKfBgFufk11GwBoOH35NOBcJ9GPYA27QstqQ8ElMzxAWBymXQNW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81404,
+      "createdOn": "2026-01-21T22:31:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697153b91c508c5d5eb74f98",
+          "products": [
+            {
+              "_id": "697153bb1c508c5d5eb750ca",
+              "name": "Shoes48504",
+              "amount": 194,
+              "price": 81404,
+              "manufacturer": "Google",
+              "notes": "XsZAN5RShjPTckjricghZkKGzGkeJaOLgdXQQBFr3DUj8Ar4ImvUjxFTuURk1GdWaIiOqqb5pl5gIbM5wGzku5EbkvYN2IaEbBogJMvFi6iHPNDMxghWFQAEjMqocr0BLOCwTEW1oWur5HHwBG5jcITqwzRhWnpcvXJfkwUpI7deASoOPgl6BLgS4rn6q7r7AhQ79g1rKfBgFufk11GwBoOH35NOBcJ9GPYA27QstqQ8ElMzxAWBymXQNW",
+              "received": false
+            }
+          ],
+          "total_price": 81404,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:31:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

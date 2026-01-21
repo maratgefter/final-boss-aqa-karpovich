@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:32:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-ckJHZ79fjPQTML8ZnGaTkLFgF7w\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697153e61c508c5d5eb76d0a",
+        "email": "Jaida78@gmail.com",
+        "name": "Walter Gottlieb",
+        "country": "Ukraine",
+        "city": "Fort Camille",
+        "street": "Clarence Street",
+        "house": 50,
+        "flat": 229,
+        "phone": "+15402732599",
+        "createdOn": "2026-01-21T22:32:06.000Z",
+        "notes": "prPmRmuPTiCk7YEbjc4Ysp5SqABk0EDdCPBftUHHpUb1HfXkJZdYd968aNT1IzxfnKEuzETjqqU0EBUSYxRvWeyOcF6PPMPPx5uRCIMW8PkyoEm0dDa1UxBP8odomm9DxoX1FMznwk6dRHidnVHMFaIC3uuGZvYqGXbgfjfcbzvzKWa2ApVEbtkG7LeaBFbdMD9xdl8614oBj02yepjTG7qb6OLQPTatcbwye2PzojeWlDdo0JiZFrrbS5"
+      },
+      "products": [
+        {
+          "_id": "697153e61c508c5d5eb76d18",
+          "name": "Tuna99697",
+          "amount": 927,
+          "price": 45135,
+          "manufacturer": "Amazon",
+          "notes": "fov8rGbyZTtsPMDtX4NZZ6Hp2IH1tsOtHESkHU4YY53rUI2i7UyhPEAbBYkUyH2lB7VLBcP0hGhoOegmEQiXfgpxenGMDNQafOK57NJKsfcFgI3n9OoKOObacrlGXx0DNDECwagqjeFPxF33RQlr8wPuk1sMLG5kAMGq3gfnzfnMMiqxG6C5L4fYiqzTa3mzRvlm6ewk5B16BEUeBuU8RWjiTdb3jW3wODaNHlpUvecFmnM6rlFu5jrRGL",
+          "received": false
+        },
+        {
+          "_id": "697153e71c508c5d5eb76d47",
+          "name": "Bike26869",
+          "amount": 262,
+          "price": 89807,
+          "manufacturer": "Xiaomi",
+          "notes": "9tYMUp0AwEvPCwQQU9ZIORSBZCsaFlTy1Opz6xqkVoeiN9NZA7yWGH895y7QOzpbQ3VVkVMTl2h5fGGnE80pMRSIsslnE5xhSWJUboUBgWjJFSQx6ngtuqxAQ3YQ1WX6jQxvux5KD9uXASCsEzYoExfrM59L7NJtwfCs1oz9iGB4hL8jFP2Z9jTlty6l4eSD6AerIxwojGhrDyMTXOD08arcm3ofd5fY1mirrLTf2Cwad3qhHWxbWnDdPS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 134942,
+      "createdOn": "2026-01-21T22:32:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697153e61c508c5d5eb76d0a",
+          "products": [
+            {
+              "_id": "697153e61c508c5d5eb76d18",
+              "name": "Tuna99697",
+              "amount": 927,
+              "price": 45135,
+              "manufacturer": "Amazon",
+              "notes": "fov8rGbyZTtsPMDtX4NZZ6Hp2IH1tsOtHESkHU4YY53rUI2i7UyhPEAbBYkUyH2lB7VLBcP0hGhoOegmEQiXfgpxenGMDNQafOK57NJKsfcFgI3n9OoKOObacrlGXx0DNDECwagqjeFPxF33RQlr8wPuk1sMLG5kAMGq3gfnzfnMMiqxG6C5L4fYiqzTa3mzRvlm6ewk5B16BEUeBuU8RWjiTdb3jW3wODaNHlpUvecFmnM6rlFu5jrRGL",
+              "received": false
+            },
+            {
+              "_id": "697153e71c508c5d5eb76d47",
+              "name": "Bike26869",
+              "amount": 262,
+              "price": 89807,
+              "manufacturer": "Xiaomi",
+              "notes": "9tYMUp0AwEvPCwQQU9ZIORSBZCsaFlTy1Opz6xqkVoeiN9NZA7yWGH895y7QOzpbQ3VVkVMTl2h5fGGnE80pMRSIsslnE5xhSWJUboUBgWjJFSQx6ngtuqxAQ3YQ1WX6jQxvux5KD9uXASCsEzYoExfrM59L7NJtwfCs1oz9iGB4hL8jFP2Z9jTlty6l4eSD6AerIxwojGhrDyMTXOD08arcm3ofd5fY1mirrLTf2Cwad3qhHWxbWnDdPS",
+              "received": false
+            }
+          ],
+          "total_price": 134942,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:32:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697153e71c508c5d5eb76d81"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

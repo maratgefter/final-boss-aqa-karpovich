@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 21 Jan 2026 22:30:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-QSC6TVKHS0JguslyL14iQzk5L6o\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697153981c508c5d5eb73d26",
+        "email": "Lelia.Lynch36@gmail.com",
+        "name": "Magnolia Fahey",
+        "country": "France",
+        "city": "Belleville",
+        "street": "Windler Spurs",
+        "house": 5,
+        "flat": 606,
+        "phone": "+15332635238",
+        "createdOn": "2026-01-21T22:30:48.000Z",
+        "notes": "HcdNhlFneQmtDJEFkz568j40o4wS0WVjhruaCP5qpkcsgK3DGAqx6mQSF1Opv7yD0FvMN6vl1KvSrXjBWU1cr8Rc8puCvXNoXhWAR8TMbMJcLH0wLEuHU8S4onRmTeP43SWpTCS8CnViYorWv3zo1mkkXbHDa092zls8GQyv8btMtM8FmoTvkz4NltGv1YeOtW0zViACRDBRroG2WnnKTgH8zWkPVPu9CtuAbQOAGJTR3FOICKIrBHKeSV"
+      },
+      "products": [
+        {
+          "_id": "697153981c508c5d5eb73d55",
+          "name": "Car69110",
+          "amount": 411,
+          "price": 92768,
+          "manufacturer": "Google",
+          "notes": "in3fUOcjHpnuboK1BVnUz55uShTHpZ8yEQD1km6dM7nZcCcmP3GhmAehjtVPz9nmhZy6Jz0Gg5sXNXtwawqyT33bYqI7GyEMgtmpC18Tc0vmshPupYX0iqLZGlmuYrvJU1fE3o6Q57dnGUMe1vTwikly8cjaotI8IDV7dOA0qGTnVibbq6y6efDGF9y9EORHj4E7guSBaZdWmmERjICdt4cCsgXzqA47eaffoSvVgRbC2y5GVa7MtYsqEN",
+          "received": false
+        },
+        {
+          "_id": "697153991c508c5d5eb73d8d",
+          "name": "Pizza73251",
+          "amount": 195,
+          "price": 86541,
+          "manufacturer": "Microsoft",
+          "notes": "oUbmoXPsi3zSwdbuluX5pRim3PLeS1NWim4ZcjzRtdhSj8tRGi6k2FqOE6uC83aurGBb7Xvex38bFFncf05YZrLUmVQQu8d1XyQvS7qFFUJA2bwTxhc9DYmdDZYWOw5usPwwfFItdiG9DV6xGJZYIB5k7o3m6RI4Mp81vCvswsHk8FX8q7zyYxNsZs8QypHKkVJRTsT95leUU8OTGIIz25o9raxS1t90fhOonSmo9v6gpdg4g6OrqHH5b5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 179309,
+      "createdOn": "2026-01-21T22:30:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697153981c508c5d5eb73d26",
+          "products": [
+            {
+              "_id": "697153981c508c5d5eb73d55",
+              "name": "Car69110",
+              "amount": 411,
+              "price": 92768,
+              "manufacturer": "Google",
+              "notes": "in3fUOcjHpnuboK1BVnUz55uShTHpZ8yEQD1km6dM7nZcCcmP3GhmAehjtVPz9nmhZy6Jz0Gg5sXNXtwawqyT33bYqI7GyEMgtmpC18Tc0vmshPupYX0iqLZGlmuYrvJU1fE3o6Q57dnGUMe1vTwikly8cjaotI8IDV7dOA0qGTnVibbq6y6efDGF9y9EORHj4E7guSBaZdWmmERjICdt4cCsgXzqA47eaffoSvVgRbC2y5GVa7MtYsqEN",
+              "received": false
+            },
+            {
+              "_id": "697153991c508c5d5eb73d8d",
+              "name": "Pizza73251",
+              "amount": 195,
+              "price": 86541,
+              "manufacturer": "Microsoft",
+              "notes": "oUbmoXPsi3zSwdbuluX5pRim3PLeS1NWim4ZcjzRtdhSj8tRGi6k2FqOE6uC83aurGBb7Xvex38bFFncf05YZrLUmVQQu8d1XyQvS7qFFUJA2bwTxhc9DYmdDZYWOw5usPwwfFItdiG9DV6xGJZYIB5k7o3m6RI4Mp81vCvswsHk8FX8q7zyYxNsZs8QypHKkVJRTsT95leUU8OTGIIz25o9raxS1t90fhOonSmo9v6gpdg4g6OrqHH5b5",
+              "received": false
+            }
+          ],
+          "total_price": 179309,
+          "delivery": null,
+          "changedOn": "2026-01-21T22:30:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6971539b1c508c5d5eb73eb1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
