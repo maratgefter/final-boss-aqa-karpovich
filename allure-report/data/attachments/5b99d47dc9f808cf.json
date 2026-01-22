@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:31:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-GXtHp9Ck/XtEqnO9vCME+Xby07c\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a51e1c508c5d5eb88f1b",
+        "email": "Tabitha.Crona85@gmail.com",
+        "name": "Jacky Keebler",
+        "country": "USA",
+        "city": "South Constantin",
+        "street": "Dicki Trail",
+        "house": 48,
+        "flat": 758,
+        "phone": "+16957796705",
+        "createdOn": "2026-01-22T22:30:54.000Z",
+        "notes": "1fhgoVkSpUAlwIVBWT09zudGd2SHcZsKG5Gyvb1amMpRE8U8wdddtKRahBTKIlzFXQqrd6vL0V1j7UR0iiSYaPr60bpOog9maOualwNTezyiSTerjf2N39tLlQuhfiyFwxpWhHLl9SL9KSn7aDqFBi86HcPi7GC73HAO2VRjXbGGvDEHP5E2lmT5yiFueEyab6EXpx5ZSSHq1obFWKYjPhiSqP35r5jvE0uxR53SBnPBsPAQRebxJpWHgQ"
+      },
+      "products": [
+        {
+          "_id": "6972a5251c508c5d5eb89519",
+          "name": "Gloves1188",
+          "amount": 804,
+          "price": 68897,
+          "manufacturer": "Microsoft",
+          "notes": "VmhOLMAOm89iWCQekUKfrJSEVRwcUrMYEvxuR3dXFvSLV5n6iJoA4637QZyupnlKeTLDzFajo0gbk7aoRHkFraUVEjela6u0ItqdWrmOv0VJKVxqGBOBvdVj5hIJoPeBAdDmPXBh5bsvmx2JXfSxTXLi91OtRvmZuRk4Ll2VUqNsBdXP9xyvRCU32UqJzChZyZx3LToKj56h8ferho1ryPSelo8TWvWqfEdxCyeO9pV9MUELjExKAg15TK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68897,
+      "createdOn": "2026-01-22T22:31:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a51e1c508c5d5eb88f1b",
+          "products": [
+            {
+              "_id": "6972a5251c508c5d5eb89519",
+              "name": "Gloves1188",
+              "amount": 804,
+              "price": 68897,
+              "manufacturer": "Microsoft",
+              "notes": "VmhOLMAOm89iWCQekUKfrJSEVRwcUrMYEvxuR3dXFvSLV5n6iJoA4637QZyupnlKeTLDzFajo0gbk7aoRHkFraUVEjela6u0ItqdWrmOv0VJKVxqGBOBvdVj5hIJoPeBAdDmPXBh5bsvmx2JXfSxTXLi91OtRvmZuRk4Ll2VUqNsBdXP9xyvRCU32UqJzChZyZx3LToKj56h8ferho1ryPSelo8TWvWqfEdxCyeO9pV9MUELjExKAg15TK",
+              "received": false
+            }
+          ],
+          "total_price": 68897,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:31:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a5261c508c5d5eb89539"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

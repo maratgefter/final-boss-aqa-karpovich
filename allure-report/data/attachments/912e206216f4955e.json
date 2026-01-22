@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2940",
+    "etag": "W/\"b7c-tAAyAct/qOqtBLU0cXRcttmDfSI\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6972a4ca1c508c5d5eb857ac",
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4c61c508c5d5eb854fe",
+        "email": "Leonora60@yahoo.com",
+        "name": "Roderick Mueller",
+        "country": "USA",
+        "city": "Lake Dominic",
+        "street": "Ally Track",
+        "house": 36,
+        "flat": 521,
+        "phone": "+15619665301",
+        "createdOn": "2026-01-22T22:29:26.000Z",
+        "notes": "BG9FTFBU87b4eI2ESxyJrvHXj7xY16lsFsetIuZZfRdbon0Tbt6s6UHxAmO9A859NCGtxELuHYQu2WRtY7eO9KjFCEE7iZbtBcDaGTQrwJhxhnMAGIsHLV7FqZtbg2pTxBW533BwaQpsFc2P8sVkju8yrFoaCMKp8mZ7C5t119iGFVPAS7ZYpzIU6R5sFBgF5EQ3GwbcBunqiZQcYXJHFGXVjmzAi0KqV52sKzvjW5lGHd9njwTRN8NUr0"
+      },
+      "products": [
+        {
+          "_id": "6972a4c81c508c5d5eb85652",
+          "name": "Mouse22510",
+          "amount": 599,
+          "price": 99587,
+          "manufacturer": "Samsung",
+          "notes": "8oSFpbfijVFMSMKOpCFcFBlUYywBEHCVbtykm1so1hhLVED4ztXf7y82qF2FMNyL72CmiQz1OxoyGrzqW1q7pPvw1fLF81T8zS8vinvBzReKY8NTA0IWf0P0LyOdEBwJpmIHdIjbE6D17wCVHWv3SqEI1PDDAR8d1L5lu3aLpepkWFibaK5vFAq0fgXhiwdnVH9Y7i3uWEpGx3Sctqs0Q5yix1uZ3aQy2sIyPbZ4X4gQUpMwZIdMLViATA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Mishawaka",
+          "street": "Church Hill",
+          "house": 21,
+          "flat": 691
+        },
+        "finalDate": "2026-01-22T22:29:30.286Z",
+        "condition": "Pickup"
+      },
+      "total_price": 99587,
+      "createdOn": "2026-01-22T22:29:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4c61c508c5d5eb854fe",
+          "products": [
+            {
+              "_id": "6972a4c81c508c5d5eb85652",
+              "name": "Mouse22510",
+              "amount": 599,
+              "price": 99587,
+              "manufacturer": "Samsung",
+              "notes": "8oSFpbfijVFMSMKOpCFcFBlUYywBEHCVbtykm1so1hhLVED4ztXf7y82qF2FMNyL72CmiQz1OxoyGrzqW1q7pPvw1fLF81T8zS8vinvBzReKY8NTA0IWf0P0LyOdEBwJpmIHdIjbE6D17wCVHWv3SqEI1PDDAR8d1L5lu3aLpepkWFibaK5vFAq0fgXhiwdnVH9Y7i3uWEpGx3Sctqs0Q5yix1uZ3aQy2sIyPbZ4X4gQUpMwZIdMLViATA",
+              "received": false
+            }
+          ],
+          "total_price": 99587,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Mishawaka",
+              "street": "Church Hill",
+              "house": 21,
+              "flat": 691
+            },
+            "finalDate": "2026-01-22T22:29:30.286Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-22T22:29:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6972a4c61c508c5d5eb854fe",
+          "products": [
+            {
+              "_id": "6972a4c81c508c5d5eb85652",
+              "name": "Mouse22510",
+              "amount": 599,
+              "price": 99587,
+              "manufacturer": "Samsung",
+              "notes": "8oSFpbfijVFMSMKOpCFcFBlUYywBEHCVbtykm1so1hhLVED4ztXf7y82qF2FMNyL72CmiQz1OxoyGrzqW1q7pPvw1fLF81T8zS8vinvBzReKY8NTA0IWf0P0LyOdEBwJpmIHdIjbE6D17wCVHWv3SqEI1PDDAR8d1L5lu3aLpepkWFibaK5vFAq0fgXhiwdnVH9Y7i3uWEpGx3Sctqs0Q5yix1uZ3aQy2sIyPbZ4X4gQUpMwZIdMLViATA",
+              "received": false
+            }
+          ],
+          "total_price": 99587,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

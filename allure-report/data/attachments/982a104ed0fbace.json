@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:28:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-65ueECvNkhjYH5lyG2VbGtlcJ1k\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4a21c508c5d5eb83f10",
+        "email": "Jon_Corkery10@hotmail.com",
+        "name": "Kylie Treutel",
+        "country": "Great Britain",
+        "city": "Karlishire",
+        "street": "Domenico Land",
+        "house": 9,
+        "flat": 708,
+        "phone": "+17223128151",
+        "createdOn": "2026-01-22T22:28:50.000Z",
+        "notes": "DtzQVFlWpwUBaolYk8j6gKsui1zehPeexgWO6yFTMfjFKoMJQO8luGt3rF1yBZY1fTh0nwRkDDwo6INeomYu3r0RmOfGwuYq2SDarBuhMsZvidDvxiFKbGQ3gYgGyMS3PHIQIqQGaNpw4f0g21vaB2JLoFAH762GjI77c61Q4kQaU2A2L5tgG71jnXPNd7t0ejXlfez5g8dEx0zEDP36Rv1HjK8LD58e8qoDIL2teM1KcjoX9i0teEnAhT"
+      },
+      "products": [
+        {
+          "_id": "6972a4a21c508c5d5eb83f31",
+          "name": "Pants70832",
+          "amount": 470,
+          "price": 98137,
+          "manufacturer": "Samsung",
+          "notes": "NLuk5YmD8pfxvPKWJXCasAW8GRpk7GJHng6i2ZSNdSSGGas4cLCOLTfFIp74ED5DpDw8bRi5xZ2iI40aTvgvALXUQN0zj5fGm3BUU81IWWzPeYJm2SyPbNMLtfIHNnoKivysm2WYoa2lnQqWQR7RqDPRL8YYoPvQSILiBDZms3mU1zXeOyeMsE4OwTQqkvf3LV4USKfmPV3tk0dANnS0hLdNDm5hP5p7PAzgl05EONK4ZHbZBAytzo8orN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98137,
+      "createdOn": "2026-01-22T22:28:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4a21c508c5d5eb83f10",
+          "products": [
+            {
+              "_id": "6972a4a21c508c5d5eb83f31",
+              "name": "Pants70832",
+              "amount": 470,
+              "price": 98137,
+              "manufacturer": "Samsung",
+              "notes": "NLuk5YmD8pfxvPKWJXCasAW8GRpk7GJHng6i2ZSNdSSGGas4cLCOLTfFIp74ED5DpDw8bRi5xZ2iI40aTvgvALXUQN0zj5fGm3BUU81IWWzPeYJm2SyPbNMLtfIHNnoKivysm2WYoa2lnQqWQR7RqDPRL8YYoPvQSILiBDZms3mU1zXeOyeMsE4OwTQqkvf3LV4USKfmPV3tk0dANnS0hLdNDm5hP5p7PAzgl05EONK4ZHbZBAytzo8orN",
+              "received": false
+            }
+          ],
+          "total_price": 98137,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:28:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4a31c508c5d5eb83f6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

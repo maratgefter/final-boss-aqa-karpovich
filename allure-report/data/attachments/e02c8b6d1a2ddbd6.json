@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-Gcq6uCYmYW9aX+qHBPKxjLcTYtk\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4b01c508c5d5eb84628",
+        "email": "Brenden41@hotmail.com",
+        "name": "Christine Hauck",
+        "country": "Germany",
+        "city": "Ethelview",
+        "street": "Martin Luther King Boulevard",
+        "house": 29,
+        "flat": 258,
+        "phone": "+13515846626",
+        "createdOn": "2026-01-22T22:29:04.000Z",
+        "notes": "vJDBnKQBpOnEZFGWlmeH1uqErv1mQys02KfHJLjbiThdRI4P2FoHWr18E16GOknjtsPHWC942cOsPrsh2hvXU0q2BBWHxp2dFoqvgJUuxU3A4s7FIRNheG4V3KGFtexZQ6cLkI44iSQwBt7zdmIdEeu31I6Jp2kUN0uom2Fl2ShG1PcPPE58oAT7FAIUjIMVoJ2rJA83KHoNBxEE5TxU4XA0hgnvj8XoATBbeCGnOEJ2fZZzj8PwG1i4SB"
+      },
+      "products": [
+        {
+          "_id": "6972a4b01c508c5d5eb8464b",
+          "name": "Keyboard28013",
+          "amount": 73,
+          "price": 90940,
+          "manufacturer": "Google",
+          "notes": "wuZQ8VZy1N8uWJY37ADqHcRHA62ylUfPnPrdYFNNg366ccpJVc2n4YQrT6jLA532G590R89NNcwvv1F1Fb2gmbSvM2DJeQjgyWhAEr3aOSgQra2GOoibYH3HrGqEfN67srYrVE9ecqPrEPlzKXNReq0u1g1YczKWgeL1PTALisc0wDmy1sfyOHU3lx6jOq4zbTapPcRSHjExcR5GJBLKcOY2Ee3kDqzpkMUgdV9LYT87dHSvP87D7E20A7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90940,
+      "createdOn": "2026-01-22T22:29:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4b01c508c5d5eb84628",
+          "products": [
+            {
+              "_id": "6972a4b01c508c5d5eb8464b",
+              "name": "Keyboard28013",
+              "amount": 73,
+              "price": 90940,
+              "manufacturer": "Google",
+              "notes": "wuZQ8VZy1N8uWJY37ADqHcRHA62ylUfPnPrdYFNNg366ccpJVc2n4YQrT6jLA532G590R89NNcwvv1F1Fb2gmbSvM2DJeQjgyWhAEr3aOSgQra2GOoibYH3HrGqEfN67srYrVE9ecqPrEPlzKXNReq0u1g1YczKWgeL1PTALisc0wDmy1sfyOHU3lx6jOq4zbTapPcRSHjExcR5GJBLKcOY2Ee3kDqzpkMUgdV9LYT87dHSvP87D7E20A7",
+              "received": false
+            }
+          ],
+          "total_price": 90940,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4b11c508c5d5eb846a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

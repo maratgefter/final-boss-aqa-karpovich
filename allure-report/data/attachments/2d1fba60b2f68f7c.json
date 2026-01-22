@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:30:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-QtNobjQoswHSF04A+50tHcLg7NI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6972a4e81c508c5d5eb86c39",
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4e51c508c5d5eb86acb",
+        "email": "Jerrold33@gmail.com",
+        "name": "Margarett Brown",
+        "country": "Germany",
+        "city": "Chelseystead",
+        "street": "Marietta Ranch",
+        "house": 5,
+        "flat": 102,
+        "phone": "+15164047482",
+        "createdOn": "2026-01-22T22:29:57.000Z",
+        "notes": "1U7pCDGhn8mk5R1MH6xiERHNPavqXi5a3nTXth8aFbZckR6VhUVtb1SEnKNXKvpHb9Y5rR14tsSrS6bCGDwL066b0b51ibDyawGKackFmMHnyzbHCpvyLhEA0RtB0XQaKbbYwsT7zru5sKEsri5U3JiZcvQDjiP90fRL1fdglEVm2f59UBZ2Chh5oHRsXt9IHAY514sX7sgtBFGFKEd9eTF7I9bgxttRu7KeqD5FfFD7ejDPRHpzAifep7"
+      },
+      "products": [
+        {
+          "_id": "6972a4e61c508c5d5eb86aee",
+          "name": "Bacon64752",
+          "amount": 194,
+          "price": 11125,
+          "manufacturer": "Google",
+          "notes": "iWA9PDfOuSwg5nIAlqE1v0CQcwJodwx3qmTnHFLphFDBhebx50Z1Bpe3FXQuI87PNkOdGWTDiWCBPhqlDMLrV3F8hnTnC2sX08Mege3jRwEw35ptGZgfJETljkjPQxIaVz4GzkgABAO7UnGJusN3Hq2v53jUghkVMgsNd2Y3LPoabYJnjpp6Q828YTr5ACWwlLstDeTardZvrUGUEgzeuR4Z12GEeDzXgDuAwyCcEWpazLXmtf4jWwfUI1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Chelseystead",
+          "street": "Marietta Ranch",
+          "house": 5,
+          "flat": 102
+        },
+        "finalDate": "2026-02-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 11125,
+      "createdOn": "2026-01-22T22:30:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4e51c508c5d5eb86acb",
+          "products": [
+            {
+              "_id": "6972a4e61c508c5d5eb86aee",
+              "name": "Bacon64752",
+              "amount": 194,
+              "price": 11125,
+              "manufacturer": "Google",
+              "notes": "iWA9PDfOuSwg5nIAlqE1v0CQcwJodwx3qmTnHFLphFDBhebx50Z1Bpe3FXQuI87PNkOdGWTDiWCBPhqlDMLrV3F8hnTnC2sX08Mege3jRwEw35ptGZgfJETljkjPQxIaVz4GzkgABAO7UnGJusN3Hq2v53jUghkVMgsNd2Y3LPoabYJnjpp6Q828YTr5ACWwlLstDeTardZvrUGUEgzeuR4Z12GEeDzXgDuAwyCcEWpazLXmtf4jWwfUI1",
+              "received": false
+            }
+          ],
+          "total_price": 11125,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Chelseystead",
+              "street": "Marietta Ranch",
+              "house": 5,
+              "flat": 102
+            },
+            "finalDate": "2026-02-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-22T22:30:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6972a4e51c508c5d5eb86acb",
+          "products": [
+            {
+              "_id": "6972a4e61c508c5d5eb86aee",
+              "name": "Bacon64752",
+              "amount": 194,
+              "price": 11125,
+              "manufacturer": "Google",
+              "notes": "iWA9PDfOuSwg5nIAlqE1v0CQcwJodwx3qmTnHFLphFDBhebx50Z1Bpe3FXQuI87PNkOdGWTDiWCBPhqlDMLrV3F8hnTnC2sX08Mege3jRwEw35ptGZgfJETljkjPQxIaVz4GzkgABAO7UnGJusN3Hq2v53jUghkVMgsNd2Y3LPoabYJnjpp6Q828YTr5ACWwlLstDeTardZvrUGUEgzeuR4Z12GEeDzXgDuAwyCcEWpazLXmtf4jWwfUI1",
+              "received": false
+            }
+          ],
+          "total_price": 11125,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:30:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

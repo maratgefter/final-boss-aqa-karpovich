@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:32:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4768",
+    "etag": "W/\"12a0-446K5zd9m2KTSaEY/Lt/jvN1WiY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6972a55d1c508c5d5eb8bd56",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6972a5591c508c5d5eb8babe",
+        "email": "Gerald.Doyle@hotmail.com",
+        "name": "Mohammad Kub",
+        "country": "Ukraine",
+        "city": "Leonton",
+        "street": "Cedar Road",
+        "house": 30,
+        "flat": 791,
+        "phone": "+12496646461",
+        "createdOn": "2026-01-22T22:31:53.000Z",
+        "notes": "RBaowUz2jzC6cAGAHM9wPxopekqpMbAYbcqJG4aDEjUcvRPIRhQa31wfZg1vse7Riv0VhXp2EaxLnMFBWlWYDmRtJjWTnqgWI3fPFqjKA0z91H8mbhzms8g1d5Z8t4i5pWzugWTBUvBiWszTEPhMDGomHh3hr800HNvCXCq67lxJ3WRYPUw9hlRMsyiTMnrvlZLZIEfQpbRh5yJJzC1ROq8wZ52A0ghhgdBloCP8DCzzpuwLZpdCJ9hJgw"
+      },
+      "products": [
+        {
+          "_id": "6972a55a1c508c5d5eb8bade",
+          "name": "Tuna19736",
+          "amount": 160,
+          "price": 88713,
+          "manufacturer": "Microsoft",
+          "notes": "GMWWphjQHWzyYMDu1Whk5OI9tQwj9IOFsAVVZMSi0pReuFuP2MaxQovd7EYYAovLGmGael01i6k8mCzzuGG6BduhHXZJeiKPxayXQcfqFKH2rUa5ijTIqYJRUCi0CM1zLl9eYJJFF5P3iEJuJqAUTxGts6AYKyMnKzZXtYUJQ7GUJTyEWNcHsuax3yeeF6gBPlYxGzLQZLa60nd1qWtnasESbCtt9MIFQB6Er2M7ePRXFpI0RrON5wMExF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Leonton",
+          "street": "Cedar Road",
+          "house": 30,
+          "flat": 791
+        },
+        "finalDate": "2026-01-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 88713,
+      "createdOn": "2026-01-22T22:31:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6972a5591c508c5d5eb8babe",
+          "products": [
+            {
+              "_id": "6972a55a1c508c5d5eb8bade",
+              "name": "Tuna19736",
+              "amount": 160,
+              "price": 88713,
+              "manufacturer": "Microsoft",
+              "notes": "GMWWphjQHWzyYMDu1Whk5OI9tQwj9IOFsAVVZMSi0pReuFuP2MaxQovd7EYYAovLGmGael01i6k8mCzzuGG6BduhHXZJeiKPxayXQcfqFKH2rUa5ijTIqYJRUCi0CM1zLl9eYJJFF5P3iEJuJqAUTxGts6AYKyMnKzZXtYUJQ7GUJTyEWNcHsuax3yeeF6gBPlYxGzLQZLa60nd1qWtnasESbCtt9MIFQB6Er2M7ePRXFpI0RrON5wMExF",
+              "received": false
+            }
+          ],
+          "total_price": 88713,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Leonton",
+              "street": "Cedar Road",
+              "house": 30,
+              "flat": 791
+            },
+            "finalDate": "2026-01-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-22T22:32:03.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6972a5591c508c5d5eb8babe",
+          "products": [
+            {
+              "_id": "6972a55a1c508c5d5eb8bade",
+              "name": "Tuna19736",
+              "amount": 160,
+              "price": 88713,
+              "manufacturer": "Microsoft",
+              "notes": "GMWWphjQHWzyYMDu1Whk5OI9tQwj9IOFsAVVZMSi0pReuFuP2MaxQovd7EYYAovLGmGael01i6k8mCzzuGG6BduhHXZJeiKPxayXQcfqFKH2rUa5ijTIqYJRUCi0CM1zLl9eYJJFF5P3iEJuJqAUTxGts6AYKyMnKzZXtYUJQ7GUJTyEWNcHsuax3yeeF6gBPlYxGzLQZLa60nd1qWtnasESbCtt9MIFQB6Er2M7ePRXFpI0RrON5wMExF",
+              "received": false
+            }
+          ],
+          "total_price": 88713,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Leonton",
+              "street": "Cedar Road",
+              "house": 30,
+              "flat": 791
+            },
+            "finalDate": "2026-01-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-22T22:31:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6972a5591c508c5d5eb8babe",
+          "products": [
+            {
+              "_id": "6972a55a1c508c5d5eb8bade",
+              "name": "Tuna19736",
+              "amount": 160,
+              "price": 88713,
+              "manufacturer": "Microsoft",
+              "notes": "GMWWphjQHWzyYMDu1Whk5OI9tQwj9IOFsAVVZMSi0pReuFuP2MaxQovd7EYYAovLGmGael01i6k8mCzzuGG6BduhHXZJeiKPxayXQcfqFKH2rUa5ijTIqYJRUCi0CM1zLl9eYJJFF5P3iEJuJqAUTxGts6AYKyMnKzZXtYUJQ7GUJTyEWNcHsuax3yeeF6gBPlYxGzLQZLa60nd1qWtnasESbCtt9MIFQB6Er2M7ePRXFpI0RrON5wMExF",
+              "received": false
+            }
+          ],
+          "total_price": 88713,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Leonton",
+              "street": "Cedar Road",
+              "house": 30,
+              "flat": 791
+            },
+            "finalDate": "2026-01-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-22T22:31:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6972a5591c508c5d5eb8babe",
+          "products": [
+            {
+              "_id": "6972a55a1c508c5d5eb8bade",
+              "name": "Tuna19736",
+              "amount": 160,
+              "price": 88713,
+              "manufacturer": "Microsoft",
+              "notes": "GMWWphjQHWzyYMDu1Whk5OI9tQwj9IOFsAVVZMSi0pReuFuP2MaxQovd7EYYAovLGmGael01i6k8mCzzuGG6BduhHXZJeiKPxayXQcfqFKH2rUa5ijTIqYJRUCi0CM1zLl9eYJJFF5P3iEJuJqAUTxGts6AYKyMnKzZXtYUJQ7GUJTyEWNcHsuax3yeeF6gBPlYxGzLQZLa60nd1qWtnasESbCtt9MIFQB6Er2M7ePRXFpI0RrON5wMExF",
+              "received": false
+            }
+          ],
+          "total_price": 88713,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:31:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

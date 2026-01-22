@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-CPgI1JfxB+pA1L81GOnQbg3PiCw\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4b91c508c5d5eb84cb3",
+        "email": "Juliana17@gmail.com",
+        "name": "Luna Ernser",
+        "country": "Great Britain",
+        "city": "Lake Letitiachester",
+        "street": "Feeney Well",
+        "house": 48,
+        "flat": 455,
+        "phone": "+14224095658",
+        "createdOn": "2026-01-22T22:29:13.000Z",
+        "notes": "kUa5vBzcC46HR7cSVEJE0dDQnFtbZbS1FXA4S85FclTSbe5OYjlQWrXsnkbflwYuUt4m4h9NCb9fCudS9iGVeCKjiuuJBJE0mtzl3iDQaDZWbhGnUMQ2EXbLTXssDUJz0f4pZsMRIF8xU12lZ37wfxPdcZzP5zUmF0Sa2uoDT2U49tVEXoWpYmeOzv06Tm0oMsRUm5TVZfht1Nj8KK8yLKhGYTxGqsPyZBkfdEcpPPWAAQzIlvegUf0Yl0"
+      },
+      "products": [
+        {
+          "_id": "6972a4ba1c508c5d5eb84ce4",
+          "name": "Tuna95775",
+          "amount": 780,
+          "price": 11652,
+          "manufacturer": "Amazon",
+          "notes": "hGELg4olecc2Qhwwl5fCkCxsITv1cv5BofHvS1RlzQgvYUvE289697n7j5F6vXSdBYMzahfEeAQjpuagpOLLJB3NTyVfiAZoNkrUFvoq1t8ESix5sawq8rzQaDeKBSVQgSipguwHIrLcOv3KtRQPDZTduchfuoQN9VjoOqJhWbWjr40idzBYVJB16RSxjDxaEh16kC1L0ily4BzLrECPNH8RVdpSeD1gpEiJFQuIjDvfZ6S1CTiL6Qrdr5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11652,
+      "createdOn": "2026-01-22T22:29:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4b91c508c5d5eb84cb3",
+          "products": [
+            {
+              "_id": "6972a4ba1c508c5d5eb84ce4",
+              "name": "Tuna95775",
+              "amount": 780,
+              "price": 11652,
+              "manufacturer": "Amazon",
+              "notes": "hGELg4olecc2Qhwwl5fCkCxsITv1cv5BofHvS1RlzQgvYUvE289697n7j5F6vXSdBYMzahfEeAQjpuagpOLLJB3NTyVfiAZoNkrUFvoq1t8ESix5sawq8rzQaDeKBSVQgSipguwHIrLcOv3KtRQPDZTduchfuoQN9VjoOqJhWbWjr40idzBYVJB16RSxjDxaEh16kC1L0ily4BzLrECPNH8RVdpSeD1gpEiJFQuIjDvfZ6S1CTiL6Qrdr5",
+              "received": false
+            }
+          ],
+          "total_price": 11652,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4ba1c508c5d5eb84cfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

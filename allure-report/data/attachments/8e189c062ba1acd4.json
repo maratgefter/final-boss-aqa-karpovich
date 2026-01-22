@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-IqGuh9crCsgk7xegHeoDzehmU0M\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4c01c508c5d5eb85119",
+        "email": "Ramona.Rodriguez86@yahoo.com",
+        "name": "Valentina Spencer",
+        "country": "USA",
+        "city": "Bethshire",
+        "street": "Raynor Estate",
+        "house": 7,
+        "flat": 480,
+        "phone": "+12448458888",
+        "createdOn": "2026-01-22T22:29:20.000Z",
+        "notes": "Hh0NZZVxBY5uodpuKb1g1ntaQS7He5TlNaz2WyIM9LuJIouCRJZ9efCWLOwaArVA7CaIICP6ZTeAUVEyVLtTJ3kr2QJHRgvvC9zZQ1RvHtuq2GAegIJVW1hATuhHqNdkxU6p8nZh3bgVZ9kmODD1JBZpJnFFXJPAPL8ImySGusaDALOZc8InIJSBwuTSY6OF8lZlFa5c848vfcSnF0xZYSvagFur3h3NM9ZmuZCFzdYqBcE0Lo3LT5F21r"
+      },
+      "products": [
+        {
+          "_id": "6972a4c31c508c5d5eb85373",
+          "name": "Tuna8539",
+          "amount": 95,
+          "price": 60370,
+          "manufacturer": "Tesla",
+          "notes": "MZJIEZ2TTE8gE4ar7hb7qBeJZztgQoCrP6Cdnx3YfmgluXn8KyBoY1BXq31vtUWlL6auC9Rgm2CEq7aOViAdF2Eshm2U4lMgKlzXoVYKLatbTfXhkxWl3z11WQwebi0Ywbbue89wEUOovMh9kweFTqcab37xwpBSf4qeg32GNJKavFh8vzhAzEEIOKwkNIKJVLMuH2RmbM9DcqyHWanIbmeNjCMfabrdHaBdyZLyLoyh5bnhA5UGlWo3cC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60370,
+      "createdOn": "2026-01-22T22:29:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4c01c508c5d5eb85119",
+          "products": [
+            {
+              "_id": "6972a4c31c508c5d5eb85373",
+              "name": "Tuna8539",
+              "amount": 95,
+              "price": 60370,
+              "manufacturer": "Tesla",
+              "notes": "MZJIEZ2TTE8gE4ar7hb7qBeJZztgQoCrP6Cdnx3YfmgluXn8KyBoY1BXq31vtUWlL6auC9Rgm2CEq7aOViAdF2Eshm2U4lMgKlzXoVYKLatbTfXhkxWl3z11WQwebi0Ywbbue89wEUOovMh9kweFTqcab37xwpBSf4qeg32GNJKavFh8vzhAzEEIOKwkNIKJVLMuH2RmbM9DcqyHWanIbmeNjCMfabrdHaBdyZLyLoyh5bnhA5UGlWo3cC",
+              "received": false
+            }
+          ],
+          "total_price": 60370,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4c31c508c5d5eb85396"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

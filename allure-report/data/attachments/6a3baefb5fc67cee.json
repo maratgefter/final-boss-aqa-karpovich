@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-0iTR8VLcReB6GsjQGCNYz1OLt8s\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4c71c508c5d5eb8563e",
+        "email": "Larissa.Reinger@hotmail.com",
+        "name": "Rosendo Blick",
+        "country": "Russia",
+        "city": "Bloomington",
+        "street": "Church Hill",
+        "house": 20,
+        "flat": 854,
+        "phone": "+19104265012",
+        "createdOn": "2026-01-22T22:29:27.000Z",
+        "notes": "koPoBjGAXPbP7bgfzQrZzni8Mf2gmQvOG9mFhvWUHe16ByETjPLqZMCJpy82mnolw5qYsisQEmFMciRRvCFht0rdqLk6DWsXGX8PQmopXh4SmHOh5gOkT9hH5aqJnWXWMsDC6qrFEjQxS54J0VBRSQOXTAzddAcGSFy6GQaJ5rS7Xb1ijI7oAgNnKD1yaQJE3iMC3RTEdQTnnY3S1AqI4IUXihUKZksmUriEO5NMcECqQnpLnkfxYsZyK2"
+      },
+      "products": [
+        {
+          "_id": "6972a4c81c508c5d5eb85662",
+          "name": "Pants79452",
+          "amount": 553,
+          "price": 61647,
+          "manufacturer": "Apple",
+          "notes": "6aaqEUtBnqSDCWP0zUh9kUm2I8kc4XbbsBeHodJ0xkJ0Z2pIRKbSNOWc6cz6AEgRbSD14oirUPJgxhvxW3GKARlQdGFgV6wrWO2G0hPGFjHzswHxUFLRpfGv4LIv00oYN9f2L0WzidkZRNnK0cxGj3qtAiiJ8BmfHTJVto9JX2NY1vGo54qmfWPevkdhHznM6x36THMdT1yR1Ofnsw8tRPGuTHodeyEr96bBQYGlTh6svOCXMCr3YCDqKa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61647,
+      "createdOn": "2026-01-22T22:29:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4c71c508c5d5eb8563e",
+          "products": [
+            {
+              "_id": "6972a4c81c508c5d5eb85662",
+              "name": "Pants79452",
+              "amount": 553,
+              "price": 61647,
+              "manufacturer": "Apple",
+              "notes": "6aaqEUtBnqSDCWP0zUh9kUm2I8kc4XbbsBeHodJ0xkJ0Z2pIRKbSNOWc6cz6AEgRbSD14oirUPJgxhvxW3GKARlQdGFgV6wrWO2G0hPGFjHzswHxUFLRpfGv4LIv00oYN9f2L0WzidkZRNnK0cxGj3qtAiiJ8BmfHTJVto9JX2NY1vGo54qmfWPevkdhHznM6x36THMdT1yR1Ofnsw8tRPGuTHodeyEr96bBQYGlTh6svOCXMCr3YCDqKa",
+              "received": false
+            }
+          ],
+          "total_price": 61647,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4ca1c508c5d5eb857af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-e5KT9NPfrR/YBmzlO5lTddnbuE8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4cc1c508c5d5eb8592d",
+        "email": "Oma11@hotmail.com",
+        "name": "John Turner",
+        "country": "USA",
+        "city": "Laurettaview",
+        "street": "Predovic Meadows",
+        "house": 7,
+        "flat": 102,
+        "phone": "+13086306736",
+        "createdOn": "2026-01-22T22:29:32.000Z",
+        "notes": "FzNRGpjavFhSz39McEXO47VLYq2LKq04jRqOLFzNljguPAg3MLdstXsexU3p8LRlQPrxkHpQ3eietxJ12XZ0t2ZTmmXhPbhhHOgNWkSD9B5oYBfEQ3gsc8TrJwrxArPIBR5pvNsJvAP5030IxmbiZGYMuPRatxJSv4LSzaDPGoKpIr7jB72CbUygqsHvdxyfQt4qT2O54fBJiYQ7qyLm7f3GEGc7SJX814nTTvM2xtSsayZuwip0Hpb1aQ"
+      },
+      "products": [
+        {
+          "_id": "6972a4ce1c508c5d5eb85a6b",
+          "name": "Computer57878",
+          "amount": 463,
+          "price": 71123,
+          "manufacturer": "Amazon",
+          "notes": "iChfqV9MiqRBqiFpOjAjJPpVEAUzzhBowVPGZLK0wj1VJtjYXAUVxKpSWgqTyGSOZASPSvQdhFNQTRDCyuEtUanRpUWF1qkhw1TZKOuZ1P847e6qioOWPvuvSKgsmdQmL5ee8ogb6C8lYUJOJwKxVCtMTKd9thjkeLSecoi4JBvSQsjTyLYQrwK0eHGbRJkfIYZ3RwkCW2E21eR2HzFap19RATAQPjhsJOSCEbKIv6HrWPxRgWk850AP1K",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71123,
+      "createdOn": "2026-01-22T22:29:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4cc1c508c5d5eb8592d",
+          "products": [
+            {
+              "_id": "6972a4ce1c508c5d5eb85a6b",
+              "name": "Computer57878",
+              "amount": 463,
+              "price": 71123,
+              "manufacturer": "Amazon",
+              "notes": "iChfqV9MiqRBqiFpOjAjJPpVEAUzzhBowVPGZLK0wj1VJtjYXAUVxKpSWgqTyGSOZASPSvQdhFNQTRDCyuEtUanRpUWF1qkhw1TZKOuZ1P847e6qioOWPvuvSKgsmdQmL5ee8ogb6C8lYUJOJwKxVCtMTKd9thjkeLSecoi4JBvSQsjTyLYQrwK0eHGbRJkfIYZ3RwkCW2E21eR2HzFap19RATAQPjhsJOSCEbKIv6HrWPxRgWk850AP1K",
+              "received": false
+            }
+          ],
+          "total_price": 71123,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4d61c508c5d5eb86037"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

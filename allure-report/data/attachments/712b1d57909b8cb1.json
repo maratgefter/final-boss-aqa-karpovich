@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-PH22WZVGMJqMFrUq2s5+Gqzv7HE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4b51c508c5d5eb8493a",
+        "email": "Vincenza_Wunsch@hotmail.com",
+        "name": "Edward Gibson",
+        "country": "Great Britain",
+        "city": "Lake Gladyce",
+        "street": "1st Avenue",
+        "house": 30,
+        "flat": 307,
+        "phone": "+19333795995",
+        "createdOn": "2026-01-22T22:29:09.000Z",
+        "notes": "jxUmTNaVAxjd56LdHjcTpq6ZwXulGOahOX9R9TiI3uN1AjMJgI38FVTCkMQqyKz03Qn9W8d4SyvnctIKKCiHemwlHJVeGCyfESJl2mi0FfMVWdBlVC8CYRWXxVHdxHnAPZvMWISbIVcpIjfZjMNLtyKRNkkyKED69tN0NG24UnpAq3YMq9ceAYdFOoK7zzHdlhQzMS17AehsuRWAb0sJVdMW7883830AEbr8rWjxKhwVie0gKhNkSFVlKs"
+      },
+      "products": [
+        {
+          "_id": "6972a4b91c508c5d5eb84c97",
+          "name": "Keyboard62877",
+          "amount": 308,
+          "price": 69384,
+          "manufacturer": "Apple",
+          "notes": "tK90s6CrUYoXx1JGbTQ6FpuorFuLM3BWywvvEJaV0a1rCcjWpVv5pPor2zdM8nO6lWRAt3AQALnfIueg1av1HDAHkROJBfwNMeVg0yanFG9WZjeLR67w7Zgb45FAno85BbsMVDbFA6cHyoojkYNvMvMcDk2DcojSWmTI6gu8liHbisyX9RKrjs0Zsa59kf7mU3YPGBi3tbv5xqRo1bXafbVkKwB3dQllGiJsvlDlL20m6vRgnHmJcUHUaN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69384,
+      "createdOn": "2026-01-22T22:29:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4b51c508c5d5eb8493a",
+          "products": [
+            {
+              "_id": "6972a4b91c508c5d5eb84c97",
+              "name": "Keyboard62877",
+              "amount": 308,
+              "price": 69384,
+              "manufacturer": "Apple",
+              "notes": "tK90s6CrUYoXx1JGbTQ6FpuorFuLM3BWywvvEJaV0a1rCcjWpVv5pPor2zdM8nO6lWRAt3AQALnfIueg1av1HDAHkROJBfwNMeVg0yanFG9WZjeLR67w7Zgb45FAno85BbsMVDbFA6cHyoojkYNvMvMcDk2DcojSWmTI6gu8liHbisyX9RKrjs0Zsa59kf7mU3YPGBi3tbv5xqRo1bXafbVkKwB3dQllGiJsvlDlL20m6vRgnHmJcUHUaN",
+              "received": false
+            }
+          ],
+          "total_price": 69384,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4b91c508c5d5eb84cbb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

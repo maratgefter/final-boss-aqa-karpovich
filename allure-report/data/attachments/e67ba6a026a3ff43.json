@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:30:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-Tx4Yx1xerkugPOu/FeWG14sr3ow\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a50f1c508c5d5eb8843b",
+        "email": "Peter_Brown20@gmail.com",
+        "name": "Princess Osinski",
+        "country": "Russia",
+        "city": "Lempiland",
+        "street": "East Road",
+        "house": 18,
+        "flat": 852,
+        "phone": "+16103504860",
+        "createdOn": "2026-01-22T22:30:39.000Z",
+        "notes": "tVCGuOFUuXksHtSI1ZPphKBDULnp8G11FoIK9gz9fitAo4zPtsb8EMHbz4fL8y5TXnMZ41hpASXW1472TR4xjXvVh3cMfataKJT7t2Y0P7h36JfVG9uqlaPz1y9Wmdqi5202p7XwhsFFyKeGERi4J8vaobOcZVVppO68E6e9TkyKPzT9qOhteAxT0oMV1An6nme9uzZPmxB8CbJRhGnJDnrC8P3pXAcWAWL0EEDjeCVnl7YLAz9s4MISDN"
+      },
+      "products": [
+        {
+          "_id": "6972a50f1c508c5d5eb8844e",
+          "name": "Hat6556",
+          "amount": 212,
+          "price": 44371,
+          "manufacturer": "Amazon",
+          "notes": "nTdDGArZmN7S00D6z6FNUs9SumxFr23t7ambtVAi0icupQ6Mvt7N8TCkvI3kN84GLByeWoo575EITjT8uz0GTpCRSdLjUndxFbmsDWmKK8ieA8BeKIuj7AWjmwBj2uF0ZV6TKbufYtdJLdhbdEZf8vUMhNDfYP5JTbbLXCJrR7EDZEEy2JPn1hVGXyBYczgu5ggjP8q0vN9XGmG1kshpcvpOEhdmTvQExxMmlxEUGtO0SvqsRR9O2Oxr9P",
+          "received": false
+        },
+        {
+          "_id": "6972a50f1c508c5d5eb8846c",
+          "name": "Chips42906",
+          "amount": 480,
+          "price": 86506,
+          "manufacturer": "Xiaomi",
+          "notes": "22aTTyBsTiRn05STWc0QUVwSc4uAJteThnVKbMdeODGaliNuV3buCo2f6Vz7Ke7O36T5o5fs9WD34bX4VZKcKfWSbiesPuT98jhLkdktR9cHDCDq8j9PwJ2jdfwPgjDvnoHtEHT5sPBrEIzkgJm1pQZPRPV0ZvKDSFX3mpYjn1DoZSiVfb5LKRHs2jqw5BoHCNRwsGloZCME6vEmwFEcAzPztY6fgHsB8iGqibtHW0inwYOyotvBDYifis",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 130877,
+      "createdOn": "2026-01-22T22:30:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a50f1c508c5d5eb8843b",
+          "products": [
+            {
+              "_id": "6972a50f1c508c5d5eb8844e",
+              "name": "Hat6556",
+              "amount": 212,
+              "price": 44371,
+              "manufacturer": "Amazon",
+              "notes": "nTdDGArZmN7S00D6z6FNUs9SumxFr23t7ambtVAi0icupQ6Mvt7N8TCkvI3kN84GLByeWoo575EITjT8uz0GTpCRSdLjUndxFbmsDWmKK8ieA8BeKIuj7AWjmwBj2uF0ZV6TKbufYtdJLdhbdEZf8vUMhNDfYP5JTbbLXCJrR7EDZEEy2JPn1hVGXyBYczgu5ggjP8q0vN9XGmG1kshpcvpOEhdmTvQExxMmlxEUGtO0SvqsRR9O2Oxr9P",
+              "received": false
+            },
+            {
+              "_id": "6972a50f1c508c5d5eb8846c",
+              "name": "Chips42906",
+              "amount": 480,
+              "price": 86506,
+              "manufacturer": "Xiaomi",
+              "notes": "22aTTyBsTiRn05STWc0QUVwSc4uAJteThnVKbMdeODGaliNuV3buCo2f6Vz7Ke7O36T5o5fs9WD34bX4VZKcKfWSbiesPuT98jhLkdktR9cHDCDq8j9PwJ2jdfwPgjDvnoHtEHT5sPBrEIzkgJm1pQZPRPV0ZvKDSFX3mpYjn1DoZSiVfb5LKRHs2jqw5BoHCNRwsGloZCME6vEmwFEcAzPztY6fgHsB8iGqibtHW0inwYOyotvBDYifis",
+              "received": false
+            }
+          ],
+          "total_price": 130877,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:30:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a5101c508c5d5eb884b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

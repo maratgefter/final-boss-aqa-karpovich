@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:28:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-dk8Q+FFXreS4mb9koXiI9W38TwQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4a21c508c5d5eb83f15",
+        "email": "Garett.Kilback@gmail.com",
+        "name": "Pascale Dibbert",
+        "country": "Germany",
+        "city": "New Myastead",
+        "street": "Goldner Plains",
+        "house": 25,
+        "flat": 507,
+        "phone": "+16917313088",
+        "createdOn": "2026-01-22T22:28:50.000Z",
+        "notes": "pmAdlxDiciiApycinQd3bFRlTsprv39mL0f8DT5vhRMt3ND0GFq7Ud9mltQpgnuZEq7dYvCcqMpendh2EOT6aSWwsM4XhM3VpfU9Y2Ga107uyKmzCs9I1bwOb9VEMesjKsxKNfEJQ8PEeiwBfgRo2M9gYZTyiH7cP0XLf8Rqpp3A6UBq1tM5YcgB5uUk03usKe9WTluWgWhYb33cAcBJGU6tuSB88NZXITLeOjrgUilsitf4JPjDmzSKaD"
+      },
+      "products": [
+        {
+          "_id": "6972a4a21c508c5d5eb83f34",
+          "name": "Shoes92261",
+          "amount": 523,
+          "price": 57831,
+          "manufacturer": "Google",
+          "notes": "henGI4mgRE59GhQqB1lASw1dKi3cplHvVk0URTXQWTsUPMVQN2kuxyTO6b0yIPg3UOKjqlhu3swqQRn8pmWxZ9rTxpWCdYv2A1nKjueGf70uzaYP9VpiHUvn8ua6EzDSH0cKseYCv2VF7jo5bZS47scRsBHuunBm7IRlX6Ih0vMtj8lB3y4pVmIlHHZJdrot1EBBiUhNo6VbG9H05IHvGGgNYMM7JbANcxriVM8888zsjaTrxAWXlxjrbQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57831,
+      "createdOn": "2026-01-22T22:28:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4a21c508c5d5eb83f15",
+          "products": [
+            {
+              "_id": "6972a4a21c508c5d5eb83f34",
+              "name": "Shoes92261",
+              "amount": 523,
+              "price": 57831,
+              "manufacturer": "Google",
+              "notes": "henGI4mgRE59GhQqB1lASw1dKi3cplHvVk0URTXQWTsUPMVQN2kuxyTO6b0yIPg3UOKjqlhu3swqQRn8pmWxZ9rTxpWCdYv2A1nKjueGf70uzaYP9VpiHUvn8ua6EzDSH0cKseYCv2VF7jo5bZS47scRsBHuunBm7IRlX6Ih0vMtj8lB3y4pVmIlHHZJdrot1EBBiUhNo6VbG9H05IHvGGgNYMM7JbANcxriVM8888zsjaTrxAWXlxjrbQ",
+              "received": false
+            }
+          ],
+          "total_price": 57831,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:28:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4a31c508c5d5eb83f69"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

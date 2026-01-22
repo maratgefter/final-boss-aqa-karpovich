@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 22 Jan 2026 22:29:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-xGnkeFBQ1sllj2+10/LwNfaLgyE\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6972a4c81c508c5d5eb85654",
+        "email": "Faustino.Koepp@gmail.com",
+        "name": "Roselyn Macejkovic",
+        "country": "Germany",
+        "city": "Rennertown",
+        "street": "Florida Burg",
+        "house": 28,
+        "flat": 690,
+        "phone": "+15242104358",
+        "createdOn": "2026-01-22T22:29:28.000Z",
+        "notes": "k7saUf4loRQeBXXpehoP8QF2rsW2gSRlyyL3SSzLgwu2bS46yVC2b3bIc2VCNXeV3FaTR3LGktLoWdVPZOr12yZRoHUGC3zuIgNbyet5DKZLUna09aUC2PgMUjg9ZNoBWYbx0f81ey8t7XXvbHlSPCW5WGXR2OSmCM4rOZoc138dYObh6L7OCbYYP3ida4azqorOBfgKa6VaLUG4sIvMuEynHeOn4LOtyPxIXrMRlhYyo1lRSSNSAPKncy"
+      },
+      "products": [
+        {
+          "_id": "6972a4ca1c508c5d5eb857a2",
+          "name": "Bike2398",
+          "amount": 806,
+          "price": 636,
+          "manufacturer": "Xiaomi",
+          "notes": "eNfkPqlE48RboXbCPSlKPMLXKtSCRFc2xqq0pspgiJbXBvw6aeHAYwROAQnZXXp0zRM8YZlMFmWstedklubVNxLEo7KM8kbo3jfhsnosDHK2NQ0LlSRZEh4KIn8XHoA26hbil44YBUsyLzhUH4SBNr2rsKTj7ZafYAjYDWv97IhqOvYUuiTBDT92Tcl4JS8NGFwjIdZoka4A3VOBjY2SIFetsMqZmUMBaPQ1KyTXd2odvXI73GnAL1GCeH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 636,
+      "createdOn": "2026-01-22T22:29:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6972a4c81c508c5d5eb85654",
+          "products": [
+            {
+              "_id": "6972a4ca1c508c5d5eb857a2",
+              "name": "Bike2398",
+              "amount": 806,
+              "price": 636,
+              "manufacturer": "Xiaomi",
+              "notes": "eNfkPqlE48RboXbCPSlKPMLXKtSCRFc2xqq0pspgiJbXBvw6aeHAYwROAQnZXXp0zRM8YZlMFmWstedklubVNxLEo7KM8kbo3jfhsnosDHK2NQ0LlSRZEh4KIn8XHoA26hbil44YBUsyLzhUH4SBNr2rsKTj7ZafYAjYDWv97IhqOvYUuiTBDT92Tcl4JS8NGFwjIdZoka4A3VOBjY2SIFetsMqZmUMBaPQ1KyTXd2odvXI73GnAL1GCeH",
+              "received": false
+            }
+          ],
+          "total_price": 636,
+          "delivery": null,
+          "changedOn": "2026-01-22T22:29:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6972a4ca1c508c5d5eb857cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
