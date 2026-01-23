@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-lKBFhtK0tbhQCQ24N3I5PC6Mhks\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f5041c508c5d5eb97a42",
+        "email": "Jada30@yahoo.com",
+        "name": "Shannon Bailey",
+        "country": "France",
+        "city": "Beaumont",
+        "street": "Brook Road",
+        "house": 36,
+        "flat": 640,
+        "phone": "+14489793290",
+        "createdOn": "2026-01-23T22:24:04.000Z",
+        "notes": "gnN4RuN3MBc6qPtUJxFjo06kbxeuoqEh9e1MZw4sOouXVNj8WPRpEaAmusK17lyx9GC6K9FQ0CZNwfjhoPvKztuz7xs9Jqpd3tLNLuwqw6rblqzCQsEiGlAroLTApM5src7MMS2PuL7NQ9jAZgmMnhpx1sJeSZigfeMBG2FBaSQh970QeUXcfqI0h2DqaJpghWZWmFMlPN55q1PSJFGEDmca93beKxE4WShfsCRct9MmnTfQx6GA70uknb"
+      },
+      "products": [
+        {
+          "_id": "6973f5061c508c5d5eb97ba7",
+          "name": "Cheese33644",
+          "amount": 810,
+          "price": 42185,
+          "manufacturer": "Samsung",
+          "notes": "D1MtHDsER2Efws7KF3979XgVwDGnOmwjeACxkRsSMPZ7KVQtApMdVU83I5aiP6reXX1rwDaEB89xG6Xw9TBIKrx4ae7RtXtDXZ9iQdyr3gxiGOdviFCs9mda0oQa3vzfN6CDbAOwBWnGGpxApPHxfDe7xB9s9oGGSn699sS52HzavzkRIme8AhAftkhSokBGHEY9YRIa2Y2hfb1FEsozoO8R9xuKQPsIlBpQjO5GUQFO45NcrCcW2VyhnX",
+          "received": false
+        },
+        {
+          "_id": "6973f5091c508c5d5eb97e35",
+          "name": "Keyboard37961",
+          "amount": 939,
+          "price": 81900,
+          "manufacturer": "Sony",
+          "notes": "bXfDLlVhDO6YW3DGU7vTHraocjHqOzBlscIOkVB2emxwmZivEXcSqK3XS34hplOtXcvQkc27zirjYU9ip2c2m9atH1z5WLZqJ7ZBwXIbRLURQ7rQGQWba4PdOAFkqU61JWAzaUC7yBbnrGHcy7IdvWaD8lN3v8Bdys0FMiSmTCNo5E7jlQmIgqtsJqWTtqQYCQCjvUo3K2ZmYxTVRjlNAaEmCvYrCCEWwCuWnP1ZFkGw6q7ekQgbLWkjzh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 124085,
+      "createdOn": "2026-01-23T22:24:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f5041c508c5d5eb97a42",
+          "products": [
+            {
+              "_id": "6973f5061c508c5d5eb97ba7",
+              "name": "Cheese33644",
+              "amount": 810,
+              "price": 42185,
+              "manufacturer": "Samsung",
+              "notes": "D1MtHDsER2Efws7KF3979XgVwDGnOmwjeACxkRsSMPZ7KVQtApMdVU83I5aiP6reXX1rwDaEB89xG6Xw9TBIKrx4ae7RtXtDXZ9iQdyr3gxiGOdviFCs9mda0oQa3vzfN6CDbAOwBWnGGpxApPHxfDe7xB9s9oGGSn699sS52HzavzkRIme8AhAftkhSokBGHEY9YRIa2Y2hfb1FEsozoO8R9xuKQPsIlBpQjO5GUQFO45NcrCcW2VyhnX",
+              "received": false
+            },
+            {
+              "_id": "6973f5091c508c5d5eb97e35",
+              "name": "Keyboard37961",
+              "amount": 939,
+              "price": 81900,
+              "manufacturer": "Sony",
+              "notes": "bXfDLlVhDO6YW3DGU7vTHraocjHqOzBlscIOkVB2emxwmZivEXcSqK3XS34hplOtXcvQkc27zirjYU9ip2c2m9atH1z5WLZqJ7ZBwXIbRLURQ7rQGQWba4PdOAFkqU61JWAzaUC7yBbnrGHcy7IdvWaD8lN3v8Bdys0FMiSmTCNo5E7jlQmIgqtsJqWTtqQYCQCjvUo3K2ZmYxTVRjlNAaEmCvYrCCEWwCuWnP1ZFkGw6q7ekQgbLWkjzh",
+              "received": false
+            }
+          ],
+          "total_price": 124085,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f50c1c508c5d5eb97fac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

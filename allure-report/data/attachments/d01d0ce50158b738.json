@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:26:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-qC6fT6nSGmvg70JfXH6dOwAa0hM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f56c1c508c5d5eb9c408",
+        "email": "Haven.Murphy1@hotmail.com",
+        "name": "Abigayle Hammes",
+        "country": "Canada",
+        "city": "Considinecester",
+        "street": "King Coves",
+        "house": 30,
+        "flat": 632,
+        "phone": "+14452577904",
+        "createdOn": "2026-01-23T22:25:48.000Z",
+        "notes": "XjkDcQSzBP4t870oc70WbKbVCjxoRzseP4D4WktTLNEktp90W8dqEEGf5mBSsuMV712g1IRDgGwRKElTe0kIAMQzQc5PZwQ0WVApB5fhOKkMonovMTJBtAiP5zb32JOI5ZEssIIN8Vhh8qGpdEj9kcq9d8fubtRVKG9fQqeOG4yn7btKOMK1WYEkYxVwuJdKOf9cUaomIumbQtmg5C6iCCHZAYAsOnIBQ19e4i581aNoYxrNTOCKOfOnil"
+      },
+      "products": [
+        {
+          "_id": "6973f56e1c508c5d5eb9c5a3",
+          "name": "Shirt25601",
+          "amount": 509,
+          "price": 92619,
+          "manufacturer": "Google",
+          "notes": "62zGwysv4hZCGlxUUrZLiDT8euj34m7r3Z852fhctNydoZmbrdNVWC2MvYn0TCPRO7wN4czWVnUwATkpur9YqsWphS3q28U82XsgdTy866ri9FdiPw6MsXq6ungKVWk2zNxWBxIIjvX6YQWC5H0alqm8M8ptQUWCstK2qcZLXgKQwUvprl3C4sscg2JQgc1RRXrgmRw3AH0VuAOMXUWtlfOHhwrAVtaYHFesApvgpDtWj16PXVElLMOuqM",
+          "received": false
+        },
+        {
+          "_id": "6973f57d1c508c5d5eb9d10d",
+          "name": "Sausages81977",
+          "amount": 978,
+          "price": 53975,
+          "manufacturer": "Microsoft",
+          "notes": "XLCBEwPD9Gxqur0t0ltIX5Wiqv8MxN7rrlOk511UxVnf05KJU2WpikPT9RVT7eoHJEWITbjh2vQuIIrTmKqQJ9VNXO8pG1vhjyl6KkrM77sOmnNhRTw6ghq0VfI7SdxhHL2NkHPR9CKujgDmOtY5UWJZ4WlPXelMmPjCmBA52LmRwBdwWTYUSzNCZg7VgKmLc1Azz2IT6LJ1Nuq16NzoQrvFMf2qb4zZHAlIh0qTBNlt1ZSJUDp6tmA5iM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 146594,
+      "createdOn": "2026-01-23T22:26:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f56c1c508c5d5eb9c408",
+          "products": [
+            {
+              "_id": "6973f56e1c508c5d5eb9c5a3",
+              "name": "Shirt25601",
+              "amount": 509,
+              "price": 92619,
+              "manufacturer": "Google",
+              "notes": "62zGwysv4hZCGlxUUrZLiDT8euj34m7r3Z852fhctNydoZmbrdNVWC2MvYn0TCPRO7wN4czWVnUwATkpur9YqsWphS3q28U82XsgdTy866ri9FdiPw6MsXq6ungKVWk2zNxWBxIIjvX6YQWC5H0alqm8M8ptQUWCstK2qcZLXgKQwUvprl3C4sscg2JQgc1RRXrgmRw3AH0VuAOMXUWtlfOHhwrAVtaYHFesApvgpDtWj16PXVElLMOuqM",
+              "received": false
+            },
+            {
+              "_id": "6973f57d1c508c5d5eb9d10d",
+              "name": "Sausages81977",
+              "amount": 978,
+              "price": 53975,
+              "manufacturer": "Microsoft",
+              "notes": "XLCBEwPD9Gxqur0t0ltIX5Wiqv8MxN7rrlOk511UxVnf05KJU2WpikPT9RVT7eoHJEWITbjh2vQuIIrTmKqQJ9VNXO8pG1vhjyl6KkrM77sOmnNhRTw6ghq0VfI7SdxhHL2NkHPR9CKujgDmOtY5UWJZ4WlPXelMmPjCmBA52LmRwBdwWTYUSzNCZg7VgKmLc1Azz2IT6LJ1Nuq16NzoQrvFMf2qb4zZHAlIh0qTBNlt1ZSJUDp6tmA5iM",
+              "received": false
+            }
+          ],
+          "total_price": 146594,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:26:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f57e1c508c5d5eb9d13e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-pNadFFE2SjnRBhvr0eZq0zn+eas\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f5011c508c5d5eb97899",
+        "email": "Sienna_Glover@hotmail.com",
+        "name": "Willie Becker",
+        "country": "Russia",
+        "city": "Deltona",
+        "street": "Middle Street",
+        "house": 19,
+        "flat": 107,
+        "phone": "+19742978502",
+        "createdOn": "2026-01-23T22:24:01.000Z",
+        "notes": "o0srNmmi116kusNz18sOrlLfQdzv1Bw4jPtL2G5eYLqd5XnCU2DDXMerUT8vAb8LUPaenGjUNqWrpFAcdGkl07laYhJSAcZ1p38lZVRubZIbXTRq9OfrGLOnLrdvt81ryCIxFgBSZcWzdOfbcDg7dc3O37kJV6mda0VyGKL5lwjvDExu7NtQ9DK6yqmGAweI8Vks1TdN3Zcd3S0QUKSLYSyFupMv02q3WseMKoYPQFMYXPwQ2UBZvUukKY"
+      },
+      "products": [
+        {
+          "_id": "6973f5021c508c5d5eb978cd",
+          "name": "Computer85070",
+          "amount": 400,
+          "price": 30248,
+          "manufacturer": "Apple",
+          "notes": "rlcdtViYgWJWkJ7eVsj1hagF4aCAr1hUc9RoaKiwEynboCByaizOqMPqV9Shs7cCFI8KBOy9j5eXfaq9ImmqcKjcFyzGhO0d9qzMsziaPhbz3ctun3NLj2sFDRnLrFacQHc1vxIR0vZwdvghrbHCrFy3T5M9CvYy0XoiZs1dSus44QZ2F365FgUZ2MUiPdJxOuVtBDHAeIXp8C2l7vNMsND6AquCOt4uSkTkqiUr5BewcWX3BX1ZXl6ZpM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30248,
+      "createdOn": "2026-01-23T22:24:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f5011c508c5d5eb97899",
+          "products": [
+            {
+              "_id": "6973f5021c508c5d5eb978cd",
+              "name": "Computer85070",
+              "amount": 400,
+              "price": 30248,
+              "manufacturer": "Apple",
+              "notes": "rlcdtViYgWJWkJ7eVsj1hagF4aCAr1hUc9RoaKiwEynboCByaizOqMPqV9Shs7cCFI8KBOy9j5eXfaq9ImmqcKjcFyzGhO0d9qzMsziaPhbz3ctun3NLj2sFDRnLrFacQHc1vxIR0vZwdvghrbHCrFy3T5M9CvYy0XoiZs1dSus44QZ2F365FgUZ2MUiPdJxOuVtBDHAeIXp8C2l7vNMsND6AquCOt4uSkTkqiUr5BewcWX3BX1ZXl6ZpM",
+              "received": false
+            }
+          ],
+          "total_price": 30248,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f5041c508c5d5eb97a2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

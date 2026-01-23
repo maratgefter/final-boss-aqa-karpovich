@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:23:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1409",
+    "etag": "W/\"581-eLea9tP8Kr8ZgSjbOdGbEC13z6w\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6973f4e91c508c5d5eb96a60",
+        "status": "Draft",
+        "customer": "6973f4e81c508c5d5eb96a0e",
+        "products": [
+          {
+            "_id": "6973f4e91c508c5d5eb96a33",
+            "name": "Towels6679",
+            "amount": 811,
+            "price": 75912,
+            "manufacturer": "Apple",
+            "notes": "uM506KjabJ4Z4ovazdIFaWC95KbAOGSr5p7D2nYEizQvZRUprgK0QLpahWzXQpeId9z5ZwCOhHVGogQyml0VkaAtWVM6lsg5aC5UTNtzVYesrgdKBaRsJ7VtE8N7Ssx6N29B485izYQbyj5jwk1MSdDKfyfn8vWN8wlEy2EJoPzkHsF0JBnTwBMfHTaLKbrsfOzrOjolqoTXJsl5cmrc2MfyVtsCk7WaX4lnYNrouiUxG5uB9ZpvqOMWU3",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 75912,
+        "createdOn": "2026-01-23T22:23:37.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6973f4e81c508c5d5eb96a0e",
+            "products": [
+              {
+                "_id": "6973f4e91c508c5d5eb96a33",
+                "name": "Towels6679",
+                "amount": 811,
+                "price": 75912,
+                "manufacturer": "Apple",
+                "notes": "uM506KjabJ4Z4ovazdIFaWC95KbAOGSr5p7D2nYEizQvZRUprgK0QLpahWzXQpeId9z5ZwCOhHVGogQyml0VkaAtWVM6lsg5aC5UTNtzVYesrgdKBaRsJ7VtE8N7Ssx6N29B485izYQbyj5jwk1MSdDKfyfn8vWN8wlEy2EJoPzkHsF0JBnTwBMfHTaLKbrsfOzrOjolqoTXJsl5cmrc2MfyVtsCk7WaX4lnYNrouiUxG5uB9ZpvqOMWU3",
+                "received": false
+              }
+            ],
+            "total_price": 75912,
+            "delivery": null,
+            "changedOn": "2026-01-23T22:23:37.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

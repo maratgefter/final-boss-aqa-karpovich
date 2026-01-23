@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-SYPUeyDPaXSt51/ot7R/tBKu1hA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f5101c508c5d5eb982bc",
+        "email": "Minnie_Bartell9@gmail.com",
+        "name": "Kellen Turcotte",
+        "country": "Germany",
+        "city": "Davie",
+        "street": "Schmitt Fords",
+        "house": 25,
+        "flat": 586,
+        "phone": "+19674004686",
+        "createdOn": "2026-01-23T22:24:16.000Z",
+        "notes": "ApiRLsIkpFPLSCigF1htBY5VriMoBdxtrkcCvyTGC7QdGKp2xWxzNJF12MMlN3x5JUR4rLgGwe9kNY3EZ0bpmQ7iRR6GNzFTb4LW0d9h0vjSoNq9RWnnErFxhx5qgoFF6UsVWJUYIcXX2g3JNK0DDPFgOQgMsdSKXCFXo9wGWx80mYNUebTALMnLiUaHrxeSdaKUsBqNnXoqywSwmrTPvq6EzkxPQVrvMd9DMTOkas5tfebE3FxRtlIZD5"
+      },
+      "products": [
+        {
+          "_id": "6973f5111c508c5d5eb982ed",
+          "name": "Fish94732",
+          "amount": 734,
+          "price": 99860,
+          "manufacturer": "Microsoft",
+          "notes": "HYG3UbViPX2Y50nagjP5MbT0E2vBXm0JfykZu9DUyk9mOHbU58NlA4FJdAjAWhQnYeHKaMgAvQ3n2HCLs45uZDPIE5Z63S3bP1R7IEWQylUyht0iNwPveY2TiGgS8L9kL5KPtMC3aHbnjsiZ5qargMEJ0IhhoxyBu3j0MnpwlyMvtM9GPLzSPKliDHzge1EzFOOM1HJGRPxy9UWCNUZVq6hbiP1CgS8KPL3QJsfO4OJf7s012VOnd7nIPA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99860,
+      "createdOn": "2026-01-23T22:24:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f5101c508c5d5eb982bc",
+          "products": [
+            {
+              "_id": "6973f5111c508c5d5eb982ed",
+              "name": "Fish94732",
+              "amount": 734,
+              "price": 99860,
+              "manufacturer": "Microsoft",
+              "notes": "HYG3UbViPX2Y50nagjP5MbT0E2vBXm0JfykZu9DUyk9mOHbU58NlA4FJdAjAWhQnYeHKaMgAvQ3n2HCLs45uZDPIE5Z63S3bP1R7IEWQylUyht0iNwPveY2TiGgS8L9kL5KPtMC3aHbnjsiZ5qargMEJ0IhhoxyBu3j0MnpwlyMvtM9GPLzSPKliDHzge1EzFOOM1HJGRPxy9UWCNUZVq6hbiP1CgS8KPL3QJsfO4OJf7s012VOnd7nIPA",
+              "received": false
+            }
+          ],
+          "total_price": 99860,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f5151c508c5d5eb98592"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

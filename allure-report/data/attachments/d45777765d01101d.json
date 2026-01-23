@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:23:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3886",
+    "etag": "W/\"f2e-luwGoQujc2ltZgIIPKBYHpFFuN0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6973f4f71c508c5d5eb971a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f4f61c508c5d5eb9714a",
+        "email": "Clovis.Simonis24@hotmail.com",
+        "name": "Augustus Sauer",
+        "country": "France",
+        "city": "Fort Khalid",
+        "street": "Schaefer Alley",
+        "house": 25,
+        "flat": 328,
+        "phone": "+13148154664",
+        "createdOn": "2026-01-23T22:23:50.000Z",
+        "notes": "9KkWIo0MNIoqI94l6se76CsEIj0LJNjqxQONk0MPLg3pguwgAvJOIwQrhVIDobYueCfRqh6neth80EEjUc7FLtVxCiF4UmGUiUR730lXjyRrs7bvguHlees6WQJE0uVf6WCBxfWRbdb2vsLRiQzYDfiqLoaO7MrxeiDBEaHcePfawwuGps6PfPqlam8Y418yPT9blfrazUxerCKzo2a3uCQ2oaei9gwGHaV2fIpJfMSk43KYpHRf2THCKs"
+      },
+      "products": [
+        {
+          "_id": "6973f4f71c508c5d5eb9717e",
+          "name": "Fish18486",
+          "amount": 677,
+          "price": 53357,
+          "manufacturer": "Apple",
+          "notes": "uHVGBsRsxPTWgfqlo6GjVPMHs2zeLJ8YfjdezOIGMrgTPX4sZ9XvOsXNQaAjmcWrSyLh5q714G9sqX808K0NNgbdgQQ8xpWF2iS6ejkr3a6ycFQH3G4nvfKrrmrMhBFV2GsMuF2sy42a57VoMOSZazLBoGHCK5ImdtxbWqAGrdQiicZTjPXv5pHOj5v3xNcSNOKnrsWa9m9AxBi4KIxuS4b3IEgZvnfRpoK55ng0M2n7QihyiKIccFBOER",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53357,
+      "createdOn": "2026-01-23T22:23:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f4f61c508c5d5eb9714a",
+          "products": [
+            {
+              "_id": "6973f4f71c508c5d5eb9717e",
+              "name": "Fish18486",
+              "amount": 677,
+              "price": 53357,
+              "manufacturer": "Apple",
+              "notes": "uHVGBsRsxPTWgfqlo6GjVPMHs2zeLJ8YfjdezOIGMrgTPX4sZ9XvOsXNQaAjmcWrSyLh5q714G9sqX808K0NNgbdgQQ8xpWF2iS6ejkr3a6ycFQH3G4nvfKrrmrMhBFV2GsMuF2sy42a57VoMOSZazLBoGHCK5ImdtxbWqAGrdQiicZTjPXv5pHOj5v3xNcSNOKnrsWa9m9AxBi4KIxuS4b3IEgZvnfRpoK55ng0M2n7QihyiKIccFBOER",
+              "received": false
+            }
+          ],
+          "total_price": 53357,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:23:58.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f4f61c508c5d5eb9714a",
+          "products": [
+            {
+              "_id": "6973f4f71c508c5d5eb9717e",
+              "name": "Fish18486",
+              "amount": 677,
+              "price": 53357,
+              "manufacturer": "Apple",
+              "notes": "uHVGBsRsxPTWgfqlo6GjVPMHs2zeLJ8YfjdezOIGMrgTPX4sZ9XvOsXNQaAjmcWrSyLh5q714G9sqX808K0NNgbdgQQ8xpWF2iS6ejkr3a6ycFQH3G4nvfKrrmrMhBFV2GsMuF2sy42a57VoMOSZazLBoGHCK5ImdtxbWqAGrdQiicZTjPXv5pHOj5v3xNcSNOKnrsWa9m9AxBi4KIxuS4b3IEgZvnfRpoK55ng0M2n7QihyiKIccFBOER",
+              "received": false
+            }
+          ],
+          "total_price": 53357,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:23:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f4f61c508c5d5eb9714a",
+          "products": [
+            {
+              "_id": "6973f4f71c508c5d5eb9717e",
+              "name": "Fish18486",
+              "amount": 677,
+              "price": 53357,
+              "manufacturer": "Apple",
+              "notes": "uHVGBsRsxPTWgfqlo6GjVPMHs2zeLJ8YfjdezOIGMrgTPX4sZ9XvOsXNQaAjmcWrSyLh5q714G9sqX808K0NNgbdgQQ8xpWF2iS6ejkr3a6ycFQH3G4nvfKrrmrMhBFV2GsMuF2sy42a57VoMOSZazLBoGHCK5ImdtxbWqAGrdQiicZTjPXv5pHOj5v3xNcSNOKnrsWa9m9AxBi4KIxuS4b3IEgZvnfRpoK55ng0M2n7QihyiKIccFBOER",
+              "received": false
+            }
+          ],
+          "total_price": 53357,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:23:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

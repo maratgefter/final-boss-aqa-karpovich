@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-kYwPKrowjEzCm9oVW8XfpoWfof4\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f5091c508c5d5eb97e2f",
+        "email": "Santos.Russel@yahoo.com",
+        "name": "Ulices Gottlieb",
+        "country": "Russia",
+        "city": "New Nicholechester",
+        "street": "S Maple Street",
+        "house": 21,
+        "flat": 17,
+        "phone": "+18848949625",
+        "createdOn": "2026-01-23T22:24:09.000Z",
+        "notes": "exTNNtdgKgOauztgTyTcYO8MLdTm0jYWMvciKwji7btLpEfwDQC0IQn7VnhPur8zzubbvobxfOOIE6aG3NnwnhFrB2yM2gQeLboWPBdgqWEd3fRj7xyqw2FGQ7VIHmArdxkubuGsloXxhrRmaQ3moqcJdFHriXsGTZhI17KPlhBv9M4iKjuL42cznrhDQOf52PyVO5kvBmMosDw5MCXs4BQdMVRfhpeQxlH2ZSy7q7KPvzduZZoL11qFT6"
+      },
+      "products": [
+        {
+          "_id": "6973f50b1c508c5d5eb97f88",
+          "name": "Soap8681",
+          "amount": 112,
+          "price": 35650,
+          "manufacturer": "Microsoft",
+          "notes": "1mhue0kTH1xac0yzA0BpuShAPz6Cuvgs8xjrsMdqCRAQDfIkHGzA5t5qMc6EXa2nDoFVAGl9wO2vlelA1rbMEAkpHyMZeGYN4GkZmhpKc2lWu8QiKhyLZ0zAndk4vX9LgulUC8rpqFnKpGaygk2ReeGtYJsVe1SDqhYLIGcr0n5s65807Fflyuk77awHUlnrzcFHKfnGcPEglVxydWmv4LbdebAlEK9zAbXYgPogV4lb9A4KFNkbtkBtLx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35650,
+      "createdOn": "2026-01-23T22:24:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f5091c508c5d5eb97e2f",
+          "products": [
+            {
+              "_id": "6973f50b1c508c5d5eb97f88",
+              "name": "Soap8681",
+              "amount": 112,
+              "price": 35650,
+              "manufacturer": "Microsoft",
+              "notes": "1mhue0kTH1xac0yzA0BpuShAPz6Cuvgs8xjrsMdqCRAQDfIkHGzA5t5qMc6EXa2nDoFVAGl9wO2vlelA1rbMEAkpHyMZeGYN4GkZmhpKc2lWu8QiKhyLZ0zAndk4vX9LgulUC8rpqFnKpGaygk2ReeGtYJsVe1SDqhYLIGcr0n5s65807Fflyuk77awHUlnrzcFHKfnGcPEglVxydWmv4LbdebAlEK9zAbXYgPogV4lb9A4KFNkbtkBtLx",
+              "received": false
+            }
+          ],
+          "total_price": 35650,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f50c1c508c5d5eb97fbb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

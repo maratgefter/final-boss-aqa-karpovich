@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-iUOgpb72bv5wHdRBnlT0wl1Q16M\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f4ff1c508c5d5eb97721",
+        "email": "Edd.Watsica-Block4@yahoo.com",
+        "name": "Eli Cartwright",
+        "country": "Canada",
+        "city": "Heathcotecester",
+        "street": "Howell Spurs",
+        "house": 35,
+        "flat": 468,
+        "phone": "+14349171006",
+        "createdOn": "2026-01-23T22:23:59.000Z",
+        "notes": "cYHFLB7D8Je7Tv0qdEeNvDtlk1YRiSxcNOfjwbLzkQ4K07kOehzryEZ9S0whho15h1LUgxSvVBcDhG51Ec9h9t4dK3v7oyv3v3oIEgNTGA7xdxMxJejse14TH8xA6BmEkKzX1z1ZplkHUrLxSXDO0aUkA7eEV4FMVkn1BIWKRPxZoK3e4ItwsDaggHHRkFga8dAvSuyfi5awhiovZCC4jhQphf8YoADHLAOMucnyaItgKMEP2iJe9g7EtI"
+      },
+      "products": [
+        {
+          "_id": "6973f5011c508c5d5eb9786e",
+          "name": "Gloves11129",
+          "amount": 819,
+          "price": 63120,
+          "manufacturer": "Google",
+          "notes": "KUymoQUakQsUJdfALwg04f9xzCsGejUfPmps4pAojpBj8r2fj6GswDTbnc938XjUzwKd4ZJ8gQSNcGVkEUiAithq83tZ8pQvf7SRSPF22t9UQ2SuNhTO0nqKHAvdOzDKG78PkcXnS8HBDZP8pOTwCSMWO2aXdqbYUcMSaQOtmaji6K1DFIcOZWsyxi8kFMeTPXXvMH6RVhnTxNJIZu7UkoGueop8n8yv1pWkHMrGAFPt8veB9GJsbgs2SS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63120,
+      "createdOn": "2026-01-23T22:24:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f4ff1c508c5d5eb97721",
+          "products": [
+            {
+              "_id": "6973f5011c508c5d5eb9786e",
+              "name": "Gloves11129",
+              "amount": 819,
+              "price": 63120,
+              "manufacturer": "Google",
+              "notes": "KUymoQUakQsUJdfALwg04f9xzCsGejUfPmps4pAojpBj8r2fj6GswDTbnc938XjUzwKd4ZJ8gQSNcGVkEUiAithq83tZ8pQvf7SRSPF22t9UQ2SuNhTO0nqKHAvdOzDKG78PkcXnS8HBDZP8pOTwCSMWO2aXdqbYUcMSaQOtmaji6K1DFIcOZWsyxi8kFMeTPXXvMH6RVhnTxNJIZu7UkoGueop8n8yv1pWkHMrGAFPt8veB9GJsbgs2SS",
+              "received": false
+            }
+          ],
+          "total_price": 63120,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f5011c508c5d5eb97895"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

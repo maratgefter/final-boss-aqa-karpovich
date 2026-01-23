@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:25:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-JVwm1hTyYZCg5ivek1HzYZeC5AE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f5431c508c5d5eb9a68f",
+        "email": "Trycia_Schroeder@yahoo.com",
+        "name": "Magnus Hodkiewicz",
+        "country": "Ukraine",
+        "city": "Larkinfort",
+        "street": "Johathan Parks",
+        "house": 25,
+        "flat": 257,
+        "phone": "+18477570951",
+        "createdOn": "2026-01-23T22:25:07.000Z",
+        "notes": "xeWV6HEClFXCD8atRGY5YJT6Rt1Ths4A0ixj0s2jmV31QH2pjD6m8HUKkdjZ7E2pd7gIXdw5T1AQVQPhNmpjRExheBsXDZbJ0iXCXJIsmVSZmQZGxiL7rwmEOzBAvVekSrKrOKAEPUKZKl6AedXrW6xhDzh6UTI8q1MeglUKBH3hwBBVEoOK3HwhcaK5Lszqf40XV4Ji9RrY3exPv97NavQJg0xIIsyWudwJSEsP390cdrxJzxRkxxTEQg"
+      },
+      "products": [
+        {
+          "_id": "6973f5431c508c5d5eb9a6ab",
+          "name": "Mouse99147",
+          "amount": 449,
+          "price": 51702,
+          "manufacturer": "Samsung",
+          "notes": "GLqjs3S30khDCdvy97qYviJFBR5uWRKRXwGmkMYRZkmKUuLntdtXSkEk1OrJjrZBxc5VPrmGtN2auQr40l25wEZgZxDUC4KlZHEwXfJgdaVCbg4PFs84vZlcEBFzeZglqd7pbAQink7JeQV4xiPunUHirtsWSDTlIIr3HNn6ZJmDPJNfVMr7gIr9Ux7dhYoH1Z9L1MYQcZt7S6WIXQpZd2ibo1NsSEzJIK8ls6fx2YWKKv58fWNH4WR0tz",
+          "received": false
+        },
+        {
+          "_id": "6973f5441c508c5d5eb9a6e9",
+          "name": "Pants76816",
+          "amount": 965,
+          "price": 25249,
+          "manufacturer": "Apple",
+          "notes": "teYq2ufLXSSSszmEZRJDSqIouLJHS95iLTKQ0VjVprvQga5mR6eb7aHHvCGSwxIcDtiXIlDiwQQv4hmwPM2REZVgiCdJ5tBYhOViynAKBrWIh4yrPHDYnGHlIEicKxb69Gw7Z3L10QMy27gxOs6Qa6Uq8XRJcvHrX0S8vPLOY66mekS5r7jjdXqh7m7G9qqUqkR7ZzwfwmW0tUCNQNuG8gtmK0a5wbIUAE1F8EApextg7XjhZYR7QYbjAn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76951,
+      "createdOn": "2026-01-23T22:25:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f5431c508c5d5eb9a68f",
+          "products": [
+            {
+              "_id": "6973f5431c508c5d5eb9a6ab",
+              "name": "Mouse99147",
+              "amount": 449,
+              "price": 51702,
+              "manufacturer": "Samsung",
+              "notes": "GLqjs3S30khDCdvy97qYviJFBR5uWRKRXwGmkMYRZkmKUuLntdtXSkEk1OrJjrZBxc5VPrmGtN2auQr40l25wEZgZxDUC4KlZHEwXfJgdaVCbg4PFs84vZlcEBFzeZglqd7pbAQink7JeQV4xiPunUHirtsWSDTlIIr3HNn6ZJmDPJNfVMr7gIr9Ux7dhYoH1Z9L1MYQcZt7S6WIXQpZd2ibo1NsSEzJIK8ls6fx2YWKKv58fWNH4WR0tz",
+              "received": false
+            },
+            {
+              "_id": "6973f5441c508c5d5eb9a6e9",
+              "name": "Pants76816",
+              "amount": 965,
+              "price": 25249,
+              "manufacturer": "Apple",
+              "notes": "teYq2ufLXSSSszmEZRJDSqIouLJHS95iLTKQ0VjVprvQga5mR6eb7aHHvCGSwxIcDtiXIlDiwQQv4hmwPM2REZVgiCdJ5tBYhOViynAKBrWIh4yrPHDYnGHlIEicKxb69Gw7Z3L10QMy27gxOs6Qa6Uq8XRJcvHrX0S8vPLOY66mekS5r7jjdXqh7m7G9qqUqkR7ZzwfwmW0tUCNQNuG8gtmK0a5wbIUAE1F8EApextg7XjhZYR7QYbjAn",
+              "received": false
+            }
+          ],
+          "total_price": 76951,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:25:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f5451c508c5d5eb9a71a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

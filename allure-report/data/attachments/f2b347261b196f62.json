@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4828",
+    "etag": "W/\"12dc-BARWBaUCf4UEIoPER+0miq9NJL4\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6973f52e1c508c5d5eb9980d",
+      "status": "Received",
+      "customer": {
+        "_id": "6973f5271c508c5d5eb992bf",
+        "email": "Dillon.Kilback@yahoo.com",
+        "name": "Kariane Torp",
+        "country": "Great Britain",
+        "city": "New Tabithaview",
+        "street": "Arden Brook",
+        "house": 7,
+        "flat": 410,
+        "phone": "+14803254834",
+        "createdOn": "2026-01-23T22:24:39.000Z",
+        "notes": "aKwj5Q5c62VhX8Mbp0JGTNWILMSsV3GKlo2i5xuQGFKjKYdIm2WXOV3h4Qkypn6SrJOhSH7B06g0DoqcvkgYKvw6nvxEysuocXFfLgIQ8KZPhKMMhmTJf13e3xVVVtjHkzel0mvkcssudT5WjLTFfIpo7WS0XTNO2iKaqbL7SN9CWMqK3itwvxbXsruu1hBdBVn902eyKyi496f8jXTXwGEZwlPVqNDIKQXytajOri3PG3H4292gkQDvJW"
+      },
+      "products": [
+        {
+          "_id": "6973f52c1c508c5d5eb9969b",
+          "name": "Salad35472",
+          "amount": 833,
+          "price": 39818,
+          "manufacturer": "Apple",
+          "notes": "6im71Eps5iKbg03bpPom2NqII6UN61WZtst96G7lNr07uHRmx19k7gbtkycIBpp80giAY3ewgYaTHhlRG3Tv0tUGbcQJNPCgoBt42I5P6CiYNN2xooMYciKr27J08hu5wtRpjCOJJVSyapQUxrz2dLjdUhAo9OmS2mwhP5gxnzoYy3U1m1AiFxr7c2gd5fLpuouNcV6gGf8lkOl24Cnb9gcAMDfy2nnwJgH2zBIqh52CLgX1ZIgKmQM52y",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Tabithaview",
+          "street": "Arden Brook",
+          "house": 7,
+          "flat": 410
+        },
+        "finalDate": "2026-01-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 39818,
+      "createdOn": "2026-01-23T22:24:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6973f5271c508c5d5eb992bf",
+          "products": [
+            {
+              "_id": "6973f52c1c508c5d5eb9969b",
+              "name": "Salad35472",
+              "amount": 833,
+              "price": 39818,
+              "manufacturer": "Apple",
+              "notes": "6im71Eps5iKbg03bpPom2NqII6UN61WZtst96G7lNr07uHRmx19k7gbtkycIBpp80giAY3ewgYaTHhlRG3Tv0tUGbcQJNPCgoBt42I5P6CiYNN2xooMYciKr27J08hu5wtRpjCOJJVSyapQUxrz2dLjdUhAo9OmS2mwhP5gxnzoYy3U1m1AiFxr7c2gd5fLpuouNcV6gGf8lkOl24Cnb9gcAMDfy2nnwJgH2zBIqh52CLgX1ZIgKmQM52y",
+              "received": true
+            }
+          ],
+          "total_price": 39818,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Tabithaview",
+              "street": "Arden Brook",
+              "house": 7,
+              "flat": 410
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-23T22:24:48.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6973f5271c508c5d5eb992bf",
+          "products": [
+            {
+              "_id": "6973f52c1c508c5d5eb9969b",
+              "name": "Salad35472",
+              "amount": 833,
+              "price": 39818,
+              "manufacturer": "Apple",
+              "notes": "6im71Eps5iKbg03bpPom2NqII6UN61WZtst96G7lNr07uHRmx19k7gbtkycIBpp80giAY3ewgYaTHhlRG3Tv0tUGbcQJNPCgoBt42I5P6CiYNN2xooMYciKr27J08hu5wtRpjCOJJVSyapQUxrz2dLjdUhAo9OmS2mwhP5gxnzoYy3U1m1AiFxr7c2gd5fLpuouNcV6gGf8lkOl24Cnb9gcAMDfy2nnwJgH2zBIqh52CLgX1ZIgKmQM52y",
+              "received": false
+            }
+          ],
+          "total_price": 39818,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Tabithaview",
+              "street": "Arden Brook",
+              "house": 7,
+              "flat": 410
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-23T22:24:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f5271c508c5d5eb992bf",
+          "products": [
+            {
+              "_id": "6973f52c1c508c5d5eb9969b",
+              "name": "Salad35472",
+              "amount": 833,
+              "price": 39818,
+              "manufacturer": "Apple",
+              "notes": "6im71Eps5iKbg03bpPom2NqII6UN61WZtst96G7lNr07uHRmx19k7gbtkycIBpp80giAY3ewgYaTHhlRG3Tv0tUGbcQJNPCgoBt42I5P6CiYNN2xooMYciKr27J08hu5wtRpjCOJJVSyapQUxrz2dLjdUhAo9OmS2mwhP5gxnzoYy3U1m1AiFxr7c2gd5fLpuouNcV6gGf8lkOl24Cnb9gcAMDfy2nnwJgH2zBIqh52CLgX1ZIgKmQM52y",
+              "received": false
+            }
+          ],
+          "total_price": 39818,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Tabithaview",
+              "street": "Arden Brook",
+              "house": 7,
+              "flat": 410
+            },
+            "finalDate": "2026-01-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-23T22:24:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f5271c508c5d5eb992bf",
+          "products": [
+            {
+              "_id": "6973f52c1c508c5d5eb9969b",
+              "name": "Salad35472",
+              "amount": 833,
+              "price": 39818,
+              "manufacturer": "Apple",
+              "notes": "6im71Eps5iKbg03bpPom2NqII6UN61WZtst96G7lNr07uHRmx19k7gbtkycIBpp80giAY3ewgYaTHhlRG3Tv0tUGbcQJNPCgoBt42I5P6CiYNN2xooMYciKr27J08hu5wtRpjCOJJVSyapQUxrz2dLjdUhAo9OmS2mwhP5gxnzoYy3U1m1AiFxr7c2gd5fLpuouNcV6gGf8lkOl24Cnb9gcAMDfy2nnwJgH2zBIqh52CLgX1ZIgKmQM52y",
+              "received": false
+            }
+          ],
+          "total_price": 39818,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

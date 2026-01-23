@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:23:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-+fuzUEZscX28PM/h1Qoye8Pdn/0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f4f61c508c5d5eb9713e",
+        "email": "Junius_Pouros17@yahoo.com",
+        "name": "Josianne Kuvalis",
+        "country": "France",
+        "city": "Vonstead",
+        "street": "Castle Lane",
+        "house": 15,
+        "flat": 473,
+        "phone": "+12078113226",
+        "createdOn": "2026-01-23T22:23:50.000Z",
+        "notes": "9hgs3hEfJtlOcOzDrTHIlK9KMMo4Cg35yEkgkqzHc65ZIzXUWq2oRTXXXnzT8LBm5aZE6ZdzFP3Huhtw2isUuplJ9l3KUNGwqg90qJE0MRQEIedbBUK1KX1BSvQ8ocL0rhHWRWv6wpTRY4ElcQ0MpmPGxEEthxM0zihyd3C5Z1g8ZUFFrRHCvYObU9oFP6I2gxskvGx4WTDAnwquebCTwrn5vf1iktiAWWWemT3GAdd0MpnoIJOrw8l9T2"
+      },
+      "products": [
+        {
+          "_id": "6973f4f71c508c5d5eb97161",
+          "name": "Shoes44714",
+          "amount": 274,
+          "price": 50038,
+          "manufacturer": "Microsoft",
+          "notes": "hodkCieXcOJjDKOPVPE6R8ZZmsF1LXy00HEysc5RvghlcjpFhtNFbutTzpHiWfur2iUY1LEwWPUkQ6hpQsQtfwsdDXTeVjAwtJY8qhZIhjivaasVCAhnZzPkeWmNq1cC1JyuJzzd9Ujb8Vie10Cwa0ZnkH3Pwk47Dkbnb8pH2kJ1PMvuLkd4X6HbLAzDu7hZbbEx2zYvLamRsNTZBoFEZuT5M3wFxWbrmFihLZJHTSqFZzVdogzGtFpLgy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50038,
+      "createdOn": "2026-01-23T22:23:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f4f61c508c5d5eb9713e",
+          "products": [
+            {
+              "_id": "6973f4f71c508c5d5eb97161",
+              "name": "Shoes44714",
+              "amount": 274,
+              "price": 50038,
+              "manufacturer": "Microsoft",
+              "notes": "hodkCieXcOJjDKOPVPE6R8ZZmsF1LXy00HEysc5RvghlcjpFhtNFbutTzpHiWfur2iUY1LEwWPUkQ6hpQsQtfwsdDXTeVjAwtJY8qhZIhjivaasVCAhnZzPkeWmNq1cC1JyuJzzd9Ujb8Vie10Cwa0ZnkH3Pwk47Dkbnb8pH2kJ1PMvuLkd4X6HbLAzDu7hZbbEx2zYvLamRsNTZBoFEZuT5M3wFxWbrmFihLZJHTSqFZzVdogzGtFpLgy",
+              "received": false
+            }
+          ],
+          "total_price": 50038,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:23:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f4f71c508c5d5eb97187"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

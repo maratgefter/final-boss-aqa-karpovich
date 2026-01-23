@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:24:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3875",
+    "etag": "W/\"f23-ay2u/4+bDyXoi5JgGw92ewco3tk\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6973f52f1c508c5d5eb99855",
+      "status": "In Process",
+      "customer": {
+        "_id": "6973f52d1c508c5d5eb996be",
+        "email": "Dulce_Wuckert@yahoo.com",
+        "name": "Josephine Ritchie",
+        "country": "Russia",
+        "city": "Fort Julienbury",
+        "street": "Herbert Dale",
+        "house": 7,
+        "flat": 152,
+        "phone": "+13426639382",
+        "createdOn": "2026-01-23T22:24:45.000Z",
+        "notes": "teYAqiHGfe4lpNAfMz3IcvXxUGDVom4mLuY1Mk0PU6iA7Q4HMzU9kXhUc5hiV40rRlJgG1foOC57bfUtvbXQqMIlfoqCteLNty4WTXTTkPvDhecU9FhVAgEeKkeS8wEEIdH3Lx1nAp6uHLUL9orofq1UTMNSpCpWAJl5b1byGG2bAFvEGhO4c7x80KmfN4rNNVlDGC8hSvBEnjaWAueCdri0ah7sm26d5gA0POiVhPGwhndtg7bx9yQVOR"
+      },
+      "products": [
+        {
+          "_id": "6973f52e1c508c5d5eb9981c",
+          "name": "Mouse9",
+          "amount": 828,
+          "price": 92934,
+          "manufacturer": "Xiaomi",
+          "notes": "yTuH3MdsZ4348DpAM8LBpFqOcID3a6Qj4tWfe89AFjurYCNG4RAc8FQ6ynOLkshwYeMh18WIdjKMwUsYN4f3m3Z22LMkP07DWW3xvEDU7w7yMuyzds45r7M2rWGlGIPosm5G8nlaXWInPYrJXN7V5ai85y6bqSPFBDh4TflZqKoP61Dgo0T5UuUYygjB357iQNqKe91rhdF7bkuwgIDuEei05lPoyZ77hGHGENZoQ5gIjZhmoxEDNvcs7t",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Julienbury",
+          "street": "Herbert Dale",
+          "house": 7,
+          "flat": 152
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 92934,
+      "createdOn": "2026-01-23T22:24:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6973f52d1c508c5d5eb996be",
+          "products": [
+            {
+              "_id": "6973f52e1c508c5d5eb9981c",
+              "name": "Mouse9",
+              "amount": 828,
+              "price": 92934,
+              "manufacturer": "Xiaomi",
+              "notes": "yTuH3MdsZ4348DpAM8LBpFqOcID3a6Qj4tWfe89AFjurYCNG4RAc8FQ6ynOLkshwYeMh18WIdjKMwUsYN4f3m3Z22LMkP07DWW3xvEDU7w7yMuyzds45r7M2rWGlGIPosm5G8nlaXWInPYrJXN7V5ai85y6bqSPFBDh4TflZqKoP61Dgo0T5UuUYygjB357iQNqKe91rhdF7bkuwgIDuEei05lPoyZ77hGHGENZoQ5gIjZhmoxEDNvcs7t",
+              "received": false
+            }
+          ],
+          "total_price": 92934,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Julienbury",
+              "street": "Herbert Dale",
+              "house": 7,
+              "flat": 152
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-23T22:24:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f52d1c508c5d5eb996be",
+          "products": [
+            {
+              "_id": "6973f52e1c508c5d5eb9981c",
+              "name": "Mouse9",
+              "amount": 828,
+              "price": 92934,
+              "manufacturer": "Xiaomi",
+              "notes": "yTuH3MdsZ4348DpAM8LBpFqOcID3a6Qj4tWfe89AFjurYCNG4RAc8FQ6ynOLkshwYeMh18WIdjKMwUsYN4f3m3Z22LMkP07DWW3xvEDU7w7yMuyzds45r7M2rWGlGIPosm5G8nlaXWInPYrJXN7V5ai85y6bqSPFBDh4TflZqKoP61Dgo0T5UuUYygjB357iQNqKe91rhdF7bkuwgIDuEei05lPoyZ77hGHGENZoQ5gIjZhmoxEDNvcs7t",
+              "received": false
+            }
+          ],
+          "total_price": 92934,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Julienbury",
+              "street": "Herbert Dale",
+              "house": 7,
+              "flat": 152
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-23T22:24:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6973f52d1c508c5d5eb996be",
+          "products": [
+            {
+              "_id": "6973f52e1c508c5d5eb9981c",
+              "name": "Mouse9",
+              "amount": 828,
+              "price": 92934,
+              "manufacturer": "Xiaomi",
+              "notes": "yTuH3MdsZ4348DpAM8LBpFqOcID3a6Qj4tWfe89AFjurYCNG4RAc8FQ6ynOLkshwYeMh18WIdjKMwUsYN4f3m3Z22LMkP07DWW3xvEDU7w7yMuyzds45r7M2rWGlGIPosm5G8nlaXWInPYrJXN7V5ai85y6bqSPFBDh4TflZqKoP61Dgo0T5UuUYygjB357iQNqKe91rhdF7bkuwgIDuEei05lPoyZ77hGHGENZoQ5gIjZhmoxEDNvcs7t",
+              "received": false
+            }
+          ],
+          "total_price": 92934,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:24:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

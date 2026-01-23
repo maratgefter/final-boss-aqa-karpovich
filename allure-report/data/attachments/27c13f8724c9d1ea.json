@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 23 Jan 2026 22:23:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-b2NQqUT0r1JlqBeqoCYUSd0ZaoU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6973f4f21c508c5d5eb96ec0",
+        "email": "Rosalia4@hotmail.com",
+        "name": "Monique Toy",
+        "country": "Canada",
+        "city": "Lansing",
+        "street": "Nelson Street",
+        "house": 2,
+        "flat": 571,
+        "phone": "+15934795266",
+        "createdOn": "2026-01-23T22:23:46.000Z",
+        "notes": "7IQzmhDUfnnP6dRCn8U5pnOJKyMMHT6KYRGm5mCHkhdgpSfEuTs9z0h2Vq7M5TDtePhCfhAgiUgVJJanDHLyYTKhM7zcDvxjh7lSXAOi7JKs95xUm2IuDow1vichTUzQlWFqHA8hWVhIEMTBpbaFbRncBr4a3vCDQqwqQCBB65Ej7vVmlvkHOREwjBNG7GgVwvAfS6nuekgoIeqR8Sx2O6fc92WYkEw11heIyHYWy73qpuuD1bSuPMewkO"
+      },
+      "products": [
+        {
+          "_id": "6973f4f21c508c5d5eb96eea",
+          "name": "Gloves25132",
+          "amount": 658,
+          "price": 32716,
+          "manufacturer": "Apple",
+          "notes": "GhCe83qVYvC8cowxXWKv1qpEE3GmcKZIuWZKqXnzceRnsQZoaQc5WlXU84M8eUb9f05cY25jqzZxLteTfPRUIRzw2l7p8VMvJuThQK8MWcdvRJ59NETUWBQYn1rOTNmvmM6EVoW9ISvq833gU3FwPRPTHHh8rNysHymJjUumrGzLoFnaXenJWK3BMQfIhyn9XGnKeyK31DAblD4XJRL8miz7mG49TdCe84JFnR5vjo0DeZA3JpKc0F1Wrr",
+          "received": false
+        },
+        {
+          "_id": "6973f4f21c508c5d5eb96f0a",
+          "name": "Mouse55420",
+          "amount": 574,
+          "price": 21706,
+          "manufacturer": "Microsoft",
+          "notes": "q4vKLQvBki2dzTXgyKWw1pUXrpbKr5rXh5bgZZ42C6CZaZLRA3f5GKUudrIq4QflPQBmPWJHbEl1Y2KCRSjYKcEOAiSs7gX9aMTgRO7oF0vPJOVp7O6yd4LCzbFMdoD8cl5Mbpo09hj21dWm8bj1Lxa4LepL4VHBl5OQfDY9TLK6wlT7oNoLF0RdJVRhJbSB6g7Sv3u1ue2MFJn2aQ7q3RwwS7snrY5nsmhXHxPfLhoihCRDaWRhWZWCV9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54422,
+      "createdOn": "2026-01-23T22:23:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6973f4f21c508c5d5eb96ec0",
+          "products": [
+            {
+              "_id": "6973f4f21c508c5d5eb96eea",
+              "name": "Gloves25132",
+              "amount": 658,
+              "price": 32716,
+              "manufacturer": "Apple",
+              "notes": "GhCe83qVYvC8cowxXWKv1qpEE3GmcKZIuWZKqXnzceRnsQZoaQc5WlXU84M8eUb9f05cY25jqzZxLteTfPRUIRzw2l7p8VMvJuThQK8MWcdvRJ59NETUWBQYn1rOTNmvmM6EVoW9ISvq833gU3FwPRPTHHh8rNysHymJjUumrGzLoFnaXenJWK3BMQfIhyn9XGnKeyK31DAblD4XJRL8miz7mG49TdCe84JFnR5vjo0DeZA3JpKc0F1Wrr",
+              "received": false
+            },
+            {
+              "_id": "6973f4f21c508c5d5eb96f0a",
+              "name": "Mouse55420",
+              "amount": 574,
+              "price": 21706,
+              "manufacturer": "Microsoft",
+              "notes": "q4vKLQvBki2dzTXgyKWw1pUXrpbKr5rXh5bgZZ42C6CZaZLRA3f5GKUudrIq4QflPQBmPWJHbEl1Y2KCRSjYKcEOAiSs7gX9aMTgRO7oF0vPJOVp7O6yd4LCzbFMdoD8cl5Mbpo09hj21dWm8bj1Lxa4LepL4VHBl5OQfDY9TLK6wlT7oNoLF0RdJVRhJbSB6g7Sv3u1ue2MFJn2aQ7q3RwwS7snrY5nsmhXHxPfLhoihCRDaWRhWZWCV9",
+              "received": false
+            }
+          ],
+          "total_price": 54422,
+          "delivery": null,
+          "changedOn": "2026-01-23T22:23:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6973f4f31c508c5d5eb96f32"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
