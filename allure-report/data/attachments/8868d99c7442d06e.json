@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:25:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2800",
+    "etag": "W/\"af0-yqbyE26vMN8FCwriF2fCKxQxfr0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697546d71c508c5d5ebaacbc",
+      "status": "Draft",
+      "customer": {
+        "_id": "697546d61c508c5d5ebaac44",
+        "email": "Fanny91@hotmail.com",
+        "name": "Everardo Hackett",
+        "country": "Great Britain",
+        "city": "Oro Valley",
+        "street": "Tyreek Ramp",
+        "house": 30,
+        "flat": 974,
+        "phone": "+12145432629",
+        "createdOn": "2026-01-24T22:25:26.000Z",
+        "notes": "HsOKIS0a5HlgOZPOQVsEQqfFsovpqt7QT2j6Cjp6H30xTNQAvWkAz1CfmxbT2akYYob5ulnnBtkX7aO6XCrx1bS9nspBo5aqEVZNwv7Qw1a3Zl3InaW6rcLthnRjWNmMqE7P8FfU4vsZZIQV2Vk3Jk48hcXeRpCiQG56ZgQakqfgdh49D93d2JZhZKMSBoKSCY6dZcuz273bO5YsNcXU0Iu5Oja5hHyda8sqMbBwVovck1goJGLo9EtZ63"
+      },
+      "products": [
+        {
+          "_id": "697546d61c508c5d5ebaac5b",
+          "name": "Car33650",
+          "amount": 720,
+          "price": 95443,
+          "manufacturer": "Tesla",
+          "notes": "KOHvvPI9KsKIfpMlf3BeUlL6MWoRdoigBzqAgebds7T4tSC8ZoMSv2zZJ2fKNuGYEgwUQ0FmhDtvZQlQkDHDmtUI16vUiNlC5oJltPTT6jJwLYOJ6fVhqXEETAPcjYNBVAtsim68bVGQRtcXP3awDW5MAIyFUUACUjGfF4zQDcG2qpJv04dgYVzQzKTuTB5YRsqGmz1ILGJyUsaLyQdhtA62eVBjIIT9Y7zdFeeq3F9RD6pVoCV7iZ9Piq",
+          "received": false
+        },
+        {
+          "_id": "697546d71c508c5d5ebaac87",
+          "name": "Bike1097",
+          "amount": 255,
+          "price": 11391,
+          "manufacturer": "Sony",
+          "notes": "FnP8Y7FxIuUzDK8TaA4FcuCneVMybWcG8rdKhzV1zTYHRTAvAzcQieS0QYWga61ecF5IjoYoJ2SnUoZYgnYYJadWYAwVDqpyCsZudd7Ovm7Eidz3vOG75sZOgDwggsoE6fcWN0sIvHjeoN0La0FINU5NPTOUeGpw8Wv3YDH2kRAkjMhoFeVM8SwgNw5x9jHQjWnw87YQmjC7xtPvCQsbFNUdGEbEQPtexlPw34oqyf0x31wHFQ1GZCIMK0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 106834,
+      "createdOn": "2026-01-24T22:25:27.000Z",
+      "comments": [
+        {
+          "text": "WPVEMkeIpRvxK9dzcEQoPL59PCs9FSBGqgH5sdrWYoYCNQ7iEUPZC6TphgjYDGXKvz4AAGnqgXF",
+          "createdOn": "2026-01-24T22:25:28.000Z",
+          "_id": "697546d81c508c5d5ebaad01"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697546d61c508c5d5ebaac44",
+          "products": [
+            {
+              "_id": "697546d61c508c5d5ebaac5b",
+              "name": "Car33650",
+              "amount": 720,
+              "price": 95443,
+              "manufacturer": "Tesla",
+              "notes": "KOHvvPI9KsKIfpMlf3BeUlL6MWoRdoigBzqAgebds7T4tSC8ZoMSv2zZJ2fKNuGYEgwUQ0FmhDtvZQlQkDHDmtUI16vUiNlC5oJltPTT6jJwLYOJ6fVhqXEETAPcjYNBVAtsim68bVGQRtcXP3awDW5MAIyFUUACUjGfF4zQDcG2qpJv04dgYVzQzKTuTB5YRsqGmz1ILGJyUsaLyQdhtA62eVBjIIT9Y7zdFeeq3F9RD6pVoCV7iZ9Piq",
+              "received": false
+            },
+            {
+              "_id": "697546d71c508c5d5ebaac87",
+              "name": "Bike1097",
+              "amount": 255,
+              "price": 11391,
+              "manufacturer": "Sony",
+              "notes": "FnP8Y7FxIuUzDK8TaA4FcuCneVMybWcG8rdKhzV1zTYHRTAvAzcQieS0QYWga61ecF5IjoYoJ2SnUoZYgnYYJadWYAwVDqpyCsZudd7Ovm7Eidz3vOG75sZOgDwggsoE6fcWN0sIvHjeoN0La0FINU5NPTOUeGpw8Wv3YDH2kRAkjMhoFeVM8SwgNw5x9jHQjWnw87YQmjC7xtPvCQsbFNUdGEbEQPtexlPw34oqyf0x31wHFQ1GZCIMK0",
+              "received": false
+            }
+          ],
+          "total_price": 106834,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:25:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

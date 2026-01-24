@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:25:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-auZKWlZYBh2l+8vYCAjzPByzIG0\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697546cb1c508c5d5ebaa4d8",
+        "email": "Samara_Heathcote@gmail.com",
+        "name": "Winfield Gorczany",
+        "country": "USA",
+        "city": "West Dina",
+        "street": "Hanna Centers",
+        "house": 12,
+        "flat": 542,
+        "phone": "+18903223491",
+        "createdOn": "2026-01-24T22:25:15.000Z",
+        "notes": "bWJvSV8mkO0VtG7e3XoNZUchZGxEByZvSP0Os57TaXhiEewIFqrr3OSCuJiZpDDTD9p2ihAC7qLxT665iQmUaEaD9yjIUitjpR7pNXReTAk10No66Ia2dObR9W6nnmywgBeEXR5PdxeRQkvGfVMmLP5kNNge9Dh6zQQFr9sLFD0JxTGPQ0SXHAMwfbnXFnWxAjZMoZrEwMPbjs39Eq9vvxzCV6iO1nVs2sL4jF9MPnSyxyhdyjdVly5JWQ"
+      },
+      "products": [
+        {
+          "_id": "697546d11c508c5d5ebaa8e3",
+          "name": "Shirt63627",
+          "amount": 248,
+          "price": 68086,
+          "manufacturer": "Xiaomi",
+          "notes": "NG7JkZfqbZC9UIcIylZcNiLIZ8d6bxqPlO033FRurYqKdQ6lNWpbDVA5qFsbbPtkCHVSi1w8dWLCK2solu4jRyAdry5jPtvJMiSMO79gqC2pj067e4HrO5Zk9y1HcubwSqCXidEpvYKO07tj2HnOqATB0gIMupSe5yvo2ccCrKEhz8a69voK8DDKcyXOUQeS4lucz4V71hNuh0Efkwtfdr6p91PSKEDBGlUuPaHaKDWdrQfTfyQ82b8eHT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68086,
+      "createdOn": "2026-01-24T22:25:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697546cb1c508c5d5ebaa4d8",
+          "products": [
+            {
+              "_id": "697546d11c508c5d5ebaa8e3",
+              "name": "Shirt63627",
+              "amount": 248,
+              "price": 68086,
+              "manufacturer": "Xiaomi",
+              "notes": "NG7JkZfqbZC9UIcIylZcNiLIZ8d6bxqPlO033FRurYqKdQ6lNWpbDVA5qFsbbPtkCHVSi1w8dWLCK2solu4jRyAdry5jPtvJMiSMO79gqC2pj067e4HrO5Zk9y1HcubwSqCXidEpvYKO07tj2HnOqATB0gIMupSe5yvo2ccCrKEhz8a69voK8DDKcyXOUQeS4lucz4V71hNuh0Efkwtfdr6p91PSKEDBGlUuPaHaKDWdrQfTfyQ82b8eHT",
+              "received": false
+            }
+          ],
+          "total_price": 68086,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:25:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697546d11c508c5d5ebaa8fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

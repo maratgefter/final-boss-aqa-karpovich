@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:26:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2671",
+    "etag": "W/\"a6f-Mlig2rdBBk6aWk+0sD6Uf5VLqUE\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697547171c508c5d5ebada6a",
+        "email": "Tressa28@hotmail.com",
+        "name": "Jamison Conroy",
+        "country": "Great Britain",
+        "city": "Hodkiewiczstad",
+        "street": "Washington Boulevard",
+        "house": 5,
+        "flat": 346,
+        "phone": "+19064440915",
+        "createdOn": "2026-01-24T22:26:31.000Z",
+        "notes": "mmDjUGbPqf1BGhColc0YFSv3pB5NdBsGbCbShRWfB7NzwMTFhlPXPaNMYkuk6Sxm1EqxmPD7KMYz4PBKOPJjXLT598P90dFiAxcLmRX53KXHrsbRoSk5SZvg7SyqvBLqqyXLR5AuLsepwiqKn4mdmpTdfHQhHUFtSFLtlWVVB2G7LDvjumMKmaxsmmgVqIJZRE4C9FvigkLPOo2FPjkE2xdjScBUBpClZVg8oqa0ZOpkzMUSCCs6AZ5ZGS"
+      },
+      "products": [
+        {
+          "_id": "697547181c508c5d5ebada9f",
+          "name": "Bike67824",
+          "amount": 31,
+          "price": 70027,
+          "manufacturer": "Microsoft",
+          "notes": "nosJk9qcN2G8zYNM1Eq2zusrZWMDLBqIEzJvIxUaAayFQqGvgYrA9BBW5jAbZaKWT5a3upxXjd7RuRX9VS1PkqYBrjWEuKAxADeJgkBsRthy63yV2OZmMMdFx63U4PVT6dXl5AAjDPMq7C4oWv6CECPe3PP6z3Cnxf3DiQ3o9iPxofdDwsU6SuzURmvxUVVGBLlVF997JQtDJ5RSSSzJyW1CWo3hzT3k0KQZye497rg6uSHdO39SPXu754",
+          "received": false
+        },
+        {
+          "_id": "697547181c508c5d5ebadad5",
+          "name": "Keyboard47439",
+          "amount": 946,
+          "price": 45258,
+          "manufacturer": "Sony",
+          "notes": "Z9UnGncOolHUKKFWSqcNZwtix9RRxy4QgypMMaTfSLrgyiW7uY1hZIQ5vPfOhiAbiWxSA5lByF7sD9Wd9yge0ue7g8Fxx2dvxph5CCe1ulBirji80Q5ifojlXV1MsKLIQtTLasMYXnnQcMSLcCQLaZzjWKbZsCczfqjahPL3iLwYxkUv1wUxgLqROf9QGgMEfobIo0LFbFWxdnsq9M9SJbzRZb1Xi9ILw0rllohjygwl72oK9vAGKfZn7e",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 115285,
+      "createdOn": "2026-01-24T22:26:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697547171c508c5d5ebada6a",
+          "products": [
+            {
+              "_id": "697547181c508c5d5ebada9f",
+              "name": "Bike67824",
+              "amount": 31,
+              "price": 70027,
+              "manufacturer": "Microsoft",
+              "notes": "nosJk9qcN2G8zYNM1Eq2zusrZWMDLBqIEzJvIxUaAayFQqGvgYrA9BBW5jAbZaKWT5a3upxXjd7RuRX9VS1PkqYBrjWEuKAxADeJgkBsRthy63yV2OZmMMdFx63U4PVT6dXl5AAjDPMq7C4oWv6CECPe3PP6z3Cnxf3DiQ3o9iPxofdDwsU6SuzURmvxUVVGBLlVF997JQtDJ5RSSSzJyW1CWo3hzT3k0KQZye497rg6uSHdO39SPXu754",
+              "received": false
+            },
+            {
+              "_id": "697547181c508c5d5ebadad5",
+              "name": "Keyboard47439",
+              "amount": 946,
+              "price": 45258,
+              "manufacturer": "Sony",
+              "notes": "Z9UnGncOolHUKKFWSqcNZwtix9RRxy4QgypMMaTfSLrgyiW7uY1hZIQ5vPfOhiAbiWxSA5lByF7sD9Wd9yge0ue7g8Fxx2dvxph5CCe1ulBirji80Q5ifojlXV1MsKLIQtTLasMYXnnQcMSLcCQLaZzjWKbZsCczfqjahPL3iLwYxkUv1wUxgLqROf9QGgMEfobIo0LFbFWxdnsq9M9SJbzRZb1Xi9ILw0rllohjygwl72oK9vAGKfZn7e",
+              "received": false
+            }
+          ],
+          "total_price": 115285,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:26:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697547191c508c5d5ebadb0d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

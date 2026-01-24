@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:26:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-dN6vuHDyNRGhZI5OvtcNvGGMsqk\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697547021c508c5d5ebacb7b",
+      "status": "Draft",
+      "customer": {
+        "_id": "697547011c508c5d5ebacb0b",
+        "email": "Annette.Funk@yahoo.com",
+        "name": "Jed Cartwright",
+        "country": "Belarus",
+        "city": "Brekkeview",
+        "street": "Woodside Road",
+        "house": 28,
+        "flat": 990,
+        "phone": "+15009909830",
+        "createdOn": "2026-01-24T22:26:09.000Z",
+        "notes": "6OftUTzaBl2Y7XMRPhqyV3Ds1Ols8hC0Z1NNG0ppVMJJzoQqVfBZ4u6oytDFKUEzBCAztsOfX8dZCNOi6dnnm2ejFVuoBcZju9qX8jlBDlXkvkdMTqQPngXcrnyW0BAAy7G96cA45wPNwFj5Gb2lCw6u1YRhwDeR74SuXuiFiloEMqKg8gytZdrb4NbEP1XXLHFWfNNSPokqNMxR0pJPI2eJOoQOusDIPmj6Mi88ZuD9X8rJoJdr5Bk9gp"
+      },
+      "products": [
+        {
+          "_id": "697547011c508c5d5ebacb4b",
+          "name": "Cheese79562",
+          "amount": 185,
+          "price": 46387,
+          "manufacturer": "Tesla",
+          "notes": "LpWaUWZLBdILes754hPe9jEaxaQxSfi5m3ClAgxHuP8CWgEPvBa28NdEe0iDqgqC8XdhT5WNtSBtc7OyGJqRxTJL16GjuLkFSdfpcKPwNadTJp5MVyHMQ358cT9Otb47l9yd1nANEaO4qayIrx7So4XaEScyXFCnxCcin4nrpWzorMAvB3gbzYKfE1BIRr8QKtNYQa506tATQklPzIoWCIa1K7StTm9Cea40Vt3PAp3g2I5FlnYAIrDM4o",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Brekkeview",
+          "street": "Woodside Road",
+          "house": 28,
+          "flat": 990
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 46387,
+      "createdOn": "2026-01-24T22:26:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697547011c508c5d5ebacb0b",
+          "products": [
+            {
+              "_id": "697547011c508c5d5ebacb4b",
+              "name": "Cheese79562",
+              "amount": 185,
+              "price": 46387,
+              "manufacturer": "Tesla",
+              "notes": "LpWaUWZLBdILes754hPe9jEaxaQxSfi5m3ClAgxHuP8CWgEPvBa28NdEe0iDqgqC8XdhT5WNtSBtc7OyGJqRxTJL16GjuLkFSdfpcKPwNadTJp5MVyHMQ358cT9Otb47l9yd1nANEaO4qayIrx7So4XaEScyXFCnxCcin4nrpWzorMAvB3gbzYKfE1BIRr8QKtNYQa506tATQklPzIoWCIa1K7StTm9Cea40Vt3PAp3g2I5FlnYAIrDM4o",
+              "received": false
+            }
+          ],
+          "total_price": 46387,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Brekkeview",
+              "street": "Woodside Road",
+              "house": 28,
+              "flat": 990
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-24T22:26:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697547011c508c5d5ebacb0b",
+          "products": [
+            {
+              "_id": "697547011c508c5d5ebacb4b",
+              "name": "Cheese79562",
+              "amount": 185,
+              "price": 46387,
+              "manufacturer": "Tesla",
+              "notes": "LpWaUWZLBdILes754hPe9jEaxaQxSfi5m3ClAgxHuP8CWgEPvBa28NdEe0iDqgqC8XdhT5WNtSBtc7OyGJqRxTJL16GjuLkFSdfpcKPwNadTJp5MVyHMQ358cT9Otb47l9yd1nANEaO4qayIrx7So4XaEScyXFCnxCcin4nrpWzorMAvB3gbzYKfE1BIRr8QKtNYQa506tATQklPzIoWCIa1K7StTm9Cea40Vt3PAp3g2I5FlnYAIrDM4o",
+              "received": false
+            }
+          ],
+          "total_price": 46387,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:26:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

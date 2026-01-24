@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:24:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-eqIBqtTivyzGk+SSjc4bVrkgyuI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697546b91c508c5d5eba9a34",
+        "email": "Aditya.Botsford@yahoo.com",
+        "name": "Manuel Buckridge",
+        "country": "Ukraine",
+        "city": "Lake Lauren",
+        "street": "Oakfield Road",
+        "house": 19,
+        "flat": 917,
+        "phone": "+19345512095",
+        "createdOn": "2026-01-24T22:24:57.000Z",
+        "notes": "G3jDO8xcHavbHHsKPO4qennvetcZDpLG0fy6Alb3GqjNEP5Y2UpDL9K8LmAGxBNj6mQu61SvZ3cLG9JCtTn096cGPMvMnMRxSJJOzrnHtTSaeMw9a1uWTb1bPNlf03yIkH4OCYNcziqQVYi6ZAzVwgOhsEcmNr9xZ6EEF8U8yKDuRVWf2nhaxREVWD3b5OZwH6j0tJB9Jy4N0nwhWJwnc6kWKm1k4MuX8MYVgqMluVyQbXOZ9ZQxkCCNyF"
+      },
+      "products": [
+        {
+          "_id": "697546b91c508c5d5eba9a52",
+          "name": "Shirt70094",
+          "amount": 795,
+          "price": 63818,
+          "manufacturer": "Apple",
+          "notes": "0xjO3wzXjtiig3gHTdPvhDcxzi8RE4JAoioYsENU7APt4k195dLGoC2G99m7QuHKMfh0KcErVHqXt740MGUiFSKwCdPVaSQS5qWDfFEVofHzLFRHBmRG6wkA2iMbpJNHajr7M0Um67xD3S8ctJYJpKhI1FjZ64gbvPWWUnu68P2x8Lu4aKYXweeQISgiqcFO7LepxduHJkoHLgnAsfIhddhwSB1i6XGyqqijoShu4urrrr5eisBzRPSH73",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63818,
+      "createdOn": "2026-01-24T22:24:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697546b91c508c5d5eba9a34",
+          "products": [
+            {
+              "_id": "697546b91c508c5d5eba9a52",
+              "name": "Shirt70094",
+              "amount": 795,
+              "price": 63818,
+              "manufacturer": "Apple",
+              "notes": "0xjO3wzXjtiig3gHTdPvhDcxzi8RE4JAoioYsENU7APt4k195dLGoC2G99m7QuHKMfh0KcErVHqXt740MGUiFSKwCdPVaSQS5qWDfFEVofHzLFRHBmRG6wkA2iMbpJNHajr7M0Um67xD3S8ctJYJpKhI1FjZ64gbvPWWUnu68P2x8Lu4aKYXweeQISgiqcFO7LepxduHJkoHLgnAsfIhddhwSB1i6XGyqqijoShu4urrrr5eisBzRPSH73",
+              "received": false
+            }
+          ],
+          "total_price": 63818,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:24:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697546b91c508c5d5eba9a7f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

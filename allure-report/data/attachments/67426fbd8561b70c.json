@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:26:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5437",
+    "etag": "W/\"153d-Xp/vSKsXsk7JDDZqTGs1QhnPnmc\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697547201c508c5d5ebadfe1",
+      "status": "In Process",
+      "customer": {
+        "_id": "697547191c508c5d5ebadb31",
+        "email": "Celia43@gmail.com",
+        "name": "Maye Luettgen",
+        "country": "Great Britain",
+        "city": "Haneshire",
+        "street": "Kessler Court",
+        "house": 8,
+        "flat": 98,
+        "phone": "+14242247700",
+        "createdOn": "2026-01-24T22:26:33.000Z",
+        "notes": "s3vuP8tBpOnqcxJCqk4yvzQ5sO9BzMArJQvh2EbpOl7uJrbOSinaUB4L5AnlENPaCsMih4xSybYtc5KQWpRBVYLcbVWaaDAzmiS5i2hJtCz0mYXEP9XnPz4nIzIOdwAGaTxNhGYmFL2vuqYpbgJJTBEo1MKY4uuyt4wZM8N5jxAfxjtEiSHBue5jGStxLwkrizkSiy7X84Afv0FU5L49uDYTr928WthdoWXtI4t6ElPTUq7qDCH3n6hmbC"
+      },
+      "products": [
+        {
+          "_id": "6975471a1c508c5d5ebadb67",
+          "name": "Tuna76148",
+          "amount": 980,
+          "price": 57362,
+          "manufacturer": "Microsoft",
+          "notes": "93LvcdzMHoFP79yoaxFqjHg1Xf6SQRZkKH7XIopIJW2ceesWBtBLPiSIFg9aJIGDBWT21M46Ro54xQN52WET7m6wNF7BqmdAC5f72yw4DrBJnZAhkCZsRgKRDfhY0R1Dh8xCCsY0Lgf8df5EnW9VNJAb9ja6ub8Oe55csUg5ymPkpXAIFvBOcuLciYAOsFmUl59DS97ZqUfk2F8WQXZ8YTpablI21DiXAdCUVOXyDvbw9PXwqFaYnte9NB",
+          "received": false
+        },
+        {
+          "_id": "6975471a1c508c5d5ebadb9a",
+          "name": "Soap5824",
+          "amount": 258,
+          "price": 85177,
+          "manufacturer": "Microsoft",
+          "notes": "hUOCh98Ue613sZFb9x5wt3XgguURwUiOZFzCP2YWL6Cdg5KUofjJ60czm9ntMVbjlS6oHqJRlXRp1ZtYLUM5cZTSCw6jGUOkZLkzP3ApFWhSI0dyT5RXC8vP48bziyf3300qe9Vx3aB6ZRe9tOqkvpy71ztBKArH0e61bcQycGRkYnLMWQT4gVOT0SBYGZZaGEUxt9BmexYqUcXxBleN4mHy8NyaFeQ95vEFbqOMANItF4S6wBxnsb28sC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Haneshire",
+          "street": "Kessler Court",
+          "house": 8,
+          "flat": 98
+        },
+        "finalDate": "2026-02-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 142539,
+      "createdOn": "2026-01-24T22:26:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "697547191c508c5d5ebadb31",
+          "products": [
+            {
+              "_id": "6975471a1c508c5d5ebadb67",
+              "name": "Tuna76148",
+              "amount": 980,
+              "price": 57362,
+              "manufacturer": "Microsoft",
+              "notes": "93LvcdzMHoFP79yoaxFqjHg1Xf6SQRZkKH7XIopIJW2ceesWBtBLPiSIFg9aJIGDBWT21M46Ro54xQN52WET7m6wNF7BqmdAC5f72yw4DrBJnZAhkCZsRgKRDfhY0R1Dh8xCCsY0Lgf8df5EnW9VNJAb9ja6ub8Oe55csUg5ymPkpXAIFvBOcuLciYAOsFmUl59DS97ZqUfk2F8WQXZ8YTpablI21DiXAdCUVOXyDvbw9PXwqFaYnte9NB",
+              "received": false
+            },
+            {
+              "_id": "6975471a1c508c5d5ebadb9a",
+              "name": "Soap5824",
+              "amount": 258,
+              "price": 85177,
+              "manufacturer": "Microsoft",
+              "notes": "hUOCh98Ue613sZFb9x5wt3XgguURwUiOZFzCP2YWL6Cdg5KUofjJ60czm9ntMVbjlS6oHqJRlXRp1ZtYLUM5cZTSCw6jGUOkZLkzP3ApFWhSI0dyT5RXC8vP48bziyf3300qe9Vx3aB6ZRe9tOqkvpy71ztBKArH0e61bcQycGRkYnLMWQT4gVOT0SBYGZZaGEUxt9BmexYqUcXxBleN4mHy8NyaFeQ95vEFbqOMANItF4S6wBxnsb28sC",
+              "received": false
+            }
+          ],
+          "total_price": 142539,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Haneshire",
+              "street": "Kessler Court",
+              "house": 8,
+              "flat": 98
+            },
+            "finalDate": "2026-02-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-24T22:26:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697547191c508c5d5ebadb31",
+          "products": [
+            {
+              "_id": "6975471a1c508c5d5ebadb67",
+              "name": "Tuna76148",
+              "amount": 980,
+              "price": 57362,
+              "manufacturer": "Microsoft",
+              "notes": "93LvcdzMHoFP79yoaxFqjHg1Xf6SQRZkKH7XIopIJW2ceesWBtBLPiSIFg9aJIGDBWT21M46Ro54xQN52WET7m6wNF7BqmdAC5f72yw4DrBJnZAhkCZsRgKRDfhY0R1Dh8xCCsY0Lgf8df5EnW9VNJAb9ja6ub8Oe55csUg5ymPkpXAIFvBOcuLciYAOsFmUl59DS97ZqUfk2F8WQXZ8YTpablI21DiXAdCUVOXyDvbw9PXwqFaYnte9NB",
+              "received": false
+            },
+            {
+              "_id": "6975471a1c508c5d5ebadb9a",
+              "name": "Soap5824",
+              "amount": 258,
+              "price": 85177,
+              "manufacturer": "Microsoft",
+              "notes": "hUOCh98Ue613sZFb9x5wt3XgguURwUiOZFzCP2YWL6Cdg5KUofjJ60czm9ntMVbjlS6oHqJRlXRp1ZtYLUM5cZTSCw6jGUOkZLkzP3ApFWhSI0dyT5RXC8vP48bziyf3300qe9Vx3aB6ZRe9tOqkvpy71ztBKArH0e61bcQycGRkYnLMWQT4gVOT0SBYGZZaGEUxt9BmexYqUcXxBleN4mHy8NyaFeQ95vEFbqOMANItF4S6wBxnsb28sC",
+              "received": false
+            }
+          ],
+          "total_price": 142539,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Haneshire",
+              "street": "Kessler Court",
+              "house": 8,
+              "flat": 98
+            },
+            "finalDate": "2026-02-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-24T22:26:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697547191c508c5d5ebadb31",
+          "products": [
+            {
+              "_id": "6975471a1c508c5d5ebadb67",
+              "name": "Tuna76148",
+              "amount": 980,
+              "price": 57362,
+              "manufacturer": "Microsoft",
+              "notes": "93LvcdzMHoFP79yoaxFqjHg1Xf6SQRZkKH7XIopIJW2ceesWBtBLPiSIFg9aJIGDBWT21M46Ro54xQN52WET7m6wNF7BqmdAC5f72yw4DrBJnZAhkCZsRgKRDfhY0R1Dh8xCCsY0Lgf8df5EnW9VNJAb9ja6ub8Oe55csUg5ymPkpXAIFvBOcuLciYAOsFmUl59DS97ZqUfk2F8WQXZ8YTpablI21DiXAdCUVOXyDvbw9PXwqFaYnte9NB",
+              "received": false
+            },
+            {
+              "_id": "6975471a1c508c5d5ebadb9a",
+              "name": "Soap5824",
+              "amount": 258,
+              "price": 85177,
+              "manufacturer": "Microsoft",
+              "notes": "hUOCh98Ue613sZFb9x5wt3XgguURwUiOZFzCP2YWL6Cdg5KUofjJ60czm9ntMVbjlS6oHqJRlXRp1ZtYLUM5cZTSCw6jGUOkZLkzP3ApFWhSI0dyT5RXC8vP48bziyf3300qe9Vx3aB6ZRe9tOqkvpy71ztBKArH0e61bcQycGRkYnLMWQT4gVOT0SBYGZZaGEUxt9BmexYqUcXxBleN4mHy8NyaFeQ95vEFbqOMANItF4S6wBxnsb28sC",
+              "received": false
+            }
+          ],
+          "total_price": 142539,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:26:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

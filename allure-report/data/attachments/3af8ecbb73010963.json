@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:26:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-o0MB76nlIoeZr7WYzKnfXdf0Bmk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697547011c508c5d5ebacb17",
+      "status": "Draft",
+      "customer": {
+        "_id": "697547001c508c5d5ebacab4",
+        "email": "Green46@gmail.com",
+        "name": "Edyth Corwin",
+        "country": "Russia",
+        "city": "Llewellynfield",
+        "street": "Dooley Spring",
+        "house": 26,
+        "flat": 20,
+        "phone": "+15228021431",
+        "createdOn": "2026-01-24T22:26:08.000Z",
+        "notes": "HKbl9XUZtAPOCwh8B2jKYFG0CeZpN7dvAWkznO3lCv7LF4BKsSHzsPz5yOtvKnNelCfOYL40AHSns7fOBUy3QHEjbbxDP3CRGBd5gzR6NdE43cwYjfjjNnH9eezK9rlqCr2Sjk0ctptXhdsjYxlzrgrPQ9WxKxOMQix4XbyHf4KvxaU8wAUTKVRFs4f3XemMv4nC4EoVXVN3UZ5ZXCJJoxvfrPBBhgB5NH1te2BOBNiirM7X5a3pTsFnf0"
+      },
+      "products": [
+        {
+          "_id": "697547001c508c5d5ebacae5",
+          "name": "Chair58158",
+          "amount": 639,
+          "price": 47443,
+          "manufacturer": "Xiaomi",
+          "notes": "sCLbAeyqyn9dVGaPMyJaGuWgQ4V5CMl7upvF4ITIftUC4Vg7NBKXG2b4Eiba5g1VmqkvfoU2LqOpvxCCEpxVXAwqVHo1NsfLvfYRdMa1hrXBsqPWnBraTyDUoirxAZ5xF0U3hXzhE9CseUyr7Q1glWWtdoEwC7BiVfWhSOkQTnHllVw40Azax1pN246VltvBpHeIYWx3wx8HaZnseIHJUnOAlTVU0gcTyh1ImtV0VjN87NGkbvrTRwXegE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Llewellynfield",
+          "street": "Dooley Spring",
+          "house": 26,
+          "flat": 20
+        },
+        "finalDate": "2026-02-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 47443,
+      "createdOn": "2026-01-24T22:26:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697547001c508c5d5ebacab4",
+          "products": [
+            {
+              "_id": "697547001c508c5d5ebacae5",
+              "name": "Chair58158",
+              "amount": 639,
+              "price": 47443,
+              "manufacturer": "Xiaomi",
+              "notes": "sCLbAeyqyn9dVGaPMyJaGuWgQ4V5CMl7upvF4ITIftUC4Vg7NBKXG2b4Eiba5g1VmqkvfoU2LqOpvxCCEpxVXAwqVHo1NsfLvfYRdMa1hrXBsqPWnBraTyDUoirxAZ5xF0U3hXzhE9CseUyr7Q1glWWtdoEwC7BiVfWhSOkQTnHllVw40Azax1pN246VltvBpHeIYWx3wx8HaZnseIHJUnOAlTVU0gcTyh1ImtV0VjN87NGkbvrTRwXegE",
+              "received": false
+            }
+          ],
+          "total_price": 47443,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Llewellynfield",
+              "street": "Dooley Spring",
+              "house": 26,
+              "flat": 20
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-24T22:26:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697547001c508c5d5ebacab4",
+          "products": [
+            {
+              "_id": "697547001c508c5d5ebacae5",
+              "name": "Chair58158",
+              "amount": 639,
+              "price": 47443,
+              "manufacturer": "Xiaomi",
+              "notes": "sCLbAeyqyn9dVGaPMyJaGuWgQ4V5CMl7upvF4ITIftUC4Vg7NBKXG2b4Eiba5g1VmqkvfoU2LqOpvxCCEpxVXAwqVHo1NsfLvfYRdMa1hrXBsqPWnBraTyDUoirxAZ5xF0U3hXzhE9CseUyr7Q1glWWtdoEwC7BiVfWhSOkQTnHllVw40Azax1pN246VltvBpHeIYWx3wx8HaZnseIHJUnOAlTVU0gcTyh1ImtV0VjN87NGkbvrTRwXegE",
+              "received": false
+            }
+          ],
+          "total_price": 47443,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:26:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

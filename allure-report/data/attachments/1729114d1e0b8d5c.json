@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:26:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-/JJyDxs7iqjRaGqPZ5b0jrbvIi0\"",
+    "keep-alive": "timeout=5, max=43",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697547001c508c5d5ebacadc",
+        "email": "Rickey.Ruecker@hotmail.com",
+        "name": "Cleta McDermott",
+        "country": "Ukraine",
+        "city": "Lynchland",
+        "street": "Ondricka Trace",
+        "house": 46,
+        "flat": 47,
+        "phone": "+19015897224",
+        "createdOn": "2026-01-24T22:26:08.000Z",
+        "notes": "eFsolGkkzcVWY3PYTW1PLKPajUgHepgdWStSnHjlTHIKTd1DnZgU698R8If1GnWps2ISuLjL0PrwicZd9zeOjDJCNQbYosOKHWjfSEm5KK41DdcqtMjyB13Dssfao7GOLx6wlIXl9WsS9ml8nxQPfTxpvNHyAfUQmtVOVTePNSNRCmrdWtXdq46HeC31vC1KDHLLx6wEBrwO5AcDBqsQqleTEBgvra555YACD8JTnbTPK5HW4LZfO4WvmU"
+      },
+      "products": [
+        {
+          "_id": "697547011c508c5d5ebacb0f",
+          "name": "Shoes45816",
+          "amount": 751,
+          "price": 48544,
+          "manufacturer": "Sony",
+          "notes": "NeauyORbvBbqYv8qmLdb8CkjUo9mZgr7BNR0bHFvZmtiOpW65tx6IfKmUaO4TDRZECEsjukWG45bRBGcmfmO3OBCqiywmkix6r22SAZub4yVkxEzmqlwUyzcFQh5i5RQcIaAQbCOvST1t5v17GAIATaG36gAYlUfJ3rVBw3hIO1oPjEV5RtKpgOgB7IHGDzcsbQvsw3TG7XDgdrCMVHZ1TfEfEWQZEWV3L7QRIjgZXBRgzJ4wUtUcIt9PU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48544,
+      "createdOn": "2026-01-24T22:26:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697547001c508c5d5ebacadc",
+          "products": [
+            {
+              "_id": "697547011c508c5d5ebacb0f",
+              "name": "Shoes45816",
+              "amount": 751,
+              "price": 48544,
+              "manufacturer": "Sony",
+              "notes": "NeauyORbvBbqYv8qmLdb8CkjUo9mZgr7BNR0bHFvZmtiOpW65tx6IfKmUaO4TDRZECEsjukWG45bRBGcmfmO3OBCqiywmkix6r22SAZub4yVkxEzmqlwUyzcFQh5i5RQcIaAQbCOvST1t5v17GAIATaG36gAYlUfJ3rVBw3hIO1oPjEV5RtKpgOgB7IHGDzcsbQvsw3TG7XDgdrCMVHZ1TfEfEWQZEWV3L7QRIjgZXBRgzJ4wUtUcIt9PU",
+              "received": false
+            }
+          ],
+          "total_price": 48544,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:26:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697547011c508c5d5ebacb49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

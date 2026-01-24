@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:28:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-UXv/tG+r+H+nlf1ERLEJb2dTQ+Q\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697547631c508c5d5ebb1180",
+        "email": "Dorothea_Cruickshank@hotmail.com",
+        "name": "Alessandro Herzog",
+        "country": "Belarus",
+        "city": "West Fletcher",
+        "street": "Willow Drive",
+        "house": 4,
+        "flat": 115,
+        "phone": "+18324481292",
+        "createdOn": "2026-01-24T22:27:47.000Z",
+        "notes": "VHqum5ONc9RhJAQ1yBXKUe67jb9WI4x6HhGW5tqNEBAEIzhLNFjBl6k27bxhdvVs4kGDKOUvgcwPojF4XvJXK9BxinulpTHcbG1MqBvXeZ236AQuzfCmgllrqIJzaNT42SMfU63I4YNRMXrIwjz4MVYiXlRgIaSmpyHBXpxCUknuink1U0wJGaB0zkHAlMYCICqu0s0Pj69iraxNWTdg8e5tvGQtv9nw0UhcCgpkmABYugvcJQuxlvd9yy"
+      },
+      "products": [
+        {
+          "_id": "697547741c508c5d5ebb1f25",
+          "name": "Shirt79611",
+          "amount": 994,
+          "price": 60378,
+          "manufacturer": "Apple",
+          "notes": "aVacbICSn9bsxCd8qHipkL99p7hK7Jty2yJXssIjO581S5adKQkHjzgHVLxocu83kHuTi8JGeocc2SV9JecyWnSsySzcC6Nkv4rSVgoCGGHXk2r9MNLhfCxrUDNvDX74XMIYg8qjbZfzF4Kigp4VujRS10mAPcoMnj0iupYx2GKlTZ1GkxOIXgXsCoNvqo1rXFsUcgUqwLgU4QkelBudX07CSVfoglLIqCXLMftyvD5TGCJlWp5pY4d4s7",
+          "received": false
+        },
+        {
+          "_id": "697547751c508c5d5ebb1f60",
+          "name": "Hat11544",
+          "amount": 640,
+          "price": 10235,
+          "manufacturer": "Tesla",
+          "notes": "P2yaVfkfS9BrZVH3UGjLtZuFgMkJ6sN9KiwyqCeHqm6y1XXW4eHjYsXm4YCH2Q9G9O2NtKLv86ubwIR90LSpnL2TrXGzCt3Ack7zon4NSlKvGFpAvNrFecFmrrcrDsn3goId1EApskm4hUJ83gGQAWRm5zUdTuU9daZwo68ioW05Oa0MouR74LFPt9rUqHFJy5czliUjecxqcVfRJq6ZAsT9M4kU8skTpozQNLdOJRr9bLmD5B3ySLjnSq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70613,
+      "createdOn": "2026-01-24T22:28:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697547631c508c5d5ebb1180",
+          "products": [
+            {
+              "_id": "697547741c508c5d5ebb1f25",
+              "name": "Shirt79611",
+              "amount": 994,
+              "price": 60378,
+              "manufacturer": "Apple",
+              "notes": "aVacbICSn9bsxCd8qHipkL99p7hK7Jty2yJXssIjO581S5adKQkHjzgHVLxocu83kHuTi8JGeocc2SV9JecyWnSsySzcC6Nkv4rSVgoCGGHXk2r9MNLhfCxrUDNvDX74XMIYg8qjbZfzF4Kigp4VujRS10mAPcoMnj0iupYx2GKlTZ1GkxOIXgXsCoNvqo1rXFsUcgUqwLgU4QkelBudX07CSVfoglLIqCXLMftyvD5TGCJlWp5pY4d4s7",
+              "received": false
+            },
+            {
+              "_id": "697547751c508c5d5ebb1f60",
+              "name": "Hat11544",
+              "amount": 640,
+              "price": 10235,
+              "manufacturer": "Tesla",
+              "notes": "P2yaVfkfS9BrZVH3UGjLtZuFgMkJ6sN9KiwyqCeHqm6y1XXW4eHjYsXm4YCH2Q9G9O2NtKLv86ubwIR90LSpnL2TrXGzCt3Ack7zon4NSlKvGFpAvNrFecFmrrcrDsn3goId1EApskm4hUJ83gGQAWRm5zUdTuU9daZwo68ioW05Oa0MouR74LFPt9rUqHFJy5czliUjecxqcVfRJq6ZAsT9M4kU8skTpozQNLdOJRr9bLmD5B3ySLjnSq",
+              "received": false
+            }
+          ],
+          "total_price": 70613,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:28:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6975477e1c508c5d5ebb2674"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

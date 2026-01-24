@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 24 Jan 2026 22:25:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2638",
+    "etag": "W/\"a4e-lUgPHxvoMMlKcD5zLOuDRviy8Vc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697546c11c508c5d5eba9e9e",
+        "email": "Emory57@gmail.com",
+        "name": "Pat Bartell",
+        "country": "Germany",
+        "city": "North Izaiah",
+        "street": "Parisian Spurs",
+        "house": 16,
+        "flat": 531,
+        "phone": "+15393161077",
+        "createdOn": "2026-01-24T22:25:05.000Z",
+        "notes": "guB77qKamxaxAaCCA2Vgi0qNtmUjD3EZcIpFSuZUGxx7dnnnKP5HEWuyL43bZHKmbbd78MFdOGr9itssOpqqK6lmSiusrksjL9qqu7qbqCWgNgvmEJnJIw4dtdKgpCFv63P6HKYXcFQhLhR0kHs0WJMTBoeOrSPdjy0e5tB75h7XcTsylyh7WTCrcc8Q94sUkwdoaoqUQYpO74p5rob9KYRsfL2JZvQzgI5PQyAdcL28DJuGMdHshcdBI9"
+      },
+      "products": [
+        {
+          "_id": "697546c11c508c5d5eba9ecd",
+          "name": "Hat50595",
+          "amount": 58,
+          "price": 16053,
+          "manufacturer": "Sony",
+          "notes": "YKDocSNb7a9tTnwkvc0gQK6V8DrnhbfB5Yw4qUpBZFL1E4cg9q4eq1OGZrLFK9IqXkLbOiTjDGSIczqlR09sZZrpBSw9UKSior38vnWypjKUz97I5io6eKj91NeYVAQdE1RZoD6cNyQNJEsoGl84Ap73grdkDmuWqryrX8bCH0QVTWOu3zHaHE6MVJ1C1otMlTdmsFsIriAUzjeildIctBgEr9VsD0DGTdm9YNRffMQeRRR53c7rS5g8TL",
+          "received": false
+        },
+        {
+          "_id": "697546c21c508c5d5eba9efb",
+          "name": "Chicken14108",
+          "amount": 870,
+          "price": 89750,
+          "manufacturer": "Sony",
+          "notes": "CHe2nvDzz4R9zxBcWqaOSVMl93zJdkYrWk41dSQaNUGGf2o8Q1TYpawBOqCoEJqPwl8ALMKfo3QY0S4TrrXmSP7po1ICPLvblggpLLdmQ1vSZ0lwB7l4V3afLaQrr3QYgER4dMAz385ClUfjaxL6vRNZ5NtczcmRXL0G1ks5uUN6mz1CPjHU75P26bWfgY9eGvM0LSzxSacS6K2nUSgoXaC8TMKct6hz7CrLLhH9B2EQbMMRTGHwm4KbSR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105803,
+      "createdOn": "2026-01-24T22:25:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697546c11c508c5d5eba9e9e",
+          "products": [
+            {
+              "_id": "697546c11c508c5d5eba9ecd",
+              "name": "Hat50595",
+              "amount": 58,
+              "price": 16053,
+              "manufacturer": "Sony",
+              "notes": "YKDocSNb7a9tTnwkvc0gQK6V8DrnhbfB5Yw4qUpBZFL1E4cg9q4eq1OGZrLFK9IqXkLbOiTjDGSIczqlR09sZZrpBSw9UKSior38vnWypjKUz97I5io6eKj91NeYVAQdE1RZoD6cNyQNJEsoGl84Ap73grdkDmuWqryrX8bCH0QVTWOu3zHaHE6MVJ1C1otMlTdmsFsIriAUzjeildIctBgEr9VsD0DGTdm9YNRffMQeRRR53c7rS5g8TL",
+              "received": false
+            },
+            {
+              "_id": "697546c21c508c5d5eba9efb",
+              "name": "Chicken14108",
+              "amount": 870,
+              "price": 89750,
+              "manufacturer": "Sony",
+              "notes": "CHe2nvDzz4R9zxBcWqaOSVMl93zJdkYrWk41dSQaNUGGf2o8Q1TYpawBOqCoEJqPwl8ALMKfo3QY0S4TrrXmSP7po1ICPLvblggpLLdmQ1vSZ0lwB7l4V3afLaQrr3QYgER4dMAz385ClUfjaxL6vRNZ5NtczcmRXL0G1ks5uUN6mz1CPjHU75P26bWfgY9eGvM0LSzxSacS6K2nUSgoXaC8TMKct6hz7CrLLhH9B2EQbMMRTGHwm4KbSR",
+              "received": false
+            }
+          ],
+          "total_price": 105803,
+          "delivery": null,
+          "changedOn": "2026-01-24T22:25:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697546c21c508c5d5eba9f25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
