@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2675",
+    "etag": "W/\"a73-VYBuRVmFH0qR6RHJx5l0LNX69Yk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6976987b1c508c5d5ebbd876",
+        "email": "Peter.Schowalter83@gmail.com",
+        "name": "Rashawn Stanton",
+        "country": "Belarus",
+        "city": "North Haskellstead",
+        "street": "The Mews",
+        "house": 31,
+        "flat": 568,
+        "phone": "+19742925592",
+        "createdOn": "2026-01-25T22:26:03.000Z",
+        "notes": "Mju51Rv8z5FOZkFHZg6ectMkIrPpKRcqEJHH1kCHXMoUfoVJ52yVSWBzGt6MxgWBrSM7KNkot37yKW0jPMT21S31Y7P59wb4aB1y3bsgI2T5HaA97tBcFHbndCcUvfiureFHI1JCo7TBh5haOCUOtQYZ7XxqCm06JGPrd6GOEITGMeNFg4MSzCeDM1pd2h1wxHR49FOFUT9UNd0crVQ5Q5c1DxZAzjrQ55duweSWxeNCUgum7WXQN6Tggl"
+      },
+      "products": [
+        {
+          "_id": "6976987b1c508c5d5ebbd8a6",
+          "name": "Table30988",
+          "amount": 572,
+          "price": 49562,
+          "manufacturer": "Microsoft",
+          "notes": "FvC6ETNrbQfxW0afynSk8JT5I7M87MvhIR4ajffuYsyMmB4zCgtAbxnWtGaSmikdgSjDATBCVxHUOiBBaMgD1w2mSWq9EVceqIC8N1aWMa5wyQ47cbpFSZrmWaniHjvwwZCIuILoIhL2RaM2U7G04YNG7nXPkc2rntppftJuc0VulzXo1ZMsLSpn5SM2x7nHDIHqb0qJ8RUmqGssTtOlTMGggLC9YSvMeNsAQuc2V7OVdHqfOyIp71ehl9",
+          "received": false
+        },
+        {
+          "_id": "6976987c1c508c5d5ebbd8df",
+          "name": "Sausages47674",
+          "amount": 695,
+          "price": 50744,
+          "manufacturer": "Google",
+          "notes": "5Dl7DfqtTshx9fG5dqqBlx6iS7pxIusvz9MtI0ImANVhgaOiBq3Co49tUWXIsTa6P5nGGKWPiaG7r2r0WyebSbA03XYO25AAJ9Cj8vDfK0kMxz0B663ooVa3oqOENeEb9P67y1BgamJjyncuo8xbYSi8lvByMMQLSpIBbSHVhckaLKpmrmJgn9qpOTilq2dfVDg2M2WokWgldF46NqZLTdHKHzB7urP4IXwI8rWMtfGB7tQlyxy4ORtrvi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100306,
+      "createdOn": "2026-01-25T22:26:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6976987b1c508c5d5ebbd876",
+          "products": [
+            {
+              "_id": "6976987b1c508c5d5ebbd8a6",
+              "name": "Table30988",
+              "amount": 572,
+              "price": 49562,
+              "manufacturer": "Microsoft",
+              "notes": "FvC6ETNrbQfxW0afynSk8JT5I7M87MvhIR4ajffuYsyMmB4zCgtAbxnWtGaSmikdgSjDATBCVxHUOiBBaMgD1w2mSWq9EVceqIC8N1aWMa5wyQ47cbpFSZrmWaniHjvwwZCIuILoIhL2RaM2U7G04YNG7nXPkc2rntppftJuc0VulzXo1ZMsLSpn5SM2x7nHDIHqb0qJ8RUmqGssTtOlTMGggLC9YSvMeNsAQuc2V7OVdHqfOyIp71ehl9",
+              "received": false
+            },
+            {
+              "_id": "6976987c1c508c5d5ebbd8df",
+              "name": "Sausages47674",
+              "amount": 695,
+              "price": 50744,
+              "manufacturer": "Google",
+              "notes": "5Dl7DfqtTshx9fG5dqqBlx6iS7pxIusvz9MtI0ImANVhgaOiBq3Co49tUWXIsTa6P5nGGKWPiaG7r2r0WyebSbA03XYO25AAJ9Cj8vDfK0kMxz0B663ooVa3oqOENeEb9P67y1BgamJjyncuo8xbYSi8lvByMMQLSpIBbSHVhckaLKpmrmJgn9qpOTilq2dfVDg2M2WokWgldF46NqZLTdHKHzB7urP4IXwI8rWMtfGB7tQlyxy4ORtrvi",
+              "received": false
+            }
+          ],
+          "total_price": 100306,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6976987e1c508c5d5ebbda5b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

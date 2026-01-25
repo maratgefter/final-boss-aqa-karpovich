@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2829",
+    "etag": "W/\"b0d-aSjYx8Wyl5Nmumb9hWgM1L4mKSE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697698921c508c5d5ebbe6fc",
+      "status": "Draft",
+      "customer": {
+        "_id": "697698901c508c5d5ebbe67b",
+        "email": "Virgil.Hodkiewicz@yahoo.com",
+        "name": "Daphne Sauer",
+        "country": "Germany",
+        "city": "Mackchester",
+        "street": "Funk Ways",
+        "house": 22,
+        "flat": 277,
+        "phone": "+13056638763",
+        "createdOn": "2026-01-25T22:26:24.000Z",
+        "notes": "jkSW2y4aEIv6m5Cl5fJO0PNdZKeKWSckHgfXqqrdQc4NGhjQOu6U4dIDccmAWDOmkjOQlU5KW7tONxUni7ORxZS8mrK1KpJsdeLSGJBuxcBIWdMvVQJAMrs22GoMlGDHRJcYpKdIm9UoUyv9eSIo0up5znOTjScKrgYi2lBMNbcsU6S1MmW10FsxIKK9qBiM8dXQ0XsQRfVQldH7a2WH3TsLgNRuLUKt5EekL7mMH3BN7E6nQkorrFwV2q"
+      },
+      "products": [
+        {
+          "_id": "697698911c508c5d5ebbe6ad",
+          "name": "Pants12045",
+          "amount": 491,
+          "price": 90757,
+          "manufacturer": "Microsoft",
+          "notes": "BJ0tJLKbCZyyo2UopWuSfnwowHFJlvtfVXSxn2w2dz8110Jk6m6Gm67g62wEBw4etSOzsB1HJfQJ75q8cRMX1mwayLkygkArP3QNfrgyd7AsowC3yWoCDR12V6Vxja6IGIYWUYoOWgiwMDBgA3YPgUYMgypoB47nOpkpRjkyxYuLXtOdCerRJJGw5UxO5hoQl1aVfJ3DyufRwycxnoPFZ4yli26DDT9OcNOoCtgGbIQOVxFxycx80Uqqlc",
+          "received": false
+        },
+        {
+          "_id": "697698911c508c5d5ebbe6cf",
+          "name": "Keyboard22519",
+          "amount": 238,
+          "price": 44994,
+          "manufacturer": "Microsoft",
+          "notes": "v8xCS9MoF8C68OFUenjhfOmZv4TXrnQDpG4UpyediRxmlStlUtodIjmBQaIWCnRwWPuvAu839RVRb8n5xZh5s8fjyo72yU70jGnGHaqvlJV6p4n2lmh14uBnJNBmIUzQdQ9b5Z9UmUacrv0sOseqKhkYGcshiqDEe0vVQWSZqrctpGp09BHeOISl0NhMryYz5r1hPdsOeucFungf5ABk34x1OThuBY5yox4FFYVoqEpgqa8A9UCgcz7X1x",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 135751,
+      "createdOn": "2026-01-25T22:26:26.000Z",
+      "comments": [
+        {
+          "text": "vMUfAGsCHqBCQDFCcVKXVHUKhkJF8nJeIjRcsnFq4IAKZUJNLRttEPkLsilrMBygSojQdt3CsC8",
+          "createdOn": "2026-01-25T22:26:26.000Z",
+          "_id": "697698921c508c5d5ebbe73c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698901c508c5d5ebbe67b",
+          "products": [
+            {
+              "_id": "697698911c508c5d5ebbe6ad",
+              "name": "Pants12045",
+              "amount": 491,
+              "price": 90757,
+              "manufacturer": "Microsoft",
+              "notes": "BJ0tJLKbCZyyo2UopWuSfnwowHFJlvtfVXSxn2w2dz8110Jk6m6Gm67g62wEBw4etSOzsB1HJfQJ75q8cRMX1mwayLkygkArP3QNfrgyd7AsowC3yWoCDR12V6Vxja6IGIYWUYoOWgiwMDBgA3YPgUYMgypoB47nOpkpRjkyxYuLXtOdCerRJJGw5UxO5hoQl1aVfJ3DyufRwycxnoPFZ4yli26DDT9OcNOoCtgGbIQOVxFxycx80Uqqlc",
+              "received": false
+            },
+            {
+              "_id": "697698911c508c5d5ebbe6cf",
+              "name": "Keyboard22519",
+              "amount": 238,
+              "price": 44994,
+              "manufacturer": "Microsoft",
+              "notes": "v8xCS9MoF8C68OFUenjhfOmZv4TXrnQDpG4UpyediRxmlStlUtodIjmBQaIWCnRwWPuvAu839RVRb8n5xZh5s8fjyo72yU70jGnGHaqvlJV6p4n2lmh14uBnJNBmIUzQdQ9b5Z9UmUacrv0sOseqKhkYGcshiqDEe0vVQWSZqrctpGp09BHeOISl0NhMryYz5r1hPdsOeucFungf5ABk34x1OThuBY5yox4FFYVoqEpgqa8A9UCgcz7X1x",
+              "received": false
+            }
+          ],
+          "total_price": 135751,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

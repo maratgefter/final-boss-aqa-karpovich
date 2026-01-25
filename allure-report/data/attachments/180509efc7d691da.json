@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-Rmp0fssEgFV4Uk6+LhnnsMt/TN4\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698791c508c5d5ebbd7c3",
+        "email": "Karley.Witting@gmail.com",
+        "name": "Gwendolyn Rowe",
+        "country": "Russia",
+        "city": "Port Aniyachester",
+        "street": "Bruen Orchard",
+        "house": 8,
+        "flat": 874,
+        "phone": "+16468763244",
+        "createdOn": "2026-01-25T22:26:01.000Z",
+        "notes": "BWFXCrvfW96AJQ9WzLmkviUT5zpwIgMBQnd5BoNBLDDxQtU3AtiOdFLjGIhXSTF9FAuVTlfj5IL5iGPwZZlNyR15OU58fCstHb65NivIZrV5enxFyZ8QLDznmDYU2sheCqpLuJbaoMUMdv2VJHmSAb6cISVL8FaGwqdgwQXCIrCWaDJJ56p2GVXrbupXcaNR2oqpfclyj93H7kpVR88jKkETX9PrZjj3gaK4yaRA4ZZkTXJxN5ZSSu8g4s"
+      },
+      "products": [
+        {
+          "_id": "697698791c508c5d5ebbd7e2",
+          "name": "Ball57196",
+          "amount": 838,
+          "price": 72834,
+          "manufacturer": "Microsoft",
+          "notes": "Zhh2PcvNRV29UhQUDuHiPN9ifjAPUxVSqVcdGII6x4yndxfcJxMPWNLqlcLVBMGbsB2EqhVwmr3DkgBWUyfx3G59k73I2VzNMJ4tGy0AyJdccKLSSYmeQLR6PQXNTss8ISQMhfbKqIfj5cPXrXaojFTKwdQzLj5E6w8Pp9axlEyVJ5hp8f3f6Gn3ZcNF3S0R0eOE4uPP59IdxGN9PIxy2ZFzny6J8VHokqFVodmcHrwkd2Qjx7Ryyfq1ux",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72834,
+      "createdOn": "2026-01-25T22:26:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698791c508c5d5ebbd7c3",
+          "products": [
+            {
+              "_id": "697698791c508c5d5ebbd7e2",
+              "name": "Ball57196",
+              "amount": 838,
+              "price": 72834,
+              "manufacturer": "Microsoft",
+              "notes": "Zhh2PcvNRV29UhQUDuHiPN9ifjAPUxVSqVcdGII6x4yndxfcJxMPWNLqlcLVBMGbsB2EqhVwmr3DkgBWUyfx3G59k73I2VzNMJ4tGy0AyJdccKLSSYmeQLR6PQXNTss8ISQMhfbKqIfj5cPXrXaojFTKwdQzLj5E6w8Pp9axlEyVJ5hp8f3f6Gn3ZcNF3S0R0eOE4uPP59IdxGN9PIxy2ZFzny6J8VHokqFVodmcHrwkd2Qjx7Ryyfq1ux",
+              "received": false
+            }
+          ],
+          "total_price": 72834,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6976987a1c508c5d5ebbd816"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

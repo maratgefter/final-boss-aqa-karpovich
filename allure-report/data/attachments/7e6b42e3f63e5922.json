@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-zVb30R8JT6typJ6MKfzDZwFbT4k\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698911c508c5d5ebbe6ab",
+        "email": "Josh_Bernier@gmail.com",
+        "name": "Lucienne Kuphal",
+        "country": "Great Britain",
+        "city": "Fort Madison",
+        "street": "Lancaster Road",
+        "house": 25,
+        "flat": 622,
+        "phone": "+13668121329",
+        "createdOn": "2026-01-25T22:26:25.000Z",
+        "notes": "1lvi4H3LsvYicC1u5Yp6SHvuHPRr4D0Ib2nR0BMjzPuHG4RQLGUCYgIGUXieyINWNVL5HmG5Xf7qP7fXsYF5MQ0PmTRlueOlsKdg6ivkPVkUp2nDDR3UcACqCIoLZ771dezg2bGtifZ5gb9xz49C4lAMRVqfW0sOieQpUa1i8oasVNJIw7HC3timtBxYbJ44Siu6oU8TTPC6M6fd4lmLhrB8rxv0hxCeE0l5HQrqQYat7d0g2RGfeZ6Ntt"
+      },
+      "products": [
+        {
+          "_id": "697698911c508c5d5ebbe6d5",
+          "name": "Hat50061",
+          "amount": 157,
+          "price": 50461,
+          "manufacturer": "Sony",
+          "notes": "qUcFemt2VhCXEjr3Mt9E6LgNpxJNxc0ijzJPUDo6CHbIEZ6upHq00eQ7MQOhQbinvw2js5vd5FlkpGgSPaEX20fFZIy8xS7RAD0UD7QV38s1EaZxFi19HDfK8dopyiaY1vHqJtEPZ1AJU3k096mh0mxOt4b5yoV5o2fCRSHGbcZzpEROPWi7hrDQQyozj59XujSVWuxiLTA94QWd4DEMyYijYxV0QpNlAdGEuH7BG8La2NBsotBzjRfxHm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50461,
+      "createdOn": "2026-01-25T22:26:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698911c508c5d5ebbe6ab",
+          "products": [
+            {
+              "_id": "697698911c508c5d5ebbe6d5",
+              "name": "Hat50061",
+              "amount": 157,
+              "price": 50461,
+              "manufacturer": "Sony",
+              "notes": "qUcFemt2VhCXEjr3Mt9E6LgNpxJNxc0ijzJPUDo6CHbIEZ6upHq00eQ7MQOhQbinvw2js5vd5FlkpGgSPaEX20fFZIy8xS7RAD0UD7QV38s1EaZxFi19HDfK8dopyiaY1vHqJtEPZ1AJU3k096mh0mxOt4b5yoV5o2fCRSHGbcZzpEROPWi7hrDQQyozj59XujSVWuxiLTA94QWd4DEMyYijYxV0QpNlAdGEuH7BG8La2NBsotBzjRfxHm",
+              "received": false
+            }
+          ],
+          "total_price": 50461,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698921c508c5d5ebbe717"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

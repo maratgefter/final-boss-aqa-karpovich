@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-jWE00Y4u3U5SDEDIftn3VcLqOuc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6976987a1c508c5d5ebbd852",
+        "email": "Mariano64@yahoo.com",
+        "name": "Cordie Bauch",
+        "country": "France",
+        "city": "Green Bay",
+        "street": "Anika Run",
+        "house": 4,
+        "flat": 309,
+        "phone": "+12354391675",
+        "createdOn": "2026-01-25T22:26:02.000Z",
+        "notes": "glYSYgHsHDhDdOZxSCnqxer8KInobqEY4zxWWSi92USlg9YqElE7ndTgadiYIrsIHUz8CIfuU1OjKVws9Qce7R3dEIdl92H6ZaN4V7gjjjkrx2XigwziBgRbTj1bIorq1wx1NRB87Yn72z0s4M1VbzMeAJC60YBNls6fL00yhv89jGz2WTvTPrgVGmKjZp2SENmsW4fGAYHMDUM7t9pKQmLTdhdunv2YaBpZNt9AlJVgjYJm4NXNMf0JCd"
+      },
+      "products": [
+        {
+          "_id": "6976987b1c508c5d5ebbd874",
+          "name": "Computer58607",
+          "amount": 267,
+          "price": 99565,
+          "manufacturer": "Samsung",
+          "notes": "IFTa6Sbp7rML8BjH31kFrzFA2iHuu8NUhKcviZxZX2qN8lgJgPlf2obcOVEY2v3YJ75Ldyzacp2mAWvGLbhg1LMVXVW0ZrH1WkcjuP2NP4K0bHdjfs2laJepSsY9G5T41H32nff9Vb9InFkTsgvb4rYJ56cRLyxGmzTUJtZnWYheIKuoO31udN0M62SW9NnEk1MsDcPaB243KatDrEjKgfiZqqJ21NHQs5HHy9d9J2V1qw4hlT5rtiUDgu",
+          "received": false
+        },
+        {
+          "_id": "6976987b1c508c5d5ebbd8a2",
+          "name": "Ball72093",
+          "amount": 520,
+          "price": 65455,
+          "manufacturer": "Google",
+          "notes": "CnMwkRhp2fgMZyKJugKIKsrRgyLU9l4ERP2yGVF1gTfUBOOLN9hju3GcxcbFtlIMnrasn3UQ6rVuMsGk3LwRmDdr442lJJHQSyydnunLGGSKFZvXIWO8Mix2uhIAhsvBv7Y3Eb8qvp9tgHiEGOSLVFYLiNIJ2Qz4tuMViQAKfv4l1LEGrvjkC9LNzGT0Bs4jnIsstBB831PEfi3RIIX7rglwnwo080VRqBDEj0Ri8Vufm38OH5rO9vHglB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 165020,
+      "createdOn": "2026-01-25T22:26:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6976987a1c508c5d5ebbd852",
+          "products": [
+            {
+              "_id": "6976987b1c508c5d5ebbd874",
+              "name": "Computer58607",
+              "amount": 267,
+              "price": 99565,
+              "manufacturer": "Samsung",
+              "notes": "IFTa6Sbp7rML8BjH31kFrzFA2iHuu8NUhKcviZxZX2qN8lgJgPlf2obcOVEY2v3YJ75Ldyzacp2mAWvGLbhg1LMVXVW0ZrH1WkcjuP2NP4K0bHdjfs2laJepSsY9G5T41H32nff9Vb9InFkTsgvb4rYJ56cRLyxGmzTUJtZnWYheIKuoO31udN0M62SW9NnEk1MsDcPaB243KatDrEjKgfiZqqJ21NHQs5HHy9d9J2V1qw4hlT5rtiUDgu",
+              "received": false
+            },
+            {
+              "_id": "6976987b1c508c5d5ebbd8a2",
+              "name": "Ball72093",
+              "amount": 520,
+              "price": 65455,
+              "manufacturer": "Google",
+              "notes": "CnMwkRhp2fgMZyKJugKIKsrRgyLU9l4ERP2yGVF1gTfUBOOLN9hju3GcxcbFtlIMnrasn3UQ6rVuMsGk3LwRmDdr442lJJHQSyydnunLGGSKFZvXIWO8Mix2uhIAhsvBv7Y3Eb8qvp9tgHiEGOSLVFYLiNIJ2Qz4tuMViQAKfv4l1LEGrvjkC9LNzGT0Bs4jnIsstBB831PEfi3RIIX7rglwnwo080VRqBDEj0Ri8Vufm38OH5rO9vHglB",
+              "received": false
+            }
+          ],
+          "total_price": 165020,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6976987e1c508c5d5ebbda4a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

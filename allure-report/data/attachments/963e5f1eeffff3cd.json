@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-1G/DMid27OmewHuyw8WQN+9uS/0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698901c508c5d5ebbe67d",
+        "email": "Kailey.Kerluke@hotmail.com",
+        "name": "Ambrose Miller",
+        "country": "Russia",
+        "city": "Leannafort",
+        "street": "Norfolk Road",
+        "house": 47,
+        "flat": 537,
+        "phone": "+15283212855",
+        "createdOn": "2026-01-25T22:26:24.000Z",
+        "notes": "nqYMWG7ytCDgeWo5fjrP7UXjT4wgWnTjYPqoUySZ3itTy11XkT2Fx8FpDEwTSuSc5fDo6MryuW0YxSyk4uiQsymny89A1Qa9zzfgLMRRm55PQC9Tn2Jnw5ke758PL34YZYqLOtYZHuoPOuSpDLrRDU9T1tUJoCAmoifQ7CXVwHvskMG6M2A9iEg6GSuWwzhEny2SYMibdojEvkpedbkUfOWjb1nD525Ig4vdZOh6SfT6VSVwC8X1KYWtHy"
+      },
+      "products": [
+        {
+          "_id": "697698911c508c5d5ebbe6b3",
+          "name": "Mouse38259",
+          "amount": 225,
+          "price": 21148,
+          "manufacturer": "Apple",
+          "notes": "L1hz7sGP1iCRA863bokqKWuC86oa8NxId8IPepItUfX385kP7TThcJS8BYwiQt9OnZIZTxUVUqwai1fNcecS4aBYpr7c97nLbAGBXV9xojxbksI6ZwS9bO7LTfeiALBgYPZAneeDM9MJO8M4zLgjh7YvoEvtax6M6Q2d6qn0wnvqSDGJfi4VGmNngkFWWIDFLeTsSRAyD9G1GUYNXKygZEVcqjjTcRm0ZMyZqL1PUzMHUSa3nhIRlW4GQn",
+          "received": false
+        },
+        {
+          "_id": "697698911c508c5d5ebbe6d8",
+          "name": "Gloves87447",
+          "amount": 994,
+          "price": 79054,
+          "manufacturer": "Xiaomi",
+          "notes": "Su1Wqc6lrbKXkSOSiwkhG8YCLE14I5vEi9F6PWDDBCs2bIPfqYVSO7jPC777ud22lAi1jbhwuDupQ7VAJ7lXM1ggdixyuqnGtprt0jsxT8chk9a64IkAv39TgmhOLLv8gFktfjzJg4uA2ZK3M7WMM7N1nS7ERo6XViL0FtLSF9fHJ2OIzLV8GGEMqGrU1nm58fYzSlN1ugFHCysxzulIWeAwrS6JV6acAAgpvPvNNPpAJEhjtmhZt2PIyh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100202,
+      "createdOn": "2026-01-25T22:26:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698901c508c5d5ebbe67d",
+          "products": [
+            {
+              "_id": "697698911c508c5d5ebbe6b3",
+              "name": "Mouse38259",
+              "amount": 225,
+              "price": 21148,
+              "manufacturer": "Apple",
+              "notes": "L1hz7sGP1iCRA863bokqKWuC86oa8NxId8IPepItUfX385kP7TThcJS8BYwiQt9OnZIZTxUVUqwai1fNcecS4aBYpr7c97nLbAGBXV9xojxbksI6ZwS9bO7LTfeiALBgYPZAneeDM9MJO8M4zLgjh7YvoEvtax6M6Q2d6qn0wnvqSDGJfi4VGmNngkFWWIDFLeTsSRAyD9G1GUYNXKygZEVcqjjTcRm0ZMyZqL1PUzMHUSa3nhIRlW4GQn",
+              "received": false
+            },
+            {
+              "_id": "697698911c508c5d5ebbe6d8",
+              "name": "Gloves87447",
+              "amount": 994,
+              "price": 79054,
+              "manufacturer": "Xiaomi",
+              "notes": "Su1Wqc6lrbKXkSOSiwkhG8YCLE14I5vEi9F6PWDDBCs2bIPfqYVSO7jPC777ud22lAi1jbhwuDupQ7VAJ7lXM1ggdixyuqnGtprt0jsxT8chk9a64IkAv39TgmhOLLv8gFktfjzJg4uA2ZK3M7WMM7N1nS7ERo6XViL0FtLSF9fHJ2OIzLV8GGEMqGrU1nm58fYzSlN1ugFHCysxzulIWeAwrS6JV6acAAgpvPvNNPpAJEhjtmhZt2PIyh",
+              "received": false
+            }
+          ],
+          "total_price": 100202,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698921c508c5d5ebbe71e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

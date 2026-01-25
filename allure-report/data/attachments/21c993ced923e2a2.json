@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-XVzWZ1dcMSXNU5nIgdOx8po69HY\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698871c508c5d5ebbe01b",
+        "email": "Eleanore_Bogan57@gmail.com",
+        "name": "August Johns",
+        "country": "Germany",
+        "city": "Lake Myrtle",
+        "street": "Kiehn Flats",
+        "house": 37,
+        "flat": 4,
+        "phone": "+14474804846",
+        "createdOn": "2026-01-25T22:26:15.000Z",
+        "notes": "989JmRIyEKLpgLBJ8JaL25md5gtVIrQs4CChoBSdcdGLyI4vXG8YosXuILByqNWpFfiiRVt5CxTYCxTt1sLWw5gfumoeNgTx1akhpXgdZc2Y9paio2LgWFCVXFWi4Gc00sUNo89Y4pxyc6cihtKtrNEchTbLnrPousye5oTCnDsumq2fvqFxgPTfR1J4079VWPLYkNfqm7T1HRRju94RioPJj1KiKm6a1OtYI3nJQe8aRHH8ljdIOc6iSm"
+      },
+      "products": [
+        {
+          "_id": "697698891c508c5d5ebbe199",
+          "name": "Shirt51931",
+          "amount": 869,
+          "price": 54555,
+          "manufacturer": "Amazon",
+          "notes": "CwuJY3JfOdlFzALHAOLpmo6NzgvH1u9aGGKBN2aMkNhaYs3y7dMmUbc3k3rWXCOMjUnufqn5wueQMskVsPYLagRgHRQPVszc57fhMEYZgej2UTow4rsve9XdyCJZ59idPwEvGsJJnJr0JEoZpfyn2bpup9h5J0a0DFehkGNI2UWQl2wN3Ow0E8TSW8tQoEkC4j9VXTF5VD7kL1naIlshRzkdjbyvCoOfs6U52CM88s4kjogAho1p5fMweB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54555,
+      "createdOn": "2026-01-25T22:26:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698871c508c5d5ebbe01b",
+          "products": [
+            {
+              "_id": "697698891c508c5d5ebbe199",
+              "name": "Shirt51931",
+              "amount": 869,
+              "price": 54555,
+              "manufacturer": "Amazon",
+              "notes": "CwuJY3JfOdlFzALHAOLpmo6NzgvH1u9aGGKBN2aMkNhaYs3y7dMmUbc3k3rWXCOMjUnufqn5wueQMskVsPYLagRgHRQPVszc57fhMEYZgej2UTow4rsve9XdyCJZ59idPwEvGsJJnJr0JEoZpfyn2bpup9h5J0a0DFehkGNI2UWQl2wN3Ow0E8TSW8tQoEkC4j9VXTF5VD7kL1naIlshRzkdjbyvCoOfs6U52CM88s4kjogAho1p5fMweB",
+              "received": false
+            }
+          ],
+          "total_price": 54555,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6976988a1c508c5d5ebbe1c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

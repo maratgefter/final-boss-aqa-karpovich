@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-LbsMUnMAl5MkeXJt5zhIJEnT/0s\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6976987e1c508c5d5ebbda99",
+        "email": "Cruz.Keebler18@hotmail.com",
+        "name": "Hunter Swift",
+        "country": "Russia",
+        "city": "Hermanmouth",
+        "street": "7th Avenue",
+        "house": 47,
+        "flat": 220,
+        "phone": "+16395161526",
+        "createdOn": "2026-01-25T22:26:06.000Z",
+        "notes": "2fpAsc6b3XkTDufv9b8GkjgN1qW9xM1grH10KAmADk53WzA7fYDgvZa50VNvaX1NR2YsYQygiggGFpiRE9U4YNTVuXeat6CwIYjAjpBNFHUVYakYXadH2nM0auZoH5I01tSReZ4dWOnWM54c25SyPkn8mynH0yOOhkUbz6K2Lq3h0Qrw9ecn0D8WPVRO9kRYu7ZAAd8pwed34yiSR14cIW1BXYiW0D6I2Lp6U0UtG03qfpif5t74thnwNm"
+      },
+      "products": [
+        {
+          "_id": "6976987f1c508c5d5ebbdab7",
+          "name": "Shirt79363",
+          "amount": 44,
+          "price": 83625,
+          "manufacturer": "Sony",
+          "notes": "fTFrLi8BYekCIeXmcXdB2IDOj0ILArFXcrrtCvzTy1BiPbND64hQDluAD7JyYcLXRcEG6GGSVAOyLqpxVOpW5qo7VOOxwi71sp7kCCjmg2ykP1nj8BbyL7ay44KjnWDxpZJsey870V3L76ILbHSWWHLyB94DWgFp9jR3CWjcKa8nYclayZ4uqE4ui4cV88gqoBelFtNBOZU7S4cBnEV7qbt4ZrYrgZ2Me8faAb9SFwDb0nKcVbcTioTZXz",
+          "received": false
+        },
+        {
+          "_id": "6976987f1c508c5d5ebbdad0",
+          "name": "Salad1368",
+          "amount": 936,
+          "price": 58969,
+          "manufacturer": "Google",
+          "notes": "1kZFZXyuyij4zCPsLheMTa1p4CpOif4AnalG3kCenqoqeS7QKpMSBFEQAkHYoJet3ym8x0d2W8ivWztRyu0BXPwVehQw4QJNOLgzQXE0k1sKQNj5zuVsLsRRHRwKb76TzoM7zt5iC24j51vqZ2eOr3g0OWnaCqu2Zr1wjxIcMFpaJKLZOMiv1rZERi0926aq9Du70JNkhhDmIbwdVniOnKu9o6YLiokIInAvRtqrqWWPgkAFYsFc7XJEMq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 142594,
+      "createdOn": "2026-01-25T22:26:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6976987e1c508c5d5ebbda99",
+          "products": [
+            {
+              "_id": "6976987f1c508c5d5ebbdab7",
+              "name": "Shirt79363",
+              "amount": 44,
+              "price": 83625,
+              "manufacturer": "Sony",
+              "notes": "fTFrLi8BYekCIeXmcXdB2IDOj0ILArFXcrrtCvzTy1BiPbND64hQDluAD7JyYcLXRcEG6GGSVAOyLqpxVOpW5qo7VOOxwi71sp7kCCjmg2ykP1nj8BbyL7ay44KjnWDxpZJsey870V3L76ILbHSWWHLyB94DWgFp9jR3CWjcKa8nYclayZ4uqE4ui4cV88gqoBelFtNBOZU7S4cBnEV7qbt4ZrYrgZ2Me8faAb9SFwDb0nKcVbcTioTZXz",
+              "received": false
+            },
+            {
+              "_id": "6976987f1c508c5d5ebbdad0",
+              "name": "Salad1368",
+              "amount": 936,
+              "price": 58969,
+              "manufacturer": "Google",
+              "notes": "1kZFZXyuyij4zCPsLheMTa1p4CpOif4AnalG3kCenqoqeS7QKpMSBFEQAkHYoJet3ym8x0d2W8ivWztRyu0BXPwVehQw4QJNOLgzQXE0k1sKQNj5zuVsLsRRHRwKb76TzoM7zt5iC24j51vqZ2eOr3g0OWnaCqu2Zr1wjxIcMFpaJKLZOMiv1rZERi0926aq9Du70JNkhhDmIbwdVniOnKu9o6YLiokIInAvRtqrqWWPgkAFYsFc7XJEMq",
+              "received": false
+            }
+          ],
+          "total_price": 142594,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6976987f1c508c5d5ebbdaff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

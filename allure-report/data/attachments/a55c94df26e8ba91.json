@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:25:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-F9IuMrJV2IyjWQ8pUKoEG9xxk+Y\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698721c508c5d5ebbd3ac",
+        "email": "Wilhelmine_Reichel@hotmail.com",
+        "name": "Maximo Tromp",
+        "country": "USA",
+        "city": "West Tre",
+        "street": "Lisette Drives",
+        "house": 11,
+        "flat": 255,
+        "phone": "+15298681418",
+        "createdOn": "2026-01-25T22:25:54.000Z",
+        "notes": "Zno4Ihdcx4Xbih0XkCfcuRScFCGsK8Q0ORcoP4HD1hLk55wV0JjLCIwRwwFfobhmeZ84twfGGGorONyPZnJ7Zvax4fHILxWp4gTf60KxhFXWCu1Myo1F6ElsWn8WjVRhQDKU4Xn2TzM6RntRoBSu0e8DN8rDKmggLP7BdfLFibEd6qVBVCPVHRJBLGto0l3xsooBZ304XhS9I1JLZbTKF7JuLnB9MSnP1JoR97GBq3Tyo242WLvmV6XcIk"
+      },
+      "products": [
+        {
+          "_id": "697698731c508c5d5ebbd3e7",
+          "name": "Shirt75922",
+          "amount": 933,
+          "price": 3288,
+          "manufacturer": "Xiaomi",
+          "notes": "SB8nyZs5B0wAQbH82NItdmyUILEYJcef2hw0zLzuEaPlxSg9T6twHMZdb7RTMEJjIJSdFQLqi48kW8w60K98rzlxOgv7SdIOEmTejEyOLKMgohThbMXQRffcOD1dF7ygvCCtqUo7HZhswzDuqNGUMyExnFXJLXKLAdRFEMk0cEHG8wmbGGEufxguwi18j7zDM6uH7oBqnkA5Hjqf8QLuxLxExqqUb0QWWRyjQ6KudpkIYYSxqxLL0lxkAs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3288,
+      "createdOn": "2026-01-25T22:25:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698721c508c5d5ebbd3ac",
+          "products": [
+            {
+              "_id": "697698731c508c5d5ebbd3e7",
+              "name": "Shirt75922",
+              "amount": 933,
+              "price": 3288,
+              "manufacturer": "Xiaomi",
+              "notes": "SB8nyZs5B0wAQbH82NItdmyUILEYJcef2hw0zLzuEaPlxSg9T6twHMZdb7RTMEJjIJSdFQLqi48kW8w60K98rzlxOgv7SdIOEmTejEyOLKMgohThbMXQRffcOD1dF7ygvCCtqUo7HZhswzDuqNGUMyExnFXJLXKLAdRFEMk0cEHG8wmbGGEufxguwi18j7zDM6uH7oBqnkA5Hjqf8QLuxLxExqqUb0QWWRyjQ6KudpkIYYSxqxLL0lxkAs",
+              "received": false
+            }
+          ],
+          "total_price": 3288,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:25:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698731c508c5d5ebbd406"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

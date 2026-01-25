@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:27:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-XKmWwgNDXYmMkJ73hxaX6C2dmd4\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698bc1c508c5d5ebc06f8",
+        "email": "Alexa.Leannon81@gmail.com",
+        "name": "Jedediah Davis",
+        "country": "USA",
+        "city": "Metzmouth",
+        "street": "Mosciski Avenue",
+        "house": 20,
+        "flat": 602,
+        "phone": "+14583174271",
+        "createdOn": "2026-01-25T22:27:08.000Z",
+        "notes": "BTTd5nyuTDV6pqnz3X8Dkc3LzaBEC22KnIQlqJpDYlJH5s94aZeCJv1a3HyVOOnXHxZH8Htby8KzIMoxfJhAiU9kk1tosZzqYch29hTt4YaEhKryMVh7kLav6h4Kc46NSkge0oHcrNjXg0s5CkZQh3JIxyReoxVrgWwoXGSeKswz9wCvGYGtAU4BlXcf1C3aJcnTUC3b654CitZuQj9eNoXtjjocOV9wM9D2CQVv3PKrEGy5xN0fHcg6FC"
+      },
+      "products": [
+        {
+          "_id": "697698bf1c508c5d5ebc0893",
+          "name": "Pants21087",
+          "amount": 902,
+          "price": 56055,
+          "manufacturer": "Google",
+          "notes": "2YkTENnxzHm8HdzHADhQFHGl9pVg8Y1QnP232Fl9wTs9pLFD0luxTwE76X9laM4ak23KqsUdGbt5TPrVZPRifQj5fvuXNJLRuqTXwyqcFOvy0mzSbnZRmOOvhPyEh2rlQ7ZjVI9F9DFSSzSYLwvKvX6BzbTuYpuMIfo7xs6MITs9R1fP8XqZEjEplacBMmAZdVaaKxK8AzXkJiuVBheXAqbECihgGJe7WVyxQ2DtxrU2Y9P0na8zd9Qudd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56055,
+      "createdOn": "2026-01-25T22:27:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698bc1c508c5d5ebc06f8",
+          "products": [
+            {
+              "_id": "697698bf1c508c5d5ebc0893",
+              "name": "Pants21087",
+              "amount": 902,
+              "price": 56055,
+              "manufacturer": "Google",
+              "notes": "2YkTENnxzHm8HdzHADhQFHGl9pVg8Y1QnP232Fl9wTs9pLFD0luxTwE76X9laM4ak23KqsUdGbt5TPrVZPRifQj5fvuXNJLRuqTXwyqcFOvy0mzSbnZRmOOvhPyEh2rlQ7ZjVI9F9DFSSzSYLwvKvX6BzbTuYpuMIfo7xs6MITs9R1fP8XqZEjEplacBMmAZdVaaKxK8AzXkJiuVBheXAqbECihgGJe7WVyxQ2DtxrU2Y9P0na8zd9Qudd",
+              "received": false
+            }
+          ],
+          "total_price": 56055,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:27:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698bf1c508c5d5ebc08b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

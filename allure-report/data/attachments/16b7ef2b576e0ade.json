@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-yavFpyKihMrnW7JqzkYtp2a87AY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6976987f1c508c5d5ebbdac6",
+        "email": "Bernard.OHara46@gmail.com",
+        "name": "Vince Ankunding",
+        "country": "Belarus",
+        "city": "Boehmport",
+        "street": "Ebert Heights",
+        "house": 27,
+        "flat": 65,
+        "phone": "+15432635425",
+        "createdOn": "2026-01-25T22:26:07.000Z",
+        "notes": "1WGlUwj5rzLe5PJWRwxsEmW1XjAtl19cenoEAhcZEBpBZx67RaYZxcbRc4tszyf7nhOoGcWD1txzyPhFPHjgxul3EGo9zQCPTcd6lsPRLNJuQWRyNsJt8gCmqxnGTWna88owusXXSRj38jclHg4LVj9qbxumiDYwes55XtEof0VMNWOtGa5h0rpXzSMh9xgY6jdh6i5hzJR0zYy0R0b6QP1Q5C1OFdi3AgQo3JKlAoD7LjfaFOIFrlooL5"
+      },
+      "products": [
+        {
+          "_id": "6976987f1c508c5d5ebbdae3",
+          "name": "Bacon26498",
+          "amount": 284,
+          "price": 68012,
+          "manufacturer": "Google",
+          "notes": "gENkpdtdGHbkQz6hPWPXTxw6i1pForax5oOrpq8ERh0AvoPZGLNsPm3X0VTAwLmERL8MxC6u4EuE5o1k5djGn9PX9PRVhLQBBW4H9Ncm2RtaBogbe8DrMM6bJClj6ENskCANfjGh70RqEzxnsLziBpZC0yhtFEBp22dwldq9bMRann13xHovKHV0SMa9V9tySHipUhGAgeDZt74xaJqFnpcakT8Z7TQfrhm6H4QzdRbd52ST5V1mVAPDt8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68012,
+      "createdOn": "2026-01-25T22:26:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6976987f1c508c5d5ebbdac6",
+          "products": [
+            {
+              "_id": "6976987f1c508c5d5ebbdae3",
+              "name": "Bacon26498",
+              "amount": 284,
+              "price": 68012,
+              "manufacturer": "Google",
+              "notes": "gENkpdtdGHbkQz6hPWPXTxw6i1pForax5oOrpq8ERh0AvoPZGLNsPm3X0VTAwLmERL8MxC6u4EuE5o1k5djGn9PX9PRVhLQBBW4H9Ncm2RtaBogbe8DrMM6bJClj6ENskCANfjGh70RqEzxnsLziBpZC0yhtFEBp22dwldq9bMRann13xHovKHV0SMa9V9tySHipUhGAgeDZt74xaJqFnpcakT8Z7TQfrhm6H4QzdRbd52ST5V1mVAPDt8",
+              "received": false
+            }
+          ],
+          "total_price": 68012,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698801c508c5d5ebbdb19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

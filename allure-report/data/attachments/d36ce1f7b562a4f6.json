@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-WnsdTw/FTUrWLHglNeG0b3ahrUA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698bf1c508c5d5ebc08ab",
+        "email": "Elmo_Davis@hotmail.com",
+        "name": "Clementine Hills",
+        "country": "USA",
+        "city": "Lake Winstonfort",
+        "street": "W Jackson Street",
+        "house": 19,
+        "flat": 252,
+        "phone": "+15754408394",
+        "createdOn": "2026-01-25T22:27:11.000Z",
+        "notes": "j55YwxdzQDuo59ZaRlfp9mSZaqlOvdekiMT9XPJ7jQ4myG05RW4V6dfwZvj5FmKBdZrdUVapEGMpQus3Klw2q5kHO4DiMmXNkU7Am2Q2TY5OChvCnhWiNcPtPbblbnz2gK47j8K27WhuwIRFxHpFnH4PVMGD6jx9BcrMW2z4r82kqXyyhVbkS6vThvyE0wYGwA0GxBtxr0P6QRByqQmFU89VzHSGl2nTYPYhfN7CfxH2PHlk39WvEQhkUO"
+      },
+      "products": [
+        {
+          "_id": "697698c01c508c5d5ebc0903",
+          "name": "Hat24578",
+          "amount": 554,
+          "price": 4186,
+          "manufacturer": "Microsoft",
+          "notes": "in8ZaIFZvxwPrRyWpwnVTLzHwcBqwU0zMpq5UIGRs10ZkxKHFxCcCc6DdLuKG9NboBYfQRK8b5MM5vpQ4QUb3VJsc46R1RWehFVh4skffjnyb5DPbAqbp5lvzr3eUZxxhu8eh6FS70mt7qqGHdH7xvAdsxXNBhTJixdi0u8qpmeNnRsdxMU77htJtiogBeYY6ybeM6mEdpBNjq17cUdN653DskxKcFoO1LUiJ5eLonNTermS04aOHdYYRn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4186,
+      "createdOn": "2026-01-25T22:27:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698bf1c508c5d5ebc08ab",
+          "products": [
+            {
+              "_id": "697698c01c508c5d5ebc0903",
+              "name": "Hat24578",
+              "amount": 554,
+              "price": 4186,
+              "manufacturer": "Microsoft",
+              "notes": "in8ZaIFZvxwPrRyWpwnVTLzHwcBqwU0zMpq5UIGRs10ZkxKHFxCcCc6DdLuKG9NboBYfQRK8b5MM5vpQ4QUb3VJsc46R1RWehFVh4skffjnyb5DPbAqbp5lvzr3eUZxxhu8eh6FS70mt7qqGHdH7xvAdsxXNBhTJixdi0u8qpmeNnRsdxMU77htJtiogBeYY6ybeM6mEdpBNjq17cUdN653DskxKcFoO1LUiJ5eLonNTermS04aOHdYYRn",
+              "received": false
+            }
+          ],
+          "total_price": 4186,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:27:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698c01c508c5d5ebc0937"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

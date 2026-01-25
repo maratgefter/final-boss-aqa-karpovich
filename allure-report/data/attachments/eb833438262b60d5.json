@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:27:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-Y7ECGteMkz11y10dgZDHvuDg8Gs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698c11c508c5d5ebc09a6",
+        "email": "Amalia68@yahoo.com",
+        "name": "Darryl Abshire",
+        "country": "Russia",
+        "city": "Zoramouth",
+        "street": "Robbie Roads",
+        "house": 28,
+        "flat": 907,
+        "phone": "+17212887672",
+        "createdOn": "2026-01-25T22:27:13.000Z",
+        "notes": "vtWsMIl8X2BkeHZ5MskgWPWzIFyhHRatAoLFpcCfH2TJzjKOrzOhuGizMJwuFyOPbZ6JGWiEDBtlaDWkknqzikUnCplvtqGK5Tzifbxc0O7r17PXytPMMbA3jX64VFIhHMApr22PotYC2CBBxyjx2j114qPrZTwVOGBRSztHr1LTLNvcE6u5qDd5uKQVKGcdTTFkkgdgWjAG4N6xy4TU8VIqwQVqJILlzfXMBoX5k7pQgwffFCama8ye42"
+      },
+      "products": [
+        {
+          "_id": "697698c21c508c5d5ebc09d3",
+          "name": "Sausages8428",
+          "amount": 659,
+          "price": 90835,
+          "manufacturer": "Tesla",
+          "notes": "Bkip0wNm17rVZZydFsFhKO2CdaRZyDD4hGeDIb15r2SlMnM3GBFZrLwAT29cAYNhlpHa1AnG6IRY5kQyKC27KAQbdpEwj3oGcvmGxZxeZgx4xZDW2dKrEfpaMuSBI7VuDqd0bGozzF4zKmdvTRiu1ajAGXLmLYKuXzDepfbinsgDNCYfiavKplMIAO9Esy6qbWi74eiSFvcNtYDJQzLgg2Yqe5WpibVOwqpIJgmcdFVIx5W9zx3OizJ6u3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90835,
+      "createdOn": "2026-01-25T22:27:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698c11c508c5d5ebc09a6",
+          "products": [
+            {
+              "_id": "697698c21c508c5d5ebc09d3",
+              "name": "Sausages8428",
+              "amount": 659,
+              "price": 90835,
+              "manufacturer": "Tesla",
+              "notes": "Bkip0wNm17rVZZydFsFhKO2CdaRZyDD4hGeDIb15r2SlMnM3GBFZrLwAT29cAYNhlpHa1AnG6IRY5kQyKC27KAQbdpEwj3oGcvmGxZxeZgx4xZDW2dKrEfpaMuSBI7VuDqd0bGozzF4zKmdvTRiu1ajAGXLmLYKuXzDepfbinsgDNCYfiavKplMIAO9Esy6qbWi74eiSFvcNtYDJQzLgg2Yqe5WpibVOwqpIJgmcdFVIx5W9zx3OizJ6u3",
+              "received": false
+            }
+          ],
+          "total_price": 90835,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:27:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698c61c508c5d5ebc0e64"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

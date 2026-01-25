@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-c/HgN/DFwo5u9QNo7Zzo4i3sXuY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6976987f1c508c5d5ebbdace",
+        "email": "Priscilla.Blick@gmail.com",
+        "name": "Neil Block",
+        "country": "Great Britain",
+        "city": "Haagfield",
+        "street": "Fisher Street",
+        "house": 4,
+        "flat": 770,
+        "phone": "+16788340061",
+        "createdOn": "2026-01-25T22:26:07.000Z",
+        "notes": "0XZ09LnWONKUVHNaQl3dQg9rwV3ET76Ka10hWgT72eS5yACCASjfDHm7SUAdkKWKRlSLdIQl8ev8r1VjNrMckz7GjpSWDdwomiTKzbTJBkvvuojYhhaD7L0vOM7G6PFpQZ9N2fVjJ4br7HPscWTdsx5ZHFgfDQXVBr0eBfCuhNzVQNxBCVqnaWtwIrLQyhfwRrcbZkMi1YcGGraXMkSyXqRko5Ll0YYfe5XLq9WfkmX9POCmAx1J76YmvC"
+      },
+      "products": [
+        {
+          "_id": "6976987f1c508c5d5ebbdaea",
+          "name": "Salad52853",
+          "amount": 237,
+          "price": 79962,
+          "manufacturer": "Google",
+          "notes": "DO2a5xcbtdwEAVwXba9Q2HxXMc9wh1J0swzZyqjiUAzmQIygFVsdCqnWBBHJ3952ZkCS1hZ72QCb5rOKMRcqt8wnocajKzCOjhqSZj95MwKEO1groQyBOblCMlnchvRfTNStcJPWAiVV8qDgzEE4PRUxdHduYx0d9bCxnfPgx2BtWYWsLQXEYh5HOU0fvvKvFZPFDfrsBClx7BAOKJJ0sSTEYGZ78a0Ua06BzatPKGKIYSeVcdQdz2mEgx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79962,
+      "createdOn": "2026-01-25T22:26:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6976987f1c508c5d5ebbdace",
+          "products": [
+            {
+              "_id": "6976987f1c508c5d5ebbdaea",
+              "name": "Salad52853",
+              "amount": 237,
+              "price": 79962,
+              "manufacturer": "Google",
+              "notes": "DO2a5xcbtdwEAVwXba9Q2HxXMc9wh1J0swzZyqjiUAzmQIygFVsdCqnWBBHJ3952ZkCS1hZ72QCb5rOKMRcqt8wnocajKzCOjhqSZj95MwKEO1groQyBOblCMlnchvRfTNStcJPWAiVV8qDgzEE4PRUxdHduYx0d9bCxnfPgx2BtWYWsLQXEYh5HOU0fvvKvFZPFDfrsBClx7BAOKJJ0sSTEYGZ78a0Ua06BzatPKGKIYSeVcdQdz2mEgx",
+              "received": false
+            }
+          ],
+          "total_price": 79962,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698801c508c5d5ebbdb1f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

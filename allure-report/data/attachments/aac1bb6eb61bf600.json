@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:27:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8648",
+    "etag": "W/\"21c8-GrPpQNIh2JuxS/NCRBfUz22oLy0\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697698bf1c508c5d5ebc08e1",
+      "status": "Received",
+      "customer": {
+        "_id": "697698ba1c508c5d5ebc055b",
+        "email": "Jermain51@yahoo.com",
+        "name": "Gordon Yost",
+        "country": "USA",
+        "city": "Fort Cordie",
+        "street": "Station Street",
+        "house": 26,
+        "flat": 349,
+        "phone": "+12475254008",
+        "createdOn": "2026-01-25T22:27:06.000Z",
+        "notes": "Q1iwmlRx49Q8NuUDRalGXtjbuFpM0lPnFDyIPa5NgJ2POXxgZFWmolE8r0INcTVREkVSL5mxxD2jXUBy15rChaPPWa9xEk2BxDmJJTmMFbJTzxSttQoYlTanKiy57KF0hV8Ky5aLyKqzT2KRIvSVIy1afhF3VR7kkLcM48v3DFpxtqq0WL0jiZJIHHdrx3tpgD8TFaudZhhhiH1UfcJcBWS0j1BtdqWgCnYhHNGIrJSzovCSGUMAK3AEEy"
+      },
+      "products": [
+        {
+          "_id": "697698bc1c508c5d5ebc06ea",
+          "name": "Pants12055",
+          "amount": 948,
+          "price": 22220,
+          "manufacturer": "Tesla",
+          "notes": "S3Pmie2TPf02X6zd75AVAcDjeVbCCdvvzy2xyMZmS0LEnXHbjGdKCPDytfZcDZfIvZCzP4UHqHlAlWTRlreU0zzA9DhDk5ihkZXIfhG0Wniy1AqjYEpL4ZdEvcNG5PSBJalDEOAXJjj29GXGSFh8Ee8aZ8LypwCkkSex18k5xf59VPnhVrIuw31ZzRzKPlgdY8yOJqxr6ACONhQImthR5YToBV8ECdhlw8aQ4FXZlhSziBcLhs2Ant2rCc",
+          "received": true
+        },
+        {
+          "_id": "697698bd1c508c5d5ebc0713",
+          "name": "Computer20521",
+          "amount": 721,
+          "price": 13408,
+          "manufacturer": "Microsoft",
+          "notes": "HLENz58DucZ7Gp4XTlZfSNjjBRoogTAVNy8oqnSh0UkUu3dIi55sH5ZltMDVGFsxaNuVTx2JokcOAcMn19WkHVYpXdXYPo4hb7ucUCuLce1yeydmom7pZhP73s4FJbocv4zfUeBkgODpdTrsfbIBcrSNxVQxnogoOUBiCl03uhAiHFO21Z00It2lGBViRW0MVtO5ByA4X6V0nPY5hHCmd6odKEpmIuxf0kN3uHLjPmZJSnVIicedLb3jcn",
+          "received": true
+        },
+        {
+          "_id": "697698bf1c508c5d5ebc08a3",
+          "name": "Cheese31625",
+          "amount": 144,
+          "price": 11991,
+          "manufacturer": "Samsung",
+          "notes": "vtJlN6CbIqGotSPEjUptvmgdqKJNPwMwfRFWMojK9Pup4wKz5SKzvgdM3WDMsEn2iIqE4USzb7fCpTZ52htThgYmgrRgUBsvHek2IqObTlfRSqPpQUcwVeUc7K5dliymiCECRfBloFHkVOfFNGDVjYqEPPyTnQYklhtYlWXzkuludSJ8tojr8Yh7636UYsjXyGsAG3rbYiWk4pFZ2koWiBd7f0yzELLC75ZM506DUppsj2VaR8uC7QNa6A",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Cordie",
+          "street": "Station Street",
+          "house": 26,
+          "flat": 349
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 47619,
+      "createdOn": "2026-01-25T22:27:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "697698ba1c508c5d5ebc055b",
+          "products": [
+            {
+              "_id": "697698bc1c508c5d5ebc06ea",
+              "name": "Pants12055",
+              "amount": 948,
+              "price": 22220,
+              "manufacturer": "Tesla",
+              "notes": "S3Pmie2TPf02X6zd75AVAcDjeVbCCdvvzy2xyMZmS0LEnXHbjGdKCPDytfZcDZfIvZCzP4UHqHlAlWTRlreU0zzA9DhDk5ihkZXIfhG0Wniy1AqjYEpL4ZdEvcNG5PSBJalDEOAXJjj29GXGSFh8Ee8aZ8LypwCkkSex18k5xf59VPnhVrIuw31ZzRzKPlgdY8yOJqxr6ACONhQImthR5YToBV8ECdhlw8aQ4FXZlhSziBcLhs2Ant2rCc",
+              "received": true
+            },
+            {
+              "_id": "697698bd1c508c5d5ebc0713",
+              "name": "Computer20521",
+              "amount": 721,
+              "price": 13408,
+              "manufacturer": "Microsoft",
+              "notes": "HLENz58DucZ7Gp4XTlZfSNjjBRoogTAVNy8oqnSh0UkUu3dIi55sH5ZltMDVGFsxaNuVTx2JokcOAcMn19WkHVYpXdXYPo4hb7ucUCuLce1yeydmom7pZhP73s4FJbocv4zfUeBkgODpdTrsfbIBcrSNxVQxnogoOUBiCl03uhAiHFO21Z00It2lGBViRW0MVtO5ByA4X6V0nPY5hHCmd6odKEpmIuxf0kN3uHLjPmZJSnVIicedLb3jcn",
+              "received": true
+            },
+            {
+              "_id": "697698bf1c508c5d5ebc08a3",
+              "name": "Cheese31625",
+              "amount": 144,
+              "price": 11991,
+              "manufacturer": "Samsung",
+              "notes": "vtJlN6CbIqGotSPEjUptvmgdqKJNPwMwfRFWMojK9Pup4wKz5SKzvgdM3WDMsEn2iIqE4USzb7fCpTZ52htThgYmgrRgUBsvHek2IqObTlfRSqPpQUcwVeUc7K5dliymiCECRfBloFHkVOfFNGDVjYqEPPyTnQYklhtYlWXzkuludSJ8tojr8Yh7636UYsjXyGsAG3rbYiWk4pFZ2koWiBd7f0yzELLC75ZM506DUppsj2VaR8uC7QNa6A",
+              "received": true
+            }
+          ],
+          "total_price": 47619,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Cordie",
+              "street": "Station Street",
+              "house": 26,
+              "flat": 349
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:27:14.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "697698ba1c508c5d5ebc055b",
+          "products": [
+            {
+              "_id": "697698bc1c508c5d5ebc06ea",
+              "name": "Pants12055",
+              "amount": 948,
+              "price": 22220,
+              "manufacturer": "Tesla",
+              "notes": "S3Pmie2TPf02X6zd75AVAcDjeVbCCdvvzy2xyMZmS0LEnXHbjGdKCPDytfZcDZfIvZCzP4UHqHlAlWTRlreU0zzA9DhDk5ihkZXIfhG0Wniy1AqjYEpL4ZdEvcNG5PSBJalDEOAXJjj29GXGSFh8Ee8aZ8LypwCkkSex18k5xf59VPnhVrIuw31ZzRzKPlgdY8yOJqxr6ACONhQImthR5YToBV8ECdhlw8aQ4FXZlhSziBcLhs2Ant2rCc",
+              "received": false
+            },
+            {
+              "_id": "697698bd1c508c5d5ebc0713",
+              "name": "Computer20521",
+              "amount": 721,
+              "price": 13408,
+              "manufacturer": "Microsoft",
+              "notes": "HLENz58DucZ7Gp4XTlZfSNjjBRoogTAVNy8oqnSh0UkUu3dIi55sH5ZltMDVGFsxaNuVTx2JokcOAcMn19WkHVYpXdXYPo4hb7ucUCuLce1yeydmom7pZhP73s4FJbocv4zfUeBkgODpdTrsfbIBcrSNxVQxnogoOUBiCl03uhAiHFO21Z00It2lGBViRW0MVtO5ByA4X6V0nPY5hHCmd6odKEpmIuxf0kN3uHLjPmZJSnVIicedLb3jcn",
+              "received": false
+            },
+            {
+              "_id": "697698bf1c508c5d5ebc08a3",
+              "name": "Cheese31625",
+              "amount": 144,
+              "price": 11991,
+              "manufacturer": "Samsung",
+              "notes": "vtJlN6CbIqGotSPEjUptvmgdqKJNPwMwfRFWMojK9Pup4wKz5SKzvgdM3WDMsEn2iIqE4USzb7fCpTZ52htThgYmgrRgUBsvHek2IqObTlfRSqPpQUcwVeUc7K5dliymiCECRfBloFHkVOfFNGDVjYqEPPyTnQYklhtYlWXzkuludSJ8tojr8Yh7636UYsjXyGsAG3rbYiWk4pFZ2koWiBd7f0yzELLC75ZM506DUppsj2VaR8uC7QNa6A",
+              "received": false
+            }
+          ],
+          "total_price": 47619,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Cordie",
+              "street": "Station Street",
+              "house": 26,
+              "flat": 349
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:27:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697698ba1c508c5d5ebc055b",
+          "products": [
+            {
+              "_id": "697698bc1c508c5d5ebc06ea",
+              "name": "Pants12055",
+              "amount": 948,
+              "price": 22220,
+              "manufacturer": "Tesla",
+              "notes": "S3Pmie2TPf02X6zd75AVAcDjeVbCCdvvzy2xyMZmS0LEnXHbjGdKCPDytfZcDZfIvZCzP4UHqHlAlWTRlreU0zzA9DhDk5ihkZXIfhG0Wniy1AqjYEpL4ZdEvcNG5PSBJalDEOAXJjj29GXGSFh8Ee8aZ8LypwCkkSex18k5xf59VPnhVrIuw31ZzRzKPlgdY8yOJqxr6ACONhQImthR5YToBV8ECdhlw8aQ4FXZlhSziBcLhs2Ant2rCc",
+              "received": false
+            },
+            {
+              "_id": "697698bd1c508c5d5ebc0713",
+              "name": "Computer20521",
+              "amount": 721,
+              "price": 13408,
+              "manufacturer": "Microsoft",
+              "notes": "HLENz58DucZ7Gp4XTlZfSNjjBRoogTAVNy8oqnSh0UkUu3dIi55sH5ZltMDVGFsxaNuVTx2JokcOAcMn19WkHVYpXdXYPo4hb7ucUCuLce1yeydmom7pZhP73s4FJbocv4zfUeBkgODpdTrsfbIBcrSNxVQxnogoOUBiCl03uhAiHFO21Z00It2lGBViRW0MVtO5ByA4X6V0nPY5hHCmd6odKEpmIuxf0kN3uHLjPmZJSnVIicedLb3jcn",
+              "received": false
+            },
+            {
+              "_id": "697698bf1c508c5d5ebc08a3",
+              "name": "Cheese31625",
+              "amount": 144,
+              "price": 11991,
+              "manufacturer": "Samsung",
+              "notes": "vtJlN6CbIqGotSPEjUptvmgdqKJNPwMwfRFWMojK9Pup4wKz5SKzvgdM3WDMsEn2iIqE4USzb7fCpTZ52htThgYmgrRgUBsvHek2IqObTlfRSqPpQUcwVeUc7K5dliymiCECRfBloFHkVOfFNGDVjYqEPPyTnQYklhtYlWXzkuludSJ8tojr8Yh7636UYsjXyGsAG3rbYiWk4pFZ2koWiBd7f0yzELLC75ZM506DUppsj2VaR8uC7QNa6A",
+              "received": false
+            }
+          ],
+          "total_price": 47619,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Cordie",
+              "street": "Station Street",
+              "house": 26,
+              "flat": 349
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:27:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697698ba1c508c5d5ebc055b",
+          "products": [
+            {
+              "_id": "697698bc1c508c5d5ebc06ea",
+              "name": "Pants12055",
+              "amount": 948,
+              "price": 22220,
+              "manufacturer": "Tesla",
+              "notes": "S3Pmie2TPf02X6zd75AVAcDjeVbCCdvvzy2xyMZmS0LEnXHbjGdKCPDytfZcDZfIvZCzP4UHqHlAlWTRlreU0zzA9DhDk5ihkZXIfhG0Wniy1AqjYEpL4ZdEvcNG5PSBJalDEOAXJjj29GXGSFh8Ee8aZ8LypwCkkSex18k5xf59VPnhVrIuw31ZzRzKPlgdY8yOJqxr6ACONhQImthR5YToBV8ECdhlw8aQ4FXZlhSziBcLhs2Ant2rCc",
+              "received": false
+            },
+            {
+              "_id": "697698bd1c508c5d5ebc0713",
+              "name": "Computer20521",
+              "amount": 721,
+              "price": 13408,
+              "manufacturer": "Microsoft",
+              "notes": "HLENz58DucZ7Gp4XTlZfSNjjBRoogTAVNy8oqnSh0UkUu3dIi55sH5ZltMDVGFsxaNuVTx2JokcOAcMn19WkHVYpXdXYPo4hb7ucUCuLce1yeydmom7pZhP73s4FJbocv4zfUeBkgODpdTrsfbIBcrSNxVQxnogoOUBiCl03uhAiHFO21Z00It2lGBViRW0MVtO5ByA4X6V0nPY5hHCmd6odKEpmIuxf0kN3uHLjPmZJSnVIicedLb3jcn",
+              "received": false
+            },
+            {
+              "_id": "697698bf1c508c5d5ebc08a3",
+              "name": "Cheese31625",
+              "amount": 144,
+              "price": 11991,
+              "manufacturer": "Samsung",
+              "notes": "vtJlN6CbIqGotSPEjUptvmgdqKJNPwMwfRFWMojK9Pup4wKz5SKzvgdM3WDMsEn2iIqE4USzb7fCpTZ52htThgYmgrRgUBsvHek2IqObTlfRSqPpQUcwVeUc7K5dliymiCECRfBloFHkVOfFNGDVjYqEPPyTnQYklhtYlWXzkuludSJ8tojr8Yh7636UYsjXyGsAG3rbYiWk4pFZ2koWiBd7f0yzELLC75ZM506DUppsj2VaR8uC7QNa6A",
+              "received": false
+            }
+          ],
+          "total_price": 47619,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:27:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

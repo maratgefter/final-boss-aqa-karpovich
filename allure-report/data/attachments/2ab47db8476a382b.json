@@ -1,0 +1,233 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:28:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5384",
+    "etag": "W/\"1508-qpY8d6s4n09VSmOKOO0FrhDEiZk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697699161c508c5d5ebc47bc",
+      "status": "Draft",
+      "customer": {
+        "_id": "697699151c508c5d5ebc4775",
+        "email": "Durward_Heidenreich@gmail.com",
+        "name": "Jalyn Jacobson",
+        "country": "Great Britain",
+        "city": "Port Orange",
+        "street": "Fore Street",
+        "house": 11,
+        "flat": 353,
+        "phone": "+16289375983",
+        "createdOn": "2026-01-25T22:28:37.000Z",
+        "notes": "j6aTL2bkvMlWq924sctkVSNqrqLSY078ctmEuY7k88lCPrH5HWQxjTLBzrE1V3nQ4T4JHo8CrYY30jYtDTfjBZJUc0XnOy7kteJDz3hJb3P5mmZutlSHHViEnRiEdCKrX7eCe0ub3KkhCcMsKhSCdi3PAvdVol8SbZfxt4uVbqGZxVbp6M6HKvBw6YiO8K3cohXNJKmU5Q7YEXPSB10gfMkSBTrZ7HuHTLHV1CIKgn2NibPOtr8P0ALoKb"
+      },
+      "products": [
+        {
+          "_id": "697699151c508c5d5ebc4793",
+          "name": "Car52980",
+          "amount": 327,
+          "price": 43158,
+          "manufacturer": "Sony",
+          "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43158,
+      "createdOn": "2026-01-25T22:28:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697699151c508c5d5ebc4775",
+          "products": [
+            {
+              "_id": "697699151c508c5d5ebc4793",
+              "name": "Car52980",
+              "amount": 327,
+              "price": 43158,
+              "manufacturer": "Sony",
+              "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+              "received": false
+            }
+          ],
+          "total_price": 43158,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:28:46.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "697699151c508c5d5ebc4775",
+          "products": [
+            {
+              "_id": "697699151c508c5d5ebc4793",
+              "name": "Car52980",
+              "amount": 327,
+              "price": 43158,
+              "manufacturer": "Sony",
+              "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+              "received": false
+            }
+          ],
+          "total_price": 43158,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Orange",
+              "street": "Fore Street",
+              "house": 11,
+              "flat": 353
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:28:40.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "697699151c508c5d5ebc4775",
+          "products": [
+            {
+              "_id": "697699151c508c5d5ebc4793",
+              "name": "Car52980",
+              "amount": 327,
+              "price": 43158,
+              "manufacturer": "Sony",
+              "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+              "received": false
+            }
+          ],
+          "total_price": 43158,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Orange",
+              "street": "Fore Street",
+              "house": 11,
+              "flat": 353
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:28:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697699151c508c5d5ebc4775",
+          "products": [
+            {
+              "_id": "697699151c508c5d5ebc4793",
+              "name": "Car52980",
+              "amount": 327,
+              "price": 43158,
+              "manufacturer": "Sony",
+              "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+              "received": false
+            }
+          ],
+          "total_price": 43158,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Orange",
+              "street": "Fore Street",
+              "house": 11,
+              "flat": 353
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-25T22:28:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697699151c508c5d5ebc4775",
+          "products": [
+            {
+              "_id": "697699151c508c5d5ebc4793",
+              "name": "Car52980",
+              "amount": 327,
+              "price": 43158,
+              "manufacturer": "Sony",
+              "notes": "ur6KXpJPm3kFxXI52a0f3cnqsQmiJRRsjToCN7aHojUxmOX5mfUYaRomuLqm4ocpF0zU763k2CLczZQySTIrYRai6aDaoT6fQTTYK077SG2z9VFgcXDMu1pO64ip3mI7rUIlvbCR7ikvd71y4d5QmoYxdbf1extKH33z7WIiJDNAY46V7IYwlJ8dQKTMi0pFwKST4BUJRDx6zOLZS50lnlOt9Yz1CrD8YfgAizwDnved61OYU8jgW2KUPo",
+              "received": false
+            }
+          ],
+          "total_price": 43158,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:28:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

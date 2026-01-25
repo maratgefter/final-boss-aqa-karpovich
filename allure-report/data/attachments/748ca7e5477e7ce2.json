@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:26:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-faHnOBQNp2wOhSqQJUvjtmFCaCk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698901c508c5d5ebbe675",
+        "email": "Dorthy.Ernser20@hotmail.com",
+        "name": "Kieran Buckridge",
+        "country": "Belarus",
+        "city": "Fort Chesleyfield",
+        "street": "The Dell",
+        "house": 4,
+        "flat": 136,
+        "phone": "+17122903568",
+        "createdOn": "2026-01-25T22:26:24.000Z",
+        "notes": "g2UUs8zYav9lXVQ98Q0tifJEs4hK52qKvFhVUSvEr04gLdEu5BfQsD3bU1QSEl5ZowYD6eZosCymRoqQ92QkLJ8ncttipIF8dImxtogPwlbinuxYf3TS7RorNrGac9yoj5XmUSfZtWjI8tVJONws6miUj3O5fhpcPvN3lCorJ8SlLhdJ59Twn2H0PG0NNTMHWKIJ8BCyNsIx4S0n8yQqVZWgTDdUgKmhh73AaNQuNCh3qtitK1vsR3K4X1"
+      },
+      "products": [
+        {
+          "_id": "697698901c508c5d5ebbe691",
+          "name": "Pizza4064",
+          "amount": 974,
+          "price": 76868,
+          "manufacturer": "Xiaomi",
+          "notes": "5TIA8oIRXmMrSNjZhYIidZ8wCzjt2GvLvojMcemqA1YIxE6Z4lC6XPUqXzfLmkgWW11LEQ5DRMhS0EhKbNIGg3ZGXLX9H1fT5Ag1AUIQ6DYipCEm4OsoUNqLsvEKdJB2zTQHpW5aGcxHko3b5K4CGHT9EZTMJM1UYa6ODJaltjuJcsISNKTD0fYnebw1RUhPScAeUO5aiN2qMcJIPDudRE2gE5uTjAGxNlk2Gw2jdEvgu1wisMRalMVPbD",
+          "received": false
+        },
+        {
+          "_id": "697698911c508c5d5ebbe6af",
+          "name": "Soap4778",
+          "amount": 375,
+          "price": 24928,
+          "manufacturer": "Amazon",
+          "notes": "AGc0vedbVzPrOMlPmo6No6AfEDi1kazv9CtUP2BSyGLE6NmyQva7zDTfhxvw6ltBcz7r3KFx5xErFWz8X2B8Y3f9AeEj0l8qf0Ty8ck6m3oR4tbZnWOB9yOCuK0LRCUE0y9arnIOBPVJjbKcuui4o2RN4rIA0FfRpSOb2utpurHZyRxelgGnkrb7YOfeR5BdEYexUreNI3APA7wCzYPXNROsn8qABUvhgYHCg1JJpK2z7vaPz0wz8DIRk0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101796,
+      "createdOn": "2026-01-25T22:26:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698901c508c5d5ebbe675",
+          "products": [
+            {
+              "_id": "697698901c508c5d5ebbe691",
+              "name": "Pizza4064",
+              "amount": 974,
+              "price": 76868,
+              "manufacturer": "Xiaomi",
+              "notes": "5TIA8oIRXmMrSNjZhYIidZ8wCzjt2GvLvojMcemqA1YIxE6Z4lC6XPUqXzfLmkgWW11LEQ5DRMhS0EhKbNIGg3ZGXLX9H1fT5Ag1AUIQ6DYipCEm4OsoUNqLsvEKdJB2zTQHpW5aGcxHko3b5K4CGHT9EZTMJM1UYa6ODJaltjuJcsISNKTD0fYnebw1RUhPScAeUO5aiN2qMcJIPDudRE2gE5uTjAGxNlk2Gw2jdEvgu1wisMRalMVPbD",
+              "received": false
+            },
+            {
+              "_id": "697698911c508c5d5ebbe6af",
+              "name": "Soap4778",
+              "amount": 375,
+              "price": 24928,
+              "manufacturer": "Amazon",
+              "notes": "AGc0vedbVzPrOMlPmo6No6AfEDi1kazv9CtUP2BSyGLE6NmyQva7zDTfhxvw6ltBcz7r3KFx5xErFWz8X2B8Y3f9AeEj0l8qf0Ty8ck6m3oR4tbZnWOB9yOCuK0LRCUE0y9arnIOBPVJjbKcuui4o2RN4rIA0FfRpSOb2utpurHZyRxelgGnkrb7YOfeR5BdEYexUreNI3APA7wCzYPXNROsn8qABUvhgYHCg1JJpK2z7vaPz0wz8DIRk0",
+              "received": false
+            }
+          ],
+          "total_price": 101796,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:26:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698911c508c5d5ebbe6cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

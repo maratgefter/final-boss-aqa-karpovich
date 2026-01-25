@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 25 Jan 2026 22:25:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-WcAP40xg0Otq/RemY4R1WxHaCYA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697698721c508c5d5ebbd399",
+        "email": "Ella59@gmail.com",
+        "name": "Lance Stamm",
+        "country": "Germany",
+        "city": "Keeganfurt",
+        "street": "Shanahan Trace",
+        "house": 8,
+        "flat": 280,
+        "phone": "+17928632575",
+        "createdOn": "2026-01-25T22:25:54.000Z",
+        "notes": "W6x8yeD3VgyEYnbnLLwpQx2BihKBdU6aWySVsSQLWn9WDKDQrCe7LLIZauf0jKdkUjXngU5TQN0tNOXqmvQeknfSbKLwttuaOkSFuEd1jXvrSQaULONzFA5fboFVcVUonKtnx2k5EdSysq08KZ11hBJT1yBHA2yhFSjNa6gy7pRdWt0EY8xU4W76aSzj5jzthxIcaN72k4IpbHU9epfTHGhGNA6fcWIBMWCNqaS19V3JbfCAdNWXgrsHI6"
+      },
+      "products": [
+        {
+          "_id": "697698721c508c5d5ebbd3c4",
+          "name": "Keyboard49380",
+          "amount": 258,
+          "price": 52866,
+          "manufacturer": "Apple",
+          "notes": "NWxFobL6omBxMIrzM46AueQ0z0jrTRRuPzQD1E7rHn2YytZlfpa0BewY45vYHDiUlkJeNktw2rbPy5Svs0Wpfizz6HQNTkTXEMnI3Y4YIylBQ6gQGEbD0ttX6QP19DqDDAo3QIREINduYs0iRY9391dr6ndGWE4wMw25KQMIdCTBFi8ir0zTi8lMOosk0mGOxX7fi7Zelw7KUZyf48yy7vpAkvNTaeJ7CTe2megTemXNNNgCLz6Ap23sMM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52866,
+      "createdOn": "2026-01-25T22:25:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697698721c508c5d5ebbd399",
+          "products": [
+            {
+              "_id": "697698721c508c5d5ebbd3c4",
+              "name": "Keyboard49380",
+              "amount": 258,
+              "price": 52866,
+              "manufacturer": "Apple",
+              "notes": "NWxFobL6omBxMIrzM46AueQ0z0jrTRRuPzQD1E7rHn2YytZlfpa0BewY45vYHDiUlkJeNktw2rbPy5Svs0Wpfizz6HQNTkTXEMnI3Y4YIylBQ6gQGEbD0ttX6QP19DqDDAo3QIREINduYs0iRY9391dr6ndGWE4wMw25KQMIdCTBFi8ir0zTi8lMOosk0mGOxX7fi7Zelw7KUZyf48yy7vpAkvNTaeJ7CTe2megTemXNNNgCLz6Ap23sMM",
+              "received": false
+            }
+          ],
+          "total_price": 52866,
+          "delivery": null,
+          "changedOn": "2026-01-25T22:25:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697698731c508c5d5ebbd3f6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
