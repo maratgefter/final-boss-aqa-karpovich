@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:29:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-gqa6Wy5yffqUMGguAVO1yuZJOFs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eab41c508c5d5ebd3904",
+        "email": "Ursula92@hotmail.com",
+        "name": "Jordy McLaughlin",
+        "country": "Canada",
+        "city": "Connellyburgh",
+        "street": "Witting Shores",
+        "house": 33,
+        "flat": 397,
+        "phone": "+12294361907",
+        "createdOn": "2026-01-26T22:29:08.000Z",
+        "notes": "GBW1B1d6eMYNXpsjxDi0XcptaAazteoMb74eMlXFpWtbTwc2cXIlnoporiKGuTn6FrqcNtjCLyVqytNRegl9YaDAECwS3jb5i3uYdsEzUDv6ryeeZ308VKmExQiEiJjCaByAePfnfMvfjdlbHgxcabUOklfBcNlBr0O9VmHEjnPV54eWsUg6SkmQT8XqwBuiBYIjQfHlUGg0ExVJhyzbNeWCA58k1892MC0QbDZhz4tG68rQxlnSqBNXo3"
+      },
+      "products": [
+        {
+          "_id": "6977eab51c508c5d5ebd392a",
+          "name": "Bacon98666",
+          "amount": 861,
+          "price": 40498,
+          "manufacturer": "Sony",
+          "notes": "4yJmZNM2pUeNZenaIpFVNxLGtFVlEuGsf23esxCrj8wquAana9WlXgMtjRODF1IkiYlQ6ooA4FXp4Of0sP4KC1JFNOYb2lwSzSANFqVfm8b0SXXVPmvj0a77mBcsm7ltvAwm8ryTO1nWvlSZjt0vy0zEhRS0917Um7nGgn6Evjp6uW2S0l9EFN49jGQmssV4MqAzmx7fi5SDQ1asOypoNLkalGzh1pt6sCdIDLHjKAhwji4btS3XBiqElm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40498,
+      "createdOn": "2026-01-26T22:29:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eab41c508c5d5ebd3904",
+          "products": [
+            {
+              "_id": "6977eab51c508c5d5ebd392a",
+              "name": "Bacon98666",
+              "amount": 861,
+              "price": 40498,
+              "manufacturer": "Sony",
+              "notes": "4yJmZNM2pUeNZenaIpFVNxLGtFVlEuGsf23esxCrj8wquAana9WlXgMtjRODF1IkiYlQ6ooA4FXp4Of0sP4KC1JFNOYb2lwSzSANFqVfm8b0SXXVPmvj0a77mBcsm7ltvAwm8ryTO1nWvlSZjt0vy0zEhRS0917Um7nGgn6Evjp6uW2S0l9EFN49jGQmssV4MqAzmx7fi5SDQ1asOypoNLkalGzh1pt6sCdIDLHjKAhwji4btS3XBiqElm",
+              "received": false
+            }
+          ],
+          "total_price": 40498,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:29:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977eab51c508c5d5ebd3951"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-tiPZNVJ2UNXm8vOqwRtBtmGhitA\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ea941c508c5d5ebd2244",
+        "email": "Jewel_Russel68@hotmail.com",
+        "name": "Esta Oberbrunner",
+        "country": "Germany",
+        "city": "North Eloy",
+        "street": "Ceasar Inlet",
+        "house": 19,
+        "flat": 691,
+        "phone": "+19593377331",
+        "createdOn": "2026-01-26T22:28:36.000Z",
+        "notes": "N2lRbrWFaxUQlt7HheghZpydZlEeziX0TaTRFOPYcGgMbidXnNOJiEP4FNwwTNJ1O13NLttIiWFdbgUMLWoSYxjTEVByeWdpOFMlV3AZj77DwqNEGNlRIzXPW09rkfTCmcuZzj8OyzZfUUxphUrTc6ArFzpbslHLFgshavd2zVsifrzvQFZvkCUOMfls31AIbsBgSY7DlUF0WJGb42x6iL3B3cR7GQEmv1SPHlIyzpiI8AcxYMe70ahj4h"
+      },
+      "products": [
+        {
+          "_id": "6977ea951c508c5d5ebd2271",
+          "name": "Bacon37036",
+          "amount": 283,
+          "price": 3470,
+          "manufacturer": "Amazon",
+          "notes": "dPffF2iSN9mTVMzdbcI2yx7bq8Sr1RAYhUkyDAtLSYoq2ntZLqz3cFrPkT14PjkzEFq8jBy0KjaHjgn2ayow2FFKJI9Udtd53zT5WDPzZN5AJ0J93fz6tmxuIrSRDtqasmOSGFFVSg7efmpwNWhOQU8QtCG2AtUU1YE5RImB19MsZd3qXjSg4GZIl9Pszu1PDu3MBFYkJEzSirS0ZK7G9UXYVY86oMDiEYqrugQb2HFrhn3VBlmsIjb2yC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3470,
+      "createdOn": "2026-01-26T22:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ea941c508c5d5ebd2244",
+          "products": [
+            {
+              "_id": "6977ea951c508c5d5ebd2271",
+              "name": "Bacon37036",
+              "amount": 283,
+              "price": 3470,
+              "manufacturer": "Amazon",
+              "notes": "dPffF2iSN9mTVMzdbcI2yx7bq8Sr1RAYhUkyDAtLSYoq2ntZLqz3cFrPkT14PjkzEFq8jBy0KjaHjgn2ayow2FFKJI9Udtd53zT5WDPzZN5AJ0J93fz6tmxuIrSRDtqasmOSGFFVSg7efmpwNWhOQU8QtCG2AtUU1YE5RImB19MsZd3qXjSg4GZIl9Pszu1PDu3MBFYkJEzSirS0ZK7G9UXYVY86oMDiEYqrugQb2HFrhn3VBlmsIjb2yC",
+              "received": false
+            }
+          ],
+          "total_price": 3470,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977ea951c508c5d5ebd2295"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

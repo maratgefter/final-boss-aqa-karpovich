@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-QLE5MBFGoULL+x3U4SciO29sulA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ea921c508c5d5ebd2160",
+        "email": "Robert_Lebsack@yahoo.com",
+        "name": "Helmer Skiles",
+        "country": "Russia",
+        "city": "New Dorothea",
+        "street": "Little Manors",
+        "house": 16,
+        "flat": 495,
+        "phone": "+13407891247",
+        "createdOn": "2026-01-26T22:28:34.000Z",
+        "notes": "6GPHsWOaksF7WfgkOLtqYRtLkHE1Gv9do4NJm7m6GFEpjsMpYofTGzOi563sg98lL6NOrhrHLja1NgWBD8VpmIXkGQoI3Z6do3dssZ1cSNdMVh0WZUvhrXB08emTnt82C9n6MnqpXDnsZCUtUZIKzqEksKXiUDiRhL8OdBnAhwN4BrMFbDRpfk9UVdLWlim2fFYTUFilo2SgBhpZLfBUe0hwY9Y9EgzKAKL28d7GUq32dL2sKc7GIinAZ3"
+      },
+      "products": [
+        {
+          "_id": "6977ea921c508c5d5ebd2192",
+          "name": "Pizza12313",
+          "amount": 434,
+          "price": 59603,
+          "manufacturer": "Tesla",
+          "notes": "4MKEle53ZoioDDH5MQlAA1oqD7UDtO3OBWT9xLVnVE2gM3FLHmoa5a2DY1rvPkyyWabXKxV39M6hhXeNWYIzS1SKKywcAdQUOgbE9uZhcoNVPSAgptBdSVmxCSRiUEI52Qzt7OkqwtsPj1QMtlJw8xqn9X0EqpCYxO5u9BVzGw6kKkp2oojNLMxTngMG3zUDLpeS5czd3OhlmAw75xLqaRlJwmZNS8KKro7G5cl8BB7hBa2Vx4b6iwk8U2",
+          "received": false
+        },
+        {
+          "_id": "6977ea931c508c5d5ebd21bb",
+          "name": "Ball71454",
+          "amount": 486,
+          "price": 35039,
+          "manufacturer": "Amazon",
+          "notes": "qYPiGeJ1MsnKUKSSXAb8Er1yX18UbDP02QiphjYbwgpzOU0vgUzwGBe7G1s5srvxszTGSjz2Qx3RTdwDOXtbC225sYdUDvMC4VumfboYkpKVwGB8wXpJeOu2b20Yzg7EETSNlOKY3krIeWdvNyV92IaP9wvayEbugzfrNDcEjqLXDt1BTddfW0XMKnlsD12R10Yqg3ROn1CObRqZC4RPxEl8dsrUGsrbwMkGyHIsdGhQYurqqF3YUqqAku",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94642,
+      "createdOn": "2026-01-26T22:28:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ea921c508c5d5ebd2160",
+          "products": [
+            {
+              "_id": "6977ea921c508c5d5ebd2192",
+              "name": "Pizza12313",
+              "amount": 434,
+              "price": 59603,
+              "manufacturer": "Tesla",
+              "notes": "4MKEle53ZoioDDH5MQlAA1oqD7UDtO3OBWT9xLVnVE2gM3FLHmoa5a2DY1rvPkyyWabXKxV39M6hhXeNWYIzS1SKKywcAdQUOgbE9uZhcoNVPSAgptBdSVmxCSRiUEI52Qzt7OkqwtsPj1QMtlJw8xqn9X0EqpCYxO5u9BVzGw6kKkp2oojNLMxTngMG3zUDLpeS5czd3OhlmAw75xLqaRlJwmZNS8KKro7G5cl8BB7hBa2Vx4b6iwk8U2",
+              "received": false
+            },
+            {
+              "_id": "6977ea931c508c5d5ebd21bb",
+              "name": "Ball71454",
+              "amount": 486,
+              "price": 35039,
+              "manufacturer": "Amazon",
+              "notes": "qYPiGeJ1MsnKUKSSXAb8Er1yX18UbDP02QiphjYbwgpzOU0vgUzwGBe7G1s5srvxszTGSjz2Qx3RTdwDOXtbC225sYdUDvMC4VumfboYkpKVwGB8wXpJeOu2b20Yzg7EETSNlOKY3krIeWdvNyV92IaP9wvayEbugzfrNDcEjqLXDt1BTddfW0XMKnlsD12R10Yqg3ROn1CObRqZC4RPxEl8dsrUGsrbwMkGyHIsdGhQYurqqF3YUqqAku",
+              "received": false
+            }
+          ],
+          "total_price": 94642,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977ea931c508c5d5ebd21dd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

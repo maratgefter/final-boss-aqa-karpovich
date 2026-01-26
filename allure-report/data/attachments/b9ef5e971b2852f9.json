@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:32:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4101",
+    "etag": "W/\"1005-rc/T4AV+3YM/0DJo45LehVl2wzk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977eb651c508c5d5ebdb9f0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eb611c508c5d5ebdb7e0",
+        "email": "Bridie.Strosin-Ferry@yahoo.com",
+        "name": "Agnes Nicolas",
+        "country": "Canada",
+        "city": "Brockton",
+        "street": "N 1st Street",
+        "house": 37,
+        "flat": 674,
+        "phone": "+14057183763",
+        "createdOn": "2026-01-26T22:32:01.000Z",
+        "notes": "VFkCHZg6KHBxZVKcmtag0ux60TjxEABNLpwhXbij5NQWb7rQlEW8ro2YSA9DjvI7KDHAxwb5PIPnHQzyMQESBD4YWrJLCByOnyk60cVMsFmGD5jO6ENSwDI2lmFHnN6btgBDIkkL4yLZLcasLnWdWKRQ6YNOen7r7AMDG1OxflGQdUirZnDZ6HDBpcfKnguugGcfmXtP5swWmOhVjuAQZcJaEENZ9SXpzG0czygSxbuWtud9LiQ8iGXSAv"
+      },
+      "products": [
+        {
+          "_id": "6977eb641c508c5d5ebdb994",
+          "name": "Pants94799",
+          "amount": 305,
+          "price": 24276,
+          "manufacturer": "Xiaomi",
+          "notes": "QG6xDyCmmJ02lV6d6DZ7USNr456Dr49OL5rqdLz56eWgLokAjmm8qyKWphFZzoh26lEFkSOpNWwI0pJnzQCyxXDh95QpZ1jU44xwGpx5FYEUwxSWzNa4sBviFEdKad0Q3vmTFL71BPVF6YavRreuOTnH0Z3AbPfAVvbcOwEmODd6lpDITopJtEH4fhWygZTE6T4BfD4YDZcqUBiYRmD0ddOmfHoKDzKBIcTMFawz9HQv3yxRsRDDLVp5HP",
+          "received": false
+        },
+        {
+          "_id": "6977eb641c508c5d5ebdb9bb",
+          "name": "Sausages53225",
+          "amount": 398,
+          "price": 15898,
+          "manufacturer": "Sony",
+          "notes": "w1ugDs3qpIgBY0dJFOs4EFTD6EXsAgZGVaNwMQJN5hTzKmm7hqtxRlJelCSC8oQA8DgbpBBxJQ21fd493jUXQGoZXHzpBkb8j1RkjdmuYam8oAHW4ITf2bbXAsKwWZKERJw2AKZOLYkFnJ8u5yLYYwdTTo8AnQutqcR6M30N7xYISkxD03aEiFUglv9fnsqagbwsTN0s0xGTPu4m5j8juQcNE0AShIig4oAvd45KyRpAG44r22SlXCSI60",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Brockton",
+          "street": "N 1st Street",
+          "house": 37,
+          "flat": 674
+        },
+        "finalDate": "2026-02-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 40174,
+      "createdOn": "2026-01-26T22:32:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eb611c508c5d5ebdb7e0",
+          "products": [
+            {
+              "_id": "6977eb641c508c5d5ebdb994",
+              "name": "Pants94799",
+              "amount": 305,
+              "price": 24276,
+              "manufacturer": "Xiaomi",
+              "notes": "QG6xDyCmmJ02lV6d6DZ7USNr456Dr49OL5rqdLz56eWgLokAjmm8qyKWphFZzoh26lEFkSOpNWwI0pJnzQCyxXDh95QpZ1jU44xwGpx5FYEUwxSWzNa4sBviFEdKad0Q3vmTFL71BPVF6YavRreuOTnH0Z3AbPfAVvbcOwEmODd6lpDITopJtEH4fhWygZTE6T4BfD4YDZcqUBiYRmD0ddOmfHoKDzKBIcTMFawz9HQv3yxRsRDDLVp5HP",
+              "received": false
+            },
+            {
+              "_id": "6977eb641c508c5d5ebdb9bb",
+              "name": "Sausages53225",
+              "amount": 398,
+              "price": 15898,
+              "manufacturer": "Sony",
+              "notes": "w1ugDs3qpIgBY0dJFOs4EFTD6EXsAgZGVaNwMQJN5hTzKmm7hqtxRlJelCSC8oQA8DgbpBBxJQ21fd493jUXQGoZXHzpBkb8j1RkjdmuYam8oAHW4ITf2bbXAsKwWZKERJw2AKZOLYkFnJ8u5yLYYwdTTo8AnQutqcR6M30N7xYISkxD03aEiFUglv9fnsqagbwsTN0s0xGTPu4m5j8juQcNE0AShIig4oAvd45KyRpAG44r22SlXCSI60",
+              "received": false
+            }
+          ],
+          "total_price": 40174,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Brockton",
+              "street": "N 1st Street",
+              "house": 37,
+              "flat": 674
+            },
+            "finalDate": "2026-02-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:32:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eb611c508c5d5ebdb7e0",
+          "products": [
+            {
+              "_id": "6977eb641c508c5d5ebdb994",
+              "name": "Pants94799",
+              "amount": 305,
+              "price": 24276,
+              "manufacturer": "Xiaomi",
+              "notes": "QG6xDyCmmJ02lV6d6DZ7USNr456Dr49OL5rqdLz56eWgLokAjmm8qyKWphFZzoh26lEFkSOpNWwI0pJnzQCyxXDh95QpZ1jU44xwGpx5FYEUwxSWzNa4sBviFEdKad0Q3vmTFL71BPVF6YavRreuOTnH0Z3AbPfAVvbcOwEmODd6lpDITopJtEH4fhWygZTE6T4BfD4YDZcqUBiYRmD0ddOmfHoKDzKBIcTMFawz9HQv3yxRsRDDLVp5HP",
+              "received": false
+            },
+            {
+              "_id": "6977eb641c508c5d5ebdb9bb",
+              "name": "Sausages53225",
+              "amount": 398,
+              "price": 15898,
+              "manufacturer": "Sony",
+              "notes": "w1ugDs3qpIgBY0dJFOs4EFTD6EXsAgZGVaNwMQJN5hTzKmm7hqtxRlJelCSC8oQA8DgbpBBxJQ21fd493jUXQGoZXHzpBkb8j1RkjdmuYam8oAHW4ITf2bbXAsKwWZKERJw2AKZOLYkFnJ8u5yLYYwdTTo8AnQutqcR6M30N7xYISkxD03aEiFUglv9fnsqagbwsTN0s0xGTPu4m5j8juQcNE0AShIig4oAvd45KyRpAG44r22SlXCSI60",
+              "received": false
+            }
+          ],
+          "total_price": 40174,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:32:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

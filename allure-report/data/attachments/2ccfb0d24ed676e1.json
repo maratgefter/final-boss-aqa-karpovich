@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-gltmlpsXQ5XvNYINxAEqLLmijnI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ea861c508c5d5ebd1a66",
+        "email": "Antone45@hotmail.com",
+        "name": "Ned Quitzon",
+        "country": "Great Britain",
+        "city": "New Braunfels",
+        "street": "Olson Ferry",
+        "house": 49,
+        "flat": 271,
+        "phone": "+19226775395",
+        "createdOn": "2026-01-26T22:28:22.000Z",
+        "notes": "neo1ZSnWtruvWSgn7brjbN7VkqqyZLWzQgCGLwYpjaMIWnaMZuYTZWUG0PDnDr2Zw5XiQPXbVVyyerEEGgRQRYap9hnxnLKtG8pDD99TucOBNiRlei4GZlkBZKHxdFyxGkaScOJ6PM2fb7edsJtfCSq3EWHeuk8PdcWwAzlUIk2knhws2l1znFBDFQlcFCUYKcpMXo4xkxdsW9IajsgWX31idgiOJHLYHJelf0ShJ4B75hKemHjU3ti0UJ"
+      },
+      "products": [
+        {
+          "_id": "6977ea861c508c5d5ebd1a80",
+          "name": "Fish38558",
+          "amount": 43,
+          "price": 32803,
+          "manufacturer": "Samsung",
+          "notes": "mt9A1ArZFTf1rmDTiPh0mAoOyJzxv7PqU1AZnKeqvylYlHGgi0Paptb99C8lfBg9ZfTySFb9ETCP1Wi4Ky6bd6nGUbKM3e2ueOn8z6PgSVqOsBu1117pU0E273zeLBZtdhh6i9Qp6RHDoOFtJDs5UYBSOU6JHJDbsbloIAe3kxbwRfRjB1hVnsC92SK764BMVi9qqnBAF1pywivTaubsgFDTlW69LGVFDJg0WNNitIiW0kpGrt3o3F737v",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32803,
+      "createdOn": "2026-01-26T22:28:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ea861c508c5d5ebd1a66",
+          "products": [
+            {
+              "_id": "6977ea861c508c5d5ebd1a80",
+              "name": "Fish38558",
+              "amount": 43,
+              "price": 32803,
+              "manufacturer": "Samsung",
+              "notes": "mt9A1ArZFTf1rmDTiPh0mAoOyJzxv7PqU1AZnKeqvylYlHGgi0Paptb99C8lfBg9ZfTySFb9ETCP1Wi4Ky6bd6nGUbKM3e2ueOn8z6PgSVqOsBu1117pU0E273zeLBZtdhh6i9Qp6RHDoOFtJDs5UYBSOU6JHJDbsbloIAe3kxbwRfRjB1hVnsC92SK764BMVi9qqnBAF1pywivTaubsgFDTlW69LGVFDJg0WNNitIiW0kpGrt3o3F737v",
+              "received": false
+            }
+          ],
+          "total_price": 32803,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977ea861c508c5d5ebd1a9f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

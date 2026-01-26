@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:30:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2956",
+    "etag": "W/\"b8c-p7MD7JSoRV4uURJNEQGl1BPnuv8\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977eae61c508c5d5ebd5ca3",
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eae01c508c5d5ebd5942",
+        "email": "Leonie.Schneider@gmail.com",
+        "name": "Krystel Koepp",
+        "country": "Ukraine",
+        "city": "South Osbaldo",
+        "street": "Dicki Isle",
+        "house": 26,
+        "flat": 678,
+        "phone": "+15802394571",
+        "createdOn": "2026-01-26T22:29:52.000Z",
+        "notes": "K59vwBSLdIEWlL0g5JInh4xRtwZNoFnpYYWopT1m5a8ZRxgbE3BP7c4gj3fnxi1CBpDhJBuyUXrO4cWfAUCo74795skDvK4Z2xOMjXZTa2Luxbg6aMKMs9eWSHTJ7u7CKIHcNFfz5fkeZqoSbD0sE2OkMQNCj3MOQT64JDhB1g199Tl9UNBsXWGpyf5tGdsz5yeaBpLakd38Q3OJdeXSjqABPiBxlJ9z10NieVngGDzt4bLWNM7h8NDEL7"
+      },
+      "products": [
+        {
+          "_id": "6977eae21c508c5d5ebd5af4",
+          "name": "Cheese5133",
+          "amount": 526,
+          "price": 23789,
+          "manufacturer": "Google",
+          "notes": "CcpDj5KPhkvGybglzbzREfcaz50UxvRsumuAhyPgo0B1pS9TIPl7k6Wiw6fHMylUFHDnqAEvrZkoL96kjIFTvKdrOxyY0QMb4YozGZHr33xlsMFkgBjdLd6fCCFAwapdo4e0cMpwEnrwwB795qME9UMJESLJ5CKUEixVar3JOcslGV5YssCVOvUKDIxXyPaJNXlUtH56KhqjQLcwzBZp1aWGr3VoHmA0Tfh54Fvg85xNxx0EQnKrSE6Gfc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23789,
+      "createdOn": "2026-01-26T22:29:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eae01c508c5d5ebd5942",
+          "products": [
+            {
+              "_id": "6977eae21c508c5d5ebd5af4",
+              "name": "Cheese5133",
+              "amount": 526,
+              "price": 23789,
+              "manufacturer": "Google",
+              "notes": "CcpDj5KPhkvGybglzbzREfcaz50UxvRsumuAhyPgo0B1pS9TIPl7k6Wiw6fHMylUFHDnqAEvrZkoL96kjIFTvKdrOxyY0QMb4YozGZHr33xlsMFkgBjdLd6fCCFAwapdo4e0cMpwEnrwwB795qME9UMJESLJ5CKUEixVar3JOcslGV5YssCVOvUKDIxXyPaJNXlUtH56KhqjQLcwzBZp1aWGr3VoHmA0Tfh54Fvg85xNxx0EQnKrSE6Gfc",
+              "received": false
+            }
+          ],
+          "total_price": 23789,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:30:05.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eae01c508c5d5ebd5942",
+          "products": [
+            {
+              "_id": "6977eae21c508c5d5ebd5af4",
+              "name": "Cheese5133",
+              "amount": 526,
+              "price": 23789,
+              "manufacturer": "Google",
+              "notes": "CcpDj5KPhkvGybglzbzREfcaz50UxvRsumuAhyPgo0B1pS9TIPl7k6Wiw6fHMylUFHDnqAEvrZkoL96kjIFTvKdrOxyY0QMb4YozGZHr33xlsMFkgBjdLd6fCCFAwapdo4e0cMpwEnrwwB795qME9UMJESLJ5CKUEixVar3JOcslGV5YssCVOvUKDIxXyPaJNXlUtH56KhqjQLcwzBZp1aWGr3VoHmA0Tfh54Fvg85xNxx0EQnKrSE6Gfc",
+              "received": false
+            }
+          ],
+          "total_price": 23789,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:29:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

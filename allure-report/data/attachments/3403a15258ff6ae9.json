@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-JWFzQYNqAndhfuxELx2Y3Ia/AxU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eaa41c508c5d5ebd2d25",
+        "email": "Gonzalo_Hudson@yahoo.com",
+        "name": "Charlie Rogahn",
+        "country": "Germany",
+        "city": "Dickenstown",
+        "street": "Marisol Greens",
+        "house": 44,
+        "flat": 200,
+        "phone": "+15188455174",
+        "createdOn": "2026-01-26T22:28:52.000Z",
+        "notes": "04XvofqjjiRkSfwq0XJE82cfBTI9YysL2435Q2IHhM7Z8cC51K3Ra99GmwcqwvUjJW5MZcoT1FWM2S7Rd3emrigBeOZnuPv7L1IxcvD6k4aeDHViS69ewOKMze7ABwBBznAvY7oXhuoN1aq09NJ0T0CA2OYWI9fkTndgMwvsOo9dSK3UjMDcUnADiZfJErlvzslSmX57FUHKbo4d4GJTViFbseFDcqnNEb1xSpUYXcmPaQB9JRsSJKRqpe"
+      },
+      "products": [
+        {
+          "_id": "6977eaa51c508c5d5ebd2d4f",
+          "name": "Salad9686",
+          "amount": 903,
+          "price": 5418,
+          "manufacturer": "Microsoft",
+          "notes": "ln2n799EancwAKyy7EL3rBUPNGT6echqev9HrHXEsDjOMVpwGemrIF7a0Xrd9ZJPzAyvXlzJjemDdxu6lGF6zxUUXNEwqVc1gLJrBuKTBeCTQRpZX2oDG8cT4i1SM2FiR45wkXcgj4Eb4rgz1cabJQLyVBBp9DqimLWoLqcJVi4FD6E5advIOGC9RYwBdp4vr3o3NIBp6WvJu3LhnLmif5xCmw4or3PZlXT2TkhkZNMFEl13RXRdFDhCQN",
+          "received": false
+        },
+        {
+          "_id": "6977eaa51c508c5d5ebd2d71",
+          "name": "Sausages24200",
+          "amount": 816,
+          "price": 39260,
+          "manufacturer": "Xiaomi",
+          "notes": "FNXcEZbbSh2FFzLM0WKs5YLPtg7l3hdSiE4ZQsCHgpecOZcUwOZxRnR8aALQDVhYJ1hxl985YotfWEDYD9ox9399eTBb6V2cfQzWQ3BmEcQumbEAqMhaIYIwZAF0jjOvgIvBNMdPgbde0Bj8cQRYpXsg35AMQSpzgTn3CT7RLa8mEoAqdOGv8VkEEjv7yhDyq1ptN0FldR9uSn62dNfOSDGeBsGHBVmZRM0QGpLvbwGyAwevDP6yvkJSej",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44678,
+      "createdOn": "2026-01-26T22:28:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eaa41c508c5d5ebd2d25",
+          "products": [
+            {
+              "_id": "6977eaa51c508c5d5ebd2d4f",
+              "name": "Salad9686",
+              "amount": 903,
+              "price": 5418,
+              "manufacturer": "Microsoft",
+              "notes": "ln2n799EancwAKyy7EL3rBUPNGT6echqev9HrHXEsDjOMVpwGemrIF7a0Xrd9ZJPzAyvXlzJjemDdxu6lGF6zxUUXNEwqVc1gLJrBuKTBeCTQRpZX2oDG8cT4i1SM2FiR45wkXcgj4Eb4rgz1cabJQLyVBBp9DqimLWoLqcJVi4FD6E5advIOGC9RYwBdp4vr3o3NIBp6WvJu3LhnLmif5xCmw4or3PZlXT2TkhkZNMFEl13RXRdFDhCQN",
+              "received": false
+            },
+            {
+              "_id": "6977eaa51c508c5d5ebd2d71",
+              "name": "Sausages24200",
+              "amount": 816,
+              "price": 39260,
+              "manufacturer": "Xiaomi",
+              "notes": "FNXcEZbbSh2FFzLM0WKs5YLPtg7l3hdSiE4ZQsCHgpecOZcUwOZxRnR8aALQDVhYJ1hxl985YotfWEDYD9ox9399eTBb6V2cfQzWQ3BmEcQumbEAqMhaIYIwZAF0jjOvgIvBNMdPgbde0Bj8cQRYpXsg35AMQSpzgTn3CT7RLa8mEoAqdOGv8VkEEjv7yhDyq1ptN0FldR9uSn62dNfOSDGeBsGHBVmZRM0QGpLvbwGyAwevDP6yvkJSej",
+              "received": false
+            }
+          ],
+          "total_price": 44678,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977eaa51c508c5d5ebd2d9b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

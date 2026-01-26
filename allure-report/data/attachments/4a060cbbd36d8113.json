@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:29:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-g4EKCPUzr6Zi6zl8tJqZzvIpiR0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977ead41c508c5d5ebd504b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ead31c508c5d5ebd4fcb",
+        "email": "Bonita_Auer24@yahoo.com",
+        "name": "Dante Roberts",
+        "country": "France",
+        "city": "Norfolk",
+        "street": "Bechtelar Mills",
+        "house": 4,
+        "flat": 878,
+        "phone": "+12232284395",
+        "createdOn": "2026-01-26T22:29:39.000Z",
+        "notes": "xuisrZrjOd9X4eWAaQQU3nL0VnoatmUUyoJnMq1gcQ92qbSpB17Grgezn68C0plquiE78Kw0C3mH7JK9EXyyb1j2iLspBM3Rhe1nlQ7FOSHfHZjGSVyIXDnqNZZr4ECkE0lUNeY5XnbpXQng6f036tuYGxaWYbajV69Q4sOGfxqaagHfUIrurLmdZJb0hDvKULbGIMdP9rO9PYZKD0IK0fY1apwfxjav1LRXkxopoejJGr0m9NfjVI06wn"
+      },
+      "products": [
+        {
+          "_id": "6977ead41c508c5d5ebd5006",
+          "name": "Chips34007",
+          "amount": 513,
+          "price": 79372,
+          "manufacturer": "Google",
+          "notes": "ZyKK03DUZm7v0Qhb8gYWT756CVN35kHWZE5Rxidm4w7PjWExxVGaBtrfMk5kyPhYAu78bubp12TKAv2JpZfjKq4WQ5K805TRqJIzrQDRW5ksh8hvmP0khjyXjdIOAGfhADqTBEP6kukXIqWiXzYEcGaQWslTuCHbbbschLQWDIO2u1Ejpdl5n3LnFsaR5BQSEvfl0Ba1Vz7SqwYQ0b1137rZKs6V3jfyuPtUeCLwaH2jsyZrMViI7vJJnk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Norfolk",
+          "street": "Bechtelar Mills",
+          "house": 4,
+          "flat": 878
+        },
+        "finalDate": "2026-02-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 79372,
+      "createdOn": "2026-01-26T22:29:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ead31c508c5d5ebd4fcb",
+          "products": [
+            {
+              "_id": "6977ead41c508c5d5ebd5006",
+              "name": "Chips34007",
+              "amount": 513,
+              "price": 79372,
+              "manufacturer": "Google",
+              "notes": "ZyKK03DUZm7v0Qhb8gYWT756CVN35kHWZE5Rxidm4w7PjWExxVGaBtrfMk5kyPhYAu78bubp12TKAv2JpZfjKq4WQ5K805TRqJIzrQDRW5ksh8hvmP0khjyXjdIOAGfhADqTBEP6kukXIqWiXzYEcGaQWslTuCHbbbschLQWDIO2u1Ejpdl5n3LnFsaR5BQSEvfl0Ba1Vz7SqwYQ0b1137rZKs6V3jfyuPtUeCLwaH2jsyZrMViI7vJJnk",
+              "received": false
+            }
+          ],
+          "total_price": 79372,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Norfolk",
+              "street": "Bechtelar Mills",
+              "house": 4,
+              "flat": 878
+            },
+            "finalDate": "2026-02-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:29:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977ead31c508c5d5ebd4fcb",
+          "products": [
+            {
+              "_id": "6977ead41c508c5d5ebd5006",
+              "name": "Chips34007",
+              "amount": 513,
+              "price": 79372,
+              "manufacturer": "Google",
+              "notes": "ZyKK03DUZm7v0Qhb8gYWT756CVN35kHWZE5Rxidm4w7PjWExxVGaBtrfMk5kyPhYAu78bubp12TKAv2JpZfjKq4WQ5K805TRqJIzrQDRW5ksh8hvmP0khjyXjdIOAGfhADqTBEP6kukXIqWiXzYEcGaQWslTuCHbbbschLQWDIO2u1Ejpdl5n3LnFsaR5BQSEvfl0Ba1Vz7SqwYQ0b1137rZKs6V3jfyuPtUeCLwaH2jsyZrMViI7vJJnk",
+              "received": false
+            }
+          ],
+          "total_price": 79372,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:29:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

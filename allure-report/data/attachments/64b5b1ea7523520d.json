@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:29:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3904",
+    "etag": "W/\"f40-qw46cEejMUbNeWZR0yQv00d2pVQ\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977ead41c508c5d5ebd504d",
+      "status": "In Process",
+      "customer": {
+        "_id": "6977ead31c508c5d5ebd4fe4",
+        "email": "Marcellus.Stehr@hotmail.com",
+        "name": "Mike Swift",
+        "country": "Germany",
+        "city": "Raphaelworth",
+        "street": "Schamberger Terrace",
+        "house": 48,
+        "flat": 696,
+        "phone": "+13016115770",
+        "createdOn": "2026-01-26T22:29:39.000Z",
+        "notes": "Qr0vgbdvcTCaPFCukS34wAMCVfUSScKtyLDzVT6QoS5flEyrXxV8e9ZIRfosy1wBSS8Lul0S52EONt7DQ4i6ZTKt8ZMmHqz7slBDXEa0Nyvlf5w0TKY6payLOtOTuIRZGusu0Vfhv3d59RVyT4I2qYTsSHG93SAhaW4DNZMCB7kWukJc2ROifKpTNMssDI7BZzfgNfd0oG8jqzsR0dGjpx8YO9HodBjsLHZ4GzsQYSYzBByvkwkkIgOPLs"
+      },
+      "products": [
+        {
+          "_id": "6977ead41c508c5d5ebd5009",
+          "name": "Ball25839",
+          "amount": 636,
+          "price": 67857,
+          "manufacturer": "Apple",
+          "notes": "EwDoRIyN2DN007BbdndZuOmcwk8fHijcqKtHZIL4orTeJRHgAn0GzadEn6DGYDgrnD5PcsqyzD4nkYqKQTDUtGUXHbz2VxxGI6xmfR2cRVfiRx4OkMM3igm0L5zJw2DyHSum45boIixdn1mD9MgzAG6OygeOfAH4NNlTuQuOfFeKMThzHJr5yzh1PNDPVH7ldulm4QlNSCqD2uVj21hecWBfl7iQ82fxMdXRR3WdpnsQmjAwy2V8dYIzeS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Raphaelworth",
+          "street": "Schamberger Terrace",
+          "house": 48,
+          "flat": 696
+        },
+        "finalDate": "2026-02-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 67857,
+      "createdOn": "2026-01-26T22:29:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6977ead31c508c5d5ebd4fe4",
+          "products": [
+            {
+              "_id": "6977ead41c508c5d5ebd5009",
+              "name": "Ball25839",
+              "amount": 636,
+              "price": 67857,
+              "manufacturer": "Apple",
+              "notes": "EwDoRIyN2DN007BbdndZuOmcwk8fHijcqKtHZIL4orTeJRHgAn0GzadEn6DGYDgrnD5PcsqyzD4nkYqKQTDUtGUXHbz2VxxGI6xmfR2cRVfiRx4OkMM3igm0L5zJw2DyHSum45boIixdn1mD9MgzAG6OygeOfAH4NNlTuQuOfFeKMThzHJr5yzh1PNDPVH7ldulm4QlNSCqD2uVj21hecWBfl7iQ82fxMdXRR3WdpnsQmjAwy2V8dYIzeS",
+              "received": false
+            }
+          ],
+          "total_price": 67857,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Raphaelworth",
+              "street": "Schamberger Terrace",
+              "house": 48,
+              "flat": 696
+            },
+            "finalDate": "2026-02-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:29:44.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977ead31c508c5d5ebd4fe4",
+          "products": [
+            {
+              "_id": "6977ead41c508c5d5ebd5009",
+              "name": "Ball25839",
+              "amount": 636,
+              "price": 67857,
+              "manufacturer": "Apple",
+              "notes": "EwDoRIyN2DN007BbdndZuOmcwk8fHijcqKtHZIL4orTeJRHgAn0GzadEn6DGYDgrnD5PcsqyzD4nkYqKQTDUtGUXHbz2VxxGI6xmfR2cRVfiRx4OkMM3igm0L5zJw2DyHSum45boIixdn1mD9MgzAG6OygeOfAH4NNlTuQuOfFeKMThzHJr5yzh1PNDPVH7ldulm4QlNSCqD2uVj21hecWBfl7iQ82fxMdXRR3WdpnsQmjAwy2V8dYIzeS",
+              "received": false
+            }
+          ],
+          "total_price": 67857,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Raphaelworth",
+              "street": "Schamberger Terrace",
+              "house": 48,
+              "flat": 696
+            },
+            "finalDate": "2026-02-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:29:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977ead31c508c5d5ebd4fe4",
+          "products": [
+            {
+              "_id": "6977ead41c508c5d5ebd5009",
+              "name": "Ball25839",
+              "amount": 636,
+              "price": 67857,
+              "manufacturer": "Apple",
+              "notes": "EwDoRIyN2DN007BbdndZuOmcwk8fHijcqKtHZIL4orTeJRHgAn0GzadEn6DGYDgrnD5PcsqyzD4nkYqKQTDUtGUXHbz2VxxGI6xmfR2cRVfiRx4OkMM3igm0L5zJw2DyHSum45boIixdn1mD9MgzAG6OygeOfAH4NNlTuQuOfFeKMThzHJr5yzh1PNDPVH7ldulm4QlNSCqD2uVj21hecWBfl7iQ82fxMdXRR3WdpnsQmjAwy2V8dYIzeS",
+              "received": false
+            }
+          ],
+          "total_price": 67857,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:29:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

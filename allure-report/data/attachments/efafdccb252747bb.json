@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:30:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3435",
+    "etag": "W/\"d6b-rfwjmrrNUOb4x7HsEYz/tLIh0x0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eaef1c508c5d5ebd6240",
+        "email": "Bill23@gmail.com",
+        "name": "Nina Dietrich",
+        "country": "Great Britain",
+        "city": "Santa Clarita",
+        "street": "Chestnut Grove",
+        "house": 15,
+        "flat": 14,
+        "phone": "+16325935720",
+        "createdOn": "2026-01-26T22:30:07.000Z",
+        "notes": "kcegM0Pd6CwbgQTr07jzIdHK6GZR8iRkU4uFYVOSTBAVOsbsbIhFjYrfZ0w7KrtfLXpbMOGZM4YuCniFDm4qRn4Srql2rfPs66cNiWkydxG7LFwiL7OZlFWMj9bTSumQqC4WR1v8mLOw2GdtHvPiBU6bmf2em2gLGssdFSGiWhxPydsJcjWZl1AC2a4Go3uEKuogFiOhylKCTb4JaW8CK3EvITDZJqsDo7s9okXV9LuVx7uXQfTzMw0xIH"
+      },
+      "products": [
+        {
+          "_id": "6977eaef1c508c5d5ebd626e",
+          "name": "Pizza58079",
+          "amount": 641,
+          "price": 10081,
+          "manufacturer": "Google",
+          "notes": "foYU63lw3FXyS2TymRe2wtcTSUcOEDX16vtLTUIqhXIU9HNzRird4XxIWhYzhN7szTEjfnWGLb0FXHBd6npdtWuzTAAhZMaXBOm9axIElCZeqKAwCXG4zMIcC2RbOiNcrXfsxDH2WshK2dIVt3bdMrL1chmQd9XLiMTXKV0cbz0RF1MPiqOC8Zvup2GJwxrvikZhXxSfCOYte4oZIOCA3he11UvplGJ2yKh2iU9EqWaOo2GgqRqBPZUTFb",
+          "received": false
+        },
+        {
+          "_id": "6977eaf01c508c5d5ebd62a9",
+          "name": "Chips80409",
+          "amount": 868,
+          "price": 67410,
+          "manufacturer": "Microsoft",
+          "notes": "9H4jggjBMosXr4P9tWigXdK6x2CG8fjcgcj7ibdmjqx2JDgZqZrMUqP12YHs1IMZRGRRBoraTUrWhvcTASKklMBIgmpFpHiv8e2AG92SWKszt3w966ztYi2d6vjYfswx137kE6rOHnuexmFi9Ck0xJEIBkI2FsIbwsUtuJUkoWg5mDJR9uFudEajFrmazTum4sgmATN5ZNSpieySj6NZE1WCEbYBHeQ773v6QEb2E6GJ5XqOT0Qt4uMD42",
+          "received": false
+        },
+        {
+          "_id": "6977eaf01c508c5d5ebd6479",
+          "name": "Sausages99010",
+          "amount": 46,
+          "price": 30872,
+          "manufacturer": "Samsung",
+          "notes": "zMMaapNWqut5t3kN1P3lBIyozhCPPCFrzB82Zzn3y29t0enjy4LHpjMaTc3kt1kDZYnVX1aSkjuvxTz94s7RkGrsZY4KvVIX0KFOlLzfMqRjZoRqvfI2mVyby33bO3MM8yaT9wUgo5zDUhNKPIeVsVKuFPsDfzlbyLWlvhHlihAQQWTg9EM9zqi684V33K5ecKSNMDuPsu8yzqY5PsrGgnLQguRRn4eDkt6WXGxkOibN18qiO19JCAvFQ1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108363,
+      "createdOn": "2026-01-26T22:30:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eaef1c508c5d5ebd6240",
+          "products": [
+            {
+              "_id": "6977eaef1c508c5d5ebd626e",
+              "name": "Pizza58079",
+              "amount": 641,
+              "price": 10081,
+              "manufacturer": "Google",
+              "notes": "foYU63lw3FXyS2TymRe2wtcTSUcOEDX16vtLTUIqhXIU9HNzRird4XxIWhYzhN7szTEjfnWGLb0FXHBd6npdtWuzTAAhZMaXBOm9axIElCZeqKAwCXG4zMIcC2RbOiNcrXfsxDH2WshK2dIVt3bdMrL1chmQd9XLiMTXKV0cbz0RF1MPiqOC8Zvup2GJwxrvikZhXxSfCOYte4oZIOCA3he11UvplGJ2yKh2iU9EqWaOo2GgqRqBPZUTFb",
+              "received": false
+            },
+            {
+              "_id": "6977eaf01c508c5d5ebd62a9",
+              "name": "Chips80409",
+              "amount": 868,
+              "price": 67410,
+              "manufacturer": "Microsoft",
+              "notes": "9H4jggjBMosXr4P9tWigXdK6x2CG8fjcgcj7ibdmjqx2JDgZqZrMUqP12YHs1IMZRGRRBoraTUrWhvcTASKklMBIgmpFpHiv8e2AG92SWKszt3w966ztYi2d6vjYfswx137kE6rOHnuexmFi9Ck0xJEIBkI2FsIbwsUtuJUkoWg5mDJR9uFudEajFrmazTum4sgmATN5ZNSpieySj6NZE1WCEbYBHeQ773v6QEb2E6GJ5XqOT0Qt4uMD42",
+              "received": false
+            },
+            {
+              "_id": "6977eaf01c508c5d5ebd6479",
+              "name": "Sausages99010",
+              "amount": 46,
+              "price": 30872,
+              "manufacturer": "Samsung",
+              "notes": "zMMaapNWqut5t3kN1P3lBIyozhCPPCFrzB82Zzn3y29t0enjy4LHpjMaTc3kt1kDZYnVX1aSkjuvxTz94s7RkGrsZY4KvVIX0KFOlLzfMqRjZoRqvfI2mVyby33bO3MM8yaT9wUgo5zDUhNKPIeVsVKuFPsDfzlbyLWlvhHlihAQQWTg9EM9zqi684V33K5ecKSNMDuPsu8yzqY5PsrGgnLQguRRn4eDkt6WXGxkOibN18qiO19JCAvFQ1",
+              "received": false
+            }
+          ],
+          "total_price": 108363,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:30:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977eaf71c508c5d5ebd67e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

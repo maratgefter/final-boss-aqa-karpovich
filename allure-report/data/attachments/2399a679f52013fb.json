@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2681",
+    "etag": "W/\"a79-Ow8zkXu/Uzd+F8Wd3qXB3T6dtY8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ea8e1c508c5d5ebd1f44",
+        "email": "Van_Schowalter@gmail.com",
+        "name": "Sydni Schamberger",
+        "country": "Russia",
+        "city": "Rocky Mount",
+        "street": "Efrain Haven",
+        "house": 44,
+        "flat": 359,
+        "phone": "+16085327502",
+        "createdOn": "2026-01-26T22:28:30.000Z",
+        "notes": "HmPovdLqmvP8SbkXzP7I9f1yVAuAlTQFb2XnhU7VzoX2QGtfGZS4XMi4ahiURIbKcehZGGGIstpvNpMl3bFy2H0O1DSnjBIWkH1i1rDnP3SnSBLrVmULjLSIgpPy5fa60ONTTpnVksMLaZ2m8x3Q8CDfAbnJZBrS37rbWQ4D6HYBlDmLVu8Hwg2CpXokHpvDF6dx4lPyX5iWdd1zIrlrUfQkXzVTCYvmE3OeHcfyqFMPiIHMqp8QwZ8awc"
+      },
+      "products": [
+        {
+          "_id": "6977ea8f1c508c5d5ebd1f75",
+          "name": "Computer25499",
+          "amount": 902,
+          "price": 64791,
+          "manufacturer": "Microsoft",
+          "notes": "KxygfsP2ptzpNwLaslx83LeB2a5fUhEkkoh3mtQI4qRHuBoZARYK3y2LpTtECnzjwft0UsmY9MpYjiVvqEQVLFf4Cx4Q3nlyhpsw4i2e324Ija3dkubWEduRcmsnoYapklsimVbKJBcsexBw9eRw7ermAt0ATnDxSK6Vw2HrFVVnyfY4mMpKqjrUqjuz0eyDKhybEJEk2oJwHekPfKSfL1iAUUyr9YdDp7g02sKeeFAgnfbgEOkod6wGa7",
+          "received": false
+        },
+        {
+          "_id": "6977ea8f1c508c5d5ebd1f9e",
+          "name": "Computer77884",
+          "amount": 873,
+          "price": 65622,
+          "manufacturer": "Microsoft",
+          "notes": "cqixHzM2KcyJsMEsDrlqwZ6dFMrgStznYlZO5siGxxkY0BqdRjowOjzWL8jJP9hVb4weRDCzddwzgcvWzggnoJDeOD6Ler9M40AMlc4nMDlqePMXyNsjCFsQynshiXqX9mggbjEZdGFZHnM4ruQN9PiWXhMGsxwAOoXfeeDU0KUXT4eTKyXnJIe3XD3DqH8LToo27mfdkBlLjhg0fDUCiM5zFyRE95t1U6NCAhz7RFMW3mEdiNZx5ShtG1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 130413,
+      "createdOn": "2026-01-26T22:28:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ea8e1c508c5d5ebd1f44",
+          "products": [
+            {
+              "_id": "6977ea8f1c508c5d5ebd1f75",
+              "name": "Computer25499",
+              "amount": 902,
+              "price": 64791,
+              "manufacturer": "Microsoft",
+              "notes": "KxygfsP2ptzpNwLaslx83LeB2a5fUhEkkoh3mtQI4qRHuBoZARYK3y2LpTtECnzjwft0UsmY9MpYjiVvqEQVLFf4Cx4Q3nlyhpsw4i2e324Ija3dkubWEduRcmsnoYapklsimVbKJBcsexBw9eRw7ermAt0ATnDxSK6Vw2HrFVVnyfY4mMpKqjrUqjuz0eyDKhybEJEk2oJwHekPfKSfL1iAUUyr9YdDp7g02sKeeFAgnfbgEOkod6wGa7",
+              "received": false
+            },
+            {
+              "_id": "6977ea8f1c508c5d5ebd1f9e",
+              "name": "Computer77884",
+              "amount": 873,
+              "price": 65622,
+              "manufacturer": "Microsoft",
+              "notes": "cqixHzM2KcyJsMEsDrlqwZ6dFMrgStznYlZO5siGxxkY0BqdRjowOjzWL8jJP9hVb4weRDCzddwzgcvWzggnoJDeOD6Ler9M40AMlc4nMDlqePMXyNsjCFsQynshiXqX9mggbjEZdGFZHnM4ruQN9PiWXhMGsxwAOoXfeeDU0KUXT4eTKyXnJIe3XD3DqH8LToo27mfdkBlLjhg0fDUCiM5zFyRE95t1U6NCAhz7RFMW3mEdiNZx5ShtG1",
+              "received": false
+            }
+          ],
+          "total_price": 130413,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977ea901c508c5d5ebd1fc1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

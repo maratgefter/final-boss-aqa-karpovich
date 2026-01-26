@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:31:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-eu7+HdKzwJRnNuHQPf5TuKcOWLo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eb231c508c5d5ebd899e",
+        "email": "Werner15@hotmail.com",
+        "name": "Rowena Johnston",
+        "country": "Germany",
+        "city": "Dallas",
+        "street": "Vern Parkway",
+        "house": 39,
+        "flat": 163,
+        "phone": "+12122196222",
+        "createdOn": "2026-01-26T22:30:59.000Z",
+        "notes": "vrXnxJpTQJMSPMnkqkxiNTcMe0PhqkbbJQEeIlBIvqXa67UR6afKM48svwULi1y4J6pKgc4H8Wu0zHwMtFJli3UwXXya1Ce2r4j5mMLm2TjZ5PuJhlrk2nIi0aZ4mRdV71llB8hFp4N5a3E3tkgwXDNcVlnrZmb18gJmpaeLCUtBgPDmUBanRbtVB80rJ0XWZFwxwBAhlgQVKhZG2erdix2brJP96XKwqRpwnL2ooHoXVxqsVzp9VDlzIl"
+      },
+      "products": [
+        {
+          "_id": "6977eb231c508c5d5ebd89bc",
+          "name": "Pizza57551",
+          "amount": 199,
+          "price": 63374,
+          "manufacturer": "Google",
+          "notes": "Ytlb4swVkhv3aDJ2ZPBBXasEvrEtmC9vUrvZtR8ZWyKWRia1aMQCia1aoKsoluZH2TusRnJjoxaJ6Ti7EXkSKiRzVHpKORCA1yQzvruA9AR1E0T3IjDhbC7EmqfIypJInyYsbWFLVuahJurQ9Qfa91stLCAof5t4WUpvc5JOLVAKuSWBLBhA9EDPMBbIIRlBXZHZkORXk5WbJDqlc9wQ1iTuStHK3BBZ8SQSddg67zkYnTjqZaTHq7bZMN",
+          "received": false
+        },
+        {
+          "_id": "6977eb231c508c5d5ebd89de",
+          "name": "Table27996",
+          "amount": 800,
+          "price": 21890,
+          "manufacturer": "Microsoft",
+          "notes": "2j2swAPld65fzKhUKJDA59ndWFJ6FbQgzvuT2qzZuH4sT7s5rOqhnyQPucZyTOyn3JUe1zrRPsioljaHqsVLB7tvvxahthqiFuSoBBTqmu6G7JLU9JeeabH4kia73px0Pg1nuD5VURmkbNnfmvTDV0gpNCE8JX1aH1T0tfBp6MXFzzQRz9SEuji3BQA3akmOpqUW7a3XoPlLyCiHbyF1eNEhNnuRXnMAAxlv6Ih1IPRxlZcSunZSGwDzF4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85264,
+      "createdOn": "2026-01-26T22:31:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eb231c508c5d5ebd899e",
+          "products": [
+            {
+              "_id": "6977eb231c508c5d5ebd89bc",
+              "name": "Pizza57551",
+              "amount": 199,
+              "price": 63374,
+              "manufacturer": "Google",
+              "notes": "Ytlb4swVkhv3aDJ2ZPBBXasEvrEtmC9vUrvZtR8ZWyKWRia1aMQCia1aoKsoluZH2TusRnJjoxaJ6Ti7EXkSKiRzVHpKORCA1yQzvruA9AR1E0T3IjDhbC7EmqfIypJInyYsbWFLVuahJurQ9Qfa91stLCAof5t4WUpvc5JOLVAKuSWBLBhA9EDPMBbIIRlBXZHZkORXk5WbJDqlc9wQ1iTuStHK3BBZ8SQSddg67zkYnTjqZaTHq7bZMN",
+              "received": false
+            },
+            {
+              "_id": "6977eb231c508c5d5ebd89de",
+              "name": "Table27996",
+              "amount": 800,
+              "price": 21890,
+              "manufacturer": "Microsoft",
+              "notes": "2j2swAPld65fzKhUKJDA59ndWFJ6FbQgzvuT2qzZuH4sT7s5rOqhnyQPucZyTOyn3JUe1zrRPsioljaHqsVLB7tvvxahthqiFuSoBBTqmu6G7JLU9JeeabH4kia73px0Pg1nuD5VURmkbNnfmvTDV0gpNCE8JX1aH1T0tfBp6MXFzzQRz9SEuji3BQA3akmOpqUW7a3XoPlLyCiHbyF1eNEhNnuRXnMAAxlv6Ih1IPRxlZcSunZSGwDzF4",
+              "received": false
+            }
+          ],
+          "total_price": 85264,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:31:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977eb241c508c5d5ebd8a03"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

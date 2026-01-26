@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:30:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2945",
+    "etag": "W/\"b81-+IIj47xaoW6PDRvl+M9fyvuI/E4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977eae61c508c5d5ebd5cb2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eae11c508c5d5ebd5952",
+        "email": "Caesar96@hotmail.com",
+        "name": "Tremayne Greenholt",
+        "country": "Germany",
+        "city": "Lemkefort",
+        "street": "Juniper Close",
+        "house": 34,
+        "flat": 274,
+        "phone": "+18726902809",
+        "createdOn": "2026-01-26T22:29:53.000Z",
+        "notes": "Zfe71q5ObR8FDoqSV3Pke9oSNF7a4vMeWmfhI596SrJSM7lxRDz8zwX8kzUOX1OsL2nfGDRFhEvpJxgZSHLnTMUL6cDcAVWrK7aql3rklfkO7NG4BGi58x9nJc0EDPsHku5ALr8vbFv1lRNid1At4KHXzHx5UqWrKlBEMzghDsJlJGwayFSxhTIj6NEQq11AzIHs98UtMzsP4QwFZKCdhQoc6ELci0d5RZUTukG4ubpB9izwLoy49li7HU"
+      },
+      "products": [
+        {
+          "_id": "6977eae41c508c5d5ebd5c88",
+          "name": "Shirt10953",
+          "amount": 91,
+          "price": 9074,
+          "manufacturer": "Amazon",
+          "notes": "aK8QcCLnrRIHJaDH8gnhmEDEIO1mjw8P1afBoHCZ7pr1Q7t3X1Bxqc8s9tUeKEjhbWF0LFL30xVGPNGSWRXkjlz75JQ8IwY7tq8mU4DCkJiMOcsXILSvHmFzJo0cIuIa8ufG8bN3HlJq2btsOoHhHKDdoj6DmAzfJUYV6z5AGQK0aheZ4zQwmTwXdP8Am1t1I3GzctHyRS0ENxBfqauZzsXn6f5iaFZzUloZWsUxIlZDLLLt6aGSIySHDf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9074,
+      "createdOn": "2026-01-26T22:29:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eae11c508c5d5ebd5952",
+          "products": [
+            {
+              "_id": "6977eae41c508c5d5ebd5c88",
+              "name": "Shirt10953",
+              "amount": 91,
+              "price": 9074,
+              "manufacturer": "Amazon",
+              "notes": "aK8QcCLnrRIHJaDH8gnhmEDEIO1mjw8P1afBoHCZ7pr1Q7t3X1Bxqc8s9tUeKEjhbWF0LFL30xVGPNGSWRXkjlz75JQ8IwY7tq8mU4DCkJiMOcsXILSvHmFzJo0cIuIa8ufG8bN3HlJq2btsOoHhHKDdoj6DmAzfJUYV6z5AGQK0aheZ4zQwmTwXdP8Am1t1I3GzctHyRS0ENxBfqauZzsXn6f5iaFZzUloZWsUxIlZDLLLt6aGSIySHDf",
+              "received": false
+            }
+          ],
+          "total_price": 9074,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:30:05.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eae11c508c5d5ebd5952",
+          "products": [
+            {
+              "_id": "6977eae41c508c5d5ebd5c88",
+              "name": "Shirt10953",
+              "amount": 91,
+              "price": 9074,
+              "manufacturer": "Amazon",
+              "notes": "aK8QcCLnrRIHJaDH8gnhmEDEIO1mjw8P1afBoHCZ7pr1Q7t3X1Bxqc8s9tUeKEjhbWF0LFL30xVGPNGSWRXkjlz75JQ8IwY7tq8mU4DCkJiMOcsXILSvHmFzJo0cIuIa8ufG8bN3HlJq2btsOoHhHKDdoj6DmAzfJUYV6z5AGQK0aheZ4zQwmTwXdP8Am1t1I3GzctHyRS0ENxBfqauZzsXn6f5iaFZzUloZWsUxIlZDLLLt6aGSIySHDf",
+              "received": false
+            }
+          ],
+          "total_price": 9074,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:29:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

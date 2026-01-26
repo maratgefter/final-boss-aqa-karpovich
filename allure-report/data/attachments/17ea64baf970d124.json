@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:32:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4862",
+    "etag": "W/\"12fe-E3yMSYhsXDiiq9B6nLNcg8ld7Hk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977eb651c508c5d5ebdba23",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6977eb641c508c5d5ebdb9a6",
+        "email": "Lisandro.Hodkiewicz@gmail.com",
+        "name": "Emory Runolfsson",
+        "country": "Great Britain",
+        "city": "Delaneyworth",
+        "street": "Lueilwitz Rapids",
+        "house": 45,
+        "flat": 160,
+        "phone": "+13586727604",
+        "createdOn": "2026-01-26T22:32:04.000Z",
+        "notes": "JfrNl3jAB9EQTUFmOYVJ22OrtcyDJaFsrrqB9FJ4ZGw2sen6QKl8AS55Ma8l0uM6Yx1HCrGKKuVAIKhaNWexcVxg9B5m5MZRVjDIGjorpmuChNUqpBDebQVYHAhA6hviueSvXx1jkFSq3jph1Ac3zIsG5ljBOmidbBh0Cmfmpcu4EnWyLv4pSuLvKuyBXRPh4u7U4XJWnKEhZULMVSOr4MNqQSkOAcjDKrdq8A4gwOy2ke8rAlShBplSJB"
+      },
+      "products": [
+        {
+          "_id": "6977eb651c508c5d5ebdb9dd",
+          "name": "Ball37593",
+          "amount": 362,
+          "price": 82325,
+          "manufacturer": "Microsoft",
+          "notes": "TCzNkea8To8NJtcambNkYTxQUGE8kR8LoqK2khK0DWNWS9k6OrJ6ayoJyRVLjPC1NcWBJgAy1hmjWtFPZZpcX0VkviLekBENCrQy30n0o0KvUObaqouuAJuTKZy02Itd0K0PIn0oxNDi2dJGmxEUtcIU1WQv8ToRGz5CDm87n435CPqS4EJcYCVBBKXyAXMCxJw5ze8GeOsSqOQOzVOpmMvoIylp1LOBxvucKPXiNjGBUDDf4c12OAxoTT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Delaneyworth",
+          "street": "Lueilwitz Rapids",
+          "house": 45,
+          "flat": 160
+        },
+        "finalDate": "2026-01-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 82325,
+      "createdOn": "2026-01-26T22:32:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6977eb641c508c5d5ebdb9a6",
+          "products": [
+            {
+              "_id": "6977eb651c508c5d5ebdb9dd",
+              "name": "Ball37593",
+              "amount": 362,
+              "price": 82325,
+              "manufacturer": "Microsoft",
+              "notes": "TCzNkea8To8NJtcambNkYTxQUGE8kR8LoqK2khK0DWNWS9k6OrJ6ayoJyRVLjPC1NcWBJgAy1hmjWtFPZZpcX0VkviLekBENCrQy30n0o0KvUObaqouuAJuTKZy02Itd0K0PIn0oxNDi2dJGmxEUtcIU1WQv8ToRGz5CDm87n435CPqS4EJcYCVBBKXyAXMCxJw5ze8GeOsSqOQOzVOpmMvoIylp1LOBxvucKPXiNjGBUDDf4c12OAxoTT",
+              "received": false
+            }
+          ],
+          "total_price": 82325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Delaneyworth",
+              "street": "Lueilwitz Rapids",
+              "house": 45,
+              "flat": 160
+            },
+            "finalDate": "2026-01-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:32:33.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6977eb641c508c5d5ebdb9a6",
+          "products": [
+            {
+              "_id": "6977eb651c508c5d5ebdb9dd",
+              "name": "Ball37593",
+              "amount": 362,
+              "price": 82325,
+              "manufacturer": "Microsoft",
+              "notes": "TCzNkea8To8NJtcambNkYTxQUGE8kR8LoqK2khK0DWNWS9k6OrJ6ayoJyRVLjPC1NcWBJgAy1hmjWtFPZZpcX0VkviLekBENCrQy30n0o0KvUObaqouuAJuTKZy02Itd0K0PIn0oxNDi2dJGmxEUtcIU1WQv8ToRGz5CDm87n435CPqS4EJcYCVBBKXyAXMCxJw5ze8GeOsSqOQOzVOpmMvoIylp1LOBxvucKPXiNjGBUDDf4c12OAxoTT",
+              "received": false
+            }
+          ],
+          "total_price": 82325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Delaneyworth",
+              "street": "Lueilwitz Rapids",
+              "house": 45,
+              "flat": 160
+            },
+            "finalDate": "2026-01-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:32:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eb641c508c5d5ebdb9a6",
+          "products": [
+            {
+              "_id": "6977eb651c508c5d5ebdb9dd",
+              "name": "Ball37593",
+              "amount": 362,
+              "price": 82325,
+              "manufacturer": "Microsoft",
+              "notes": "TCzNkea8To8NJtcambNkYTxQUGE8kR8LoqK2khK0DWNWS9k6OrJ6ayoJyRVLjPC1NcWBJgAy1hmjWtFPZZpcX0VkviLekBENCrQy30n0o0KvUObaqouuAJuTKZy02Itd0K0PIn0oxNDi2dJGmxEUtcIU1WQv8ToRGz5CDm87n435CPqS4EJcYCVBBKXyAXMCxJw5ze8GeOsSqOQOzVOpmMvoIylp1LOBxvucKPXiNjGBUDDf4c12OAxoTT",
+              "received": false
+            }
+          ],
+          "total_price": 82325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Delaneyworth",
+              "street": "Lueilwitz Rapids",
+              "house": 45,
+              "flat": 160
+            },
+            "finalDate": "2026-01-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:32:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eb641c508c5d5ebdb9a6",
+          "products": [
+            {
+              "_id": "6977eb651c508c5d5ebdb9dd",
+              "name": "Ball37593",
+              "amount": 362,
+              "price": 82325,
+              "manufacturer": "Microsoft",
+              "notes": "TCzNkea8To8NJtcambNkYTxQUGE8kR8LoqK2khK0DWNWS9k6OrJ6ayoJyRVLjPC1NcWBJgAy1hmjWtFPZZpcX0VkviLekBENCrQy30n0o0KvUObaqouuAJuTKZy02Itd0K0PIn0oxNDi2dJGmxEUtcIU1WQv8ToRGz5CDm87n435CPqS4EJcYCVBBKXyAXMCxJw5ze8GeOsSqOQOzVOpmMvoIylp1LOBxvucKPXiNjGBUDDf4c12OAxoTT",
+              "received": false
+            }
+          ],
+          "total_price": 82325,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:32:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-HGgKzhmaJFyyO8+uZmvvngucu0g\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eaa41c508c5d5ebd2d33",
+        "email": "Elinor46@hotmail.com",
+        "name": "Sedrick Lakin",
+        "country": "Belarus",
+        "city": "Chicopee",
+        "street": "Streich Parkway",
+        "house": 31,
+        "flat": 268,
+        "phone": "+14843318854",
+        "createdOn": "2026-01-26T22:28:52.000Z",
+        "notes": "tdywSDxO5VEXVrL6hGFJYemRB2B53CBKtRtyUzHfkaaMIDclb9byoP0lEhXrsAHt0pYZhGMmvHOY2hU26qbpjCDvifAB3w3gV1dq5R4mVZYDFtWV8eMJwNFYNEihbknCjpavvj2NXzCy5vsCAA2PLlE2zopVB6vB9saXSLr3dYJbyjk9Ty5uw565zgQ9zfNpNo02LcXGTm0BsVHGyZqiv3Y1x4ISYv8FL10XPK23c60QWxRUseokPL2q8w"
+      },
+      "products": [
+        {
+          "_id": "6977eaa51c508c5d5ebd2d57",
+          "name": "Ball86985",
+          "amount": 784,
+          "price": 34265,
+          "manufacturer": "Samsung",
+          "notes": "iU6KJAtnNetfhKtnhLESjSgIl9y18ReyASjq1pNHVw6Tqqv3GxLBg1rPcWbsfZsKB2Fvng68wgaFJ4PCA8Bvi3sZLK2SgkmCc3wXeKYmigUEwkIogNjwpwNNutPZktaBcgj6H4YkodsmyYs0e81dlcJNLRW1NRB0NeRd7UK4MlgijC74Vx9Ss4Afq5SAmzsPCSI1eZu1C4mTe8R4GHfEPVPK01nyeJrV0bw8MioqOvQBRqiNyfrFCOxE88",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34265,
+      "createdOn": "2026-01-26T22:28:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eaa41c508c5d5ebd2d33",
+          "products": [
+            {
+              "_id": "6977eaa51c508c5d5ebd2d57",
+              "name": "Ball86985",
+              "amount": 784,
+              "price": 34265,
+              "manufacturer": "Samsung",
+              "notes": "iU6KJAtnNetfhKtnhLESjSgIl9y18ReyASjq1pNHVw6Tqqv3GxLBg1rPcWbsfZsKB2Fvng68wgaFJ4PCA8Bvi3sZLK2SgkmCc3wXeKYmigUEwkIogNjwpwNNutPZktaBcgj6H4YkodsmyYs0e81dlcJNLRW1NRB0NeRd7UK4MlgijC74Vx9Ss4Afq5SAmzsPCSI1eZu1C4mTe8R4GHfEPVPK01nyeJrV0bw8MioqOvQBRqiNyfrFCOxE88",
+              "received": false
+            }
+          ],
+          "total_price": 34265,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977eaa51c508c5d5ebd2d88"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-AiGoXLoy0BqYGsTXrzC/LTnoYb0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6977ea901c508c5d5ebd1fbe",
+        "email": "Duncan_Lesch55@hotmail.com",
+        "name": "Oda Littel",
+        "country": "USA",
+        "city": "Gottliebstead",
+        "street": "Arnulfo Spur",
+        "house": 32,
+        "flat": 979,
+        "phone": "+15005115729",
+        "createdOn": "2026-01-26T22:28:32.000Z",
+        "notes": "ZTJIStQ0a9B53QF0h36GOOTMFNk1CuaqoqY23vQq38lTVgOHs1MFxritWOu7IUZNlpI5wVAnO6bQ7D44pnSTP6SiDY4zzXnDaVtt5Jr4vqFKWiXlPWTiPENJQzyggJk1zKWQpc4YrShGaxdzWxJYDsIh5O7GeQrDDF2D25FLmBHNf77Bmv6piJpRPFEU6kZ7BQyhiHquasKsKVqOMjHnQ2JdDWjhT1Z9ct5Ed6niw4n8eDvNtwXwgf8c9L"
+      },
+      "products": [
+        {
+          "_id": "6977ea921c508c5d5ebd214b",
+          "name": "Computer37111",
+          "amount": 897,
+          "price": 62461,
+          "manufacturer": "Samsung",
+          "notes": "woe5CcLVoDA9R1I1bHxRpM9wWwVVyf0svubk1ujf2JcMQ4lUND5rt8LacjT602DWlxU2oivT3JixGuTdsf99hUCBYyS1n3FKkN7FRpYWeO1ZSohrX9wXupbAV0ftIwO57yjyrAyqT2DqjDgBM6FGh1BG68tkDpYyVCsbElAxCCd9zKYGITkgE8U28JJO6WwqeQpB0OA4TnSBoKcemUshJBEe5BWnn2p0Gew84tnGz4eTo9yEqemMNVo8NA",
+          "received": false
+        },
+        {
+          "_id": "6977ea921c508c5d5ebd2173",
+          "name": "Bike21531",
+          "amount": 247,
+          "price": 73565,
+          "manufacturer": "Samsung",
+          "notes": "oufYZRXWotXU9M4XMhQK5TF9XbprYWNGIiGCdcMGm1BR6sUG4Yt8ixLi64AXDkp29K9G4ODM0qrLTjg59rni9vCibTX167e1ygekLk4iKp9EL5Ffy0BlNdf8rWK4DlYcfJ8cF7Az3ubDi16JoAktzxTMP6zNa7HqanYwNVXA2rhm2jFpTTXhzLYEftFDRkU34YdzupyGdBOFzApyzQq61Jj3Bw3a582LWn9y3YsUkqszHAp1WdckFtxOGC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 136026,
+      "createdOn": "2026-01-26T22:28:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977ea901c508c5d5ebd1fbe",
+          "products": [
+            {
+              "_id": "6977ea921c508c5d5ebd214b",
+              "name": "Computer37111",
+              "amount": 897,
+              "price": 62461,
+              "manufacturer": "Samsung",
+              "notes": "woe5CcLVoDA9R1I1bHxRpM9wWwVVyf0svubk1ujf2JcMQ4lUND5rt8LacjT602DWlxU2oivT3JixGuTdsf99hUCBYyS1n3FKkN7FRpYWeO1ZSohrX9wXupbAV0ftIwO57yjyrAyqT2DqjDgBM6FGh1BG68tkDpYyVCsbElAxCCd9zKYGITkgE8U28JJO6WwqeQpB0OA4TnSBoKcemUshJBEe5BWnn2p0Gew84tnGz4eTo9yEqemMNVo8NA",
+              "received": false
+            },
+            {
+              "_id": "6977ea921c508c5d5ebd2173",
+              "name": "Bike21531",
+              "amount": 247,
+              "price": 73565,
+              "manufacturer": "Samsung",
+              "notes": "oufYZRXWotXU9M4XMhQK5TF9XbprYWNGIiGCdcMGm1BR6sUG4Yt8ixLi64AXDkp29K9G4ODM0qrLTjg59rni9vCibTX167e1ygekLk4iKp9EL5Ffy0BlNdf8rWK4DlYcfJ8cF7Az3ubDi16JoAktzxTMP6zNa7HqanYwNVXA2rhm2jFpTTXhzLYEftFDRkU34YdzupyGdBOFzApyzQq61Jj3Bw3a582LWn9y3YsUkqszHAp1WdckFtxOGC",
+              "received": false
+            }
+          ],
+          "total_price": 136026,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:28:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6977ea921c508c5d5ebd219f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

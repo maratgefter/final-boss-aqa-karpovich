@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:28:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1409",
+    "etag": "W/\"581-LXRxqtS+XfJELvchUoCZSHaRXGc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6977ea861c508c5d5ebd1a9f",
+        "status": "Draft",
+        "customer": "6977ea861c508c5d5ebd1a66",
+        "products": [
+          {
+            "_id": "6977ea861c508c5d5ebd1a80",
+            "name": "Fish38558",
+            "amount": 43,
+            "price": 32803,
+            "manufacturer": "Samsung",
+            "notes": "mt9A1ArZFTf1rmDTiPh0mAoOyJzxv7PqU1AZnKeqvylYlHGgi0Paptb99C8lfBg9ZfTySFb9ETCP1Wi4Ky6bd6nGUbKM3e2ueOn8z6PgSVqOsBu1117pU0E273zeLBZtdhh6i9Qp6RHDoOFtJDs5UYBSOU6JHJDbsbloIAe3kxbwRfRjB1hVnsC92SK764BMVi9qqnBAF1pywivTaubsgFDTlW69LGVFDJg0WNNitIiW0kpGrt3o3F737v",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 32803,
+        "createdOn": "2026-01-26T22:28:22.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6977ea861c508c5d5ebd1a66",
+            "products": [
+              {
+                "_id": "6977ea861c508c5d5ebd1a80",
+                "name": "Fish38558",
+                "amount": 43,
+                "price": 32803,
+                "manufacturer": "Samsung",
+                "notes": "mt9A1ArZFTf1rmDTiPh0mAoOyJzxv7PqU1AZnKeqvylYlHGgi0Paptb99C8lfBg9ZfTySFb9ETCP1Wi4Ky6bd6nGUbKM3e2ueOn8z6PgSVqOsBu1117pU0E273zeLBZtdhh6i9Qp6RHDoOFtJDs5UYBSOU6JHJDbsbloIAe3kxbwRfRjB1hVnsC92SK764BMVi9qqnBAF1pywivTaubsgFDTlW69LGVFDJg0WNNitIiW0kpGrt3o3F737v",
+                "received": false
+              }
+            ],
+            "total_price": 32803,
+            "delivery": null,
+            "changedOn": "2026-01-26T22:28:22.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

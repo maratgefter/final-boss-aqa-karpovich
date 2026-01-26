@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 26 Jan 2026 22:31:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4119",
+    "etag": "W/\"1017-uN99ouFcV86v0PONYL6WK+b+Wy0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6977eb2c1c508c5d5ebd9145",
+      "status": "Draft",
+      "customer": {
+        "_id": "6977eb251c508c5d5ebd8a5d",
+        "email": "Edwardo_Considine76@gmail.com",
+        "name": "Kadin Gottlieb",
+        "country": "Russia",
+        "city": "Hermistonberg",
+        "street": "Commercial Street",
+        "house": 26,
+        "flat": 521,
+        "phone": "+15196276627",
+        "createdOn": "2026-01-26T22:31:01.000Z",
+        "notes": "APRJAyuVhDCkAwtP9NxJeAF5yZWYzc393gnhgGmbmP8DqI6L4Q69pzpNEWOiaXjVqePcwWq6pqgtgyeOU73DdlWICwrBFMQ5UguOBjr7L9HqBxZVp1S1riGlQKuFG4uBe1c7KlUUFJMMqdpQbTymp608BOSxEWnRMBTaSXT6f3Hyviz80ZXyzgfy5xnz5o4sktaEiefyNLH5byUfY6yjXSmX8f089OR3ItfLmEyBFIp0h4QVLK4PRVI3V9"
+      },
+      "products": [
+        {
+          "_id": "6977eb251c508c5d5ebd8a83",
+          "name": "Hat9223",
+          "amount": 888,
+          "price": 12027,
+          "manufacturer": "Xiaomi",
+          "notes": "wKc4BeVNwYCWDEYv8LY5C8WfipOhlXtVms1MxzoFRjqsEOD40cFqfq5JvH9uDOf9TBA8Arfm9cHD4BDe0GSNKYLY3Y9AiTPPl3wakT3kasEWWa44TDHHj7WlJ5Myjoz8dAlKcRNkAoK8McmsGrM5EOFQHyymZS4GHxanLsqrlwB967tUUBG3d6zu8FJqUqE0TgGWmHc8Lsk4LvAsDKQHuGzUrijVWkLuB3AuITPCfOnTqgZFY5uLTS6kNA",
+          "received": false
+        },
+        {
+          "_id": "6977eb261c508c5d5ebd8acb",
+          "name": "Mouse95611",
+          "amount": 555,
+          "price": 23218,
+          "manufacturer": "Google",
+          "notes": "BCKEiTYBMkP5CGQd8dYy3pEec4I0KhmjJPcuHh0YHR6N8wvmoP1yZ2CNpKwI19jgKbWOcwx8EFxkCZOUvEUr1ytMk2pzC09NZWQXvvVW8T2sGM7xN75v9mT16TJB3ui6Js2KjhAGHQ1BJt6WS944IyyJNVro1jrNhq7ghSsCTrO9uvnR31hpmvxNqaEhfJKafTexnYkWeqac2omMJx3g3QmMQmZmHL4kuZiAKEMHN51aP13YlYEvbLUBhM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Hermistonberg",
+          "street": "Commercial Street",
+          "house": 26,
+          "flat": 521
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 35245,
+      "createdOn": "2026-01-26T22:31:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6977eb251c508c5d5ebd8a5d",
+          "products": [
+            {
+              "_id": "6977eb251c508c5d5ebd8a83",
+              "name": "Hat9223",
+              "amount": 888,
+              "price": 12027,
+              "manufacturer": "Xiaomi",
+              "notes": "wKc4BeVNwYCWDEYv8LY5C8WfipOhlXtVms1MxzoFRjqsEOD40cFqfq5JvH9uDOf9TBA8Arfm9cHD4BDe0GSNKYLY3Y9AiTPPl3wakT3kasEWWa44TDHHj7WlJ5Myjoz8dAlKcRNkAoK8McmsGrM5EOFQHyymZS4GHxanLsqrlwB967tUUBG3d6zu8FJqUqE0TgGWmHc8Lsk4LvAsDKQHuGzUrijVWkLuB3AuITPCfOnTqgZFY5uLTS6kNA",
+              "received": false
+            },
+            {
+              "_id": "6977eb261c508c5d5ebd8acb",
+              "name": "Mouse95611",
+              "amount": 555,
+              "price": 23218,
+              "manufacturer": "Google",
+              "notes": "BCKEiTYBMkP5CGQd8dYy3pEec4I0KhmjJPcuHh0YHR6N8wvmoP1yZ2CNpKwI19jgKbWOcwx8EFxkCZOUvEUr1ytMk2pzC09NZWQXvvVW8T2sGM7xN75v9mT16TJB3ui6Js2KjhAGHQ1BJt6WS944IyyJNVro1jrNhq7ghSsCTrO9uvnR31hpmvxNqaEhfJKafTexnYkWeqac2omMJx3g3QmMQmZmHL4kuZiAKEMHN51aP13YlYEvbLUBhM",
+              "received": false
+            }
+          ],
+          "total_price": 35245,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hermistonberg",
+              "street": "Commercial Street",
+              "house": 26,
+              "flat": 521
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-26T22:31:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6977eb251c508c5d5ebd8a5d",
+          "products": [
+            {
+              "_id": "6977eb251c508c5d5ebd8a83",
+              "name": "Hat9223",
+              "amount": 888,
+              "price": 12027,
+              "manufacturer": "Xiaomi",
+              "notes": "wKc4BeVNwYCWDEYv8LY5C8WfipOhlXtVms1MxzoFRjqsEOD40cFqfq5JvH9uDOf9TBA8Arfm9cHD4BDe0GSNKYLY3Y9AiTPPl3wakT3kasEWWa44TDHHj7WlJ5Myjoz8dAlKcRNkAoK8McmsGrM5EOFQHyymZS4GHxanLsqrlwB967tUUBG3d6zu8FJqUqE0TgGWmHc8Lsk4LvAsDKQHuGzUrijVWkLuB3AuITPCfOnTqgZFY5uLTS6kNA",
+              "received": false
+            },
+            {
+              "_id": "6977eb261c508c5d5ebd8acb",
+              "name": "Mouse95611",
+              "amount": 555,
+              "price": 23218,
+              "manufacturer": "Google",
+              "notes": "BCKEiTYBMkP5CGQd8dYy3pEec4I0KhmjJPcuHh0YHR6N8wvmoP1yZ2CNpKwI19jgKbWOcwx8EFxkCZOUvEUr1ytMk2pzC09NZWQXvvVW8T2sGM7xN75v9mT16TJB3ui6Js2KjhAGHQ1BJt6WS944IyyJNVro1jrNhq7ghSsCTrO9uvnR31hpmvxNqaEhfJKafTexnYkWeqac2omMJx3g3QmMQmZmHL4kuZiAKEMHN51aP13YlYEvbLUBhM",
+              "received": false
+            }
+          ],
+          "total_price": 35245,
+          "delivery": null,
+          "changedOn": "2026-01-26T22:31:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
