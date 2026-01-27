@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2957",
+    "etag": "W/\"b8d-xL0zLuwUewcFPrp2UMa2biFhdfY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69793c1a1c508c5d5ebf0a2e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69793c181c508c5d5ebf0851",
+        "email": "Milton.Welch@hotmail.com",
+        "name": "German Towne",
+        "country": "France",
+        "city": "Lake Raina",
+        "street": "Springfield Road",
+        "house": 49,
+        "flat": 370,
+        "phone": "+18089514067",
+        "createdOn": "2026-01-27T22:28:40.000Z",
+        "notes": "T6KGspXDC1IvSW95EySsKKFE2ZJmF0XmEpwHqLb5sCFEA1Sq136Bf999r7L24akKDkFK9lOZcCWMdkqtn0NTO8WQztJmbwXwuLDCKpr0jO74RftDfzVAQCOHfXzuqzACpIKMGuvaV1EO1eLyPBwch51z69vkHehUfiOUYq5NWYf1KEvBMqql9CnaK7PFLV5aysrQhM1NpAyyg7DkiR5xjlTCrRQ1u5WmhyLa8bU1LyzxYJvqpHitae5qC8"
+      },
+      "products": [
+        {
+          "_id": "69793c181c508c5d5ebf0899",
+          "name": "Pants92786",
+          "amount": 190,
+          "price": 56217,
+          "manufacturer": "Google",
+          "notes": "6QKUpcL1jLq9VS9DOLiaTpnxMCqHBVBPGJG5KDQEffgAtvbOQHrPjLHJHQy1bqRT4mfMiupuUI8FawY8FGyA2RSyH67VfO2a2GROxfOLmRr1zO7YnSEdJzk6qqw9SBdoGBFg0LuyzUMYZRCRc9K0YU7mvZJMG4FKUtP4C2kpUL1TAf8f0QFHsK4FlC5BDraCoCqiJiuXXyU51qI3hgS6q2pUzkcWjm7U06bSs2T2qyMkd1M1tyusIWdax8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Raina",
+          "street": "Springfield Road",
+          "house": 49,
+          "flat": 370
+        },
+        "finalDate": "2026-01-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 56217,
+      "createdOn": "2026-01-27T22:28:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793c181c508c5d5ebf0851",
+          "products": [
+            {
+              "_id": "69793c181c508c5d5ebf0899",
+              "name": "Pants92786",
+              "amount": 190,
+              "price": 56217,
+              "manufacturer": "Google",
+              "notes": "6QKUpcL1jLq9VS9DOLiaTpnxMCqHBVBPGJG5KDQEffgAtvbOQHrPjLHJHQy1bqRT4mfMiupuUI8FawY8FGyA2RSyH67VfO2a2GROxfOLmRr1zO7YnSEdJzk6qqw9SBdoGBFg0LuyzUMYZRCRc9K0YU7mvZJMG4FKUtP4C2kpUL1TAf8f0QFHsK4FlC5BDraCoCqiJiuXXyU51qI3hgS6q2pUzkcWjm7U06bSs2T2qyMkd1M1tyusIWdax8",
+              "received": false
+            }
+          ],
+          "total_price": 56217,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Raina",
+              "street": "Springfield Road",
+              "house": 49,
+              "flat": 370
+            },
+            "finalDate": "2026-01-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-27T22:28:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69793c181c508c5d5ebf0851",
+          "products": [
+            {
+              "_id": "69793c181c508c5d5ebf0899",
+              "name": "Pants92786",
+              "amount": 190,
+              "price": 56217,
+              "manufacturer": "Google",
+              "notes": "6QKUpcL1jLq9VS9DOLiaTpnxMCqHBVBPGJG5KDQEffgAtvbOQHrPjLHJHQy1bqRT4mfMiupuUI8FawY8FGyA2RSyH67VfO2a2GROxfOLmRr1zO7YnSEdJzk6qqw9SBdoGBFg0LuyzUMYZRCRc9K0YU7mvZJMG4FKUtP4C2kpUL1TAf8f0QFHsK4FlC5BDraCoCqiJiuXXyU51qI3hgS6q2pUzkcWjm7U06bSs2T2qyMkd1M1tyusIWdax8",
+              "received": false
+            }
+          ],
+          "total_price": 56217,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

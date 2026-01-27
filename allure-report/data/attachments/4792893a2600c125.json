@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-wxMHSbFWoF6QCpPObNNzJftVa1U\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69793bfc1c508c5d5ebef9fd",
+        "email": "Cyrus.Keeling@gmail.com",
+        "name": "Fanny Blanda",
+        "country": "Belarus",
+        "city": "North Raphael",
+        "street": "Balistreri Park",
+        "house": 45,
+        "flat": 95,
+        "phone": "+12434215693",
+        "createdOn": "2026-01-27T22:28:12.000Z",
+        "notes": "QTbyjjD7UxKpnGEKQdH0DroO66fE3aFKlJYykI9zQznO4C1CYBrniVibEZDQV1fpHcsVGDGTrdMlIEz8k3YQpmc6bJ1X3EyUv1GzXgvBUFDYeHgCtz5eFRD4lyLhzQywb8Mx2nfbaDrvKJZQpkKVR83nUamKeg7EOrmwffmbG71FF7ZQHn3OUpYsFu54wtQLzg2TKH7DGdneEGy2bfsOM6ujnqKZy4nGGADfnijSNdeicp7B995ygtUuRI"
+      },
+      "products": [
+        {
+          "_id": "69793bfc1c508c5d5ebefa13",
+          "name": "Pizza62810",
+          "amount": 445,
+          "price": 56224,
+          "manufacturer": "Amazon",
+          "notes": "L3K8R7zlfODd1Kiv2860wePstp1dlLKcRUbKOuP3pjOWxPEjSNK88xsd5kna9C6cH9RzBQVqvKFkKDSlWPR6Oez2sHYzQqvPu57WKlzR61vl8jPXFokuCMJQdaByFcLJiYT6Q81KnIQXxPFgogDFDBz0LIdDRiASEsw7cDO0kodElRg9X6enTJe6WNPz4juC44LIHL0V07mBopKo6yl10nUiNGPNS417eNC2r0x5c9FenU0CgsglQmIutM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56224,
+      "createdOn": "2026-01-27T22:28:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793bfc1c508c5d5ebef9fd",
+          "products": [
+            {
+              "_id": "69793bfc1c508c5d5ebefa13",
+              "name": "Pizza62810",
+              "amount": 445,
+              "price": 56224,
+              "manufacturer": "Amazon",
+              "notes": "L3K8R7zlfODd1Kiv2860wePstp1dlLKcRUbKOuP3pjOWxPEjSNK88xsd5kna9C6cH9RzBQVqvKFkKDSlWPR6Oez2sHYzQqvPu57WKlzR61vl8jPXFokuCMJQdaByFcLJiYT6Q81KnIQXxPFgogDFDBz0LIdDRiASEsw7cDO0kodElRg9X6enTJe6WNPz4juC44LIHL0V07mBopKo6yl10nUiNGPNS417eNC2r0x5c9FenU0CgsglQmIutM",
+              "received": false
+            }
+          ],
+          "total_price": 56224,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69793bfc1c508c5d5ebefa41"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

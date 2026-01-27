@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-9lMw2l8s91BnVG10qMBecf28VeA\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69793c041c508c5d5ebefe63",
+        "email": "Nicolas_Raynor@yahoo.com",
+        "name": "Noel Schinner",
+        "country": "Germany",
+        "city": "Adelineview",
+        "street": "Bruen Road",
+        "house": 3,
+        "flat": 555,
+        "phone": "+18118083182",
+        "createdOn": "2026-01-27T22:28:20.000Z",
+        "notes": "qBcQG50YMPRmD5CKURaHQmUt68LUrtGJDpUDJvnAGhKiIaW4ShCdcujaqfS58AM9NHOsJqebRt7fp4kLYHtfMeQWIQNsFXRPxdH9expOInY2hReBaFmKwljKWYAMoQuY4jPmHHjEF1BBiB8q7rKUdrE7qS4ZLeT1a55oDvlaVKEa7vgaYKB38GpHLcHhY52U8KFeWk7DoEyc2cPam8KzPNDYb4Srcj0P7YhMseUe4TnlRQBypyd1VYcP0L"
+      },
+      "products": [
+        {
+          "_id": "69793c051c508c5d5ebefe96",
+          "name": "Pizza41728",
+          "amount": 588,
+          "price": 29117,
+          "manufacturer": "Tesla",
+          "notes": "aO5T3TnVXHwpo4D3oFr3X06RqixOaduiyftdvd6XObhu847ljfiewf3Z4nhwSQv8g4o47XxuJBlIexXLrHL31rW9fjetirPcHoMg4hNiFt0NHh9KtyIQwAicdHsbFmjmkCDfuj01Ol4v2lc9Fu6RSU70fuV1RiuOiMIEDdzdBzJplzzH2W7nk43gz2dC1GD0hQCqgktGK5tAv1bmgCSK6oilwzdKVTCj7XIkTvYHgErWQGqqtsRmFrqKVn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29117,
+      "createdOn": "2026-01-27T22:28:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793c041c508c5d5ebefe63",
+          "products": [
+            {
+              "_id": "69793c051c508c5d5ebefe96",
+              "name": "Pizza41728",
+              "amount": 588,
+              "price": 29117,
+              "manufacturer": "Tesla",
+              "notes": "aO5T3TnVXHwpo4D3oFr3X06RqixOaduiyftdvd6XObhu847ljfiewf3Z4nhwSQv8g4o47XxuJBlIexXLrHL31rW9fjetirPcHoMg4hNiFt0NHh9KtyIQwAicdHsbFmjmkCDfuj01Ol4v2lc9Fu6RSU70fuV1RiuOiMIEDdzdBzJplzzH2W7nk43gz2dC1GD0hQCqgktGK5tAv1bmgCSK6oilwzdKVTCj7XIkTvYHgErWQGqqtsRmFrqKVn",
+              "received": false
+            }
+          ],
+          "total_price": 29117,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69793c051c508c5d5ebefed5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-NzLcNizFbuJY+aXwJTtJtf27LPs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69793bf91c508c5d5ebef8de",
+        "email": "Murl.Emard@yahoo.com",
+        "name": "Vernon Ondricka",
+        "country": "Great Britain",
+        "city": "Danniefield",
+        "street": "Vine Street",
+        "house": 33,
+        "flat": 273,
+        "phone": "+13686672168",
+        "createdOn": "2026-01-27T22:28:09.000Z",
+        "notes": "1bvka0UcsNLBlcnmkifGEcG6d2tv5cLKm58I7dTz2AgwV551HFDTTR8tTnMLgpUseDBQYOhXPSdgmSqFhhkIUyVvDY5Zcr6zQ4eOp6GQOz9sKlJ6BtDyFsND5QK0orpOFe5oL21ixNwaDxt6m4bE2Cm6Di3sIGyzqOiySFoPwZwrZnmpGdbnttlqg6EsVI2LRS1ppISed3MiilCbElCjyWzvXjoM05l0FY6CjJn4GcpXa7fjlGsHbcFjCo"
+      },
+      "products": [
+        {
+          "_id": "69793bf91c508c5d5ebef904",
+          "name": "Hat99918",
+          "amount": 409,
+          "price": 54650,
+          "manufacturer": "Microsoft",
+          "notes": "X6e3JBA3kVxNFZxUtwmWwOqmy1lUW0BaGCJV5tSwzQIbY4i1r547N7PPTGUmf6iFxUFFShKhCOQgsRHvWaiuzCwKWNUyoHVodMb1NG1zVAy5AAnyInOtLifrAkijFrnYPefB9KlXCP6FWqAWHD2pETzmXe30IYnR7eCzXDBbldqWfu5nBQntgkYwyvhI75t3uC3MpOvFkVeZ32mM3te5X2KsPZkqAULftALqwZAg1ISjKSfOstX2WkiXvS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54650,
+      "createdOn": "2026-01-27T22:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793bf91c508c5d5ebef8de",
+          "products": [
+            {
+              "_id": "69793bf91c508c5d5ebef904",
+              "name": "Hat99918",
+              "amount": 409,
+              "price": 54650,
+              "manufacturer": "Microsoft",
+              "notes": "X6e3JBA3kVxNFZxUtwmWwOqmy1lUW0BaGCJV5tSwzQIbY4i1r547N7PPTGUmf6iFxUFFShKhCOQgsRHvWaiuzCwKWNUyoHVodMb1NG1zVAy5AAnyInOtLifrAkijFrnYPefB9KlXCP6FWqAWHD2pETzmXe30IYnR7eCzXDBbldqWfu5nBQntgkYwyvhI75t3uC3MpOvFkVeZ32mM3te5X2KsPZkqAULftALqwZAg1ISjKSfOstX2WkiXvS",
+              "received": false
+            }
+          ],
+          "total_price": 54650,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69793bfa1c508c5d5ebef936"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

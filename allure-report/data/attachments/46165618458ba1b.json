@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-z8mlHNrnS1LGl5pRO94TcgubtC8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69793bf91c508c5d5ebef89f",
+        "email": "Antoinette41@yahoo.com",
+        "name": "Cyril Moore",
+        "country": "Germany",
+        "city": "Lebsackboro",
+        "street": "Jace Manors",
+        "house": 50,
+        "flat": 321,
+        "phone": "+17694102090",
+        "createdOn": "2026-01-27T22:28:09.000Z",
+        "notes": "kGLGCwOcW5O5133VAEmReO3S9lpRnaPr6qaXLZUJ4F9NQTeyiBCiouwG7cYHPs4W6xXr33b7F7PcqgU3q7G4gvAJ99wIYbMvg6UdhOkTc9P7tvAT5c9ayODW5vPTy1mouuzS4dbzfXlxIV8Wge1HZUFK48aAJL9CblgJPcCpub4LNOcTPcdZc7a4MnPLh8Uryc692APJ2r425ScLatcRi2u6MI8urigDI4r4OOZqFVAasaoTktt3fENbDk"
+      },
+      "products": [
+        {
+          "_id": "69793bf91c508c5d5ebef8d1",
+          "name": "Table72411",
+          "amount": 668,
+          "price": 34486,
+          "manufacturer": "Apple",
+          "notes": "leHlMhlgYkBsJrwAaJu94ob2jBRFjAs0fYPSzabHwi5sOjOePFIrYKRb46n6Y9pfyfqLx38ndMbO9shLFKHyajr9Kh6bBcyaVoW8QvN4geAC1vpZAMjVC48PhCQZk60ouLpqbG9O9xPwwqbzoSeFDt63eWe1LxGQPYOmUDwCkdWFannYeHKkr8EdOQFLvuJfTDlMG4fBAFt28zDa4gVFu8J64pBfPEOWs0GmLiEyhGMz3uPGPB86aBYV6y",
+          "received": false
+        },
+        {
+          "_id": "69793bf91c508c5d5ebef900",
+          "name": "Towels75040",
+          "amount": 837,
+          "price": 78009,
+          "manufacturer": "Amazon",
+          "notes": "m2WjlE6ggYJnHawp5wC9Y22IcQbgBQMCyaVoXFAkNHXVyvpu8KZkYJiinUKniul6h2W56DSVhkiYjH6V5stIz8T6CihmU2W77nL7bmnuwXCZslEPZVE02bymTOSuGQpdsEl3T33qDMPNk89Naub33U8F6ini2PSYKAuYKc8yofOud50xkHl4S7LrDXGRpc0oagH8hvJ2KRrcVx7cMPJEMrFIVkmxn1WgcFLd6VPnTXlPMwjBrcFkEeibdS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112495,
+      "createdOn": "2026-01-27T22:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793bf91c508c5d5ebef89f",
+          "products": [
+            {
+              "_id": "69793bf91c508c5d5ebef8d1",
+              "name": "Table72411",
+              "amount": 668,
+              "price": 34486,
+              "manufacturer": "Apple",
+              "notes": "leHlMhlgYkBsJrwAaJu94ob2jBRFjAs0fYPSzabHwi5sOjOePFIrYKRb46n6Y9pfyfqLx38ndMbO9shLFKHyajr9Kh6bBcyaVoW8QvN4geAC1vpZAMjVC48PhCQZk60ouLpqbG9O9xPwwqbzoSeFDt63eWe1LxGQPYOmUDwCkdWFannYeHKkr8EdOQFLvuJfTDlMG4fBAFt28zDa4gVFu8J64pBfPEOWs0GmLiEyhGMz3uPGPB86aBYV6y",
+              "received": false
+            },
+            {
+              "_id": "69793bf91c508c5d5ebef900",
+              "name": "Towels75040",
+              "amount": 837,
+              "price": 78009,
+              "manufacturer": "Amazon",
+              "notes": "m2WjlE6ggYJnHawp5wC9Y22IcQbgBQMCyaVoXFAkNHXVyvpu8KZkYJiinUKniul6h2W56DSVhkiYjH6V5stIz8T6CihmU2W77nL7bmnuwXCZslEPZVE02bymTOSuGQpdsEl3T33qDMPNk89Naub33U8F6ini2PSYKAuYKc8yofOud50xkHl4S7LrDXGRpc0oagH8hvJ2KRrcVx7cMPJEMrFIVkmxn1WgcFLd6VPnTXlPMwjBrcFkEeibdS",
+              "received": false
+            }
+          ],
+          "total_price": 112495,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69793bfa1c508c5d5ebef947"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-hCDESHAV1tAOyfw6hjx9mgVspfk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69793bf51c508c5d5ebef71a",
+        "email": "Adelle98@yahoo.com",
+        "name": "Nick Schulist",
+        "country": "Russia",
+        "city": "Lailaborough",
+        "street": "Jerde Knoll",
+        "house": 36,
+        "flat": 613,
+        "phone": "+17019708177",
+        "createdOn": "2026-01-27T22:28:05.000Z",
+        "notes": "qOIevqFrg5x9OfArhhl7641dnqOoGb4FBS7uVFxDJl0Iz79XcY7DJ67CCqBpUwRkhG57g47qJwjpUb4uLko71nbeYIlMKens0xPamn752ykAnMvLa8Jtwnzr7qUgnuRtdp9Wci9TqOfYeNdhD6BYnRj5khNQlBAPLVc27v9XjPDphmv6PyF3K3yqnkMdOzeSlR41oR94ZTnTqnaQlf0qRuObKbWBmqw24Zkd4xsUDpA47eiDwwoCfs1uE4"
+      },
+      "products": [
+        {
+          "_id": "69793bf51c508c5d5ebef746",
+          "name": "Pizza71045",
+          "amount": 629,
+          "price": 98141,
+          "manufacturer": "Sony",
+          "notes": "zVB0Mb0FgI4vEwATDg685pIxyxIyUtVjCbfV6mfb2oMLRBRYY31tleoBb5HW8cQl3g0MCcXuV2xRTEsICyIAnNPvhqq531B2CSrnlr6xTGYzbBENfPhMipPzXRXRpzaXYYKqzk9mqjcFdZnZtFmjnVERcOnZADiFHQwAX3PDjruJSyAvU0x3ojaMhhezbLNNKikVA22kfZ1uWBbdcuQQ4n2rxc1STFTdm2i4avjwWR6pkXITavyAaNoU0r",
+          "received": false
+        },
+        {
+          "_id": "69793bf61c508c5d5ebef764",
+          "name": "Keyboard73733",
+          "amount": 167,
+          "price": 88881,
+          "manufacturer": "Samsung",
+          "notes": "CEoSGSOchgk0ZHsmrBMOaAQTsUPR71qdsptuVH2UKRtO5esiB1n5RiJREB4HIA1vp2PTvCrGVL4Ow3S6ZiQRCQNNXFiv0Uwscaytq9mwyZuBAta0HAnuhbsZkbimW0NsQ2P6BiICF7ApQZsADKGAcMtUSykyKn6nFynmpZuwu22VB6Pf9bmGMErVvjssnUAfRidq3vaXXuXKCVSlkVtGJuKclMEuomPEYO2FFm3CR9Ce5pUR1KnOVL64d0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 187022,
+      "createdOn": "2026-01-27T22:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793bf51c508c5d5ebef71a",
+          "products": [
+            {
+              "_id": "69793bf51c508c5d5ebef746",
+              "name": "Pizza71045",
+              "amount": 629,
+              "price": 98141,
+              "manufacturer": "Sony",
+              "notes": "zVB0Mb0FgI4vEwATDg685pIxyxIyUtVjCbfV6mfb2oMLRBRYY31tleoBb5HW8cQl3g0MCcXuV2xRTEsICyIAnNPvhqq531B2CSrnlr6xTGYzbBENfPhMipPzXRXRpzaXYYKqzk9mqjcFdZnZtFmjnVERcOnZADiFHQwAX3PDjruJSyAvU0x3ojaMhhezbLNNKikVA22kfZ1uWBbdcuQQ4n2rxc1STFTdm2i4avjwWR6pkXITavyAaNoU0r",
+              "received": false
+            },
+            {
+              "_id": "69793bf61c508c5d5ebef764",
+              "name": "Keyboard73733",
+              "amount": 167,
+              "price": 88881,
+              "manufacturer": "Samsung",
+              "notes": "CEoSGSOchgk0ZHsmrBMOaAQTsUPR71qdsptuVH2UKRtO5esiB1n5RiJREB4HIA1vp2PTvCrGVL4Ow3S6ZiQRCQNNXFiv0Uwscaytq9mwyZuBAta0HAnuhbsZkbimW0NsQ2P6BiICF7ApQZsADKGAcMtUSykyKn6nFynmpZuwu22VB6Pf9bmGMErVvjssnUAfRidq3vaXXuXKCVSlkVtGJuKclMEuomPEYO2FFm3CR9Ce5pUR1KnOVL64d0",
+              "received": false
+            }
+          ],
+          "total_price": 187022,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69793bf61c508c5d5ebef784"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

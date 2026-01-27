@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:28:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3866",
+    "etag": "W/\"f1a-yd+NgEwWVwTlycSWFa+s79ACoEY\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69793bf71c508c5d5ebef7ac",
+      "status": "Draft",
+      "customer": {
+        "_id": "69793bf61c508c5d5ebef77c",
+        "email": "Ruby.Spinka@hotmail.com",
+        "name": "Karley Wintheiser",
+        "country": "France",
+        "city": "North Las Vegas",
+        "street": "Ratke Loaf",
+        "house": 38,
+        "flat": 786,
+        "phone": "+18222600080",
+        "createdOn": "2026-01-27T22:28:06.000Z",
+        "notes": "6hSmefXlD4YVsDY8ekOghEOB2YVslSOepGDFJRyqArKvnZqRJM6VFg2lqkpdyhh3HkFKM7oQlJyN76wwfjuytMBMGQ4RzCm3SxmSKBaDzXwcej2mrrfT7FR0VxBT2CTWb4I8z4fAiRNqmf5xfVxCgt5WgFt25fWl6jE42kQFiMMtFcEVlXGF7YIsqI5zR38vKNja6Mb1wM63HFcXGbM8JGK5jzotlsl21zsrWETYFCj4q1E9p6cnOWQAid"
+      },
+      "products": [
+        {
+          "_id": "69793bf61c508c5d5ebef799",
+          "name": "Tuna2863",
+          "amount": 635,
+          "price": 7626,
+          "manufacturer": "Microsoft",
+          "notes": "jECRuu3LDMo5to9JOEYnF50ZBhzz8mA57k8fUdHOeShmaLU4E4ru0Jj3494eaDftnP33ycdd1Cov17Nbf5EeZl23iMTorhXSmwdVlqA0kO0gCtJvKKIQEuEnF3y4KzVbDLaGpKmfTznSmlW5VhvEmWW9qCNmv6wXoKAWnTCiIupciEeFwJwkG6X0tVvGA2KwLkbTpiF5RPs5MOWKeqYbZ02SEEYoCAaMfZTzwHgYNsT6h0TeCWmJIlmE3C",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7626,
+      "createdOn": "2026-01-27T22:28:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69793bf61c508c5d5ebef77c",
+          "products": [
+            {
+              "_id": "69793bf61c508c5d5ebef799",
+              "name": "Tuna2863",
+              "amount": 635,
+              "price": 7626,
+              "manufacturer": "Microsoft",
+              "notes": "jECRuu3LDMo5to9JOEYnF50ZBhzz8mA57k8fUdHOeShmaLU4E4ru0Jj3494eaDftnP33ycdd1Cov17Nbf5EeZl23iMTorhXSmwdVlqA0kO0gCtJvKKIQEuEnF3y4KzVbDLaGpKmfTznSmlW5VhvEmWW9qCNmv6wXoKAWnTCiIupciEeFwJwkG6X0tVvGA2KwLkbTpiF5RPs5MOWKeqYbZ02SEEYoCAaMfZTzwHgYNsT6h0TeCWmJIlmE3C",
+              "received": false
+            }
+          ],
+          "total_price": 7626,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:07.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69793bf61c508c5d5ebef77c",
+          "products": [
+            {
+              "_id": "69793bf61c508c5d5ebef799",
+              "name": "Tuna2863",
+              "amount": 635,
+              "price": 7626,
+              "manufacturer": "Microsoft",
+              "notes": "jECRuu3LDMo5to9JOEYnF50ZBhzz8mA57k8fUdHOeShmaLU4E4ru0Jj3494eaDftnP33ycdd1Cov17Nbf5EeZl23iMTorhXSmwdVlqA0kO0gCtJvKKIQEuEnF3y4KzVbDLaGpKmfTznSmlW5VhvEmWW9qCNmv6wXoKAWnTCiIupciEeFwJwkG6X0tVvGA2KwLkbTpiF5RPs5MOWKeqYbZ02SEEYoCAaMfZTzwHgYNsT6h0TeCWmJIlmE3C",
+              "received": false
+            }
+          ],
+          "total_price": 7626,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:07.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69793bf61c508c5d5ebef77c",
+          "products": [
+            {
+              "_id": "69793bf61c508c5d5ebef799",
+              "name": "Tuna2863",
+              "amount": 635,
+              "price": 7626,
+              "manufacturer": "Microsoft",
+              "notes": "jECRuu3LDMo5to9JOEYnF50ZBhzz8mA57k8fUdHOeShmaLU4E4ru0Jj3494eaDftnP33ycdd1Cov17Nbf5EeZl23iMTorhXSmwdVlqA0kO0gCtJvKKIQEuEnF3y4KzVbDLaGpKmfTznSmlW5VhvEmWW9qCNmv6wXoKAWnTCiIupciEeFwJwkG6X0tVvGA2KwLkbTpiF5RPs5MOWKeqYbZ02SEEYoCAaMfZTzwHgYNsT6h0TeCWmJIlmE3C",
+              "received": false
+            }
+          ],
+          "total_price": 7626,
+          "delivery": null,
+          "changedOn": "2026-01-27T22:28:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

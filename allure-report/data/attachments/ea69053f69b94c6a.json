@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Tue, 27 Jan 2026 22:27:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1409",
+    "etag": "W/\"581-erqZiH2rQQl9y8xasiDgNoUEWu4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "69793bef1c508c5d5ebef450",
+        "status": "Draft",
+        "customer": "69793bef1c508c5d5ebef40b",
+        "products": [
+          {
+            "_id": "69793bef1c508c5d5ebef426",
+            "name": "Soap72753",
+            "amount": 966,
+            "price": 57083,
+            "manufacturer": "Google",
+            "notes": "moZ15yIZqEOKQlhpbKiS31yL7iHjABDYxGH1CTGRVLQz3ocb9RkYfxTZ8JQ1PJGasgtfoiAIdiw5ll85ToOKS1GFNMbHrPElJy1pAwfnWgVOHUAWbq9jXLC702rjdO2gCXTcLb7yHpRMn467nckjPFcbRuLTVX6dyWt2kAFYGnFmmoTwcXIY8n0bnqnRAFjwmFXgTagwDSUHUxLMWwTgOh76R8gHJeqbRwwpeHrewQK30GpIzCLtljpU7G",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 57083,
+        "createdOn": "2026-01-27T22:27:59.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "69793bef1c508c5d5ebef40b",
+            "products": [
+              {
+                "_id": "69793bef1c508c5d5ebef426",
+                "name": "Soap72753",
+                "amount": 966,
+                "price": 57083,
+                "manufacturer": "Google",
+                "notes": "moZ15yIZqEOKQlhpbKiS31yL7iHjABDYxGH1CTGRVLQz3ocb9RkYfxTZ8JQ1PJGasgtfoiAIdiw5ll85ToOKS1GFNMbHrPElJy1pAwfnWgVOHUAWbq9jXLC702rjdO2gCXTcLb7yHpRMn467nckjPFcbRuLTVX6dyWt2kAFYGnFmmoTwcXIY8n0bnqnRAFjwmFXgTagwDSUHUxLMWwTgOh76R8gHJeqbRwwpeHrewQK30GpIzCLtljpU7G",
+                "received": false
+              }
+            ],
+            "total_price": 57083,
+            "delivery": null,
+            "changedOn": "2026-01-27T22:27:59.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
