@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:34:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2638",
+    "etag": "W/\"a4e-t3GX9jI66eb4h+ZyGZuG2SZsbSk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8ed71c508c5d5ebfb046",
+        "email": "Tony87@gmail.com",
+        "name": "Maud Spinka",
+        "country": "Canada",
+        "city": "West Seneca",
+        "street": "Lodge Close",
+        "house": 18,
+        "flat": 625,
+        "phone": "+16089793504",
+        "createdOn": "2026-01-28T22:33:59.000Z",
+        "notes": "djy40dj63zppArQOuwaEKvPzVLn5IPs1HREuOPj819B8wJ1b037KiJYqz7ELGqHFnVePwuHQTCudztf9iHdPKH3OhxH49S5Q8YiC8JfgOwQ87MWnQhaw7hqdQ2LPFoFVVneiCqYeEhtQhCNF9Ur3OhjBetzpBLi3xvxzphznDzlPbgOEZyTkjFQqCz9XsjtO6Ea4bvukj2nyAnEjgZnCvFj7xA5coMTg2kCWk4oXBFltRC4EaVHPKUDGEp"
+      },
+      "products": [
+        {
+          "_id": "697a8ed81c508c5d5ebfb06c",
+          "name": "Gloves82031",
+          "amount": 97,
+          "price": 57278,
+          "manufacturer": "Amazon",
+          "notes": "paCQeJTjYQrJFlNXgZaFdTctsZ1yVLQ6XMY4q8J5HtewIggfSLPOgS1PpKPpNmftSwKXC51reGqkc6xvEZRiz367vyvkWR4UE9kHNX1gChsFnVuuK6TgWcRKWBibaMZAna1Imkip3my6IA2CuCyH8noLtUAKJ3TZAOKHLIxRcyK50ra2jfZIr2wquCuf8aFm5lDr5EPmduuK6pbTaQw7w1RGILOuPRVhSduVWfOy9xhkqi3TnJobPO84V6",
+          "received": false
+        },
+        {
+          "_id": "697a8ed81c508c5d5ebfb0e0",
+          "name": "Shirt19023",
+          "amount": 352,
+          "price": 84729,
+          "manufacturer": "Sony",
+          "notes": "MiKZzGI9tKa31aRBrKTZh6RussCXpHCRMcDaIUExx2pmhSfEvosmhJi2mxHmZoLPmRhnjkexjLX3bsS763mMvCvVfRG3EWCVZATYqWLseE0iCQTQWMDbMd9JSKSv95B6Uc9Sc9gvgQDIQWUCOHJQr6x5aLVdFKApRhufErnmRYDyuHRw7ZH0u1LametXjqZgkDsGoFZSJYoUF9IV4mQjThhRYQkKzKgrPTdUY76pBhDdhkyIZbIr5KwCt9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 142007,
+      "createdOn": "2026-01-28T22:34:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8ed71c508c5d5ebfb046",
+          "products": [
+            {
+              "_id": "697a8ed81c508c5d5ebfb06c",
+              "name": "Gloves82031",
+              "amount": 97,
+              "price": 57278,
+              "manufacturer": "Amazon",
+              "notes": "paCQeJTjYQrJFlNXgZaFdTctsZ1yVLQ6XMY4q8J5HtewIggfSLPOgS1PpKPpNmftSwKXC51reGqkc6xvEZRiz367vyvkWR4UE9kHNX1gChsFnVuuK6TgWcRKWBibaMZAna1Imkip3my6IA2CuCyH8noLtUAKJ3TZAOKHLIxRcyK50ra2jfZIr2wquCuf8aFm5lDr5EPmduuK6pbTaQw7w1RGILOuPRVhSduVWfOy9xhkqi3TnJobPO84V6",
+              "received": false
+            },
+            {
+              "_id": "697a8ed81c508c5d5ebfb0e0",
+              "name": "Shirt19023",
+              "amount": 352,
+              "price": 84729,
+              "manufacturer": "Sony",
+              "notes": "MiKZzGI9tKa31aRBrKTZh6RussCXpHCRMcDaIUExx2pmhSfEvosmhJi2mxHmZoLPmRhnjkexjLX3bsS763mMvCvVfRG3EWCVZATYqWLseE0iCQTQWMDbMd9JSKSv95B6Uc9Sc9gvgQDIQWUCOHJQr6x5aLVdFKApRhufErnmRYDyuHRw7ZH0u1LametXjqZgkDsGoFZSJYoUF9IV4mQjThhRYQkKzKgrPTdUY76pBhDdhkyIZbIr5KwCt9",
+              "received": false
+            }
+          ],
+          "total_price": 142007,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:34:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697a8edb1c508c5d5ebfb249"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

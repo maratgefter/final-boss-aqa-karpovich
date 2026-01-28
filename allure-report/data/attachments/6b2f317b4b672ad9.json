@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:33:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2918",
+    "etag": "W/\"b66-s/TyXxEBcbj18EhYiYpecKkqBxk\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697a8ead1c508c5d5ebf9849",
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8eac1c508c5d5ebf97cb",
+        "email": "Curt63@gmail.com",
+        "name": "Samir Yundt",
+        "country": "Canada",
+        "city": "Troy",
+        "street": "Fisher Vista",
+        "house": 37,
+        "flat": 401,
+        "phone": "+14804850788",
+        "createdOn": "2026-01-28T22:33:16.000Z",
+        "notes": "ThxsUgJs8FVbXzdCngQChJdxIS83Xn0kjrgCLeGXSELDB0ka1jtCYZ0cyVHo7wxJWffzhGkTEB7xzmuvd6QTnQyAwvDb95wL0FL7ogVPCdx9ISOfNjAdEAKL1fSu0cFWzTBRSNK0rG1VJKmK4NbP3cqz9ob9WnYBmTnd5NcDzW8irRch2SKdmj3zsKkq8Hj4Yb674ES5HOu5IhOvDKQawmZLADxqc3j9xeiVlSAuvDkLKnBLxakeqP85kj"
+      },
+      "products": [
+        {
+          "_id": "697a8ead1c508c5d5ebf97f8",
+          "name": "Chips44168",
+          "amount": 388,
+          "price": 75051,
+          "manufacturer": "Xiaomi",
+          "notes": "WcTXCSWgYw6q2MpB26HDt5FShL1DcirA2RrhQZQcH2FH1Ul8npUxjQwJ1K2kXdlrDKk4hC5AyQreKhYcriPcsX1HESQ79iMQpQRX38a46a8THwI2NObA0NEQB4IVTWFcr3Ttbo3QZO0NG5aFRRGMIaXN079AOSLSVOKRwQtIRsOOk2KV1zXtebdp4FHvKInHc4De19wuoOjGKZ2rcQLwmtaY3tWP72LGuPGvm0Tsnsrh3ajLcdbUaIXVxC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Troy",
+          "street": "Fisher Vista",
+          "house": 37,
+          "flat": 401
+        },
+        "finalDate": "2026-02-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 75051,
+      "createdOn": "2026-01-28T22:33:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8eac1c508c5d5ebf97cb",
+          "products": [
+            {
+              "_id": "697a8ead1c508c5d5ebf97f8",
+              "name": "Chips44168",
+              "amount": 388,
+              "price": 75051,
+              "manufacturer": "Xiaomi",
+              "notes": "WcTXCSWgYw6q2MpB26HDt5FShL1DcirA2RrhQZQcH2FH1Ul8npUxjQwJ1K2kXdlrDKk4hC5AyQreKhYcriPcsX1HESQ79iMQpQRX38a46a8THwI2NObA0NEQB4IVTWFcr3Ttbo3QZO0NG5aFRRGMIaXN079AOSLSVOKRwQtIRsOOk2KV1zXtebdp4FHvKInHc4De19wuoOjGKZ2rcQLwmtaY3tWP72LGuPGvm0Tsnsrh3ajLcdbUaIXVxC",
+              "received": false
+            }
+          ],
+          "total_price": 75051,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Troy",
+              "street": "Fisher Vista",
+              "house": 37,
+              "flat": 401
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-28T22:33:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697a8eac1c508c5d5ebf97cb",
+          "products": [
+            {
+              "_id": "697a8ead1c508c5d5ebf97f8",
+              "name": "Chips44168",
+              "amount": 388,
+              "price": 75051,
+              "manufacturer": "Xiaomi",
+              "notes": "WcTXCSWgYw6q2MpB26HDt5FShL1DcirA2RrhQZQcH2FH1Ul8npUxjQwJ1K2kXdlrDKk4hC5AyQreKhYcriPcsX1HESQ79iMQpQRX38a46a8THwI2NObA0NEQB4IVTWFcr3Ttbo3QZO0NG5aFRRGMIaXN079AOSLSVOKRwQtIRsOOk2KV1zXtebdp4FHvKInHc4De19wuoOjGKZ2rcQLwmtaY3tWP72LGuPGvm0Tsnsrh3ajLcdbUaIXVxC",
+              "received": false
+            }
+          ],
+          "total_price": 75051,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:33:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

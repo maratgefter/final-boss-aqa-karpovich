@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:33:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-3Xbu5EKG+7FkG5gmeP3xyCC/Jkc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8ea71c508c5d5ebf954c",
+        "email": "Jody77@hotmail.com",
+        "name": "Nico Baumbach",
+        "country": "Canada",
+        "city": "Treutelbury",
+        "street": "Treutel Brooks",
+        "house": 25,
+        "flat": 662,
+        "phone": "+13546605793",
+        "createdOn": "2026-01-28T22:33:11.000Z",
+        "notes": "Xy7dSqgqq8IHCdFzhui0rhKwDxJ2nZPzRdnkMwKGgcnyYwq56pnTwDbNOzpXgdfcaQF2pxkQXBkENKJZAIOtlSp9l6RnElBUBm2B504s38DDS06odlhmHealtnAibJmaR1I1Ra488T7YfPzhjMrhkVTsvqFE0rM0cb0vLoslgL0IF1j09EjogUlyLr7MMuW292c3mCZ3Dup8VOMkWDDU8u9FIqmy705XvOIq3ZqXC12ZyXjEk8MBoMN8Hr"
+      },
+      "products": [
+        {
+          "_id": "697a8ea91c508c5d5ebf9657",
+          "name": "Table79074",
+          "amount": 739,
+          "price": 26226,
+          "manufacturer": "Google",
+          "notes": "mMNkG5BUPLXIniY5mjG7TTwyiYVolOSvCloCY1u0XioO9VYgbRvzCzgYAWemQIyaKKJ6PHJ2JWYyFBlFohgvzItGZC4xUe7jQrqMFDPXyAdQGxEtHk453A0pIePvW7MIqbOgm2dvc40i8hbIZYIxRQs549zntogOWyaPLzoOEVptgfMTOfUnv3JukpbJaMdDJvf5AdqG4N0dqhnjnTeOYK3UZpTGxBaxfcfWPIoT0GCx8WQtvcYIcugzwf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26226,
+      "createdOn": "2026-01-28T22:33:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8ea71c508c5d5ebf954c",
+          "products": [
+            {
+              "_id": "697a8ea91c508c5d5ebf9657",
+              "name": "Table79074",
+              "amount": 739,
+              "price": 26226,
+              "manufacturer": "Google",
+              "notes": "mMNkG5BUPLXIniY5mjG7TTwyiYVolOSvCloCY1u0XioO9VYgbRvzCzgYAWemQIyaKKJ6PHJ2JWYyFBlFohgvzItGZC4xUe7jQrqMFDPXyAdQGxEtHk453A0pIePvW7MIqbOgm2dvc40i8hbIZYIxRQs549zntogOWyaPLzoOEVptgfMTOfUnv3JukpbJaMdDJvf5AdqG4N0dqhnjnTeOYK3UZpTGxBaxfcfWPIoT0GCx8WQtvcYIcugzwf",
+              "received": false
+            }
+          ],
+          "total_price": 26226,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:33:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697a8eaa1c508c5d5ebf96ab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

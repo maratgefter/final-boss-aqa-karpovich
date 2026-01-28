@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:32:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-72lMKb3i+1qoIfbHIeZH0dDuoVU\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8e961c508c5d5ebf8c83",
+        "email": "Dana.Fahey72@hotmail.com",
+        "name": "Noah Cummings",
+        "country": "USA",
+        "city": "Port Rhianna",
+        "street": "Concepcion Lakes",
+        "house": 31,
+        "flat": 54,
+        "phone": "+14802361832",
+        "createdOn": "2026-01-28T22:32:54.000Z",
+        "notes": "svvz2f3mihVy8NVlomuF0udpNiXXRuEm0HomDjUTaB0MV7PTO6NiCfXLB7g0W18t4ErUrIoGuLo740wQUBUdAYUumkw0c6Qf3oDiu01HPaIAgqsnBnJhmlDNjzPGDhLjFH82PAhfE4644gOWliaAAhjV3TY7TppUr4UaRRQao8aMe4Yu2G7TyQFt73NM6FgBQp4ELspyhncD8BLFzTKlHVBAxvM1vFbjNe19giXS51zIoCp6Z8mUyVwgZQ"
+      },
+      "products": [
+        {
+          "_id": "697a8e961c508c5d5ebf8c94",
+          "name": "Sausages37994",
+          "amount": 889,
+          "price": 19638,
+          "manufacturer": "Microsoft",
+          "notes": "67kl3ynzVstnFKWMd2mRcDDlHbLZvi44HvfQwRHWTX8LnvurlW8vKpcPNipf5gP1M00DfmxuaIuCJeT9K04mHyoYAlrf8LBKUghKFRWDX6Th8I7XHnE9L1myjPeDW67qZcFQGMzwTm6puwombG9lNIUwzN9fmI8ca4KSyTy75qCFAu0ZfOhX7ZwH9datbF1Cvp4CMg9D07MzNoL5AbUM9ApZTzRoeaWEDHC8fxctpjF8XSYkqwjnn6t4tU",
+          "received": false
+        },
+        {
+          "_id": "697a8e961c508c5d5ebf8cb3",
+          "name": "Soap23897",
+          "amount": 857,
+          "price": 49123,
+          "manufacturer": "Google",
+          "notes": "5BoKVyQsDtrHnUUrVObIoMiOsLmrmmK1jpjH2h1H4ONMD3xcPWG6SJ1cnh68Tq1WhswBQl0L95LtdeTbyDGX80Nwm0pSmoZpCSoYKP3F1j1ZkvHhTcG6DwBFKDujLqfktbdNylxa3utJufcVlrbF0wm5hSFWiBIDXS8lQ34q7OY57UJ6r0SBxIF3F3fhUBzymSh4jjoEUkhgrOAfZPRHqESuxiQa5em0tRiif55vYknuQvQkvEe5sBsFDH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68761,
+      "createdOn": "2026-01-28T22:32:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8e961c508c5d5ebf8c83",
+          "products": [
+            {
+              "_id": "697a8e961c508c5d5ebf8c94",
+              "name": "Sausages37994",
+              "amount": 889,
+              "price": 19638,
+              "manufacturer": "Microsoft",
+              "notes": "67kl3ynzVstnFKWMd2mRcDDlHbLZvi44HvfQwRHWTX8LnvurlW8vKpcPNipf5gP1M00DfmxuaIuCJeT9K04mHyoYAlrf8LBKUghKFRWDX6Th8I7XHnE9L1myjPeDW67qZcFQGMzwTm6puwombG9lNIUwzN9fmI8ca4KSyTy75qCFAu0ZfOhX7ZwH9datbF1Cvp4CMg9D07MzNoL5AbUM9ApZTzRoeaWEDHC8fxctpjF8XSYkqwjnn6t4tU",
+              "received": false
+            },
+            {
+              "_id": "697a8e961c508c5d5ebf8cb3",
+              "name": "Soap23897",
+              "amount": 857,
+              "price": 49123,
+              "manufacturer": "Google",
+              "notes": "5BoKVyQsDtrHnUUrVObIoMiOsLmrmmK1jpjH2h1H4ONMD3xcPWG6SJ1cnh68Tq1WhswBQl0L95LtdeTbyDGX80Nwm0pSmoZpCSoYKP3F1j1ZkvHhTcG6DwBFKDujLqfktbdNylxa3utJufcVlrbF0wm5hSFWiBIDXS8lQ34q7OY57UJ6r0SBxIF3F3fhUBzymSh4jjoEUkhgrOAfZPRHqESuxiQa5em0tRiif55vYknuQvQkvEe5sBsFDH",
+              "received": false
+            }
+          ],
+          "total_price": 68761,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:32:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697a8e971c508c5d5ebf8cdc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

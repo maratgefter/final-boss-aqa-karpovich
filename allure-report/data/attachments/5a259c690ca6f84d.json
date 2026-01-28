@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:33:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-F+4maJ57nfKx8ScR8keG9kka684\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8eaa1c508c5d5ebf96c0",
+        "email": "Franz_Schmitt91@gmail.com",
+        "name": "Shanny Orn",
+        "country": "Ukraine",
+        "city": "Port Stephania",
+        "street": "Terrance Cove",
+        "house": 37,
+        "flat": 384,
+        "phone": "+14187830409",
+        "createdOn": "2026-01-28T22:33:14.000Z",
+        "notes": "2u1FVCPh4IgSSpdnLti36G6f1s68BVsE7obSHWqArxZKpFWxUHxBF9oONNU2E0GrYmE6eVQJBR9pMMqVYqL3MT6EGOH0koOKFiYYCqToWsdTDDCMUdBB3AV7i7tvLqjVJWWvwjzqcXD0hwZukNUWOgh3mW2ZSu7rmaB9xwoRbo4kIld0zAEnBVkRENytRNCkMXLTCOWUh80LPDqFG2rRopULeFibbhnqZJaSbT5E2ijyZJTWjk4ZFsnQJo"
+      },
+      "products": [
+        {
+          "_id": "697a8eab1c508c5d5ebf9764",
+          "name": "Mouse10625",
+          "amount": 617,
+          "price": 78195,
+          "manufacturer": "Tesla",
+          "notes": "nmBo0oN56mHD3QSor1qCFxL1PKomMvp0iAKgSjobHt4fHM48Mm5kJ5q28asYilnamM3xAsLSSml8y6yvXKrb0zSByDyOrf4qhj7OokimwNrhE8vYC9Djtqq0ZnDq9LN06l7MQl4I0pxEO9f2Wrfuy6qz6jDWZ4Jjxs91RDKLhPW5qyO02jJuO7XeW3s5K2E2rW4hg2rUlNvL5cTeVBK0ssEPmOL2J06JbhaAkFRn0hlNQ8NIcJnU15Bgrx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78195,
+      "createdOn": "2026-01-28T22:33:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8eaa1c508c5d5ebf96c0",
+          "products": [
+            {
+              "_id": "697a8eab1c508c5d5ebf9764",
+              "name": "Mouse10625",
+              "amount": 617,
+              "price": 78195,
+              "manufacturer": "Tesla",
+              "notes": "nmBo0oN56mHD3QSor1qCFxL1PKomMvp0iAKgSjobHt4fHM48Mm5kJ5q28asYilnamM3xAsLSSml8y6yvXKrb0zSByDyOrf4qhj7OokimwNrhE8vYC9Djtqq0ZnDq9LN06l7MQl4I0pxEO9f2Wrfuy6qz6jDWZ4Jjxs91RDKLhPW5qyO02jJuO7XeW3s5K2E2rW4hg2rUlNvL5cTeVBK0ssEPmOL2J06JbhaAkFRn0hlNQ8NIcJnU15Bgrx",
+              "received": false
+            }
+          ],
+          "total_price": 78195,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:33:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697a8eac1c508c5d5ebf97da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

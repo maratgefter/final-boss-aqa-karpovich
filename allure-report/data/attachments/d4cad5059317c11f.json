@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:32:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1411",
+    "etag": "W/\"583-ueO7dD4WbOyI79QC9XD79X6TXYE\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "697a8e8d1c508c5d5ebf88cc",
+        "status": "Draft",
+        "customer": "697a8e8d1c508c5d5ebf8896",
+        "products": [
+          {
+            "_id": "697a8e8d1c508c5d5ebf88ab",
+            "name": "Gloves31628",
+            "amount": 682,
+            "price": 55858,
+            "manufacturer": "Tesla",
+            "notes": "b6Lf8abwgGPwvvGScdfz79EsDwFf0y7dQwzwabG1yy96p051oRiPwboqwWBQ5JSbeMs6yx6RRuvywxyIah2Aw3XV5Elclg17V8vJhdALeqdi0vEfpHl1rLvA5RAz7j4emznwdusDAne6CJsalldqdJTGw75vcc2sX2Qyzm7LHbBxzrLn6Hs3DObkJE579D47OUZwZvlY0qCnBTRjJmTq7xL8w4zOyzKCb4QNAcTBBPjWCqvo7qGVVqCb0b",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 55858,
+        "createdOn": "2026-01-28T22:32:45.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "697a8e8d1c508c5d5ebf8896",
+            "products": [
+              {
+                "_id": "697a8e8d1c508c5d5ebf88ab",
+                "name": "Gloves31628",
+                "amount": 682,
+                "price": 55858,
+                "manufacturer": "Tesla",
+                "notes": "b6Lf8abwgGPwvvGScdfz79EsDwFf0y7dQwzwabG1yy96p051oRiPwboqwWBQ5JSbeMs6yx6RRuvywxyIah2Aw3XV5Elclg17V8vJhdALeqdi0vEfpHl1rLvA5RAz7j4emznwdusDAne6CJsalldqdJTGw75vcc2sX2Qyzm7LHbBxzrLn6Hs3DObkJE579D47OUZwZvlY0qCnBTRjJmTq7xL8w4zOyzKCb4QNAcTBBPjWCqvo7qGVVqCb0b",
+                "received": false
+              }
+            ],
+            "total_price": 55858,
+            "delivery": null,
+            "changedOn": "2026-01-28T22:32:45.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

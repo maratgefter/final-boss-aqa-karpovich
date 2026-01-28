@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 28 Jan 2026 22:33:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-l/ZGWfdv6x43ScyUxnTFOyq42mE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697a8e9b1c508c5d5ebf8ec2",
+        "email": "Madelynn.Olson59@hotmail.com",
+        "name": "Ally Bednar",
+        "country": "France",
+        "city": "Fort Corrineworth",
+        "street": "Samir Drives",
+        "house": 6,
+        "flat": 669,
+        "phone": "+12519717067",
+        "createdOn": "2026-01-28T22:32:59.000Z",
+        "notes": "8TdAPM0bcXeOuq7zKIXgSUi54AbTDPODda3sDACp9xWh29uxkMyPCpCoCU4OYxmttTpFZxS6CcA1oJGZxc7a3fu3ZZg8OHEgB21XdvAa1gR5yqsXT5v0E0K4nOmDQNBUT0F1Geb3BV57iVrQi1OcvD2oDweeVvLvPcuQS2zeRbWL26uZshcT8TEI0KVUxLHd3itODuMd0yESpJXIjsMLmXw67uMzkj4sDUmtvnA5JlUWOKYx0HzRljhYhy"
+      },
+      "products": [
+        {
+          "_id": "697a8e9b1c508c5d5ebf8f20",
+          "name": "Pizza50376",
+          "amount": 351,
+          "price": 98063,
+          "manufacturer": "Sony",
+          "notes": "X4Ygku04imqYP2WKDyNnL6kDzybyvajJ62QoTc2ElvgwiW0fxdeam0d7DaGgvukdokxPcEPyRRzfG64uHhetb5XINe6M1kr6VxL2dk2n4yqZoqGhcGdFZVVPRUphIPuULVBcjQblA4sgCJcv4OJzTq4PDPK5LJZwa60JAfhADLoKO1nyAopabBKApmbxbf3YUlS4coZDCIYBeizKZSeq0XDNr188d1WQ52Bk2N5ELOHwM0nTl3eKuXbXLr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98063,
+      "createdOn": "2026-01-28T22:33:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697a8e9b1c508c5d5ebf8ec2",
+          "products": [
+            {
+              "_id": "697a8e9b1c508c5d5ebf8f20",
+              "name": "Pizza50376",
+              "amount": 351,
+              "price": 98063,
+              "manufacturer": "Sony",
+              "notes": "X4Ygku04imqYP2WKDyNnL6kDzybyvajJ62QoTc2ElvgwiW0fxdeam0d7DaGgvukdokxPcEPyRRzfG64uHhetb5XINe6M1kr6VxL2dk2n4yqZoqGhcGdFZVVPRUphIPuULVBcjQblA4sgCJcv4OJzTq4PDPK5LJZwa60JAfhADLoKO1nyAopabBKApmbxbf3YUlS4coZDCIYBeizKZSeq0XDNr188d1WQ52Bk2N5ELOHwM0nTl3eKuXbXLr",
+              "received": false
+            }
+          ],
+          "total_price": 98063,
+          "delivery": null,
+          "changedOn": "2026-01-28T22:33:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697a8e9c1c508c5d5ebf8f42"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
