@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-/9/6Q7+2NeUIPZ+ntkKDYMJtHMg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0761c508c5d5ec00409",
+        "email": "Dayna_Rogahn@gmail.com",
+        "name": "Lenny Dickinson",
+        "country": "Canada",
+        "city": "East Nasirfurt",
+        "street": "Lindgren Glens",
+        "house": 31,
+        "flat": 994,
+        "phone": "+19877260760",
+        "createdOn": "2026-01-29T22:34:30.000Z",
+        "notes": "OfspGKnseWHSLGhsdnkvj3Dbafmi8rnwbm7xwjUlEsbEGODH1Sefk4LHZ84rfmyvjFtKADFRRwCiTBMes1GBRWPQxy23oGUAsp4L3yNxrLEaa6Gx1GxqhbPuE2HCxzCnIqGCTSacSj1sTTjavKi6QSpMt0hukpP2tavwzEhfe4DEgE2WnDrZ5cIEGjdyKkTRGp3vf8HzvrSQ4QoWoAeUtOT6e7xr4zY7YSkHdFS1ZE8sCEuBbGmER5U7aH"
+      },
+      "products": [
+        {
+          "_id": "697be0771c508c5d5ec004d8",
+          "name": "Sausages27810",
+          "amount": 679,
+          "price": 70937,
+          "manufacturer": "Sony",
+          "notes": "NEvrlEbQnLbfBTKj7vWuAoe5Pj9YiaaHXurJ2reGbM1XOG5q6tqVrkLGJIb603hdedlZCG57tkaIrrGUgcMDrf7IrgAHnrwaKUHXctAnycFPIj5kDCINfgfqqYrmM1S7icUS0oQbQDijMxsd6w3686S3tAekv3kEtc0ooPuuRkIuM03zAyxNQq6Y67aYTMRKBqQyyd2maMm8bHybp0zfvy0asHQ3aBrJFimNVSA9B24pQyEiL0990PjpLg",
+          "received": false
+        },
+        {
+          "_id": "697be0781c508c5d5ec00550",
+          "name": "Cheese74398",
+          "amount": 959,
+          "price": 41800,
+          "manufacturer": "Google",
+          "notes": "q4xT4n3FlDsVpbCHTKKY1ewlEsP0mBoIxQ99JhaRbQ7mlOUP94rlUboowWnMj3NpmAhSLTRnmTUqS6DBig9B57Gk8mz9rKhM3GCSk0GQaAOo6YKn9DKpDBYqJ36tkkbHBFTGNrw90wOhWSmLvGgCVQLksVyHa6JLMqt6DtoGLeca9t8HLzWLC9wjkgR1K0kb7NYUpbDdhAUdSPAjXmX14wYN9EGfa6hjVLBYy3LFmgAc2836Dg6w04BE2h",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112737,
+      "createdOn": "2026-01-29T22:34:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0761c508c5d5ec00409",
+          "products": [
+            {
+              "_id": "697be0771c508c5d5ec004d8",
+              "name": "Sausages27810",
+              "amount": 679,
+              "price": 70937,
+              "manufacturer": "Sony",
+              "notes": "NEvrlEbQnLbfBTKj7vWuAoe5Pj9YiaaHXurJ2reGbM1XOG5q6tqVrkLGJIb603hdedlZCG57tkaIrrGUgcMDrf7IrgAHnrwaKUHXctAnycFPIj5kDCINfgfqqYrmM1S7icUS0oQbQDijMxsd6w3686S3tAekv3kEtc0ooPuuRkIuM03zAyxNQq6Y67aYTMRKBqQyyd2maMm8bHybp0zfvy0asHQ3aBrJFimNVSA9B24pQyEiL0990PjpLg",
+              "received": false
+            },
+            {
+              "_id": "697be0781c508c5d5ec00550",
+              "name": "Cheese74398",
+              "amount": 959,
+              "price": 41800,
+              "manufacturer": "Google",
+              "notes": "q4xT4n3FlDsVpbCHTKKY1ewlEsP0mBoIxQ99JhaRbQ7mlOUP94rlUboowWnMj3NpmAhSLTRnmTUqS6DBig9B57Gk8mz9rKhM3GCSk0GQaAOo6YKn9DKpDBYqJ36tkkbHBFTGNrw90wOhWSmLvGgCVQLksVyHa6JLMqt6DtoGLeca9t8HLzWLC9wjkgR1K0kb7NYUpbDdhAUdSPAjXmX14wYN9EGfa6hjVLBYy3LFmgAc2836Dg6w04BE2h",
+              "received": false
+            }
+          ],
+          "total_price": 112737,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0791c508c5d5ec005d8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

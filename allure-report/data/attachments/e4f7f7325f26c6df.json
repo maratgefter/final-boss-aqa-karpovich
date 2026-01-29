@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-RH6jApd1AD7DXmxJx+c4tiomqNU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0851c508c5d5ec00cbc",
+        "email": "Clement.Lockman89@yahoo.com",
+        "name": "Hassie Gutkowski",
+        "country": "USA",
+        "city": "North Corrinefield",
+        "street": "Maynard Grove",
+        "house": 25,
+        "flat": 472,
+        "phone": "+16692899944",
+        "createdOn": "2026-01-29T22:34:45.000Z",
+        "notes": "TTK4OdbdQYULlX6Vh8CWqycvawJ23wugsuG92cDxRW4hoGSILx2iZySu2gDSrZShmjQWiIjeEnLPNPidEkOm8wumXFhrlFLVLKn3HkFwZp4DaKkGzcTCm3XJMsNGhrPWy9HVW9SuSGSzPNxw1uIwJvnkWU8gTI1PEBJWSpvH1gFTwmZUVx35832PPNWrDCc6Ilg4duQwcI6yR7EIYIfefhMK3EDBBT4assYtNhnUoZV5GvnfLxKO4dKfMU"
+      },
+      "products": [
+        {
+          "_id": "697be0871c508c5d5ec00e0b",
+          "name": "Chair25754",
+          "amount": 898,
+          "price": 57137,
+          "manufacturer": "Tesla",
+          "notes": "oFN0Fv9FYwVWHLW88kkIm5EIvZveX5WkoSVoO9IWZv6GYt5mZYoqbRAGEB44VXkdF2852tYnAqir3RS9NltWGXOYRmgz5WV3EfYgPx4tJR1Qxl3qh4wm8Vnfkb1gfIXWPdY6t3Bp1N5Lg3gZq8sJ212a2cdEQvBmzbLSkGYh3MofW0SuPPVHWn0e0sWvl6JdTWORJ8Iw6HGbE5ZdqmGywk86P4yXhG1SHKjfNP14xfyg1GN4MSRgnukyQJ",
+          "received": false
+        },
+        {
+          "_id": "697be08b1c508c5d5ec01106",
+          "name": "Gloves21362",
+          "amount": 595,
+          "price": 65887,
+          "manufacturer": "Sony",
+          "notes": "eOMdiIdUsh8I9i6e1L9UsBiJM6AncKYa4QZNx5o4F7pc8Y0ep4CrG2XOZ3HCpn0MOLlHjWDLPnb5G80zeWKXO5Ybf4yHVxCtFaxVvIf6xXaZO5OcJomj576rfKGEtVm5dGxUgzTAIniy6JKtfhPDHeYcLGdnBtb9ZUy3MN9Huv1eicyHWbpyjM66yf6bslGSiXQGvSieu5kWeGV7T5EZWfozAg9zCUt4YZGv7OO2PrFFEp1UUv78oyU98r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 123024,
+      "createdOn": "2026-01-29T22:34:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0851c508c5d5ec00cbc",
+          "products": [
+            {
+              "_id": "697be0871c508c5d5ec00e0b",
+              "name": "Chair25754",
+              "amount": 898,
+              "price": 57137,
+              "manufacturer": "Tesla",
+              "notes": "oFN0Fv9FYwVWHLW88kkIm5EIvZveX5WkoSVoO9IWZv6GYt5mZYoqbRAGEB44VXkdF2852tYnAqir3RS9NltWGXOYRmgz5WV3EfYgPx4tJR1Qxl3qh4wm8Vnfkb1gfIXWPdY6t3Bp1N5Lg3gZq8sJ212a2cdEQvBmzbLSkGYh3MofW0SuPPVHWn0e0sWvl6JdTWORJ8Iw6HGbE5ZdqmGywk86P4yXhG1SHKjfNP14xfyg1GN4MSRgnukyQJ",
+              "received": false
+            },
+            {
+              "_id": "697be08b1c508c5d5ec01106",
+              "name": "Gloves21362",
+              "amount": 595,
+              "price": 65887,
+              "manufacturer": "Sony",
+              "notes": "eOMdiIdUsh8I9i6e1L9UsBiJM6AncKYa4QZNx5o4F7pc8Y0ep4CrG2XOZ3HCpn0MOLlHjWDLPnb5G80zeWKXO5Ybf4yHVxCtFaxVvIf6xXaZO5OcJomj576rfKGEtVm5dGxUgzTAIniy6JKtfhPDHeYcLGdnBtb9ZUy3MN9Huv1eicyHWbpyjM66yf6bslGSiXQGvSieu5kWeGV7T5EZWfozAg9zCUt4YZGv7OO2PrFFEp1UUv78oyU98r",
+              "received": false
+            }
+          ],
+          "total_price": 123024,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be08e1c508c5d5ec012f9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

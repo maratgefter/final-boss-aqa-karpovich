@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2952",
+    "etag": "W/\"b88-BgZZIXILuXKwBl49r5VdVk8tSgI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697be0631c508c5d5ebff9b7",
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0621c508c5d5ebff916",
+        "email": "Herman.Krajcik18@yahoo.com",
+        "name": "Shawna McCullough",
+        "country": "USA",
+        "city": "Brookline",
+        "street": "Schiller Ramp",
+        "house": 3,
+        "flat": 34,
+        "phone": "+13313795824",
+        "createdOn": "2026-01-29T22:34:10.000Z",
+        "notes": "238HJJH55sluAMUqmGQDcczNIURnpD5nu9ps4oIZQCITa3O7hLFzUSNCDrJiAC23aqS1i6B5AhKJAxEDOT9k7rcp8iISZXOR7oU4U8iOjDGQGqeQ7wVe8ALV63dArvKgWZxETBu0egUAcyXZbjWbfDb6n4V3oCLkK0B3GAq3HcX4Tvy3NV3XoW5dIug4wNPCOhvtSLcVbCnJIGC4B16Jp6eAXw3z28yqWoAZOtDizyQHnl9L2ZFI8v2ItR"
+      },
+      "products": [
+        {
+          "_id": "697be0621c508c5d5ebff939",
+          "name": "Computer9454",
+          "amount": 887,
+          "price": 54654,
+          "manufacturer": "Apple",
+          "notes": "9RniDpdbg2MRFRw1LhonTjtGOoAYhItWcql1TLFEqaMkuZr48TscvWSzy1TZ8kuDvr2ySdOiOkTmuNkgKVpzIwx4bP93svythykoThqTC10dI6v1c8OImfIlMwWKVLnHcsfhga8ZrtkTAKuofO1KOTHKBmeTHV2DLjIeQK2PFssrn8OUOVc2FZAxXngWqUmK5BYxkN4CNYIz6dNC6QlGlPYcZ3Qtwu85FvDwwYGRoajrk26KsdqSzkTJaR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Name",
+          "street": "S Water Street",
+          "house": 22,
+          "flat": 945
+        },
+        "finalDate": "2026-01-29T22:34:11.589Z",
+        "condition": "Pickup"
+      },
+      "total_price": 54654,
+      "createdOn": "2026-01-29T22:34:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0621c508c5d5ebff916",
+          "products": [
+            {
+              "_id": "697be0621c508c5d5ebff939",
+              "name": "Computer9454",
+              "amount": 887,
+              "price": 54654,
+              "manufacturer": "Apple",
+              "notes": "9RniDpdbg2MRFRw1LhonTjtGOoAYhItWcql1TLFEqaMkuZr48TscvWSzy1TZ8kuDvr2ySdOiOkTmuNkgKVpzIwx4bP93svythykoThqTC10dI6v1c8OImfIlMwWKVLnHcsfhga8ZrtkTAKuofO1KOTHKBmeTHV2DLjIeQK2PFssrn8OUOVc2FZAxXngWqUmK5BYxkN4CNYIz6dNC6QlGlPYcZ3Qtwu85FvDwwYGRoajrk26KsdqSzkTJaR",
+              "received": false
+            }
+          ],
+          "total_price": 54654,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Name",
+              "street": "S Water Street",
+              "house": 22,
+              "flat": 945
+            },
+            "finalDate": "2026-01-29T22:34:11.589Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-29T22:34:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697be0621c508c5d5ebff916",
+          "products": [
+            {
+              "_id": "697be0621c508c5d5ebff939",
+              "name": "Computer9454",
+              "amount": 887,
+              "price": 54654,
+              "manufacturer": "Apple",
+              "notes": "9RniDpdbg2MRFRw1LhonTjtGOoAYhItWcql1TLFEqaMkuZr48TscvWSzy1TZ8kuDvr2ySdOiOkTmuNkgKVpzIwx4bP93svythykoThqTC10dI6v1c8OImfIlMwWKVLnHcsfhga8ZrtkTAKuofO1KOTHKBmeTHV2DLjIeQK2PFssrn8OUOVc2FZAxXngWqUmK5BYxkN4CNYIz6dNC6QlGlPYcZ3Qtwu85FvDwwYGRoajrk26KsdqSzkTJaR",
+              "received": false
+            }
+          ],
+          "total_price": 54654,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

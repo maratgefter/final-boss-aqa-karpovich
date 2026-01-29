@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-Oog6Ob/+2KRv9cBcGqYzeRSdNqg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0641c508c5d5ebffa0a",
+        "email": "Gertrude.Gislason@yahoo.com",
+        "name": "Nya Walsh",
+        "country": "USA",
+        "city": "East Keshaun",
+        "street": "Macejkovic Turnpike",
+        "house": 13,
+        "flat": 182,
+        "phone": "+14363042870",
+        "createdOn": "2026-01-29T22:34:12.000Z",
+        "notes": "VPugFVOuugOy5FvIMvqHlTK3cdX8hsyf04el77rBwS6LjLyx7RVYIOVT97nlOtcZxic8owKnMW0DJbjvT70hGnQdrFpDLElYXzYo1cgwXYvXvBkygC9td1vEz7rdan6YPwwAh8KAYbLewfRvLKWoaeNq2QVxqnfKGsgdjnEeZrNHPpHYBkfABm4fncCKWZ60xx04khbVaKT9x7dxmmP22faGlYsQ8vVQ8mzaFFz1hgSQOuXRLQZidvupEQ"
+      },
+      "products": [
+        {
+          "_id": "697be0651c508c5d5ebffa84",
+          "name": "Chips46570",
+          "amount": 348,
+          "price": 41899,
+          "manufacturer": "Sony",
+          "notes": "rjPbWb4lcZZPMMvqAPaR65dYUJ9E8UfSMljWvlm0RGi8HFasYNgKiu0jRBAmOy2TXqUcbPxqianZLJ3BdqsimKe2n0WLBO8fVhOjZlcmXzimBkX9NfSEJCMQKEYGS5mJ7EMZg4Rxism0DG4Z89jL92ReUa9TOmjlzXhmWs8mI3BHFWM6R8Xuzm1W4grJT4erNBeb2O6mTVa5FIQ9q15HflPHvirTSvfxvjACt9xXPJTD93wDQVsPdBLyMg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41899,
+      "createdOn": "2026-01-29T22:34:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0641c508c5d5ebffa0a",
+          "products": [
+            {
+              "_id": "697be0651c508c5d5ebffa84",
+              "name": "Chips46570",
+              "amount": 348,
+              "price": 41899,
+              "manufacturer": "Sony",
+              "notes": "rjPbWb4lcZZPMMvqAPaR65dYUJ9E8UfSMljWvlm0RGi8HFasYNgKiu0jRBAmOy2TXqUcbPxqianZLJ3BdqsimKe2n0WLBO8fVhOjZlcmXzimBkX9NfSEJCMQKEYGS5mJ7EMZg4Rxism0DG4Z89jL92ReUa9TOmjlzXhmWs8mI3BHFWM6R8Xuzm1W4grJT4erNBeb2O6mTVa5FIQ9q15HflPHvirTSvfxvjACt9xXPJTD93wDQVsPdBLyMg",
+              "received": false
+            }
+          ],
+          "total_price": 41899,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0651c508c5d5ebffaa2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

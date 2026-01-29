@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:35:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-CmqrygkwLgq1d4SxqqHmUySMk3Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697be0941c508c5d5ec017b0",
+      "status": "Draft",
+      "customer": {
+        "_id": "697be08f1c508c5d5ec01399",
+        "email": "Jamel.Stiedemann@gmail.com",
+        "name": "Rylee Kovacek",
+        "country": "France",
+        "city": "Port Leatha",
+        "street": "Jermain Glen",
+        "house": 38,
+        "flat": 425,
+        "phone": "+15159266746",
+        "createdOn": "2026-01-29T22:34:55.000Z",
+        "notes": "EVIX9KgCxXecyQbh7Tokjuef5XxnaOx0U7PUnJC0tpjly4KIhqfvFwhT7MTmu6157PTjvo26v2sN8imbdRwJ6NANQmrJ1IQRiOMChehWbjayl5i8M2pWzhG1JR89JMLv4kiNTSmHXJYtC0NlHHCVOpIBOkt58RmACNFGR24843N39FCASokLuB0wOggqkyusjtqjhFi3sn4zwBa2FnD3SnPR5AJ39iAv4dMVFWN553XPPIgVUFs8oKKozz"
+      },
+      "products": [
+        {
+          "_id": "697be0901c508c5d5ec0147a",
+          "name": "Mouse34589",
+          "amount": 873,
+          "price": 95644,
+          "manufacturer": "Xiaomi",
+          "notes": "YYS1a1wgt8opXwRYy1kyCQn8A0anPxpYmZKpxfBHMmir02ourjpZQW7RMcdq4o8WG6fpVq7DUoXJlB8bGHiNtziAX11KMMVlXVoJNdIg4spyBUXj0GQHH9Zb3zNgwUXNvZ82lmb62jTYbQVpnkaz7aPwVjDwbzzyDsYSMuY6Usk3DEMukV0dmrgv6QcJbKHSyULNhWbtcbYLQrsCA8UICccrhnWqDWEKuytJCFX0q5NhyurSaKUKG1YTBX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Leatha",
+          "street": "Jermain Glen",
+          "house": 38,
+          "flat": 425
+        },
+        "finalDate": "2026-02-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 95644,
+      "createdOn": "2026-01-29T22:35:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be08f1c508c5d5ec01399",
+          "products": [
+            {
+              "_id": "697be0901c508c5d5ec0147a",
+              "name": "Mouse34589",
+              "amount": 873,
+              "price": 95644,
+              "manufacturer": "Xiaomi",
+              "notes": "YYS1a1wgt8opXwRYy1kyCQn8A0anPxpYmZKpxfBHMmir02ourjpZQW7RMcdq4o8WG6fpVq7DUoXJlB8bGHiNtziAX11KMMVlXVoJNdIg4spyBUXj0GQHH9Zb3zNgwUXNvZ82lmb62jTYbQVpnkaz7aPwVjDwbzzyDsYSMuY6Usk3DEMukV0dmrgv6QcJbKHSyULNhWbtcbYLQrsCA8UICccrhnWqDWEKuytJCFX0q5NhyurSaKUKG1YTBX",
+              "received": false
+            }
+          ],
+          "total_price": 95644,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Leatha",
+              "street": "Jermain Glen",
+              "house": 38,
+              "flat": 425
+            },
+            "finalDate": "2026-02-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-29T22:35:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697be08f1c508c5d5ec01399",
+          "products": [
+            {
+              "_id": "697be0901c508c5d5ec0147a",
+              "name": "Mouse34589",
+              "amount": 873,
+              "price": 95644,
+              "manufacturer": "Xiaomi",
+              "notes": "YYS1a1wgt8opXwRYy1kyCQn8A0anPxpYmZKpxfBHMmir02ourjpZQW7RMcdq4o8WG6fpVq7DUoXJlB8bGHiNtziAX11KMMVlXVoJNdIg4spyBUXj0GQHH9Zb3zNgwUXNvZ82lmb62jTYbQVpnkaz7aPwVjDwbzzyDsYSMuY6Usk3DEMukV0dmrgv6QcJbKHSyULNhWbtcbYLQrsCA8UICccrhnWqDWEKuytJCFX0q5NhyurSaKUKG1YTBX",
+              "received": false
+            }
+          ],
+          "total_price": 95644,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:35:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

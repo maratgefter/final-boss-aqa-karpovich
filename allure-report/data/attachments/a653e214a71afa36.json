@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3921",
+    "etag": "W/\"f51-VhvfHVjzPJEMk7BrAw2zYMrY0ac\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697be06f1c508c5d5ec0006f",
+      "status": "In Process",
+      "customer": {
+        "_id": "697be06e1c508c5d5ebfffbd",
+        "email": "Benedict83@gmail.com",
+        "name": "Carole Schultz",
+        "country": "Great Britain",
+        "city": "North Ramon",
+        "street": "Runte Haven",
+        "house": 32,
+        "flat": 358,
+        "phone": "+12094727654",
+        "createdOn": "2026-01-29T22:34:22.000Z",
+        "notes": "QcwCLCwuIsEAdYnVeNutXDNviHDBcErD03iWM5lyuFrB99f1C1XSzdZzSFIM1qkLwwZpaxsq1ZPk0QhwT36a4IN1Com6zhWP3qav4glRLi09cM2ZZHtgFVfgsPQ5SwY5FZVgyw61Xvw1VrBue9s6w7OFwUkSahrqkc6SgfVyFD3bbHWasW6poChXBd1mRNvMqu1qlLQkVwpDEoXdU9CgWIbYq5vxu2pwUPoZ33KuIjfjndQhTSOTf58Phl"
+      },
+      "products": [
+        {
+          "_id": "697be06e1c508c5d5ebfffd0",
+          "name": "Keyboard20503",
+          "amount": 251,
+          "price": 87407,
+          "manufacturer": "Microsoft",
+          "notes": "TZzLZ1OXkEmldGwLKM8qIz1KTRQnnPWz0u0BN1tq1kuCNbEA4bPFECtuETnRyN6Pp2rjvTNkN6gVqqUzO8URNFmsphlZZtCAqWx8Ie2bGKHe3cHow85TuTfvKWF9ggCJ54qlr9K0QXYfqcf0EhrcASlNyw5AVFSPBF0cJPQU2BqKveeyZSNiVsDpDJcZiCqVPphBB0Ed9A9ntNsay3nAxhk8lccCRcCjwiiDJjgszWmDrDENGszSThqNrV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "North Ramon",
+          "street": "Runte Haven",
+          "house": 32,
+          "flat": 358
+        },
+        "finalDate": "2026-02-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 87407,
+      "createdOn": "2026-01-29T22:34:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "697be06e1c508c5d5ebfffbd",
+          "products": [
+            {
+              "_id": "697be06e1c508c5d5ebfffd0",
+              "name": "Keyboard20503",
+              "amount": 251,
+              "price": 87407,
+              "manufacturer": "Microsoft",
+              "notes": "TZzLZ1OXkEmldGwLKM8qIz1KTRQnnPWz0u0BN1tq1kuCNbEA4bPFECtuETnRyN6Pp2rjvTNkN6gVqqUzO8URNFmsphlZZtCAqWx8Ie2bGKHe3cHow85TuTfvKWF9ggCJ54qlr9K0QXYfqcf0EhrcASlNyw5AVFSPBF0cJPQU2BqKveeyZSNiVsDpDJcZiCqVPphBB0Ed9A9ntNsay3nAxhk8lccCRcCjwiiDJjgszWmDrDENGszSThqNrV",
+              "received": false
+            }
+          ],
+          "total_price": 87407,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Ramon",
+              "street": "Runte Haven",
+              "house": 32,
+              "flat": 358
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-29T22:34:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697be06e1c508c5d5ebfffbd",
+          "products": [
+            {
+              "_id": "697be06e1c508c5d5ebfffd0",
+              "name": "Keyboard20503",
+              "amount": 251,
+              "price": 87407,
+              "manufacturer": "Microsoft",
+              "notes": "TZzLZ1OXkEmldGwLKM8qIz1KTRQnnPWz0u0BN1tq1kuCNbEA4bPFECtuETnRyN6Pp2rjvTNkN6gVqqUzO8URNFmsphlZZtCAqWx8Ie2bGKHe3cHow85TuTfvKWF9ggCJ54qlr9K0QXYfqcf0EhrcASlNyw5AVFSPBF0cJPQU2BqKveeyZSNiVsDpDJcZiCqVPphBB0Ed9A9ntNsay3nAxhk8lccCRcCjwiiDJjgszWmDrDENGszSThqNrV",
+              "received": false
+            }
+          ],
+          "total_price": 87407,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Ramon",
+              "street": "Runte Haven",
+              "house": 32,
+              "flat": 358
+            },
+            "finalDate": "2026-02-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-29T22:34:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697be06e1c508c5d5ebfffbd",
+          "products": [
+            {
+              "_id": "697be06e1c508c5d5ebfffd0",
+              "name": "Keyboard20503",
+              "amount": 251,
+              "price": 87407,
+              "manufacturer": "Microsoft",
+              "notes": "TZzLZ1OXkEmldGwLKM8qIz1KTRQnnPWz0u0BN1tq1kuCNbEA4bPFECtuETnRyN6Pp2rjvTNkN6gVqqUzO8URNFmsphlZZtCAqWx8Ie2bGKHe3cHow85TuTfvKWF9ggCJ54qlr9K0QXYfqcf0EhrcASlNyw5AVFSPBF0cJPQU2BqKveeyZSNiVsDpDJcZiCqVPphBB0Ed9A9ntNsay3nAxhk8lccCRcCjwiiDJjgszWmDrDENGszSThqNrV",
+              "received": false
+            }
+          ],
+          "total_price": 87407,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

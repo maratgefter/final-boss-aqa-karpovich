@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:33:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2964",
+    "etag": "W/\"b94-uc4L3bdt9wrTwPD6MwobY3SrhvM\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697be0511c508c5d5ebff0d5",
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0511c508c5d5ebff098",
+        "email": "Seamus.Sanford@gmail.com",
+        "name": "Oliver Beier",
+        "country": "Great Britain",
+        "city": "Port Rafaelberg",
+        "street": "Windermere Road",
+        "house": 28,
+        "flat": 502,
+        "phone": "+16399588048",
+        "createdOn": "2026-01-29T22:33:53.000Z",
+        "notes": "ChyuDi92d7NuLdI6PxZiUIY1ObTIv1Azro0oDkQPVC4H2Ep8BFKt4F2blFFxxm9B4dlfbQRB6KkSMlGHAagKGQF0XkCKFKv7I76U8od2fFQq2guslDALOwsAsDxGQzrXsai6AqJkboNXCtAoT26uVU9hCRpgP2hK8mK6FEawiCpeqBBxIE8XlC3Zx4qn1VMOLRreFihnvH3ioCN7SXOFkhYB6VPtwJWhbWMMDcqeg4Zef6F7p0cLQy6ZVN"
+      },
+      "products": [
+        {
+          "_id": "697be0511c508c5d5ebff0b6",
+          "name": "Bacon27901",
+          "amount": 250,
+          "price": 77747,
+          "manufacturer": "Amazon",
+          "notes": "5yq6nbUk28fI9XmzgIb3KiKtDTK6ivm6QXa72GwsYycDm0hmmT3u6Z1euv5i2XsV86IgAR24t0Wakk6rrOtvlGcYYz7D9ygdqpnE4om3BI6XKzf5cFfKoHmjyHPQsTrmQYQ08pJGgqkEj98lFsHTGNh06zuU18uzwRTxOFDpVpDHqI6HqPCUGXMvLYeGe8jqFP9OUtJCKtUH7STOLglXAfyna3ES1y8i5yQCkmiC3Ccjgz99cYSE8l0Gh2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77747,
+      "createdOn": "2026-01-29T22:33:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0511c508c5d5ebff098",
+          "products": [
+            {
+              "_id": "697be0511c508c5d5ebff0b6",
+              "name": "Bacon27901",
+              "amount": 250,
+              "price": 77747,
+              "manufacturer": "Amazon",
+              "notes": "5yq6nbUk28fI9XmzgIb3KiKtDTK6ivm6QXa72GwsYycDm0hmmT3u6Z1euv5i2XsV86IgAR24t0Wakk6rrOtvlGcYYz7D9ygdqpnE4om3BI6XKzf5cFfKoHmjyHPQsTrmQYQ08pJGgqkEj98lFsHTGNh06zuU18uzwRTxOFDpVpDHqI6HqPCUGXMvLYeGe8jqFP9OUtJCKtUH7STOLglXAfyna3ES1y8i5yQCkmiC3Ccjgz99cYSE8l0Gh2",
+              "received": false
+            }
+          ],
+          "total_price": 77747,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:33:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "697be0511c508c5d5ebff098",
+          "products": [
+            {
+              "_id": "697be0511c508c5d5ebff0b6",
+              "name": "Bacon27901",
+              "amount": 250,
+              "price": 77747,
+              "manufacturer": "Amazon",
+              "notes": "5yq6nbUk28fI9XmzgIb3KiKtDTK6ivm6QXa72GwsYycDm0hmmT3u6Z1euv5i2XsV86IgAR24t0Wakk6rrOtvlGcYYz7D9ygdqpnE4om3BI6XKzf5cFfKoHmjyHPQsTrmQYQ08pJGgqkEj98lFsHTGNh06zuU18uzwRTxOFDpVpDHqI6HqPCUGXMvLYeGe8jqFP9OUtJCKtUH7STOLglXAfyna3ES1y8i5yQCkmiC3Ccjgz99cYSE8l0Gh2",
+              "received": false
+            }
+          ],
+          "total_price": 77747,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:33:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

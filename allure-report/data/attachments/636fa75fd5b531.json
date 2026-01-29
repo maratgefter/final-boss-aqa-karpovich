@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-5sgJU72qW4ehjbmmqQbnnQOOHp0\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0631c508c5d5ebff9ae",
+        "email": "Domenica.Wisozk@gmail.com",
+        "name": "Faustino Will",
+        "country": "Ukraine",
+        "city": "Port Davon",
+        "street": "Watsica Crossroad",
+        "house": 14,
+        "flat": 162,
+        "phone": "+14888703038",
+        "createdOn": "2026-01-29T22:34:11.000Z",
+        "notes": "03mPmOXWGF26nfdEZqxXPvQ0Sbmk9V2JLHFNJjcJQhCHI3n5czxtWRMYMi1CeZmxlt26Um7K0j3bRQmmhwipThrFXlYPv4mWqlnQKjU39eU9PnxytQBpeFmuFeIWzE4UceQad68LwArC20Tms0nm9LUsTFqjZxv8JPSf4JtMY5Gwmu9JoPFd385Zvq6oMBLzx4kxbLCN1U0CUb7tHaGSaWdS1VvEYKY5qSbHODaxnG9kvZo5A3PWEQXNVf"
+      },
+      "products": [
+        {
+          "_id": "697be0641c508c5d5ebff9df",
+          "name": "Table58842",
+          "amount": 732,
+          "price": 5792,
+          "manufacturer": "Amazon",
+          "notes": "hfKgSBTId2ieYHIBisOUHiglgg0HawbAys8VY9phDoRU2Nw7Wj0VV1ZLn3qrw8iRwAO8PXMHjtVKxwyMjrD9LJQvMVtEC1rK69eiwxuOsKsIBGcAfcjIG7WYMVVf365FWgzwttNZvjzNfrDaq5I6jv1M9Te0245X0f9ULaNkVkjN7hvAAS7uNuWLboISOUpf4kvN4VeNjhjsWumFGY3Pdgm0bmyFlpKYp66f78Ih5PpwJKj02fgpYqeQ0E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5792,
+      "createdOn": "2026-01-29T22:34:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0631c508c5d5ebff9ae",
+          "products": [
+            {
+              "_id": "697be0641c508c5d5ebff9df",
+              "name": "Table58842",
+              "amount": 732,
+              "price": 5792,
+              "manufacturer": "Amazon",
+              "notes": "hfKgSBTId2ieYHIBisOUHiglgg0HawbAys8VY9phDoRU2Nw7Wj0VV1ZLn3qrw8iRwAO8PXMHjtVKxwyMjrD9LJQvMVtEC1rK69eiwxuOsKsIBGcAfcjIG7WYMVVf365FWgzwttNZvjzNfrDaq5I6jv1M9Te0245X0f9ULaNkVkjN7hvAAS7uNuWLboISOUpf4kvN4VeNjhjsWumFGY3Pdgm0bmyFlpKYp66f78Ih5PpwJKj02fgpYqeQ0E",
+              "received": false
+            }
+          ],
+          "total_price": 5792,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0641c508c5d5ebffa11"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

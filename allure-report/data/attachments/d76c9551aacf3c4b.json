@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-zoV+XsDKBd/zR4JFtGfIvKYkbuw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0631c508c5d5ebff99c",
+        "email": "Helene95@yahoo.com",
+        "name": "Joel Harris",
+        "country": "Great Britain",
+        "city": "Lake Nigelstad",
+        "street": "Gutmann Brooks",
+        "house": 34,
+        "flat": 213,
+        "phone": "+15192464609",
+        "createdOn": "2026-01-29T22:34:11.000Z",
+        "notes": "nswkaN3LWEgGAzAFWimbMLTBXT4TZkr3dasBaeqtUPjCzMv6W3nyX5QKI0xEHPDj5AgMg4g2mzXHQeic7qNSoQyPiScNbL6KEylILIP3RR5Y4DZoblaZLdiK6tyw5M8IWY18gRJZ4XcM7yxpesQmClp2qXhamgcVghITXO8ZXCItbWBi65esYuDDM4jjT0SHXyK00Tjh3yYkj7sK5uJgF75kl7vpkOoqO7nAzNHwwvr1Ld4RHfOKhKwKiS"
+      },
+      "products": [
+        {
+          "_id": "697be0631c508c5d5ebff9c4",
+          "name": "Computer69898",
+          "amount": 64,
+          "price": 33144,
+          "manufacturer": "Tesla",
+          "notes": "a5WH1LnbF8PfFo3sI6lDIkhC2O9IiVH27wkv3kH8YHbqdnWYluAZeCUQzw1kBqLyb9iYkswa9HoJrlNenskTH58hKI0NXMQJQCPcaJfQ7eMT8mCjjwZF3KPbDv3DKocfd4VmKBM2v7qgETpESICUFEPvubGE7CyEqVIXowzlKpGvBjCqnOvhRSpJMaEafIZzMWbjppbsaWGuVe8aYKzExwl4cGGfJwcIftcEcs3E9jsiG6iRhEH3Hzm0JY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33144,
+      "createdOn": "2026-01-29T22:34:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0631c508c5d5ebff99c",
+          "products": [
+            {
+              "_id": "697be0631c508c5d5ebff9c4",
+              "name": "Computer69898",
+              "amount": 64,
+              "price": 33144,
+              "manufacturer": "Tesla",
+              "notes": "a5WH1LnbF8PfFo3sI6lDIkhC2O9IiVH27wkv3kH8YHbqdnWYluAZeCUQzw1kBqLyb9iYkswa9HoJrlNenskTH58hKI0NXMQJQCPcaJfQ7eMT8mCjjwZF3KPbDv3DKocfd4VmKBM2v7qgETpESICUFEPvubGE7CyEqVIXowzlKpGvBjCqnOvhRSpJMaEafIZzMWbjppbsaWGuVe8aYKzExwl4cGGfJwcIftcEcs3E9jsiG6iRhEH3Hzm0JY",
+              "received": false
+            }
+          ],
+          "total_price": 33144,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0641c508c5d5ebff9ec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

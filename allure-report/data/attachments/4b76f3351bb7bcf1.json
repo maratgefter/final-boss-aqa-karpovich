@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-L0Rg8A/BfuH/5ZOKATHJNsJgPrY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be06d1c508c5d5ebfff3c",
+        "email": "Gilda.Wolf71@yahoo.com",
+        "name": "Beryl Kunde",
+        "country": "Germany",
+        "city": "Lake Fidelland",
+        "street": "Jefferson Street",
+        "house": 8,
+        "flat": 621,
+        "phone": "+13658701395",
+        "createdOn": "2026-01-29T22:34:21.000Z",
+        "notes": "vNmZMwAPDgM6zColiiZczLuKzgWREv5dvzoAJfB9wYGK4r4ZQimd4taCK5i3qPAxOAoQMR7kvHxph49AKopqVKDod1pqITeHh034OAiLiUIzEWU73sFs3qDyclwuwK7JLjZHwDCsqQ0KlHf4siQapnSiNZkPKtIGyjCbEvnEJipqgQPzRtOnUyfrIGW5KV0i0lTk4t614KiGIHUXWUzD3UsMK6mJdkdWmSbQeG1fWgRvG6nQq0zHfsARgE"
+      },
+      "products": [
+        {
+          "_id": "697be06e1c508c5d5ebfffbf",
+          "name": "Chair38208",
+          "amount": 622,
+          "price": 31128,
+          "manufacturer": "Sony",
+          "notes": "2tLjyZNgESkZi8DPKtgPt8h2E34NGgDjswbKohZC5gRhWMYYpDN6vcqJPam6bjOGeM2w4ZWB1z7H8OAmz9k5A6WDyouGZd25dqUStRidmc5faZ6orpsySJr7k8856u1mfShVG6HQsvIO2qQ3rfeJPQCV8mF4FESk7VCfE0Kj7u5oGqeVZNZIrIQIibmgtD5J8c7AsLbB7rb4jU44kd7QDlsT5jWxHleXaPL8187Lq3B4oJFLRnoAALJdHS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31128,
+      "createdOn": "2026-01-29T22:34:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be06d1c508c5d5ebfff3c",
+          "products": [
+            {
+              "_id": "697be06e1c508c5d5ebfffbf",
+              "name": "Chair38208",
+              "amount": 622,
+              "price": 31128,
+              "manufacturer": "Sony",
+              "notes": "2tLjyZNgESkZi8DPKtgPt8h2E34NGgDjswbKohZC5gRhWMYYpDN6vcqJPam6bjOGeM2w4ZWB1z7H8OAmz9k5A6WDyouGZd25dqUStRidmc5faZ6orpsySJr7k8856u1mfShVG6HQsvIO2qQ3rfeJPQCV8mF4FESk7VCfE0Kj7u5oGqeVZNZIrIQIibmgtD5J8c7AsLbB7rb4jU44kd7QDlsT5jWxHleXaPL8187Lq3B4oJFLRnoAALJdHS",
+              "received": false
+            }
+          ],
+          "total_price": 31128,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be06e1c508c5d5ebfffdf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

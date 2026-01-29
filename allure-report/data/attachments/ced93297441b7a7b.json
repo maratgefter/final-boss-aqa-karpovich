@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:33:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-2D456ncSvc8mywdTaWez12DNLVc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0541c508c5d5ebff21e",
+        "email": "Sonya88@yahoo.com",
+        "name": "Jake Wilkinson",
+        "country": "Russia",
+        "city": "Warren",
+        "street": "Madison Wall",
+        "house": 49,
+        "flat": 948,
+        "phone": "+13273718010",
+        "createdOn": "2026-01-29T22:33:56.000Z",
+        "notes": "N9BOzOYkvjupR1KxiyfIZRTLP9eM54gS7A7nkWApOkd1CD4obvGEZ3xmkLQVK66iVhowjavWS9ztAuVi35rsXWhoiKMebxSGuCEW3dEnaawZbOBmsgNqBuKDtLaWj61KD3e1dPxIySHvggsuaMvpVb3xIllhDtd9RR5ecQUfRE1WhYZZ5IWrEkdQsADgneRAYBS3c0HwzfZRwwPWyZeKOlMktwgwBUYsPZzu30a1iN8ydeBArVqOWjChLw"
+      },
+      "products": [
+        {
+          "_id": "697be0541c508c5d5ebff259",
+          "name": "Keyboard13792",
+          "amount": 781,
+          "price": 11110,
+          "manufacturer": "Xiaomi",
+          "notes": "KuT92OdtQOrngB6B8EwSB0Wyq5Et6Pqsw0FxqsG6OrHv0auGbCUxqcDt1iKeQgiv7VBRer1hzrstVpqKzDan7uJj7CODROxl3VKLZTCNGqrXo90KjMqIqgR0mttLi3ppsZNAj8vkcHCgr55g5RiVp5XxM38NIDp1CiiMIkoh9fkQ9hGyVVX2gmeaPhwSK2rJPzHBi4WJIozBmcpchyOyktOSYFNTWNaecLX8ikZ52jeaVFok26h9vd0MIF",
+          "received": false
+        },
+        {
+          "_id": "697be0551c508c5d5ebff28a",
+          "name": "Towels40232",
+          "amount": 450,
+          "price": 47545,
+          "manufacturer": "Xiaomi",
+          "notes": "spUaH4AEeeRuRsrNPX2gzQllTaECNA0nduHrCkyGbr2CSFNGawOFT6WraWlK2ApijuTPra4ICAw31LqQq0tkM3Cvcy81B04R6Dtv2LhVdZz6sn0qR0cFXDP3y1FEptntBMHa86ecpad5DVuhdsSCdp3UUknukV3drZ8WXytyum3IGLi6atfi1oXe4zrxioZYObUxOyZGckDsdOItDvlreLeUtxF75AC3CsGjIcYpi4y6va4dLGVNPCYVtC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58655,
+      "createdOn": "2026-01-29T22:33:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0541c508c5d5ebff21e",
+          "products": [
+            {
+              "_id": "697be0541c508c5d5ebff259",
+              "name": "Keyboard13792",
+              "amount": 781,
+              "price": 11110,
+              "manufacturer": "Xiaomi",
+              "notes": "KuT92OdtQOrngB6B8EwSB0Wyq5Et6Pqsw0FxqsG6OrHv0auGbCUxqcDt1iKeQgiv7VBRer1hzrstVpqKzDan7uJj7CODROxl3VKLZTCNGqrXo90KjMqIqgR0mttLi3ppsZNAj8vkcHCgr55g5RiVp5XxM38NIDp1CiiMIkoh9fkQ9hGyVVX2gmeaPhwSK2rJPzHBi4WJIozBmcpchyOyktOSYFNTWNaecLX8ikZ52jeaVFok26h9vd0MIF",
+              "received": false
+            },
+            {
+              "_id": "697be0551c508c5d5ebff28a",
+              "name": "Towels40232",
+              "amount": 450,
+              "price": 47545,
+              "manufacturer": "Xiaomi",
+              "notes": "spUaH4AEeeRuRsrNPX2gzQllTaECNA0nduHrCkyGbr2CSFNGawOFT6WraWlK2ApijuTPra4ICAw31LqQq0tkM3Cvcy81B04R6Dtv2LhVdZz6sn0qR0cFXDP3y1FEptntBMHa86ecpad5DVuhdsSCdp3UUknukV3drZ8WXytyum3IGLi6atfi1oXe4zrxioZYObUxOyZGckDsdOItDvlreLeUtxF75AC3CsGjIcYpi4y6va4dLGVNPCYVtC",
+              "received": false
+            }
+          ],
+          "total_price": 58655,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:33:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0551c508c5d5ebff2d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

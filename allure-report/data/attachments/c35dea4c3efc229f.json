@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-k/NZqNGIGTOnnVvj8why+gu8t3E\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0701c508c5d5ec000ff",
+        "email": "Hermina37@gmail.com",
+        "name": "Gudrun Wyman",
+        "country": "Canada",
+        "city": "Grahamton",
+        "street": "Church Street",
+        "house": 47,
+        "flat": 574,
+        "phone": "+17456442097",
+        "createdOn": "2026-01-29T22:34:24.000Z",
+        "notes": "7cHtPyejS5jo8jbCjOXA93WYOvVUrVsDUNz3HEqZPEe6x6SnmY2mnN6PN9gK6eWEhAk2lCtHSdNW7CGNdRQKNMJnajqaZvpN0f7BeGxObPstIml2zhOGfwrZ7zLvafkciSOYqfbsPXk8Tac7FBnW40eVlWlILZkY4BKSdShPAD5YX1fMoXiIF4DClQuC4Ww7kIomLWa4VjUEdVG6vsjc0BvadxOGPdQcjzefPXRWPHUJbuOrwkKoAJfaOR"
+      },
+      "products": [
+        {
+          "_id": "697be0711c508c5d5ec00120",
+          "name": "Bacon26289",
+          "amount": 629,
+          "price": 88593,
+          "manufacturer": "Samsung",
+          "notes": "D3rRFbxxxpJHJoP2hUhpgMpj4poI4uUYFSBI6mQMI8FGFP5WyzsrSB93ShqnPemz2OwRHcSb2lRpy2pA3csKwisNqRWPDoHfNKnXYsabl9gLZ0NW7e7YnS4M3C6mpDUauj6vKaSVaCmdGxs1HDiL7qv6stX2RCKNmcP7kYgJYQPhRjkymJ4mSHWN1kUhMU9Y14uiXvty0tWghuMPAuv8H9wi2yVVnOThjmohlVZaoS2IOtMcmijZGf52Zy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88593,
+      "createdOn": "2026-01-29T22:34:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0701c508c5d5ec000ff",
+          "products": [
+            {
+              "_id": "697be0711c508c5d5ec00120",
+              "name": "Bacon26289",
+              "amount": 629,
+              "price": 88593,
+              "manufacturer": "Samsung",
+              "notes": "D3rRFbxxxpJHJoP2hUhpgMpj4poI4uUYFSBI6mQMI8FGFP5WyzsrSB93ShqnPemz2OwRHcSb2lRpy2pA3csKwisNqRWPDoHfNKnXYsabl9gLZ0NW7e7YnS4M3C6mpDUauj6vKaSVaCmdGxs1HDiL7qv6stX2RCKNmcP7kYgJYQPhRjkymJ4mSHWN1kUhMU9Y14uiXvty0tWghuMPAuv8H9wi2yVVnOThjmohlVZaoS2IOtMcmijZGf52Zy",
+              "received": false
+            }
+          ],
+          "total_price": 88593,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0721c508c5d5ec001a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

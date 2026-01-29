@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-hI07stKCM8DpbAkWN5TgwiqLRe8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be05e1c508c5d5ebff6ef",
+        "email": "Stefanie.Schneider11@yahoo.com",
+        "name": "Taya Harris",
+        "country": "Canada",
+        "city": "Harlingen",
+        "street": "Deanna Oval",
+        "house": 18,
+        "flat": 162,
+        "phone": "+16204872815",
+        "createdOn": "2026-01-29T22:34:06.000Z",
+        "notes": "MhMZqsWcTbcgTgJKGNhGrNqhUx86B8MUGT9rnKUghht2b0LQKruhwk0nJYeLGGVcA6BUuKWLfsvBmHskqyjI9ZGkhIp8HrWWXAkon95fjHvyB5q72mNb7pbZ3BoWgzMhGJy2fgSom05c8nwxxkFtsInWOY3SKafeI4vLCqEW0A5YHfS3bjRdYkJVpXhQNHSu6Ec8iJ5JyKXUn7jfWJ0bdfkzvdo3Z287iOHcG9kWeE9dX1he4Ag9EMvisd"
+      },
+      "products": [
+        {
+          "_id": "697be05f1c508c5d5ebff7ae",
+          "name": "Tuna37482",
+          "amount": 542,
+          "price": 49546,
+          "manufacturer": "Apple",
+          "notes": "vZ4bYGwkoLe9lWETSX2Ix7Ay9GRHVTe19I18TCpY2OCXZtRzXaeG0Gws3OXIlaztOsTXiB8irlagzNqkJNPu4Xyi810iKfajHYE1Q6mmfnJs8jTMt81AoWbuhXZqanNOkPDAfzAdArlXb88LPSMnrKc2Hyy4B8FqLpr0eocTgz0YgoWtMUy6KOvKUN2vG4sEXWD6Ei5w6ePJE72QZK0qI9OeyUyqUnQFQaB1o5ZV0wHj0FncEZ5zQBSxkY",
+          "received": false
+        },
+        {
+          "_id": "697be0601c508c5d5ebff7da",
+          "name": "Bacon85513",
+          "amount": 569,
+          "price": 10011,
+          "manufacturer": "Amazon",
+          "notes": "7aiZrA0jDWQJUVLFHXCSaBQ9rKcgXPAKiv2Bf45BZ1D3910KO7UAGbmQcUthcKOz7SfpW3t1r4O3QmfbTIbbjL6kqdSwjLrVxT1dQXz87IRDcCiltpCRd47TNkA3VPh0rGVzyyW8uYTumGEhzdQtt2cEC2tnqLukrqX3UdAbZlBljOarmTsrlwFgjWocaHLAVyFAkdgFMzPKjglvq2t1LGipxhNZfvNeWXLyMx4RCrjeH9m0pY3Ot1b2s8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59557,
+      "createdOn": "2026-01-29T22:34:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be05e1c508c5d5ebff6ef",
+          "products": [
+            {
+              "_id": "697be05f1c508c5d5ebff7ae",
+              "name": "Tuna37482",
+              "amount": 542,
+              "price": 49546,
+              "manufacturer": "Apple",
+              "notes": "vZ4bYGwkoLe9lWETSX2Ix7Ay9GRHVTe19I18TCpY2OCXZtRzXaeG0Gws3OXIlaztOsTXiB8irlagzNqkJNPu4Xyi810iKfajHYE1Q6mmfnJs8jTMt81AoWbuhXZqanNOkPDAfzAdArlXb88LPSMnrKc2Hyy4B8FqLpr0eocTgz0YgoWtMUy6KOvKUN2vG4sEXWD6Ei5w6ePJE72QZK0qI9OeyUyqUnQFQaB1o5ZV0wHj0FncEZ5zQBSxkY",
+              "received": false
+            },
+            {
+              "_id": "697be0601c508c5d5ebff7da",
+              "name": "Bacon85513",
+              "amount": 569,
+              "price": 10011,
+              "manufacturer": "Amazon",
+              "notes": "7aiZrA0jDWQJUVLFHXCSaBQ9rKcgXPAKiv2Bf45BZ1D3910KO7UAGbmQcUthcKOz7SfpW3t1r4O3QmfbTIbbjL6kqdSwjLrVxT1dQXz87IRDcCiltpCRd47TNkA3VPh0rGVzyyW8uYTumGEhzdQtt2cEC2tnqLukrqX3UdAbZlBljOarmTsrlwFgjWocaHLAVyFAkdgFMzPKjglvq2t1LGipxhNZfvNeWXLyMx4RCrjeH9m0pY3Ot1b2s8",
+              "received": false
+            }
+          ],
+          "total_price": 59557,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0601c508c5d5ebff7f6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

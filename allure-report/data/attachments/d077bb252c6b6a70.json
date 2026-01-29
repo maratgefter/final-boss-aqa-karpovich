@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-dj2LPK/wLhOuIvFnUOeJbnzsfhA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697be0651c508c5d5ebffa86",
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0631c508c5d5ebff9d0",
+        "email": "Rashawn8@yahoo.com",
+        "name": "Demond Veum",
+        "country": "USA",
+        "city": "South Gudrunport",
+        "street": "Gennaro Villages",
+        "house": 48,
+        "flat": 644,
+        "phone": "+14727771468",
+        "createdOn": "2026-01-29T22:34:11.000Z",
+        "notes": "VYBPGNrHAh8nSx9f2zsnBSCtI7PE9MxFAxvhjDcQbK6QMDtMAEYJqFBRnTEA9ZcTwI6Ukict5DwS5z858QxPrpBAM7ktmB2e8szZ6EyLYo6UTWDtEci7kjqVJWoX9u6iPNn5scJHSH91XJnq4woOMGlAJD2GDwGi48KOadRCHzEEfgio0CIngvd1GNJbUySgFGpxv8xt9oa48QrB9nVeHbhz28VF9KDbnRIwNhEPuF5cH11gR20jinOMD4"
+      },
+      "products": [
+        {
+          "_id": "697be0641c508c5d5ebff9fa",
+          "name": "Shoes96097",
+          "amount": 675,
+          "price": 38720,
+          "manufacturer": "Amazon",
+          "notes": "RH15LgX7NgTjuWGKrHfiGJDAsfySejTEF6n0AQ7qthNdV213g56gsWLVX4ALDbeIAf7SJJunUJ8NzcJc7vAgMrrGlH12T9iEHaBUvGzX3mdsnvRDsYLE7TaeVLkQkBiZZT2URNVObCyNyub64RB6857oqjQ0D6al6wrjeHP08PbEMT5LgqYSWnuzh03yZW44zklvPIAPcHZ75CYxdObNx7jm4wRtRjhlbsi0i9m7vwJgsEINSrN0inWCVx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38720,
+      "createdOn": "2026-01-29T22:34:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0631c508c5d5ebff9d0",
+          "products": [
+            {
+              "_id": "697be0641c508c5d5ebff9fa",
+              "name": "Shoes96097",
+              "amount": 675,
+              "price": 38720,
+              "manufacturer": "Amazon",
+              "notes": "RH15LgX7NgTjuWGKrHfiGJDAsfySejTEF6n0AQ7qthNdV213g56gsWLVX4ALDbeIAf7SJJunUJ8NzcJc7vAgMrrGlH12T9iEHaBUvGzX3mdsnvRDsYLE7TaeVLkQkBiZZT2URNVObCyNyub64RB6857oqjQ0D6al6wrjeHP08PbEMT5LgqYSWnuzh03yZW44zklvPIAPcHZ75CYxdObNx7jm4wRtRjhlbsi0i9m7vwJgsEINSrN0inWCVx",
+              "received": false
+            }
+          ],
+          "total_price": 38720,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-tbCSGZsUPepzvsitK2ghviKDbrQ\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be07a1c508c5d5ec00662",
+        "email": "Dulce_Bergstrom@hotmail.com",
+        "name": "Ernest Gulgowski",
+        "country": "Great Britain",
+        "city": "Danielmouth",
+        "street": "Kestrel Close",
+        "house": 33,
+        "flat": 7,
+        "phone": "+12218704543",
+        "createdOn": "2026-01-29T22:34:34.000Z",
+        "notes": "NOgjg5DHr3Kr8ReXYPBa8yRz0WUhwlAtnpcn0vVAcg36Zqo61JvN6KSMAvxAJbwIbdIwv8PT3bsnnbo1IStVB4n4ZnI1pnAxEwYdCAolCitGrextqGqTE0amPJLYOqTx7WFlqxIGmvd7vyAIC3ISJJd7VAZIIlY8iNMrXRw7jVxc0Q7aYAogBWmM2miQxXP1w81KfxQOCNbbDdwcAlPydZ0OKKIa3UUINGllaxqcS4ay7b9GDWkBfMtjC5"
+      },
+      "products": [
+        {
+          "_id": "697be07b1c508c5d5ec0069b",
+          "name": "Gloves79149",
+          "amount": 111,
+          "price": 48872,
+          "manufacturer": "Samsung",
+          "notes": "D2WSbAxcO6zAPRKwncFkf0zj27521KeCap1rApiIvrrxOw8ZYDq78UU1guDl2MfiHDWH5bn08yN33Bsu9KYL4qvcrUo8DvbEcXqnjiAUrgO2dpHsvRxsU2oytwL6sMXQF9SQptMozUwediXlXcoRA9c7Vz9yFbKZ4nv3VQBHYiSQ62WRdGOZiiB5GK5US9wD8qjgBByzDKJsg1PSqVM3plhAnZ8Es6bUqNM7qtOpgOquCpQk033U3QQBYI",
+          "received": false
+        },
+        {
+          "_id": "697be07b1c508c5d5ec006be",
+          "name": "Tuna2261",
+          "amount": 41,
+          "price": 90181,
+          "manufacturer": "Xiaomi",
+          "notes": "oFfeI4UXh4OvyiUZOLd4MRe35EOuownd0B4UtqR87rLzsK4YLk650KanQlXCSjYGCcsJ97jxCqyjAKiBvmjCk8nHJwPg2RIMH2KFSuYLdzwbXGl67N2hq5IsKaxMahfz0H9kNXVSbhUZ2JlvoPz5VCTpzA1PakhUAbBCpwGBs1taO7rVmY7DPMk2JrqjgGdl5vRfAL0TOAkESq51yNwAPT217HK8PPUAh2hkmcr2SThJQvKPGifq8EyAxk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 139053,
+      "createdOn": "2026-01-29T22:34:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be07a1c508c5d5ec00662",
+          "products": [
+            {
+              "_id": "697be07b1c508c5d5ec0069b",
+              "name": "Gloves79149",
+              "amount": 111,
+              "price": 48872,
+              "manufacturer": "Samsung",
+              "notes": "D2WSbAxcO6zAPRKwncFkf0zj27521KeCap1rApiIvrrxOw8ZYDq78UU1guDl2MfiHDWH5bn08yN33Bsu9KYL4qvcrUo8DvbEcXqnjiAUrgO2dpHsvRxsU2oytwL6sMXQF9SQptMozUwediXlXcoRA9c7Vz9yFbKZ4nv3VQBHYiSQ62WRdGOZiiB5GK5US9wD8qjgBByzDKJsg1PSqVM3plhAnZ8Es6bUqNM7qtOpgOquCpQk033U3QQBYI",
+              "received": false
+            },
+            {
+              "_id": "697be07b1c508c5d5ec006be",
+              "name": "Tuna2261",
+              "amount": 41,
+              "price": 90181,
+              "manufacturer": "Xiaomi",
+              "notes": "oFfeI4UXh4OvyiUZOLd4MRe35EOuownd0B4UtqR87rLzsK4YLk650KanQlXCSjYGCcsJ97jxCqyjAKiBvmjCk8nHJwPg2RIMH2KFSuYLdzwbXGl67N2hq5IsKaxMahfz0H9kNXVSbhUZ2JlvoPz5VCTpzA1PakhUAbBCpwGBs1taO7rVmY7DPMk2JrqjgGdl5vRfAL0TOAkESq51yNwAPT217HK8PPUAh2hkmcr2SThJQvKPGifq8EyAxk",
+              "received": false
+            }
+          ],
+          "total_price": 139053,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be07b1c508c5d5ec006e6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

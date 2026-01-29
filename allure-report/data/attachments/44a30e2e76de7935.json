@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 29 Jan 2026 22:34:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-SdGQ2V66l8j4eomPdEdY1pguEvU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697be0701c508c5d5ec000f0",
+        "email": "Nia_Halvorson@hotmail.com",
+        "name": "Antonina Roob",
+        "country": "Great Britain",
+        "city": "Roanoke",
+        "street": "Gutkowski Shoal",
+        "house": 49,
+        "flat": 483,
+        "phone": "+14672479745",
+        "createdOn": "2026-01-29T22:34:24.000Z",
+        "notes": "y9JsgTUaXrEKVtp49c3BabPKheLlJYGm8JLlZUic1YsCIDHQENtZGKAN8Xh0fIyNk3XA4WHd4ThlkSEK7mXyDfGfewG4Ty4gLK7GCcHZoR1YLS0H0cVYm76bJGqIZsEPL9Y0v7988x55fmeIelpuwWC6Xa0TdxAR2iTqWpqZJOhvji9k6V1izr5sEMcqFHv7sm0Fa1gjNhWqAoXEk757IARzxTo12IoksxEmV26Oc8HzRJl36Yqs3VgttT"
+      },
+      "products": [
+        {
+          "_id": "697be0711c508c5d5ec00126",
+          "name": "Ball79070",
+          "amount": 876,
+          "price": 31343,
+          "manufacturer": "Google",
+          "notes": "pjQLa2qWgJPVPx6PJSQXtjyT93msZBTpEq0WQdwkaaOdS6dnd3v6gMeGb7eOrw4IunkpG6S4Z5PJLUOAUuQqbn1bEwge3fyir7lfV5yI5uwb7ywTOadAUYRMARtUtnTmYIu7mGNWjsYukpCanPEBFXfDhQvsEfudo2wjvWiDM2ORf7XZ8mQPOAV1dmjHjoDQNmwZpvxjFPp1WP1qEcSWMB9MAm2u6tjsXkCsaqNhKo2Vek2aFx07jUZzOB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31343,
+      "createdOn": "2026-01-29T22:34:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697be0701c508c5d5ec000f0",
+          "products": [
+            {
+              "_id": "697be0711c508c5d5ec00126",
+              "name": "Ball79070",
+              "amount": 876,
+              "price": 31343,
+              "manufacturer": "Google",
+              "notes": "pjQLa2qWgJPVPx6PJSQXtjyT93msZBTpEq0WQdwkaaOdS6dnd3v6gMeGb7eOrw4IunkpG6S4Z5PJLUOAUuQqbn1bEwge3fyir7lfV5yI5uwb7ywTOadAUYRMARtUtnTmYIu7mGNWjsYukpCanPEBFXfDhQvsEfudo2wjvWiDM2ORf7XZ8mQPOAV1dmjHjoDQNmwZpvxjFPp1WP1qEcSWMB9MAm2u6tjsXkCsaqNhKo2Vek2aFx07jUZzOB",
+              "received": false
+            }
+          ],
+          "total_price": 31343,
+          "delivery": null,
+          "changedOn": "2026-01-29T22:34:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697be0721c508c5d5ec001a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
