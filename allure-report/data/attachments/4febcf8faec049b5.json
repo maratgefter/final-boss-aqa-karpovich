@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2640",
+    "etag": "W/\"a50-zWexJZdliq27JF8ClHHnsyF17bo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d316c1c508c5d5ec0835e",
+        "email": "Agustina.VonRueden@hotmail.com",
+        "name": "Kirk Hilll",
+        "country": "Belarus",
+        "city": "Kylaton",
+        "street": "Park Lane",
+        "house": 26,
+        "flat": 851,
+        "phone": "+17738411946",
+        "createdOn": "2026-01-30T22:32:12.000Z",
+        "notes": "lpPN6MT2vq1baC3dIN98jloRyxlsbnrCCUlBecsVqsqnFVTfFpvYqsdXffl6cfivRpZxkYoqiE9WdzMpxB64KQRsZ8s2ncozXuuwBU0fVwYyFupmpxW7coGgRYAHZebma0CT7H2t8akUYzQ1rUoIOW1GKg8hxfm2npcV3N5PRGPBbckq2jz52dLVIKrRXIvciXLzkdQk2jZ7aCLimSwUkrtFGjk6NwTgs61nzAMOjf9Yq7gR3HMufGgOLm"
+      },
+      "products": [
+        {
+          "_id": "697d316d1c508c5d5ec08377",
+          "name": "Table57187",
+          "amount": 533,
+          "price": 69898,
+          "manufacturer": "Apple",
+          "notes": "R8l7c2jh25IlsdrUXPUEphgthDo8i5Yb6ecjfTJ4Vj5ebz3CptTMEs3C4vtlReCGdjibZvyNBwETLk5b73niTRvSqQA2vqF2ww2WN1Jj0jaL1sfVtqLiDNaNOb58rdtLhuyXa0TpsnIratxEjGeboocUa40TIOGh8Kqr2RixRQ1NT0HVabSyEKn7MAz86lc9IougpcVY1S26kePLEx1oz10XZdQVQyXuK1wJWlcg0NEHc1cRHSN2xHSVs3",
+          "received": false
+        },
+        {
+          "_id": "697d316d1c508c5d5ec083a3",
+          "name": "Car54793",
+          "amount": 228,
+          "price": 23381,
+          "manufacturer": "Tesla",
+          "notes": "9ZJiQvcVwbB39kAVOmpM49StszTCYO4hgvZm2NsMb4H8FQMH3IsprrweDPEoVb6X5aDG7u78veblSw0vufiZFHxvC7Use6X1EPV3Cl4eURU9j73AhPXXvmISVX0OWU7xUU9aiOHSsGYq6TycdTC31tQBExqJII2k2TsxkE0PofKSfTqtSiLG6Pm9mWQ4uKmnvKYTq4oVsxeQ473yo78Ruq8irGODfOhDsQMcrzn7mXCqQsUIGmOgx70U2S",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93279,
+      "createdOn": "2026-01-30T22:32:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d316c1c508c5d5ec0835e",
+          "products": [
+            {
+              "_id": "697d316d1c508c5d5ec08377",
+              "name": "Table57187",
+              "amount": 533,
+              "price": 69898,
+              "manufacturer": "Apple",
+              "notes": "R8l7c2jh25IlsdrUXPUEphgthDo8i5Yb6ecjfTJ4Vj5ebz3CptTMEs3C4vtlReCGdjibZvyNBwETLk5b73niTRvSqQA2vqF2ww2WN1Jj0jaL1sfVtqLiDNaNOb58rdtLhuyXa0TpsnIratxEjGeboocUa40TIOGh8Kqr2RixRQ1NT0HVabSyEKn7MAz86lc9IougpcVY1S26kePLEx1oz10XZdQVQyXuK1wJWlcg0NEHc1cRHSN2xHSVs3",
+              "received": false
+            },
+            {
+              "_id": "697d316d1c508c5d5ec083a3",
+              "name": "Car54793",
+              "amount": 228,
+              "price": 23381,
+              "manufacturer": "Tesla",
+              "notes": "9ZJiQvcVwbB39kAVOmpM49StszTCYO4hgvZm2NsMb4H8FQMH3IsprrweDPEoVb6X5aDG7u78veblSw0vufiZFHxvC7Use6X1EPV3Cl4eURU9j73AhPXXvmISVX0OWU7xUU9aiOHSsGYq6TycdTC31tQBExqJII2k2TsxkE0PofKSfTqtSiLG6Pm9mWQ4uKmnvKYTq4oVsxeQ473yo78Ruq8irGODfOhDsQMcrzn7mXCqQsUIGmOgx70U2S",
+              "received": false
+            }
+          ],
+          "total_price": 93279,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d316d1c508c5d5ec083d1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

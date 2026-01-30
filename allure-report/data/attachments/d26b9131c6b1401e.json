@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4095",
+    "etag": "W/\"fff-UELB2d2s6asTn/Acpa07492eVS8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697d31841c508c5d5ec08eba",
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31831c508c5d5ec08e15",
+        "email": "Justice16@yahoo.com",
+        "name": "Hubert Upton",
+        "country": "Russia",
+        "city": "Richmond",
+        "street": "Araceli Ridges",
+        "house": 16,
+        "flat": 148,
+        "phone": "+12448727467",
+        "createdOn": "2026-01-30T22:32:35.000Z",
+        "notes": "eCgmiKtyk1AZ8JIpYe661xGw1V09ESw3MDTIDt3hNibURpaCNQPaNfDrzykNwKoUPd7DIOY1c8TsFasZZtFwmuRgiBv4ScaQYUITFzKXKHLLRcDdW6sAPXDbV4T4LXii7xAlyeIWI2M6bKDQAPxIaOG0Qt8JKBAZ3CnWImbal0fbZCEKqcQgH07SmunmMw7uyTdquA02S0mBKIuQtsJXJr85NzkrKAKyHDSzhJW0lIZ2gTzsGUcy1MmYKx"
+      },
+      "products": [
+        {
+          "_id": "697d31831c508c5d5ec08e40",
+          "name": "Pizza63438",
+          "amount": 536,
+          "price": 97887,
+          "manufacturer": "Amazon",
+          "notes": "OJBv1AfeAxdAC9OKf7lQ7RWyPaVHSTOuNssjIRjRGcYvgGJQGrD4EBBT1ZaRttXy2If3dVrExAewhvNehwillMFcKhYVnSZA62sVTk48xR7ssOPSEpyZNR950V7GtWphPE1bP3tGkbByRwpinS5a2gZvYjXOhfW79jltamsoDo43wC6o1zk98vmlp4KjWuIYPtahpakAxBp4AfYH88dOBHIY9iYmH3amgXWSO6CtV2K81y5MjDK2BE8Nqj",
+          "received": false
+        },
+        {
+          "_id": "697d31841c508c5d5ec08e6b",
+          "name": "Chicken58635",
+          "amount": 83,
+          "price": 26438,
+          "manufacturer": "Tesla",
+          "notes": "46XqcFSHTQralNbitbqWZQPbsgNmsia66c1ntsS3jtKLYZxrU7yb2pExbZWMpcheG2EYxpyauh6LSraJzTO1xykTUMWlZjHwqZ8CUX3L0OmRryxBcOwILNKiknJq5ZHw5FHBAYntPCLvwYyEtw8BqNFiNNA2nFL8Zw4ykvwn44XNlYTIW1fYWmI2xCn3cKurveaLg7SpFZNaJgSBh1JPWmrJOVEIGlpxy00Gy7gzp8bSRCtEinp6vD5t71",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Richmond",
+          "street": "Araceli Ridges",
+          "house": 16,
+          "flat": 148
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 124325,
+      "createdOn": "2026-01-30T22:32:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31831c508c5d5ec08e15",
+          "products": [
+            {
+              "_id": "697d31831c508c5d5ec08e40",
+              "name": "Pizza63438",
+              "amount": 536,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "OJBv1AfeAxdAC9OKf7lQ7RWyPaVHSTOuNssjIRjRGcYvgGJQGrD4EBBT1ZaRttXy2If3dVrExAewhvNehwillMFcKhYVnSZA62sVTk48xR7ssOPSEpyZNR950V7GtWphPE1bP3tGkbByRwpinS5a2gZvYjXOhfW79jltamsoDo43wC6o1zk98vmlp4KjWuIYPtahpakAxBp4AfYH88dOBHIY9iYmH3amgXWSO6CtV2K81y5MjDK2BE8Nqj",
+              "received": false
+            },
+            {
+              "_id": "697d31841c508c5d5ec08e6b",
+              "name": "Chicken58635",
+              "amount": 83,
+              "price": 26438,
+              "manufacturer": "Tesla",
+              "notes": "46XqcFSHTQralNbitbqWZQPbsgNmsia66c1ntsS3jtKLYZxrU7yb2pExbZWMpcheG2EYxpyauh6LSraJzTO1xykTUMWlZjHwqZ8CUX3L0OmRryxBcOwILNKiknJq5ZHw5FHBAYntPCLvwYyEtw8BqNFiNNA2nFL8Zw4ykvwn44XNlYTIW1fYWmI2xCn3cKurveaLg7SpFZNaJgSBh1JPWmrJOVEIGlpxy00Gy7gzp8bSRCtEinp6vD5t71",
+              "received": false
+            }
+          ],
+          "total_price": 124325,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Richmond",
+              "street": "Araceli Ridges",
+              "house": 16,
+              "flat": 148
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-30T22:32:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697d31831c508c5d5ec08e15",
+          "products": [
+            {
+              "_id": "697d31831c508c5d5ec08e40",
+              "name": "Pizza63438",
+              "amount": 536,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "OJBv1AfeAxdAC9OKf7lQ7RWyPaVHSTOuNssjIRjRGcYvgGJQGrD4EBBT1ZaRttXy2If3dVrExAewhvNehwillMFcKhYVnSZA62sVTk48xR7ssOPSEpyZNR950V7GtWphPE1bP3tGkbByRwpinS5a2gZvYjXOhfW79jltamsoDo43wC6o1zk98vmlp4KjWuIYPtahpakAxBp4AfYH88dOBHIY9iYmH3amgXWSO6CtV2K81y5MjDK2BE8Nqj",
+              "received": false
+            },
+            {
+              "_id": "697d31841c508c5d5ec08e6b",
+              "name": "Chicken58635",
+              "amount": 83,
+              "price": 26438,
+              "manufacturer": "Tesla",
+              "notes": "46XqcFSHTQralNbitbqWZQPbsgNmsia66c1ntsS3jtKLYZxrU7yb2pExbZWMpcheG2EYxpyauh6LSraJzTO1xykTUMWlZjHwqZ8CUX3L0OmRryxBcOwILNKiknJq5ZHw5FHBAYntPCLvwYyEtw8BqNFiNNA2nFL8Zw4ykvwn44XNlYTIW1fYWmI2xCn3cKurveaLg7SpFZNaJgSBh1JPWmrJOVEIGlpxy00Gy7gzp8bSRCtEinp6vD5t71",
+              "received": false
+            }
+          ],
+          "total_price": 124325,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

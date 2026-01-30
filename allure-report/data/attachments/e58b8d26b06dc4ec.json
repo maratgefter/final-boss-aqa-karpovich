@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-+iBMIQdn6recmLed0l6l/o1b2/c\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31661c508c5d5ec08098",
+        "email": "Ike_Heidenreich@yahoo.com",
+        "name": "Baylee Swaniawski",
+        "country": "Ukraine",
+        "city": "Kearny",
+        "street": "Effertz Key",
+        "house": 21,
+        "flat": 435,
+        "phone": "+18989707536",
+        "createdOn": "2026-01-30T22:32:06.000Z",
+        "notes": "vcwQcVw84XLThjDpM37b8mFicA6F0sfCmHHI5KkIaJCnF3O0rVZJD5sTCz3VZzszdBvQfOrd0dLAoiRlsUJcft5fGdviRLvL9OEzYzKjaTajgJEKul8BxnKeM5SdmgbnbsRneIPC5CULDC26XLpPeEfrevwPMK5LgvFGHVb4oC7LyCOxdloBMTfuBUzoscsNCK7bsMNS5EwMjcHJnboDCOF1JO1ZDl8mb8QOxNuHcyuqTJXYWT7GALU9bl"
+      },
+      "products": [
+        {
+          "_id": "697d31671c508c5d5ec080b8",
+          "name": "Bike35290",
+          "amount": 243,
+          "price": 22347,
+          "manufacturer": "Tesla",
+          "notes": "mdr7O8s9cLHwonrzMh6G1DS05hLyqfXLgrHQIxZ3Y2ZBE4DHNf7RcqxhltUYRTkWDQ4mWTQZbjkSyDLhBxYjaJ4Gg2rayVYJWjFxglTAvevgJ4Ye04lH9782jyPJtAzgwAPWtoP9yXZFPpoMVD5Kp4t6dUMwPYTwa940075y8ef9TZpkjxoaQYkEcoKAmOzKjwBiRfnGZztZDkppqs6LRZaaAAfeqUpPyXxz28GE1qqVr2dWLTCiMkh5dC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22347,
+      "createdOn": "2026-01-30T22:32:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31661c508c5d5ec08098",
+          "products": [
+            {
+              "_id": "697d31671c508c5d5ec080b8",
+              "name": "Bike35290",
+              "amount": 243,
+              "price": 22347,
+              "manufacturer": "Tesla",
+              "notes": "mdr7O8s9cLHwonrzMh6G1DS05hLyqfXLgrHQIxZ3Y2ZBE4DHNf7RcqxhltUYRTkWDQ4mWTQZbjkSyDLhBxYjaJ4Gg2rayVYJWjFxglTAvevgJ4Ye04lH9782jyPJtAzgwAPWtoP9yXZFPpoMVD5Kp4t6dUMwPYTwa940075y8ef9TZpkjxoaQYkEcoKAmOzKjwBiRfnGZztZDkppqs6LRZaaAAfeqUpPyXxz28GE1qqVr2dWLTCiMkh5dC",
+              "received": false
+            }
+          ],
+          "total_price": 22347,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d31671c508c5d5ec080e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

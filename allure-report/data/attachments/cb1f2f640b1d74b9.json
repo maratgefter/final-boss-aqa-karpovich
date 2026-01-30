@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-lg+D9UiOQRJvaRoDIHNuIkJm130\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d316a1c508c5d5ec08219",
+        "email": "Andre.Greenholt@gmail.com",
+        "name": "Gust Ebert",
+        "country": "Germany",
+        "city": "Hutchinson",
+        "street": "Lyda Unions",
+        "house": 12,
+        "flat": 396,
+        "phone": "+12246141488",
+        "createdOn": "2026-01-30T22:32:10.000Z",
+        "notes": "awIrNsyfX8ZtqP2OewebROwQB3mOaY7JjopsPIojkbDjED1ZeHMNF7csstZzDlrLnzZosCPZCq5NePn6tsoL1TLsnIg7UTqxHD8QJYIdNiIISnrpPjfAQeAFSq8wClKlZYdeGyJqelYbgCbH19EfsddlfBnREOLnaOhT3vG2NM03dYQwlJJw68gick0SM6N0ZhxnhznDqCO4aNK2TYgu5rPqHeUUtYlSRTam1n4HqVsHXj6FKeywd3rBvY"
+      },
+      "products": [
+        {
+          "_id": "697d316a1c508c5d5ec08230",
+          "name": "Shirt48317",
+          "amount": 277,
+          "price": 88332,
+          "manufacturer": "Xiaomi",
+          "notes": "VTRSAuO8uFbz0SyeSyJ8JjY0zdAOzDDmRQMieohXicFw6KFMGkMJ7xLDC1DnXdLvkfP2IAya2F7vraEG7fWF50xZoBusrQOP84hg7VGLdEmoCARlo6dKwsiwKtksWscTMrmWSKr6IlJynUVgHuMvoYznzQALLx6xB3tOgT9ME6Osx5sqrQDhmakutRNGvDVRF4fn7lsIUAe7EmEuj7PHz01uXbOOMrcpn2iNRmIWHxisBvhQSimDBRy1zs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88332,
+      "createdOn": "2026-01-30T22:32:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d316a1c508c5d5ec08219",
+          "products": [
+            {
+              "_id": "697d316a1c508c5d5ec08230",
+              "name": "Shirt48317",
+              "amount": 277,
+              "price": 88332,
+              "manufacturer": "Xiaomi",
+              "notes": "VTRSAuO8uFbz0SyeSyJ8JjY0zdAOzDDmRQMieohXicFw6KFMGkMJ7xLDC1DnXdLvkfP2IAya2F7vraEG7fWF50xZoBusrQOP84hg7VGLdEmoCARlo6dKwsiwKtksWscTMrmWSKr6IlJynUVgHuMvoYznzQALLx6xB3tOgT9ME6Osx5sqrQDhmakutRNGvDVRF4fn7lsIUAe7EmEuj7PHz01uXbOOMrcpn2iNRmIWHxisBvhQSimDBRy1zs",
+              "received": false
+            }
+          ],
+          "total_price": 88332,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d316a1c508c5d5ec08258"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

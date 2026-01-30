@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-cCO0lAlkm3m7/u6M3FW7sRRoL1g\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d316a1c508c5d5ec081fb",
+        "email": "Brielle.Mayert@gmail.com",
+        "name": "Marjolaine Medhurst",
+        "country": "Belarus",
+        "city": "Koeppbury",
+        "street": "N Water Street",
+        "house": 35,
+        "flat": 731,
+        "phone": "+15268181787",
+        "createdOn": "2026-01-30T22:32:10.000Z",
+        "notes": "dtj9KgEYwS0Xd8P9Lz55ny8VuQRmBFNTgnvfS8wYGUSdWR6xF0gllbEDo7y3ORzgAJHC1tUNP3NdrYEbM8Ndj8PqBusdZ4ercNhPi7lXgsUUEDdVTx1dV4IVJhFgAfnqpiRtRTG3L91Mzc8YCwj3OjSAy7JGfaAjnfK5Pn3ocdXuUFQDuGiDhE3pKHhuWH6gj7jgGimovOuwlJfOGI5rwhjzPyjsA35RrR1clyGPmVFVlGh6d1ASEtceXT"
+      },
+      "products": [
+        {
+          "_id": "697d316a1c508c5d5ec0821f",
+          "name": "Sausages65374",
+          "amount": 698,
+          "price": 78338,
+          "manufacturer": "Samsung",
+          "notes": "wppl20MZVjje1QichXwI0GNXyxVBDbRZ6i3bUvRnQR0jsaExfh1WHiy0NlTFDQDmw7RgYJGQYRj983lSkFseBXpXGbgFwEJscr96guF7b8xSTlRAwmKPnQzqPK5MI1eNUKboahfQUgFTL8KOwcuHrlA2IuuR4lFe5LQSfa9t431eCK0tiO0EuMOSgItjmNn3lFVRlbn91dGLNz87hMReGIPgy8hTpC260EZUF0qgqWya6ok20u3dK88zCk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78338,
+      "createdOn": "2026-01-30T22:32:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d316a1c508c5d5ec081fb",
+          "products": [
+            {
+              "_id": "697d316a1c508c5d5ec0821f",
+              "name": "Sausages65374",
+              "amount": 698,
+              "price": 78338,
+              "manufacturer": "Samsung",
+              "notes": "wppl20MZVjje1QichXwI0GNXyxVBDbRZ6i3bUvRnQR0jsaExfh1WHiy0NlTFDQDmw7RgYJGQYRj983lSkFseBXpXGbgFwEJscr96guF7b8xSTlRAwmKPnQzqPK5MI1eNUKboahfQUgFTL8KOwcuHrlA2IuuR4lFe5LQSfa9t431eCK0tiO0EuMOSgItjmNn3lFVRlbn91dGLNz87hMReGIPgy8hTpC260EZUF0qgqWya6ok20u3dK88zCk",
+              "received": false
+            }
+          ],
+          "total_price": 78338,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d316a1c508c5d5ec0823b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

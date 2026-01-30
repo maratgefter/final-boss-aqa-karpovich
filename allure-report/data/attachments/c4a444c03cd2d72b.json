@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-iP9aACY5o08929Vrxa5KTNcSuZ8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31711c508c5d5ec0856f",
+        "email": "Alejandra_Thompson@hotmail.com",
+        "name": "Andy Kulas",
+        "country": "Canada",
+        "city": "Wilmington",
+        "street": "Rosendo Shore",
+        "house": 17,
+        "flat": 641,
+        "phone": "+14468034943",
+        "createdOn": "2026-01-30T22:32:17.000Z",
+        "notes": "nW8mkEb2KLJJ0X9MyZYLudSccy0GaR3ypIWaZzl4ORePJFc7JM1roKzRRoiOafZB3vtWTiY1MCz9hXJWyOz5IKLPKw8cJTOtN2hnmp0gJ0TaDrcQUFb3Ij7JsJkOnITBNIOgmoUTxIqGntTCvQazGCfpSYr9zwhIE1s7itHRO1MPlTrz7yySg5k2RruZdluHMwZAKqiILJz0cAktazTdoXFjSDitse7Cy1FjgUnCxV4VvCycBojEhmhPDU"
+      },
+      "products": [
+        {
+          "_id": "697d31711c508c5d5ec08590",
+          "name": "Mouse98662",
+          "amount": 446,
+          "price": 94017,
+          "manufacturer": "Google",
+          "notes": "4crgBXpe1VzM2MxWSiveVzvKT1nzj2PB8yFIyuyZZ9h4BVkNMuX3dmv0o1hZOugQdW4lzuv6MksYSdXwIpAgpgRP58KzHUj7AmaybgAVeJJ1vkUNl0tnJ1mMzhhl6nPXQmWbtNxB8wifduHDDVmJQrZ86aiDExs18CJwPvRwSSsTtW61bXKgkAaDtFgFwN1XMWZOK3jXqEpOcFChmMFQ7zuGq4dhbJDM5mK0UlteC4vsDWYi6lYkb80EfZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94017,
+      "createdOn": "2026-01-30T22:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31711c508c5d5ec0856f",
+          "products": [
+            {
+              "_id": "697d31711c508c5d5ec08590",
+              "name": "Mouse98662",
+              "amount": 446,
+              "price": 94017,
+              "manufacturer": "Google",
+              "notes": "4crgBXpe1VzM2MxWSiveVzvKT1nzj2PB8yFIyuyZZ9h4BVkNMuX3dmv0o1hZOugQdW4lzuv6MksYSdXwIpAgpgRP58KzHUj7AmaybgAVeJJ1vkUNl0tnJ1mMzhhl6nPXQmWbtNxB8wifduHDDVmJQrZ86aiDExs18CJwPvRwSSsTtW61bXKgkAaDtFgFwN1XMWZOK3jXqEpOcFChmMFQ7zuGq4dhbJDM5mK0UlteC4vsDWYi6lYkb80EfZ",
+              "received": false
+            }
+          ],
+          "total_price": 94017,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d31721c508c5d5ec085c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

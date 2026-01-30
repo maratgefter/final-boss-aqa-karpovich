@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-+g5AELGGmSdNX3/FhaNaqufVORA\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d317b1c508c5d5ec08a71",
+        "email": "Caleigh33@yahoo.com",
+        "name": "Jerome Graham",
+        "country": "Germany",
+        "city": "East Travis",
+        "street": "Naomi Gateway",
+        "house": 36,
+        "flat": 852,
+        "phone": "+12938858417",
+        "createdOn": "2026-01-30T22:32:27.000Z",
+        "notes": "bX067FhQtEIeX0I6gTvFydfpyINeJ7eQmxPjbCHVzcrmnmC3Xg72t014JEhTQl3wXQKKZY2HwtCMbCToKUutfeCwtWtAN6WXBEZG7u6LhPrjCUTb1eDM2ZyapjE7sZixw0A8ZbJMoNKTEk9lwRlcwGocz4QhyN6GQGz6nYUOGFvgW00KdPHGrIl8PQb3qXRVdKxMFqnaWL1FmEqiujNfNZDsTlbqVGXyLcOWiSXsfWosgNQHEdutXkN8xj"
+      },
+      "products": [
+        {
+          "_id": "697d317c1c508c5d5ec08aa6",
+          "name": "Cheese9484",
+          "amount": 712,
+          "price": 68885,
+          "manufacturer": "Amazon",
+          "notes": "8HIopMfyQn9cQp4OdRKmfaetc1TvsULBLf2l7gLF83UuhwdVcdg7uBAQXqqqiaUXew0QIzL4FrSUR3MGzLWBD656fu0K13fwVTwUoRMGb68lTP5awYmEumFEE8Cqbx9AW6JbjpVR5Iygrjh6xEHSDNTKzMTkzKgK3U7sxltd5eus52ODntM4dBywHYBJPVRbe2gQyfX1ToKqxoxAWVh1AHHTAem46fw2jruQLvK2fciD28LDe6jmqrkiIa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68885,
+      "createdOn": "2026-01-30T22:32:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d317b1c508c5d5ec08a71",
+          "products": [
+            {
+              "_id": "697d317c1c508c5d5ec08aa6",
+              "name": "Cheese9484",
+              "amount": 712,
+              "price": 68885,
+              "manufacturer": "Amazon",
+              "notes": "8HIopMfyQn9cQp4OdRKmfaetc1TvsULBLf2l7gLF83UuhwdVcdg7uBAQXqqqiaUXew0QIzL4FrSUR3MGzLWBD656fu0K13fwVTwUoRMGb68lTP5awYmEumFEE8Cqbx9AW6JbjpVR5Iygrjh6xEHSDNTKzMTkzKgK3U7sxltd5eus52ODntM4dBywHYBJPVRbe2gQyfX1ToKqxoxAWVh1AHHTAem46fw2jruQLvK2fciD28LDe6jmqrkiIa",
+              "received": false
+            }
+          ],
+          "total_price": 68885,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d317c1c508c5d5ec08ae5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

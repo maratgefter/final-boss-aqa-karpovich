@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-n6PVfJrew9ERTHXghWWuIBbHMfg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31811c508c5d5ec08d3b",
+        "email": "Lenore_Stokes50@yahoo.com",
+        "name": "Elvie Zulauf",
+        "country": "Ukraine",
+        "city": "Lake Trey",
+        "street": "Terry Green",
+        "house": 6,
+        "flat": 467,
+        "phone": "+19575920404",
+        "createdOn": "2026-01-30T22:32:33.000Z",
+        "notes": "2ST7IN226GZYATiCkNNUdghS5czrHzxjjwO1giBwbinX7YkR4mN5pOEFuddZwq3AmbUTmZSKHL1r2X7lDRat05n7cgTClI5VkDeYAiZWNDsKH5tZBBWlAeBerxd1i18jd8bWr7gFBVyB16mzoQ0YCoaO2tZ2efH3JBuLMC5vJ3sWPJXiCa58PRc6RvJ2IeRV12P1SVDpEFQL5Al6R9sRVX5hkXNnjV4CWaHgGYcdCvrISggV8GKeGswUvD"
+      },
+      "products": [
+        {
+          "_id": "697d31821c508c5d5ec08d64",
+          "name": "Tuna36790",
+          "amount": 465,
+          "price": 28537,
+          "manufacturer": "Xiaomi",
+          "notes": "g4MwcmOt5XqkNvwRpWIOqUf7BTHQjVOKrs1kyJ5mK7VbvzPOW74yLNri3TzdBc2LEHijZquNSsBJjqalvNbEvmWbv3hxk965Vbkyl65Mqf4n9oP2nSULpU4sGyGYKMtv62wxLMnmZ6PWg7X9Vyr7atfl3qjCONmVEUZuNv8WIakDy1wLEzIo3STrdfFECGMl1Q1j3e9CWJ75dMU5lSqDMYmoWt4hOgS36hBjj3D9yh2A2HYqK9JpBpTYeT",
+          "received": false
+        },
+        {
+          "_id": "697d31821c508c5d5ec08d8f",
+          "name": "Shoes15531",
+          "amount": 914,
+          "price": 74489,
+          "manufacturer": "Amazon",
+          "notes": "BMD9xV5pNRd0DUX9SYL2oaVcHf3uQvGpuxNzOvC6IvDRYqDPWxHu5FQUbYvfttYr7WrSlmOuAtdRCCflKKBSDOEvY2ynZG111htuWKijmq6HygHgODwVCBPiivd7gi253h8mwtUJyshEn6gKwmTY0BaLT0h3wrDbaT8UdwoE60riulQ73JkkdOcvSYzfU5iaquWP2Sj4JJ3ajlsbj0UphIBVhTlMuUDTXTghJq7ntb2hTPitDYb2yIAm8Y",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 103026,
+      "createdOn": "2026-01-30T22:32:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31811c508c5d5ec08d3b",
+          "products": [
+            {
+              "_id": "697d31821c508c5d5ec08d64",
+              "name": "Tuna36790",
+              "amount": 465,
+              "price": 28537,
+              "manufacturer": "Xiaomi",
+              "notes": "g4MwcmOt5XqkNvwRpWIOqUf7BTHQjVOKrs1kyJ5mK7VbvzPOW74yLNri3TzdBc2LEHijZquNSsBJjqalvNbEvmWbv3hxk965Vbkyl65Mqf4n9oP2nSULpU4sGyGYKMtv62wxLMnmZ6PWg7X9Vyr7atfl3qjCONmVEUZuNv8WIakDy1wLEzIo3STrdfFECGMl1Q1j3e9CWJ75dMU5lSqDMYmoWt4hOgS36hBjj3D9yh2A2HYqK9JpBpTYeT",
+              "received": false
+            },
+            {
+              "_id": "697d31821c508c5d5ec08d8f",
+              "name": "Shoes15531",
+              "amount": 914,
+              "price": 74489,
+              "manufacturer": "Amazon",
+              "notes": "BMD9xV5pNRd0DUX9SYL2oaVcHf3uQvGpuxNzOvC6IvDRYqDPWxHu5FQUbYvfttYr7WrSlmOuAtdRCCflKKBSDOEvY2ynZG111htuWKijmq6HygHgODwVCBPiivd7gi253h8mwtUJyshEn6gKwmTY0BaLT0h3wrDbaT8UdwoE60riulQ73JkkdOcvSYzfU5iaquWP2Sj4JJ3ajlsbj0UphIBVhTlMuUDTXTghJq7ntb2hTPitDYb2yIAm8Y",
+              "received": false
+            }
+          ],
+          "total_price": 103026,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d31821c508c5d5ec08dba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-dM7gsCAZJIT0Zdl1uxCBzbLo9V4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31761c508c5d5ec087a4",
+        "email": "Sister.Funk67@gmail.com",
+        "name": "Logan Walker",
+        "country": "Russia",
+        "city": "East Greg",
+        "street": "Eliane Road",
+        "house": 27,
+        "flat": 514,
+        "phone": "+15005640600",
+        "createdOn": "2026-01-30T22:32:22.000Z",
+        "notes": "X1zVHnTBJivIwVAZZRIT3zvwifzUexUZEHfdSflnKIzInthHPB0aM3xXYC4D1C7m3QAKfFipFwqwk11a814wSmg2jw6ZML0U5jsfd2xDy7ABCMd2LbhH5Cmq9F8AEZvIYqhQl76D2M1fLFghf6HR9tP127amMGVQLPRn6pcjcwhfQPv1v1CaCIitHdPNwou8M7dbsSuTXWBHFPOaRJIcemeiDSjEE7q6wrHHEluWAbC92nBD1y7GRxLi5O"
+      },
+      "products": [
+        {
+          "_id": "697d31761c508c5d5ec087bc",
+          "name": "Towels76325",
+          "amount": 25,
+          "price": 28268,
+          "manufacturer": "Microsoft",
+          "notes": "I0suVirLLe18PPS1rBSd9tOpfNhZgk8Aok6Ax9UCliyNODlxYP1dNCkxFRtzeD6pkJBe8yTfEc1habLkuffOJhXqeBHKLzkSfxDfgIZV4IsC2feKfHVcEKp4Flbsgn87HMCCsz7tTLW2zvqfHDAtQULBFYNEQBHAVPnQNjMoR8hUc7SNjIQfsh0w4G597W4HK6RDo6RWOtkEEdmii6MzQ0oh7BQ77rvL5COQN6k7ckIU8NNyskSYFjoW8g",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28268,
+      "createdOn": "2026-01-30T22:32:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31761c508c5d5ec087a4",
+          "products": [
+            {
+              "_id": "697d31761c508c5d5ec087bc",
+              "name": "Towels76325",
+              "amount": 25,
+              "price": 28268,
+              "manufacturer": "Microsoft",
+              "notes": "I0suVirLLe18PPS1rBSd9tOpfNhZgk8Aok6Ax9UCliyNODlxYP1dNCkxFRtzeD6pkJBe8yTfEc1habLkuffOJhXqeBHKLzkSfxDfgIZV4IsC2feKfHVcEKp4Flbsgn87HMCCsz7tTLW2zvqfHDAtQULBFYNEQBHAVPnQNjMoR8hUc7SNjIQfsh0w4G597W4HK6RDo6RWOtkEEdmii6MzQ0oh7BQ77rvL5COQN6k7ckIU8NNyskSYFjoW8g",
+              "received": false
+            }
+          ],
+          "total_price": 28268,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d31761c508c5d5ec087ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

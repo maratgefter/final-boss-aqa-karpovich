@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 30 Jan 2026 22:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-NBghdjjgqflvWTBm84gMk3+zCmY\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697d31711c508c5d5ec08561",
+        "email": "Camden.Metz@yahoo.com",
+        "name": "Chester Johnson",
+        "country": "Russia",
+        "city": "South Aliya",
+        "street": "Tillman Spurs",
+        "house": 21,
+        "flat": 173,
+        "phone": "+17802788938",
+        "createdOn": "2026-01-30T22:32:17.000Z",
+        "notes": "msCO5sKatKwVY7cwztsuwEVY5PvcjSE4pEJRzP6PbyLBZtcqxaOTtqGGOV8wgkahyeUE93vieoyZ4NzeuWRHvDXwGVSO5ron2V0Lh8yFKTkwaaMKnWi1qAoVS2MpqN3aitKdKj6UBjYT1Ove23oDePoyFxAolWCD0sBJNTjnkv5iWq4nZeztOK4wOj3BCD2VkYuUdZp5RSan7L119aBj8Vr6k1j1DGGszRy08OUu9V4jgufkI9CAQ75HIM"
+      },
+      "products": [
+        {
+          "_id": "697d31711c508c5d5ec0857b",
+          "name": "Chair76920",
+          "amount": 626,
+          "price": 26111,
+          "manufacturer": "Microsoft",
+          "notes": "WYTSXgfM0ixi7NMB3eZ2rivCgrnMuV0Gr2xxRmiGh2VH57R2COAJqF3hWjVps00TD64yTv8JVxCN9wRDGg2TntaQUwYeV1FF1l4cdmdaLzo1EPFR6wrrPhZBqSKzUEzrBmmvYpahlLw19EY7rBpHz8fzhaxZV25dzXBRIOpY2gQbXb7M9elxvAjq8YtIiyuyBN8yrnEFb0HpJ9qH5LQ4JLQ1CoAHK4mjaMtMqlx9Nqi2Jh16ul1bT5H2cK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26111,
+      "createdOn": "2026-01-30T22:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697d31711c508c5d5ec08561",
+          "products": [
+            {
+              "_id": "697d31711c508c5d5ec0857b",
+              "name": "Chair76920",
+              "amount": 626,
+              "price": 26111,
+              "manufacturer": "Microsoft",
+              "notes": "WYTSXgfM0ixi7NMB3eZ2rivCgrnMuV0Gr2xxRmiGh2VH57R2COAJqF3hWjVps00TD64yTv8JVxCN9wRDGg2TntaQUwYeV1FF1l4cdmdaLzo1EPFR6wrrPhZBqSKzUEzrBmmvYpahlLw19EY7rBpHz8fzhaxZV25dzXBRIOpY2gQbXb7M9elxvAjq8YtIiyuyBN8yrnEFb0HpJ9qH5LQ4JLQ1CoAHK4mjaMtMqlx9Nqi2Jh16ul1bT5H2cK",
+              "received": false
+            }
+          ],
+          "total_price": 26111,
+          "delivery": null,
+          "changedOn": "2026-01-30T22:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697d31721c508c5d5ec0859d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
