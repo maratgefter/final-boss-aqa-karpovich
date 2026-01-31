@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:29:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-11bgefTpZFz5p5zTkZG743V50tU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e822e1c508c5d5ec0d3af",
+        "email": "Tara.McKenzie@gmail.com",
+        "name": "Jackeline Schimmel",
+        "country": "France",
+        "city": "Toms River",
+        "street": "Willow Drive",
+        "house": 16,
+        "flat": 855,
+        "phone": "+13594957400",
+        "createdOn": "2026-01-31T22:29:02.000Z",
+        "notes": "jDe66KJBid5nLTYV4w41uO2jFc6HcYABLuQnVenPuz4TuUyzpIFaZ85eg1reyPShyoQo1M1jihC1XLEchv3KAcBYu4FPbysE9n47rdESQCjRmRryY8Za3tSVWB4EML56TpKBGWxDhxdsrpcFHD0RrVT3uFSoHtMzvEsLRONvOJ6qJOMHz2YeN7K1rDfIQeyxEsPgXkrgZX1lZ5RsvrzMFjG8S5kh3dOuBDovx53d4DdJyepdGJ1QwT5OCu"
+      },
+      "products": [
+        {
+          "_id": "697e822e1c508c5d5ec0d3c3",
+          "name": "Bike17421",
+          "amount": 707,
+          "price": 34905,
+          "manufacturer": "Tesla",
+          "notes": "6IVVCEKh65nDnizYmuDY8vP8vY6dwk1vE8buDXTXX3jPb7DbS2W6piiOBukYDBtNfWEVoDVUgGdQbkjID9Xs2NkfSkITKBUQzJYiWWViZZFPZAw35haRkP5R56spRXPXYtA26j6zn503IA1uIc0yA0HtjstQIKruUoe5NKulYwtJVxXWEJgCFK0FPiVUaIF1e9BaWAvq71qeHAZpgL8eoQoIqw3k45Moncqizhkj9TDNC3yj1vpjG56Lmd",
+          "received": false
+        },
+        {
+          "_id": "697e822f1c508c5d5ec0d420",
+          "name": "Tuna43419",
+          "amount": 977,
+          "price": 87577,
+          "manufacturer": "Tesla",
+          "notes": "4hgSgTDXNnLxxaBr5CMIiKHrlJ3jozTroyeg41cqMS3CHVpFknjSRL2q3sa3Ji8r72T9LsrYyQliBZSyQRdQdOJIFBwU0L42YvdIjTOfkmRYs4XN5zt5No6f9cLETb2n5xd2SLFTX2OIc33mpTkBSODZg2TwEnQu6oxnyJQSRr2lNpI1gQmeoWF15FKCXysN8taZdAaMjpfYYVdnW48ZfY1U6NCbigXXybq4T5kmjBV6be30sLLrFUnGH4",
+          "received": false
+        },
+        {
+          "_id": "697e82301c508c5d5ec0d505",
+          "name": "Table95692",
+          "amount": 612,
+          "price": 39369,
+          "manufacturer": "Amazon",
+          "notes": "j2mK6AwIzYHgCVqN15tjaxVoKJYPOCgW4yq0LT2gPcdci8eJuBOHMiSjkyIl5bBphyhEmqXgUMdUsYXyleHHBN945IeBVfJ0AmlCyd9O2o7pezhaTS27RA5SfyZisuiaG0k3f4j1DTB72Z2zTwO8tNO8gb56RIQLsIs8IuTpiBIW2zZQcBqAjq10Po3owB0DcSu0KLfwzGf7pwucMaLLWkBnT1z0447jyEQspdoUe91R5F6EAwzd9iSzqQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 161851,
+      "createdOn": "2026-01-31T22:29:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e822e1c508c5d5ec0d3af",
+          "products": [
+            {
+              "_id": "697e822e1c508c5d5ec0d3c3",
+              "name": "Bike17421",
+              "amount": 707,
+              "price": 34905,
+              "manufacturer": "Tesla",
+              "notes": "6IVVCEKh65nDnizYmuDY8vP8vY6dwk1vE8buDXTXX3jPb7DbS2W6piiOBukYDBtNfWEVoDVUgGdQbkjID9Xs2NkfSkITKBUQzJYiWWViZZFPZAw35haRkP5R56spRXPXYtA26j6zn503IA1uIc0yA0HtjstQIKruUoe5NKulYwtJVxXWEJgCFK0FPiVUaIF1e9BaWAvq71qeHAZpgL8eoQoIqw3k45Moncqizhkj9TDNC3yj1vpjG56Lmd",
+              "received": false
+            },
+            {
+              "_id": "697e822f1c508c5d5ec0d420",
+              "name": "Tuna43419",
+              "amount": 977,
+              "price": 87577,
+              "manufacturer": "Tesla",
+              "notes": "4hgSgTDXNnLxxaBr5CMIiKHrlJ3jozTroyeg41cqMS3CHVpFknjSRL2q3sa3Ji8r72T9LsrYyQliBZSyQRdQdOJIFBwU0L42YvdIjTOfkmRYs4XN5zt5No6f9cLETb2n5xd2SLFTX2OIc33mpTkBSODZg2TwEnQu6oxnyJQSRr2lNpI1gQmeoWF15FKCXysN8taZdAaMjpfYYVdnW48ZfY1U6NCbigXXybq4T5kmjBV6be30sLLrFUnGH4",
+              "received": false
+            },
+            {
+              "_id": "697e82301c508c5d5ec0d505",
+              "name": "Table95692",
+              "amount": 612,
+              "price": 39369,
+              "manufacturer": "Amazon",
+              "notes": "j2mK6AwIzYHgCVqN15tjaxVoKJYPOCgW4yq0LT2gPcdci8eJuBOHMiSjkyIl5bBphyhEmqXgUMdUsYXyleHHBN945IeBVfJ0AmlCyd9O2o7pezhaTS27RA5SfyZisuiaG0k3f4j1DTB72Z2zTwO8tNO8gb56RIQLsIs8IuTpiBIW2zZQcBqAjq10Po3owB0DcSu0KLfwzGf7pwucMaLLWkBnT1z0447jyEQspdoUe91R5F6EAwzd9iSzqQ",
+              "received": false
+            }
+          ],
+          "total_price": 161851,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:29:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82311c508c5d5ec0d56d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

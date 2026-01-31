@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2960",
+    "etag": "W/\"b90-rqxWQnsR6IW1WKw5wtYuC9ARJIY\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697e821f1c508c5d5ec0cc2b",
+      "status": "Draft",
+      "customer": {
+        "_id": "697e821e1c508c5d5ec0cbda",
+        "email": "Doug.Hudson@yahoo.com",
+        "name": "Marilie Reichel",
+        "country": "Ukraine",
+        "city": "Labadiehaven",
+        "street": "Middle Street",
+        "house": 36,
+        "flat": 394,
+        "phone": "+13439542854",
+        "createdOn": "2026-01-31T22:28:46.000Z",
+        "notes": "ez9enyJKxoYOOUzsXvYeyMk1ZmMgfd0wkgmnaysI9ftU7Yl3DYoq5bH7RZ3vLinh3LUPFcxhRaHZEg2tZnGBYsp7vCeQZUYH89EGqOvYO9mSMuSXxg8hTtogrUfdxE2ax6SOPZK9yPghg0Q3LcglsvpI3z9hcTL0wkaOs0T1ECjkuj9w8rY80R4N8dTeKBcbKtsJcTh7Qts7T8W4DkAWRhyLN8rBWpUj3HNfs3BMSAYYF3YpTKBxLC58PI"
+      },
+      "products": [
+        {
+          "_id": "697e821f1c508c5d5ec0cc04",
+          "name": "Salad81585",
+          "amount": 472,
+          "price": 53143,
+          "manufacturer": "Samsung",
+          "notes": "ZjRpppmJUvSUcQROISgg0UBAfr8wo3JFTE3trD721h8ASB0bqfizIjyJYopv3u82p5y4LxhRHd32cbz5pyHdceUIPcaRYytll2EKIJqVjMZUUBmCZiyMzwMAwYuJgUAvrLVFvBSCciqim6xmQhm2DY7G48x2FP2nGuUNmji4QQz6GaNL2TgnkDdsxpQax7FuOinNHy4KgcuXpN0iRXsNYGLMdSzJr4eyryS5YxUljSAaptQ9YdDZFth3AR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Labadiehaven",
+          "street": "Middle Street",
+          "house": 36,
+          "flat": 394
+        },
+        "finalDate": "2026-02-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 53143,
+      "createdOn": "2026-01-31T22:28:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e821e1c508c5d5ec0cbda",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc04",
+              "name": "Salad81585",
+              "amount": 472,
+              "price": 53143,
+              "manufacturer": "Samsung",
+              "notes": "ZjRpppmJUvSUcQROISgg0UBAfr8wo3JFTE3trD721h8ASB0bqfizIjyJYopv3u82p5y4LxhRHd32cbz5pyHdceUIPcaRYytll2EKIJqVjMZUUBmCZiyMzwMAwYuJgUAvrLVFvBSCciqim6xmQhm2DY7G48x2FP2nGuUNmji4QQz6GaNL2TgnkDdsxpQax7FuOinNHy4KgcuXpN0iRXsNYGLMdSzJr4eyryS5YxUljSAaptQ9YdDZFth3AR",
+              "received": false
+            }
+          ],
+          "total_price": 53143,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Labadiehaven",
+              "street": "Middle Street",
+              "house": 36,
+              "flat": 394
+            },
+            "finalDate": "2026-02-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e821e1c508c5d5ec0cbda",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc04",
+              "name": "Salad81585",
+              "amount": 472,
+              "price": 53143,
+              "manufacturer": "Samsung",
+              "notes": "ZjRpppmJUvSUcQROISgg0UBAfr8wo3JFTE3trD721h8ASB0bqfizIjyJYopv3u82p5y4LxhRHd32cbz5pyHdceUIPcaRYytll2EKIJqVjMZUUBmCZiyMzwMAwYuJgUAvrLVFvBSCciqim6xmQhm2DY7G48x2FP2nGuUNmji4QQz6GaNL2TgnkDdsxpQax7FuOinNHy4KgcuXpN0iRXsNYGLMdSzJr4eyryS5YxUljSAaptQ9YdDZFth3AR",
+              "received": false
+            }
+          ],
+          "total_price": 53143,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

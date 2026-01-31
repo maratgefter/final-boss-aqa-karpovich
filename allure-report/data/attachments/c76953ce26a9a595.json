@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-yZ8ynIdv+uiDvgYFonTZ5/LR2m8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e82181c508c5d5ec0c8a6",
+        "email": "Faye_Fisher90@hotmail.com",
+        "name": "Abner Windler",
+        "country": "Germany",
+        "city": "Lake Mckennaboro",
+        "street": "Danielle Highway",
+        "house": 20,
+        "flat": 520,
+        "phone": "+18684372707",
+        "createdOn": "2026-01-31T22:28:40.000Z",
+        "notes": "cAmEIaiJE7pVnngMEMn1J7BfmmW5SvKKmOWiJIZ0WSdT6lCyv27Te0ndH2oJTSe6qAD9UKC3qavFGQ5gozp1BzIMwqd2LS4nL8ZkwuTgITruEGX1SZ3p4Dqsl4xFZ26kdaiP3hvB8xTmfFwHqdRIFIYwxvkLAsNyasSx0u05J690iOAH19QTJ7rSm7kT1CXvRzEG3Vnp5DbLxfcazil5xE601IQvrugim86EYRbrsaNb2YRmYJ6Ca87gkW"
+      },
+      "products": [
+        {
+          "_id": "697e82181c508c5d5ec0c8c5",
+          "name": "Car48142",
+          "amount": 234,
+          "price": 52265,
+          "manufacturer": "Sony",
+          "notes": "Kyu41ZZdCiYpnhPxWChGIZ1tcw1hnWTJT6W3uuWp7g3RPioEUD2MtPC43nk2nuGbdjSRp24GGSSQGTTT9EueRmigYVXcZ9o8H2QqniACfeErGXEv7GGWLIIVKuVTZUkAIlkTyhRFhwj9duB10Oo2U99ASK1yyoCevNu0X3uC7kNclEw1oWuFbEnsk9ilJGtqmCYnzpz6Q4CObpT1hcHrX07MCRfFxLlM3J3aL8vlM8QwWo9qZBe7pHDOGf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52265,
+      "createdOn": "2026-01-31T22:28:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e82181c508c5d5ec0c8a6",
+          "products": [
+            {
+              "_id": "697e82181c508c5d5ec0c8c5",
+              "name": "Car48142",
+              "amount": 234,
+              "price": 52265,
+              "manufacturer": "Sony",
+              "notes": "Kyu41ZZdCiYpnhPxWChGIZ1tcw1hnWTJT6W3uuWp7g3RPioEUD2MtPC43nk2nuGbdjSRp24GGSSQGTTT9EueRmigYVXcZ9o8H2QqniACfeErGXEv7GGWLIIVKuVTZUkAIlkTyhRFhwj9duB10Oo2U99ASK1yyoCevNu0X3uC7kNclEw1oWuFbEnsk9ilJGtqmCYnzpz6Q4CObpT1hcHrX07MCRfFxLlM3J3aL8vlM8QwWo9qZBe7pHDOGf",
+              "received": false
+            }
+          ],
+          "total_price": 52265,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82191c508c5d5ec0c92a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

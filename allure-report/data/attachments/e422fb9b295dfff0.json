@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-GayRzJvQUJKehGDazmtTW+6zhdY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e82161c508c5d5ec0c7b1",
+        "email": "Elliot.Kiehn@hotmail.com",
+        "name": "Kristofer Wiegand",
+        "country": "Great Britain",
+        "city": "Tomasview",
+        "street": "Manor Close",
+        "house": 36,
+        "flat": 820,
+        "phone": "+14968851912",
+        "createdOn": "2026-01-31T22:28:38.000Z",
+        "notes": "8WDFM1oJ1rF0EcQ8cCgtNxipjCO4ZEBFYuq27JAa0TB3v7FwSyTv9ndzhYYZlsSn2ZRrjT1T9ebSeNWBulZgfDHpbjWlenV0MOHh7oKUV7ADr8M28pYcu4dOG2wr3U3U9lAcCEWROvKlxCQBjGzib7VFw4P4IGhvP7oV74FBRliarpIX4GH8GPNT3zfmIfwFeUt0HDQKn33FPFavVsB6Xg9pNrVElLPF594uoJUQWZu87awuMZwGTxPsDU"
+      },
+      "products": [
+        {
+          "_id": "697e82161c508c5d5ec0c7c5",
+          "name": "Soap87315",
+          "amount": 773,
+          "price": 76436,
+          "manufacturer": "Amazon",
+          "notes": "lHu5JUrd0M6XkGlATOVmZtTZA1YGCGpRElkHRj1L2LW4l9Ior1mxkys0KC5LnumJnXXKAKQJ7qOfWalm8WQIkCWLBjUke8eppfFPkLw2yXlBvn3SUSLQ43nZpUzYCNkXIrZVgbrfA0DW2iVlzqGeOWriCibo7ZWbAbySDn3sywmS4SYP95t4MUdmsKjNWbzsQAO7WLVdZydh4dMKN3O1wr9Zdfz3BbLmu2QoJ8VA6ImcGYwqieAoSoLZ10",
+          "received": false
+        },
+        {
+          "_id": "697e82161c508c5d5ec0c7e3",
+          "name": "Gloves39081",
+          "amount": 520,
+          "price": 67526,
+          "manufacturer": "Xiaomi",
+          "notes": "YUdasGD3zyzReI3RKucmyKd99ZaVZ4ahQLZbucjkjZ3jnYtaB4aI5voUSRsBAWXEXUnpwBqNxfOov06a96IRnmqt1BQWGip28SVmZzqAcvuKw9CIW0ON7JqeV9JFaffEo33qKsLewOP4E0Xt6twlx99qnj6IufiQ7pc0WtwhAIX0AtRKxcnGxbnnNpWo7t2MvmhhJZOG1Ffgsfb442ILoF2njOlg3DnpxuA3F1H1PamwuoRXyEPY5oBrcj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 143962,
+      "createdOn": "2026-01-31T22:28:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e82161c508c5d5ec0c7b1",
+          "products": [
+            {
+              "_id": "697e82161c508c5d5ec0c7c5",
+              "name": "Soap87315",
+              "amount": 773,
+              "price": 76436,
+              "manufacturer": "Amazon",
+              "notes": "lHu5JUrd0M6XkGlATOVmZtTZA1YGCGpRElkHRj1L2LW4l9Ior1mxkys0KC5LnumJnXXKAKQJ7qOfWalm8WQIkCWLBjUke8eppfFPkLw2yXlBvn3SUSLQ43nZpUzYCNkXIrZVgbrfA0DW2iVlzqGeOWriCibo7ZWbAbySDn3sywmS4SYP95t4MUdmsKjNWbzsQAO7WLVdZydh4dMKN3O1wr9Zdfz3BbLmu2QoJ8VA6ImcGYwqieAoSoLZ10",
+              "received": false
+            },
+            {
+              "_id": "697e82161c508c5d5ec0c7e3",
+              "name": "Gloves39081",
+              "amount": 520,
+              "price": 67526,
+              "manufacturer": "Xiaomi",
+              "notes": "YUdasGD3zyzReI3RKucmyKd99ZaVZ4ahQLZbucjkjZ3jnYtaB4aI5voUSRsBAWXEXUnpwBqNxfOov06a96IRnmqt1BQWGip28SVmZzqAcvuKw9CIW0ON7JqeV9JFaffEo33qKsLewOP4E0Xt6twlx99qnj6IufiQ7pc0WtwhAIX0AtRKxcnGxbnnNpWo7t2MvmhhJZOG1Ffgsfb442ILoF2njOlg3DnpxuA3F1H1PamwuoRXyEPY5oBrcj",
+              "received": false
+            }
+          ],
+          "total_price": 143962,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82171c508c5d5ec0c833"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

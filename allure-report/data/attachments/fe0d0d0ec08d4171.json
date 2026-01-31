@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-fKfQPfY4sc+wNkDVS8T7OhBnicw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e820c1c508c5d5ec0c33e",
+        "email": "Annabelle.Zieme96@hotmail.com",
+        "name": "Edison White",
+        "country": "France",
+        "city": "Hermannhaven",
+        "street": "Carleton Centers",
+        "house": 28,
+        "flat": 658,
+        "phone": "+14777935291",
+        "createdOn": "2026-01-31T22:28:28.000Z",
+        "notes": "P2fvTBnkFJNHWZuV5IehxUiRChGRmAAZmuFXCi3D2NqbZqkbtRUCVyX4nlXozZgwsvDW0QCtOlH3chfZZRmSzRoOCtpDxmXT2Xy76VjSY5wQ7LgBCRZTG5PVqWcUjVZWduOL4qw9QFuZ3vCriNvhT9UnAulkilzHnM5dMRJwMbLJ3NN2EtaGzcFe1FsXg9Rsgn8mFqGeDvR0gdBousYxCbwlGgJ2PaBpXP26rKa2330TCCdlehPqaFOxUD"
+      },
+      "products": [
+        {
+          "_id": "697e820d1c508c5d5ec0c36e",
+          "name": "Chips33243",
+          "amount": 352,
+          "price": 23705,
+          "manufacturer": "Sony",
+          "notes": "3k9rg2OLke1FOBfxhw2Lqj8PgD2hWwUdC3DKlOZVVwCLDo9Bd33Ziu4jVhY0EPvRDk0sfXZ7UV1XiknNneviB0xDMwYoVbOEDVPoJnOiqMsbrhuTAQKMHucGNA5PzhYEbBt2nYnjHcf1K36nvL8EYsboB6DfYzlVTSJv2nCyxyS4lBVfZ7QSp6FnOXwekAPIZrmTjfrBVrSHQ9XGJt2dkyQ12Am8X1VGVn7z9498GpJdSFb75I9BFE8Czy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23705,
+      "createdOn": "2026-01-31T22:28:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e820c1c508c5d5ec0c33e",
+          "products": [
+            {
+              "_id": "697e820d1c508c5d5ec0c36e",
+              "name": "Chips33243",
+              "amount": 352,
+              "price": 23705,
+              "manufacturer": "Sony",
+              "notes": "3k9rg2OLke1FOBfxhw2Lqj8PgD2hWwUdC3DKlOZVVwCLDo9Bd33Ziu4jVhY0EPvRDk0sfXZ7UV1XiknNneviB0xDMwYoVbOEDVPoJnOiqMsbrhuTAQKMHucGNA5PzhYEbBt2nYnjHcf1K36nvL8EYsboB6DfYzlVTSJv2nCyxyS4lBVfZ7QSp6FnOXwekAPIZrmTjfrBVrSHQ9XGJt2dkyQ12Am8X1VGVn7z9498GpJdSFb75I9BFE8Czy",
+              "received": false
+            }
+          ],
+          "total_price": 23705,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e820d1c508c5d5ec0c39a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

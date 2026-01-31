@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-2fxYXS7bKmrNemQvLjw+shnhVtk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e82181c508c5d5ec0c8b3",
+        "email": "Toney.Bergnaum@hotmail.com",
+        "name": "Quincy Howe",
+        "country": "USA",
+        "city": "Florissant",
+        "street": "Devan Row",
+        "house": 42,
+        "flat": 731,
+        "phone": "+13212470310",
+        "createdOn": "2026-01-31T22:28:40.000Z",
+        "notes": "NClsJ6z6aUP0BUSeyiV8CdcLWBT2bYzpJT30zBM97jT619ck30x6PDQ5Nzo2dkbAha4IFHMwYDHwwQO8Lf8Cd8oBo6lHGPxSVplnj066a5H4Br7oFXkG5WG17KfGYGLAJhCsgEVBjJUdkkX18NRU0ieVLqpQYek1vRU1YKEOgf1jkii29MJEAlqpk38Pu6YRYpR2c0Ajxv05P4jqXAM7TWtxYYXetQJ7lJmEOwZ3MjEdS3qFZq61PBqFvW"
+      },
+      "products": [
+        {
+          "_id": "697e82181c508c5d5ec0c8d5",
+          "name": "Table22568",
+          "amount": 19,
+          "price": 46843,
+          "manufacturer": "Amazon",
+          "notes": "3HgGO9ykfVmImOr0aoYyBiSzaXnr15U51jQ2QIoLn1zmo5881UFTRNGnpB2MxXrukV2gXetbGnfKHelsox1GwiSEw3Yh5reWSf7olh5YhcBfEVB1ZH170DlGt6wh5s7unGLVzJxAMBOfuLBnDbBcZw3lFq3dwdYbtls49VkSV5tEEyObSTgvo0yDSR50gm12zcKkUE3F9vnWSeA3e7kIjpfaZPZR4Tgfn16ghHSExCkAZ46iYBxejwMsqn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46843,
+      "createdOn": "2026-01-31T22:28:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e82181c508c5d5ec0c8b3",
+          "products": [
+            {
+              "_id": "697e82181c508c5d5ec0c8d5",
+              "name": "Table22568",
+              "amount": 19,
+              "price": 46843,
+              "manufacturer": "Amazon",
+              "notes": "3HgGO9ykfVmImOr0aoYyBiSzaXnr15U51jQ2QIoLn1zmo5881UFTRNGnpB2MxXrukV2gXetbGnfKHelsox1GwiSEw3Yh5reWSf7olh5YhcBfEVB1ZH170DlGt6wh5s7unGLVzJxAMBOfuLBnDbBcZw3lFq3dwdYbtls49VkSV5tEEyObSTgvo0yDSR50gm12zcKkUE3F9vnWSeA3e7kIjpfaZPZR4Tgfn16ghHSExCkAZ46iYBxejwMsqn",
+              "received": false
+            }
+          ],
+          "total_price": 46843,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82191c508c5d5ec0c92d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

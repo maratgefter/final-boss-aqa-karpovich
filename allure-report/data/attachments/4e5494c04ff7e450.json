@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2923",
+    "etag": "W/\"b6b-9BKoypu9HdNEH2/yHDiDKzqXESA\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697e821f1c508c5d5ec0cc0f",
+      "status": "Draft",
+      "customer": {
+        "_id": "697e821e1c508c5d5ec0cbaa",
+        "email": "Kale7@hotmail.com",
+        "name": "Seth Effertz",
+        "country": "Belarus",
+        "city": "Azusa",
+        "street": "Queenie Lodge",
+        "house": 4,
+        "flat": 870,
+        "phone": "+19266921340",
+        "createdOn": "2026-01-31T22:28:46.000Z",
+        "notes": "gw5VSZGXQyPsTyG5P7YWJd5TEbjWI7oDBfugCqcVrAdiloSdNm65X212HxKBtXiACMh5ajsvEYoQsx5bmKE9DWtXmpqrmE00CWg8GxY0sjNzjSgoYNhXkGGxy5yyKYKFYymZbdZlOINsrcOolKUrsa3IDNVqe1ckTkikbxq9ppCDo97d108Q1r4IZqyh2eo9GsWuCGP8vKTPJp7KcNKnRSHyiYyihV3jSvJyGgqNhU2e6e0uoBKP9DgQcj"
+      },
+      "products": [
+        {
+          "_id": "697e821e1c508c5d5ec0cbcc",
+          "name": "Cheese52403",
+          "amount": 79,
+          "price": 94915,
+          "manufacturer": "Tesla",
+          "notes": "ozgbUb6OYCCVv9L2QUwDjfMGsPG6VoJ6aRS6FeiSmTMiItoevsK38uPPE0kp0ZiJxMZvN1xrHx4Af6JmKZmDclpXskhOxp1ZbP9O2JwfYBl8Eo2FgkkKRbpO47LaCruIYadCTK1uPcdNnrAU47j2gT7yC7Mgc8r1JQG810svROMuZGbkeXO15auiLfadMM4RdsCSUsIQaaNMR3FMbZdExkS3kjrnq9lwh1VZ9vxWAszdys95GMv7aY2jqY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Azusa",
+          "street": "Queenie Lodge",
+          "house": 4,
+          "flat": 870
+        },
+        "finalDate": "2026-02-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 94915,
+      "createdOn": "2026-01-31T22:28:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e821e1c508c5d5ec0cbaa",
+          "products": [
+            {
+              "_id": "697e821e1c508c5d5ec0cbcc",
+              "name": "Cheese52403",
+              "amount": 79,
+              "price": 94915,
+              "manufacturer": "Tesla",
+              "notes": "ozgbUb6OYCCVv9L2QUwDjfMGsPG6VoJ6aRS6FeiSmTMiItoevsK38uPPE0kp0ZiJxMZvN1xrHx4Af6JmKZmDclpXskhOxp1ZbP9O2JwfYBl8Eo2FgkkKRbpO47LaCruIYadCTK1uPcdNnrAU47j2gT7yC7Mgc8r1JQG810svROMuZGbkeXO15auiLfadMM4RdsCSUsIQaaNMR3FMbZdExkS3kjrnq9lwh1VZ9vxWAszdys95GMv7aY2jqY",
+              "received": false
+            }
+          ],
+          "total_price": 94915,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Azusa",
+              "street": "Queenie Lodge",
+              "house": 4,
+              "flat": 870
+            },
+            "finalDate": "2026-02-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e821e1c508c5d5ec0cbaa",
+          "products": [
+            {
+              "_id": "697e821e1c508c5d5ec0cbcc",
+              "name": "Cheese52403",
+              "amount": 79,
+              "price": 94915,
+              "manufacturer": "Tesla",
+              "notes": "ozgbUb6OYCCVv9L2QUwDjfMGsPG6VoJ6aRS6FeiSmTMiItoevsK38uPPE0kp0ZiJxMZvN1xrHx4Af6JmKZmDclpXskhOxp1ZbP9O2JwfYBl8Eo2FgkkKRbpO47LaCruIYadCTK1uPcdNnrAU47j2gT7yC7Mgc8r1JQG810svROMuZGbkeXO15auiLfadMM4RdsCSUsIQaaNMR3FMbZdExkS3kjrnq9lwh1VZ9vxWAszdys95GMv7aY2jqY",
+              "received": false
+            }
+          ],
+          "total_price": 94915,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

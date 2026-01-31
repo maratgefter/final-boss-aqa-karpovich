@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-H4VirnZQ+sFDquFjCNJIlYtpPe4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e82091c508c5d5ec0c1d6",
+        "email": "Candace95@gmail.com",
+        "name": "Alysson Hyatt",
+        "country": "France",
+        "city": "New Miller",
+        "street": "Angus Views",
+        "house": 24,
+        "flat": 313,
+        "phone": "+13723448083",
+        "createdOn": "2026-01-31T22:28:25.000Z",
+        "notes": "oAIaS1eeFwZQLtLH9uX3DnOo81rDnI53Vo0nzXSH6TjF1Ivi2mnae1E4PqGGjj23EqkqoKfwTKDbjlm2bOUFjwjBJ3e3x1jE2iy9kprP68MZJCtgkpvIAWrYwWTiuUQVbYCyc0Ayp9oEdxWWUuxFY0NB5eyMPz70yf6FBAkPI0r7IyCXtk7rzRv7qvLNBkkLDlOCjaAANEiYLhgewRm1m0CDl4V2xJz1CpL7ImWHBPLspHrKJDEBsjM0bZ"
+      },
+      "products": [
+        {
+          "_id": "697e820a1c508c5d5ec0c1f8",
+          "name": "Bacon93819",
+          "amount": 604,
+          "price": 11590,
+          "manufacturer": "Amazon",
+          "notes": "ajvxhsU0Zrx4hSm4Tl32c8S5sXjA2sMeZYiHek03iNRF0C5WMX3FncOXcU1s8SWEhzxNE8eubBoQMKMmQHJEEv5bxg1m0ijp2UXr3N1GGykg0yzcobqQIWQEJpAe6Ty2FuBLt1zah1e9jR8J5Hlz6jyDAkquXeoLfxa57o2Ta34U0S2tSFv4BCUIgyX9mmIOuVo98uCfMsiD5azeUEUOW02aaO3y1DRbPMFYBFqj17g4YSuK4kb7sorWbN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11590,
+      "createdOn": "2026-01-31T22:28:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e82091c508c5d5ec0c1d6",
+          "products": [
+            {
+              "_id": "697e820a1c508c5d5ec0c1f8",
+              "name": "Bacon93819",
+              "amount": 604,
+              "price": 11590,
+              "manufacturer": "Amazon",
+              "notes": "ajvxhsU0Zrx4hSm4Tl32c8S5sXjA2sMeZYiHek03iNRF0C5WMX3FncOXcU1s8SWEhzxNE8eubBoQMKMmQHJEEv5bxg1m0ijp2UXr3N1GGykg0yzcobqQIWQEJpAe6Ty2FuBLt1zah1e9jR8J5Hlz6jyDAkquXeoLfxa57o2Ta34U0S2tSFv4BCUIgyX9mmIOuVo98uCfMsiD5azeUEUOW02aaO3y1DRbPMFYBFqj17g4YSuK4kb7sorWbN",
+              "received": false
+            }
+          ],
+          "total_price": 11590,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e820a1c508c5d5ec0c22f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

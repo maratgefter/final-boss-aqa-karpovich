@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:29:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5435",
+    "etag": "W/\"153b-Tj/1MNu3ZDHfkAuEOvDBJ46NCbs\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697e82281c508c5d5ec0d033",
+      "status": "In Process",
+      "customer": {
+        "_id": "697e82271c508c5d5ec0cfd6",
+        "email": "Velma28@hotmail.com",
+        "name": "Greyson Romaguera",
+        "country": "Germany",
+        "city": "National City",
+        "street": "Michel Groves",
+        "house": 1,
+        "flat": 52,
+        "phone": "+15112311454",
+        "createdOn": "2026-01-31T22:28:55.000Z",
+        "notes": "6cRtdAHXsTveoueK7A1bj92zbYTW6xCwgUARuafWCyoU3b5VnB0AMLotnmukPE6aDOClk47z20o8rRB95RhG0ZDQXWuaHuObIKzt6X7x59Ok9TCRv5abD0Cx4wBbJKCbytMsxckP6APOM7yBFPTUBwD8YjWvPWJuHiQDXF9u0mIRqmq05I43UVvFJDWuTQl35KPRBWqAqdcRc9Qo9QFMt8k71hy97dmk6u0Sq2nb5ciXL5x4QQvWpt8yAj"
+      },
+      "products": [
+        {
+          "_id": "697e82271c508c5d5ec0cff0",
+          "name": "Table16816",
+          "amount": 569,
+          "price": 23758,
+          "manufacturer": "Microsoft",
+          "notes": "yEimfnyhXyakfgIfh56R4ATCTlHIE058Apy1dutxOpQoD7iB0avCdbNDxWD5XFRFBeBIrxTwMAGdpz7Ign06rCZjGuRLcOzQcRsUZfRHSn893Yt0SOwNEwKsfhkMRMcXW0Ii7MbpiJm1EQUrSZNuRC8bYIe6drYDLydbw4xAg0ZNSGMZrQPDQhZsDSs8S2nN4NtW7JXLS6vJB0teIPqkRQpWzCgO8nzBQ2fLo84eQJral6q0MnLYmqsXEt",
+          "received": false
+        },
+        {
+          "_id": "697e82281c508c5d5ec0d007",
+          "name": "Gloves87432",
+          "amount": 454,
+          "price": 17000,
+          "manufacturer": "Xiaomi",
+          "notes": "40sxT1kY5TewagTJwC2bcCVGLF2IzU3UW7lhGV3zJVnwPYWypAmwzGASqGBngFkfNveaAvtRTFn8JoRCAm8I9lRpZu8vxjApJQTE2CL1SXQhvNQ0KB0duyFlrv72KEPd6RBYBmFN4wqZoySBBC6FJmimdZro06VIxSxS0afoNTlQVRi64LjakLwYoC46NXsysvxrpKOcaaPHU2wMlQTd3eP3alTRwBJLbKfTwbLEEMgfhD9qddKh0rbf5k",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "National City",
+          "street": "Michel Groves",
+          "house": 1,
+          "flat": 52
+        },
+        "finalDate": "2026-02-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 40758,
+      "createdOn": "2026-01-31T22:28:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "697e82271c508c5d5ec0cfd6",
+          "products": [
+            {
+              "_id": "697e82271c508c5d5ec0cff0",
+              "name": "Table16816",
+              "amount": 569,
+              "price": 23758,
+              "manufacturer": "Microsoft",
+              "notes": "yEimfnyhXyakfgIfh56R4ATCTlHIE058Apy1dutxOpQoD7iB0avCdbNDxWD5XFRFBeBIrxTwMAGdpz7Ign06rCZjGuRLcOzQcRsUZfRHSn893Yt0SOwNEwKsfhkMRMcXW0Ii7MbpiJm1EQUrSZNuRC8bYIe6drYDLydbw4xAg0ZNSGMZrQPDQhZsDSs8S2nN4NtW7JXLS6vJB0teIPqkRQpWzCgO8nzBQ2fLo84eQJral6q0MnLYmqsXEt",
+              "received": false
+            },
+            {
+              "_id": "697e82281c508c5d5ec0d007",
+              "name": "Gloves87432",
+              "amount": 454,
+              "price": 17000,
+              "manufacturer": "Xiaomi",
+              "notes": "40sxT1kY5TewagTJwC2bcCVGLF2IzU3UW7lhGV3zJVnwPYWypAmwzGASqGBngFkfNveaAvtRTFn8JoRCAm8I9lRpZu8vxjApJQTE2CL1SXQhvNQ0KB0duyFlrv72KEPd6RBYBmFN4wqZoySBBC6FJmimdZro06VIxSxS0afoNTlQVRi64LjakLwYoC46NXsysvxrpKOcaaPHU2wMlQTd3eP3alTRwBJLbKfTwbLEEMgfhD9qddKh0rbf5k",
+              "received": false
+            }
+          ],
+          "total_price": 40758,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "National City",
+              "street": "Michel Groves",
+              "house": 1,
+              "flat": 52
+            },
+            "finalDate": "2026-02-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:29:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e82271c508c5d5ec0cfd6",
+          "products": [
+            {
+              "_id": "697e82271c508c5d5ec0cff0",
+              "name": "Table16816",
+              "amount": 569,
+              "price": 23758,
+              "manufacturer": "Microsoft",
+              "notes": "yEimfnyhXyakfgIfh56R4ATCTlHIE058Apy1dutxOpQoD7iB0avCdbNDxWD5XFRFBeBIrxTwMAGdpz7Ign06rCZjGuRLcOzQcRsUZfRHSn893Yt0SOwNEwKsfhkMRMcXW0Ii7MbpiJm1EQUrSZNuRC8bYIe6drYDLydbw4xAg0ZNSGMZrQPDQhZsDSs8S2nN4NtW7JXLS6vJB0teIPqkRQpWzCgO8nzBQ2fLo84eQJral6q0MnLYmqsXEt",
+              "received": false
+            },
+            {
+              "_id": "697e82281c508c5d5ec0d007",
+              "name": "Gloves87432",
+              "amount": 454,
+              "price": 17000,
+              "manufacturer": "Xiaomi",
+              "notes": "40sxT1kY5TewagTJwC2bcCVGLF2IzU3UW7lhGV3zJVnwPYWypAmwzGASqGBngFkfNveaAvtRTFn8JoRCAm8I9lRpZu8vxjApJQTE2CL1SXQhvNQ0KB0duyFlrv72KEPd6RBYBmFN4wqZoySBBC6FJmimdZro06VIxSxS0afoNTlQVRi64LjakLwYoC46NXsysvxrpKOcaaPHU2wMlQTd3eP3alTRwBJLbKfTwbLEEMgfhD9qddKh0rbf5k",
+              "received": false
+            }
+          ],
+          "total_price": 40758,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "National City",
+              "street": "Michel Groves",
+              "house": 1,
+              "flat": 52
+            },
+            "finalDate": "2026-02-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e82271c508c5d5ec0cfd6",
+          "products": [
+            {
+              "_id": "697e82271c508c5d5ec0cff0",
+              "name": "Table16816",
+              "amount": 569,
+              "price": 23758,
+              "manufacturer": "Microsoft",
+              "notes": "yEimfnyhXyakfgIfh56R4ATCTlHIE058Apy1dutxOpQoD7iB0avCdbNDxWD5XFRFBeBIrxTwMAGdpz7Ign06rCZjGuRLcOzQcRsUZfRHSn893Yt0SOwNEwKsfhkMRMcXW0Ii7MbpiJm1EQUrSZNuRC8bYIe6drYDLydbw4xAg0ZNSGMZrQPDQhZsDSs8S2nN4NtW7JXLS6vJB0teIPqkRQpWzCgO8nzBQ2fLo84eQJral6q0MnLYmqsXEt",
+              "received": false
+            },
+            {
+              "_id": "697e82281c508c5d5ec0d007",
+              "name": "Gloves87432",
+              "amount": 454,
+              "price": 17000,
+              "manufacturer": "Xiaomi",
+              "notes": "40sxT1kY5TewagTJwC2bcCVGLF2IzU3UW7lhGV3zJVnwPYWypAmwzGASqGBngFkfNveaAvtRTFn8JoRCAm8I9lRpZu8vxjApJQTE2CL1SXQhvNQ0KB0duyFlrv72KEPd6RBYBmFN4wqZoySBBC6FJmimdZro06VIxSxS0afoNTlQVRi64LjakLwYoC46NXsysvxrpKOcaaPHU2wMlQTd3eP3alTRwBJLbKfTwbLEEMgfhD9qddKh0rbf5k",
+              "received": false
+            }
+          ],
+          "total_price": 40758,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

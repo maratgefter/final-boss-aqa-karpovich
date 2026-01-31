@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-OVzPfgLxVQi+c7Q1dpYgJmdOqiQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e82121c508c5d5ec0c5bb",
+        "email": "Gerald.Towne@gmail.com",
+        "name": "Emile Dach",
+        "country": "Germany",
+        "city": "Feestville",
+        "street": "Castle Lane",
+        "house": 26,
+        "flat": 989,
+        "phone": "+18953797751",
+        "createdOn": "2026-01-31T22:28:34.000Z",
+        "notes": "K1zbnjKqUeo9jNk6Br7NLwIy3uKpPLFPjmbfBK2j34iC13ZUHi7XUXJyCVXzkaZ2IWcZyCs61goFvEKUMFhVYnbczdPootGHYUrDezLi4YWeGr4CBVKWRvblP2eiT3qWm8iSv67eNlgUNpMIOgf4zl5kAYoOCgEPDj5UixMCFrjXFz0qgQaolAMXMWYNIsZicdQxZ1hCslFP1n7ulYkXEOyiSpdcn0QS5OMwAGgLsx13x5w5u0uX8YWBt6"
+      },
+      "products": [
+        {
+          "_id": "697e82121c508c5d5ec0c5c6",
+          "name": "Towels44237",
+          "amount": 249,
+          "price": 81040,
+          "manufacturer": "Google",
+          "notes": "VjcvGtdKh4w3hyAwAGdKIWkHvUFjCa312EzdUpB0F2xLDtCnNAevTjjSoEwwoDG1V7w0wPh7hZzcZopzFAid3tcwzLRSnD7gA7ZtbNI2yc0OAK1KuVXav85Iz2R3yjWbxat4XxKFhg9QHtDZaeGnTPt3xYnjo3rS49EHnGxLDZpyAOazuAVneH4sbhrqP5vGErmAeg99HCwc1TRuKs7vNnkko5HrihZjedhSsKZCCzvKnwsWr2MNIWqdOb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81040,
+      "createdOn": "2026-01-31T22:28:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e82121c508c5d5ec0c5bb",
+          "products": [
+            {
+              "_id": "697e82121c508c5d5ec0c5c6",
+              "name": "Towels44237",
+              "amount": 249,
+              "price": 81040,
+              "manufacturer": "Google",
+              "notes": "VjcvGtdKh4w3hyAwAGdKIWkHvUFjCa312EzdUpB0F2xLDtCnNAevTjjSoEwwoDG1V7w0wPh7hZzcZopzFAid3tcwzLRSnD7gA7ZtbNI2yc0OAK1KuVXav85Iz2R3yjWbxat4XxKFhg9QHtDZaeGnTPt3xYnjo3rS49EHnGxLDZpyAOazuAVneH4sbhrqP5vGErmAeg99HCwc1TRuKs7vNnkko5HrihZjedhSsKZCCzvKnwsWr2MNIWqdOb",
+              "received": false
+            }
+          ],
+          "total_price": 81040,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82121c508c5d5ec0c5da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

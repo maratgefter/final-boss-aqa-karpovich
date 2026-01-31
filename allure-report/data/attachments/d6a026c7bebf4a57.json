@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-dx5LUTIU6lPGDYmsO0D/hau3ywg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697e820f1c508c5d5ec0c470",
+        "email": "Jeffrey_Padberg21@hotmail.com",
+        "name": "Colten Romaguera",
+        "country": "France",
+        "city": "Lake Micheal",
+        "street": "Casey Orchard",
+        "house": 19,
+        "flat": 385,
+        "phone": "+19757972416",
+        "createdOn": "2026-01-31T22:28:31.000Z",
+        "notes": "WZY5tYy5X76G18YjicLzXSWvEsNTJF4JQ98gmN9Likp5Mr7LYEhnixtz9vljlH4BD9B6LF5L6GmCI4K9RwTn1qixlFj2W7jpyTNoaVJd9iGHILBf6yu8tD36YmSwqvO7HKKUDte681qQwWMdJEoKo5U3o3CHPwy53i5AgeQNf4vu1t9MH4TJytPyOpYvamZ043nVl33ISXjPWzGgdRMOh0VX9lSk6PAYARgg6mOwM3lF6ynMIQr8WCXe3a"
+      },
+      "products": [
+        {
+          "_id": "697e820f1c508c5d5ec0c490",
+          "name": "Pizza21340",
+          "amount": 486,
+          "price": 53364,
+          "manufacturer": "Tesla",
+          "notes": "ePKNLjBPL7diKs9MJTMgGQiWcyV914w24XbYfAeoyMlhtuWIP2kHOS4nzXb35198ISRPyxWlD96vW1hX0ymsestaEUx8kY8TGH81vdyl8XMuAIXXb7l2FO9ZGcfB6q0xwFd7rE6JInFlL6NwIXWlBcRQvBFS5tgTevhftZUrLaKZYD8QbtILO1ekIMBf2hsugwekcAEA5aTx8OV1I3apAVzNsifAdKlcNBypweJFVvTbuG7WfzgcQlLvie",
+          "received": false
+        },
+        {
+          "_id": "697e82101c508c5d5ec0c4ca",
+          "name": "Table99392",
+          "amount": 108,
+          "price": 58756,
+          "manufacturer": "Samsung",
+          "notes": "F1zp7w0pBjxayiX0zLZGaP2IzIt0dM7toxu4d51SKeg6C4KvHB6baKPf7yGWh5xbXGDArjJZpEY3TrVQmcc9LItRMD14TzfaWKDiZzbdRjRAAxvlgoue3Pl60TSrfEzp74VX6qvNxLlmji7TKUZ9pwQknsfRAmQ6wDIDPVFilKzxIHJuTKEJzQRD6yUTTsho8DWzVqDfBhO8ZA4VGqpKv6qdyFIz21IuXQsCU6NskZxSo1AQYN16Ve9VK8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112120,
+      "createdOn": "2026-01-31T22:28:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697e820f1c508c5d5ec0c470",
+          "products": [
+            {
+              "_id": "697e820f1c508c5d5ec0c490",
+              "name": "Pizza21340",
+              "amount": 486,
+              "price": 53364,
+              "manufacturer": "Tesla",
+              "notes": "ePKNLjBPL7diKs9MJTMgGQiWcyV914w24XbYfAeoyMlhtuWIP2kHOS4nzXb35198ISRPyxWlD96vW1hX0ymsestaEUx8kY8TGH81vdyl8XMuAIXXb7l2FO9ZGcfB6q0xwFd7rE6JInFlL6NwIXWlBcRQvBFS5tgTevhftZUrLaKZYD8QbtILO1ekIMBf2hsugwekcAEA5aTx8OV1I3apAVzNsifAdKlcNBypweJFVvTbuG7WfzgcQlLvie",
+              "received": false
+            },
+            {
+              "_id": "697e82101c508c5d5ec0c4ca",
+              "name": "Table99392",
+              "amount": 108,
+              "price": 58756,
+              "manufacturer": "Samsung",
+              "notes": "F1zp7w0pBjxayiX0zLZGaP2IzIt0dM7toxu4d51SKeg6C4KvHB6baKPf7yGWh5xbXGDArjJZpEY3TrVQmcc9LItRMD14TzfaWKDiZzbdRjRAAxvlgoue3Pl60TSrfEzp74VX6qvNxLlmji7TKUZ9pwQknsfRAmQ6wDIDPVFilKzxIHJuTKEJzQRD6yUTTsho8DWzVqDfBhO8ZA4VGqpKv6qdyFIz21IuXQsCU6NskZxSo1AQYN16Ve9VK8",
+              "received": false
+            }
+          ],
+          "total_price": 112120,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697e82101c508c5d5ec0c4fd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

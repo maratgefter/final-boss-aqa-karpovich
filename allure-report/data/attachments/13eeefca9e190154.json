@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 31 Jan 2026 22:28:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4850",
+    "etag": "W/\"12f2-y4/ztopRM8+nNaovX4lQZdA6GYo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697e82201c508c5d5ec0cc7f",
+      "status": "Received",
+      "customer": {
+        "_id": "697e821f1c508c5d5ec0cc02",
+        "email": "Rozella.Zboncak10@hotmail.com",
+        "name": "Coralie Hudson",
+        "country": "Great Britain",
+        "city": "South Reaganborough",
+        "street": "Delpha Park",
+        "house": 50,
+        "flat": 640,
+        "phone": "+19972753464",
+        "createdOn": "2026-01-31T22:28:47.000Z",
+        "notes": "vIx3X5z66y5cTMMyXDI1sJ4HIa6ijfRXeuQOD9X5QfcXMzWqgMvy96tHmwjqsPJhfdkzVXtXgRft86ThMVvNJNjEbZPgFaE6xDESMCWTdpSilRT4JrGHDtGxioHz3bzee5pxDoATaeapMS0IfygdtGHr5z9fACUClzhRWahXiNLnIqxKapVZ0xibDL24P9pWmfnQ7CrbBzTuPDSt0dcjLnN0y4KV7shpIe415DozQa8cF5iN26iZ6OJD0Q"
+      },
+      "products": [
+        {
+          "_id": "697e821f1c508c5d5ec0cc3c",
+          "name": "Chips8188",
+          "amount": 864,
+          "price": 79634,
+          "manufacturer": "Sony",
+          "notes": "J453r84NJwlpqXsfqdE3fHKmCTCwlzkfxlMgq9qjehQrXOt9hkeqVQt3LOeGpJptGpSdRRqGnideN8HeIuQgX2ut0YIvHQbUqen20jJH0pddspY6We1LIXWPtmi5bduu1TXF7yCA6K6Nmr1vJpyURG13txxNBgsyd9MTYEDmHjrk3ouIDc6Bsse96dINpE3IeYMMwDPU6Afj3ygBPrtu1RuXtbG2HBAzoSBDzy6U35BObCkPaSeoqXN70y",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Reaganborough",
+          "street": "Delpha Park",
+          "house": 50,
+          "flat": 640
+        },
+        "finalDate": "2026-02-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 79634,
+      "createdOn": "2026-01-31T22:28:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "697e821f1c508c5d5ec0cc02",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc3c",
+              "name": "Chips8188",
+              "amount": 864,
+              "price": 79634,
+              "manufacturer": "Sony",
+              "notes": "J453r84NJwlpqXsfqdE3fHKmCTCwlzkfxlMgq9qjehQrXOt9hkeqVQt3LOeGpJptGpSdRRqGnideN8HeIuQgX2ut0YIvHQbUqen20jJH0pddspY6We1LIXWPtmi5bduu1TXF7yCA6K6Nmr1vJpyURG13txxNBgsyd9MTYEDmHjrk3ouIDc6Bsse96dINpE3IeYMMwDPU6Afj3ygBPrtu1RuXtbG2HBAzoSBDzy6U35BObCkPaSeoqXN70y",
+              "received": true
+            }
+          ],
+          "total_price": 79634,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Reaganborough",
+              "street": "Delpha Park",
+              "house": 50,
+              "flat": 640
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:50.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "697e821f1c508c5d5ec0cc02",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc3c",
+              "name": "Chips8188",
+              "amount": 864,
+              "price": 79634,
+              "manufacturer": "Sony",
+              "notes": "J453r84NJwlpqXsfqdE3fHKmCTCwlzkfxlMgq9qjehQrXOt9hkeqVQt3LOeGpJptGpSdRRqGnideN8HeIuQgX2ut0YIvHQbUqen20jJH0pddspY6We1LIXWPtmi5bduu1TXF7yCA6K6Nmr1vJpyURG13txxNBgsyd9MTYEDmHjrk3ouIDc6Bsse96dINpE3IeYMMwDPU6Afj3ygBPrtu1RuXtbG2HBAzoSBDzy6U35BObCkPaSeoqXN70y",
+              "received": false
+            }
+          ],
+          "total_price": 79634,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Reaganborough",
+              "street": "Delpha Park",
+              "house": 50,
+              "flat": 640
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e821f1c508c5d5ec0cc02",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc3c",
+              "name": "Chips8188",
+              "amount": 864,
+              "price": 79634,
+              "manufacturer": "Sony",
+              "notes": "J453r84NJwlpqXsfqdE3fHKmCTCwlzkfxlMgq9qjehQrXOt9hkeqVQt3LOeGpJptGpSdRRqGnideN8HeIuQgX2ut0YIvHQbUqen20jJH0pddspY6We1LIXWPtmi5bduu1TXF7yCA6K6Nmr1vJpyURG13txxNBgsyd9MTYEDmHjrk3ouIDc6Bsse96dINpE3IeYMMwDPU6Afj3ygBPrtu1RuXtbG2HBAzoSBDzy6U35BObCkPaSeoqXN70y",
+              "received": false
+            }
+          ],
+          "total_price": 79634,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Reaganborough",
+              "street": "Delpha Park",
+              "house": 50,
+              "flat": 640
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-31T22:28:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697e821f1c508c5d5ec0cc02",
+          "products": [
+            {
+              "_id": "697e821f1c508c5d5ec0cc3c",
+              "name": "Chips8188",
+              "amount": 864,
+              "price": 79634,
+              "manufacturer": "Sony",
+              "notes": "J453r84NJwlpqXsfqdE3fHKmCTCwlzkfxlMgq9qjehQrXOt9hkeqVQt3LOeGpJptGpSdRRqGnideN8HeIuQgX2ut0YIvHQbUqen20jJH0pddspY6We1LIXWPtmi5bduu1TXF7yCA6K6Nmr1vJpyURG13txxNBgsyd9MTYEDmHjrk3ouIDc6Bsse96dINpE3IeYMMwDPU6Afj3ygBPrtu1RuXtbG2HBAzoSBDzy6U35BObCkPaSeoqXN70y",
+              "received": false
+            }
+          ],
+          "total_price": 79634,
+          "delivery": null,
+          "changedOn": "2026-01-31T22:28:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
