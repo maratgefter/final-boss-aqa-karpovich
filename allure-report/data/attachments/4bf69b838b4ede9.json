@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-e1f9g0wAukk4WURVc4zJYnNbXW4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4251c508c5d5ec16633",
+        "email": "Osborne88@gmail.com",
+        "name": "Eugenia Walter",
+        "country": "Belarus",
+        "city": "Lake Samport",
+        "street": "Stoltenberg Pine",
+        "house": 18,
+        "flat": 67,
+        "phone": "+14177890886",
+        "createdOn": "2026-02-01T22:31:01.000Z",
+        "notes": "QCxYHhNw6yF0XibNEWBRWqVnKiyPIlM7BHOO1GDGn4kFMtpexEhXIDHzWDlEwxuRdGSk8h3yvti7FGZ9YR1URIYvsHVBmUPeqkFINV7YguBHuCk26mnYwys44q9592IltEfFYaQ6tJvGk1jzCPaDWajNcEKiRuuXjpMvcTjp41MYOJuIpWV8JFdEmVdZ9z2mAzyjXwMmWI6DrEmKH4ArJrhor1A0SR8M8NF58Y3AGSnye4CYUQKp3rm47L"
+      },
+      "products": [
+        {
+          "_id": "697fd4251c508c5d5ec16644",
+          "name": "Shoes80212",
+          "amount": 917,
+          "price": 35755,
+          "manufacturer": "Apple",
+          "notes": "s0CDQYn5ZrNLtayfw9krdBMiEzTDVqP8sN3MXjWirnOYW0MGO42s4tvsKvC7xgjDuSVEFGpF9F2k9k8dH1LoY40ZTDiClnUDjmG966PjCtTA5xh82yO03xw0VuNNOW6N15CIyKEilvAAfweMckBWlL2qndQykhrWN9EjubHwy5inxIQ5GiT6jhpWgZNiw9t3FDUf3pkmFkl0sFBQu6xQYcaCRwViGonO1M2yfnhw3p9e0Bmi9LUlQeSHfC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35755,
+      "createdOn": "2026-02-01T22:31:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4251c508c5d5ec16633",
+          "products": [
+            {
+              "_id": "697fd4251c508c5d5ec16644",
+              "name": "Shoes80212",
+              "amount": 917,
+              "price": 35755,
+              "manufacturer": "Apple",
+              "notes": "s0CDQYn5ZrNLtayfw9krdBMiEzTDVqP8sN3MXjWirnOYW0MGO42s4tvsKvC7xgjDuSVEFGpF9F2k9k8dH1LoY40ZTDiClnUDjmG966PjCtTA5xh82yO03xw0VuNNOW6N15CIyKEilvAAfweMckBWlL2qndQykhrWN9EjubHwy5inxIQ5GiT6jhpWgZNiw9t3FDUf3pkmFkl0sFBQu6xQYcaCRwViGonO1M2yfnhw3p9e0Bmi9LUlQeSHfC",
+              "received": false
+            }
+          ],
+          "total_price": 35755,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4251c508c5d5ec16667"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

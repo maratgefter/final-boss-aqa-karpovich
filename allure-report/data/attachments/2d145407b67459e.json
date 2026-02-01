@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1872",
+    "etag": "W/\"750-VeT8LTiIaJVzC9cFNuZrxpwOiIU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4241c508c5d5ec165bd",
+        "email": "Garrick7@hotmail.com",
+        "name": "Dexter Feeney",
+        "country": "Russia",
+        "city": "East Fredy",
+        "street": "East Street",
+        "house": 37,
+        "flat": 80,
+        "phone": "+18644540860",
+        "createdOn": "2026-02-01T22:31:00.000Z",
+        "notes": "N1BPUaxQSm2Vk2x5GXEfARAjKToW8jLJW7rCK98hfgt7nCG4ZLxj6uMq1JevuKFtpOfpGIjP7gAE3llPxlFyXurU0iPu7kNO1kOmkG6bpI225TTaOGWB1PBnVT2IXPcNz8JegMw8rNSLSjr0wXo7whW5vJotfOrT83bEAYLCNEZ6V6Pl2RdCRKCb4PVid0Ei3jfP18XXdQEkmlUG9X6LorlGsg6TG8gfpGt9ZmNBt1P2LasPtjCocElNTK"
+      },
+      "products": [
+        {
+          "_id": "697fd4241c508c5d5ec165ec",
+          "name": "Hat95882",
+          "amount": 589,
+          "price": 93539,
+          "manufacturer": "Google",
+          "notes": "5vQt3lZyrmc2MARFqB6oBoqrKOWRFmW1TgeyMMBpl7m1O9ked4lNBDTvDohW7du02vocQiUTp0Ni9Giu6E9gV5MIwfEllkWWhQrXlAmTxcSQl1iE6RYDemhOixBZD35MANjrXtWfeG9Jy2x17YPToptyL7oLZf92ujQ6jszPns5l1nttXhJA1Dh7ynDrmfYHtdZuFOOgLn0l11EIcFAlKu3Rnrsw4dUWjTb24h1AZpYtxQBJf9pdbLjvua",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93539,
+      "createdOn": "2026-02-01T22:31:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4241c508c5d5ec165bd",
+          "products": [
+            {
+              "_id": "697fd4241c508c5d5ec165ec",
+              "name": "Hat95882",
+              "amount": 589,
+              "price": 93539,
+              "manufacturer": "Google",
+              "notes": "5vQt3lZyrmc2MARFqB6oBoqrKOWRFmW1TgeyMMBpl7m1O9ked4lNBDTvDohW7du02vocQiUTp0Ni9Giu6E9gV5MIwfEllkWWhQrXlAmTxcSQl1iE6RYDemhOixBZD35MANjrXtWfeG9Jy2x17YPToptyL7oLZf92ujQ6jszPns5l1nttXhJA1Dh7ynDrmfYHtdZuFOOgLn0l11EIcFAlKu3Rnrsw4dUWjTb24h1AZpYtxQBJf9pdbLjvua",
+              "received": false
+            }
+          ],
+          "total_price": 93539,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4241c508c5d5ec165fb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

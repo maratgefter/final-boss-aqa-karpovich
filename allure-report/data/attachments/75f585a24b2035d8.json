@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-RcM9SJu9bqZxMeUSqGUzJ3SNsDU\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd42a1c508c5d5ec1687c",
+        "email": "Ayla.Denesik@yahoo.com",
+        "name": "Kattie Lueilwitz",
+        "country": "Germany",
+        "city": "Maceymouth",
+        "street": "Smith Parks",
+        "house": 13,
+        "flat": 809,
+        "phone": "+19489725936",
+        "createdOn": "2026-02-01T22:31:06.000Z",
+        "notes": "P5POkPvx39SAMSZMtPRWdKSzBBGdYQmh8Te0BAzpoWGeDx5fCpDtvXqfnQk4sChIlzjJSguMtxadosU1ZRSlFtdybr6pjK9h9q8k2SXPVoY6X0GlLAuMf4Y6tufgURga6k0g9uwBuRXFdjfKhuUU22MpqlpXjbpVRiBQO8SIO35o2U4TolHjvekH5rq8PkYpXRzzrg8bJ0MUdkKDB7E7yWR76N6joCfbFj09As73v2uJ0RSFbTLhJAeEvt"
+      },
+      "products": [
+        {
+          "_id": "697fd42a1c508c5d5ec1689d",
+          "name": "Computer25753",
+          "amount": 454,
+          "price": 96446,
+          "manufacturer": "Xiaomi",
+          "notes": "nFJ4050ZqCfIafnHop9uTORlv2LA17qmTea4p84Ufkwv2nhxTvG249DGHqETR68enoZOUbsyXXiHLzpDlAo4qSF70OmwiV6eHZYvkhFBd0DH8ENDjkW5Xx6sHTnLQNBMVyiWRXqto5EDNjdZYasbI8xi1uHSVRCF1aGYOzgE1Wzd0XbyGEA4f3UpBAoREm3hiythVKMNBzSsWH7Uf2TQSXbcZiTnNExvEaIK7sqQ3m3uzy3vVqVprIFmxv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96446,
+      "createdOn": "2026-02-01T22:31:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd42a1c508c5d5ec1687c",
+          "products": [
+            {
+              "_id": "697fd42a1c508c5d5ec1689d",
+              "name": "Computer25753",
+              "amount": 454,
+              "price": 96446,
+              "manufacturer": "Xiaomi",
+              "notes": "nFJ4050ZqCfIafnHop9uTORlv2LA17qmTea4p84Ufkwv2nhxTvG249DGHqETR68enoZOUbsyXXiHLzpDlAo4qSF70OmwiV6eHZYvkhFBd0DH8ENDjkW5Xx6sHTnLQNBMVyiWRXqto5EDNjdZYasbI8xi1uHSVRCF1aGYOzgE1Wzd0XbyGEA4f3UpBAoREm3hiythVKMNBzSsWH7Uf2TQSXbcZiTnNExvEaIK7sqQ3m3uzy3vVqVprIFmxv",
+              "received": false
+            }
+          ],
+          "total_price": 96446,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd42a1c508c5d5ec168cc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

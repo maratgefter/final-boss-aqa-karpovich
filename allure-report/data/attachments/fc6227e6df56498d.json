@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:30:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2627",
+    "etag": "W/\"a43-CNpWTWSS6g9G+XyqSfJah3vpXHg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4211c508c5d5ec16477",
+        "email": "Adan16@yahoo.com",
+        "name": "Columbus Veum",
+        "country": "USA",
+        "city": "Parma",
+        "street": "Shayne Fort",
+        "house": 40,
+        "flat": 732,
+        "phone": "+15629443316",
+        "createdOn": "2026-02-01T22:30:57.000Z",
+        "notes": "OGyTxaXZLUmVO1qVPJ4ll5xSaRoRzztum2ATerTkGciwxejOJd5NJql6j5NHJiqqAXZOibdaJdnOIdWT2uxFMEu2qUvlP8NtrTaTj7POer32e3uItZJEebXrGH5VFvl6m7VjAu6ULnnuxBdlUxBp9x1WChcyJn97XBRzfiRRlrljeKMBhi4eEwIBW11ryPE5Nl5BBdBXwr4EXqOELh5vp2MOBAgZtSQP0gTbXc3MkPJbJ7v5BOfw03PZSg"
+      },
+      "products": [
+        {
+          "_id": "697fd4211c508c5d5ec1649f",
+          "name": "Chicken54330",
+          "amount": 437,
+          "price": 7085,
+          "manufacturer": "Sony",
+          "notes": "t54WJqhy8ledXX4sN8Oqthm95u7D0Py0BIQZDMtDi6OC2RcajY4dZQDbE51cmT02Pj8pY2iEj7zky9NCRAH0DYBY6JFK2daAdGWslNfo9I1RaFM1tlcNzSVMEcfDygxMx0lGezNSvpoH5phbjt0OnvZIvGEo7FFPyW3LapniRzF3BSGy8VPlUkGBxAySVrO23N0O4NctNAuJGDYf3tpfFBn5d50rLmL11cze1Nougv5lbMeCD5KzxnqWNP",
+          "received": false
+        },
+        {
+          "_id": "697fd4211c508c5d5ec164c7",
+          "name": "Fish96021",
+          "amount": 466,
+          "price": 88719,
+          "manufacturer": "Tesla",
+          "notes": "9pZHb56OebYeDwTpdc2io9vQNgupBSuKSy19ovz0UKppoocAUqSELmM9F5OCDF647aJaNAR3fo72bSBXscglXQuvb6cyQkyRTSQk7pHA3Zvy1y0KowLQTJKceHCaOZL5OSz0rLdq5fByhXwKN5Lit3V9mxk7z7vf8WMCocU2lqShI5cV3fkxo1Gh7hOl3gpUvDUI2Is3Wy5oWDKymEUzVmFXhjZascVwOeVRm98FRxI2sYQDwBrlbpCkwB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95804,
+      "createdOn": "2026-02-01T22:30:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4211c508c5d5ec16477",
+          "products": [
+            {
+              "_id": "697fd4211c508c5d5ec1649f",
+              "name": "Chicken54330",
+              "amount": 437,
+              "price": 7085,
+              "manufacturer": "Sony",
+              "notes": "t54WJqhy8ledXX4sN8Oqthm95u7D0Py0BIQZDMtDi6OC2RcajY4dZQDbE51cmT02Pj8pY2iEj7zky9NCRAH0DYBY6JFK2daAdGWslNfo9I1RaFM1tlcNzSVMEcfDygxMx0lGezNSvpoH5phbjt0OnvZIvGEo7FFPyW3LapniRzF3BSGy8VPlUkGBxAySVrO23N0O4NctNAuJGDYf3tpfFBn5d50rLmL11cze1Nougv5lbMeCD5KzxnqWNP",
+              "received": false
+            },
+            {
+              "_id": "697fd4211c508c5d5ec164c7",
+              "name": "Fish96021",
+              "amount": 466,
+              "price": 88719,
+              "manufacturer": "Tesla",
+              "notes": "9pZHb56OebYeDwTpdc2io9vQNgupBSuKSy19ovz0UKppoocAUqSELmM9F5OCDF647aJaNAR3fo72bSBXscglXQuvb6cyQkyRTSQk7pHA3Zvy1y0KowLQTJKceHCaOZL5OSz0rLdq5fByhXwKN5Lit3V9mxk7z7vf8WMCocU2lqShI5cV3fkxo1Gh7hOl3gpUvDUI2Is3Wy5oWDKymEUzVmFXhjZascVwOeVRm98FRxI2sYQDwBrlbpCkwB",
+              "received": false
+            }
+          ],
+          "total_price": 95804,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:30:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4221c508c5d5ec164ef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

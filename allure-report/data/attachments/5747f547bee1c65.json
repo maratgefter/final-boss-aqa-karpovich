@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:30:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-uMyn84JTSYzex3a+tU3d3Rr8Jq4\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd41d1c508c5d5ec162e9",
+        "email": "Merle.Schmidt36@hotmail.com",
+        "name": "Lon Leffler",
+        "country": "Russia",
+        "city": "Port Conner",
+        "street": "Spruce Street",
+        "house": 12,
+        "flat": 713,
+        "phone": "+19333017880",
+        "createdOn": "2026-02-01T22:30:53.000Z",
+        "notes": "lg9SjOMdvtjewpxiqMZxsnq6yWHUEcsqJO65VfZM7hahZMP8nknpXPJ7LcqgWYkY9hNHhVJu6doCJ7sgTM9RgRtNZO6PIG2MwhJXiLcr2rx3axaqFCiHqCx75sQCPwphU156KyV91dIZ5h4dlIRu0Td010ISHjOGhBR0CLDtMKiwna4078MBFzKk0t4C8rUICC8atK9wbvo6NEGhUX05J4m0FOzZLiehZPdDRIW7SIt0NR1bTP4yY6lkTT"
+      },
+      "products": [
+        {
+          "_id": "697fd41e1c508c5d5ec1630c",
+          "name": "Computer84863",
+          "amount": 379,
+          "price": 24725,
+          "manufacturer": "Apple",
+          "notes": "3HnxflIjNLBUbrwlHUgCPqnjeFrSmOksmYDPCFz4eZYBtakiIMg2z3FVFvoictlOMaxnU0y0nnfUIO85SVCvAwL8loIoh6G28RBNcLnTjKKyfkqZe9gw7epFtkIcfO6Q0afvWZl2VB2aLqZbGrJR2zHMWuC91v5GfAc6vQL9zAplYvnQVQS175KN0apXoX7ZL2TGy3BCbJc8JzgdiL4pDJp7sPMEofBx4EXCCChx8g3AY0X7ACyHSf5rsF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24725,
+      "createdOn": "2026-02-01T22:30:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd41d1c508c5d5ec162e9",
+          "products": [
+            {
+              "_id": "697fd41e1c508c5d5ec1630c",
+              "name": "Computer84863",
+              "amount": 379,
+              "price": 24725,
+              "manufacturer": "Apple",
+              "notes": "3HnxflIjNLBUbrwlHUgCPqnjeFrSmOksmYDPCFz4eZYBtakiIMg2z3FVFvoictlOMaxnU0y0nnfUIO85SVCvAwL8loIoh6G28RBNcLnTjKKyfkqZe9gw7epFtkIcfO6Q0afvWZl2VB2aLqZbGrJR2zHMWuC91v5GfAc6vQL9zAplYvnQVQS175KN0apXoX7ZL2TGy3BCbJc8JzgdiL4pDJp7sPMEofBx4EXCCChx8g3AY0X7ACyHSf5rsF",
+              "received": false
+            }
+          ],
+          "total_price": 24725,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:30:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd41e1c508c5d5ec1632b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-GrOsA8Z5vRhRNClNyXebQRYO87w\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4361c508c5d5ec16e92",
+        "email": "Lucinda.Green18@gmail.com",
+        "name": "Murphy Luettgen",
+        "country": "Canada",
+        "city": "Steuberborough",
+        "street": "Elliott Points",
+        "house": 23,
+        "flat": 474,
+        "phone": "+12746807473",
+        "createdOn": "2026-02-01T22:31:18.000Z",
+        "notes": "mk7UxugQUI4JfLqQJzf3Nz8eRH79NzkH29NhX6HsbfKeolhclRhstPKPAKXqgb3p8jb5ltu4pkIGI9jwPUvVwKGLLRoMEl4wL440Si1ifPuKUEybx9C2J3nugc2kFVnSKfUgWrDM8siHCPKzvstknGTH1CxmsmVt3AgCDsFTJH1bTjscGE17j2Arpx11qj4UwY7MC3LgcpCBEOTyN9lHKDLGrvKrTmu3kEtvXgMUci4Phyt1CaY6jaWli4"
+      },
+      "products": [
+        {
+          "_id": "697fd4371c508c5d5ec16ecc",
+          "name": "Bacon39023",
+          "amount": 619,
+          "price": 70346,
+          "manufacturer": "Xiaomi",
+          "notes": "JRBRx2wNXiq1U8LK3lS0OYXmGgd8m7rurgmrBxsYI53fbmuwdHDRhMaI1feznZnPiKxWAGoaGPP6PeePTVpTuPBlxUrcIBleW6xHKvhroHXi6OLfHKpW7jsjXGBe0jFWcVoL65h0ckWvZbMkETaI5aObNRdlmsxpTVYmebSFXJe7B9gPD8XN9zae7ANboluNglLOBpt2BboliDNZT2fSaxZfyUYCxsca9hlymfDJTbydxN7F3oAp99B4dA",
+          "received": false
+        },
+        {
+          "_id": "697fd4371c508c5d5ec16ef5",
+          "name": "Pizza87343",
+          "amount": 956,
+          "price": 74929,
+          "manufacturer": "Amazon",
+          "notes": "0tqj9tknFi0vJock1gpntnqogMKBYJdBIzeTkARqdfACmgaeQCLYqoUUB3R9qgUS3VNWevuGXyI0rEyghu9IgM190ax1Tsg2CXPfx2m76U0pTRRuNyniBokYJKgDyw7HrFjT9zqyhxCWvFO2AbLUWSWAZ6w7wuinTOfvGU5sULlDe2KvD0B0D9sJ6Kx9uuz0ZO8IBq7fGDGeMy30V7jKVtrN1rRgMgAUrWD8efTVYRHI664uN3k4cLCuug",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 145275,
+      "createdOn": "2026-02-01T22:31:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4361c508c5d5ec16e92",
+          "products": [
+            {
+              "_id": "697fd4371c508c5d5ec16ecc",
+              "name": "Bacon39023",
+              "amount": 619,
+              "price": 70346,
+              "manufacturer": "Xiaomi",
+              "notes": "JRBRx2wNXiq1U8LK3lS0OYXmGgd8m7rurgmrBxsYI53fbmuwdHDRhMaI1feznZnPiKxWAGoaGPP6PeePTVpTuPBlxUrcIBleW6xHKvhroHXi6OLfHKpW7jsjXGBe0jFWcVoL65h0ckWvZbMkETaI5aObNRdlmsxpTVYmebSFXJe7B9gPD8XN9zae7ANboluNglLOBpt2BboliDNZT2fSaxZfyUYCxsca9hlymfDJTbydxN7F3oAp99B4dA",
+              "received": false
+            },
+            {
+              "_id": "697fd4371c508c5d5ec16ef5",
+              "name": "Pizza87343",
+              "amount": 956,
+              "price": 74929,
+              "manufacturer": "Amazon",
+              "notes": "0tqj9tknFi0vJock1gpntnqogMKBYJdBIzeTkARqdfACmgaeQCLYqoUUB3R9qgUS3VNWevuGXyI0rEyghu9IgM190ax1Tsg2CXPfx2m76U0pTRRuNyniBokYJKgDyw7HrFjT9zqyhxCWvFO2AbLUWSWAZ6w7wuinTOfvGU5sULlDe2KvD0B0D9sJ6Kx9uuz0ZO8IBq7fGDGeMy30V7jKVtrN1rRgMgAUrWD8efTVYRHI664uN3k4cLCuug",
+              "received": false
+            }
+          ],
+          "total_price": 145275,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4381c508c5d5ec16f2c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

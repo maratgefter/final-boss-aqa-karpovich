@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-f6SXsJrglXxd2bqUJ//+YQEeMGQ\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4301c508c5d5ec16b81",
+        "email": "Estella_Hammes24@yahoo.com",
+        "name": "Ryley Wolf",
+        "country": "Russia",
+        "city": "Keshaunberg",
+        "street": "Cremin Crescent",
+        "house": 23,
+        "flat": 961,
+        "phone": "+12003406461",
+        "createdOn": "2026-02-01T22:31:12.000Z",
+        "notes": "i69ujq8BbpzKNiwyOROO756phxIlF8swrRJOzoAOSR6P9h9FgT1SUVHzSdoEVAQUbM63aKOy3PndkxYS6yOioYlQkQ9ikesWa1qT1mlQgg2cHQkV3TiJozLTSks8Ainc8GwuZEM5sVx2RGhTMc7ifK22qdVKKqvaYMd8ZrdbHxjlhGQnNOlkWu3pLYa34unWEs2k8ID4oYb2Z6qUK1gMZkoZwJU9QM68pragPVbNKklWQBsmzc81OxZoXf"
+      },
+      "products": [
+        {
+          "_id": "697fd4301c508c5d5ec16bb3",
+          "name": "Shirt77178",
+          "amount": 744,
+          "price": 69034,
+          "manufacturer": "Google",
+          "notes": "x2u5DB9hy3QmZoH3nnc1noBdhRC27yxkuumtzD1drVdfsubwdAJHrjcz3xiMfLYx8WarK5WvBphVV3vDODfCbfVmF9hG14fk1IS3zFzyhsu0RI2U3mP2tnxpTaQ6tZ7pKQffVoxFrty8wNBK7OnFoo37HOp4VCrNyphQu0a0aVvhvrNOScycOzu9xBMrUgWR3SPwIM6zSv3niWFtABTB7NxOUuRCzAwV6tmCmIiWGQs2436cEQQWcD3VUD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69034,
+      "createdOn": "2026-02-01T22:31:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4301c508c5d5ec16b81",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bb3",
+              "name": "Shirt77178",
+              "amount": 744,
+              "price": 69034,
+              "manufacturer": "Google",
+              "notes": "x2u5DB9hy3QmZoH3nnc1noBdhRC27yxkuumtzD1drVdfsubwdAJHrjcz3xiMfLYx8WarK5WvBphVV3vDODfCbfVmF9hG14fk1IS3zFzyhsu0RI2U3mP2tnxpTaQ6tZ7pKQffVoxFrty8wNBK7OnFoo37HOp4VCrNyphQu0a0aVvhvrNOScycOzu9xBMrUgWR3SPwIM6zSv3niWFtABTB7NxOUuRCzAwV6tmCmIiWGQs2436cEQQWcD3VUD",
+              "received": false
+            }
+          ],
+          "total_price": 69034,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4301c508c5d5ec16bdd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

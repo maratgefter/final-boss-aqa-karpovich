@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3443",
+    "etag": "W/\"d73-ArqIhjwX+C4vzS4KbJez79up2IA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4471c508c5d5ec177b9",
+        "email": "Charles13@yahoo.com",
+        "name": "Aurelio Hudson",
+        "country": "Great Britain",
+        "city": "Willburgh",
+        "street": "E Central Avenue",
+        "house": 5,
+        "flat": 626,
+        "phone": "+17047241327",
+        "createdOn": "2026-02-01T22:31:35.000Z",
+        "notes": "gtAasVckeDZutBzytd8aybEmu4S0wo6Hsf3NOBg5qWLIwaLDREWXEr1weRb09mLLpQOhID4cKPngdwIoXTu5Hcml9gabe621QwqfdZwiILenfBvlJwp68DpzVYUvMDvYcHSVYLGiTcs2uRhZxuDSssDY5Q9sWYptiSSTcS1hQxZSTCXPjVOlxJ13b5sLi0yiXbmHklTXtkXRUMVo6u0s34ZIUSavulIbg7WMcA7ooGhULYgJil00P0aHIB"
+      },
+      "products": [
+        {
+          "_id": "697fd4481c508c5d5ec177da",
+          "name": "Towels49935",
+          "amount": 269,
+          "price": 75824,
+          "manufacturer": "Microsoft",
+          "notes": "zY0hGcdxFgbGj0oWBxFK8GbjLbN8tS1iRs6DIWepQ29TEwvCLIfyxeGEvOtGUL0ckAek6TwOdkuzNLiGQ8MlGdxxzozegKB8p3p4bc0TKgAjMpgn1iznroYnO5eroUF1nNxjhH0cOk6c3PPxZPi1yb1LUCA8If63c2nqtRCg1Gq4QaHlt2ULOs3IC1XUp3Ag86BkFsQYCta9ZXs4hOdoN5YmVRdJjudgG0N1WKsTFynX9exmFXGRznByZJ",
+          "received": false
+        },
+        {
+          "_id": "697fd4481c508c5d5ec177f2",
+          "name": "Sausages12614",
+          "amount": 725,
+          "price": 41822,
+          "manufacturer": "Tesla",
+          "notes": "LKhrfJqETZn0ipDOvf9QxmHcbSl5yoTa636joT1S3w4a4fjDTvGwilNGvaJ7AnSByBOksyAZG45qR2dJivMquLsp0MXLclG4mXVuIclIbPOm3nx7eVRvC3DHCqcDMIDhS6pITZs78VbuWz8Z1NLazLut0WEhae5XKuxKf2G17YzvjEqitsdKDRUWSmHzuYYJl5R64ndWaMLiiAgQoTNn9TzufLpYHBWG3x11PIVxIiJjwYEJDV5BDX5rd5",
+          "received": false
+        },
+        {
+          "_id": "697fd4491c508c5d5ec1784a",
+          "name": "Chair90421",
+          "amount": 726,
+          "price": 68615,
+          "manufacturer": "Microsoft",
+          "notes": "y2LHx8X0a4vmlLIwJodcr8mwPde6KfPUFmVnAdMuh6tD7jQuIHN4FeZp19UEusIxmpUUI2o6occau2R7lVNCK2KQH7p0H63BnbyediLDFwWOC3Ti1kRsDNxm3d0g0NNUzQLlYZElNCrtbMxoRCOGoopb5xbKrUelt4IZSYNPg0oYJEbLLGsCv9t9lUuSHc47fLb2JeiFrFOcbECZbZAMSH2rqvB4oEM6zWSw0TqD95N1ESmf1pdoTDCgq6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 186261,
+      "createdOn": "2026-02-01T22:31:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4471c508c5d5ec177b9",
+          "products": [
+            {
+              "_id": "697fd4481c508c5d5ec177da",
+              "name": "Towels49935",
+              "amount": 269,
+              "price": 75824,
+              "manufacturer": "Microsoft",
+              "notes": "zY0hGcdxFgbGj0oWBxFK8GbjLbN8tS1iRs6DIWepQ29TEwvCLIfyxeGEvOtGUL0ckAek6TwOdkuzNLiGQ8MlGdxxzozegKB8p3p4bc0TKgAjMpgn1iznroYnO5eroUF1nNxjhH0cOk6c3PPxZPi1yb1LUCA8If63c2nqtRCg1Gq4QaHlt2ULOs3IC1XUp3Ag86BkFsQYCta9ZXs4hOdoN5YmVRdJjudgG0N1WKsTFynX9exmFXGRznByZJ",
+              "received": false
+            },
+            {
+              "_id": "697fd4481c508c5d5ec177f2",
+              "name": "Sausages12614",
+              "amount": 725,
+              "price": 41822,
+              "manufacturer": "Tesla",
+              "notes": "LKhrfJqETZn0ipDOvf9QxmHcbSl5yoTa636joT1S3w4a4fjDTvGwilNGvaJ7AnSByBOksyAZG45qR2dJivMquLsp0MXLclG4mXVuIclIbPOm3nx7eVRvC3DHCqcDMIDhS6pITZs78VbuWz8Z1NLazLut0WEhae5XKuxKf2G17YzvjEqitsdKDRUWSmHzuYYJl5R64ndWaMLiiAgQoTNn9TzufLpYHBWG3x11PIVxIiJjwYEJDV5BDX5rd5",
+              "received": false
+            },
+            {
+              "_id": "697fd4491c508c5d5ec1784a",
+              "name": "Chair90421",
+              "amount": 726,
+              "price": 68615,
+              "manufacturer": "Microsoft",
+              "notes": "y2LHx8X0a4vmlLIwJodcr8mwPde6KfPUFmVnAdMuh6tD7jQuIHN4FeZp19UEusIxmpUUI2o6occau2R7lVNCK2KQH7p0H63BnbyediLDFwWOC3Ti1kRsDNxm3d0g0NNUzQLlYZElNCrtbMxoRCOGoopb5xbKrUelt4IZSYNPg0oYJEbLLGsCv9t9lUuSHc47fLb2JeiFrFOcbECZbZAMSH2rqvB4oEM6zWSw0TqD95N1ESmf1pdoTDCgq6",
+              "received": false
+            }
+          ],
+          "total_price": 186261,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4491c508c5d5ec178a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

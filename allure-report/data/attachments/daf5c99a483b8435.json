@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-UmJhihQFpOKAHuSMDzx3a05GZRg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd42b1c508c5d5ec16903",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd42a1c508c5d5ec16893",
+        "email": "Jo.Will@hotmail.com",
+        "name": "Vivianne Wisozk",
+        "country": "Russia",
+        "city": "Mooreshire",
+        "street": "Harmony Lock",
+        "house": 1,
+        "flat": 919,
+        "phone": "+14676222565",
+        "createdOn": "2026-02-01T22:31:06.000Z",
+        "notes": "Achm3LOSZTiOHviZeLIYShB8dh4MQ6CCPk1QrHdeay2yP0MdxrxcPcGfBQYShr73JrOyQGTAPBeN3Gi2YgTAaY1CohxruS0LmuyVT46Xyu5QQgnVN2HB17l9Y2v1HwfP2vmngs0uCLmUOfIfRnQLDpri8FqAddauyxYMTioWNBtL3OtnedFXlHDr6ZFVUhuBMSUB492XJBemeqGlla75WI4mSq2CFicMvJh3O7ExGdoefAEW4sabQIP7Pn"
+      },
+      "products": [
+        {
+          "_id": "697fd42a1c508c5d5ec168bc",
+          "name": "Fish62712",
+          "amount": 839,
+          "price": 99529,
+          "manufacturer": "Apple",
+          "notes": "mMVKuoyBTuuxUOhQTqiHJO3wHjeKgj179de9mgqBchEOfbEralV93uftFBGzJ5UAjLr2LiablXaK6mwwRy2u3sM5m7bztzCD3qrcbWuDGvUV4RyBRCGCUSxr273KnaQx3l18zBEBl6CORRspwESzLJrGPkqvWPgN7pSNevSnB0qsuhb71h2F6zu67yxDA1aD7R0efUy1RIMqJF00je1jZbKglnypAazqUEm4OTIeCIhBxaWA69Q4IW5BbS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99529,
+      "createdOn": "2026-02-01T22:31:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd42a1c508c5d5ec16893",
+          "products": [
+            {
+              "_id": "697fd42a1c508c5d5ec168bc",
+              "name": "Fish62712",
+              "amount": 839,
+              "price": 99529,
+              "manufacturer": "Apple",
+              "notes": "mMVKuoyBTuuxUOhQTqiHJO3wHjeKgj179de9mgqBchEOfbEralV93uftFBGzJ5UAjLr2LiablXaK6mwwRy2u3sM5m7bztzCD3qrcbWuDGvUV4RyBRCGCUSxr273KnaQx3l18zBEBl6CORRspwESzLJrGPkqvWPgN7pSNevSnB0qsuhb71h2F6zu67yxDA1aD7R0efUy1RIMqJF00je1jZbKglnypAazqUEm4OTIeCIhBxaWA69Q4IW5BbS",
+              "received": false
+            }
+          ],
+          "total_price": 99529,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

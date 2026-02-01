@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:30:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2747",
+    "etag": "W/\"abb-cEm70VQw1hD80z+kj+CPavo+JKY\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4201c508c5d5ec1642a",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd41f1c508c5d5ec163d7",
+        "email": "Candida_Beer@gmail.com",
+        "name": "Muhammad Franecki",
+        "country": "Canada",
+        "city": "New Anissaboro",
+        "street": "Brook Lane",
+        "house": 3,
+        "flat": 983,
+        "phone": "+12695181221",
+        "createdOn": "2026-02-01T22:30:55.000Z",
+        "notes": "6bMzJ9aPlqMmX9mPXOLgtx9skiMeONTapdPbCDNzLoM4yGtPv862PxPnkrb8jvLtZQzRiNosZ1pZycfTk7qRKNGIopmgsAJRZwZUg8y6S0G6qIRxgeSF5qb7f7oYTsji4OqyQe8495AET1n6Otpi1pi1qvoeB5rVPkh1MHJmLibSL4gUT8EEvqgCY7lufj2Wc8pFK3TNsGSm4yxbgY7XjGt9eSCUP9RFCsprYaRLf4hjsiDvUVG2vEMTN1"
+      },
+      "products": [
+        {
+          "_id": "697fd4201c508c5d5ec163f2",
+          "name": "Towels49865",
+          "amount": 318,
+          "price": 56273,
+          "manufacturer": "Xiaomi",
+          "notes": "yIANuKtRxAvkl3zTSwv6g7elgoJks7eOcvbOp4DaRhT6DzKoyiyWZiRxW1qkgc0FE5tb0Gaghm74w3x53YsO5mpfoHtGwhB6D5eiTvxDEb2eN3ZCa7G9GqpZ6ZTyl1R0OH41COTW6rgHE242C2JmHU0NuhmfrwvIGR26OE5FBpjWIEm3vG10nBSiByQ6T3hIxBd0yTWB1C4MmqYizOJx17DoxIc2tEvORntLr6xRYBED06WUHvidSoX0pB",
+          "received": false
+        },
+        {
+          "_id": "697fd4201c508c5d5ec1640c",
+          "name": "Keyboard47636",
+          "amount": 103,
+          "price": 89851,
+          "manufacturer": "Google",
+          "notes": "hhJY7ePqrK8xbmr3XA0hyr8xUTSz0qo0a5APhqzDkup5W7IRavCH38C0JX8GIng7pSg9PPxs4MgJ6q1GQ2sIRtuacf5Vq0SjN1TgJrPzqm7mfS3T4BJKyJgzuAOvsmuvumVhwvQR5SL2pClT2BvDV7d68eFy5hOrJ4RNjXgdMLKgUz32DxbLr5XtNI3bsW49SWTyEPRqzCLqYRxyVVzEUu2tbLcm6shIFBVGbUr8wgHrZfT9FuI8RaadST",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 146124,
+      "createdOn": "2026-02-01T22:30:56.000Z",
+      "comments": [
+        {
+          "text": "J",
+          "createdOn": "2026-02-01T22:30:57.000Z",
+          "_id": "697fd4211c508c5d5ec1646b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd41f1c508c5d5ec163d7",
+          "products": [
+            {
+              "_id": "697fd4201c508c5d5ec163f2",
+              "name": "Towels49865",
+              "amount": 318,
+              "price": 56273,
+              "manufacturer": "Xiaomi",
+              "notes": "yIANuKtRxAvkl3zTSwv6g7elgoJks7eOcvbOp4DaRhT6DzKoyiyWZiRxW1qkgc0FE5tb0Gaghm74w3x53YsO5mpfoHtGwhB6D5eiTvxDEb2eN3ZCa7G9GqpZ6ZTyl1R0OH41COTW6rgHE242C2JmHU0NuhmfrwvIGR26OE5FBpjWIEm3vG10nBSiByQ6T3hIxBd0yTWB1C4MmqYizOJx17DoxIc2tEvORntLr6xRYBED06WUHvidSoX0pB",
+              "received": false
+            },
+            {
+              "_id": "697fd4201c508c5d5ec1640c",
+              "name": "Keyboard47636",
+              "amount": 103,
+              "price": 89851,
+              "manufacturer": "Google",
+              "notes": "hhJY7ePqrK8xbmr3XA0hyr8xUTSz0qo0a5APhqzDkup5W7IRavCH38C0JX8GIng7pSg9PPxs4MgJ6q1GQ2sIRtuacf5Vq0SjN1TgJrPzqm7mfS3T4BJKyJgzuAOvsmuvumVhwvQR5SL2pClT2BvDV7d68eFy5hOrJ4RNjXgdMLKgUz32DxbLr5XtNI3bsW49SWTyEPRqzCLqYRxyVVzEUu2tbLcm6shIFBVGbUr8wgHrZfT9FuI8RaadST",
+              "received": false
+            }
+          ],
+          "total_price": 146124,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:30:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-+VU6lMzO2/S08UXhyiORszrGzB8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd43f1c508c5d5ec172f6",
+        "email": "Janis_Quitzon6@hotmail.com",
+        "name": "Ladarius Kreiger",
+        "country": "Russia",
+        "city": "Port Danteview",
+        "street": "The Square",
+        "house": 3,
+        "flat": 455,
+        "phone": "+13852707562",
+        "createdOn": "2026-02-01T22:31:27.000Z",
+        "notes": "uXfxv3oIu0o8PLR7abDhxFSYzNKazEi6YHS3m2ErQ9S8ayRErJUMLyYTMAWCud7HelrkHXTtxf8PUorVhvYveEt0cl678mcNbLEAD77MiDs9D1TmB4cGwDPzpzqMwMxkPsZHOgJCJvLG48qnHZ4OdMwG5lEVTd8EPfyHqWZOcALiZyDZ7JsbOw49e23Gto3I3WFHYQb6s2RNQgTP0f33z8RbyfssbbF1bIEsqQ8TFci7hCYcYfz8VnQ6BP"
+      },
+      "products": [
+        {
+          "_id": "697fd43f1c508c5d5ec17317",
+          "name": "Shirt5695",
+          "amount": 170,
+          "price": 23731,
+          "manufacturer": "Amazon",
+          "notes": "qEW65K0lC8NZfuIOL0nraEtoeTjJGegRFQDHu3BNevAlo9pYcfdrhzZPZxY3cJCUVcrLbHbCaSaQEim5Y0d9iVemhaswKjXTtlnlIJBLW9BNw8CpplgkmTa8cLEfjEavOQO0kMoohTTK8r9L7prtDw7h7PNS7QWuxV85C5HNAIM141AprJFfZZPoDuPM2FqB6AX9nKu6sEyOtDHsIJz86v4een9miAyLVQmuqAlMtq3R5SlXgHO9oVtB57",
+          "received": false
+        },
+        {
+          "_id": "697fd4401c508c5d5ec173af",
+          "name": "Salad87393",
+          "amount": 193,
+          "price": 44681,
+          "manufacturer": "Amazon",
+          "notes": "Q65s5h3DOheKCqCn1pIXWtcKuKCceMH3S4QjbmN5xbh9alTvfN0Ma3IhkiL2X2JvcDjmo5qNUvRUpkL1rVhlaUJhX15lhT2CUyYzMgJpIK06UjJBhx4jKrwh88dX0q8cMDls0btUd7eno1fQ1xO4frx41lKOILh6EbEE9lyml7rdFrfPvONu6sIsMWgcWbtvYCj1lCYMt6HUWwtghc0iLummUVeofJaY18de3MQkMo3VOiZg59hZ18SdDB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68412,
+      "createdOn": "2026-02-01T22:31:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd43f1c508c5d5ec172f6",
+          "products": [
+            {
+              "_id": "697fd43f1c508c5d5ec17317",
+              "name": "Shirt5695",
+              "amount": 170,
+              "price": 23731,
+              "manufacturer": "Amazon",
+              "notes": "qEW65K0lC8NZfuIOL0nraEtoeTjJGegRFQDHu3BNevAlo9pYcfdrhzZPZxY3cJCUVcrLbHbCaSaQEim5Y0d9iVemhaswKjXTtlnlIJBLW9BNw8CpplgkmTa8cLEfjEavOQO0kMoohTTK8r9L7prtDw7h7PNS7QWuxV85C5HNAIM141AprJFfZZPoDuPM2FqB6AX9nKu6sEyOtDHsIJz86v4een9miAyLVQmuqAlMtq3R5SlXgHO9oVtB57",
+              "received": false
+            },
+            {
+              "_id": "697fd4401c508c5d5ec173af",
+              "name": "Salad87393",
+              "amount": 193,
+              "price": 44681,
+              "manufacturer": "Amazon",
+              "notes": "Q65s5h3DOheKCqCn1pIXWtcKuKCceMH3S4QjbmN5xbh9alTvfN0Ma3IhkiL2X2JvcDjmo5qNUvRUpkL1rVhlaUJhX15lhT2CUyYzMgJpIK06UjJBhx4jKrwh88dX0q8cMDls0btUd7eno1fQ1xO4frx41lKOILh6EbEE9lyml7rdFrfPvONu6sIsMWgcWbtvYCj1lCYMt6HUWwtghc0iLummUVeofJaY18de3MQkMo3VOiZg59hZ18SdDB",
+              "received": false
+            }
+          ],
+          "total_price": 68412,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd4421c508c5d5ec174d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

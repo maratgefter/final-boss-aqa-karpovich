@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2956",
+    "etag": "W/\"b8c-xVN7Ckaulf93jVIGdChpfFb3XO8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4311c508c5d5ec16c02",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4301c508c5d5ec16bb1",
+        "email": "Cassidy_McCullough-Farrell@gmail.com",
+        "name": "Abigale Renner",
+        "country": "Ukraine",
+        "city": "Ursulaville",
+        "street": "Bay Street",
+        "house": 9,
+        "flat": 43,
+        "phone": "+12298902062",
+        "createdOn": "2026-02-01T22:31:12.000Z",
+        "notes": "pmofHLcxoOF9FfeFOItFkcVDQSOB5fO7vOPu99SaitW9pDp63s3qytenOS77mR4VOyZlVRB7F3kP9slpt0U8VaKmFHIoZiDzNO1JlqtK9BxO1JOpoMFWk3aqOyZUddnQxnN7XdmE6pciCUuECulDK7aZg5xG4Hjh5jTft2qTwTelg7cpa9sUmyGh1o0ZRtQInfkEAHDXAlxUVTVl2megqiIZuINQavAr2S5rpG4H1NamV5HZ1s400TajD0"
+      },
+      "products": [
+        {
+          "_id": "697fd4301c508c5d5ec16bd5",
+          "name": "Pants97929",
+          "amount": 466,
+          "price": 7094,
+          "manufacturer": "Microsoft",
+          "notes": "4kwVOpPtFMiYBEXoz20zJymfqDJNOlcrYtKqZrN3b14Cnj2JtpbH10ZKGRe7GWKDF5QFvyXw6FliwpPhOuAEnrSD41OmaAMdUchjOhU1V4sU4RoC6pO6bC0L9RsZ77jcDoZBNuKfMmqUrLtq1axCyM9cZJqxPWYWFeASaHEw3OmFmtYi5B9xZmqx9TJyp8bu1ieYevJCo44fSJ4aujcu6jd8cPCWwuQUzmxhM2mLVA1XVlLHAqJRm2APPM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Ursulaville",
+          "street": "Bay Street",
+          "house": 9,
+          "flat": 43
+        },
+        "finalDate": "2026-02-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 7094,
+      "createdOn": "2026-02-01T22:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4301c508c5d5ec16bb1",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bd5",
+              "name": "Pants97929",
+              "amount": 466,
+              "price": 7094,
+              "manufacturer": "Microsoft",
+              "notes": "4kwVOpPtFMiYBEXoz20zJymfqDJNOlcrYtKqZrN3b14Cnj2JtpbH10ZKGRe7GWKDF5QFvyXw6FliwpPhOuAEnrSD41OmaAMdUchjOhU1V4sU4RoC6pO6bC0L9RsZ77jcDoZBNuKfMmqUrLtq1axCyM9cZJqxPWYWFeASaHEw3OmFmtYi5B9xZmqx9TJyp8bu1ieYevJCo44fSJ4aujcu6jd8cPCWwuQUzmxhM2mLVA1XVlLHAqJRm2APPM",
+              "received": false
+            }
+          ],
+          "total_price": 7094,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ursulaville",
+              "street": "Bay Street",
+              "house": 9,
+              "flat": 43
+            },
+            "finalDate": "2026-02-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd4301c508c5d5ec16bb1",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bd5",
+              "name": "Pants97929",
+              "amount": 466,
+              "price": 7094,
+              "manufacturer": "Microsoft",
+              "notes": "4kwVOpPtFMiYBEXoz20zJymfqDJNOlcrYtKqZrN3b14Cnj2JtpbH10ZKGRe7GWKDF5QFvyXw6FliwpPhOuAEnrSD41OmaAMdUchjOhU1V4sU4RoC6pO6bC0L9RsZ77jcDoZBNuKfMmqUrLtq1axCyM9cZJqxPWYWFeASaHEw3OmFmtYi5B9xZmqx9TJyp8bu1ieYevJCo44fSJ4aujcu6jd8cPCWwuQUzmxhM2mLVA1XVlLHAqJRm2APPM",
+              "received": false
+            }
+          ],
+          "total_price": 7094,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

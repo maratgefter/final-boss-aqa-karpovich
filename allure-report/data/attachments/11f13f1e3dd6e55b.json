@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4184",
+    "etag": "W/\"1058-SGRwBeRwXTxpc/UTfY9I1SBnHxE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4491c508c5d5ec17890",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4471c508c5d5ec177b6",
+        "email": "Owen_Feeney-Torp12@hotmail.com",
+        "name": "June Schmitt",
+        "country": "Canada",
+        "city": "New Jefferyborough",
+        "street": "Martin Luther King Jr Boulevard",
+        "house": 14,
+        "flat": 165,
+        "phone": "+15706675130",
+        "createdOn": "2026-02-01T22:31:35.000Z",
+        "notes": "kUkuS6r5GMhDj4HG0HNX1qvVl4m15KXU4uU3m9yjXflhEyzCGSeWVnKoPl9ZNEKiVDWWOXCjoAHMpUecxb4PwuEBQcouP8cnO9NyLELqFa6GPpki3loV4QfajUaX3nnG4ONvY0SA8nMRTSXqBa4iaKP8gco94Qcu8Twhk6sG8J9Oa0RKyN1VS2BDexyvBsJWLhiGpylCyBeq4HRa52m36WdcqgzZVy9pAwLiZbJpAjpp1K7YmJ86LrZvzK"
+      },
+      "products": [
+        {
+          "_id": "697fd4481c508c5d5ec177d8",
+          "name": "Bacon65600",
+          "amount": 597,
+          "price": 98297,
+          "manufacturer": "Xiaomi",
+          "notes": "YwH87yVNSgfYQjvHMOwCReApdE7T8gcWwzWlGdsAMSUyiYvLUWLgaFDtLGEiCw4v0mCGrkO6nlRe8A2THLLxd38Wsa4fTHPRcWqBPCja09r10PFYimukaLKGzzDehHwjfpOWY7E2FfKQpLuiC9wmylmwR5IO0GJIY26iuiSVchswayIAqccM83wQovEzpooPgfT0nLyjVb3WMecYrtoORZ6UtMZ71gQ0jbzmQZvcmnrOA0RyQAiSTrs85D",
+          "received": false
+        },
+        {
+          "_id": "697fd4481c508c5d5ec177f0",
+          "name": "Shoes89855",
+          "amount": 345,
+          "price": 20824,
+          "manufacturer": "Apple",
+          "notes": "lLHXyrxstLZS7DZbHBAfHWHg5vLXFQSanCyFjAv5c76gQ2I0WvBU8rYqfkQhLNiXavU552dzJYP16PbxeEpre52BHHDTzd8vOpS3Rf2wFrVQEC4TJVe3KKnUq0zZH7vd9Chmt36UJyZ68RiCn3M4pbm78hTASi4tsyb4WZ9tL6L4a7SKXdYg389yyZk691js58Clqv4wPQbAmtcefSRz6uUjTDL3Au1kU7oG4auXrK1wTxK6vNMP42eQES",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "New Jefferyborough",
+          "street": "Martin Luther King Jr Boulevard",
+          "house": 14,
+          "flat": 165
+        },
+        "finalDate": "2026-02-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 119121,
+      "createdOn": "2026-02-01T22:31:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4471c508c5d5ec177b6",
+          "products": [
+            {
+              "_id": "697fd4481c508c5d5ec177d8",
+              "name": "Bacon65600",
+              "amount": 597,
+              "price": 98297,
+              "manufacturer": "Xiaomi",
+              "notes": "YwH87yVNSgfYQjvHMOwCReApdE7T8gcWwzWlGdsAMSUyiYvLUWLgaFDtLGEiCw4v0mCGrkO6nlRe8A2THLLxd38Wsa4fTHPRcWqBPCja09r10PFYimukaLKGzzDehHwjfpOWY7E2FfKQpLuiC9wmylmwR5IO0GJIY26iuiSVchswayIAqccM83wQovEzpooPgfT0nLyjVb3WMecYrtoORZ6UtMZ71gQ0jbzmQZvcmnrOA0RyQAiSTrs85D",
+              "received": false
+            },
+            {
+              "_id": "697fd4481c508c5d5ec177f0",
+              "name": "Shoes89855",
+              "amount": 345,
+              "price": 20824,
+              "manufacturer": "Apple",
+              "notes": "lLHXyrxstLZS7DZbHBAfHWHg5vLXFQSanCyFjAv5c76gQ2I0WvBU8rYqfkQhLNiXavU552dzJYP16PbxeEpre52BHHDTzd8vOpS3Rf2wFrVQEC4TJVe3KKnUq0zZH7vd9Chmt36UJyZ68RiCn3M4pbm78hTASi4tsyb4WZ9tL6L4a7SKXdYg389yyZk691js58Clqv4wPQbAmtcefSRz6uUjTDL3Au1kU7oG4auXrK1wTxK6vNMP42eQES",
+              "received": false
+            }
+          ],
+          "total_price": 119121,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Jefferyborough",
+              "street": "Martin Luther King Jr Boulevard",
+              "house": 14,
+              "flat": 165
+            },
+            "finalDate": "2026-02-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd4471c508c5d5ec177b6",
+          "products": [
+            {
+              "_id": "697fd4481c508c5d5ec177d8",
+              "name": "Bacon65600",
+              "amount": 597,
+              "price": 98297,
+              "manufacturer": "Xiaomi",
+              "notes": "YwH87yVNSgfYQjvHMOwCReApdE7T8gcWwzWlGdsAMSUyiYvLUWLgaFDtLGEiCw4v0mCGrkO6nlRe8A2THLLxd38Wsa4fTHPRcWqBPCja09r10PFYimukaLKGzzDehHwjfpOWY7E2FfKQpLuiC9wmylmwR5IO0GJIY26iuiSVchswayIAqccM83wQovEzpooPgfT0nLyjVb3WMecYrtoORZ6UtMZ71gQ0jbzmQZvcmnrOA0RyQAiSTrs85D",
+              "received": false
+            },
+            {
+              "_id": "697fd4481c508c5d5ec177f0",
+              "name": "Shoes89855",
+              "amount": 345,
+              "price": 20824,
+              "manufacturer": "Apple",
+              "notes": "lLHXyrxstLZS7DZbHBAfHWHg5vLXFQSanCyFjAv5c76gQ2I0WvBU8rYqfkQhLNiXavU552dzJYP16PbxeEpre52BHHDTzd8vOpS3Rf2wFrVQEC4TJVe3KKnUq0zZH7vd9Chmt36UJyZ68RiCn3M4pbm78hTASi4tsyb4WZ9tL6L4a7SKXdYg389yyZk691js58Clqv4wPQbAmtcefSRz6uUjTDL3Au1kU7oG4auXrK1wTxK6vNMP42eQES",
+              "received": false
+            }
+          ],
+          "total_price": 119121,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

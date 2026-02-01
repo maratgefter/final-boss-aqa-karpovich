@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2972",
+    "etag": "W/\"b9c-va+4W6APG319ygLwBctwiskCayQ\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4301c508c5d5ec16b9f",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd42f1c508c5d5ec16b33",
+        "email": "Broderick_Hayes@gmail.com",
+        "name": "Nelda Kulas",
+        "country": "Great Britain",
+        "city": "New Genesis",
+        "street": "N Franklin Street",
+        "house": 2,
+        "flat": 269,
+        "phone": "+14387714814",
+        "createdOn": "2026-02-01T22:31:11.000Z",
+        "notes": "JjhWF4I4l0q6BOy5RadG5BmxkCwUZpGR4n5c4UAX1NBtgLV8z56PzwnP1ZkDR2jwfWnlji2RZc58oX1cdiqsno1nTWFsHV4A7bJoOWmvic95FahAkFNEUOs6qgkfSUA11rgV8jekGLIiOXYTYDxGYbIKrxyPMQKomz1bvABV3o5wMpIbjv3ntlMBGUbgSKwBj0u0jsqBBo2GlfafovxkKt4OR0Lg3ElFgd99bQTXTzx4V1vGa3SVjNdImG"
+      },
+      "products": [
+        {
+          "_id": "697fd42f1c508c5d5ec16b5a",
+          "name": "Table59156",
+          "amount": 40,
+          "price": 52975,
+          "manufacturer": "Sony",
+          "notes": "LLBjzbrOYudmPdstCOYnTsSErbmBHZsc0Qq1mxdQ13IGAOpVdx9BY3jv52ub5EmaLfmCgdAQuoMV77Sv0APlm1fQCOQ9wmYqPzIR3jC4kCD6O03139bFQzhXxOaMTKJck1nfvllpEgJgRqznHSBkpmca0cooqmuak2iOeUgrgjkbIZRRMOASQUclGtUHL5ACAf0oaivS1dCDYxGXAI3PfvrB8bzu27Ug1I6EvNTJ9IQ7kHf8wK7XcwrBoS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Genesis",
+          "street": "N Franklin Street",
+          "house": 2,
+          "flat": 269
+        },
+        "finalDate": "2026-02-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 52975,
+      "createdOn": "2026-02-01T22:31:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd42f1c508c5d5ec16b33",
+          "products": [
+            {
+              "_id": "697fd42f1c508c5d5ec16b5a",
+              "name": "Table59156",
+              "amount": 40,
+              "price": 52975,
+              "manufacturer": "Sony",
+              "notes": "LLBjzbrOYudmPdstCOYnTsSErbmBHZsc0Qq1mxdQ13IGAOpVdx9BY3jv52ub5EmaLfmCgdAQuoMV77Sv0APlm1fQCOQ9wmYqPzIR3jC4kCD6O03139bFQzhXxOaMTKJck1nfvllpEgJgRqznHSBkpmca0cooqmuak2iOeUgrgjkbIZRRMOASQUclGtUHL5ACAf0oaivS1dCDYxGXAI3PfvrB8bzu27Ug1I6EvNTJ9IQ7kHf8wK7XcwrBoS",
+              "received": false
+            }
+          ],
+          "total_price": 52975,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Genesis",
+              "street": "N Franklin Street",
+              "house": 2,
+              "flat": 269
+            },
+            "finalDate": "2026-02-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd42f1c508c5d5ec16b33",
+          "products": [
+            {
+              "_id": "697fd42f1c508c5d5ec16b5a",
+              "name": "Table59156",
+              "amount": 40,
+              "price": 52975,
+              "manufacturer": "Sony",
+              "notes": "LLBjzbrOYudmPdstCOYnTsSErbmBHZsc0Qq1mxdQ13IGAOpVdx9BY3jv52ub5EmaLfmCgdAQuoMV77Sv0APlm1fQCOQ9wmYqPzIR3jC4kCD6O03139bFQzhXxOaMTKJck1nfvllpEgJgRqznHSBkpmca0cooqmuak2iOeUgrgjkbIZRRMOASQUclGtUHL5ACAf0oaivS1dCDYxGXAI3PfvrB8bzu27Ug1I6EvNTJ9IQ7kHf8wK7XcwrBoS",
+              "received": false
+            }
+          ],
+          "total_price": 52975,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

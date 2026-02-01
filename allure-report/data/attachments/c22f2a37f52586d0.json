@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3882",
+    "etag": "W/\"f2a-0Af0HImT2YP3VjHRNwuTv8mMJ6s\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4311c508c5d5ec16c05",
+      "status": "In Process",
+      "customer": {
+        "_id": "697fd4301c508c5d5ec16ba5",
+        "email": "Trinity1@gmail.com",
+        "name": "Dejon Kuvalis",
+        "country": "Germany",
+        "city": "Lake Broderick",
+        "street": "Mona Key",
+        "house": 36,
+        "flat": 872,
+        "phone": "+19294663896",
+        "createdOn": "2026-02-01T22:31:12.000Z",
+        "notes": "M8Juq4FD2FyODkQZLVN7YWgzp8sSewuw3ESwLMns9r77tDEO3E82kTZXiLtqTkeSVdtP7EmJElA7Q10t9rArm8cnn4NRTX2MyipjINxc0OZe2B4I6UDAHCnByw4sHPpbEsv9LBhB7y7UfxYvsWBpCRDX3kehXWsNQ4r88TD54mEv6L6FeWGBdPh7dLvo4uhrqnKJ4Gazy2BUI6qu9hXoFIbjFVSAmcWvpmsNEbnwcpdJhKb3hm28mOjl6F"
+      },
+      "products": [
+        {
+          "_id": "697fd4301c508c5d5ec16bd1",
+          "name": "Mouse15796",
+          "amount": 191,
+          "price": 81225,
+          "manufacturer": "Microsoft",
+          "notes": "m7xCeQyO2Bzvkc9HNEoee7zoNEJRf8Vt9HV58LfuQrfBcxvybqlE7y0p84NVlzmc0F3S7o8MP15YU52cnKQ9UITm9GMtYOQTvLky76jNHLUKTYk7EUSAq4vK8rTRErGZ71uuDC7tKNDSZwv7ErGDcQGYaj7krJoG7PrASMdSiXFRVZnF1PNC5KQSsxuHEyTQFXqpd0Nk8ImfaZ2N2MSt8li6gD89g5rtkoDaowA565bRo95cUKyeXHtGk0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Broderick",
+          "street": "Mona Key",
+          "house": 36,
+          "flat": 872
+        },
+        "finalDate": "2026-02-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 81225,
+      "createdOn": "2026-02-01T22:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "697fd4301c508c5d5ec16ba5",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bd1",
+              "name": "Mouse15796",
+              "amount": 191,
+              "price": 81225,
+              "manufacturer": "Microsoft",
+              "notes": "m7xCeQyO2Bzvkc9HNEoee7zoNEJRf8Vt9HV58LfuQrfBcxvybqlE7y0p84NVlzmc0F3S7o8MP15YU52cnKQ9UITm9GMtYOQTvLky76jNHLUKTYk7EUSAq4vK8rTRErGZ71uuDC7tKNDSZwv7ErGDcQGYaj7krJoG7PrASMdSiXFRVZnF1PNC5KQSsxuHEyTQFXqpd0Nk8ImfaZ2N2MSt8li6gD89g5rtkoDaowA565bRo95cUKyeXHtGk0",
+              "received": false
+            }
+          ],
+          "total_price": 81225,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Broderick",
+              "street": "Mona Key",
+              "house": 36,
+              "flat": 872
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd4301c508c5d5ec16ba5",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bd1",
+              "name": "Mouse15796",
+              "amount": 191,
+              "price": 81225,
+              "manufacturer": "Microsoft",
+              "notes": "m7xCeQyO2Bzvkc9HNEoee7zoNEJRf8Vt9HV58LfuQrfBcxvybqlE7y0p84NVlzmc0F3S7o8MP15YU52cnKQ9UITm9GMtYOQTvLky76jNHLUKTYk7EUSAq4vK8rTRErGZ71uuDC7tKNDSZwv7ErGDcQGYaj7krJoG7PrASMdSiXFRVZnF1PNC5KQSsxuHEyTQFXqpd0Nk8ImfaZ2N2MSt8li6gD89g5rtkoDaowA565bRo95cUKyeXHtGk0",
+              "received": false
+            }
+          ],
+          "total_price": 81225,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Broderick",
+              "street": "Mona Key",
+              "house": 36,
+              "flat": 872
+            },
+            "finalDate": "2026-02-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd4301c508c5d5ec16ba5",
+          "products": [
+            {
+              "_id": "697fd4301c508c5d5ec16bd1",
+              "name": "Mouse15796",
+              "amount": 191,
+              "price": 81225,
+              "manufacturer": "Microsoft",
+              "notes": "m7xCeQyO2Bzvkc9HNEoee7zoNEJRf8Vt9HV58LfuQrfBcxvybqlE7y0p84NVlzmc0F3S7o8MP15YU52cnKQ9UITm9GMtYOQTvLky76jNHLUKTYk7EUSAq4vK8rTRErGZ71uuDC7tKNDSZwv7ErGDcQGYaj7krJoG7PrASMdSiXFRVZnF1PNC5KQSsxuHEyTQFXqpd0Nk8ImfaZ2N2MSt8li6gD89g5rtkoDaowA565bRo95cUKyeXHtGk0",
+              "received": false
+            }
+          ],
+          "total_price": 81225,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

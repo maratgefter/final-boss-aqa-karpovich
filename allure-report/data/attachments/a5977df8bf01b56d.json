@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-T0GVjJ6tMB4SKLTgqUXibxxGVvE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd42c1c508c5d5ec169e3",
+        "email": "Erna_Cremin5@gmail.com",
+        "name": "Carolanne Denesik",
+        "country": "Great Britain",
+        "city": "Gilbert",
+        "street": "Leuschke Flats",
+        "house": 6,
+        "flat": 580,
+        "phone": "+13689772129",
+        "createdOn": "2026-02-01T22:31:08.000Z",
+        "notes": "eg0L60lc7txXF51CIl0vyuP3jTIPk4PBLNu84zcTlsdAeEZGNJDq0mRx1KhrXOL5KIMOaXl9eZDG9xy9hA8LkKRE5gdeQ7R78BmGXEN8xZlkHAtb4L4lbidROq0O08JpzuFLXR0wejwdTdGSSd4mOXM7kyxzokTJ2AVfhUMLL6rJ3ngBlpmRvyXn0gZfYMTlnhacES4YOh5F4K9V6liOb19qWxxT0LrYewNiPv94QmhIGHCeCA7PFvvVWP"
+      },
+      "products": [
+        {
+          "_id": "697fd42d1c508c5d5ec16a16",
+          "name": "Keyboard52403",
+          "amount": 785,
+          "price": 3621,
+          "manufacturer": "Samsung",
+          "notes": "RkCVR0FSAsysnPbdwIcQGrHMDV0Sx2dsMNxm4zKrQCXbY0h005Vgq0bjh7TCGWBMNHCg7zZuw5GlngXHBW1CFrODgjUtNCvNjeS3PCoQQpvDYNM6ubmZLt6hUfrc1HdHTQy9BEz4MM1IMChNSOqCEawSxbD1aQ3NdRrAazeP2Leaz1ggVmj1tdj56O6PXPotTsNHBIG4wTOxHMvljq8jSFL4KiArywY40asveNSvtNf2B0A3LDNdkgCAcR",
+          "received": false
+        },
+        {
+          "_id": "697fd42d1c508c5d5ec16a57",
+          "name": "Soap36239",
+          "amount": 401,
+          "price": 76005,
+          "manufacturer": "Tesla",
+          "notes": "PA0PrnWRjo7TuTD4ZxRKEigWzd5FCB85fSfMMpHZ7vn2TIISaoGI0eKmdxqiVVdQ4slhQQF7cf1h2P1UNcPMPoZGHep7degWI3qR1wgdMFzX95E1N87XiSaw1LtFocDCJnjZCYHT0lAPR80SwPpzD3DtaGVHw6nWamVF4ZFWL7xSJuXqKBkTyqKz4O1M8isNHtB2aZN8gUBk0fDqOpfcyuSzgWGW97oTSef5OQzDJDRa0LqEXlvBs2r538",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79626,
+      "createdOn": "2026-02-01T22:31:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd42c1c508c5d5ec169e3",
+          "products": [
+            {
+              "_id": "697fd42d1c508c5d5ec16a16",
+              "name": "Keyboard52403",
+              "amount": 785,
+              "price": 3621,
+              "manufacturer": "Samsung",
+              "notes": "RkCVR0FSAsysnPbdwIcQGrHMDV0Sx2dsMNxm4zKrQCXbY0h005Vgq0bjh7TCGWBMNHCg7zZuw5GlngXHBW1CFrODgjUtNCvNjeS3PCoQQpvDYNM6ubmZLt6hUfrc1HdHTQy9BEz4MM1IMChNSOqCEawSxbD1aQ3NdRrAazeP2Leaz1ggVmj1tdj56O6PXPotTsNHBIG4wTOxHMvljq8jSFL4KiArywY40asveNSvtNf2B0A3LDNdkgCAcR",
+              "received": false
+            },
+            {
+              "_id": "697fd42d1c508c5d5ec16a57",
+              "name": "Soap36239",
+              "amount": 401,
+              "price": 76005,
+              "manufacturer": "Tesla",
+              "notes": "PA0PrnWRjo7TuTD4ZxRKEigWzd5FCB85fSfMMpHZ7vn2TIISaoGI0eKmdxqiVVdQ4slhQQF7cf1h2P1UNcPMPoZGHep7degWI3qR1wgdMFzX95E1N87XiSaw1LtFocDCJnjZCYHT0lAPR80SwPpzD3DtaGVHw6nWamVF4ZFWL7xSJuXqKBkTyqKz4O1M8isNHtB2aZN8gUBk0fDqOpfcyuSzgWGW97oTSef5OQzDJDRa0LqEXlvBs2r538",
+              "received": false
+            }
+          ],
+          "total_price": 79626,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "697fd42e1c508c5d5ec16ab8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

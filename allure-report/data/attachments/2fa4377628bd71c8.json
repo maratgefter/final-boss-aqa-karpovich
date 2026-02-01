@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 01 Feb 2026 22:31:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2938",
+    "etag": "W/\"b7a-8m7s+SbG/S0TCzCEvAaG/bfEtEg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "697fd4281c508c5d5ec167d3",
+      "status": "Draft",
+      "customer": {
+        "_id": "697fd4281c508c5d5ec1679c",
+        "email": "Vinnie.Orn64@gmail.com",
+        "name": "Kennith Lind",
+        "country": "USA",
+        "city": "Sunnycester",
+        "street": "Lehner Freeway",
+        "house": 36,
+        "flat": 708,
+        "phone": "+13987766382",
+        "createdOn": "2026-02-01T22:31:04.000Z",
+        "notes": "kFx2RbY19VwqTbBs9QL5aUrUmT0MXw2HqSIpZ1wd4XMaUR3JQ80yvf6m35qAnl23OG8Y4lgQCAHT3sJNtK9YnP14xDprdrma6FyWAVRduEOtomqTjHN8bLUbaIDoA2H0cn37xwIJOwpqcJ4TPWBIXofRgtnAGzxVZWUd5uMpzISuusYsoUsTzp1UQmTjOLJd80Kc0BRH8xpkj38gXyjE3u8Kv6nYbdUNJhRmW4NL1BfaoRsktN2cKoummK"
+      },
+      "products": [
+        {
+          "_id": "697fd4281c508c5d5ec167b6",
+          "name": "Hat20325",
+          "amount": 309,
+          "price": 85898,
+          "manufacturer": "Microsoft",
+          "notes": "4FtuSv4TsaKgE7FhVaRxRAnb9KWiLCccWiDhaHmC3jwWO53hrJ461ib4WWWp6BzE26jiJwd2Zagj9MPvScSxUrpFbH0GPnAkqy6wqxvhP6EGMQXl8BeDXFp88XGPolMC1FoPWGR7dfAsI58U2FpSxGTJa8hIWEttQ3pS2sYVys6MKDYFXENZPV4hKuVvt6bm4maKnvwu8ou7K55ji9AbHDdJsJcZcHSPgTPZ63WL2pZCdy1eRAt9fRkp4M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Mrazmouth",
+          "street": "Dark Lane",
+          "house": 18,
+          "flat": 559
+        },
+        "finalDate": "2026-02-01T22:31:04.953Z",
+        "condition": "Pickup"
+      },
+      "total_price": 85898,
+      "createdOn": "2026-02-01T22:31:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "697fd4281c508c5d5ec1679c",
+          "products": [
+            {
+              "_id": "697fd4281c508c5d5ec167b6",
+              "name": "Hat20325",
+              "amount": 309,
+              "price": 85898,
+              "manufacturer": "Microsoft",
+              "notes": "4FtuSv4TsaKgE7FhVaRxRAnb9KWiLCccWiDhaHmC3jwWO53hrJ461ib4WWWp6BzE26jiJwd2Zagj9MPvScSxUrpFbH0GPnAkqy6wqxvhP6EGMQXl8BeDXFp88XGPolMC1FoPWGR7dfAsI58U2FpSxGTJa8hIWEttQ3pS2sYVys6MKDYFXENZPV4hKuVvt6bm4maKnvwu8ou7K55ji9AbHDdJsJcZcHSPgTPZ63WL2pZCdy1eRAt9fRkp4M",
+              "received": false
+            }
+          ],
+          "total_price": 85898,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Mrazmouth",
+              "street": "Dark Lane",
+              "house": 18,
+              "flat": 559
+            },
+            "finalDate": "2026-02-01T22:31:04.953Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-01T22:31:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "697fd4281c508c5d5ec1679c",
+          "products": [
+            {
+              "_id": "697fd4281c508c5d5ec167b6",
+              "name": "Hat20325",
+              "amount": 309,
+              "price": 85898,
+              "manufacturer": "Microsoft",
+              "notes": "4FtuSv4TsaKgE7FhVaRxRAnb9KWiLCccWiDhaHmC3jwWO53hrJ461ib4WWWp6BzE26jiJwd2Zagj9MPvScSxUrpFbH0GPnAkqy6wqxvhP6EGMQXl8BeDXFp88XGPolMC1FoPWGR7dfAsI58U2FpSxGTJa8hIWEttQ3pS2sYVys6MKDYFXENZPV4hKuVvt6bm4maKnvwu8ou7K55ji9AbHDdJsJcZcHSPgTPZ63WL2pZCdy1eRAt9fRkp4M",
+              "received": false
+            }
+          ],
+          "total_price": 85898,
+          "delivery": null,
+          "changedOn": "2026-02-01T22:31:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
