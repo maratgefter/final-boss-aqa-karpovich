@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 03 Feb 2026 22:35:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-9tMQpi6h51hV5TSy1h4K8h/glms\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6982783c1c508c5d5ec19d15",
+        "email": "Jefferey_Donnelly23@hotmail.com",
+        "name": "Theodora Grady",
+        "country": "Ukraine",
+        "city": "Heathtown",
+        "street": "Chesley Island",
+        "house": 30,
+        "flat": 579,
+        "phone": "+15336056480",
+        "createdOn": "2026-02-03T22:35:40.000Z",
+        "notes": "I3ZI894kToaiGdm9YBfolPE21ehFyxMkmoxSaGCOGJIA1fAqpLKoapm0XurxzY5k4SbXXSf99lzJQKFiDHgJTByZ6Yb0BE5uWWCkKSF7yws1rh6eHLc1us8q7yjdXeKSys4TAZ3SF93J7S2luM9uAfh8zVo2c91VIvsBBgOkgjc5dCArK01aFOfsJtj1iGA0A6kyiRX46xssIw5yYstUS2Kfc5Or6wRfmzTe88cGOdlnRc6YyeDPmuFeY0"
+      },
+      "products": [
+        {
+          "_id": "6982783d1c508c5d5ec19d5a",
+          "name": "Cheese1608",
+          "amount": 470,
+          "price": 59783,
+          "manufacturer": "Amazon",
+          "notes": "TExPpGWNbKwqzcKOOpCLK6rJiIM4FW2hELVrIJZBmOX0mWpaTxKwwVB1jgEvQ7PSWKcjUkoyNSFcrHcqPLlVuuMf1mJM8I3f2XAnB8X3pnRnghO1SzxeC2sJrjMbcAOC3ZVIr1Sblv8twjbA1GtjNpRpzEwcq2hvBgHALpHeXAIlSzztwqHzw9g1ENGkDH6ykgRQOpIlaoIgLLTIr8L77fng1BPwZKZlgp601txJWn4FlOOhhMXnqWbPXa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59783,
+      "createdOn": "2026-02-03T22:35:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6982783c1c508c5d5ec19d15",
+          "products": [
+            {
+              "_id": "6982783d1c508c5d5ec19d5a",
+              "name": "Cheese1608",
+              "amount": 470,
+              "price": 59783,
+              "manufacturer": "Amazon",
+              "notes": "TExPpGWNbKwqzcKOOpCLK6rJiIM4FW2hELVrIJZBmOX0mWpaTxKwwVB1jgEvQ7PSWKcjUkoyNSFcrHcqPLlVuuMf1mJM8I3f2XAnB8X3pnRnghO1SzxeC2sJrjMbcAOC3ZVIr1Sblv8twjbA1GtjNpRpzEwcq2hvBgHALpHeXAIlSzztwqHzw9g1ENGkDH6ykgRQOpIlaoIgLLTIr8L77fng1BPwZKZlgp601txJWn4FlOOhhMXnqWbPXa",
+              "received": false
+            }
+          ],
+          "total_price": 59783,
+          "delivery": null,
+          "changedOn": "2026-02-03T22:35:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6982783d1c508c5d5ec19d86"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

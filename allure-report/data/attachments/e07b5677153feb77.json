@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 03 Feb 2026 22:35:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2818",
+    "etag": "W/\"b02-7ukJZwt6GxXDs6GN1x6/K62z50w\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6982784b1c508c5d5ec1a453",
+      "status": "Draft",
+      "customer": {
+        "_id": "698278491c508c5d5ec1a317",
+        "email": "Amaya.Gulgowski@hotmail.com",
+        "name": "Bonita Zboncak",
+        "country": "USA",
+        "city": "Lake Danialberg",
+        "street": "Kling Corner",
+        "house": 48,
+        "flat": 179,
+        "phone": "+17588811440",
+        "createdOn": "2026-02-03T22:35:53.000Z",
+        "notes": "IXunRI7sAsJVL0ph18ne8g05EeqsKmEWYsXCgJQeCMoUJgeDr1r3JCF7zGW8UYe8sL0lk9aUBuWR28vxUsmBbLlUQqlUK2sLLtrCtdSHwgHvUiGBG3xFk7bKONiSbXbmaeBBSsnSjq5v15834cxc77mDpv5SEQJ8kiWXz46J75nww1bBjLXIJOZOpmSaJ7DRQOU8DzRUHJCdrsFzEoef99PM85t4arVYzwJGa8zz6Hc8bBFQYzP5F8FJuL"
+      },
+      "products": [
+        {
+          "_id": "6982784a1c508c5d5ec1a378",
+          "name": "Table75307",
+          "amount": 550,
+          "price": 25251,
+          "manufacturer": "Xiaomi",
+          "notes": "IPEBvbBgKBL0rvtndSIklSG977KL8CHs62pU4PVZ8ps0LJdSxwp4suCRPXSVSC1GpwHFShpCsj70qJ2WVuwP89ZftKTeiTKmEzG1A92Mv8y3d2oaLQz8ArGBnwQWF9KJjHlSv3IxyzoYjV1TmwJKk2lzl01idp98GVilsOMkaz00m2AlPzswaKtpwd8zt3eiX2sCnnFsluOAq5K877Y1cVVvsBsuGOhvpGgUaSXz9SJaY1kskqdjU4SgK7",
+          "received": false
+        },
+        {
+          "_id": "6982784a1c508c5d5ec1a3b1",
+          "name": "Chicken79729",
+          "amount": 412,
+          "price": 21775,
+          "manufacturer": "Google",
+          "notes": "bTOAIKvfzSodwpVEWXGxmKrc1QAyrZIPTxjuYEhzgwRvzMm7bkOI9TOpnPu40mSAHbvpeeNaK9dQjkv9grg9MahefVSf8yoQgLfKZDW3iSSi7me4iGoJwNzytY75r8wvHjeg06XwrfaReoIjxnGFchipKQHQUVNqtRwymCLLeDbNbpdKmff7Esxa4UzIcb5SmITcIpNoORxw7ArwK01uNHdDQ0C9jZRD9pq1FihiyITK4S8oUwVYQ2ySCF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47026,
+      "createdOn": "2026-02-03T22:35:55.000Z",
+      "comments": [
+        {
+          "text": "bARp5HjaAzIJiek9AoUu7jX0puNPsbr1eeL42B0nuzEdnp0dHtvRuYVZLmZzlWsLL2bMKLcd1rt",
+          "createdOn": "2026-02-03T22:35:56.000Z",
+          "_id": "6982784d1c508c5d5ec1a52f"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698278491c508c5d5ec1a317",
+          "products": [
+            {
+              "_id": "6982784a1c508c5d5ec1a378",
+              "name": "Table75307",
+              "amount": 550,
+              "price": 25251,
+              "manufacturer": "Xiaomi",
+              "notes": "IPEBvbBgKBL0rvtndSIklSG977KL8CHs62pU4PVZ8ps0LJdSxwp4suCRPXSVSC1GpwHFShpCsj70qJ2WVuwP89ZftKTeiTKmEzG1A92Mv8y3d2oaLQz8ArGBnwQWF9KJjHlSv3IxyzoYjV1TmwJKk2lzl01idp98GVilsOMkaz00m2AlPzswaKtpwd8zt3eiX2sCnnFsluOAq5K877Y1cVVvsBsuGOhvpGgUaSXz9SJaY1kskqdjU4SgK7",
+              "received": false
+            },
+            {
+              "_id": "6982784a1c508c5d5ec1a3b1",
+              "name": "Chicken79729",
+              "amount": 412,
+              "price": 21775,
+              "manufacturer": "Google",
+              "notes": "bTOAIKvfzSodwpVEWXGxmKrc1QAyrZIPTxjuYEhzgwRvzMm7bkOI9TOpnPu40mSAHbvpeeNaK9dQjkv9grg9MahefVSf8yoQgLfKZDW3iSSi7me4iGoJwNzytY75r8wvHjeg06XwrfaReoIjxnGFchipKQHQUVNqtRwymCLLeDbNbpdKmff7Esxa4UzIcb5SmITcIpNoORxw7ArwK01uNHdDQ0C9jZRD9pq1FihiyITK4S8oUwVYQ2ySCF",
+              "received": false
+            }
+          ],
+          "total_price": 47026,
+          "delivery": null,
+          "changedOn": "2026-02-03T22:35:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

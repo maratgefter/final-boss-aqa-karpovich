@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 03 Feb 2026 22:36:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3423",
+    "etag": "W/\"d5f-lHnbFG+++7xApauGW+YbuT/wNfQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698278571c508c5d5ec1aa51",
+        "email": "Orin.Lueilwitz77@gmail.com",
+        "name": "Adolfo Jones",
+        "country": "Canada",
+        "city": "Tillmanworth",
+        "street": "Kuphal Cliff",
+        "house": 14,
+        "flat": 770,
+        "phone": "+14963654255",
+        "createdOn": "2026-02-03T22:36:07.000Z",
+        "notes": "jC4DLh6ocoghPRWuaupPdVe5RGzEgzCVkhaF4QsS5JHaKzzuV92hjTvRaJWZ4yPHrWm6XhDTeQJdrXbr7vdAj5ty1QXF9qfjUSpW8isOoYO2KmD5ql0LIHTcuEkV9KKbqo1EQIEl0dM6bftD08xk25E632hu4ZZNI3DXw9nrS9gQuhyvE38SAKQ0GAcY6rYZg2z7Aw5rff1FoShGxfrLlBPOHr9cgVOI5OHW35PwkEyeK3ItnlKz5WSLVT"
+      },
+      "products": [
+        {
+          "_id": "698278571c508c5d5ec1aa71",
+          "name": "Pizza11521",
+          "amount": 705,
+          "price": 74282,
+          "manufacturer": "Microsoft",
+          "notes": "u9idYT0LKkBTATZ8DIdEpfwGr7TrWJNENglgSNsJ54GjkoiQKCo39joKvOakn2bN2r5oXdzYistpTL5awItyvK9ueTWHUxonnC5k8RQHp09EtniCLIuITcUzMjHSMrzFnhd4OzbElxaqDmWrKgUoECpMmq6lE7RdDApj4LVJ4882mEdorxKcQpjnCF6d3huu5nOfVIMIWqqyIqq6KpmkCE4VO1y7OF7GgFjGdjDDD4SvwIGGUmPVEJC224",
+          "received": false
+        },
+        {
+          "_id": "698278581c508c5d5ec1aaa2",
+          "name": "Salad99398",
+          "amount": 401,
+          "price": 13836,
+          "manufacturer": "Tesla",
+          "notes": "fI2aifxmPIOpxiSGOr13eW9E69S51aLJI4XJ55hzsph6JhEYV1qTKi04gMCI5MZqiTHXNC8YBQZGumDhnvl2pyxyPaDk76B8fGpVvTHUzf2Mw4zIV3LfqeyIjQ82v94gGq2ZmtMFHDPEJapXsaHIyhkdu4qqshcenMtJANH7XGl2T31acTL1C1IZdbYOl9psMsNYwQLW2vETU6otZjHa0M9ndPRmUtZ47MVafF7JgKUlupjaFbBnHtOTwo",
+          "received": false
+        },
+        {
+          "_id": "698278581c508c5d5ec1aacd",
+          "name": "Shirt44392",
+          "amount": 752,
+          "price": 22598,
+          "manufacturer": "Sony",
+          "notes": "Rnpoh70eANFVijCnpdu8Vp1DJkUgLSGzQEIWMdaFVX6CiDyB26uVMhQME3DnzwEkz2aDxFkSg6ZIl0bY9g1kR25N6iD5t9XpGtDgSzxJvbZEmL3p8pQ2LtWert7s42MGMgs3EMBcm5ZCh7ureBAECpl04C4bI8q89MeZFMqqd8OqAVUOS2krqEzNsCg9Q6sd6WYPt7dqlUovhJfuam8LSg4Cl36mOLxMEsfn7cRbCbKCSw8aQqRqnbiSzo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110716,
+      "createdOn": "2026-02-03T22:36:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698278571c508c5d5ec1aa51",
+          "products": [
+            {
+              "_id": "698278571c508c5d5ec1aa71",
+              "name": "Pizza11521",
+              "amount": 705,
+              "price": 74282,
+              "manufacturer": "Microsoft",
+              "notes": "u9idYT0LKkBTATZ8DIdEpfwGr7TrWJNENglgSNsJ54GjkoiQKCo39joKvOakn2bN2r5oXdzYistpTL5awItyvK9ueTWHUxonnC5k8RQHp09EtniCLIuITcUzMjHSMrzFnhd4OzbElxaqDmWrKgUoECpMmq6lE7RdDApj4LVJ4882mEdorxKcQpjnCF6d3huu5nOfVIMIWqqyIqq6KpmkCE4VO1y7OF7GgFjGdjDDD4SvwIGGUmPVEJC224",
+              "received": false
+            },
+            {
+              "_id": "698278581c508c5d5ec1aaa2",
+              "name": "Salad99398",
+              "amount": 401,
+              "price": 13836,
+              "manufacturer": "Tesla",
+              "notes": "fI2aifxmPIOpxiSGOr13eW9E69S51aLJI4XJ55hzsph6JhEYV1qTKi04gMCI5MZqiTHXNC8YBQZGumDhnvl2pyxyPaDk76B8fGpVvTHUzf2Mw4zIV3LfqeyIjQ82v94gGq2ZmtMFHDPEJapXsaHIyhkdu4qqshcenMtJANH7XGl2T31acTL1C1IZdbYOl9psMsNYwQLW2vETU6otZjHa0M9ndPRmUtZ47MVafF7JgKUlupjaFbBnHtOTwo",
+              "received": false
+            },
+            {
+              "_id": "698278581c508c5d5ec1aacd",
+              "name": "Shirt44392",
+              "amount": 752,
+              "price": 22598,
+              "manufacturer": "Sony",
+              "notes": "Rnpoh70eANFVijCnpdu8Vp1DJkUgLSGzQEIWMdaFVX6CiDyB26uVMhQME3DnzwEkz2aDxFkSg6ZIl0bY9g1kR25N6iD5t9XpGtDgSzxJvbZEmL3p8pQ2LtWert7s42MGMgs3EMBcm5ZCh7ureBAECpl04C4bI8q89MeZFMqqd8OqAVUOS2krqEzNsCg9Q6sd6WYPt7dqlUovhJfuam8LSg4Cl36mOLxMEsfn7cRbCbKCSw8aQqRqnbiSzo",
+              "received": false
+            }
+          ],
+          "total_price": 110716,
+          "delivery": null,
+          "changedOn": "2026-02-03T22:36:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698278591c508c5d5ec1ab35"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

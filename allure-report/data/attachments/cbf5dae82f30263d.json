@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 03 Feb 2026 22:35:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-5YiN19rkRaLeepoOlbr4umBOkSQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698278471c508c5d5ec1a205",
+        "email": "Pearl.Hodkiewicz@hotmail.com",
+        "name": "Gregg Brakus",
+        "country": "Great Britain",
+        "city": "Mosciskitown",
+        "street": "Wood Street",
+        "house": 44,
+        "flat": 543,
+        "phone": "+15836094687",
+        "createdOn": "2026-02-03T22:35:51.000Z",
+        "notes": "6yL1Xxvd7hN469ALHze6pETrL9prhyHQhMfwGP0LueI9plGm8dzuRc228jPsczazj6eKCqisyzLdy9NWyrtsqCbArkZw5QbExjRoMTztpFmqAlag5N0EeUbCzhGg37FnsRJjkCnOBUYle33E0bh3l50yWRMU4q9WgtUCkL7C4yx3uKhxfKxOAfrZ3JSnrnqmkOGJkqMXnl7RlJjiHaIwVHXpkhBg01peZ9ZGMWD3uw6RfdTYOa5IJzDreX"
+      },
+      "products": [
+        {
+          "_id": "698278471c508c5d5ec1a24d",
+          "name": "Bacon54153",
+          "amount": 125,
+          "price": 10888,
+          "manufacturer": "Microsoft",
+          "notes": "cnfUG9FYvbxUftcRzIJc03m0UBNGqxrx4chyEdOCx5oQkorXG7k90x0qCBKxsjAAeZIKvUR8fu5etRmxsxzU4xfUDRr5lthq0MqgarYghULTMQXR6XPDdHjybXjsEZpHjsn43gCyneRFRnRuLZPGdFtYjCFxBw5JTWFzznPg4x9JuWGCeq5ytxxGSCQUlCQKy6BKKmJZ8S2tWFrYVwMjwuQB2zEYdqZ4oS0KGmobU1Hjp4yP4NJqUhHpv0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10888,
+      "createdOn": "2026-02-03T22:35:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698278471c508c5d5ec1a205",
+          "products": [
+            {
+              "_id": "698278471c508c5d5ec1a24d",
+              "name": "Bacon54153",
+              "amount": 125,
+              "price": 10888,
+              "manufacturer": "Microsoft",
+              "notes": "cnfUG9FYvbxUftcRzIJc03m0UBNGqxrx4chyEdOCx5oQkorXG7k90x0qCBKxsjAAeZIKvUR8fu5etRmxsxzU4xfUDRr5lthq0MqgarYghULTMQXR6XPDdHjybXjsEZpHjsn43gCyneRFRnRuLZPGdFtYjCFxBw5JTWFzznPg4x9JuWGCeq5ytxxGSCQUlCQKy6BKKmJZ8S2tWFrYVwMjwuQB2zEYdqZ4oS0KGmobU1Hjp4yP4NJqUhHpv0",
+              "received": false
+            }
+          ],
+          "total_price": 10888,
+          "delivery": null,
+          "changedOn": "2026-02-03T22:35:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698278481c508c5d5ec1a29e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
