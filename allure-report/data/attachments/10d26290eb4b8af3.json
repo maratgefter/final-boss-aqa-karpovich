@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-2kFl3/mb1tepkc4V7JCGRUa6PGA\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c98c1c508c5d5ec1f2d4",
+        "email": "Melyssa_Nader90@yahoo.com",
+        "name": "Janis Friesen",
+        "country": "USA",
+        "city": "Bolingbrook",
+        "street": "Damien Avenue",
+        "house": 46,
+        "flat": 352,
+        "phone": "+19562188108",
+        "createdOn": "2026-02-04T22:34:52.000Z",
+        "notes": "jTZksze1BKMql9oh3QwwL4lut4CvKz27sOWn54ateHtYfR7CsDJB1E1cIWSLjRfemKFgFDsD7xXu5YhM8istvKjjPKTp4Bddz3FaD7LZW0N4iYL1HKt9PyIf5TN34XcNmf3fssgmsq8ujN07MOHhu6nL3OQricYqp9iQTj195mRBxvFL6PIrL54xAImt79aGUvduPM7JBPiQgg3jIBptj6x4mfPGGTISgFJKk9FORo42cVQinUtWGYbsZE"
+      },
+      "products": [
+        {
+          "_id": "6983c98c1c508c5d5ec1f2f7",
+          "name": "Gloves66730",
+          "amount": 733,
+          "price": 78133,
+          "manufacturer": "Apple",
+          "notes": "XY5TxeFEXE6WtTJfKjn02suLQHcu2fq8BgcDZTbyj0t4CLgjumrFEYHUTIToAc8CojPL0kVSGAs6sO89xh285QS1WxP1MjdN3vYeSb8hlTC7dcC3G3JlOuDIA2ddDNOvNGrmfcqzfp3G822i70M5rGB77Y25tyLzpTIS6e9cBWrcAhc4gKz3cWCoKiBid5SWBAKE0mV01b6WEKHoDF4AzdbcExIo7cL8bwAYBeqn01e4VQRqbmimUvJQCR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78133,
+      "createdOn": "2026-02-04T22:34:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c98c1c508c5d5ec1f2d4",
+          "products": [
+            {
+              "_id": "6983c98c1c508c5d5ec1f2f7",
+              "name": "Gloves66730",
+              "amount": 733,
+              "price": 78133,
+              "manufacturer": "Apple",
+              "notes": "XY5TxeFEXE6WtTJfKjn02suLQHcu2fq8BgcDZTbyj0t4CLgjumrFEYHUTIToAc8CojPL0kVSGAs6sO89xh285QS1WxP1MjdN3vYeSb8hlTC7dcC3G3JlOuDIA2ddDNOvNGrmfcqzfp3G822i70M5rGB77Y25tyLzpTIS6e9cBWrcAhc4gKz3cWCoKiBid5SWBAKE0mV01b6WEKHoDF4AzdbcExIo7cL8bwAYBeqn01e4VQRqbmimUvJQCR",
+              "received": false
+            }
+          ],
+          "total_price": 78133,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c98c1c508c5d5ec1f319"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

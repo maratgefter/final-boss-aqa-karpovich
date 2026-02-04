@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:35:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-F3VderOkNP4qfkSqsMZxxSay/WY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9b61c508c5d5ec2078f",
+        "email": "Jan_Christiansen41@yahoo.com",
+        "name": "Telly Conn",
+        "country": "Canada",
+        "city": "Stoltenbergville",
+        "street": "Abbie Junctions",
+        "house": 7,
+        "flat": 68,
+        "phone": "+17883279069",
+        "createdOn": "2026-02-04T22:35:34.000Z",
+        "notes": "ICfbguTE0HOwXCCFG7W7HnwqmJr2dFycQKiNrFL4QZ2F76FpxzIqFrNOu2hu0seGTPOzKo7lspNgUJqPjHLi34LfabP8lteZtYfe199l4eFdZLQ8fqhMPTM5aY6hhbfkh2Ymjhyjh6p4dmVuoTugbjcYPmky0cjUJPAh4hcCVVzwTOfWr4wmY1uc359XG9rc5jUzL1tGL7RCFB4xX3Pe13r97XiEok2TpIQWyoocUy9a8OHeNSYUNKoWO8"
+      },
+      "products": [
+        {
+          "_id": "6983c9b61c508c5d5ec207af",
+          "name": "Table40091",
+          "amount": 74,
+          "price": 57450,
+          "manufacturer": "Microsoft",
+          "notes": "4eFhUXpPMSOAwZtyuvpX9wLWJvRfNeLLt74pnAwDqTIFDOr2kfFinGQJy3QX9k6x01UQUYAjHn4XxzUyOT7lCcGKytVOvCuqXde6xe0FWBjKvKNM2ioTJ1nkaDwHus3rsFrfQAyjB9pFsHdv1CCImuEfDPXTWLlChHAjMfqY01m0vS0tS7ZdNbUNIvhCjFRQDGrz4qhbka61q4IY3g7EitWt383ujxwsYinHbLQd9Q9dr5Uuj82HlnFoIV",
+          "received": false
+        },
+        {
+          "_id": "6983c9b71c508c5d5ec207e5",
+          "name": "Computer91838",
+          "amount": 690,
+          "price": 43724,
+          "manufacturer": "Google",
+          "notes": "wINoood7Th4H47roAw89bI4xTAuE6hyVzNN9SXhRLhs7KknXkIpw3ooy1XsNIh7RxM3cWiIueZkdFzkSFQGWYkc9mJXlyQ2R8BszcL3ogaPNkvdJCoLYPCBf5HDg5Go4hchdacxPNGLJjD2WpOEwc9PK4XewcPv9oidYyNfNalb0xJDJnAPQjvhJwztpFBUp0i7tSvPZNWqfdL4c6cAu1VOjUENPQyk1ZYwegUKn719udCso7NIEa3bh06",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101174,
+      "createdOn": "2026-02-04T22:35:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9b61c508c5d5ec2078f",
+          "products": [
+            {
+              "_id": "6983c9b61c508c5d5ec207af",
+              "name": "Table40091",
+              "amount": 74,
+              "price": 57450,
+              "manufacturer": "Microsoft",
+              "notes": "4eFhUXpPMSOAwZtyuvpX9wLWJvRfNeLLt74pnAwDqTIFDOr2kfFinGQJy3QX9k6x01UQUYAjHn4XxzUyOT7lCcGKytVOvCuqXde6xe0FWBjKvKNM2ioTJ1nkaDwHus3rsFrfQAyjB9pFsHdv1CCImuEfDPXTWLlChHAjMfqY01m0vS0tS7ZdNbUNIvhCjFRQDGrz4qhbka61q4IY3g7EitWt383ujxwsYinHbLQd9Q9dr5Uuj82HlnFoIV",
+              "received": false
+            },
+            {
+              "_id": "6983c9b71c508c5d5ec207e5",
+              "name": "Computer91838",
+              "amount": 690,
+              "price": 43724,
+              "manufacturer": "Google",
+              "notes": "wINoood7Th4H47roAw89bI4xTAuE6hyVzNN9SXhRLhs7KknXkIpw3ooy1XsNIh7RxM3cWiIueZkdFzkSFQGWYkc9mJXlyQ2R8BszcL3ogaPNkvdJCoLYPCBf5HDg5Go4hchdacxPNGLJjD2WpOEwc9PK4XewcPv9oidYyNfNalb0xJDJnAPQjvhJwztpFBUp0i7tSvPZNWqfdL4c6cAu1VOjUENPQyk1ZYwegUKn719udCso7NIEa3bh06",
+              "received": false
+            }
+          ],
+          "total_price": 101174,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:35:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9b71c508c5d5ec20817"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

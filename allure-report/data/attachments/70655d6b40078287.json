@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-tIHq+kMVImOpzKfWZ/LYRkvizZo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9911c508c5d5ec1f519",
+        "email": "Sophie32@hotmail.com",
+        "name": "Joy Fadel",
+        "country": "Great Britain",
+        "city": "South Delphineton",
+        "street": "Treutel Stravenue",
+        "house": 8,
+        "flat": 433,
+        "phone": "+13773850613",
+        "createdOn": "2026-02-04T22:34:57.000Z",
+        "notes": "q6h8tTFSY42G3TXncfAt19t1Bdbc3LCYuYMqCBLa0Op7CpNc8u7rFHhuVWnd47RROJS84gPX5e071HXEeY3VqiQe6qJ9GRIJpvT5xYvAXhLZsV0vLImnQMtMKaFwJn6xuTnFCZiRuvz6DEeuDwLrdbeypicpA0Glgo66k5g5Weit7FU4EzhK5h353kytB4pcdsd9BkYrvKQRBiKkoMpzQKxwCpc1BljRdL4cDDBuqJ83csyChng7IZy3sE"
+      },
+      "products": [
+        {
+          "_id": "6983c9911c508c5d5ec1f541",
+          "name": "Hat99365",
+          "amount": 718,
+          "price": 35470,
+          "manufacturer": "Tesla",
+          "notes": "7AxwvO61DOXs9kzWhft1TVEvXETf6SLApmb0G8bI4LwlMAc7S1mk1Om9nbWJgjmX8LbZciSACf85szkGsRZUUiObyKKiLac3ii8SVpFt3yB3JZTc8CzNN0BwzbYWeOgm1LqXXAQbV7Z7ITezeoWcxVovUcDq77GmXr5JOyKy9xlVFxgxbqu7Y5B9ZJTPeFs5COVxrhQ2UAoWVimtjecxJjVcmLwXI5ME8A8g5lbsdwBWLo9Fluaydl8wV1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35470,
+      "createdOn": "2026-02-04T22:34:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9911c508c5d5ec1f519",
+          "products": [
+            {
+              "_id": "6983c9911c508c5d5ec1f541",
+              "name": "Hat99365",
+              "amount": 718,
+              "price": 35470,
+              "manufacturer": "Tesla",
+              "notes": "7AxwvO61DOXs9kzWhft1TVEvXETf6SLApmb0G8bI4LwlMAc7S1mk1Om9nbWJgjmX8LbZciSACf85szkGsRZUUiObyKKiLac3ii8SVpFt3yB3JZTc8CzNN0BwzbYWeOgm1LqXXAQbV7Z7ITezeoWcxVovUcDq77GmXr5JOyKy9xlVFxgxbqu7Y5B9ZJTPeFs5COVxrhQ2UAoWVimtjecxJjVcmLwXI5ME8A8g5lbsdwBWLo9Fluaydl8wV1",
+              "received": false
+            }
+          ],
+          "total_price": 35470,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9911c508c5d5ec1f570"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

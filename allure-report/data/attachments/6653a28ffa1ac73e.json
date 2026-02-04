@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:35:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-puYeNZQGNdugSQIAHlNMl6/apds\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c99d1c508c5d5ec1fb04",
+        "email": "Krystina26@yahoo.com",
+        "name": "Coby Stokes",
+        "country": "Germany",
+        "city": "Fort Jaedenland",
+        "street": "Bahringer Curve",
+        "house": 26,
+        "flat": 626,
+        "phone": "+14427205614",
+        "createdOn": "2026-02-04T22:35:09.000Z",
+        "notes": "XuFD5wGVeU2uoMOTfyf8rRidsS7klUpW21Z2asJTNGHzZBbCACQfoipx3GbHpXHVFdDAx5hQ0352ltFY6VNxbBKA8pCCZz5HPduaBeUQh7KF5wrDMmdhZLDV77eplWDgYFCWPE8VNpOojjpvaiuntdktnUim76JGGk4DNU4kguMmYNgkwXerS3e804dqYehA6dsumUnnVq2GWZxrTAqOC7lfbRNUsxqrSuosUDQc6L5EZuaTUpe5go9GqD"
+      },
+      "products": [
+        {
+          "_id": "6983c99d1c508c5d5ec1fb20",
+          "name": "Keyboard87267",
+          "amount": 598,
+          "price": 43756,
+          "manufacturer": "Sony",
+          "notes": "atDqwkYhbeqFh4GmoL9y21zyD6qzikWrabcZT35lW3MPncFwuWVCd78QvXgKYYG5lIEfIuoZYMjQ67slcWWK27gxQmiEDIXYEJi4b7ty4RermPfx7lsBzAeBZIWUvNsPWHOnstfSqfbE1SBg3uekZhwMBMlgNHpAY3gGPKvZaoogDDEWHjFDEUmupM3LeXtfUITp6iAsxmz2a8xTpaVvlP9MFTTsEucBiP46bv2KgL3lBdJ004LEjg3L0L",
+          "received": false
+        },
+        {
+          "_id": "6983c99e1c508c5d5ec1fb3a",
+          "name": "Pants48143",
+          "amount": 819,
+          "price": 55956,
+          "manufacturer": "Xiaomi",
+          "notes": "IKYL6rk7iD2Kumo3uzwJKkjlayV8ILPIu9j7SqkycRT0frr1s9e7ICqwxT5lWwYvtfzOmC0QSCvQotSETMGtcxfDJIy1mJO6Up4jQFA40um9uh2bx7qabMhiFEB1eTkwpL1LpsQ8eGAhg7qH6yPCCEwWemNjggQVXwOLESY3ykhcG17SQdD2ez9mGBoO5kPHANKNJ4bL2WYZi7y7VQvGETQvd8GHj99KQ8bM5G5uVBi136kC7yuIeGawN2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99712,
+      "createdOn": "2026-02-04T22:35:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c99d1c508c5d5ec1fb04",
+          "products": [
+            {
+              "_id": "6983c99d1c508c5d5ec1fb20",
+              "name": "Keyboard87267",
+              "amount": 598,
+              "price": 43756,
+              "manufacturer": "Sony",
+              "notes": "atDqwkYhbeqFh4GmoL9y21zyD6qzikWrabcZT35lW3MPncFwuWVCd78QvXgKYYG5lIEfIuoZYMjQ67slcWWK27gxQmiEDIXYEJi4b7ty4RermPfx7lsBzAeBZIWUvNsPWHOnstfSqfbE1SBg3uekZhwMBMlgNHpAY3gGPKvZaoogDDEWHjFDEUmupM3LeXtfUITp6iAsxmz2a8xTpaVvlP9MFTTsEucBiP46bv2KgL3lBdJ004LEjg3L0L",
+              "received": false
+            },
+            {
+              "_id": "6983c99e1c508c5d5ec1fb3a",
+              "name": "Pants48143",
+              "amount": 819,
+              "price": 55956,
+              "manufacturer": "Xiaomi",
+              "notes": "IKYL6rk7iD2Kumo3uzwJKkjlayV8ILPIu9j7SqkycRT0frr1s9e7ICqwxT5lWwYvtfzOmC0QSCvQotSETMGtcxfDJIy1mJO6Up4jQFA40um9uh2bx7qabMhiFEB1eTkwpL1LpsQ8eGAhg7qH6yPCCEwWemNjggQVXwOLESY3ykhcG17SQdD2ez9mGBoO5kPHANKNJ4bL2WYZi7y7VQvGETQvd8GHj99KQ8bM5G5uVBi136kC7yuIeGawN2",
+              "received": false
+            }
+          ],
+          "total_price": 99712,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:35:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c99e1c508c5d5ec1fb79"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

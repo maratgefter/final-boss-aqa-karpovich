@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-NDnLx99n5sblIy08WCMTH1/FzEA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9881c508c5d5ec1f116",
+        "email": "Dino23@gmail.com",
+        "name": "Briana Hoppe",
+        "country": "Germany",
+        "city": "Fort Nicklaushaven",
+        "street": "Urban Summit",
+        "house": 8,
+        "flat": 365,
+        "phone": "+12083772442",
+        "createdOn": "2026-02-04T22:34:48.000Z",
+        "notes": "byQf4DIn8PYkgf396hPQWohgDZvyboCwOwVMgw84CjDh6mJF0gpz5Mfwodty8WbFsqmeJpI9DVrRFsqOIH3Nnz57JSGWBTXUzdQ27NN2i3vaOwuKJS4tH0yPCQ1v8WDDRJfvzzirqr8ra65Fz3VXu6C4nSfr3NWJsLJTjGDUTSZ6IUtC0xOhLZHExFMxXsQVRo3EaO880xKRABVuCNBdM8xgeirtd7HMBQ0QffLdblYUN9uk95VhXwVKfk"
+      },
+      "products": [
+        {
+          "_id": "6983c9881c508c5d5ec1f138",
+          "name": "Cheese68768",
+          "amount": 135,
+          "price": 94994,
+          "manufacturer": "Amazon",
+          "notes": "ptVXB5KbmmmgX297ZxCdoTz1calV45nYJbXeLA8Xo52NtnNiw68cihQ4zNCxEibD2rAtywPk5QJDLRvA7cTzUergbyGLIkYgSAiGgcPTtSQ5pdUobEJghy2UGLSV5abABjTJ4GkcQGjnCwTCld9lhYr4vXYVgwNchutIGWFeMJwXZIrK24hjjrcrAo2W4RJZQR9lCrTgQzGRHpZhjCSbjZWCib2OpZTotSokhnmkeaf6jliqjc1IUcwEa6",
+          "received": false
+        },
+        {
+          "_id": "6983c9891c508c5d5ec1f14f",
+          "name": "Chair65806",
+          "amount": 903,
+          "price": 34259,
+          "manufacturer": "Xiaomi",
+          "notes": "rQFI1PIZuLJVbUmziz9ryFNwJl7ZRNdYTE7ZZFDOVpdsFmTGBpr5eBprnq0NfexqkFZqsWBZCus8g3SIhp7Qj1c4uWqCxLQMNXTzc7c2qdfUoxKksMRh0iDATP65sR37qb7LC0DpPTDDteyOSYSezqykF0bHG5QVBzZUOsURZadzykaQg4Wqk8YggxQospcFbb1zqdzJndspVSw6MiPuQ2OPRr1fHagUWN9KduB8n7lEmUmqDrXIXf5bdX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129253,
+      "createdOn": "2026-02-04T22:34:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9881c508c5d5ec1f116",
+          "products": [
+            {
+              "_id": "6983c9881c508c5d5ec1f138",
+              "name": "Cheese68768",
+              "amount": 135,
+              "price": 94994,
+              "manufacturer": "Amazon",
+              "notes": "ptVXB5KbmmmgX297ZxCdoTz1calV45nYJbXeLA8Xo52NtnNiw68cihQ4zNCxEibD2rAtywPk5QJDLRvA7cTzUergbyGLIkYgSAiGgcPTtSQ5pdUobEJghy2UGLSV5abABjTJ4GkcQGjnCwTCld9lhYr4vXYVgwNchutIGWFeMJwXZIrK24hjjrcrAo2W4RJZQR9lCrTgQzGRHpZhjCSbjZWCib2OpZTotSokhnmkeaf6jliqjc1IUcwEa6",
+              "received": false
+            },
+            {
+              "_id": "6983c9891c508c5d5ec1f14f",
+              "name": "Chair65806",
+              "amount": 903,
+              "price": 34259,
+              "manufacturer": "Xiaomi",
+              "notes": "rQFI1PIZuLJVbUmziz9ryFNwJl7ZRNdYTE7ZZFDOVpdsFmTGBpr5eBprnq0NfexqkFZqsWBZCus8g3SIhp7Qj1c4uWqCxLQMNXTzc7c2qdfUoxKksMRh0iDATP65sR37qb7LC0DpPTDDteyOSYSezqykF0bHG5QVBzZUOsURZadzykaQg4Wqk8YggxQospcFbb1zqdzJndspVSw6MiPuQ2OPRr1fHagUWN9KduB8n7lEmUmqDrXIXf5bdX",
+              "received": false
+            }
+          ],
+          "total_price": 129253,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9891c508c5d5ec1f18a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

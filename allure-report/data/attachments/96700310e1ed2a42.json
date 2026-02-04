@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2956",
+    "etag": "W/\"b8c-d0zgslNXv1aB7WYASafnwfLoJE8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6983c98b1c508c5d5ec1f24b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c98a1c508c5d5ec1f220",
+        "email": "Hilma_Kuhic@hotmail.com",
+        "name": "Harley Sanford",
+        "country": "USA",
+        "city": "Sawaynborough",
+        "street": "Emard Terrace",
+        "house": 11,
+        "flat": 940,
+        "phone": "+13483605207",
+        "createdOn": "2026-02-04T22:34:50.000Z",
+        "notes": "haOKgpdY40T4KwOecgewr0nSI7BrR7hB0d8v2mjTclwraYkwQxG7vh3nDH3Xf9aAvWFt7ePKbF8gFQ2RAVCa2m6eYc26GGXvgGADdCuQ83drc0LcWqLtWXXI9tJ6fKrHmNqrlLwZglNSLo0BbeTzwdXed7SL7Vhdj5rVgjScm3Jbminq4oF2yW1bcFylbqpnZEQGxWPfWkAshUcf1i0W2lyUuFAxmJFKFs85YEh5WLJDhgLD7smU9Xc63a"
+      },
+      "products": [
+        {
+          "_id": "6983c98b1c508c5d5ec1f234",
+          "name": "Chips65385",
+          "amount": 382,
+          "price": 56986,
+          "manufacturer": "Samsung",
+          "notes": "z4UijbhujLjxk6M8ll8rU5MSquE9Dy2veXSLj5gi1lhMqddMd45vsokxZAaq9dqwGrlQJHxmEVdKDft5j8T2Zh3boCaIy130CXrlcVVkR0jtAkzdlCJmxTYoUGJdESGdiKTIBWvXhhnX8FzRyEJG78vITuS7W4WU0J6eqr3EwOgOE72gBwtt3m7k0FDubsiPUeVHppp8klI47t4bsm7ILjVG15HbMSMI2T8XqPhy4b7HqNeVjUT5uTbbeu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56986,
+      "createdOn": "2026-02-04T22:34:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c98a1c508c5d5ec1f220",
+          "products": [
+            {
+              "_id": "6983c98b1c508c5d5ec1f234",
+              "name": "Chips65385",
+              "amount": 382,
+              "price": 56986,
+              "manufacturer": "Samsung",
+              "notes": "z4UijbhujLjxk6M8ll8rU5MSquE9Dy2veXSLj5gi1lhMqddMd45vsokxZAaq9dqwGrlQJHxmEVdKDft5j8T2Zh3boCaIy130CXrlcVVkR0jtAkzdlCJmxTYoUGJdESGdiKTIBWvXhhnX8FzRyEJG78vITuS7W4WU0J6eqr3EwOgOE72gBwtt3m7k0FDubsiPUeVHppp8klI47t4bsm7ILjVG15HbMSMI2T8XqPhy4b7HqNeVjUT5uTbbeu",
+              "received": false
+            }
+          ],
+          "total_price": 56986,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:51.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6983c98a1c508c5d5ec1f220",
+          "products": [
+            {
+              "_id": "6983c98b1c508c5d5ec1f234",
+              "name": "Chips65385",
+              "amount": 382,
+              "price": 56986,
+              "manufacturer": "Samsung",
+              "notes": "z4UijbhujLjxk6M8ll8rU5MSquE9Dy2veXSLj5gi1lhMqddMd45vsokxZAaq9dqwGrlQJHxmEVdKDft5j8T2Zh3boCaIy130CXrlcVVkR0jtAkzdlCJmxTYoUGJdESGdiKTIBWvXhhnX8FzRyEJG78vITuS7W4WU0J6eqr3EwOgOE72gBwtt3m7k0FDubsiPUeVHppp8klI47t4bsm7ILjVG15HbMSMI2T8XqPhy4b7HqNeVjUT5uTbbeu",
+              "received": false
+            }
+          ],
+          "total_price": 56986,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

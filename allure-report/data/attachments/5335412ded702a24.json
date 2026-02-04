@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-yEphEJBiC1OsvOPPmnyKFGeL6Mc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9901c508c5d5ec1f4eb",
+        "email": "Zack_Roob@gmail.com",
+        "name": "Kristofer Howell",
+        "country": "France",
+        "city": "West Palm Beach",
+        "street": "Fritsch Island",
+        "house": 22,
+        "flat": 809,
+        "phone": "+12135715408",
+        "createdOn": "2026-02-04T22:34:56.000Z",
+        "notes": "2Iznrg1T4MHfUtGvflnjQJZmjfaYAcVdlxSI95IFDMezzVTDQPBkKzlBIDoRcs5bzlx75dHlKDa65hXmZTqGk24xZDyzF59LMVtkDOkWgFjlz0cYtKfB3I74C4CtNXR2h7MnWFihrU8ftrkr4QA118oLdI6kjQbgU6DmLvGS483GV8cYnYqE2xNK31hbWzEgq9Hp0ZK5oCv2S4CixE8POUSzfrdoMWSPJ7GCBGPJ5WmrFb1YyJOJCt9nvq"
+      },
+      "products": [
+        {
+          "_id": "6983c9911c508c5d5ec1f507",
+          "name": "Shirt46850",
+          "amount": 756,
+          "price": 98012,
+          "manufacturer": "Tesla",
+          "notes": "ylfNTv5jMLZBvM7wU0xgmB4oJWPj4C1wiIfd9Z9gCMH6K6bvsaiMBJiSMtpHFqoG5izQJrp6Bq3It8ixMqgN9kF2lGDAOd26XwJIpT343ytO01C3tjbrK6u2lzBzqIvIGd1t2aFAF767FAlLCku981yJpWc1IU8632l916eiaSttx23QdzoNOOgGC0kaP2zXY5ohEIA01BuC8jpgZIEmJQ9493U1ZzOYy1easzy0dnK0pEEsqdFAgVAPRb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98012,
+      "createdOn": "2026-02-04T22:34:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9901c508c5d5ec1f4eb",
+          "products": [
+            {
+              "_id": "6983c9911c508c5d5ec1f507",
+              "name": "Shirt46850",
+              "amount": 756,
+              "price": 98012,
+              "manufacturer": "Tesla",
+              "notes": "ylfNTv5jMLZBvM7wU0xgmB4oJWPj4C1wiIfd9Z9gCMH6K6bvsaiMBJiSMtpHFqoG5izQJrp6Bq3It8ixMqgN9kF2lGDAOd26XwJIpT343ytO01C3tjbrK6u2lzBzqIvIGd1t2aFAF767FAlLCku981yJpWc1IU8632l916eiaSttx23QdzoNOOgGC0kaP2zXY5ohEIA01BuC8jpgZIEmJQ9493U1ZzOYy1easzy0dnK0pEEsqdFAgVAPRb",
+              "received": false
+            }
+          ],
+          "total_price": 98012,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9911c508c5d5ec1f52d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

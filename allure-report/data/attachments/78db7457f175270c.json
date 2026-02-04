@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-jPFLLsUYwLR5mFMzsanusBFabqk\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9861c508c5d5ec1effe",
+        "email": "Kali.Howell@gmail.com",
+        "name": "Cora Tremblay",
+        "country": "USA",
+        "city": "Missouri City",
+        "street": "Ebert Center",
+        "house": 15,
+        "flat": 487,
+        "phone": "+19753772563",
+        "createdOn": "2026-02-04T22:34:46.000Z",
+        "notes": "yIbRV4mNTmpynudkaKrgxN2fZKqg07iFmgUdNRjfnWDfCyzNFe8pQfqwcLpFr0GZGnyLTkjsTl92wI1Zvb0AGhPeb05BTXUNoqX38wLg1XoTF0qr4fSPmurwgPlFMV2MwIJAYk73rC2T6uhzI6IRElLCMI2ofvfDS2rKlnLusVqaGNbg3c89dfH7CPYmZSrYkBQQXHckz5tObZrnf4HlgDIqCpJf9c80mx3qTAp4AK4K2ZtwXxKnwLhKoz"
+      },
+      "products": [
+        {
+          "_id": "6983c9861c508c5d5ec1f026",
+          "name": "Fish58417",
+          "amount": 886,
+          "price": 41167,
+          "manufacturer": "Xiaomi",
+          "notes": "FShV173hMBcYrBe1IgGJ0Y4EPeequBLvIfpUKXdAp48rJVR6AEy9IkyAJfQSKjgX0SrletKH6CiNL8FESApaq2OKbO8ccFwERguvzlZvEbHx7R1KGyQJHRYn1x4G71oYtajSA2Atni2kdtMWDuPw2hBo2ASsoWuKnp4ph2ywoNgtQ0v2wLu4IgDHHBg56j6rgJa9fyP6Qe078p1RGgW2sX7Vq16iYeht4DWghf0etz58vmjokg01y68n0N",
+          "received": false
+        },
+        {
+          "_id": "6983c9861c508c5d5ec1f052",
+          "name": "Tuna62167",
+          "amount": 547,
+          "price": 60013,
+          "manufacturer": "Xiaomi",
+          "notes": "ZQMRGYvcgZs70vWGNnntHYCXlmKhQ9fg5XMRFahvtWIj8QQ8wfoD24Mc5gQKfrYY4n3k1lWV8UXtfiMlHjtAG7RBB1RksnqfusBPUWahADpMVWGe5hqb3n9lhk6vBmX4EOnBov63ACn8TXWkevEdukYGyFri4CzForBbZzvmLaKy3XHRrQZl1635BR7UiNE2jj6RCHK7dIG3wSB6pmnFnZbuJUJX7IFRVfLfew4kCCZ0F0a05W8bU45Fzp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101180,
+      "createdOn": "2026-02-04T22:34:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9861c508c5d5ec1effe",
+          "products": [
+            {
+              "_id": "6983c9861c508c5d5ec1f026",
+              "name": "Fish58417",
+              "amount": 886,
+              "price": 41167,
+              "manufacturer": "Xiaomi",
+              "notes": "FShV173hMBcYrBe1IgGJ0Y4EPeequBLvIfpUKXdAp48rJVR6AEy9IkyAJfQSKjgX0SrletKH6CiNL8FESApaq2OKbO8ccFwERguvzlZvEbHx7R1KGyQJHRYn1x4G71oYtajSA2Atni2kdtMWDuPw2hBo2ASsoWuKnp4ph2ywoNgtQ0v2wLu4IgDHHBg56j6rgJa9fyP6Qe078p1RGgW2sX7Vq16iYeht4DWghf0etz58vmjokg01y68n0N",
+              "received": false
+            },
+            {
+              "_id": "6983c9861c508c5d5ec1f052",
+              "name": "Tuna62167",
+              "amount": 547,
+              "price": 60013,
+              "manufacturer": "Xiaomi",
+              "notes": "ZQMRGYvcgZs70vWGNnntHYCXlmKhQ9fg5XMRFahvtWIj8QQ8wfoD24Mc5gQKfrYY4n3k1lWV8UXtfiMlHjtAG7RBB1RksnqfusBPUWahADpMVWGe5hqb3n9lhk6vBmX4EOnBov63ACn8TXWkevEdukYGyFri4CzForBbZzvmLaKy3XHRrQZl1635BR7UiNE2jj6RCHK7dIG3wSB6pmnFnZbuJUJX7IFRVfLfew4kCCZ0F0a05W8bU45Fzp",
+              "received": false
+            }
+          ],
+          "total_price": 101180,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9871c508c5d5ec1f083"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

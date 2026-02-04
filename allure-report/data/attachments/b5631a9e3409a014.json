@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-CEEM9Nf+tQ01Q08vzeATPu6DiaQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9901c508c5d5ec1f4ed",
+        "email": "Gillian72@hotmail.com",
+        "name": "Lyla Torphy",
+        "country": "France",
+        "city": "Gerholdside",
+        "street": "Dominic Ports",
+        "house": 40,
+        "flat": 339,
+        "phone": "+16697800062",
+        "createdOn": "2026-02-04T22:34:56.000Z",
+        "notes": "5TAipPogjzpP2PHpAnT1ei3L7bFR3qxDnbFJ0gJk2UWB9HkiijYKN9LfsY8ObkrkVsMJN0vbLfJarL9GXAsyflCqAxcFPTSmpNbuhGLVBnozGA0dae9o8FtSCmcDTElx013zdNHWIFGTzuH3ASqL0E5CVFEkAwzfLzD0WpZWBjEjljtlE9m2PXrW3AhliaIAtIrukEEdxMCmnjFUwFwM38HXBvuXNVekLZczIcdX6c2kpuiA6xYUmvhYRJ"
+      },
+      "products": [
+        {
+          "_id": "6983c9911c508c5d5ec1f505",
+          "name": "Soap94102",
+          "amount": 989,
+          "price": 20280,
+          "manufacturer": "Xiaomi",
+          "notes": "XuiO1CZhlc11x2FLJ6IPJFwd8IFNwYBcB54ynJ8a61bi7RtFuti8KwW5RtLLMUipoBoykpEXMG7P2fTlvwa8rOZopY8ATvYSa8VqeDgITGQqEK4aFH0iLBuwhqVXjThvwM4KQCGkL9QzJNXHokrCoQk2OoHS73YymtG6M07ZvWLpPUpSmhzWKYFUeDxAfYYtTlZ0kYV21a8xw8XuNCnDVkCkniar0vGGbMY301Kl7W1K8121BWDzT9N25W",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20280,
+      "createdOn": "2026-02-04T22:34:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9901c508c5d5ec1f4ed",
+          "products": [
+            {
+              "_id": "6983c9911c508c5d5ec1f505",
+              "name": "Soap94102",
+              "amount": 989,
+              "price": 20280,
+              "manufacturer": "Xiaomi",
+              "notes": "XuiO1CZhlc11x2FLJ6IPJFwd8IFNwYBcB54ynJ8a61bi7RtFuti8KwW5RtLLMUipoBoykpEXMG7P2fTlvwa8rOZopY8ATvYSa8VqeDgITGQqEK4aFH0iLBuwhqVXjThvwM4KQCGkL9QzJNXHokrCoQk2OoHS73YymtG6M07ZvWLpPUpSmhzWKYFUeDxAfYYtTlZ0kYV21a8xw8XuNCnDVkCkniar0vGGbMY301Kl7W1K8121BWDzT9N25W",
+              "received": false
+            }
+          ],
+          "total_price": 20280,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9911c508c5d5ec1f533"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

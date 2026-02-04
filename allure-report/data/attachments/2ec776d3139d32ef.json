@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:34:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-4fslM7yVOfDqI/eeR5WmEnQg/+s\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6983c9911c508c5d5ec1f539",
+        "email": "Josiane_Doyle-Bode46@hotmail.com",
+        "name": "Theodora Bogan",
+        "country": "USA",
+        "city": "Goyetteboro",
+        "street": "Stanley Road",
+        "house": 33,
+        "flat": 799,
+        "phone": "+16853572441",
+        "createdOn": "2026-02-04T22:34:57.000Z",
+        "notes": "RxZsMG8lrEBPG0Z4ZJIbgsGadBHAsrn3H4m07dGmDWlnd2bidYmEfFawjIe6nAkwaAvdBw6lw7djaelsr21x9Puq9VLAZ3oGg7dyyvTS66HxmSgxAraNgXc1xGTbcEEgj0aK9i5pwF9AYWQvby6qzoVyVBroENLX9l6iBqPDojFIWhOIaK3cvqKzlcamj87Scoxyeqh8dy8AZsuZG4PbpMY1QsLIEXTnWs5WrSV64rFsBChHetLZzqpxVE"
+      },
+      "products": [
+        {
+          "_id": "6983c9911c508c5d5ec1f564",
+          "name": "Tuna94675",
+          "amount": 426,
+          "price": 47738,
+          "manufacturer": "Google",
+          "notes": "MtLXenOtFeDpdOa51sbWnMgQvmXQGgymm6peb3qF4lk4thsdgFU3kG41Wgn7CZRvMqo8cDBmTb5ojq6zFGQ8f9w5Vq2OO3Yb8palYHghVrs7g0ORJ6QEGVUrtUz6o3Pj2GRogB7uFFEqWzkcSc9EcdVDwxeCh6PiwyBU9AS7WLXpc6YcXcTTOl9Vt1R1vs9KjSHBCN4DeXz14YFPoPV5IJnlPN0SJITbN4nVJSe9QQFUDDQ1jDxypHIrkt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47738,
+      "createdOn": "2026-02-04T22:34:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6983c9911c508c5d5ec1f539",
+          "products": [
+            {
+              "_id": "6983c9911c508c5d5ec1f564",
+              "name": "Tuna94675",
+              "amount": 426,
+              "price": 47738,
+              "manufacturer": "Google",
+              "notes": "MtLXenOtFeDpdOa51sbWnMgQvmXQGgymm6peb3qF4lk4thsdgFU3kG41Wgn7CZRvMqo8cDBmTb5ojq6zFGQ8f9w5Vq2OO3Yb8palYHghVrs7g0ORJ6QEGVUrtUz6o3Pj2GRogB7uFFEqWzkcSc9EcdVDwxeCh6PiwyBU9AS7WLXpc6YcXcTTOl9Vt1R1vs9KjSHBCN4DeXz14YFPoPV5IJnlPN0SJITbN4nVJSe9QQFUDDQ1jDxypHIrkt",
+              "received": false
+            }
+          ],
+          "total_price": 47738,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:34:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6983c9921c508c5d5ec1f585"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

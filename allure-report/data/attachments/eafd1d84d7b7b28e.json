@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Wed, 04 Feb 2026 22:35:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6754",
+    "etag": "W/\"1a62-C/z7gQ7lhNI+ICWdZJblDa/D3WQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6983c9a01c508c5d5ec1fc66",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6983c99f1c508c5d5ec1fbea",
+        "email": "Cayla.Gusikowski@yahoo.com",
+        "name": "Sallie Wilderman",
+        "country": "Ukraine",
+        "city": "Rodriguezburgh",
+        "street": "Cordelia Squares",
+        "house": 36,
+        "flat": 923,
+        "phone": "+12534205110",
+        "createdOn": "2026-02-04T22:35:11.000Z",
+        "notes": "PhHSoGKqp0jv3OzvQxNgBINaOYWDbX4ILMoU5vTeF1m8bGMXHMgZ8CUG1eRkfN1MBrFSMsAN5UY5Ye4eNNM1ezZ9LRYHsASmbirKp8KNgjrlNXIRCr2PwIeKXSmzoiGF4SD6Ue65ciuwlOPuTUyNEyO2rKRRisS0qjMUktAGePSwkQct36iiFH22aT2i1EByPG3FLOcUtaghhXZGVwYSqTKgyvUutO3o2ktQuDNJyvtTnuSs4FrTTGSr2o"
+      },
+      "products": [
+        {
+          "_id": "6983c99f1c508c5d5ec1fc1f",
+          "name": "Table79847",
+          "amount": 917,
+          "price": 465,
+          "manufacturer": "Google",
+          "notes": "SCTfDdY8GiM0SjWkAYUj3t99dCT78sRWcEKWfbo5g0y0y7klOYJbQTHw0O6jID9hxZFGvHdSjtcIMqdVyAdRlDTUZ8xsYiswO4ZBlIjrW6EtnRg4p056tyufAwrkzQ83mWImLWHa5qaCZ58MkOHT7WdN8egW7muiNTOBkRYyzG5s7IdYWS0zk7b5sBOeYKA4lazNzekPvFZMTZtigpuR8emX13TKp3jWRoCNhqdKAcTYPvPqioHSuKOkwr",
+          "received": false
+        },
+        {
+          "_id": "6983c9a01c508c5d5ec1fc3e",
+          "name": "Keyboard73302",
+          "amount": 712,
+          "price": 54891,
+          "manufacturer": "Google",
+          "notes": "ZF0V80ifyYHUfDiBY0YN77UKngREicMAKn12DUfklLktzoxA3rQfjUtLmEtWGntkJjSOGv7I1LNptjDIrykdlY4QWeAmT1iHsb6wMeF2L3SS0EeB1XzIpctORH13wtQVtjQYbfiNnK2r2ATUG87aW7qImCw3uXmOwHtFg5zEXgRg0QFZn4bAWqv9fOz5GrLFVHV0dFQycqyALqmBo7Gfq3K75l7sY9F4GjMz044IpHNiNgRcEm15j1NQFO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Rodriguezburgh",
+          "street": "Cordelia Squares",
+          "house": 36,
+          "flat": 923
+        },
+        "finalDate": "2026-02-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 55356,
+      "createdOn": "2026-02-04T22:35:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6983c99f1c508c5d5ec1fbea",
+          "products": [
+            {
+              "_id": "6983c99f1c508c5d5ec1fc1f",
+              "name": "Table79847",
+              "amount": 917,
+              "price": 465,
+              "manufacturer": "Google",
+              "notes": "SCTfDdY8GiM0SjWkAYUj3t99dCT78sRWcEKWfbo5g0y0y7klOYJbQTHw0O6jID9hxZFGvHdSjtcIMqdVyAdRlDTUZ8xsYiswO4ZBlIjrW6EtnRg4p056tyufAwrkzQ83mWImLWHa5qaCZ58MkOHT7WdN8egW7muiNTOBkRYyzG5s7IdYWS0zk7b5sBOeYKA4lazNzekPvFZMTZtigpuR8emX13TKp3jWRoCNhqdKAcTYPvPqioHSuKOkwr",
+              "received": false
+            },
+            {
+              "_id": "6983c9a01c508c5d5ec1fc3e",
+              "name": "Keyboard73302",
+              "amount": 712,
+              "price": 54891,
+              "manufacturer": "Google",
+              "notes": "ZF0V80ifyYHUfDiBY0YN77UKngREicMAKn12DUfklLktzoxA3rQfjUtLmEtWGntkJjSOGv7I1LNptjDIrykdlY4QWeAmT1iHsb6wMeF2L3SS0EeB1XzIpctORH13wtQVtjQYbfiNnK2r2ATUG87aW7qImCw3uXmOwHtFg5zEXgRg0QFZn4bAWqv9fOz5GrLFVHV0dFQycqyALqmBo7Gfq3K75l7sY9F4GjMz044IpHNiNgRcEm15j1NQFO",
+              "received": false
+            }
+          ],
+          "total_price": 55356,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rodriguezburgh",
+              "street": "Cordelia Squares",
+              "house": 36,
+              "flat": 923
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-04T22:35:16.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6983c99f1c508c5d5ec1fbea",
+          "products": [
+            {
+              "_id": "6983c99f1c508c5d5ec1fc1f",
+              "name": "Table79847",
+              "amount": 917,
+              "price": 465,
+              "manufacturer": "Google",
+              "notes": "SCTfDdY8GiM0SjWkAYUj3t99dCT78sRWcEKWfbo5g0y0y7klOYJbQTHw0O6jID9hxZFGvHdSjtcIMqdVyAdRlDTUZ8xsYiswO4ZBlIjrW6EtnRg4p056tyufAwrkzQ83mWImLWHa5qaCZ58MkOHT7WdN8egW7muiNTOBkRYyzG5s7IdYWS0zk7b5sBOeYKA4lazNzekPvFZMTZtigpuR8emX13TKp3jWRoCNhqdKAcTYPvPqioHSuKOkwr",
+              "received": false
+            },
+            {
+              "_id": "6983c9a01c508c5d5ec1fc3e",
+              "name": "Keyboard73302",
+              "amount": 712,
+              "price": 54891,
+              "manufacturer": "Google",
+              "notes": "ZF0V80ifyYHUfDiBY0YN77UKngREicMAKn12DUfklLktzoxA3rQfjUtLmEtWGntkJjSOGv7I1LNptjDIrykdlY4QWeAmT1iHsb6wMeF2L3SS0EeB1XzIpctORH13wtQVtjQYbfiNnK2r2ATUG87aW7qImCw3uXmOwHtFg5zEXgRg0QFZn4bAWqv9fOz5GrLFVHV0dFQycqyALqmBo7Gfq3K75l7sY9F4GjMz044IpHNiNgRcEm15j1NQFO",
+              "received": false
+            }
+          ],
+          "total_price": 55356,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rodriguezburgh",
+              "street": "Cordelia Squares",
+              "house": 36,
+              "flat": 923
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-04T22:35:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6983c99f1c508c5d5ec1fbea",
+          "products": [
+            {
+              "_id": "6983c99f1c508c5d5ec1fc1f",
+              "name": "Table79847",
+              "amount": 917,
+              "price": 465,
+              "manufacturer": "Google",
+              "notes": "SCTfDdY8GiM0SjWkAYUj3t99dCT78sRWcEKWfbo5g0y0y7klOYJbQTHw0O6jID9hxZFGvHdSjtcIMqdVyAdRlDTUZ8xsYiswO4ZBlIjrW6EtnRg4p056tyufAwrkzQ83mWImLWHa5qaCZ58MkOHT7WdN8egW7muiNTOBkRYyzG5s7IdYWS0zk7b5sBOeYKA4lazNzekPvFZMTZtigpuR8emX13TKp3jWRoCNhqdKAcTYPvPqioHSuKOkwr",
+              "received": false
+            },
+            {
+              "_id": "6983c9a01c508c5d5ec1fc3e",
+              "name": "Keyboard73302",
+              "amount": 712,
+              "price": 54891,
+              "manufacturer": "Google",
+              "notes": "ZF0V80ifyYHUfDiBY0YN77UKngREicMAKn12DUfklLktzoxA3rQfjUtLmEtWGntkJjSOGv7I1LNptjDIrykdlY4QWeAmT1iHsb6wMeF2L3SS0EeB1XzIpctORH13wtQVtjQYbfiNnK2r2ATUG87aW7qImCw3uXmOwHtFg5zEXgRg0QFZn4bAWqv9fOz5GrLFVHV0dFQycqyALqmBo7Gfq3K75l7sY9F4GjMz044IpHNiNgRcEm15j1NQFO",
+              "received": false
+            }
+          ],
+          "total_price": 55356,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rodriguezburgh",
+              "street": "Cordelia Squares",
+              "house": 36,
+              "flat": 923
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-04T22:35:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6983c99f1c508c5d5ec1fbea",
+          "products": [
+            {
+              "_id": "6983c99f1c508c5d5ec1fc1f",
+              "name": "Table79847",
+              "amount": 917,
+              "price": 465,
+              "manufacturer": "Google",
+              "notes": "SCTfDdY8GiM0SjWkAYUj3t99dCT78sRWcEKWfbo5g0y0y7klOYJbQTHw0O6jID9hxZFGvHdSjtcIMqdVyAdRlDTUZ8xsYiswO4ZBlIjrW6EtnRg4p056tyufAwrkzQ83mWImLWHa5qaCZ58MkOHT7WdN8egW7muiNTOBkRYyzG5s7IdYWS0zk7b5sBOeYKA4lazNzekPvFZMTZtigpuR8emX13TKp3jWRoCNhqdKAcTYPvPqioHSuKOkwr",
+              "received": false
+            },
+            {
+              "_id": "6983c9a01c508c5d5ec1fc3e",
+              "name": "Keyboard73302",
+              "amount": 712,
+              "price": 54891,
+              "manufacturer": "Google",
+              "notes": "ZF0V80ifyYHUfDiBY0YN77UKngREicMAKn12DUfklLktzoxA3rQfjUtLmEtWGntkJjSOGv7I1LNptjDIrykdlY4QWeAmT1iHsb6wMeF2L3SS0EeB1XzIpctORH13wtQVtjQYbfiNnK2r2ATUG87aW7qImCw3uXmOwHtFg5zEXgRg0QFZn4bAWqv9fOz5GrLFVHV0dFQycqyALqmBo7Gfq3K75l7sY9F4GjMz044IpHNiNgRcEm15j1NQFO",
+              "received": false
+            }
+          ],
+          "total_price": 55356,
+          "delivery": null,
+          "changedOn": "2026-02-04T22:35:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
