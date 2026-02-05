@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3415",
+    "etag": "W/\"d57-J2mtxG/5VvObRyFWASc+N07t9Xo\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851b011c508c5d5ec248d3",
+        "email": "Mathew_Kohler@hotmail.com",
+        "name": "Sebastian Gleason",
+        "country": "Canada",
+        "city": "Lake Earlfurt",
+        "street": "Jacey Hills",
+        "house": 42,
+        "flat": 685,
+        "phone": "+12722638318",
+        "createdOn": "2026-02-05T22:34:41.000Z",
+        "notes": "AuZl6B86Hwhd9JfOAO6KyqDk9QfjDgrOJcrJXoXJLydFFBQOqBfec35UFQRZIqUIxP4CZ3l6fwOp08AvVUOPPALay1antb5G4l1Hj7jICxbGHJlNulOSU1XfPpJQGiXMpZpyG6zzBIx6xDrMJCam4ddBOjAdGdKAJhkZtH89DAFa4ycNOXr9AaqowQpdtlVmBqtYvmmrxbLqHnqtdLm4n81lcixGH7NupJfCXds4Xc50Ksy0A9eYjycAx2"
+      },
+      "products": [
+        {
+          "_id": "69851b021c508c5d5ec24954",
+          "name": "Salad28548",
+          "amount": 168,
+          "price": 65291,
+          "manufacturer": "Sony",
+          "notes": "j9i49NlFGh0C10NyPsZqWqYrnkm4NBUw1ptH6H9RkWsgtOqFUgW0QEW9BeAua5CcgoHtbaKLMDc8MJvocFEebt47W4GNeSwArWD1crOIEOnjqmro8yytqmS4j8DjwGFI4EXFDwROxySMdXBEPdFe9Ct7Pll4vNZMxTxFyyDNo1JnqD9vfneww4xk5A6R8ZcttFEwjVWi0B0ncAxWyXLOHEdy6i8TZqvUyFjSo2Rhfd0xCNNKNXrGL1Wieb",
+          "received": false
+        },
+        {
+          "_id": "69851b021c508c5d5ec249ae",
+          "name": "Ball76403",
+          "amount": 323,
+          "price": 15514,
+          "manufacturer": "Tesla",
+          "notes": "1qe1GjajgUo8ygmgNRv4D2r5ZKwkeaxNxKNzPff4duGYrp9JTregA8bll1HotkktBQZwZEJi7OsKd59cV4bNg23XC9BvbTCHEXtjLk4tMuQhX3eL2UsXTJXDua26mqvdCXAvaHF9KzuweLoHccHBegkxHv8peesMDsuSKtemuxm6dMTRVNcOYsKzMy5BNnS1aUchMNBBOxQnsEft2sPqC7G3UElf0rxhVIUQGMlSZnumrde0RZzMJdBUAi",
+          "received": false
+        },
+        {
+          "_id": "69851b051c508c5d5ec24b05",
+          "name": "Towels26553",
+          "amount": 3,
+          "price": 9374,
+          "manufacturer": "Samsung",
+          "notes": "BdcDJUv8K8YrMAiHlxKV8ZBQjWZuXi1u7FK3rLwZX3dIQC485shIjBnXAjDLNnzux6ZBGEvoioGakoAOQ1HiaP3O3Drvi0G7q4PJezWNjKZZsIKPb1aYClXusv1DS6O3CKGtA4beMdJxp1Ds7hX52ECfDerrkgyNG1nszzGN95GYoHlfZi5jE41o9vqs9pdMuwKdau6QQo9O6FuraG7piAXPo6OoDMFZTBSFTYY7Njwgi85gSAfkmInVJU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90179,
+      "createdOn": "2026-02-05T22:34:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851b011c508c5d5ec248d3",
+          "products": [
+            {
+              "_id": "69851b021c508c5d5ec24954",
+              "name": "Salad28548",
+              "amount": 168,
+              "price": 65291,
+              "manufacturer": "Sony",
+              "notes": "j9i49NlFGh0C10NyPsZqWqYrnkm4NBUw1ptH6H9RkWsgtOqFUgW0QEW9BeAua5CcgoHtbaKLMDc8MJvocFEebt47W4GNeSwArWD1crOIEOnjqmro8yytqmS4j8DjwGFI4EXFDwROxySMdXBEPdFe9Ct7Pll4vNZMxTxFyyDNo1JnqD9vfneww4xk5A6R8ZcttFEwjVWi0B0ncAxWyXLOHEdy6i8TZqvUyFjSo2Rhfd0xCNNKNXrGL1Wieb",
+              "received": false
+            },
+            {
+              "_id": "69851b021c508c5d5ec249ae",
+              "name": "Ball76403",
+              "amount": 323,
+              "price": 15514,
+              "manufacturer": "Tesla",
+              "notes": "1qe1GjajgUo8ygmgNRv4D2r5ZKwkeaxNxKNzPff4duGYrp9JTregA8bll1HotkktBQZwZEJi7OsKd59cV4bNg23XC9BvbTCHEXtjLk4tMuQhX3eL2UsXTJXDua26mqvdCXAvaHF9KzuweLoHccHBegkxHv8peesMDsuSKtemuxm6dMTRVNcOYsKzMy5BNnS1aUchMNBBOxQnsEft2sPqC7G3UElf0rxhVIUQGMlSZnumrde0RZzMJdBUAi",
+              "received": false
+            },
+            {
+              "_id": "69851b051c508c5d5ec24b05",
+              "name": "Towels26553",
+              "amount": 3,
+              "price": 9374,
+              "manufacturer": "Samsung",
+              "notes": "BdcDJUv8K8YrMAiHlxKV8ZBQjWZuXi1u7FK3rLwZX3dIQC485shIjBnXAjDLNnzux6ZBGEvoioGakoAOQ1HiaP3O3Drvi0G7q4PJezWNjKZZsIKPb1aYClXusv1DS6O3CKGtA4beMdJxp1Ds7hX52ECfDerrkgyNG1nszzGN95GYoHlfZi5jE41o9vqs9pdMuwKdau6QQo9O6FuraG7piAXPo6OoDMFZTBSFTYY7Njwgi85gSAfkmInVJU",
+              "received": false
+            }
+          ],
+          "total_price": 90179,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851b051c508c5d5ec24b2f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

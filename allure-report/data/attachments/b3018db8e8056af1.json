@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:33:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-l0tUtAMYMxJoCmK3hu12kuY3cNo\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ad11c508c5d5ec2305a",
+        "email": "Jessica34@hotmail.com",
+        "name": "Owen Ward",
+        "country": "USA",
+        "city": "Fort Jeramycester",
+        "street": "Kenya Crossroad",
+        "house": 7,
+        "flat": 902,
+        "phone": "+15854875282",
+        "createdOn": "2026-02-05T22:33:53.000Z",
+        "notes": "IYixS5SspEd9B9n15MzMhJ7bx17FLYsuB66PYGZZT19909Yl7E6AjGMSjVzBemSLlFvfcAscmUqSANHSDfE9x4EZa7Ou2bYLK4sLGqPgxmtMhftrqHZWkO3eb6iR0PduJfBDd1dlrUpXfSfEDGrus0eykHn3yZbxoR1MLoFTEPXlHxElMPefhWmUFrAtjNiUlKw6wlwC9DtShCVL5osMbsvspIwMtDSAxOTiwkS6OqEXQTs9eG9h9CoSx1"
+      },
+      "products": [
+        {
+          "_id": "69851ad11c508c5d5ec2306f",
+          "name": "Pizza74844",
+          "amount": 322,
+          "price": 37291,
+          "manufacturer": "Sony",
+          "notes": "ML7W5wAMHclvitqXvc6iK90WKXuHxBMLPm91nqqJaVrGTonyIi4clA5tcrHSdsY63d4I4MSCpUUm8fnHkT5AazzCiXgTDSjSYzuxKe8Xq7mCAqE3NqYHeUEH3BXdv96s79z1SXSKMjykXnoUe0Iwe2h3hsMHfSOtfvfSKVqyuLbKWkZEQpvYl3kSggHk2hFjpWALnfabCQM8nIjIUdanxNBLMWu5B1pxpKIHj7jrrgEB0oWyRRicjGONQq",
+          "received": false
+        },
+        {
+          "_id": "69851ad11c508c5d5ec2308d",
+          "name": "Cheese58674",
+          "amount": 448,
+          "price": 84441,
+          "manufacturer": "Xiaomi",
+          "notes": "neeNJV2j9nPr6LHl1WxzpB695TY6DNPdBONU0QrECV9CLdxXdepMlcOZLepRfIrgriOFfdDMBKkLV5lnlR2ml02yOekfPdseiGmSylYQhglL5PcWM0PxAffSg9scuWBUbsBsGgVtwk1LFFe6C2U7EGKN8QAuNbBEJUCX1y1Cib8YV6lFH3NWCmc5nixYrLcoZ5AnDiY0sc0OfOZ2hZur5lETk0AnYrjc4rRg2HGA5SWUv1f6LX413T3WHv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121732,
+      "createdOn": "2026-02-05T22:33:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ad11c508c5d5ec2305a",
+          "products": [
+            {
+              "_id": "69851ad11c508c5d5ec2306f",
+              "name": "Pizza74844",
+              "amount": 322,
+              "price": 37291,
+              "manufacturer": "Sony",
+              "notes": "ML7W5wAMHclvitqXvc6iK90WKXuHxBMLPm91nqqJaVrGTonyIi4clA5tcrHSdsY63d4I4MSCpUUm8fnHkT5AazzCiXgTDSjSYzuxKe8Xq7mCAqE3NqYHeUEH3BXdv96s79z1SXSKMjykXnoUe0Iwe2h3hsMHfSOtfvfSKVqyuLbKWkZEQpvYl3kSggHk2hFjpWALnfabCQM8nIjIUdanxNBLMWu5B1pxpKIHj7jrrgEB0oWyRRicjGONQq",
+              "received": false
+            },
+            {
+              "_id": "69851ad11c508c5d5ec2308d",
+              "name": "Cheese58674",
+              "amount": 448,
+              "price": 84441,
+              "manufacturer": "Xiaomi",
+              "notes": "neeNJV2j9nPr6LHl1WxzpB695TY6DNPdBONU0QrECV9CLdxXdepMlcOZLepRfIrgriOFfdDMBKkLV5lnlR2ml02yOekfPdseiGmSylYQhglL5PcWM0PxAffSg9scuWBUbsBsGgVtwk1LFFe6C2U7EGKN8QAuNbBEJUCX1y1Cib8YV6lFH3NWCmc5nixYrLcoZ5AnDiY0sc0OfOZ2hZur5lETk0AnYrjc4rRg2HGA5SWUv1f6LX413T3WHv",
+              "received": false
+            }
+          ],
+          "total_price": 121732,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:33:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851ad21c508c5d5ec230d3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

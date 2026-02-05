@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:33:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-tAkSIqiGsROy1wZNQB/F31NAGRE\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69851acf1c508c5d5ec22f70",
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ace1c508c5d5ec22f30",
+        "email": "Cortez_Senger64@yahoo.com",
+        "name": "Lora Flatley",
+        "country": "Belarus",
+        "city": "Enterprise",
+        "street": "Kuvalis Harbor",
+        "house": 22,
+        "flat": 426,
+        "phone": "+19483735510",
+        "createdOn": "2026-02-05T22:33:50.000Z",
+        "notes": "cU78zQdjeqMiWCEADj6UsIQz5tMXfrTVWmB3aQ8r3GaejhYKrQLTcnm98PxKJYQvsuA2q7MbWaafNOUsMwPqNdrat30WL1QMrZbnWGQzFfD1nwNqkOIP6KjI42kdZvhcYup1B0ujOFsyPh5z4elWLio4czOgZlDoRjMUqeN8w5m2ZaaCP2rkLFyde3IyeOVvXMMQDqzuPwbEAyMiXAcMAjgO0nTQloKfnzV6qtQUl1bci4PcOnGSw3t7pG"
+      },
+      "products": [
+        {
+          "_id": "69851acf1c508c5d5ec22f47",
+          "name": "Shoes1028",
+          "amount": 989,
+          "price": 44526,
+          "manufacturer": "Sony",
+          "notes": "WMsg6uNl8o7tPlwUsB2VOCzvnKoggSC8LWgH6Vx26u1LbzQoCNKcLhsvVo0MVm3e9A6et7NN4tzvtuvk7YAcRE5snnAJmT3WxGS9ysbnsxiDQy18WB1VYjTSjddfUY5LhlHwSowj5yXO8gW8MTByPPubfpGuUtiQmLSQCsNYCaKoHUQcbVf9hPW6fQ2LQFA8QvYOFYOOqA0CbQUd8uhdCBLO9O2cHeD5TvajYkQaGN3svbwIHJ6nJKsjrP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44526,
+      "createdOn": "2026-02-05T22:33:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ace1c508c5d5ec22f30",
+          "products": [
+            {
+              "_id": "69851acf1c508c5d5ec22f47",
+              "name": "Shoes1028",
+              "amount": 989,
+              "price": 44526,
+              "manufacturer": "Sony",
+              "notes": "WMsg6uNl8o7tPlwUsB2VOCzvnKoggSC8LWgH6Vx26u1LbzQoCNKcLhsvVo0MVm3e9A6et7NN4tzvtuvk7YAcRE5snnAJmT3WxGS9ysbnsxiDQy18WB1VYjTSjddfUY5LhlHwSowj5yXO8gW8MTByPPubfpGuUtiQmLSQCsNYCaKoHUQcbVf9hPW6fQ2LQFA8QvYOFYOOqA0CbQUd8uhdCBLO9O2cHeD5TvajYkQaGN3svbwIHJ6nJKsjrP",
+              "received": false
+            }
+          ],
+          "total_price": 44526,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:33:51.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69851ace1c508c5d5ec22f30",
+          "products": [
+            {
+              "_id": "69851acf1c508c5d5ec22f47",
+              "name": "Shoes1028",
+              "amount": 989,
+              "price": 44526,
+              "manufacturer": "Sony",
+              "notes": "WMsg6uNl8o7tPlwUsB2VOCzvnKoggSC8LWgH6Vx26u1LbzQoCNKcLhsvVo0MVm3e9A6et7NN4tzvtuvk7YAcRE5snnAJmT3WxGS9ysbnsxiDQy18WB1VYjTSjddfUY5LhlHwSowj5yXO8gW8MTByPPubfpGuUtiQmLSQCsNYCaKoHUQcbVf9hPW6fQ2LQFA8QvYOFYOOqA0CbQUd8uhdCBLO9O2cHeD5TvajYkQaGN3svbwIHJ6nJKsjrP",
+              "received": false
+            }
+          ],
+          "total_price": 44526,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:33:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5263",
+    "etag": "W/\"148f-eLw1XR3z1s6cSgyu5k45/5Zu6vA\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69851aef1c508c5d5ec23f1d",
+      "status": "Draft",
+      "customer": {
+        "_id": "69851aed1c508c5d5ec23e35",
+        "email": "Odell32@hotmail.com",
+        "name": "Erling Cremin",
+        "country": "Canada",
+        "city": "Lake Kielmouth",
+        "street": "Dolores Estate",
+        "house": 21,
+        "flat": 900,
+        "phone": "+15417393281",
+        "createdOn": "2026-02-05T22:34:21.000Z",
+        "notes": "M4Uw8kfRE13VaUJoptGYsPsUSzxZb0tzrNhdS0NK7USHBwuDKXOxmspAiRhZurJQmlD6k3NYJ8LiXY0pR6UurgY1kRmmxLuBPDNx9KTNmPvvrB7vXxzdwAsy3E7GSJwpE4NUfsR5uT5Kx2n6ig4GTTGFDgLxIk6d7kFE693YXB6oz05kD3uzub17YzXeGUubpLpJFZUHLpARzCCAw2ebembeBx2V2kOM04BrovVbPupj0iarNNAbocLgX0"
+      },
+      "products": [
+        {
+          "_id": "69851aee1c508c5d5ec23e8f",
+          "name": "Bike85567",
+          "amount": 422,
+          "price": 39540,
+          "manufacturer": "Google",
+          "notes": "6CxUD2gzZKt84O9z9tAN2VQJwbRy5N2G0dH71t73DGi9JQLAPI3k85Opnf3YKBWxg6Ad2qhScO93DUNTOwKGDYnYnkffqlogpLoF9m4aPbKkpSuubg3rhnTawmds6rSArlrqxetHV6brqIRk0cjd4dfkoYOM7M0ObyjzIFGO43dWqZwL7LGHkVas4UZTVnNtY2gJt3tTL9n9T5impJVgPfpVGCNJvYAwbRiuFhoCeZKZjwggblfWp7XnPL",
+          "received": false
+        },
+        {
+          "_id": "69851aee1c508c5d5ec23eb5",
+          "name": "Computer23949",
+          "amount": 405,
+          "price": 72326,
+          "manufacturer": "Sony",
+          "notes": "lIb89p9xEv2GGRo4gaDI8o95uWX6f3hdqCCbJFWzzIxbjAGYiDhmjW3Zha5xC1YjTVLjmOY1qAwMRSugfKaXSjQYZ274FuofGHh7v4kKBw3fymkcb4KEZ4ITXWiFdMDCn0nJ08aHNF85VnHpE4N5JWcKaQT4s081MHXfrB6xbiTmFXB7jMAbABbyLHVVMzmwcGVmnroYAsrgpU9YZghW4HOYBSHxP0DZC8quYVxvZWg1V5VMwytxu50Qdc",
+          "received": false
+        },
+        {
+          "_id": "69851aee1c508c5d5ec23ee7",
+          "name": "Pants9343",
+          "amount": 476,
+          "price": 30160,
+          "manufacturer": "Amazon",
+          "notes": "hmpVpt01SAeo2NiqkpHWPgm0wpBaO5XpChty7fwK7rl5JrVoHcPkyV0j5nYvwJ9PXMYeik2Ob7Hig1bSfmiQEWxAJRVDD7A2NWAhZ0quHc4s8m1WDWDL9xmRj3tNTCJK5FZXR5kXX8zjQBUO7J87l2doK5tyFxBoUfY4wzSo4IO9DpdHfQGhvOvhvBHQh4MESTacfG8OgbrWwilKrZVcxdXbuGlruFQDPvgY10JO81DYFeyYeIU07Wko2i",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Kielmouth",
+          "street": "Dolores Estate",
+          "house": 21,
+          "flat": 900
+        },
+        "finalDate": "2026-02-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 142026,
+      "createdOn": "2026-02-05T22:34:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851aed1c508c5d5ec23e35",
+          "products": [
+            {
+              "_id": "69851aee1c508c5d5ec23e8f",
+              "name": "Bike85567",
+              "amount": 422,
+              "price": 39540,
+              "manufacturer": "Google",
+              "notes": "6CxUD2gzZKt84O9z9tAN2VQJwbRy5N2G0dH71t73DGi9JQLAPI3k85Opnf3YKBWxg6Ad2qhScO93DUNTOwKGDYnYnkffqlogpLoF9m4aPbKkpSuubg3rhnTawmds6rSArlrqxetHV6brqIRk0cjd4dfkoYOM7M0ObyjzIFGO43dWqZwL7LGHkVas4UZTVnNtY2gJt3tTL9n9T5impJVgPfpVGCNJvYAwbRiuFhoCeZKZjwggblfWp7XnPL",
+              "received": false
+            },
+            {
+              "_id": "69851aee1c508c5d5ec23eb5",
+              "name": "Computer23949",
+              "amount": 405,
+              "price": 72326,
+              "manufacturer": "Sony",
+              "notes": "lIb89p9xEv2GGRo4gaDI8o95uWX6f3hdqCCbJFWzzIxbjAGYiDhmjW3Zha5xC1YjTVLjmOY1qAwMRSugfKaXSjQYZ274FuofGHh7v4kKBw3fymkcb4KEZ4ITXWiFdMDCn0nJ08aHNF85VnHpE4N5JWcKaQT4s081MHXfrB6xbiTmFXB7jMAbABbyLHVVMzmwcGVmnroYAsrgpU9YZghW4HOYBSHxP0DZC8quYVxvZWg1V5VMwytxu50Qdc",
+              "received": false
+            },
+            {
+              "_id": "69851aee1c508c5d5ec23ee7",
+              "name": "Pants9343",
+              "amount": 476,
+              "price": 30160,
+              "manufacturer": "Amazon",
+              "notes": "hmpVpt01SAeo2NiqkpHWPgm0wpBaO5XpChty7fwK7rl5JrVoHcPkyV0j5nYvwJ9PXMYeik2Ob7Hig1bSfmiQEWxAJRVDD7A2NWAhZ0quHc4s8m1WDWDL9xmRj3tNTCJK5FZXR5kXX8zjQBUO7J87l2doK5tyFxBoUfY4wzSo4IO9DpdHfQGhvOvhvBHQh4MESTacfG8OgbrWwilKrZVcxdXbuGlruFQDPvgY10JO81DYFeyYeIU07Wko2i",
+              "received": false
+            }
+          ],
+          "total_price": 142026,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Kielmouth",
+              "street": "Dolores Estate",
+              "house": 21,
+              "flat": 900
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-05T22:34:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69851aed1c508c5d5ec23e35",
+          "products": [
+            {
+              "_id": "69851aee1c508c5d5ec23e8f",
+              "name": "Bike85567",
+              "amount": 422,
+              "price": 39540,
+              "manufacturer": "Google",
+              "notes": "6CxUD2gzZKt84O9z9tAN2VQJwbRy5N2G0dH71t73DGi9JQLAPI3k85Opnf3YKBWxg6Ad2qhScO93DUNTOwKGDYnYnkffqlogpLoF9m4aPbKkpSuubg3rhnTawmds6rSArlrqxetHV6brqIRk0cjd4dfkoYOM7M0ObyjzIFGO43dWqZwL7LGHkVas4UZTVnNtY2gJt3tTL9n9T5impJVgPfpVGCNJvYAwbRiuFhoCeZKZjwggblfWp7XnPL",
+              "received": false
+            },
+            {
+              "_id": "69851aee1c508c5d5ec23eb5",
+              "name": "Computer23949",
+              "amount": 405,
+              "price": 72326,
+              "manufacturer": "Sony",
+              "notes": "lIb89p9xEv2GGRo4gaDI8o95uWX6f3hdqCCbJFWzzIxbjAGYiDhmjW3Zha5xC1YjTVLjmOY1qAwMRSugfKaXSjQYZ274FuofGHh7v4kKBw3fymkcb4KEZ4ITXWiFdMDCn0nJ08aHNF85VnHpE4N5JWcKaQT4s081MHXfrB6xbiTmFXB7jMAbABbyLHVVMzmwcGVmnroYAsrgpU9YZghW4HOYBSHxP0DZC8quYVxvZWg1V5VMwytxu50Qdc",
+              "received": false
+            },
+            {
+              "_id": "69851aee1c508c5d5ec23ee7",
+              "name": "Pants9343",
+              "amount": 476,
+              "price": 30160,
+              "manufacturer": "Amazon",
+              "notes": "hmpVpt01SAeo2NiqkpHWPgm0wpBaO5XpChty7fwK7rl5JrVoHcPkyV0j5nYvwJ9PXMYeik2Ob7Hig1bSfmiQEWxAJRVDD7A2NWAhZ0quHc4s8m1WDWDL9xmRj3tNTCJK5FZXR5kXX8zjQBUO7J87l2doK5tyFxBoUfY4wzSo4IO9DpdHfQGhvOvhvBHQh4MESTacfG8OgbrWwilKrZVcxdXbuGlruFQDPvgY10JO81DYFeyYeIU07Wko2i",
+              "received": false
+            }
+          ],
+          "total_price": 142026,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

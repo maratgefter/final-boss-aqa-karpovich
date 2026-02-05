@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-Rh2sWhE4ckKZerBAS4j5sYHjka8\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ad61c508c5d5ec232f1",
+        "email": "Jeromy.Cremin84@hotmail.com",
+        "name": "Chloe Smitham",
+        "country": "France",
+        "city": "Christaport",
+        "street": "Otha Forks",
+        "house": 50,
+        "flat": 852,
+        "phone": "+13863187834",
+        "createdOn": "2026-02-05T22:33:58.000Z",
+        "notes": "MQiQ0MMe5cLvS8DpvorgXiYz0FTxtvUYAdCN2SqYboxrICysCrLbcmDoxvI6NjgHlA6doSZhIOE2KCvx666QLgeNSvl9qauu97C2uDNtgMACiSBQ32Qz5pWqRdNAVpl1ZgEXCx93oCz0KpMjI5AY5eLZN9tZKAfExtMLoX74bYKGL2Ye0skF8OovnylNEmOAvIeSAQ29Jl15z9bhJwnISEbG9ehxzn7GCXqCBBBRyWWXzWJpxncUCtptnD"
+      },
+      "products": [
+        {
+          "_id": "69851ad71c508c5d5ec23312",
+          "name": "Bacon55036",
+          "amount": 968,
+          "price": 62342,
+          "manufacturer": "Amazon",
+          "notes": "QKyivPiM5WOIwEfGmzu9zC637L56b8R1whK39McE1NnyDGE6VBsppQF80ddsm4T06NLBMf9dPFfwdNJI3XfF4ABVtRY9V1TrVlKMIEn06nv41Q4wECs1VYELu1kNYVOWdaUOQXyoj8Wtq8wZa3kecxVAJaBNEEKgdfLq8IeAJXJxoE0Ev2nWuxqExN0c0GBmh86Ah6qnleejYOUmlvGHdfmF873V3H2FAGxbrPbZbqbU6NiDcl7miKwcnm",
+          "received": false
+        },
+        {
+          "_id": "69851ad71c508c5d5ec23332",
+          "name": "Salad8646",
+          "amount": 134,
+          "price": 50782,
+          "manufacturer": "Google",
+          "notes": "mkhrmTjCHOrzB4WeOp4EH23SFgw98ON4jLNa5FJaI3CmJPgig3mpfNaqJ3RoWYYLZDIzSylue1QE3Ljnxw2HgRukP5C0dqypTrAbdLbRQBKe6JFiqCKRiR8XOR5pAZf1ikqFId7u0dPKIaQ5NKzcsHFM795RSH4a9xx0yX3dnJCS0CstH89SLngEB1BH5ae8OxFTUMXHYI6RkVoyxxXMYPObQk7scuIASYeJkISk1EI9HUi9xiOzEMtUuV",
+          "received": false
+        },
+        {
+          "_id": "69851ad81c508c5d5ec233a8",
+          "name": "Car35244",
+          "amount": 259,
+          "price": 32982,
+          "manufacturer": "Microsoft",
+          "notes": "vMGWYrURM9KeuZyTVXm4Gvv3LRriE7aNlbTP35fSF32GknubksLwsYmYD51Ic1KD8gvk6owT4Key4wZuAKhplTKM53vpRuUzKod1RWYYXYvM1Lss1WfmHQqoingALBR9boGX5est9dwoyR5JtMhebxLaDGrPv0Ew3KcuWhCtZgWt5L1zEADRW8iVORfRm0BdQXQw1kmBsOOHKZRgMk9YpVkzAAPl2NLJn3XsZdD9k3IRn0fw2ro8CbJRjk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 146106,
+      "createdOn": "2026-02-05T22:34:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ad61c508c5d5ec232f1",
+          "products": [
+            {
+              "_id": "69851ad71c508c5d5ec23312",
+              "name": "Bacon55036",
+              "amount": 968,
+              "price": 62342,
+              "manufacturer": "Amazon",
+              "notes": "QKyivPiM5WOIwEfGmzu9zC637L56b8R1whK39McE1NnyDGE6VBsppQF80ddsm4T06NLBMf9dPFfwdNJI3XfF4ABVtRY9V1TrVlKMIEn06nv41Q4wECs1VYELu1kNYVOWdaUOQXyoj8Wtq8wZa3kecxVAJaBNEEKgdfLq8IeAJXJxoE0Ev2nWuxqExN0c0GBmh86Ah6qnleejYOUmlvGHdfmF873V3H2FAGxbrPbZbqbU6NiDcl7miKwcnm",
+              "received": false
+            },
+            {
+              "_id": "69851ad71c508c5d5ec23332",
+              "name": "Salad8646",
+              "amount": 134,
+              "price": 50782,
+              "manufacturer": "Google",
+              "notes": "mkhrmTjCHOrzB4WeOp4EH23SFgw98ON4jLNa5FJaI3CmJPgig3mpfNaqJ3RoWYYLZDIzSylue1QE3Ljnxw2HgRukP5C0dqypTrAbdLbRQBKe6JFiqCKRiR8XOR5pAZf1ikqFId7u0dPKIaQ5NKzcsHFM795RSH4a9xx0yX3dnJCS0CstH89SLngEB1BH5ae8OxFTUMXHYI6RkVoyxxXMYPObQk7scuIASYeJkISk1EI9HUi9xiOzEMtUuV",
+              "received": false
+            },
+            {
+              "_id": "69851ad81c508c5d5ec233a8",
+              "name": "Car35244",
+              "amount": 259,
+              "price": 32982,
+              "manufacturer": "Microsoft",
+              "notes": "vMGWYrURM9KeuZyTVXm4Gvv3LRriE7aNlbTP35fSF32GknubksLwsYmYD51Ic1KD8gvk6owT4Key4wZuAKhplTKM53vpRuUzKod1RWYYXYvM1Lss1WfmHQqoingALBR9boGX5est9dwoyR5JtMhebxLaDGrPv0Ew3KcuWhCtZgWt5L1zEADRW8iVORfRm0BdQXQw1kmBsOOHKZRgMk9YpVkzAAPl2NLJn3XsZdD9k3IRn0fw2ro8CbJRjk",
+              "received": false
+            }
+          ],
+          "total_price": 146106,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851ad91c508c5d5ec233fc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

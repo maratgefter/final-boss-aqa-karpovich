@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2947",
+    "etag": "W/\"b83-BeSzMAj0gbVBJAAjJs+ByK6gHow\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69851ae51c508c5d5ec23a4a",
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ae41c508c5d5ec23a05",
+        "email": "Roosevelt13@yahoo.com",
+        "name": "Rhianna Dooley",
+        "country": "Germany",
+        "city": "Candidostead",
+        "street": "Kevon Knolls",
+        "house": 3,
+        "flat": 601,
+        "phone": "+19863105116",
+        "createdOn": "2026-02-05T22:34:12.000Z",
+        "notes": "y0tQdUV4P8XrwYbzFAxh8pWpFDDYx1YMe09SRyKsuro1V0GfH2umea1pmKWoy0VGeH4emF063yzJAmi6Wtq77raxXr8oLxgXDjq43UfLjVzTqpw4CX8q5RjLYhfQwXircN6Mc7kRJx6kmtup4Kk2ff9Ix0JLbvT4OLvxuzZjC2GfpEOGmw08lqiDSGOQ9tMEPLNp1kH6nXCoh3hAR4Pv1U6RKwGeQu5jIMVGDLYqvXIZZxUaqKVyueu1zg"
+      },
+      "products": [
+        {
+          "_id": "69851ae51c508c5d5ec23a23",
+          "name": "Mouse45759",
+          "amount": 112,
+          "price": 75972,
+          "manufacturer": "Apple",
+          "notes": "LldJQkUlCDSV7WqQVCP45HlWqolhhcGxoxZGlBSo6nNltM9k5lrwaDDRka6PMWVnLyt7HWsxCfygYUf2dnjoMXMex691ONTwaicnjDMyRpIjnmY0JqGzBjiuV6dGpQkkiiRVb3naVgb8dCMzrRPpfZlSYdsX67NxACPA9CNhG1R5gdR3ZGjqM6smkGdQoWueGGWppGs30lcFbK8VtQSTxD9zYoendoDFzNaUNTjlB3PWU22SzXs3ZdLTKs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Candidostead",
+          "street": "Kevon Knolls",
+          "house": 3,
+          "flat": 601
+        },
+        "finalDate": "2026-02-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 75972,
+      "createdOn": "2026-02-05T22:34:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ae41c508c5d5ec23a05",
+          "products": [
+            {
+              "_id": "69851ae51c508c5d5ec23a23",
+              "name": "Mouse45759",
+              "amount": 112,
+              "price": 75972,
+              "manufacturer": "Apple",
+              "notes": "LldJQkUlCDSV7WqQVCP45HlWqolhhcGxoxZGlBSo6nNltM9k5lrwaDDRka6PMWVnLyt7HWsxCfygYUf2dnjoMXMex691ONTwaicnjDMyRpIjnmY0JqGzBjiuV6dGpQkkiiRVb3naVgb8dCMzrRPpfZlSYdsX67NxACPA9CNhG1R5gdR3ZGjqM6smkGdQoWueGGWppGs30lcFbK8VtQSTxD9zYoendoDFzNaUNTjlB3PWU22SzXs3ZdLTKs",
+              "received": false
+            }
+          ],
+          "total_price": 75972,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Candidostead",
+              "street": "Kevon Knolls",
+              "house": 3,
+              "flat": 601
+            },
+            "finalDate": "2026-02-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-05T22:34:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69851ae41c508c5d5ec23a05",
+          "products": [
+            {
+              "_id": "69851ae51c508c5d5ec23a23",
+              "name": "Mouse45759",
+              "amount": 112,
+              "price": 75972,
+              "manufacturer": "Apple",
+              "notes": "LldJQkUlCDSV7WqQVCP45HlWqolhhcGxoxZGlBSo6nNltM9k5lrwaDDRka6PMWVnLyt7HWsxCfygYUf2dnjoMXMex691ONTwaicnjDMyRpIjnmY0JqGzBjiuV6dGpQkkiiRVb3naVgb8dCMzrRPpfZlSYdsX67NxACPA9CNhG1R5gdR3ZGjqM6smkGdQoWueGGWppGs30lcFbK8VtQSTxD9zYoendoDFzNaUNTjlB3PWU22SzXs3ZdLTKs",
+              "received": false
+            }
+          ],
+          "total_price": 75972,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

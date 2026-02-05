@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3879",
+    "etag": "W/\"f27-pqMI5R7iuFLjn6IqAN8yazrB1JM\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69851ae61c508c5d5ec23adc",
+      "status": "In Process",
+      "customer": {
+        "_id": "69851ae51c508c5d5ec23a5f",
+        "email": "Jazmyne.Brakus@gmail.com",
+        "name": "Alessandra Gleichner",
+        "country": "Ukraine",
+        "city": "Shanellestead",
+        "street": "Bednar Plains",
+        "house": 7,
+        "flat": 657,
+        "phone": "+12525726272",
+        "createdOn": "2026-02-05T22:34:13.000Z",
+        "notes": "SrHm7zCfZ39kbHtr3tQEEtXPW9fFcZAbdY1p4zst2oPXSVuO2gv5VyyXLNiI8OUcsK7LXUbEg3G0AKkoG8G6q51SEvjAWkuwEjXhWeHr9EPc6W0UCKxizIBY3a1hL6tVsdUW70GzBWT3be1APq3FBC9efrPI0qVzAH1qOQxGQV1deDx6d5BrItPgtDvVfSmgsiVlybVJPImmkGTTQjGTdtxOdWKeFHYDyr9AYzDcnDOrZ5LUqpElP8rnGY"
+      },
+      "products": [
+        {
+          "_id": "69851ae61c508c5d5ec23a9a",
+          "name": "Hat70204",
+          "amount": 450,
+          "price": 68910,
+          "manufacturer": "Sony",
+          "notes": "7fyZ28B6e8MMnqg66mbalO9lqwZMuivifHAJwJXJ0Gr2hvxhEGPEdS1SKyKQBgi8BrEE1eMq4gYcHmavnYWEDhI9T81PKXkNB0b0fgDkATGgYsR5gPsZW7oTHdVPeRLs50YaULmjRGvtvYAdgvp6P011enZE8angjP8fkEPWJumvnTexgtkOWbkk6Qk6E1mkO1Iajm1AXVLDClESijj8xGnmTq6fAcXduUyMECfvQ1g6D4BqDCzHBi65Fm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Shanellestead",
+          "street": "Bednar Plains",
+          "house": 7,
+          "flat": 657
+        },
+        "finalDate": "2026-02-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 68910,
+      "createdOn": "2026-02-05T22:34:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69851ae51c508c5d5ec23a5f",
+          "products": [
+            {
+              "_id": "69851ae61c508c5d5ec23a9a",
+              "name": "Hat70204",
+              "amount": 450,
+              "price": 68910,
+              "manufacturer": "Sony",
+              "notes": "7fyZ28B6e8MMnqg66mbalO9lqwZMuivifHAJwJXJ0Gr2hvxhEGPEdS1SKyKQBgi8BrEE1eMq4gYcHmavnYWEDhI9T81PKXkNB0b0fgDkATGgYsR5gPsZW7oTHdVPeRLs50YaULmjRGvtvYAdgvp6P011enZE8angjP8fkEPWJumvnTexgtkOWbkk6Qk6E1mkO1Iajm1AXVLDClESijj8xGnmTq6fAcXduUyMECfvQ1g6D4BqDCzHBi65Fm",
+              "received": false
+            }
+          ],
+          "total_price": 68910,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Shanellestead",
+              "street": "Bednar Plains",
+              "house": 7,
+              "flat": 657
+            },
+            "finalDate": "2026-02-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-05T22:34:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69851ae51c508c5d5ec23a5f",
+          "products": [
+            {
+              "_id": "69851ae61c508c5d5ec23a9a",
+              "name": "Hat70204",
+              "amount": 450,
+              "price": 68910,
+              "manufacturer": "Sony",
+              "notes": "7fyZ28B6e8MMnqg66mbalO9lqwZMuivifHAJwJXJ0Gr2hvxhEGPEdS1SKyKQBgi8BrEE1eMq4gYcHmavnYWEDhI9T81PKXkNB0b0fgDkATGgYsR5gPsZW7oTHdVPeRLs50YaULmjRGvtvYAdgvp6P011enZE8angjP8fkEPWJumvnTexgtkOWbkk6Qk6E1mkO1Iajm1AXVLDClESijj8xGnmTq6fAcXduUyMECfvQ1g6D4BqDCzHBi65Fm",
+              "received": false
+            }
+          ],
+          "total_price": 68910,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Shanellestead",
+              "street": "Bednar Plains",
+              "house": 7,
+              "flat": 657
+            },
+            "finalDate": "2026-02-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-05T22:34:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69851ae51c508c5d5ec23a5f",
+          "products": [
+            {
+              "_id": "69851ae61c508c5d5ec23a9a",
+              "name": "Hat70204",
+              "amount": 450,
+              "price": 68910,
+              "manufacturer": "Sony",
+              "notes": "7fyZ28B6e8MMnqg66mbalO9lqwZMuivifHAJwJXJ0Gr2hvxhEGPEdS1SKyKQBgi8BrEE1eMq4gYcHmavnYWEDhI9T81PKXkNB0b0fgDkATGgYsR5gPsZW7oTHdVPeRLs50YaULmjRGvtvYAdgvp6P011enZE8angjP8fkEPWJumvnTexgtkOWbkk6Qk6E1mkO1Iajm1AXVLDClESijj8xGnmTq6fAcXduUyMECfvQ1g6D4BqDCzHBi65Fm",
+              "received": false
+            }
+          ],
+          "total_price": 68910,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

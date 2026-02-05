@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-rqxjpb7sHPhBuEF9thT5oe4qnoM\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851aea1c508c5d5ec23c7a",
+        "email": "Janick_Morissette76@gmail.com",
+        "name": "Dion Gibson",
+        "country": "Germany",
+        "city": "Port Orange",
+        "street": "Brent Trail",
+        "house": 2,
+        "flat": 588,
+        "phone": "+14377640449",
+        "createdOn": "2026-02-05T22:34:18.000Z",
+        "notes": "QZi8aiMjp1TttCuRZtm0rraDlaCMCfUlYbhT6uVe4z5GCZ7hHHIWrkWfDWzbY3dItVP9NlUjMC9yWkzKAe5OM1RvjheNoJnwS9K3FSj6eCmwHldXHygx3jxKRfwIpHyIP20jGixFuqhLiduIIsJSOVO5PrhC8zZqrWQXqeJbWHw7cnU76sJsRjSV0Q74hDswWYEJKQMSnJAf8eS7paeqNmbIPvgnxy1L9oSRtX7qGZX8Wyzsdg6tP9eId4"
+      },
+      "products": [
+        {
+          "_id": "69851aeb1c508c5d5ec23d49",
+          "name": "Shirt93216",
+          "amount": 364,
+          "price": 20762,
+          "manufacturer": "Xiaomi",
+          "notes": "4OVEz6ccAfIO71j2lptVgia7QHj3EH0igi3D8MnTETmIBCk93ml25VGyR85UwZCPgD5RQePDyggnuMqIf5mdgzDnminpn5nS2Mr544uRh47NLshSNh30UfwA7XlcFxDHFiLwIcOdQIe8F1Ww7nwUUUaHtJhWf51BJlhKu1ZdZS2Epc53bZsQq5A1vwvu5KOEQNa4ppBU3sxCyh22H6ltZJtJscGRi4DWARTxBOpR5AQRjz9cEQU6i8tamn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20762,
+      "createdOn": "2026-02-05T22:34:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851aea1c508c5d5ec23c7a",
+          "products": [
+            {
+              "_id": "69851aeb1c508c5d5ec23d49",
+              "name": "Shirt93216",
+              "amount": 364,
+              "price": 20762,
+              "manufacturer": "Xiaomi",
+              "notes": "4OVEz6ccAfIO71j2lptVgia7QHj3EH0igi3D8MnTETmIBCk93ml25VGyR85UwZCPgD5RQePDyggnuMqIf5mdgzDnminpn5nS2Mr544uRh47NLshSNh30UfwA7XlcFxDHFiLwIcOdQIe8F1Ww7nwUUUaHtJhWf51BJlhKu1ZdZS2Epc53bZsQq5A1vwvu5KOEQNa4ppBU3sxCyh22H6ltZJtJscGRi4DWARTxBOpR5AQRjz9cEQU6i8tamn",
+              "received": false
+            }
+          ],
+          "total_price": 20762,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851aec1c508c5d5ec23d9c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

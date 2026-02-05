@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:33:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1411",
+    "etag": "W/\"583-D6oqIwdud9JXDRzrQpxZQobefxI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "69851acb1c508c5d5ec22dfe",
+        "status": "Draft",
+        "customer": "69851acb1c508c5d5ec22db2",
+        "products": [
+          {
+            "_id": "69851acb1c508c5d5ec22dce",
+            "name": "Shirt45510",
+            "amount": 256,
+            "price": 48204,
+            "manufacturer": "Xiaomi",
+            "notes": "3q3UNG3YYYWNEmnYiQ2gdPcWTL0M2fgFbR5zwFzxdijcwSId1w1zsZ8q8yjAO49eMkOWrZFNywlWczmICdeUspZ5GdAbIO0Y7av4sfIOaZeVBn08tGQoTtGNu77PjE4XlG0BUL3vUsMGzcKSPVX7LcUdpQqN5j7r56JCwuL4gAjMT4Vi5p0dtvOJ0r2rFpEvzEoEHuEcUfOWG52MEmKjc13adWNhlMO523poDYarOZCqO3c0e7Zv98sZT1",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 48204,
+        "createdOn": "2026-02-05T22:33:47.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "69851acb1c508c5d5ec22db2",
+            "products": [
+              {
+                "_id": "69851acb1c508c5d5ec22dce",
+                "name": "Shirt45510",
+                "amount": 256,
+                "price": 48204,
+                "manufacturer": "Xiaomi",
+                "notes": "3q3UNG3YYYWNEmnYiQ2gdPcWTL0M2fgFbR5zwFzxdijcwSId1w1zsZ8q8yjAO49eMkOWrZFNywlWczmICdeUspZ5GdAbIO0Y7av4sfIOaZeVBn08tGQoTtGNu77PjE4XlG0BUL3vUsMGzcKSPVX7LcUdpQqN5j7r56JCwuL4gAjMT4Vi5p0dtvOJ0r2rFpEvzEoEHuEcUfOWG52MEmKjc13adWNhlMO523poDYarOZCqO3c0e7Zv98sZT1",
+                "received": false
+              }
+            ],
+            "total_price": 48204,
+            "delivery": null,
+            "changedOn": "2026-02-05T22:33:47.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

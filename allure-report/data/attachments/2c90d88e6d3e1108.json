@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:33:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-6RXVwsRAgkC/clpeOogsOK5bbG4\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851acf1c508c5d5ec22f69",
+        "email": "Jocelyn_Lind@hotmail.com",
+        "name": "Lisandro Orn",
+        "country": "France",
+        "city": "North Bethesda",
+        "street": "Greenwood Road",
+        "house": 48,
+        "flat": 444,
+        "phone": "+12019713562",
+        "createdOn": "2026-02-05T22:33:51.000Z",
+        "notes": "6HvOP54IBDuj1wh98JRCgy7QA5wCSwBd58owUZaG2yS73s0TnMaJ3YpfSqLDsqP4KNStLYzqL3MfvKzPv2YYMrTV1X5HGNCYZGWVfuth3gC6duDz755yKJSQBCXTLm41thBCt5Khs1iaSjrgKSyFl1p4HDVvNH98YFlsyt8OEqNrFhtrA0lwUlcK6XsxZzA6xrSGav8XormAUg9nGL0Qq8NwEN8CDc3nNV8ayQrmzza5bg3Azqx4r6Mscj"
+      },
+      "products": [
+        {
+          "_id": "69851acf1c508c5d5ec22f7d",
+          "name": "Mouse34419",
+          "amount": 747,
+          "price": 62658,
+          "manufacturer": "Microsoft",
+          "notes": "o0eDDmi1d7R2ZNkDS4fCBTz47tkBUi8Iv9GrkgjxzcMEQA8Gh8dxEZ7c70wlxM9BvaGm6EgJg1PvilqWYnZljUpLJw3ZSxgwlEZnqwM9Pmq1zZdXLsIItJEyL0a2bhnOIU1IGCdHzJgK9SewnMgEgzZPzymQFy6FLw76TZ5efbqtllR2qpdoUyyxtheRAHVeB0a4yvHAuiX1sSAamsm1TTEfyjhrU9aTb13zujbK2ZuIpECTviSIFvlEzz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62658,
+      "createdOn": "2026-02-05T22:33:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851acf1c508c5d5ec22f69",
+          "products": [
+            {
+              "_id": "69851acf1c508c5d5ec22f7d",
+              "name": "Mouse34419",
+              "amount": 747,
+              "price": 62658,
+              "manufacturer": "Microsoft",
+              "notes": "o0eDDmi1d7R2ZNkDS4fCBTz47tkBUi8Iv9GrkgjxzcMEQA8Gh8dxEZ7c70wlxM9BvaGm6EgJg1PvilqWYnZljUpLJw3ZSxgwlEZnqwM9Pmq1zZdXLsIItJEyL0a2bhnOIU1IGCdHzJgK9SewnMgEgzZPzymQFy6FLw76TZ5efbqtllR2qpdoUyyxtheRAHVeB0a4yvHAuiX1sSAamsm1TTEfyjhrU9aTb13zujbK2ZuIpECTviSIFvlEzz",
+              "received": false
+            }
+          ],
+          "total_price": 62658,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:33:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851acf1c508c5d5ec22fa7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

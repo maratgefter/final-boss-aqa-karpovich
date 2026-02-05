@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-IbDElvojEkWYtcnsuxT5oEFdtWA\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ae41c508c5d5ec239b8",
+        "email": "Tyrell.Prohaska@hotmail.com",
+        "name": "Clifford Morar",
+        "country": "Canada",
+        "city": "New Newellland",
+        "street": "State Avenue",
+        "house": 25,
+        "flat": 95,
+        "phone": "+14089683127",
+        "createdOn": "2026-02-05T22:34:12.000Z",
+        "notes": "cXwBIZAhI4kCbggr2HmCmtfNtmo5Kh75fKr6oiCViQoX6JHeTSMTTgPxqZTLieFpXAqPmmOPauDpWejDF3xOTfcQDBOSyrG7aIB9Ql1Y7Akom1lfYGJqePKXlEx0prdSlElN6DdVnFKfTNuTtvbW0ejbqns9W2KKEt8nu8AH0LuL6Ca1M7H59jMO0AQeWPKUilVVmb51fDtYJUWKYNZLUqjZSyKXUpENOJoGw5mVGa9XP4jMS1Qbb4Y8TY"
+      },
+      "products": [
+        {
+          "_id": "69851ae41c508c5d5ec239fa",
+          "name": "Fish14699",
+          "amount": 618,
+          "price": 44583,
+          "manufacturer": "Amazon",
+          "notes": "2JgdGVKuTzx6YLeXjynS0Yvzz7tTGnfZ9iRKQKL9W00qLm0VCL9QIJao9EJl5AXjTfVGtcT77E7nniwpYxenr0IluY55dxbHek2i8px416cWh0wMsKcsjJgHZ0lnsNxdA2dEFD3sZG5ON0Pz7qVZFEvtMuoBX1DL0mAR5OdOXvHJUlykBJPgSNzFyeyravv2N2hFSgzyeTqOkIxFFoyD18rEh2g02zZSjc4ftFz9hToZwcCaW2APY7twtn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44583,
+      "createdOn": "2026-02-05T22:34:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ae41c508c5d5ec239b8",
+          "products": [
+            {
+              "_id": "69851ae41c508c5d5ec239fa",
+              "name": "Fish14699",
+              "amount": 618,
+              "price": 44583,
+              "manufacturer": "Amazon",
+              "notes": "2JgdGVKuTzx6YLeXjynS0Yvzz7tTGnfZ9iRKQKL9W00qLm0VCL9QIJao9EJl5AXjTfVGtcT77E7nniwpYxenr0IluY55dxbHek2i8px416cWh0wMsKcsjJgHZ0lnsNxdA2dEFD3sZG5ON0Pz7qVZFEvtMuoBX1DL0mAR5OdOXvHJUlykBJPgSNzFyeyravv2N2hFSgzyeTqOkIxFFoyD18rEh2g02zZSjc4ftFz9hToZwcCaW2APY7twtn",
+              "received": false
+            }
+          ],
+          "total_price": 44583,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851ae51c508c5d5ec23a35"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

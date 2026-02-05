@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 05 Feb 2026 22:34:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-AASJB9lFaBAw9yLyKNm2yTFenV8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69851ade1c508c5d5ec2367f",
+        "email": "Tremayne25@gmail.com",
+        "name": "Libby Mayer",
+        "country": "Germany",
+        "city": "Streichburgh",
+        "street": "Memorial Drive",
+        "house": 5,
+        "flat": 126,
+        "phone": "+15849107898",
+        "createdOn": "2026-02-05T22:34:06.000Z",
+        "notes": "OPoHOyYTSCgUPG5c2SOjA4bWwik9txe6YtcARZ92hk4gXmwXUV4Co7zDIUTu5hE8BfnBEkLrp2l7IJXBJ2QhHLu8MxOzDEZC0HpJ6hDwHNypanN1aK9dCxAYZwRHzwLRjClsEU8YQSULyzJNjQCuqnWHfSd6sYxugWHRL22XxEZcIODDQ2tVexsGbq8k9oWfNcJ2L0diuHKDPz3seHW9ZwKdvY5fd563QndII6u4f1TTK8bzXFLgxLEgfU"
+      },
+      "products": [
+        {
+          "_id": "69851ade1c508c5d5ec236a7",
+          "name": "Pants86185",
+          "amount": 791,
+          "price": 32719,
+          "manufacturer": "Tesla",
+          "notes": "HlrG1sqx59py47N3FBidYwT4m75RnEtCVcMPGzM01Utqb1Rv8CTTB2hKSnmQ6ZXuCLmYnn3qgrbSjlAtjDPdvga84MGLnM78jnkImU38OR8K1dfpMgzANd4lqwfvq9OivYtVmnNYZltDrRJeSwONNgu8pCytXZw5ISN6i1R21i8dmxphigeSZyrKOsGJgdVEeylUSm1KxlVfx8rL1TUYRcmzx0fdXawZ15DZ9FdxgSQc4oT8mNaTHUs7oL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32719,
+      "createdOn": "2026-02-05T22:34:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69851ade1c508c5d5ec2367f",
+          "products": [
+            {
+              "_id": "69851ade1c508c5d5ec236a7",
+              "name": "Pants86185",
+              "amount": 791,
+              "price": 32719,
+              "manufacturer": "Tesla",
+              "notes": "HlrG1sqx59py47N3FBidYwT4m75RnEtCVcMPGzM01Utqb1Rv8CTTB2hKSnmQ6ZXuCLmYnn3qgrbSjlAtjDPdvga84MGLnM78jnkImU38OR8K1dfpMgzANd4lqwfvq9OivYtVmnNYZltDrRJeSwONNgu8pCytXZw5ISN6i1R21i8dmxphigeSZyrKOsGJgdVEeylUSm1KxlVfx8rL1TUYRcmzx0fdXawZ15DZ9FdxgSQc4oT8mNaTHUs7oL",
+              "received": false
+            }
+          ],
+          "total_price": 32719,
+          "delivery": null,
+          "changedOn": "2026-02-05T22:34:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69851adf1c508c5d5ec236fb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
