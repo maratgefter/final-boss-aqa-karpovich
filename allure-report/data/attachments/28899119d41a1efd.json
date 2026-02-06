@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-W/BY11h6qAcUO6DkuQTSuj6BSC8\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69866ba51c508c5d5ec2906e",
+        "email": "Vladimir.Shanahan@yahoo.com",
+        "name": "Nadia Okuneva",
+        "country": "France",
+        "city": "East Kelvin",
+        "street": "Considine Circle",
+        "house": 31,
+        "flat": 986,
+        "phone": "+18426968760",
+        "createdOn": "2026-02-06T22:31:01.000Z",
+        "notes": "O1YJxhDSzUw39hdDaaBYVDOa0e148NPNQS7sljVHwhkVzFvBCARyF6YrAFQPw5iwq1RnZSuooZbvmZWxP7MPXqBGDylO02tulO5DeHGMt9dvkOb0YIGIuLma4nlJvbp2nbz6jjnYbK2bN6IFqA8TtW3oizKKtdqdxoChI2WKvba85YjZbvZZCYLPKtwx8GWFY2jsKAveHvuV7UPZc28ffqktU9dOlmOViKoaR6bu2fRPePIQy5GPinVfR5"
+      },
+      "products": [
+        {
+          "_id": "69866ba51c508c5d5ec29087",
+          "name": "Towels26062",
+          "amount": 169,
+          "price": 85284,
+          "manufacturer": "Amazon",
+          "notes": "4caPszCVrbUHrzzdNybAJPjIU32Uk6xPOMa1KyVsDcNHK4sWQPJCw9LXhEwgYEm8V281gx8COVyZYgSsXDmzjrWwwrjvMpF7RzUeDym7zfttNToDwE06sCqBczgxsqtTbs53M5JWFUHL8TEjJK4sQ6IFX2xsT3HQJBICGl4S0lOGcAANXmGBtmM3fQjNLNczJKidN75S1RWQWC0Yd2HCewS7GojIwLF0WzLEBzgyQDrMfqvbRRHBeJIs6C",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85284,
+      "createdOn": "2026-02-06T22:31:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866ba51c508c5d5ec2906e",
+          "products": [
+            {
+              "_id": "69866ba51c508c5d5ec29087",
+              "name": "Towels26062",
+              "amount": 169,
+              "price": 85284,
+              "manufacturer": "Amazon",
+              "notes": "4caPszCVrbUHrzzdNybAJPjIU32Uk6xPOMa1KyVsDcNHK4sWQPJCw9LXhEwgYEm8V281gx8COVyZYgSsXDmzjrWwwrjvMpF7RzUeDym7zfttNToDwE06sCqBczgxsqtTbs53M5JWFUHL8TEjJK4sQ6IFX2xsT3HQJBICGl4S0lOGcAANXmGBtmM3fQjNLNczJKidN75S1RWQWC0Yd2HCewS7GojIwLF0WzLEBzgyQDrMfqvbRRHBeJIs6C",
+              "received": false
+            }
+          ],
+          "total_price": 85284,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69866ba61c508c5d5ec290a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

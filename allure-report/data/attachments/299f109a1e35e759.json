@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:30:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2799",
+    "etag": "W/\"aef-DjMlXyq3MPiCXU/dro9EFeSxfa8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69866b9f1c508c5d5ec28da1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69866b9e1c508c5d5ec28cf6",
+        "email": "Mack.Hilll14@gmail.com",
+        "name": "Issac Sanford",
+        "country": "USA",
+        "city": "Wilson",
+        "street": "Schultz Manors",
+        "house": 1,
+        "flat": 14,
+        "phone": "+17252732133",
+        "createdOn": "2026-02-06T22:30:54.000Z",
+        "notes": "LhN8TxD2JTriq8MooW6IXe5zLfDa7G9LoGcTBoAol6t1IzYqoQQBAL7Bex5dBeZv3sf6Xda4YJnwngzNvZ7wchUu7SNr8mUs6GgEhZpap4lpfjjOT6Q3SVLOij07Jm3b1SWLybpSDBp8bN4QRsIRRD8wzWiedAiNOa7iH1wUcVQqQu0A7OCMWDY6C3dNfUISQD6lWLQcNAxJsNaLSe0VL3l0ijqeXl3AjyU2PSKG7YKafVVQ6haE7QTyZt"
+      },
+      "products": [
+        {
+          "_id": "69866b9e1c508c5d5ec28d2a",
+          "name": "Bike96761",
+          "amount": 202,
+          "price": 71422,
+          "manufacturer": "Xiaomi",
+          "notes": "C8DVnUsRVvqHE9RZHHAQNBTTr5u4GiEbKTo5EtJw4wQUxLpWQ05ynso8tBGIilJj6dENjbyJaHEmq4B1HRzlax3mMxI87Zdbkb4PRnkk4g4ygUj8IapZAuSK0iuFSAQ9PeS6mBVu9Fu9ZutzIwH7Qy53vbz0Kp6E6v2in5kTKd0Ouv6TFsIQj5ydKGXs4oeuPBoujsmZnOlNG9PyovaBR3HMtwxvOgQrLOx3CMhEc9ShQRjQXebq1nVXEE",
+          "received": false
+        },
+        {
+          "_id": "69866b9e1c508c5d5ec28d67",
+          "name": "Computer2715",
+          "amount": 338,
+          "price": 19521,
+          "manufacturer": "Apple",
+          "notes": "DhOqiO05MwE0vtPegSikOFpKEjOQsSHa1E7jhWQYi4qQBjAaMmGq2bhv8Xi9y4ilK5sprFxmsZTO1TRIHeodEattwB92LHO131Onr8Di1ewpsLYyB8qfTS2hKrslZXT0kg5P0hbN77ABBkTaHnxtAuuUHZfpoH0wP5sQLY1sKqCUC3FCffMINEz6Xwe7eyDj4tXT77GptA1VAlaZZBP0o9AZHoPREig4sKl4dpkTSXPMlg7jL7uYOL6XWv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90943,
+      "createdOn": "2026-02-06T22:30:55.000Z",
+      "comments": [
+        {
+          "text": "YRcEfgTWpd3fCgVJyhS0J4VzNrCch3sgXV4K7q04JtsRo7xYT4b0ZKLwiMUQGasNpQDXubbdhl8",
+          "createdOn": "2026-02-06T22:30:56.000Z",
+          "_id": "69866ba01c508c5d5ec28dd0"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866b9e1c508c5d5ec28cf6",
+          "products": [
+            {
+              "_id": "69866b9e1c508c5d5ec28d2a",
+              "name": "Bike96761",
+              "amount": 202,
+              "price": 71422,
+              "manufacturer": "Xiaomi",
+              "notes": "C8DVnUsRVvqHE9RZHHAQNBTTr5u4GiEbKTo5EtJw4wQUxLpWQ05ynso8tBGIilJj6dENjbyJaHEmq4B1HRzlax3mMxI87Zdbkb4PRnkk4g4ygUj8IapZAuSK0iuFSAQ9PeS6mBVu9Fu9ZutzIwH7Qy53vbz0Kp6E6v2in5kTKd0Ouv6TFsIQj5ydKGXs4oeuPBoujsmZnOlNG9PyovaBR3HMtwxvOgQrLOx3CMhEc9ShQRjQXebq1nVXEE",
+              "received": false
+            },
+            {
+              "_id": "69866b9e1c508c5d5ec28d67",
+              "name": "Computer2715",
+              "amount": 338,
+              "price": 19521,
+              "manufacturer": "Apple",
+              "notes": "DhOqiO05MwE0vtPegSikOFpKEjOQsSHa1E7jhWQYi4qQBjAaMmGq2bhv8Xi9y4ilK5sprFxmsZTO1TRIHeodEattwB92LHO131Onr8Di1ewpsLYyB8qfTS2hKrslZXT0kg5P0hbN77ABBkTaHnxtAuuUHZfpoH0wP5sQLY1sKqCUC3FCffMINEz6Xwe7eyDj4tXT77GptA1VAlaZZBP0o9AZHoPREig4sKl4dpkTSXPMlg7jL7uYOL6XWv",
+              "received": false
+            }
+          ],
+          "total_price": 90943,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:30:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

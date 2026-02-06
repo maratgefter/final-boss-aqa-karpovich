@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-kivmXnaVakbrdyrQQNFwX2Ixn5E\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69866bac1c508c5d5ec29431",
+        "email": "Enid_Murphy62@gmail.com",
+        "name": "Meda Klocko",
+        "country": "Great Britain",
+        "city": "West Susancester",
+        "street": "Shyanne Center",
+        "house": 21,
+        "flat": 854,
+        "phone": "+13608310243",
+        "createdOn": "2026-02-06T22:31:08.000Z",
+        "notes": "cEzNTSU8yoUOaRg2SHm4vIIRCY9swSPYQOqPrbQob8l6jjWgZu1VI41qIxn385fPzYFtZmfzWGz1JFDEh3wVlQLL3Xt5rt9cVPWphUET59pnGPFEvlw3pEtI2RHYWPLbP4liBM5c0O0Ury8R9oDy8qABDvPP7uvkRpqF1fxi26KthH3ytiphmCKnaAD8eDU9Nfq6Fbsk891uLmXGBZDOQFSIuW9rFZP3y8Apahn581h72fk2a9Ky6otwYi"
+      },
+      "products": [
+        {
+          "_id": "69866bac1c508c5d5ec29456",
+          "name": "Shoes45852",
+          "amount": 361,
+          "price": 97525,
+          "manufacturer": "Apple",
+          "notes": "yjTVTouOdgpvQSqb4H18asYJllt0dNltbSuQCdfJV7eVuOjgUEXrmMnrvfxr1ZwVJsU9Jvvzg4s9VKj7EbpXrCBMVVEy18oUjCRcO879YWigy74pce3X7hRElffVgnScY06reEmgPhYcSFQYnB98TH9lQEU7SASG2WBnok4hkhzuuh97zgCt5o2yovWWDYqEZdZvuYuo7rx9Zd6fFTzd3eWcWJ9QiJZRx3WkDXL4QCMb3C3Cg3lH69PVyg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97525,
+      "createdOn": "2026-02-06T22:31:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866bac1c508c5d5ec29431",
+          "products": [
+            {
+              "_id": "69866bac1c508c5d5ec29456",
+              "name": "Shoes45852",
+              "amount": 361,
+              "price": 97525,
+              "manufacturer": "Apple",
+              "notes": "yjTVTouOdgpvQSqb4H18asYJllt0dNltbSuQCdfJV7eVuOjgUEXrmMnrvfxr1ZwVJsU9Jvvzg4s9VKj7EbpXrCBMVVEy18oUjCRcO879YWigy74pce3X7hRElffVgnScY06reEmgPhYcSFQYnB98TH9lQEU7SASG2WBnok4hkhzuuh97zgCt5o2yovWWDYqEZdZvuYuo7rx9Zd6fFTzd3eWcWJ9QiJZRx3WkDXL4QCMb3C3Cg3lH69PVyg",
+              "received": false
+            }
+          ],
+          "total_price": 97525,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69866bad1c508c5d5ec294c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

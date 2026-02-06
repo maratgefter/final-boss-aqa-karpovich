@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-Wmvov2cDmygsSdPp82N4TNp5Ii0\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69866baa1c508c5d5ec2932d",
+        "email": "Colleen_Blanda44@hotmail.com",
+        "name": "Rae Braun",
+        "country": "Canada",
+        "city": "Lehnershire",
+        "street": "Odell Skyway",
+        "house": 11,
+        "flat": 20,
+        "phone": "+12536309410",
+        "createdOn": "2026-02-06T22:31:06.000Z",
+        "notes": "D7vxFGDHitsJdz8SgJMyflfcDayXV0Fz2exGSXHPF4U20mlewiUTqXwugzUlrrTyIzhVt6QWEi3Vri3faPXG358LZabXKUp6Emws6EGPhxdJr9UDYenalCPfp8zXgjLx6eWvMZiaQ44lQXBbJTlm8gG0ghUAGDFHSQRVHyWdjHOjNBj5qhsFuvBh3WITEvC1bhRTGNbzSYsLtlVJ8CTnE4nHf21v1plrurA7wS3VbyqqZ0pOmIPUFAuFme"
+      },
+      "products": [
+        {
+          "_id": "69866baa1c508c5d5ec29345",
+          "name": "Bike6154",
+          "amount": 543,
+          "price": 84280,
+          "manufacturer": "Google",
+          "notes": "pdmkmLBLUaYCCuvpFCua4WENKtXf9JTYyr7y2YU4SPgvvWIyagUMz98iHWT4JPmFmNHyxkZOwpkg2Aq7mwX8LrSdf9eQSfeQFCLOXKGDcL3U2OL0KhLCvDWOZl7JtIS78frJAMF5hnCH0N8mW86s9zESPaGTNaxA2KjF9L2lLfP2TwXHidy4NDprYH4Hoqywd4LxtHoAaxNkRx4qdB1qGqZtF2DkTQttVjnTAVXulMPQ7rkaQF1pTZ6TRc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84280,
+      "createdOn": "2026-02-06T22:31:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866baa1c508c5d5ec2932d",
+          "products": [
+            {
+              "_id": "69866baa1c508c5d5ec29345",
+              "name": "Bike6154",
+              "amount": 543,
+              "price": 84280,
+              "manufacturer": "Google",
+              "notes": "pdmkmLBLUaYCCuvpFCua4WENKtXf9JTYyr7y2YU4SPgvvWIyagUMz98iHWT4JPmFmNHyxkZOwpkg2Aq7mwX8LrSdf9eQSfeQFCLOXKGDcL3U2OL0KhLCvDWOZl7JtIS78frJAMF5hnCH0N8mW86s9zESPaGTNaxA2KjF9L2lLfP2TwXHidy4NDprYH4Hoqywd4LxtHoAaxNkRx4qdB1qGqZtF2DkTQttVjnTAVXulMPQ7rkaQF1pTZ6TRc",
+              "received": false
+            }
+          ],
+          "total_price": 84280,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69866bab1c508c5d5ec2936f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

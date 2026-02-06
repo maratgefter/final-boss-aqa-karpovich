@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-7WwIhra0TxCV/RjqRLhRKSHoJhE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69866bae1c508c5d5ec29596",
+      "status": "Draft",
+      "customer": {
+        "_id": "69866bad1c508c5d5ec294d7",
+        "email": "Jaunita30@yahoo.com",
+        "name": "Janiya Keebler",
+        "country": "France",
+        "city": "South Sally",
+        "street": "Union Avenue",
+        "house": 39,
+        "flat": 566,
+        "phone": "+16078526500",
+        "createdOn": "2026-02-06T22:31:09.000Z",
+        "notes": "CfVtl2a8C984xvKacAAnkVCcXHPfS9itpNnBxUCylaRBUF6LfSQMfpoyqocl05iiAAABux33aBth5fezbP4jSf0KY6hPQoKN0RUy3cRsnoEKYxuC6ymEqiypZhonqabUnLuPFgaOgxjyngPp54aNBrrfk7bCGBfRosSkhp4i5NGFXGFwx4VmDkgxywaPBmYlwFztxDFk6wAuvKTrdcgSN70ONRJ3xBCOXuxwES2tUhlBE3YqREQ3RUOjl6"
+      },
+      "products": [
+        {
+          "_id": "69866bae1c508c5d5ec294f5",
+          "name": "Tuna90844",
+          "amount": 569,
+          "price": 96948,
+          "manufacturer": "Sony",
+          "notes": "Epkvzh0yT3UUhbn8qvhj4emDmlwKVeP4uPDngH0dCEl0KHvILZsqRr3sdhc2hINsUxpsx0Z2sA4yRMI3mUeHJRSyLydXyf63MRVQczEbGQ9CtP9WgwFHk4jr0amRewkUpJGX8q5LKaKlvhtdIBmPfu3fLXeO8M4HXBh1KSgLVqzJx1kpp5b1sYlIwmlxMzcYZCSeI3PH6pC7Y99n8qhSbLw3iEHg9Fr3bCkc3VgzTX1GnTdiUUY8ir4L82",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96948,
+      "createdOn": "2026-02-06T22:31:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866bad1c508c5d5ec294d7",
+          "products": [
+            {
+              "_id": "69866bae1c508c5d5ec294f5",
+              "name": "Tuna90844",
+              "amount": 569,
+              "price": 96948,
+              "manufacturer": "Sony",
+              "notes": "Epkvzh0yT3UUhbn8qvhj4emDmlwKVeP4uPDngH0dCEl0KHvILZsqRr3sdhc2hINsUxpsx0Z2sA4yRMI3mUeHJRSyLydXyf63MRVQczEbGQ9CtP9WgwFHk4jr0amRewkUpJGX8q5LKaKlvhtdIBmPfu3fLXeO8M4HXBh1KSgLVqzJx1kpp5b1sYlIwmlxMzcYZCSeI3PH6pC7Y99n8qhSbLw3iEHg9Fr3bCkc3VgzTX1GnTdiUUY8ir4L82",
+              "received": false
+            }
+          ],
+          "total_price": 96948,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

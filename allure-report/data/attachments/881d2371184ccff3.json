@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2928",
+    "etag": "W/\"b70-pQ3VsLeNJiGY8pJFDHsIoWw8v6U\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69866bb61c508c5d5ec29a07",
+      "status": "Draft",
+      "customer": {
+        "_id": "69866bb51c508c5d5ec2995f",
+        "email": "Rashad36@hotmail.com",
+        "name": "Casey Gorczany",
+        "country": "Russia",
+        "city": "Lorabury",
+        "street": "Verona Wells",
+        "house": 13,
+        "flat": 501,
+        "phone": "+14444186121",
+        "createdOn": "2026-02-06T22:31:17.000Z",
+        "notes": "BTYW3Gsm3f23TaltMxr3Ca46p4Zgo3MyHUZL85DBM5CxFtQPrjMfbJ8ZCD4U44Ns7dkp2WtX2bE6GKqNWPr7q8SaTv8QioOolUzdXcIEdQbxhhh5NsXPYA9iignbWJGrF7ugIp0QKKcihYwOaOmFmTMtyLUMEZHXKvM7BXx1L7az0LkCZie1ayOvhmxVxC2B1JhCSB6Jv8eR0EVnkxmT4cTjp4T8Xca17Gcc9Ja0dzZalBXtbamMyJpLZ8"
+      },
+      "products": [
+        {
+          "_id": "69866bb51c508c5d5ec299bb",
+          "name": "Fish30112",
+          "amount": 92,
+          "price": 70469,
+          "manufacturer": "Tesla",
+          "notes": "KNK1Q0rsHwPYxC6nuIars2hkagTVJ9jyV9nwtk9EpN7bV2RLMAkUqkmpkssSy7fXRR2Nnuuu20x3KWPCP8lUcs6qjiuHv6j1njVuZFFVbnSixfahoNek6S3Izl9NcvtoL8hUQtkkuddgUOw0YBCUMaVHT3Ya5Mc3Ub2byqNkuQfOgL8NsY6BT7V7KP2ENdv5r3t3dEexchHem7rwcKeHBx96323BymIBei0nEU4puGgLihYliLzhKn9yV9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lorabury",
+          "street": "Verona Wells",
+          "house": 13,
+          "flat": 501
+        },
+        "finalDate": "2026-02-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 70469,
+      "createdOn": "2026-02-06T22:31:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866bb51c508c5d5ec2995f",
+          "products": [
+            {
+              "_id": "69866bb51c508c5d5ec299bb",
+              "name": "Fish30112",
+              "amount": 92,
+              "price": 70469,
+              "manufacturer": "Tesla",
+              "notes": "KNK1Q0rsHwPYxC6nuIars2hkagTVJ9jyV9nwtk9EpN7bV2RLMAkUqkmpkssSy7fXRR2Nnuuu20x3KWPCP8lUcs6qjiuHv6j1njVuZFFVbnSixfahoNek6S3Izl9NcvtoL8hUQtkkuddgUOw0YBCUMaVHT3Ya5Mc3Ub2byqNkuQfOgL8NsY6BT7V7KP2ENdv5r3t3dEexchHem7rwcKeHBx96323BymIBei0nEU4puGgLihYliLzhKn9yV9",
+              "received": false
+            }
+          ],
+          "total_price": 70469,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lorabury",
+              "street": "Verona Wells",
+              "house": 13,
+              "flat": 501
+            },
+            "finalDate": "2026-02-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-06T22:31:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69866bb51c508c5d5ec2995f",
+          "products": [
+            {
+              "_id": "69866bb51c508c5d5ec299bb",
+              "name": "Fish30112",
+              "amount": 92,
+              "price": 70469,
+              "manufacturer": "Tesla",
+              "notes": "KNK1Q0rsHwPYxC6nuIars2hkagTVJ9jyV9nwtk9EpN7bV2RLMAkUqkmpkssSy7fXRR2Nnuuu20x3KWPCP8lUcs6qjiuHv6j1njVuZFFVbnSixfahoNek6S3Izl9NcvtoL8hUQtkkuddgUOw0YBCUMaVHT3Ya5Mc3Ub2byqNkuQfOgL8NsY6BT7V7KP2ENdv5r3t3dEexchHem7rwcKeHBx96323BymIBei0nEU4puGgLihYliLzhKn9yV9",
+              "received": false
+            }
+          ],
+          "total_price": 70469,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

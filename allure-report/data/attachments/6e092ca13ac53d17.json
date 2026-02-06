@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-NHNFzgiEQncEbcRLAu0LHTYJLUU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69866bd61c508c5d5ec2add1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69866bd51c508c5d5ec2ad2d",
+        "email": "Amya_Windler@hotmail.com",
+        "name": "Nigel Blick",
+        "country": "USA",
+        "city": "Robertafort",
+        "street": "Langworth Curve",
+        "house": 23,
+        "flat": 770,
+        "phone": "+12688754605",
+        "createdOn": "2026-02-06T22:31:49.000Z",
+        "notes": "EHVY2OBgzexL1X77PYBgMqeAeiCdSQdMwuUpOVuS6IrphZmOgSXAUuXHGRMPNJsYs3swLTv0dLsCtR5BH5dkqweu5ZEit67HvmaaApdjw9DIpAQ9ojhI3gMqxIxE1fQFY30mJVn6tFyQMu8CzGRBDyes7ThKBC4S4oFXEtHdVcooORFYB9GAUHEkzU2QWgZXCMiHFueS5FchDokmAtS1kHZwxW6IeNE9wfOkuIEU50tprxzt1H1LaT9OxY"
+      },
+      "products": [
+        {
+          "_id": "69866bd61c508c5d5ec2ad52",
+          "name": "Keyboard96589",
+          "amount": 898,
+          "price": 67909,
+          "manufacturer": "Sony",
+          "notes": "uroF1L3wbLLAmKa82TWFvbEw5snkAUDyC6z42fiaoXeSDsQ1Mnif6fpFhU4vx5rExmqdQaR1oZrHxWLgholh623JLzlQI9e57SiTTYFeP11XXDqbN1Prhpn07w7NQ0KskF2975zwRS9TuZhJgacB7uL5YdheRZxNISY0x9hZH7MyYqnaT61sTxLt3FBdCgMGIBiaQoIyIBGlsKQOzjSPLJg1OGe3nluvZ5o2zzQHFKdkL94SboiW7F22Zc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Robertafort",
+          "street": "Langworth Curve",
+          "house": 23,
+          "flat": 770
+        },
+        "finalDate": "2026-02-15T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 67909,
+      "createdOn": "2026-02-06T22:31:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866bd51c508c5d5ec2ad2d",
+          "products": [
+            {
+              "_id": "69866bd61c508c5d5ec2ad52",
+              "name": "Keyboard96589",
+              "amount": 898,
+              "price": 67909,
+              "manufacturer": "Sony",
+              "notes": "uroF1L3wbLLAmKa82TWFvbEw5snkAUDyC6z42fiaoXeSDsQ1Mnif6fpFhU4vx5rExmqdQaR1oZrHxWLgholh623JLzlQI9e57SiTTYFeP11XXDqbN1Prhpn07w7NQ0KskF2975zwRS9TuZhJgacB7uL5YdheRZxNISY0x9hZH7MyYqnaT61sTxLt3FBdCgMGIBiaQoIyIBGlsKQOzjSPLJg1OGe3nluvZ5o2zzQHFKdkL94SboiW7F22Zc",
+              "received": false
+            }
+          ],
+          "total_price": 67909,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Robertafort",
+              "street": "Langworth Curve",
+              "house": 23,
+              "flat": 770
+            },
+            "finalDate": "2026-02-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-06T22:31:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69866bd51c508c5d5ec2ad2d",
+          "products": [
+            {
+              "_id": "69866bd61c508c5d5ec2ad52",
+              "name": "Keyboard96589",
+              "amount": 898,
+              "price": 67909,
+              "manufacturer": "Sony",
+              "notes": "uroF1L3wbLLAmKa82TWFvbEw5snkAUDyC6z42fiaoXeSDsQ1Mnif6fpFhU4vx5rExmqdQaR1oZrHxWLgholh623JLzlQI9e57SiTTYFeP11XXDqbN1Prhpn07w7NQ0KskF2975zwRS9TuZhJgacB7uL5YdheRZxNISY0x9hZH7MyYqnaT61sTxLt3FBdCgMGIBiaQoIyIBGlsKQOzjSPLJg1OGe3nluvZ5o2zzQHFKdkL94SboiW7F22Zc",
+              "received": false
+            }
+          ],
+          "total_price": 67909,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

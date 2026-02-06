@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 06 Feb 2026 22:31:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-O0sU9uqCSsNWBlVJyDt/1CuO82Y\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69866baa1c508c5d5ec29334",
+      "status": "Draft",
+      "customer": {
+        "_id": "69866ba81c508c5d5ec291eb",
+        "email": "Mable39@yahoo.com",
+        "name": "Rhiannon Harris",
+        "country": "Canada",
+        "city": "Darronland",
+        "street": "S 3rd Street",
+        "house": 44,
+        "flat": 474,
+        "phone": "+13345951221",
+        "createdOn": "2026-02-06T22:31:04.000Z",
+        "notes": "JjVm5gIXmFcuMv67guQnYRXRyBwcpv66cuz92GCLjwLEjtfrQpvx5GFfFk74gtWGCSajkGFYdAvUINkGl4SRPXgBgCfqWUoXoegAOq7UXAisrx6omKjYVtCkktrshe7SJTNklQdU0Wop4JVyZOuk5fovpO8RWFDS7oAhdFhh6WSM9pkLk6r2alKkJlgbtMIUiux7Nr0lZoxdTR5pExxhsVBxcyaIjX9i9ZraydCR5KqC2j7wyhgoCn7ZNU"
+      },
+      "products": [
+        {
+          "_id": "69866ba91c508c5d5ec291fb",
+          "name": "Salad80995",
+          "amount": 705,
+          "price": 47152,
+          "manufacturer": "Apple",
+          "notes": "nBGrAAbx39wpHwyVlz9fVyRCZ8QuZIOTCYpeiew9Z3gKZSujiiYMm9KvA1VCxEr0ClpHJMZkZdjBXnbj1B1ScLFFR8PzCkRBI0oh9xYNme2cSh6FApoknV4hjCyyMdAeWFqRZ3LohWFoSy5Uu0UQiYus6UihlUYlUzqlKgdyriM574cQ5ipai0NbWrk0taEmtKUel1WQMF8Ie1IiPAN5Ay8vXtICCjPojsipXWPsDMQom550arYJlyUyzd",
+          "received": false
+        },
+        {
+          "_id": "69866ba91c508c5d5ec29293",
+          "name": "Chicken78234",
+          "amount": 358,
+          "price": 91737,
+          "manufacturer": "Microsoft",
+          "notes": "ZcpmKqRefoctDcEG8zJHki8NTl9GJnC2rsKZR79mzL3F1pchML94LsQ6E3GE7AD9XdbhhdsDCzxsO4XXq1QNZNp4uUIMsTCvFVZXCdnJhQJRUaY2I0C56TCoTFCLezxsKlmglVQQ9oXbpJK33BtC8F7uSa6yYYnlwi3qJJ2fwoMLlnxhCLaDTRKihkklRZg7XbOyy7VVkHKP9PSJP8TzwrWtIqxGrnyEZwTINUIYet0siHSofSDNDC0ydo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 138889,
+      "createdOn": "2026-02-06T22:31:06.000Z",
+      "comments": [
+        {
+          "text": "XYrlhOYuvSiejAc9kOmNKs51tQ0u5v9O1nQ2fQTXisSvM5aQT4VcXZircBPG8l7HTf1vqpFyR4B",
+          "createdOn": "2026-02-06T22:31:07.000Z",
+          "_id": "69866bab1c508c5d5ec29358"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69866ba81c508c5d5ec291eb",
+          "products": [
+            {
+              "_id": "69866ba91c508c5d5ec291fb",
+              "name": "Salad80995",
+              "amount": 705,
+              "price": 47152,
+              "manufacturer": "Apple",
+              "notes": "nBGrAAbx39wpHwyVlz9fVyRCZ8QuZIOTCYpeiew9Z3gKZSujiiYMm9KvA1VCxEr0ClpHJMZkZdjBXnbj1B1ScLFFR8PzCkRBI0oh9xYNme2cSh6FApoknV4hjCyyMdAeWFqRZ3LohWFoSy5Uu0UQiYus6UihlUYlUzqlKgdyriM574cQ5ipai0NbWrk0taEmtKUel1WQMF8Ie1IiPAN5Ay8vXtICCjPojsipXWPsDMQom550arYJlyUyzd",
+              "received": false
+            },
+            {
+              "_id": "69866ba91c508c5d5ec29293",
+              "name": "Chicken78234",
+              "amount": 358,
+              "price": 91737,
+              "manufacturer": "Microsoft",
+              "notes": "ZcpmKqRefoctDcEG8zJHki8NTl9GJnC2rsKZR79mzL3F1pchML94LsQ6E3GE7AD9XdbhhdsDCzxsO4XXq1QNZNp4uUIMsTCvFVZXCdnJhQJRUaY2I0C56TCoTFCLezxsKlmglVQQ9oXbpJK33BtC8F7uSa6yYYnlwi3qJJ2fwoMLlnxhCLaDTRKihkklRZg7XbOyy7VVkHKP9PSJP8TzwrWtIqxGrnyEZwTINUIYet0siHSofSDNDC0ydo",
+              "received": false
+            }
+          ],
+          "total_price": 138889,
+          "delivery": null,
+          "changedOn": "2026-02-06T22:31:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
