@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-p9gSyCiUvXrX0dZI/13VxLoIuec\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd641c508c5d5ec30383",
+        "email": "Emerson56@gmail.com",
+        "name": "Joaquin Wisoky",
+        "country": "Ukraine",
+        "city": "North Kimcester",
+        "street": "Church Lane",
+        "house": 35,
+        "flat": 105,
+        "phone": "+15349943205",
+        "createdOn": "2026-02-07T22:32:04.000Z",
+        "notes": "E9uvi5wqLTqUDzGu41UncJUcbaKP1suZMNIjOMox3yvhG3o4COx6T41EcUqZ0GmAqPtYKSOxmEz0KDQRomqtPJZ9w2bV972hDqD9RmlH4WbAY3q5myXUZdplbVDpPv30ktmHC873hF6r2T1enueEQKScjd7s2g715egq7LnlJ7PzMazQAGzIkhbZh5YOczPpREy4XBYtfmBRJRs8lIR2KMgLMaLSzkMAbh34E4HfcRfyQZU9EKArsrm76Y"
+      },
+      "products": [
+        {
+          "_id": "6987bd651c508c5d5ec303f1",
+          "name": "Shoes16816",
+          "amount": 951,
+          "price": 38501,
+          "manufacturer": "Samsung",
+          "notes": "8pzc7F9tUGQGsofoACkaHmr7ndxkTro4wj2FnlRbI1Xm4XpMtMYrT5NWelSjeWi6qhsQyQiC920O3H6VEVANWVCY1G83W8zHSD57xkLgp9w5fD0ujZIWqbn88Zi0fTGGAfHnUEgYfs9nO4yUWH1DDTWnPAg9MzOJYWvaQxeqESCbbkUd3wSt95ZobY3p7qhYaLsQsWnB95KRp9folUIruHhMhuWpgEbUznJbm9rwJQzeU2BxHx4HaIpMmT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38501,
+      "createdOn": "2026-02-07T22:32:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd641c508c5d5ec30383",
+          "products": [
+            {
+              "_id": "6987bd651c508c5d5ec303f1",
+              "name": "Shoes16816",
+              "amount": 951,
+              "price": 38501,
+              "manufacturer": "Samsung",
+              "notes": "8pzc7F9tUGQGsofoACkaHmr7ndxkTro4wj2FnlRbI1Xm4XpMtMYrT5NWelSjeWi6qhsQyQiC920O3H6VEVANWVCY1G83W8zHSD57xkLgp9w5fD0ujZIWqbn88Zi0fTGGAfHnUEgYfs9nO4yUWH1DDTWnPAg9MzOJYWvaQxeqESCbbkUd3wSt95ZobY3p7qhYaLsQsWnB95KRp9folUIruHhMhuWpgEbUznJbm9rwJQzeU2BxHx4HaIpMmT",
+              "received": false
+            }
+          ],
+          "total_price": 38501,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd651c508c5d5ec30415"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

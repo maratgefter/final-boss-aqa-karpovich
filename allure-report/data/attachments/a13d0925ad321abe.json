@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-l0feDFuAEUjfGOGnvrv369vU+w4\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd4b1c508c5d5ec2f56a",
+        "email": "Reymundo.Paucek@yahoo.com",
+        "name": "Daniella Kutch",
+        "country": "Great Britain",
+        "city": "Shoreline",
+        "street": "E Pine Street",
+        "house": 1,
+        "flat": 695,
+        "phone": "+18786842363",
+        "createdOn": "2026-02-07T22:31:39.000Z",
+        "notes": "eYlRnEJCvTVrGaFo4OmF56bPP1xxHxorBnIACNm3YznA7yMV9LbG90HuhNorILa5Mravk0EED1jU8lXcizk1rqfE216awfeR00z5rzXxwEgfMVp8znsgap5HCkhcVykATqyRt3r15N3pxeeURKpiLYFw8DE2EIAGWLMG1stfataLRPEPb6QCo1aFMyHeKccLxraBDcIBKoUfAwHMAQ05n38zCCc3DZJZ6nFQxJRmh1tC6cz0RWOHoO4TFr"
+      },
+      "products": [
+        {
+          "_id": "6987bd4b1c508c5d5ec2f57b",
+          "name": "Gloves31210",
+          "amount": 4,
+          "price": 16282,
+          "manufacturer": "Samsung",
+          "notes": "6683LzpH2ePdPsPvs85G7tgubnpRxGOwwtC0eO9GWo7INdhS4d8Qm3i7bYV2YPKTOzfMAGvHTUOT8EgMVTka82PzgMxIWs4haGgCrV1dAlI3hDHOyI6HfJ6v5z4CmL54Dr85cL1YAzJzhzzasSppe1Od2Aui9AjTtIAnglfHcgfsC0hMk5uVASBkj2OumGQACU8Mt8ibCI7ddzZxd5vp9ccrAj7pQDJOXySoGAUlrlbMP47wRKxjocRf4T",
+          "received": false
+        },
+        {
+          "_id": "6987bd4b1c508c5d5ec2f5a1",
+          "name": "Shoes29960",
+          "amount": 481,
+          "price": 4316,
+          "manufacturer": "Google",
+          "notes": "ySluaWXKgeDuRu4bN2UdhIRCxUBfAaguXC2hdIupJC4AhXllxZtw5uYa7dYAvU93xMMgNJZETbDARRaDSL48d2xLxfECmCFV6IMbiyaqUI23BCL38B0LYBkvD3XAHpy7awYj2pDaRIPRR9MyB8W3YrmNaxj27gnTAMYroLMdSa3fDtwdJprklUsBbHQxZHgvyyIhnuIzdFScTVVUjNQAu4pDWmoyKYOFJhz9LkKAQFQcRVIgxPL6JxeMb7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20598,
+      "createdOn": "2026-02-07T22:31:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd4b1c508c5d5ec2f56a",
+          "products": [
+            {
+              "_id": "6987bd4b1c508c5d5ec2f57b",
+              "name": "Gloves31210",
+              "amount": 4,
+              "price": 16282,
+              "manufacturer": "Samsung",
+              "notes": "6683LzpH2ePdPsPvs85G7tgubnpRxGOwwtC0eO9GWo7INdhS4d8Qm3i7bYV2YPKTOzfMAGvHTUOT8EgMVTka82PzgMxIWs4haGgCrV1dAlI3hDHOyI6HfJ6v5z4CmL54Dr85cL1YAzJzhzzasSppe1Od2Aui9AjTtIAnglfHcgfsC0hMk5uVASBkj2OumGQACU8Mt8ibCI7ddzZxd5vp9ccrAj7pQDJOXySoGAUlrlbMP47wRKxjocRf4T",
+              "received": false
+            },
+            {
+              "_id": "6987bd4b1c508c5d5ec2f5a1",
+              "name": "Shoes29960",
+              "amount": 481,
+              "price": 4316,
+              "manufacturer": "Google",
+              "notes": "ySluaWXKgeDuRu4bN2UdhIRCxUBfAaguXC2hdIupJC4AhXllxZtw5uYa7dYAvU93xMMgNJZETbDARRaDSL48d2xLxfECmCFV6IMbiyaqUI23BCL38B0LYBkvD3XAHpy7awYj2pDaRIPRR9MyB8W3YrmNaxj27gnTAMYroLMdSa3fDtwdJprklUsBbHQxZHgvyyIhnuIzdFScTVVUjNQAu4pDWmoyKYOFJhz9LkKAQFQcRVIgxPL6JxeMb7",
+              "received": false
+            }
+          ],
+          "total_price": 20598,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd4c1c508c5d5ec2f5e4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

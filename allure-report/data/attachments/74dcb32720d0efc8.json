@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-QnOdAayChdOtje/1yQEg2h7Pldk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd571c508c5d5ec2fbff",
+        "email": "Jed_Hermiston@yahoo.com",
+        "name": "Micheal Hagenes",
+        "country": "Germany",
+        "city": "Port Rahsaan",
+        "street": "First Avenue",
+        "house": 5,
+        "flat": 32,
+        "phone": "+19549134056",
+        "createdOn": "2026-02-07T22:31:51.000Z",
+        "notes": "zYWNQN5omMDlt8vNeo9o4UP4xCHfmBoqXSG2lTxzCSvPMpKOhJy7Z5iKvE2jvh7Zji531UKcaGn02ksjx9kyvqjcOcVVX6dkQVvvymNpayCteveaUhV8llMPKthLEIZDuB03SUWO6IBhOwgibYOMizxWfAYI8huNqpdAZQbxaodkGo5YwCFaHsEuzeGU6XoiOfosSMgtx6OKYs8QZrDItxi5HFyS4468wnbwY0uXSUBa3zddRqHsOJDBX6"
+      },
+      "products": [
+        {
+          "_id": "6987bd581c508c5d5ec2fc3f",
+          "name": "Chips11089",
+          "amount": 464,
+          "price": 16945,
+          "manufacturer": "Xiaomi",
+          "notes": "5Q1r9lQkPjmUGOm9hWYofYJOkjeJ9I4MXq7NbExqy95bS0yPwO6PRpym3STNQrID4jJpsF942XdT204M4K4X5MxhsqVnstkU2qhYKkZ1YgV4ZdMVNAeHNAGIAsDeAq13qNN7ugYqOGtmpIuDDw8xktg1ji76Ofgy7pltTWvjPEZUvB606wIod8kp8j5OCjhgtQBkyQGc14aIlo8gmdOWF9cgDZnsySJYWrvBiNV5yRHrq7AEWGTxVeZRX6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16945,
+      "createdOn": "2026-02-07T22:31:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd571c508c5d5ec2fbff",
+          "products": [
+            {
+              "_id": "6987bd581c508c5d5ec2fc3f",
+              "name": "Chips11089",
+              "amount": 464,
+              "price": 16945,
+              "manufacturer": "Xiaomi",
+              "notes": "5Q1r9lQkPjmUGOm9hWYofYJOkjeJ9I4MXq7NbExqy95bS0yPwO6PRpym3STNQrID4jJpsF942XdT204M4K4X5MxhsqVnstkU2qhYKkZ1YgV4ZdMVNAeHNAGIAsDeAq13qNN7ugYqOGtmpIuDDw8xktg1ji76Ofgy7pltTWvjPEZUvB606wIod8kp8j5OCjhgtQBkyQGc14aIlo8gmdOWF9cgDZnsySJYWrvBiNV5yRHrq7AEWGTxVeZRX6",
+              "received": false
+            }
+          ],
+          "total_price": 16945,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd581c508c5d5ec2fc60"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

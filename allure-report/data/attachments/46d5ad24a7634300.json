@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-KJvM0rtGFtf3peXWNuNYIFjsheE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd551c508c5d5ec2fab0",
+        "email": "Norval.Flatley70@yahoo.com",
+        "name": "Ruben Cummerata",
+        "country": "Belarus",
+        "city": "Overland Park",
+        "street": "Langworth Villages",
+        "house": 23,
+        "flat": 718,
+        "phone": "+15854677297",
+        "createdOn": "2026-02-07T22:31:49.000Z",
+        "notes": "ELq6frnBueMLEZh2conksQj67YeLvHNBAtFI5Vi7CnAN3mn16imYDE3LREQvY1vw9p9AOFrYFwRRCutlgZiaQ5ZWB56MI0bom7gmBUB631zU12Q2sjfqWecUzDCkYySgftgKDabcNGYR1CifTxXz92DrbndFjBLX4VJPRcLXRDQl8ORgoTf8N8YD0wENZWqCSIxciLrC9hHsGmdZsgKZkRB6W2dyHhacpz6WF9teR9VKOUhiofh7lT7GMM"
+      },
+      "products": [
+        {
+          "_id": "6987bd561c508c5d5ec2fb23",
+          "name": "Tuna73544",
+          "amount": 999,
+          "price": 50318,
+          "manufacturer": "Tesla",
+          "notes": "npfMoFxM6218aZDMhuq8DjidqQZz3cTMWyG9VX7O6gfHQ7eKilkkWt9tqgfK4W02Nf6mbY2RizOW3G9CXMyRdOJFCjMxW8U1xw4wuoX9bN1CLXu6NYrBygoXQzXU3ECJHg73fDnNpOifp83pS0ji9icCOzlhf5tOO4gUAwF0fOcC5cTnZsSrRJZ42HGITrb8efl34i4L4Ys7HCTBXYAeOZbeiDT9Bkm9Wxs2lwCpoVwhsVpoHDdSaAoZc3",
+          "received": false
+        },
+        {
+          "_id": "6987bd571c508c5d5ec2fbe6",
+          "name": "Table6477",
+          "amount": 325,
+          "price": 80908,
+          "manufacturer": "Sony",
+          "notes": "geheS0wKPPaerfDEqe0ReNVhaxUDRhSF9hKAoe463DtiL9YhJhXmMKVld5yGMyBUmgNwNiThErVinW4klGifeu1SGRbKdctthMfJVv8DHUCAGIruBlgGYYghDlMHkXDKEIImNdICjOE9GDVugyMlKXLcufpgCXMAf48C8LOQNEZ0eYH887fv1nu6Uy1bVkEEedJGdgW1ojeW7riHCtgvDTT4wdm1w0lFpqns5JaUTN9MD514VEljzKbm8m",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 131226,
+      "createdOn": "2026-02-07T22:31:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd551c508c5d5ec2fab0",
+          "products": [
+            {
+              "_id": "6987bd561c508c5d5ec2fb23",
+              "name": "Tuna73544",
+              "amount": 999,
+              "price": 50318,
+              "manufacturer": "Tesla",
+              "notes": "npfMoFxM6218aZDMhuq8DjidqQZz3cTMWyG9VX7O6gfHQ7eKilkkWt9tqgfK4W02Nf6mbY2RizOW3G9CXMyRdOJFCjMxW8U1xw4wuoX9bN1CLXu6NYrBygoXQzXU3ECJHg73fDnNpOifp83pS0ji9icCOzlhf5tOO4gUAwF0fOcC5cTnZsSrRJZ42HGITrb8efl34i4L4Ys7HCTBXYAeOZbeiDT9Bkm9Wxs2lwCpoVwhsVpoHDdSaAoZc3",
+              "received": false
+            },
+            {
+              "_id": "6987bd571c508c5d5ec2fbe6",
+              "name": "Table6477",
+              "amount": 325,
+              "price": 80908,
+              "manufacturer": "Sony",
+              "notes": "geheS0wKPPaerfDEqe0ReNVhaxUDRhSF9hKAoe463DtiL9YhJhXmMKVld5yGMyBUmgNwNiThErVinW4klGifeu1SGRbKdctthMfJVv8DHUCAGIruBlgGYYghDlMHkXDKEIImNdICjOE9GDVugyMlKXLcufpgCXMAf48C8LOQNEZ0eYH887fv1nu6Uy1bVkEEedJGdgW1ojeW7riHCtgvDTT4wdm1w0lFpqns5JaUTN9MD514VEljzKbm8m",
+              "received": false
+            }
+          ],
+          "total_price": 131226,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd571c508c5d5ec2fc0e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

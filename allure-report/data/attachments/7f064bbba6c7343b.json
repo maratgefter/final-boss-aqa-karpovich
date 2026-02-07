@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-oJFcBgMvdDpC1idoDmAyzaIeEpY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd431c508c5d5ec2f1da",
+        "email": "Albina_Marvin7@yahoo.com",
+        "name": "Colin Renner",
+        "country": "Germany",
+        "city": "South Aronfield",
+        "street": "Brigitte Drive",
+        "house": 20,
+        "flat": 874,
+        "phone": "+12943705575",
+        "createdOn": "2026-02-07T22:31:31.000Z",
+        "notes": "l7bTdl8jtk60Y30tYsQfmHIrnYdA9yfYefhCoNpDaEOPMSPo5B4WUQCmLRuIiizs4X7DuvAGbHi5gknvA9BgZnmymPOTJGuFnxHU84dFscstQmemrHuB0uXXbnFURvCpgZDMo9jHLKXnsnl0mAjI4tzTyhpE4LRYd46tbxzEDLlSWc5vnNDclxrlD1OnNGCQbZEUQGdNL4bB1HqqwPZ05QxanXu5afBq0G6m1Kh9PvamnqnC8qqUrBbC0E"
+      },
+      "products": [
+        {
+          "_id": "6987bd441c508c5d5ec2f1ed",
+          "name": "Shirt13091",
+          "amount": 810,
+          "price": 54867,
+          "manufacturer": "Microsoft",
+          "notes": "VdmONRTUfe4EK7bSW3XXXHRsf1MPwBTArfkB54hxateTzG0kThHZSJoG40XDevcidlcItV4H9jvbviOgH2Yfq9I5wAzo9NLSyY1QmyJrQU3J1Fd4KWWcJTFik8rjFPu8xhYSXMerVPpkn1eH844ewjZ3PkfwDqKPTsjDyHqM6Ds2GnI6RQa8s22OO2PfIiP3W5iI0z0ngfsEGytSOrAVBo95iIUZ7unVEXvbwoBS8pUzlk1g99s7U88fUo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54867,
+      "createdOn": "2026-02-07T22:31:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd431c508c5d5ec2f1da",
+          "products": [
+            {
+              "_id": "6987bd441c508c5d5ec2f1ed",
+              "name": "Shirt13091",
+              "amount": 810,
+              "price": 54867,
+              "manufacturer": "Microsoft",
+              "notes": "VdmONRTUfe4EK7bSW3XXXHRsf1MPwBTArfkB54hxateTzG0kThHZSJoG40XDevcidlcItV4H9jvbviOgH2Yfq9I5wAzo9NLSyY1QmyJrQU3J1Fd4KWWcJTFik8rjFPu8xhYSXMerVPpkn1eH844ewjZ3PkfwDqKPTsjDyHqM6Ds2GnI6RQa8s22OO2PfIiP3W5iI0z0ngfsEGytSOrAVBo95iIUZ7unVEXvbwoBS8pUzlk1g99s7U88fUo",
+              "received": false
+            }
+          ],
+          "total_price": 54867,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd441c508c5d5ec2f208"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4110",
+    "etag": "W/\"100e-Z8QG995oxPbjscHLTryEWjbEUVQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6987bd911c508c5d5ec3209a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd8f1c508c5d5ec31f57",
+        "email": "Will_McClure@yahoo.com",
+        "name": "Charley DuBuque",
+        "country": "Belarus",
+        "city": "Kaelachester",
+        "street": "N Harrison Street",
+        "house": 24,
+        "flat": 221,
+        "phone": "+12259962458",
+        "createdOn": "2026-02-07T22:32:47.000Z",
+        "notes": "DN6QYU67RnkOfayrMoRTFt8DlraLYAMtKvO21s4Ww2ts52D7uSCVP8Tueu1AXWD1YeSR56M2932GyZDpceT1KnOfNrTIJjuOrA6nAS9iVSrNnoaNkcbdiGwkVpWruEuNZ9TOSBzAJ1KTABbeBymBVzscy7fFgQf0KFcDMVuYR2IbLS1EVaIQXOucUpOD4s4Ida67EydRJH8TkbHsUakgV12L4D0uQ2bNoa84WDZjVUntlIW7GZLmvw8ekC"
+      },
+      "products": [
+        {
+          "_id": "6987bd901c508c5d5ec31fe4",
+          "name": "Fish216",
+          "amount": 810,
+          "price": 92583,
+          "manufacturer": "Apple",
+          "notes": "YDMPdPKrjaeHrfajP2W56TEIc9I830o4e6mKpO1mrqDHPHDlq6Lyenp3dQpfTRX4gCfRCYy2FNPdo8aqq58CssnHeb0KpbWK49mhWfToAxICw5xi6EawwRZcdr1wOfGEltVUXydZElW7bY0XFzwJd40boLSGyFHZpJb39cwnvSKIYJfSbuV3l6R090ZKbZmDLDhs8vo0PwMY5FdCvtJVaV4LdGzWJwXPympZMI1RuVRg7OHqcBSy77FJ9B",
+          "received": false
+        },
+        {
+          "_id": "6987bd901c508c5d5ec32011",
+          "name": "Pizza37106",
+          "amount": 11,
+          "price": 99037,
+          "manufacturer": "Xiaomi",
+          "notes": "RJgv8QrDxCQ7phisejE3eZG5PAcgy5fuvuBbCMdnc7u48zwbcboRkxpXKHEu06fsedIqwXn1X2G4tCGUUIVStcUrJQHbAsDyxZKxyI4vKEtcvfraHUoovBe3JplunEfLRpuMqFA8kpq3IiV38VaP8Y758zQxWQXHow8jB5mlM5JclbiIKCya1jJIVxoEvGJfXfgHguzjZQCb2nglo9h5FzRYa6mAnRHxcGscDPQfKYPEIrvpF6Hg67DtRt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kaelachester",
+          "street": "N Harrison Street",
+          "house": 24,
+          "flat": 221
+        },
+        "finalDate": "2026-02-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 191620,
+      "createdOn": "2026-02-07T22:32:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd8f1c508c5d5ec31f57",
+          "products": [
+            {
+              "_id": "6987bd901c508c5d5ec31fe4",
+              "name": "Fish216",
+              "amount": 810,
+              "price": 92583,
+              "manufacturer": "Apple",
+              "notes": "YDMPdPKrjaeHrfajP2W56TEIc9I830o4e6mKpO1mrqDHPHDlq6Lyenp3dQpfTRX4gCfRCYy2FNPdo8aqq58CssnHeb0KpbWK49mhWfToAxICw5xi6EawwRZcdr1wOfGEltVUXydZElW7bY0XFzwJd40boLSGyFHZpJb39cwnvSKIYJfSbuV3l6R090ZKbZmDLDhs8vo0PwMY5FdCvtJVaV4LdGzWJwXPympZMI1RuVRg7OHqcBSy77FJ9B",
+              "received": false
+            },
+            {
+              "_id": "6987bd901c508c5d5ec32011",
+              "name": "Pizza37106",
+              "amount": 11,
+              "price": 99037,
+              "manufacturer": "Xiaomi",
+              "notes": "RJgv8QrDxCQ7phisejE3eZG5PAcgy5fuvuBbCMdnc7u48zwbcboRkxpXKHEu06fsedIqwXn1X2G4tCGUUIVStcUrJQHbAsDyxZKxyI4vKEtcvfraHUoovBe3JplunEfLRpuMqFA8kpq3IiV38VaP8Y758zQxWQXHow8jB5mlM5JclbiIKCya1jJIVxoEvGJfXfgHguzjZQCb2nglo9h5FzRYa6mAnRHxcGscDPQfKYPEIrvpF6Hg67DtRt",
+              "received": false
+            }
+          ],
+          "total_price": 191620,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kaelachester",
+              "street": "N Harrison Street",
+              "house": 24,
+              "flat": 221
+            },
+            "finalDate": "2026-02-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-07T22:32:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6987bd8f1c508c5d5ec31f57",
+          "products": [
+            {
+              "_id": "6987bd901c508c5d5ec31fe4",
+              "name": "Fish216",
+              "amount": 810,
+              "price": 92583,
+              "manufacturer": "Apple",
+              "notes": "YDMPdPKrjaeHrfajP2W56TEIc9I830o4e6mKpO1mrqDHPHDlq6Lyenp3dQpfTRX4gCfRCYy2FNPdo8aqq58CssnHeb0KpbWK49mhWfToAxICw5xi6EawwRZcdr1wOfGEltVUXydZElW7bY0XFzwJd40boLSGyFHZpJb39cwnvSKIYJfSbuV3l6R090ZKbZmDLDhs8vo0PwMY5FdCvtJVaV4LdGzWJwXPympZMI1RuVRg7OHqcBSy77FJ9B",
+              "received": false
+            },
+            {
+              "_id": "6987bd901c508c5d5ec32011",
+              "name": "Pizza37106",
+              "amount": 11,
+              "price": 99037,
+              "manufacturer": "Xiaomi",
+              "notes": "RJgv8QrDxCQ7phisejE3eZG5PAcgy5fuvuBbCMdnc7u48zwbcboRkxpXKHEu06fsedIqwXn1X2G4tCGUUIVStcUrJQHbAsDyxZKxyI4vKEtcvfraHUoovBe3JplunEfLRpuMqFA8kpq3IiV38VaP8Y758zQxWQXHow8jB5mlM5JclbiIKCya1jJIVxoEvGJfXfgHguzjZQCb2nglo9h5FzRYa6mAnRHxcGscDPQfKYPEIrvpF6Hg67DtRt",
+              "received": false
+            }
+          ],
+          "total_price": 191620,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

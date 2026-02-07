@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-VT6U2ItB3YlsE3PhZPrWHC6FQKw\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd631c508c5d5ec30313",
+        "email": "Nola.Lesch50@gmail.com",
+        "name": "Antonio Kutch",
+        "country": "Canada",
+        "city": "Chicago",
+        "street": "Morar Center",
+        "house": 8,
+        "flat": 790,
+        "phone": "+13562958204",
+        "createdOn": "2026-02-07T22:32:03.000Z",
+        "notes": "AKk56Otk6B9qGs290UU90dlYMmkpi0w9UIKaVQpb7tBFPP24ckfkxSY1PXmfQjBxgODbh9IxUAiuf6cmGFoVH3b1rQ1z6a01JIp9varDtmuUOkkxplx8ESuEVDNAARG4wDIbhzUpMeGlPqJG5SxNnGbk1WfAc36ULt69LluIWCWY3tMCZk1ufpcd8tUzonFhOuID9uS3ljrgmKR6f5AjsKOQqWonuMTOzk1HQPQqaD0ACbWKYKocK5awDs"
+      },
+      "products": [
+        {
+          "_id": "6987bd641c508c5d5ec303e0",
+          "name": "Sausages45058",
+          "amount": 932,
+          "price": 41537,
+          "manufacturer": "Amazon",
+          "notes": "Ja6k3YURPIqgh2puYGZGtwDSnb2FgFBhU4e0Zon0UxNtSmICfVnGuUZiyiB12sgjNNtakZkc70I66hFHEyRObLW2iXIMYXgU7tH8F9lzkrqdBAQCMdFv1RDkcm6tKJ1BxMhojWVHa5T5O7YxjcDI33D9aDnQyxvRdQBKS5YGhkbpG4oCHM8MAKuBVIsS7EiQNfKRHUZEVMFdMN3gi7jkde5d2XN3lpeRqnsX6tZ8sO3sBxhEqBqfNeSMNH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41537,
+      "createdOn": "2026-02-07T22:32:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd631c508c5d5ec30313",
+          "products": [
+            {
+              "_id": "6987bd641c508c5d5ec303e0",
+              "name": "Sausages45058",
+              "amount": 932,
+              "price": 41537,
+              "manufacturer": "Amazon",
+              "notes": "Ja6k3YURPIqgh2puYGZGtwDSnb2FgFBhU4e0Zon0UxNtSmICfVnGuUZiyiB12sgjNNtakZkc70I66hFHEyRObLW2iXIMYXgU7tH8F9lzkrqdBAQCMdFv1RDkcm6tKJ1BxMhojWVHa5T5O7YxjcDI33D9aDnQyxvRdQBKS5YGhkbpG4oCHM8MAKuBVIsS7EiQNfKRHUZEVMFdMN3gi7jkde5d2XN3lpeRqnsX6tZ8sO3sBxhEqBqfNeSMNH",
+              "received": false
+            }
+          ],
+          "total_price": 41537,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd651c508c5d5ec30400"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

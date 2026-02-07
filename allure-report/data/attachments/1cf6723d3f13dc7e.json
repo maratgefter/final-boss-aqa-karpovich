@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-Tx6hnX6V/FwXaHgO6AZeeowUBjs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd7f1c508c5d5ec3153d",
+        "email": "Desiree.Weissnat49@hotmail.com",
+        "name": "Ola Rohan",
+        "country": "Russia",
+        "city": "South Kameronfort",
+        "street": "Bruen Viaduct",
+        "house": 1,
+        "flat": 566,
+        "phone": "+18079884419",
+        "createdOn": "2026-02-07T22:32:31.000Z",
+        "notes": "vOKPNPXR9tZ3oFQEnnIdjtEILF2AHkoYWC3juyVZTQHXMK2NS85RSzJMzqIKu92zKURBlhM1BxTFbeQb0yMV4AqkO3jNonpiMwH8qgToBJRlLDT88NYDYpTfPwZoj2037a7sD2H6Ctzw6d5a3QUBjjlF0adkNPp2Ue2cdp1bRLihwo8R5delojduBHw5cq5TqE8ebOD1ALJF7PS6S7CEmJatVXRK0snuAjxdqUZHPsOJf5nnbPLzNTEqq6"
+      },
+      "products": [
+        {
+          "_id": "6987bd811c508c5d5ec3161c",
+          "name": "Mouse79295",
+          "amount": 783,
+          "price": 92611,
+          "manufacturer": "Microsoft",
+          "notes": "l4TbYsF1oKRPfX2zvxfk3MzToCdJsmlOvwkKjX3EkOXTPtVKjClVc86Po4u0vp2MIOMGagwibJ0cgO6vaIVrnGAwRcd1bJHKWyVmPUeylG3gA7xHwVN2o7ue4WEYx8ybxCh053esrgUgumAUzJfu7ra6LXUBy79K1PNcOBZtQb1vVBPl4ItuzGcGgVjQeMTLtG2pts1ExigYk3DXwrAVpo0O1O9lYP2NT4oJOgk3g8KK2BkOj7Nd0TRQqD",
+          "received": false
+        },
+        {
+          "_id": "6987bd811c508c5d5ec3162a",
+          "name": "Computer52972",
+          "amount": 515,
+          "price": 96791,
+          "manufacturer": "Amazon",
+          "notes": "Og3GL5KRcpmlN1Ruv3rryxVxTemp9YZYAAnjRKtrhPeUGwtfYVtlJrBKn9vzEpDtHq0V0Ksl5qFOQLn4lOxiuco6vCRgayS1F5Un9I2dYTqVmYaLba6NqMsT0wQRTR89PVObUYnreQxdHRVm9WMbXRrYeyW4qIcGZSaX9ySWwYgX4yuNwJnDIZzRgFgKK6xJ21nsND6T1NlTk0Ux0KNqteQoVtbHDnQMlM8MndMdN9Q0yaxRNOZVQhkrJn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 189402,
+      "createdOn": "2026-02-07T22:32:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd7f1c508c5d5ec3153d",
+          "products": [
+            {
+              "_id": "6987bd811c508c5d5ec3161c",
+              "name": "Mouse79295",
+              "amount": 783,
+              "price": 92611,
+              "manufacturer": "Microsoft",
+              "notes": "l4TbYsF1oKRPfX2zvxfk3MzToCdJsmlOvwkKjX3EkOXTPtVKjClVc86Po4u0vp2MIOMGagwibJ0cgO6vaIVrnGAwRcd1bJHKWyVmPUeylG3gA7xHwVN2o7ue4WEYx8ybxCh053esrgUgumAUzJfu7ra6LXUBy79K1PNcOBZtQb1vVBPl4ItuzGcGgVjQeMTLtG2pts1ExigYk3DXwrAVpo0O1O9lYP2NT4oJOgk3g8KK2BkOj7Nd0TRQqD",
+              "received": false
+            },
+            {
+              "_id": "6987bd811c508c5d5ec3162a",
+              "name": "Computer52972",
+              "amount": 515,
+              "price": 96791,
+              "manufacturer": "Amazon",
+              "notes": "Og3GL5KRcpmlN1Ruv3rryxVxTemp9YZYAAnjRKtrhPeUGwtfYVtlJrBKn9vzEpDtHq0V0Ksl5qFOQLn4lOxiuco6vCRgayS1F5Un9I2dYTqVmYaLba6NqMsT0wQRTR89PVObUYnreQxdHRVm9WMbXRrYeyW4qIcGZSaX9ySWwYgX4yuNwJnDIZzRgFgKK6xJ21nsND6T1NlTk0Ux0KNqteQoVtbHDnQMlM8MndMdN9Q0yaxRNOZVQhkrJn",
+              "received": false
+            }
+          ],
+          "total_price": 189402,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd811c508c5d5ec3164c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

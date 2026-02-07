@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-9cTXjsJPATQaCvhlZqVKqIhqGlY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd5b1c508c5d5ec2fdb6",
+        "email": "Thora_Tremblay@hotmail.com",
+        "name": "Rosalind Kulas",
+        "country": "Russia",
+        "city": "Julesborough",
+        "street": "S East Street",
+        "house": 34,
+        "flat": 283,
+        "phone": "+13053887489",
+        "createdOn": "2026-02-07T22:31:55.000Z",
+        "notes": "C2mLG9NsT5pWdDedns4fICGONtdfuGMuLTvYQmSEy0OCBnjrjpiXiKMKVoBe0geQrdlcbAnDH1Xt5BxSIuSs9w51AJDxwU0UTY14SzuRWp0ys4jMaejutmSoaYWEN03Mcuxt0eLJWy1SlEF1aLi0ZZn2JdPeJI6aeyCZFsCHMdEC3sW0cFszwZQ2wZ77qWPKdmL9yjqGL0HZ7o0o4OcEtZp14Nb8cRTTW6939fYjcCiNx9z8xdBJN4WC3y"
+      },
+      "products": [
+        {
+          "_id": "6987bd5b1c508c5d5ec2fdd6",
+          "name": "Chair83753",
+          "amount": 798,
+          "price": 1677,
+          "manufacturer": "Apple",
+          "notes": "HzCZ4iWCkR00xNtf4bkfu7xFCFWj2KcDqlHjJFlc41On8p6AM3aTRZoIuFf7Hd3mUBLzsNgkOlDnHxAt2hrpuTT4fMplFiB7iPrp7ojzWRqmhFrCEPbCdN9XnpaTK7blbpr9IwNCnIoKL7mbIwdFlg6BjOLBzJmPiSEFQDoksyiTogsUNDkMlSA2p6kt1WcOYYSGg3PXgrwdjcyvK46vDPPrEwe4sSnmBD4JOF5ADD9MRDaxZy7e1vaTGl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1677,
+      "createdOn": "2026-02-07T22:31:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd5b1c508c5d5ec2fdb6",
+          "products": [
+            {
+              "_id": "6987bd5b1c508c5d5ec2fdd6",
+              "name": "Chair83753",
+              "amount": 798,
+              "price": 1677,
+              "manufacturer": "Apple",
+              "notes": "HzCZ4iWCkR00xNtf4bkfu7xFCFWj2KcDqlHjJFlc41On8p6AM3aTRZoIuFf7Hd3mUBLzsNgkOlDnHxAt2hrpuTT4fMplFiB7iPrp7ojzWRqmhFrCEPbCdN9XnpaTK7blbpr9IwNCnIoKL7mbIwdFlg6BjOLBzJmPiSEFQDoksyiTogsUNDkMlSA2p6kt1WcOYYSGg3PXgrwdjcyvK46vDPPrEwe4sSnmBD4JOF5ADD9MRDaxZy7e1vaTGl",
+              "received": false
+            }
+          ],
+          "total_price": 1677,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd5d1c508c5d5ec2ff20"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

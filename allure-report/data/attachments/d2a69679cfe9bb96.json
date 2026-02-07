@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2958",
+    "etag": "W/\"b8e-+35RiRp9DIwHaKJSbeLoIyxBvq8\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6987bd6d1c508c5d5ec308a2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd6c1c508c5d5ec307e7",
+        "email": "Asha_Hackett@hotmail.com",
+        "name": "Dorthy Hackett",
+        "country": "France",
+        "city": "South Koryfort",
+        "street": "E Washington Street",
+        "house": 38,
+        "flat": 540,
+        "phone": "+15109870064",
+        "createdOn": "2026-02-07T22:32:12.000Z",
+        "notes": "zyU5P3GJcklw2hzQVhkNejGYDezTdV5gOWgFzLmgXPTePMKvLMrSTTahUuGZbLF0VizZdN79KwqlAGltFx3PlaCiWcA4B8sfp2xgwM4Co73C2VE6czCZkxqdMZI99mkaUhoTUjVWljJddWfcNeMQcFc0QNysNCmEJtcIJKBE0dNV6SJW8HaZrbHUgWjp3X8LvTDsjY1k3tQjJAb2ROsVOOjOyBLmE5lnJjYVuAG7aYL6DZZqQRtLMWupRw"
+      },
+      "products": [
+        {
+          "_id": "6987bd6c1c508c5d5ec30807",
+          "name": "Pizza963",
+          "amount": 296,
+          "price": 12471,
+          "manufacturer": "Xiaomi",
+          "notes": "tw3YyY8ZpjQrGOLNgIvgj8r1yhUx21DTAcXzJer36qeIN0ccKemc3dWJgnKEELZq8KztWebbddDc7duNSZcvfPnr2CAmRG5hygHtEHA5OByQtKjyfQTvm33ueUiH13B4Kv0J0b5PPUgaoP4HH9SmMiRQOPIWzt6h2kNFFcyfclyslaJV9HbWGWV7ZsuzfCdEf5aImuZ3DpMk4icCH09EkuRXV0udEsP9CtbdhTS4f0ZH6YeQhuQzJOLOCN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12471,
+      "createdOn": "2026-02-07T22:32:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd6c1c508c5d5ec307e7",
+          "products": [
+            {
+              "_id": "6987bd6c1c508c5d5ec30807",
+              "name": "Pizza963",
+              "amount": 296,
+              "price": 12471,
+              "manufacturer": "Xiaomi",
+              "notes": "tw3YyY8ZpjQrGOLNgIvgj8r1yhUx21DTAcXzJer36qeIN0ccKemc3dWJgnKEELZq8KztWebbddDc7duNSZcvfPnr2CAmRG5hygHtEHA5OByQtKjyfQTvm33ueUiH13B4Kv0J0b5PPUgaoP4HH9SmMiRQOPIWzt6h2kNFFcyfclyslaJV9HbWGWV7ZsuzfCdEf5aImuZ3DpMk4icCH09EkuRXV0udEsP9CtbdhTS4f0ZH6YeQhuQzJOLOCN",
+              "received": false
+            }
+          ],
+          "total_price": 12471,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:13.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6987bd6c1c508c5d5ec307e7",
+          "products": [
+            {
+              "_id": "6987bd6c1c508c5d5ec30807",
+              "name": "Pizza963",
+              "amount": 296,
+              "price": 12471,
+              "manufacturer": "Xiaomi",
+              "notes": "tw3YyY8ZpjQrGOLNgIvgj8r1yhUx21DTAcXzJer36qeIN0ccKemc3dWJgnKEELZq8KztWebbddDc7duNSZcvfPnr2CAmRG5hygHtEHA5OByQtKjyfQTvm33ueUiH13B4Kv0J0b5PPUgaoP4HH9SmMiRQOPIWzt6h2kNFFcyfclyslaJV9HbWGWV7ZsuzfCdEf5aImuZ3DpMk4icCH09EkuRXV0udEsP9CtbdhTS4f0ZH6YeQhuQzJOLOCN",
+              "received": false
+            }
+          ],
+          "total_price": 12471,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:32:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

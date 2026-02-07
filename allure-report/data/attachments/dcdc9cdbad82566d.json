@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:32:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-d4gWIlxiLCx68P4hAQCUl/w8F/U\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6987bd5d1c508c5d5ec2ff84",
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd5b1c508c5d5ec2fdcf",
+        "email": "Walter31@gmail.com",
+        "name": "Forest McDermott",
+        "country": "Germany",
+        "city": "Port Thaddeusbury",
+        "street": "Purdy Streets",
+        "house": 35,
+        "flat": 449,
+        "phone": "+13666118682",
+        "createdOn": "2026-02-07T22:31:55.000Z",
+        "notes": "yhnwc8KlSnvPYyeBJD1dbTzULWyhYnVMNKmjEVwUW5CtqQ4uqYA8c9AXSXuqqdLQ0ebqHd9MPAv4iTgq48E1RSv4qrCmALA3WGkSi2dATuDqXAK21owdBHrawZJpTEsMm4E1z6rD1pqarM55v0SFrI2JT1Pgm9kgqQAoxnH8qRjtmJaSXWO2zqD7uxG3kOUvMM5luQbOUSN0NNRKoNH26jTtKm4K0PXikJWIJXA1oQYuevP8ceZu6Jzbzj"
+      },
+      "products": [
+        {
+          "_id": "6987bd5c1c508c5d5ec2fe5d",
+          "name": "Chips24999",
+          "amount": 952,
+          "price": 65534,
+          "manufacturer": "Google",
+          "notes": "0aUxPmYDT1kDmLR2sm3zI54H3eP7iHcFYyHJQOBdlpgU9VfkSHFiR0FkINUf9YsVNmHBPvT3mGjrc7ogHCkZyC7rPJnlSwOcj279X6ysvt0QhAgYD9zsHMehcucnPIpFPKkAvAR5nbtUD9sj9YQa9sdPlosutIQiALyBOpsS8fQNdlGjEGQ3KezHnPOFTpbnpkFCHor4VNk0tIT4IOs9pt69zCZAlDCT4AVRKcj0JskuzYWZBx5ii0QrmW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65534,
+      "createdOn": "2026-02-07T22:31:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd5b1c508c5d5ec2fdcf",
+          "products": [
+            {
+              "_id": "6987bd5c1c508c5d5ec2fe5d",
+              "name": "Chips24999",
+              "amount": 952,
+              "price": 65534,
+              "manufacturer": "Google",
+              "notes": "0aUxPmYDT1kDmLR2sm3zI54H3eP7iHcFYyHJQOBdlpgU9VfkSHFiR0FkINUf9YsVNmHBPvT3mGjrc7ogHCkZyC7rPJnlSwOcj279X6ysvt0QhAgYD9zsHMehcucnPIpFPKkAvAR5nbtUD9sj9YQa9sdPlosutIQiALyBOpsS8fQNdlGjEGQ3KezHnPOFTpbnpkFCHor4VNk0tIT4IOs9pt69zCZAlDCT4AVRKcj0JskuzYWZBx5ii0QrmW",
+              "received": false
+            }
+          ],
+          "total_price": 65534,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-VvfJKorkZdjsOyjpNdbPVqV+sRw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd591c508c5d5ec2fca6",
+        "email": "Dianna88@hotmail.com",
+        "name": "Malvina Boyer",
+        "country": "Canada",
+        "city": "Croninburgh",
+        "street": "Abelardo Cliffs",
+        "house": 15,
+        "flat": 637,
+        "phone": "+12436339332",
+        "createdOn": "2026-02-07T22:31:53.000Z",
+        "notes": "xH7OeaQ8LZXLmEDqc06ora2dnBR2WV63e9eEPUVlUMYZ0Tww27ByUf3gUJlBk2vE6TRPRDvwp5gZtb3ruxvyGUS3y3ubfDYmcfXBmzvj1woU0tDpRoTO9B00qmlAGnZGDyetdL8v1sMSJSTnRkSoqlfPbsThHK78kSdxYA5S3T1KZelFaxppq9jhjy8BFJMchPa9FzcbmUU6mJh7lywDoAlbgibbZDxllvkqaRQIyS0aa7tTQjwU5QPl0f"
+      },
+      "products": [
+        {
+          "_id": "6987bd5a1c508c5d5ec2fd21",
+          "name": "Fish49534",
+          "amount": 83,
+          "price": 12851,
+          "manufacturer": "Samsung",
+          "notes": "vxZ1fBWa1GPYnTaeEfQrbHJuinx4ViSH78nORmf66Ac7rUKdMoRERnG6P1PfI5j6uzKqYMNXKN9nuf6dhDmT6zNTCqjiRCY2eK6MXsxrk0Gow2z0pOovCwMNIFQTBAui1afIPTmMbgyq9dqYHKqJR4kpPO8e7OTBECuO5hUFJeUrYJy4xT0ywJ7cetEStr7W4I41EQHVfYTmO1RRbwBxQZFhlj2Fd7tm5SAOTz87hbY7xDbpYOeMH4aYZ8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12851,
+      "createdOn": "2026-02-07T22:31:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd591c508c5d5ec2fca6",
+          "products": [
+            {
+              "_id": "6987bd5a1c508c5d5ec2fd21",
+              "name": "Fish49534",
+              "amount": 83,
+              "price": 12851,
+              "manufacturer": "Samsung",
+              "notes": "vxZ1fBWa1GPYnTaeEfQrbHJuinx4ViSH78nORmf66Ac7rUKdMoRERnG6P1PfI5j6uzKqYMNXKN9nuf6dhDmT6zNTCqjiRCY2eK6MXsxrk0Gow2z0pOovCwMNIFQTBAui1afIPTmMbgyq9dqYHKqJR4kpPO8e7OTBECuO5hUFJeUrYJy4xT0ywJ7cetEStr7W4I41EQHVfYTmO1RRbwBxQZFhlj2Fd7tm5SAOTz87hbY7xDbpYOeMH4aYZ8",
+              "received": false
+            }
+          ],
+          "total_price": 12851,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd5a1c508c5d5ec2fd90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

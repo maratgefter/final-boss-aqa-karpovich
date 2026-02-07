@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-MaK/OherRT1kfrnUs9IOWd3dSIU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd441c508c5d5ec2f1df",
+        "email": "Bart59@yahoo.com",
+        "name": "Crawford Quigley",
+        "country": "Belarus",
+        "city": "North Providenci",
+        "street": "Wellington Street",
+        "house": 21,
+        "flat": 674,
+        "phone": "+13816702768",
+        "createdOn": "2026-02-07T22:31:32.000Z",
+        "notes": "XbYhQIXOPv2wLiuqBLF8gJUFyur81ceMSBviPmKSJobnhmajLLiCy9kH2hKh6zCpaqIfxgqIi0fztZUJIbthWZcdQYQQyydItkemi2ycgZWCX10zQxwfV0AG4dmbdoSlQxxpLxyoWDDOCiteZYnDXBw1ybJ1gpfV3vrahy8B6DX9WLMEVJYft8GqJqg3quZB64ioThwR8ClMpHcqM171M8gsb2ZzfvPY2obG04k8p03bsJ7Y1Ft7Lg4SRv"
+      },
+      "products": [
+        {
+          "_id": "6987bd441c508c5d5ec2f1f3",
+          "name": "Keyboard87190",
+          "amount": 866,
+          "price": 59824,
+          "manufacturer": "Apple",
+          "notes": "zh1WcBFdaz0rtsCj7EEM1yVBcLtSSXgxfZSXVMxIT0g8elom4Wp6mEzOdKSBv0YHDVQwnXStbueALtyEdpqm9VVWpDTAAD7pZmemzqjBdxOaji1yiZfrBrsOvxuol4dnzyItPhFD54F8oEEDK1ZN6j2IgWFaodeDm6ultr6xImAkMBgklEd0jGSy5v3SDblTAHwQEDKmJTw9XOJGd8yVz9KIEl4gUeJwE25hP2jxryoDY5GJxGw527RMFh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59824,
+      "createdOn": "2026-02-07T22:31:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd441c508c5d5ec2f1df",
+          "products": [
+            {
+              "_id": "6987bd441c508c5d5ec2f1f3",
+              "name": "Keyboard87190",
+              "amount": 866,
+              "price": 59824,
+              "manufacturer": "Apple",
+              "notes": "zh1WcBFdaz0rtsCj7EEM1yVBcLtSSXgxfZSXVMxIT0g8elom4Wp6mEzOdKSBv0YHDVQwnXStbueALtyEdpqm9VVWpDTAAD7pZmemzqjBdxOaji1yiZfrBrsOvxuol4dnzyItPhFD54F8oEEDK1ZN6j2IgWFaodeDm6ultr6xImAkMBgklEd0jGSy5v3SDblTAHwQEDKmJTw9XOJGd8yVz9KIEl4gUeJwE25hP2jxryoDY5GJxGw527RMFh",
+              "received": false
+            }
+          ],
+          "total_price": 59824,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd441c508c5d5ec2f21b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

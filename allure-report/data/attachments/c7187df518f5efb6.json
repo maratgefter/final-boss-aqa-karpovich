@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2802",
+    "etag": "W/\"af2-27zZ3ybgX64RIrbVYPNOmQmVVok\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6987bd491c508c5d5ec2f49f",
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd481c508c5d5ec2f42b",
+        "email": "Luisa_Hayes@yahoo.com",
+        "name": "Mauricio Glover",
+        "country": "USA",
+        "city": "Lakinview",
+        "street": "Well Lane",
+        "house": 21,
+        "flat": 501,
+        "phone": "+16472030677",
+        "createdOn": "2026-02-07T22:31:36.000Z",
+        "notes": "1zgde3D9WMQRKOXuuiNoXleu4pP1sWRyFNUXy4Yb9iRC5LNMBZrHf0GmN9avbvJWnjLyMM2A0zulbiCX42oAYE6ofjXaUIzCJ76hDILRO3kEYHkyWIctl8xnO42TRkhhh4i7cTOhZO0M17UG0Z5YLkWJLWBIrTx65KFUm2IHbmSdXMOEfyb66BNYza6HarBDrZnIn2hSBmP7HxSo0WKm0fDsFKLTUSexiVT3eos0OnU0o8nXsi1w6RNREK"
+      },
+      "products": [
+        {
+          "_id": "6987bd491c508c5d5ec2f463",
+          "name": "Bacon85447",
+          "amount": 439,
+          "price": 36906,
+          "manufacturer": "Xiaomi",
+          "notes": "YBAGsSUQWl0ACpVBTwHl78htEyOv4MKtsqAvHr99c0CGZCvKwIeoSt3rKBiYM2gpwU7hhh9z8KdMpEMUfGyjQoGpNR4pkBDQWMkQhzBFQdho9ycREjpZQE0aSUwykKIDDSUY8OMPBb45jErtHFq2gnLbhcxlVNaDed7yDuG9LkFC5AB1EuD9yzvg32VQafQvK3Nzzj5CKDpcd1O8zU3syGnA4sB8H8NxOb1DDcnLh9GpBXfDcSPk63uv2n",
+          "received": false
+        },
+        {
+          "_id": "6987bd491c508c5d5ec2f480",
+          "name": "Shoes98470",
+          "amount": 607,
+          "price": 87904,
+          "manufacturer": "Google",
+          "notes": "g5KJfO6BF83IXqR1SkeaRUqGz4hS86ZHAhTGqK6kjoqqqC4ICYidVRXfEWlJoCsPle8AH3q3BIo0rztBTckDj9Mh7lhtmXtKuGkSWRQV2dUXg9sPuRJGvdiEZRiBZj7xo9w4akD4WKRGC8CEeklGpqx5Yt6FomJSv6xUZXCGFU6DdwOxVaXoXUcAl7aAREahQIW4KDMDl4qBz7tqEOevhXzKcQLM41CIrMBLMEyhZNMy7FxAVZFRwMfSKO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 124810,
+      "createdOn": "2026-02-07T22:31:37.000Z",
+      "comments": [
+        {
+          "text": "AE2nB7bZcZrQoOwqU0J7XzxcppxKCWfTzL63GFS9imB9KJ1I49vUF3IW7NNwA7HXNgK85e1Ds04",
+          "createdOn": "2026-02-07T22:31:38.000Z",
+          "_id": "6987bd4a1c508c5d5ec2f518"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd481c508c5d5ec2f42b",
+          "products": [
+            {
+              "_id": "6987bd491c508c5d5ec2f463",
+              "name": "Bacon85447",
+              "amount": 439,
+              "price": 36906,
+              "manufacturer": "Xiaomi",
+              "notes": "YBAGsSUQWl0ACpVBTwHl78htEyOv4MKtsqAvHr99c0CGZCvKwIeoSt3rKBiYM2gpwU7hhh9z8KdMpEMUfGyjQoGpNR4pkBDQWMkQhzBFQdho9ycREjpZQE0aSUwykKIDDSUY8OMPBb45jErtHFq2gnLbhcxlVNaDed7yDuG9LkFC5AB1EuD9yzvg32VQafQvK3Nzzj5CKDpcd1O8zU3syGnA4sB8H8NxOb1DDcnLh9GpBXfDcSPk63uv2n",
+              "received": false
+            },
+            {
+              "_id": "6987bd491c508c5d5ec2f480",
+              "name": "Shoes98470",
+              "amount": 607,
+              "price": 87904,
+              "manufacturer": "Google",
+              "notes": "g5KJfO6BF83IXqR1SkeaRUqGz4hS86ZHAhTGqK6kjoqqqC4ICYidVRXfEWlJoCsPle8AH3q3BIo0rztBTckDj9Mh7lhtmXtKuGkSWRQV2dUXg9sPuRJGvdiEZRiBZj7xo9w4akD4WKRGC8CEeklGpqx5Yt6FomJSv6xUZXCGFU6DdwOxVaXoXUcAl7aAREahQIW4KDMDl4qBz7tqEOevhXzKcQLM41CIrMBLMEyhZNMy7FxAVZFRwMfSKO",
+              "received": false
+            }
+          ],
+          "total_price": 124810,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

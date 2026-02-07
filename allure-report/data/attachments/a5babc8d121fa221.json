@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 07 Feb 2026 22:31:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-PDIc124BlwEixDPnh5iJbo1ykTU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6987bd4d1c508c5d5ec2f67a",
+        "email": "Antonetta.Oberbrunner0@yahoo.com",
+        "name": "Roger Williamson",
+        "country": "Ukraine",
+        "city": "New Clovis",
+        "street": "Diamond Route",
+        "house": 7,
+        "flat": 699,
+        "phone": "+18069504747",
+        "createdOn": "2026-02-07T22:31:41.000Z",
+        "notes": "MWR5gyj7G4XdK80VZOL93ZjFlk2BRVealrQtT9KceW8OFrH4MRHKdGpNV206BBEFec5WraCgMBtYW3pn0ff7bmxITCPpBUYwoCnd6sK9nfie6QMRXQVk9EcOJuhrlZkWZOPlHLkRSAYnq5ovI4R8rsJoweqQcik1XNirJcw4JkPes7TKNPbWRGahSGYl9Stzv7Ptqpi7VFGHgYLE3wxdT3mZqUyMXydufACBEofOwKyyZmS5Ni04glX73O"
+      },
+      "products": [
+        {
+          "_id": "6987bd4d1c508c5d5ec2f6aa",
+          "name": "Computer95830",
+          "amount": 495,
+          "price": 29864,
+          "manufacturer": "Amazon",
+          "notes": "SYLbEbq7hFHokbdVsJqwydZf1UPIbIsdUD8SS0TlJ6m9P0Fc1iP3XvYqucSx9ffyUwWIn76bx0zmLJBwDSQpWMvDmxAP0WgDebx7MwgJeHu81RNFTxvocIrZegTOIekFAeTOyIXcfq09VBWmAODSiuoZJRig8xGW7rXwZcoLzxzjbM8c9tl23mEARy95S91z9G3M9MVVJI6U85suARfi5z4yCHd5jcf6NDbMT7zHWiXepHJwBHSycjlM6t",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29864,
+      "createdOn": "2026-02-07T22:31:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6987bd4d1c508c5d5ec2f67a",
+          "products": [
+            {
+              "_id": "6987bd4d1c508c5d5ec2f6aa",
+              "name": "Computer95830",
+              "amount": 495,
+              "price": 29864,
+              "manufacturer": "Amazon",
+              "notes": "SYLbEbq7hFHokbdVsJqwydZf1UPIbIsdUD8SS0TlJ6m9P0Fc1iP3XvYqucSx9ffyUwWIn76bx0zmLJBwDSQpWMvDmxAP0WgDebx7MwgJeHu81RNFTxvocIrZegTOIekFAeTOyIXcfq09VBWmAODSiuoZJRig8xGW7rXwZcoLzxzjbM8c9tl23mEARy95S91z9G3M9MVVJI6U85suARfi5z4yCHd5jcf6NDbMT7zHWiXepHJwBHSycjlM6t",
+              "received": false
+            }
+          ],
+          "total_price": 29864,
+          "delivery": null,
+          "changedOn": "2026-02-07T22:31:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6987bd4e1c508c5d5ec2f6dd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
