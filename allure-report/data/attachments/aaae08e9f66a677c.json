@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:35:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3419",
+    "etag": "W/\"d5b-EQBbl94C8KPSotNc6M9EtafoQDo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890fa21c508c5d5ec3aff0",
+        "email": "Loraine57@yahoo.com",
+        "name": "Jordon Schultz",
+        "country": "France",
+        "city": "East Tamialand",
+        "street": "Moss Lane",
+        "house": 21,
+        "flat": 806,
+        "phone": "+16536882203",
+        "createdOn": "2026-02-08T22:35:14.000Z",
+        "notes": "JGKvlujIrZd775n7KtZnijLoksabhQINYTiNxxHY4vTw2Py6xZ8nZ47HctmmpazR03vtKdpOAQh2QMquqgdo8H6dDuz09cnXs2n1cVC1hrYEX3pLMP6EKMwwa21n3HGilv3hRYadrdHRCdXxtDQWmKXFXNYdK4UrXK18lVH3vp5uuInMsIopwn3CmsI1OaoJsEy6QT8rPWRHBzIgNxPTJw8jKUD4PWStKFCgJeDMbfqVh8wOcM6tb7Km9h"
+      },
+      "products": [
+        {
+          "_id": "69890fa31c508c5d5ec3b087",
+          "name": "Pizza79674",
+          "amount": 528,
+          "price": 39823,
+          "manufacturer": "Amazon",
+          "notes": "EqAVRxxlC95L2t0cHZPLQDwZUfT2iLFmQu1TZrjZezfophrTUYvmFv9LMjp5N9pJN6Qp0UmjJ6imfmbirQAH5dIKYTpLSL30dFPom8RxNdstqSTkqEsuASMOiCQTBjCV2ZU4jtrc2Lua2EC3C8GjXHFcg1mHDSyWkP9vPLtrmRCVaXtuvjcDlvxXUvLbpVUk6rcHVpGeEtebtGRjECWZiAWByGmCtHaQlh5L8lwKsocrFaYqpLZSWyd2hg",
+          "received": false
+        },
+        {
+          "_id": "69890fa41c508c5d5ec3b1ab",
+          "name": "Soap31027",
+          "amount": 280,
+          "price": 90848,
+          "manufacturer": "Microsoft",
+          "notes": "sUBD8MU2h1QPNojoZjHBrbJw27b2rt9Q0Rti02tmBC5Q8BLX94ZbS7hPd1sjznLI9266TlpRsu7Y9wM747sKP4U8ym8AFc9Jwu6nbG9mr5GHzeWxXRXueOua1e52o4xQaDk5twJkbbao2qFAt3E7DesbeWp04A6xwV03HbZvP7zeG5NnGrzuw91YO5QAlCf1ZyzGQUc2CX8YjuH8NMjEnKHMR6WsxjtIwHBWNyXOWNXtKyK5jYhrcD8Lc1",
+          "received": false
+        },
+        {
+          "_id": "69890fa81c508c5d5ec3b485",
+          "name": "Cheese69806",
+          "amount": 192,
+          "price": 40553,
+          "manufacturer": "Sony",
+          "notes": "CqNRyzc1HuvZ9oUts1QZzkItREDK9gZSUkSCvPzta3VND3wLWpSZmFN0YKyqwz2TyIlTmGePvfoOGW2NCpYO61IVV1GazQUabh49n0S8EL9OJUUmdBqccfEUijA6kvUcjJ8veIe9Y4N9mESGpTf4mJ9L9nHD13JeUtHm0IrDPCkI6pjoeU3slhKMKsylgolWj1Q3FBdBTaDsQoFN1JvNovzjETLJf1wsvGFi3K8SgpfX0EAikvLKQQ7mBE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 171224,
+      "createdOn": "2026-02-08T22:35:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890fa21c508c5d5ec3aff0",
+          "products": [
+            {
+              "_id": "69890fa31c508c5d5ec3b087",
+              "name": "Pizza79674",
+              "amount": 528,
+              "price": 39823,
+              "manufacturer": "Amazon",
+              "notes": "EqAVRxxlC95L2t0cHZPLQDwZUfT2iLFmQu1TZrjZezfophrTUYvmFv9LMjp5N9pJN6Qp0UmjJ6imfmbirQAH5dIKYTpLSL30dFPom8RxNdstqSTkqEsuASMOiCQTBjCV2ZU4jtrc2Lua2EC3C8GjXHFcg1mHDSyWkP9vPLtrmRCVaXtuvjcDlvxXUvLbpVUk6rcHVpGeEtebtGRjECWZiAWByGmCtHaQlh5L8lwKsocrFaYqpLZSWyd2hg",
+              "received": false
+            },
+            {
+              "_id": "69890fa41c508c5d5ec3b1ab",
+              "name": "Soap31027",
+              "amount": 280,
+              "price": 90848,
+              "manufacturer": "Microsoft",
+              "notes": "sUBD8MU2h1QPNojoZjHBrbJw27b2rt9Q0Rti02tmBC5Q8BLX94ZbS7hPd1sjznLI9266TlpRsu7Y9wM747sKP4U8ym8AFc9Jwu6nbG9mr5GHzeWxXRXueOua1e52o4xQaDk5twJkbbao2qFAt3E7DesbeWp04A6xwV03HbZvP7zeG5NnGrzuw91YO5QAlCf1ZyzGQUc2CX8YjuH8NMjEnKHMR6WsxjtIwHBWNyXOWNXtKyK5jYhrcD8Lc1",
+              "received": false
+            },
+            {
+              "_id": "69890fa81c508c5d5ec3b485",
+              "name": "Cheese69806",
+              "amount": 192,
+              "price": 40553,
+              "manufacturer": "Sony",
+              "notes": "CqNRyzc1HuvZ9oUts1QZzkItREDK9gZSUkSCvPzta3VND3wLWpSZmFN0YKyqwz2TyIlTmGePvfoOGW2NCpYO61IVV1GazQUabh49n0S8EL9OJUUmdBqccfEUijA6kvUcjJ8veIe9Y4N9mESGpTf4mJ9L9nHD13JeUtHm0IrDPCkI6pjoeU3slhKMKsylgolWj1Q3FBdBTaDsQoFN1JvNovzjETLJf1wsvGFi3K8SgpfX0EAikvLKQQ7mBE",
+              "received": false
+            }
+          ],
+          "total_price": 171224,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:35:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890fa91c508c5d5ec3b4ca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

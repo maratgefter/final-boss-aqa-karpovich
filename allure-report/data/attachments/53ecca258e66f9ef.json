@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2646",
+    "etag": "W/\"a56-F6emiIdXZkmCqeYqquhXyn8jcuU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f661c508c5d5ec3875c",
+        "email": "Kiara.Stroman21@yahoo.com",
+        "name": "Gilbert Hintz",
+        "country": "Belarus",
+        "city": "Hintzport",
+        "street": "Keith Trace",
+        "house": 18,
+        "flat": 280,
+        "phone": "+14084547943",
+        "createdOn": "2026-02-08T22:34:14.000Z",
+        "notes": "2y26eteiKMYG5QkSCWT0C70JqwzLHaHJ6Tf038Dt9eDk857zDykob2w0JSDkO0rXXXWiGESL5UgI3EBysdSWzJacGPqXkDvuGnfq2lOALyFJ3peMa4R49YnjLYEOMQhQ9hD1hOfsaiH743Iv0Ak4M6rRz8NfTPHazNbp7POmpYfWvWOai9GD4QuXmN0GOPc74hSIBB2Bw3pJKA71csmkiFALN3celBAZ4RqehPI9A88CgkfpSAc6fUSb5N"
+      },
+      "products": [
+        {
+          "_id": "69890f661c508c5d5ec3877c",
+          "name": "Car42884",
+          "amount": 134,
+          "price": 49707,
+          "manufacturer": "Samsung",
+          "notes": "kJNYITcPDZLhf5Baabo0zC3mIy1AnAhaIr0nHGYN1P2VwxTbx6Ik0WaOI7WR4v92r9r43GToTpJxpxxxm6PVAdNxskoIdDSEblN9TXJyeIW7v6KgR2t0gHOa47f5QXAJQWvpy2MLY2ju8aBFVnDjBG1DXri6WsdrSQbh1UPb6NN27fBE98bJ8gf5Zku3CtAsi83ogztqWC2vElIRMAaFnCDMmQy6QHO0UKnVBSiJtujqBoPTagzuX317cx",
+          "received": false
+        },
+        {
+          "_id": "69890f661c508c5d5ec38877",
+          "name": "Table98661",
+          "amount": 899,
+          "price": 24465,
+          "manufacturer": "Apple",
+          "notes": "vKv0FiLQB6ND5DGUERnsTzmqqcpNj4P28BVEhq8IpAq7c9M5xzrJbCVOW2incgoATfimtLM5rGv6XOl1RGVSuM9EE32kppick5jzm3NedajJmKF1NWVoJDxM1c5cWFmjn3evl4p0EKPIFs2lkdpYqfoyGzDshENK9e1SqLrY1tDLAQvcbJy3g88EYq5TpFtWOUXC5vFqn98gK7p8duONQ3jDTvWG68Jl5hmInsbT7zEBe2V41rJCpw9DHk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74172,
+      "createdOn": "2026-02-08T22:34:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f661c508c5d5ec3875c",
+          "products": [
+            {
+              "_id": "69890f661c508c5d5ec3877c",
+              "name": "Car42884",
+              "amount": 134,
+              "price": 49707,
+              "manufacturer": "Samsung",
+              "notes": "kJNYITcPDZLhf5Baabo0zC3mIy1AnAhaIr0nHGYN1P2VwxTbx6Ik0WaOI7WR4v92r9r43GToTpJxpxxxm6PVAdNxskoIdDSEblN9TXJyeIW7v6KgR2t0gHOa47f5QXAJQWvpy2MLY2ju8aBFVnDjBG1DXri6WsdrSQbh1UPb6NN27fBE98bJ8gf5Zku3CtAsi83ogztqWC2vElIRMAaFnCDMmQy6QHO0UKnVBSiJtujqBoPTagzuX317cx",
+              "received": false
+            },
+            {
+              "_id": "69890f661c508c5d5ec38877",
+              "name": "Table98661",
+              "amount": 899,
+              "price": 24465,
+              "manufacturer": "Apple",
+              "notes": "vKv0FiLQB6ND5DGUERnsTzmqqcpNj4P28BVEhq8IpAq7c9M5xzrJbCVOW2incgoATfimtLM5rGv6XOl1RGVSuM9EE32kppick5jzm3NedajJmKF1NWVoJDxM1c5cWFmjn3evl4p0EKPIFs2lkdpYqfoyGzDshENK9e1SqLrY1tDLAQvcbJy3g88EYq5TpFtWOUXC5vFqn98gK7p8duONQ3jDTvWG68Jl5hmInsbT7zEBe2V41rJCpw9DHk",
+              "received": false
+            }
+          ],
+          "total_price": 74172,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f681c508c5d5ec3890c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

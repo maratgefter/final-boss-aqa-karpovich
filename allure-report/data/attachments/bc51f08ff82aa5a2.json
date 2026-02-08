@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-BBBGsoZxYJ+rsciOATw//mqH90A\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f611c508c5d5ec384ee",
+        "email": "Noble_Kunze@hotmail.com",
+        "name": "Cora Hartmann",
+        "country": "Canada",
+        "city": "Mozelleworth",
+        "street": "Oral Square",
+        "house": 50,
+        "flat": 290,
+        "phone": "+17224241266",
+        "createdOn": "2026-02-08T22:34:09.000Z",
+        "notes": "70ZcghcDhUBQ69NrwMwfIkzIeEUZT31rFL9RIb4wbR6HlaEhDkaUGlWpcB4Vb8wRMdgnxewiT1hrCgAVH2tpPaWlGUQ6DUhE3eYckLWbwPfdhJx4dDPrAk5uNUH5uItDx6WvCGDssEiKjnJmEo1PCRg1oprIv114JLKfgXDX2nvNKRj7TVen0wKVLyyha6b14sVVEQuwVSr3NOeyfhmwSaA7kN4hiy6WwUzIdi7CS7YXleR1NDmU0Akhxs"
+      },
+      "products": [
+        {
+          "_id": "69890f621c508c5d5ec3858c",
+          "name": "Car87854",
+          "amount": 292,
+          "price": 80909,
+          "manufacturer": "Samsung",
+          "notes": "lGwGijUtJlXrdcCUAFpOBFYugj221APTgqWJBc0bXxsrRKHQJ9p9j1J6k4V3hZqpwC0YpqRY5JZ3d0LvXk99UIPXV73xxdbbdHYGPPDTnFBekp7ZRoTqIB432rYsG1LIRbEqKdL6j4BvqQnHFQ6UFv4knUKvfslOJJLrlrakruKEJ32zCZfiWuvOuhK7pOKXw6oswuU1aIcuyIQZ8J1mhzQKvr06hvgWhPcabKn6vsXzOISiwDdntdDZBO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80909,
+      "createdOn": "2026-02-08T22:34:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f611c508c5d5ec384ee",
+          "products": [
+            {
+              "_id": "69890f621c508c5d5ec3858c",
+              "name": "Car87854",
+              "amount": 292,
+              "price": 80909,
+              "manufacturer": "Samsung",
+              "notes": "lGwGijUtJlXrdcCUAFpOBFYugj221APTgqWJBc0bXxsrRKHQJ9p9j1J6k4V3hZqpwC0YpqRY5JZ3d0LvXk99UIPXV73xxdbbdHYGPPDTnFBekp7ZRoTqIB432rYsG1LIRbEqKdL6j4BvqQnHFQ6UFv4knUKvfslOJJLrlrakruKEJ32zCZfiWuvOuhK7pOKXw6oswuU1aIcuyIQZ8J1mhzQKvr06hvgWhPcabKn6vsXzOISiwDdntdDZBO",
+              "received": false
+            }
+          ],
+          "total_price": 80909,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f631c508c5d5ec38627"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

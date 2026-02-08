@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-AamcYNAE/Gscay45OCOTjvFZ5Xs\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f741c508c5d5ec3917d",
+        "email": "Eleanore.Wilderman77@hotmail.com",
+        "name": "Rick Torphy",
+        "country": "USA",
+        "city": "Jeanneside",
+        "street": "Reggie Garden",
+        "house": 6,
+        "flat": 170,
+        "phone": "+18558139382",
+        "createdOn": "2026-02-08T22:34:28.000Z",
+        "notes": "ET8IgdSZkrypAT2h5LL8NjagxVszOYiIidytxmKoRIQ4tpttrZTnRARHKp4uOHlpO7AjeSLbSTO9oqXpSD4vrYnWyaUqkEEg1e5dAvv4YGxBBSz8eiNZOnc5slaOtpBgtgtEwm3zsI9NqHnWyTzHLwYf6pNf8EzAB82YoLqjW0lwvVpZO6VjrxEr20bRhUxZTxEHb5VRey89H5KvkWodKgsAjr9ZZiF6uve34tmS4BP0qrQAUhwrUnQrFY"
+      },
+      "products": [
+        {
+          "_id": "69890f761c508c5d5ec39286",
+          "name": "Chips41060",
+          "amount": 395,
+          "price": 13375,
+          "manufacturer": "Xiaomi",
+          "notes": "MhpEVheAeHPfCe8zYyHmISwkfygVC3BDGtYxew9bSX4KwsifHrfzdIqyJlRorJ4aIKBeWwgxnC2LUHlTA8iyLjZ6Tdyi4onfBApG49OAz7xjcOQVtOXXrHc0l4ygr4f1m8yOhO42lOonKQEYYihV5gIcZhC7XjIBPRdHSyqlmb1dwD52gngnbLw12Jm2vmca4b86fqUOuosSiXOZENLwciAGMRXmttg1KgnnyTBw6NVjaM2m4p4x0mE1si",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13375,
+      "createdOn": "2026-02-08T22:34:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f741c508c5d5ec3917d",
+          "products": [
+            {
+              "_id": "69890f761c508c5d5ec39286",
+              "name": "Chips41060",
+              "amount": 395,
+              "price": 13375,
+              "manufacturer": "Xiaomi",
+              "notes": "MhpEVheAeHPfCe8zYyHmISwkfygVC3BDGtYxew9bSX4KwsifHrfzdIqyJlRorJ4aIKBeWwgxnC2LUHlTA8iyLjZ6Tdyi4onfBApG49OAz7xjcOQVtOXXrHc0l4ygr4f1m8yOhO42lOonKQEYYihV5gIcZhC7XjIBPRdHSyqlmb1dwD52gngnbLw12Jm2vmca4b86fqUOuosSiXOZENLwciAGMRXmttg1KgnnyTBw6NVjaM2m4p4x0mE1si",
+              "received": false
+            }
+          ],
+          "total_price": 13375,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f771c508c5d5ec3931c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

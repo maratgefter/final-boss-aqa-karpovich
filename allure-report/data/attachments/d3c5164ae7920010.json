@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-PeiAgLxa91VzTdK+nKyXBacESzI\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f6c1c508c5d5ec38ad7",
+        "email": "Madisyn_Zieme@gmail.com",
+        "name": "Josue King",
+        "country": "Germany",
+        "city": "Guadalupeside",
+        "street": "Waters Canyon",
+        "house": 49,
+        "flat": 302,
+        "phone": "+15452638816",
+        "createdOn": "2026-02-08T22:34:20.000Z",
+        "notes": "iPPjrRnuZmyiHMteEcyLnTWE4ZHz8ZKEayAeDk7PiaLEHbXw1KYTw0wWTU6Y1wPAPwR7a48kYF5eGlJ4nk2s3CB32Z0UAOeqFPdYuEClMCDns1USfWbqNIRgu2RtOjgNPZVI8UHHbvEz230BeUPwD7V1KbioqOV2NFr3fNyL1sR06JpyEqfGG0CP2g1G7Fgts9CZY55cqm8uv05Ekori16eBhsBEcgdzR67GaxG4BZZkqZTcMue65FZ08R"
+      },
+      "products": [
+        {
+          "_id": "69890f6c1c508c5d5ec38b74",
+          "name": "Shoes2353",
+          "amount": 85,
+          "price": 86124,
+          "manufacturer": "Apple",
+          "notes": "aJXR43k6QRZVBmGaSKwfoTKYAiNqprqHu4Xq8oqKsr2TbJ63Mi3TwCwCTT8VK8zS9jMWd1CSPdGYtyMcpPfp9v7UBQ77HJ2KZS0gEhUX5YvaMcRg5ypDo2cyb5vccbCxdtS9jvhGbkHmCYNXJ9WOGLzfkSyMQlGz66EbRSYZXAuhENy5xR6c1Y4tED87yOEWOACJ9uFEyc7jIKIjeKNBu7DYDGzEmfZZXlGb6WPP9p0bpELiB1pL4p0h4d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86124,
+      "createdOn": "2026-02-08T22:34:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f6c1c508c5d5ec38ad7",
+          "products": [
+            {
+              "_id": "69890f6c1c508c5d5ec38b74",
+              "name": "Shoes2353",
+              "amount": 85,
+              "price": 86124,
+              "manufacturer": "Apple",
+              "notes": "aJXR43k6QRZVBmGaSKwfoTKYAiNqprqHu4Xq8oqKsr2TbJ63Mi3TwCwCTT8VK8zS9jMWd1CSPdGYtyMcpPfp9v7UBQ77HJ2KZS0gEhUX5YvaMcRg5ypDo2cyb5vccbCxdtS9jvhGbkHmCYNXJ9WOGLzfkSyMQlGz66EbRSYZXAuhENy5xR6c1Y4tED87yOEWOACJ9uFEyc7jIKIjeKNBu7DYDGzEmfZZXlGb6WPP9p0bpELiB1pL4p0h4d",
+              "received": false
+            }
+          ],
+          "total_price": 86124,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f6d1c508c5d5ec38b96"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-eehWchX/YE0PITMUyCpZRsFYMRY\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f601c508c5d5ec3849f",
+        "email": "Diana_Kuhlman@gmail.com",
+        "name": "Eloise Franecki",
+        "country": "Canada",
+        "city": "Albertochester",
+        "street": "Pine Street",
+        "house": 39,
+        "flat": 455,
+        "phone": "+15914888787",
+        "createdOn": "2026-02-08T22:34:08.000Z",
+        "notes": "fdWU5UjRlyLPQMh1JGVhbmsTyuRwn2PFvhIj03GI7vsBe5TaeoGi576e9tsobLx3JCCZ4R0pf0W1warvDPVqtsKClMoGH3fKrbatq7j5v3sneyNUU8oJ6qvye2PuCOjD9qQMrmDANBJXzriIBgBi7y8go1CFqP2h3rA4pbr66iXvxmhalLzZbetQUgc5tOuoJ9iMtUNDfUfQFtSC52ImjsxBLbaCqAAaivaqWdFPbhfbiCn9m42KLPH3qA"
+      },
+      "products": [
+        {
+          "_id": "69890f611c508c5d5ec384c4",
+          "name": "Soap5247",
+          "amount": 901,
+          "price": 96128,
+          "manufacturer": "Xiaomi",
+          "notes": "8cB8uPp1CkPqdXYpB9Bk38aQlrvrDOPxdxiFTirWsnTZVKXwPEwAuA5swcqlpcFIbeIlkvgWe9kzBY3FHMvWvnIN2QRNjUf0ydRGMEEGWQlDZJ8HbEqs6a1d5CjPdjTRyVZpQOxFLdpNLk5Ev1USiiHediJGN79ppW5orFe0rX0H0ol45cHFOFKYnp572uzNZ7hOjjzxWKV19klIw59OE3kMvtNjub8FA9lyN6Z1ejHfkxUF4Cj4ksQqYI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96128,
+      "createdOn": "2026-02-08T22:34:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f601c508c5d5ec3849f",
+          "products": [
+            {
+              "_id": "69890f611c508c5d5ec384c4",
+              "name": "Soap5247",
+              "amount": 901,
+              "price": 96128,
+              "manufacturer": "Xiaomi",
+              "notes": "8cB8uPp1CkPqdXYpB9Bk38aQlrvrDOPxdxiFTirWsnTZVKXwPEwAuA5swcqlpcFIbeIlkvgWe9kzBY3FHMvWvnIN2QRNjUf0ydRGMEEGWQlDZJ8HbEqs6a1d5CjPdjTRyVZpQOxFLdpNLk5Ev1USiiHediJGN79ppW5orFe0rX0H0ol45cHFOFKYnp572uzNZ7hOjjzxWKV19klIw59OE3kMvtNjub8FA9lyN6Z1ejHfkxUF4Cj4ksQqYI",
+              "received": false
+            }
+          ],
+          "total_price": 96128,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f611c508c5d5ec38503"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

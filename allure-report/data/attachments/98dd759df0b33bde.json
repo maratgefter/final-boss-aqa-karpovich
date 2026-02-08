@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-MnsqqD+UyYmh/b9HYENkaNsdNgg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f5e1c508c5d5ec382de",
+        "email": "Pete_Reynolds@gmail.com",
+        "name": "Destini Russel",
+        "country": "Russia",
+        "city": "McLean",
+        "street": "Ratke Route",
+        "house": 29,
+        "flat": 393,
+        "phone": "+15862624384",
+        "createdOn": "2026-02-08T22:34:06.000Z",
+        "notes": "suwXnJ90yHdQiQoPegau3vazIm7JeHlJ2mTLV2IDlXE59Xw3niUTv9hpSp97g4FZVIypvAivO57Aw3YH6EwJlgVqPvh161BhDIdh1S842Q16XaLKn3KbWHZlymJ3b494r4NEy0fOoKfttIT1A3OQh85fTOAI1JC7Rau2CBMjos8KwaSaL6sRijJRK2ToFGWvcAoQYAsTQgjiEYhAlbcHuDWSnIpMPJlS2DCkcaIpugVkjQNtm5FgdD0K32"
+      },
+      "products": [
+        {
+          "_id": "69890f5e1c508c5d5ec38302",
+          "name": "Chicken86161",
+          "amount": 284,
+          "price": 16697,
+          "manufacturer": "Google",
+          "notes": "DzWcKQKxyjWRsmKKK3uGtFFJEb4Hdwt7THV94viOZDgoQUIZTLvjYx3BGaExaEtn0Od8fpFnFPtt5u7GIDdWyVeBYqYlwDqmVWho0POzqIytnpQv11xGrHVKxMF65RL9n4cFWIBNNBzzC3Gqlr6KKi2ziWuVo5pg8podAtQQDbvFqgZhCwX5wyOXr8itiqvtpTNSXgf5b2ZvlUp0aLrFWx0SFZLqg2sQ1jAMluNAUJNKB4drAzDgyT27WH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16697,
+      "createdOn": "2026-02-08T22:34:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f5e1c508c5d5ec382de",
+          "products": [
+            {
+              "_id": "69890f5e1c508c5d5ec38302",
+              "name": "Chicken86161",
+              "amount": 284,
+              "price": 16697,
+              "manufacturer": "Google",
+              "notes": "DzWcKQKxyjWRsmKKK3uGtFFJEb4Hdwt7THV94viOZDgoQUIZTLvjYx3BGaExaEtn0Od8fpFnFPtt5u7GIDdWyVeBYqYlwDqmVWho0POzqIytnpQv11xGrHVKxMF65RL9n4cFWIBNNBzzC3Gqlr6KKi2ziWuVo5pg8podAtQQDbvFqgZhCwX5wyOXr8itiqvtpTNSXgf5b2ZvlUp0aLrFWx0SFZLqg2sQ1jAMluNAUJNKB4drAzDgyT27WH",
+              "received": false
+            }
+          ],
+          "total_price": 16697,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f5e1c508c5d5ec3838e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

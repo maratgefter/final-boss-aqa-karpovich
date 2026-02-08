@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-D+T6WnnllETWHwJGg7KQIpOZcD0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69890f671c508c5d5ec38901",
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f651c508c5d5ec3874e",
+        "email": "William40@hotmail.com",
+        "name": "Judson Gusikowski",
+        "country": "Canada",
+        "city": "Lake Idamouth",
+        "street": "Will Pine",
+        "house": 25,
+        "flat": 779,
+        "phone": "+17927022365",
+        "createdOn": "2026-02-08T22:34:13.000Z",
+        "notes": "7HxyOSMOdaq3YMzCYaKDXRYUL6RsXA4i7o3g1t8q3t7ZCAqcClDwLiTuzaIAIYO3ZGnvakOsgUwKoRmya3S6ZhgBzbPPTCgXQ2EYpGyMu7iUBicp0YWd3NBSfLCirCNDKdVuNMqnQWYPuzk1nxY5qEE2G9CvU2cGZh8QppxXUjcyfyDWMuneanm68vJlA6T1dO5Tlxa9SbVeK6KLuz8GjgdcxDzf5JLZc61EeNrxHhiGkhIwjjrAqAkMoH"
+      },
+      "products": [
+        {
+          "_id": "69890f661c508c5d5ec3876b",
+          "name": "Shoes67764",
+          "amount": 572,
+          "price": 97341,
+          "manufacturer": "Samsung",
+          "notes": "Ut4CeIBhtm1i6GHct109cuSykJwzBSiUVW1J7p26GTCayFrLfmkJdaxkYgMAv2RkanqEhPn5fVLrcQou8c24EsD76EpXokWwnEyGT3c3AxZt4sga0kchD6gzYBX9IZzRLaE2Ts8kg8dnIl7kbEAbqRH9i9F9vdrkWeuvVJ0YmdygWupV99UIs5pFsBxCc2JwfrWRpZXJH3ztuX4qq7vcqbV7vpmuQLWyFXdZTlASMDOkbs8MpIpwb8lf1a",
+          "received": false
+        },
+        {
+          "_id": "69890f661c508c5d5ec387fd",
+          "name": "Cheese47659",
+          "amount": 802,
+          "price": 44328,
+          "manufacturer": "Apple",
+          "notes": "2dPnP2pbk22FrBRTQnKcdQOs3AQlwMiSpS7OIum2tjZF03OkE5Z7ezXAR8xLQabgPP32e8GHfTcWfrW15nhgaEFGTbP22Zn588Bxijiq3LTcKE0duN5ogyfNwOrXs3D4zByi3reuxK0gymv2LLk8trsHqr1HS7BViGxLq9N2hX2hdnoxn4fuVmyqouEQUVSxCtU9Q4Y4vt0k6iVc38Z92j1mpMoeXElVmK5uL39eXMm9GgOqr5MwzFB5mh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 141669,
+      "createdOn": "2026-02-08T22:34:15.000Z",
+      "comments": [
+        {
+          "text": "ZcAvIrNUjVGj62ondSxlhkxo4gV5phgNPoc0bJQjzhEsO7I4NiNG0UZkdTuNqt6pthn42QeEkOL",
+          "createdOn": "2026-02-08T22:34:16.000Z",
+          "_id": "69890f681c508c5d5ec38933"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f651c508c5d5ec3874e",
+          "products": [
+            {
+              "_id": "69890f661c508c5d5ec3876b",
+              "name": "Shoes67764",
+              "amount": 572,
+              "price": 97341,
+              "manufacturer": "Samsung",
+              "notes": "Ut4CeIBhtm1i6GHct109cuSykJwzBSiUVW1J7p26GTCayFrLfmkJdaxkYgMAv2RkanqEhPn5fVLrcQou8c24EsD76EpXokWwnEyGT3c3AxZt4sga0kchD6gzYBX9IZzRLaE2Ts8kg8dnIl7kbEAbqRH9i9F9vdrkWeuvVJ0YmdygWupV99UIs5pFsBxCc2JwfrWRpZXJH3ztuX4qq7vcqbV7vpmuQLWyFXdZTlASMDOkbs8MpIpwb8lf1a",
+              "received": false
+            },
+            {
+              "_id": "69890f661c508c5d5ec387fd",
+              "name": "Cheese47659",
+              "amount": 802,
+              "price": 44328,
+              "manufacturer": "Apple",
+              "notes": "2dPnP2pbk22FrBRTQnKcdQOs3AQlwMiSpS7OIum2tjZF03OkE5Z7ezXAR8xLQabgPP32e8GHfTcWfrW15nhgaEFGTbP22Zn588Bxijiq3LTcKE0duN5ogyfNwOrXs3D4zByi3reuxK0gymv2LLk8trsHqr1HS7BViGxLq9N2hX2hdnoxn4fuVmyqouEQUVSxCtU9Q4Y4vt0k6iVc38Z92j1mpMoeXElVmK5uL39eXMm9GgOqr5MwzFB5mh",
+              "received": false
+            }
+          ],
+          "total_price": 141669,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

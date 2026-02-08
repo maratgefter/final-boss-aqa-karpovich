@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:35:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3847",
+    "etag": "W/\"f07-Bb4lkaaJ4HJMGLc7XqMvrSsIhD0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69890f971c508c5d5ec3a7ae",
+      "status": "In Process",
+      "customer": {
+        "_id": "69890f971c508c5d5ec3a74a",
+        "email": "Alverta.Kunze98@hotmail.com",
+        "name": "Aracely Huels",
+        "country": "Russia",
+        "city": "Davis",
+        "street": "Dalton Bridge",
+        "house": 35,
+        "flat": 210,
+        "phone": "+15673579187",
+        "createdOn": "2026-02-08T22:35:03.000Z",
+        "notes": "FoiQRB6IBbxaIFWWykznjvAx0QrH1BdVxqzc1Xkwmagivv7t35su9cry68CEOqqxT9dqcpFO0hdDRxvduSS9smJfgMWtvmmPBQvn0vyepqqzrn5VzxfY5f78Th2EiKWWEBBg8otRF4hkMb3MhEQwKqy7iAy5SyrpRanCB3GGprxfzVHcxJ4cjmrmx2OaoZA0Jwz7KuJCcUYUlBJN1sIwFo4SwAoJ4LVTkO3Iihj9ETm4GuysgrXVfLlirK"
+      },
+      "products": [
+        {
+          "_id": "69890f971c508c5d5ec3a771",
+          "name": "Fish6971",
+          "amount": 568,
+          "price": 62390,
+          "manufacturer": "Apple",
+          "notes": "6rnOWU6PYEEhxs36YbbF9tb3c2CbrMWCT47QOn3I5zLx6kN0RS1mHz6FCavuYvwPoO2Boy6wJLBYNzO9u9wb5Jh0bSFFKooCOz3MuWNn57MzJI9jLKOaHLx5KCcRLJMWfwplW2sNXOmRgUqDumTKhm1FLUsIAJQ8HFmxn3vw5ratmRY2iKwP5QabjRfa4r572Y3S0sOrVjoAJQhyYZpp4atoIYgd5lwKr8sVks8p9UFzEl7oQvDOSC08Ws",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Davis",
+          "street": "Dalton Bridge",
+          "house": 35,
+          "flat": 210
+        },
+        "finalDate": "2026-02-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 62390,
+      "createdOn": "2026-02-08T22:35:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69890f971c508c5d5ec3a74a",
+          "products": [
+            {
+              "_id": "69890f971c508c5d5ec3a771",
+              "name": "Fish6971",
+              "amount": 568,
+              "price": 62390,
+              "manufacturer": "Apple",
+              "notes": "6rnOWU6PYEEhxs36YbbF9tb3c2CbrMWCT47QOn3I5zLx6kN0RS1mHz6FCavuYvwPoO2Boy6wJLBYNzO9u9wb5Jh0bSFFKooCOz3MuWNn57MzJI9jLKOaHLx5KCcRLJMWfwplW2sNXOmRgUqDumTKhm1FLUsIAJQ8HFmxn3vw5ratmRY2iKwP5QabjRfa4r572Y3S0sOrVjoAJQhyYZpp4atoIYgd5lwKr8sVks8p9UFzEl7oQvDOSC08Ws",
+              "received": false
+            }
+          ],
+          "total_price": 62390,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Davis",
+              "street": "Dalton Bridge",
+              "house": 35,
+              "flat": 210
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-08T22:35:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69890f971c508c5d5ec3a74a",
+          "products": [
+            {
+              "_id": "69890f971c508c5d5ec3a771",
+              "name": "Fish6971",
+              "amount": 568,
+              "price": 62390,
+              "manufacturer": "Apple",
+              "notes": "6rnOWU6PYEEhxs36YbbF9tb3c2CbrMWCT47QOn3I5zLx6kN0RS1mHz6FCavuYvwPoO2Boy6wJLBYNzO9u9wb5Jh0bSFFKooCOz3MuWNn57MzJI9jLKOaHLx5KCcRLJMWfwplW2sNXOmRgUqDumTKhm1FLUsIAJQ8HFmxn3vw5ratmRY2iKwP5QabjRfa4r572Y3S0sOrVjoAJQhyYZpp4atoIYgd5lwKr8sVks8p9UFzEl7oQvDOSC08Ws",
+              "received": false
+            }
+          ],
+          "total_price": 62390,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Davis",
+              "street": "Dalton Bridge",
+              "house": 35,
+              "flat": 210
+            },
+            "finalDate": "2026-02-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-08T22:35:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69890f971c508c5d5ec3a74a",
+          "products": [
+            {
+              "_id": "69890f971c508c5d5ec3a771",
+              "name": "Fish6971",
+              "amount": 568,
+              "price": 62390,
+              "manufacturer": "Apple",
+              "notes": "6rnOWU6PYEEhxs36YbbF9tb3c2CbrMWCT47QOn3I5zLx6kN0RS1mHz6FCavuYvwPoO2Boy6wJLBYNzO9u9wb5Jh0bSFFKooCOz3MuWNn57MzJI9jLKOaHLx5KCcRLJMWfwplW2sNXOmRgUqDumTKhm1FLUsIAJQ8HFmxn3vw5ratmRY2iKwP5QabjRfa4r572Y3S0sOrVjoAJQhyYZpp4atoIYgd5lwKr8sVks8p9UFzEl7oQvDOSC08Ws",
+              "received": false
+            }
+          ],
+          "total_price": 62390,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:35:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

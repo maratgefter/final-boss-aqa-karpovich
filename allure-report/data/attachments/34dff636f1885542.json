@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3922",
+    "etag": "W/\"f52-ah6HfRz4Ox8/RECRI7xsAIxDW2U\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69890f781c508c5d5ec393a1",
+      "status": "In Process",
+      "customer": {
+        "_id": "69890f771c508c5d5ec39336",
+        "email": "Alexane84@hotmail.com",
+        "name": "Adelle Kovacek",
+        "country": "Great Britain",
+        "city": "Angelineborough",
+        "street": "Jessica Highway",
+        "house": 9,
+        "flat": 937,
+        "phone": "+16242090840",
+        "createdOn": "2026-02-08T22:34:31.000Z",
+        "notes": "uchHnwXHsVgtrEnqeAZS8WPjSnDh7F1qCaqDi252TeQ9M5cbj3qdzK7dJZ9Wgmt7Y53Uyjxqk0j07RacLakMxSTS6WoJDMYIWKVLt53rTVU86H88Gx9G5hxLD3NYTMpmYpJVnuxqnNg7xgUZcs1Bj0DAuKzJxsIoGz86dm4cCLdD8CcRPmwKlqYtCuAxcJuz061xDz3nUH4CrSGH7LF2cg27hBtCH0m1gytO9R65cxwf5TQpZjjkn3KOZ1"
+      },
+      "products": [
+        {
+          "_id": "69890f781c508c5d5ec39369",
+          "name": "Mouse4211",
+          "amount": 279,
+          "price": 22947,
+          "manufacturer": "Amazon",
+          "notes": "TbwtuE2exSi86L1OCtrklTTgwuuyy31bLikQ3nrveczAjSr8FVn2Q8EFXNAfGR5srJldbHFgelqaw7kvfJMWgUl0BWc5gFApfVTFhUxI68RiEYsrrEXs3ehJoVq5GAv6GSMXqt6Hy0JBQ6dxASkQxRzvIxk6kIvD2i1yaDtfc7zBhiIVxg1DozIVXuMzB3E0hkoInAvBg07UwXxdVWBZpgDNU8DY7euXbRjV13JnpfjChASyUrxXJtrREG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Angelineborough",
+          "street": "Jessica Highway",
+          "house": 9,
+          "flat": 937
+        },
+        "finalDate": "2026-02-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22947,
+      "createdOn": "2026-02-08T22:34:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69890f771c508c5d5ec39336",
+          "products": [
+            {
+              "_id": "69890f781c508c5d5ec39369",
+              "name": "Mouse4211",
+              "amount": 279,
+              "price": 22947,
+              "manufacturer": "Amazon",
+              "notes": "TbwtuE2exSi86L1OCtrklTTgwuuyy31bLikQ3nrveczAjSr8FVn2Q8EFXNAfGR5srJldbHFgelqaw7kvfJMWgUl0BWc5gFApfVTFhUxI68RiEYsrrEXs3ehJoVq5GAv6GSMXqt6Hy0JBQ6dxASkQxRzvIxk6kIvD2i1yaDtfc7zBhiIVxg1DozIVXuMzB3E0hkoInAvBg07UwXxdVWBZpgDNU8DY7euXbRjV13JnpfjChASyUrxXJtrREG",
+              "received": false
+            }
+          ],
+          "total_price": 22947,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Angelineborough",
+              "street": "Jessica Highway",
+              "house": 9,
+              "flat": 937
+            },
+            "finalDate": "2026-02-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-08T22:34:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69890f771c508c5d5ec39336",
+          "products": [
+            {
+              "_id": "69890f781c508c5d5ec39369",
+              "name": "Mouse4211",
+              "amount": 279,
+              "price": 22947,
+              "manufacturer": "Amazon",
+              "notes": "TbwtuE2exSi86L1OCtrklTTgwuuyy31bLikQ3nrveczAjSr8FVn2Q8EFXNAfGR5srJldbHFgelqaw7kvfJMWgUl0BWc5gFApfVTFhUxI68RiEYsrrEXs3ehJoVq5GAv6GSMXqt6Hy0JBQ6dxASkQxRzvIxk6kIvD2i1yaDtfc7zBhiIVxg1DozIVXuMzB3E0hkoInAvBg07UwXxdVWBZpgDNU8DY7euXbRjV13JnpfjChASyUrxXJtrREG",
+              "received": false
+            }
+          ],
+          "total_price": 22947,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Angelineborough",
+              "street": "Jessica Highway",
+              "house": 9,
+              "flat": 937
+            },
+            "finalDate": "2026-02-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-08T22:34:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69890f771c508c5d5ec39336",
+          "products": [
+            {
+              "_id": "69890f781c508c5d5ec39369",
+              "name": "Mouse4211",
+              "amount": 279,
+              "price": 22947,
+              "manufacturer": "Amazon",
+              "notes": "TbwtuE2exSi86L1OCtrklTTgwuuyy31bLikQ3nrveczAjSr8FVn2Q8EFXNAfGR5srJldbHFgelqaw7kvfJMWgUl0BWc5gFApfVTFhUxI68RiEYsrrEXs3ehJoVq5GAv6GSMXqt6Hy0JBQ6dxASkQxRzvIxk6kIvD2i1yaDtfc7zBhiIVxg1DozIVXuMzB3E0hkoInAvBg07UwXxdVWBZpgDNU8DY7euXbRjV13JnpfjChASyUrxXJtrREG",
+              "received": false
+            }
+          ],
+          "total_price": 22947,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

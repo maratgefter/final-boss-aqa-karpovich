@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2672",
+    "etag": "W/\"a70-/LGMMxV0sunh1frY1+fzM4+syI8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f5b1c508c5d5ec381b3",
+        "email": "Gladys.Steuber@gmail.com",
+        "name": "Hadley Friesen",
+        "country": "Great Britain",
+        "city": "Fort Herminiostad",
+        "street": "W Chestnut Street",
+        "house": 25,
+        "flat": 143,
+        "phone": "+13168015266",
+        "createdOn": "2026-02-08T22:34:03.000Z",
+        "notes": "GtCbgySbcVxYXu4UR3CZ7wo7sJaKhfBFA5jNBp9FYySh1yX4Lc89s5SVAGfQq3utmnaj39RD6YcdNVqnFYnCl3p0qRlH94ohVWA7Qs3lm7GEBxmhsgS10kFWEOuX2UtHRNpThkmFb6EMBJC8GamwC60w1A62tl6koYxRkW7jAlx0MSZsN9N2AplUABLwkOSWpYDfaVebcvPb8kKmhqo6H4kuKhRRt1TM5JQtxVg6zvdesfQaqr1YM8a4a1"
+      },
+      "products": [
+        {
+          "_id": "69890f5b1c508c5d5ec381cc",
+          "name": "Bacon43566",
+          "amount": 88,
+          "price": 46463,
+          "manufacturer": "Xiaomi",
+          "notes": "T6Atf6YcW3v2Oo3AAgNNBfrZyhuSJMBWVDG8Rvw87ixx2cakxUqm0Zgl56w6C4gEj67v2JYhA6VmJPX7tWJ5jKj1P17odo7OWzaoGeBfWqYaaRsfVw4zU4EXJTq8DqJbd4cjPIBypp9NXEH1g7ssSRUKtfDojWBAcAiWcOwIU51ovIwAjaBTOLDuhCeRxwGhoBptmDEQqFuNQTTpA9XB1RRnCQa9YrMy4k5AZv0lGezJmf1FekLk1Yvg2h",
+          "received": false
+        },
+        {
+          "_id": "69890f5c1c508c5d5ec381f4",
+          "name": "Gloves28101",
+          "amount": 604,
+          "price": 98110,
+          "manufacturer": "Amazon",
+          "notes": "iwBMxSW72YydlUR53fySxUgz6BjgvuRU3gXjd1eh4b50u0R5igUbxr1f0pKuwpdRN5N5yJtNUzHM2MRg2qX0lBY0SFhnlIr5cKIMKnJz53gX2ufF3aUbnRWWdG3UJnBldYwe1NzzgPeuGhYhsyw1R9sy5eemtitVNSHR7SQQFh8Xr31ZCFC7UxN7EXFo1jtNv8tKDc7DD7AJvLwiGoeh56c1IjqAaXW69dznDPVIq3MuWRoMJP7HQVhdKw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 144573,
+      "createdOn": "2026-02-08T22:34:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f5b1c508c5d5ec381b3",
+          "products": [
+            {
+              "_id": "69890f5b1c508c5d5ec381cc",
+              "name": "Bacon43566",
+              "amount": 88,
+              "price": 46463,
+              "manufacturer": "Xiaomi",
+              "notes": "T6Atf6YcW3v2Oo3AAgNNBfrZyhuSJMBWVDG8Rvw87ixx2cakxUqm0Zgl56w6C4gEj67v2JYhA6VmJPX7tWJ5jKj1P17odo7OWzaoGeBfWqYaaRsfVw4zU4EXJTq8DqJbd4cjPIBypp9NXEH1g7ssSRUKtfDojWBAcAiWcOwIU51ovIwAjaBTOLDuhCeRxwGhoBptmDEQqFuNQTTpA9XB1RRnCQa9YrMy4k5AZv0lGezJmf1FekLk1Yvg2h",
+              "received": false
+            },
+            {
+              "_id": "69890f5c1c508c5d5ec381f4",
+              "name": "Gloves28101",
+              "amount": 604,
+              "price": 98110,
+              "manufacturer": "Amazon",
+              "notes": "iwBMxSW72YydlUR53fySxUgz6BjgvuRU3gXjd1eh4b50u0R5igUbxr1f0pKuwpdRN5N5yJtNUzHM2MRg2qX0lBY0SFhnlIr5cKIMKnJz53gX2ufF3aUbnRWWdG3UJnBldYwe1NzzgPeuGhYhsyw1R9sy5eemtitVNSHR7SQQFh8Xr31ZCFC7UxN7EXFo1jtNv8tKDc7DD7AJvLwiGoeh56c1IjqAaXW69dznDPVIq3MuWRoMJP7HQVhdKw",
+              "received": false
+            }
+          ],
+          "total_price": 144573,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f5c1c508c5d5ec38221"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2652",
+    "etag": "W/\"a5c-hIVCi0kVpq/7F0kLEroIJNHJBSY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f821c508c5d5ec39972",
+        "email": "Malika.Nienow9@gmail.com",
+        "name": "Arne Schultz",
+        "country": "Russia",
+        "city": "South Janick",
+        "street": "Marks Causeway",
+        "house": 8,
+        "flat": 236,
+        "phone": "+12778805692",
+        "createdOn": "2026-02-08T22:34:42.000Z",
+        "notes": "mC8wtmiYUI0YYbuuHAn4RhdXC2am8RjcwgiEcKRCl2WGfE6qHt9kT09TFQLYvTSgNQmd3I1XVjbWBCnNtmOcXrLGPPV4AAix30x5pVEJ22OUESx0M4pZ4GA5Xiq0ChIiPVmYsw8nKl9zu4rg5mo1atBVbeSoB53aBQBHqOVTnczpJZJ3VTrF5yaAhZ4Q6UWkaRzniQU3DBc18ko1jk2egvh04hQNXPM0DrPhKStzbHJAJA6p5tl2iC6nnl"
+      },
+      "products": [
+        {
+          "_id": "69890f821c508c5d5ec3999d",
+          "name": "Hat670",
+          "amount": 269,
+          "price": 26197,
+          "manufacturer": "Microsoft",
+          "notes": "aeflA3HaxBz0hBBQskjrkbfwWsCW7UH33ymeDskvLhNAN5HLXOqLymCpU2KKRNu4z40GVPtsHIQUIbwD8KHw3QHtSUqcI6qAEs97KohbCdcRWgf5Bw4mTLVH8B3zvo0lHU3NAn3eUvWJSPcU1BXTNEN16mQCa96FVmKztEAwtCrJoC64hhMzTM8PWdEl8tJHqQNR2uWzGoRAcewVRW4dkonIvRMcUPjR2ITCUlyai8wx7BZPEmgYKdNs3i",
+          "received": false
+        },
+        {
+          "_id": "69890f831c508c5d5ec399c1",
+          "name": "Pants73403",
+          "amount": 249,
+          "price": 48618,
+          "manufacturer": "Samsung",
+          "notes": "ogOI3m9RRoD4vM9CLuMdBXzjx66Rh2QEmvKXs92zbeqj3zDfRtZofAmMFQr84Su3TCEGFptV3pNKcVaurcdPq1ZCBjTFzGibPMVhPaZ7zKF2kv3txehwxERcapxkOn1ArKxCBwb8ku2o8YAcqJdGYCaPprxnIZlx8N7f3iI3ODkilqcICLyfuZO1WfiT5nBIT09FJaHa4Nt8RFvErbQ9VUs0ArUJBk5F4kiT6rZwlhNONv7JBdXGfH6LHB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74815,
+      "createdOn": "2026-02-08T22:34:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f821c508c5d5ec39972",
+          "products": [
+            {
+              "_id": "69890f821c508c5d5ec3999d",
+              "name": "Hat670",
+              "amount": 269,
+              "price": 26197,
+              "manufacturer": "Microsoft",
+              "notes": "aeflA3HaxBz0hBBQskjrkbfwWsCW7UH33ymeDskvLhNAN5HLXOqLymCpU2KKRNu4z40GVPtsHIQUIbwD8KHw3QHtSUqcI6qAEs97KohbCdcRWgf5Bw4mTLVH8B3zvo0lHU3NAn3eUvWJSPcU1BXTNEN16mQCa96FVmKztEAwtCrJoC64hhMzTM8PWdEl8tJHqQNR2uWzGoRAcewVRW4dkonIvRMcUPjR2ITCUlyai8wx7BZPEmgYKdNs3i",
+              "received": false
+            },
+            {
+              "_id": "69890f831c508c5d5ec399c1",
+              "name": "Pants73403",
+              "amount": 249,
+              "price": 48618,
+              "manufacturer": "Samsung",
+              "notes": "ogOI3m9RRoD4vM9CLuMdBXzjx66Rh2QEmvKXs92zbeqj3zDfRtZofAmMFQr84Su3TCEGFptV3pNKcVaurcdPq1ZCBjTFzGibPMVhPaZ7zKF2kv3txehwxERcapxkOn1ArKxCBwb8ku2o8YAcqJdGYCaPprxnIZlx8N7f3iI3ODkilqcICLyfuZO1WfiT5nBIT09FJaHa4Nt8RFvErbQ9VUs0ArUJBk5F4kiT6rZwlhNONv7JBdXGfH6LHB",
+              "received": false
+            }
+          ],
+          "total_price": 74815,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f831c508c5d5ec399f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

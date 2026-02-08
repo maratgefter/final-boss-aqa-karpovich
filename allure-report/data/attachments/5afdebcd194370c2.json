@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 08 Feb 2026 22:34:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-Ej+XAOyjDdkGzj2uTgVEuHxjkIE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69890f771c508c5d5ec392a8",
+        "email": "Marshall28@hotmail.com",
+        "name": "Rosella Thompson",
+        "country": "Germany",
+        "city": "Fort Lauderdale",
+        "street": "Moss Lane",
+        "house": 28,
+        "flat": 888,
+        "phone": "+16332615198",
+        "createdOn": "2026-02-08T22:34:31.000Z",
+        "notes": "9W80hoZa6nTpgM2ZxIIQ70xcBf4scuaFmDT35Ta48gJP6BY1dTETEzqB2PyyG1LnzYASUjydOiv1j2Hmuu5SwFjT26aPzRAafyfHskCOPBJ5lyzTl5VIG4K8ZXHKsnBNrOSO7LeWpxEnJMSOJ9dPamdovl6Lxa2ijaJ7xtc7dJLqHuC9BFoQnaOP9YRwfgUB3epPixSDTuvOGcMCoCkdFkERzUz7URtcEPHUY1IYCrJ9JH2nfak5v6jHL7"
+      },
+      "products": [
+        {
+          "_id": "69890f771c508c5d5ec3933e",
+          "name": "Bacon6065",
+          "amount": 342,
+          "price": 65888,
+          "manufacturer": "Google",
+          "notes": "Esf352d72uQAK5NcnCPz9f6SjnJRm9qgCighgxOs7FuNOFMfXEoKLWmjMrc8P9gxFDTO6gYtNTqhCJtwphJoWD8DOGpO6Y7jqdCdfyUdfuyfgUUuWpBs7SSnwNYKQ9DTq8E7NXk4SwlWdeuXG64ekzyschekitWJPpNeKlehQqD5uda2Cv3EsdBroX8Q8LRBMXfzEU4mlH49McNDYwAsJtfsT4F0lDmq5lXbKZq61wLPyYvCUIzTgsvj8n",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65888,
+      "createdOn": "2026-02-08T22:34:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69890f771c508c5d5ec392a8",
+          "products": [
+            {
+              "_id": "69890f771c508c5d5ec3933e",
+              "name": "Bacon6065",
+              "amount": 342,
+              "price": 65888,
+              "manufacturer": "Google",
+              "notes": "Esf352d72uQAK5NcnCPz9f6SjnJRm9qgCighgxOs7FuNOFMfXEoKLWmjMrc8P9gxFDTO6gYtNTqhCJtwphJoWD8DOGpO6Y7jqdCdfyUdfuyfgUUuWpBs7SSnwNYKQ9DTq8E7NXk4SwlWdeuXG64ekzyschekitWJPpNeKlehQqD5uda2Cv3EsdBroX8Q8LRBMXfzEU4mlH49McNDYwAsJtfsT4F0lDmq5lXbKZq61wLPyYvCUIzTgsvj8n",
+              "received": false
+            }
+          ],
+          "total_price": 65888,
+          "delivery": null,
+          "changedOn": "2026-02-08T22:34:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69890f781c508c5d5ec3937a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
