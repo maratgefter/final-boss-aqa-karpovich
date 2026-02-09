@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-9/Rrv+W5czVWkI5qzxp231584HU\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62d41c508c5d5ec42804",
+        "email": "Filomena2@hotmail.com",
+        "name": "Alden Grady",
+        "country": "Belarus",
+        "city": "Hamillmouth",
+        "street": "Bartell Spur",
+        "house": 22,
+        "flat": 130,
+        "phone": "+16044839821",
+        "createdOn": "2026-02-09T22:42:28.000Z",
+        "notes": "Pmb8UBSaLQXCQyF7KIJtyIPByEadRbJvgsMNktTRWIcefFt1Q8bgKK7IlpD9YivXwm2OjzOYPUPDXrd3UJg2oJJQEuVaZ71vVdu8fC7LM6IGlUxk2jd3uHCG2N5MR9fsPdvvclVpTFSfv9DY9NxtGxolmLSzUxF4mZX7zv3nxMv8pIO9HtH2yxz87llzSynfmMpj8is9HfHiGNOfEx3x0CXoTSg0jhGhm8RwcqDV4ZTYEMunrX2Au7mS8Z"
+      },
+      "products": [
+        {
+          "_id": "698a62d41c508c5d5ec42825",
+          "name": "Pizza11750",
+          "amount": 715,
+          "price": 53197,
+          "manufacturer": "Google",
+          "notes": "n8gHbD7uYv5tEjXpad9RNhbx4sbWmftu8aQ9lO7huqUo4xViEeHX0jwDfyXw92xzllFCzXTzMCdF920Z1OIGwacoNQzyk8qvhMUUMRiIsGSXGqaJK8hvoFHluD5uskoXKkR6p6RxEH1w8Biv7iSLiHHRUeJAHT2R7engyOjNF1m7FDkc9IjZi5lcSQ3QS1THTmTnKhdmB6EvQ68M72QvJhur0aiELAWqAqWKwNeHCGDnI5yWfoJIFGrr2P",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53197,
+      "createdOn": "2026-02-09T22:42:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62d41c508c5d5ec42804",
+          "products": [
+            {
+              "_id": "698a62d41c508c5d5ec42825",
+              "name": "Pizza11750",
+              "amount": 715,
+              "price": 53197,
+              "manufacturer": "Google",
+              "notes": "n8gHbD7uYv5tEjXpad9RNhbx4sbWmftu8aQ9lO7huqUo4xViEeHX0jwDfyXw92xzllFCzXTzMCdF920Z1OIGwacoNQzyk8qvhMUUMRiIsGSXGqaJK8hvoFHluD5uskoXKkR6p6RxEH1w8Biv7iSLiHHRUeJAHT2R7engyOjNF1m7FDkc9IjZi5lcSQ3QS1THTmTnKhdmB6EvQ68M72QvJhur0aiELAWqAqWKwNeHCGDnI5yWfoJIFGrr2P",
+              "received": false
+            }
+          ],
+          "total_price": 53197,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62d51c508c5d5ec42862"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

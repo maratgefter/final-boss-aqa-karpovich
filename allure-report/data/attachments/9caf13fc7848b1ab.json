@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:43:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5483",
+    "etag": "W/\"156b-PI6HZxu1Mii/U9p0hkSsfcy+KV4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698a62f31c508c5d5ec43792",
+      "status": "In Process",
+      "customer": {
+        "_id": "698a62f21c508c5d5ec436f5",
+        "email": "Jeramie61@yahoo.com",
+        "name": "Jacquelyn Gleason",
+        "country": "Great Britain",
+        "city": "Marvincester",
+        "street": "Christine Expressway",
+        "house": 23,
+        "flat": 857,
+        "phone": "+16394439643",
+        "createdOn": "2026-02-09T22:42:58.000Z",
+        "notes": "VWySTZ6ksg7xymF5n5cwnVNNklWVR4AapRwNU0pAxZm8QcoIQMCz0CmkZATtEyhYTJb4NmaKB8QGyPVH1Fne179xnET7ARYhGTaIZ9iCoB1SOCXCp21jyavIczYy82BRqjn4SnEapVCkaq4RDS9uRyCFU5tvkdkfNmhFoe7GdtbH8a1eohu8XDi53Akc4J5m7YNCMJrjIPu8fNl9GNzRRQqmBXbr4DZibZHNX0Izk3zCe87qnJQHTrz2XH"
+      },
+      "products": [
+        {
+          "_id": "698a62f21c508c5d5ec4373a",
+          "name": "Table77120",
+          "amount": 961,
+          "price": 93293,
+          "manufacturer": "Microsoft",
+          "notes": "MuqIjl9tV1aULJItRHvtK5jleUOXmOs0977EHI1BAVrt025D1r10Rrnd4eL0em7SKG1om7M6Hv1b0SzQLk7DTkvVw0jV9H0rEOxeieLuCpx5papxt4BG16S6YuDKfK5l5xbK03WHyxkrdg3Jmao0w8ehdcHMmzFuvQF3iEivW1RuZU0Ob6ggYRiyWmywX8FFob8nUakBmSCS4rVP4RgRGYqHxYXQZs0jsDJ6Y5JRco32a0KYdLllWy85eu",
+          "received": false
+        },
+        {
+          "_id": "698a62f21c508c5d5ec4374d",
+          "name": "Soap70413",
+          "amount": 442,
+          "price": 92981,
+          "manufacturer": "Apple",
+          "notes": "F0AlcsBEjUoMlzriIFLVJMi3XX9V7fATMVnYpDmKJVIihAd4NlspqcabDSA6R9FFxtDy76i84JfUZ9Vp0r875t9ZDEVpqLQe96Sk7ewjrcUI8JAHCsgk2jHt6vwh5fQo6MO5to26TjaTQ0zcMQP9Y2LMMlkbeKS28eMzxTdZrhaog00m1qE1ZmYEMnNOLD9Nm7ZqMUrGT0Pf2jhr6RmyD6QmBcjPusZYpwmaVQivllCOfumFZnXOpyj0cN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Marvincester",
+          "street": "Christine Expressway",
+          "house": 23,
+          "flat": 857
+        },
+        "finalDate": "2026-02-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 186274,
+      "createdOn": "2026-02-09T22:42:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "698a62f21c508c5d5ec436f5",
+          "products": [
+            {
+              "_id": "698a62f21c508c5d5ec4373a",
+              "name": "Table77120",
+              "amount": 961,
+              "price": 93293,
+              "manufacturer": "Microsoft",
+              "notes": "MuqIjl9tV1aULJItRHvtK5jleUOXmOs0977EHI1BAVrt025D1r10Rrnd4eL0em7SKG1om7M6Hv1b0SzQLk7DTkvVw0jV9H0rEOxeieLuCpx5papxt4BG16S6YuDKfK5l5xbK03WHyxkrdg3Jmao0w8ehdcHMmzFuvQF3iEivW1RuZU0Ob6ggYRiyWmywX8FFob8nUakBmSCS4rVP4RgRGYqHxYXQZs0jsDJ6Y5JRco32a0KYdLllWy85eu",
+              "received": false
+            },
+            {
+              "_id": "698a62f21c508c5d5ec4374d",
+              "name": "Soap70413",
+              "amount": 442,
+              "price": 92981,
+              "manufacturer": "Apple",
+              "notes": "F0AlcsBEjUoMlzriIFLVJMi3XX9V7fATMVnYpDmKJVIihAd4NlspqcabDSA6R9FFxtDy76i84JfUZ9Vp0r875t9ZDEVpqLQe96Sk7ewjrcUI8JAHCsgk2jHt6vwh5fQo6MO5to26TjaTQ0zcMQP9Y2LMMlkbeKS28eMzxTdZrhaog00m1qE1ZmYEMnNOLD9Nm7ZqMUrGT0Pf2jhr6RmyD6QmBcjPusZYpwmaVQivllCOfumFZnXOpyj0cN",
+              "received": false
+            }
+          ],
+          "total_price": 186274,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Marvincester",
+              "street": "Christine Expressway",
+              "house": 23,
+              "flat": 857
+            },
+            "finalDate": "2026-02-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-09T22:43:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698a62f21c508c5d5ec436f5",
+          "products": [
+            {
+              "_id": "698a62f21c508c5d5ec4373a",
+              "name": "Table77120",
+              "amount": 961,
+              "price": 93293,
+              "manufacturer": "Microsoft",
+              "notes": "MuqIjl9tV1aULJItRHvtK5jleUOXmOs0977EHI1BAVrt025D1r10Rrnd4eL0em7SKG1om7M6Hv1b0SzQLk7DTkvVw0jV9H0rEOxeieLuCpx5papxt4BG16S6YuDKfK5l5xbK03WHyxkrdg3Jmao0w8ehdcHMmzFuvQF3iEivW1RuZU0Ob6ggYRiyWmywX8FFob8nUakBmSCS4rVP4RgRGYqHxYXQZs0jsDJ6Y5JRco32a0KYdLllWy85eu",
+              "received": false
+            },
+            {
+              "_id": "698a62f21c508c5d5ec4374d",
+              "name": "Soap70413",
+              "amount": 442,
+              "price": 92981,
+              "manufacturer": "Apple",
+              "notes": "F0AlcsBEjUoMlzriIFLVJMi3XX9V7fATMVnYpDmKJVIihAd4NlspqcabDSA6R9FFxtDy76i84JfUZ9Vp0r875t9ZDEVpqLQe96Sk7ewjrcUI8JAHCsgk2jHt6vwh5fQo6MO5to26TjaTQ0zcMQP9Y2LMMlkbeKS28eMzxTdZrhaog00m1qE1ZmYEMnNOLD9Nm7ZqMUrGT0Pf2jhr6RmyD6QmBcjPusZYpwmaVQivllCOfumFZnXOpyj0cN",
+              "received": false
+            }
+          ],
+          "total_price": 186274,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Marvincester",
+              "street": "Christine Expressway",
+              "house": 23,
+              "flat": 857
+            },
+            "finalDate": "2026-02-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-09T22:42:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698a62f21c508c5d5ec436f5",
+          "products": [
+            {
+              "_id": "698a62f21c508c5d5ec4373a",
+              "name": "Table77120",
+              "amount": 961,
+              "price": 93293,
+              "manufacturer": "Microsoft",
+              "notes": "MuqIjl9tV1aULJItRHvtK5jleUOXmOs0977EHI1BAVrt025D1r10Rrnd4eL0em7SKG1om7M6Hv1b0SzQLk7DTkvVw0jV9H0rEOxeieLuCpx5papxt4BG16S6YuDKfK5l5xbK03WHyxkrdg3Jmao0w8ehdcHMmzFuvQF3iEivW1RuZU0Ob6ggYRiyWmywX8FFob8nUakBmSCS4rVP4RgRGYqHxYXQZs0jsDJ6Y5JRco32a0KYdLllWy85eu",
+              "received": false
+            },
+            {
+              "_id": "698a62f21c508c5d5ec4374d",
+              "name": "Soap70413",
+              "amount": 442,
+              "price": 92981,
+              "manufacturer": "Apple",
+              "notes": "F0AlcsBEjUoMlzriIFLVJMi3XX9V7fATMVnYpDmKJVIihAd4NlspqcabDSA6R9FFxtDy76i84JfUZ9Vp0r875t9ZDEVpqLQe96Sk7ewjrcUI8JAHCsgk2jHt6vwh5fQo6MO5to26TjaTQ0zcMQP9Y2LMMlkbeKS28eMzxTdZrhaog00m1qE1ZmYEMnNOLD9Nm7ZqMUrGT0Pf2jhr6RmyD6QmBcjPusZYpwmaVQivllCOfumFZnXOpyj0cN",
+              "received": false
+            }
+          ],
+          "total_price": 186274,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

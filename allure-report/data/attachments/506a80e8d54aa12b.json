@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-NmBoGuXTEfv3RCMdbIVOOxAyJp8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62d41c508c5d5ec42812",
+        "email": "Daisy.Quitzon4@gmail.com",
+        "name": "Antonetta Wiza",
+        "country": "Ukraine",
+        "city": "Euless",
+        "street": "Rene Grove",
+        "house": 37,
+        "flat": 668,
+        "phone": "+17086137419",
+        "createdOn": "2026-02-09T22:42:28.000Z",
+        "notes": "OFUheExhfy3gNdQw9oQ5UZ80D0yXLJy3pyXVW5rgXNST1uSgilq7S0PXN6wwVXyfsURBR4eFZx217o5hk1p48EvcTIZdBgpNWE1yN1SmoOhAVbmjJf2YEcLS7PDWgVVSwIhPa1JgyewbEJShI0BE1G1r1m8gC13khYQoD4Hl5Gi3zuFCka9OkUorhNd906lyyk6trUndVkveLLdUyde4KdrLtlPpOHXNTG58ODnofcq3oKkEouxDvfPmui"
+      },
+      "products": [
+        {
+          "_id": "698a62d41c508c5d5ec4282e",
+          "name": "Shoes43752",
+          "amount": 401,
+          "price": 94010,
+          "manufacturer": "Microsoft",
+          "notes": "2VqSSsUrKsylZH0c8SQjaLEbOgNyZXhgb0dsN5H8nyfk8PwCLiqTDtwftRc09grZ9oerAvGyCn2lmdG8yNMWnrjKqxkMSZAdnCUo3UZ6GF2TOKXImh7zddV6AMwTbKC24RH5iXvcDZmZTu4Z0F9lkXI8MNUU6npP6RZWSodEmHTui3Qp9AoQq3vGMSTJOZKWT4JCaOGscZbAlSamm38vsts88PdlSiMB9AUfw3j4bxYkrNTzAoo6r5fhwf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94010,
+      "createdOn": "2026-02-09T22:42:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62d41c508c5d5ec42812",
+          "products": [
+            {
+              "_id": "698a62d41c508c5d5ec4282e",
+              "name": "Shoes43752",
+              "amount": 401,
+              "price": 94010,
+              "manufacturer": "Microsoft",
+              "notes": "2VqSSsUrKsylZH0c8SQjaLEbOgNyZXhgb0dsN5H8nyfk8PwCLiqTDtwftRc09grZ9oerAvGyCn2lmdG8yNMWnrjKqxkMSZAdnCUo3UZ6GF2TOKXImh7zddV6AMwTbKC24RH5iXvcDZmZTu4Z0F9lkXI8MNUU6npP6RZWSodEmHTui3Qp9AoQq3vGMSTJOZKWT4JCaOGscZbAlSamm38vsts88PdlSiMB9AUfw3j4bxYkrNTzAoo6r5fhwf",
+              "received": false
+            }
+          ],
+          "total_price": 94010,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62d51c508c5d5ec42865"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2636",
+    "etag": "W/\"a4c-G2yNU9XrAaAQBU61PG8EEsiQ6hM\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62d11c508c5d5ec4267a",
+        "email": "Onie60@gmail.com",
+        "name": "Conner Herzog",
+        "country": "Canada",
+        "city": "Lynn",
+        "street": "Willis Turnpike",
+        "house": 40,
+        "flat": 11,
+        "phone": "+13435119090",
+        "createdOn": "2026-02-09T22:42:25.000Z",
+        "notes": "jWVUuEqSSX9horhJKiQ0H6gD9roa3eNyZ12dS8U2Mdj3EVXu0WOyQOk7Bypg92y0hCpF7DeU41bNrAwvtEy8piKXBflr4JpaCB2rGTxfyNSlTAnunmreXnRGNFeXFt4zj9mXkfJPlkt7psG0QQVdXcO0KDESZf5rLwS9Zq1JPNOyVTQDzhsZ3DNCGlUMxLzgzyvXkT4qTty6uBRHq0lHntgT3s0NTcPPDpZyDIffo4LzRW1HyTeHENTbMI"
+      },
+      "products": [
+        {
+          "_id": "698a62d11c508c5d5ec42696",
+          "name": "Chicken97475",
+          "amount": 668,
+          "price": 3822,
+          "manufacturer": "Google",
+          "notes": "H18ITaOl92e1BJLC18WHZMw0hhnjFRTYQEsJp9Z9jHsgbaw6yeXo0S4LXm7rbalTsPKpc5VaRQFAWH97R9iogum00YI2Vml1L5KoAqQZ5SazcjC23QSAMYvESuKvKgTtMvrNhnpaV4sPcuCjYmomyKLFSgMvUr6Z2IWTK89IYeU24DpxfugdJSe0NfxFP4MF1hSUKwS1QQ96yi3OKKRTOX358ewL0i4HWRcWozaI2io80FRsQrbUeedGBz",
+          "received": false
+        },
+        {
+          "_id": "698a62d11c508c5d5ec426b4",
+          "name": "Hat48001",
+          "amount": 772,
+          "price": 6236,
+          "manufacturer": "Samsung",
+          "notes": "NnK9JluClJJCSKsNVhRuz0LtkPtwteCrm4h5kYOisrrqqzg5OcDtCdfwb9rcsAITfiOcmCG0PWBdYoLylnvpxomQ8wOF8bksqygq6qapyFcwllANRMyYMvEHwbL63JPFsYAiInJ1b0kVGwgN9RsNR9MxSzJ0oEKsYwKURS0QeIIcYS6589X1vye6uAi2KB9IVCOFwhWirWW5JvibN15tt4Mc7tm51hlqbNM4sHDhUmUVykvCD0TYwrXWUc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10058,
+      "createdOn": "2026-02-09T22:42:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62d11c508c5d5ec4267a",
+          "products": [
+            {
+              "_id": "698a62d11c508c5d5ec42696",
+              "name": "Chicken97475",
+              "amount": 668,
+              "price": 3822,
+              "manufacturer": "Google",
+              "notes": "H18ITaOl92e1BJLC18WHZMw0hhnjFRTYQEsJp9Z9jHsgbaw6yeXo0S4LXm7rbalTsPKpc5VaRQFAWH97R9iogum00YI2Vml1L5KoAqQZ5SazcjC23QSAMYvESuKvKgTtMvrNhnpaV4sPcuCjYmomyKLFSgMvUr6Z2IWTK89IYeU24DpxfugdJSe0NfxFP4MF1hSUKwS1QQ96yi3OKKRTOX358ewL0i4HWRcWozaI2io80FRsQrbUeedGBz",
+              "received": false
+            },
+            {
+              "_id": "698a62d11c508c5d5ec426b4",
+              "name": "Hat48001",
+              "amount": 772,
+              "price": 6236,
+              "manufacturer": "Samsung",
+              "notes": "NnK9JluClJJCSKsNVhRuz0LtkPtwteCrm4h5kYOisrrqqzg5OcDtCdfwb9rcsAITfiOcmCG0PWBdYoLylnvpxomQ8wOF8bksqygq6qapyFcwllANRMyYMvEHwbL63JPFsYAiInJ1b0kVGwgN9RsNR9MxSzJ0oEKsYwKURS0QeIIcYS6589X1vye6uAi2KB9IVCOFwhWirWW5JvibN15tt4Mc7tm51hlqbNM4sHDhUmUVykvCD0TYwrXWUc",
+              "received": false
+            }
+          ],
+          "total_price": 10058,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62d21c508c5d5ec426e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

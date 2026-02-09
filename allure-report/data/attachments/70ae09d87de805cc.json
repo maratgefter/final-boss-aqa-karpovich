@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4076",
+    "etag": "W/\"fec-IrSeV7FRhvk4TtSuzYTdJkmDFH0\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698a62ea1c508c5d5ec43263",
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62e91c508c5d5ec431e2",
+        "email": "Kacie.Smith2@hotmail.com",
+        "name": "Darby Hamill",
+        "country": "Belarus",
+        "city": "Palmdale",
+        "street": "Sawayn Trail",
+        "house": 3,
+        "flat": 396,
+        "phone": "+15739578166",
+        "createdOn": "2026-02-09T22:42:49.000Z",
+        "notes": "btQkajiRBWYMg0DblbmN3njT1nDXq6ycBeMYC8BLldkKnrJL9JzAEjB9Jv5kmxyyglsgFWtDP8rX4mXiJeWjGk9sSZ0scb8nq2JcdJR2oKePFwxWVIetE1tza9AiEzo0VNQPVMD8kzL7pjzJ84Tjkuu6zVlK3g7nM9Om1CEMYIfzWyL1EtOxsc1MfQurmAr9E4ZOa90mwM5AvghjoQwuwuH72ZSZPLTGp21ws9NknZCaBu6w1AN87WAUld"
+      },
+      "products": [
+        {
+          "_id": "698a62e91c508c5d5ec43214",
+          "name": "Bike78533",
+          "amount": 412,
+          "price": 329,
+          "manufacturer": "Google",
+          "notes": "AVIHvqXHBQ49NCziAI5ZTkI9AEUXJJgS51dDDBzTKjnDLf53FWRLq7OxGgn3vaWO0FKSlFjVlQErYcUnevhHVw4i1McoFYxzusBPxkAPiYkpQwTcFyWyz4ArK1NEWlBRzS3CaVTWlioto3gXyYmoyKU2KMsq244yBw1Bbtt2FSB00QTmtpa94V05taADxZs48HnBhRwrCtrzXiMu6p5TVsqAR8JtCjO0SS0FvGKEhFrP4ulC9CJ8jTitY1",
+          "received": false
+        },
+        {
+          "_id": "698a62e91c508c5d5ec4323e",
+          "name": "Shirt16627",
+          "amount": 5,
+          "price": 26979,
+          "manufacturer": "Amazon",
+          "notes": "g9V3QI5iqkhNdSbWA0mNHVm3JrvOUwrNyVtYR0FbXuvZY0VN9v2AYjzmtU9Bj8YW6wKYmufFmCJ5WHuf6zNJPXPrlPEbI02RqE6mEz2jhgxtPjiIECanyrBYzHT8kfM88svk24n5c5g9IumWu9fwJgbXv8Cw4ArecrI9rC9UOTWVZAxOxsJJZjn0QCk4QpXoeHb8Cdm0r5VvNgN2fwLj9uMWFE6yag3vKmHu1T6tnxVCrBM985Hp5mTsmV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Palmdale",
+          "street": "Sawayn Trail",
+          "house": 3,
+          "flat": 396
+        },
+        "finalDate": "2026-02-12T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 27308,
+      "createdOn": "2026-02-09T22:42:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62e91c508c5d5ec431e2",
+          "products": [
+            {
+              "_id": "698a62e91c508c5d5ec43214",
+              "name": "Bike78533",
+              "amount": 412,
+              "price": 329,
+              "manufacturer": "Google",
+              "notes": "AVIHvqXHBQ49NCziAI5ZTkI9AEUXJJgS51dDDBzTKjnDLf53FWRLq7OxGgn3vaWO0FKSlFjVlQErYcUnevhHVw4i1McoFYxzusBPxkAPiYkpQwTcFyWyz4ArK1NEWlBRzS3CaVTWlioto3gXyYmoyKU2KMsq244yBw1Bbtt2FSB00QTmtpa94V05taADxZs48HnBhRwrCtrzXiMu6p5TVsqAR8JtCjO0SS0FvGKEhFrP4ulC9CJ8jTitY1",
+              "received": false
+            },
+            {
+              "_id": "698a62e91c508c5d5ec4323e",
+              "name": "Shirt16627",
+              "amount": 5,
+              "price": 26979,
+              "manufacturer": "Amazon",
+              "notes": "g9V3QI5iqkhNdSbWA0mNHVm3JrvOUwrNyVtYR0FbXuvZY0VN9v2AYjzmtU9Bj8YW6wKYmufFmCJ5WHuf6zNJPXPrlPEbI02RqE6mEz2jhgxtPjiIECanyrBYzHT8kfM88svk24n5c5g9IumWu9fwJgbXv8Cw4ArecrI9rC9UOTWVZAxOxsJJZjn0QCk4QpXoeHb8Cdm0r5VvNgN2fwLj9uMWFE6yag3vKmHu1T6tnxVCrBM985Hp5mTsmV",
+              "received": false
+            }
+          ],
+          "total_price": 27308,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Palmdale",
+              "street": "Sawayn Trail",
+              "house": 3,
+              "flat": 396
+            },
+            "finalDate": "2026-02-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-09T22:42:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698a62e91c508c5d5ec431e2",
+          "products": [
+            {
+              "_id": "698a62e91c508c5d5ec43214",
+              "name": "Bike78533",
+              "amount": 412,
+              "price": 329,
+              "manufacturer": "Google",
+              "notes": "AVIHvqXHBQ49NCziAI5ZTkI9AEUXJJgS51dDDBzTKjnDLf53FWRLq7OxGgn3vaWO0FKSlFjVlQErYcUnevhHVw4i1McoFYxzusBPxkAPiYkpQwTcFyWyz4ArK1NEWlBRzS3CaVTWlioto3gXyYmoyKU2KMsq244yBw1Bbtt2FSB00QTmtpa94V05taADxZs48HnBhRwrCtrzXiMu6p5TVsqAR8JtCjO0SS0FvGKEhFrP4ulC9CJ8jTitY1",
+              "received": false
+            },
+            {
+              "_id": "698a62e91c508c5d5ec4323e",
+              "name": "Shirt16627",
+              "amount": 5,
+              "price": 26979,
+              "manufacturer": "Amazon",
+              "notes": "g9V3QI5iqkhNdSbWA0mNHVm3JrvOUwrNyVtYR0FbXuvZY0VN9v2AYjzmtU9Bj8YW6wKYmufFmCJ5WHuf6zNJPXPrlPEbI02RqE6mEz2jhgxtPjiIECanyrBYzHT8kfM88svk24n5c5g9IumWu9fwJgbXv8Cw4ArecrI9rC9UOTWVZAxOxsJJZjn0QCk4QpXoeHb8Cdm0r5VvNgN2fwLj9uMWFE6yag3vKmHu1T6tnxVCrBM985Hp5mTsmV",
+              "received": false
+            }
+          ],
+          "total_price": 27308,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

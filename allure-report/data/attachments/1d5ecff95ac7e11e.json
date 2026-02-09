@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-6DpVE+0gJKMB/66DGt+FPqb6Xps\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62db1c508c5d5ec42b5f",
+        "email": "Gianni.Kunde63@hotmail.com",
+        "name": "Audrey Bergnaum",
+        "country": "Belarus",
+        "city": "Shadcester",
+        "street": "Alden Forks",
+        "house": 15,
+        "flat": 98,
+        "phone": "+15992064554",
+        "createdOn": "2026-02-09T22:42:35.000Z",
+        "notes": "J28fnINv9gtbm1sqs6UF7Vno8TXxMxKR06k3D6SwbgRB5KvXB4BTNDIXX0eiDgz3NUguENDdVNNCAhoABihBQPwsPW1JwR0rHvEHmiV3rh1cDdgWGfrrJUnQgOo65BLEXIK8YY0ootay5WA8g4QmiotlnUf0DHUjpgFWc3nDHyZ0zGI5hV4ScGxD7rgnEonEJsEc21D0s8sTcFZT9JR9ataFP1de4I5GM7zREayriksxau0plnSD14A5Fz"
+      },
+      "products": [
+        {
+          "_id": "698a62db1c508c5d5ec42b7e",
+          "name": "Bike15664",
+          "amount": 158,
+          "price": 1583,
+          "manufacturer": "Xiaomi",
+          "notes": "l246LwQMYkATCvob4q0ZA2sPp0rdY4ZzLDhq5zTUYTE2hsL1UTNHkdGv27zINe6EUYK8qb5Ida4zH5fyGo4OtZHxSO6hK2PfXzaX7SVXVCDSklyKuDAbPuPxdnbhxXFRI1QuFIzZH1ERRL4Xt84VyWhhRArdN8z9Ks0fSkjTEXRgeQxDDehRh9QSoCTbeg9HxmAFL0WL7ewbT5n96I6cLEh6dK1oC2csdtHdt8qWhNMcxQE8GKw2EfVqLc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1583,
+      "createdOn": "2026-02-09T22:42:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62db1c508c5d5ec42b5f",
+          "products": [
+            {
+              "_id": "698a62db1c508c5d5ec42b7e",
+              "name": "Bike15664",
+              "amount": 158,
+              "price": 1583,
+              "manufacturer": "Xiaomi",
+              "notes": "l246LwQMYkATCvob4q0ZA2sPp0rdY4ZzLDhq5zTUYTE2hsL1UTNHkdGv27zINe6EUYK8qb5Ida4zH5fyGo4OtZHxSO6hK2PfXzaX7SVXVCDSklyKuDAbPuPxdnbhxXFRI1QuFIzZH1ERRL4Xt84VyWhhRArdN8z9Ks0fSkjTEXRgeQxDDehRh9QSoCTbeg9HxmAFL0WL7ewbT5n96I6cLEh6dK1oC2csdtHdt8qWhNMcxQE8GKw2EfVqLc",
+              "received": false
+            }
+          ],
+          "total_price": 1583,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62dc1c508c5d5ec42bb3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:42:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-hhXkMxBPxDJHA4gkzKX+NofWRuY\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62dd1c508c5d5ec42c0b",
+        "email": "Gilbert_Littel91@hotmail.com",
+        "name": "Laura Carroll",
+        "country": "Ukraine",
+        "city": "East Emmalee",
+        "street": "Mante Corner",
+        "house": 3,
+        "flat": 944,
+        "phone": "+12653275044",
+        "createdOn": "2026-02-09T22:42:37.000Z",
+        "notes": "mGY4QN4UAzpFnNrZg7m6uI4Wn5F1ExFTdK0G3h7RwD4p5oOFG4cuphnyHfYlxXFGseu4IJ1YgumEBT6vdQx6Ldu9noPBIA447G9l5SuiQnorl2YA0iaxyB5hwDjkxwSGJi36p4vJi8TFJyok9ZnRIxHC9fmu6qNQladovqBBvhLK2xOaVcufBe4DrIcz0az1ApSeFJjaFPYT8aKq2NZsiplTfZWBVFhCHdt4dO2oWj6UL9bfSEXEbKStzf"
+      },
+      "products": [
+        {
+          "_id": "698a62dd1c508c5d5ec42c33",
+          "name": "Fish92349",
+          "amount": 441,
+          "price": 89068,
+          "manufacturer": "Samsung",
+          "notes": "ph32RSM97dUC3Ach0VNC50e8ueTy9KYHZjWGL74buiLvbyEf2bdUmzo29GweTPE5LudU60FYydeWVlM6aVhjLJs6UI9ehXn7KUo1xZYeXFCF8Dl0WvLdBzZJO94aFFRMlSmT00DVaZRwJmy350uSorg7LZQFSgXXshoDHZCWx9f3z08NjHdDp92WAaBJz5NU41WnvNgBc3P5HcxKT2xkQiaCzDLdczSFAMCJGGpVOfik7Ummfpk5fwo3a0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89068,
+      "createdOn": "2026-02-09T22:42:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62dd1c508c5d5ec42c0b",
+          "products": [
+            {
+              "_id": "698a62dd1c508c5d5ec42c33",
+              "name": "Fish92349",
+              "amount": 441,
+              "price": 89068,
+              "manufacturer": "Samsung",
+              "notes": "ph32RSM97dUC3Ach0VNC50e8ueTy9KYHZjWGL74buiLvbyEf2bdUmzo29GweTPE5LudU60FYydeWVlM6aVhjLJs6UI9ehXn7KUo1xZYeXFCF8Dl0WvLdBzZJO94aFFRMlSmT00DVaZRwJmy350uSorg7LZQFSgXXshoDHZCWx9f3z08NjHdDp92WAaBJz5NU41WnvNgBc3P5HcxKT2xkQiaCzDLdczSFAMCJGGpVOfik7Ummfpk5fwo3a0",
+              "received": false
+            }
+          ],
+          "total_price": 89068,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:42:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62de1c508c5d5ec42c89"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

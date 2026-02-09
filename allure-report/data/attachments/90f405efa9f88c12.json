@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 09 Feb 2026 22:43:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-vU6uJf1n5N2GfHCwxMLLokywA1c\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698a62f51c508c5d5ec438dc",
+        "email": "Beau.Mills7@gmail.com",
+        "name": "Elmo Schuster",
+        "country": "Germany",
+        "city": "South Moises",
+        "street": "Talia Lake",
+        "house": 48,
+        "flat": 37,
+        "phone": "+17223795346",
+        "createdOn": "2026-02-09T22:43:01.000Z",
+        "notes": "EtCTRwyElCVIcvlshNsSBfQTi79xKGNyekrcxy8QCnIK4qzInBX3W8xyXU70Zr0zDJG7mgxuwU4MjStjJhDEKo1M5OHfWx4OJ8nPKJZPqIHUTxV0YIDRA1087xOb1mPGGpv516vjSLP6Wcz9MdqujsppH4G2Gy4zdVKiGkUEbmx1z1G8mBqEYx6GqWGEAr9yoaRl5VQpVyWgDsPQx4ONvpq1ArVvwmdTT1alU8XeOHheKmiQob2637j9I9"
+      },
+      "products": [
+        {
+          "_id": "698a62f61c508c5d5ec43932",
+          "name": "Chicken6594",
+          "amount": 138,
+          "price": 64383,
+          "manufacturer": "Microsoft",
+          "notes": "UNn7XsXJuhuc86rgmNAQNah2uFC9otV0hwwRM8PhNCndTfO0yxTBu7ag6vTiFdpYkdA05L8Un5sOLxT6mRA23PnbMsvvHS6DBKmyI1S3sfU7e11WW2Gac4S49KXZzgWhHSgHFkK1Rm75bKIiemLy7RZJsHtRFiEPRZ6T1EfMEdaJLuxQNOJKnBnlhBDCSy0Xd9HGcaviSwDGZoxgAKLZUlPPc1Aun6vzAHPSkBIq9xmlBB45JsdJYa5CCe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64383,
+      "createdOn": "2026-02-09T22:43:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698a62f51c508c5d5ec438dc",
+          "products": [
+            {
+              "_id": "698a62f61c508c5d5ec43932",
+              "name": "Chicken6594",
+              "amount": 138,
+              "price": 64383,
+              "manufacturer": "Microsoft",
+              "notes": "UNn7XsXJuhuc86rgmNAQNah2uFC9otV0hwwRM8PhNCndTfO0yxTBu7ag6vTiFdpYkdA05L8Un5sOLxT6mRA23PnbMsvvHS6DBKmyI1S3sfU7e11WW2Gac4S49KXZzgWhHSgHFkK1Rm75bKIiemLy7RZJsHtRFiEPRZ6T1EfMEdaJLuxQNOJKnBnlhBDCSy0Xd9HGcaviSwDGZoxgAKLZUlPPc1Aun6vzAHPSkBIq9xmlBB45JsdJYa5CCe",
+              "received": false
+            }
+          ],
+          "total_price": 64383,
+          "delivery": null,
+          "changedOn": "2026-02-09T22:43:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698a62f61c508c5d5ec4397d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
