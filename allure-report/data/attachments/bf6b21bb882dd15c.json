@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3428",
+    "etag": "W/\"d64-M7yBWbpolKOvsEN/LyVrWuMI9BE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb5871c508c5d5ec48555",
+        "email": "Mohammed71@yahoo.com",
+        "name": "Shirley Thiel",
+        "country": "France",
+        "city": "South Shawna",
+        "street": "Walsh Garden",
+        "house": 24,
+        "flat": 290,
+        "phone": "+13518326218",
+        "createdOn": "2026-02-10T22:47:35.000Z",
+        "notes": "7ybkmWvgBPKiyy3zobBvtLA2OuTmvV6lQbwl9hzvpQWSRTL3H6PDCGy1Ca44cxHrZkbkDy2IMbFeZiVmwXihrFAXBxr22nBvCtjdRHXnPC7usfY9jtyMLdlW8BPR7OjbB04lubjlttCRLX9IfdfINoehH7XEYiZrPFE1zdaPYzSXRGP0ajSmADHBruw6CCbGlb8qfBBBHRVnp47u7f5XDTcUPdqm1ftKLBPzo3mPhGdJvZnU7TAinKmUOr"
+      },
+      "products": [
+        {
+          "_id": "698bb5871c508c5d5ec48586",
+          "name": "Chair70210",
+          "amount": 853,
+          "price": 31001,
+          "manufacturer": "Microsoft",
+          "notes": "aQaeKtDnpWX8nOz2gah5VYDWTfbNzPpJwhPe6j869kxK1IWUcZ3eLWDmgKYCse6asmL4AhHeH02DnNmV0yxm5iKiAo5mHUALhvEhgFZFX2TueZlc7tqsqWf0vfuVV34O0CSn2lE9ZBlGd0cUheR0wKHZVXshAmFSflGZxB25RXSiQombioTcQ4gtCHpjqZkC0sGX0d1YDVHORSxPlLNFcmOBdVW1iVS9EmbQKMXLpdkF3jLM6kQTlEJrQh",
+          "received": false
+        },
+        {
+          "_id": "698bb5881c508c5d5ec485c5",
+          "name": "Shoes56891",
+          "amount": 194,
+          "price": 16127,
+          "manufacturer": "Microsoft",
+          "notes": "TRPGpL8xswEwfUd62ulZOHyGhxEMd5R53Y8WRG97QlFrZrbRHNTY8JCRnhMg99qETxnMKwx9bnaiR7koKOXabs3kUTIV3d52Uj0sFMiD09wBNJZQdSPLyCSDclFCEJRIREHmCYh96565dabKPxB685RHrV4zznzeGXK9j0zBVZxFCm5c4jQnMoQp3kgvL9pQTIC4WCGyzjfof2EzjwcxTvjjaMRs35TPrwVtgxdxxnDPYOnBIqDBhvXIfq",
+          "received": false
+        },
+        {
+          "_id": "698bb5881c508c5d5ec485e7",
+          "name": "Shoes93928",
+          "amount": 788,
+          "price": 29152,
+          "manufacturer": "Xiaomi",
+          "notes": "xjeiQgTDzW41uUGomZeIUZHvf0W8DxjpPLcDZLx3AcfoA41U6FSrvugwKlurSYc60vn2sVT1OjqnW34tUooElnCudUUCy06fPCoZrxN8RjJqxQzJ6NKAcwkQMU2WLtfKV0PkpeoB8AuZT21zFwS0KYvYxMQ898qaOSAX9WYs0vjgVSz4YgIF6i4rNKmqfLMTM5U3bigkVznYTtuLCa6cm3ZWKQC8Egdu2AZ1yapvZyBxyYGoX3gaP157un",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76280,
+      "createdOn": "2026-02-10T22:47:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb5871c508c5d5ec48555",
+          "products": [
+            {
+              "_id": "698bb5871c508c5d5ec48586",
+              "name": "Chair70210",
+              "amount": 853,
+              "price": 31001,
+              "manufacturer": "Microsoft",
+              "notes": "aQaeKtDnpWX8nOz2gah5VYDWTfbNzPpJwhPe6j869kxK1IWUcZ3eLWDmgKYCse6asmL4AhHeH02DnNmV0yxm5iKiAo5mHUALhvEhgFZFX2TueZlc7tqsqWf0vfuVV34O0CSn2lE9ZBlGd0cUheR0wKHZVXshAmFSflGZxB25RXSiQombioTcQ4gtCHpjqZkC0sGX0d1YDVHORSxPlLNFcmOBdVW1iVS9EmbQKMXLpdkF3jLM6kQTlEJrQh",
+              "received": false
+            },
+            {
+              "_id": "698bb5881c508c5d5ec485c5",
+              "name": "Shoes56891",
+              "amount": 194,
+              "price": 16127,
+              "manufacturer": "Microsoft",
+              "notes": "TRPGpL8xswEwfUd62ulZOHyGhxEMd5R53Y8WRG97QlFrZrbRHNTY8JCRnhMg99qETxnMKwx9bnaiR7koKOXabs3kUTIV3d52Uj0sFMiD09wBNJZQdSPLyCSDclFCEJRIREHmCYh96565dabKPxB685RHrV4zznzeGXK9j0zBVZxFCm5c4jQnMoQp3kgvL9pQTIC4WCGyzjfof2EzjwcxTvjjaMRs35TPrwVtgxdxxnDPYOnBIqDBhvXIfq",
+              "received": false
+            },
+            {
+              "_id": "698bb5881c508c5d5ec485e7",
+              "name": "Shoes93928",
+              "amount": 788,
+              "price": 29152,
+              "manufacturer": "Xiaomi",
+              "notes": "xjeiQgTDzW41uUGomZeIUZHvf0W8DxjpPLcDZLx3AcfoA41U6FSrvugwKlurSYc60vn2sVT1OjqnW34tUooElnCudUUCy06fPCoZrxN8RjJqxQzJ6NKAcwkQMU2WLtfKV0PkpeoB8AuZT21zFwS0KYvYxMQ898qaOSAX9WYs0vjgVSz4YgIF6i4rNKmqfLMTM5U3bigkVznYTtuLCa6cm3ZWKQC8Egdu2AZ1yapvZyBxyYGoX3gaP157un",
+              "received": false
+            }
+          ],
+          "total_price": 76280,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb5891c508c5d5ec48624"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

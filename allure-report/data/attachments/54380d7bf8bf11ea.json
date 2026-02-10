@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-VJ3n1ZnOIb1mbBckNCsom93Hd9k\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb56a1c508c5d5ec4769d",
+        "email": "Nova.Haley68@gmail.com",
+        "name": "Kade Mayert",
+        "country": "Russia",
+        "city": "East Otis",
+        "street": "Chadd Villages",
+        "house": 17,
+        "flat": 493,
+        "phone": "+16523342855",
+        "createdOn": "2026-02-10T22:47:06.000Z",
+        "notes": "bvVozfnVJ8DlpA5Xr4kfjQ9zLy9nqG5tpDq36EaoRn9SaWkfqkqWyt2Dhf4EyWnLlRJ7GF9Ug45pZRngMYOS9ufNzYFf6Ojs1TMYS9Xp90dPXlnOEGsHtI0ReytxpJQ3nKBGTPP1meATL7QzEvaqSINarxehOvsBfF2muR4gfA2xNS4muODtfvuMDTfabro4zloWIxvfY5fQpNn31iWhQWX15YZP9hN3lrMtY5pZ42f0Ra9fiVMCP9doXO"
+      },
+      "products": [
+        {
+          "_id": "698bb56a1c508c5d5ec476b6",
+          "name": "Soap23666",
+          "amount": 513,
+          "price": 55223,
+          "manufacturer": "Apple",
+          "notes": "OkEmLTUTeH2XdfyQH3NcfLtlDVwIQ5V9rdOx6X9DC9MTzUcpharqOTRTq1HX4DPkxqOL7Esd4u1l3dxehD8ey7Vwsx7JOmhuiDSoSHc6EywepnEyX0S4PlupLXRLtL0VEL6F8qLfGYDHhCKdjAIOa92FagXbWpGlNmUXAiZvquHxxxbnC19kZauu1lIslhISQk432Hd0sQrN8qejFjheIM8ifnYVPHlseAFZboklEInNGgm0Z50Noabqtq",
+          "received": false
+        },
+        {
+          "_id": "698bb56a1c508c5d5ec476d3",
+          "name": "Soap65852",
+          "amount": 991,
+          "price": 89824,
+          "manufacturer": "Xiaomi",
+          "notes": "j6jjdRjuCWRwUZWkocaPU5PrrOa0sGDCeVBa2ZrKqjUClDvX5LQtdKl43GRkmKRleqSxreVmCpbLhdcFgswxbi4z77aoJbF4F4l7LBQ78dooilYXMWpjtYi6iXpnwbf8RsCv3IVI8k5CtierH296jOjIeOb73rl8PeprP7sZaYltpo3AJqtwFAYWGoDTk3Wvv7RWxVAGrSI2yXNVdYTkeIGV6K5d4Ak6HNwn5kGjjxsxTej5ZeXzJQJKDK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 145047,
+      "createdOn": "2026-02-10T22:47:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb56a1c508c5d5ec4769d",
+          "products": [
+            {
+              "_id": "698bb56a1c508c5d5ec476b6",
+              "name": "Soap23666",
+              "amount": 513,
+              "price": 55223,
+              "manufacturer": "Apple",
+              "notes": "OkEmLTUTeH2XdfyQH3NcfLtlDVwIQ5V9rdOx6X9DC9MTzUcpharqOTRTq1HX4DPkxqOL7Esd4u1l3dxehD8ey7Vwsx7JOmhuiDSoSHc6EywepnEyX0S4PlupLXRLtL0VEL6F8qLfGYDHhCKdjAIOa92FagXbWpGlNmUXAiZvquHxxxbnC19kZauu1lIslhISQk432Hd0sQrN8qejFjheIM8ifnYVPHlseAFZboklEInNGgm0Z50Noabqtq",
+              "received": false
+            },
+            {
+              "_id": "698bb56a1c508c5d5ec476d3",
+              "name": "Soap65852",
+              "amount": 991,
+              "price": 89824,
+              "manufacturer": "Xiaomi",
+              "notes": "j6jjdRjuCWRwUZWkocaPU5PrrOa0sGDCeVBa2ZrKqjUClDvX5LQtdKl43GRkmKRleqSxreVmCpbLhdcFgswxbi4z77aoJbF4F4l7LBQ78dooilYXMWpjtYi6iXpnwbf8RsCv3IVI8k5CtierH296jOjIeOb73rl8PeprP7sZaYltpo3AJqtwFAYWGoDTk3Wvv7RWxVAGrSI2yXNVdYTkeIGV6K5d4Ak6HNwn5kGjjxsxTej5ZeXzJQJKDK",
+              "received": false
+            }
+          ],
+          "total_price": 145047,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb56a1c508c5d5ec476f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

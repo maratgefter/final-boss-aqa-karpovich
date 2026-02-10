@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:46:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-duqKZxvai2acnlE3RpNQ6FNnA0c\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb5621c508c5d5ec47360",
+        "email": "Abdiel.Renner-Tromp@yahoo.com",
+        "name": "Erich Bruen",
+        "country": "France",
+        "city": "Victoria",
+        "street": "Grange Close",
+        "house": 25,
+        "flat": 846,
+        "phone": "+12332061156",
+        "createdOn": "2026-02-10T22:46:58.000Z",
+        "notes": "Nue8Glk9UnRxB6YK54gmM4T6SQpHJd0xh2t1wCsiTPRU6J72s2gcdFGaGXArbJ4NeC7EaxRVbDOh4wCNkh4DLWzEuLoWxn6RgUViFxwvJEMqlNhEI2jrGzH8UYQciHKdwnSPq1rgK9n2tp46I9So3tWghEvqpK4XiYxYJuXwelGfSwXh9zBR2i2vTczAr6XA3CecHq8DFSIkgkXTdDB7KevVOSFyCk4Oa7WyJzYZyCKu2VvWF97kE3WxGZ"
+      },
+      "products": [
+        {
+          "_id": "698bb5631c508c5d5ec4737d",
+          "name": "Computer30481",
+          "amount": 747,
+          "price": 73529,
+          "manufacturer": "Google",
+          "notes": "wVIFJEVONYcwSVdE66X47Ah8Q1FDQaketiR8X8wbut6x8NldOrsOmTKC51qcpNZo1xjxr51PCqZhYH9TDSLQ2sX5rz1sQuiLVmbooJRmUO6syNuHc80TEIlQMZzF8JFgvcNEGY9LwU2u6g3T4AxhtNRQ3Jg6USvWbeNbIzJP2IrzUUc5DqaP0O4N0lZTlN7FuZm5qimvWE6w5JZytJYWSRS4TPATaFGz6k3MVGrpsaT088uOScK1uQqbY5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73529,
+      "createdOn": "2026-02-10T22:46:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb5621c508c5d5ec47360",
+          "products": [
+            {
+              "_id": "698bb5631c508c5d5ec4737d",
+              "name": "Computer30481",
+              "amount": 747,
+              "price": 73529,
+              "manufacturer": "Google",
+              "notes": "wVIFJEVONYcwSVdE66X47Ah8Q1FDQaketiR8X8wbut6x8NldOrsOmTKC51qcpNZo1xjxr51PCqZhYH9TDSLQ2sX5rz1sQuiLVmbooJRmUO6syNuHc80TEIlQMZzF8JFgvcNEGY9LwU2u6g3T4AxhtNRQ3Jg6USvWbeNbIzJP2IrzUUc5DqaP0O4N0lZTlN7FuZm5qimvWE6w5JZytJYWSRS4TPATaFGz6k3MVGrpsaT088uOScK1uQqbY5",
+              "received": false
+            }
+          ],
+          "total_price": 73529,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:46:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb5631c508c5d5ec473a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

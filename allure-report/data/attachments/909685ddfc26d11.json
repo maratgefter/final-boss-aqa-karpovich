@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-eSObOByUg7KVFf5sxYTHGwGrd14\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb56d1c508c5d5ec4782d",
+        "email": "Verner64@hotmail.com",
+        "name": "Carley Spencer",
+        "country": "France",
+        "city": "Fort Loganstad",
+        "street": "Gleason Well",
+        "house": 3,
+        "flat": 440,
+        "phone": "+15927190048",
+        "createdOn": "2026-02-10T22:47:09.000Z",
+        "notes": "dpIMqch7u5Ymph1y9LiOv0OfP6pajAMYbv6pSqLKGrt5OnslBo6qHsGF5vYUz54IcdLFOrl5OP1LJ5lsP1EqGvJAShirSGxMKhlfxzERgCxq7RTj6gKObiRJuzVcgsjGqwFZdVS7vbeV19VuiReNrV7WzAgxbInYAc48nrrPiBrjiGpRTtsaOIn0grQtI6dHUyfPfbq4te2ENtl8Ekn1RF5bf9JhLtwLepvMk06Bvox6mOtCnOh8k8P0OU"
+      },
+      "products": [
+        {
+          "_id": "698bb56e1c508c5d5ec4786a",
+          "name": "Gloves3222",
+          "amount": 901,
+          "price": 14597,
+          "manufacturer": "Tesla",
+          "notes": "YFXF6HMROOO8MHQgHKKLCpAilqzgeV2b2KtCjW7Q8qPxt4lrimgsEtEwyHWQ8YwA9UYNaFn7NuDjOynx7zOXM1NZWIQ7UE67T6lkuX8WYVBCCTgIqgTgUQ9kcQltAGvJeeJTBTSDqPo8z0UsHEsa4J6AgY6ZPgEXvKNJoYmDBMAyHoDLdD4JT9X8rYt1BXSndUQkWfSFgFwLODH4BHuPGDTFLjyUKp5KMRUsUmme55YZ6XlOz7Abxrk9Rp",
+          "received": false
+        },
+        {
+          "_id": "698bb56e1c508c5d5ec47881",
+          "name": "Fish21790",
+          "amount": 965,
+          "price": 28690,
+          "manufacturer": "Sony",
+          "notes": "8HhOSgPsyQ7Bj5k4ObNq0dHTSqzDoYwGZsAIgfXh6rxKdfnESkLxpw0TkGW438atchcP1ZMQaXwqsunkq0bKCTXY3tk0YK9nXHbq0fjtVS11IU2PaUZjtLKInT5bJBdBvqAnswPbExYYbGu61yW15WWsm77t7MzpyC37VxUkYcQ1zuHlNKbzm4Gv1o3gfEyVQaJSI57ehhYFgjPuGNIUkiEsf2BCIsaUWdi9BboXDHdMOy2Acu7bh6NwpX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43287,
+      "createdOn": "2026-02-10T22:47:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb56d1c508c5d5ec4782d",
+          "products": [
+            {
+              "_id": "698bb56e1c508c5d5ec4786a",
+              "name": "Gloves3222",
+              "amount": 901,
+              "price": 14597,
+              "manufacturer": "Tesla",
+              "notes": "YFXF6HMROOO8MHQgHKKLCpAilqzgeV2b2KtCjW7Q8qPxt4lrimgsEtEwyHWQ8YwA9UYNaFn7NuDjOynx7zOXM1NZWIQ7UE67T6lkuX8WYVBCCTgIqgTgUQ9kcQltAGvJeeJTBTSDqPo8z0UsHEsa4J6AgY6ZPgEXvKNJoYmDBMAyHoDLdD4JT9X8rYt1BXSndUQkWfSFgFwLODH4BHuPGDTFLjyUKp5KMRUsUmme55YZ6XlOz7Abxrk9Rp",
+              "received": false
+            },
+            {
+              "_id": "698bb56e1c508c5d5ec47881",
+              "name": "Fish21790",
+              "amount": 965,
+              "price": 28690,
+              "manufacturer": "Sony",
+              "notes": "8HhOSgPsyQ7Bj5k4ObNq0dHTSqzDoYwGZsAIgfXh6rxKdfnESkLxpw0TkGW438atchcP1ZMQaXwqsunkq0bKCTXY3tk0YK9nXHbq0fjtVS11IU2PaUZjtLKInT5bJBdBvqAnswPbExYYbGu61yW15WWsm77t7MzpyC37VxUkYcQ1zuHlNKbzm4Gv1o3gfEyVQaJSI57ehhYFgjPuGNIUkiEsf2BCIsaUWdi9BboXDHdMOy2Acu7bh6NwpX",
+              "received": false
+            }
+          ],
+          "total_price": 43287,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb56e1c508c5d5ec478c6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-N2Hk8MNB76vaJtFQ96dAJoY8Mxk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb56d1c508c5d5ec477e6",
+        "email": "Osbaldo.Prosacco@gmail.com",
+        "name": "Roberto Corwin",
+        "country": "USA",
+        "city": "Enatown",
+        "street": "Ratke Knolls",
+        "house": 14,
+        "flat": 180,
+        "phone": "+14653428764",
+        "createdOn": "2026-02-10T22:47:09.000Z",
+        "notes": "Iqgl1cSRFKsOuhF2GDG3KpWfvWQzcrzUXCv4FMOfn78YLgBdWaGUkl42JM8st23ykZfVWwQ8PNJmzzkgmD0DnV38YALjinViTLMWBaxofrSenfFowrm0Q52yoPvylA8iXRT85PyJ8EclFvNNmRCHLsnhEKV79iFEuN9pjvfUWgmxCoK1Ex3Q4vEfejQyDHggTYndTRj8Xc8SH3cg3FRsBj3hK1R08GX2cDxiPon8O6ADnTUWDegfKsJfrL"
+      },
+      "products": [
+        {
+          "_id": "698bb56d1c508c5d5ec477fc",
+          "name": "Hat39961",
+          "amount": 82,
+          "price": 6775,
+          "manufacturer": "Amazon",
+          "notes": "c4GNnk64KflTX0GWazwwsvhFhUoGJ0w9N4zKxIOMdFQL2TggCkWfidY4QqrjUDHaOnDJkVyC7ZcL8l0x5Z1COvohIit6eERpciDXHArxxav7qYnXo7GeqSwzx5NGwXk4XyANOZzMIaIO5T3qiQEX3rz0puDuHp7enIxJjbU0rXpOn8LKDLyLquLVqgPBHGcdZfhmtS56j5413JQYr9sCvW7t9xKDvScSvXq3a0ny8ggQVQU7Gey18U0GQ2",
+          "received": false
+        },
+        {
+          "_id": "698bb56d1c508c5d5ec47828",
+          "name": "Keyboard99365",
+          "amount": 109,
+          "price": 88460,
+          "manufacturer": "Sony",
+          "notes": "njH41q4uCdxj6KSorp0NqmOVXKHjFPTsTb4whzftGJaWsgpYNRgvOrFuttA7Nc3WMMyZxmDrNLIJqIfy4rndBe44jPsMsmUygYu7rmJLITJrIBwNkHFExqVtZ6LLW9YSlHnWCRhQjLDZ5NTXrp84B2mK88D0dBeanxerENmNbTQf7vdgcRy3K7fueQTLsoSYUTtxKYkgWx2dmNNcE5R7AsUl824YCHQuT0YkFnrkXDgDgYzvirkZKVUlvK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95235,
+      "createdOn": "2026-02-10T22:47:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb56d1c508c5d5ec477e6",
+          "products": [
+            {
+              "_id": "698bb56d1c508c5d5ec477fc",
+              "name": "Hat39961",
+              "amount": 82,
+              "price": 6775,
+              "manufacturer": "Amazon",
+              "notes": "c4GNnk64KflTX0GWazwwsvhFhUoGJ0w9N4zKxIOMdFQL2TggCkWfidY4QqrjUDHaOnDJkVyC7ZcL8l0x5Z1COvohIit6eERpciDXHArxxav7qYnXo7GeqSwzx5NGwXk4XyANOZzMIaIO5T3qiQEX3rz0puDuHp7enIxJjbU0rXpOn8LKDLyLquLVqgPBHGcdZfhmtS56j5413JQYr9sCvW7t9xKDvScSvXq3a0ny8ggQVQU7Gey18U0GQ2",
+              "received": false
+            },
+            {
+              "_id": "698bb56d1c508c5d5ec47828",
+              "name": "Keyboard99365",
+              "amount": 109,
+              "price": 88460,
+              "manufacturer": "Sony",
+              "notes": "njH41q4uCdxj6KSorp0NqmOVXKHjFPTsTb4whzftGJaWsgpYNRgvOrFuttA7Nc3WMMyZxmDrNLIJqIfy4rndBe44jPsMsmUygYu7rmJLITJrIBwNkHFExqVtZ6LLW9YSlHnWCRhQjLDZ5NTXrp84B2mK88D0dBeanxerENmNbTQf7vdgcRy3K7fueQTLsoSYUTtxKYkgWx2dmNNcE5R7AsUl824YCHQuT0YkFnrkXDgDgYzvirkZKVUlvK",
+              "received": false
+            }
+          ],
+          "total_price": 95235,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb56d1c508c5d5ec47854"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-HNmLr9XgAqD59mCCfbEddyNriaU\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb5701c508c5d5ec479ad",
+        "email": "Murray_Bergstrom@gmail.com",
+        "name": "Laurine Streich",
+        "country": "USA",
+        "city": "Brianneburgh",
+        "street": "Crooks Shoal",
+        "house": 39,
+        "flat": 718,
+        "phone": "+16484163511",
+        "createdOn": "2026-02-10T22:47:12.000Z",
+        "notes": "NqHCTcoDTaAVyCLb13NS8pUyfVPN0LdsSO5wDFaGbv5GhI14r7lZbUCTATIn5NvjshLWAidm1zs4KhjCJ3q0jNxpBDiHYO7uicR6G4leRO6g7DVj9lpK7DnxBgxI1eHJVwkOnKnznncwqOoUQo4f2xCtkK4ppqiieuAnhbiEnl5qs2dvQzDFP84aT7JhJHO7KreKuy53o5KhhyTmmvBfPJrXPmFUPxWtSohYBWLy0yRD9AYx23Qm76hzPb"
+      },
+      "products": [
+        {
+          "_id": "698bb5711c508c5d5ec479e1",
+          "name": "Shoes61502",
+          "amount": 795,
+          "price": 60355,
+          "manufacturer": "Microsoft",
+          "notes": "axyKDtj7F10J05SyUXC73rGVSyRMoJaMfANHBBkoyReN05qUc7Vh5objhwBIN5oNTgCcBLCaObDFyK7w0i5ojIViwES6CICnZwW4LFVDgc60Tb7yMb8GupDDrOaW0hmtqD0DIxIpb2nsFLq6baWo29mtPiGH6AaleUwi6RIzJvN2Io37dMB8asCSKZNrXpQ7ghdRBati6a1uKYZbdwCc5z21UDPONA6Tf0T5xk5RtnQmxT3vEnsfMp8SMq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60355,
+      "createdOn": "2026-02-10T22:47:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb5701c508c5d5ec479ad",
+          "products": [
+            {
+              "_id": "698bb5711c508c5d5ec479e1",
+              "name": "Shoes61502",
+              "amount": 795,
+              "price": 60355,
+              "manufacturer": "Microsoft",
+              "notes": "axyKDtj7F10J05SyUXC73rGVSyRMoJaMfANHBBkoyReN05qUc7Vh5objhwBIN5oNTgCcBLCaObDFyK7w0i5ojIViwES6CICnZwW4LFVDgc60Tb7yMb8GupDDrOaW0hmtqD0DIxIpb2nsFLq6baWo29mtPiGH6AaleUwi6RIzJvN2Io37dMB8asCSKZNrXpQ7ghdRBati6a1uKYZbdwCc5z21UDPONA6Tf0T5xk5RtnQmxT3vEnsfMp8SMq",
+              "received": false
+            }
+          ],
+          "total_price": 60355,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb5711c508c5d5ec47a14"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

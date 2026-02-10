@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-2Oov/cRM3qyJTZ5B4SNIywDGnKw\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb57d1c508c5d5ec47fe9",
+        "email": "Adrianna_Gottlieb@gmail.com",
+        "name": "Raquel Lindgren",
+        "country": "France",
+        "city": "La Mirada",
+        "street": "New Lane",
+        "house": 1,
+        "flat": 122,
+        "phone": "+14444270511",
+        "createdOn": "2026-02-10T22:47:25.000Z",
+        "notes": "q1G1o3xW1KHM73HlOkB5UOZJLt4Pv9nHtmUm1aCk1fu1ZERDg2JKacUW59ybE3qGooI5k5S1fcFUGnr2efwh43mQRWixH7ughBfe60z2DJJVu1KdRofQlxoTT4aogV8TQ84XTdJYmdnyY5zTDa9BuhZQKjBlm5nqD5z7ofiNFg15ao9uViEAhlGF12DhFC8Bkt3XcNNKsqx3agZLoXmbSkZKCvCRYLz7mEG6ZLrSQ8JEmDsyiOcIuuR5Pd"
+      },
+      "products": [
+        {
+          "_id": "698bb57e1c508c5d5ec48019",
+          "name": "Pizza73586",
+          "amount": 115,
+          "price": 19866,
+          "manufacturer": "Xiaomi",
+          "notes": "UZSls7XOFWLACaD54HkIScr7Vm1ABV2bn5OA3WLiRIOLZN4qjhDtpL7Dopu05qsOzcNTHCWH1z4ru5Ox65Ax5QEs0BBxWXMs43AHS6p8rCnsnCmFvIIIFxmay8jVPSIhgQkXPeGJqVwAYJ8JvEjygqqFQQAcrObvXN7adHTgjPNpcSCK9o3PV84WNyLEZUjaSX22LwRSM3MOmN9WWfS1o6h6Ys4ktB1LvHM8zAzDOYZxe2fcybyq06ygZF",
+          "received": false
+        },
+        {
+          "_id": "698bb57e1c508c5d5ec4803e",
+          "name": "Cheese63961",
+          "amount": 815,
+          "price": 57961,
+          "manufacturer": "Apple",
+          "notes": "sAsGJmSv5bJuqOCjJnYPtmVAfzEWPotJq6TYk4JP2vT33wwZO0PrcaRDDRCkS1kubaSKtNV35sLqTgwioNV3iPn3txMhlsM865hkoqg2DEsA146QiGVaxkeUGQ1yHoPZH8AhdyeOnXJNVXKU59ePptrQSTEFLQYMhzIDohpEkoPrHesYtEQIoTYhBjCsRPTtex9lwJxgt9dukyrUnJb6xd0cxER8WWbXow1uxSsMkql9P386HduuhcT5h1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77827,
+      "createdOn": "2026-02-10T22:47:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb57d1c508c5d5ec47fe9",
+          "products": [
+            {
+              "_id": "698bb57e1c508c5d5ec48019",
+              "name": "Pizza73586",
+              "amount": 115,
+              "price": 19866,
+              "manufacturer": "Xiaomi",
+              "notes": "UZSls7XOFWLACaD54HkIScr7Vm1ABV2bn5OA3WLiRIOLZN4qjhDtpL7Dopu05qsOzcNTHCWH1z4ru5Ox65Ax5QEs0BBxWXMs43AHS6p8rCnsnCmFvIIIFxmay8jVPSIhgQkXPeGJqVwAYJ8JvEjygqqFQQAcrObvXN7adHTgjPNpcSCK9o3PV84WNyLEZUjaSX22LwRSM3MOmN9WWfS1o6h6Ys4ktB1LvHM8zAzDOYZxe2fcybyq06ygZF",
+              "received": false
+            },
+            {
+              "_id": "698bb57e1c508c5d5ec4803e",
+              "name": "Cheese63961",
+              "amount": 815,
+              "price": 57961,
+              "manufacturer": "Apple",
+              "notes": "sAsGJmSv5bJuqOCjJnYPtmVAfzEWPotJq6TYk4JP2vT33wwZO0PrcaRDDRCkS1kubaSKtNV35sLqTgwioNV3iPn3txMhlsM865hkoqg2DEsA146QiGVaxkeUGQ1yHoPZH8AhdyeOnXJNVXKU59ePptrQSTEFLQYMhzIDohpEkoPrHesYtEQIoTYhBjCsRPTtex9lwJxgt9dukyrUnJb6xd0cxER8WWbXow1uxSsMkql9P386HduuhcT5h1",
+              "received": false
+            }
+          ],
+          "total_price": 77827,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb57e1c508c5d5ec4806d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

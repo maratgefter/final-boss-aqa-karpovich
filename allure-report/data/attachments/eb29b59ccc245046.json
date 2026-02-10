@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-BjWhbSTVS5Vi1UrGKJ4onE2ffQE\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb5661c508c5d5ec474dc",
+        "email": "Nicola.Wiegand@hotmail.com",
+        "name": "Lizeth Farrell",
+        "country": "USA",
+        "city": "Eden Prairie",
+        "street": "Jast Wall",
+        "house": 24,
+        "flat": 117,
+        "phone": "+17623937198",
+        "createdOn": "2026-02-10T22:47:02.000Z",
+        "notes": "CQC6yzXfc00RXSAE30t4goRBGPgaQe3BgzslePRne0Jv67AAYQ6e7FCTF1QKhwFk6VJeBTDU0sqFZlvUjU3xAdOMQWdPIrR6v73wZVTr4WyhzcloW9fsH12HZLFKchmRLeU7XrBiGejIFOCdtjWDZZ2cTlvcR5OJnVYuHF1E5bwg1D7eJjKwa8TTiDi0kKLGilwRBBBztX6Fxuva1oNU8ReYfjsl31a7JWorloKbkP8hdjXiMATJQ2gr8X"
+      },
+      "products": [
+        {
+          "_id": "698bb5661c508c5d5ec474f5",
+          "name": "Table63663",
+          "amount": 163,
+          "price": 31431,
+          "manufacturer": "Amazon",
+          "notes": "DP7YeARNUnsUfd7vJbN7u1pllEQnybgDDzSSsk9bm6Qd4kBWk0SDffBLz5IvNkekUvrH7aUHf1IMzYZgztrG6gLYpIg5NAY8Vi5gq0J4m1rgCigqHIDD8VZcdcNiRxTucCI7LEicrXrRfl7EEaQebVNYxO8Dstz1A3FpzFWmXGRXYbHgXCnWH6WKOS3Q47dPDwjVxnV5DMmE4UXpBYnNP4pHb03UHTusDoxL6YiAEMlEwwYvf1cGMLd98F",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31431,
+      "createdOn": "2026-02-10T22:47:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb5661c508c5d5ec474dc",
+          "products": [
+            {
+              "_id": "698bb5661c508c5d5ec474f5",
+              "name": "Table63663",
+              "amount": 163,
+              "price": 31431,
+              "manufacturer": "Amazon",
+              "notes": "DP7YeARNUnsUfd7vJbN7u1pllEQnybgDDzSSsk9bm6Qd4kBWk0SDffBLz5IvNkekUvrH7aUHf1IMzYZgztrG6gLYpIg5NAY8Vi5gq0J4m1rgCigqHIDD8VZcdcNiRxTucCI7LEicrXrRfl7EEaQebVNYxO8Dstz1A3FpzFWmXGRXYbHgXCnWH6WKOS3Q47dPDwjVxnV5DMmE4UXpBYnNP4pHb03UHTusDoxL6YiAEMlEwwYvf1cGMLd98F",
+              "received": false
+            }
+          ],
+          "total_price": 31431,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698bb5661c508c5d5ec4750d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

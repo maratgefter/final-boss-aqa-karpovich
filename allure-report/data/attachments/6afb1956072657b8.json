@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 10 Feb 2026 22:47:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2976",
+    "etag": "W/\"ba0-j+vU5hjWdc5y/kG2qGjO/xNc5V8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698bb58f1c508c5d5ec48a09",
+      "status": "Draft",
+      "customer": {
+        "_id": "698bb58d1c508c5d5ec488e9",
+        "email": "Jude.Price@yahoo.com",
+        "name": "Levi Ledner",
+        "country": "Great Britain",
+        "city": "Fort Grayson",
+        "street": "River Street",
+        "house": 14,
+        "flat": 181,
+        "phone": "+16846914247",
+        "createdOn": "2026-02-10T22:47:41.000Z",
+        "notes": "YonogKC6OM7bA2Lx00XLEXQvCytCveRjksSO0Qr0FrvyyZY7qR3PYo9ug9ymYuTaak9nn5EbGp2xpA8Wgo0CpNpqlXtZy0IRTdh7aDtVYUrfQ2mFXfPkpVBqMTGO3pIUF9liGryCuwDWQHvtlNXmmdrhEn4MnTCYUwxzr6kxnfMN4AZ2vX6S1zxRkvtVPRjLgOg8QjLKZ4cuyCbc8Ku4a669Y5Ir5Z6W6E7nsGkTgHsk3j10m5Qsmh4wdr"
+      },
+      "products": [
+        {
+          "_id": "698bb58e1c508c5d5ec4893b",
+          "name": "Computer87420",
+          "amount": 976,
+          "price": 19394,
+          "manufacturer": "Amazon",
+          "notes": "vNOUoLxM9C4Rq5GBlZ0uZ1v5JwXrLo96zdQblgR1tO4Bb1e2QnAvHBvTfw0HAOvPQu6kzoErAx430pyQGwnh3J8IBaA4s0NtrAGMKoMhipH6gc4WU2OJesSLJ04XFrJhwfXOlg0yvF1h4sakHzei1DVxI4YwPB76TMwXggNP0gV4Q1pWbKyDlugV5YhUTyKf6dHiFRpnrUsoZdb6EsvDcEr5qlt4mcn3IKlSDAAKSt9HFtwIpUaxXk4QBl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Grayson",
+          "street": "River Street",
+          "house": 14,
+          "flat": 181
+        },
+        "finalDate": "2026-02-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 19394,
+      "createdOn": "2026-02-10T22:47:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698bb58d1c508c5d5ec488e9",
+          "products": [
+            {
+              "_id": "698bb58e1c508c5d5ec4893b",
+              "name": "Computer87420",
+              "amount": 976,
+              "price": 19394,
+              "manufacturer": "Amazon",
+              "notes": "vNOUoLxM9C4Rq5GBlZ0uZ1v5JwXrLo96zdQblgR1tO4Bb1e2QnAvHBvTfw0HAOvPQu6kzoErAx430pyQGwnh3J8IBaA4s0NtrAGMKoMhipH6gc4WU2OJesSLJ04XFrJhwfXOlg0yvF1h4sakHzei1DVxI4YwPB76TMwXggNP0gV4Q1pWbKyDlugV5YhUTyKf6dHiFRpnrUsoZdb6EsvDcEr5qlt4mcn3IKlSDAAKSt9HFtwIpUaxXk4QBl",
+              "received": false
+            }
+          ],
+          "total_price": 19394,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Grayson",
+              "street": "River Street",
+              "house": 14,
+              "flat": 181
+            },
+            "finalDate": "2026-02-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-10T22:47:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698bb58d1c508c5d5ec488e9",
+          "products": [
+            {
+              "_id": "698bb58e1c508c5d5ec4893b",
+              "name": "Computer87420",
+              "amount": 976,
+              "price": 19394,
+              "manufacturer": "Amazon",
+              "notes": "vNOUoLxM9C4Rq5GBlZ0uZ1v5JwXrLo96zdQblgR1tO4Bb1e2QnAvHBvTfw0HAOvPQu6kzoErAx430pyQGwnh3J8IBaA4s0NtrAGMKoMhipH6gc4WU2OJesSLJ04XFrJhwfXOlg0yvF1h4sakHzei1DVxI4YwPB76TMwXggNP0gV4Q1pWbKyDlugV5YhUTyKf6dHiFRpnrUsoZdb6EsvDcEr5qlt4mcn3IKlSDAAKSt9HFtwIpUaxXk4QBl",
+              "received": false
+            }
+          ],
+          "total_price": 19394,
+          "delivery": null,
+          "changedOn": "2026-02-10T22:47:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
