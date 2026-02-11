@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-L2IJy9A5Z/QwN9FAAG/O2NvuGTM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d042a1c508c5d5ec4af9b",
+        "email": "Hester.Bechtelar@gmail.com",
+        "name": "Annalise McGlynn",
+        "country": "USA",
+        "city": "Heatherchester",
+        "street": "S 2nd Street",
+        "house": 13,
+        "flat": 372,
+        "phone": "+15102161608",
+        "createdOn": "2026-02-11T22:35:22.000Z",
+        "notes": "FDZo40OqSCzTHImv6wft6zUvbJaIgg5DhIxV5wqI80Va0o2WRxpWPwK4RKkavULiK356x7zQpGL3AkHqG34neOueh5MFbA3Pm7PEB816uBV9B55bRGNKtombyeYjPAKKW7e2akXfUiMiwtWOPhhdtJSziTj4LjTCc0eudzOQ7Cg0GK3T7rre3AkneDBgr5BKacue7pLHeHTO3UqzWaGMxVaumd2UC7YkHQXkFUtEy1f0b0Ycz9hct5GSd0"
+      },
+      "products": [
+        {
+          "_id": "698d042b1c508c5d5ec4afb8",
+          "name": "Pizza85851",
+          "amount": 696,
+          "price": 21968,
+          "manufacturer": "Microsoft",
+          "notes": "KBdNOfkn994gndK2YzyHeX8j72sGA5bByjxsyNBTaXavUQ6XZKBYYPYRA0ic87yTzVqBtQw754xVufyeDDZn6BR3ZKV0jXWxErua3hmpIMiBFcZkirxICVL3BZXfeL6cfOFEzTqphXQ7pVP0ei5JIyvvMGS59jSAMC9Keg2pRvunppbZiil46UcVAXXKHabigRxunVSfSqYMXMriwfathkacLTNDJy1BEwGHZd069xdRp90AqIyi4UzEhx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21968,
+      "createdOn": "2026-02-11T22:35:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d042a1c508c5d5ec4af9b",
+          "products": [
+            {
+              "_id": "698d042b1c508c5d5ec4afb8",
+              "name": "Pizza85851",
+              "amount": 696,
+              "price": 21968,
+              "manufacturer": "Microsoft",
+              "notes": "KBdNOfkn994gndK2YzyHeX8j72sGA5bByjxsyNBTaXavUQ6XZKBYYPYRA0ic87yTzVqBtQw754xVufyeDDZn6BR3ZKV0jXWxErua3hmpIMiBFcZkirxICVL3BZXfeL6cfOFEzTqphXQ7pVP0ei5JIyvvMGS59jSAMC9Keg2pRvunppbZiil46UcVAXXKHabigRxunVSfSqYMXMriwfathkacLTNDJy1BEwGHZd069xdRp90AqIyi4UzEhx",
+              "received": false
+            }
+          ],
+          "total_price": 21968,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d042b1c508c5d5ec4afc8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

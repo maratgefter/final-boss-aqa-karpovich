@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-aIYwGOdQaf9z7MKOpso2NmLu/+k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04251c508c5d5ec4acc4",
+        "email": "Macy86@hotmail.com",
+        "name": "Lindsay Bartell",
+        "country": "Germany",
+        "city": "DeKalb",
+        "street": "N 1st Street",
+        "house": 48,
+        "flat": 373,
+        "phone": "+17057162320",
+        "createdOn": "2026-02-11T22:35:17.000Z",
+        "notes": "ZqRNn01K6hELA3vhBoK8k5SvG6IwRu3NC8ja5hSwu8DwLj3pXEG7Q7L9fGhG07Wi3ArMT9gmVhEs2jN3t7adihRoecMxHBvDHSae4xkSKDl3SXExkTA8rDwCMlHSVaiZ1ZjeOfEbJzAg4FBmIOZ6fQCFidKN7KsRg1Wv9creBJwL3sR142rSsFSy7VLxnl2n8e9wwIoNjCaThFeA5MNrTUsMmASglKJH6mRwVHuUCQCV6nW0GPvsYtd4pv"
+      },
+      "products": [
+        {
+          "_id": "698d04251c508c5d5ec4ace3",
+          "name": "Cheese20258",
+          "amount": 471,
+          "price": 19640,
+          "manufacturer": "Sony",
+          "notes": "piRodqEgQHZVQ0TQBdWWvU6ZyeaZOLzqhKQwjn6J2xeMrfJ1zLgpIETiO0HyBYoJyexKNK7vsxu8cImcKKObGbhy5b0El5Ed2hFnrD5RtZgGS5aeu0CaQBUAnBlGVoyGdmcoJbMXFgd1JPGwwLSmEqhx2QjFh5g624UR1zG3e4N01U5ExEPG18yk8XZztnZrdxg2atwiT1iDHBLCWjeTzbgdICcAifzdT4hhNQCC4lLOehCr7lOaEQ4ryA",
+          "received": false
+        },
+        {
+          "_id": "698d04251c508c5d5ec4acfa",
+          "name": "Salad12397",
+          "amount": 173,
+          "price": 7532,
+          "manufacturer": "Samsung",
+          "notes": "Hie0iTWzzYriqN0hHtn1dsY2rpMgYZR0n7ID2wVBUf1PSyprncpv2tztwGhPnC65jxDQzg8vZsuGZtMEXYgoAMMAz2xQG1k4V7giLWW8Mk11dedsRDuRYqV5G8s3bU3DfD9lmbQzJG1s7c9A1g1pQb7TyTKUaL1azhq29hZqE55UAxR1TI1CRa4m3OL9AKfFlS4LlhnYD85WaKoUeeXAm5tFNKnPMpD5oFS3fkgL9rb39G9T8wKLWHiPNc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27172,
+      "createdOn": "2026-02-11T22:35:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04251c508c5d5ec4acc4",
+          "products": [
+            {
+              "_id": "698d04251c508c5d5ec4ace3",
+              "name": "Cheese20258",
+              "amount": 471,
+              "price": 19640,
+              "manufacturer": "Sony",
+              "notes": "piRodqEgQHZVQ0TQBdWWvU6ZyeaZOLzqhKQwjn6J2xeMrfJ1zLgpIETiO0HyBYoJyexKNK7vsxu8cImcKKObGbhy5b0El5Ed2hFnrD5RtZgGS5aeu0CaQBUAnBlGVoyGdmcoJbMXFgd1JPGwwLSmEqhx2QjFh5g624UR1zG3e4N01U5ExEPG18yk8XZztnZrdxg2atwiT1iDHBLCWjeTzbgdICcAifzdT4hhNQCC4lLOehCr7lOaEQ4ryA",
+              "received": false
+            },
+            {
+              "_id": "698d04251c508c5d5ec4acfa",
+              "name": "Salad12397",
+              "amount": 173,
+              "price": 7532,
+              "manufacturer": "Samsung",
+              "notes": "Hie0iTWzzYriqN0hHtn1dsY2rpMgYZR0n7ID2wVBUf1PSyprncpv2tztwGhPnC65jxDQzg8vZsuGZtMEXYgoAMMAz2xQG1k4V7giLWW8Mk11dedsRDuRYqV5G8s3bU3DfD9lmbQzJG1s7c9A1g1pQb7TyTKUaL1azhq29hZqE55UAxR1TI1CRa4m3OL9AKfFlS4LlhnYD85WaKoUeeXAm5tFNKnPMpD5oFS3fkgL9rb39G9T8wKLWHiPNc",
+              "received": false
+            }
+          ],
+          "total_price": 27172,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04261c508c5d5ec4ad30"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

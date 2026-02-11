@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2646",
+    "etag": "W/\"a56-+Nk+agiv4/ULaKQdWLmxIFjyndE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04311c508c5d5ec4b314",
+        "email": "Josefa75@yahoo.com",
+        "name": "Cole Oberbrunner",
+        "country": "France",
+        "city": "Missoula",
+        "street": "Bath Street",
+        "house": 4,
+        "flat": 71,
+        "phone": "+19355500531",
+        "createdOn": "2026-02-11T22:35:29.000Z",
+        "notes": "a2ne99xurEU3QjksZycfdcMlxr1I9mHF8sPtnLjMNUxMupcItT6X1okKXtHuTFAUo6EiW9vdKf1rn5rD2I8zDZIZ5oBXNewXnj3iQ5OzgZLefwzTrxhDcVMuCMapFYfwePOOCX3J0Pw5gw0hxKRpwODWsZz5Ub31CDq65HELnAcdIiFG67ZKHABMqV5GhJuzV84riwjKz5SsQEmDlxCwC53NqUBpWvKOyLTYWJjJMc2ZCapDcGMxSQjqUf"
+      },
+      "products": [
+        {
+          "_id": "698d04321c508c5d5ec4b339",
+          "name": "Bike56247",
+          "amount": 576,
+          "price": 68325,
+          "manufacturer": "Microsoft",
+          "notes": "aYLnx0AlAS4MYFEPcrerwJpY9tExaWEJ9LOR78313uqLta4K45YnzHCD1wJxmhB791xh1iGjPnsMd9PUYzL9pCEoMJMpgoFCGUuHLIYwdsZYvmE4ZN3C1se2FB7Agpx4voSueKQcHmP94YoGzpVHQX35yaZi8SUCFi58CC8kaDFRfaDTAV3b4a1ickpnXWFjy0qMCmXwXNyBTk2fCK0kql7j0Y5jbyoMDOeDz85b7pcek1lkJP4duf77ib",
+          "received": false
+        },
+        {
+          "_id": "698d04321c508c5d5ec4b35b",
+          "name": "Fish82803",
+          "amount": 822,
+          "price": 93397,
+          "manufacturer": "Xiaomi",
+          "notes": "YELodR2n3AP3wofkEcDviowjJQZs2AwRO4HCqg8TApWADqo5iZGly40Qp5rJYg922mp8vGvGlyEW6x0UAPj3umRAPd2HE2BBRlWLFzjEknmVNtXClGCQNdFJKe96SG1lRDimxrGgNqByrBASChs5EUxquGhwO30AZTF4iA0S6x58YYQxVEfwppvHhO1jYr64ErmQRvAnDow1bz6thbaobHEft7f9IYdKTebnPzRGIjpGk2ggKmNttQwM1q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 161722,
+      "createdOn": "2026-02-11T22:35:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04311c508c5d5ec4b314",
+          "products": [
+            {
+              "_id": "698d04321c508c5d5ec4b339",
+              "name": "Bike56247",
+              "amount": 576,
+              "price": 68325,
+              "manufacturer": "Microsoft",
+              "notes": "aYLnx0AlAS4MYFEPcrerwJpY9tExaWEJ9LOR78313uqLta4K45YnzHCD1wJxmhB791xh1iGjPnsMd9PUYzL9pCEoMJMpgoFCGUuHLIYwdsZYvmE4ZN3C1se2FB7Agpx4voSueKQcHmP94YoGzpVHQX35yaZi8SUCFi58CC8kaDFRfaDTAV3b4a1ickpnXWFjy0qMCmXwXNyBTk2fCK0kql7j0Y5jbyoMDOeDz85b7pcek1lkJP4duf77ib",
+              "received": false
+            },
+            {
+              "_id": "698d04321c508c5d5ec4b35b",
+              "name": "Fish82803",
+              "amount": 822,
+              "price": 93397,
+              "manufacturer": "Xiaomi",
+              "notes": "YELodR2n3AP3wofkEcDviowjJQZs2AwRO4HCqg8TApWADqo5iZGly40Qp5rJYg922mp8vGvGlyEW6x0UAPj3umRAPd2HE2BBRlWLFzjEknmVNtXClGCQNdFJKe96SG1lRDimxrGgNqByrBASChs5EUxquGhwO30AZTF4iA0S6x58YYQxVEfwppvHhO1jYr64ErmQRvAnDow1bz6thbaobHEft7f9IYdKTebnPzRGIjpGk2ggKmNttQwM1q",
+              "received": false
+            }
+          ],
+          "total_price": 161722,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04331c508c5d5ec4b3ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

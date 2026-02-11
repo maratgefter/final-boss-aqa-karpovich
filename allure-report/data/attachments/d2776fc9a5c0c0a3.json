@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-657cOK93xj0rxQU4vWvMiF45TS8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04281c508c5d5ec4ae1c",
+        "email": "Letha.Kuphal15@gmail.com",
+        "name": "Riley Koepp",
+        "country": "USA",
+        "city": "San Leandro",
+        "street": "Piper Trafficway",
+        "house": 3,
+        "flat": 130,
+        "phone": "+14196697927",
+        "createdOn": "2026-02-11T22:35:20.000Z",
+        "notes": "laJ4uAJ76hMXLE2Ee6zeKucxW2gQrQ7ktL8fFoApKbd582j1Tb7hqjTVZ4oQPtmXa7Y70uv6tjMfPG9BzYlm23HJ6VqIYss60aqTWaOA5rmRAw8ERvA9PJPH68SmqOJ8S3HV727MHhvXuUnmfMlJKGqq9IniJjQjZbQqNXgMhVlfxE9GU0OBejA4jsM04hqs3ZxQ2FnuNNrbsPXzXxJCeovaOoWEWiEZ9fvZ5WGipeAaY08fPWY3sMETXy"
+      },
+      "products": [
+        {
+          "_id": "698d04281c508c5d5ec4ae4e",
+          "name": "Chicken35429",
+          "amount": 199,
+          "price": 69868,
+          "manufacturer": "Tesla",
+          "notes": "BiBs5sz4a5HU5Cq18YBDs1yTxDyS9HJkTUrID2v5gdp0wRsWGvoLCF6D6f4zVZ3P3fZHpO91Pay1k9bEpaLPTB2QsJboindOd9E8FgxKIdvHDTaauNmMZhXqaTgRMxS2dwwsq1oMxdTfSS1KA6rZ2S3aheu9OkxtQmPp03LKyCYzPlo9ZbE0hP9OezjBk6jAKkOpbiehF3cN7Sx1wrBbHJJIQAGoaHAtxjzXvbkNEsPHHPm8qvsslolFUG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69868,
+      "createdOn": "2026-02-11T22:35:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04281c508c5d5ec4ae1c",
+          "products": [
+            {
+              "_id": "698d04281c508c5d5ec4ae4e",
+              "name": "Chicken35429",
+              "amount": 199,
+              "price": 69868,
+              "manufacturer": "Tesla",
+              "notes": "BiBs5sz4a5HU5Cq18YBDs1yTxDyS9HJkTUrID2v5gdp0wRsWGvoLCF6D6f4zVZ3P3fZHpO91Pay1k9bEpaLPTB2QsJboindOd9E8FgxKIdvHDTaauNmMZhXqaTgRMxS2dwwsq1oMxdTfSS1KA6rZ2S3aheu9OkxtQmPp03LKyCYzPlo9ZbE0hP9OezjBk6jAKkOpbiehF3cN7Sx1wrBbHJJIQAGoaHAtxjzXvbkNEsPHHPm8qvsslolFUG",
+              "received": false
+            }
+          ],
+          "total_price": 69868,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04281c508c5d5ec4ae86"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

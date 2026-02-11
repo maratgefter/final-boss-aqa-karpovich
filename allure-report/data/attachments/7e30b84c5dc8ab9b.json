@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-4LkqSyj53ouKP/4PhQ47ANWDBv0\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d042b1c508c5d5ec4afba",
+        "email": "Ward.Sporer@hotmail.com",
+        "name": "Sydni Keebler",
+        "country": "Canada",
+        "city": "North Daisytown",
+        "street": "Eduardo Estate",
+        "house": 10,
+        "flat": 552,
+        "phone": "+19923585445",
+        "createdOn": "2026-02-11T22:35:23.000Z",
+        "notes": "PB0YX0eWYwx2jLT8J9iPTBOKSdW398evJLkssxtutEUR8jiiJeNC1JRGWFRKnmviSKQbPuodlOsE0YNbliu9XSuTBX7tDbdVwVlT9PJ4AZB9o7u37nhhluvlEiRBFdBERqDxztxmbxtFfXXSRUIVd8yeA6yRN5mPUV2Lbzl6ZadMdjcPKPMqiEGSeDC5UgwALXk1EUcojadzNyZcNRdBc0rWYxMe3u658cYZtsGt8nSyjuBEj7W7jdLbQt"
+      },
+      "products": [
+        {
+          "_id": "698d042b1c508c5d5ec4afcb",
+          "name": "Towels77662",
+          "amount": 540,
+          "price": 91821,
+          "manufacturer": "Sony",
+          "notes": "5nCrvabhXfzMxsu4DHcJ53v27T7OtEb8YEE9NuMIsAhR5yhbBQOoVGwLV43s1KSDxCSgpJJ4FmRTn76VX7RHpB6finpvfM7MqUafzxhxkrLHCel1fwtc0XVZGgcKmK3q9HqqhDCbGit2YJaLfYUH7Mx9NdpyEnwZOaV4WIdPSqWJhDNRICrAWnqSmWHTaSxLr57atxM8FM6ZLo5ge8lz5qymVaEzlgSYEKxjrojhvAASikgCYOfCEiauYy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91821,
+      "createdOn": "2026-02-11T22:35:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d042b1c508c5d5ec4afba",
+          "products": [
+            {
+              "_id": "698d042b1c508c5d5ec4afcb",
+              "name": "Towels77662",
+              "amount": 540,
+              "price": 91821,
+              "manufacturer": "Sony",
+              "notes": "5nCrvabhXfzMxsu4DHcJ53v27T7OtEb8YEE9NuMIsAhR5yhbBQOoVGwLV43s1KSDxCSgpJJ4FmRTn76VX7RHpB6finpvfM7MqUafzxhxkrLHCel1fwtc0XVZGgcKmK3q9HqqhDCbGit2YJaLfYUH7Mx9NdpyEnwZOaV4WIdPSqWJhDNRICrAWnqSmWHTaSxLr57atxM8FM6ZLo5ge8lz5qymVaEzlgSYEKxjrojhvAASikgCYOfCEiauYy",
+              "received": false
+            }
+          ],
+          "total_price": 91821,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d042c1c508c5d5ec4b00d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

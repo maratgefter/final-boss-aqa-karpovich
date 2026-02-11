@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-YzXfYYzogkO+7iT/1Ju6ud/zgFg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04271c508c5d5ec4ae00",
+        "email": "Santiago_Mills@gmail.com",
+        "name": "Francesco Daugherty",
+        "country": "Great Britain",
+        "city": "Tamarac",
+        "street": "2nd Avenue",
+        "house": 46,
+        "flat": 904,
+        "phone": "+12128887652",
+        "createdOn": "2026-02-11T22:35:19.000Z",
+        "notes": "6EMmafeHYw30kAZAXyZmiVrw6Fa6VwrhnCYK4DVNjq9dTq7m285aE8H775zgcGdAqycIgOUNy8m7HlsZWzGS6YtYcjnWN7CUIhXfODDFaAUtHsRuK7ZDAYUR7X6CJERhEucI3ewDKpuoMvPqdoIk6GUlAowOzicOUw35dj2dNy2N1ngHqkWxJM2PNKfMRlpwEvWS7TDFyYboJxJ9M6b32pjY6ONJQr5oKVbeetkKQ5RzrVKFqXlIpYoO4O"
+      },
+      "products": [
+        {
+          "_id": "698d04281c508c5d5ec4ae12",
+          "name": "Bike29748",
+          "amount": 750,
+          "price": 55574,
+          "manufacturer": "Apple",
+          "notes": "le2RvbVZcwNzXBfnDcs6hLHX54g0iz45ertammzR16T6c1h8klUOx9QDfIxuqm6wrO2r96QKOhGJg040RpHKocwnwJUmguecWfFTR3tI99w6IpUD5gKKDcWQmer7Lew5ZOcjWmESkayK3pCHVy92Rec0AHX6tLavpdyR35kb7KDndON8TzEA8ehDypvZcxSv108QeoGBOUs6sV4W4EXTeIIe6KImKv24XPSxTT2SLPF20xa3l39ppvUbkq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55574,
+      "createdOn": "2026-02-11T22:35:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04271c508c5d5ec4ae00",
+          "products": [
+            {
+              "_id": "698d04281c508c5d5ec4ae12",
+              "name": "Bike29748",
+              "amount": 750,
+              "price": 55574,
+              "manufacturer": "Apple",
+              "notes": "le2RvbVZcwNzXBfnDcs6hLHX54g0iz45ertammzR16T6c1h8klUOx9QDfIxuqm6wrO2r96QKOhGJg040RpHKocwnwJUmguecWfFTR3tI99w6IpUD5gKKDcWQmer7Lew5ZOcjWmESkayK3pCHVy92Rec0AHX6tLavpdyR35kb7KDndON8TzEA8ehDypvZcxSv108QeoGBOUs6sV4W4EXTeIIe6KImKv24XPSxTT2SLPF20xa3l39ppvUbkq",
+              "received": false
+            }
+          ],
+          "total_price": 55574,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04281c508c5d5ec4ae2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

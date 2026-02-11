@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-EHKIAE95BKUSsjjvRXNQIPj46aw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04311c508c5d5ec4b2ba",
+        "email": "Amina38@gmail.com",
+        "name": "Audreanne Predovic",
+        "country": "Ukraine",
+        "city": "Hattiesburg",
+        "street": "Kub Viaduct",
+        "house": 42,
+        "flat": 415,
+        "phone": "+16252349267",
+        "createdOn": "2026-02-11T22:35:29.000Z",
+        "notes": "RvmdVUk8zFntSZ8SImIZX1wUgr5d2ivkeNzfTaqs3LrSVsCs2srlBCiACi2yPt7oLXP1zDfq3ZvOAeNWIfSDl8Hb9RDrGlFPnhncBlHULNlbTiYMJr0iejZ67a1pqymys2gJOLDw4U4i3OwZLQX6BTijzU1gaEiO5FgLFXhLQv9eCEuZhuesofBenLvJCfxTLC5SKcbQ2cSscPar2LCtSiHVe1aIdXdjx8WBlR1tn3mhGiQgkva9sPTb7p"
+      },
+      "products": [
+        {
+          "_id": "698d04311c508c5d5ec4b311",
+          "name": "Computer34941",
+          "amount": 992,
+          "price": 60133,
+          "manufacturer": "Amazon",
+          "notes": "so8MGkjigBcyi0KbSw9NUWa5QZoNkiZ0LxJLPHNLma45bGbuN3WF8L4BW7amiSMKaAQEa6Pt7kaCAHLoxvCAow8N0dgg8zSyO8GlUP7JsXomnURf2cKi9etsKXP50HsorGKAGET9grLLBReIegtySbz01QFr9HM6YH6SWJ7qkSmIrka8X73FEFbM6cFo7frZbwfvZxZNDHN5vgiOr2jJxPgmE9D7J5wfy4QDL0CEILjxRQTS6n6eqyf5fF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60133,
+      "createdOn": "2026-02-11T22:35:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04311c508c5d5ec4b2ba",
+          "products": [
+            {
+              "_id": "698d04311c508c5d5ec4b311",
+              "name": "Computer34941",
+              "amount": 992,
+              "price": 60133,
+              "manufacturer": "Amazon",
+              "notes": "so8MGkjigBcyi0KbSw9NUWa5QZoNkiZ0LxJLPHNLma45bGbuN3WF8L4BW7amiSMKaAQEa6Pt7kaCAHLoxvCAow8N0dgg8zSyO8GlUP7JsXomnURf2cKi9etsKXP50HsorGKAGET9grLLBReIegtySbz01QFr9HM6YH6SWJ7qkSmIrka8X73FEFbM6cFo7frZbwfvZxZNDHN5vgiOr2jJxPgmE9D7J5wfy4QDL0CEILjxRQTS6n6eqyf5fF",
+              "received": false
+            }
+          ],
+          "total_price": 60133,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04321c508c5d5ec4b341"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

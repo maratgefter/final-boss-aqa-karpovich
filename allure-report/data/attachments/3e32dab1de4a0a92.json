@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-k2/W0BSoXaQTnQw+IglSmPu+TUc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d043e1c508c5d5ec4b9a9",
+        "email": "Erica15@hotmail.com",
+        "name": "Doyle Altenwerth",
+        "country": "Great Britain",
+        "city": "East Stanton",
+        "street": "Victoria Fall",
+        "house": 27,
+        "flat": 149,
+        "phone": "+13222489844",
+        "createdOn": "2026-02-11T22:35:42.000Z",
+        "notes": "Kw7ScclveyIWcQDCZ7Udg83ZnN79UFP1euPoNVsWZxkAOQ6fEVS5tOTv03ShV2CDwDqzD3L0dGp5lrmT1Zk6I2MAxH0jil2zrg4Y6BCtjdR0wOdY6CaiEZyzxzIztVFh2NktL9rsuCiUIu3RKfWCswVl7J5azh1WGLGTI4jIZM6IsGfWLjfUO9FAhXMQA4psJq0CU2dYlE4GdxNjcc7QBREyXSkFaqWYDRCu3oAxx4JtY1yAHANqAsnzP0"
+      },
+      "products": [
+        {
+          "_id": "698d043e1c508c5d5ec4b9f6",
+          "name": "Computer63765",
+          "amount": 386,
+          "price": 59430,
+          "manufacturer": "Sony",
+          "notes": "LL03xJyG8qMO1gd5NJG5G3jrSdqYEv3tUWEhIXJjyPAxJTSUFwLlqQ0ny0TqCpdrnves6wsdS2mZkS9GURReXrZHgnxQTOObM1UWEAVAn4bz1lAP8i4RuLjOnaTdcsJ9EpS0Cwnj250kt8lDDau8ZkwG8aFL78AueG7LPQMwxUb6gXae939GiEHBDMBPFy37FLMdutxBmDaR5XL05FLDQU1rwjeSMCf6HyeEUFqvwDzuSO5VgT1ByXZDjL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59430,
+      "createdOn": "2026-02-11T22:35:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d043e1c508c5d5ec4b9a9",
+          "products": [
+            {
+              "_id": "698d043e1c508c5d5ec4b9f6",
+              "name": "Computer63765",
+              "amount": 386,
+              "price": 59430,
+              "manufacturer": "Sony",
+              "notes": "LL03xJyG8qMO1gd5NJG5G3jrSdqYEv3tUWEhIXJjyPAxJTSUFwLlqQ0ny0TqCpdrnves6wsdS2mZkS9GURReXrZHgnxQTOObM1UWEAVAn4bz1lAP8i4RuLjOnaTdcsJ9EpS0Cwnj250kt8lDDau8ZkwG8aFL78AueG7LPQMwxUb6gXae939GiEHBDMBPFy37FLMdutxBmDaR5XL05FLDQU1rwjeSMCf6HyeEUFqvwDzuSO5VgT1ByXZDjL",
+              "received": false
+            }
+          ],
+          "total_price": 59430,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d043f1c508c5d5ec4ba1e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

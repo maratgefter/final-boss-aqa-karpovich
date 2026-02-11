@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-TUCHR+J8Sq3pwato8xCq3qowgGs\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04371c508c5d5ec4b600",
+        "email": "Arnoldo.Legros@gmail.com",
+        "name": "Cleveland Smitham",
+        "country": "USA",
+        "city": "West Brooks",
+        "street": "Wilmer Estate",
+        "house": 3,
+        "flat": 444,
+        "phone": "+13523940234",
+        "createdOn": "2026-02-11T22:35:35.000Z",
+        "notes": "o2XRSvJmrGiZB8zSI1s4nEbsS361Wk8AYoJw87tt6Jpydrx7YBbeNuL9y9JZC3WqwWfWSEV7pDF0Z0sO3AUT5iCbu7t7e4LmjNX6KWgdWCORgXWeiIQELhB8WGDv7h0122OK0brIImKUmtvCRuhqmJcTvYRathJgJyLiyLfEPoQq86oC8w9ZE6eUNchgOe2ptkdbdZbzgg8AYQ121vBtwsaN72zs7KrThjgGrUTfmOxv8mCcu6NByQzt7r"
+      },
+      "products": [
+        {
+          "_id": "698d04371c508c5d5ec4b649",
+          "name": "Bike78987",
+          "amount": 228,
+          "price": 94388,
+          "manufacturer": "Amazon",
+          "notes": "BUtHFvzysUG98xmawTRYsOJofs4Wqwn7odJijnQcgymGpYrsc9Jkpiu4CHoNG1ZEl4zdkBeAXVoQfZZWKYlB5iThy20XQVmOJbxg856bkmvLxLmwPB9xUkUwv5ZxXBkAf8QVLiNu6W72DpKv3eqJDrg4wCNpDdjlNjTDDG5c49i3j1DlOIRS0dtJMP83Sd3EAvRYRdCObIboHWwQtiff0hg5JKLGCSg5sshZEVBdyX5sQurrZEYkHzX6Fg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94388,
+      "createdOn": "2026-02-11T22:35:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04371c508c5d5ec4b600",
+          "products": [
+            {
+              "_id": "698d04371c508c5d5ec4b649",
+              "name": "Bike78987",
+              "amount": 228,
+              "price": 94388,
+              "manufacturer": "Amazon",
+              "notes": "BUtHFvzysUG98xmawTRYsOJofs4Wqwn7odJijnQcgymGpYrsc9Jkpiu4CHoNG1ZEl4zdkBeAXVoQfZZWKYlB5iThy20XQVmOJbxg856bkmvLxLmwPB9xUkUwv5ZxXBkAf8QVLiNu6W72DpKv3eqJDrg4wCNpDdjlNjTDDG5c49i3j1DlOIRS0dtJMP83Sd3EAvRYRdCObIboHWwQtiff0hg5JKLGCSg5sshZEVBdyX5sQurrZEYkHzX6Fg",
+              "received": false
+            }
+          ],
+          "total_price": 94388,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04381c508c5d5ec4b6a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

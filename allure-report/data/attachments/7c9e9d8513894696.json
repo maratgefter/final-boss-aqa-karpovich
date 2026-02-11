@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3428",
+    "etag": "W/\"d64-gTnRqvqr6l569e51XFe6KmcDID8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d043f1c508c5d5ec4ba64",
+        "email": "Sheila.Christiansen@gmail.com",
+        "name": "Josefa Nolan",
+        "country": "Ukraine",
+        "city": "Padbergborough",
+        "street": "16th Street",
+        "house": 10,
+        "flat": 874,
+        "phone": "+18946877596",
+        "createdOn": "2026-02-11T22:35:43.000Z",
+        "notes": "yE8l6b4t47fTJJTnN1pBlunTBkS6clRBOjmpK51Dkkk69xzNn8wqKp8YTowtb8V5mkfu0LzmnRNsh33hR9hYeFxgTD95edlBXXUZYGrpVXCtCkFD50CdRS09JUwiGBPD9cDAPwDvnTVm03TCAWvr6xigKp2t9MW2j7IzhmVFlxMeQH6yY7Igv7Y5spdKxwf9XZvzKZ3iUSd1LlF4Dg9okMX86k20F4hGb5hNWBT2Gjp99MXEp7YjtIB6BL"
+      },
+      "products": [
+        {
+          "_id": "698d04401c508c5d5ec4ba90",
+          "name": "Soap25650",
+          "amount": 999,
+          "price": 66914,
+          "manufacturer": "Samsung",
+          "notes": "lGoHzw49VX0bJHumzPFWRA6BFllUp8MfriFPEtfIIU1aFvnYZYjzvBHViikqIz4sBRG8fm4qTr0wDu1zgHX4eLRy0qQjrg3wwdehO4uXdWwTlotjzTQUzX6V0KZp9sPNTYBuKO5qj9IdYQkbx686OSz0o1pMmfwL68V0ZaboCdPKox9nhJIpIeOfKyiyypqNWR6gNRQPX8RRFh1zV8ZFR6H9CxjdCLqVD1BMGopgiq0mCbWiZnRatDG9FN",
+          "received": false
+        },
+        {
+          "_id": "698d04401c508c5d5ec4bac3",
+          "name": "Bacon34368",
+          "amount": 924,
+          "price": 71972,
+          "manufacturer": "Tesla",
+          "notes": "OqmikyvQSPjOWkwOWTG0V2VMF1EsfqDb736tQ1FSyls25YGEEjlNKjIZSFEUg7bH6KaJfmq9EdEMZEL5gY3MRvwfi6WNrlplzyfLFfG8jccdQMV9KmNK5pMjz6HZcbJrBo3USE1NFs9kCcJnUYfNys3lUGJ6DmpOOdyv071fuf1oUyzQJk2Cs04eSP0uYpICW9kLRUSyHOqE9N4csJVryEK7C7CvwJStFscDVxGyvc4U0x6EfzaLUc1J0i",
+          "received": false
+        },
+        {
+          "_id": "698d04411c508c5d5ec4bb18",
+          "name": "Salad54599",
+          "amount": 350,
+          "price": 19665,
+          "manufacturer": "Samsung",
+          "notes": "9R74v1zEPmJn94g16dPSj0bEzRkCgiausYk2I14xnQoEPYaaucKlCrsrthoC1k2KqI3y32OEQNNg6trDGJTFJm3C2jvpP9tE07fUyl0I6iw7ceUyG3LxTBLZAy4QlfBrmBme3o1QcyIRToNTpR5xpTskJM40Ujjiy6j1FOECZAK7v1S3NhQXctNscGHZFCZgC0O3F6N4x9cAEcbsNyVpDQ9ETMZDEReixEx5EU05IvHadNmEbDAMIFUNn2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 158551,
+      "createdOn": "2026-02-11T22:35:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d043f1c508c5d5ec4ba64",
+          "products": [
+            {
+              "_id": "698d04401c508c5d5ec4ba90",
+              "name": "Soap25650",
+              "amount": 999,
+              "price": 66914,
+              "manufacturer": "Samsung",
+              "notes": "lGoHzw49VX0bJHumzPFWRA6BFllUp8MfriFPEtfIIU1aFvnYZYjzvBHViikqIz4sBRG8fm4qTr0wDu1zgHX4eLRy0qQjrg3wwdehO4uXdWwTlotjzTQUzX6V0KZp9sPNTYBuKO5qj9IdYQkbx686OSz0o1pMmfwL68V0ZaboCdPKox9nhJIpIeOfKyiyypqNWR6gNRQPX8RRFh1zV8ZFR6H9CxjdCLqVD1BMGopgiq0mCbWiZnRatDG9FN",
+              "received": false
+            },
+            {
+              "_id": "698d04401c508c5d5ec4bac3",
+              "name": "Bacon34368",
+              "amount": 924,
+              "price": 71972,
+              "manufacturer": "Tesla",
+              "notes": "OqmikyvQSPjOWkwOWTG0V2VMF1EsfqDb736tQ1FSyls25YGEEjlNKjIZSFEUg7bH6KaJfmq9EdEMZEL5gY3MRvwfi6WNrlplzyfLFfG8jccdQMV9KmNK5pMjz6HZcbJrBo3USE1NFs9kCcJnUYfNys3lUGJ6DmpOOdyv071fuf1oUyzQJk2Cs04eSP0uYpICW9kLRUSyHOqE9N4csJVryEK7C7CvwJStFscDVxGyvc4U0x6EfzaLUc1J0i",
+              "received": false
+            },
+            {
+              "_id": "698d04411c508c5d5ec4bb18",
+              "name": "Salad54599",
+              "amount": 350,
+              "price": 19665,
+              "manufacturer": "Samsung",
+              "notes": "9R74v1zEPmJn94g16dPSj0bEzRkCgiausYk2I14xnQoEPYaaucKlCrsrthoC1k2KqI3y32OEQNNg6trDGJTFJm3C2jvpP9tE07fUyl0I6iw7ceUyG3LxTBLZAy4QlfBrmBme3o1QcyIRToNTpR5xpTskJM40Ujjiy6j1FOECZAK7v1S3NhQXctNscGHZFCZgC0O3F6N4x9cAEcbsNyVpDQ9ETMZDEReixEx5EU05IvHadNmEbDAMIFUNn2",
+              "received": false
+            }
+          ],
+          "total_price": 158551,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04411c508c5d5ec4bb4a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

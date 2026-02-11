@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:36:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3424",
+    "etag": "W/\"d60-Vi04hRmv/kg52is2hLkGsz1sx/4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04541c508c5d5ec4c65f",
+        "email": "Terrence_Runolfsson@gmail.com",
+        "name": "Blaze Welch",
+        "country": "Canada",
+        "city": "West Rae",
+        "street": "N Lincoln Street",
+        "house": 46,
+        "flat": 45,
+        "phone": "+16686017341",
+        "createdOn": "2026-02-11T22:36:04.000Z",
+        "notes": "Lefm2BYIFlG8hGmBGHyOOjvcUe1g2XgEp3KDSM4KR0Uee1EbKzXGDXOcK45tk5o7FqDFb9m6pKEEfFKOPc38zT51fVdGoyprx2fTfW6agdwZk3BcdFgTshEox7hIjsagG5vdLE1PE8tWaBRdTLhaui3GAT3g7Eiko6GRdYRIW2sX6VlMgqv5Fh83h86WpMz92d4NJ7dUV6PeJoKDbUlbXndX9TdMStxzTzEmlySXaFTfYEaHDcwyoYLuZj"
+      },
+      "products": [
+        {
+          "_id": "698d04551c508c5d5ec4c688",
+          "name": "Pizza68194",
+          "amount": 495,
+          "price": 84926,
+          "manufacturer": "Xiaomi",
+          "notes": "wnY2nOtjQCdNaFR0oXvSqXFsOZBEl5Ea5Kcx586jd2x4gHxXkQ5cVmjnVBsJcgnnq3mZTFRvvinFqNRiA5LElQGzit1VOV9vZq0m1SRPzPkKFuYVPqHBtXzemsB6DihCVqaLdGeDHGpkuOeYn5pE3uKyzH4prD7SxbnifPnWAx1Y84JyiyiwcQPqjLcFM9RwD8F1zpWPDcXap9hqfIgkkDI52lS8fIrvOcgNDt2PmA2mXNCOiyaQ4XBkW7",
+          "received": false
+        },
+        {
+          "_id": "698d04551c508c5d5ec4c6b2",
+          "name": "Salad63271",
+          "amount": 485,
+          "price": 86977,
+          "manufacturer": "Samsung",
+          "notes": "LCwTukIQTYiqzCpBNGzp8a7aMqFB5NeA9IXJ8qk4mgox0aWbIxt30i8c803zPRkQSRxAfTtsqT0Xi59iS6sRDYxMacThf1uikFkNTin1Kq2z0bTBWosetsIYyMPeYzPUsoBvdpw8pRueD8k7AERbTv79vyLum92J1arTeO0zsGPBWNY2gMviWWlFNrVKdAREED5U2otKfn02Cka5CiqnT256GkMXOB2Sl1Q1uwGcN22EAiKMBMAVKct7sk",
+          "received": false
+        },
+        {
+          "_id": "698d04561c508c5d5ec4c79c",
+          "name": "Bike22847",
+          "amount": 279,
+          "price": 82843,
+          "manufacturer": "Amazon",
+          "notes": "2axWmAlznTDL2K5ZAw2WH2zzxzYDDzq5h3gzDPqBfgtvBIo526vazfPGxhBfn82SSnPbilMK6dlLbnA00TiOdnEcofDWjkrW0VrosUA0W7boq85wXPTuAKhHY0HaA9Bctnonyf8smLrhCl2j71Rc9NZEeSmpUFi9L9SSSKEaVvdrQ88A8OIQVG587rf22QxvFOYrtr4fEbsCDfDcsW1RN8kIMnOhXKpLEkdYSLhgr3cv0wKcXa6FwRZw6c",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 254746,
+      "createdOn": "2026-02-11T22:36:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04541c508c5d5ec4c65f",
+          "products": [
+            {
+              "_id": "698d04551c508c5d5ec4c688",
+              "name": "Pizza68194",
+              "amount": 495,
+              "price": 84926,
+              "manufacturer": "Xiaomi",
+              "notes": "wnY2nOtjQCdNaFR0oXvSqXFsOZBEl5Ea5Kcx586jd2x4gHxXkQ5cVmjnVBsJcgnnq3mZTFRvvinFqNRiA5LElQGzit1VOV9vZq0m1SRPzPkKFuYVPqHBtXzemsB6DihCVqaLdGeDHGpkuOeYn5pE3uKyzH4prD7SxbnifPnWAx1Y84JyiyiwcQPqjLcFM9RwD8F1zpWPDcXap9hqfIgkkDI52lS8fIrvOcgNDt2PmA2mXNCOiyaQ4XBkW7",
+              "received": false
+            },
+            {
+              "_id": "698d04551c508c5d5ec4c6b2",
+              "name": "Salad63271",
+              "amount": 485,
+              "price": 86977,
+              "manufacturer": "Samsung",
+              "notes": "LCwTukIQTYiqzCpBNGzp8a7aMqFB5NeA9IXJ8qk4mgox0aWbIxt30i8c803zPRkQSRxAfTtsqT0Xi59iS6sRDYxMacThf1uikFkNTin1Kq2z0bTBWosetsIYyMPeYzPUsoBvdpw8pRueD8k7AERbTv79vyLum92J1arTeO0zsGPBWNY2gMviWWlFNrVKdAREED5U2otKfn02Cka5CiqnT256GkMXOB2Sl1Q1uwGcN22EAiKMBMAVKct7sk",
+              "received": false
+            },
+            {
+              "_id": "698d04561c508c5d5ec4c79c",
+              "name": "Bike22847",
+              "amount": 279,
+              "price": 82843,
+              "manufacturer": "Amazon",
+              "notes": "2axWmAlznTDL2K5ZAw2WH2zzxzYDDzq5h3gzDPqBfgtvBIo526vazfPGxhBfn82SSnPbilMK6dlLbnA00TiOdnEcofDWjkrW0VrosUA0W7boq85wXPTuAKhHY0HaA9Bctnonyf8smLrhCl2j71Rc9NZEeSmpUFi9L9SSSKEaVvdrQ88A8OIQVG587rf22QxvFOYrtr4fEbsCDfDcsW1RN8kIMnOhXKpLEkdYSLhgr3cv0wKcXa6FwRZw6c",
+              "received": false
+            }
+          ],
+          "total_price": 254746,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:36:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04571c508c5d5ec4c7d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

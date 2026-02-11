@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2666",
+    "etag": "W/\"a6a-096zaJtI8ei3HSwbq87+Cd9kiqM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d042d1c508c5d5ec4b0df",
+        "email": "Guadalupe91@hotmail.com",
+        "name": "Priscilla Nolan",
+        "country": "Belarus",
+        "city": "San Ramon",
+        "street": "Oxford Road",
+        "house": 38,
+        "flat": 363,
+        "phone": "+12015826687",
+        "createdOn": "2026-02-11T22:35:25.000Z",
+        "notes": "CQQw9691Nl3WqlGSTEShO0McllzodVBGCMFdg6yq76wPly6aZvACDrXSLsPiGIJlsoNrinUmxk3vClg6TKOdmSYMhcb6ntpZfATd7nYuAldC4tGvZqW1JyTWafWGOLlcpTRP2sYVGHuNUzWFioxcdPI6S3KDgwlntC8AjhI2P3PPIvz2ISJUonoiqW54GXWdKni6f2R0krFCAg5nso17UyLIiUrQktfhsym0crE7kl4hspTYidDoXgNQjP"
+      },
+      "products": [
+        {
+          "_id": "698d042e1c508c5d5ec4b127",
+          "name": "Keyboard15342",
+          "amount": 871,
+          "price": 97360,
+          "manufacturer": "Samsung",
+          "notes": "638O6o1ApGp8Yw6MwxwwysynkP6gurIFnZA8viku0JZhEwTbJmEYigCGuGQNe2YkmaBNStyw3WPwqoG3BNxrUlgjeKsXAZZkTufwhc0MxUtdTQzEBGNG4kRgVxKMxZBPKIJC4IIaOtSgkxnwL7vRQSVlZYd2nKLmIzczjfoxUTZQJ1kx29yHJIJEBydT7crtP9llkCwULsQ7rNT3XQH1MuIL7MoxwUkrh6pB5LqEBOln1QbBPlOrEenE91",
+          "received": false
+        },
+        {
+          "_id": "698d042e1c508c5d5ec4b1a4",
+          "name": "Keyboard87346",
+          "amount": 218,
+          "price": 59223,
+          "manufacturer": "Xiaomi",
+          "notes": "NmuRdPP0M201Ij2Lwc6fZYO3YiBlqEAcKHs0aB8vxhEYfuV7NqdYTKjY9hnkQTep01Zbtq8rYavcDOazPw04d67DRZCYMuiLVAun770ps85XRi8GoCqiwhN1eFlRzlcKvTFvgAR1qXxI9YrMPE3HWCdcMfUJZFCOPoBRqXWYFLGm8aSHUwVH2CpeKjAWtS4l3qzkO1zVhX8oKSSCXPMU0M8OhJtne8Vtb2RS8KJGrQD4s6JAQCjDywPo8E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 156583,
+      "createdOn": "2026-02-11T22:35:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d042d1c508c5d5ec4b0df",
+          "products": [
+            {
+              "_id": "698d042e1c508c5d5ec4b127",
+              "name": "Keyboard15342",
+              "amount": 871,
+              "price": 97360,
+              "manufacturer": "Samsung",
+              "notes": "638O6o1ApGp8Yw6MwxwwysynkP6gurIFnZA8viku0JZhEwTbJmEYigCGuGQNe2YkmaBNStyw3WPwqoG3BNxrUlgjeKsXAZZkTufwhc0MxUtdTQzEBGNG4kRgVxKMxZBPKIJC4IIaOtSgkxnwL7vRQSVlZYd2nKLmIzczjfoxUTZQJ1kx29yHJIJEBydT7crtP9llkCwULsQ7rNT3XQH1MuIL7MoxwUkrh6pB5LqEBOln1QbBPlOrEenE91",
+              "received": false
+            },
+            {
+              "_id": "698d042e1c508c5d5ec4b1a4",
+              "name": "Keyboard87346",
+              "amount": 218,
+              "price": 59223,
+              "manufacturer": "Xiaomi",
+              "notes": "NmuRdPP0M201Ij2Lwc6fZYO3YiBlqEAcKHs0aB8vxhEYfuV7NqdYTKjY9hnkQTep01Zbtq8rYavcDOazPw04d67DRZCYMuiLVAun770ps85XRi8GoCqiwhN1eFlRzlcKvTFvgAR1qXxI9YrMPE3HWCdcMfUJZFCOPoBRqXWYFLGm8aSHUwVH2CpeKjAWtS4l3qzkO1zVhX8oKSSCXPMU0M8OhJtne8Vtb2RS8KJGrQD4s6JAQCjDywPo8E",
+              "received": false
+            }
+          ],
+          "total_price": 156583,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d042f1c508c5d5ec4b1d3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

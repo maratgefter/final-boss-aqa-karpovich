@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-w0sKWOWiQjCyUS4nGdqXrOjDyas\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04271c508c5d5ec4adfb",
+        "email": "Julia_Ondricka@gmail.com",
+        "name": "Terrell Walter",
+        "country": "USA",
+        "city": "North Carlieland",
+        "street": "Glebe Close",
+        "house": 30,
+        "flat": 837,
+        "phone": "+17353288516",
+        "createdOn": "2026-02-11T22:35:19.000Z",
+        "notes": "c1i3DSlHPcyv00pdcmir2jNyvgXuoiwe8ieWTdTzgYSn10NEGzGgtrNdn2O0D0JVOXp5npJMt8ftZdSlGZ5rFchFrShYJnGzTepvhdvO8vanEJXyZdk2iZTMl41rG1Hd92VLBjxxWeYj9JEtc91IT9xQGKOrweUqSi95PyjowDKwsd05UDE0Fd4hGZF1EEM3oARIECkyEIv7dCbAeR8Ju3LC8IkUtVcwRCYtbEFXWsCYORe6AbHzOruR5O"
+      },
+      "products": [
+        {
+          "_id": "698d04281c508c5d5ec4ae17",
+          "name": "Soap73237",
+          "amount": 942,
+          "price": 92161,
+          "manufacturer": "Samsung",
+          "notes": "TUPT8XUdZpBKkXcv1LrWKkdysR0cMvDclpCpUS3otDg6DlOBxaCndCGkt4kzCeveVl7fPpo42aHdYKpVY6MK5gPaSUVh7iGheS2vT2cj1ASbupjo79xBZHYE6u91EMxyj4IN3KBvtmnKQLGGlJym8WNkbFoke6dyV7S1GCtywPbnplaARJOEXD00xsmdqkIjtaoGKbomtpZAztjbiEs5TGL92kR5o9XITAd844h7rG9mUhbKvWXnCStmTD",
+          "received": false
+        },
+        {
+          "_id": "698d04281c508c5d5ec4ae45",
+          "name": "Table54333",
+          "amount": 544,
+          "price": 83161,
+          "manufacturer": "Amazon",
+          "notes": "v1sxBkzfrIz1wPCdTeY9biGIH8MCgGbAHoL7hyXLSiYghKNh4frTEUQTZT8WupCiJxG0Xn2wHFgV4l21mTvqEmMnZGwP5Q8b7jU3gdZM3INuBcyy7ymHFXrBqqD2nl6hgvsph704B88YwsOXfxz8Kr3TWeJHKaCSVwFH5ENJmO6fdkBcCOUNAZCoM0nTeumlDp71R6VypLetQo8CvD4QmSdjaj7Jup38olIMp9Bq7xnVSo4hbHd9p12ttk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 175322,
+      "createdOn": "2026-02-11T22:35:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04271c508c5d5ec4adfb",
+          "products": [
+            {
+              "_id": "698d04281c508c5d5ec4ae17",
+              "name": "Soap73237",
+              "amount": 942,
+              "price": 92161,
+              "manufacturer": "Samsung",
+              "notes": "TUPT8XUdZpBKkXcv1LrWKkdysR0cMvDclpCpUS3otDg6DlOBxaCndCGkt4kzCeveVl7fPpo42aHdYKpVY6MK5gPaSUVh7iGheS2vT2cj1ASbupjo79xBZHYE6u91EMxyj4IN3KBvtmnKQLGGlJym8WNkbFoke6dyV7S1GCtywPbnplaARJOEXD00xsmdqkIjtaoGKbomtpZAztjbiEs5TGL92kR5o9XITAd844h7rG9mUhbKvWXnCStmTD",
+              "received": false
+            },
+            {
+              "_id": "698d04281c508c5d5ec4ae45",
+              "name": "Table54333",
+              "amount": 544,
+              "price": 83161,
+              "manufacturer": "Amazon",
+              "notes": "v1sxBkzfrIz1wPCdTeY9biGIH8MCgGbAHoL7hyXLSiYghKNh4frTEUQTZT8WupCiJxG0Xn2wHFgV4l21mTvqEmMnZGwP5Q8b7jU3gdZM3INuBcyy7ymHFXrBqqD2nl6hgvsph704B88YwsOXfxz8Kr3TWeJHKaCSVwFH5ENJmO6fdkBcCOUNAZCoM0nTeumlDp71R6VypLetQo8CvD4QmSdjaj7Jup38olIMp9Bq7xnVSo4hbHd9p12ttk",
+              "received": false
+            }
+          ],
+          "total_price": 175322,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04281c508c5d5ec4ae77"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

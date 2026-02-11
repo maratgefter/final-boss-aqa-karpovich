@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2805",
+    "etag": "W/\"af5-+e2Fq65e5jLZytKdj8v4gBMzT2o\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698d042e1c508c5d5ec4b0f5",
+      "status": "Draft",
+      "customer": {
+        "_id": "698d042c1c508c5d5ec4b070",
+        "email": "Delbert.Hahn55@yahoo.com",
+        "name": "Einar Haley",
+        "country": "Germany",
+        "city": "Terryberg",
+        "street": "Orlo Pike",
+        "house": 13,
+        "flat": 758,
+        "phone": "+19719825378",
+        "createdOn": "2026-02-11T22:35:24.000Z",
+        "notes": "yBoO82Faqkc0fvWjpMX1kekERwNNGvmoUibTtFY5qPJptYlD4PiEPxhnsdbKlSIPfs1RYEFYCDCMPK1EXm6od0cmvX4fSxfYRBWrSRlDb5riu1hnbsnNc6yasH4XKvA5YNUk7ZJHCPaFuUWMHpReR4JiBb0FyWcJX7Hr6y203fmfuKO18EoHXAMqjy338JaPqcLpMllNLNO2tY9yUCPx40N4qNnbCnZsDS0aXJU1CqOFN6zF0dQLcb3LcA"
+      },
+      "products": [
+        {
+          "_id": "698d042d1c508c5d5ec4b0bd",
+          "name": "Fish5016",
+          "amount": 803,
+          "price": 54460,
+          "manufacturer": "Sony",
+          "notes": "Qpz3QBtrOayHmnDzjW7ih1Rryat7z4c8mFVuiqUFERw9toYnMk7DAXpRgkkd6ZhtAz9iperG5tpiCEOHpTmKnd87RB1x6HLlHiYuF7l7vbmQA4NZkSlijXcmzRWT7O6eBtYDveTSbBI1bfuuQQ31g3Gpi2okG0Qx7VMgOuAfqWmFa5hATE4MkJd5RGIfUdauh7UWQdI1wNyYgYHWF6JZ6IMIbvk10SapavTeVU5LVAZjBLXSiLu8uPDAFz",
+          "received": false
+        },
+        {
+          "_id": "698d042d1c508c5d5ec4b0d9",
+          "name": "Sausages78900",
+          "amount": 353,
+          "price": 51747,
+          "manufacturer": "Samsung",
+          "notes": "FSG1Sdnjx4v7uSeKQGTs04ZRJGkrrs62J8Oox8u4IimlHVrmD8m2W6OJX5dl4uw8E7fQ9hDMN0M4rdLMFBlyHt0LVT6g6xPPUnQeIfirxrANpNYEurmBxzvPFq4FTHF9vjhqyb1yYCHMfOJOTGkwHEuIIBSQSuWOAXlR8Oj2ayi5UR382qFG1JP5j6HiEiVWiHlswiBbzjYJ5DfE86qFiyNfhkLhPlzXoKkSaUoWatZAiF0wawX1cJ2yI9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 106207,
+      "createdOn": "2026-02-11T22:35:26.000Z",
+      "comments": [
+        {
+          "text": "Hd6hUQdSMqpqIRE8Ui7j8fx9laar77dxFjUysoW6VdIUUjCfF7WBR42y1Xd1X74BunK6bw6vgHl",
+          "createdOn": "2026-02-11T22:35:26.000Z",
+          "_id": "698d042e1c508c5d5ec4b1a1"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d042c1c508c5d5ec4b070",
+          "products": [
+            {
+              "_id": "698d042d1c508c5d5ec4b0bd",
+              "name": "Fish5016",
+              "amount": 803,
+              "price": 54460,
+              "manufacturer": "Sony",
+              "notes": "Qpz3QBtrOayHmnDzjW7ih1Rryat7z4c8mFVuiqUFERw9toYnMk7DAXpRgkkd6ZhtAz9iperG5tpiCEOHpTmKnd87RB1x6HLlHiYuF7l7vbmQA4NZkSlijXcmzRWT7O6eBtYDveTSbBI1bfuuQQ31g3Gpi2okG0Qx7VMgOuAfqWmFa5hATE4MkJd5RGIfUdauh7UWQdI1wNyYgYHWF6JZ6IMIbvk10SapavTeVU5LVAZjBLXSiLu8uPDAFz",
+              "received": false
+            },
+            {
+              "_id": "698d042d1c508c5d5ec4b0d9",
+              "name": "Sausages78900",
+              "amount": 353,
+              "price": 51747,
+              "manufacturer": "Samsung",
+              "notes": "FSG1Sdnjx4v7uSeKQGTs04ZRJGkrrs62J8Oox8u4IimlHVrmD8m2W6OJX5dl4uw8E7fQ9hDMN0M4rdLMFBlyHt0LVT6g6xPPUnQeIfirxrANpNYEurmBxzvPFq4FTHF9vjhqyb1yYCHMfOJOTGkwHEuIIBSQSuWOAXlR8Oj2ayi5UR382qFG1JP5j6HiEiVWiHlswiBbzjYJ5DfE86qFiyNfhkLhPlzXoKkSaUoWatZAiF0wawX1cJ2yI9",
+              "received": false
+            }
+          ],
+          "total_price": 106207,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

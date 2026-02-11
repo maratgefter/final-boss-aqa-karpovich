@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2935",
+    "etag": "W/\"b77-8OecYC73nz3sSr0/Jwtl+RmWO14\"",
+    "keep-alive": "timeout=5, max=43",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698d04391c508c5d5ec4b73a",
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04381c508c5d5ec4b69b",
+        "email": "Collin.Rolfson55@yahoo.com",
+        "name": "Janick Jerde",
+        "country": "Russia",
+        "city": "Denesikfurt",
+        "street": "Ida Falls",
+        "house": 20,
+        "flat": 73,
+        "phone": "+19539575405",
+        "createdOn": "2026-02-11T22:35:36.000Z",
+        "notes": "nKYlFOm7wuJvmiUR4syvpcyoUK3SL68TNrgIMpYw9kOireqjreFMPItgthD1CWLCxJg062fSCntAG8qN1v3fIa8sQDApzGsFSfyB3BgfKDWZvCT16BVMd2kHGl3Os5PZ9Zqtj40egys9JQaQmWO5fqzevtl4b8u2uc1XVNsFZ6jw7YEvLKSOOZF3DKJXrGNq6CQZdgGLYvT1XETiezFMJrBH4koHPbjpZdICL2rW6RIW2fAHROzRI6Vd7a"
+      },
+      "products": [
+        {
+          "_id": "698d04381c508c5d5ec4b6bc",
+          "name": "Ball20547",
+          "amount": 689,
+          "price": 83798,
+          "manufacturer": "Google",
+          "notes": "ejXtuU0tpithBaZmzqrEzqask9CeITTbxCrwyIypVBXlJLLQ3k5ds2hHqrvLtRkfAEilbYzsNGtnpQMdhRc7aO5DacFNjl5mxbCBIHbo8JsDl62DlDS3k541VIeed7pqAnG6TeLfExShTB6CfTzpQ6VmMS3e5DM5274FcUW24iwSrFgReZbk6T7TslZNuOGQaxGVOuyXe1LABCnfJ2A8LArwxOPHEqhU1rokulNc5xBdpn0dY37xlzcTkJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Denesikfurt",
+          "street": "Ida Falls",
+          "house": 20,
+          "flat": 73
+        },
+        "finalDate": "2026-02-12T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 83798,
+      "createdOn": "2026-02-11T22:35:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04381c508c5d5ec4b69b",
+          "products": [
+            {
+              "_id": "698d04381c508c5d5ec4b6bc",
+              "name": "Ball20547",
+              "amount": 689,
+              "price": 83798,
+              "manufacturer": "Google",
+              "notes": "ejXtuU0tpithBaZmzqrEzqask9CeITTbxCrwyIypVBXlJLLQ3k5ds2hHqrvLtRkfAEilbYzsNGtnpQMdhRc7aO5DacFNjl5mxbCBIHbo8JsDl62DlDS3k541VIeed7pqAnG6TeLfExShTB6CfTzpQ6VmMS3e5DM5274FcUW24iwSrFgReZbk6T7TslZNuOGQaxGVOuyXe1LABCnfJ2A8LArwxOPHEqhU1rokulNc5xBdpn0dY37xlzcTkJ",
+              "received": false
+            }
+          ],
+          "total_price": 83798,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Denesikfurt",
+              "street": "Ida Falls",
+              "house": 20,
+              "flat": 73
+            },
+            "finalDate": "2026-02-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-11T22:35:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698d04381c508c5d5ec4b69b",
+          "products": [
+            {
+              "_id": "698d04381c508c5d5ec4b6bc",
+              "name": "Ball20547",
+              "amount": 689,
+              "price": 83798,
+              "manufacturer": "Google",
+              "notes": "ejXtuU0tpithBaZmzqrEzqask9CeITTbxCrwyIypVBXlJLLQ3k5ds2hHqrvLtRkfAEilbYzsNGtnpQMdhRc7aO5DacFNjl5mxbCBIHbo8JsDl62DlDS3k541VIeed7pqAnG6TeLfExShTB6CfTzpQ6VmMS3e5DM5274FcUW24iwSrFgReZbk6T7TslZNuOGQaxGVOuyXe1LABCnfJ2A8LArwxOPHEqhU1rokulNc5xBdpn0dY37xlzcTkJ",
+              "received": false
+            }
+          ],
+          "total_price": 83798,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

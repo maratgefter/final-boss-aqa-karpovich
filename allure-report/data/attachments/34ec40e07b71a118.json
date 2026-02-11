@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-8tqgu3xwpbB26BU7YFTNo/5R6d0\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04261c508c5d5ec4ad3a",
+        "email": "Fanny57@yahoo.com",
+        "name": "Lenna Greenfelder",
+        "country": "France",
+        "city": "Lake Mekhi",
+        "street": "Nicolas Knoll",
+        "house": 29,
+        "flat": 328,
+        "phone": "+18408792721",
+        "createdOn": "2026-02-11T22:35:18.000Z",
+        "notes": "wUcE9CBHCKJscrKSBqciF9U4VqfdGod6Op2aXmuDTKVQUnD4zUcwCKtejG5KUy5dQnsfXMoaxWgNZd0TqzennmqlNd5CzOyySDHvLwjtw9yITzlGzjeqN5w6kvU8H5NJbPSi52hCy1i6cbfzP2Bw76AQBUMQ4beeJDb5E0AVBUZzVRUeDrdVrLglPwFZqgzJCdN8ZwMNPgF5KcGPAhcj1T3xCnI3aMHTxWE6PVusKJFmEitKp5CekQL1OR"
+      },
+      "products": [
+        {
+          "_id": "698d04261c508c5d5ec4ad56",
+          "name": "Shirt82942",
+          "amount": 216,
+          "price": 5433,
+          "manufacturer": "Amazon",
+          "notes": "Zm5yfXcrMShkK7QTcXwF9iKTQjd8iFCBWMixsPI8EY8WcivaIQrliUezMOQbFTp10YfhLVEXQdLlmsbBk0DXcbc4rgPcn4qtf1CINovpYTiGO6rwir9yXPPNNcvgaBoKSU5komUH4hAQb9mWKDuK2PmnFKiwWaJ7qoo8MyESbtfBPRzaB0iJkVG6lp3nwh2FSOwgB8TFehfD59AhjkGEhB2PXL1etXNekjpVrKnpQpMIzYlNvQ9VPtFuWB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5433,
+      "createdOn": "2026-02-11T22:35:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04261c508c5d5ec4ad3a",
+          "products": [
+            {
+              "_id": "698d04261c508c5d5ec4ad56",
+              "name": "Shirt82942",
+              "amount": 216,
+              "price": 5433,
+              "manufacturer": "Amazon",
+              "notes": "Zm5yfXcrMShkK7QTcXwF9iKTQjd8iFCBWMixsPI8EY8WcivaIQrliUezMOQbFTp10YfhLVEXQdLlmsbBk0DXcbc4rgPcn4qtf1CINovpYTiGO6rwir9yXPPNNcvgaBoKSU5komUH4hAQb9mWKDuK2PmnFKiwWaJ7qoo8MyESbtfBPRzaB0iJkVG6lp3nwh2FSOwgB8TFehfD59AhjkGEhB2PXL1etXNekjpVrKnpQpMIzYlNvQ9VPtFuWB",
+              "received": false
+            }
+          ],
+          "total_price": 5433,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04261c508c5d5ec4ad73"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

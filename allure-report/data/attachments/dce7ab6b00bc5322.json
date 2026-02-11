@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 11 Feb 2026 22:35:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-5aTKkUssmBDzaKKSRqynsn/Ow3Y\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698d04301c508c5d5ec4b230",
+        "email": "Jada65@yahoo.com",
+        "name": "Ottilie Runolfsson",
+        "country": "Great Britain",
+        "city": "North Kurt",
+        "street": "Santos Underpass",
+        "house": 28,
+        "flat": 127,
+        "phone": "+17557195948",
+        "createdOn": "2026-02-11T22:35:28.000Z",
+        "notes": "yUx6KemYPz0OkxhBSXWrfS2wLIeTFuz9GZgxERt0ePYSTDGkEKt6LM81dyBXyjJmU9NPNWTzXZmR1bF1didqYytl2sQtjaChOqDgG4dn9CnWRcUg8zzZ3Jra00HDEpwvQb3YAtxA081OOyRfHLKuPHRx8AU7fGgTdmoe3hulPo829TExrVQFS1ms3Unn908ezqRZHsAtbp6PcZfii28FJ45wDWmCWIpF0eSYN334nvBtmP88ImzANiq9pf"
+      },
+      "products": [
+        {
+          "_id": "698d04311c508c5d5ec4b2b2",
+          "name": "Hat11099",
+          "amount": 179,
+          "price": 9356,
+          "manufacturer": "Sony",
+          "notes": "qip9I9gx2vW7gTK4EmnRAHYA8UYMCGxPrCmQrvHsZU58dqtYfRn6LqQC3xpYRlBxtWF3tbQ8BKefXhukNTpMLttufnRrl35yn1RP37zqQgxYDc2Uzm6yons10t4JEjhafhUxeV1IRni8xuxtv7l4LxKqMBXzxupqpfH7jrPbPS9yhlY9GGpEvFtBBb91JdCc1mqVgHLK5XmzXZbnQ8ZDIBA3su0qVQQspRTHRZqr8E6wTop9NVM9qxl6uQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9356,
+      "createdOn": "2026-02-11T22:35:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698d04301c508c5d5ec4b230",
+          "products": [
+            {
+              "_id": "698d04311c508c5d5ec4b2b2",
+              "name": "Hat11099",
+              "amount": 179,
+              "price": 9356,
+              "manufacturer": "Sony",
+              "notes": "qip9I9gx2vW7gTK4EmnRAHYA8UYMCGxPrCmQrvHsZU58dqtYfRn6LqQC3xpYRlBxtWF3tbQ8BKefXhukNTpMLttufnRrl35yn1RP37zqQgxYDc2Uzm6yons10t4JEjhafhUxeV1IRni8xuxtv7l4LxKqMBXzxupqpfH7jrPbPS9yhlY9GGpEvFtBBb91JdCc1mqVgHLK5XmzXZbnQ8ZDIBA3su0qVQQspRTHRZqr8E6wTop9NVM9qxl6uQ",
+              "received": false
+            }
+          ],
+          "total_price": 9356,
+          "delivery": null,
+          "changedOn": "2026-02-11T22:35:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698d04311c508c5d5ec4b2ca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
