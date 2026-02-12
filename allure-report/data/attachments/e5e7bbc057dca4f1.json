@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-+3eY5GU1cC9/au7C4Eahf5avmNE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56351c508c5d5ec50119",
+        "email": "Larissa_Keeling31@hotmail.com",
+        "name": "Orlando Welch",
+        "country": "France",
+        "city": "Fort Roscoe",
+        "street": "Lockman Overpass",
+        "house": 50,
+        "flat": 302,
+        "phone": "+17702312636",
+        "createdOn": "2026-02-12T22:37:41.000Z",
+        "notes": "szZhM6LFtoLdmmAiOtBtyPCdRAM3hQr3JzQuSXkTRKBNVZaZe9unEpOtIrzBSCyufDvkcFxRvWsnUi8Y3cXQRdsQXGUYDcIQOkh8dIAl2UYa2MmNds9fwAycsNXVmejyGwSv1IJVVhOK38kn9EbgOIO8GYsZxx56rOqC1IE0VuzsAVKtIiDagKZ0L1mP1UtaVsM0c3Z0ku09zxdkrmUDF7g8saIbyy1MKgcEdOQeEsZB2797cXJbHyaQff"
+      },
+      "products": [
+        {
+          "_id": "698e56351c508c5d5ec5017e",
+          "name": "Sausages53358",
+          "amount": 205,
+          "price": 11705,
+          "manufacturer": "Amazon",
+          "notes": "0ELFPyv7PhCCOqU4Ewd23263k3OIyOSnW055CSAhDTMEpw6GQkERePEtSYpJY6Mm2TydhdgqqVzBaL1Fbm1MCf2xY8G0UK0BcLpaDrJOortySt7DTBf0ci9XmSHl9gRWjxsqC4twoU9x8O9Z9xJP8YhBUMPv83sBBm9JT1EM4kZPWkS1g4PkfE9XzapgElZLgiNHY4kUPf33yJ2CmbkOjLuRVki5bXYoIHGynVecQIWXblMHxCdUSg2dLP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11705,
+      "createdOn": "2026-02-12T22:37:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56351c508c5d5ec50119",
+          "products": [
+            {
+              "_id": "698e56351c508c5d5ec5017e",
+              "name": "Sausages53358",
+              "amount": 205,
+              "price": 11705,
+              "manufacturer": "Amazon",
+              "notes": "0ELFPyv7PhCCOqU4Ewd23263k3OIyOSnW055CSAhDTMEpw6GQkERePEtSYpJY6Mm2TydhdgqqVzBaL1Fbm1MCf2xY8G0UK0BcLpaDrJOortySt7DTBf0ci9XmSHl9gRWjxsqC4twoU9x8O9Z9xJP8YhBUMPv83sBBm9JT1EM4kZPWkS1g4PkfE9XzapgElZLgiNHY4kUPf33yJ2CmbkOjLuRVki5bXYoIHGynVecQIWXblMHxCdUSg2dLP",
+              "received": false
+            }
+          ],
+          "total_price": 11705,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e56361c508c5d5ec5019f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

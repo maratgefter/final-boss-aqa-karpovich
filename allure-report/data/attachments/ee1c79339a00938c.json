@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-PfN8Sjx5jXEiWPQjgYmEpjK07F0\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698e56441c508c5d5ec509fb",
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56431c508c5d5ec50965",
+        "email": "Frederick98@gmail.com",
+        "name": "Claude Rohan",
+        "country": "Belarus",
+        "city": "Lake Madisenmouth",
+        "street": "E River Road",
+        "house": 48,
+        "flat": 213,
+        "phone": "+13597152514",
+        "createdOn": "2026-02-12T22:37:55.000Z",
+        "notes": "GVAzuX60H4tZe997uPY8rwsg0XEKREQdByi81jstteSVvGxlV0DjMHfYsazonz0YSQAPU1NyfkNTTlyqYHGxFR3FqTomirUk4YPxAODOHHO3ot0tNP74dGoAmFFLid4fApAuEl7RHhF2RN9swCXcwfE8xDYeBP5kQsLVmGCQlO2IK31O9IYIfQugmAelRUAdvaomclbr0O5M8nvZ9O4gPMwTkECehOyNDKAsYzz9SEGjC0HiAy6uKcx8Uy"
+      },
+      "products": [
+        {
+          "_id": "698e56431c508c5d5ec5097f",
+          "name": "Chair85120",
+          "amount": 410,
+          "price": 91108,
+          "manufacturer": "Apple",
+          "notes": "jpqOMixZ5xpCjqNVbeuAwDZO9tflAnptK2dnJIcYPvjzBc0MSZQXiN158FcLmMfQX9tkGFG3wO39l1apgidHqELbQQtSd9BhRFOXqyRHcS4V8OsBIWMPAP5x59b74fjp9qcZR0M98MfQOiKuLdqwwaYtxVoCUZQWvMeaBWhBrIofheIa0eEY4u0nAHCRVsO0cnId0r5Ii4XSDjearQBSKUDnJJ4t2wigI8lGIpO2eSI2QLlMYBcJva7v9O",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Madisenmouth",
+          "street": "E River Road",
+          "house": 48,
+          "flat": 213
+        },
+        "finalDate": "2026-02-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 91108,
+      "createdOn": "2026-02-12T22:37:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56431c508c5d5ec50965",
+          "products": [
+            {
+              "_id": "698e56431c508c5d5ec5097f",
+              "name": "Chair85120",
+              "amount": 410,
+              "price": 91108,
+              "manufacturer": "Apple",
+              "notes": "jpqOMixZ5xpCjqNVbeuAwDZO9tflAnptK2dnJIcYPvjzBc0MSZQXiN158FcLmMfQX9tkGFG3wO39l1apgidHqELbQQtSd9BhRFOXqyRHcS4V8OsBIWMPAP5x59b74fjp9qcZR0M98MfQOiKuLdqwwaYtxVoCUZQWvMeaBWhBrIofheIa0eEY4u0nAHCRVsO0cnId0r5Ii4XSDjearQBSKUDnJJ4t2wigI8lGIpO2eSI2QLlMYBcJva7v9O",
+              "received": false
+            }
+          ],
+          "total_price": 91108,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Madisenmouth",
+              "street": "E River Road",
+              "house": 48,
+              "flat": 213
+            },
+            "finalDate": "2026-02-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-12T22:37:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698e56431c508c5d5ec50965",
+          "products": [
+            {
+              "_id": "698e56431c508c5d5ec5097f",
+              "name": "Chair85120",
+              "amount": 410,
+              "price": 91108,
+              "manufacturer": "Apple",
+              "notes": "jpqOMixZ5xpCjqNVbeuAwDZO9tflAnptK2dnJIcYPvjzBc0MSZQXiN158FcLmMfQX9tkGFG3wO39l1apgidHqELbQQtSd9BhRFOXqyRHcS4V8OsBIWMPAP5x59b74fjp9qcZR0M98MfQOiKuLdqwwaYtxVoCUZQWvMeaBWhBrIofheIa0eEY4u0nAHCRVsO0cnId0r5Ii4XSDjearQBSKUDnJJ4t2wigI8lGIpO2eSI2QLlMYBcJva7v9O",
+              "received": false
+            }
+          ],
+          "total_price": 91108,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

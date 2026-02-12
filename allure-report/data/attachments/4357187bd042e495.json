@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:38:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-HGxC//cz6lCv0QLw6958LXKsP5U\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e564d1c508c5d5ec50e94",
+        "email": "Titus_Labadie@gmail.com",
+        "name": "Janiya Abernathy",
+        "country": "Russia",
+        "city": "Port Tristian",
+        "street": "Alexis Burg",
+        "house": 43,
+        "flat": 225,
+        "phone": "+15807440703",
+        "createdOn": "2026-02-12T22:38:05.000Z",
+        "notes": "tOHNKjoZTQi6D6CV8kS33JVy6XjFCQWOrJInoabvhrUT1o1eqZBNELfljegpFOV9THDX0YASCQpMSOzameKowT34AN7IfB86Bhveyj2g4mJR8cXE8QXoLP4RdAxD5Wd6xDwxA7mfNwq9OV8TL4wNpzBdwt9BhxoxcKmTqLaA6mCqGhXpkq98oYKbLpujoOLas7aBXxryNvhV8ZkotYEwDOEtsPWnzSDDgt92SAY4eXKz404ZZCZP1WIU5R"
+      },
+      "products": [
+        {
+          "_id": "698e564e1c508c5d5ec50ec9",
+          "name": "Shirt1233",
+          "amount": 315,
+          "price": 6995,
+          "manufacturer": "Tesla",
+          "notes": "X6ZicuLioq2olwlXiYE0hNJEjiFqf3skc2hRws7FHmTHrYTPjnzyzN4IDn6wgeJ0s92pEgQtr14UjRd0kKceC9xUlarqgU4HUrirrn7NNQkgaYuheaBj72EiVTOmCMvqdxRJEMAj8xJU5R6BlChl0IAAVI7gS9DLhzf9XRHGYqj0HTZwZKdbP1zOqatJxxUItMBFfgjNj0lvyT5omgd83OYJdDRV3WaxGYgmi43DNvBiFPCKMHAHTdAZNH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6995,
+      "createdOn": "2026-02-12T22:38:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e564d1c508c5d5ec50e94",
+          "products": [
+            {
+              "_id": "698e564e1c508c5d5ec50ec9",
+              "name": "Shirt1233",
+              "amount": 315,
+              "price": 6995,
+              "manufacturer": "Tesla",
+              "notes": "X6ZicuLioq2olwlXiYE0hNJEjiFqf3skc2hRws7FHmTHrYTPjnzyzN4IDn6wgeJ0s92pEgQtr14UjRd0kKceC9xUlarqgU4HUrirrn7NNQkgaYuheaBj72EiVTOmCMvqdxRJEMAj8xJU5R6BlChl0IAAVI7gS9DLhzf9XRHGYqj0HTZwZKdbP1zOqatJxxUItMBFfgjNj0lvyT5omgd83OYJdDRV3WaxGYgmi43DNvBiFPCKMHAHTdAZNH",
+              "received": false
+            }
+          ],
+          "total_price": 6995,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:38:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e564f1c508c5d5ec50fdd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

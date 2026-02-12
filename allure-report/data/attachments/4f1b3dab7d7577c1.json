@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:38:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3417",
+    "etag": "W/\"d59-YdGSyffCbIIrZ0EMasrYgRjfKAk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56661c508c5d5ec51e7f",
+        "email": "Maynard.Marks@gmail.com",
+        "name": "Ellie Klein",
+        "country": "Canada",
+        "city": "Haneside",
+        "street": "Satterfield Road",
+        "house": 32,
+        "flat": 805,
+        "phone": "+17358781301",
+        "createdOn": "2026-02-12T22:38:30.000Z",
+        "notes": "IgIWsHQqbNwCQCsBbtp5zzBMr5WGhx9wMwByVrlC6tnPeXcYYkxWxMXoVYl7lKfH7iEAL8BroncxITtgG98Rwtz8gyrgZACluO5ckAjWmdPgfPZ3M2XKiu353Yt2di1MwC2h7Cf9uD6mAVxbZMDOLFztvNXFjOCZxz8OLvuzbtO93VVfM4VvdPgXtmbjUOOswcevJScC8nv3iI5FHvxgR8mrodRxzO0OSiZCcQww5Se7U3pxlxMXkjMmRX"
+      },
+      "products": [
+        {
+          "_id": "698e56671c508c5d5ec51f46",
+          "name": "Hat85889",
+          "amount": 656,
+          "price": 77420,
+          "manufacturer": "Google",
+          "notes": "oB6TmJL8uQYjcTn0VjlcLqLuwMXMV7ApnaX5N0eoTkS0OofN0QpmOydZnhguLsPG1GyG1WXlkayt287EGcruS7oSz49BsxTGNMud2heLH3bqQNdQA4romE4WMviKEkCaclApwmZ8DWRgd1imPAnNqgHrkxz9bNrPwB8iqIyTE5Ror5ikjQiD2hEjhjd0wUjp1Svoso9qxppzJwc5hGodzKFtfNqaLPEn7pPp7luVu8Trwv9kMZeLNhbQL9",
+          "received": false
+        },
+        {
+          "_id": "698e56691c508c5d5ec5209f",
+          "name": "Computer50199",
+          "amount": 585,
+          "price": 68619,
+          "manufacturer": "Xiaomi",
+          "notes": "zawUTu1cv8GDD4gtg5rkmo80BlD7Pzdkr5ueNT6ONYUhWb61hlPvTG6gHwG96a8pROAQrMaeL21OgZyDPDDrkaW1KPJgu8OcyvJQcow6HSvyqAyEM9K13ZtUSxetfi1ZtcmlaVqMniyi8jjTCHKm7x1BJCm7svTZHLmnHhE4Q0kPYeiVmunoo5WL5W8O0hYreSIEEouYEwRP2rMJHVBB1EuNFcPd8sHMxFjL1T5OzBeLfjf77KFDDhIlpT",
+          "received": false
+        },
+        {
+          "_id": "698e56691c508c5d5ec520c1",
+          "name": "Pants91256",
+          "amount": 378,
+          "price": 55198,
+          "manufacturer": "Sony",
+          "notes": "KWaOaVg7tsj87FyfDPtRzswNqOeqknl0u1kTrUPEQeSJY9r5mVzNSlqr8ov48zKMO9JlhKazmH5Yih9dCm7mmBBNabIgcScwpcCCM6e00VnPYtbHqX0xPo5netoiV60YSKD3LQVUaPRCbIc3xJverTgJRhxsNlXXr2MmB6cwuRJeh4OMctK5vUX19gTngL68tYnXPoqvbypWKVqv7lqxreqPM5XgIKvY1ceqVZTXrMoF7PBDYbmZ0OVwHx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 201237,
+      "createdOn": "2026-02-12T22:38:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56661c508c5d5ec51e7f",
+          "products": [
+            {
+              "_id": "698e56671c508c5d5ec51f46",
+              "name": "Hat85889",
+              "amount": 656,
+              "price": 77420,
+              "manufacturer": "Google",
+              "notes": "oB6TmJL8uQYjcTn0VjlcLqLuwMXMV7ApnaX5N0eoTkS0OofN0QpmOydZnhguLsPG1GyG1WXlkayt287EGcruS7oSz49BsxTGNMud2heLH3bqQNdQA4romE4WMviKEkCaclApwmZ8DWRgd1imPAnNqgHrkxz9bNrPwB8iqIyTE5Ror5ikjQiD2hEjhjd0wUjp1Svoso9qxppzJwc5hGodzKFtfNqaLPEn7pPp7luVu8Trwv9kMZeLNhbQL9",
+              "received": false
+            },
+            {
+              "_id": "698e56691c508c5d5ec5209f",
+              "name": "Computer50199",
+              "amount": 585,
+              "price": 68619,
+              "manufacturer": "Xiaomi",
+              "notes": "zawUTu1cv8GDD4gtg5rkmo80BlD7Pzdkr5ueNT6ONYUhWb61hlPvTG6gHwG96a8pROAQrMaeL21OgZyDPDDrkaW1KPJgu8OcyvJQcow6HSvyqAyEM9K13ZtUSxetfi1ZtcmlaVqMniyi8jjTCHKm7x1BJCm7svTZHLmnHhE4Q0kPYeiVmunoo5WL5W8O0hYreSIEEouYEwRP2rMJHVBB1EuNFcPd8sHMxFjL1T5OzBeLfjf77KFDDhIlpT",
+              "received": false
+            },
+            {
+              "_id": "698e56691c508c5d5ec520c1",
+              "name": "Pants91256",
+              "amount": 378,
+              "price": 55198,
+              "manufacturer": "Sony",
+              "notes": "KWaOaVg7tsj87FyfDPtRzswNqOeqknl0u1kTrUPEQeSJY9r5mVzNSlqr8ov48zKMO9JlhKazmH5Yih9dCm7mmBBNabIgcScwpcCCM6e00VnPYtbHqX0xPo5netoiV60YSKD3LQVUaPRCbIc3xJverTgJRhxsNlXXr2MmB6cwuRJeh4OMctK5vUX19gTngL68tYnXPoqvbypWKVqv7lqxreqPM5XgIKvY1ceqVZTXrMoF7PBDYbmZ0OVwHx",
+              "received": false
+            }
+          ],
+          "total_price": 201237,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:38:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e566a1c508c5d5ec5210e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

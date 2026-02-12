@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:38:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1868",
+    "etag": "W/\"74c-K2ERO0VLnYaNQke449UKX6aDGDY\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e564a1c508c5d5ec50ce6",
+        "email": "Assunta4@hotmail.com",
+        "name": "Effie Auer",
+        "country": "USA",
+        "city": "Everett",
+        "street": "Joanie Common",
+        "house": 28,
+        "flat": 961,
+        "phone": "+14938658111",
+        "createdOn": "2026-02-12T22:38:02.000Z",
+        "notes": "pte3BlpgaDx24i7BtcBy6EfQdGfRQJUImDhjLQ05DPW75CoOTZXBXC27E4EUEcwKWZ71jTlpOqMvnMidyVgnV0mzC60AphUmb2hDO7k0cedaK1gkN8HpBT0NaYv5BwZLuIOGICxdEwYDLPIhqsEr8AP6koTPgvdnwzhhsvaKvpXRrA3mNOKcXKsSEfVECceQzAjJjkEK7FFpu7l9saMieExnwcVIxWGmOH0ItbLZKUHWijoZtGasv6AC2v"
+      },
+      "products": [
+        {
+          "_id": "698e564b1c508c5d5ec50d93",
+          "name": "Soap24646",
+          "amount": 957,
+          "price": 23715,
+          "manufacturer": "Google",
+          "notes": "JIEEoJr3qhXqQhJwkuVpJDC97rPYEhA1kcCy69zV0vn6ddY3Uj73SvFsX8zxN3d1pRb2HF8wIjO2VtzmbNxymKC2hwdVBIyhKiQJTFYBwTgCqgZK3jV34Fqac1ycYiYSU6P7zAdavCdNKduhaeYbcAY5dwa47PUtINd6LUwDkopt4UM4ZjvSl7vVpZlD17vZzxJ5Dkc9DXJA2XgF3ii4KtNtF8zcItGXkyxjGMpJUf1NlwIiUQyonLF9j2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23715,
+      "createdOn": "2026-02-12T22:38:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e564a1c508c5d5ec50ce6",
+          "products": [
+            {
+              "_id": "698e564b1c508c5d5ec50d93",
+              "name": "Soap24646",
+              "amount": 957,
+              "price": 23715,
+              "manufacturer": "Google",
+              "notes": "JIEEoJr3qhXqQhJwkuVpJDC97rPYEhA1kcCy69zV0vn6ddY3Uj73SvFsX8zxN3d1pRb2HF8wIjO2VtzmbNxymKC2hwdVBIyhKiQJTFYBwTgCqgZK3jV34Fqac1ycYiYSU6P7zAdavCdNKduhaeYbcAY5dwa47PUtINd6LUwDkopt4UM4ZjvSl7vVpZlD17vZzxJ5Dkc9DXJA2XgF3ii4KtNtF8zcItGXkyxjGMpJUf1NlwIiUQyonLF9j2",
+              "received": false
+            }
+          ],
+          "total_price": 23715,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:38:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e564b1c508c5d5ec50dc9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

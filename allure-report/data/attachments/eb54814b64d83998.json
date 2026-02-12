@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-5iqsqpZip0XGLiU209GZr1VrPKM\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e562c1c508c5d5ec4fc9f",
+        "email": "Florian_Casper45@yahoo.com",
+        "name": "Stephen Marquardt",
+        "country": "Belarus",
+        "city": "Champaign",
+        "street": "Walnut Street",
+        "house": 39,
+        "flat": 762,
+        "phone": "+12022358481",
+        "createdOn": "2026-02-12T22:37:32.000Z",
+        "notes": "W4DFF7TKruBui4bkVlDFZBC0ztDuHW24dXxmdCwfGXufHP6Pz36uS4MjGedhWIJ5tnqAy4mUTyT2KyifyNh2PwLDMq2y14AyPThgkspl2kYSQ1GgXmVfxnb3gVY7mZZBvOLfV7whekpQAdyGZ7bRwwUfql6s1tSdUfwTKrePziA7VzCCbeXlts881SS0aZPL5Zh7QsnTvQ2fgry82wQvrHGXmuqaS2YfgwbMakrDCRX8xQTGbptwY6Qg0c"
+      },
+      "products": [
+        {
+          "_id": "698e562c1c508c5d5ec4fcbb",
+          "name": "Tuna82964",
+          "amount": 665,
+          "price": 75249,
+          "manufacturer": "Xiaomi",
+          "notes": "FbOVeSEAeDbI2eUW36zoVPoCLyUbYgm063UO2JN9q2oSH8Dw43Du1Uumpd565ofx5FxZMRnteKvWDbWJPiMPUmDWFXa2T2wSZBaGMBFbwifd6kVQdoXGrtWdDaoGMmT9r0fGsEFITL9EobOKAnmCoWJzRCIU2Z99aJRsV4lFWNW2JxHtYZ4Jmfa9ybmUd5zMhddKOERMWn3vp8rSvtIjLi14INdCL7uKQwITG62VALgTyhSAfb2Yw66GpB",
+          "received": false
+        },
+        {
+          "_id": "698e562c1c508c5d5ec4fccb",
+          "name": "Soap86315",
+          "amount": 764,
+          "price": 10619,
+          "manufacturer": "Samsung",
+          "notes": "QOWR9ACZxCz8ZOAhrruRDhcNSnSrB3SePrQXNethMKXyXQGFoahexlN3VOw4cNQqKIGlKB2HnTqF7yeqALGJkDzuAGLMz6Jl6yKiYHD3dqa0hh3IPt8krmJOnML9YcwQjYTS0nF2AzqFhwyTojHhDWi7HrLOWD8FuiiiOZ0cCSBjZV4idGZm0oGxV5xZ4Zk7xTAMpcP16FW8rdXH8nXDFzy5gx86nzHO2evMl2GOjEMvP4IMKhYMSJdLJF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85868,
+      "createdOn": "2026-02-12T22:37:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e562c1c508c5d5ec4fc9f",
+          "products": [
+            {
+              "_id": "698e562c1c508c5d5ec4fcbb",
+              "name": "Tuna82964",
+              "amount": 665,
+              "price": 75249,
+              "manufacturer": "Xiaomi",
+              "notes": "FbOVeSEAeDbI2eUW36zoVPoCLyUbYgm063UO2JN9q2oSH8Dw43Du1Uumpd565ofx5FxZMRnteKvWDbWJPiMPUmDWFXa2T2wSZBaGMBFbwifd6kVQdoXGrtWdDaoGMmT9r0fGsEFITL9EobOKAnmCoWJzRCIU2Z99aJRsV4lFWNW2JxHtYZ4Jmfa9ybmUd5zMhddKOERMWn3vp8rSvtIjLi14INdCL7uKQwITG62VALgTyhSAfb2Yw66GpB",
+              "received": false
+            },
+            {
+              "_id": "698e562c1c508c5d5ec4fccb",
+              "name": "Soap86315",
+              "amount": 764,
+              "price": 10619,
+              "manufacturer": "Samsung",
+              "notes": "QOWR9ACZxCz8ZOAhrruRDhcNSnSrB3SePrQXNethMKXyXQGFoahexlN3VOw4cNQqKIGlKB2HnTqF7yeqALGJkDzuAGLMz6Jl6yKiYHD3dqa0hh3IPt8krmJOnML9YcwQjYTS0nF2AzqFhwyTojHhDWi7HrLOWD8FuiiiOZ0cCSBjZV4idGZm0oGxV5xZ4Zk7xTAMpcP16FW8rdXH8nXDFzy5gx86nzHO2evMl2GOjEMvP4IMKhYMSJdLJF",
+              "received": false
+            }
+          ],
+          "total_price": 85868,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e562c1c508c5d5ec4fcf3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

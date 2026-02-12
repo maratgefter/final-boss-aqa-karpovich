@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-MGVHDQkCMGTHjUfmEbRh7ynQdn0\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e562c1c508c5d5ec4fc9a",
+        "email": "Enoch.Dare@gmail.com",
+        "name": "Gage Beahan",
+        "country": "Belarus",
+        "city": "North Nicklaus",
+        "street": "Schiller Bridge",
+        "house": 20,
+        "flat": 117,
+        "phone": "+14889132189",
+        "createdOn": "2026-02-12T22:37:32.000Z",
+        "notes": "hVR31uZFEpYHDuyboQ9ODvcn5w25c2WdA7E3W0PQeEJTLSFRDn6jqxfhUQKMd00Ivl9zsyYwhBSseUXXEHcnIk55ypHvnU7dSupAXQGGLwFWjQPiceN7L08o1PtxrM4oi6YpdSyZO4h8s9kFTS6QAXdxz4BTKya4aizEIbLvOj9cLrq7B5pocHrQmtvg0yZSIH2le7kiaiEbtk6LyjIgg7WD4GzB1tLrL67DFRPnfbVTUEWOuYN0rKeKBC"
+      },
+      "products": [
+        {
+          "_id": "698e562c1c508c5d5ec4fcbd",
+          "name": "Sausages54831",
+          "amount": 332,
+          "price": 58543,
+          "manufacturer": "Microsoft",
+          "notes": "yQwbgBCCo69gUkgNYDHovCtvRGpSoNb6Bzyc5vYsAT1bNlSTQMFXvZCoY7b6dY4wLwzuX8hIhoCKkAXVifzntilgheuLzGyqtBVfkYXENqCDPMOAbWv6limZS08AGt3Vndl15wVkmCGAiwaIPLBH6sQx3E1VvIL5DZek3DiXQjBk2TwoIGvcSPWaL48au3fsulqScBolkZwFpcO6aQC85ZmhoVsaL7arpT23oerZ2l8PAze4WTseP721Sj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58543,
+      "createdOn": "2026-02-12T22:37:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e562c1c508c5d5ec4fc9a",
+          "products": [
+            {
+              "_id": "698e562c1c508c5d5ec4fcbd",
+              "name": "Sausages54831",
+              "amount": 332,
+              "price": 58543,
+              "manufacturer": "Microsoft",
+              "notes": "yQwbgBCCo69gUkgNYDHovCtvRGpSoNb6Bzyc5vYsAT1bNlSTQMFXvZCoY7b6dY4wLwzuX8hIhoCKkAXVifzntilgheuLzGyqtBVfkYXENqCDPMOAbWv6limZS08AGt3Vndl15wVkmCGAiwaIPLBH6sQx3E1VvIL5DZek3DiXQjBk2TwoIGvcSPWaL48au3fsulqScBolkZwFpcO6aQC85ZmhoVsaL7arpT23oerZ2l8PAze4WTseP721Sj",
+              "received": false
+            }
+          ],
+          "total_price": 58543,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e562c1c508c5d5ec4fcd5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

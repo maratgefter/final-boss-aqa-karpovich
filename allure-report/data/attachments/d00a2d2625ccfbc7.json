@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:38:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4096",
+    "etag": "W/\"1000-fylf29GbtPDgod2HH2gOaMbUd2I\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698e56671c508c5d5ec52085",
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56651c508c5d5ec51e3b",
+        "email": "Zita_Moen13@gmail.com",
+        "name": "Haylie Goodwin",
+        "country": "Canada",
+        "city": "Fort Collins",
+        "street": "6th Avenue",
+        "house": 46,
+        "flat": 963,
+        "phone": "+18213437361",
+        "createdOn": "2026-02-12T22:38:29.000Z",
+        "notes": "DYODlyfaNElb51f2nITkHlGKVeVhOQ9JEhnvjvBpqQ3yBOlypjSQYDlprdGkNHnRRHhlvXV5Dv9FWOehMLxSlmOjYu7rDKH3TZy2O0O3zgbepdoQbOoktIdZq44MTF6KdtBY6mImrf0G9xEiMYEsqVnifMaQZHc6Hp4HcMNRcS3MEMNj304nQDOSk6V88LxnssVM8FtX4MFnmNbFs6cCdzDPwl1wuc9sj5fL5dHC5DTxDvy8nvgp8Yqtw3"
+      },
+      "products": [
+        {
+          "_id": "698e56651c508c5d5ec51e61",
+          "name": "Keyboard57632",
+          "amount": 316,
+          "price": 87124,
+          "manufacturer": "Sony",
+          "notes": "jigfFcJAkXBAPsWKjpqSUaUg4GcGhrFfqs4HmjPOI2nOl6KlwNsYS1hlZE6kRR8U0p6MCZ5BhxakOpSyd5wMerpGdMVu4BF8N8G2ykdRw5VqMZtJ0HyEXdK2czFSuILie1OnQ7KrzdBszBTwJgeqn5N6X5jvqVVplkkmGuEA1IM8kgqDdGXe6x9lBIzUEy91FOATIAC8h0zwcWj1SIRx2XgyChK7NYHDCLb2R9bcWOfT8LHZGf0oeflquB",
+          "received": false
+        },
+        {
+          "_id": "698e56661c508c5d5ec51ece",
+          "name": "Car92496",
+          "amount": 265,
+          "price": 32373,
+          "manufacturer": "Google",
+          "notes": "Sv2RdrofaNJVa42Br4Qa2ZWeM283EwKqxYYCKm3RFVCJVasIhK1OviUh1UyH3wqsLcIlTIjH1Ih8r083geWlNzQnaGNDAOAhGxxhjfsd1Kiz4ifFPUSy7rih1JLD8MxL3EOvNusKQzYIw30BkIqrpVJWuEI1TaBddeQQ6K7LfemPgZ77Bgdg5vhjqoFSlD0hGJV6aFYPrntR7262KgGeani2yowenErdgojY4VKPXdZdIy9btDlz2FvsS2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Collins",
+          "street": "6th Avenue",
+          "house": 46,
+          "flat": 963
+        },
+        "finalDate": "2026-02-18T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 119497,
+      "createdOn": "2026-02-12T22:38:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56651c508c5d5ec51e3b",
+          "products": [
+            {
+              "_id": "698e56651c508c5d5ec51e61",
+              "name": "Keyboard57632",
+              "amount": 316,
+              "price": 87124,
+              "manufacturer": "Sony",
+              "notes": "jigfFcJAkXBAPsWKjpqSUaUg4GcGhrFfqs4HmjPOI2nOl6KlwNsYS1hlZE6kRR8U0p6MCZ5BhxakOpSyd5wMerpGdMVu4BF8N8G2ykdRw5VqMZtJ0HyEXdK2czFSuILie1OnQ7KrzdBszBTwJgeqn5N6X5jvqVVplkkmGuEA1IM8kgqDdGXe6x9lBIzUEy91FOATIAC8h0zwcWj1SIRx2XgyChK7NYHDCLb2R9bcWOfT8LHZGf0oeflquB",
+              "received": false
+            },
+            {
+              "_id": "698e56661c508c5d5ec51ece",
+              "name": "Car92496",
+              "amount": 265,
+              "price": 32373,
+              "manufacturer": "Google",
+              "notes": "Sv2RdrofaNJVa42Br4Qa2ZWeM283EwKqxYYCKm3RFVCJVasIhK1OviUh1UyH3wqsLcIlTIjH1Ih8r083geWlNzQnaGNDAOAhGxxhjfsd1Kiz4ifFPUSy7rih1JLD8MxL3EOvNusKQzYIw30BkIqrpVJWuEI1TaBddeQQ6K7LfemPgZ77Bgdg5vhjqoFSlD0hGJV6aFYPrntR7262KgGeani2yowenErdgojY4VKPXdZdIy9btDlz2FvsS2",
+              "received": false
+            }
+          ],
+          "total_price": 119497,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Collins",
+              "street": "6th Avenue",
+              "house": 46,
+              "flat": 963
+            },
+            "finalDate": "2026-02-18T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-12T22:38:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698e56651c508c5d5ec51e3b",
+          "products": [
+            {
+              "_id": "698e56651c508c5d5ec51e61",
+              "name": "Keyboard57632",
+              "amount": 316,
+              "price": 87124,
+              "manufacturer": "Sony",
+              "notes": "jigfFcJAkXBAPsWKjpqSUaUg4GcGhrFfqs4HmjPOI2nOl6KlwNsYS1hlZE6kRR8U0p6MCZ5BhxakOpSyd5wMerpGdMVu4BF8N8G2ykdRw5VqMZtJ0HyEXdK2czFSuILie1OnQ7KrzdBszBTwJgeqn5N6X5jvqVVplkkmGuEA1IM8kgqDdGXe6x9lBIzUEy91FOATIAC8h0zwcWj1SIRx2XgyChK7NYHDCLb2R9bcWOfT8LHZGf0oeflquB",
+              "received": false
+            },
+            {
+              "_id": "698e56661c508c5d5ec51ece",
+              "name": "Car92496",
+              "amount": 265,
+              "price": 32373,
+              "manufacturer": "Google",
+              "notes": "Sv2RdrofaNJVa42Br4Qa2ZWeM283EwKqxYYCKm3RFVCJVasIhK1OviUh1UyH3wqsLcIlTIjH1Ih8r083geWlNzQnaGNDAOAhGxxhjfsd1Kiz4ifFPUSy7rih1JLD8MxL3EOvNusKQzYIw30BkIqrpVJWuEI1TaBddeQQ6K7LfemPgZ77Bgdg5vhjqoFSlD0hGJV6aFYPrntR7262KgGeani2yowenErdgojY4VKPXdZdIy9btDlz2FvsS2",
+              "received": false
+            }
+          ],
+          "total_price": 119497,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:38:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

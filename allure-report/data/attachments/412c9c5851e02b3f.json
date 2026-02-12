@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-M2d+d3UJG1yvyvgITXlCr1bTkq4\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698e563a1c508c5d5ec50356",
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56391c508c5d5ec50322",
+        "email": "Breana.Beier@yahoo.com",
+        "name": "Cicero Kuhic",
+        "country": "Russia",
+        "city": "Lake Erynshire",
+        "street": "Jeff Gardens",
+        "house": 37,
+        "flat": 184,
+        "phone": "+17375662210",
+        "createdOn": "2026-02-12T22:37:45.000Z",
+        "notes": "x95btYzSRUZhJMIXq9aeZ48dK9uLAvwNJT0nOLYtoosyGSjQ4TlbZn20ypLV0G0Yd2cYnHLUfv6DHiU7Vaqle36B2fBp6U3BlYFkJUhRIyWA0NDIMMo1ZFHmat12f5nzL7zz2HgFpdEga1KivlTe0Nnu7zGZhDUWJ6yimYhGKebtWEqVLbKMPcszDPKYEaMLsZkxNhg5VLftSJCDkrQwXkYxe29HeJsYrA1ZmHjJvmGFaz8l0D3th994sk"
+      },
+      "products": [
+        {
+          "_id": "698e563a1c508c5d5ec50335",
+          "name": "Soap53561",
+          "amount": 260,
+          "price": 58657,
+          "manufacturer": "Google",
+          "notes": "JLOi4HBBXVNbJGkI7IoYR6eqhAmhZZDrKKRXaXNVfMfi5GDKwsUK5PD7kkyGONCUsDSVp23oo1UHByvWkjb30LL7E2vHA2cY8oGtdcDzwQuDXjybICFTmlar51AArfbeajbAbsjBeG6qllhwTKct9s5epNGDXwOZJXb3YcaEUnyTbLUiKN8ayM7ZMzrOTQyIy27EYTPsZGSZaITgD8mHIl7LHV51Z0qFLpO1EkBjq5fPUN3c1cJMV3Db5k",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Kiehnboro",
+          "street": "Maxwell Pike",
+          "house": 12,
+          "flat": 20
+        },
+        "finalDate": "2026-02-12T22:37:46.251Z",
+        "condition": "Pickup"
+      },
+      "total_price": 58657,
+      "createdOn": "2026-02-12T22:37:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56391c508c5d5ec50322",
+          "products": [
+            {
+              "_id": "698e563a1c508c5d5ec50335",
+              "name": "Soap53561",
+              "amount": 260,
+              "price": 58657,
+              "manufacturer": "Google",
+              "notes": "JLOi4HBBXVNbJGkI7IoYR6eqhAmhZZDrKKRXaXNVfMfi5GDKwsUK5PD7kkyGONCUsDSVp23oo1UHByvWkjb30LL7E2vHA2cY8oGtdcDzwQuDXjybICFTmlar51AArfbeajbAbsjBeG6qllhwTKct9s5epNGDXwOZJXb3YcaEUnyTbLUiKN8ayM7ZMzrOTQyIy27EYTPsZGSZaITgD8mHIl7LHV51Z0qFLpO1EkBjq5fPUN3c1cJMV3Db5k",
+              "received": false
+            }
+          ],
+          "total_price": 58657,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kiehnboro",
+              "street": "Maxwell Pike",
+              "house": 12,
+              "flat": 20
+            },
+            "finalDate": "2026-02-12T22:37:46.251Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-12T22:37:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698e56391c508c5d5ec50322",
+          "products": [
+            {
+              "_id": "698e563a1c508c5d5ec50335",
+              "name": "Soap53561",
+              "amount": 260,
+              "price": 58657,
+              "manufacturer": "Google",
+              "notes": "JLOi4HBBXVNbJGkI7IoYR6eqhAmhZZDrKKRXaXNVfMfi5GDKwsUK5PD7kkyGONCUsDSVp23oo1UHByvWkjb30LL7E2vHA2cY8oGtdcDzwQuDXjybICFTmlar51AArfbeajbAbsjBeG6qllhwTKct9s5epNGDXwOZJXb3YcaEUnyTbLUiKN8ayM7ZMzrOTQyIy27EYTPsZGSZaITgD8mHIl7LHV51Z0qFLpO1EkBjq5fPUN3c1cJMV3Db5k",
+              "received": false
+            }
+          ],
+          "total_price": 58657,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

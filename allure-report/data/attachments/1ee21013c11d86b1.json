@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-fLhGMRtITV8QYceTCDVWtOn2/Bs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56311c508c5d5ec4ff29",
+        "email": "Carli17@hotmail.com",
+        "name": "May Stoltenberg",
+        "country": "Russia",
+        "city": "Redmond",
+        "street": "Dannie Road",
+        "house": 17,
+        "flat": 306,
+        "phone": "+12768570922",
+        "createdOn": "2026-02-12T22:37:37.000Z",
+        "notes": "0JDQjrpZ8FMj6EsnTE8LAexOdyokVyfFCkpYMAQhweoPuSqYVaFxDR4CniLutYpPTxg65voVi9SsKPV3DvAf6zuiuPmd0YHBu7u7c9lGXPUHrDDLV1HSuSvSCVlsziib15xxGTUki9RgRGKjZvUwBTmZQkhuR7xKhrbO3ag1IAXCrAmwaWly0RqeCUISIIw3gVA8S6mEJvtHA7NRVs2uZomnuXFAYBqT8mj7hFWbEvA3K0rKN7y5J02hCj"
+      },
+      "products": [
+        {
+          "_id": "698e56321c508c5d5ec4ff60",
+          "name": "Soap92891",
+          "amount": 953,
+          "price": 88707,
+          "manufacturer": "Microsoft",
+          "notes": "AdgaFaJVdfWrw5vCJwGCga1YsQ2YroKRLYu16qkGoQpIxz88xeF4rujWpr7f2VWEk6PSAyqLT0ylIxykltCkGQlITbLIKVST8yD6jHKkHaoKAhbWZem9Ukzbql4J9coQvcsHlClrPPM3QekEbru2y2VT0Bkyb88bErR65D6K78aXwbcH5UZiDjfnqyDr4vKeSODLdSYKbjKuqXdWJyDtE7N5nJvMAr85x2Buib0LYIw5JYNiTI66l28dTh",
+          "received": false
+        },
+        {
+          "_id": "698e56321c508c5d5ec4ffb7",
+          "name": "Salad94923",
+          "amount": 419,
+          "price": 97993,
+          "manufacturer": "Sony",
+          "notes": "IfbHiB6jSVN0sKe2q3dBKhylD4V7IrT4Ex8xkONI54BWMIttKqSbsaU0x0U6s0bwTeUvWMoCo8KW9MC1fr23BsTV8fn53cij2pKfoQxLYRx3DvTIMvdtw6AjZiugmemYw46Xi6xFKgiRVALcy1Usjm5XsGofcMbzBD6DeiEbHPk0E6mlsRRtLP2RCzItUpGLbuqUz22OcUVX7SFWYz980nOgF6ubqrt8LA2Zf61VOYqblcpKwSw5vQBZbr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 186700,
+      "createdOn": "2026-02-12T22:37:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56311c508c5d5ec4ff29",
+          "products": [
+            {
+              "_id": "698e56321c508c5d5ec4ff60",
+              "name": "Soap92891",
+              "amount": 953,
+              "price": 88707,
+              "manufacturer": "Microsoft",
+              "notes": "AdgaFaJVdfWrw5vCJwGCga1YsQ2YroKRLYu16qkGoQpIxz88xeF4rujWpr7f2VWEk6PSAyqLT0ylIxykltCkGQlITbLIKVST8yD6jHKkHaoKAhbWZem9Ukzbql4J9coQvcsHlClrPPM3QekEbru2y2VT0Bkyb88bErR65D6K78aXwbcH5UZiDjfnqyDr4vKeSODLdSYKbjKuqXdWJyDtE7N5nJvMAr85x2Buib0LYIw5JYNiTI66l28dTh",
+              "received": false
+            },
+            {
+              "_id": "698e56321c508c5d5ec4ffb7",
+              "name": "Salad94923",
+              "amount": 419,
+              "price": 97993,
+              "manufacturer": "Sony",
+              "notes": "IfbHiB6jSVN0sKe2q3dBKhylD4V7IrT4Ex8xkONI54BWMIttKqSbsaU0x0U6s0bwTeUvWMoCo8KW9MC1fr23BsTV8fn53cij2pKfoQxLYRx3DvTIMvdtw6AjZiugmemYw46Xi6xFKgiRVALcy1Usjm5XsGofcMbzBD6DeiEbHPk0E6mlsRRtLP2RCzItUpGLbuqUz22OcUVX7SFWYz980nOgF6ubqrt8LA2Zf61VOYqblcpKwSw5vQBZbr",
+              "received": false
+            }
+          ],
+          "total_price": 186700,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e56331c508c5d5ec50031"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

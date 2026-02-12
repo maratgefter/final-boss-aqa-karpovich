@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-RfRRbyqShWfrH9AcFGUZ0rXwlRE\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e562f1c508c5d5ec4fdc5",
+        "email": "Madeline0@hotmail.com",
+        "name": "Jesse Fadel",
+        "country": "Great Britain",
+        "city": "North Anne",
+        "street": "Hillary Crossing",
+        "house": 5,
+        "flat": 10,
+        "phone": "+15499474836",
+        "createdOn": "2026-02-12T22:37:35.000Z",
+        "notes": "rKay4xaKFEbIom5YpXIpR1mMTfHqPgW376qjIf7vJHmGHQct6BExaaQrx3dGByZI5QYqt0YtDVNmpJmqc9rgIoDLKbRrfuermbqUIsNMsCM52bzymug0P8rN3UYlnNF6xOLxRo2H4y3vkUG39pnjdAOzVDSWoh9FpKN6pRaJnVRrKgkE8quc9OY051gxyf73dMnskPSjLzERVYa5JCsiTVzA7DFSCsOuiwVsekcnulhpyzu5bfwu96TB5V"
+      },
+      "products": [
+        {
+          "_id": "698e562f1c508c5d5ec4fdd6",
+          "name": "Gloves40304",
+          "amount": 968,
+          "price": 79616,
+          "manufacturer": "Sony",
+          "notes": "MB3oRqP0e8HYDI6d9ZSPH1s3TGMkEn3PJE44WbdISsgdgSkbOFd6aj7R3q2GXjfKzlNqiK6zjnCn8ndWJttNNt9IbwWeDZDcEjdigDSqOhnbQ4lWRfeWhPvAWUdMnZppVMHv9A7oFK841YJqFaeRtwD1pxWyE8wZwYfiFU8DWvjHKf4qtdilVIXErMEq1gcoIVz95wCLKuzd9WI2cI5sHOfdcBEZISw6FwRZZzpdW52l1IbjeUHN4YvRcW",
+          "received": false
+        },
+        {
+          "_id": "698e562f1c508c5d5ec4fdec",
+          "name": "Salad97511",
+          "amount": 307,
+          "price": 97581,
+          "manufacturer": "Amazon",
+          "notes": "xmIJXguv4uLLFNbooBzEdn4dySRsokPowRAU80q5fivPsdqd0UAL1XXmMm6D5pMPmyegOsH5cFdDUUnV7UY3BhxNNVD8igiF3JYmkE29NcZzZn3M2VpOb2X01SsgcELI0dwlCmn5dIMOO3BKvmMwhXgbdXSI3s2i6GH1mQHAJj0iOmt0WFYt5ZL2dYm7sK5402Ezr9o99vMoZqnq74kgkEzmKLMHiVl2V1C2vC8YQG4R0OICVVGE3LLeJk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 177197,
+      "createdOn": "2026-02-12T22:37:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e562f1c508c5d5ec4fdc5",
+          "products": [
+            {
+              "_id": "698e562f1c508c5d5ec4fdd6",
+              "name": "Gloves40304",
+              "amount": 968,
+              "price": 79616,
+              "manufacturer": "Sony",
+              "notes": "MB3oRqP0e8HYDI6d9ZSPH1s3TGMkEn3PJE44WbdISsgdgSkbOFd6aj7R3q2GXjfKzlNqiK6zjnCn8ndWJttNNt9IbwWeDZDcEjdigDSqOhnbQ4lWRfeWhPvAWUdMnZppVMHv9A7oFK841YJqFaeRtwD1pxWyE8wZwYfiFU8DWvjHKf4qtdilVIXErMEq1gcoIVz95wCLKuzd9WI2cI5sHOfdcBEZISw6FwRZZzpdW52l1IbjeUHN4YvRcW",
+              "received": false
+            },
+            {
+              "_id": "698e562f1c508c5d5ec4fdec",
+              "name": "Salad97511",
+              "amount": 307,
+              "price": 97581,
+              "manufacturer": "Amazon",
+              "notes": "xmIJXguv4uLLFNbooBzEdn4dySRsokPowRAU80q5fivPsdqd0UAL1XXmMm6D5pMPmyegOsH5cFdDUUnV7UY3BhxNNVD8igiF3JYmkE29NcZzZn3M2VpOb2X01SsgcELI0dwlCmn5dIMOO3BKvmMwhXgbdXSI3s2i6GH1mQHAJj0iOmt0WFYt5ZL2dYm7sK5402Ezr9o99vMoZqnq74kgkEzmKLMHiVl2V1C2vC8YQG4R0OICVVGE3LLeJk",
+              "received": false
+            }
+          ],
+          "total_price": 177197,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e562f1c508c5d5ec4fe2f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

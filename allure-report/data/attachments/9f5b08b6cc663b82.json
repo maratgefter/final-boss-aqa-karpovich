@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-rVeqvDeOf9pNN8XqhMuPULaeaKU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56381c508c5d5ec5023d",
+        "email": "Janae.Rice@hotmail.com",
+        "name": "Turner Okuneva",
+        "country": "Belarus",
+        "city": "Parisiancester",
+        "street": "Pacocha Mountain",
+        "house": 2,
+        "flat": 658,
+        "phone": "+17025195553",
+        "createdOn": "2026-02-12T22:37:44.000Z",
+        "notes": "6SYUQRHfdb7jTkbQ1mtmLdmFatDSRoU8dfoXkHZoTPHfb65D84YkmMZSTA8LFqpdxzAGQytLX1Qbz9sdDyDqVRlKEm8upxsDG075CG1N00VrnhI7lrmy6r2O5LcQiLuM2LX6IBGg4JZPxBYe6Icj2Iwj5B0VVA41FvfZZrnPpyaJsv5zqMgMkYUwgHlLOhIxNXpIhowXXTKSwbFu15xeOrn06CvZa06dsdJ1d4VZyEwKDZdtrgtDBDBXHq"
+      },
+      "products": [
+        {
+          "_id": "698e56381c508c5d5ec50258",
+          "name": "Mouse72948",
+          "amount": 253,
+          "price": 42112,
+          "manufacturer": "Google",
+          "notes": "I56fpgZIsP2Rlxy9T3JtswpDYnvbLO0p3d9a0QoyzLLzwVKgISxQPV5ibNFLTbK8QTpWSSOe3pZkcXGL3r0f8Uvdtc9OvA5KPDaav4xVQ72QzcfxALO3cMcCi4FXEhHqVj7Yql3L5RLQJGUvewtoOSs7ExqkRM5k1H2dTGL8Ow5IeGsePHpu830T68uwGdXVfMzKQAgKiAE585cqdICIUtOSY9q6CemJsLb8Rf72ybb0VWvZXCGdO3B4ma",
+          "received": false
+        },
+        {
+          "_id": "698e56381c508c5d5ec50271",
+          "name": "Bacon13371",
+          "amount": 85,
+          "price": 11200,
+          "manufacturer": "Samsung",
+          "notes": "J63YoSZYsiXHAPDvLdZZ7zOzvqLgXbcL7xotg6WCUsNGZVD4AOfMLx4rSCyvVc4BURW8hxndL65IgpOTPnDQxToblKREdxxskPWkNdQCcaNhM6d7weOCmma3BPidZ69rFTlO1vrYhYtPhzxcrOqhSDFZvVDeTZmY7TtkGfyJOtj54XrxUl6ryGfNa8RAIql8i9W8XCnnnlzEtVyOKhJca2yuHay90NR9HfsIIm6IVl7xLyVjNk7M16Vt6J",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53312,
+      "createdOn": "2026-02-12T22:37:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56381c508c5d5ec5023d",
+          "products": [
+            {
+              "_id": "698e56381c508c5d5ec50258",
+              "name": "Mouse72948",
+              "amount": 253,
+              "price": 42112,
+              "manufacturer": "Google",
+              "notes": "I56fpgZIsP2Rlxy9T3JtswpDYnvbLO0p3d9a0QoyzLLzwVKgISxQPV5ibNFLTbK8QTpWSSOe3pZkcXGL3r0f8Uvdtc9OvA5KPDaav4xVQ72QzcfxALO3cMcCi4FXEhHqVj7Yql3L5RLQJGUvewtoOSs7ExqkRM5k1H2dTGL8Ow5IeGsePHpu830T68uwGdXVfMzKQAgKiAE585cqdICIUtOSY9q6CemJsLb8Rf72ybb0VWvZXCGdO3B4ma",
+              "received": false
+            },
+            {
+              "_id": "698e56381c508c5d5ec50271",
+              "name": "Bacon13371",
+              "amount": 85,
+              "price": 11200,
+              "manufacturer": "Samsung",
+              "notes": "J63YoSZYsiXHAPDvLdZZ7zOzvqLgXbcL7xotg6WCUsNGZVD4AOfMLx4rSCyvVc4BURW8hxndL65IgpOTPnDQxToblKREdxxskPWkNdQCcaNhM6d7weOCmma3BPidZ69rFTlO1vrYhYtPhzxcrOqhSDFZvVDeTZmY7TtkGfyJOtj54XrxUl6ryGfNa8RAIql8i9W8XCnnnlzEtVyOKhJca2yuHay90NR9HfsIIm6IVl7xLyVjNk7M16Vt6J",
+              "received": false
+            }
+          ],
+          "total_price": 53312,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e56381c508c5d5ec502d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

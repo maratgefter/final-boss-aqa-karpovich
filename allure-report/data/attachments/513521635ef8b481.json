@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 12 Feb 2026 22:37:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-wEBwuLRg/0ONH98W6qHSQIuOX5U\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698e56321c508c5d5ec4ffc0",
+        "email": "Haley.Cruickshank85@yahoo.com",
+        "name": "Jamil Walter",
+        "country": "Great Britain",
+        "city": "Watershaven",
+        "street": "Clementina River",
+        "house": 39,
+        "flat": 314,
+        "phone": "+18227921083",
+        "createdOn": "2026-02-12T22:37:38.000Z",
+        "notes": "5F8e617wRzo9MnzwCkBA5nQj8allNkKtHbuAkFaOaqaH3HWHrdst2TAfbmS5bXd3qEe6YMk8El2yqMtCttpG6F8Q7jexsskXTtI2XS6GqfEiQVbbxxM21AQv61mqXIrGwE0x7E4Tca7Fw6aeUmFkdnzxHXTcu9cdMw13mslyzR4810sWuXrO7gF5FtgA5YkFCx90qAUpHjSGHv0BuX41I8Vqec3YgaPNbxtSgICg6ZD7o0VGes5rkoDBAa"
+      },
+      "products": [
+        {
+          "_id": "698e56331c508c5d5ec50028",
+          "name": "Shoes55602",
+          "amount": 469,
+          "price": 86385,
+          "manufacturer": "Sony",
+          "notes": "s31s9XOCOybUQyFb60zk8ks2BhCFLdT8yewic0qJuDHVatwHGV0NEObBUbqcgfgn5lxYYMTUti3qHAtf1gc8Z0KN62X7a4DXdWoF0y4b0Faj3DiZmceisEo7anSdHNVxmjq0xeBDlINnr6Z64XB4IoZrVbmHCvgYAEwzwOqBwa6xCh4EkvNJi89aCSpQy2IskROTuHSwhnwiBGbs6gEaN8YheAZx0NRWEw7id16Vt13SoNTwG07zb6nJd8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86385,
+      "createdOn": "2026-02-12T22:37:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698e56321c508c5d5ec4ffc0",
+          "products": [
+            {
+              "_id": "698e56331c508c5d5ec50028",
+              "name": "Shoes55602",
+              "amount": 469,
+              "price": 86385,
+              "manufacturer": "Sony",
+              "notes": "s31s9XOCOybUQyFb60zk8ks2BhCFLdT8yewic0qJuDHVatwHGV0NEObBUbqcgfgn5lxYYMTUti3qHAtf1gc8Z0KN62X7a4DXdWoF0y4b0Faj3DiZmceisEo7anSdHNVxmjq0xeBDlINnr6Z64XB4IoZrVbmHCvgYAEwzwOqBwa6xCh4EkvNJi89aCSpQy2IskROTuHSwhnwiBGbs6gEaN8YheAZx0NRWEw7id16Vt13SoNTwG07zb6nJd8",
+              "received": false
+            }
+          ],
+          "total_price": 86385,
+          "delivery": null,
+          "changedOn": "2026-02-12T22:37:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698e56331c508c5d5ec5004a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
