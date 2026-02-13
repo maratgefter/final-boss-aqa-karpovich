@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2650",
+    "etag": "W/\"a5a-HF7rDGT7jaM2gA7K6rHMxMXpgj4\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8081c508c5d5ec56624",
+        "email": "Baron22@gmail.com",
+        "name": "Dean Reichert",
+        "country": "France",
+        "city": "Port Michaela",
+        "street": "Willow Road",
+        "house": 6,
+        "flat": 374,
+        "phone": "+16768150537",
+        "createdOn": "2026-02-13T22:39:04.000Z",
+        "notes": "ZuHbo5GNwdTqsSqGzxrl4pcLxkndQBssmC71GJ8qzNB3MLXQsB2RhEm4Ii3RNJuGk49dloXbC0iky7ZERlOBJenUK3iAHePIf2SxX11hpYwdml4jHz3AkjB1l1HN5jn4ci6oKntQdPGqvdIONDQCVU2UvpIOjyWxHVqt9fB3LS75jShz1xt3bL33Yhdm9c8KHSZ0bNT349DoKSRoIHgdJF2wFGoKoE6wHFnme83xoNnVm9KGG5Mp5WVfHO"
+      },
+      "products": [
+        {
+          "_id": "698fa8091c508c5d5ec56630",
+          "name": "Sausages74406",
+          "amount": 215,
+          "price": 86145,
+          "manufacturer": "Google",
+          "notes": "6iqvMQseWsYYCNcHrq7WugcpH2iU0XMuuDQ8LxNI0iyQXjXZfY5s9eazQthTtnmPudSgMVnc4oVbPxdjbNh5gptqBxx1Yycxe80euQ5b4U7v1jxGPFcrYaPOIHcmZEhU1XwlwaEvk2b0frZRjO551jcqMuNdt6xfqKvWBN6W0iM7CEZRct9ZjW0t2pvc8SEbYhzzzfkZuVfWVgHKF6B9DeQQegtThi60PLIhEDAeujrW2WJI66aXhntr3t",
+          "received": false
+        },
+        {
+          "_id": "698fa8091c508c5d5ec56648",
+          "name": "Towels84682",
+          "amount": 47,
+          "price": 14564,
+          "manufacturer": "Apple",
+          "notes": "6JsHFICUwGlK5OTvabXpZ57nJuHqEiLgz6ZSqnurpdRN8CiR5zvkgdDhoq0RfkSVocGUZkpmSOfaWQtuj29VdtFy1MmzFQxlzVnZxi2Szfu8CRAXRIFLNL1fSSJatZjAtAjbShtRCnXacfof1RMyZOFPBG6ku4cbJY9IU3xC1VijJidSoYUbASaFPeeftjPc6sJKCrZJI9IPeJx6NX29kKkaffRhPJdX5J1vxbn4nAsg5vUGQLYIIb0anK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100709,
+      "createdOn": "2026-02-13T22:39:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8081c508c5d5ec56624",
+          "products": [
+            {
+              "_id": "698fa8091c508c5d5ec56630",
+              "name": "Sausages74406",
+              "amount": 215,
+              "price": 86145,
+              "manufacturer": "Google",
+              "notes": "6iqvMQseWsYYCNcHrq7WugcpH2iU0XMuuDQ8LxNI0iyQXjXZfY5s9eazQthTtnmPudSgMVnc4oVbPxdjbNh5gptqBxx1Yycxe80euQ5b4U7v1jxGPFcrYaPOIHcmZEhU1XwlwaEvk2b0frZRjO551jcqMuNdt6xfqKvWBN6W0iM7CEZRct9ZjW0t2pvc8SEbYhzzzfkZuVfWVgHKF6B9DeQQegtThi60PLIhEDAeujrW2WJI66aXhntr3t",
+              "received": false
+            },
+            {
+              "_id": "698fa8091c508c5d5ec56648",
+              "name": "Towels84682",
+              "amount": 47,
+              "price": 14564,
+              "manufacturer": "Apple",
+              "notes": "6JsHFICUwGlK5OTvabXpZ57nJuHqEiLgz6ZSqnurpdRN8CiR5zvkgdDhoq0RfkSVocGUZkpmSOfaWQtuj29VdtFy1MmzFQxlzVnZxi2Szfu8CRAXRIFLNL1fSSJatZjAtAjbShtRCnXacfof1RMyZOFPBG6ku4cbJY9IU3xC1VijJidSoYUbASaFPeeftjPc6sJKCrZJI9IPeJx6NX29kKkaffRhPJdX5J1vxbn4nAsg5vUGQLYIIb0anK",
+              "received": false
+            }
+          ],
+          "total_price": 100709,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8091c508c5d5ec5665d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1897",
+    "etag": "W/\"769-jn+BAkM8ToKWXuTtMPkq8ddWlyU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8041c508c5d5ec56461",
+        "email": "Cornelius_Kreiger3@hotmail.com",
+        "name": "Webster Ernser",
+        "country": "Russia",
+        "city": "Port Dedrickshire",
+        "street": "Carter Place",
+        "house": 19,
+        "flat": 34,
+        "phone": "+18833725779",
+        "createdOn": "2026-02-13T22:39:00.000Z",
+        "notes": "RUEJcBQYk55CCxbNxFnAhS60fIdW3afG5ub5J7t8oxXIX6AQX22omfluFuM5XQopYrygFFOzEJVirhF7hqWE3G1IJyXTHgee8O2y7fwHgXilsYfrf04I8O8Li6DBbYdvAE9ZJRUfsgd1TlIFLSMktknV4uDMGuBtieiGIlSU5Ei3qofyBr8bJhGDSpmS8IMInEavIRzTnoyEHwqRnRkUHSlsTLtxW03NttSz3uXmPMFrSocOSPUdbTe8tg"
+      },
+      "products": [
+        {
+          "_id": "698fa8051c508c5d5ec56471",
+          "name": "Car57030",
+          "amount": 533,
+          "price": 86148,
+          "manufacturer": "Microsoft",
+          "notes": "rW48PbC2f5y1AAvoVXIXuqQoOym3h7MDZK5t4lVSj7g6JAqfqIccA4dxe7BKwhVopJPU3ZmH3FogoWfNTcA1phaQGzs8xScvkNxeX29lL5BvG9IBbeqlcmCKtIf5JxY69CK2iKGff4UApvRoyfT05dEvy87bLfFXAvn3TjBdc8mLz0M4VoSnTyeDdWJjo3gRoLoVP7ziIipU6amZ9cQCmdN7qCpOaVsDmX1UBhESiaX6RArIKu7W6b4n7g",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86148,
+      "createdOn": "2026-02-13T22:39:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8041c508c5d5ec56461",
+          "products": [
+            {
+              "_id": "698fa8051c508c5d5ec56471",
+              "name": "Car57030",
+              "amount": 533,
+              "price": 86148,
+              "manufacturer": "Microsoft",
+              "notes": "rW48PbC2f5y1AAvoVXIXuqQoOym3h7MDZK5t4lVSj7g6JAqfqIccA4dxe7BKwhVopJPU3ZmH3FogoWfNTcA1phaQGzs8xScvkNxeX29lL5BvG9IBbeqlcmCKtIf5JxY69CK2iKGff4UApvRoyfT05dEvy87bLfFXAvn3TjBdc8mLz0M4VoSnTyeDdWJjo3gRoLoVP7ziIipU6amZ9cQCmdN7qCpOaVsDmX1UBhESiaX6RArIKu7W6b4n7g",
+              "received": false
+            }
+          ],
+          "total_price": 86148,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8051c508c5d5ec5648d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:38:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1415",
+    "etag": "W/\"587-7lgWfxfHwGH4Dcm4GcAiO6KeXxE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "698fa8001c508c5d5ec56272",
+        "status": "Draft",
+        "customer": "698fa8001c508c5d5ec5624d",
+        "products": [
+          {
+            "_id": "698fa8001c508c5d5ec56259",
+            "name": "Computer44613",
+            "amount": 411,
+            "price": 70848,
+            "manufacturer": "Apple",
+            "notes": "HuzMOV8uoTa5sMiR9YbOd0EQdmApIFOQAzJTmeOds9IO3MQlE6ZxjS2rpLItbSMgqrxtcI44kHmNCdQSqpZDmDX2bzF6w2Mpjznrs9O93JXeahncDf3rS734UoeGyCdRhCg3w8OeMB9g7vWCBEMjXBBjkMTAwPDiSjFlYTtdVh8jcYFNj5EvgtYCWrQT9EhN3OLsO4xzkL2s2uXxpGKvqOToAz5cZd5yckG05f4t6FAc3lyOYNzt3VeRRd",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 70848,
+        "createdOn": "2026-02-13T22:38:56.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "698fa8001c508c5d5ec5624d",
+            "products": [
+              {
+                "_id": "698fa8001c508c5d5ec56259",
+                "name": "Computer44613",
+                "amount": 411,
+                "price": 70848,
+                "manufacturer": "Apple",
+                "notes": "HuzMOV8uoTa5sMiR9YbOd0EQdmApIFOQAzJTmeOds9IO3MQlE6ZxjS2rpLItbSMgqrxtcI44kHmNCdQSqpZDmDX2bzF6w2Mpjznrs9O93JXeahncDf3rS734UoeGyCdRhCg3w8OeMB9g7vWCBEMjXBBjkMTAwPDiSjFlYTtdVh8jcYFNj5EvgtYCWrQT9EhN3OLsO4xzkL2s2uXxpGKvqOToAz5cZd5yckG05f4t6FAc3lyOYNzt3VeRRd",
+                "received": false
+              }
+            ],
+            "total_price": 70848,
+            "delivery": null,
+            "changedOn": "2026-02-13T22:38:56.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953333",
+              "username": "student7@gmail.com",
+              "firstName": "Torrey",
+              "lastName": "Bechtelar",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

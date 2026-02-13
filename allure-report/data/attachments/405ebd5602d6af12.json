@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2639",
+    "etag": "W/\"a4f-hHl8jq/9NxUQyIrUnjyvoNxgpIY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8311c508c5d5ec57bc6",
+        "email": "Garland.Grimes@yahoo.com",
+        "name": "Tyson Hills",
+        "country": "USA",
+        "city": "Lake Berta",
+        "street": "Kerluke Plains",
+        "house": 12,
+        "flat": 926,
+        "phone": "+19854036319",
+        "createdOn": "2026-02-13T22:39:45.000Z",
+        "notes": "62kgnZXFI08dtnviADm3vvUIr2DCNxVdyIC5dYBTad8Cju4hL0Ap3HFjN0MbqfYxdPKmnYS8AiTMsVSdxDLpy3K1XNh8RdPGupOIjyHuOjzTK5tbaJJ0zFLdPlycgdgAkWVas0PkJOI3hWxXcIpvyGxJqLmh6UfRsSe8FHNve9fu2W098snl7Q5O1fBi7GiHrh2HSCq8Xi97oW6IFOe1NHWB17fH5QnbxDdsUa0lYxW9WftnrnSkUR9J2D"
+      },
+      "products": [
+        {
+          "_id": "698fa8321c508c5d5ec57c56",
+          "name": "Gloves59873",
+          "amount": 584,
+          "price": 44017,
+          "manufacturer": "Apple",
+          "notes": "wZIbMk5Ld4PDZN8dyrMFDow8QuEQybgNlDDQtUZYLazKbW9V62XEfkp23prVAzsPaftHgTHD18XxxF2c7NA8FJJjmx9Wud438HhVvKgPgbQGdmlwpHRn0gBC9TiuWmS7M0jjZjui9kgXGHaz0XBrZT0mxJ4BfoaJdh5ddynlQnnp4ALO5cvnmU0nvWy38va9lQ0Zvr7nY5RcKUaruCtCRZM6QIJqPhuxVjIQ6dDIABNoLyQAneckco8FIX",
+          "received": false
+        },
+        {
+          "_id": "698fa8331c508c5d5ec57d3d",
+          "name": "Hat45955",
+          "amount": 737,
+          "price": 15666,
+          "manufacturer": "Sony",
+          "notes": "Bbe4kSEQ1gxpUV8RGSXgH83By6hEeVHApFiXpd55MUGOacfYn3UrTCS2cYRGROKv78zRPEpcncutn6MdIo3JTntRNLfU9m8jzjVzU7JKYkaNRdAUtmRnaU68rDqGEE6SFqkp3ICBdl02DlAAGnO1RjD9a7IdX8R0HtNr8st8KPm7DK9TBO8hFOJJe0tvXjU3LuMdimRTum0ED8fHgrRhzPTPmlEp1YhJbZk2Bye6vEtnNiVEv1Bjbk98cm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59683,
+      "createdOn": "2026-02-13T22:39:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8311c508c5d5ec57bc6",
+          "products": [
+            {
+              "_id": "698fa8321c508c5d5ec57c56",
+              "name": "Gloves59873",
+              "amount": 584,
+              "price": 44017,
+              "manufacturer": "Apple",
+              "notes": "wZIbMk5Ld4PDZN8dyrMFDow8QuEQybgNlDDQtUZYLazKbW9V62XEfkp23prVAzsPaftHgTHD18XxxF2c7NA8FJJjmx9Wud438HhVvKgPgbQGdmlwpHRn0gBC9TiuWmS7M0jjZjui9kgXGHaz0XBrZT0mxJ4BfoaJdh5ddynlQnnp4ALO5cvnmU0nvWy38va9lQ0Zvr7nY5RcKUaruCtCRZM6QIJqPhuxVjIQ6dDIABNoLyQAneckco8FIX",
+              "received": false
+            },
+            {
+              "_id": "698fa8331c508c5d5ec57d3d",
+              "name": "Hat45955",
+              "amount": 737,
+              "price": 15666,
+              "manufacturer": "Sony",
+              "notes": "Bbe4kSEQ1gxpUV8RGSXgH83By6hEeVHApFiXpd55MUGOacfYn3UrTCS2cYRGROKv78zRPEpcncutn6MdIo3JTntRNLfU9m8jzjVzU7JKYkaNRdAUtmRnaU68rDqGEE6SFqkp3ICBdl02DlAAGnO1RjD9a7IdX8R0HtNr8st8KPm7DK9TBO8hFOJJe0tvXjU3LuMdimRTum0ED8fHgrRhzPTPmlEp1YhJbZk2Bye6vEtnNiVEv1Bjbk98cm",
+              "received": false
+            }
+          ],
+          "total_price": 59683,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8341c508c5d5ec57d70"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-tMBK7jUyCtJLgCOEPL8QeWUsMWg\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8081c508c5d5ec565ca",
+        "email": "Timmothy95@gmail.com",
+        "name": "Earline Bernhard",
+        "country": "USA",
+        "city": "Champaign",
+        "street": "Abbey Road",
+        "house": 44,
+        "flat": 922,
+        "phone": "+19929018507",
+        "createdOn": "2026-02-13T22:39:04.000Z",
+        "notes": "RVCJ25q5aVcrvsd1m77FI5KypyJV6pcCu3QNVrbtb3J2XmwJBI1CXNlpfYaQLUQv0dN12KgdvF9rCUSJoxWUF0G0fTjayQgNuGGyXjVVjMzlzRn6mGAZHaKcetCaU2H3AbaPORsNqQSzXiZ58nyq4BZfzBc6G9j5DEALqIZwABiDdMe4C36BeyVsJgdfGbu6FBTTv4hmU8sd3M5poedysACetn4Dx6hMKclDAfpAcPIpTZieYdObLFhlSQ"
+      },
+      "products": [
+        {
+          "_id": "698fa8081c508c5d5ec565e7",
+          "name": "Pizza75492",
+          "amount": 439,
+          "price": 34485,
+          "manufacturer": "Amazon",
+          "notes": "7VlGt8LlSFmxctFCLzgEss2a9FQ5PRayzOWAnOpYUfhR9i7YI3HhTdaMLwTkuMvbqMl3jKB2GjzcOav0BjvKhuvgwXAcuq8pGPxZiVrz5UfXgTHmWfFKkTQJ3I1x12GOgsRjRLUAATB7a8Miq85gjlTjJFMdA5nltouZC46l0frMslSQQ3NRcCyzP1yaD8BfM9S1RPA1kwhKvkHETYMp7Tpur0fI4SaHcPXTJodrXaq92iAyHjaE3GoqOS",
+          "received": false
+        },
+        {
+          "_id": "698fa8081c508c5d5ec56605",
+          "name": "Soap78402",
+          "amount": 614,
+          "price": 35830,
+          "manufacturer": "Samsung",
+          "notes": "OQeYLDX9h6gzVnaNvuE7vxrz9iXh1QOsTMmsOj9hdiTmnvO31UYl02JivDxhm4Da1o7ZWb5MQedRIdyZhmXVlH8uX4EbPZhACL4JAeUntr9hECaCjYHDcjyiKANl5HoLw5XUbiyZAVbsPsIRiZU1GVoNFN7Cwbv0eWrhpSxw7u5HpNcVEEkeLEmK3nMZvetb7ilvqeeN40W291ZcaLwNprVquHFrkBrahAB6pz2ChppJf2TI3uIau9uacn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70315,
+      "createdOn": "2026-02-13T22:39:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8081c508c5d5ec565ca",
+          "products": [
+            {
+              "_id": "698fa8081c508c5d5ec565e7",
+              "name": "Pizza75492",
+              "amount": 439,
+              "price": 34485,
+              "manufacturer": "Amazon",
+              "notes": "7VlGt8LlSFmxctFCLzgEss2a9FQ5PRayzOWAnOpYUfhR9i7YI3HhTdaMLwTkuMvbqMl3jKB2GjzcOav0BjvKhuvgwXAcuq8pGPxZiVrz5UfXgTHmWfFKkTQJ3I1x12GOgsRjRLUAATB7a8Miq85gjlTjJFMdA5nltouZC46l0frMslSQQ3NRcCyzP1yaD8BfM9S1RPA1kwhKvkHETYMp7Tpur0fI4SaHcPXTJodrXaq92iAyHjaE3GoqOS",
+              "received": false
+            },
+            {
+              "_id": "698fa8081c508c5d5ec56605",
+              "name": "Soap78402",
+              "amount": 614,
+              "price": 35830,
+              "manufacturer": "Samsung",
+              "notes": "OQeYLDX9h6gzVnaNvuE7vxrz9iXh1QOsTMmsOj9hdiTmnvO31UYl02JivDxhm4Da1o7ZWb5MQedRIdyZhmXVlH8uX4EbPZhACL4JAeUntr9hECaCjYHDcjyiKANl5HoLw5XUbiyZAVbsPsIRiZU1GVoNFN7Cwbv0eWrhpSxw7u5HpNcVEEkeLEmK3nMZvetb7ilvqeeN40W291ZcaLwNprVquHFrkBrahAB6pz2ChppJf2TI3uIau9uacn",
+              "received": false
+            }
+          ],
+          "total_price": 70315,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8081c508c5d5ec5661e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-jZD9/d4srNep8JY0decW7/v2AAY\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8171c508c5d5ec56d79",
+        "email": "Myrtis45@gmail.com",
+        "name": "Alexys Mraz",
+        "country": "Great Britain",
+        "city": "Kileyborough",
+        "street": "W 12th Street",
+        "house": 46,
+        "flat": 139,
+        "phone": "+16705346308",
+        "createdOn": "2026-02-13T22:39:19.000Z",
+        "notes": "L4Ez9bi3EY453LJSoQAE8DSrLQX64NkwNEIxXjypW5XyU66E054omGoRH8cvI30OWUO1b7wMp9yJT8hAyPMa9y9oEhbQkki30eRn0mUvpnJLHUpgXAwbOeO5AQGDK9SHXPfn28UoHJ87wvbIDirB6aJ83jL0VGwip99yjw3ffOZpmp90GlAp7W5UeyXj6o7pQQ2MPiPdiz2ZoGqfi2zEO07Nl2SjTHdmHfEiV5l8xYxaa9a92NclN0FMW6"
+      },
+      "products": [
+        {
+          "_id": "698fa8181c508c5d5ec56def",
+          "name": "Mouse79773",
+          "amount": 119,
+          "price": 45074,
+          "manufacturer": "Tesla",
+          "notes": "KZYugLk3DovCMgfwbZGzLdGwCtbyS7q3ek2XfzkAiYuUUB0X4aKaIbKzIZIVcEJsqdNmBBPGdtohSMsfgrDwpIbZQzxlX9XHx6JrWy0Jn4zLnyolsk1xB0xeYo2FxDPgO1OHpKZE70b2de59t2r6rw0TjnKYGrXcgCbcrS3fx0IjmgrgzZKcuLwU4nnjQFkFO3Qt4lDw2ohOCPaYB1CNUPSd70gfzX8AedHghKjJ451L8Flf6kkugYTHqS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45074,
+      "createdOn": "2026-02-13T22:39:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8171c508c5d5ec56d79",
+          "products": [
+            {
+              "_id": "698fa8181c508c5d5ec56def",
+              "name": "Mouse79773",
+              "amount": 119,
+              "price": 45074,
+              "manufacturer": "Tesla",
+              "notes": "KZYugLk3DovCMgfwbZGzLdGwCtbyS7q3ek2XfzkAiYuUUB0X4aKaIbKzIZIVcEJsqdNmBBPGdtohSMsfgrDwpIbZQzxlX9XHx6JrWy0Jn4zLnyolsk1xB0xeYo2FxDPgO1OHpKZE70b2de59t2r6rw0TjnKYGrXcgCbcrS3fx0IjmgrgzZKcuLwU4nnjQFkFO3Qt4lDw2ohOCPaYB1CNUPSd70gfzX8AedHghKjJ451L8Flf6kkugYTHqS",
+              "received": false
+            }
+          ],
+          "total_price": 45074,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8181c508c5d5ec56e19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

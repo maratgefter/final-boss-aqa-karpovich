@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-iZZZfUe1vgXg1UYvw09Qa3LiSFE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8071c508c5d5ec56582",
+        "email": "Magnus.Swaniawski85@gmail.com",
+        "name": "Ryann Rath",
+        "country": "Russia",
+        "city": "Rosalynchester",
+        "street": "Wellington Street",
+        "house": 11,
+        "flat": 151,
+        "phone": "+17246259347",
+        "createdOn": "2026-02-13T22:39:03.000Z",
+        "notes": "shPXYFWwxSGzsH2sD0pArEDuEi5RIoWt3kssGWjMSgH8tbgdpgD8a5hxx6LtyK5fzwVEOAb66hESB0nKMEOCJ9ayAhFAHdanJd03CdCMvGnscd92JuXfg1uD2cRyuiSu2dEBFEmQXw3xgSjEyWe8O3XR1RN7kzlOBX1ptsuDGVzJdKtp7aQmCz1ySdJIQYjNCPYCd9i9TuDttrLA5KQ5fCEKq2XBosXZieSF6tn4j2fRstVBwr0nvrNXZw"
+      },
+      "products": [
+        {
+          "_id": "698fa8071c508c5d5ec565a2",
+          "name": "Shirt59636",
+          "amount": 639,
+          "price": 73036,
+          "manufacturer": "Microsoft",
+          "notes": "bKUSAi5MRVFqrqzDfLTA0RnGMGCbf2DpFaIu07wCYcGHPCas1hOJTrhgkiq0d4xajrd3q17wmqIFfJjEXqHl2b5JpzLHNStPoajV0kEJxpnrvWswGpmLUkXR8DLcxPAn12X4dBFPgj5O7olL2dyQnSAxyyk9rpeu4clEM0Ajp0FLx45yMta7LoAzWcyanVzQRm8RUqNBZzfqJrDWEj7RktE0mvxN1QFG8EsRE3lp75wVLmcOaawzmoAn3L",
+          "received": false
+        },
+        {
+          "_id": "698fa8071c508c5d5ec565c0",
+          "name": "Soap69499",
+          "amount": 370,
+          "price": 27450,
+          "manufacturer": "Microsoft",
+          "notes": "GCzo62rr3bb02AqNO4btqSUwAZFLcsP2glxNmva2KfVKvJD6rt8VKphYxcXZ5sfBMcsf2NWdOCPf7p5wyF7sxpUBI3naRcdVPfXTKiz9svAc980NaAHbtdrtYAFioAyayBuzv6cT2UKl3ZkIIBRjDJgTAPSoeYhVOA8u6bulzljsLZHI9DwajdtCPUpx1M9xvniBOzb7V6cVceHiJiRqPI92PmOqSm8WDa1DcODiYYTxuYQQUFSbz2k6BM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100486,
+      "createdOn": "2026-02-13T22:39:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8071c508c5d5ec56582",
+          "products": [
+            {
+              "_id": "698fa8071c508c5d5ec565a2",
+              "name": "Shirt59636",
+              "amount": 639,
+              "price": 73036,
+              "manufacturer": "Microsoft",
+              "notes": "bKUSAi5MRVFqrqzDfLTA0RnGMGCbf2DpFaIu07wCYcGHPCas1hOJTrhgkiq0d4xajrd3q17wmqIFfJjEXqHl2b5JpzLHNStPoajV0kEJxpnrvWswGpmLUkXR8DLcxPAn12X4dBFPgj5O7olL2dyQnSAxyyk9rpeu4clEM0Ajp0FLx45yMta7LoAzWcyanVzQRm8RUqNBZzfqJrDWEj7RktE0mvxN1QFG8EsRE3lp75wVLmcOaawzmoAn3L",
+              "received": false
+            },
+            {
+              "_id": "698fa8071c508c5d5ec565c0",
+              "name": "Soap69499",
+              "amount": 370,
+              "price": 27450,
+              "manufacturer": "Microsoft",
+              "notes": "GCzo62rr3bb02AqNO4btqSUwAZFLcsP2glxNmva2KfVKvJD6rt8VKphYxcXZ5sfBMcsf2NWdOCPf7p5wyF7sxpUBI3naRcdVPfXTKiz9svAc980NaAHbtdrtYAFioAyayBuzv6cT2UKl3ZkIIBRjDJgTAPSoeYhVOA8u6bulzljsLZHI9DwajdtCPUpx1M9xvniBOzb7V6cVceHiJiRqPI92PmOqSm8WDa1DcODiYYTxuYQQUFSbz2k6BM",
+              "received": false
+            }
+          ],
+          "total_price": 100486,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8081c508c5d5ec565f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

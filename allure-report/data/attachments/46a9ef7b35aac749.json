@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2633",
+    "etag": "W/\"a49-imJSdXatYXW8yswrUWtGDrFjcgA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8121c508c5d5ec56a84",
+        "email": "Mara96@yahoo.com",
+        "name": "Myron Rohan",
+        "country": "USA",
+        "city": "North Kelley",
+        "street": "Orlando Shoals",
+        "house": 36,
+        "flat": 329,
+        "phone": "+19136228410",
+        "createdOn": "2026-02-13T22:39:14.000Z",
+        "notes": "WitfPvQMEvUXgJuE3S9maTUE1WKyc98Bt9QSfzl5m4vXe4E0p7hw2hNEGtoEKd6r8N3upZFe5TlhXez9LGzy80BVKSXtXXyFxxT4aCQ1YnkPt4wkGlSO7MRNKlRx9CyTt26YYaEEkMRAAIbbLUfrQN0nwEQFyvRLJ5HYkD5lLj2Wyxcfw90fNphHnqyFDLiM2MNGYl2Mp4Wp1JWYnQlerlNVOIP41oY0OkibqDPtYrgcobzrnGnDsLLJaB"
+      },
+      "products": [
+        {
+          "_id": "698fa8121c508c5d5ec56a9d",
+          "name": "Hat9436",
+          "amount": 121,
+          "price": 49891,
+          "manufacturer": "Xiaomi",
+          "notes": "PPqc3xLCyLB491XzenuJ6raU4b5F4kJuLtg4LZRGt60VnExeXTlHiF1Z7IXTOi0tnyRgBzoDOLTnkLMPsdGE8ywM6HEUDUbnAqh1B6z9P6Wz2vNRB274yvHRta92VCuHWNQnlpqECfuStbAGy2P6mKYGRMlQuQSLXdx9e6LGayTwhZKmZy7LARRj8dUabRprov9bou3GwRzlPizOMAr9nEsm7oY5pykfp2982UEq4gHfavaDk5NQQ0WhvT",
+          "received": false
+        },
+        {
+          "_id": "698fa8121c508c5d5ec56aaf",
+          "name": "Car52604",
+          "amount": 459,
+          "price": 84530,
+          "manufacturer": "Amazon",
+          "notes": "BqcdXe6dD6cPAZpER4iEBLiJckS07B2P9GQgGkvoU6fBans3hoVuifAi4X9e1Yf0DqVjyoMmt8W27tR8ZwAuzwQlXqUVsvfluRT0ihN5NQxFClj03lZys404bbjDD09mDe0yDTCxer3JnM7RFLV7Z3LUCdlfjQOTyzZkTQ2bchuR7ERPRKopd9FwNnc8r4i2F8FbrUxGFg3lsqDyBV99kXnjJiOPqorEfj5vXZ2QwCEfF01mvzvIC47Ek8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 134421,
+      "createdOn": "2026-02-13T22:39:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8121c508c5d5ec56a84",
+          "products": [
+            {
+              "_id": "698fa8121c508c5d5ec56a9d",
+              "name": "Hat9436",
+              "amount": 121,
+              "price": 49891,
+              "manufacturer": "Xiaomi",
+              "notes": "PPqc3xLCyLB491XzenuJ6raU4b5F4kJuLtg4LZRGt60VnExeXTlHiF1Z7IXTOi0tnyRgBzoDOLTnkLMPsdGE8ywM6HEUDUbnAqh1B6z9P6Wz2vNRB274yvHRta92VCuHWNQnlpqECfuStbAGy2P6mKYGRMlQuQSLXdx9e6LGayTwhZKmZy7LARRj8dUabRprov9bou3GwRzlPizOMAr9nEsm7oY5pykfp2982UEq4gHfavaDk5NQQ0WhvT",
+              "received": false
+            },
+            {
+              "_id": "698fa8121c508c5d5ec56aaf",
+              "name": "Car52604",
+              "amount": 459,
+              "price": 84530,
+              "manufacturer": "Amazon",
+              "notes": "BqcdXe6dD6cPAZpER4iEBLiJckS07B2P9GQgGkvoU6fBans3hoVuifAi4X9e1Yf0DqVjyoMmt8W27tR8ZwAuzwQlXqUVsvfluRT0ihN5NQxFClj03lZys404bbjDD09mDe0yDTCxer3JnM7RFLV7Z3LUCdlfjQOTyzZkTQ2bchuR7ERPRKopd9FwNnc8r4i2F8FbrUxGFg3lsqDyBV99kXnjJiOPqorEfj5vXZ2QwCEfF01mvzvIC47Ek8",
+              "received": false
+            }
+          ],
+          "total_price": 134421,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8141c508c5d5ec56bf9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-eNW+2tPQ3ECdfQa6X0VXESYAE8Q\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8181c508c5d5ec56e07",
+        "email": "Armando.Wisozk49@yahoo.com",
+        "name": "Jasmin Waters",
+        "country": "USA",
+        "city": "Schmelerfield",
+        "street": "Huels Crossroad",
+        "house": 39,
+        "flat": 119,
+        "phone": "+15922195101",
+        "createdOn": "2026-02-13T22:39:20.000Z",
+        "notes": "CSDAYLOGBW0XSjaVrMmfcr0hQGyzImKVKE13OB9boHPXboqSsvle1Q226RujG8eKXMqPx5Vf2NWzzlgPOn5A4ZL406cTphYbBCoeM3lEBNDB5qVfKLgZDGgryyi3F15yiXfouoNnGuFz0hmBLPowjEEFxtMPF8jzFgqHD9EY99DDtPgd8Lv1Nc4DBu4o7XPYfcJFSX3sjWt7gYpqihqkTLkzyBANyOFw1GhKa1Im5ovity9RD7gV4PwOTs"
+      },
+      "products": [
+        {
+          "_id": "698fa8191c508c5d5ec56e4d",
+          "name": "Fish95530",
+          "amount": 78,
+          "price": 58638,
+          "manufacturer": "Google",
+          "notes": "BGj25AzoBc5V6KUaqOwQK4VKVwlsvOnTcKhQHYUIs1vQg1xiXgbZVZlvaH8iUng6TSPIja4yV2QjFEAWOd2u0Hg4b8Hh0lAZ01JjB3cC5l2Uyxml6QJnMJdbGnio6rs8SVMRuaenltsbR83BzTyUpr8hngpsoVSCP9daBpcJFvawehKSxxT1uiigdmSNAT2WJCn30aAi5XADTFgiB8ynbNU4pkdcwX95wa8ClfqQCHsVyxd2KPTvBCrA37",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58638,
+      "createdOn": "2026-02-13T22:39:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8181c508c5d5ec56e07",
+          "products": [
+            {
+              "_id": "698fa8191c508c5d5ec56e4d",
+              "name": "Fish95530",
+              "amount": 78,
+              "price": 58638,
+              "manufacturer": "Google",
+              "notes": "BGj25AzoBc5V6KUaqOwQK4VKVwlsvOnTcKhQHYUIs1vQg1xiXgbZVZlvaH8iUng6TSPIja4yV2QjFEAWOd2u0Hg4b8Hh0lAZ01JjB3cC5l2Uyxml6QJnMJdbGnio6rs8SVMRuaenltsbR83BzTyUpr8hngpsoVSCP9daBpcJFvawehKSxxT1uiigdmSNAT2WJCn30aAi5XADTFgiB8ynbNU4pkdcwX95wa8ClfqQCHsVyxd2KPTvBCrA37",
+              "received": false
+            }
+          ],
+          "total_price": 58638,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa81a1c508c5d5ec56ed3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

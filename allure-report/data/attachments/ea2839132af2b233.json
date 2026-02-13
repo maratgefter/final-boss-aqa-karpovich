@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-ztOaXsKSA9rH0+RaKWi/nhHv1VU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8181c508c5d5ec56e0c",
+        "email": "Hillary21@yahoo.com",
+        "name": "Mona Oberbrunner",
+        "country": "France",
+        "city": "Gardnerfort",
+        "street": "Ila Station",
+        "house": 8,
+        "flat": 891,
+        "phone": "+15909249548",
+        "createdOn": "2026-02-13T22:39:20.000Z",
+        "notes": "0OOEp3LLpoS5Y6ZnZYEbTrJdIzqnSHuohcr65dJ6MUMHHBMCBZnfCXLgrIsvD6oYkaLjYuBxLtYseGSBcV0i7Svnf6NfeLm4dEOMOG0bg1L9O61w01bazrvIfk1s3UhiLjah1ZhqpupJ1tCsmPnxywcV8oZBbMzuarwWF342GZBBf0lOt3OXpATGOuIO6aDpoeuPzjCOLj7Gl9Dwqe2ENSPuMXViEKTSgB8WKG6ll8rYy3be3RukiefnP9"
+      },
+      "products": [
+        {
+          "_id": "698fa8191c508c5d5ec56e48",
+          "name": "Pants62020",
+          "amount": 752,
+          "price": 62808,
+          "manufacturer": "Microsoft",
+          "notes": "xQyurPD1WIM5fZbUGi7UOs7bM8krCvzdKTy7ta5NKH5uKJV7J6tn8UE5wzoK6oVxuo6S330uzWrRfBJEDKeXtfpCRSg9STcKbuilLh4ib9VoksvZksYk0f7QtrBJ1OeJZqpfRxZRjTUhtPy5e8cjRCiR8381FtcXfYZNA5cFAZQFjFhItQ9ualQaMjmlrzxybLKgcOkgW8tK45Orbcu2BPMHJ69NAa7KXY1rqsuytH4lZYwTK4KBO1p2Z7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62808,
+      "createdOn": "2026-02-13T22:39:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8181c508c5d5ec56e0c",
+          "products": [
+            {
+              "_id": "698fa8191c508c5d5ec56e48",
+              "name": "Pants62020",
+              "amount": 752,
+              "price": 62808,
+              "manufacturer": "Microsoft",
+              "notes": "xQyurPD1WIM5fZbUGi7UOs7bM8krCvzdKTy7ta5NKH5uKJV7J6tn8UE5wzoK6oVxuo6S330uzWrRfBJEDKeXtfpCRSg9STcKbuilLh4ib9VoksvZksYk0f7QtrBJ1OeJZqpfRxZRjTUhtPy5e8cjRCiR8381FtcXfYZNA5cFAZQFjFhItQ9ualQaMjmlrzxybLKgcOkgW8tK45Orbcu2BPMHJ69NAa7KXY1rqsuytH4lZYwTK4KBO1p2Z7",
+              "received": false
+            }
+          ],
+          "total_price": 62808,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa81a1c508c5d5ec56ece"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

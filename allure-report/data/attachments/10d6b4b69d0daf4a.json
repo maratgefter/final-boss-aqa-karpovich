@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2624",
+    "etag": "W/\"a40-tdnR+xZns9S++QSnNyhEKcuw0qU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8121c508c5d5ec56ab4",
+        "email": "Brycen76@gmail.com",
+        "name": "Sarai Miller",
+        "country": "Russia",
+        "city": "Boyerboro",
+        "street": "Ole Via",
+        "house": 33,
+        "flat": 79,
+        "phone": "+16655493593",
+        "createdOn": "2026-02-13T22:39:14.000Z",
+        "notes": "jWmkDcJAbt5AcexzFqmJyQRIpM7AVA71RGjraNCUU6IhARoBBgEPAJkr2uxD2gH3hYz1g6fw1LsfWCscq94mgyWeuyRiuYDVzqGrDqgSljuxAiKEa4ZOxk7YunHzDfFyTzVu7XpCSU8SIosnmpBFO5hnAMreMLHqs0AXKTLSxR2zcH00EugZtslsNX1NLeVlFn1TeZRqUCX4sBIlyZ3cxWYiDycLiVy8oaZR85oDgy3v1CAMBdPHE4dEfC"
+      },
+      "products": [
+        {
+          "_id": "698fa8131c508c5d5ec56b95",
+          "name": "Ball26817",
+          "amount": 867,
+          "price": 226,
+          "manufacturer": "Samsung",
+          "notes": "pHqCWCje8jQZ4t5oKC6r5utkML69mLGIib2pKuPjgg2HIryqMjOEngfNbAr5XZVA6bMTghJ8UZ0nXgRzjRVMA7e2goiGnHolh091rWZoI6KKZyu4wsHqsZhpB5kWEuMweA0JQqG7b36RVnfxHKUva2b2WwgE04JVzbBTm4EfLrXQ8dOY7jbbluVQUGui0Mv93ORH8pFjl1VCc2Q4aRAhnhoRWFE4szjFLx7uFEClh38sNEgElGxhd63KT9",
+          "received": false
+        },
+        {
+          "_id": "698fa8141c508c5d5ec56c0d",
+          "name": "Tuna86939",
+          "amount": 31,
+          "price": 52942,
+          "manufacturer": "Sony",
+          "notes": "7Ip7ajZn8rKVMFe21wjO2VQIZaujG4bzkXLuN11npzrAoNZ83fjT341zQHE8aw4l65Um0DI5wK3SmHVjL0ueYilWpH5F7QJCh4Xy4XPsyrsRXsgsw1FZ6ULnePI97F4njQm6gPquN0VXXB4J3ERcWz7NNbXnA70GoAAhKvRnM4fKt6wL4w3XdYYrGKv4lm0zQdgJ2cctUFg08EZ6xxxK1XvS96KYZmbFeZLAsnsarXL7sJcnblHAgsUkSA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53168,
+      "createdOn": "2026-02-13T22:39:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8121c508c5d5ec56ab4",
+          "products": [
+            {
+              "_id": "698fa8131c508c5d5ec56b95",
+              "name": "Ball26817",
+              "amount": 867,
+              "price": 226,
+              "manufacturer": "Samsung",
+              "notes": "pHqCWCje8jQZ4t5oKC6r5utkML69mLGIib2pKuPjgg2HIryqMjOEngfNbAr5XZVA6bMTghJ8UZ0nXgRzjRVMA7e2goiGnHolh091rWZoI6KKZyu4wsHqsZhpB5kWEuMweA0JQqG7b36RVnfxHKUva2b2WwgE04JVzbBTm4EfLrXQ8dOY7jbbluVQUGui0Mv93ORH8pFjl1VCc2Q4aRAhnhoRWFE4szjFLx7uFEClh38sNEgElGxhd63KT9",
+              "received": false
+            },
+            {
+              "_id": "698fa8141c508c5d5ec56c0d",
+              "name": "Tuna86939",
+              "amount": 31,
+              "price": 52942,
+              "manufacturer": "Sony",
+              "notes": "7Ip7ajZn8rKVMFe21wjO2VQIZaujG4bzkXLuN11npzrAoNZ83fjT341zQHE8aw4l65Um0DI5wK3SmHVjL0ueYilWpH5F7QJCh4Xy4XPsyrsRXsgsw1FZ6ULnePI97F4njQm6gPquN0VXXB4J3ERcWz7NNbXnA70GoAAhKvRnM4fKt6wL4w3XdYYrGKv4lm0zQdgJ2cctUFg08EZ6xxxK1XvS96KYZmbFeZLAsnsarXL7sJcnblHAgsUkSA",
+              "received": false
+            }
+          ],
+          "total_price": 53168,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8151c508c5d5ec56c90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

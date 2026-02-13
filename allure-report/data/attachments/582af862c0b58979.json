@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3874",
+    "etag": "W/\"f22-/dW/93iqz9SWrSgVyxI755SBk3g\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "698fa82a1c508c5d5ec5783b",
+      "status": "In Process",
+      "customer": {
+        "_id": "698fa8281c508c5d5ec576cd",
+        "email": "Jean_Wintheiser@hotmail.com",
+        "name": "Ernesto Auer",
+        "country": "Germany",
+        "city": "Fort Roberta",
+        "street": "The Green",
+        "house": 17,
+        "flat": 491,
+        "phone": "+17919017527",
+        "createdOn": "2026-02-13T22:39:36.000Z",
+        "notes": "WZzJrsYxIC4x4SGO8rMWAMqYrlWjzivC9fMy3CRKQ8BY7GRhmTsjW5iBCTqLMQFt8tERuEbKZUEaVKFaCUkYJrablCQyOo33CQT8QJY3NMvnnrnAsZyDVLeOt0alvYeBGKHAr5QhJjOYBF47xWmNNbE0yEaV6C5WlDmgpYFrMvkEb173cE3KUOGdSf54XZSltlaa0DzPLLhtvDKAehny850OSnZ4WAkxhuV8SFvbWAXY7WWwCW8UGG7ms3"
+      },
+      "products": [
+        {
+          "_id": "698fa8291c508c5d5ec57753",
+          "name": "Pizza11487",
+          "amount": 643,
+          "price": 63679,
+          "manufacturer": "Amazon",
+          "notes": "ektnz4m3rUdxBL3ohJ26aWBbquvFs5GiFFnPZGuS5DvqVCXzUbjPEes0MGyrAIF2mHZ71fRHTXA5IkcJgtTeFOrRJjZY4zBTfvgBnIUST2F9DpWwJqLuZ1vHR57g3JkOX804nlLAuNNSH8goOMTKdHiZffoZ2tc5qZ9FQmu7HkpvKkwFfREQWIAPmGUSLmXK2q3aypQh6A0fuyilzH052oKVUIfp7lGJENPDU43tV3seR4qCzKM1US1JbI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Roberta",
+          "street": "The Green",
+          "house": 17,
+          "flat": 491
+        },
+        "finalDate": "2026-02-16T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 63679,
+      "createdOn": "2026-02-13T22:39:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "698fa8281c508c5d5ec576cd",
+          "products": [
+            {
+              "_id": "698fa8291c508c5d5ec57753",
+              "name": "Pizza11487",
+              "amount": 643,
+              "price": 63679,
+              "manufacturer": "Amazon",
+              "notes": "ektnz4m3rUdxBL3ohJ26aWBbquvFs5GiFFnPZGuS5DvqVCXzUbjPEes0MGyrAIF2mHZ71fRHTXA5IkcJgtTeFOrRJjZY4zBTfvgBnIUST2F9DpWwJqLuZ1vHR57g3JkOX804nlLAuNNSH8goOMTKdHiZffoZ2tc5qZ9FQmu7HkpvKkwFfREQWIAPmGUSLmXK2q3aypQh6A0fuyilzH052oKVUIfp7lGJENPDU43tV3seR4qCzKM1US1JbI",
+              "received": false
+            }
+          ],
+          "total_price": 63679,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Roberta",
+              "street": "The Green",
+              "house": 17,
+              "flat": 491
+            },
+            "finalDate": "2026-02-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-13T22:39:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698fa8281c508c5d5ec576cd",
+          "products": [
+            {
+              "_id": "698fa8291c508c5d5ec57753",
+              "name": "Pizza11487",
+              "amount": 643,
+              "price": 63679,
+              "manufacturer": "Amazon",
+              "notes": "ektnz4m3rUdxBL3ohJ26aWBbquvFs5GiFFnPZGuS5DvqVCXzUbjPEes0MGyrAIF2mHZ71fRHTXA5IkcJgtTeFOrRJjZY4zBTfvgBnIUST2F9DpWwJqLuZ1vHR57g3JkOX804nlLAuNNSH8goOMTKdHiZffoZ2tc5qZ9FQmu7HkpvKkwFfREQWIAPmGUSLmXK2q3aypQh6A0fuyilzH052oKVUIfp7lGJENPDU43tV3seR4qCzKM1US1JbI",
+              "received": false
+            }
+          ],
+          "total_price": 63679,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Roberta",
+              "street": "The Green",
+              "house": 17,
+              "flat": 491
+            },
+            "finalDate": "2026-02-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-13T22:39:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "698fa8281c508c5d5ec576cd",
+          "products": [
+            {
+              "_id": "698fa8291c508c5d5ec57753",
+              "name": "Pizza11487",
+              "amount": 643,
+              "price": 63679,
+              "manufacturer": "Amazon",
+              "notes": "ektnz4m3rUdxBL3ohJ26aWBbquvFs5GiFFnPZGuS5DvqVCXzUbjPEes0MGyrAIF2mHZ71fRHTXA5IkcJgtTeFOrRJjZY4zBTfvgBnIUST2F9DpWwJqLuZ1vHR57g3JkOX804nlLAuNNSH8goOMTKdHiZffoZ2tc5qZ9FQmu7HkpvKkwFfREQWIAPmGUSLmXK2q3aypQh6A0fuyilzH052oKVUIfp7lGJENPDU43tV3seR4qCzKM1US1JbI",
+              "received": false
+            }
+          ],
+          "total_price": 63679,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

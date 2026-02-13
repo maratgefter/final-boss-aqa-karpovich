@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-dJYaU7Nxn17mdArO6kDuLiWsw7Q\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa80b1c508c5d5ec56760",
+        "email": "Ofelia_Lind21@hotmail.com",
+        "name": "Columbus Hills",
+        "country": "Germany",
+        "city": "West Liana",
+        "street": "Tillman Court",
+        "house": 19,
+        "flat": 627,
+        "phone": "+14393742458",
+        "createdOn": "2026-02-13T22:39:07.000Z",
+        "notes": "aP4Uny1pQrs2Yq7CU31QcmkqO3YnJCXgax6qiKnWKHz2W6CUDC3BNnZnDeVbbG4IWTSmanlB4SUVu53r1YhbTinX77GM177Nw5GYqSCfMYtC8GL3ePcldlclC4lz6TCnfk7PiLRcRBVtHtr1fOJeYErbk9IDeVxC761Ok3rugvNmTUoP2kkFfQ3FGuo15FP6jRl5J0sYSM0OFZIxqfXk7IkZ4ivtWY2kRpfhXIpnH1Edl5kWB8Li2T0ZDY"
+      },
+      "products": [
+        {
+          "_id": "698fa80b1c508c5d5ec56782",
+          "name": "Chips54654",
+          "amount": 299,
+          "price": 87720,
+          "manufacturer": "Microsoft",
+          "notes": "DMh660jrTz9yqDKDdfQxLAtWFPtdmLPBzqokHx1ekLBRAo9APOYNXlfZM0xCrHLlqUIdNtN6BILj91P6rJfiaT2vGznypNwfaAIYpDPSx0x3S66a1TYxc3eiwTsf3TF2dC9a3t5Uoesx1VUNyAln9lZTuMrhYGnvOLiams91ZXaKMVhdo9EQjChStrI1cXkv1x3WQc5758wY324kxnP0UH5HytdqC0IhaWqxHkeVpUFnyLuO03C6ZZjGiO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87720,
+      "createdOn": "2026-02-13T22:39:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa80b1c508c5d5ec56760",
+          "products": [
+            {
+              "_id": "698fa80b1c508c5d5ec56782",
+              "name": "Chips54654",
+              "amount": 299,
+              "price": 87720,
+              "manufacturer": "Microsoft",
+              "notes": "DMh660jrTz9yqDKDdfQxLAtWFPtdmLPBzqokHx1ekLBRAo9APOYNXlfZM0xCrHLlqUIdNtN6BILj91P6rJfiaT2vGznypNwfaAIYpDPSx0x3S66a1TYxc3eiwTsf3TF2dC9a3t5Uoesx1VUNyAln9lZTuMrhYGnvOLiams91ZXaKMVhdo9EQjChStrI1cXkv1x3WQc5758wY324kxnP0UH5HytdqC0IhaWqxHkeVpUFnyLuO03C6ZZjGiO",
+              "received": false
+            }
+          ],
+          "total_price": 87720,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa80c1c508c5d5ec567fd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

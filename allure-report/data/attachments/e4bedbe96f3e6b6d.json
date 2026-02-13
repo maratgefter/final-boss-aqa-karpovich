@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 13 Feb 2026 22:39:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-0Ql/tHEY99cJxoKyNtQn1nDdjaA\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "698fa8161c508c5d5ec56d49",
+        "email": "Alexane_Koch@gmail.com",
+        "name": "Kailee Bashirian",
+        "country": "Belarus",
+        "city": "West Jo",
+        "street": "Koepp Station",
+        "house": 11,
+        "flat": 857,
+        "phone": "+14366653629",
+        "createdOn": "2026-02-13T22:39:18.000Z",
+        "notes": "IwAG4IjROWfvUezZtEYeIn8jlAg88KAAz6X9ayg1Zkux7eV6Tc7eEX8dnibqGX5jxlPxkSl40ScoV8kkaHHcog44SbP4VonYOJSF9zxX4j22gX2TJye6v3AkO0Qrw8EvMXHoTqwu9x86wn8XryX0WjgTQ0tEH4b0TGX5q3nnbZ1FxY6Hlr4YI92YCpbTtCMjrArgerwBVSU6SVntl8SDU9AHFtFrVj9M0NTU04svxg4STtqPSHnw85FBjB"
+      },
+      "products": [
+        {
+          "_id": "698fa8171c508c5d5ec56d6e",
+          "name": "Shirt93628",
+          "amount": 944,
+          "price": 87626,
+          "manufacturer": "Amazon",
+          "notes": "MG5UkH5h6MBX3lnqe36vesEdoX6JBWSCzi51sRRDllABVjbXbYEQehIddh3Iud3Z8GEu8JLIzimPiM5UInRtAalktjWgIHNcSQwwDvuHKogrgEAJiXbvCWaDICcdFAeX6AUfMTItMlce7tJmMX3D44vDlGW3CLKpy80FSTegxGiVr757H69MhUUwqeFAUn8YWsmEZsfcWU4LZD4onJE92qAmjxYky8Un0txmoiI5KTR7y113TAB4TtS4TU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87626,
+      "createdOn": "2026-02-13T22:39:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "698fa8161c508c5d5ec56d49",
+          "products": [
+            {
+              "_id": "698fa8171c508c5d5ec56d6e",
+              "name": "Shirt93628",
+              "amount": 944,
+              "price": 87626,
+              "manufacturer": "Amazon",
+              "notes": "MG5UkH5h6MBX3lnqe36vesEdoX6JBWSCzi51sRRDllABVjbXbYEQehIddh3Iud3Z8GEu8JLIzimPiM5UInRtAalktjWgIHNcSQwwDvuHKogrgEAJiXbvCWaDICcdFAeX6AUfMTItMlce7tJmMX3D44vDlGW3CLKpy80FSTegxGiVr757H69MhUUwqeFAUn8YWsmEZsfcWU4LZD4onJE92qAmjxYky8Un0txmoiI5KTR7y113TAB4TtS4TU",
+              "received": false
+            }
+          ],
+          "total_price": 87626,
+          "delivery": null,
+          "changedOn": "2026-02-13T22:39:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "698fa8181c508c5d5ec56df5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
