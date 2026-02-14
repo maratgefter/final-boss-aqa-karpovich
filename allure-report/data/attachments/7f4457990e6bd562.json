@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:30:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-4sDZDQV8F5dnG/TzLlboJDQWY4U\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f7751c508c5d5ec60c9b",
+        "email": "Leola.Ritchie21@hotmail.com",
+        "name": "Prudence Lowe",
+        "country": "Canada",
+        "city": "Lake Freddie",
+        "street": "Lebsack Mills",
+        "house": 23,
+        "flat": 598,
+        "phone": "+14126149672",
+        "createdOn": "2026-02-14T22:30:13.000Z",
+        "notes": "BRekGpIg4ihbX1FI9GQDfLbsLjzLcriYvtTs3cpuYCN73jwed3VhbvOt0oyrJprI926jBVp68aiXEbaTNIhidkmk2UgXS9gjoBo2TK3lDrasggbSdMBRUSnE8h1l6h4lKFOzTqTUxhpTsg0NXKdbiRXgJw4xj8BQUmHWrTHYvZFSZx0OgGNeLGEw1I3og9ZmT2Dh0PNPiktdICqTMmEO4sMUJxaIifUoSINxyVQez72RN7cGRdsQhqCu6f"
+      },
+      "products": [
+        {
+          "_id": "6990f7751c508c5d5ec60cb2",
+          "name": "Car20306",
+          "amount": 133,
+          "price": 75593,
+          "manufacturer": "Amazon",
+          "notes": "KsoGNWqaCUY7C7YOSI5I9yZgyjhl3LAm9vSjEYrGLQbSqpPTc4CenKVUQwLYQstxqSWdE9CtrCswi8vOOqx0YfbeqzHbv0QJigbpFvGeFbxqWgDtCpv1yUTnpDgbBGxnd7BLVLuqa9P7MXepHRFXZ4cqj9aq47urFrjb560mNWElP3QaPsZHn1gbDAXGuUbLojc9Xti4lawDGPNlvLraLeuKB8d8HRIdoWsTEcYNOmWdmumX9fJAX11HXQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75593,
+      "createdOn": "2026-02-14T22:30:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f7751c508c5d5ec60c9b",
+          "products": [
+            {
+              "_id": "6990f7751c508c5d5ec60cb2",
+              "name": "Car20306",
+              "amount": 133,
+              "price": 75593,
+              "manufacturer": "Amazon",
+              "notes": "KsoGNWqaCUY7C7YOSI5I9yZgyjhl3LAm9vSjEYrGLQbSqpPTc4CenKVUQwLYQstxqSWdE9CtrCswi8vOOqx0YfbeqzHbv0QJigbpFvGeFbxqWgDtCpv1yUTnpDgbBGxnd7BLVLuqa9P7MXepHRFXZ4cqj9aq47urFrjb560mNWElP3QaPsZHn1gbDAXGuUbLojc9Xti4lawDGPNlvLraLeuKB8d8HRIdoWsTEcYNOmWdmumX9fJAX11HXQ",
+              "received": false
+            }
+          ],
+          "total_price": 75593,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:30:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f7761c508c5d5ec60d6c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

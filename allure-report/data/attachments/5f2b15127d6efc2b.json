@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:29:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-1Ao6LfYxpyNxIMjiJFwkWvZuAbs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f7511c508c5d5ec5f7d3",
+        "email": "Leonor41@hotmail.com",
+        "name": "Ricardo Cruickshank",
+        "country": "Ukraine",
+        "city": "South Cliffordworth",
+        "street": "Blanda Points",
+        "house": 22,
+        "flat": 840,
+        "phone": "+15293805724",
+        "createdOn": "2026-02-14T22:29:37.000Z",
+        "notes": "IDqWA0aTEqGKsfUjKt9p7sQalqlzZT88D2U5jd3EEhXeuL3yc6lFhQhLoN2uFUdvN47P9fSScjCAEudeuXJ0ThrqWvNjeyuUqJNM2bn5MWkHvYejV0tyuIz1y9FNWWt7gtwllfz11yeoCb5PlD90l9eU9yc2rSQXO2mZIqwtTZafYJp47x3fskpRlfSyOykeeatkEEMgHn5wjmjNVFEQAB4TfcKx2kWPj3cyt08JEZcaKCANLk8dxhkm6F"
+      },
+      "products": [
+        {
+          "_id": "6990f7521c508c5d5ec5f7f4",
+          "name": "Salad13567",
+          "amount": 761,
+          "price": 14355,
+          "manufacturer": "Apple",
+          "notes": "yuxyYcDpXSpM7g0w0ZceRmXK6rDPltt1b6QZRx32TnmKsdewxrqOzsB5wL7RaOLRGxP1dpDX5KzRHxOpYzJAlMbdsZXJTPNRAGxdYeSS10bSUHWYpw8YOw79FmGbabNtGOqh7G7ztJtiNf34ryr1dyBbqIQBVNBeaGXzrAgG8pcQsSXSTcIZleerkwarcMMcgDUDFxipDSX7PIlK6jTMiOThh1zfvFoIjyj794PUTbhuY288hqfCRqSgaW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14355,
+      "createdOn": "2026-02-14T22:29:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f7511c508c5d5ec5f7d3",
+          "products": [
+            {
+              "_id": "6990f7521c508c5d5ec5f7f4",
+              "name": "Salad13567",
+              "amount": 761,
+              "price": 14355,
+              "manufacturer": "Apple",
+              "notes": "yuxyYcDpXSpM7g0w0ZceRmXK6rDPltt1b6QZRx32TnmKsdewxrqOzsB5wL7RaOLRGxP1dpDX5KzRHxOpYzJAlMbdsZXJTPNRAGxdYeSS10bSUHWYpw8YOw79FmGbabNtGOqh7G7ztJtiNf34ryr1dyBbqIQBVNBeaGXzrAgG8pcQsSXSTcIZleerkwarcMMcgDUDFxipDSX7PIlK6jTMiOThh1zfvFoIjyj794PUTbhuY288hqfCRqSgaW",
+              "received": false
+            }
+          ],
+          "total_price": 14355,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:29:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f7521c508c5d5ec5f826"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

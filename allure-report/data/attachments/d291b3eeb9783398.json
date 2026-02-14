@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:29:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2650",
+    "etag": "W/\"a5a-ugJmUBq7WIsNnNXW4ufhXIEiQnw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f75e1c508c5d5ec5fe21",
+        "email": "Ida66@hotmail.com",
+        "name": "Jeanie Terry",
+        "country": "USA",
+        "city": "West Beverly",
+        "street": "Allen Islands",
+        "house": 16,
+        "flat": 418,
+        "phone": "+17675015261",
+        "createdOn": "2026-02-14T22:29:50.000Z",
+        "notes": "16j6hQxp5xN5WRouuQxZewyfdcUCCqLZCBNyZTYsozxhaGkFdkjY0JCwA1bvGHomVOONN3DzFrOKUlt1XWzs9JbDZVSQsMQzxH75H6pC0VhzwkGmoliN9bqIaaVkuPz3akzgLVtdMLKNpgrWq4rQuHmYvIek3FrV9n2q3sLzHlfqbbXqBFFHJEoQb3U3YOMOZbNhrvOsMWOMiL6r13WwdTZiHkrJYISjbC3URnTtSRVvCr9Y2dBRf4b6aN"
+      },
+      "products": [
+        {
+          "_id": "6990f75e1c508c5d5ec5feb4",
+          "name": "Chicken48711",
+          "amount": 906,
+          "price": 24069,
+          "manufacturer": "Xiaomi",
+          "notes": "JxQyxJxGsEJQK6n2dkOF3Bxq9W1ikPQXjBSK2p1GyouSOC7Th8Uw9ggRbLqwmVOlqOd5xVOAkp4nYFhxXZmHCO1rWruK0qFvXthp5wxFfVwjonaoPq86HkgRaTj5rlGGjSc1AekZ1n8sMjeCM6sR9rHKojOwtywPBYIjPTA6FQOFZcXiSKvUstdgBr1vaSyRa4e7TsMhZJLPoYxRW39EV8IjHbWo1AsbRGa2eM4Fe0VCJ6IFwpjBOrZ4Jk",
+          "received": false
+        },
+        {
+          "_id": "6990f7601c508c5d5ec5ff54",
+          "name": "Cheese96377",
+          "amount": 342,
+          "price": 87886,
+          "manufacturer": "Google",
+          "notes": "h6TGTfwFI9gyI0t7pbrGqMuC9v2llvlwF7r9YcqLr6aCuTpJgKPN5VdoAgpxL9jqNUGbO9vJI78zXJALc3nvO1cnMtLqIEVuqWlhfcDh4vzbcY3Z2CadchmcqQUJw48X77Y31JK3peK7JEJ5NyN1UXqUl4WhsJ7GB1CQIbTNvPslO5j42hUSz6C7XwOQGZXEYpsVdRy2AcCatdrc96LzpPowG5bYufIPZEbc8l0i2lsGz09Z91bidn3TcM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 111955,
+      "createdOn": "2026-02-14T22:29:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f75e1c508c5d5ec5fe21",
+          "products": [
+            {
+              "_id": "6990f75e1c508c5d5ec5feb4",
+              "name": "Chicken48711",
+              "amount": 906,
+              "price": 24069,
+              "manufacturer": "Xiaomi",
+              "notes": "JxQyxJxGsEJQK6n2dkOF3Bxq9W1ikPQXjBSK2p1GyouSOC7Th8Uw9ggRbLqwmVOlqOd5xVOAkp4nYFhxXZmHCO1rWruK0qFvXthp5wxFfVwjonaoPq86HkgRaTj5rlGGjSc1AekZ1n8sMjeCM6sR9rHKojOwtywPBYIjPTA6FQOFZcXiSKvUstdgBr1vaSyRa4e7TsMhZJLPoYxRW39EV8IjHbWo1AsbRGa2eM4Fe0VCJ6IFwpjBOrZ4Jk",
+              "received": false
+            },
+            {
+              "_id": "6990f7601c508c5d5ec5ff54",
+              "name": "Cheese96377",
+              "amount": 342,
+              "price": 87886,
+              "manufacturer": "Google",
+              "notes": "h6TGTfwFI9gyI0t7pbrGqMuC9v2llvlwF7r9YcqLr6aCuTpJgKPN5VdoAgpxL9jqNUGbO9vJI78zXJALc3nvO1cnMtLqIEVuqWlhfcDh4vzbcY3Z2CadchmcqQUJw48X77Y31JK3peK7JEJ5NyN1UXqUl4WhsJ7GB1CQIbTNvPslO5j42hUSz6C7XwOQGZXEYpsVdRy2AcCatdrc96LzpPowG5bYufIPZEbc8l0i2lsGz09Z91bidn3TcM",
+              "received": false
+            }
+          ],
+          "total_price": 111955,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:29:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f7611c508c5d5ec5ffe5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

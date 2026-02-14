@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:29:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2666",
+    "etag": "W/\"a6a-nNYiRxoYBiFLYElmH5Td/vA1jCQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f7591c508c5d5ec5fb0a",
+        "email": "Jeramie_Watsica@yahoo.com",
+        "name": "Floy Hand",
+        "country": "Great Britain",
+        "city": "East Rileyfort",
+        "street": "Torphy Radial",
+        "house": 2,
+        "flat": 158,
+        "phone": "+16398847719",
+        "createdOn": "2026-02-14T22:29:45.000Z",
+        "notes": "4ITVTnKfWFWG0Gpd7p5tfPWvGRf2hV3sCSuYuMjoCejaAbYS5NCXla6h7FKRv02NazwV5JW82dAos3IdojqJmDa4dCcociQnYVEGECUlnpQAUMdUWDCjZPnxOgl8i3f93MTlOOgoXtWYFGRlC4PlKGB711FnZCQjeJbr1rTbCRUfyMpMMiPjbofQ6C0YaSUWMWju82I2u4G6imGJisbTl60u9dMym8bmSSxsJibEji2UQ0xrnMa5VhEKue"
+      },
+      "products": [
+        {
+          "_id": "6990f7591c508c5d5ec5fb89",
+          "name": "Keyboard18631",
+          "amount": 313,
+          "price": 55579,
+          "manufacturer": "Google",
+          "notes": "nQdbO2VLyfRNA43vRJylpMKmFxtOpVz2CttyerxiKrY9ueuhzlRWpFI3YnwHWARDtL4FPc1cWDO3tzbLXJDpLFCTEn0P92k1ZKo3fLfq6YQb10tiVc4TKBEKnFTch83hrFbK1Ex6zKAZS1G9hfLV4QvoFwzObBpvdPuQCv5NhdKX3m1PAXu4R0NMFU1iPmPO8HPOwvtx5aYBC7JwpW48Dd7VERYNtSjZ6UZrbqSScHYOqKKG2tnzbGpLf6",
+          "received": false
+        },
+        {
+          "_id": "6990f7591c508c5d5ec5fba9",
+          "name": "Towels12264",
+          "amount": 586,
+          "price": 81236,
+          "manufacturer": "Tesla",
+          "notes": "JqOrvxvdGA7jCwhR3KBQ3uRQW6gDZJBwnXurLFwTZOap6eI9V22TSrGmHB0jAxjg3YCJJn9PHp0eOe3MPQkRx7X8HvU8s3g1XXgGa4UGXfwxNv5UEnbCfkidhCaZYauBaMcByQSDKF51RkBY69v6uLFTgW7UTSswOX2BKQc7CpVUrHZaysl9OZ2ICNOYLEZkMHhPPMKZEb3IfaS6ZBrPGrmc9ElZxuu5rBZ0K3giYxrEWGSWwtxhF1J42n",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 136815,
+      "createdOn": "2026-02-14T22:29:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f7591c508c5d5ec5fb0a",
+          "products": [
+            {
+              "_id": "6990f7591c508c5d5ec5fb89",
+              "name": "Keyboard18631",
+              "amount": 313,
+              "price": 55579,
+              "manufacturer": "Google",
+              "notes": "nQdbO2VLyfRNA43vRJylpMKmFxtOpVz2CttyerxiKrY9ueuhzlRWpFI3YnwHWARDtL4FPc1cWDO3tzbLXJDpLFCTEn0P92k1ZKo3fLfq6YQb10tiVc4TKBEKnFTch83hrFbK1Ex6zKAZS1G9hfLV4QvoFwzObBpvdPuQCv5NhdKX3m1PAXu4R0NMFU1iPmPO8HPOwvtx5aYBC7JwpW48Dd7VERYNtSjZ6UZrbqSScHYOqKKG2tnzbGpLf6",
+              "received": false
+            },
+            {
+              "_id": "6990f7591c508c5d5ec5fba9",
+              "name": "Towels12264",
+              "amount": 586,
+              "price": 81236,
+              "manufacturer": "Tesla",
+              "notes": "JqOrvxvdGA7jCwhR3KBQ3uRQW6gDZJBwnXurLFwTZOap6eI9V22TSrGmHB0jAxjg3YCJJn9PHp0eOe3MPQkRx7X8HvU8s3g1XXgGa4UGXfwxNv5UEnbCfkidhCaZYauBaMcByQSDKF51RkBY69v6uLFTgW7UTSswOX2BKQc7CpVUrHZaysl9OZ2ICNOYLEZkMHhPPMKZEb3IfaS6ZBrPGrmc9ElZxuu5rBZ0K3giYxrEWGSWwtxhF1J42n",
+              "received": false
+            }
+          ],
+          "total_price": 136815,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:29:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f75a1c508c5d5ec5fbe7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

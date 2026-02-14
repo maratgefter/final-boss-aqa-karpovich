@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:30:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-Jsas56P4HF1I8Rw3qRr1VEpx61o\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f7651c508c5d5ec6021b",
+        "email": "Ethyl_Bernhard90@gmail.com",
+        "name": "Bulah Jakubowski",
+        "country": "Canada",
+        "city": "South Isaias",
+        "street": "Tremblay Squares",
+        "house": 20,
+        "flat": 308,
+        "phone": "+15057934735",
+        "createdOn": "2026-02-14T22:29:57.000Z",
+        "notes": "QF2yhGPknFcNQSNffS1MjBo5cYH95B5eEl0A2P6e0g28IkfcYFArNNRGlsPNXUUAd6CYGN9oNmY6MG0vGs5K3PxiOUbC5cBnb5u4kZktqgnJPBjaC7Os7Gexbzzk1sHSNkBd45Jw9KMmdMyoy4CwHKfHPxhtw3DcGvZXPzCGT4kTrqmemhNt0oVNMmWnmBSrAupi6z466iE4ScKSSoSOtQP3t8FL34maUunneEx7gUI3kgdS7Dpyk9m0Hm"
+      },
+      "products": [
+        {
+          "_id": "6990f7661c508c5d5ec60321",
+          "name": "Towels12396",
+          "amount": 20,
+          "price": 58785,
+          "manufacturer": "Sony",
+          "notes": "QbzCQepAjRgpEqR1VuvC5Pv0Owc9vgKPdO9RJSUOOoYqC2EASUk1QORWJUpzolfUjaqs6h3v8CVrspj7uC3kGmqv89oz3w60FFSqBQAQ7dOLY2XQBZmTFOiJ5ghLP1SCsMKGrn6Am7oqJd6l6EO6Lz1huyfZgNcayAcdjB1Xzao1CTEgZYSz8UXEgmMuyi7dZOztMeNh7TjmVjRxmE6pRG9Uib58EmqeIpozMLqYqfaqA38YcTYSBixprA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58785,
+      "createdOn": "2026-02-14T22:29:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f7651c508c5d5ec6021b",
+          "products": [
+            {
+              "_id": "6990f7661c508c5d5ec60321",
+              "name": "Towels12396",
+              "amount": 20,
+              "price": 58785,
+              "manufacturer": "Sony",
+              "notes": "QbzCQepAjRgpEqR1VuvC5Pv0Owc9vgKPdO9RJSUOOoYqC2EASUk1QORWJUpzolfUjaqs6h3v8CVrspj7uC3kGmqv89oz3w60FFSqBQAQ7dOLY2XQBZmTFOiJ5ghLP1SCsMKGrn6Am7oqJd6l6EO6Lz1huyfZgNcayAcdjB1Xzao1CTEgZYSz8UXEgmMuyi7dZOztMeNh7TjmVjRxmE6pRG9Uib58EmqeIpozMLqYqfaqA38YcTYSBixprA",
+              "received": false
+            }
+          ],
+          "total_price": 58785,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:29:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f7671c508c5d5ec603d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 14 Feb 2026 22:30:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1897",
+    "etag": "W/\"769-3Dcbm2Dckx8v3L/SQ/P3iiHTRaI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6990f7781c508c5d5ec60e58",
+        "email": "Margaret_Schultz@yahoo.com",
+        "name": "Adonis Zieme",
+        "country": "France",
+        "city": "East Brianaworth",
+        "street": "Gaston Gardens",
+        "house": 24,
+        "flat": 323,
+        "phone": "+13536588264",
+        "createdOn": "2026-02-14T22:30:16.000Z",
+        "notes": "jhHBmjmhYXtLc7oLFayKBSySlOZ4OsHTfaFPrvBZZDDdREIl1RbQr8R3tUAI03NJ73QaKsfyzyQ4cKur9ZwASYk06erdKqKDYm4ZmBo7KyBhirb3Sl3j9tTbnvnj29y5XVqhjQIeugxqG4iAm55lonYHdScuP6v3WOhSm6r4B5qFjkw0AJkXcrTUoZT6X7s2w1GKe61xINZnATrw5OPffHeNotiTeaaVaTD2CJ2im9aU1KaitAMogy9LBZ"
+      },
+      "products": [
+        {
+          "_id": "6990f7791c508c5d5ec60e77",
+          "name": "Mouse57136",
+          "amount": 589,
+          "price": 90392,
+          "manufacturer": "Microsoft",
+          "notes": "Oa8lIWVCWUtAqrYRbkKRIhnnzUQYDCrZj6R3HPuKY2SezQ50ivRvOfAbfYfAcpWkSip5QRCzE3yBNpKND1qfSe1e9S2aZk8RSmneECOhEL916owGPTSRtWYa4cvPPYfBz9Rq4pnGj22N8bA59mcfjuZ4E86Hz5MMVaLZ8Co1tE0AfsA0z30JQfDDXt5dMfUAihoLtf9drdlbLgWE3giAdYsZLVIcIKAXyRvC8Px8B8EWVYYsWXf20qFa88",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90392,
+      "createdOn": "2026-02-14T22:30:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6990f7781c508c5d5ec60e58",
+          "products": [
+            {
+              "_id": "6990f7791c508c5d5ec60e77",
+              "name": "Mouse57136",
+              "amount": 589,
+              "price": 90392,
+              "manufacturer": "Microsoft",
+              "notes": "Oa8lIWVCWUtAqrYRbkKRIhnnzUQYDCrZj6R3HPuKY2SezQ50ivRvOfAbfYfAcpWkSip5QRCzE3yBNpKND1qfSe1e9S2aZk8RSmneECOhEL916owGPTSRtWYa4cvPPYfBz9Rq4pnGj22N8bA59mcfjuZ4E86Hz5MMVaLZ8Co1tE0AfsA0z30JQfDDXt5dMfUAihoLtf9drdlbLgWE3giAdYsZLVIcIKAXyRvC8Px8B8EWVYYsWXf20qFa88",
+              "received": false
+            }
+          ],
+          "total_price": 90392,
+          "delivery": null,
+          "changedOn": "2026-02-14T22:30:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6990f77a1c508c5d5ec60f2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
