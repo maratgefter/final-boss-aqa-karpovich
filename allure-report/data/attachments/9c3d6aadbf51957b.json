@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3896",
+    "etag": "W/\"f38-2G/F/Qp+r9u8enqxUoaQBAnFFss\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249441c508c5d5ec6ba27",
+      "status": "In Process",
+      "customer": {
+        "_id": "699249431c508c5d5ec6b950",
+        "email": "Rhett.Rice79@yahoo.com",
+        "name": "Roosevelt Ortiz",
+        "country": "Russia",
+        "city": "Lake Lexus",
+        "street": "Pennsylvania Avenue",
+        "house": 28,
+        "flat": 737,
+        "phone": "+17266073321",
+        "createdOn": "2026-02-15T22:31:31.000Z",
+        "notes": "DCB3YaZL7LkzYC90ci5XXR7Emql6UMUofzx5gTsSMuYjb7jZahmbsZvqkDPy5OJBpuFxW3IvCStpG4GjSFZGLkJ1t4r2uNmclNmXwy4WMxLjCRsdIidlztHXA0XiyQbMbbt2SWMe558BIrGs6rJyrHJrBdzJrvEbaRrNYaSLCwhGqf5cySb1M1BoHZf3Thj7H9if7AJyx8BkHweNMeSvYta6g8RWoJgilj1g07VxK2oQDlHY9v11EH7LSL"
+      },
+      "products": [
+        {
+          "_id": "699249441c508c5d5ec6b9f9",
+          "name": "Mouse46623",
+          "amount": 750,
+          "price": 60107,
+          "manufacturer": "Apple",
+          "notes": "UPrE32A7A4iDAJaNOHp3Q4qTswDgj008lhU3r4YuKIDNp0IFm9XNSXBt65hF3WUcLVPHEnSpcTiHVXblTxD9XJi1TnpnsWMV7km6NhqXxTpNhJCw9yVsFqbnoGy6UCjc9KxAXmgenEgrawi5rew35FjGgYydhcZPhkrkWAFXRq9KoYK6vWB4xX9UU8Uv5zAlL3tHslFwLImjlAEUz9JVVv1uXAZO7xKB3MwZVOQuF4sYMZBxlnpbeUpVRn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Lexus",
+          "street": "Pennsylvania Avenue",
+          "house": 28,
+          "flat": 737
+        },
+        "finalDate": "2026-02-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 60107,
+      "createdOn": "2026-02-15T22:31:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699249431c508c5d5ec6b950",
+          "products": [
+            {
+              "_id": "699249441c508c5d5ec6b9f9",
+              "name": "Mouse46623",
+              "amount": 750,
+              "price": 60107,
+              "manufacturer": "Apple",
+              "notes": "UPrE32A7A4iDAJaNOHp3Q4qTswDgj008lhU3r4YuKIDNp0IFm9XNSXBt65hF3WUcLVPHEnSpcTiHVXblTxD9XJi1TnpnsWMV7km6NhqXxTpNhJCw9yVsFqbnoGy6UCjc9KxAXmgenEgrawi5rew35FjGgYydhcZPhkrkWAFXRq9KoYK6vWB4xX9UU8Uv5zAlL3tHslFwLImjlAEUz9JVVv1uXAZO7xKB3MwZVOQuF4sYMZBxlnpbeUpVRn",
+              "received": false
+            }
+          ],
+          "total_price": 60107,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Lexus",
+              "street": "Pennsylvania Avenue",
+              "house": 28,
+              "flat": 737
+            },
+            "finalDate": "2026-02-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249431c508c5d5ec6b950",
+          "products": [
+            {
+              "_id": "699249441c508c5d5ec6b9f9",
+              "name": "Mouse46623",
+              "amount": 750,
+              "price": 60107,
+              "manufacturer": "Apple",
+              "notes": "UPrE32A7A4iDAJaNOHp3Q4qTswDgj008lhU3r4YuKIDNp0IFm9XNSXBt65hF3WUcLVPHEnSpcTiHVXblTxD9XJi1TnpnsWMV7km6NhqXxTpNhJCw9yVsFqbnoGy6UCjc9KxAXmgenEgrawi5rew35FjGgYydhcZPhkrkWAFXRq9KoYK6vWB4xX9UU8Uv5zAlL3tHslFwLImjlAEUz9JVVv1uXAZO7xKB3MwZVOQuF4sYMZBxlnpbeUpVRn",
+              "received": false
+            }
+          ],
+          "total_price": 60107,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Lexus",
+              "street": "Pennsylvania Avenue",
+              "house": 28,
+              "flat": 737
+            },
+            "finalDate": "2026-02-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249431c508c5d5ec6b950",
+          "products": [
+            {
+              "_id": "699249441c508c5d5ec6b9f9",
+              "name": "Mouse46623",
+              "amount": 750,
+              "price": 60107,
+              "manufacturer": "Apple",
+              "notes": "UPrE32A7A4iDAJaNOHp3Q4qTswDgj008lhU3r4YuKIDNp0IFm9XNSXBt65hF3WUcLVPHEnSpcTiHVXblTxD9XJi1TnpnsWMV7km6NhqXxTpNhJCw9yVsFqbnoGy6UCjc9KxAXmgenEgrawi5rew35FjGgYydhcZPhkrkWAFXRq9KoYK6vWB4xX9UU8Uv5zAlL3tHslFwLImjlAEUz9JVVv1uXAZO7xKB3MwZVOQuF4sYMZBxlnpbeUpVRn",
+              "received": false
+            }
+          ],
+          "total_price": 60107,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

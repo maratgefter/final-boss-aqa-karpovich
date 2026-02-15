@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-8w6TUqQJpyioo31s//4eDvZUGy4\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6992494d1c508c5d5ec6bfac",
+        "email": "Trey60@hotmail.com",
+        "name": "Reilly Schaden",
+        "country": "Ukraine",
+        "city": "East Lamontburgh",
+        "street": "Erna Avenue",
+        "house": 2,
+        "flat": 876,
+        "phone": "+13876658080",
+        "createdOn": "2026-02-15T22:31:41.000Z",
+        "notes": "nSoPe4jTB6R4KeYROv1eUJI9J6JJ6alBRqOOj8OzhJipvJB8xayTtSMzxzwzovEU1kerkVvTEZyeH2BWV2wnyBn4VH0F8sM9zav4VFfRNa0LgP5aHi9hgofr0dupWy7oVWPAKC6HVb2ErNhJzhE3qUKHh1hSep9ay8b5r0KXUlmihFtOQnAVCbikY1cNEdcxAMRtI9CbxGWbeBfq8sckaMd6EBpLrqtXaIpJdOZey9ADPY3xLVRSJDnUAh"
+      },
+      "products": [
+        {
+          "_id": "6992494e1c508c5d5ec6bfe2",
+          "name": "Table8194",
+          "amount": 390,
+          "price": 35004,
+          "manufacturer": "Google",
+          "notes": "Djk8nhUs5AKZpfqqH6DXb4NvvIzKErzTP3wso3ywsyIMKsc8ytJG91NkbTH0NXJSNhcmhNYRcKi8hiJ5nfVtjaqyZ0rsTlyTx17I7ETvwayXYqUCZb9IzfV6cr0jk0BnXiUn0V5Ro3Zo1r2xopJ5MwHRgXsyW2YXCmSpRwfgJhhm7o4AOvD0NPdmWQoCXasZjJbtwV4YYDJ3hZwGzCkILS2BSUFMqfAm3AcO9vSUHUJ8vqdpE4QCnDw6q0",
+          "received": false
+        },
+        {
+          "_id": "6992494e1c508c5d5ec6c004",
+          "name": "Fish23612",
+          "amount": 342,
+          "price": 94430,
+          "manufacturer": "Sony",
+          "notes": "5au6D9NeU4Ba6KQtREAm3adTnswcXx0AxpY0rLGkz4eRWshOEMu45zbqi1lZohXmTq51pxwcTBcqcGNCmrI7phPBGOwoTmPwmRVLdKfyvD2pL1Cm1WOE5JgxYc1nZ0164eNPNYOyaPybJgld1sKqdDj63OBUhJMwhq7jmb6mDIOJwaxC7oDFREmWTUpDiUBYhpH9efZBrvg2PFm6g5hAMFqIXUh5Lg5G4mx1SHEFiyr0VQ4MZVLrojqV2x",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129434,
+      "createdOn": "2026-02-15T22:31:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6992494d1c508c5d5ec6bfac",
+          "products": [
+            {
+              "_id": "6992494e1c508c5d5ec6bfe2",
+              "name": "Table8194",
+              "amount": 390,
+              "price": 35004,
+              "manufacturer": "Google",
+              "notes": "Djk8nhUs5AKZpfqqH6DXb4NvvIzKErzTP3wso3ywsyIMKsc8ytJG91NkbTH0NXJSNhcmhNYRcKi8hiJ5nfVtjaqyZ0rsTlyTx17I7ETvwayXYqUCZb9IzfV6cr0jk0BnXiUn0V5Ro3Zo1r2xopJ5MwHRgXsyW2YXCmSpRwfgJhhm7o4AOvD0NPdmWQoCXasZjJbtwV4YYDJ3hZwGzCkILS2BSUFMqfAm3AcO9vSUHUJ8vqdpE4QCnDw6q0",
+              "received": false
+            },
+            {
+              "_id": "6992494e1c508c5d5ec6c004",
+              "name": "Fish23612",
+              "amount": 342,
+              "price": 94430,
+              "manufacturer": "Sony",
+              "notes": "5au6D9NeU4Ba6KQtREAm3adTnswcXx0AxpY0rLGkz4eRWshOEMu45zbqi1lZohXmTq51pxwcTBcqcGNCmrI7phPBGOwoTmPwmRVLdKfyvD2pL1Cm1WOE5JgxYc1nZ0164eNPNYOyaPybJgld1sKqdDj63OBUhJMwhq7jmb6mDIOJwaxC7oDFREmWTUpDiUBYhpH9efZBrvg2PFm6g5hAMFqIXUh5Lg5G4mx1SHEFiyr0VQ4MZVLrojqV2x",
+              "received": false
+            }
+          ],
+          "total_price": 129434,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6992494f1c508c5d5ec6c0bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-9kMXh39Y4/MKUO7mPf4zS/Y4cm8\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249301c508c5d5ec6ab87",
+        "email": "Jade_Hoeger21@yahoo.com",
+        "name": "Brandi Reichert",
+        "country": "Russia",
+        "city": "Mathildeville",
+        "street": "S Jefferson Street",
+        "house": 30,
+        "flat": 775,
+        "phone": "+12117500784",
+        "createdOn": "2026-02-15T22:31:12.000Z",
+        "notes": "U066W9oLpCqxROSV3ftFcWff59wgWDTY6OsDpqEX4FgznMaAPoAysOC1OsvhhWCxP4Ks1iJ6ygYzwd4y4nKIlkJuwH42gPaDdRAaqrUiJREAkw5ChQMB3KXczHU0MWT0THhQpvRbaTjSJkbZ6AGizyrotCPQkJNHLDh4in6ezc5KQet9YQQGcaTznBThapwA964gB7hnqnKdhKTvGIouvaD3lO4eRzCW8LDChTKC1P9o5K9W4CfdkSrJxU"
+      },
+      "products": [
+        {
+          "_id": "699249301c508c5d5ec6aba5",
+          "name": "Bacon23061",
+          "amount": 845,
+          "price": 54199,
+          "manufacturer": "Xiaomi",
+          "notes": "TPdSAIZXEC7BqnnkVN2RAa39jbSpzF9yLK1OP3zYQIMbAl5aHTvTBt2qO8RcYYJYXldwmSLmPwjra13Znwciwq8VaaeqImL7UkbjpmZSziZTVu4H9rsAZmJ1WyvXKLPdcZEu1DuGNSGiVjFbxLQ8LjOSN5oqfzCo2BKlAKz3fAPP4Mr80hvn6WfPxFdvH7oLGpxnHDLiRrX9grjZT8svvS3fRUJFEN6ibJdfL3uNXXEmCiZGBHl4buxrEG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54199,
+      "createdOn": "2026-02-15T22:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249301c508c5d5ec6ab87",
+          "products": [
+            {
+              "_id": "699249301c508c5d5ec6aba5",
+              "name": "Bacon23061",
+              "amount": 845,
+              "price": 54199,
+              "manufacturer": "Xiaomi",
+              "notes": "TPdSAIZXEC7BqnnkVN2RAa39jbSpzF9yLK1OP3zYQIMbAl5aHTvTBt2qO8RcYYJYXldwmSLmPwjra13Znwciwq8VaaeqImL7UkbjpmZSziZTVu4H9rsAZmJ1WyvXKLPdcZEu1DuGNSGiVjFbxLQ8LjOSN5oqfzCo2BKlAKz3fAPP4Mr80hvn6WfPxFdvH7oLGpxnHDLiRrX9grjZT8svvS3fRUJFEN6ibJdfL3uNXXEmCiZGBHl4buxrEG",
+              "received": false
+            }
+          ],
+          "total_price": 54199,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249311c508c5d5ec6abe9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

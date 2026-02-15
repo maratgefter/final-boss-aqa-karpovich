@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-a32S6EfvsaHxBSbWHzdLfkBTxbk\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249371c508c5d5ec6b02d",
+      "status": "Draft",
+      "customer": {
+        "_id": "699249341c508c5d5ec6ae21",
+        "email": "Jamel62@gmail.com",
+        "name": "Ardella Kuhn",
+        "country": "France",
+        "city": "Schaeferside",
+        "street": "E Central Avenue",
+        "house": 22,
+        "flat": 15,
+        "phone": "+18315561787",
+        "createdOn": "2026-02-15T22:31:16.000Z",
+        "notes": "0KdoXjEWe2rm9kDFNoUJDMIzB3u89TlZQZB5IEjNmoGjPRPnMZSS02G6yJlN8TFTnq0hXENdbMNYU79coUH1rJT9HYk7MNfeHk30woNPyWyeErb9TCJVXbPRs2u5w13U2DfIwcJBRCY4fyaNuLsImkr4JzqDGlKeW8Y7rkUgwm2nND5zDVELlOTXRAd94AbScqS5CnMI7oH5GLXCNTOpdObarY1VydfqUahjGGwdtfWmm9MHU3YAJlDTVM"
+      },
+      "products": [
+        {
+          "_id": "699249351c508c5d5ec6ae6a",
+          "name": "Fish14381",
+          "amount": 855,
+          "price": 72380,
+          "manufacturer": "Microsoft",
+          "notes": "ke9UpBYWG6f9Refu7GCLQhdste5LW4H2xKhqInXxbbAkRhnuYeClbPKH4f7iAAxGfoJnM0NU5PDqokeeybcooZ8AgITpJ74FHPWOTH6t4vP5l2AptDLLOmeKSpL8bMr2LYUqb3l5buRyXqeqd9dPWsE8kbzUtqSXUhNy0Cy1WMdWhboqUJ8Odc99pdgr89NUVW7xunBn9Q8HzcoEZEIwsPbcd3TW3YQsHattlKjPKOoEI0OlZ6fMwpY69u",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72380,
+      "createdOn": "2026-02-15T22:31:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249341c508c5d5ec6ae21",
+          "products": [
+            {
+              "_id": "699249351c508c5d5ec6ae6a",
+              "name": "Fish14381",
+              "amount": 855,
+              "price": 72380,
+              "manufacturer": "Microsoft",
+              "notes": "ke9UpBYWG6f9Refu7GCLQhdste5LW4H2xKhqInXxbbAkRhnuYeClbPKH4f7iAAxGfoJnM0NU5PDqokeeybcooZ8AgITpJ74FHPWOTH6t4vP5l2AptDLLOmeKSpL8bMr2LYUqb3l5buRyXqeqd9dPWsE8kbzUtqSXUhNy0Cy1WMdWhboqUJ8Odc99pdgr89NUVW7xunBn9Q8HzcoEZEIwsPbcd3TW3YQsHattlKjPKOoEI0OlZ6fMwpY69u",
+              "received": false
+            }
+          ],
+          "total_price": 72380,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

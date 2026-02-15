@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2826",
+    "etag": "W/\"b0a-QG++tmwpAmC2oYZ5JL38zQlqW8U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6992492f1c508c5d5ec6ab31",
+      "status": "Draft",
+      "customer": {
+        "_id": "6992492e1c508c5d5ec6aa6a",
+        "email": "Stanton.Cremin2@gmail.com",
+        "name": "Liliane Simonis",
+        "country": "Belarus",
+        "city": "Kuvalisfurt",
+        "street": "E Broadway Street",
+        "house": 39,
+        "flat": 373,
+        "phone": "+13419133968",
+        "createdOn": "2026-02-15T22:31:10.000Z",
+        "notes": "gq1u2zAjHbuQLnaoCY1dNr9fSPsFJQQpLVdjLZTnISeN7LQPk7PQvlG8oYxpBK8GuVAB6HFly9DDl3O0bGXIDtCYTKLB7u9971ES5CQmxETd0RUDnGHUkAxwHsCq8k6l7OE3iSX31TXLpgeWo4bvQiIXQVcAq7m0nuMdHbXCVcuBFKqkoxkxatzUj4KQuyzwj7AZTIMqskoaXZYCdXffElKXU5cus9obEzxG0jKNHQeyxeOmOlLDZWoiMI"
+      },
+      "products": [
+        {
+          "_id": "6992492e1c508c5d5ec6aa80",
+          "name": "Pizza19476",
+          "amount": 569,
+          "price": 69732,
+          "manufacturer": "Microsoft",
+          "notes": "iP1givkALr5VwncvbjIJEuJnEis5cQ77Eej3BMnNzrycIPP7DqfVNpASPBmrQif6CJTVliFbnaC7fB8ObYIWzB7vKrDQ0ttDYVd5THOf1hECrY6SPtuUZEd6McUgkTcc5GlJQMQOHKf4I9rVQubQI2nmPScOkQ6y875ShdgyQWaaLgaGwP4e8i68kenaBecODuDTDCrxZAqvdqU15IVxNG80KjhL3ucSK6jazDM8UyaueocOvtE0Ty0ZDH",
+          "received": false
+        },
+        {
+          "_id": "6992492f1c508c5d5ec6ab1b",
+          "name": "Shoes73477",
+          "amount": 533,
+          "price": 53119,
+          "manufacturer": "Xiaomi",
+          "notes": "AEpKPlUSfKtREawsv0QnTeyA7VZpocVfbCI8Wzvk48tnCpEsdgsDfCYc97JGQ8rYFeS7CFICv90g7xTJe3B7xwlvbdsigFhYODL26Il4AUNHlLfU1Dnevt0kFAiOxi3FsYReGImEC0u8vbZLQgb6s2YVYZrKfn6riGZtuH7pR87t5XSaEt6m5p9TkQdlRR7JnwhonG8QQLZE2xhlU9YiEhVc70uaKwvMMEz44yyxyGy4oFNQPk71fzWBM8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 122851,
+      "createdOn": "2026-02-15T22:31:11.000Z",
+      "comments": [
+        {
+          "text": "8GRbONkX7DhJC4zhL0CMrWUaBBoeEaDevfaOgM1Qpelb5XCrfPnHtsaUITdAqs1v55ffeVWd8dJ",
+          "createdOn": "2026-02-15T22:31:11.000Z",
+          "_id": "6992492f1c508c5d5ec6ab45"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6992492e1c508c5d5ec6aa6a",
+          "products": [
+            {
+              "_id": "6992492e1c508c5d5ec6aa80",
+              "name": "Pizza19476",
+              "amount": 569,
+              "price": 69732,
+              "manufacturer": "Microsoft",
+              "notes": "iP1givkALr5VwncvbjIJEuJnEis5cQ77Eej3BMnNzrycIPP7DqfVNpASPBmrQif6CJTVliFbnaC7fB8ObYIWzB7vKrDQ0ttDYVd5THOf1hECrY6SPtuUZEd6McUgkTcc5GlJQMQOHKf4I9rVQubQI2nmPScOkQ6y875ShdgyQWaaLgaGwP4e8i68kenaBecODuDTDCrxZAqvdqU15IVxNG80KjhL3ucSK6jazDM8UyaueocOvtE0Ty0ZDH",
+              "received": false
+            },
+            {
+              "_id": "6992492f1c508c5d5ec6ab1b",
+              "name": "Shoes73477",
+              "amount": 533,
+              "price": 53119,
+              "manufacturer": "Xiaomi",
+              "notes": "AEpKPlUSfKtREawsv0QnTeyA7VZpocVfbCI8Wzvk48tnCpEsdgsDfCYc97JGQ8rYFeS7CFICv90g7xTJe3B7xwlvbdsigFhYODL26Il4AUNHlLfU1Dnevt0kFAiOxi3FsYReGImEC0u8vbZLQgb6s2YVYZrKfn6riGZtuH7pR87t5XSaEt6m5p9TkQdlRR7JnwhonG8QQLZE2xhlU9YiEhVc70uaKwvMMEz44yyxyGy4oFNQPk71fzWBM8",
+              "received": false
+            }
+          ],
+          "total_price": 122851,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

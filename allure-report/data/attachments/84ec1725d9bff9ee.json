@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:32:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3408",
+    "etag": "W/\"d50-i4D8QWMn+awL6z2NB8eIYbDVKTY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249941c508c5d5ec6f07c",
+        "email": "Bill.Keebler45@yahoo.com",
+        "name": "Stan Bayer",
+        "country": "Canada",
+        "city": "Fort Willahaven",
+        "street": "The Lane",
+        "house": 26,
+        "flat": 735,
+        "phone": "+15046396824",
+        "createdOn": "2026-02-15T22:32:52.000Z",
+        "notes": "RjJebPAKLZbo3Nlr7vqxNR11uCL2tAsMBsIKkCrdoYisIYCeO1K4vccaNI72D56CHKq4Zr0gdKpulPCZ4ke0UoaweguLGwLiGRu7OrlbCrOD6p0P58UUFSGBECk4SmhvuevojVBBENBTFbn4iQhrmNDW3gDUJvHCowvo6za3KFVRsqZNBxq3vc6ApKWwx2jCFtLP2kJvM1cCUs7qn92ohGAFz4gangWg2VAo9BJs5m4SL6sV7R8MeCv027"
+      },
+      "products": [
+        {
+          "_id": "699249951c508c5d5ec6f130",
+          "name": "Ball65058",
+          "amount": 170,
+          "price": 80551,
+          "manufacturer": "Sony",
+          "notes": "uM5ZqmJObShSyom5a4HSOqwQWM9ZubFqD33c2RBGtPJKMMjBKKs61KTH1e13Y86g8v6fLHHzWNecuN20aesAHAmrgNzKQhEOBXpbaf4LR0Sp75F94v1jxxir84jraespr3JD2U9W5o1ZWbBxmtJSdJBFc6scUzpj5QxJsMAO1gkD7obKOVik2sK7EIj3u29pffYg8zeKrcmeBmUXFDy4NLBBcYavoXYAyLnv7RBv0qlNt6uO4hhXaBrViA",
+          "received": false
+        },
+        {
+          "_id": "699249951c508c5d5ec6f146",
+          "name": "Chips33167",
+          "amount": 691,
+          "price": 6862,
+          "manufacturer": "Tesla",
+          "notes": "58FPtQGywFTbmnWQCiBIE3t9JD8ZXo1bhtYKu38Uy9dzwsoMXIecXE25WzZqJPOfGARNW0byooCqFHeqxF4cbOFiUGDW44pUblagnGc2A3sm9raBsYjLXoHEosY0vFYVWq5jHug1NPNrqcFJS6y888zBj0LHypa4UlCqOGRl8xKY2enkNu0RCopTszDgrNb6zblN8uAzfw2vEYRrvCceiYgByLR4AF5i79WmlNKTguuvuOz6KSJuHBOFKW",
+          "received": false
+        },
+        {
+          "_id": "699249951c508c5d5ec6f155",
+          "name": "Gloves36218",
+          "amount": 331,
+          "price": 73140,
+          "manufacturer": "Tesla",
+          "notes": "GGJzbY8fr8hFyIkehlsPAfOmT7dlHDyjXnTkhAUXAzcZVwBrH3BbpU71im7h3vXCPhkSRneiaQsXFgltyYLvXuvI7KyuCBd1vGX7ZdlbQ07tMgoDPy1uK2uKEUbYmmGnn3Ul06TxtfasrEEnMMjiiIroMo4vwId9SNbCJQj02mV42ehXuN7CdYJ6vUrid4THCdqDjtKLYclZWpoBnrqs3Yl3wKNJSXLG8pUFbsjSHq0cyvW8mp1tebpc3l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 160553,
+      "createdOn": "2026-02-15T22:32:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249941c508c5d5ec6f07c",
+          "products": [
+            {
+              "_id": "699249951c508c5d5ec6f130",
+              "name": "Ball65058",
+              "amount": 170,
+              "price": 80551,
+              "manufacturer": "Sony",
+              "notes": "uM5ZqmJObShSyom5a4HSOqwQWM9ZubFqD33c2RBGtPJKMMjBKKs61KTH1e13Y86g8v6fLHHzWNecuN20aesAHAmrgNzKQhEOBXpbaf4LR0Sp75F94v1jxxir84jraespr3JD2U9W5o1ZWbBxmtJSdJBFc6scUzpj5QxJsMAO1gkD7obKOVik2sK7EIj3u29pffYg8zeKrcmeBmUXFDy4NLBBcYavoXYAyLnv7RBv0qlNt6uO4hhXaBrViA",
+              "received": false
+            },
+            {
+              "_id": "699249951c508c5d5ec6f146",
+              "name": "Chips33167",
+              "amount": 691,
+              "price": 6862,
+              "manufacturer": "Tesla",
+              "notes": "58FPtQGywFTbmnWQCiBIE3t9JD8ZXo1bhtYKu38Uy9dzwsoMXIecXE25WzZqJPOfGARNW0byooCqFHeqxF4cbOFiUGDW44pUblagnGc2A3sm9raBsYjLXoHEosY0vFYVWq5jHug1NPNrqcFJS6y888zBj0LHypa4UlCqOGRl8xKY2enkNu0RCopTszDgrNb6zblN8uAzfw2vEYRrvCceiYgByLR4AF5i79WmlNKTguuvuOz6KSJuHBOFKW",
+              "received": false
+            },
+            {
+              "_id": "699249951c508c5d5ec6f155",
+              "name": "Gloves36218",
+              "amount": 331,
+              "price": 73140,
+              "manufacturer": "Tesla",
+              "notes": "GGJzbY8fr8hFyIkehlsPAfOmT7dlHDyjXnTkhAUXAzcZVwBrH3BbpU71im7h3vXCPhkSRneiaQsXFgltyYLvXuvI7KyuCBd1vGX7ZdlbQ07tMgoDPy1uK2uKEUbYmmGnn3Ul06TxtfasrEEnMMjiiIroMo4vwId9SNbCJQj02mV42ehXuN7CdYJ6vUrid4THCdqDjtKLYclZWpoBnrqs3Yl3wKNJSXLG8pUFbsjSHq0cyvW8mp1tebpc3l",
+              "received": false
+            }
+          ],
+          "total_price": 160553,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:32:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249961c508c5d5ec6f16c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

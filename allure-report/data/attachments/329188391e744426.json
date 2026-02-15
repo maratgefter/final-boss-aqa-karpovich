@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-KAlzNwHsGyOTDoJ0fo44zc/7EB8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249301c508c5d5ec6ab95",
+        "email": "Johnathon38@yahoo.com",
+        "name": "Cassandra Murray",
+        "country": "France",
+        "city": "Lake Antonina",
+        "street": "Effertz Lakes",
+        "house": 6,
+        "flat": 474,
+        "phone": "+12485368863",
+        "createdOn": "2026-02-15T22:31:12.000Z",
+        "notes": "ajdEi00k6tYjsOCOzJst5SHlr23kBp6sxGmopjhuNFjH3aTcTDqqtCF992MeZrsnfQ0Yjx9PtBWZNdmzeuTihInPmL0JPXTF1u7UfH8NVCTQN5XegLNXWc3feIiHohBfxgoyeKJJHTCBBgwxF099rvC6X5g1PEPgz6vc2QfqM9IE4brQNC17qV4tCiLwspqvPhn5MHvUNB2138xOHlNEv4qHrNkHeoBtMOke7UWd72N3xJbB93gaUnL0nV"
+      },
+      "products": [
+        {
+          "_id": "699249301c508c5d5ec6abb0",
+          "name": "Pants2453",
+          "amount": 802,
+          "price": 22860,
+          "manufacturer": "Google",
+          "notes": "oebXKh8774dANzxnjno8UKR9YxzC8CJE8zwbLtlPrH19uyjBNgbvlUbT8FszEKzteX5FUwBLALHaFMddarCPGRZiSopt1rj87KsCx6pKGrGtx409nm5IR8hsvAOYJlh6ZHIbh9YzdVBX5zAjo8VFGJhcNmwk1tmpKfdxNk5pOaO636yUgYSofyl6dSFravYKgwu8ApJs3SkN4dTmaU4SIiA1mTAe5KeUegJo3v9LXEF6wRkoHsmd0XxpnI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22860,
+      "createdOn": "2026-02-15T22:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249301c508c5d5ec6ab95",
+          "products": [
+            {
+              "_id": "699249301c508c5d5ec6abb0",
+              "name": "Pants2453",
+              "amount": 802,
+              "price": 22860,
+              "manufacturer": "Google",
+              "notes": "oebXKh8774dANzxnjno8UKR9YxzC8CJE8zwbLtlPrH19uyjBNgbvlUbT8FszEKzteX5FUwBLALHaFMddarCPGRZiSopt1rj87KsCx6pKGrGtx409nm5IR8hsvAOYJlh6ZHIbh9YzdVBX5zAjo8VFGJhcNmwk1tmpKfdxNk5pOaO636yUgYSofyl6dSFravYKgwu8ApJs3SkN4dTmaU4SIiA1mTAe5KeUegJo3v9LXEF6wRkoHsmd0XxpnI",
+              "received": false
+            }
+          ],
+          "total_price": 22860,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249311c508c5d5ec6abe7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

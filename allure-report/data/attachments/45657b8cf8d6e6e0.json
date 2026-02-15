@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6697",
+    "etag": "W/\"1a29-AWidhSAInuHroVRuh02rfxda8XM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249541c508c5d5ec6c3a4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "699249521c508c5d5ec6c201",
+        "email": "Isac_Trantow68@hotmail.com",
+        "name": "Aaron Toy",
+        "country": "Canada",
+        "city": "Cutler Bay",
+        "street": "Alanis Landing",
+        "house": 11,
+        "flat": 544,
+        "phone": "+18183499612",
+        "createdOn": "2026-02-15T22:31:46.000Z",
+        "notes": "203sH9dIgQpz7CtuunYiMO7m87COcZc4FctYtlgEPUknvnHdMOl0JTLA6JrgCxVg4H9aYszvvpNgAn8qycUbXZt5Jpr2ciyiV6SyZKtNzfZtyCAkSKqaDj2SGBSCkXjOWHs7UgGgSwGWfUbtH5RHhehxZc4GEgXbqq7ZX0v9hELT8G7O9yNc0uCvtbfETjbr4VWR1qjIYJwmgCU3SHKlYUjaE0Yfi1mtUpJ0hBD18Gsl0VdnLkD2wQF5Kr"
+      },
+      "products": [
+        {
+          "_id": "699249521c508c5d5ec6c218",
+          "name": "Towels28939",
+          "amount": 196,
+          "price": 2386,
+          "manufacturer": "Sony",
+          "notes": "u69recW1scMm6cvKcWw56HhPGrfqKPQdayEulXWdPDMGYxW2OZaD2jKq6AQxIyzZsi7kC47k6Bbv6xWsGPdlCNVJObqPUdsF2JYwe9E1uX18mw5PKu0aotvZeXXnIGv0Zdv4BzeRLHjQJfnydsOz2KVMqVVIhLlF8yDpg0pgNJoMRmc3UAkN9bmbm8Z0LQWImhYKxfbDWtpiFfclhOJGaU1NbisYIoDMue8YIT18pyEKKGEV665qmBVzjZ",
+          "received": false
+        },
+        {
+          "_id": "699249521c508c5d5ec6c231",
+          "name": "Mouse85547",
+          "amount": 370,
+          "price": 88221,
+          "manufacturer": "Xiaomi",
+          "notes": "5yoJI162GAPMoKiEV2nqdthX47K5oUZ33v3O649fL0Q5ifkZUAXDlGhAGUIQa4k1ZCdEuHaMcFArM5wWjbCNaD9o5Btz5zX5UcWuUrgQXZ2yDR1wg9cv0onlHT3gPrSVDyfCFVipS9sJPBWRYfJmglZzlZpIovVgc5RpqdP3EuSGB3ZyUQ1hzN3vBEtXga7Ux3vPzuURtDtV9feMEpQrw2lJGFI4Z5sDrYwtiVGjn95N8a1BGy2S8tatSL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Cutler Bay",
+          "street": "Alanis Landing",
+          "house": 11,
+          "flat": 544
+        },
+        "finalDate": "2026-02-16T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 90607,
+      "createdOn": "2026-02-15T22:31:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "699249521c508c5d5ec6c201",
+          "products": [
+            {
+              "_id": "699249521c508c5d5ec6c218",
+              "name": "Towels28939",
+              "amount": 196,
+              "price": 2386,
+              "manufacturer": "Sony",
+              "notes": "u69recW1scMm6cvKcWw56HhPGrfqKPQdayEulXWdPDMGYxW2OZaD2jKq6AQxIyzZsi7kC47k6Bbv6xWsGPdlCNVJObqPUdsF2JYwe9E1uX18mw5PKu0aotvZeXXnIGv0Zdv4BzeRLHjQJfnydsOz2KVMqVVIhLlF8yDpg0pgNJoMRmc3UAkN9bmbm8Z0LQWImhYKxfbDWtpiFfclhOJGaU1NbisYIoDMue8YIT18pyEKKGEV665qmBVzjZ",
+              "received": false
+            },
+            {
+              "_id": "699249521c508c5d5ec6c231",
+              "name": "Mouse85547",
+              "amount": 370,
+              "price": 88221,
+              "manufacturer": "Xiaomi",
+              "notes": "5yoJI162GAPMoKiEV2nqdthX47K5oUZ33v3O649fL0Q5ifkZUAXDlGhAGUIQa4k1ZCdEuHaMcFArM5wWjbCNaD9o5Btz5zX5UcWuUrgQXZ2yDR1wg9cv0onlHT3gPrSVDyfCFVipS9sJPBWRYfJmglZzlZpIovVgc5RpqdP3EuSGB3ZyUQ1hzN3vBEtXga7Ux3vPzuURtDtV9feMEpQrw2lJGFI4Z5sDrYwtiVGjn95N8a1BGy2S8tatSL",
+              "received": false
+            }
+          ],
+          "total_price": 90607,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cutler Bay",
+              "street": "Alanis Landing",
+              "house": 11,
+              "flat": 544
+            },
+            "finalDate": "2026-02-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:58.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "699249521c508c5d5ec6c201",
+          "products": [
+            {
+              "_id": "699249521c508c5d5ec6c218",
+              "name": "Towels28939",
+              "amount": 196,
+              "price": 2386,
+              "manufacturer": "Sony",
+              "notes": "u69recW1scMm6cvKcWw56HhPGrfqKPQdayEulXWdPDMGYxW2OZaD2jKq6AQxIyzZsi7kC47k6Bbv6xWsGPdlCNVJObqPUdsF2JYwe9E1uX18mw5PKu0aotvZeXXnIGv0Zdv4BzeRLHjQJfnydsOz2KVMqVVIhLlF8yDpg0pgNJoMRmc3UAkN9bmbm8Z0LQWImhYKxfbDWtpiFfclhOJGaU1NbisYIoDMue8YIT18pyEKKGEV665qmBVzjZ",
+              "received": false
+            },
+            {
+              "_id": "699249521c508c5d5ec6c231",
+              "name": "Mouse85547",
+              "amount": 370,
+              "price": 88221,
+              "manufacturer": "Xiaomi",
+              "notes": "5yoJI162GAPMoKiEV2nqdthX47K5oUZ33v3O649fL0Q5ifkZUAXDlGhAGUIQa4k1ZCdEuHaMcFArM5wWjbCNaD9o5Btz5zX5UcWuUrgQXZ2yDR1wg9cv0onlHT3gPrSVDyfCFVipS9sJPBWRYfJmglZzlZpIovVgc5RpqdP3EuSGB3ZyUQ1hzN3vBEtXga7Ux3vPzuURtDtV9feMEpQrw2lJGFI4Z5sDrYwtiVGjn95N8a1BGy2S8tatSL",
+              "received": false
+            }
+          ],
+          "total_price": 90607,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cutler Bay",
+              "street": "Alanis Landing",
+              "house": 11,
+              "flat": 544
+            },
+            "finalDate": "2026-02-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249521c508c5d5ec6c201",
+          "products": [
+            {
+              "_id": "699249521c508c5d5ec6c218",
+              "name": "Towels28939",
+              "amount": 196,
+              "price": 2386,
+              "manufacturer": "Sony",
+              "notes": "u69recW1scMm6cvKcWw56HhPGrfqKPQdayEulXWdPDMGYxW2OZaD2jKq6AQxIyzZsi7kC47k6Bbv6xWsGPdlCNVJObqPUdsF2JYwe9E1uX18mw5PKu0aotvZeXXnIGv0Zdv4BzeRLHjQJfnydsOz2KVMqVVIhLlF8yDpg0pgNJoMRmc3UAkN9bmbm8Z0LQWImhYKxfbDWtpiFfclhOJGaU1NbisYIoDMue8YIT18pyEKKGEV665qmBVzjZ",
+              "received": false
+            },
+            {
+              "_id": "699249521c508c5d5ec6c231",
+              "name": "Mouse85547",
+              "amount": 370,
+              "price": 88221,
+              "manufacturer": "Xiaomi",
+              "notes": "5yoJI162GAPMoKiEV2nqdthX47K5oUZ33v3O649fL0Q5ifkZUAXDlGhAGUIQa4k1ZCdEuHaMcFArM5wWjbCNaD9o5Btz5zX5UcWuUrgQXZ2yDR1wg9cv0onlHT3gPrSVDyfCFVipS9sJPBWRYfJmglZzlZpIovVgc5RpqdP3EuSGB3ZyUQ1hzN3vBEtXga7Ux3vPzuURtDtV9feMEpQrw2lJGFI4Z5sDrYwtiVGjn95N8a1BGy2S8tatSL",
+              "received": false
+            }
+          ],
+          "total_price": 90607,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cutler Bay",
+              "street": "Alanis Landing",
+              "house": 11,
+              "flat": 544
+            },
+            "finalDate": "2026-02-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249521c508c5d5ec6c201",
+          "products": [
+            {
+              "_id": "699249521c508c5d5ec6c218",
+              "name": "Towels28939",
+              "amount": 196,
+              "price": 2386,
+              "manufacturer": "Sony",
+              "notes": "u69recW1scMm6cvKcWw56HhPGrfqKPQdayEulXWdPDMGYxW2OZaD2jKq6AQxIyzZsi7kC47k6Bbv6xWsGPdlCNVJObqPUdsF2JYwe9E1uX18mw5PKu0aotvZeXXnIGv0Zdv4BzeRLHjQJfnydsOz2KVMqVVIhLlF8yDpg0pgNJoMRmc3UAkN9bmbm8Z0LQWImhYKxfbDWtpiFfclhOJGaU1NbisYIoDMue8YIT18pyEKKGEV665qmBVzjZ",
+              "received": false
+            },
+            {
+              "_id": "699249521c508c5d5ec6c231",
+              "name": "Mouse85547",
+              "amount": 370,
+              "price": 88221,
+              "manufacturer": "Xiaomi",
+              "notes": "5yoJI162GAPMoKiEV2nqdthX47K5oUZ33v3O649fL0Q5ifkZUAXDlGhAGUIQa4k1ZCdEuHaMcFArM5wWjbCNaD9o5Btz5zX5UcWuUrgQXZ2yDR1wg9cv0onlHT3gPrSVDyfCFVipS9sJPBWRYfJmglZzlZpIovVgc5RpqdP3EuSGB3ZyUQ1hzN3vBEtXga7Ux3vPzuURtDtV9feMEpQrw2lJGFI4Z5sDrYwtiVGjn95N8a1BGy2S8tatSL",
+              "received": false
+            }
+          ],
+          "total_price": 90607,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

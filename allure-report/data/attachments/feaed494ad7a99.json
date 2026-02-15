@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-i2k5mez8cbAIf0tdZwRDDP5zCqg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249281c508c5d5ec6a723",
+      "status": "Draft",
+      "customer": {
+        "_id": "699249271c508c5d5ec6a64a",
+        "email": "Alyson_Rowe@gmail.com",
+        "name": "Dallas Metz",
+        "country": "USA",
+        "city": "West Earlineland",
+        "street": "Felipa Mall",
+        "house": 12,
+        "flat": 42,
+        "phone": "+18092741354",
+        "createdOn": "2026-02-15T22:31:03.000Z",
+        "notes": "p4gNzK6n0g1669Ah2vHfl1W4oN69FZCsOtDs2smERB710yi961PlqdPyRQgTMT96qed8DyJ0TLVu25nrGDKDTlO1zLUP8Zb1NQDkZOtGNXLCgcH5qdnlAzErW0S6AhbQNQWdHcqZeEWgYOgDVbCjVAaWliLhFnH3wSx6NL6IU2yJ4oha0ud58mhJJLEnUA5GvCtP3fl66fHyE22giwiRSJuF0rLAYtkoLwwcNLRtLiPTEYA8WDiMIPXJOn"
+      },
+      "products": [
+        {
+          "_id": "699249271c508c5d5ec6a673",
+          "name": "Keyboard9905",
+          "amount": 682,
+          "price": 57545,
+          "manufacturer": "Google",
+          "notes": "OoWVwPW8EnHrX1Zq6PXYEWLQFBf3D7c3AAISxO5nZA9negRQ8YV0jmywkf2z12tqrnAAjn5XXrLaBDTSufIN13juOEq23JQItSDdgNFegzOtaWVsqPrgtKO48bFroeDLu6aFfLgsfLUYeGpfLq1Sv3Uhvi4rRiUlnnHS4L7S5DGuETyl14T5mxWbTTP1zwfeUBYLCDnRVMpRV0oOHmBj3MXpy8lR1VjYwFfo1awd3nts667U4UXwdKDRDu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57545,
+      "createdOn": "2026-02-15T22:31:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249271c508c5d5ec6a64a",
+          "products": [
+            {
+              "_id": "699249271c508c5d5ec6a673",
+              "name": "Keyboard9905",
+              "amount": 682,
+              "price": 57545,
+              "manufacturer": "Google",
+              "notes": "OoWVwPW8EnHrX1Zq6PXYEWLQFBf3D7c3AAISxO5nZA9negRQ8YV0jmywkf2z12tqrnAAjn5XXrLaBDTSufIN13juOEq23JQItSDdgNFegzOtaWVsqPrgtKO48bFroeDLu6aFfLgsfLUYeGpfLq1Sv3Uhvi4rRiUlnnHS4L7S5DGuETyl14T5mxWbTTP1zwfeUBYLCDnRVMpRV0oOHmBj3MXpy8lR1VjYwFfo1awd3nts667U4UXwdKDRDu",
+              "received": false
+            }
+          ],
+          "total_price": 57545,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:05.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699249271c508c5d5ec6a64a",
+          "products": [
+            {
+              "_id": "699249271c508c5d5ec6a673",
+              "name": "Keyboard9905",
+              "amount": 682,
+              "price": 57545,
+              "manufacturer": "Google",
+              "notes": "OoWVwPW8EnHrX1Zq6PXYEWLQFBf3D7c3AAISxO5nZA9negRQ8YV0jmywkf2z12tqrnAAjn5XXrLaBDTSufIN13juOEq23JQItSDdgNFegzOtaWVsqPrgtKO48bFroeDLu6aFfLgsfLUYeGpfLq1Sv3Uhvi4rRiUlnnHS4L7S5DGuETyl14T5mxWbTTP1zwfeUBYLCDnRVMpRV0oOHmBj3MXpy8lR1VjYwFfo1awd3nts667U4UXwdKDRDu",
+              "received": false
+            }
+          ],
+          "total_price": 57545,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

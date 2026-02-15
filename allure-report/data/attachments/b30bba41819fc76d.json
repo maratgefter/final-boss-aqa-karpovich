@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-rQVTDQPQ2HFdhmxFaZoTq7W0fWs\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249301c508c5d5ec6ab73",
+        "email": "Edwardo.Hudson-Carroll45@yahoo.com",
+        "name": "Crystel Gutmann",
+        "country": "Germany",
+        "city": "Lake Justice",
+        "street": "Kari Ferry",
+        "house": 39,
+        "flat": 719,
+        "phone": "+19052971156",
+        "createdOn": "2026-02-15T22:31:12.000Z",
+        "notes": "DwEfRGIfG4AWEeB6uOgA79uBzcXbHOl7WRdriznmn5YJBa4DkMVuKeAhhQ8OlglClxQyVlEJIcbcWFegpByuI2DT8aeOXiplD5rhbdXAvYoYiVam9n6ixLQ7Oinvyyl1jtYYdmvKuuGy2vJH43Ny2xDke2IR4nFv0cxDjZQVImXMPQLjxVupWxyH3n5F9OQsAEUCbWDr1htOu8FccXN4p2COUkZeSvO39787PkzJLCM8FRLFooQx41lPvs"
+      },
+      "products": [
+        {
+          "_id": "699249301c508c5d5ec6ab82",
+          "name": "Table74415",
+          "amount": 739,
+          "price": 52607,
+          "manufacturer": "Sony",
+          "notes": "23wo4c3VDaNtsgEfzmBkCyiig8XXU4jOQcLI9G4iap1YGitrAzXFD6ePYNXQM6T0dr4FmZ1KxvE68oDwqhYvwGd3AfVDSSgUempTr1dVQFM7TPomlnZ7SMead3Z23SLJWIgfN5ty5YwH4eQsCLwUckNhs0SFAPq1SrYDYfd1HW3mmJY3s0tIF4ymO1dwETHo9fjpJ0Nb96oUKxolkl3zokiGTK5aFVveTSrgyex4YESbwZ2B2X64rC8czs",
+          "received": false
+        },
+        {
+          "_id": "699249301c508c5d5ec6ab9f",
+          "name": "Bacon53530",
+          "amount": 302,
+          "price": 11456,
+          "manufacturer": "Samsung",
+          "notes": "lWyA7QunVOB6rsQciMBdkPPVyaavR3zg1nC77ZugG1hjg7rWJhN3pZJoZykR0QkLLoCgBfJ7G3JwTPYmiNCCxdg1VJGCeBUZG0B7Q376nBSa1Ni9coX2zh2fOWGIXjwGviOu0sdAUkh1IelKPbQDGXrcVkp0KoQgXjRCyLu1xGhxf5bjv2GSSxwhPx70gy6SJbVBqFRjMxCUOnrgiBZCLrVFqWTCQ4ubOXNhPgIzg02THaSZF51T0WJ2b4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64063,
+      "createdOn": "2026-02-15T22:31:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249301c508c5d5ec6ab73",
+          "products": [
+            {
+              "_id": "699249301c508c5d5ec6ab82",
+              "name": "Table74415",
+              "amount": 739,
+              "price": 52607,
+              "manufacturer": "Sony",
+              "notes": "23wo4c3VDaNtsgEfzmBkCyiig8XXU4jOQcLI9G4iap1YGitrAzXFD6ePYNXQM6T0dr4FmZ1KxvE68oDwqhYvwGd3AfVDSSgUempTr1dVQFM7TPomlnZ7SMead3Z23SLJWIgfN5ty5YwH4eQsCLwUckNhs0SFAPq1SrYDYfd1HW3mmJY3s0tIF4ymO1dwETHo9fjpJ0Nb96oUKxolkl3zokiGTK5aFVveTSrgyex4YESbwZ2B2X64rC8czs",
+              "received": false
+            },
+            {
+              "_id": "699249301c508c5d5ec6ab9f",
+              "name": "Bacon53530",
+              "amount": 302,
+              "price": 11456,
+              "manufacturer": "Samsung",
+              "notes": "lWyA7QunVOB6rsQciMBdkPPVyaavR3zg1nC77ZugG1hjg7rWJhN3pZJoZykR0QkLLoCgBfJ7G3JwTPYmiNCCxdg1VJGCeBUZG0B7Q376nBSa1Ni9coX2zh2fOWGIXjwGviOu0sdAUkh1IelKPbQDGXrcVkp0KoQgXjRCyLu1xGhxf5bjv2GSSxwhPx70gy6SJbVBqFRjMxCUOnrgiBZCLrVFqWTCQ4ubOXNhPgIzg02THaSZF51T0WJ2b4",
+              "received": false
+            }
+          ],
+          "total_price": 64063,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249301c508c5d5ec6abc7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

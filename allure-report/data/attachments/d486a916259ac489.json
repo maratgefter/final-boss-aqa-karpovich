@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-IDI7CW4544mF0kG1oqM5lilzle0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249341c508c5d5ec6ae11",
+        "email": "Jason.Pouros73@yahoo.com",
+        "name": "Randy Kozey",
+        "country": "Canada",
+        "city": "Rupertstead",
+        "street": "Herman Orchard",
+        "house": 8,
+        "flat": 75,
+        "phone": "+15435357392",
+        "createdOn": "2026-02-15T22:31:16.000Z",
+        "notes": "5kmGwev0sOdGvLG1LMiG83EJ20QSRuVI8iFigKE6nuKQN2DZQgrZqhmLiopVdk8l1ajJ4dXDgR3aL3e5bQ5FJ5mKrJP5q57UkLCIcVn21rCfhKcPjbwzDbN9oFFVDDnLhyzctX94r5n1piexXvANbo7oIzcQyDCnVVc8bJxRP1r3KfGvcDuVU45v0NixXqw3UNnkfHdiRuBjBITySZWfMGaAzyNAYBx5urP0MVLglkcr8LbSsqxlPKegRI"
+      },
+      "products": [
+        {
+          "_id": "699249341c508c5d5ec6ae3b",
+          "name": "Towels36886",
+          "amount": 60,
+          "price": 32629,
+          "manufacturer": "Amazon",
+          "notes": "liZvomkYnZ1BqCrq5aAZ96qPatBra5hJ7CocBbYGWADeHjOHFpN9Jp7EOFapWF8jbrhVlfxfw6AwbhYDFzOb0dlhlSBo85KlqHk86swYBvfRZ78e0zahLeO8bJfnnkrqXwidodJYPiq8qIrq0TdNFbCVkutuGfpvBgGkvT7MCopucl9MdqdvsNHvvdyO1cIDrSQBLmTpz8mukjALQhymrPF0QYha0j0AmLCMnP5RSJYgUM9QjhNBua2W0A",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32629,
+      "createdOn": "2026-02-15T22:31:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249341c508c5d5ec6ae11",
+          "products": [
+            {
+              "_id": "699249341c508c5d5ec6ae3b",
+              "name": "Towels36886",
+              "amount": 60,
+              "price": 32629,
+              "manufacturer": "Amazon",
+              "notes": "liZvomkYnZ1BqCrq5aAZ96qPatBra5hJ7CocBbYGWADeHjOHFpN9Jp7EOFapWF8jbrhVlfxfw6AwbhYDFzOb0dlhlSBo85KlqHk86swYBvfRZ78e0zahLeO8bJfnnkrqXwidodJYPiq8qIrq0TdNFbCVkutuGfpvBgGkvT7MCopucl9MdqdvsNHvvdyO1cIDrSQBLmTpz8mukjALQhymrPF0QYha0j0AmLCMnP5RSJYgUM9QjhNBua2W0A",
+              "received": false
+            }
+          ],
+          "total_price": 32629,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249351c508c5d5ec6af87"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

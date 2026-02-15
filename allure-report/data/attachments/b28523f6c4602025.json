@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2941",
+    "etag": "W/\"b7d-yvKYLjqGwQmVIF5k5TOIe7mPZQI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249331c508c5d5ec6adf9",
+      "status": "Draft",
+      "customer": {
+        "_id": "699249311c508c5d5ec6ac05",
+        "email": "Layne60@yahoo.com",
+        "name": "Zander Zieme",
+        "country": "Ukraine",
+        "city": "Fort Deja",
+        "street": "Erin Walk",
+        "house": 5,
+        "flat": 916,
+        "phone": "+16415265555",
+        "createdOn": "2026-02-15T22:31:13.000Z",
+        "notes": "Gef10lZEYafme2q5DHhwHxGiXnMEDsaWCAmGG9FCTaADg6uUuRBY1Bd1n63MNT6daLB6DHRhBuGMvUNDhBbOTjTHDkCTm9q26psqvH8D5dhGSdtgjM1UgAVCiFu56sJJgsrVPvskVjl6BYSrejgyRkVBV207FivQDgaYVOJxkbX4HHSlam9SSSDcclQHzybBwNcUIPHSu6uK7GgmK392aZxRBnv2bflKqVsNw8Y7CGL0a3kK5gKDRk6lxn"
+      },
+      "products": [
+        {
+          "_id": "699249321c508c5d5ec6acb3",
+          "name": "Ball97318",
+          "amount": 620,
+          "price": 27015,
+          "manufacturer": "Google",
+          "notes": "Dxj8bMepoyuZWFhaFvr9MZmheZ6JVK7VK0CyeLC6LtHIhUaXdWE1RjepLmYPJ1NHenkb1D88BHzMnUOzI76LbZGellurkPluJlYAtQVGaZXSVJ8SG4g81f3o8NDrQIeK5jRLNsah558pkvaHe3WtFYMSGRrknW01MekHAmDt8M3gamBC9q1MjHSCJeKlZJLn2GXbnVyq1Rde55mO4P67YAhU59XNT1PbvypQ5ttfsRsojnAcnxJhEZOPE5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Milesstead",
+          "street": "Jacinthe Locks",
+          "house": 38,
+          "flat": 326
+        },
+        "finalDate": "2026-02-15T22:31:16.208Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27015,
+      "createdOn": "2026-02-15T22:31:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249311c508c5d5ec6ac05",
+          "products": [
+            {
+              "_id": "699249321c508c5d5ec6acb3",
+              "name": "Ball97318",
+              "amount": 620,
+              "price": 27015,
+              "manufacturer": "Google",
+              "notes": "Dxj8bMepoyuZWFhaFvr9MZmheZ6JVK7VK0CyeLC6LtHIhUaXdWE1RjepLmYPJ1NHenkb1D88BHzMnUOzI76LbZGellurkPluJlYAtQVGaZXSVJ8SG4g81f3o8NDrQIeK5jRLNsah558pkvaHe3WtFYMSGRrknW01MekHAmDt8M3gamBC9q1MjHSCJeKlZJLn2GXbnVyq1Rde55mO4P67YAhU59XNT1PbvypQ5ttfsRsojnAcnxJhEZOPE5",
+              "received": false
+            }
+          ],
+          "total_price": 27015,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Milesstead",
+              "street": "Jacinthe Locks",
+              "house": 38,
+              "flat": 326
+            },
+            "finalDate": "2026-02-15T22:31:16.208Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-02-15T22:31:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249311c508c5d5ec6ac05",
+          "products": [
+            {
+              "_id": "699249321c508c5d5ec6acb3",
+              "name": "Ball97318",
+              "amount": 620,
+              "price": 27015,
+              "manufacturer": "Google",
+              "notes": "Dxj8bMepoyuZWFhaFvr9MZmheZ6JVK7VK0CyeLC6LtHIhUaXdWE1RjepLmYPJ1NHenkb1D88BHzMnUOzI76LbZGellurkPluJlYAtQVGaZXSVJ8SG4g81f3o8NDrQIeK5jRLNsah558pkvaHe3WtFYMSGRrknW01MekHAmDt8M3gamBC9q1MjHSCJeKlZJLn2GXbnVyq1Rde55mO4P67YAhU59XNT1PbvypQ5ttfsRsojnAcnxJhEZOPE5",
+              "received": false
+            }
+          ],
+          "total_price": 27015,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

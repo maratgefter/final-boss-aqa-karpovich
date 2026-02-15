@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3881",
+    "etag": "W/\"f29-aEXnHMZbbTtTXfL+3AEgMv/yIKo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249481c508c5d5ec6bf38",
+      "status": "In Process",
+      "customer": {
+        "_id": "699249461c508c5d5ec6baf7",
+        "email": "Cortez23@yahoo.com",
+        "name": "Colt Zboncak",
+        "country": "Russia",
+        "city": "Freddiestad",
+        "street": "Douglas Road",
+        "house": 22,
+        "flat": 110,
+        "phone": "+12714665555",
+        "createdOn": "2026-02-15T22:31:34.000Z",
+        "notes": "ugHjCNA4PHDT9J54HOwma4aiQcxbze3BKBluWJd0kaWMoqw1kxmgG5iezxBhk92EONYo4REdaWPqwPv6TP1PONaGYrCQuJpP3lvwSuOPWnuesAPz8LUU0SjbsGAcSt4qbuvMxq4nsA4Vd1ENwPoYSx9q09OWIet5KMqHAKzJMdjujQSTJcm9vEm1TG5ZWieuwyK0FMXtbmawLDmR8pBYkDHPWn1yxOFCegOXizLmnGlTBNAHBHMvaxxiFm"
+      },
+      "products": [
+        {
+          "_id": "699249471c508c5d5ec6bb24",
+          "name": "Mouse15945",
+          "amount": 729,
+          "price": 51656,
+          "manufacturer": "Microsoft",
+          "notes": "ZCf4n1wkCzCtiz2ZOX1ObrCjJOzyjSEfrv8U44BNy6XFpo0lhmeSUXdm3H8YPcfTwO6HnBCU7O1bOcMJoZTm131mKBTOofADt4Bk2Zd2fqgpK52qIYwdQdgprJFhNECnOubAWUhHAjumWvmLypeI1dtqjmRXAeILqctXdwF7aYUiKS5lI70ataMstlbVHEzjr8cSBRVxgKM6zOADAzYn7bYg6y6pzTdYp2qCa23Vc1fhPU94VdELnbI7Ac",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Freddiestad",
+          "street": "Douglas Road",
+          "house": 22,
+          "flat": 110
+        },
+        "finalDate": "2026-02-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 51656,
+      "createdOn": "2026-02-15T22:31:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699249461c508c5d5ec6baf7",
+          "products": [
+            {
+              "_id": "699249471c508c5d5ec6bb24",
+              "name": "Mouse15945",
+              "amount": 729,
+              "price": 51656,
+              "manufacturer": "Microsoft",
+              "notes": "ZCf4n1wkCzCtiz2ZOX1ObrCjJOzyjSEfrv8U44BNy6XFpo0lhmeSUXdm3H8YPcfTwO6HnBCU7O1bOcMJoZTm131mKBTOofADt4Bk2Zd2fqgpK52qIYwdQdgprJFhNECnOubAWUhHAjumWvmLypeI1dtqjmRXAeILqctXdwF7aYUiKS5lI70ataMstlbVHEzjr8cSBRVxgKM6zOADAzYn7bYg6y6pzTdYp2qCa23Vc1fhPU94VdELnbI7Ac",
+              "received": false
+            }
+          ],
+          "total_price": 51656,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Freddiestad",
+              "street": "Douglas Road",
+              "house": 22,
+              "flat": 110
+            },
+            "finalDate": "2026-02-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249461c508c5d5ec6baf7",
+          "products": [
+            {
+              "_id": "699249471c508c5d5ec6bb24",
+              "name": "Mouse15945",
+              "amount": 729,
+              "price": 51656,
+              "manufacturer": "Microsoft",
+              "notes": "ZCf4n1wkCzCtiz2ZOX1ObrCjJOzyjSEfrv8U44BNy6XFpo0lhmeSUXdm3H8YPcfTwO6HnBCU7O1bOcMJoZTm131mKBTOofADt4Bk2Zd2fqgpK52qIYwdQdgprJFhNECnOubAWUhHAjumWvmLypeI1dtqjmRXAeILqctXdwF7aYUiKS5lI70ataMstlbVHEzjr8cSBRVxgKM6zOADAzYn7bYg6y6pzTdYp2qCa23Vc1fhPU94VdELnbI7Ac",
+              "received": false
+            }
+          ],
+          "total_price": 51656,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Freddiestad",
+              "street": "Douglas Road",
+              "house": 22,
+              "flat": 110
+            },
+            "finalDate": "2026-02-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249461c508c5d5ec6baf7",
+          "products": [
+            {
+              "_id": "699249471c508c5d5ec6bb24",
+              "name": "Mouse15945",
+              "amount": 729,
+              "price": 51656,
+              "manufacturer": "Microsoft",
+              "notes": "ZCf4n1wkCzCtiz2ZOX1ObrCjJOzyjSEfrv8U44BNy6XFpo0lhmeSUXdm3H8YPcfTwO6HnBCU7O1bOcMJoZTm131mKBTOofADt4Bk2Zd2fqgpK52qIYwdQdgprJFhNECnOubAWUhHAjumWvmLypeI1dtqjmRXAeILqctXdwF7aYUiKS5lI70ataMstlbVHEzjr8cSBRVxgKM6zOADAzYn7bYg6y6pzTdYp2qCa23Vc1fhPU94VdELnbI7Ac",
+              "received": false
+            }
+          ],
+          "total_price": 51656,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

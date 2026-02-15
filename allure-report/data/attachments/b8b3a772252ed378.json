@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2811",
+    "etag": "W/\"afb-Fl1F+CKhx+lEh4UBRccDFNi8R+g\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6992492f1c508c5d5ec6ab1e",
+      "status": "Draft",
+      "customer": {
+        "_id": "6992492e1c508c5d5ec6aa60",
+        "email": "Johan_Conn50@gmail.com",
+        "name": "Bessie Renner",
+        "country": "Russia",
+        "city": "Destanycester",
+        "street": "Lincoln Avenue",
+        "house": 15,
+        "flat": 720,
+        "phone": "+19874392046",
+        "createdOn": "2026-02-15T22:31:10.000Z",
+        "notes": "uSeqoDPphXgvGqnJ1mRO6bNVUQWCdxz3Bl3g80Vsc1Ha3s7Mtx5FVvmFRYRyn33sVNQOEO0ac3150p35aJJXuflMLFnKTjAHoxRDtarl5Fyd14vBnPkOozJkxNi60xODIah8rhTF05amlTeYfotBV9boKOeSqKewJXfufmYcfc2g4VrwU4RkNYzawfD9lXohGHGahRLG2wrrqvtrEAu97Gj8bD3KKOO5rpO5vhXGRoZ4du8AejRMWPmKbu"
+      },
+      "products": [
+        {
+          "_id": "6992492e1c508c5d5ec6aa76",
+          "name": "Hat39162",
+          "amount": 784,
+          "price": 59494,
+          "manufacturer": "Google",
+          "notes": "bWpoCjiVnYMVnzLUhIhBFQ24AR4nWD7UgZrvys32VS8eAHfIdyaykuMaFg5XX5xLJYcFZx8oeCKFhMcIiggr4vMNNGMlVuws3rAITOxmryqdWZozv3xePivIc2TQ6GTDfGmCI8g0dhdsHmMQioYhas7flH9h6PWzgysChLpjrG8cbsdAhiwgqayJwNLD7sQdMYrrWIzxa1ecZ588COPM4YCBdc0KyfriT8h0creP7FeudPeeMNzPsUgBqZ",
+          "received": false
+        },
+        {
+          "_id": "6992492e1c508c5d5ec6aa89",
+          "name": "Gloves67508",
+          "amount": 900,
+          "price": 48316,
+          "manufacturer": "Amazon",
+          "notes": "jIH48yKcx7GqPdTVjTIKBqopkAnsvqFWSWXlK7XXoCUNVBrT6fyCq3d3UQWRQ6wBZeiwTbVaE7Hz50oVRP3ZbE7xUBWDM0nl7AfGSrLWqTkS9UcB90bXZaIl5sbE4beBKBbQ9ls9rSUCXvgVM9foaUkcrCZDGEOsueaQXX6PaoHELrcYnyXZvKfts65dzCSinmJy2UGMzjxrb9I6B6b1ulX5Zsa1EYa0gP9FK8lG3tF1pUiH0zJMFJbn23",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 107810,
+      "createdOn": "2026-02-15T22:31:11.000Z",
+      "comments": [
+        {
+          "text": "miByQfKwtcLZfKUgb4QYo8QxekRbFswAsoUUiMLiMNr0wC2OLuhNigaayMC2MZbGAKNaGr35sGf",
+          "createdOn": "2026-02-15T22:31:11.000Z",
+          "_id": "6992492f1c508c5d5ec6ab39"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6992492e1c508c5d5ec6aa60",
+          "products": [
+            {
+              "_id": "6992492e1c508c5d5ec6aa76",
+              "name": "Hat39162",
+              "amount": 784,
+              "price": 59494,
+              "manufacturer": "Google",
+              "notes": "bWpoCjiVnYMVnzLUhIhBFQ24AR4nWD7UgZrvys32VS8eAHfIdyaykuMaFg5XX5xLJYcFZx8oeCKFhMcIiggr4vMNNGMlVuws3rAITOxmryqdWZozv3xePivIc2TQ6GTDfGmCI8g0dhdsHmMQioYhas7flH9h6PWzgysChLpjrG8cbsdAhiwgqayJwNLD7sQdMYrrWIzxa1ecZ588COPM4YCBdc0KyfriT8h0creP7FeudPeeMNzPsUgBqZ",
+              "received": false
+            },
+            {
+              "_id": "6992492e1c508c5d5ec6aa89",
+              "name": "Gloves67508",
+              "amount": 900,
+              "price": 48316,
+              "manufacturer": "Amazon",
+              "notes": "jIH48yKcx7GqPdTVjTIKBqopkAnsvqFWSWXlK7XXoCUNVBrT6fyCq3d3UQWRQ6wBZeiwTbVaE7Hz50oVRP3ZbE7xUBWDM0nl7AfGSrLWqTkS9UcB90bXZaIl5sbE4beBKBbQ9ls9rSUCXvgVM9foaUkcrCZDGEOsueaQXX6PaoHELrcYnyXZvKfts65dzCSinmJy2UGMzjxrb9I6B6b1ulX5Zsa1EYa0gP9FK8lG3tF1pUiH0zJMFJbn23",
+              "received": false
+            }
+          ],
+          "total_price": 107810,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

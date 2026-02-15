@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:31:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2962",
+    "etag": "W/\"b92-znAkRsvN5ROoPUzS08PO6hHbXpo\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699249441c508c5d5ec6ba16",
+      "status": "Draft",
+      "customer": {
+        "_id": "699249421c508c5d5ec6b8a1",
+        "email": "Nat.Hilll@yahoo.com",
+        "name": "Emmy Heidenreich",
+        "country": "Great Britain",
+        "city": "Fort Karine",
+        "street": "Dahlia Walk",
+        "house": 15,
+        "flat": 45,
+        "phone": "+19554741870",
+        "createdOn": "2026-02-15T22:31:30.000Z",
+        "notes": "vVXys6VskMOTxr8Awq1d5gNxzDXhyN3Boxj3edJN4IJ7xmr8XPQExfum2Krh4m5iN6gfARBNlifonD1NFib5sdTYgI7N05OmUdmlOR74voyb3cFV9ZaEzJqglUyIK9w5YMupj2t4KuWuydz4YTJziU8FjDGoExeZI2vWJbf1LpbOA1Uq1IioS2IzvY4A2Rqz1fM0RYwiJOckdGxqrseDsKWcOOEjg4NWrk0h9VWT881emrxTtN5EfJO0Oh"
+      },
+      "products": [
+        {
+          "_id": "699249431c508c5d5ec6b9e1",
+          "name": "Tuna71661",
+          "amount": 494,
+          "price": 1040,
+          "manufacturer": "Microsoft",
+          "notes": "dxyJq6gzp2qk0CgCz0FXBXi5KPkbSyOthDV3uReK4v2pRrOVV1JeDBwJSpxLU3Zpgqo8IOv0WXBNxFCeIoOvfbYTv2PaDiTkrqe4feRvOAoVl7B7okFwSEABj4Vlwpf5PhHU0Jkbht35D0DuwvIFXclRG5dDbZwM1Ck8ikY52btWk5yClUuE6wX90ZkkKrrw4s790BokKRD3kZiNBuToRUHRLp4SUzVhNkfjstvttksusvIS9fzIavxTwK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Karine",
+          "street": "Dahlia Walk",
+          "house": 15,
+          "flat": 45
+        },
+        "finalDate": "2026-02-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 1040,
+      "createdOn": "2026-02-15T22:31:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249421c508c5d5ec6b8a1",
+          "products": [
+            {
+              "_id": "699249431c508c5d5ec6b9e1",
+              "name": "Tuna71661",
+              "amount": 494,
+              "price": 1040,
+              "manufacturer": "Microsoft",
+              "notes": "dxyJq6gzp2qk0CgCz0FXBXi5KPkbSyOthDV3uReK4v2pRrOVV1JeDBwJSpxLU3Zpgqo8IOv0WXBNxFCeIoOvfbYTv2PaDiTkrqe4feRvOAoVl7B7okFwSEABj4Vlwpf5PhHU0Jkbht35D0DuwvIFXclRG5dDbZwM1Ck8ikY52btWk5yClUuE6wX90ZkkKrrw4s790BokKRD3kZiNBuToRUHRLp4SUzVhNkfjstvttksusvIS9fzIavxTwK",
+              "received": false
+            }
+          ],
+          "total_price": 1040,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Karine",
+              "street": "Dahlia Walk",
+              "house": 15,
+              "flat": 45
+            },
+            "finalDate": "2026-02-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-15T22:31:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699249421c508c5d5ec6b8a1",
+          "products": [
+            {
+              "_id": "699249431c508c5d5ec6b9e1",
+              "name": "Tuna71661",
+              "amount": 494,
+              "price": 1040,
+              "manufacturer": "Microsoft",
+              "notes": "dxyJq6gzp2qk0CgCz0FXBXi5KPkbSyOthDV3uReK4v2pRrOVV1JeDBwJSpxLU3Zpgqo8IOv0WXBNxFCeIoOvfbYTv2PaDiTkrqe4feRvOAoVl7B7okFwSEABj4Vlwpf5PhHU0Jkbht35D0DuwvIFXclRG5dDbZwM1Ck8ikY52btWk5yClUuE6wX90ZkkKrrw4s790BokKRD3kZiNBuToRUHRLp4SUzVhNkfjstvttksusvIS9fzIavxTwK",
+              "received": false
+            }
+          ],
+          "total_price": 1040,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:31:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

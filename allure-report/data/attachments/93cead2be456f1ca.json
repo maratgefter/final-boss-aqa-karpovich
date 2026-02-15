@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:30:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-7oumEPzppyvkZi/57nMrfdWUobQ\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699249211c508c5d5ec6a3cd",
+        "email": "Ralph78@hotmail.com",
+        "name": "Rhiannon Maggio",
+        "country": "France",
+        "city": "Tamaraville",
+        "street": "Lindsey Summit",
+        "house": 15,
+        "flat": 274,
+        "phone": "+18588590809",
+        "createdOn": "2026-02-15T22:30:57.000Z",
+        "notes": "Lz1U71TixTNEGDWz9XB21ysF5qAhfSYjVSduTzLlaSHdtkHaOKJKd68CDSJHxazM7rR9fVpYfSdkILnpRbg9pVyJ75vUJB1rogeEJcc7yS37nVO9xClbvutuL9Sf9M5nEOIHkFafiIjHxX92gt1kFxaMqIWkATDI1MKJHf6FwFkL0Q635a8RJDlBFp1V4GgrsYpB9BEiXe6Z4QXjBkPfZNphjf2CFAT9dsScXD4ZRs0sDfpeSQufeseXYD"
+      },
+      "products": [
+        {
+          "_id": "699249221c508c5d5ec6a3e6",
+          "name": "Chair56779",
+          "amount": 422,
+          "price": 30409,
+          "manufacturer": "Amazon",
+          "notes": "KQAoZiX1PRAXM3ZBVQETlK0DdVEreYisRmGHz3uUFwXWR1tIrDH1u3B8YtCMexbPf7DST2SUXse98NIqKPn6XAAdgvjc7Q2q4ev5DamwZCjLqvePHPrraWU3GU2IKMihrBxRgqVSkj5mBd2Ex03NZ9USddn8HkrVf5DVOZUU99raCJB6dtzrhKNvI4zQhj0ub7WyLA3rmhAIUEOIm56h36HPWTdxB5O0llJp4BBnE9K0zcQic4V2psXkTn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30409,
+      "createdOn": "2026-02-15T22:30:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699249211c508c5d5ec6a3cd",
+          "products": [
+            {
+              "_id": "699249221c508c5d5ec6a3e6",
+              "name": "Chair56779",
+              "amount": 422,
+              "price": 30409,
+              "manufacturer": "Amazon",
+              "notes": "KQAoZiX1PRAXM3ZBVQETlK0DdVEreYisRmGHz3uUFwXWR1tIrDH1u3B8YtCMexbPf7DST2SUXse98NIqKPn6XAAdgvjc7Q2q4ev5DamwZCjLqvePHPrraWU3GU2IKMihrBxRgqVSkj5mBd2Ex03NZ9USddn8HkrVf5DVOZUU99raCJB6dtzrhKNvI4zQhj0ub7WyLA3rmhAIUEOIm56h36HPWTdxB5O0llJp4BBnE9K0zcQic4V2psXkTn",
+              "received": false
+            }
+          ],
+          "total_price": 30409,
+          "delivery": null,
+          "changedOn": "2026-02-15T22:30:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699249221c508c5d5ec6a3ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
