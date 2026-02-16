@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-yJCcgrRjVliMT1py9zFAIsy8kdk\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939ba21c508c5d5ec7691d",
+        "email": "Kenneth88@yahoo.com",
+        "name": "Florence Auer",
+        "country": "Canada",
+        "city": "Lake Rory",
+        "street": "School Street",
+        "house": 40,
+        "flat": 567,
+        "phone": "+12584733629",
+        "createdOn": "2026-02-16T22:35:14.000Z",
+        "notes": "zcEHOYtvh6btriLwqHu4mmkkPnRcvC0RSRjcs5uT2Y62dHisJIKxtWGVS6o4iOVV8eXehDTRwvHditmXhRXnWkiiHdAbh19tiJu4N1BJ44qINfPrfZSm4LwKMnxUuSgRgjRqY3LLSIfPIRwtgngjTW37afXyo0UyZsw4u9tuHHyyCYOs3DEqBcqQICnZpMBskWw3JXS35rCWl5sLR7JLN4VOppHha260GeceYSEsAHolHKP4XxQO3C0Cc1"
+      },
+      "products": [
+        {
+          "_id": "69939ba21c508c5d5ec769de",
+          "name": "Shirt29570",
+          "amount": 517,
+          "price": 60612,
+          "manufacturer": "Google",
+          "notes": "mQhG2fhcLbUkx1XkcXSYrsarq3p4NBXGkym46V9QlQFbqCZJYzKIs3LeiegfujZtXlinkOd5m4MMIfrdyfqWUCtAtSiEWn562y4uov18ZzdINEF9yansDnFo9md0BzQFzfjmj2zBaVueuxfShsnmbwK9d3tuSHJWaeYEHqADOInavLdhmjqH5WJm2B4MIn16CKHbcqjKVVBQuDxESMSBF9atpThzD27s1lv9OsNX8e8O9mhOp51WlVboy9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60612,
+      "createdOn": "2026-02-16T22:35:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939ba21c508c5d5ec7691d",
+          "products": [
+            {
+              "_id": "69939ba21c508c5d5ec769de",
+              "name": "Shirt29570",
+              "amount": 517,
+              "price": 60612,
+              "manufacturer": "Google",
+              "notes": "mQhG2fhcLbUkx1XkcXSYrsarq3p4NBXGkym46V9QlQFbqCZJYzKIs3LeiegfujZtXlinkOd5m4MMIfrdyfqWUCtAtSiEWn562y4uov18ZzdINEF9yansDnFo9md0BzQFzfjmj2zBaVueuxfShsnmbwK9d3tuSHJWaeYEHqADOInavLdhmjqH5WJm2B4MIn16CKHbcqjKVVBQuDxESMSBF9atpThzD27s1lv9OsNX8e8O9mhOp51WlVboy9",
+              "received": false
+            }
+          ],
+          "total_price": 60612,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:35:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939ba31c508c5d5ec76a9b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

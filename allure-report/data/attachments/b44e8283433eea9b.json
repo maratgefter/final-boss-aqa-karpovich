@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:36:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4791",
+    "etag": "W/\"12b7-o2DiWJskg3sjiT4a5biYUiS6VLU\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69939be21c508c5d5ec79633",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69939be01c508c5d5ec7948b",
+        "email": "Hettie.Jakubowski@gmail.com",
+        "name": "Reyes Bailey",
+        "country": "Ukraine",
+        "city": "West Marilie",
+        "street": "Ike Estates",
+        "house": 34,
+        "flat": 290,
+        "phone": "+19823415864",
+        "createdOn": "2026-02-16T22:36:16.000Z",
+        "notes": "y4BZ1F00Rb6qHpz1KjkKyzQ8wpnc0hRDNvuHgmneZy6kWYs5NTYI9ffoax6cy4fdlmhPbvbreX7mYND2Tdn9LiW0ofYQBgLGTKexwKx25dgwlByBbSyEL0kAJ6rxFS9yC6QaHyHupNXWfvpZhsQtIKBOKiHatYIm7Wqa5yQRTM22ckHWbKYpVKN0Me8Z8gFIv52UEoa8JOggBVe6y7eQ1DsEL0exyMCWBua4n0z4JLJOfdutb25nnnFEFr"
+      },
+      "products": [
+        {
+          "_id": "69939be01c508c5d5ec794ad",
+          "name": "Shoes69413",
+          "amount": 917,
+          "price": 59747,
+          "manufacturer": "Google",
+          "notes": "9BzkzMJcEkedZ0YbGxCATuamcUHKxUI9Woifiick1LRCP42El9MeRxxA1TeAN61oIFSK9SMDGC3JgR4Wl1PM4nFO183BS2by1AVdCJDBq1SYjOBcJwpGAXfHqT9ssafJEGXYLkAvFRoxfxzZTHMWnsdgVomO3oslrZtVKSw6N6nJWSDeMUwiH6OFidX22Kf79VSlh4nmHRwN6Dfe5EyVhuzv0r9SiLUTQpAaXMqfl9M3L0POxfVWLgTa3C",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "West Marilie",
+          "street": "Ike Estates",
+          "house": 34,
+          "flat": 290
+        },
+        "finalDate": "2026-02-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 59747,
+      "createdOn": "2026-02-16T22:36:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69939be01c508c5d5ec7948b",
+          "products": [
+            {
+              "_id": "69939be01c508c5d5ec794ad",
+              "name": "Shoes69413",
+              "amount": 917,
+              "price": 59747,
+              "manufacturer": "Google",
+              "notes": "9BzkzMJcEkedZ0YbGxCATuamcUHKxUI9Woifiick1LRCP42El9MeRxxA1TeAN61oIFSK9SMDGC3JgR4Wl1PM4nFO183BS2by1AVdCJDBq1SYjOBcJwpGAXfHqT9ssafJEGXYLkAvFRoxfxzZTHMWnsdgVomO3oslrZtVKSw6N6nJWSDeMUwiH6OFidX22Kf79VSlh4nmHRwN6Dfe5EyVhuzv0r9SiLUTQpAaXMqfl9M3L0POxfVWLgTa3C",
+              "received": false
+            }
+          ],
+          "total_price": 59747,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Marilie",
+              "street": "Ike Estates",
+              "house": 34,
+              "flat": 290
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-16T22:36:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69939be01c508c5d5ec7948b",
+          "products": [
+            {
+              "_id": "69939be01c508c5d5ec794ad",
+              "name": "Shoes69413",
+              "amount": 917,
+              "price": 59747,
+              "manufacturer": "Google",
+              "notes": "9BzkzMJcEkedZ0YbGxCATuamcUHKxUI9Woifiick1LRCP42El9MeRxxA1TeAN61oIFSK9SMDGC3JgR4Wl1PM4nFO183BS2by1AVdCJDBq1SYjOBcJwpGAXfHqT9ssafJEGXYLkAvFRoxfxzZTHMWnsdgVomO3oslrZtVKSw6N6nJWSDeMUwiH6OFidX22Kf79VSlh4nmHRwN6Dfe5EyVhuzv0r9SiLUTQpAaXMqfl9M3L0POxfVWLgTa3C",
+              "received": false
+            }
+          ],
+          "total_price": 59747,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Marilie",
+              "street": "Ike Estates",
+              "house": 34,
+              "flat": 290
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-16T22:36:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69939be01c508c5d5ec7948b",
+          "products": [
+            {
+              "_id": "69939be01c508c5d5ec794ad",
+              "name": "Shoes69413",
+              "amount": 917,
+              "price": 59747,
+              "manufacturer": "Google",
+              "notes": "9BzkzMJcEkedZ0YbGxCATuamcUHKxUI9Woifiick1LRCP42El9MeRxxA1TeAN61oIFSK9SMDGC3JgR4Wl1PM4nFO183BS2by1AVdCJDBq1SYjOBcJwpGAXfHqT9ssafJEGXYLkAvFRoxfxzZTHMWnsdgVomO3oslrZtVKSw6N6nJWSDeMUwiH6OFidX22Kf79VSlh4nmHRwN6Dfe5EyVhuzv0r9SiLUTQpAaXMqfl9M3L0POxfVWLgTa3C",
+              "received": false
+            }
+          ],
+          "total_price": 59747,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Marilie",
+              "street": "Ike Estates",
+              "house": 34,
+              "flat": 290
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-16T22:36:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69939be01c508c5d5ec7948b",
+          "products": [
+            {
+              "_id": "69939be01c508c5d5ec794ad",
+              "name": "Shoes69413",
+              "amount": 917,
+              "price": 59747,
+              "manufacturer": "Google",
+              "notes": "9BzkzMJcEkedZ0YbGxCATuamcUHKxUI9Woifiick1LRCP42El9MeRxxA1TeAN61oIFSK9SMDGC3JgR4Wl1PM4nFO183BS2by1AVdCJDBq1SYjOBcJwpGAXfHqT9ssafJEGXYLkAvFRoxfxzZTHMWnsdgVomO3oslrZtVKSw6N6nJWSDeMUwiH6OFidX22Kf79VSlh4nmHRwN6Dfe5EyVhuzv0r9SiLUTQpAaXMqfl9M3L0POxfVWLgTa3C",
+              "received": false
+            }
+          ],
+          "total_price": 59747,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:36:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-F9pV19Kjt2yHtJTw5hWAJoh1Stk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939ba21c508c5d5ec76910",
+        "email": "Nella69@gmail.com",
+        "name": "Eleazar Turcotte",
+        "country": "Great Britain",
+        "city": "Wilkinsonstad",
+        "street": "Sister Crest",
+        "house": 16,
+        "flat": 504,
+        "phone": "+14364787803",
+        "createdOn": "2026-02-16T22:35:14.000Z",
+        "notes": "jsYhKbF8u359hWuP0rijEnlP1qLmUf1UD2AdOv11XzUZkm9I4r6GVkBG8K3iXzfFLqgJVDAGWKRXc9PrzjAnjxfB6pjQOuF1CxXJ5GTUuHsEoMl80oaoB8YwUPMkDV1NqrQ7MhJZfrSvk2ChwN3CWNJayWxsLfn2AkU37GMA93ypHgAzt8FY9IBpJlnA4nZOv6FS14IAOtowZ0rPaBC2SyT8xYqWCwLNp9JfJ8FZEB5HMFmU7pQBBX5TTQ"
+      },
+      "products": [
+        {
+          "_id": "69939ba21c508c5d5ec769e0",
+          "name": "Cheese1160",
+          "amount": 295,
+          "price": 13381,
+          "manufacturer": "Amazon",
+          "notes": "pu004sWID1tlcCcvas8vtAcTLHiHWyDYh8doRiLLTLwzzwqXtT0wkGsMsnW3CsDUyXVJ61mndm5AQXNMBIbK7xKrOzc9FUBuoTqHWtydI9KSfrT1UXAoms8l41Ue93FF8fjqYz4QO32JPOupF2BDFnFUJ6GPJOO1pKIqId8dMz8TJ3yuMOzef2YjLtO5wih7xUYizvZ8FqbMa3Jh8b651FRaBgvCOo7NXkvfNVGbOUygqJmaXxzrkQ5BqZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13381,
+      "createdOn": "2026-02-16T22:35:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939ba21c508c5d5ec76910",
+          "products": [
+            {
+              "_id": "69939ba21c508c5d5ec769e0",
+              "name": "Cheese1160",
+              "amount": 295,
+              "price": 13381,
+              "manufacturer": "Amazon",
+              "notes": "pu004sWID1tlcCcvas8vtAcTLHiHWyDYh8doRiLLTLwzzwqXtT0wkGsMsnW3CsDUyXVJ61mndm5AQXNMBIbK7xKrOzc9FUBuoTqHWtydI9KSfrT1UXAoms8l41Ue93FF8fjqYz4QO32JPOupF2BDFnFUJ6GPJOO1pKIqId8dMz8TJ3yuMOzef2YjLtO5wih7xUYizvZ8FqbMa3Jh8b651FRaBgvCOo7NXkvfNVGbOUygqJmaXxzrkQ5BqZ",
+              "received": false
+            }
+          ],
+          "total_price": 13381,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:35:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939ba31c508c5d5ec76b40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:34:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-M7UmnR0ugw21fFKdaeS8h22/kxY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939b8e1c508c5d5ec75d8c",
+        "email": "Marlin.Orn@gmail.com",
+        "name": "Jessyca Mitchell",
+        "country": "France",
+        "city": "Zorafort",
+        "street": "Laurel Mountain",
+        "house": 8,
+        "flat": 202,
+        "phone": "+13726168740",
+        "createdOn": "2026-02-16T22:34:54.000Z",
+        "notes": "j2VuZA4w483mKcDcmhR4p0Ktx3MmsXfr5yTmXqrh4rrofwls4IjU3b1jnRNGT03v9cJ7s4zDQFuURAh7Dpth5osAnqmgoV3XVAQWwYmphVq2LIStOZtPU7JahrrHuDVqPnTFLtuJYplo5dZBIJf59jOLpErTxwJVXGftxqslzo5a6azaDMkHO4aXCPkj36SIiLV9K9r50N9mVg5zKKWB9FiOf6hdr5wgJb6rOoxNnrRF3IMZ7mhJZ1KdqT"
+      },
+      "products": [
+        {
+          "_id": "69939b8f1c508c5d5ec75dc2",
+          "name": "Bike23825",
+          "amount": 713,
+          "price": 45960,
+          "manufacturer": "Sony",
+          "notes": "SeiFzwrg6EfCRM0KN9gtCPVd5hROSDJHtIZ8wakZi6ERZSTHhQbd7u4lgZyYP1oqiorvZ7D1qu0Tddsmk52ArBsYnXW2TU5dgFrLQWqeG6yMV7r7KxGB859BX9VPrwqBWE8bEYfSGnpEHeLRDQH7tICxqj9vSX0LTMd1irHcuVM4kqmktSPWNN3d3YgoB3bWcC6qCNVTwldIyULlDefrwVM90JmenP92p4wgD3tK3AaUw3ZXWMFR5kOpUG",
+          "received": false
+        },
+        {
+          "_id": "69939b8f1c508c5d5ec75dde",
+          "name": "Chair76777",
+          "amount": 955,
+          "price": 39935,
+          "manufacturer": "Apple",
+          "notes": "OF7IW7HV3TBnkqqkGOF830k9IvF6wDai3EAEQfYakxXu8C084wbA205PTI5zScltQS7xJ5vFCYIpbOYUc2vwLOVPSkFsC7xcKk8LaqLy3KBfh3GxeH4e0bdVJ3iRAJtwgV51H1I7u9AUpEOHhVHVepUmzP1deMIU00fzlmZQYxZ7cHbWgWIryl7FMYbmYPK1mh3M6VYkfA0dwAhTXSXyDQY1lZcqDyP4jHD17QM5a5vMUlW6TtVQqx0cae",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85895,
+      "createdOn": "2026-02-16T22:34:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939b8e1c508c5d5ec75d8c",
+          "products": [
+            {
+              "_id": "69939b8f1c508c5d5ec75dc2",
+              "name": "Bike23825",
+              "amount": 713,
+              "price": 45960,
+              "manufacturer": "Sony",
+              "notes": "SeiFzwrg6EfCRM0KN9gtCPVd5hROSDJHtIZ8wakZi6ERZSTHhQbd7u4lgZyYP1oqiorvZ7D1qu0Tddsmk52ArBsYnXW2TU5dgFrLQWqeG6yMV7r7KxGB859BX9VPrwqBWE8bEYfSGnpEHeLRDQH7tICxqj9vSX0LTMd1irHcuVM4kqmktSPWNN3d3YgoB3bWcC6qCNVTwldIyULlDefrwVM90JmenP92p4wgD3tK3AaUw3ZXWMFR5kOpUG",
+              "received": false
+            },
+            {
+              "_id": "69939b8f1c508c5d5ec75dde",
+              "name": "Chair76777",
+              "amount": 955,
+              "price": 39935,
+              "manufacturer": "Apple",
+              "notes": "OF7IW7HV3TBnkqqkGOF830k9IvF6wDai3EAEQfYakxXu8C084wbA205PTI5zScltQS7xJ5vFCYIpbOYUc2vwLOVPSkFsC7xcKk8LaqLy3KBfh3GxeH4e0bdVJ3iRAJtwgV51H1I7u9AUpEOHhVHVepUmzP1deMIU00fzlmZQYxZ7cHbWgWIryl7FMYbmYPK1mh3M6VYkfA0dwAhTXSXyDQY1lZcqDyP4jHD17QM5a5vMUlW6TtVQqx0cae",
+              "received": false
+            }
+          ],
+          "total_price": 85895,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:34:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939b901c508c5d5ec75ea5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

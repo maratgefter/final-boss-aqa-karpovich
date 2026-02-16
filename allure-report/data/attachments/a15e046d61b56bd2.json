@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-AVOkPYfcJOjDaPNA+C10h7VBips\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69939bb01c508c5d5ec77423",
+      "status": "Draft",
+      "customer": {
+        "_id": "69939baf1c508c5d5ec77313",
+        "email": "Scot_Moore78@gmail.com",
+        "name": "Lance Hahn",
+        "country": "Germany",
+        "city": "East Horacehaven",
+        "street": "Adella Inlet",
+        "house": 49,
+        "flat": 913,
+        "phone": "+12245526911",
+        "createdOn": "2026-02-16T22:35:27.000Z",
+        "notes": "TDGTikDsYPxZjaLnjAklXRXxmWxK0FWGICozyQG0GU3lgynx4RAeJJ82eJwRxmNbPF9hw9MRrKlyzxOfecLhF2GVwjfZ1t8SZXkiQP3USej6qQvFJqLwUgxTASlBotftQRHHYwCGPDmbmtXwnLj6jpRjNuRaU5vE7h3AdVx3f3VtQsHNicJiiT1sx3BsqxB5DeUYXqJ1vuOpf84WpoxYGn6qJ58Ws49SoGGcQNOVonZXiq1eGVZXS1BABX"
+      },
+      "products": [
+        {
+          "_id": "69939bb01c508c5d5ec773e7",
+          "name": "Chips87253",
+          "amount": 760,
+          "price": 22592,
+          "manufacturer": "Apple",
+          "notes": "rTfuC5Ko0zktLljh5j1PM0qbFM7Yo489eaE8eyrS6joRPLLhCb6hSK7suIgYnrRyjb31t2WEaUAm4XPzHlh7WPZCa2opq8VZK3FtBL1MXLcme3qtpXjr00qVQOHr1b1K8GpeAPNlOzZ54o3vP7fW6elpQjFqwv8pv2QjXLNSSvlaVJoEGLWkLyHmX8xKrhfA3CP2EPCtKrZ7R7zXLtF9aHjwe4dFto6GIQwljCnf19lE4ONqjsgsRFelO2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Horacehaven",
+          "street": "Adella Inlet",
+          "house": 49,
+          "flat": 913
+        },
+        "finalDate": "2026-02-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22592,
+      "createdOn": "2026-02-16T22:35:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939baf1c508c5d5ec77313",
+          "products": [
+            {
+              "_id": "69939bb01c508c5d5ec773e7",
+              "name": "Chips87253",
+              "amount": 760,
+              "price": 22592,
+              "manufacturer": "Apple",
+              "notes": "rTfuC5Ko0zktLljh5j1PM0qbFM7Yo489eaE8eyrS6joRPLLhCb6hSK7suIgYnrRyjb31t2WEaUAm4XPzHlh7WPZCa2opq8VZK3FtBL1MXLcme3qtpXjr00qVQOHr1b1K8GpeAPNlOzZ54o3vP7fW6elpQjFqwv8pv2QjXLNSSvlaVJoEGLWkLyHmX8xKrhfA3CP2EPCtKrZ7R7zXLtF9aHjwe4dFto6GIQwljCnf19lE4ONqjsgsRFelO2",
+              "received": false
+            }
+          ],
+          "total_price": 22592,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Horacehaven",
+              "street": "Adella Inlet",
+              "house": 49,
+              "flat": 913
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-16T22:35:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69939baf1c508c5d5ec77313",
+          "products": [
+            {
+              "_id": "69939bb01c508c5d5ec773e7",
+              "name": "Chips87253",
+              "amount": 760,
+              "price": 22592,
+              "manufacturer": "Apple",
+              "notes": "rTfuC5Ko0zktLljh5j1PM0qbFM7Yo489eaE8eyrS6joRPLLhCb6hSK7suIgYnrRyjb31t2WEaUAm4XPzHlh7WPZCa2opq8VZK3FtBL1MXLcme3qtpXjr00qVQOHr1b1K8GpeAPNlOzZ54o3vP7fW6elpQjFqwv8pv2QjXLNSSvlaVJoEGLWkLyHmX8xKrhfA3CP2EPCtKrZ7R7zXLtF9aHjwe4dFto6GIQwljCnf19lE4ONqjsgsRFelO2",
+              "received": false
+            }
+          ],
+          "total_price": 22592,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:35:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

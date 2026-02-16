@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-QByIwNskg6rFIQ7Ugx13dZyDBoo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939b921c508c5d5ec75fc6",
+        "email": "Lonny.Schowalter69@gmail.com",
+        "name": "Daisy Adams",
+        "country": "Great Britain",
+        "city": "Walnut Creek",
+        "street": "Rosalia Freeway",
+        "house": 38,
+        "flat": 6,
+        "phone": "+13369655925",
+        "createdOn": "2026-02-16T22:34:58.000Z",
+        "notes": "Se1x7SIfdYGhnz3KQ5jofa6cJD9CNhIj6pYVB1lmzOnhwR3sfsj3OzGHiltyQCN10KKiXt3ReoBXtTJmd2ka41w9ilNjfzuCa9CehEjFnLs2OU9K0ez58fivjlHiwB5C4UHcdSp3OFLgAvRfaLACaMxZXENBfxRBgafi6f1Fa0ZrVTGGEI2rnoRLs1Z9sgouZ3m0ouCRGyhqjZ8T16caMhpC9NuAL6KNiA81V51R9vkbXnRHugewiOi62z"
+      },
+      "products": [
+        {
+          "_id": "69939b931c508c5d5ec76008",
+          "name": "Pizza26884",
+          "amount": 486,
+          "price": 7336,
+          "manufacturer": "Microsoft",
+          "notes": "fugO8H9hJtbBDtL3zrO1NjkhMphRZS3KaO8q1G0Z4WilbFmbeZYcLRopRYzNTcZlJjuAMmJKHXvbsNVpspriAFttAAxkuOadwsgvSLMihkHdrymP1c8CXJVHgdHzTezdbDKsTLDRKF8FFO3BXk4HONU2LTZ6Z03zeVNJ7AT4diT8BCzyaW0jgLvPTcwWflFZ5TZ0yj3XYxDwbcSFvJLSatfJdxab2D1EEe9gnhXFTAp8sFJ0uduyNPsvy8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7336,
+      "createdOn": "2026-02-16T22:35:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939b921c508c5d5ec75fc6",
+          "products": [
+            {
+              "_id": "69939b931c508c5d5ec76008",
+              "name": "Pizza26884",
+              "amount": 486,
+              "price": 7336,
+              "manufacturer": "Microsoft",
+              "notes": "fugO8H9hJtbBDtL3zrO1NjkhMphRZS3KaO8q1G0Z4WilbFmbeZYcLRopRYzNTcZlJjuAMmJKHXvbsNVpspriAFttAAxkuOadwsgvSLMihkHdrymP1c8CXJVHgdHzTezdbDKsTLDRKF8FFO3BXk4HONU2LTZ6Z03zeVNJ7AT4diT8BCzyaW0jgLvPTcwWflFZ5TZ0yj3XYxDwbcSFvJLSatfJdxab2D1EEe9gnhXFTAp8sFJ0uduyNPsvy8",
+              "received": false
+            }
+          ],
+          "total_price": 7336,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:35:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939b941c508c5d5ec760bb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

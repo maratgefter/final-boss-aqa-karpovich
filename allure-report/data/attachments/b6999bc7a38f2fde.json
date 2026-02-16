@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:34:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-JKfMuhBV+i84DVoQ7JgbV+Uc+uo\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939b8d1c508c5d5ec75d04",
+        "email": "Jerry85@hotmail.com",
+        "name": "Nikolas Pagac",
+        "country": "Russia",
+        "city": "East Lorenzafield",
+        "street": "8th Street",
+        "house": 44,
+        "flat": 882,
+        "phone": "+19596791820",
+        "createdOn": "2026-02-16T22:34:53.000Z",
+        "notes": "mmHrzXYzw5YrZ3ooU8mR8SFWUOG7KnCwSYlYDH4dAkmOMFQA57aiGnzr04txI9FclKuMhW4absCWj3FYFong6edVLsnSe8Vq2M3rneQuqM6AMg8Nrjwl6nSLN4214lbVWUXYPMcxXBbJIbxq03S8XPpXGjLEYcbzYshycEbz5mS77OGy2fKEoMa8Ig3W46tmH181xID8iDHpaOFxfCc8tP9G4ULlKYB2anX7pADeLmQ1Pu7gAbbr2EuWtv"
+      },
+      "products": [
+        {
+          "_id": "69939b8d1c508c5d5ec75d1d",
+          "name": "Chips27579",
+          "amount": 592,
+          "price": 87537,
+          "manufacturer": "Amazon",
+          "notes": "h3PnBdiU7Ot4SnU0IPeJUV20l9p1T0dqKKFp6UB6BxXi8neONzgRpCD3seV20EmaqYpxbGDPEgeNB4luVTuJqJWNnRpA14y9NhyA6MZVKqpZO1Wi9G0RWxYLCpoZBMAFgTDBv8CPMt6jT5jADksCLfouHTbhbtjU51RjfAFUPL3JbcJzC6ZU7ZD6RmwuvgzawcPt2g1odJJXsjAOoWy1S7hvq4oBtXpkEqjqSt8PxkIpvI46LnS3ztaLae",
+          "received": false
+        },
+        {
+          "_id": "69939b8e1c508c5d5ec75d38",
+          "name": "Sausages75237",
+          "amount": 45,
+          "price": 94069,
+          "manufacturer": "Amazon",
+          "notes": "Z0yINixRew7JQQDwkJ2UXc7CZJFWJbZF7i8gNTb9rBeRyAi2ttRaHAiIKy0QQOlcNQsVPGal3OEztUhSCWhsgccHXLQvIXTNpkn1u60yScRgkQF9dSf01WZiWUPDJKPnuKlzVedAmcisK5Q1p9QiHUyIncRH5N3OU53KeFYsVuwtMxDsCTDiqudiO0yTsqITPgAVzJr82McfiiZq0cpDHqgSe0nNdseqdXFYRBDzaANR5IOvXTsNkZZOFk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 181606,
+      "createdOn": "2026-02-16T22:34:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939b8d1c508c5d5ec75d04",
+          "products": [
+            {
+              "_id": "69939b8d1c508c5d5ec75d1d",
+              "name": "Chips27579",
+              "amount": 592,
+              "price": 87537,
+              "manufacturer": "Amazon",
+              "notes": "h3PnBdiU7Ot4SnU0IPeJUV20l9p1T0dqKKFp6UB6BxXi8neONzgRpCD3seV20EmaqYpxbGDPEgeNB4luVTuJqJWNnRpA14y9NhyA6MZVKqpZO1Wi9G0RWxYLCpoZBMAFgTDBv8CPMt6jT5jADksCLfouHTbhbtjU51RjfAFUPL3JbcJzC6ZU7ZD6RmwuvgzawcPt2g1odJJXsjAOoWy1S7hvq4oBtXpkEqjqSt8PxkIpvI46LnS3ztaLae",
+              "received": false
+            },
+            {
+              "_id": "69939b8e1c508c5d5ec75d38",
+              "name": "Sausages75237",
+              "amount": 45,
+              "price": 94069,
+              "manufacturer": "Amazon",
+              "notes": "Z0yINixRew7JQQDwkJ2UXc7CZJFWJbZF7i8gNTb9rBeRyAi2ttRaHAiIKy0QQOlcNQsVPGal3OEztUhSCWhsgccHXLQvIXTNpkn1u60yScRgkQF9dSf01WZiWUPDJKPnuKlzVedAmcisK5Q1p9QiHUyIncRH5N3OU53KeFYsVuwtMxDsCTDiqudiO0yTsqITPgAVzJr82McfiiZq0cpDHqgSe0nNdseqdXFYRBDzaANR5IOvXTsNkZZOFk",
+              "received": false
+            }
+          ],
+          "total_price": 181606,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:34:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939b8e1c508c5d5ec75d79"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

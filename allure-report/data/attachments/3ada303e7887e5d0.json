@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3417",
+    "etag": "W/\"d59-a/kr4Oj9aRRv0n7BIZn+suaTRus\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939bbc1c508c5d5ec77b61",
+        "email": "Clemens87@hotmail.com",
+        "name": "Flo Klein",
+        "country": "Canada",
+        "city": "South Humberto",
+        "street": "Broad Street",
+        "house": 32,
+        "flat": 338,
+        "phone": "+16316310775",
+        "createdOn": "2026-02-16T22:35:40.000Z",
+        "notes": "VLI9GQFtD92oLT3k53AqpOFfFNE8Msfj90AwHPVeUPEnUN9KThZX61RBYS2kDKAVgNJtOcJklgra8KHrEGYVyWnFgSFGoJEEs65eeHY50EUtnJm8VAStlRgNazGCOF9H49cULwF88AJgJaLlfvjQoD3yOldKkdu5qSSrS5KW4iYjyBf3D5fInkuNzfnyuT4Jj644HaJhmt1WDL1IiTZ0bHKMVpRGY1vKCnqwphJsp4X1bMq9QkOZCufNmS"
+      },
+      "products": [
+        {
+          "_id": "69939bbd1c508c5d5ec77c3c",
+          "name": "Chicken15518",
+          "amount": 454,
+          "price": 85230,
+          "manufacturer": "Amazon",
+          "notes": "O54MhIfJ80lMfSZ1aa3Vm3BFfy5TI72dUVmkcpfxDdH8nzSN8YcAE8QUJFSHL24c0RiZKzxJLjvakUPpEt5n4UiWbStp2qYRM5eDFUhwGymcAAtU3eYZO4QPWHYna4ALxDAL4dd4fWqJGrIncQwjEkFIzeMIqjMmuGggVPgEumwjJjTLl2ZcRjAPZ2jc8XziPqwY55iKTvPDnn97BxAlG0CY7Tf4XS84zt9w682z8aWUYdEzmXRkiLHoM2",
+          "received": false
+        },
+        {
+          "_id": "69939bbe1c508c5d5ec77c64",
+          "name": "Pants94034",
+          "amount": 975,
+          "price": 26942,
+          "manufacturer": "Apple",
+          "notes": "ihzmA3wVDCmR9fJAzvLQ2Qc4BOVBwbN66EB6TFWFj3gtqtI8bQ7x79qRwAbaTYwwe622trEWY1Snzgfbvuy8daIYw2oHejAQflRXdlgoY5XOoa5pajxDIhjEomFFVdvfrT3RxQxgDPbSx9iUX4p8FexLcYA0Sgnf05nMvEjGRbw8BFANjRioURhzjN6gS4XRgH2vRNhq4AmKx32TCOd9lfp4FjbDWMXqwNIptLRM6EA81iSbAw4Kn1YI7g",
+          "received": false
+        },
+        {
+          "_id": "69939bbe1c508c5d5ec77c81",
+          "name": "Shirt47046",
+          "amount": 553,
+          "price": 96197,
+          "manufacturer": "Tesla",
+          "notes": "6mUWl4idl8N4dkbfRt8crFVKEs8y9JLd9ENtU6IgpeVmBfzj1MGjFoE0o4aTtLqTFvHL3IObXUZwAUrd009KfZ5TLHk0Fx6NWEde6mIz1FBhBBvVL7Qb8rSDOQNh38rY7K1xlpYKjXSE7onLVuC1GfXW6hXdeeK030I2kUcpEjiphTrboj8QaJfzicemQM2VzkpHRdgP7DVFO8WR02R3MMsyJ9oyFxv5bwBbvfxAuc036pPu6x0Jxfa6Md",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 208369,
+      "createdOn": "2026-02-16T22:35:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939bbc1c508c5d5ec77b61",
+          "products": [
+            {
+              "_id": "69939bbd1c508c5d5ec77c3c",
+              "name": "Chicken15518",
+              "amount": 454,
+              "price": 85230,
+              "manufacturer": "Amazon",
+              "notes": "O54MhIfJ80lMfSZ1aa3Vm3BFfy5TI72dUVmkcpfxDdH8nzSN8YcAE8QUJFSHL24c0RiZKzxJLjvakUPpEt5n4UiWbStp2qYRM5eDFUhwGymcAAtU3eYZO4QPWHYna4ALxDAL4dd4fWqJGrIncQwjEkFIzeMIqjMmuGggVPgEumwjJjTLl2ZcRjAPZ2jc8XziPqwY55iKTvPDnn97BxAlG0CY7Tf4XS84zt9w682z8aWUYdEzmXRkiLHoM2",
+              "received": false
+            },
+            {
+              "_id": "69939bbe1c508c5d5ec77c64",
+              "name": "Pants94034",
+              "amount": 975,
+              "price": 26942,
+              "manufacturer": "Apple",
+              "notes": "ihzmA3wVDCmR9fJAzvLQ2Qc4BOVBwbN66EB6TFWFj3gtqtI8bQ7x79qRwAbaTYwwe622trEWY1Snzgfbvuy8daIYw2oHejAQflRXdlgoY5XOoa5pajxDIhjEomFFVdvfrT3RxQxgDPbSx9iUX4p8FexLcYA0Sgnf05nMvEjGRbw8BFANjRioURhzjN6gS4XRgH2vRNhq4AmKx32TCOd9lfp4FjbDWMXqwNIptLRM6EA81iSbAw4Kn1YI7g",
+              "received": false
+            },
+            {
+              "_id": "69939bbe1c508c5d5ec77c81",
+              "name": "Shirt47046",
+              "amount": 553,
+              "price": 96197,
+              "manufacturer": "Tesla",
+              "notes": "6mUWl4idl8N4dkbfRt8crFVKEs8y9JLd9ENtU6IgpeVmBfzj1MGjFoE0o4aTtLqTFvHL3IObXUZwAUrd009KfZ5TLHk0Fx6NWEde6mIz1FBhBBvVL7Qb8rSDOQNh38rY7K1xlpYKjXSE7onLVuC1GfXW6hXdeeK030I2kUcpEjiphTrboj8QaJfzicemQM2VzkpHRdgP7DVFO8WR02R3MMsyJ9oyFxv5bwBbvfxAuc036pPu6x0Jxfa6Md",
+              "received": false
+            }
+          ],
+          "total_price": 208369,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:35:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939bbf1c508c5d5ec77ca7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

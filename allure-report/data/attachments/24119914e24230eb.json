@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:36:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-sWIXhQjU8Avd2KBDJRZ3HlqgPac\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939bdb1c508c5d5ec79118",
+        "email": "Haylee87@hotmail.com",
+        "name": "Marge Rempel",
+        "country": "Canada",
+        "city": "Kurtview",
+        "street": "Spring Street",
+        "house": 42,
+        "flat": 945,
+        "phone": "+17883885073",
+        "createdOn": "2026-02-16T22:36:11.000Z",
+        "notes": "UiYQCqgbVpkb2su0YFc3mzphRZuLAWa09ETYMDXAMzF3twzY9XjeCikfvB9huivRnvtDcTroGUiH2X0nTfa9mIybtTLedyPIFM7yezmDs7spSTLRlPTtVb1yJLxNG1vM5Ka0xth5XFmxnKRlqzsHSh3wWTXsVDlMG28S9RiEJI4ZP3XK17ZNWCRVv7kCyE774Djdl2DrQHoHphUTQqn7SjjwD587lAV6CzRR4nUIPXI7LnLVKv89Y4C9mD"
+      },
+      "products": [
+        {
+          "_id": "69939be01c508c5d5ec7948d",
+          "name": "Pizza69307",
+          "amount": 208,
+          "price": 25807,
+          "manufacturer": "Tesla",
+          "notes": "7rhiybhuA2bggRyTSyFmxnOCcg1hlz4wMzBmZmy7ZqWVTmJY9Esa0NitkF9md1kHiAQOwlibPa5OWiKYmRHLLj6l5Pg9DM8zGPoLHNpZyOnIqP9fuY4Yaqfo0wh5dc8MshaEAGHbd60HFtlWnHx1gDizZ3NjGmrJzLJN2pvLiVXRRs3zxWGZGNLTV9CFf7pyCAxTzQDbYQgKvnYoAeJONcdk1oVfR1swp6wH0XoTHXxoD4PxhyePDtwlFU",
+          "received": false
+        },
+        {
+          "_id": "69939be01c508c5d5ec794aa",
+          "name": "Keyboard81087",
+          "amount": 200,
+          "price": 83341,
+          "manufacturer": "Microsoft",
+          "notes": "RWsXzVahsg8xE8MwvwztBR70xLZ1hwt96YvJHfgf8Wr1kAgxuwElQUtTkNu5kPoSHqtw08PJx6euxGZTgUASFbcqIzZ6wdhGQVpr2m3rHMplUmRZbr2i1ey1ppBafFzO2Q6PA0YcOD85la26y1hsEljtaQyBoJwtBTD3zXYmpYjqEjOWbajjEyY3nSa90Q0hfkX3fK16NNOknK0oMuLwv5nAk6c7xMgTTDZV9W51ZuSUQa5z8QIv0rWvXG",
+          "received": false
+        },
+        {
+          "_id": "69939be11c508c5d5ec79582",
+          "name": "Hat86443",
+          "amount": 526,
+          "price": 55256,
+          "manufacturer": "Xiaomi",
+          "notes": "cYt9IJD5whiGGpXARyg4nzrBsb61j7GADC5HzSI35MPRgHTjWV9dwBEGFn1ZueSFqar0vWnZyBltH7QHmsx0PfVAMyh5U4Bp53kO3gg24vdfDK8JmewAXvR46anhxrXVsFKR8mEnuFRIAkRNMWvrL2Qb4DbhmG1qRmsZMKNrIFhNZMTY0RrKmi9SdeW3xo4T2qPQhTQRMMiqsFDyg152JBuj7xHgI8Skg9mDPT5tB5beQL13WMkV5iCa8Q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 164404,
+      "createdOn": "2026-02-16T22:36:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939bdb1c508c5d5ec79118",
+          "products": [
+            {
+              "_id": "69939be01c508c5d5ec7948d",
+              "name": "Pizza69307",
+              "amount": 208,
+              "price": 25807,
+              "manufacturer": "Tesla",
+              "notes": "7rhiybhuA2bggRyTSyFmxnOCcg1hlz4wMzBmZmy7ZqWVTmJY9Esa0NitkF9md1kHiAQOwlibPa5OWiKYmRHLLj6l5Pg9DM8zGPoLHNpZyOnIqP9fuY4Yaqfo0wh5dc8MshaEAGHbd60HFtlWnHx1gDizZ3NjGmrJzLJN2pvLiVXRRs3zxWGZGNLTV9CFf7pyCAxTzQDbYQgKvnYoAeJONcdk1oVfR1swp6wH0XoTHXxoD4PxhyePDtwlFU",
+              "received": false
+            },
+            {
+              "_id": "69939be01c508c5d5ec794aa",
+              "name": "Keyboard81087",
+              "amount": 200,
+              "price": 83341,
+              "manufacturer": "Microsoft",
+              "notes": "RWsXzVahsg8xE8MwvwztBR70xLZ1hwt96YvJHfgf8Wr1kAgxuwElQUtTkNu5kPoSHqtw08PJx6euxGZTgUASFbcqIzZ6wdhGQVpr2m3rHMplUmRZbr2i1ey1ppBafFzO2Q6PA0YcOD85la26y1hsEljtaQyBoJwtBTD3zXYmpYjqEjOWbajjEyY3nSa90Q0hfkX3fK16NNOknK0oMuLwv5nAk6c7xMgTTDZV9W51ZuSUQa5z8QIv0rWvXG",
+              "received": false
+            },
+            {
+              "_id": "69939be11c508c5d5ec79582",
+              "name": "Hat86443",
+              "amount": 526,
+              "price": 55256,
+              "manufacturer": "Xiaomi",
+              "notes": "cYt9IJD5whiGGpXARyg4nzrBsb61j7GADC5HzSI35MPRgHTjWV9dwBEGFn1ZueSFqar0vWnZyBltH7QHmsx0PfVAMyh5U4Bp53kO3gg24vdfDK8JmewAXvR46anhxrXVsFKR8mEnuFRIAkRNMWvrL2Qb4DbhmG1qRmsZMKNrIFhNZMTY0RrKmi9SdeW3xo4T2qPQhTQRMMiqsFDyg152JBuj7xHgI8Skg9mDPT5tB5beQL13WMkV5iCa8Q",
+              "received": false
+            }
+          ],
+          "total_price": 164404,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:36:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939be61c508c5d5ec79914"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

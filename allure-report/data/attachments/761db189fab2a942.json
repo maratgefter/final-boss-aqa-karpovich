@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:35:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-kPWHjgeaGqB/KI2pTGRaP2V6014\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69939b921c508c5d5ec75fa8",
+        "email": "Bertram.Cummerata83@hotmail.com",
+        "name": "Mariane Balistreri",
+        "country": "Canada",
+        "city": "Kayleemouth",
+        "street": "Schultz Cliffs",
+        "house": 25,
+        "flat": 65,
+        "phone": "+18687233711",
+        "createdOn": "2026-02-16T22:34:58.000Z",
+        "notes": "TrYn9z0A7rTDIiApGDmYE6fC7cmTATrscGDmLj4Oxp3Q6CDiKOLnAhUWMCAgx2UrP9rzO8d5G3Ivq09oBv9munrqBZ9JK1OLiic3D58yZ0HIBJM5xwJPMuFwQK4akCUlYTzmGMF5wKz6NzYTKuUAkCNW4o1SSnJrpn4WD8vb03494H9XKAjFzetfYaTA6gabYe1MBOm6nKnWYKlm99ASP2469uhh82zxNfsqWrMmRsQuaKGVlUIm0DLHvo"
+      },
+      "products": [
+        {
+          "_id": "69939b931c508c5d5ec75fd7",
+          "name": "Bacon60851",
+          "amount": 804,
+          "price": 45215,
+          "manufacturer": "Samsung",
+          "notes": "9b7Ehal3RMyAAcYCpyiTfm6IEUOZfG4mXI3fmAUs92BzIPTmyLkLMuM2m2cNhz83EiCrgRD2EL8nPfsDSLAsCV5Q41ZvrdGrcqi1dlo43Bu41JsrIznWTffPV4RIzs14ZcTZ10jbJ28JRRBZJFRL6vm9uDff3pUN9I8aTGaVHVeziCTy7udbgarom20bbF7b2VWxPxCL5v1538gq3B7AdCPGZPyoJoXXMvRJrq8MiHafHQHyHnu50lY8SE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45215,
+      "createdOn": "2026-02-16T22:34:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939b921c508c5d5ec75fa8",
+          "products": [
+            {
+              "_id": "69939b931c508c5d5ec75fd7",
+              "name": "Bacon60851",
+              "amount": 804,
+              "price": 45215,
+              "manufacturer": "Samsung",
+              "notes": "9b7Ehal3RMyAAcYCpyiTfm6IEUOZfG4mXI3fmAUs92BzIPTmyLkLMuM2m2cNhz83EiCrgRD2EL8nPfsDSLAsCV5Q41ZvrdGrcqi1dlo43Bu41JsrIznWTffPV4RIzs14ZcTZ10jbJ28JRRBZJFRL6vm9uDff3pUN9I8aTGaVHVeziCTy7udbgarom20bbF7b2VWxPxCL5v1538gq3B7AdCPGZPyoJoXXMvRJrq8MiHafHQHyHnu50lY8SE",
+              "received": false
+            }
+          ],
+          "total_price": 45215,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:34:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69939b931c508c5d5ec760a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

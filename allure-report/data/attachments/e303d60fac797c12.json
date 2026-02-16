@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 16 Feb 2026 22:34:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2947",
+    "etag": "W/\"b83-iAMfkigHyg3V6lNOMwPUAjkcbi0\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69939b8a1c508c5d5ec75b57",
+      "status": "Draft",
+      "customer": {
+        "_id": "69939b891c508c5d5ec75b14",
+        "email": "Royce33@yahoo.com",
+        "name": "Keeley Pacocha",
+        "country": "Great Britain",
+        "city": "Bartlett",
+        "street": "Birch Grove",
+        "house": 6,
+        "flat": 187,
+        "phone": "+19663668325",
+        "createdOn": "2026-02-16T22:34:49.000Z",
+        "notes": "F00YuMXjTTipPc2xxQp1BoCHXAz5OVLhc6t2rPN9TLZuc3w5IPDrvc46vVeSi99ce14BuzNnvdcRK28S1p9w2H63SIOyZnpGOcFeO5Wu166f44z4NKf5ZBKgqmstYhpe6YR1PfAluarY4P0B8KhhuWijuIvrtGabOa12Jfh8BIuBIRTlJUrdfzjg5ZKbVllO8OGbKpFlEzj496uUv7odq3jEB16umujqhyyZGxIRjyHkAA6hjdoG07VzNk"
+      },
+      "products": [
+        {
+          "_id": "69939b891c508c5d5ec75b32",
+          "name": "Chair51365",
+          "amount": 169,
+          "price": 35287,
+          "manufacturer": "Amazon",
+          "notes": "kr5tmyLLqxq0YQ5zUQd8QKjlFBZhPskw70MvhTJQrxMKY8Xgds2IPQ4qx3tITkkR86A1aQegWtkAC5M4IC0BUX8RuHs4bWSC5Q1dLwl3nV9PRaCBbVOG0XmLpvM7IdzymUZhKwIl3T6e8AxuqLliJElvWwoawW1YhyWxvhHFeABNZ7d9JFAGLNoZrdHUaW8Rv6E98s4hbpFnYcx4QdjjGZyjSE5dSFLQnCMUyzUHuYUJu95ULuiuyGkiWx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35287,
+      "createdOn": "2026-02-16T22:34:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69939b891c508c5d5ec75b14",
+          "products": [
+            {
+              "_id": "69939b891c508c5d5ec75b32",
+              "name": "Chair51365",
+              "amount": 169,
+              "price": 35287,
+              "manufacturer": "Amazon",
+              "notes": "kr5tmyLLqxq0YQ5zUQd8QKjlFBZhPskw70MvhTJQrxMKY8Xgds2IPQ4qx3tITkkR86A1aQegWtkAC5M4IC0BUX8RuHs4bWSC5Q1dLwl3nV9PRaCBbVOG0XmLpvM7IdzymUZhKwIl3T6e8AxuqLliJElvWwoawW1YhyWxvhHFeABNZ7d9JFAGLNoZrdHUaW8Rv6E98s4hbpFnYcx4QdjjGZyjSE5dSFLQnCMUyzUHuYUJu95ULuiuyGkiWx",
+              "received": false
+            }
+          ],
+          "total_price": 35287,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:34:50.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69939b891c508c5d5ec75b14",
+          "products": [
+            {
+              "_id": "69939b891c508c5d5ec75b32",
+              "name": "Chair51365",
+              "amount": 169,
+              "price": 35287,
+              "manufacturer": "Amazon",
+              "notes": "kr5tmyLLqxq0YQ5zUQd8QKjlFBZhPskw70MvhTJQrxMKY8Xgds2IPQ4qx3tITkkR86A1aQegWtkAC5M4IC0BUX8RuHs4bWSC5Q1dLwl3nV9PRaCBbVOG0XmLpvM7IdzymUZhKwIl3T6e8AxuqLliJElvWwoawW1YhyWxvhHFeABNZ7d9JFAGLNoZrdHUaW8Rv6E98s4hbpFnYcx4QdjjGZyjSE5dSFLQnCMUyzUHuYUJu95ULuiuyGkiWx",
+              "received": false
+            }
+          ],
+          "total_price": 35287,
+          "delivery": null,
+          "changedOn": "2026-02-16T22:34:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
