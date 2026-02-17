@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3883",
+    "etag": "W/\"f2b-pHbjgJ0g0cB4xpr8+JSNYYHg2BE\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6994ede31c508c5d5ec84150",
+      "status": "In Process",
+      "customer": {
+        "_id": "6994ede21c508c5d5ec840f2",
+        "email": "Tre.MacGyver-Wilderman33@gmail.com",
+        "name": "Dayne Schimmel",
+        "country": "Canada",
+        "city": "South Maxime",
+        "street": "Okuneva Roads",
+        "house": 45,
+        "flat": 52,
+        "phone": "+18933579523",
+        "createdOn": "2026-02-17T22:38:26.000Z",
+        "notes": "ROzEHo7dVb3VtloAIUWboRggJ0GCQ40rtJgAy74HGERgfL5YV0iNeC2hHuVNG3bnxBvHasQSKIWoIVrpaGp91sc5PpR2c8cb0MUfNi6CfMwq6LFBfYqNvEPOx5mLFNOyhJjaf1y0H1mSanFZT2I61UIdbv2stfzbhyWSzlX4EM9ZYA4wXmo34gbP1U3bw9CAdpcTRNkkghgsjHbEcEQB7uyiKivb5IalQrfqHNGtki1EWF9ckp8aLcYeeP"
+      },
+      "products": [
+        {
+          "_id": "6994ede21c508c5d5ec84127",
+          "name": "Chair98621",
+          "amount": 533,
+          "price": 60417,
+          "manufacturer": "Sony",
+          "notes": "y4BbUtOAWdBCS8VobL8jRIyKfEAwMSesfFUNk9FiFbtvPT57wrT1nqeAgnVpStGReaptteUO3XmOCTqhVVUOMAKokgPh8l660ao7oB4IOlIFaEXxBwOUsoxpVmOe8Xw6Mg4X23AHXH5gOlcOATzIgAJnyeFhEfMLifMPxwYACnYIoQPtcKXjmHVsADBSy9bDC355rkHOzfX7hsHne2EkWGvSQXruVyHhmXMZEwe2dW7NEjDaqAuZ7oyTi2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Maxime",
+          "street": "Okuneva Roads",
+          "house": 45,
+          "flat": 52
+        },
+        "finalDate": "2026-02-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 60417,
+      "createdOn": "2026-02-17T22:38:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6994ede21c508c5d5ec840f2",
+          "products": [
+            {
+              "_id": "6994ede21c508c5d5ec84127",
+              "name": "Chair98621",
+              "amount": 533,
+              "price": 60417,
+              "manufacturer": "Sony",
+              "notes": "y4BbUtOAWdBCS8VobL8jRIyKfEAwMSesfFUNk9FiFbtvPT57wrT1nqeAgnVpStGReaptteUO3XmOCTqhVVUOMAKokgPh8l660ao7oB4IOlIFaEXxBwOUsoxpVmOe8Xw6Mg4X23AHXH5gOlcOATzIgAJnyeFhEfMLifMPxwYACnYIoQPtcKXjmHVsADBSy9bDC355rkHOzfX7hsHne2EkWGvSQXruVyHhmXMZEwe2dW7NEjDaqAuZ7oyTi2",
+              "received": false
+            }
+          ],
+          "total_price": 60417,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Maxime",
+              "street": "Okuneva Roads",
+              "house": 45,
+              "flat": 52
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-17T22:38:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6994ede21c508c5d5ec840f2",
+          "products": [
+            {
+              "_id": "6994ede21c508c5d5ec84127",
+              "name": "Chair98621",
+              "amount": 533,
+              "price": 60417,
+              "manufacturer": "Sony",
+              "notes": "y4BbUtOAWdBCS8VobL8jRIyKfEAwMSesfFUNk9FiFbtvPT57wrT1nqeAgnVpStGReaptteUO3XmOCTqhVVUOMAKokgPh8l660ao7oB4IOlIFaEXxBwOUsoxpVmOe8Xw6Mg4X23AHXH5gOlcOATzIgAJnyeFhEfMLifMPxwYACnYIoQPtcKXjmHVsADBSy9bDC355rkHOzfX7hsHne2EkWGvSQXruVyHhmXMZEwe2dW7NEjDaqAuZ7oyTi2",
+              "received": false
+            }
+          ],
+          "total_price": 60417,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Maxime",
+              "street": "Okuneva Roads",
+              "house": 45,
+              "flat": 52
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-17T22:38:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6994ede21c508c5d5ec840f2",
+          "products": [
+            {
+              "_id": "6994ede21c508c5d5ec84127",
+              "name": "Chair98621",
+              "amount": 533,
+              "price": 60417,
+              "manufacturer": "Sony",
+              "notes": "y4BbUtOAWdBCS8VobL8jRIyKfEAwMSesfFUNk9FiFbtvPT57wrT1nqeAgnVpStGReaptteUO3XmOCTqhVVUOMAKokgPh8l660ao7oB4IOlIFaEXxBwOUsoxpVmOe8Xw6Mg4X23AHXH5gOlcOATzIgAJnyeFhEfMLifMPxwYACnYIoQPtcKXjmHVsADBSy9bDC355rkHOzfX7hsHne2EkWGvSQXruVyHhmXMZEwe2dW7NEjDaqAuZ7oyTi2",
+              "received": false
+            }
+          ],
+          "total_price": 60417,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

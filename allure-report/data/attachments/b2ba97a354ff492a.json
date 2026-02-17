@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3897",
+    "etag": "W/\"f39-gfruV0By24y8G9ZYv97I7oM9zR8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6994edbe1c508c5d5ec82883",
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edbe1c508c5d5ec82841",
+        "email": "Kellen_Parker@gmail.com",
+        "name": "Barrett Fahey",
+        "country": "France",
+        "city": "Fort Laneyfield",
+        "street": "16th Street",
+        "house": 14,
+        "flat": 122,
+        "phone": "+13629685145",
+        "createdOn": "2026-02-17T22:37:50.000Z",
+        "notes": "UGj08hkoXWudZ2Y40lNjwIZNaLW4CqVkgw2ZD32FgmS0xo23UD4IvmqxEEhGpXQCGpVSJNalcLQHREhPTor59kOnd8CHiVvU8ihuGCnF8vWgvjHKSfu7nCQd4QUUr958tYrj9apAsiN7VkOgD2CIH60KKgLz8v7nTUdzGEO4Ubt4c6hLelS7MGrnLjDM2LFzk4gGjajQmWJtrGbikskpKBnVZLeZJ3SF7hzTvaJLVEoZsKVJvZkTVPuK4G"
+      },
+      "products": [
+        {
+          "_id": "6994edbe1c508c5d5ec82864",
+          "name": "Gloves63177",
+          "amount": 221,
+          "price": 2347,
+          "manufacturer": "Microsoft",
+          "notes": "h9qkpR7TQeVU0pASLIVcRMjRz1L2fkiLek2L1B8arFO7s7Ep5m2LLQYvAz0ev6eaH7bioH65JZdUOHkeyzDxvIXJxO3SN26fK5Zml7KNgCtGvoO6VKMQejnEzoebEo6bXiIz1y29JFrbh6f3HaPwkagxytuedJOtaDre1ZysGXdFfamE58HIZ7WfESRdDLFgCSTuyghQmbo5RaaqP6klf8aKMmWhwnUnX8XwCaVVdPwVeIAm3TVG0TzYor",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2347,
+      "createdOn": "2026-02-17T22:37:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edbe1c508c5d5ec82841",
+          "products": [
+            {
+              "_id": "6994edbe1c508c5d5ec82864",
+              "name": "Gloves63177",
+              "amount": 221,
+              "price": 2347,
+              "manufacturer": "Microsoft",
+              "notes": "h9qkpR7TQeVU0pASLIVcRMjRz1L2fkiLek2L1B8arFO7s7Ep5m2LLQYvAz0ev6eaH7bioH65JZdUOHkeyzDxvIXJxO3SN26fK5Zml7KNgCtGvoO6VKMQejnEzoebEo6bXiIz1y29JFrbh6f3HaPwkagxytuedJOtaDre1ZysGXdFfamE58HIZ7WfESRdDLFgCSTuyghQmbo5RaaqP6klf8aKMmWhwnUnX8XwCaVVdPwVeIAm3TVG0TzYor",
+              "received": false
+            }
+          ],
+          "total_price": 2347,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6994edbe1c508c5d5ec82841",
+          "products": [
+            {
+              "_id": "6994edbe1c508c5d5ec82864",
+              "name": "Gloves63177",
+              "amount": 221,
+              "price": 2347,
+              "manufacturer": "Microsoft",
+              "notes": "h9qkpR7TQeVU0pASLIVcRMjRz1L2fkiLek2L1B8arFO7s7Ep5m2LLQYvAz0ev6eaH7bioH65JZdUOHkeyzDxvIXJxO3SN26fK5Zml7KNgCtGvoO6VKMQejnEzoebEo6bXiIz1y29JFrbh6f3HaPwkagxytuedJOtaDre1ZysGXdFfamE58HIZ7WfESRdDLFgCSTuyghQmbo5RaaqP6klf8aKMmWhwnUnX8XwCaVVdPwVeIAm3TVG0TzYor",
+              "received": false
+            }
+          ],
+          "total_price": 2347,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:51.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6994edbe1c508c5d5ec82841",
+          "products": [
+            {
+              "_id": "6994edbe1c508c5d5ec82864",
+              "name": "Gloves63177",
+              "amount": 221,
+              "price": 2347,
+              "manufacturer": "Microsoft",
+              "notes": "h9qkpR7TQeVU0pASLIVcRMjRz1L2fkiLek2L1B8arFO7s7Ep5m2LLQYvAz0ev6eaH7bioH65JZdUOHkeyzDxvIXJxO3SN26fK5Zml7KNgCtGvoO6VKMQejnEzoebEo6bXiIz1y29JFrbh6f3HaPwkagxytuedJOtaDre1ZysGXdFfamE58HIZ7WfESRdDLFgCSTuyghQmbo5RaaqP6klf8aKMmWhwnUnX8XwCaVVdPwVeIAm3TVG0TzYor",
+              "received": false
+            }
+          ],
+          "total_price": 2347,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

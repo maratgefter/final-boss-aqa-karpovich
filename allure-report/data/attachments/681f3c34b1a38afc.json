@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-6U/gtJo/GhR2usEbu7ieuGYvqLQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edc11c508c5d5ec82a6d",
+        "email": "Maxie.Zulauf@gmail.com",
+        "name": "Dolores Schaden",
+        "country": "Great Britain",
+        "city": "Lefflerberg",
+        "street": "Jefferson Avenue",
+        "house": 4,
+        "flat": 606,
+        "phone": "+19693555213",
+        "createdOn": "2026-02-17T22:37:53.000Z",
+        "notes": "JvnqydRhMlNJAmfBiyzAtG0eYvSfYiAxdEAJPB2Aj3ixwjqjR2hUdRba0IBSWg9E83cU4R8KPsYEPGZE54XE365PkCGYs6M3sTrm4pIkZXbMbhd8JPoAnG13AYql2rcsNsLfTxboPYdPBFUw2s9TjtpYbwFX14SnXMbzAzc2gO0fzc1lkGi0jlgLhvaKMyaIrvkhNrH2Dg3GSD3xCKdL4lvfPBzJRB9nEZuOqPNZuSIXc4q5vznymp4pot"
+      },
+      "products": [
+        {
+          "_id": "6994edc21c508c5d5ec82b45",
+          "name": "Chair28318",
+          "amount": 601,
+          "price": 56217,
+          "manufacturer": "Tesla",
+          "notes": "VfSa7TB0HgVFCqXzClSVmGdqa4f5CkrPW5OiWFC4zxNuAqhRG0eh5tBkD9Xce1ZoTxpJbr3YA1TuyoBtqdM3iuvkVP9hYcNJPhXISMchSgjWbOY0V676moN9XZgPYrIAGU0SlOuIU1pNrgnhZ48cXL39qNIHquoci28s0vhDTVtwQGKSkIT2obbC3LieLN1NEWF5UckLFluVvpB2xpwoXP26BpTctxAFCeUlOWnYEuFJHqT5Y0ah4yUDQS",
+          "received": false
+        },
+        {
+          "_id": "6994edc31c508c5d5ec82c11",
+          "name": "Shirt9657",
+          "amount": 423,
+          "price": 75940,
+          "manufacturer": "Google",
+          "notes": "f8qw8jvbwmjeoYow6elhNTBguXCkuq080JLYLCMcIsiJlxoMhz8QMHcpkB6DoWcnUuSlofljsHj0EyVoPpXgIKy7XkDgH1iwhVZEHcfddqs7hmUlxLQnVSXbq3v4VP8mWMpnpObxypvNdePgXmKpN4htzBQIsKCy8Xj1NG2eAbatxZ6WvmXLlbAhReNwIFOCSgOmiHBtL8yjdSV5cTsj0AHYDw4voYRRTkP4eA6BGdesqsXd5uXFLbvfEm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 132157,
+      "createdOn": "2026-02-17T22:37:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edc11c508c5d5ec82a6d",
+          "products": [
+            {
+              "_id": "6994edc21c508c5d5ec82b45",
+              "name": "Chair28318",
+              "amount": 601,
+              "price": 56217,
+              "manufacturer": "Tesla",
+              "notes": "VfSa7TB0HgVFCqXzClSVmGdqa4f5CkrPW5OiWFC4zxNuAqhRG0eh5tBkD9Xce1ZoTxpJbr3YA1TuyoBtqdM3iuvkVP9hYcNJPhXISMchSgjWbOY0V676moN9XZgPYrIAGU0SlOuIU1pNrgnhZ48cXL39qNIHquoci28s0vhDTVtwQGKSkIT2obbC3LieLN1NEWF5UckLFluVvpB2xpwoXP26BpTctxAFCeUlOWnYEuFJHqT5Y0ah4yUDQS",
+              "received": false
+            },
+            {
+              "_id": "6994edc31c508c5d5ec82c11",
+              "name": "Shirt9657",
+              "amount": 423,
+              "price": 75940,
+              "manufacturer": "Google",
+              "notes": "f8qw8jvbwmjeoYow6elhNTBguXCkuq080JLYLCMcIsiJlxoMhz8QMHcpkB6DoWcnUuSlofljsHj0EyVoPpXgIKy7XkDgH1iwhVZEHcfddqs7hmUlxLQnVSXbq3v4VP8mWMpnpObxypvNdePgXmKpN4htzBQIsKCy8Xj1NG2eAbatxZ6WvmXLlbAhReNwIFOCSgOmiHBtL8yjdSV5cTsj0AHYDw4voYRRTkP4eA6BGdesqsXd5uXFLbvfEm",
+              "received": false
+            }
+          ],
+          "total_price": 132157,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edc51c508c5d5ec82cf4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

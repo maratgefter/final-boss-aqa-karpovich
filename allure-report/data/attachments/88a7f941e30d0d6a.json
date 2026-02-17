@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-K9h6A6Pylg3BSPUBG96qAz4/S98\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edc51c508c5d5ec82ceb",
+        "email": "Adriel.Lind4@gmail.com",
+        "name": "Lorenzo Lebsack",
+        "country": "USA",
+        "city": "Turnerbury",
+        "street": "Stephanie Station",
+        "house": 4,
+        "flat": 674,
+        "phone": "+16088492116",
+        "createdOn": "2026-02-17T22:37:57.000Z",
+        "notes": "OVnNqkaN4i4a0IMxBRvRQHZ5m1lv3yZKKzlbBNDFevnAzy1aQtVtk9ykYVM22YRlsmBr1QUgBIg6x7IkF1qEGxq9SxCIKiyB0ARnGV2YWdVxESrMcGZ8Tskf5lS4kMswRaPGg0kfJdOyXsXBit3IrGZYbHcNeme3Urzc63sxWlWa6aPbpFyvcmITFs9sdodaaAMLmwB3TEC91wzaerXaqkcb6uct5j69RfMaZ1xYHraKIhIHSqDIikXXf4"
+      },
+      "products": [
+        {
+          "_id": "6994edc51c508c5d5ec82d0a",
+          "name": "Pants6719",
+          "amount": 549,
+          "price": 33165,
+          "manufacturer": "Google",
+          "notes": "v0oeS6dTW3qpYWeDLNEQ4JJKmstvZJG21CxZSfyk4rOXX9H5Dr6jhtFYD5IfWoBIxYqmitJeYvF5Cyt1LyEE1ho20ni1hADeAPeFyj46jGZOah6cJ3283BD3ocMX8kvFGQW06GN3Lom42JEupNHqzXmNBOm8C95QQ9FexRFEgunvy7h76eGjyt8frkNRgJagtZ9kCVuz5b13I14FUU57N30TLk0s4uyQu6dNcKHfwSzHXZF7od17fNIo9o",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33165,
+      "createdOn": "2026-02-17T22:37:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edc51c508c5d5ec82ceb",
+          "products": [
+            {
+              "_id": "6994edc51c508c5d5ec82d0a",
+              "name": "Pants6719",
+              "amount": 549,
+              "price": 33165,
+              "manufacturer": "Google",
+              "notes": "v0oeS6dTW3qpYWeDLNEQ4JJKmstvZJG21CxZSfyk4rOXX9H5Dr6jhtFYD5IfWoBIxYqmitJeYvF5Cyt1LyEE1ho20ni1hADeAPeFyj46jGZOah6cJ3283BD3ocMX8kvFGQW06GN3Lom42JEupNHqzXmNBOm8C95QQ9FexRFEgunvy7h76eGjyt8frkNRgJagtZ9kCVuz5b13I14FUU57N30TLk0s4uyQu6dNcKHfwSzHXZF7od17fNIo9o",
+              "received": false
+            }
+          ],
+          "total_price": 33165,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edc51c508c5d5ec82d30"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

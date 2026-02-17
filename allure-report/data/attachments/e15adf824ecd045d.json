@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-oYXOcPD45O11to1W5jBfMcsbmfU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edb31c508c5d5ec822ad",
+        "email": "Jailyn_Jakubowski@hotmail.com",
+        "name": "Lamont Feest",
+        "country": "France",
+        "city": "Lake Markusview",
+        "street": "Mitchell Shoals",
+        "house": 9,
+        "flat": 318,
+        "phone": "+12618018967",
+        "createdOn": "2026-02-17T22:37:39.000Z",
+        "notes": "S3TUk0r890mWkSyiFhOoPyzGI8Oa2sWZuLNuG20KOgzcXNwQOwvG1iePD8jE8hYhCpByPinv1Jj6uxOm6qN5AB0iokbcuOyVx7DTutYnibeElNo4kU0YpNngF9tJ864vEyn0oFdzn8mHX2fnoPkYXeyUXCLDGGIlZuZbtOeomPGGNwVUidD5GCb6GRXvv4yJcEfMYzApHOIViAoixCrFSFkKL5nR0nwfpGfwZyH3tqrstzVd9S7vbHlm3o"
+      },
+      "products": [
+        {
+          "_id": "6994edb31c508c5d5ec822be",
+          "name": "Car75618",
+          "amount": 115,
+          "price": 31138,
+          "manufacturer": "Apple",
+          "notes": "So0GQMKBGJDa06OCgtCOYenKEIRRResF2KBjgyWyjQyL4NbFyyY9IMpRem0aIwN9Ovihd6gjhJ1MGN1lUxDZ44IZjysavAeDnYcdJUfI1sBql655GNm7G8qJ0lPgJaHIznmqQvXVfuU5iRGs1IwLdBq55CjPlCgIPyUyaRWAGAXfcqubfZVXqTAe6cyc0k3nrFRL2vJnZELXL78Dm4OyFy909QSFPSsYvxRJkpQan5sXyBg4NjKBwMTXSb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31138,
+      "createdOn": "2026-02-17T22:37:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edb31c508c5d5ec822ad",
+          "products": [
+            {
+              "_id": "6994edb31c508c5d5ec822be",
+              "name": "Car75618",
+              "amount": 115,
+              "price": 31138,
+              "manufacturer": "Apple",
+              "notes": "So0GQMKBGJDa06OCgtCOYenKEIRRResF2KBjgyWyjQyL4NbFyyY9IMpRem0aIwN9Ovihd6gjhJ1MGN1lUxDZ44IZjysavAeDnYcdJUfI1sBql655GNm7G8qJ0lPgJaHIznmqQvXVfuU5iRGs1IwLdBq55CjPlCgIPyUyaRWAGAXfcqubfZVXqTAe6cyc0k3nrFRL2vJnZELXL78Dm4OyFy909QSFPSsYvxRJkpQan5sXyBg4NjKBwMTXSb",
+              "received": false
+            }
+          ],
+          "total_price": 31138,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edb31c508c5d5ec822e5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

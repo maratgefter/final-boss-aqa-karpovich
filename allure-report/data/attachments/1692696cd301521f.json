@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-nmRaLDpyEODE9oQMna2SDbU/K6Q\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edbb1c508c5d5ec8270f",
+        "email": "Ara.Hand67@gmail.com",
+        "name": "Peyton Emmerich",
+        "country": "Canada",
+        "city": "Ontario",
+        "street": "Mitchell Courts",
+        "house": 30,
+        "flat": 975,
+        "phone": "+14568229616",
+        "createdOn": "2026-02-17T22:37:47.000Z",
+        "notes": "dwLwlscaWh26dlvugQm9VMH5xwuMxsQSARSo8bGJCkygIHYEbzmtcjggDzf6IQNiBAYGjDakeByZ4U4vNTjx4813RmJQOViw8Qpfxjmkf0WcmF34OF7OScOLiJPwtJNNMbTpFp61EpSJpjESCSFDwytUVUdMPlhGTIQWJgfQR67N9QX7v6BS3p323hbW66Shz28BpXrXjw21DxYI64VyuMbSmlpyRgzLh2cq2dHNOZQvMOn9VB3C5cBM7Z"
+      },
+      "products": [
+        {
+          "_id": "6994edbb1c508c5d5ec82731",
+          "name": "Pants71459",
+          "amount": 673,
+          "price": 80346,
+          "manufacturer": "Samsung",
+          "notes": "OIwHD7BbVLnEtdOjDL5XB4UbdhV9VY4uGDdjnQ1cX1HSoflZ0B9IypuHmdr9DWRLdMlx2r4gXBLEa9NyOygZvevx4UOeVSiUY5kOYwlaQ1O1QHUbdMu9o6RVHJceRUrqaJZE51u49wwB4UC0MGasG7SN3dEBRKuubdGV0BAUvJBs2c5waNOf0U3WGisG80suRYeH8t8c8JiPHvTe8w9a6PfxrxN0fPjHAjULaudGyTCN79cZOuCDYqP382",
+          "received": false
+        },
+        {
+          "_id": "6994edbc1c508c5d5ec82751",
+          "name": "Shirt77804",
+          "amount": 272,
+          "price": 83245,
+          "manufacturer": "Microsoft",
+          "notes": "h7VsMDT7Jo1dSgRtYyyqlM27cHkRJPMmaX2axjG8KM0KgQcjLPKWTyeOFN6OMnduF8wtbiSvD7tdXwa1UO7QvTMYIQtIUsSbIHTNfPOhOXxMEczqMdbkUVc6XAoMD7LlPAV5FCVbH8Iq33qdr8nHaJBJFafUJXWRHUDCe7Tn6QDewQYZpchH0v0apviIjWz6tHTwEuU0OnMs90qWzkkCjs648CmfDcI2nDwyracwgJLTCueQIZAsTJYzuE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 163591,
+      "createdOn": "2026-02-17T22:37:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edbb1c508c5d5ec8270f",
+          "products": [
+            {
+              "_id": "6994edbb1c508c5d5ec82731",
+              "name": "Pants71459",
+              "amount": 673,
+              "price": 80346,
+              "manufacturer": "Samsung",
+              "notes": "OIwHD7BbVLnEtdOjDL5XB4UbdhV9VY4uGDdjnQ1cX1HSoflZ0B9IypuHmdr9DWRLdMlx2r4gXBLEa9NyOygZvevx4UOeVSiUY5kOYwlaQ1O1QHUbdMu9o6RVHJceRUrqaJZE51u49wwB4UC0MGasG7SN3dEBRKuubdGV0BAUvJBs2c5waNOf0U3WGisG80suRYeH8t8c8JiPHvTe8w9a6PfxrxN0fPjHAjULaudGyTCN79cZOuCDYqP382",
+              "received": false
+            },
+            {
+              "_id": "6994edbc1c508c5d5ec82751",
+              "name": "Shirt77804",
+              "amount": 272,
+              "price": 83245,
+              "manufacturer": "Microsoft",
+              "notes": "h7VsMDT7Jo1dSgRtYyyqlM27cHkRJPMmaX2axjG8KM0KgQcjLPKWTyeOFN6OMnduF8wtbiSvD7tdXwa1UO7QvTMYIQtIUsSbIHTNfPOhOXxMEczqMdbkUVc6XAoMD7LlPAV5FCVbH8Iq33qdr8nHaJBJFafUJXWRHUDCe7Tn6QDewQYZpchH0v0apviIjWz6tHTwEuU0OnMs90qWzkkCjs648CmfDcI2nDwyracwgJLTCueQIZAsTJYzuE",
+              "received": false
+            }
+          ],
+          "total_price": 163591,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edbc1c508c5d5ec82783"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

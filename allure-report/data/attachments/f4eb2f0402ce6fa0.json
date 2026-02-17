@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-jVe0d59OrinXB24Amde9CYEWH48\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edbb1c508c5d5ec82718",
+        "email": "Federico_Hammes28@hotmail.com",
+        "name": "Hugh Mante",
+        "country": "Germany",
+        "city": "Pinellas Park",
+        "street": "Taurean Estates",
+        "house": 32,
+        "flat": 654,
+        "phone": "+14772306843",
+        "createdOn": "2026-02-17T22:37:47.000Z",
+        "notes": "sngKHWjwga9qi8TCVrfJIkSG5KUmHdlVkQZ4EOqXL9NXacoEIn1XK2zzWS69fLmN9bEkjdzbPEcpmaiMqueyd0pGdPj5IdxBm1UKigZ5tM653vesJbcGFLhNzvK68n7lWRWDCQRXKvETI2uj4VeGbMwOpiv1XIS5261VxZCpYBXGrv1HsGgQRU3aL7gQ2OFnbLrwa0cIPsvAnRqrS3V9bmQAwPhM3egTA5CRKr8cYoE45Bg0JdO0F6H5p9"
+      },
+      "products": [
+        {
+          "_id": "6994edbb1c508c5d5ec82736",
+          "name": "Pants89348",
+          "amount": 129,
+          "price": 31889,
+          "manufacturer": "Tesla",
+          "notes": "WsrtEsc28UMZBQqwRmJCYpmh6MtwHSkQe2QV2GPt2Hahm79LxsoN29oj5IYM4U6ghfTrTlOpRlkSn3c0DlcuXE62Tgjqjl3ptxTdxU5VijFjHl8G4OneiWIFWgMr6aUB7HtnAhORcefIfJ8WgiFG4WLjfOCJkDAh1nZgTkfioZHLZx1i2VXDpppNAbA0qyOWiesu4JumcQPhixRKnTRVF8HLpJQpji8cba395MCUYUkzrcj0Q59tXnhulO",
+          "received": false
+        },
+        {
+          "_id": "6994edbc1c508c5d5ec82755",
+          "name": "Pants9347",
+          "amount": 469,
+          "price": 94453,
+          "manufacturer": "Google",
+          "notes": "9oQn2eq0ac8wE1XOEiP7r48yBLa4nhxPRrHS6h5QiP4uOJQV8065WVyZC5aoWVCuB47C9Tr07TD1LANTa8arrnOrjE9rseAgtWZLyTSI210Za1NPQ3Ep6GxYN5SZpcYCknmKGQ54PuLqyaUZHWHNiDrJnnL5IbyCFXCyvTgIYqtAUeAI6IN0XDpY53bNFKl9vP3FLQ9nxgcY7BvD2Ei1XgPPB4p5mn5mftHdDu7BX2JYMXz9YPdaaAGqRA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126342,
+      "createdOn": "2026-02-17T22:37:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edbb1c508c5d5ec82718",
+          "products": [
+            {
+              "_id": "6994edbb1c508c5d5ec82736",
+              "name": "Pants89348",
+              "amount": 129,
+              "price": 31889,
+              "manufacturer": "Tesla",
+              "notes": "WsrtEsc28UMZBQqwRmJCYpmh6MtwHSkQe2QV2GPt2Hahm79LxsoN29oj5IYM4U6ghfTrTlOpRlkSn3c0DlcuXE62Tgjqjl3ptxTdxU5VijFjHl8G4OneiWIFWgMr6aUB7HtnAhORcefIfJ8WgiFG4WLjfOCJkDAh1nZgTkfioZHLZx1i2VXDpppNAbA0qyOWiesu4JumcQPhixRKnTRVF8HLpJQpji8cba395MCUYUkzrcj0Q59tXnhulO",
+              "received": false
+            },
+            {
+              "_id": "6994edbc1c508c5d5ec82755",
+              "name": "Pants9347",
+              "amount": 469,
+              "price": 94453,
+              "manufacturer": "Google",
+              "notes": "9oQn2eq0ac8wE1XOEiP7r48yBLa4nhxPRrHS6h5QiP4uOJQV8065WVyZC5aoWVCuB47C9Tr07TD1LANTa8arrnOrjE9rseAgtWZLyTSI210Za1NPQ3Ep6GxYN5SZpcYCknmKGQ54PuLqyaUZHWHNiDrJnnL5IbyCFXCyvTgIYqtAUeAI6IN0XDpY53bNFKl9vP3FLQ9nxgcY7BvD2Ei1XgPPB4p5mn5mftHdDu7BX2JYMXz9YPdaaAGqRA",
+              "received": false
+            }
+          ],
+          "total_price": 126342,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edbc1c508c5d5ec8278a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

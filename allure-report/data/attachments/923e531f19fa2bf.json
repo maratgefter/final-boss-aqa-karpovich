@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-JeaZM35FtA2Lx4jFgwrOOoibJwI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994ede11c508c5d5ec8409d",
+        "email": "Leonie_Gleichner@hotmail.com",
+        "name": "Otilia VonRueden",
+        "country": "France",
+        "city": "North Grantboro",
+        "street": "Sawayn Villages",
+        "house": 2,
+        "flat": 546,
+        "phone": "+12308106551",
+        "createdOn": "2026-02-17T22:38:25.000Z",
+        "notes": "1MqSxyk9g8VOWKculF1fKQrfFExlOjSUw6WOdYjjSsnRfjFJfADT7ecrELzJjwvTRwDbSiIErsyKwauqIs0ahOW1UQ6T74dPIhgND2tawtOULvM8gmRXzIEe97QNffzsUimABRAkWMj6SqLPgDlB7zK3otsS00yuu5S2JieCZarybIc9PGSCvPAUUaHcq1KALBYPjumxYH4KONKnQtnPivJTOYZuREDAoPj7kpFHh179S1iP0YeHJBmkdO"
+      },
+      "products": [
+        {
+          "_id": "6994ede11c508c5d5ec840bb",
+          "name": "Soap96682",
+          "amount": 472,
+          "price": 73918,
+          "manufacturer": "Apple",
+          "notes": "6SkHJ8QaW9iNprKSH2Yv2a02LQJ2SYjbdglVNKLhwTQm9mtItnODU8EN4WjkxR4HKpJiAfyBhaLtfqs9xBum03Y45RS8HxQ5zOYyowSRCyr9cGYlUor0xr2fFAMuZ10t14T7N64VzwGYDoFlMgCJlUGg96X6SNG3jz5x1dwF1yaQ15riDrEy1b4AKrdEpEFbeCdJWgnJVXfTpNRKbKABWJX2ehktwmFHj8YcCHEtd8c2rUUM9qJ5HLK7sG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73918,
+      "createdOn": "2026-02-17T22:38:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994ede11c508c5d5ec8409d",
+          "products": [
+            {
+              "_id": "6994ede11c508c5d5ec840bb",
+              "name": "Soap96682",
+              "amount": 472,
+              "price": 73918,
+              "manufacturer": "Apple",
+              "notes": "6SkHJ8QaW9iNprKSH2Yv2a02LQJ2SYjbdglVNKLhwTQm9mtItnODU8EN4WjkxR4HKpJiAfyBhaLtfqs9xBum03Y45RS8HxQ5zOYyowSRCyr9cGYlUor0xr2fFAMuZ10t14T7N64VzwGYDoFlMgCJlUGg96X6SNG3jz5x1dwF1yaQ15riDrEy1b4AKrdEpEFbeCdJWgnJVXfTpNRKbKABWJX2ehktwmFHj8YcCHEtd8c2rUUM9qJ5HLK7sG",
+              "received": false
+            }
+          ],
+          "total_price": 73918,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994ede21c508c5d5ec840e4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:37:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-PejKlfZ57w/IZAAO5iHZJtVwqoY\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6994edb91c508c5d5ec825a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edb81c508c5d5ec8256c",
+        "email": "Marjorie79@yahoo.com",
+        "name": "Coty Daugherty",
+        "country": "Canada",
+        "city": "Wisozkborough",
+        "street": "Virgil Highway",
+        "house": 38,
+        "flat": 648,
+        "phone": "+15898143865",
+        "createdOn": "2026-02-17T22:37:44.000Z",
+        "notes": "kIksLSfGxTyJHcU4VY3Zozq06Vl6V3UJiOGzuyzR9YZnxAUJIfYsV5paaNHHoZlV8VPihVqoj1Z19LX4CjcZTB4FstFsoTdISeudqpCVZtnoVm9ya8p9ZIEDXc3pLwLphQmB1IQ6hXW4moY6xjmZT0xTn4FuH9ucKtTfNGIjooUoFNQZutp8r8TrSYIEbNvQXEwn4JrrwFl04XC5fdC0alubJxnwDJlawAqSWCJKQ31DlKzFvzqdIX8ISG"
+      },
+      "products": [
+        {
+          "_id": "6994edb81c508c5d5ec82586",
+          "name": "Keyboard84214",
+          "amount": 98,
+          "price": 8271,
+          "manufacturer": "Samsung",
+          "notes": "yuWrK0iXRN7uDIJnlasWI7ZfGzgjVrpIMWjIhSDdgpEXs2unqzZsMuQSawHfq335CtmHMX95yjvjAWuO92F0JdsfbFyIbOXFihaA4mW5BgTGxt1C7UqKU6BXzvftfdclZuEQrJXWMKcoaFmqwhPKhDsYfs3elAjL5oxO3Op692idjwYYC3mDFelY1eO0nvrkYmXi6lhymVAtUEo7BbBWPINTdEiEdQT6r23TVf6ix96caBVYX1DzxEGTBx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8271,
+      "createdOn": "2026-02-17T22:37:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edb81c508c5d5ec8256c",
+          "products": [
+            {
+              "_id": "6994edb81c508c5d5ec82586",
+              "name": "Keyboard84214",
+              "amount": 98,
+              "price": 8271,
+              "manufacturer": "Samsung",
+              "notes": "yuWrK0iXRN7uDIJnlasWI7ZfGzgjVrpIMWjIhSDdgpEXs2unqzZsMuQSawHfq335CtmHMX95yjvjAWuO92F0JdsfbFyIbOXFihaA4mW5BgTGxt1C7UqKU6BXzvftfdclZuEQrJXWMKcoaFmqwhPKhDsYfs3elAjL5oxO3Op692idjwYYC3mDFelY1eO0nvrkYmXi6lhymVAtUEo7BbBWPINTdEiEdQT6r23TVf6ix96caBVYX1DzxEGTBx",
+              "received": false
+            }
+          ],
+          "total_price": 8271,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:45.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6994edb81c508c5d5ec8256c",
+          "products": [
+            {
+              "_id": "6994edb81c508c5d5ec82586",
+              "name": "Keyboard84214",
+              "amount": 98,
+              "price": 8271,
+              "manufacturer": "Samsung",
+              "notes": "yuWrK0iXRN7uDIJnlasWI7ZfGzgjVrpIMWjIhSDdgpEXs2unqzZsMuQSawHfq335CtmHMX95yjvjAWuO92F0JdsfbFyIbOXFihaA4mW5BgTGxt1C7UqKU6BXzvftfdclZuEQrJXWMKcoaFmqwhPKhDsYfs3elAjL5oxO3Op692idjwYYC3mDFelY1eO0nvrkYmXi6lhymVAtUEo7BbBWPINTdEiEdQT6r23TVf6ix96caBVYX1DzxEGTBx",
+              "received": false
+            }
+          ],
+          "total_price": 8271,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:37:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

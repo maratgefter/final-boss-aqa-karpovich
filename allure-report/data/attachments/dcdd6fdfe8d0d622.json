@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2943",
+    "etag": "W/\"b7f-VF6LOR/i9XlJF+P0dcBVeutiKtA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6994edce1c508c5d5ec832b4",
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edcc1c508c5d5ec83187",
+        "email": "Stanton.Marks69@hotmail.com",
+        "name": "Dale Senger",
+        "country": "USA",
+        "city": "Emiliecester",
+        "street": "Kacey Flats",
+        "house": 17,
+        "flat": 681,
+        "phone": "+13464054573",
+        "createdOn": "2026-02-17T22:38:04.000Z",
+        "notes": "Pacv235NULxdTC1vsg6wL9PsZ8dc6SiRGj5TjUbnT1JS3qVkFXyPt1SBCvO1qIgHMPEYX4CKOYFpr7u5fBzuO1DJf8vk30NSP6WoN61nJ7zZbaHZUswvTZ2ECCD6T7ZKb4eGFtDMXdLEeNY8tCdolNBxCjNqWVtPGuj0HVeqCLiv5vcxaDUdnlB8MgbUFBRzTPv5oQWt5wuiJ0UqnRkVjio0TEkzacpqbTN6epLiIYQurFxesJNW0NqnNt"
+      },
+      "products": [
+        {
+          "_id": "6994edcc1c508c5d5ec831be",
+          "name": "Fish22230",
+          "amount": 135,
+          "price": 88225,
+          "manufacturer": "Apple",
+          "notes": "Ra0vPCFCHx27lAYOY5jdpU78bpA08QQ1BL9ZWogSxLoQH5uOgCROyr5sjmG4DK6unGomO0W9KSxC06c7GtGuvcjJ28oLAEKbFX6I6M4wfb0sJwTnngEWCCV13PmlRAtOWoc0x8jcrsw7MMuZLouEXkO1dX3kkgr2GTfXNNkpf3Fi21S9JZnqJwhyzXIvqmjM7pDh53fBDotDoFcR8hlJNOmJrBYexK5acmI2Npu7Zo8tpJEcicbLS9kbMR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Ericaport",
+          "street": "Herman Gateway",
+          "house": 2,
+          "flat": 283
+        },
+        "finalDate": "2026-02-17T22:38:06.559Z",
+        "condition": "Pickup"
+      },
+      "total_price": 88225,
+      "createdOn": "2026-02-17T22:38:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edcc1c508c5d5ec83187",
+          "products": [
+            {
+              "_id": "6994edcc1c508c5d5ec831be",
+              "name": "Fish22230",
+              "amount": 135,
+              "price": 88225,
+              "manufacturer": "Apple",
+              "notes": "Ra0vPCFCHx27lAYOY5jdpU78bpA08QQ1BL9ZWogSxLoQH5uOgCROyr5sjmG4DK6unGomO0W9KSxC06c7GtGuvcjJ28oLAEKbFX6I6M4wfb0sJwTnngEWCCV13PmlRAtOWoc0x8jcrsw7MMuZLouEXkO1dX3kkgr2GTfXNNkpf3Fi21S9JZnqJwhyzXIvqmjM7pDh53fBDotDoFcR8hlJNOmJrBYexK5acmI2Npu7Zo8tpJEcicbLS9kbMR",
+              "received": false
+            }
+          ],
+          "total_price": 88225,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Ericaport",
+              "street": "Herman Gateway",
+              "house": 2,
+              "flat": 283
+            },
+            "finalDate": "2026-02-17T22:38:06.559Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-17T22:38:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6994edcc1c508c5d5ec83187",
+          "products": [
+            {
+              "_id": "6994edcc1c508c5d5ec831be",
+              "name": "Fish22230",
+              "amount": 135,
+              "price": 88225,
+              "manufacturer": "Apple",
+              "notes": "Ra0vPCFCHx27lAYOY5jdpU78bpA08QQ1BL9ZWogSxLoQH5uOgCROyr5sjmG4DK6unGomO0W9KSxC06c7GtGuvcjJ28oLAEKbFX6I6M4wfb0sJwTnngEWCCV13PmlRAtOWoc0x8jcrsw7MMuZLouEXkO1dX3kkgr2GTfXNNkpf3Fi21S9JZnqJwhyzXIvqmjM7pDh53fBDotDoFcR8hlJNOmJrBYexK5acmI2Npu7Zo8tpJEcicbLS9kbMR",
+              "received": false
+            }
+          ],
+          "total_price": 88225,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

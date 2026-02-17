@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-BE3X/pf4zyW2Mj/ld2m97/gjGck\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edea1c508c5d5ec8462a",
+        "email": "Lillian_Rice@gmail.com",
+        "name": "Lolita Heaney",
+        "country": "Great Britain",
+        "city": "East Jaydenfurt",
+        "street": "E 10th Street",
+        "house": 25,
+        "flat": 155,
+        "phone": "+15556992196",
+        "createdOn": "2026-02-17T22:38:34.000Z",
+        "notes": "d7SOewRvx1dIvdkhMSKqwds9WEal6wwDZleQDUtbQMdLihjNPf0QSVIUbezxqbPuSqLIgI5luzDBzXgJ683FAd5OQZPuYPHlXa93buKtBK3rqmQG4vHuam2c5koGYTSk8CZvbJHSHc4rNsH0Cj1tXl6oUspL24Mk2TJSq0TqsPTEi7uOcW0Ny9CIhVfpHY7mkhAISGWLlDNQVpwDsSHS6su7kb4waIp3LHp2osJBgqwU6IsD1C0QTnqiwQ"
+      },
+      "products": [
+        {
+          "_id": "6994edeb1c508c5d5ec84663",
+          "name": "Shirt37869",
+          "amount": 233,
+          "price": 33726,
+          "manufacturer": "Microsoft",
+          "notes": "m7Vh8rLxXjb2Cb6GeM4u6m9mSwjyQtf2iXIyc7S2TYLtUJqLm0oVOdSv3ftAmDE5gz1BroC1JBK7kBF6L2H7scUnsDdRGot19HimkB8uAkaeygmgAO7FxwalmKiLsE0XTkLQtgzAQV22h23GJlHgHkEUPXwUvFt1VjjMuA7CJ9tHvnmHjItF2Mz64GMDjOaFSeLKLYoKJdGehjojrZleaOsfUVHY9EfdjfFtCyoafNuoC8NcqPqa6VrpXF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33726,
+      "createdOn": "2026-02-17T22:38:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edea1c508c5d5ec8462a",
+          "products": [
+            {
+              "_id": "6994edeb1c508c5d5ec84663",
+              "name": "Shirt37869",
+              "amount": 233,
+              "price": 33726,
+              "manufacturer": "Microsoft",
+              "notes": "m7Vh8rLxXjb2Cb6GeM4u6m9mSwjyQtf2iXIyc7S2TYLtUJqLm0oVOdSv3ftAmDE5gz1BroC1JBK7kBF6L2H7scUnsDdRGot19HimkB8uAkaeygmgAO7FxwalmKiLsE0XTkLQtgzAQV22h23GJlHgHkEUPXwUvFt1VjjMuA7CJ9tHvnmHjItF2Mz64GMDjOaFSeLKLYoKJdGehjojrZleaOsfUVHY9EfdjfFtCyoafNuoC8NcqPqa6VrpXF",
+              "received": false
+            }
+          ],
+          "total_price": 33726,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edeb1c508c5d5ec84698"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

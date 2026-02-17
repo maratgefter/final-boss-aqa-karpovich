@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-8HBovYyBwKsjWpKEUCfkcke7xOQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edcf1c508c5d5ec8339b",
+        "email": "Blake_Koss@yahoo.com",
+        "name": "Cheyenne Schuster",
+        "country": "Great Britain",
+        "city": "North Isacchester",
+        "street": "Hillside Road",
+        "house": 27,
+        "flat": 761,
+        "phone": "+16986627720",
+        "createdOn": "2026-02-17T22:38:07.000Z",
+        "notes": "5x60s8TIuhgipyziTloCdEPS7d7ODJ3xZ8nrq5IexSJ2Oe57uIeTOS8zocz8TtjCUIKt3grCq5DTrMqDY2J5ULyQWOGgBsYVlc9WGnPRbdmDgqdJhzDsOplj01CJb26rttrtsXET2dcb8DNgyiudP3J1aSm9or3IioAsVALNboEeizoQldxxqZ6q9qi8lI195Fd011X1JV9lZuBY8zKvCcMxC5yqENvcxwwS8bHojZy6DJtUUSpBlNJUmX"
+      },
+      "products": [
+        {
+          "_id": "6994edd01c508c5d5ec833cc",
+          "name": "Chair45451",
+          "amount": 905,
+          "price": 7890,
+          "manufacturer": "Sony",
+          "notes": "ICl3k6Ek9SJi8uwYkJ17ibq5lQmTN61KMtZ2S81ZeXwg9rP87BIC2zk8mudd4i4PMbkJ7kDbxhnSDwFUvV0O2oszgpEx28oDAwNls9dwvrXA24Rmvrqy13axKK0lQJHQgZetMdDPq0PTNMmnZFANZmADFJeH5aCLvSpXkMFFWQJoRB0dCliV5Bcw5OcRIFnDM4jFEkCnaZEzBtu7YkEA9gIlxP8tVWwTLGWSv1zOZg5182obF7woYm5pW6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7890,
+      "createdOn": "2026-02-17T22:38:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edcf1c508c5d5ec8339b",
+          "products": [
+            {
+              "_id": "6994edd01c508c5d5ec833cc",
+              "name": "Chair45451",
+              "amount": 905,
+              "price": 7890,
+              "manufacturer": "Sony",
+              "notes": "ICl3k6Ek9SJi8uwYkJ17ibq5lQmTN61KMtZ2S81ZeXwg9rP87BIC2zk8mudd4i4PMbkJ7kDbxhnSDwFUvV0O2oszgpEx28oDAwNls9dwvrXA24Rmvrqy13axKK0lQJHQgZetMdDPq0PTNMmnZFANZmADFJeH5aCLvSpXkMFFWQJoRB0dCliV5Bcw5OcRIFnDM4jFEkCnaZEzBtu7YkEA9gIlxP8tVWwTLGWSv1zOZg5182obF7woYm5pW6",
+              "received": false
+            }
+          ],
+          "total_price": 7890,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edd01c508c5d5ec833ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

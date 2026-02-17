@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2976",
+    "etag": "W/\"ba0-ZKN/5CNFBjAnD9uGFAr/LiSy+1Y\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6994ede21c508c5d5ec84103",
+      "status": "Draft",
+      "customer": {
+        "_id": "6994ede11c508c5d5ec840b1",
+        "email": "Chandler_Gutkowski44@yahoo.com",
+        "name": "Demetrius Langworth",
+        "country": "Great Britain",
+        "city": "Lake Weldon",
+        "street": "Vine Street",
+        "house": 17,
+        "flat": 442,
+        "phone": "+14549664059",
+        "createdOn": "2026-02-17T22:38:25.000Z",
+        "notes": "oAhn1kkUktHleTJXmUHIzfyfcy0ztUeBaF31AgYhml2BTuZxi9MlrdjS1ttleBgDV0k3VIyCjqPpSgP5qYWlYHOtvz0N3X46G2gGEFqi4FO4m2mAUxWUInW9zNlJ2xAZzCoWqok3G1vDMtUojmmaHSwyOY8q5ZYbmU7hyXCJxzLx3TVCAcRJLEx7cUv5tqosMj7H6alUkkgXtELxR5v4Fl8A2a0sg1YKfcz1eZ8LzEEzPdh5guXHviNUZG"
+      },
+      "products": [
+        {
+          "_id": "6994ede21c508c5d5ec840e0",
+          "name": "Tuna91154",
+          "amount": 514,
+          "price": 59126,
+          "manufacturer": "Xiaomi",
+          "notes": "avWAF774C8yIMtqRWVXdGKmMh01BMJMM58YSDmpog53GWMbxNFKtRR43BifKaAtj73Zca3pwgEG8MH3u1O9eCzOefIBa1U76JXJWdIPgzDDgxEYdt4uhUbC85UUcdSWlYdnouQ15BUJIvzqgnmmGZFy61CKrV7dWeUomIea9TOSbf7RBYUoKZtudwixiDohLafpnHzMqdbfeEbZ9FRoAOZZwsYoEk1nXKxtHljr97yynQuIEfPcYS0Fq2Z",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Weldon",
+          "street": "Vine Street",
+          "house": 17,
+          "flat": 442
+        },
+        "finalDate": "2026-02-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 59126,
+      "createdOn": "2026-02-17T22:38:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994ede11c508c5d5ec840b1",
+          "products": [
+            {
+              "_id": "6994ede21c508c5d5ec840e0",
+              "name": "Tuna91154",
+              "amount": 514,
+              "price": 59126,
+              "manufacturer": "Xiaomi",
+              "notes": "avWAF774C8yIMtqRWVXdGKmMh01BMJMM58YSDmpog53GWMbxNFKtRR43BifKaAtj73Zca3pwgEG8MH3u1O9eCzOefIBa1U76JXJWdIPgzDDgxEYdt4uhUbC85UUcdSWlYdnouQ15BUJIvzqgnmmGZFy61CKrV7dWeUomIea9TOSbf7RBYUoKZtudwixiDohLafpnHzMqdbfeEbZ9FRoAOZZwsYoEk1nXKxtHljr97yynQuIEfPcYS0Fq2Z",
+              "received": false
+            }
+          ],
+          "total_price": 59126,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Weldon",
+              "street": "Vine Street",
+              "house": 17,
+              "flat": 442
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-17T22:38:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6994ede11c508c5d5ec840b1",
+          "products": [
+            {
+              "_id": "6994ede21c508c5d5ec840e0",
+              "name": "Tuna91154",
+              "amount": 514,
+              "price": 59126,
+              "manufacturer": "Xiaomi",
+              "notes": "avWAF774C8yIMtqRWVXdGKmMh01BMJMM58YSDmpog53GWMbxNFKtRR43BifKaAtj73Zca3pwgEG8MH3u1O9eCzOefIBa1U76JXJWdIPgzDDgxEYdt4uhUbC85UUcdSWlYdnouQ15BUJIvzqgnmmGZFy61CKrV7dWeUomIea9TOSbf7RBYUoKZtudwixiDohLafpnHzMqdbfeEbZ9FRoAOZZwsYoEk1nXKxtHljr97yynQuIEfPcYS0Fq2Z",
+              "received": false
+            }
+          ],
+          "total_price": 59126,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

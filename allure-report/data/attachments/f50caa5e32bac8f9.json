@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 17 Feb 2026 22:38:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-YHGosgOTYxTvGvl7zpB9CxJudlo\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6994edd01c508c5d5ec833e6",
+        "email": "Creola_Cummings@hotmail.com",
+        "name": "Fern Labadie",
+        "country": "Belarus",
+        "city": "Elyria",
+        "street": "Springfield Road",
+        "house": 25,
+        "flat": 671,
+        "phone": "+17627052198",
+        "createdOn": "2026-02-17T22:38:08.000Z",
+        "notes": "0o1rC7khdwQuOSmfvHQjTCyA4Ngz8jSAXb4uuVzjq1R31m863A9jwxrR1XCdFyBbpEZ3MhH7Vx3dbkVlxolohKctOr6jOoAM5krNh6aK8dRuoCJM3IDkOuFnuykCKKiCgQBNeeSgXtCDzdeAkYL1hTAKojBFs9UFqpLG7NzwTnDcVsD7aL7miaJVDqHZzLBGA6LpxV8Wie1bm2jM31yoRc69RH2RATgnsZtXBQQMEHDol7subRAUPnoBF0"
+      },
+      "products": [
+        {
+          "_id": "6994edd11c508c5d5ec834c3",
+          "name": "Chicken91732",
+          "amount": 663,
+          "price": 22678,
+          "manufacturer": "Tesla",
+          "notes": "kgPQ4ZiMQYJldjWdMHoR43EDZjJNepD9nJiiFURerjJOz0IZg743OTprZJn0naEkd7WTbh2fbZ0x0WHpOzbrbHpmm5coBMnfHQx21xT9GyY1G8SBYn6ptfY9Jq1hEBsU3y46sBi6FznZbRBWT1MqLWUX0uR1r3hJn8k5vCkG15dIRTpirdZylhcJfAXZQVqKmUgTiOLQAoFrkLjP7zg8lqHIOKgYM2qq4HdGBStO7xRLUTDrRCc5DcP5MF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22678,
+      "createdOn": "2026-02-17T22:38:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6994edd01c508c5d5ec833e6",
+          "products": [
+            {
+              "_id": "6994edd11c508c5d5ec834c3",
+              "name": "Chicken91732",
+              "amount": 663,
+              "price": 22678,
+              "manufacturer": "Tesla",
+              "notes": "kgPQ4ZiMQYJldjWdMHoR43EDZjJNepD9nJiiFURerjJOz0IZg743OTprZJn0naEkd7WTbh2fbZ0x0WHpOzbrbHpmm5coBMnfHQx21xT9GyY1G8SBYn6ptfY9Jq1hEBsU3y46sBi6FznZbRBWT1MqLWUX0uR1r3hJn8k5vCkG15dIRTpirdZylhcJfAXZQVqKmUgTiOLQAoFrkLjP7zg8lqHIOKgYM2qq4HdGBStO7xRLUTDrRCc5DcP5MF",
+              "received": false
+            }
+          ],
+          "total_price": 22678,
+          "delivery": null,
+          "changedOn": "2026-02-17T22:38:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6994edd21c508c5d5ec835a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
