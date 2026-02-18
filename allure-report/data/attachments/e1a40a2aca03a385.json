@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:39:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2652",
+    "etag": "W/\"a5c-xxFtBwkYIqRjtZ69uw4qU89SmCs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69963f901c508c5d5ec902d6",
+        "email": "Hoyt44@gmail.com",
+        "name": "Cecil Lakin",
+        "country": "Russia",
+        "city": "Ornville",
+        "street": "N Harrison Street",
+        "house": 8,
+        "flat": 276,
+        "phone": "+15243317107",
+        "createdOn": "2026-02-18T22:39:12.000Z",
+        "notes": "y7sVLCL6oIG9L03hYkGuFcJvsqqNvMOSG9vmloH2MpVvEXRIrSozC2QEiVhq9WbmGxwcddPAmJLssvOrvxCqHR9KYYytGHZyhLgBtX1a0wqVnIBKC2KhaJ8T0vgbt4pdgwtG3ukS3v61vI8uzHGna87SUwZEAih8a9vpX9pLMJ9GSf7xj50CqQsOsQK0BRiaoIuvqI4nNuxXbsTMOHT9wq7u5MCjYYipmYdlNnELYJm3TT4yOOFKQcXN25"
+      },
+      "products": [
+        {
+          "_id": "69963f911c508c5d5ec902f9",
+          "name": "Bacon49007",
+          "amount": 641,
+          "price": 1873,
+          "manufacturer": "Microsoft",
+          "notes": "7QaMBdv415dEuh5X80pAcY6hjrbEwxaaLdkfWrwA5NkmaFw6ykkWfT050FEUfkPPz6FJzhq2sKMWy3Y6xLB1IG8EgEitJ45blRycIIcdN9iBnhBD0wDhBnqGsS7jsklvz6xb0hyUr7FHOLsSpxbY7eBb9lSCpuwXBDoHdL38W0MROXLdd85XJeSQLw8MepDuke01tbFMq4lZEbEiUE0GK2ol9yTlVChsAKdwy50bkdN67WvIRmpwx7Oaiu",
+          "received": false
+        },
+        {
+          "_id": "69963f911c508c5d5ec90321",
+          "name": "Shirt66099",
+          "amount": 502,
+          "price": 31757,
+          "manufacturer": "Microsoft",
+          "notes": "tolX3464IK0qZvZH0CoFkqoRmIjSWGTnJxKPC3giXAG3P6CuwU3K3MxkmhxwxAJR5FPwjBmhXGyXjsvOjiAJjWzPth8qwaZPsSETHTVpVeEaiOdeUPLyDLStz11c11E9CkuOJkvnhOIs4DuRkiEZdBwSn13DCeEIPjZWLCuxi9YMciTPDfMJeWHMG9P7QKP8SA6Zmh1EpPAHfpnPvuwpDKKhN7NC6MKU7XNO17pFi5En70h2GyfiOTQ8lz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33630,
+      "createdOn": "2026-02-18T22:39:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963f901c508c5d5ec902d6",
+          "products": [
+            {
+              "_id": "69963f911c508c5d5ec902f9",
+              "name": "Bacon49007",
+              "amount": 641,
+              "price": 1873,
+              "manufacturer": "Microsoft",
+              "notes": "7QaMBdv415dEuh5X80pAcY6hjrbEwxaaLdkfWrwA5NkmaFw6ykkWfT050FEUfkPPz6FJzhq2sKMWy3Y6xLB1IG8EgEitJ45blRycIIcdN9iBnhBD0wDhBnqGsS7jsklvz6xb0hyUr7FHOLsSpxbY7eBb9lSCpuwXBDoHdL38W0MROXLdd85XJeSQLw8MepDuke01tbFMq4lZEbEiUE0GK2ol9yTlVChsAKdwy50bkdN67WvIRmpwx7Oaiu",
+              "received": false
+            },
+            {
+              "_id": "69963f911c508c5d5ec90321",
+              "name": "Shirt66099",
+              "amount": 502,
+              "price": 31757,
+              "manufacturer": "Microsoft",
+              "notes": "tolX3464IK0qZvZH0CoFkqoRmIjSWGTnJxKPC3giXAG3P6CuwU3K3MxkmhxwxAJR5FPwjBmhXGyXjsvOjiAJjWzPth8qwaZPsSETHTVpVeEaiOdeUPLyDLStz11c11E9CkuOJkvnhOIs4DuRkiEZdBwSn13DCeEIPjZWLCuxi9YMciTPDfMJeWHMG9P7QKP8SA6Zmh1EpPAHfpnPvuwpDKKhN7NC6MKU7XNO17pFi5En70h2GyfiOTQ8lz",
+              "received": false
+            }
+          ],
+          "total_price": 33630,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:39:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69963f911c508c5d5ec90362"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

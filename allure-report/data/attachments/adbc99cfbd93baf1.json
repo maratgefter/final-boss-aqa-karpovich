@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:39:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2940",
+    "etag": "W/\"b7c-Dw2ZFclLPw6R5v1fG2t4jzJtT+c\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69963fb31c508c5d5ec91b25",
+      "status": "Draft",
+      "customer": {
+        "_id": "69963fb21c508c5d5ec91aef",
+        "email": "Joseph.Wiza23@hotmail.com",
+        "name": "Ola Hyatt",
+        "country": "Canada",
+        "city": "Santinahaven",
+        "street": "Hahn Viaduct",
+        "house": 41,
+        "flat": 31,
+        "phone": "+13508309143",
+        "createdOn": "2026-02-18T22:39:46.000Z",
+        "notes": "BKO0Ppw0ZR6xsuPTxegthXpRDtl5GV7MD9iRZwpw0zMBpVCPjlDRzvrUlVe1f3puTUiKQQ7yp6EpDv9Z8CXz7Xpyq1B6D8gauqwlEFPIE4V8aFxCm2lWrPswespBtyFYlk70vwDTMsmS8x63LtByXeoGuO0wgsy7zpmQ3ki3sLUUrdG8aabqrrXkxgl5AcHhYyUo54PpMtS7xIhs8yKy3ubF7T3ZkhQtSSUZKkoCcT96jqqepSQA0T9oNm"
+      },
+      "products": [
+        {
+          "_id": "69963fb31c508c5d5ec91afe",
+          "name": "Chair23280",
+          "amount": 39,
+          "price": 28988,
+          "manufacturer": "Tesla",
+          "notes": "q9kVTsZV8N852Y6Nm2LMGY5NOV9ulCfsfcgvKFDh5GuSx3lW4og5WPRyp4UA0ndYoqIwwE98PdC0dYNnN4Q4skcnpYfTs6RP0AajkHCNHUBtWznG9OkRBbKm9jpM7K7YecmvDU9hqZnk1lQPbzOZny92BpKGGo8R99liyuHlRqIbb0zi3JbuY4wMYwvDgm2mv0de8on6pD4C10d9jdyAWrrm6MPcFDiY3Eupx1JoG7rF1AFstw3TxEvkwE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Santinahaven",
+          "street": "Hahn Viaduct",
+          "house": 41,
+          "flat": 31
+        },
+        "finalDate": "2026-02-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 28988,
+      "createdOn": "2026-02-18T22:39:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963fb21c508c5d5ec91aef",
+          "products": [
+            {
+              "_id": "69963fb31c508c5d5ec91afe",
+              "name": "Chair23280",
+              "amount": 39,
+              "price": 28988,
+              "manufacturer": "Tesla",
+              "notes": "q9kVTsZV8N852Y6Nm2LMGY5NOV9ulCfsfcgvKFDh5GuSx3lW4og5WPRyp4UA0ndYoqIwwE98PdC0dYNnN4Q4skcnpYfTs6RP0AajkHCNHUBtWznG9OkRBbKm9jpM7K7YecmvDU9hqZnk1lQPbzOZny92BpKGGo8R99liyuHlRqIbb0zi3JbuY4wMYwvDgm2mv0de8on6pD4C10d9jdyAWrrm6MPcFDiY3Eupx1JoG7rF1AFstw3TxEvkwE",
+              "received": false
+            }
+          ],
+          "total_price": 28988,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Santinahaven",
+              "street": "Hahn Viaduct",
+              "house": 41,
+              "flat": 31
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-18T22:39:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69963fb21c508c5d5ec91aef",
+          "products": [
+            {
+              "_id": "69963fb31c508c5d5ec91afe",
+              "name": "Chair23280",
+              "amount": 39,
+              "price": 28988,
+              "manufacturer": "Tesla",
+              "notes": "q9kVTsZV8N852Y6Nm2LMGY5NOV9ulCfsfcgvKFDh5GuSx3lW4og5WPRyp4UA0ndYoqIwwE98PdC0dYNnN4Q4skcnpYfTs6RP0AajkHCNHUBtWznG9OkRBbKm9jpM7K7YecmvDU9hqZnk1lQPbzOZny92BpKGGo8R99liyuHlRqIbb0zi3JbuY4wMYwvDgm2mv0de8on6pD4C10d9jdyAWrrm6MPcFDiY3Eupx1JoG7rF1AFstw3TxEvkwE",
+              "received": false
+            }
+          ],
+          "total_price": 28988,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:39:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

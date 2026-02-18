@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:39:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2636",
+    "etag": "W/\"a4c-ejVUjOP47MwPe+oV5OpxLjiCzdE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69963f991c508c5d5ec90928",
+        "email": "Forest.Howe@yahoo.com",
+        "name": "Delia Franey",
+        "country": "USA",
+        "city": "Pollichton",
+        "street": "Champlin Unions",
+        "house": 18,
+        "flat": 207,
+        "phone": "+14502330182",
+        "createdOn": "2026-02-18T22:39:21.000Z",
+        "notes": "8YecpEtbZYYxaJ8YZeHPQ6vfsxzoFtIrNvFjR5zJwyp0xglpPw2BiXlViqER78WvdgonVuHhWl66v1mmDkgClVmmMJTOsCGKjOEMHh6zpaTmHGoijHEd0O8gAh67sTONBUTF57xUWJQ1zn87ULKyzuBTnWwurmI0cO9P7dD35198EFzDR2IPpm86PBQzFFSyXGmDjUL36ed1wfc6cu8TIV6J29pzoBvuzfGKIiN8FolT3nRIbhZaf6B4TX"
+      },
+      "products": [
+        {
+          "_id": "69963f9a1c508c5d5ec90a13",
+          "name": "Fish60471",
+          "amount": 79,
+          "price": 44894,
+          "manufacturer": "Amazon",
+          "notes": "tEekQrgwjdkxyAkMTyw7J7lgbxQkCQJlrF3I3jVxbdIwZ6RC4nSkaZrBiAQccrz7vq00a5alPgcuMaepiFihrUo5fYE8WLrA6cBqaUNMBGUBvpTtt1Zt9PwSvm6FxVrfic0rlYGw5xDHTz63eM91kN6E3lCVHACEXiqZRIBX2bTG0aQbevm7O5yIawyGluICMcJ0OxAUFAk9z8eBBBsdzDoS9CKRkduv7EAyvV9qybGkbybTP5e5czdWxF",
+          "received": false
+        },
+        {
+          "_id": "69963f9b1c508c5d5ec90a38",
+          "name": "Car89734",
+          "amount": 142,
+          "price": 12734,
+          "manufacturer": "Apple",
+          "notes": "vu0B0W63wd5QyAEGwFDgLBsB1GOlgLHmAVpRfVpvC7elONZWfeXRRpLTGFcMNuGnsfaPpFfS8vWIzJwyGPcO5z5gx37mDwPoHr2NnGuiZXHHrVnE0N0yKSy2HkNf8iKlyYtR8oYkB0JO9chThS7G7YhwXSQ1hwPok5OAba6hGQj66RBWsF2Mqc0Kq84CwFcxmmEHVbEg1sZVUZPhLkGS6fy2qAaOCe3Z8AnlKIveEodO21XnSBZYHRKVOv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57628,
+      "createdOn": "2026-02-18T22:39:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963f991c508c5d5ec90928",
+          "products": [
+            {
+              "_id": "69963f9a1c508c5d5ec90a13",
+              "name": "Fish60471",
+              "amount": 79,
+              "price": 44894,
+              "manufacturer": "Amazon",
+              "notes": "tEekQrgwjdkxyAkMTyw7J7lgbxQkCQJlrF3I3jVxbdIwZ6RC4nSkaZrBiAQccrz7vq00a5alPgcuMaepiFihrUo5fYE8WLrA6cBqaUNMBGUBvpTtt1Zt9PwSvm6FxVrfic0rlYGw5xDHTz63eM91kN6E3lCVHACEXiqZRIBX2bTG0aQbevm7O5yIawyGluICMcJ0OxAUFAk9z8eBBBsdzDoS9CKRkduv7EAyvV9qybGkbybTP5e5czdWxF",
+              "received": false
+            },
+            {
+              "_id": "69963f9b1c508c5d5ec90a38",
+              "name": "Car89734",
+              "amount": 142,
+              "price": 12734,
+              "manufacturer": "Apple",
+              "notes": "vu0B0W63wd5QyAEGwFDgLBsB1GOlgLHmAVpRfVpvC7elONZWfeXRRpLTGFcMNuGnsfaPpFfS8vWIzJwyGPcO5z5gx37mDwPoHr2NnGuiZXHHrVnE0N0yKSy2HkNf8iKlyYtR8oYkB0JO9chThS7G7YhwXSQ1hwPok5OAba6hGQj66RBWsF2Mqc0Kq84CwFcxmmEHVbEg1sZVUZPhLkGS6fy2qAaOCe3Z8AnlKIveEodO21XnSBZYHRKVOv",
+              "received": false
+            }
+          ],
+          "total_price": 57628,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:39:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69963f9c1c508c5d5ec90a59"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

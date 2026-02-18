@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:39:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2970",
+    "etag": "W/\"b9a-41UZFWNvlTYQrKF0Z0PMCk5dF0Q\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69963fb91c508c5d5ec91f17",
+      "status": "Draft",
+      "customer": {
+        "_id": "69963fb61c508c5d5ec91d06",
+        "email": "Earline25@hotmail.com",
+        "name": "Price Mohr",
+        "country": "Belarus",
+        "city": "West Agustina",
+        "street": "Swaniawski Circle",
+        "house": 31,
+        "flat": 163,
+        "phone": "+12206938455",
+        "createdOn": "2026-02-18T22:39:50.000Z",
+        "notes": "19Jw0vClU3lbqtysyyE3xEWBuC4EjYzT1aJ0hIetLTaF9gwvVIxFaOZQVHCafxgTQYLjGKAymxFl9DSCmGlPpJhnNmOfVhWflDrajiIy5NXj0ktH31jqd79u1cOP7gpnfJ6b7n5FDgzE1Vmyk18moJq9dlHhYxaC1bJcWYTSsTnXx001q8PIfoBtBIluFgbN9KftgrObCutek27HaMiDPIJlrpYf3o1RdHsgET694NB8VMg9yUTwTH8WBK"
+      },
+      "products": [
+        {
+          "_id": "69963fb71c508c5d5ec91e0d",
+          "name": "Computer17413",
+          "amount": 693,
+          "price": 2062,
+          "manufacturer": "Amazon",
+          "notes": "xeiQuRml8yVk92QMFoS9ZNAaeDsHwLo2PeTXhRO010qOjGjCXjeP39UIr5SqRBLQS67UkKneK631nJT10aAx7aFbtlnu0BSS1JL4So8Y7pS1pbGnG7WBpoweWU839THB8iHSvPjRuuKkKclh6PPqVROPPRD46hxxAz3VAcq8xvs8s37q5IsE2i8t0igcwbWh7gFg9ugyuXvD3Bg3DY4lCVVUamI83fNlB9JYH1P5WA2ceK8ucSVg9GsbZ1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Agustina",
+          "street": "Swaniawski Circle",
+          "house": 31,
+          "flat": 163
+        },
+        "finalDate": "2026-02-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 2062,
+      "createdOn": "2026-02-18T22:39:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963fb61c508c5d5ec91d06",
+          "products": [
+            {
+              "_id": "69963fb71c508c5d5ec91e0d",
+              "name": "Computer17413",
+              "amount": 693,
+              "price": 2062,
+              "manufacturer": "Amazon",
+              "notes": "xeiQuRml8yVk92QMFoS9ZNAaeDsHwLo2PeTXhRO010qOjGjCXjeP39UIr5SqRBLQS67UkKneK631nJT10aAx7aFbtlnu0BSS1JL4So8Y7pS1pbGnG7WBpoweWU839THB8iHSvPjRuuKkKclh6PPqVROPPRD46hxxAz3VAcq8xvs8s37q5IsE2i8t0igcwbWh7gFg9ugyuXvD3Bg3DY4lCVVUamI83fNlB9JYH1P5WA2ceK8ucSVg9GsbZ1",
+              "received": false
+            }
+          ],
+          "total_price": 2062,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Agustina",
+              "street": "Swaniawski Circle",
+              "house": 31,
+              "flat": 163
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-18T22:39:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69963fb61c508c5d5ec91d06",
+          "products": [
+            {
+              "_id": "69963fb71c508c5d5ec91e0d",
+              "name": "Computer17413",
+              "amount": 693,
+              "price": 2062,
+              "manufacturer": "Amazon",
+              "notes": "xeiQuRml8yVk92QMFoS9ZNAaeDsHwLo2PeTXhRO010qOjGjCXjeP39UIr5SqRBLQS67UkKneK631nJT10aAx7aFbtlnu0BSS1JL4So8Y7pS1pbGnG7WBpoweWU839THB8iHSvPjRuuKkKclh6PPqVROPPRD46hxxAz3VAcq8xvs8s37q5IsE2i8t0igcwbWh7gFg9ugyuXvD3Bg3DY4lCVVUamI83fNlB9JYH1P5WA2ceK8ucSVg9GsbZ1",
+              "received": false
+            }
+          ],
+          "total_price": 2062,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:39:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

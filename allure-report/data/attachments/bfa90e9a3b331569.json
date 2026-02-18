@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:39:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2674",
+    "etag": "W/\"a72-FRyP9S8tSEFF87tNJqTCNOY1Lq0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69963f891c508c5d5ec8ff1d",
+        "email": "Eliseo.Ratke29@hotmail.com",
+        "name": "Rosetta Hermiston",
+        "country": "Ukraine",
+        "city": "West Laceyborough",
+        "street": "Mitchell Heights",
+        "house": 35,
+        "flat": 824,
+        "phone": "+13316828708",
+        "createdOn": "2026-02-18T22:39:05.000Z",
+        "notes": "QsWzWxHwn6Es790lJI6xAGk5fzz0aRVxOZJJlf6to9je2aNJf5SU8EMywTB6EiwIfgrITI36DRJWfuEYJBNFac9RFfa7Ook8Xq6Pgng0DjIEmtD6ED5MPfUjnZvVPxp0gRfsKgTZbLJZybvrwBvvg0UtblI7gJdGzWwamndYzVYDIVlHxSNcnbLAe24gt4YmTCo5VuWpkvZsN6v68sqYkh3JNLW3QDnftGxb5ry9IZ0111cfgx03rpHl5C"
+      },
+      "products": [
+        {
+          "_id": "69963f8a1c508c5d5ec8ff44",
+          "name": "Keyboard51938",
+          "amount": 641,
+          "price": 90216,
+          "manufacturer": "Amazon",
+          "notes": "whoFYHOW0QE2w4WWptUqwyZlmlgZ6M5I61SnfPAHR9KtoVkEpvUDFG8MXm1GThRiooncRxXJ7npmaX5NQYVuZaifOYZCSxO4VE3JeMCPILTyKsEue66LPXuCQlCqHhKVWpQomkhseNc5fzzhcLPkdCQgX0FwrOzcaQr3GAoUbeSp7HwoaS6DOCLqMHnewG5cpUyg88ORbZhFHfkX3rGH3Fxggiw6Xlyko1pt3X9FcpcdTrZBsJjAlAC8ir",
+          "received": false
+        },
+        {
+          "_id": "69963f8b1c508c5d5ec8ff60",
+          "name": "Pizza77313",
+          "amount": 189,
+          "price": 79281,
+          "manufacturer": "Tesla",
+          "notes": "xoSEudoVIul9L9UADnvmiuCeWOgtNX6z8Pr0z6uPEb6Xp5pxLNdyckZyn4i1RVUhJZHiwXyVgz7VAm0IHjTt3CebUrLUdYPhE8I2MDX6zNsjA7dMiDliguZnSNSgQfbLCyskFTUSXgSvPRvCr2n6UxUUoJGs59G29b9CzFFQ9GgJGJJ3zmKPANsxsCUuflFgSJlSRb05D2pTM7jT9bATQlgr6SLq2PusJWuWJUA9wDdcapLBCCQWmOYCJK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 169497,
+      "createdOn": "2026-02-18T22:39:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963f891c508c5d5ec8ff1d",
+          "products": [
+            {
+              "_id": "69963f8a1c508c5d5ec8ff44",
+              "name": "Keyboard51938",
+              "amount": 641,
+              "price": 90216,
+              "manufacturer": "Amazon",
+              "notes": "whoFYHOW0QE2w4WWptUqwyZlmlgZ6M5I61SnfPAHR9KtoVkEpvUDFG8MXm1GThRiooncRxXJ7npmaX5NQYVuZaifOYZCSxO4VE3JeMCPILTyKsEue66LPXuCQlCqHhKVWpQomkhseNc5fzzhcLPkdCQgX0FwrOzcaQr3GAoUbeSp7HwoaS6DOCLqMHnewG5cpUyg88ORbZhFHfkX3rGH3Fxggiw6Xlyko1pt3X9FcpcdTrZBsJjAlAC8ir",
+              "received": false
+            },
+            {
+              "_id": "69963f8b1c508c5d5ec8ff60",
+              "name": "Pizza77313",
+              "amount": 189,
+              "price": 79281,
+              "manufacturer": "Tesla",
+              "notes": "xoSEudoVIul9L9UADnvmiuCeWOgtNX6z8Pr0z6uPEb6Xp5pxLNdyckZyn4i1RVUhJZHiwXyVgz7VAm0IHjTt3CebUrLUdYPhE8I2MDX6zNsjA7dMiDliguZnSNSgQfbLCyskFTUSXgSvPRvCr2n6UxUUoJGs59G29b9CzFFQ9GgJGJJ3zmKPANsxsCUuflFgSJlSRb05D2pTM7jT9bATQlgr6SLq2PusJWuWJUA9wDdcapLBCCQWmOYCJK",
+              "received": false
+            }
+          ],
+          "total_price": 169497,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:39:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69963f8b1c508c5d5ec8ff8b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

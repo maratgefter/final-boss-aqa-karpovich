@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:38:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-+seIpWIIBclXPNMgC86olImGz/0\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69963f811c508c5d5ec8fa0c",
+        "email": "Eileen.Zboncak@hotmail.com",
+        "name": "Garfield Ullrich",
+        "country": "Great Britain",
+        "city": "Caylafurt",
+        "street": "N Union Street",
+        "house": 1,
+        "flat": 890,
+        "phone": "+13325397621",
+        "createdOn": "2026-02-18T22:38:57.000Z",
+        "notes": "jQNbfZgAEDQqEskhrLfyTUeILvAMFYQGn2rv8EaBG6EKEOe61INdkYB27VqKmAd6jqIkruMusMN6pEqubRREfLjhJvbHXqttRUEk9BDNcjzacAUCFdRwiMNPJENC96Oye2uWe3DSu02yzoOEjgLsDzCdCF2Zw3eksUvxvQSsl5MGMj7yg1LzCrbP9fDLBWiYtVRWLcORhOvPUd0EpJkX1vC3LICe2sk4T1hLXMhxVImcYv8gTHud3R1NX0"
+      },
+      "products": [
+        {
+          "_id": "69963f811c508c5d5ec8fa2a",
+          "name": "Keyboard54451",
+          "amount": 643,
+          "price": 64573,
+          "manufacturer": "Amazon",
+          "notes": "DHvyWaYI7C51RehBiZCqhNpeSCfXpepKvtE5ffUBhC0qkInrGMJDkShkBSm75kGSzxkEGTRf57VtxqoIghgQ0ElugDWuGtTdXTdYVz7HwbmTik3jdoOmRdxjxKPFZD7JOa3BPyKDy8x6fiUvW3M792H9PZYqIn8UiZnpwm1GrkWpHEVO8Ln6AIRAtmQzjFz3nXcFTAdzU3QGmouzwCrUYYpxCZd8ZDXiLj7dB4YAvqnwQFj2TRh8GOblqq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64573,
+      "createdOn": "2026-02-18T22:38:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69963f811c508c5d5ec8fa0c",
+          "products": [
+            {
+              "_id": "69963f811c508c5d5ec8fa2a",
+              "name": "Keyboard54451",
+              "amount": 643,
+              "price": 64573,
+              "manufacturer": "Amazon",
+              "notes": "DHvyWaYI7C51RehBiZCqhNpeSCfXpepKvtE5ffUBhC0qkInrGMJDkShkBSm75kGSzxkEGTRf57VtxqoIghgQ0ElugDWuGtTdXTdYVz7HwbmTik3jdoOmRdxjxKPFZD7JOa3BPyKDy8x6fiUvW3M792H9PZYqIn8UiZnpwm1GrkWpHEVO8Ln6AIRAtmQzjFz3nXcFTAdzU3QGmouzwCrUYYpxCZd8ZDXiLj7dB4YAvqnwQFj2TRh8GOblqq",
+              "received": false
+            }
+          ],
+          "total_price": 64573,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:38:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69963f811c508c5d5ec8fa4e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

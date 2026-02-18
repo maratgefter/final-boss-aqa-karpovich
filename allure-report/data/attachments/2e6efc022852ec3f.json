@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 18 Feb 2026 22:41:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4087",
+    "etag": "W/\"ff7-4IoF7Eg/tqTC9MqfRYmD48Ad3dQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699640051c508c5d5ec955b3",
+      "status": "Draft",
+      "customer": {
+        "_id": "699640031c508c5d5ec95424",
+        "email": "Brennan_Renner@hotmail.com",
+        "name": "Loraine Gerlach",
+        "country": "Russia",
+        "city": "New Stacy",
+        "street": "Hillside",
+        "house": 31,
+        "flat": 8,
+        "phone": "+16624778906",
+        "createdOn": "2026-02-18T22:41:07.000Z",
+        "notes": "hNZ8wG1SQ5HjxGJsVGRo0S7K0BT0TAUe1AmjoseAsFVzkszl044dWQd7DZ0XqjYwQo5H0RxSFvGx2xhJxMyXQ2DxESTlptHH5Yp7ZYd6mVi2Yqe6A7NQPurYHmxFyfHROYENZX4XPS6vPZzjjiYt5Cfe8WpWyLxtnlkiIEUun9FpTRMHbTJBzWq0JfE2iO5L5USPAY4kEUnxtDvJVYcUYX7U28wH5BiGnpsyOaYYE8IqyNHrxFFwmOQZGY"
+      },
+      "products": [
+        {
+          "_id": "699640041c508c5d5ec95463",
+          "name": "Ball31632",
+          "amount": 457,
+          "price": 71118,
+          "manufacturer": "Samsung",
+          "notes": "hO7MmeBdZR73s380iHhn0YRSJnUp2EUBraEtExznrVfdgQeoK7QXTdd9nO7bYWofiFPhAHqLjsO5Go2Ib2I2H3fORJe9ERv4RmTTwXMMOBRblzzvhGqqKTXTYbHPzzzwXdzeiLU2Zef6KKLnukWCksRLReUkCDIakjYoKqZR8CaBs4zhvuEBGqhMmWQaIefPsIbqXmbFfZpHXDiVzNLiiG3j2HxzPn9YqjQynN14iz6HKatErAolGW9AjM",
+          "received": false
+        },
+        {
+          "_id": "699640041c508c5d5ec95495",
+          "name": "Gloves86193",
+          "amount": 380,
+          "price": 70806,
+          "manufacturer": "Amazon",
+          "notes": "uKwFa5xNl4Peiz1DvYDUYgfUb0ufzHLfOe458YUZDIhOAijpqmQrcIXu86Z5sIA41AmqDnzWlReQ7Tjicd2f49p54EUQXv6jhmUwaOMSPFbQ7OzmQg8duWP24Fhcd5e3Gy61HYRvIJ2Y9m9GCUjW49R5GCgxqaXcZHqkhALfcHCnAhufK3wPxdT1REDuUfh12CKPGlovGMsjthOSAXDqgHqVCHuHWXMXTbT88W4rN0gJhQSZ9E3oKI7NEP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Stacy",
+          "street": "Hillside",
+          "house": 31,
+          "flat": 8
+        },
+        "finalDate": "2026-02-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 141924,
+      "createdOn": "2026-02-18T22:41:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699640031c508c5d5ec95424",
+          "products": [
+            {
+              "_id": "699640041c508c5d5ec95463",
+              "name": "Ball31632",
+              "amount": 457,
+              "price": 71118,
+              "manufacturer": "Samsung",
+              "notes": "hO7MmeBdZR73s380iHhn0YRSJnUp2EUBraEtExznrVfdgQeoK7QXTdd9nO7bYWofiFPhAHqLjsO5Go2Ib2I2H3fORJe9ERv4RmTTwXMMOBRblzzvhGqqKTXTYbHPzzzwXdzeiLU2Zef6KKLnukWCksRLReUkCDIakjYoKqZR8CaBs4zhvuEBGqhMmWQaIefPsIbqXmbFfZpHXDiVzNLiiG3j2HxzPn9YqjQynN14iz6HKatErAolGW9AjM",
+              "received": false
+            },
+            {
+              "_id": "699640041c508c5d5ec95495",
+              "name": "Gloves86193",
+              "amount": 380,
+              "price": 70806,
+              "manufacturer": "Amazon",
+              "notes": "uKwFa5xNl4Peiz1DvYDUYgfUb0ufzHLfOe458YUZDIhOAijpqmQrcIXu86Z5sIA41AmqDnzWlReQ7Tjicd2f49p54EUQXv6jhmUwaOMSPFbQ7OzmQg8duWP24Fhcd5e3Gy61HYRvIJ2Y9m9GCUjW49R5GCgxqaXcZHqkhALfcHCnAhufK3wPxdT1REDuUfh12CKPGlovGMsjthOSAXDqgHqVCHuHWXMXTbT88W4rN0gJhQSZ9E3oKI7NEP",
+              "received": false
+            }
+          ],
+          "total_price": 141924,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Stacy",
+              "street": "Hillside",
+              "house": 31,
+              "flat": 8
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-18T22:41:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699640031c508c5d5ec95424",
+          "products": [
+            {
+              "_id": "699640041c508c5d5ec95463",
+              "name": "Ball31632",
+              "amount": 457,
+              "price": 71118,
+              "manufacturer": "Samsung",
+              "notes": "hO7MmeBdZR73s380iHhn0YRSJnUp2EUBraEtExznrVfdgQeoK7QXTdd9nO7bYWofiFPhAHqLjsO5Go2Ib2I2H3fORJe9ERv4RmTTwXMMOBRblzzvhGqqKTXTYbHPzzzwXdzeiLU2Zef6KKLnukWCksRLReUkCDIakjYoKqZR8CaBs4zhvuEBGqhMmWQaIefPsIbqXmbFfZpHXDiVzNLiiG3j2HxzPn9YqjQynN14iz6HKatErAolGW9AjM",
+              "received": false
+            },
+            {
+              "_id": "699640041c508c5d5ec95495",
+              "name": "Gloves86193",
+              "amount": 380,
+              "price": 70806,
+              "manufacturer": "Amazon",
+              "notes": "uKwFa5xNl4Peiz1DvYDUYgfUb0ufzHLfOe458YUZDIhOAijpqmQrcIXu86Z5sIA41AmqDnzWlReQ7Tjicd2f49p54EUQXv6jhmUwaOMSPFbQ7OzmQg8duWP24Fhcd5e3Gy61HYRvIJ2Y9m9GCUjW49R5GCgxqaXcZHqkhALfcHCnAhufK3wPxdT1REDuUfh12CKPGlovGMsjthOSAXDqgHqVCHuHWXMXTbT88W4rN0gJhQSZ9E3oKI7NEP",
+              "received": false
+            }
+          ],
+          "total_price": 141924,
+          "delivery": null,
+          "changedOn": "2026-02-18T22:41:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
