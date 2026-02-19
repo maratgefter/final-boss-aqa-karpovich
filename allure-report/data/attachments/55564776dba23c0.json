@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:40:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5445",
+    "etag": "W/\"1545-+OqifMtERfnxlsQGi0c3v9FiRqo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699791451c508c5d5eca49d8",
+      "status": "In Process",
+      "customer": {
+        "_id": "699791411c508c5d5eca475b",
+        "email": "Collin.Jakubowski46@hotmail.com",
+        "name": "Eusebio Fritsch",
+        "country": "Ukraine",
+        "city": "North Juddhaven",
+        "street": "Connelly Run",
+        "house": 45,
+        "flat": 280,
+        "phone": "+18508031932",
+        "createdOn": "2026-02-19T22:40:01.000Z",
+        "notes": "NzleBQBj3c8KjrsJA8t5YMX2WiUCYtg0w85lzZfpdLuNbAANEh7D7IB5oP1vJi1nh2DjZir9MK9wdypo15OHpGEj4Syxarr8HwV1eDBy4Wyz0I79Mgmof18qOkw2tlwtzYP8NP4gyGcLH2UKeZsCE4wsRzO0CzMuYb3EvJ78hCMCyhKCrNJlDy9162QTdYfrw9EWHZTVzwjMVEpiWivYmFDdk5k7Iwpm5mo3wX8LOGADpNVUgJ6k1qEi2T"
+      },
+      "products": [
+        {
+          "_id": "699791421c508c5d5eca4790",
+          "name": "Pants30041",
+          "amount": 754,
+          "price": 40396,
+          "manufacturer": "Google",
+          "notes": "UgxPrfHr7MvgXukPvaoUSBKUXNfsn3BBwndEIRhQp5ciZQvR6nafNBENUYBX16D57DcXjvty2MHLxoVM4UmMGczbi3xlUHhIq6xw2A8bT5P5pt2UfHJTsO5FZmmfqbC115cHOxjs758aWMHCqilBRLuVxrEZ3neI3DQZQmzL92b3Puu4GnwANs6Llwkeox6uNtKiMdmYSCKUcE4o5Qb19UwVaX2nucyc9IdoSNZTN9yYBKC3SROBLv14PU",
+          "received": false
+        },
+        {
+          "_id": "699791421c508c5d5eca47b9",
+          "name": "Chips36545",
+          "amount": 282,
+          "price": 61000,
+          "manufacturer": "Amazon",
+          "notes": "6mWdp4Anx78GqzPEsdwfX1m3k1FHZcUXSp6chN74IBCahpvBn8h8Urc4VIxRbDecZSzCehxxjEvt0r0qWj07FXM5D9fTUJ22xZMiyKOpDpOzJ7JrZvUY67U52npmjjSWR7JinZl3qIGV6FBIqWV99hOlktPjz8UdaOep47U4J19IMWu9MfUMtQev4e6wwuFqrekWSnACSHxDus9VQLESYmkpgHIBLKMFvtmuHgaIR4MZuwuGS6lM4fSw4x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "North Juddhaven",
+          "street": "Connelly Run",
+          "house": 45,
+          "flat": 280
+        },
+        "finalDate": "2026-02-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 101396,
+      "createdOn": "2026-02-19T22:40:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699791411c508c5d5eca475b",
+          "products": [
+            {
+              "_id": "699791421c508c5d5eca4790",
+              "name": "Pants30041",
+              "amount": 754,
+              "price": 40396,
+              "manufacturer": "Google",
+              "notes": "UgxPrfHr7MvgXukPvaoUSBKUXNfsn3BBwndEIRhQp5ciZQvR6nafNBENUYBX16D57DcXjvty2MHLxoVM4UmMGczbi3xlUHhIq6xw2A8bT5P5pt2UfHJTsO5FZmmfqbC115cHOxjs758aWMHCqilBRLuVxrEZ3neI3DQZQmzL92b3Puu4GnwANs6Llwkeox6uNtKiMdmYSCKUcE4o5Qb19UwVaX2nucyc9IdoSNZTN9yYBKC3SROBLv14PU",
+              "received": false
+            },
+            {
+              "_id": "699791421c508c5d5eca47b9",
+              "name": "Chips36545",
+              "amount": 282,
+              "price": 61000,
+              "manufacturer": "Amazon",
+              "notes": "6mWdp4Anx78GqzPEsdwfX1m3k1FHZcUXSp6chN74IBCahpvBn8h8Urc4VIxRbDecZSzCehxxjEvt0r0qWj07FXM5D9fTUJ22xZMiyKOpDpOzJ7JrZvUY67U52npmjjSWR7JinZl3qIGV6FBIqWV99hOlktPjz8UdaOep47U4J19IMWu9MfUMtQev4e6wwuFqrekWSnACSHxDus9VQLESYmkpgHIBLKMFvtmuHgaIR4MZuwuGS6lM4fSw4x",
+              "received": false
+            }
+          ],
+          "total_price": 101396,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Juddhaven",
+              "street": "Connelly Run",
+              "house": 45,
+              "flat": 280
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:40:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699791411c508c5d5eca475b",
+          "products": [
+            {
+              "_id": "699791421c508c5d5eca4790",
+              "name": "Pants30041",
+              "amount": 754,
+              "price": 40396,
+              "manufacturer": "Google",
+              "notes": "UgxPrfHr7MvgXukPvaoUSBKUXNfsn3BBwndEIRhQp5ciZQvR6nafNBENUYBX16D57DcXjvty2MHLxoVM4UmMGczbi3xlUHhIq6xw2A8bT5P5pt2UfHJTsO5FZmmfqbC115cHOxjs758aWMHCqilBRLuVxrEZ3neI3DQZQmzL92b3Puu4GnwANs6Llwkeox6uNtKiMdmYSCKUcE4o5Qb19UwVaX2nucyc9IdoSNZTN9yYBKC3SROBLv14PU",
+              "received": false
+            },
+            {
+              "_id": "699791421c508c5d5eca47b9",
+              "name": "Chips36545",
+              "amount": 282,
+              "price": 61000,
+              "manufacturer": "Amazon",
+              "notes": "6mWdp4Anx78GqzPEsdwfX1m3k1FHZcUXSp6chN74IBCahpvBn8h8Urc4VIxRbDecZSzCehxxjEvt0r0qWj07FXM5D9fTUJ22xZMiyKOpDpOzJ7JrZvUY67U52npmjjSWR7JinZl3qIGV6FBIqWV99hOlktPjz8UdaOep47U4J19IMWu9MfUMtQev4e6wwuFqrekWSnACSHxDus9VQLESYmkpgHIBLKMFvtmuHgaIR4MZuwuGS6lM4fSw4x",
+              "received": false
+            }
+          ],
+          "total_price": 101396,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Juddhaven",
+              "street": "Connelly Run",
+              "house": 45,
+              "flat": 280
+            },
+            "finalDate": "2026-02-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:40:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699791411c508c5d5eca475b",
+          "products": [
+            {
+              "_id": "699791421c508c5d5eca4790",
+              "name": "Pants30041",
+              "amount": 754,
+              "price": 40396,
+              "manufacturer": "Google",
+              "notes": "UgxPrfHr7MvgXukPvaoUSBKUXNfsn3BBwndEIRhQp5ciZQvR6nafNBENUYBX16D57DcXjvty2MHLxoVM4UmMGczbi3xlUHhIq6xw2A8bT5P5pt2UfHJTsO5FZmmfqbC115cHOxjs758aWMHCqilBRLuVxrEZ3neI3DQZQmzL92b3Puu4GnwANs6Llwkeox6uNtKiMdmYSCKUcE4o5Qb19UwVaX2nucyc9IdoSNZTN9yYBKC3SROBLv14PU",
+              "received": false
+            },
+            {
+              "_id": "699791421c508c5d5eca47b9",
+              "name": "Chips36545",
+              "amount": 282,
+              "price": 61000,
+              "manufacturer": "Amazon",
+              "notes": "6mWdp4Anx78GqzPEsdwfX1m3k1FHZcUXSp6chN74IBCahpvBn8h8Urc4VIxRbDecZSzCehxxjEvt0r0qWj07FXM5D9fTUJ22xZMiyKOpDpOzJ7JrZvUY67U52npmjjSWR7JinZl3qIGV6FBIqWV99hOlktPjz8UdaOep47U4J19IMWu9MfUMtQev4e6wwuFqrekWSnACSHxDus9VQLESYmkpgHIBLKMFvtmuHgaIR4MZuwuGS6lM4fSw4x",
+              "received": false
+            }
+          ],
+          "total_price": 101396,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:40:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

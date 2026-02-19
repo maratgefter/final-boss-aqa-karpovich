@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:38:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-5W179cCUeWYTzTlWjM5sFXFfAqc\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699790f81c508c5d5eca1587",
+        "email": "Randall.Bosco29@gmail.com",
+        "name": "Kellen Douglas",
+        "country": "Great Britain",
+        "city": "East Honolulu",
+        "street": "Rath Spur",
+        "house": 44,
+        "flat": 527,
+        "phone": "+14172264285",
+        "createdOn": "2026-02-19T22:38:48.000Z",
+        "notes": "zGlUcmwz8v3i6PjrpqfimkZBGl6nhdPEAYnMIcpVEHdIlOTRQG3AFQIHf6seaAcMGvH4OQHoFgalPLtGfODennFkRib8SMQD5e2cGRtMXKXBxmYcD4JAY3uRGSRRcBqNHRESZWTVkN7UcfzVOfLC7PSknylLq0ko2naPBb1DT2So4eQnO2V1pSQ16pxExnnti4r5aue8Eu7lSf5uXOvBJ2vcXTVOw52ZJFXgawNYWQHG9FDtbzbLUB1Yi6"
+      },
+      "products": [
+        {
+          "_id": "699790fa1c508c5d5eca1690",
+          "name": "Keyboard88139",
+          "amount": 32,
+          "price": 74310,
+          "manufacturer": "Google",
+          "notes": "k60l0nCOKaUddLrAX8sHnSm5wvumpXTSdJPPsMfF0zynVLYz33J3fpYCEv5cXbbvvuaaV33cME9mKgWoE2fvhOxOr2rVnOo8Z6BGpmi0kwsK7gVbU6cD6nv5SYiPXvTaGfym2lZL61ZYF4dSl7JAPBGPwFSxKVIq4It3fFhcv7OVvM8x5kEt1GUooJwBC5aZjHlA12odsHQcxpHnATBFzAJqs7BktdxVqES8bG1Y5MAuswDU6oYgbI9901",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74310,
+      "createdOn": "2026-02-19T22:38:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790f81c508c5d5eca1587",
+          "products": [
+            {
+              "_id": "699790fa1c508c5d5eca1690",
+              "name": "Keyboard88139",
+              "amount": 32,
+              "price": 74310,
+              "manufacturer": "Google",
+              "notes": "k60l0nCOKaUddLrAX8sHnSm5wvumpXTSdJPPsMfF0zynVLYz33J3fpYCEv5cXbbvvuaaV33cME9mKgWoE2fvhOxOr2rVnOo8Z6BGpmi0kwsK7gVbU6cD6nv5SYiPXvTaGfym2lZL61ZYF4dSl7JAPBGPwFSxKVIq4It3fFhcv7OVvM8x5kEt1GUooJwBC5aZjHlA12odsHQcxpHnATBFzAJqs7BktdxVqES8bG1Y5MAuswDU6oYgbI9901",
+              "received": false
+            }
+          ],
+          "total_price": 74310,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:38:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699790fa1c508c5d5eca16b4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

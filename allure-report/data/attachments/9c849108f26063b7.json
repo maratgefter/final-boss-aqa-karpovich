@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:37:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-J5GlyN7GEbDGdld62aMexpegfFU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699790c31c508c5d5ec9f645",
+        "email": "Carter.Orn28@gmail.com",
+        "name": "Gus Mertz",
+        "country": "Canada",
+        "city": "Schusterville",
+        "street": "Vicarage Road",
+        "house": 45,
+        "flat": 187,
+        "phone": "+16616680794",
+        "createdOn": "2026-02-19T22:37:55.000Z",
+        "notes": "ylOA6KnQd26w14D2zY3PYr5cjvsT0FWt6BI1SgvcqSujxyQY2fJkhRcGV3pnKnEpNaMbkXZ37FRZDoGLdu743xhAP2K4txjpzggsR37P9l4yfICAC0thAR6ISSHm9U0tBSJJYc5AtCpTSFHiRi4sZZhw9oaAqoFPyOn6QFUDcimUTBHLYcBL2qDAacSV8bPzqLo43yq7k5Sb4AH7AIPYiqwFbIcdrB6ptVZ72VyzZxjGogn5XfuSs99KSy"
+      },
+      "products": [
+        {
+          "_id": "699790c31c508c5d5ec9f668",
+          "name": "Cheese3305",
+          "amount": 602,
+          "price": 45148,
+          "manufacturer": "Microsoft",
+          "notes": "osk3Z9LK6uHsJoRohFE0szc0Pw0R4xQv7ykdcPjBgXoXjS13jObdDVR0hBGyf29g08WNduUKITbWHAPdqEyp8tmOwEtQASTI5ALy5PxOOvJupxVd7zLkgQjembAzEZNMipwnbnGuqCHRgI1lfn1U5J8yzBBFLon4jl7IxRw6mWsiCFUQwODBuFnuczy7noREqHeEUFNbms1fLin6QsvjKNKiF5VLLtrU7ZLCgQzytLWzq6gjLIFz08nO8Q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45148,
+      "createdOn": "2026-02-19T22:37:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790c31c508c5d5ec9f645",
+          "products": [
+            {
+              "_id": "699790c31c508c5d5ec9f668",
+              "name": "Cheese3305",
+              "amount": 602,
+              "price": 45148,
+              "manufacturer": "Microsoft",
+              "notes": "osk3Z9LK6uHsJoRohFE0szc0Pw0R4xQv7ykdcPjBgXoXjS13jObdDVR0hBGyf29g08WNduUKITbWHAPdqEyp8tmOwEtQASTI5ALy5PxOOvJupxVd7zLkgQjembAzEZNMipwnbnGuqCHRgI1lfn1U5J8yzBBFLon4jl7IxRw6mWsiCFUQwODBuFnuczy7noREqHeEUFNbms1fLin6QsvjKNKiF5VLLtrU7ZLCgQzytLWzq6gjLIFz08nO8Q",
+              "received": false
+            }
+          ],
+          "total_price": 45148,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:37:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699790c31c508c5d5ec9f68d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

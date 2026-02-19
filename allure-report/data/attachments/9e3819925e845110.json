@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:38:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-iR377u0PmtqRJwrxOgJrKJZ4nC0\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699790e31c508c5d5eca07b1",
+        "email": "Mose_Will@hotmail.com",
+        "name": "Erica Kiehn",
+        "country": "Germany",
+        "city": "Lake Ruthborough",
+        "street": "Lura Center",
+        "house": 38,
+        "flat": 41,
+        "phone": "+13592695205",
+        "createdOn": "2026-02-19T22:38:27.000Z",
+        "notes": "FWHs6pOQ6FCe55VDt2Bhp8hnWnRkxAFxihaEsN7rhX5FLh4cZQZ5Y9vKHOZ057gGSvZuNzxP0JyTBlYRzEjRwnTJ0Y61dkgnIjqdYdEt1DpNOHocAdcueWwrJqeNs4lNVqLr1igizNna6IXYNJbLs1oLynjW9vXNTiV9DCSV3oRTfJLHot03gnYUHg8pLiluUH3I9yMKftUsDHN1fB9lp0vefY4jWexKfVT4hKd6vuYw9hElMgAxo8WDqI"
+      },
+      "products": [
+        {
+          "_id": "699790e31c508c5d5eca07d3",
+          "name": "Shoes59360",
+          "amount": 531,
+          "price": 3145,
+          "manufacturer": "Amazon",
+          "notes": "nHU8zyTFUwCKjOr98IJSqz6m7eME4WQiB1ANAUmifLimhDyU6ih5BpL6aTXa1cwFuV1AKryx0DHaE6kFTn0XX8MUstvUtQfsFcELFSah0w5FwGu3AJMgpuAckhWWBhUg4GtaACz2OLYPxPHpPMw7J9U439WkwGxVdUMXyskUeIOqx5Y9TfLA7dKEtE3TjyiTOei2P9ckGJnNvCKTUvxsiHnI1AGH4KI07Fxwa32h7i4IgGMEYHLN8utx8x",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3145,
+      "createdOn": "2026-02-19T22:38:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790e31c508c5d5eca07b1",
+          "products": [
+            {
+              "_id": "699790e31c508c5d5eca07d3",
+              "name": "Shoes59360",
+              "amount": 531,
+              "price": 3145,
+              "manufacturer": "Amazon",
+              "notes": "nHU8zyTFUwCKjOr98IJSqz6m7eME4WQiB1ANAUmifLimhDyU6ih5BpL6aTXa1cwFuV1AKryx0DHaE6kFTn0XX8MUstvUtQfsFcELFSah0w5FwGu3AJMgpuAckhWWBhUg4GtaACz2OLYPxPHpPMw7J9U439WkwGxVdUMXyskUeIOqx5Y9TfLA7dKEtE3TjyiTOei2P9ckGJnNvCKTUvxsiHnI1AGH4KI07Fxwa32h7i4IgGMEYHLN8utx8x",
+              "received": false
+            }
+          ],
+          "total_price": 3145,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:38:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699790e51c508c5d5eca08ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

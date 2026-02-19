@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:38:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-SRo7mBHo99anCpA9KrTFSsVJvR0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699790e31c508c5d5eca07da",
+        "email": "Esta.Lang@yahoo.com",
+        "name": "Nelson Muller",
+        "country": "Germany",
+        "city": "Huntercester",
+        "street": "The Causeway",
+        "house": 45,
+        "flat": 977,
+        "phone": "+16595932338",
+        "createdOn": "2026-02-19T22:38:27.000Z",
+        "notes": "fNzMWGPJZf3qKxPgs4NvHEgOsGfHDuNyI9GnNKSC47RfLHGIES2szzAndup6iAlqPMPqr0RvcGXldoCpR6fLaEuEN8lH6NvFHY9lhSP8Q4GxwAmjJxIWCfRSAbu0t4X0hFpsKMtp6VpRG75DQggUwS1DavW5sZ9lEXircsH7Hh4BO5eymJo9kfCvuTGmFiGIDXS5KbmLE7sj398dqcgFfkJtrAyYvpvjrvKO29PGZZ8pkDXLwwtO2i7kOt"
+      },
+      "products": [
+        {
+          "_id": "699790e51c508c5d5eca08e5",
+          "name": "Chair31371",
+          "amount": 819,
+          "price": 68847,
+          "manufacturer": "Google",
+          "notes": "AgCcMW900kritem3Szp568rizlxq4fESYgWY2azB7qKsmklM1l2ASGYNGKUoxkj9P9OtmV6KF3HIhQrKtTJLZbFn3FjosDZflD0NOyhJa3fuk2bsWNPrISUhtttGSR1yra78CpmUTNzXmeCgI1ePJV9ArPyS8TV19yEuuothPeDh6EFPZZmI3nd9itPsS7hLW1EXotA7D3U6EJabGZ9rBgWvKu8SQeHSOkJfIbIm6Le0fqt54OwTQvXwWb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68847,
+      "createdOn": "2026-02-19T22:38:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790e31c508c5d5eca07da",
+          "products": [
+            {
+              "_id": "699790e51c508c5d5eca08e5",
+              "name": "Chair31371",
+              "amount": 819,
+              "price": 68847,
+              "manufacturer": "Google",
+              "notes": "AgCcMW900kritem3Szp568rizlxq4fESYgWY2azB7qKsmklM1l2ASGYNGKUoxkj9P9OtmV6KF3HIhQrKtTJLZbFn3FjosDZflD0NOyhJa3fuk2bsWNPrISUhtttGSR1yra78CpmUTNzXmeCgI1ePJV9ArPyS8TV19yEuuothPeDh6EFPZZmI3nd9itPsS7hLW1EXotA7D3U6EJabGZ9rBgWvKu8SQeHSOkJfIbIm6Le0fqt54OwTQvXwWb",
+              "received": false
+            }
+          ],
+          "total_price": 68847,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:38:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699790e71c508c5d5eca0a09"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:38:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-LRyihSFZiV8oZmVxMDoS605xLiI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699790ff1c508c5d5eca17d2",
+      "status": "Draft",
+      "customer": {
+        "_id": "699790fe1c508c5d5eca176c",
+        "email": "Cullen_Roberts15@hotmail.com",
+        "name": "Kamron Cronin",
+        "country": "Belarus",
+        "city": "Weberview",
+        "street": "Gerhold Forge",
+        "house": 1,
+        "flat": 690,
+        "phone": "+12524142013",
+        "createdOn": "2026-02-19T22:38:54.000Z",
+        "notes": "ed9FLaVL7ziJN0Fvx88QhbuJXGCi2GLMMFiZ2H1xFwG3a9DFv5hAmHZwQITHLgxkJ6pgSAkOVzUfua1BxCstIQv6dmhYOHoEYYlGfeGdSXhCHRi4vWxqm1nZXlp0UC1ni9QR9h4dKXdgVZ0JxodcVKQVgm3APeCR9QfjDlX6JwD5pAGRbm0kolV8vS2YKbQJnpaC03jVOPwYIgMT2KG6W8XHG2OpCuwEiV8pa2hy68VGKzgjQl1RInrajK"
+      },
+      "products": [
+        {
+          "_id": "699790fe1c508c5d5eca17aa",
+          "name": "Keyboard77684",
+          "amount": 430,
+          "price": 21151,
+          "manufacturer": "Google",
+          "notes": "ETmi3nt4uA6NYrmFfEpPXbGsV6eqWT72iM0LlRGbioI27Wypp7eKfT2IdjFlk3o2LmbKItnKuAa12uTt6Pqbp8y3OyKwjm6H1cqTeVIQADIKZxkJrX2oCH07jGITENSh2xTS4Jxw527bg1ScAZZUkTQRWgSXNJczrg2XdknWbYvgKRSs94H4TNeKemB9kILtVRglwHytiz9cdbEYPYXqQa4ASqzrYlirO8AheLTMaRqtoROsRJPVX0mFHx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Weberview",
+          "street": "Gerhold Forge",
+          "house": 1,
+          "flat": 690
+        },
+        "finalDate": "2026-02-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 21151,
+      "createdOn": "2026-02-19T22:38:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790fe1c508c5d5eca176c",
+          "products": [
+            {
+              "_id": "699790fe1c508c5d5eca17aa",
+              "name": "Keyboard77684",
+              "amount": 430,
+              "price": 21151,
+              "manufacturer": "Google",
+              "notes": "ETmi3nt4uA6NYrmFfEpPXbGsV6eqWT72iM0LlRGbioI27Wypp7eKfT2IdjFlk3o2LmbKItnKuAa12uTt6Pqbp8y3OyKwjm6H1cqTeVIQADIKZxkJrX2oCH07jGITENSh2xTS4Jxw527bg1ScAZZUkTQRWgSXNJczrg2XdknWbYvgKRSs94H4TNeKemB9kILtVRglwHytiz9cdbEYPYXqQa4ASqzrYlirO8AheLTMaRqtoROsRJPVX0mFHx",
+              "received": false
+            }
+          ],
+          "total_price": 21151,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Weberview",
+              "street": "Gerhold Forge",
+              "house": 1,
+              "flat": 690
+            },
+            "finalDate": "2026-02-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:38:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699790fe1c508c5d5eca176c",
+          "products": [
+            {
+              "_id": "699790fe1c508c5d5eca17aa",
+              "name": "Keyboard77684",
+              "amount": 430,
+              "price": 21151,
+              "manufacturer": "Google",
+              "notes": "ETmi3nt4uA6NYrmFfEpPXbGsV6eqWT72iM0LlRGbioI27Wypp7eKfT2IdjFlk3o2LmbKItnKuAa12uTt6Pqbp8y3OyKwjm6H1cqTeVIQADIKZxkJrX2oCH07jGITENSh2xTS4Jxw527bg1ScAZZUkTQRWgSXNJczrg2XdknWbYvgKRSs94H4TNeKemB9kILtVRglwHytiz9cdbEYPYXqQa4ASqzrYlirO8AheLTMaRqtoROsRJPVX0mFHx",
+              "received": false
+            }
+          ],
+          "total_price": 21151,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:38:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

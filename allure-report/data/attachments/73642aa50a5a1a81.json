@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:40:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4790",
+    "etag": "W/\"12b6-G0fWdeHHu+mmPgRm1uq4eyJL97Q\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699791411c508c5d5eca4766",
+      "status": "Canceled",
+      "customer": {
+        "_id": "699791311c508c5d5eca3aad",
+        "email": "Dayna31@yahoo.com",
+        "name": "George Aufderhar",
+        "country": "Belarus",
+        "city": "Port Augustus",
+        "street": "Mazie Drive",
+        "house": 21,
+        "flat": 328,
+        "phone": "+18112643629",
+        "createdOn": "2026-02-19T22:39:45.000Z",
+        "notes": "3aFZ9OSIUhMnpryDokE7LVbZw9AmY7yBF3QQwcSk5eNPd7uTW2ZcXzygFr0fbM4kx2p79jP5FHoxN9GQhR6SByzTZKZeD5TUApnyCmNY0FvTwzuGfk5DfevXdyLbNyPiEFzmTkYLwqnKpWQX2uDKQafOEgrT0gGikrx97Uv53116dWBm4BN51mxt7KTbEvO6xPolvoaHA6S2Brcp1koR9V5kbY6mlyUDT22Ulq4mTxMq9fWP0XucCvxGST"
+      },
+      "products": [
+        {
+          "_id": "699791341c508c5d5eca3ce7",
+          "name": "Gloves56292",
+          "amount": 699,
+          "price": 82573,
+          "manufacturer": "Apple",
+          "notes": "OzyQJH5rUlvnGssRkM3eq5YY8aAQV7OhRXtuyD8s8KklK82OXR4aIs9TLYK0doH8lxVJHsvTWboLnuXGxUHk1GpF6EBjqN8WArR4eGD9yGj4PLhDNY0PsFoMnf7UPWvPdV6VT7zO2qoKIB2dcDzGIf6KM9CAecsbJd2CifwvBRlJdfBSAKb26q5Vl3gEjBbXTo3fTi3A88JEr68SxTXXg22957FkIWJvSilWsK63qc9j9O4Qqwzpadcvic",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Augustus",
+          "street": "Mazie Drive",
+          "house": 21,
+          "flat": 328
+        },
+        "finalDate": "2026-03-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 82573,
+      "createdOn": "2026-02-19T22:40:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "699791311c508c5d5eca3aad",
+          "products": [
+            {
+              "_id": "699791341c508c5d5eca3ce7",
+              "name": "Gloves56292",
+              "amount": 699,
+              "price": 82573,
+              "manufacturer": "Apple",
+              "notes": "OzyQJH5rUlvnGssRkM3eq5YY8aAQV7OhRXtuyD8s8KklK82OXR4aIs9TLYK0doH8lxVJHsvTWboLnuXGxUHk1GpF6EBjqN8WArR4eGD9yGj4PLhDNY0PsFoMnf7UPWvPdV6VT7zO2qoKIB2dcDzGIf6KM9CAecsbJd2CifwvBRlJdfBSAKb26q5Vl3gEjBbXTo3fTi3A88JEr68SxTXXg22957FkIWJvSilWsK63qc9j9O4Qqwzpadcvic",
+              "received": false
+            }
+          ],
+          "total_price": 82573,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Augustus",
+              "street": "Mazie Drive",
+              "house": 21,
+              "flat": 328
+            },
+            "finalDate": "2026-03-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:40:15.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "699791311c508c5d5eca3aad",
+          "products": [
+            {
+              "_id": "699791341c508c5d5eca3ce7",
+              "name": "Gloves56292",
+              "amount": 699,
+              "price": 82573,
+              "manufacturer": "Apple",
+              "notes": "OzyQJH5rUlvnGssRkM3eq5YY8aAQV7OhRXtuyD8s8KklK82OXR4aIs9TLYK0doH8lxVJHsvTWboLnuXGxUHk1GpF6EBjqN8WArR4eGD9yGj4PLhDNY0PsFoMnf7UPWvPdV6VT7zO2qoKIB2dcDzGIf6KM9CAecsbJd2CifwvBRlJdfBSAKb26q5Vl3gEjBbXTo3fTi3A88JEr68SxTXXg22957FkIWJvSilWsK63qc9j9O4Qqwzpadcvic",
+              "received": false
+            }
+          ],
+          "total_price": 82573,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Augustus",
+              "street": "Mazie Drive",
+              "house": 21,
+              "flat": 328
+            },
+            "finalDate": "2026-03-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:40:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699791311c508c5d5eca3aad",
+          "products": [
+            {
+              "_id": "699791341c508c5d5eca3ce7",
+              "name": "Gloves56292",
+              "amount": 699,
+              "price": 82573,
+              "manufacturer": "Apple",
+              "notes": "OzyQJH5rUlvnGssRkM3eq5YY8aAQV7OhRXtuyD8s8KklK82OXR4aIs9TLYK0doH8lxVJHsvTWboLnuXGxUHk1GpF6EBjqN8WArR4eGD9yGj4PLhDNY0PsFoMnf7UPWvPdV6VT7zO2qoKIB2dcDzGIf6KM9CAecsbJd2CifwvBRlJdfBSAKb26q5Vl3gEjBbXTo3fTi3A88JEr68SxTXXg22957FkIWJvSilWsK63qc9j9O4Qqwzpadcvic",
+              "received": false
+            }
+          ],
+          "total_price": 82573,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Augustus",
+              "street": "Mazie Drive",
+              "house": 21,
+              "flat": 328
+            },
+            "finalDate": "2026-03-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-19T22:40:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699791311c508c5d5eca3aad",
+          "products": [
+            {
+              "_id": "699791341c508c5d5eca3ce7",
+              "name": "Gloves56292",
+              "amount": 699,
+              "price": 82573,
+              "manufacturer": "Apple",
+              "notes": "OzyQJH5rUlvnGssRkM3eq5YY8aAQV7OhRXtuyD8s8KklK82OXR4aIs9TLYK0doH8lxVJHsvTWboLnuXGxUHk1GpF6EBjqN8WArR4eGD9yGj4PLhDNY0PsFoMnf7UPWvPdV6VT7zO2qoKIB2dcDzGIf6KM9CAecsbJd2CifwvBRlJdfBSAKb26q5Vl3gEjBbXTo3fTi3A88JEr68SxTXXg22957FkIWJvSilWsK63qc9j9O4Qqwzpadcvic",
+              "received": false
+            }
+          ],
+          "total_price": 82573,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:40:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

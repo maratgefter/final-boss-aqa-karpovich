@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 19 Feb 2026 22:37:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-I5BRwvGJ8qG4r1bwpyxydC/Dj1k\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699790bb1c508c5d5ec9f2fd",
+        "email": "Bertha_Macejkovic@gmail.com",
+        "name": "Orrin Weissnat",
+        "country": "Russia",
+        "city": "Feestside",
+        "street": "Price Ways",
+        "house": 12,
+        "flat": 320,
+        "phone": "+12395207851",
+        "createdOn": "2026-02-19T22:37:47.000Z",
+        "notes": "h1lDINRlWdVk9aAPxEczIqh1Z3z7yR4ZHFYxWQRUOY2pLGlS9PRgGC389Wd3NCYhuH3n2AYx9ALgg8O8LYVpIK3Y8kyJaEOMiRRbvxb1zKabCwgLtucrU4O32dX4yzgLjjJIHxaov6ueZRFOhkbhWO3oykYtTrWoy77J0lbsf0qJ0rYkGbJhjTHEeyacnYjdw9vbvKoxYT0bdVSgm3fayiHbDUmuJTJDxQLU9jbIlbZMkoxEMRPvLiAOlx"
+      },
+      "products": [
+        {
+          "_id": "699790bc1c508c5d5ec9f31d",
+          "name": "Keyboard19847",
+          "amount": 202,
+          "price": 8597,
+          "manufacturer": "Apple",
+          "notes": "wTzLTnqH0GjA2Mn5H2ZbxGDycBrPpHnqrAtKfef4CL9F89z89RJUrDpdlTY6QGmjQp8G6XZvzgttbpCWNFUAK4N7JqaeViUO0B8xCgjjFidnTdU21xlDPklIww6i0Q0HsUgWpFC4e8TqJsBksyDR0qoVmMe9TUntrRuAahPx5J0MKOVxmbp8VL1nCaV1aLKukHKlsJGKzrgzHVU6pJHfJHPS2e2M6U1d9FbUIdihMoh6ffIl3ci3atZ7zZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8597,
+      "createdOn": "2026-02-19T22:37:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699790bb1c508c5d5ec9f2fd",
+          "products": [
+            {
+              "_id": "699790bc1c508c5d5ec9f31d",
+              "name": "Keyboard19847",
+              "amount": 202,
+              "price": 8597,
+              "manufacturer": "Apple",
+              "notes": "wTzLTnqH0GjA2Mn5H2ZbxGDycBrPpHnqrAtKfef4CL9F89z89RJUrDpdlTY6QGmjQp8G6XZvzgttbpCWNFUAK4N7JqaeViUO0B8xCgjjFidnTdU21xlDPklIww6i0Q0HsUgWpFC4e8TqJsBksyDR0qoVmMe9TUntrRuAahPx5J0MKOVxmbp8VL1nCaV1aLKukHKlsJGKzrgzHVU6pJHfJHPS2e2M6U1d9FbUIdihMoh6ffIl3ci3atZ7zZ",
+              "received": false
+            }
+          ],
+          "total_price": 8597,
+          "delivery": null,
+          "changedOn": "2026-02-19T22:37:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699790bc1c508c5d5ec9f342"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
