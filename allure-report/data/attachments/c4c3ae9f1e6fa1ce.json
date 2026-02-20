@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-fYrJBVEVErDlIp11eXjNFPgnJ8o\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1531c508c5d5ecb2355",
+        "email": "Nayeli.Cummerata-Anderson@gmail.com",
+        "name": "Ciara Bradtke",
+        "country": "Ukraine",
+        "city": "Durganland",
+        "street": "Beatty Mission",
+        "house": 26,
+        "flat": 947,
+        "phone": "+14213965025",
+        "createdOn": "2026-02-20T22:33:55.000Z",
+        "notes": "ZFDKF90BrOUcpuZzGyFujCkAeDDFKAMOeHPjahD1secC1UXoiSw6GFWAI3YAawZxaVa5diPOvOyHLcXDxZXizwabaGfCXROuSp9tUaPHL1ym1AvAeRzPefQ8C784qO9HVLi3E44D5Yz1tpTA3VqLnbuKKL8aI4hcN9IWPZncPKFww0SpyU3hHRPx0qY4tq9Kf0v1ZcqTiM5WYAItiDaeWQjaez4sxCANSLgaNBr8FjeDSrUreKNx7wYYVk"
+      },
+      "products": [
+        {
+          "_id": "6998e1531c508c5d5ecb2374",
+          "name": "Chair27625",
+          "amount": 269,
+          "price": 4502,
+          "manufacturer": "Microsoft",
+          "notes": "AnwnCTUjzdZwST7twEmZ2D8Pf0KsxD3pGp9h2wCR4MJBgJEJBfchknM8BrPBNOuQW0vjmGqGhBHNnQnQVsDssZ4jFKjW48rBs6sKoS9ktxs5lEy2iFVWLPESFjxKliGIAy1hnMgN8vWE2SVTrleEsC5zBjCn0bNrSWOXnME833nquXtCK0kBxYpgPgljbGESSkgEJDVWHAKDZ7myBl36Q6KWmpFnKEi14TkYTr84ueX97zQFEmFeaiCd4j",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4502,
+      "createdOn": "2026-02-20T22:33:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1531c508c5d5ecb2355",
+          "products": [
+            {
+              "_id": "6998e1531c508c5d5ecb2374",
+              "name": "Chair27625",
+              "amount": 269,
+              "price": 4502,
+              "manufacturer": "Microsoft",
+              "notes": "AnwnCTUjzdZwST7twEmZ2D8Pf0KsxD3pGp9h2wCR4MJBgJEJBfchknM8BrPBNOuQW0vjmGqGhBHNnQnQVsDssZ4jFKjW48rBs6sKoS9ktxs5lEy2iFVWLPESFjxKliGIAy1hnMgN8vWE2SVTrleEsC5zBjCn0bNrSWOXnME833nquXtCK0kBxYpgPgljbGESSkgEJDVWHAKDZ7myBl36Q6KWmpFnKEi14TkYTr84ueX97zQFEmFeaiCd4j",
+              "received": false
+            }
+          ],
+          "total_price": 4502,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e1541c508c5d5ecb23b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

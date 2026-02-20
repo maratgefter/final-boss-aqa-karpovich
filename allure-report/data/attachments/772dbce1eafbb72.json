@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2657",
+    "etag": "W/\"a61-OUNQoTwueuCQixLN2gGFycgYQqI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e11c1c508c5d5ecb01f2",
+        "email": "Retha80@gmail.com",
+        "name": "Jessie Dietrich",
+        "country": "Ukraine",
+        "city": "National City",
+        "street": "Retha Manor",
+        "house": 11,
+        "flat": 53,
+        "phone": "+18299594605",
+        "createdOn": "2026-02-20T22:33:00.000Z",
+        "notes": "2gc0rqQTMWe2xSIp1DUJNUaxTcveLf68wjHHypJED0pmCfkKRA0s7IIeV98Jl4MmavruCGsXKfi0nSYcx4oGD6kDUKQGfVg7LjE4fAkqYiWYA48WbDE1ScxhmFIY7kloPkSITwT8yBwtEB5FET1VJ670MWodbbtLYARqhBnkMpoamld9kBiWuwkcBcASPlLaxDuWY9OoSh3RoJkgNkyupOz2aT1FWVjOinfCptgfQfOh6ArJAZDVKtGJpW"
+      },
+      "products": [
+        {
+          "_id": "6998e11d1c508c5d5ecb0215",
+          "name": "Computer88240",
+          "amount": 619,
+          "price": 58389,
+          "manufacturer": "Amazon",
+          "notes": "WttSoaMPIJJyUF60BaR06a67imQX9IOBxkHoExF3mZUno03TOGa6wozsTGpG4IjXIztE6eG7BnPyXYAHEyS2VMN0Ea2Thrjzf7iqgPg2KYHVwgHInwWfSrvjO6mQvUIs0idwXT86jZESxnLad9vjJsh1bRU62hFUjfUplwMCPjczq1UVOCMxdiK78mCc1PuJMRboI7cKMYl6bHgnqObTcmI562z3PK863O9ZPscmbv9DuICuDguZSHSWpd",
+          "received": false
+        },
+        {
+          "_id": "6998e11d1c508c5d5ecb022a",
+          "name": "Sausages8165",
+          "amount": 182,
+          "price": 38961,
+          "manufacturer": "Xiaomi",
+          "notes": "CMulg0CdVWRQSPik0TB22cx7RxvMIJ4rbXTN2CIbbSDsUB07rF0N2xk2pATfuwY6jQttJhX48vd3tL3kF5zcuRBgnbXh2SdY9QLgRHkz5X0YgK8DvednpfBxmPClTE6nVP6eiv4TIjE4chI4wAbbwknkG5Wo5UZca964l7RK6ZLrkLGOFvJYsW3JuqGTmmqaMOiTBP1LYAu48yMCSebK4Ter2rLm33JS1A99WQszsCqnZyG7rVJFona4rC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97350,
+      "createdOn": "2026-02-20T22:33:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e11c1c508c5d5ecb01f2",
+          "products": [
+            {
+              "_id": "6998e11d1c508c5d5ecb0215",
+              "name": "Computer88240",
+              "amount": 619,
+              "price": 58389,
+              "manufacturer": "Amazon",
+              "notes": "WttSoaMPIJJyUF60BaR06a67imQX9IOBxkHoExF3mZUno03TOGa6wozsTGpG4IjXIztE6eG7BnPyXYAHEyS2VMN0Ea2Thrjzf7iqgPg2KYHVwgHInwWfSrvjO6mQvUIs0idwXT86jZESxnLad9vjJsh1bRU62hFUjfUplwMCPjczq1UVOCMxdiK78mCc1PuJMRboI7cKMYl6bHgnqObTcmI562z3PK863O9ZPscmbv9DuICuDguZSHSWpd",
+              "received": false
+            },
+            {
+              "_id": "6998e11d1c508c5d5ecb022a",
+              "name": "Sausages8165",
+              "amount": 182,
+              "price": 38961,
+              "manufacturer": "Xiaomi",
+              "notes": "CMulg0CdVWRQSPik0TB22cx7RxvMIJ4rbXTN2CIbbSDsUB07rF0N2xk2pATfuwY6jQttJhX48vd3tL3kF5zcuRBgnbXh2SdY9QLgRHkz5X0YgK8DvednpfBxmPClTE6nVP6eiv4TIjE4chI4wAbbwknkG5Wo5UZca964l7RK6ZLrkLGOFvJYsW3JuqGTmmqaMOiTBP1LYAu48yMCSebK4Ter2rLm33JS1A99WQszsCqnZyG7rVJFona4rC",
+              "received": false
+            }
+          ],
+          "total_price": 97350,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e11d1c508c5d5ecb0264"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

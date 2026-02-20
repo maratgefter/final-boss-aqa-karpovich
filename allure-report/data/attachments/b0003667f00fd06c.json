@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-j6girDAZNFjTCYNOajQ7H6Y3B8c\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1391c508c5d5ecb11e6",
+        "email": "Katelin.Koelpin22@yahoo.com",
+        "name": "Gillian Bogisich",
+        "country": "Ukraine",
+        "city": "Euniceport",
+        "street": "Wood Lane",
+        "house": 50,
+        "flat": 800,
+        "phone": "+14707756011",
+        "createdOn": "2026-02-20T22:33:29.000Z",
+        "notes": "2bzo4Yj0OPmmRUAXi5kCzmCgiNXD9QyS0dqDGiLvYIgeHAxhYnfaWrItIFCAOg8CFswMjoKMosq9RrFHrk7muZG5oRGil4DwporXBFCxvqEOeBtrUcCrsUBmJ4o9zcjpSFB6yy1c6CDddnUGCUNdmLppKrGeFFrOv0HwZXz6T3FUfYcF62BT6CWmL2dTDLeE3Du70ebnC7lelGYU4FM2M1Zn2kF2a168qIi32hOdvaY8mat5u5BU8FLhMi"
+      },
+      "products": [
+        {
+          "_id": "6998e13b1c508c5d5ecb1324",
+          "name": "Gloves7850",
+          "amount": 284,
+          "price": 92352,
+          "manufacturer": "Tesla",
+          "notes": "GDPcA214ViTvAld1Y7ib0cqQC5ZqxNUc1k6T0Ewq5548CD5r1s2yYozHJef6tilfvYRAOjyNE75w1sd8oABT6C5goFriE1Hjw8EUQF2xYGT5ac9uC82q5Vp0vJBJOxdZ5fYJrFuvF1gLhb0PBEZKA9385UlLhtfu6ZAXskOMIY0ThE17QaXpdQF1tqAunQZYYmV9MVyKiMur6Y6Xom7DVshtBFRulxK4yBh3GRmDmwcXTLhnHA24vLz4C7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92352,
+      "createdOn": "2026-02-20T22:33:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1391c508c5d5ecb11e6",
+          "products": [
+            {
+              "_id": "6998e13b1c508c5d5ecb1324",
+              "name": "Gloves7850",
+              "amount": 284,
+              "price": 92352,
+              "manufacturer": "Tesla",
+              "notes": "GDPcA214ViTvAld1Y7ib0cqQC5ZqxNUc1k6T0Ewq5548CD5r1s2yYozHJef6tilfvYRAOjyNE75w1sd8oABT6C5goFriE1Hjw8EUQF2xYGT5ac9uC82q5Vp0vJBJOxdZ5fYJrFuvF1gLhb0PBEZKA9385UlLhtfu6ZAXskOMIY0ThE17QaXpdQF1tqAunQZYYmV9MVyKiMur6Y6Xom7DVshtBFRulxK4yBh3GRmDmwcXTLhnHA24vLz4C7",
+              "received": false
+            }
+          ],
+          "total_price": 92352,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e13d1c508c5d5ecb1443"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

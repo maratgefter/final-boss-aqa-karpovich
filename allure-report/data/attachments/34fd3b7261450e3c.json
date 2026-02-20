@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:35:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3424",
+    "etag": "W/\"d60-cqhm9d+L7pgH0Is9J4OZrGmCWSg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e19b1c508c5d5ecb5608",
+        "email": "Olaf.Rolfson@gmail.com",
+        "name": "Myriam Weber",
+        "country": "Ukraine",
+        "city": "Anderson",
+        "street": "Brakus Field",
+        "house": 35,
+        "flat": 835,
+        "phone": "+17529080972",
+        "createdOn": "2026-02-20T22:35:07.000Z",
+        "notes": "Oi4JENImorzQvbiWXz6ftvBP2TgnorAWaOORZSZ2PnWAaJM7XpmuPVSnKztMsKK3rdp8TGYCGQS0c8bN0uqJuY7VvClXY1vYb4BUpjxizGOpzRbgGU9onWFjpSPg0y5mIcLl3JhtYGscqMupeYC56GTzJQ3p1MYx7zqBqUPU725Gx8ENhzIwhGKAdNd4LEYwLKeWgf7tXUA1zCunTnzpAfnEAuRu6cMYYrj7cj29sklDfKhHkGyNcMJvpG"
+      },
+      "products": [
+        {
+          "_id": "6998e19e1c508c5d5ecb5851",
+          "name": "Chair94773",
+          "amount": 31,
+          "price": 27713,
+          "manufacturer": "Samsung",
+          "notes": "HqBofyAIIB5UyObBy9liNLI38hqufEzUYwKKW3AR9MEZAJyyFnnkVxEUvfr7yaJp5SmGBqrl6UexNvTGwAKjxIZmn5dIrI3VbQ5yar7uoNbELuba1StZP9xoSBbAcfWFLIq5M8vdgLRnOfHXmtLXZX7aqoxfOjLeynaso2qOS8bAr3TeYXAjF0tD10EkQ8fvPhIEMHy9nYLVPbHeassfUgpAYRKcsi4jDVecRJFYg9DTCHCTr7L1fVLYTL",
+          "received": false
+        },
+        {
+          "_id": "6998e19e1c508c5d5ecb5878",
+          "name": "Chair35433",
+          "amount": 241,
+          "price": 20389,
+          "manufacturer": "Samsung",
+          "notes": "CF0TriKZQcW8rc9UMZTn3LaMfUVgtA1rlgxqFLUAo4dj2bBaaTTDg4f3MM553dOePiGS2ZUQjuio2QZLarlbAk4pjFypcYL1M5sNCXmx56FLqDNT78GgmTJipJAJuMd1eXn92OBHtawvro21r3SHZvDXrqcFWj6U60k1BqYVYVwMnlqek7JA6zJkx0Nl0dg4gkqxuKV29ipmEYE28d3AC1ffniNM0BJEhoRxViES8lCIrtTj0kWdp26OcT",
+          "received": false
+        },
+        {
+          "_id": "6998e19f1c508c5d5ecb5899",
+          "name": "Pizza70469",
+          "amount": 547,
+          "price": 52949,
+          "manufacturer": "Microsoft",
+          "notes": "AKuKCSMvPCmb3nz3wsGwLaAjNlFKF4g3uTB76lnXZO1o60YVrvNjMueuGkMQNtUrtEaA9SCtkZ9mze8P6pPEFlSSfmv1vAtVlQFJ1gaTclzD6ozE732WLIc4pu3Z6e3lFsZuQ3n9KYvRSHfEb4FppuKMJg7YK72LRYClhuXSSmWQfjPPD61OYAndnISKTvaLjGnG0pYXeofht6Ddfrw6uYVN28IwL8fxjcQHBoEnfBQIarY3f0Zvp0sKtz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101051,
+      "createdOn": "2026-02-20T22:35:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e19b1c508c5d5ecb5608",
+          "products": [
+            {
+              "_id": "6998e19e1c508c5d5ecb5851",
+              "name": "Chair94773",
+              "amount": 31,
+              "price": 27713,
+              "manufacturer": "Samsung",
+              "notes": "HqBofyAIIB5UyObBy9liNLI38hqufEzUYwKKW3AR9MEZAJyyFnnkVxEUvfr7yaJp5SmGBqrl6UexNvTGwAKjxIZmn5dIrI3VbQ5yar7uoNbELuba1StZP9xoSBbAcfWFLIq5M8vdgLRnOfHXmtLXZX7aqoxfOjLeynaso2qOS8bAr3TeYXAjF0tD10EkQ8fvPhIEMHy9nYLVPbHeassfUgpAYRKcsi4jDVecRJFYg9DTCHCTr7L1fVLYTL",
+              "received": false
+            },
+            {
+              "_id": "6998e19e1c508c5d5ecb5878",
+              "name": "Chair35433",
+              "amount": 241,
+              "price": 20389,
+              "manufacturer": "Samsung",
+              "notes": "CF0TriKZQcW8rc9UMZTn3LaMfUVgtA1rlgxqFLUAo4dj2bBaaTTDg4f3MM553dOePiGS2ZUQjuio2QZLarlbAk4pjFypcYL1M5sNCXmx56FLqDNT78GgmTJipJAJuMd1eXn92OBHtawvro21r3SHZvDXrqcFWj6U60k1BqYVYVwMnlqek7JA6zJkx0Nl0dg4gkqxuKV29ipmEYE28d3AC1ffniNM0BJEhoRxViES8lCIrtTj0kWdp26OcT",
+              "received": false
+            },
+            {
+              "_id": "6998e19f1c508c5d5ecb5899",
+              "name": "Pizza70469",
+              "amount": 547,
+              "price": 52949,
+              "manufacturer": "Microsoft",
+              "notes": "AKuKCSMvPCmb3nz3wsGwLaAjNlFKF4g3uTB76lnXZO1o60YVrvNjMueuGkMQNtUrtEaA9SCtkZ9mze8P6pPEFlSSfmv1vAtVlQFJ1gaTclzD6ozE732WLIc4pu3Z6e3lFsZuQ3n9KYvRSHfEb4FppuKMJg7YK72LRYClhuXSSmWQfjPPD61OYAndnISKTvaLjGnG0pYXeofht6Ddfrw6uYVN28IwL8fxjcQHBoEnfBQIarY3f0Zvp0sKtz",
+              "received": false
+            }
+          ],
+          "total_price": 101051,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:35:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e19f1c508c5d5ecb58c9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

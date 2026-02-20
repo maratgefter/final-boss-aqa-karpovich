@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-MLbgrRtTMG++ywiEKXwC8djC4Q4\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1391c508c5d5ecb11cf",
+        "email": "Pierre.Roob56@yahoo.com",
+        "name": "Mitchell Crona",
+        "country": "France",
+        "city": "South Anabelle",
+        "street": "Kurt Shores",
+        "house": 25,
+        "flat": 386,
+        "phone": "+19166076850",
+        "createdOn": "2026-02-20T22:33:29.000Z",
+        "notes": "lvtmvx1fK8o7G5xXPWfNQPAwuLJxmP1E9PDumjmJmrLkWyuQkXVEepBTLzmzq8hU1oX90rqJUu3NiIgHugW0JPYj8kRMBYA1SOJ2aoFEpYqM49zBvR3bNu5lOS5ytStifnzBb0UL7lTDJF2766VrSWE3msjgLm5XcP8h9X7xY6lhkj7OXrvJhbA9LgAdF6ytUHXbEHnzWt30N9nDzd1jbs7yUDN12aQf2QVPsPhnWBSpnJ7RcQ4NmZqkK4"
+      },
+      "products": [
+        {
+          "_id": "6998e1391c508c5d5ecb11f7",
+          "name": "Shoes70629",
+          "amount": 903,
+          "price": 55110,
+          "manufacturer": "Apple",
+          "notes": "VdYxe5Mjp7Zogca6szNrXZY4oxh7OJGSW1KGXCX0Lz8yhQ1DdzVQ3IMaWvT06e72m1TU0OXIQA2vT7fl8KGGP8Vbt2tN6IDlVyN9UpsR4bva5pEbFPhVDRAFqlxPR1KoMXYPUqazAFIUcDrdAqaR6WV03lRc85UFBHgyAwmP4NohSzFLYsxcINHzzvew69X6zn9FNU7usyTAAzuDj4ONACnE7c09Gt5X8gaAshG3pabpxXWsVqi25RLlg2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55110,
+      "createdOn": "2026-02-20T22:33:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1391c508c5d5ecb11cf",
+          "products": [
+            {
+              "_id": "6998e1391c508c5d5ecb11f7",
+              "name": "Shoes70629",
+              "amount": 903,
+              "price": 55110,
+              "manufacturer": "Apple",
+              "notes": "VdYxe5Mjp7Zogca6szNrXZY4oxh7OJGSW1KGXCX0Lz8yhQ1DdzVQ3IMaWvT06e72m1TU0OXIQA2vT7fl8KGGP8Vbt2tN6IDlVyN9UpsR4bva5pEbFPhVDRAFqlxPR1KoMXYPUqazAFIUcDrdAqaR6WV03lRc85UFBHgyAwmP4NohSzFLYsxcINHzzvew69X6zn9FNU7usyTAAzuDj4ONACnE7c09Gt5X8gaAshG3pabpxXWsVqi25RLlg2",
+              "received": false
+            }
+          ],
+          "total_price": 55110,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e13b1c508c5d5ecb142c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

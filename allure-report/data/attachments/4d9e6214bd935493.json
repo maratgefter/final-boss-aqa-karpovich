@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-HiK6YnXo3q33KjLCWB74ivDo3JU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1371c508c5d5ecb10a4",
+        "email": "Freeda.Hettinger73@yahoo.com",
+        "name": "Cyril Littel",
+        "country": "Belarus",
+        "city": "Fort Gisselle",
+        "street": "Larson Burgs",
+        "house": 27,
+        "flat": 720,
+        "phone": "+18243952965",
+        "createdOn": "2026-02-20T22:33:27.000Z",
+        "notes": "xjiWQpsPg6v3uxLuh8Rh8c0MICWOXPoxP3dxMqnMMXYU1WjkBFmxsYKt6jVVwGVsfOIDuHC1hO5vWU7oNhF2LShXYGIAzzc6wuhxS46obGqWyMQtBbaHE6JncTyAq7Q33QKv4ig1VQkcIzKcsprYBrfkz0PKvWJrbnJbY1Vul8HFNzd7o0fayxykNtRp5Lz7YLkT4eBNQiZsveK26WlJP5JB7kOJCn1HaQAvxSWTk0ceJuidv7lUdudNHA"
+      },
+      "products": [
+        {
+          "_id": "6998e1391c508c5d5ecb11d3",
+          "name": "Gloves68960",
+          "amount": 93,
+          "price": 22632,
+          "manufacturer": "Sony",
+          "notes": "I37cZf8wWCA3cMJAzKFox8gkSoGfYrukANYg9GRoBXwmnrM8xpwXuWf7dCEQBa1R6PwDtn9YDVMURGIAcXUdsxgq5ATtg0l0303yfGbEaD2WgvzUY64ctCzqdvxRGO37G52nRthmTBfdf0oxQdEH5ZTNZN1YGkwvqEe7eJ2JHNzt9ElSLx6J1xhfNkTmUtB5lr3J18hIsKnpmU31h6CDVcd8WjqpuaPc5bYBGnEFrl5q5uL8r3bFg6wYQP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22632,
+      "createdOn": "2026-02-20T22:33:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1371c508c5d5ecb10a4",
+          "products": [
+            {
+              "_id": "6998e1391c508c5d5ecb11d3",
+              "name": "Gloves68960",
+              "amount": 93,
+              "price": 22632,
+              "manufacturer": "Sony",
+              "notes": "I37cZf8wWCA3cMJAzKFox8gkSoGfYrukANYg9GRoBXwmnrM8xpwXuWf7dCEQBa1R6PwDtn9YDVMURGIAcXUdsxgq5ATtg0l0303yfGbEaD2WgvzUY64ctCzqdvxRGO37G52nRthmTBfdf0oxQdEH5ZTNZN1YGkwvqEe7eJ2JHNzt9ElSLx6J1xhfNkTmUtB5lr3J18hIsKnpmU31h6CDVcd8WjqpuaPc5bYBGnEFrl5q5uL8r3bFg6wYQP",
+              "received": false
+            }
+          ],
+          "total_price": 22632,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e1391c508c5d5ecb11ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

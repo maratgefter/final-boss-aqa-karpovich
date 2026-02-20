@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3900",
+    "etag": "W/\"f3c-2hFNDlsP3OzVHR+2iCBI8fvd6yM\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6998e1541c508c5d5ecb23b5",
+      "status": "In Process",
+      "customer": {
+        "_id": "6998e1531c508c5d5ecb2362",
+        "email": "River.Kunde@hotmail.com",
+        "name": "Dagmar Fritsch",
+        "country": "Russia",
+        "city": "East Brentbury",
+        "street": "Chelsie Greens",
+        "house": 37,
+        "flat": 636,
+        "phone": "+17769459656",
+        "createdOn": "2026-02-20T22:33:55.000Z",
+        "notes": "H392qhAXK7YP5MzRpf4yUqniAteoAvoe81Q6ATWK9pqsTKRBdr5LVSqtSjpcZLac3gO0l2T6Zcsv18s8YimiOVLdamrxircgTPKui5U5uL99x5Az5TFCClYWESDczOZF6zIBLLm9ejlWU5qZdSfm3yAUOfyxTWmuqlbpB9u2wtS6WtM0aO0ZtuMkH6KSFFXbgIPznGMAC4O50GMWi0llhmkadkntaw7KcdH01Ly1lppadqmQ6ap2U1HH1N"
+      },
+      "products": [
+        {
+          "_id": "6998e1531c508c5d5ecb2383",
+          "name": "Pizza35165",
+          "amount": 453,
+          "price": 6615,
+          "manufacturer": "Microsoft",
+          "notes": "OO1gFnNaQymJqsiSAcWCTwKbflUcjRlWVQox0YFZbInzdqGZHLakKYCWEsofkzHoQcDfHq7l2FvuoFem9rbFuDwQDDemOWtNJgQyelwAROICSjiVftSiL64jrCiY3uFBialL4zEgecRzG1PhZFyIyuoAHMCVZ40dJynPQQIGA3ZfSZyA77oZRQMTClTg519G8LEeBT53kaHHk3EYxh3cQCx1hk3xGLUIqQyTCKknqQABcW0WUn6Lv9cRNE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Brentbury",
+          "street": "Chelsie Greens",
+          "house": 37,
+          "flat": 636
+        },
+        "finalDate": "2026-02-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 6615,
+      "createdOn": "2026-02-20T22:33:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6998e1531c508c5d5ecb2362",
+          "products": [
+            {
+              "_id": "6998e1531c508c5d5ecb2383",
+              "name": "Pizza35165",
+              "amount": 453,
+              "price": 6615,
+              "manufacturer": "Microsoft",
+              "notes": "OO1gFnNaQymJqsiSAcWCTwKbflUcjRlWVQox0YFZbInzdqGZHLakKYCWEsofkzHoQcDfHq7l2FvuoFem9rbFuDwQDDemOWtNJgQyelwAROICSjiVftSiL64jrCiY3uFBialL4zEgecRzG1PhZFyIyuoAHMCVZ40dJynPQQIGA3ZfSZyA77oZRQMTClTg519G8LEeBT53kaHHk3EYxh3cQCx1hk3xGLUIqQyTCKknqQABcW0WUn6Lv9cRNE",
+              "received": false
+            }
+          ],
+          "total_price": 6615,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Brentbury",
+              "street": "Chelsie Greens",
+              "house": 37,
+              "flat": 636
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-20T22:33:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6998e1531c508c5d5ecb2362",
+          "products": [
+            {
+              "_id": "6998e1531c508c5d5ecb2383",
+              "name": "Pizza35165",
+              "amount": 453,
+              "price": 6615,
+              "manufacturer": "Microsoft",
+              "notes": "OO1gFnNaQymJqsiSAcWCTwKbflUcjRlWVQox0YFZbInzdqGZHLakKYCWEsofkzHoQcDfHq7l2FvuoFem9rbFuDwQDDemOWtNJgQyelwAROICSjiVftSiL64jrCiY3uFBialL4zEgecRzG1PhZFyIyuoAHMCVZ40dJynPQQIGA3ZfSZyA77oZRQMTClTg519G8LEeBT53kaHHk3EYxh3cQCx1hk3xGLUIqQyTCKknqQABcW0WUn6Lv9cRNE",
+              "received": false
+            }
+          ],
+          "total_price": 6615,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Brentbury",
+              "street": "Chelsie Greens",
+              "house": 37,
+              "flat": 636
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-20T22:33:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6998e1531c508c5d5ecb2362",
+          "products": [
+            {
+              "_id": "6998e1531c508c5d5ecb2383",
+              "name": "Pizza35165",
+              "amount": 453,
+              "price": 6615,
+              "manufacturer": "Microsoft",
+              "notes": "OO1gFnNaQymJqsiSAcWCTwKbflUcjRlWVQox0YFZbInzdqGZHLakKYCWEsofkzHoQcDfHq7l2FvuoFem9rbFuDwQDDemOWtNJgQyelwAROICSjiVftSiL64jrCiY3uFBialL4zEgecRzG1PhZFyIyuoAHMCVZ40dJynPQQIGA3ZfSZyA77oZRQMTClTg519G8LEeBT53kaHHk3EYxh3cQCx1hk3xGLUIqQyTCKknqQABcW0WUn6Lv9cRNE",
+              "received": false
+            }
+          ],
+          "total_price": 6615,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

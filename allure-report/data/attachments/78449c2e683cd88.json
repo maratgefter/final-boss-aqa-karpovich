@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2923",
+    "etag": "W/\"b6b-9JMRRIu7Ik8yLofXlYyiCLH1Yvs\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6998e11e1c508c5d5ecb0293",
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e11d1c508c5d5ecb020a",
+        "email": "Jerome11@yahoo.com",
+        "name": "Jordyn Howell",
+        "country": "USA",
+        "city": "Marisolshire",
+        "street": "Vincenzo Neck",
+        "house": 14,
+        "flat": 825,
+        "phone": "+17507023030",
+        "createdOn": "2026-02-20T22:33:01.000Z",
+        "notes": "VFrjHAxj59iE4So2cQ3Z66pp6qoKmAOm0zuGD1oTxpEd8vW80xf5xzA2NGapY6YL69TsKEHZ2sIGXxuY0pemC9c3Cev0yaLsAXwKMUQdNuaOt2FP6CShB9lVQQH6kZYdLxCyTPkJbzObyv5O6Ssfe6rXqhqtPjQm0Lj9N8s5nEu6YqxgQLxKbJBDvbvtrNYQ6EqRxGecUFeumEOEsL1oWoKFFHGzgWx0jtgh9BEgpBsDDBYiGfuqLnZpm3"
+      },
+      "products": [
+        {
+          "_id": "6998e11d1c508c5d5ecb0228",
+          "name": "Car94695",
+          "amount": 395,
+          "price": 63814,
+          "manufacturer": "Sony",
+          "notes": "5MNSFEcxTUxn2fVKtlq3LGXLrV9AgHIdJtFwNogRXpp9mRK2pXk4zcDEkV82qeAAeI4xCCrvdRX1HgHve3Kz87vmXuAHYaYPCwjscRItUv0xh5PwEvhuyfjgI4Pa3yqwzw6YzaQz9mjVJeyqpYRB2awfGJJ5iUzQdCIF6K8JRNoEEXigN2iN2Et9eLnLpWTtb0G9zEm30K3oc2DvxREgCq5dnkqeLpNisNtTA3Lpt1OQlNXy0GW6FEETe6",
+          "received": false
+        },
+        {
+          "_id": "6998e11d1c508c5d5ecb025e",
+          "name": "Fish23707",
+          "amount": 2,
+          "price": 89723,
+          "manufacturer": "Microsoft",
+          "notes": "1y9v19SOxKcnw2lMJlpXgeOFbOA0gJwd0yj5zaP4jJIZGptmiB6vQ8Y8iq4zYdqavCoHYE31jD8hUtXpA5p8lZzFWNC9P0KsvzBZxU5BM1BDAKjwr1f8eKr8MSxtoAbVSD40NDscm6WuYKocjVKokqoJzbtFYEGO6QQjb6KVL64Sn2tuZVTwLAH5RTAho69ayDDCJvdddlZyN4nJpFkwwz6ffQLTF9PUfMKOyOzEokz4bRm9JDXVtSoNnF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 153537,
+      "createdOn": "2026-02-20T22:33:02.000Z",
+      "comments": [
+        {
+          "text": "3lxps1XEdsqvMBrIgymBtw7HntSELNH1AssQ2z1wY4YIsHDQJCUMJpNj5ZbTCRuf3DD4T3TkxYZ6KtViRqi8hfbN0n99jUwn5us4iyyLDicbcVNadvnsSz7YeLZGReggEZudFHtkdGyUPe2QRAXIjhWL0TGkSDupMmnNYdHlYuC90Ps1wIeCRSUqNRyXOKXzpxhyd2E3 <",
+          "createdOn": "2026-02-20T22:33:02.000Z",
+          "_id": "6998e11e1c508c5d5ecb02ce"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e11d1c508c5d5ecb020a",
+          "products": [
+            {
+              "_id": "6998e11d1c508c5d5ecb0228",
+              "name": "Car94695",
+              "amount": 395,
+              "price": 63814,
+              "manufacturer": "Sony",
+              "notes": "5MNSFEcxTUxn2fVKtlq3LGXLrV9AgHIdJtFwNogRXpp9mRK2pXk4zcDEkV82qeAAeI4xCCrvdRX1HgHve3Kz87vmXuAHYaYPCwjscRItUv0xh5PwEvhuyfjgI4Pa3yqwzw6YzaQz9mjVJeyqpYRB2awfGJJ5iUzQdCIF6K8JRNoEEXigN2iN2Et9eLnLpWTtb0G9zEm30K3oc2DvxREgCq5dnkqeLpNisNtTA3Lpt1OQlNXy0GW6FEETe6",
+              "received": false
+            },
+            {
+              "_id": "6998e11d1c508c5d5ecb025e",
+              "name": "Fish23707",
+              "amount": 2,
+              "price": 89723,
+              "manufacturer": "Microsoft",
+              "notes": "1y9v19SOxKcnw2lMJlpXgeOFbOA0gJwd0yj5zaP4jJIZGptmiB6vQ8Y8iq4zYdqavCoHYE31jD8hUtXpA5p8lZzFWNC9P0KsvzBZxU5BM1BDAKjwr1f8eKr8MSxtoAbVSD40NDscm6WuYKocjVKokqoJzbtFYEGO6QQjb6KVL64Sn2tuZVTwLAH5RTAho69ayDDCJvdddlZyN4nJpFkwwz6ffQLTF9PUfMKOyOzEokz4bRm9JDXVtSoNnF",
+              "received": false
+            }
+          ],
+          "total_price": 153537,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

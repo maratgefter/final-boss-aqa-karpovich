@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-pjdo3Leb/icgxF7NYNZ0kAx5AW8\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1341c508c5d5ecb0f2f",
+        "email": "Vena.Ernser@gmail.com",
+        "name": "Wallace Hansen",
+        "country": "Belarus",
+        "city": "West Justinestad",
+        "street": "W 1st Street",
+        "house": 11,
+        "flat": 233,
+        "phone": "+15668244735",
+        "createdOn": "2026-02-20T22:33:24.000Z",
+        "notes": "Wyj16hRKgAeVMRnHWkaKTsO97SwdqEChINCxHL0rfbCBXjV3CEl4CMvzC2fK8gjNPqpprpe1gL6UnXNzjtHf6vdnjwnYdvdR81nPNccWChExNjU5WCp8WtF68TDNpAWAGESEAkibyvzpozRWoVdRDAEgMz2wLIEQ4ToUCttIyCeFetnoaNjqUijn83sR1pFlAUBXVy528UAZ64G9G3KR6GxkqBzuaOQ0wM2KHW1jsUrf5PQyl3bApirwTd"
+      },
+      "products": [
+        {
+          "_id": "6998e1351c508c5d5ecb0f5e",
+          "name": "Fish77850",
+          "amount": 723,
+          "price": 55380,
+          "manufacturer": "Tesla",
+          "notes": "NyGKjLKfGdULjxD2V8FW4uasZHwrmZOYHBfogeTLlYE96L3zy7UtkKc6sDlIIQlKjUBF71Jk0LVvaFmG7e4UcK744slfToFCLrcScBTXsxfSjJYD8AxRXOTp3Vq9iRdaGeiaMxxS0RukqgsC5EfYuMu0lf4Q1ol6ycGrBOJQxShDfxfDwAI1j6vjCYxX0bWZGpzz7RhPJ7h5nevUc0SS9YpydEUDwrayL1rX2WR41Hxq9JNS75H3drZ3j5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55380,
+      "createdOn": "2026-02-20T22:33:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1341c508c5d5ecb0f2f",
+          "products": [
+            {
+              "_id": "6998e1351c508c5d5ecb0f5e",
+              "name": "Fish77850",
+              "amount": 723,
+              "price": 55380,
+              "manufacturer": "Tesla",
+              "notes": "NyGKjLKfGdULjxD2V8FW4uasZHwrmZOYHBfogeTLlYE96L3zy7UtkKc6sDlIIQlKjUBF71Jk0LVvaFmG7e4UcK744slfToFCLrcScBTXsxfSjJYD8AxRXOTp3Vq9iRdaGeiaMxxS0RukqgsC5EfYuMu0lf4Q1ol6ycGrBOJQxShDfxfDwAI1j6vjCYxX0bWZGpzz7RhPJ7h5nevUc0SS9YpydEUDwrayL1rX2WR41Hxq9JNS75H3drZ3j5",
+              "received": false
+            }
+          ],
+          "total_price": 55380,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e1371c508c5d5ecb108b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

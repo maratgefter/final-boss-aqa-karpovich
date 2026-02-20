@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-LU/lgkOHjDPrcPFkR9TnItE3bPI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6998e12f1c508c5d5ecb0be6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e12c1c508c5d5ecb0a84",
+        "email": "Theresa12@gmail.com",
+        "name": "Keven Schulist",
+        "country": "France",
+        "city": "Boynton Beach",
+        "street": "Lemuel Crossing",
+        "house": 9,
+        "flat": 467,
+        "phone": "+18285754600",
+        "createdOn": "2026-02-20T22:33:16.000Z",
+        "notes": "XYAB2sMJHLRmGVuHYndlti1Sfd6NTunQeBx6nlsEDInNZCrq3kCxGhVHQA8a85zh26sVR4V1GXQ9JA5pGCBZrWWdsHoMfvFyWY2UJBlBHiOXgS24CurJwYH2hezkZxRYIlBV4i4eJ8kSgCGICsrQHjNJb5D7GaKWevGq64suUrosWvrYDfQ8sBnLFL0bVbmBujO9JyoztJFsGSutnmJrX1VP0WgLK9PwmLlOmWSGaPG93imXutvKspTXAy"
+      },
+      "products": [
+        {
+          "_id": "6998e12e1c508c5d5ecb0b9c",
+          "name": "Cheese38317",
+          "amount": 366,
+          "price": 92763,
+          "manufacturer": "Google",
+          "notes": "Jh55BPSWkDhqxPbK1ePXB1z1A2Rr29SmteyG3tHBBWqvA88o2jYGUDaGWUWYxOi947cvYcFOFV0r2PngrJKWN1R5Y0gs2rFnDPOu8BdT5DRml1AshYpe49qoDw1oEu4thVkX7LlBCyj2a4v4PT8gdUFLDzQ2xF9iGNNvVenOJ0iDylZKKerjUSh1lHOgtOdvKwiJD6Mla77gIBmmL0U8az1cTLtWTxgReKsvusvr9wJFUaKM03qEXhYQMs",
+          "received": false
+        },
+        {
+          "_id": "6998e12e1c508c5d5ecb0bb8",
+          "name": "Cheese27861",
+          "amount": 73,
+          "price": 19666,
+          "manufacturer": "Amazon",
+          "notes": "J5qqRjH5VbQgs5xzzKubCiokNVtkDTskjZIzepp0EUBckkgF83REFGtSYlGLz0mk4GUnbUGcxP0fRAL6fIoyCTTnyUQUEgvuXLiix4FejULZHL1PvAxVnmmMSRlCxNoilz3W6t0WwDoRw15cGNhMCzZMT5TDOoaT98qW0HZqvUmFJ2R9dwJMixdlgAL1dJNIHzHClxIKd5tgYKI1c4Bn7bb3CZu62eBz9peO4LOTz5LwMgahGXMCUZElW7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112429,
+      "createdOn": "2026-02-20T22:33:19.000Z",
+      "comments": [
+        {
+          "text": "ZnKqIIuJmHKA6wBOJ5GaCe4nvOXrXkiGabtcFAIWr4fvBl8EHB7qulZWmTD1qesbvcK99Oho9WS",
+          "createdOn": "2026-02-20T22:33:21.000Z",
+          "_id": "6998e1331c508c5d5ecb0e21"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e12c1c508c5d5ecb0a84",
+          "products": [
+            {
+              "_id": "6998e12e1c508c5d5ecb0b9c",
+              "name": "Cheese38317",
+              "amount": 366,
+              "price": 92763,
+              "manufacturer": "Google",
+              "notes": "Jh55BPSWkDhqxPbK1ePXB1z1A2Rr29SmteyG3tHBBWqvA88o2jYGUDaGWUWYxOi947cvYcFOFV0r2PngrJKWN1R5Y0gs2rFnDPOu8BdT5DRml1AshYpe49qoDw1oEu4thVkX7LlBCyj2a4v4PT8gdUFLDzQ2xF9iGNNvVenOJ0iDylZKKerjUSh1lHOgtOdvKwiJD6Mla77gIBmmL0U8az1cTLtWTxgReKsvusvr9wJFUaKM03qEXhYQMs",
+              "received": false
+            },
+            {
+              "_id": "6998e12e1c508c5d5ecb0bb8",
+              "name": "Cheese27861",
+              "amount": 73,
+              "price": 19666,
+              "manufacturer": "Amazon",
+              "notes": "J5qqRjH5VbQgs5xzzKubCiokNVtkDTskjZIzepp0EUBckkgF83REFGtSYlGLz0mk4GUnbUGcxP0fRAL6fIoyCTTnyUQUEgvuXLiix4FejULZHL1PvAxVnmmMSRlCxNoilz3W6t0WwDoRw15cGNhMCzZMT5TDOoaT98qW0HZqvUmFJ2R9dwJMixdlgAL1dJNIHzHClxIKd5tgYKI1c4Bn7bb3CZu62eBz9peO4LOTz5LwMgahGXMCUZElW7",
+              "received": false
+            }
+          ],
+          "total_price": 112429,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

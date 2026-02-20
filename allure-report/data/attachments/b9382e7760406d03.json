@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:34:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-nrzIu0P+jonUUsc/8l2z91++iws\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1851c508c5d5ecb4570",
+        "email": "Paolo_Walsh@gmail.com",
+        "name": "Gladys Bode",
+        "country": "France",
+        "city": "Lansing",
+        "street": "Crawford Common",
+        "house": 15,
+        "flat": 281,
+        "phone": "+16914960334",
+        "createdOn": "2026-02-20T22:34:45.000Z",
+        "notes": "BlPVhRMOkNs1LJonwqKlZ3p50q2FkFhZeOkAuF9c2wMausTQlF5Z33fYF2AS8QEmYJ3fLe0FEMhs38v5qr1uo6O4LBY4UHgmefcAysQJ9LdrkLu93KfNk2bOBH6WgOPnTehqDqNrNMzIYIg8NkCE5SnoGVVV3YXVHFnA6uprSgoanMuZZ0M5F8Rr86ckA2fYGylJLjoeHN4oSBbZwnm0CNiP1ShSrLsC5wcmVquF0GwplGupgTmwqCx9aR"
+      },
+      "products": [
+        {
+          "_id": "6998e1871c508c5d5ecb46d8",
+          "name": "Cheese52485",
+          "amount": 541,
+          "price": 35013,
+          "manufacturer": "Google",
+          "notes": "4hL08Jo3WBothtgcbdbHkjSmc0IkPO5Nn9aYgkzcVjdUCHtK1ccoPDXSuJW6usO9e9p9jLWnEewZhaizVRWJvvc2J0wLEg8x3hbwz8amKNOzwcX8oAUzOQ7Fyqv99JPPmBSF06h34rtuseQbVyAcsL05ddXLDk4WYiBKJTVnftTJZOxOfNkWuWXVYftlTtWtufveaunfu6u3ve3z1ZisvgU9IkMMzsBLZqacGC6JRa66ye0qHU1dayYtSi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35013,
+      "createdOn": "2026-02-20T22:34:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1851c508c5d5ecb4570",
+          "products": [
+            {
+              "_id": "6998e1871c508c5d5ecb46d8",
+              "name": "Cheese52485",
+              "amount": 541,
+              "price": 35013,
+              "manufacturer": "Google",
+              "notes": "4hL08Jo3WBothtgcbdbHkjSmc0IkPO5Nn9aYgkzcVjdUCHtK1ccoPDXSuJW6usO9e9p9jLWnEewZhaizVRWJvvc2J0wLEg8x3hbwz8amKNOzwcX8oAUzOQ7Fyqv99JPPmBSF06h34rtuseQbVyAcsL05ddXLDk4WYiBKJTVnftTJZOxOfNkWuWXVYftlTtWtufveaunfu6u3ve3z1ZisvgU9IkMMzsBLZqacGC6JRa66ye0qHU1dayYtSi",
+              "received": false
+            }
+          ],
+          "total_price": 35013,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:34:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6998e1931c508c5d5ecb5052"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

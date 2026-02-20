@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 20 Feb 2026 22:33:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-RK6yK/JKBxaxLnXfbA//8Vz8uBU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6998e1291c508c5d5ecb08ee",
+      "status": "Draft",
+      "customer": {
+        "_id": "6998e1231c508c5d5ecb0575",
+        "email": "Lorna.Ullrich93@gmail.com",
+        "name": "Stan Gleichner",
+        "country": "Canada",
+        "city": "Meridian",
+        "street": "Cornelius Hill",
+        "house": 10,
+        "flat": 583,
+        "phone": "+16024866291",
+        "createdOn": "2026-02-20T22:33:07.000Z",
+        "notes": "YSlrJOKUYl7r91KY3xLfrMqgCGI28CHbm0ecfhw5SRoCeKMOhZXHLzrGv4wC6FssceFctcbfjTQ5MZk9EjJ6d9ZH6USF7SqoXoRNNtxDGflZevthehxH2uzkrmIz9Bo4w3LWRZLmoRWZgpPusCNU3TFSM11jRaJvlHuuo1afaB7zT5hqPhKcLfsilE0JG3097xmAdfjEQcT87KDSyB2BmLTv1hK3O8DnC3nCan14Jl0ucahx4fUjzfOWHw"
+      },
+      "products": [
+        {
+          "_id": "6998e1241c508c5d5ecb05af",
+          "name": "Chair11802",
+          "amount": 404,
+          "price": 69764,
+          "manufacturer": "Samsung",
+          "notes": "jXWD6ALCLJC329Oktxr3ducCoUG9wZnW6oRctLh8uXgQxFijhP11g4BmvEW2VX2xyiJRVWZEcOb1yC7E6VO0xOHkwzccpuYzJU3zvh0AwsVecD7DxSUx9L2SDBXTb6dSPjNUh3JJWCqrPODTeRHSsY5xdJiqZQwPFlEtyVG53mJjK7t4uvp5EPcnw0K1Q3nuEwcijhLfRVgNDXJlV50AT5YV93mLOUhzmbd7xKOM3yL51uwlzT8wSvIU13",
+          "received": false
+        },
+        {
+          "_id": "6998e1261c508c5d5ecb06d0",
+          "name": "Pants6048",
+          "amount": 825,
+          "price": 38891,
+          "manufacturer": "Xiaomi",
+          "notes": "TM2p0VMKvwEEhMgfpnOw2LcFkp4Zus8a62iXSTLYZglxRXAvmxw5hGob5PR175YCh1InPEPjW49v1NI6IBTOHSoyp6NpQqjvnYTOVLickfRemZAy15lSW2lOYPZx91zLL27YVlJlXYDPkjCZZMiL0cQrFBJj5M6RQUFZEQKTbgMzWmndcgtT8G6X5iOw8SdQnaCkaMRqnRCI6va78gDyNpSkdPAxBIEg1bnBUncxhT79n3QllRzVWQ3OLs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108655,
+      "createdOn": "2026-02-20T22:33:13.000Z",
+      "comments": [
+        {
+          "text": "lyjvgNQymcgUSUfHvy3ddOAwforJHr0D3XmFiOCKvLm9RuvRZv7Jrzkl6K2cTz1F9YZ3I3ro3N37rCDcZXcfDu7bLSpUpMtzdRIlKRtTBghVDvPTgsPPBwBD2bSX0glIWwSsI7BtLIJhl9nXhvpjB8Ggk0lAzeDHfVFSlpmNj7NvB99e1YSOBgANFc1VkcZUf8ecuRqI <",
+          "createdOn": "2026-02-20T22:33:14.000Z",
+          "_id": "6998e12a1c508c5d5ecb091c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6998e1231c508c5d5ecb0575",
+          "products": [
+            {
+              "_id": "6998e1241c508c5d5ecb05af",
+              "name": "Chair11802",
+              "amount": 404,
+              "price": 69764,
+              "manufacturer": "Samsung",
+              "notes": "jXWD6ALCLJC329Oktxr3ducCoUG9wZnW6oRctLh8uXgQxFijhP11g4BmvEW2VX2xyiJRVWZEcOb1yC7E6VO0xOHkwzccpuYzJU3zvh0AwsVecD7DxSUx9L2SDBXTb6dSPjNUh3JJWCqrPODTeRHSsY5xdJiqZQwPFlEtyVG53mJjK7t4uvp5EPcnw0K1Q3nuEwcijhLfRVgNDXJlV50AT5YV93mLOUhzmbd7xKOM3yL51uwlzT8wSvIU13",
+              "received": false
+            },
+            {
+              "_id": "6998e1261c508c5d5ecb06d0",
+              "name": "Pants6048",
+              "amount": 825,
+              "price": 38891,
+              "manufacturer": "Xiaomi",
+              "notes": "TM2p0VMKvwEEhMgfpnOw2LcFkp4Zus8a62iXSTLYZglxRXAvmxw5hGob5PR175YCh1InPEPjW49v1NI6IBTOHSoyp6NpQqjvnYTOVLickfRemZAy15lSW2lOYPZx91zLL27YVlJlXYDPkjCZZMiL0cQrFBJj5M6RQUFZEQKTbgMzWmndcgtT8G6X5iOw8SdQnaCkaMRqnRCI6va78gDyNpSkdPAxBIEg1bnBUncxhT79n3QllRzVWQ3OLs",
+              "received": false
+            }
+          ],
+          "total_price": 108655,
+          "delivery": null,
+          "changedOn": "2026-02-20T22:33:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
