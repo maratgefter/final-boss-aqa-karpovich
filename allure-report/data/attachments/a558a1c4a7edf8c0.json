@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:30:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-uiXO0xRM/ExUUDkMZwI2lLKNdG4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a32191c508c5d5ecc1044",
+        "email": "Kylee_Hayes85@hotmail.com",
+        "name": "Joseph Abernathy",
+        "country": "USA",
+        "city": "West Faustinoboro",
+        "street": "Gwen Fall",
+        "house": 33,
+        "flat": 724,
+        "phone": "+19699014877",
+        "createdOn": "2026-02-21T22:30:49.000Z",
+        "notes": "e4LOPL99zXegvegEhfGpPfhzYiIbVNW5r0WeMlsgKgoSW41HPbZyzZhPh5hB0qUE4rfT2Nb59TZjAXpLhbVmjv288vkITlCQCeEnQASl1NjNYhsM9s07tJsAePauIUSxBbbtbVZq8DmfdY0VGyhXz7s1bKu18YiRi8LhYiE6BtH6xhWKsLtJpQgVSrCovCnNk1H0BJPBt18IjIU1Fx2oF3MqVzzKOzEyAwYHwWLvqEeEwcSEVN5itKbzlH"
+      },
+      "products": [
+        {
+          "_id": "699a32191c508c5d5ecc1065",
+          "name": "Pizza5554",
+          "amount": 708,
+          "price": 88515,
+          "manufacturer": "Apple",
+          "notes": "zFf5pKZZvGbgA0HZtrKgDkwUGnj1ZqlG994vRAkNT5WTD4szwwsIsd5oiYOZdNP9xLGEwZS3qrYfs64ysKYcberrncaT9xRrZpmPR1irecOvt3wq6X87xzjEOWLrbSN4MaiBPHegqdejqLKdNWWmZKR2g9L8DppKQcur83khqhGDsxh1hXZLetBKbcotZ5Mq3DlItaLYlD0Aap19vFkax7qigXm0O9hqYKu3JAkWbYSS9P2lACYNJdXujo",
+          "received": false
+        },
+        {
+          "_id": "699a321a1c508c5d5ecc10a1",
+          "name": "Shoes4780",
+          "amount": 933,
+          "price": 41064,
+          "manufacturer": "Xiaomi",
+          "notes": "PomllC5Hr1jyYjXm1OyuldwIcLDEMXEd2aZZ6r2Ov9M5ni7lWk0ugxEYK2gNO2i69d0uUtP5f1VQIhQ0utjKH8kLSiKK1GZVIe23YvXSNc4Oo4MbzGBvDu3s53OI3xoN7r4AclclgxL4j6OpNnE66O0ZNTJCFGE0ku34jz3NY18DPHp65f79pdGbib7PALqH4GW5NLsAWzJSxgYYHkZ7laP9sdVSrfNRKOCb3tbukYC4HcbptlgXgWHfsU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129579,
+      "createdOn": "2026-02-21T22:30:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a32191c508c5d5ecc1044",
+          "products": [
+            {
+              "_id": "699a32191c508c5d5ecc1065",
+              "name": "Pizza5554",
+              "amount": 708,
+              "price": 88515,
+              "manufacturer": "Apple",
+              "notes": "zFf5pKZZvGbgA0HZtrKgDkwUGnj1ZqlG994vRAkNT5WTD4szwwsIsd5oiYOZdNP9xLGEwZS3qrYfs64ysKYcberrncaT9xRrZpmPR1irecOvt3wq6X87xzjEOWLrbSN4MaiBPHegqdejqLKdNWWmZKR2g9L8DppKQcur83khqhGDsxh1hXZLetBKbcotZ5Mq3DlItaLYlD0Aap19vFkax7qigXm0O9hqYKu3JAkWbYSS9P2lACYNJdXujo",
+              "received": false
+            },
+            {
+              "_id": "699a321a1c508c5d5ecc10a1",
+              "name": "Shoes4780",
+              "amount": 933,
+              "price": 41064,
+              "manufacturer": "Xiaomi",
+              "notes": "PomllC5Hr1jyYjXm1OyuldwIcLDEMXEd2aZZ6r2Ov9M5ni7lWk0ugxEYK2gNO2i69d0uUtP5f1VQIhQ0utjKH8kLSiKK1GZVIe23YvXSNc4Oo4MbzGBvDu3s53OI3xoN7r4AclclgxL4j6OpNnE66O0ZNTJCFGE0ku34jz3NY18DPHp65f79pdGbib7PALqH4GW5NLsAWzJSxgYYHkZ7laP9sdVSrfNRKOCb3tbukYC4HcbptlgXgWHfsU",
+              "received": false
+            }
+          ],
+          "total_price": 129579,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:30:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a321a1c508c5d5ecc10e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

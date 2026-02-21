@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:30:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-2LbPj500CRKfe+PX9ltjDnTlSqw\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a32151c508c5d5ecc0e3a",
+        "email": "Matt35@hotmail.com",
+        "name": "Rylan Cummerata",
+        "country": "Canada",
+        "city": "North Lauraborough",
+        "street": "Conroy Forge",
+        "house": 40,
+        "flat": 816,
+        "phone": "+17108105587",
+        "createdOn": "2026-02-21T22:30:45.000Z",
+        "notes": "bZi2ZTIQTUF9u7cj2y4gFnCFNrSRpf5dJzDGRNYLcuYIvGRp1j97369iHLytGg2ECWzC8f20mLJ4q1YS5Gv8rX6k0P7gM8TVagW159Q7az2JxCSZmfJA1ZekndhlsMJD2NMHegXlBslNKHWYW2KgeUDDhAX0xkpKJXTSjVgLwSqV9hc3nOt2iCC43EKUcftcLmZHVthTYQuFQeCu8hI3o4bjoz5ZPrXNUoImq5HQsW9Ao3x7KQEcsqyGyH"
+      },
+      "products": [
+        {
+          "_id": "699a32161c508c5d5ecc0e4c",
+          "name": "Chips80447",
+          "amount": 8,
+          "price": 7271,
+          "manufacturer": "Microsoft",
+          "notes": "BoLMDb21r2IXQp8j6ZTgdeuEvXuzZUTC7akbBwAJwqh7lSLkWmxo3yBpumsXxQrNkw7tQ9viJ2B3km06hL2mgaGsuvcwZdbDAJ18dadmc6IUyUv2yQCH35th9DiZK2q58SMiPdPlewI0OebfeVa5SzTMQUuL1sop4jXGIC3ozuPWwHMKWHUWDcyqkafMDWcDK3qP5Q21Vc6A53dQGNW2s2IsZOdOlwA3LHR6zb5kPIO8Sh0vZD9qw5am2h",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7271,
+      "createdOn": "2026-02-21T22:30:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a32151c508c5d5ecc0e3a",
+          "products": [
+            {
+              "_id": "699a32161c508c5d5ecc0e4c",
+              "name": "Chips80447",
+              "amount": 8,
+              "price": 7271,
+              "manufacturer": "Microsoft",
+              "notes": "BoLMDb21r2IXQp8j6ZTgdeuEvXuzZUTC7akbBwAJwqh7lSLkWmxo3yBpumsXxQrNkw7tQ9viJ2B3km06hL2mgaGsuvcwZdbDAJ18dadmc6IUyUv2yQCH35th9DiZK2q58SMiPdPlewI0OebfeVa5SzTMQUuL1sop4jXGIC3ozuPWwHMKWHUWDcyqkafMDWcDK3qP5Q21Vc6A53dQGNW2s2IsZOdOlwA3LHR6zb5kPIO8Sh0vZD9qw5am2h",
+              "received": false
+            }
+          ],
+          "total_price": 7271,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:30:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a32161c508c5d5ecc0e71"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

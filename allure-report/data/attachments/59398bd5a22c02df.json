@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:30:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1870",
+    "etag": "W/\"74e-inXY2KVYn+3UMf6E3/vSK1IlfN0\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a32161c508c5d5ecc0e54",
+        "email": "Lydia2@yahoo.com",
+        "name": "Kurt Stark",
+        "country": "USA",
+        "city": "Vallejo",
+        "street": "Abbott Shore",
+        "house": 4,
+        "flat": 648,
+        "phone": "+13603856759",
+        "createdOn": "2026-02-21T22:30:46.000Z",
+        "notes": "GbFegqSYb7fgQfeINx2NneX7H8RIWGyxN09YKpE6lteB7wtOW9g98A9jXGD1FK0V4L0a6GcrDnAs7bMdmV4ICCvNflMJQlnPS0hduVcOECDpYUvX6F2Xg9FgmR9JtNmLrbDBVUpCUdHiKoFCYB8vgstKCq3xKLwjDWcEKQ7RUKXzQrifp1JqmNbhSIAeSt39YevL7BBLav5RsVtmxY2gIgS52R0DCy4ggnSMYorh3KXRbrGKjnXirI3SPp"
+      },
+      "products": [
+        {
+          "_id": "699a32161c508c5d5ecc0e79",
+          "name": "Computer18797",
+          "amount": 406,
+          "price": 27553,
+          "manufacturer": "Amazon",
+          "notes": "FVQe2S5WcJPAun7c53PvWlXFj5GMe0QDCsYCgTdyiXParLQyoXOwGrgXyJoPLjL51oWM1Pmtav623P6OLv8Sgtc3wyLSOjKX8qyq5cNxXNl23B0KgCJXwLjfzP15j7AOAsF2t9v0uA9OYHUiJaROwZBhXGK9GIzbZFYCSVLJngpuqGlPWBmT6bVZXpUu3obALBcX3414r3nclN2PRBMcYO14BpNLxU77pxsjoBOJB3UqZEbujktfT5D1bd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27553,
+      "createdOn": "2026-02-21T22:30:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a32161c508c5d5ecc0e54",
+          "products": [
+            {
+              "_id": "699a32161c508c5d5ecc0e79",
+              "name": "Computer18797",
+              "amount": 406,
+              "price": 27553,
+              "manufacturer": "Amazon",
+              "notes": "FVQe2S5WcJPAun7c53PvWlXFj5GMe0QDCsYCgTdyiXParLQyoXOwGrgXyJoPLjL51oWM1Pmtav623P6OLv8Sgtc3wyLSOjKX8qyq5cNxXNl23B0KgCJXwLjfzP15j7AOAsF2t9v0uA9OYHUiJaROwZBhXGK9GIzbZFYCSVLJngpuqGlPWBmT6bVZXpUu3obALBcX3414r3nclN2PRBMcYO14BpNLxU77pxsjoBOJB3UqZEbujktfT5D1bd",
+              "received": false
+            }
+          ],
+          "total_price": 27553,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:30:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a32161c508c5d5ecc0ea8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

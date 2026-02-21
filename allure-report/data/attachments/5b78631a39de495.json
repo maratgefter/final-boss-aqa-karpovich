@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2957",
+    "etag": "W/\"b8d-v5p6bTrwie55auSb0hlXcnUjfDg\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699a324f1c508c5d5ecc3524",
+      "status": "Draft",
+      "customer": {
+        "_id": "699a324e1c508c5d5ecc34a3",
+        "email": "Addie94@hotmail.com",
+        "name": "Deron Shanahan",
+        "country": "Belarus",
+        "city": "Kshlerinworth",
+        "street": "Botsford Passage",
+        "house": 33,
+        "flat": 914,
+        "phone": "+13126334102",
+        "createdOn": "2026-02-21T22:31:42.000Z",
+        "notes": "Cl0eiUynnxWwM43envY5cajypuBUY8MKqPISDFhCgWyDp5lQsjdAoz4W4vZKkJLHyMFS0bukbvt3MVQwiLjh7ZIaAALHM0s6Y4cP1ohlU8Xx9sZR13pKcGZGj4uQOvAM0RZpi5o493wDOFp5cRiAJSCueYHeRFzsdhMW5TydpRo257Rk8sTPqLYEjp3E9ZXZ6zrQQdrufiw8mCRhetZNDymVTWWjqqRPLhJCMtbxFra55UZAdjfAqFdwtt"
+      },
+      "products": [
+        {
+          "_id": "699a324e1c508c5d5ecc34db",
+          "name": "Mouse4757",
+          "amount": 274,
+          "price": 32239,
+          "manufacturer": "Sony",
+          "notes": "6n5yNo8XZntlEGxCgQdHVTdBDrGfzo2JgGwfqDzOHNRfjth99z9G2HOCSoCHVojwnCyFlmqcanv9kSDgW7bDbcjrAjQKV9Bcs1uJiM6XlopBgaFQHPR2HSBj5Pr4bHDsxPMeKfyfvZq7nqnYqL2NFfgrBGGTbgApr68wp5UjzVsIbk5f4JX0XIceh37qzo2FOMoAqxbq1aTooeufbbbh2KGSezZxWaxEhujbCeNVOz2AQMsG8kju26pKSP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kshlerinworth",
+          "street": "Botsford Passage",
+          "house": 33,
+          "flat": 914
+        },
+        "finalDate": "2026-02-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 32239,
+      "createdOn": "2026-02-21T22:31:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a324e1c508c5d5ecc34a3",
+          "products": [
+            {
+              "_id": "699a324e1c508c5d5ecc34db",
+              "name": "Mouse4757",
+              "amount": 274,
+              "price": 32239,
+              "manufacturer": "Sony",
+              "notes": "6n5yNo8XZntlEGxCgQdHVTdBDrGfzo2JgGwfqDzOHNRfjth99z9G2HOCSoCHVojwnCyFlmqcanv9kSDgW7bDbcjrAjQKV9Bcs1uJiM6XlopBgaFQHPR2HSBj5Pr4bHDsxPMeKfyfvZq7nqnYqL2NFfgrBGGTbgApr68wp5UjzVsIbk5f4JX0XIceh37qzo2FOMoAqxbq1aTooeufbbbh2KGSezZxWaxEhujbCeNVOz2AQMsG8kju26pKSP",
+              "received": false
+            }
+          ],
+          "total_price": 32239,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kshlerinworth",
+              "street": "Botsford Passage",
+              "house": 33,
+              "flat": 914
+            },
+            "finalDate": "2026-02-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-21T22:31:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699a324e1c508c5d5ecc34a3",
+          "products": [
+            {
+              "_id": "699a324e1c508c5d5ecc34db",
+              "name": "Mouse4757",
+              "amount": 274,
+              "price": 32239,
+              "manufacturer": "Sony",
+              "notes": "6n5yNo8XZntlEGxCgQdHVTdBDrGfzo2JgGwfqDzOHNRfjth99z9G2HOCSoCHVojwnCyFlmqcanv9kSDgW7bDbcjrAjQKV9Bcs1uJiM6XlopBgaFQHPR2HSBj5Pr4bHDsxPMeKfyfvZq7nqnYqL2NFfgrBGGTbgApr68wp5UjzVsIbk5f4JX0XIceh37qzo2FOMoAqxbq1aTooeufbbbh2KGSezZxWaxEhujbCeNVOz2AQMsG8kju26pKSP",
+              "received": false
+            }
+          ],
+          "total_price": 32239,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

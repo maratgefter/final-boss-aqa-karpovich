@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-xqvqotiOpL3/pYhMxAwarZLusAc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a322e1c508c5d5ecc1e41",
+        "email": "Jeffrey9@hotmail.com",
+        "name": "Jerald Hane",
+        "country": "Canada",
+        "city": "Caterinachester",
+        "street": "Domenico Turnpike",
+        "house": 47,
+        "flat": 759,
+        "phone": "+19743682743",
+        "createdOn": "2026-02-21T22:31:10.000Z",
+        "notes": "5xPpNS6VAqsCN8wBVPGbEhshTAptrmouZ4wiGnXcMWywckugHsTVWksEugoOSoEYNWNGZvKQmuD4rucsaKuVFDDsbxLbTytmg0RiQwtmMrRpOa3LcVVvUzb0yKGypBrTzXNPf5OcfzaFjs0p6S2P4KEeZv0VPaM1lDW9TKKniJukR2WAXjDoLkUw8oesRZdxsEU4pUqJdrp6i6Gycg2C5rNg6ra7UUPdHTpLSXBybKxLXLu3IcRDh99Drp"
+      },
+      "products": [
+        {
+          "_id": "699a322e1c508c5d5ecc1e4d",
+          "name": "Table85410",
+          "amount": 927,
+          "price": 72211,
+          "manufacturer": "Tesla",
+          "notes": "HSl8iORtim8LwRcKtBPDRBkGb9WLDMg8FWxe6K4KtOGQgr3E9Xnft8P3qoT3LahXdy9NaKsi8943wweAFKl0px9pHyhJDlCKgPT1Cy7kjKYVvnwxZOHHDJdsJtouT28C5byajT7R5il4dAOw4SKehyIzuZm3wHg0TtvIhtOgJ9BKo40rrC6X4mkDPBKKo9DRtnSiOn5c7uhkjsINQs1SXmaHzHnhgxaYnmcmixYZx1rTC4oAazw39Cq5wK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72211,
+      "createdOn": "2026-02-21T22:31:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a322e1c508c5d5ecc1e41",
+          "products": [
+            {
+              "_id": "699a322e1c508c5d5ecc1e4d",
+              "name": "Table85410",
+              "amount": 927,
+              "price": 72211,
+              "manufacturer": "Tesla",
+              "notes": "HSl8iORtim8LwRcKtBPDRBkGb9WLDMg8FWxe6K4KtOGQgr3E9Xnft8P3qoT3LahXdy9NaKsi8943wweAFKl0px9pHyhJDlCKgPT1Cy7kjKYVvnwxZOHHDJdsJtouT28C5byajT7R5il4dAOw4SKehyIzuZm3wHg0TtvIhtOgJ9BKo40rrC6X4mkDPBKKo9DRtnSiOn5c7uhkjsINQs1SXmaHzHnhgxaYnmcmixYZx1rTC4oAazw39Cq5wK",
+              "received": false
+            }
+          ],
+          "total_price": 72211,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a322f1c508c5d5ecc1e74"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

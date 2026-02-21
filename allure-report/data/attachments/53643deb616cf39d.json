@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-kIXPTiLrir00mD3/FMn85LotlFc\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a32561c508c5d5ecc3999",
+        "email": "Genevieve_Will86@yahoo.com",
+        "name": "Nicola Larson",
+        "country": "Canada",
+        "city": "Zacharyside",
+        "street": "E Market Street",
+        "house": 31,
+        "flat": 292,
+        "phone": "+15283828117",
+        "createdOn": "2026-02-21T22:31:50.000Z",
+        "notes": "sekbhBakJh9DEVCx6LSwOZdZPjqRawM3zo4nhUsqKX6ctPitlkBAH8cd2XwnvdqIWsCsWetceg4WCfo18bRSf2ljewkuaLdOMrff5UigPgG9bvoiWBOkPWxftDTV1f9KyvhSJnFg5S86Y06GTqnXRvRoXFVOskvIMHP2XO2vk4X7m2AcyN8WbE8ORk9AT5nZ8Y2dXUP3C5XFCYbXmghojA8U2OwLAic7jn84CUH3ihfIR6OS2rf6k9Ge0y"
+      },
+      "products": [
+        {
+          "_id": "699a32591c508c5d5ecc3bf7",
+          "name": "Mouse7991",
+          "amount": 354,
+          "price": 14725,
+          "manufacturer": "Xiaomi",
+          "notes": "w5rUYeWMpDejhv5dWH3TEvQ4tXfvXCITsus6V9bg5w5rPKOsKlSruy56edFRSmsc0736R2LZlOcsBmG9BwfN6mnzcnT3lZrGBOMobejFhMU3zDYW27R1vEVqCulKQxOSCqwVCxuQmi508Ack7bAHS4lFiPBTuh2HjjQaATUCUhOX87uuNOgAdklqMoXfjyf3gerTifZ1At43zyDfC3QHQ78csQwmTTy4Etx8QbOU1e19t65Y4txOISgpFg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14725,
+      "createdOn": "2026-02-21T22:31:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a32561c508c5d5ecc3999",
+          "products": [
+            {
+              "_id": "699a32591c508c5d5ecc3bf7",
+              "name": "Mouse7991",
+              "amount": 354,
+              "price": 14725,
+              "manufacturer": "Xiaomi",
+              "notes": "w5rUYeWMpDejhv5dWH3TEvQ4tXfvXCITsus6V9bg5w5rPKOsKlSruy56edFRSmsc0736R2LZlOcsBmG9BwfN6mnzcnT3lZrGBOMobejFhMU3zDYW27R1vEVqCulKQxOSCqwVCxuQmi508Ack7bAHS4lFiPBTuh2HjjQaATUCUhOX87uuNOgAdklqMoXfjyf3gerTifZ1At43zyDfC3QHQ78csQwmTTy4Etx8QbOU1e19t65Y4txOISgpFg",
+              "received": false
+            }
+          ],
+          "total_price": 14725,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a325b1c508c5d5ecc3d38"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

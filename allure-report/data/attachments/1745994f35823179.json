@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:30:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-I77ngQ16o1aFyfizu768heNlaQQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a321b1c508c5d5ecc1158",
+        "email": "Annalise_Treutel99@gmail.com",
+        "name": "Vivianne Grimes",
+        "country": "Russia",
+        "city": "Clarecester",
+        "street": "Towne Crossing",
+        "house": 9,
+        "flat": 157,
+        "phone": "+17364971015",
+        "createdOn": "2026-02-21T22:30:51.000Z",
+        "notes": "BwWO9LAFohCetNFwRt9ysSqH8co7UigbJSkdv6bdRWsNJkklrYZyUVfWx8cg4WKzfwEd3qP4MsrbYDZRkRsAMNU559IJkO54asL13CNQBzka6c9mSHFKmq0eXTN7w2GTRVEhFDbC0ZYSz9sH13KKfpC9QsloMFzjt19qxzaHOK7pWs1uhJWiXTa5g5eTcuJ7qES7cRmQmtSnYuHF8wUgpPru18ipQHUvhzwX5aBBtrMh7PxuEai9aBsn19"
+      },
+      "products": [
+        {
+          "_id": "699a321c1c508c5d5ecc1167",
+          "name": "Chicken64832",
+          "amount": 63,
+          "price": 45421,
+          "manufacturer": "Tesla",
+          "notes": "32jIPPunMLjNpaUKlsqokuQG5AGeqNYP8KnvmZK0i9XUBiNNwZpQVkDC0mI17zuFTQF7jvC1bsPfzYOvvb0HNh2iWO3C3oEPLrvYwZqWc7pPgD7Xzd0b31eb4wpj1bVhlHQ1tSuPWh6DMDeRmVWrkrQKGdrSnXJNNzUS7masfWGQBkq9qO4a7yiRcnNgXukVfsrFGchTBILwb0t1uxTN2F2lErZMg0bOMi8Y3CXa4ycPmAhHso1E6q0Qdm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45421,
+      "createdOn": "2026-02-21T22:30:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a321b1c508c5d5ecc1158",
+          "products": [
+            {
+              "_id": "699a321c1c508c5d5ecc1167",
+              "name": "Chicken64832",
+              "amount": 63,
+              "price": 45421,
+              "manufacturer": "Tesla",
+              "notes": "32jIPPunMLjNpaUKlsqokuQG5AGeqNYP8KnvmZK0i9XUBiNNwZpQVkDC0mI17zuFTQF7jvC1bsPfzYOvvb0HNh2iWO3C3oEPLrvYwZqWc7pPgD7Xzd0b31eb4wpj1bVhlHQ1tSuPWh6DMDeRmVWrkrQKGdrSnXJNNzUS7masfWGQBkq9qO4a7yiRcnNgXukVfsrFGchTBILwb0t1uxTN2F2lErZMg0bOMi8Y3CXa4ycPmAhHso1E6q0Qdm",
+              "received": false
+            }
+          ],
+          "total_price": 45421,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:30:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a321c1c508c5d5ecc1188"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

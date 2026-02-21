@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-k+2Mswho9wZ0FGZNPb0v/y21b+w\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a32341c508c5d5ecc2193",
+        "email": "Jarret39@gmail.com",
+        "name": "Lavonne Swift",
+        "country": "Belarus",
+        "city": "Fort Philipburgh",
+        "street": "Lancaster Road",
+        "house": 46,
+        "flat": 950,
+        "phone": "+15137112638",
+        "createdOn": "2026-02-21T22:31:16.000Z",
+        "notes": "veTjgpCZQTqLrOPPw7DeHgHIGKYwLCscAHokMJYyMeMlGcMcVhySuGzjFueJFB5T0trIkPi7zS7rkck8z3sIpIjwCLYuWWPIwxEYu5I57oVrFFQHSBgyhO8GFGlFvdM3NQKwdBsaOvFZz99eaOvaotJHjgNTHVJgKzMMyNwvIiMEDeO8LmKpUUdm4o2WQN74lacGZ8l75Up0OnXKs4ay3TIcI3L8L7hrq4ezSlaJE9HAnhhL3uX8umkeYR"
+      },
+      "products": [
+        {
+          "_id": "699a32351c508c5d5ecc22c9",
+          "name": "Hat72866",
+          "amount": 413,
+          "price": 45235,
+          "manufacturer": "Microsoft",
+          "notes": "2mGrJzCJCOPpdHSxr5XG7MNj67hw0ZYC2yaZoxiuDcCtsZM9ymqKbbDgKYsLgviVEoGlXs1FzKUm3wtVN9KcxnVmsW0F6dzebSeGFuuBccBCHrIgPX4obJgQbDW8n1Q8FpUESQ1lL2OPzZZ2Trm7YxUnJkh8iXd3IGuDhFESASDOrSNEyu9Doi1lEBEu7hgeaFI2hhaCKGGrePvnft5Va5BUji0vUBrtZ2lSEiBabsVx32ebVVW4NzWQl4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45235,
+      "createdOn": "2026-02-21T22:31:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a32341c508c5d5ecc2193",
+          "products": [
+            {
+              "_id": "699a32351c508c5d5ecc22c9",
+              "name": "Hat72866",
+              "amount": 413,
+              "price": 45235,
+              "manufacturer": "Microsoft",
+              "notes": "2mGrJzCJCOPpdHSxr5XG7MNj67hw0ZYC2yaZoxiuDcCtsZM9ymqKbbDgKYsLgviVEoGlXs1FzKUm3wtVN9KcxnVmsW0F6dzebSeGFuuBccBCHrIgPX4obJgQbDW8n1Q8FpUESQ1lL2OPzZZ2Trm7YxUnJkh8iXd3IGuDhFESASDOrSNEyu9Doi1lEBEu7hgeaFI2hhaCKGGrePvnft5Va5BUji0vUBrtZ2lSEiBabsVx32ebVVW4NzWQl4",
+              "received": false
+            }
+          ],
+          "total_price": 45235,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a32371c508c5d5ecc2420"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

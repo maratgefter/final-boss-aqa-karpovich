@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-i5Gau8b7CyvwyVUicOyQoY+Dp+Y\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699a322e1c508c5d5ecc1e43",
+        "email": "Allison58@yahoo.com",
+        "name": "David Leuschke",
+        "country": "Russia",
+        "city": "Kerlukestead",
+        "street": "Kestrel Close",
+        "house": 15,
+        "flat": 467,
+        "phone": "+12219562996",
+        "createdOn": "2026-02-21T22:31:10.000Z",
+        "notes": "KgOyqFlJYuO38Qlvb3jE3ALkYTzSKAQy3ABj4J60bG2UkqrfqAh1Bs1JPNqXsW0R4Ncdr8WD7cNPWFZtY34LeHOm2AFxDiOxytxT5iKJf6IwvewkAeOBmfAmnAgvg7OhHsrpnBRYlrOZ69jJP6rN1xYAoHRV9CS30o3LtFwh3yimQ9dnxvX7muhVH4EsIQeRVCpKKN3XpMnYOudP7zxmegXy0cMBv03Nb6pBrlQkxWHgC8RtNMxhZIM1Sy"
+      },
+      "products": [
+        {
+          "_id": "699a322e1c508c5d5ecc1e63",
+          "name": "Shirt75712",
+          "amount": 151,
+          "price": 44424,
+          "manufacturer": "Amazon",
+          "notes": "RsQLp085saQPSOgqZoap7XZ6lILERvIvdQCCeyH4M0BBzoZ3JasgaQbjNG9Rwkee4S2ULVPGtbyCQ2GwHDtNS0oJiU69DdC3sQqT5uMIfuuL4SfiEhpFPcuWLALETYqnqh6wdbDTYZTlpLpa6F3fn5YwGrxCkjwYkY5bp2G7iNGKSvl166B2L28UHBl9IeKp7fqTY3bJmKyx4qemHbIlzFh7j3qCweWQQeQsjRZCnIHXc4vJO0AytvrnDS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44424,
+      "createdOn": "2026-02-21T22:31:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a322e1c508c5d5ecc1e43",
+          "products": [
+            {
+              "_id": "699a322e1c508c5d5ecc1e63",
+              "name": "Shirt75712",
+              "amount": 151,
+              "price": 44424,
+              "manufacturer": "Amazon",
+              "notes": "RsQLp085saQPSOgqZoap7XZ6lILERvIvdQCCeyH4M0BBzoZ3JasgaQbjNG9Rwkee4S2ULVPGtbyCQ2GwHDtNS0oJiU69DdC3sQqT5uMIfuuL4SfiEhpFPcuWLALETYqnqh6wdbDTYZTlpLpa6F3fn5YwGrxCkjwYkY5bp2G7iNGKSvl166B2L28UHBl9IeKp7fqTY3bJmKyx4qemHbIlzFh7j3qCweWQQeQsjRZCnIHXc4vJO0AytvrnDS",
+              "received": false
+            }
+          ],
+          "total_price": 44424,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699a322f1c508c5d5ecc1e86"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

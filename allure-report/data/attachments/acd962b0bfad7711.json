@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 21 Feb 2026 22:31:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-JkQydJVhQZH4epqt8X7DLZCeVQ8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699a324b1c508c5d5ecc333f",
+      "status": "Draft",
+      "customer": {
+        "_id": "699a323d1c508c5d5ecc2902",
+        "email": "Darron.Greenfelder@gmail.com",
+        "name": "Kaleb Cremin",
+        "country": "Canada",
+        "city": "New Rafaelview",
+        "street": "Hammes Spurs",
+        "house": 42,
+        "flat": 121,
+        "phone": "+16319297803",
+        "createdOn": "2026-02-21T22:31:25.000Z",
+        "notes": "LcHn4Mxk0r7AznpjLOn6zE9m7ifRFNV0kQWur5XDtvlgzYB6nqnKipVsZlkMStUVFrGUPL9TvILUSuyZlTj8e5OqwjDX3j7vJQTxYHutoYaLUVbP9IvGnfTo9vSq65d8KiwXbJeYqmgxTCIAviNu4oMtfPHFXA4PNZHQGsWBqmDG09828bupbNNAdZIleo63oKqSHIpO0fffzg7mvqa2CyP4Lkf01SXzuT5pfD9v4hYAaGMR4WLYoEeOHl"
+      },
+      "products": [
+        {
+          "_id": "699a32431c508c5d5ecc2d90",
+          "name": "Tuna59351",
+          "amount": 272,
+          "price": 65460,
+          "manufacturer": "Google",
+          "notes": "OGQluVUwyucvr0YEBirzYUN1sUeCcZLERLRjAM0abAEMfKtOd0h4zTflDvznI3qRGuOctXvmNDzHv7ayvRQfukmo3ykSWHLPdQnSrmI7voB0qLgtjho1TW4MRlRUFPofvCvyfTxi6QqyHB7dgpaHIrpMdgsnCybK76gosEHNgXR9trSFdFh9N724w2LIxE4ndJClMlf1nO0myrHxMsm9VuU3qO2rg72mrNQQUrGPmpT6EvaRpF5Emncu5M",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65460,
+      "createdOn": "2026-02-21T22:31:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699a323d1c508c5d5ecc2902",
+          "products": [
+            {
+              "_id": "699a32431c508c5d5ecc2d90",
+              "name": "Tuna59351",
+              "amount": 272,
+              "price": 65460,
+              "manufacturer": "Google",
+              "notes": "OGQluVUwyucvr0YEBirzYUN1sUeCcZLERLRjAM0abAEMfKtOd0h4zTflDvznI3qRGuOctXvmNDzHv7ayvRQfukmo3ykSWHLPdQnSrmI7voB0qLgtjho1TW4MRlRUFPofvCvyfTxi6QqyHB7dgpaHIrpMdgsnCybK76gosEHNgXR9trSFdFh9N724w2LIxE4ndJClMlf1nO0myrHxMsm9VuU3qO2rg72mrNQQUrGPmpT6EvaRpF5Emncu5M",
+              "received": false
+            }
+          ],
+          "total_price": 65460,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:42.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699a323d1c508c5d5ecc2902",
+          "products": [
+            {
+              "_id": "699a32431c508c5d5ecc2d90",
+              "name": "Tuna59351",
+              "amount": 272,
+              "price": 65460,
+              "manufacturer": "Google",
+              "notes": "OGQluVUwyucvr0YEBirzYUN1sUeCcZLERLRjAM0abAEMfKtOd0h4zTflDvznI3qRGuOctXvmNDzHv7ayvRQfukmo3ykSWHLPdQnSrmI7voB0qLgtjho1TW4MRlRUFPofvCvyfTxi6QqyHB7dgpaHIrpMdgsnCybK76gosEHNgXR9trSFdFh9N724w2LIxE4ndJClMlf1nO0myrHxMsm9VuU3qO2rg72mrNQQUrGPmpT6EvaRpF5Emncu5M",
+              "received": false
+            }
+          ],
+          "total_price": 65460,
+          "delivery": null,
+          "changedOn": "2026-02-21T22:31:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
