@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:33:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4800",
+    "etag": "W/\"12c0-/2Hn0nH9zhkQiWtbH8LqJMo6Ly4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b84481c508c5d5ecd8a91",
+      "status": "Canceled",
+      "customer": {
+        "_id": "699b843f1c508c5d5ecd83fb",
+        "email": "Dale26@gmail.com",
+        "name": "Issac Heaney",
+        "country": "Belarus",
+        "city": "Hesselborough",
+        "street": "Macejkovic Cape",
+        "house": 40,
+        "flat": 75,
+        "phone": "+14272863203",
+        "createdOn": "2026-02-22T22:33:35.000Z",
+        "notes": "wazHZ2NG3d1RWSSxrMjJbvyXKjqyRgQKuDXbNtMMXAE8TWfkUtLDcWn5i6afQ04auOOsGfpprqy6cgl5ze9CIfx0aAwFJ8EEOBQVBuuzQ2SC7SLFYfZzFGWuOFDrPhekHTNPejcY3WlhnJCoE7ydtt2iotkfz8S18HwaHsyoXoOenJdClLzldmpSnbLvqCyepWi7IHvddsJMKnEOGSNp9rla4sm3rXym2efE2jDHhmGzL6fG6dKax1GYmN"
+      },
+      "products": [
+        {
+          "_id": "699b84431c508c5d5ecd87fa",
+          "name": "Tuna55100",
+          "amount": 831,
+          "price": 20065,
+          "manufacturer": "Samsung",
+          "notes": "jaIegfT6UINN7iDWfduehkpIjPD1q3Qoo9AlMhbJT9KpaG9qo4SKGrpSFIDcJsEy1diqECl0SbRyv7ETuBz2LQJXBJkneld1xgAkIcalyr0eWIyvJo92ZMqEXz6TgLsDUJpCwzRuy6d2CxTy7euo63GCPOZtQvGMWcbMp7ehgez5tnhF6JhynwwH97gSTn1j0mQ1YwP0RY9SZmXMdcC2jqlL6jyZI4zpIEd93uToYxyMN8vKtKjx24mqXE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Hesselborough",
+          "street": "Macejkovic Cape",
+          "house": 40,
+          "flat": 75
+        },
+        "finalDate": "2026-03-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 20065,
+      "createdOn": "2026-02-22T22:33:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "699b843f1c508c5d5ecd83fb",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87fa",
+              "name": "Tuna55100",
+              "amount": 831,
+              "price": 20065,
+              "manufacturer": "Samsung",
+              "notes": "jaIegfT6UINN7iDWfduehkpIjPD1q3Qoo9AlMhbJT9KpaG9qo4SKGrpSFIDcJsEy1diqECl0SbRyv7ETuBz2LQJXBJkneld1xgAkIcalyr0eWIyvJo92ZMqEXz6TgLsDUJpCwzRuy6d2CxTy7euo63GCPOZtQvGMWcbMp7ehgez5tnhF6JhynwwH97gSTn1j0mQ1YwP0RY9SZmXMdcC2jqlL6jyZI4zpIEd93uToYxyMN8vKtKjx24mqXE",
+              "received": false
+            }
+          ],
+          "total_price": 20065,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hesselborough",
+              "street": "Macejkovic Cape",
+              "house": 40,
+              "flat": 75
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:33:52.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "699b843f1c508c5d5ecd83fb",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87fa",
+              "name": "Tuna55100",
+              "amount": 831,
+              "price": 20065,
+              "manufacturer": "Samsung",
+              "notes": "jaIegfT6UINN7iDWfduehkpIjPD1q3Qoo9AlMhbJT9KpaG9qo4SKGrpSFIDcJsEy1diqECl0SbRyv7ETuBz2LQJXBJkneld1xgAkIcalyr0eWIyvJo92ZMqEXz6TgLsDUJpCwzRuy6d2CxTy7euo63GCPOZtQvGMWcbMp7ehgez5tnhF6JhynwwH97gSTn1j0mQ1YwP0RY9SZmXMdcC2jqlL6jyZI4zpIEd93uToYxyMN8vKtKjx24mqXE",
+              "received": false
+            }
+          ],
+          "total_price": 20065,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hesselborough",
+              "street": "Macejkovic Cape",
+              "house": 40,
+              "flat": 75
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:33:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b843f1c508c5d5ecd83fb",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87fa",
+              "name": "Tuna55100",
+              "amount": 831,
+              "price": 20065,
+              "manufacturer": "Samsung",
+              "notes": "jaIegfT6UINN7iDWfduehkpIjPD1q3Qoo9AlMhbJT9KpaG9qo4SKGrpSFIDcJsEy1diqECl0SbRyv7ETuBz2LQJXBJkneld1xgAkIcalyr0eWIyvJo92ZMqEXz6TgLsDUJpCwzRuy6d2CxTy7euo63GCPOZtQvGMWcbMp7ehgez5tnhF6JhynwwH97gSTn1j0mQ1YwP0RY9SZmXMdcC2jqlL6jyZI4zpIEd93uToYxyMN8vKtKjx24mqXE",
+              "received": false
+            }
+          ],
+          "total_price": 20065,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hesselborough",
+              "street": "Macejkovic Cape",
+              "house": 40,
+              "flat": 75
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:33:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b843f1c508c5d5ecd83fb",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87fa",
+              "name": "Tuna55100",
+              "amount": 831,
+              "price": 20065,
+              "manufacturer": "Samsung",
+              "notes": "jaIegfT6UINN7iDWfduehkpIjPD1q3Qoo9AlMhbJT9KpaG9qo4SKGrpSFIDcJsEy1diqECl0SbRyv7ETuBz2LQJXBJkneld1xgAkIcalyr0eWIyvJo92ZMqEXz6TgLsDUJpCwzRuy6d2CxTy7euo63GCPOZtQvGMWcbMp7ehgez5tnhF6JhynwwH97gSTn1j0mQ1YwP0RY9SZmXMdcC2jqlL6jyZI4zpIEd93uToYxyMN8vKtKjx24mqXE",
+              "received": false
+            }
+          ],
+          "total_price": 20065,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:33:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

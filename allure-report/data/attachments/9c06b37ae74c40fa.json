@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:31:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-YAG9eU3+SLGcH5p6HIP3EMKNUfg\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83bb1c508c5d5ecd26ad",
+        "email": "Annabelle.Ebert@yahoo.com",
+        "name": "Tremayne Lang",
+        "country": "Canada",
+        "city": "Fort Emile",
+        "street": "W Bridge Street",
+        "house": 30,
+        "flat": 55,
+        "phone": "+19997654944",
+        "createdOn": "2026-02-22T22:31:23.000Z",
+        "notes": "3dAs5VDHkM6gTbtnCt6CtHMOh7t06QLiAKDmoyRPKQEE8CGxlcsrgcTkIPgVvJyVrbAKGTwfwXEGl21RsLn3npBydicenytmuWCOjhd8lz3f8BNBZxrcEF1UP27v6oNntyRViJ5IBDZjny7Kww4gTsi2WVPf52UHkPdE6WdonpH7jl9mC6Q3PQZHYRa3bOsuLhXaF3GT70lrBasUvU1fWw6MvVL9Y2IL3fcC1d3sZqrma7I0RFCAiMMvcd"
+      },
+      "products": [
+        {
+          "_id": "699b83bd1c508c5d5ecd27f5",
+          "name": "Keyboard8014",
+          "amount": 242,
+          "price": 15067,
+          "manufacturer": "Tesla",
+          "notes": "cRln4JP4qkSNX2ozYLsHyBa2mMX6D2l8CBZMFS3I1YspPnzUouAFwzygTsfbZNqWA3eQmrG1YbfcNAM5o5XvIEOYYKLD8QkytaUB94k4J1ObLAtI46LiAfKh8tQfy4prHEpFUK4RsUFpbaAp4T8NQ0YmDo1N6P7ufBZUldq53FTn6ge4ChPPihwGADMOdKxj1q1O4cjl0nmJ3HlegRa1BokPVmE10nNRXwiP9ojRbnBLPcQiV53iBlPAkz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15067,
+      "createdOn": "2026-02-22T22:31:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83bb1c508c5d5ecd26ad",
+          "products": [
+            {
+              "_id": "699b83bd1c508c5d5ecd27f5",
+              "name": "Keyboard8014",
+              "amount": 242,
+              "price": 15067,
+              "manufacturer": "Tesla",
+              "notes": "cRln4JP4qkSNX2ozYLsHyBa2mMX6D2l8CBZMFS3I1YspPnzUouAFwzygTsfbZNqWA3eQmrG1YbfcNAM5o5XvIEOYYKLD8QkytaUB94k4J1ObLAtI46LiAfKh8tQfy4prHEpFUK4RsUFpbaAp4T8NQ0YmDo1N6P7ufBZUldq53FTn6ge4ChPPihwGADMOdKxj1q1O4cjl0nmJ3HlegRa1BokPVmE10nNRXwiP9ojRbnBLPcQiV53iBlPAkz",
+              "received": false
+            }
+          ],
+          "total_price": 15067,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:31:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699b83bf1c508c5d5ecd293d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

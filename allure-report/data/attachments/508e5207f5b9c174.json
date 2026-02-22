@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:32:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2965",
+    "etag": "W/\"b95-tXLexCGt2OX6I/tK6TkO6AjSOA0\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b83ea1c508c5d5ecd4854",
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83e91c508c5d5ecd47ec",
+        "email": "Angelica32@hotmail.com",
+        "name": "Trey MacGyver",
+        "country": "Canada",
+        "city": "Fort Destineefurt",
+        "street": "Kobe Motorway",
+        "house": 18,
+        "flat": 642,
+        "phone": "+17646948050",
+        "createdOn": "2026-02-22T22:32:09.000Z",
+        "notes": "ANkHpIUl1SKlmmxMpii1q99A1riLNyJBRrPJwLqN8XMroFq1or8kz6bf8n16bFfIp6QqeOoDNDgwlmyC5zyI425NSFbvrEF3Bbn52zPLgVB435dasRNTHvnJY1Z8WcYdIH46CanNErPzrNo0zUeSMRP79p4xNa0AIl7rwPMwPIeerL0rqLuZeqjhXl5GZgvFzmfXjloPAUvYxpsj9qs8HaOWZlF8lngP8UNS1B5ey6pMLZSizodpa3lrMy"
+      },
+      "products": [
+        {
+          "_id": "699b83ea1c508c5d5ecd4814",
+          "name": "Hat29037",
+          "amount": 868,
+          "price": 97302,
+          "manufacturer": "Samsung",
+          "notes": "q0rBe43xMmBYa8ADcZ2Mq78M7Ix7YuzWDqteteEalLjtfFzv3XsCrm3N6VvDA6CbqpDv6Trnfobshmcs2oms9N2c8JcJL4SymnCID32e7qs6Y91yASYmHdYl35K5VSw6okRmmdyeCRq5Xm9gakc1QvKKBzdf1N5QMGFARuJ9X1wLJCwjSxWZcdiYAhPV1Kxj6hmfpWo2mtzxMM1wU3u6ECJK7M55U6FPPVMYGIEKxIrNQeGDVxGFGLqPuB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Destineefurt",
+          "street": "Kobe Motorway",
+          "house": 18,
+          "flat": 642
+        },
+        "finalDate": "2026-03-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 97302,
+      "createdOn": "2026-02-22T22:32:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83e91c508c5d5ecd47ec",
+          "products": [
+            {
+              "_id": "699b83ea1c508c5d5ecd4814",
+              "name": "Hat29037",
+              "amount": 868,
+              "price": 97302,
+              "manufacturer": "Samsung",
+              "notes": "q0rBe43xMmBYa8ADcZ2Mq78M7Ix7YuzWDqteteEalLjtfFzv3XsCrm3N6VvDA6CbqpDv6Trnfobshmcs2oms9N2c8JcJL4SymnCID32e7qs6Y91yASYmHdYl35K5VSw6okRmmdyeCRq5Xm9gakc1QvKKBzdf1N5QMGFARuJ9X1wLJCwjSxWZcdiYAhPV1Kxj6hmfpWo2mtzxMM1wU3u6ECJK7M55U6FPPVMYGIEKxIrNQeGDVxGFGLqPuB",
+              "received": false
+            }
+          ],
+          "total_price": 97302,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Destineefurt",
+              "street": "Kobe Motorway",
+              "house": 18,
+              "flat": 642
+            },
+            "finalDate": "2026-03-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:32:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b83e91c508c5d5ecd47ec",
+          "products": [
+            {
+              "_id": "699b83ea1c508c5d5ecd4814",
+              "name": "Hat29037",
+              "amount": 868,
+              "price": 97302,
+              "manufacturer": "Samsung",
+              "notes": "q0rBe43xMmBYa8ADcZ2Mq78M7Ix7YuzWDqteteEalLjtfFzv3XsCrm3N6VvDA6CbqpDv6Trnfobshmcs2oms9N2c8JcJL4SymnCID32e7qs6Y91yASYmHdYl35K5VSw6okRmmdyeCRq5Xm9gakc1QvKKBzdf1N5QMGFARuJ9X1wLJCwjSxWZcdiYAhPV1Kxj6hmfpWo2mtzxMM1wU3u6ECJK7M55U6FPPVMYGIEKxIrNQeGDVxGFGLqPuB",
+              "received": false
+            }
+          ],
+          "total_price": 97302,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

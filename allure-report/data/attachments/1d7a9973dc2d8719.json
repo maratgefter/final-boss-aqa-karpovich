@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:32:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2949",
+    "etag": "W/\"b85-k99GOjRj7mmuiuIPu55VrrMjCTk\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b83fe1c508c5d5ecd560d",
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83f91c508c5d5ecd5230",
+        "email": "Jennie_Heller@gmail.com",
+        "name": "Nathan Parisian",
+        "country": "USA",
+        "city": "South Winonafield",
+        "street": "N Cedar Street",
+        "house": 8,
+        "flat": 925,
+        "phone": "+18138190531",
+        "createdOn": "2026-02-22T22:32:25.000Z",
+        "notes": "oZ3kTO5S9Em9NttaQIwDmlSh5buzxw0ag58gJKJy0SqXTT3BuIXvgOnv3N29lbaCvXQiozvcSUUcOXZ3wR99Vdb6QyxrHmHT0q3mhvUvUe2Fr5Des4NgDxg6IyoZWLGo3irgIGUbDIRx6ywJrseJHA9ui5GR3VUJgYoAJq2Ew420UUXJL0f18cllifijvY0X7hn3cO2mNoJyUiZZtzcfu1Gdp7Yjpcowqo1uHkGZZ2bzHFd6TVxPiuqgh9"
+      },
+      "products": [
+        {
+          "_id": "699b83fe1c508c5d5ecd55ef",
+          "name": "Ball69055",
+          "amount": 121,
+          "price": 9322,
+          "manufacturer": "Amazon",
+          "notes": "BlyKKuM4vrIwwb85jwd4nIkk7gI3AxcS000ycTH3hFN6PTIb7HXP0YGQvuT5LSNzoETh5RJtGM0nkV5LqhuZpecdFZxBaRKwdnOBX2U9tuehEtYJa3BrzvbeKtk3N3HFaUejTHlozYiWXC3XI2MfR288aWDA8anLnQw34L3UAIIKQEr1mztBVz7ImcUXCGYE2v9BFcnpv1cVH6HfedM31f3Ew2c8wfpThDsQVXUXKJEFRO8KyI9dxSuUk8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9322,
+      "createdOn": "2026-02-22T22:32:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83f91c508c5d5ecd5230",
+          "products": [
+            {
+              "_id": "699b83fe1c508c5d5ecd55ef",
+              "name": "Ball69055",
+              "amount": 121,
+              "price": 9322,
+              "manufacturer": "Amazon",
+              "notes": "BlyKKuM4vrIwwb85jwd4nIkk7gI3AxcS000ycTH3hFN6PTIb7HXP0YGQvuT5LSNzoETh5RJtGM0nkV5LqhuZpecdFZxBaRKwdnOBX2U9tuehEtYJa3BrzvbeKtk3N3HFaUejTHlozYiWXC3XI2MfR288aWDA8anLnQw34L3UAIIKQEr1mztBVz7ImcUXCGYE2v9BFcnpv1cVH6HfedM31f3Ew2c8wfpThDsQVXUXKJEFRO8KyI9dxSuUk8",
+              "received": false
+            }
+          ],
+          "total_price": 9322,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:31.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699b83f91c508c5d5ecd5230",
+          "products": [
+            {
+              "_id": "699b83fe1c508c5d5ecd55ef",
+              "name": "Ball69055",
+              "amount": 121,
+              "price": 9322,
+              "manufacturer": "Amazon",
+              "notes": "BlyKKuM4vrIwwb85jwd4nIkk7gI3AxcS000ycTH3hFN6PTIb7HXP0YGQvuT5LSNzoETh5RJtGM0nkV5LqhuZpecdFZxBaRKwdnOBX2U9tuehEtYJa3BrzvbeKtk3N3HFaUejTHlozYiWXC3XI2MfR288aWDA8anLnQw34L3UAIIKQEr1mztBVz7ImcUXCGYE2v9BFcnpv1cVH6HfedM31f3Ew2c8wfpThDsQVXUXKJEFRO8KyI9dxSuUk8",
+              "received": false
+            }
+          ],
+          "total_price": 9322,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

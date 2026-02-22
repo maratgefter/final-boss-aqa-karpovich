@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:31:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-k7Y6jdQJMabVk4ojuzp1xc7XTng\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83cc1c508c5d5ecd3344",
+        "email": "Sedrick_Ruecker-Hickle@gmail.com",
+        "name": "Lucile Heller",
+        "country": "USA",
+        "city": "Anselfurt",
+        "street": "Daniel Pines",
+        "house": 6,
+        "flat": 273,
+        "phone": "+17453233340",
+        "createdOn": "2026-02-22T22:31:40.000Z",
+        "notes": "mi0wGaqxlTEOpshB1kDlpKTyjCx51MvfXlSxmy12K919Jx7QcAsSSKrpqz0dKoFKs2U9fa2nMwYQWM5yFW2g5vFO10lftBZ48RRrUR55z3EF0lsD7Y99Ksci7PeEPjxTNQjJxHV7rgmkP7RQWNUuwUfCxetuhyTT0WBeUUyLxGPnAF5SUW7uvCiGgjoSZ0gQec46n0flMRfP9YGLawInDK6lMOl6otv7iHRd83caapoRSKt3V3aV8zZ5mS"
+      },
+      "products": [
+        {
+          "_id": "699b83ce1c508c5d5ecd336f",
+          "name": "Car92072",
+          "amount": 45,
+          "price": 31559,
+          "manufacturer": "Tesla",
+          "notes": "HgiSBMKirkxT8ajcYrlq71iX1e48SSK8CzwpMckB35vqPQ35WvN7eHGlRyNFfV8L40ESkpfhLxIpOtZvw0CsHWiG1Dsd4W9tHhduFHPC1lt06yrvJ3RqwghXoTzG9ADsNVTiqrgj0MoF59N7tgc7CSpzWy1U8nBaLnM3raYEcyrtC7KWi4obRi55Gg0kIjaoGF0xq5SFAU5rqCbsieV0ZThIwuK7wPVchqOIuF6TU8uI1IZthDC71OFNZC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31559,
+      "createdOn": "2026-02-22T22:31:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83cc1c508c5d5ecd3344",
+          "products": [
+            {
+              "_id": "699b83ce1c508c5d5ecd336f",
+              "name": "Car92072",
+              "amount": 45,
+              "price": 31559,
+              "manufacturer": "Tesla",
+              "notes": "HgiSBMKirkxT8ajcYrlq71iX1e48SSK8CzwpMckB35vqPQ35WvN7eHGlRyNFfV8L40ESkpfhLxIpOtZvw0CsHWiG1Dsd4W9tHhduFHPC1lt06yrvJ3RqwghXoTzG9ADsNVTiqrgj0MoF59N7tgc7CSpzWy1U8nBaLnM3raYEcyrtC7KWi4obRi55Gg0kIjaoGF0xq5SFAU5rqCbsieV0ZThIwuK7wPVchqOIuF6TU8uI1IZthDC71OFNZC",
+              "received": false
+            }
+          ],
+          "total_price": 31559,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:31:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699b83d21c508c5d5ecd360f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

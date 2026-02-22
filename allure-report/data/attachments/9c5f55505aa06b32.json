@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:33:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5438",
+    "etag": "W/\"153e-Gc2xAE6TFFeLlEMwOv1xdTAp278\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b84481c508c5d5ecd8ac2",
+      "status": "In Process",
+      "customer": {
+        "_id": "699b843f1c508c5d5ecd8400",
+        "email": "Athena81@yahoo.com",
+        "name": "Dakota Willms",
+        "country": "Great Britain",
+        "city": "Wauwatosa",
+        "street": "W 6th Street",
+        "house": 20,
+        "flat": 848,
+        "phone": "+18093164789",
+        "createdOn": "2026-02-22T22:33:35.000Z",
+        "notes": "rYshDZvEl1npyshz1tYRgi79l0PiSMQUkIjh0yDRq4QPmbl16BNx6dxXUTOb2wz1XME5irVtiTrUocOzOSvEKMTqWCPGBS9WOy5diNgIypgL2mRzixXMVs35IBTJy9DXcyK0vIsYSlA3mDxWO2ZuKzdmZ8TUPrgSOmEnpOITbNGt9IVkeGWjhtc81TtdF8wXl8o0PEu9BBq8uixFwtmqNOLW3s7UNPfbwlut2MXSuJKczzt9CrBa1kAa4b"
+      },
+      "products": [
+        {
+          "_id": "699b84431c508c5d5ecd87f8",
+          "name": "Gloves27870",
+          "amount": 685,
+          "price": 97467,
+          "manufacturer": "Samsung",
+          "notes": "vU5zvMCEngDXXkxTf4JCMfQPzJlsTwaenl2kUZ11AYiOdnEopdWgyvrVB9gtNPQ5wxjYkuiRXS9t4GYhohxSyVEz66yKSeKlW4jMkexvd2AJdNzQxLL8g5LEeBqswBUZ0frNcVa7fXB81sSXJ1isOtPpePX7Pakw8aPlcgrNRdcOUxCgm5o8WzBPtImGuIjlX3r3mTcynVNiE1sFMMIpSMzzyWD7FZiihbsH17aP8QyogS7kwlPNdIXslh",
+          "received": false
+        },
+        {
+          "_id": "699b84481c508c5d5ecd8a8f",
+          "name": "Soap19291",
+          "amount": 854,
+          "price": 51887,
+          "manufacturer": "Samsung",
+          "notes": "oZoHBh9DDvZnCF9e0ABOfMPa9oJkJW7I81XHKQSmoswmzTvg62a84tmHnlOJx4ni8HWdEvduzWFurE4xRgT1dXBtcCDLaAHRZ6NY8Ffz091EDPQcdIv45EXOVwHn60M78RZRntIV8QM8wkdL51AIU837nk6irZXj7sjRizUB7OR8eeoi4dIzuYZs63Dtgl7gFMe2YBMRerM1W1FHrUw2BLkES1xp6tzy5qf1lzL2SWgYB0UglSUoDt4jXH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Wauwatosa",
+          "street": "W 6th Street",
+          "house": 20,
+          "flat": 848
+        },
+        "finalDate": "2026-02-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 149354,
+      "createdOn": "2026-02-22T22:33:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699b843f1c508c5d5ecd8400",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87f8",
+              "name": "Gloves27870",
+              "amount": 685,
+              "price": 97467,
+              "manufacturer": "Samsung",
+              "notes": "vU5zvMCEngDXXkxTf4JCMfQPzJlsTwaenl2kUZ11AYiOdnEopdWgyvrVB9gtNPQ5wxjYkuiRXS9t4GYhohxSyVEz66yKSeKlW4jMkexvd2AJdNzQxLL8g5LEeBqswBUZ0frNcVa7fXB81sSXJ1isOtPpePX7Pakw8aPlcgrNRdcOUxCgm5o8WzBPtImGuIjlX3r3mTcynVNiE1sFMMIpSMzzyWD7FZiihbsH17aP8QyogS7kwlPNdIXslh",
+              "received": false
+            },
+            {
+              "_id": "699b84481c508c5d5ecd8a8f",
+              "name": "Soap19291",
+              "amount": 854,
+              "price": 51887,
+              "manufacturer": "Samsung",
+              "notes": "oZoHBh9DDvZnCF9e0ABOfMPa9oJkJW7I81XHKQSmoswmzTvg62a84tmHnlOJx4ni8HWdEvduzWFurE4xRgT1dXBtcCDLaAHRZ6NY8Ffz091EDPQcdIv45EXOVwHn60M78RZRntIV8QM8wkdL51AIU837nk6irZXj7sjRizUB7OR8eeoi4dIzuYZs63Dtgl7gFMe2YBMRerM1W1FHrUw2BLkES1xp6tzy5qf1lzL2SWgYB0UglSUoDt4jXH",
+              "received": false
+            }
+          ],
+          "total_price": 149354,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Wauwatosa",
+              "street": "W 6th Street",
+              "house": 20,
+              "flat": 848
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:33:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b843f1c508c5d5ecd8400",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87f8",
+              "name": "Gloves27870",
+              "amount": 685,
+              "price": 97467,
+              "manufacturer": "Samsung",
+              "notes": "vU5zvMCEngDXXkxTf4JCMfQPzJlsTwaenl2kUZ11AYiOdnEopdWgyvrVB9gtNPQ5wxjYkuiRXS9t4GYhohxSyVEz66yKSeKlW4jMkexvd2AJdNzQxLL8g5LEeBqswBUZ0frNcVa7fXB81sSXJ1isOtPpePX7Pakw8aPlcgrNRdcOUxCgm5o8WzBPtImGuIjlX3r3mTcynVNiE1sFMMIpSMzzyWD7FZiihbsH17aP8QyogS7kwlPNdIXslh",
+              "received": false
+            },
+            {
+              "_id": "699b84481c508c5d5ecd8a8f",
+              "name": "Soap19291",
+              "amount": 854,
+              "price": 51887,
+              "manufacturer": "Samsung",
+              "notes": "oZoHBh9DDvZnCF9e0ABOfMPa9oJkJW7I81XHKQSmoswmzTvg62a84tmHnlOJx4ni8HWdEvduzWFurE4xRgT1dXBtcCDLaAHRZ6NY8Ffz091EDPQcdIv45EXOVwHn60M78RZRntIV8QM8wkdL51AIU837nk6irZXj7sjRizUB7OR8eeoi4dIzuYZs63Dtgl7gFMe2YBMRerM1W1FHrUw2BLkES1xp6tzy5qf1lzL2SWgYB0UglSUoDt4jXH",
+              "received": false
+            }
+          ],
+          "total_price": 149354,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Wauwatosa",
+              "street": "W 6th Street",
+              "house": 20,
+              "flat": 848
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:33:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b843f1c508c5d5ecd8400",
+          "products": [
+            {
+              "_id": "699b84431c508c5d5ecd87f8",
+              "name": "Gloves27870",
+              "amount": 685,
+              "price": 97467,
+              "manufacturer": "Samsung",
+              "notes": "vU5zvMCEngDXXkxTf4JCMfQPzJlsTwaenl2kUZ11AYiOdnEopdWgyvrVB9gtNPQ5wxjYkuiRXS9t4GYhohxSyVEz66yKSeKlW4jMkexvd2AJdNzQxLL8g5LEeBqswBUZ0frNcVa7fXB81sSXJ1isOtPpePX7Pakw8aPlcgrNRdcOUxCgm5o8WzBPtImGuIjlX3r3mTcynVNiE1sFMMIpSMzzyWD7FZiihbsH17aP8QyogS7kwlPNdIXslh",
+              "received": false
+            },
+            {
+              "_id": "699b84481c508c5d5ecd8a8f",
+              "name": "Soap19291",
+              "amount": 854,
+              "price": 51887,
+              "manufacturer": "Samsung",
+              "notes": "oZoHBh9DDvZnCF9e0ABOfMPa9oJkJW7I81XHKQSmoswmzTvg62a84tmHnlOJx4ni8HWdEvduzWFurE4xRgT1dXBtcCDLaAHRZ6NY8Ffz091EDPQcdIv45EXOVwHn60M78RZRntIV8QM8wkdL51AIU837nk6irZXj7sjRizUB7OR8eeoi4dIzuYZs63Dtgl7gFMe2YBMRerM1W1FHrUw2BLkES1xp6tzy5qf1lzL2SWgYB0UglSUoDt4jXH",
+              "received": false
+            }
+          ],
+          "total_price": 149354,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:33:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

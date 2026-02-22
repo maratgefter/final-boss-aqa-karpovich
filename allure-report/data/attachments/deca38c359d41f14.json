@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-2zj1rlYCWhsvwbHb5yMpKP59vSo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83b51c508c5d5ecd2291",
+        "email": "Kole.Torp99@yahoo.com",
+        "name": "Pauline Fahey",
+        "country": "Germany",
+        "city": "Lindsayworth",
+        "street": "Pfeffer Keys",
+        "house": 10,
+        "flat": 76,
+        "phone": "+18859799649",
+        "createdOn": "2026-02-22T22:31:17.000Z",
+        "notes": "rODb5hZs2YssucwHX5SyctdDbfY4HUjUS4vns2arpEwpnUfTu2HwnyELjHIWwAjuYOvMDMB51t3S8q8PC6G2rdl5Ejw8q1pHFv6BUPI3J85U6dQG5vhNDEWaTjcBKu35FgP4iRSWI6l9K5utcTlfOLxGul8lKgML8bzPhut69BFsL5oIO6MX3ccWo9lHZY6EbpVp6rBLHaW2eUYtxDiQc7jJ5ekHk78dJrRSxHFzf2x0a5Pg3BmsGH5TBX"
+      },
+      "products": [
+        {
+          "_id": "699b83b61c508c5d5ecd22bf",
+          "name": "Pants20297",
+          "amount": 484,
+          "price": 2670,
+          "manufacturer": "Samsung",
+          "notes": "vtPm4ER9nlfTkIePjMVxja5XHQeafC1WtkSnwyIazYOm16en9ljNWtfP5g9TNwnltOR2kiGJVN8eX83KUf6m3OxH35bXlVPx975QRiPhaQzAT0uQ5fnYndJ3PPtF1IrHQMM9KUNeRTves4Om74o22b9xC6ChWGUBmaV3OJvc1q0vboy6Ad4PAUPOWyzwkQMbpkhfwefKGlR3QS112q5MRu9u5Jy6I2OSy8Vv5MBU2MRpTu2zrhJFK586cS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2670,
+      "createdOn": "2026-02-22T22:31:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83b51c508c5d5ecd2291",
+          "products": [
+            {
+              "_id": "699b83b61c508c5d5ecd22bf",
+              "name": "Pants20297",
+              "amount": 484,
+              "price": 2670,
+              "manufacturer": "Samsung",
+              "notes": "vtPm4ER9nlfTkIePjMVxja5XHQeafC1WtkSnwyIazYOm16en9ljNWtfP5g9TNwnltOR2kiGJVN8eX83KUf6m3OxH35bXlVPx975QRiPhaQzAT0uQ5fnYndJ3PPtF1IrHQMM9KUNeRTves4Om74o22b9xC6ChWGUBmaV3OJvc1q0vboy6Ad4PAUPOWyzwkQMbpkhfwefKGlR3QS112q5MRu9u5Jy6I2OSy8Vv5MBU2MRpTu2zrhJFK586cS",
+              "received": false
+            }
+          ],
+          "total_price": 2670,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:31:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699b83b81c508c5d5ecd2416"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

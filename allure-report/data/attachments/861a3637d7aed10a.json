@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:32:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-GlHYDm+8ipSb3cFdeW+hcgBcOrw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b83eb1c508c5d5ecd488b",
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83ea1c508c5d5ecd4812",
+        "email": "Narciso_Hintz@hotmail.com",
+        "name": "Emelie Satterfield",
+        "country": "Russia",
+        "city": "Kokomo",
+        "street": "Batz Lock",
+        "house": 3,
+        "flat": 767,
+        "phone": "+16059987398",
+        "createdOn": "2026-02-22T22:32:10.000Z",
+        "notes": "JcIXOmQMZ1ts1PKKr14wb7ti15uK8X9T9id7OJzGgYrZJWQqcNg1csQmk8JrhK6ulZIjaix9oHq4sHGwiVTHTJDp6xe9De6TGg0idxCOgtZy7OlTvTX63QecisjfScZNoQM6A43TEgGDHzWkDW9lvidKiRJAOmCJCZKXe4Kle7dmgoaNBGAH4ut1DDTzkxxD8XbS9wPo4jukGyJWi9LGZ6fQBupAF2zmiH72vleHl4hjymHsiEBGiQ1rzu"
+      },
+      "products": [
+        {
+          "_id": "699b83ea1c508c5d5ecd483c",
+          "name": "Chips50500",
+          "amount": 480,
+          "price": 92723,
+          "manufacturer": "Microsoft",
+          "notes": "f9v56P5xCSqEBCY7Z1D5rxe9ySF0qzHQ0VnwaTYtz85hWq5hCEmiDwsnQXJa6iQ3WvOw3G1i1maEQTYX1hSX42jiRwMaENvII5hfcWJFwmIomBMDsKtb7BUDBlWiapFct4aE12jDqwBNj8SyPC3PJHWeV01nV8sF76DZy2qRqtZZYBrRTsq18y6OXP54RDBXl1oIUwrAFbgeHxLNQ6ZfGwpBB8WoinFywLLa3zsfK9GY9eLWQnjpIMNS9K",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kokomo",
+          "street": "Batz Lock",
+          "house": 3,
+          "flat": 767
+        },
+        "finalDate": "2026-02-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 92723,
+      "createdOn": "2026-02-22T22:32:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83ea1c508c5d5ecd4812",
+          "products": [
+            {
+              "_id": "699b83ea1c508c5d5ecd483c",
+              "name": "Chips50500",
+              "amount": 480,
+              "price": 92723,
+              "manufacturer": "Microsoft",
+              "notes": "f9v56P5xCSqEBCY7Z1D5rxe9ySF0qzHQ0VnwaTYtz85hWq5hCEmiDwsnQXJa6iQ3WvOw3G1i1maEQTYX1hSX42jiRwMaENvII5hfcWJFwmIomBMDsKtb7BUDBlWiapFct4aE12jDqwBNj8SyPC3PJHWeV01nV8sF76DZy2qRqtZZYBrRTsq18y6OXP54RDBXl1oIUwrAFbgeHxLNQ6ZfGwpBB8WoinFywLLa3zsfK9GY9eLWQnjpIMNS9K",
+              "received": false
+            }
+          ],
+          "total_price": 92723,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kokomo",
+              "street": "Batz Lock",
+              "house": 3,
+              "flat": 767
+            },
+            "finalDate": "2026-02-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:32:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b83ea1c508c5d5ecd4812",
+          "products": [
+            {
+              "_id": "699b83ea1c508c5d5ecd483c",
+              "name": "Chips50500",
+              "amount": 480,
+              "price": 92723,
+              "manufacturer": "Microsoft",
+              "notes": "f9v56P5xCSqEBCY7Z1D5rxe9ySF0qzHQ0VnwaTYtz85hWq5hCEmiDwsnQXJa6iQ3WvOw3G1i1maEQTYX1hSX42jiRwMaENvII5hfcWJFwmIomBMDsKtb7BUDBlWiapFct4aE12jDqwBNj8SyPC3PJHWeV01nV8sF76DZy2qRqtZZYBrRTsq18y6OXP54RDBXl1oIUwrAFbgeHxLNQ6ZfGwpBB8WoinFywLLa3zsfK9GY9eLWQnjpIMNS9K",
+              "received": false
+            }
+          ],
+          "total_price": 92723,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

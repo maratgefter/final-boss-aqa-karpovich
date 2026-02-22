@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:32:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3846",
+    "etag": "W/\"f06-NqzN2zDq1p8Rjmt//8NwilI0a+0\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b83e91c508c5d5ecd47ea",
+      "status": "In Process",
+      "customer": {
+        "_id": "699b83e71c508c5d5ecd4660",
+        "email": "Javonte.Baumbach@yahoo.com",
+        "name": "Sven Lindgren",
+        "country": "USA",
+        "city": "North Lolita",
+        "street": "Keagan Walk",
+        "house": 2,
+        "flat": 721,
+        "phone": "+19608334784",
+        "createdOn": "2026-02-22T22:32:07.000Z",
+        "notes": "jskKEKF6SFM182bGysQijn0qCDZOQQMKo3p0Gxo9abkBUAIpChhyZg7E0JeOYxkgV8iQTdlInAMYp9fakSIzxtenyAH9zGUd5mesW1f5fFSI9WbHjZRDenPsG11GhLe3DVEWfs43AARwCNsMmeNZVOoun07DKd89gH8CS5CDhh6q97NWG3kZ3ymePkbcU1KzZJkyEmsGNMLddQHynbkYTfBdj84gKmbAdVAglEJYLpcLKXJDy5x8bvp4mR"
+      },
+      "products": [
+        {
+          "_id": "699b83e91c508c5d5ecd47bd",
+          "name": "Fish3522",
+          "amount": 943,
+          "price": 36194,
+          "manufacturer": "Sony",
+          "notes": "FTFDWzpVx2sFio5LMruxzpMFmU4XOIhPwKDTEhSZg1AuNWcoSAwuG4UTnJiA60FlckV226bbZifdPxcdxhq3r7x95sogj4YgVIWoZ8vMoh0DtsmX8uoWhQndBVOjHMOr8SWEOI927LzTLcvg3lfc9bU2XAibXT6PbCFrN2AdhI2pGS3cAh1XAx7fuUzmYiF0O4sh2gNRDi6CQgBDA5v2XN12mk1a05p1DdtYmZBo3iD1fKxSQv4aCvyq9f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Lolita",
+          "street": "Keagan Walk",
+          "house": 2,
+          "flat": 721
+        },
+        "finalDate": "2026-02-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 36194,
+      "createdOn": "2026-02-22T22:32:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699b83e71c508c5d5ecd4660",
+          "products": [
+            {
+              "_id": "699b83e91c508c5d5ecd47bd",
+              "name": "Fish3522",
+              "amount": 943,
+              "price": 36194,
+              "manufacturer": "Sony",
+              "notes": "FTFDWzpVx2sFio5LMruxzpMFmU4XOIhPwKDTEhSZg1AuNWcoSAwuG4UTnJiA60FlckV226bbZifdPxcdxhq3r7x95sogj4YgVIWoZ8vMoh0DtsmX8uoWhQndBVOjHMOr8SWEOI927LzTLcvg3lfc9bU2XAibXT6PbCFrN2AdhI2pGS3cAh1XAx7fuUzmYiF0O4sh2gNRDi6CQgBDA5v2XN12mk1a05p1DdtYmZBo3iD1fKxSQv4aCvyq9f",
+              "received": false
+            }
+          ],
+          "total_price": 36194,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Lolita",
+              "street": "Keagan Walk",
+              "house": 2,
+              "flat": 721
+            },
+            "finalDate": "2026-02-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:32:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b83e71c508c5d5ecd4660",
+          "products": [
+            {
+              "_id": "699b83e91c508c5d5ecd47bd",
+              "name": "Fish3522",
+              "amount": 943,
+              "price": 36194,
+              "manufacturer": "Sony",
+              "notes": "FTFDWzpVx2sFio5LMruxzpMFmU4XOIhPwKDTEhSZg1AuNWcoSAwuG4UTnJiA60FlckV226bbZifdPxcdxhq3r7x95sogj4YgVIWoZ8vMoh0DtsmX8uoWhQndBVOjHMOr8SWEOI927LzTLcvg3lfc9bU2XAibXT6PbCFrN2AdhI2pGS3cAh1XAx7fuUzmYiF0O4sh2gNRDi6CQgBDA5v2XN12mk1a05p1DdtYmZBo3iD1fKxSQv4aCvyq9f",
+              "received": false
+            }
+          ],
+          "total_price": 36194,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Lolita",
+              "street": "Keagan Walk",
+              "house": 2,
+              "flat": 721
+            },
+            "finalDate": "2026-02-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-22T22:32:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699b83e71c508c5d5ecd4660",
+          "products": [
+            {
+              "_id": "699b83e91c508c5d5ecd47bd",
+              "name": "Fish3522",
+              "amount": 943,
+              "price": 36194,
+              "manufacturer": "Sony",
+              "notes": "FTFDWzpVx2sFio5LMruxzpMFmU4XOIhPwKDTEhSZg1AuNWcoSAwuG4UTnJiA60FlckV226bbZifdPxcdxhq3r7x95sogj4YgVIWoZ8vMoh0DtsmX8uoWhQndBVOjHMOr8SWEOI927LzTLcvg3lfc9bU2XAibXT6PbCFrN2AdhI2pGS3cAh1XAx7fuUzmYiF0O4sh2gNRDi6CQgBDA5v2XN12mk1a05p1DdtYmZBo3iD1fKxSQv4aCvyq9f",
+              "received": false
+            }
+          ],
+          "total_price": 36194,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

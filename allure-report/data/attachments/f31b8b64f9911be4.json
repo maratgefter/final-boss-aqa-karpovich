@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:32:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-qVJgb6YnKMEFjPPE3UjOAkT4GfA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83ff1c508c5d5ecd5643",
+        "email": "Flavio.Hagenes@yahoo.com",
+        "name": "Lorine Tillman",
+        "country": "Ukraine",
+        "city": "Lake Linda",
+        "street": "Hipolito Route",
+        "house": 43,
+        "flat": 138,
+        "phone": "+17822816944",
+        "createdOn": "2026-02-22T22:32:31.000Z",
+        "notes": "61dY82CzYMQVyG3mneSIDRnkMquJhfyq8LPNyVeM3aj4hRZvyx4GZe2u68kzAZFo2dW342qIKw0CDmKNJR71gLJESHjnYsh0VYux6glXplNSd0IncVNanq2tRCjtyi923cMNjJz6hGE5DbqwgcDUD4pATTAoSI4oLH7sixgXtvx3hKmowCbXA8pD8QKHjIZf516R26wK515wYPjumnfR7OzsABnjIQo23A8n2vS0VMmubGBs1g1AAcTSAS"
+      },
+      "products": [
+        {
+          "_id": "699b83ff1c508c5d5ecd5662",
+          "name": "Bacon37928",
+          "amount": 919,
+          "price": 96771,
+          "manufacturer": "Tesla",
+          "notes": "ZvwzteHwLUjran1C9Jeezn3f5FNM54s6v8BX8mIVkPutLB1jDJlT2gmdjtcRUhefiL9IIDELCN2rEgwsoWCId374tEal72xzSD5ywU8vHimGfhhJLn6ghgeKM03jA3olhDGybOFg0aqlHx2yuMnkvK8KVf0vtWQgInAp2NlN4AniRmZCrqKQnJit7kJTRPUt2jKPeMzHpGpcZAolfMkiSvdbBER8NRHg9hKLjh43bWThMv5oJbw46s1JjA",
+          "received": false
+        },
+        {
+          "_id": "699b84001c508c5d5ecd5685",
+          "name": "Gloves51188",
+          "amount": 792,
+          "price": 35194,
+          "manufacturer": "Apple",
+          "notes": "lRPfH3TfxIcYEiV3m6zsuUVNJQnADbFJx3OMdEOogUYqPAzcz1cRMgq4wJVxvc6wOzSkSdfwHy9FIKI3viROguH5z6oscpz0gQGS2z64yD6paNFlyCJWjTCqb7BBPAL6qMWtWdOkvj66FwkTspcwcVIhLrYFA11NvthC89JPzsAiosDWNiUxzf70vxiSGNWDzXVe1EpIyA5JuZcpJVYuvADex7QdGj5cCbu3u1n71sDRPmV5LJZs5BiCZi",
+          "received": false
+        },
+        {
+          "_id": "699b84001c508c5d5ecd56a1",
+          "name": "Ball56260",
+          "amount": 767,
+          "price": 53845,
+          "manufacturer": "Xiaomi",
+          "notes": "wfTOCnLvpyLptAGtdGHnDIDXJS5JJ2hOK5g83df4LB52v6l4x69jOJnLmv6JM8CWbaFfgeDlGaHIhZ1ZJAwXkU0KaOS5aHf2h2fiO6ZQYjtgZlCs5mTM3tnnaLzXO9soRlTsmcyH2FMEiQg60rEPrZhML3F0AracyJ97j9TOXKeOx8bZtbjZgb0zADaDGKYBT7qxAl7bojaDZySgv5DlGUZ88ZOUb0tcTGAtcewIbrV5VPNbRkZyoFyid0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 185810,
+      "createdOn": "2026-02-22T22:32:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83ff1c508c5d5ecd5643",
+          "products": [
+            {
+              "_id": "699b83ff1c508c5d5ecd5662",
+              "name": "Bacon37928",
+              "amount": 919,
+              "price": 96771,
+              "manufacturer": "Tesla",
+              "notes": "ZvwzteHwLUjran1C9Jeezn3f5FNM54s6v8BX8mIVkPutLB1jDJlT2gmdjtcRUhefiL9IIDELCN2rEgwsoWCId374tEal72xzSD5ywU8vHimGfhhJLn6ghgeKM03jA3olhDGybOFg0aqlHx2yuMnkvK8KVf0vtWQgInAp2NlN4AniRmZCrqKQnJit7kJTRPUt2jKPeMzHpGpcZAolfMkiSvdbBER8NRHg9hKLjh43bWThMv5oJbw46s1JjA",
+              "received": false
+            },
+            {
+              "_id": "699b84001c508c5d5ecd5685",
+              "name": "Gloves51188",
+              "amount": 792,
+              "price": 35194,
+              "manufacturer": "Apple",
+              "notes": "lRPfH3TfxIcYEiV3m6zsuUVNJQnADbFJx3OMdEOogUYqPAzcz1cRMgq4wJVxvc6wOzSkSdfwHy9FIKI3viROguH5z6oscpz0gQGS2z64yD6paNFlyCJWjTCqb7BBPAL6qMWtWdOkvj66FwkTspcwcVIhLrYFA11NvthC89JPzsAiosDWNiUxzf70vxiSGNWDzXVe1EpIyA5JuZcpJVYuvADex7QdGj5cCbu3u1n71sDRPmV5LJZs5BiCZi",
+              "received": false
+            },
+            {
+              "_id": "699b84001c508c5d5ecd56a1",
+              "name": "Ball56260",
+              "amount": 767,
+              "price": 53845,
+              "manufacturer": "Xiaomi",
+              "notes": "wfTOCnLvpyLptAGtdGHnDIDXJS5JJ2hOK5g83df4LB52v6l4x69jOJnLmv6JM8CWbaFfgeDlGaHIhZ1ZJAwXkU0KaOS5aHf2h2fiO6ZQYjtgZlCs5mTM3tnnaLzXO9soRlTsmcyH2FMEiQg60rEPrZhML3F0AracyJ97j9TOXKeOx8bZtbjZgb0zADaDGKYBT7qxAl7bojaDZySgv5DlGUZ88ZOUb0tcTGAtcewIbrV5VPNbRkZyoFyid0",
+              "received": false
+            }
+          ],
+          "total_price": 185810,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:32:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699b84001c508c5d5ecd56de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

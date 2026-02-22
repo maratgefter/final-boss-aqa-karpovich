@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 22 Feb 2026 22:31:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2804",
+    "etag": "W/\"af4-bf9lvefv7ZNS5/D3164gntoukFM\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699b83b01c508c5d5ecd1fce",
+      "status": "Draft",
+      "customer": {
+        "_id": "699b83ae1c508c5d5ecd1f37",
+        "email": "Kaelyn7@hotmail.com",
+        "name": "Toni Casper",
+        "country": "Germany",
+        "city": "Blaine",
+        "street": "Kassandra Land",
+        "house": 23,
+        "flat": 763,
+        "phone": "+15728000197",
+        "createdOn": "2026-02-22T22:31:10.000Z",
+        "notes": "F2OLDxCFzxq4AV4m8z1QBfD6Xi6wbKODwEjnqYRYVJfHEoL9rG3onzjsqRuz1317tGSZ3VFTdUkxxCP5hePuZ3B9Gs13Hu7nV26VLm3iQ0kqA8ZWpbxMnJJrSLgvTWszFC27ULPfOvplg3GSBbNzmDRP8UMjHJGnkUQcQf24SOUKlh0EO5RYCBV6TnQW8p8UnjXtpAGMTCzFm2wEmXqwSw47QRF3BrnTFj4My0LGWLctcEfskmGB9ptUxf"
+      },
+      "products": [
+        {
+          "_id": "699b83af1c508c5d5ecd1f64",
+          "name": "Fish38089",
+          "amount": 376,
+          "price": 92985,
+          "manufacturer": "Samsung",
+          "notes": "oalZgIdAVxM5EUUaceeWrRXMZvMgY7x1NYuOvL1O8HLMGdLvmDiNiVuEjgWfc9zdu01e631ohJ4NVXcceNP3Qo19uXA1k5IcsYdqFQRchkX3FNbVVlmIrmMl6mtGzJvanPgdaDPdFwoGS5iAEUm8GfcEz5Mx5PVqJ7RV5psd5yVLe6eSNnLnKd2xsjWYUiZrUzvL8A2557G55NRH1C9aqZaSbjyI6WFBIIfqQ86D7ICSMDIjUiHwl8avWU",
+          "received": false
+        },
+        {
+          "_id": "699b83af1c508c5d5ecd1f93",
+          "name": "Car12059",
+          "amount": 476,
+          "price": 88938,
+          "manufacturer": "Microsoft",
+          "notes": "SFnEcZXvlnFyFIKoHlpgE0dv2naTCn8KRggxePwvrRVNWhm6Xsc0CvsycPpjWqdpg86EGvtWjy1TnGLMHIVf0PH72WzJSzJHlzPFUT3sqQQkNrKcspey2evFr5daDLnUkd4EJWAgokIKA5zNqUibAKNyB5ZW6YwpzPXQfS26ANcBHcjjQmZKHRr5UVHyJtKO6H0sMk7MTA6uV9AUSWudgBqbqZvPBnSftFayOBbOWOE5HAt6T2Dg4quzEv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 181923,
+      "createdOn": "2026-02-22T22:31:12.000Z",
+      "comments": [
+        {
+          "text": "VCed5CHtEYhx0cWRGv5ZDjc4XfIIgwuDVEIg4sydZqtfmeFGXm4UGpTlG4gGVYnEHnkROwd1W7q",
+          "createdOn": "2026-02-22T22:31:12.000Z",
+          "_id": "699b83b01c508c5d5ecd1fff"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699b83ae1c508c5d5ecd1f37",
+          "products": [
+            {
+              "_id": "699b83af1c508c5d5ecd1f64",
+              "name": "Fish38089",
+              "amount": 376,
+              "price": 92985,
+              "manufacturer": "Samsung",
+              "notes": "oalZgIdAVxM5EUUaceeWrRXMZvMgY7x1NYuOvL1O8HLMGdLvmDiNiVuEjgWfc9zdu01e631ohJ4NVXcceNP3Qo19uXA1k5IcsYdqFQRchkX3FNbVVlmIrmMl6mtGzJvanPgdaDPdFwoGS5iAEUm8GfcEz5Mx5PVqJ7RV5psd5yVLe6eSNnLnKd2xsjWYUiZrUzvL8A2557G55NRH1C9aqZaSbjyI6WFBIIfqQ86D7ICSMDIjUiHwl8avWU",
+              "received": false
+            },
+            {
+              "_id": "699b83af1c508c5d5ecd1f93",
+              "name": "Car12059",
+              "amount": 476,
+              "price": 88938,
+              "manufacturer": "Microsoft",
+              "notes": "SFnEcZXvlnFyFIKoHlpgE0dv2naTCn8KRggxePwvrRVNWhm6Xsc0CvsycPpjWqdpg86EGvtWjy1TnGLMHIVf0PH72WzJSzJHlzPFUT3sqQQkNrKcspey2evFr5daDLnUkd4EJWAgokIKA5zNqUibAKNyB5ZW6YwpzPXQfS26ANcBHcjjQmZKHRr5UVHyJtKO6H0sMk7MTA6uV9AUSWudgBqbqZvPBnSftFayOBbOWOE5HAt6T2Dg4quzEv",
+              "received": false
+            }
+          ],
+          "total_price": 181923,
+          "delivery": null,
+          "changedOn": "2026-02-22T22:31:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
