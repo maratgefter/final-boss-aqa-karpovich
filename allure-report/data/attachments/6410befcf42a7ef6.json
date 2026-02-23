@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:48:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-QmCIyhMRkUIEk0uL3/GXZ1bF0Qo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9471c508c5d5ece4d34",
+        "email": "Moshe_Upton37@hotmail.com",
+        "name": "Leslie Sporer",
+        "country": "Great Britain",
+        "city": "Fort Pierce",
+        "street": "N Jefferson Street",
+        "house": 34,
+        "flat": 151,
+        "phone": "+16577118874",
+        "createdOn": "2026-02-23T22:48:39.000Z",
+        "notes": "reWXYTvMvzMzN1JqxVVi1vYwcK9XqBwdb1Pe3HceGhC8W0wnvTzoQXSsQ6yoDsHEYF6vG3MpvgnUuwiERKho6qV4JvHEoHWr3f6EAfOr0NM0Hi2KcpLLfYB9y04dp3F0IEysTLQ3fBW33jpwlGR6ImxcCeraZcLMdc0cg7L8J0I5E5dodkI0O4iv9Y4nsE7qtGrjiVr7q9id25nbkGKOvCD2mfzRmqd2Z8PzVPg7M8UkBy4hqXBFoU1j4c"
+      },
+      "products": [
+        {
+          "_id": "699cd9481c508c5d5ece4d5d",
+          "name": "Chicken30734",
+          "amount": 12,
+          "price": 13310,
+          "manufacturer": "Google",
+          "notes": "JDTsTbcLurn9tCcLuTPug8Bk0XU8zPvfv5P1pkzSv0755Zm5wL8reEmgnrId8HlRyABhn2dw3l2J4lYwWckvIKNJzqQQVa7wdIyKqGVAF89ATvuOS4NzOuNlKHiMm3mo4QmOlnGPPULz3v1Otb88Jq6LOvoC6jKXiXkq5xJMKzgmcRQEQolUENMNhq3Dgm4wq3EBW0HbqoT0OUH6yYxfJsplp9UzATqgyBdBeFloKDWlKCVmzoVwe5zPIu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13310,
+      "createdOn": "2026-02-23T22:48:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9471c508c5d5ece4d34",
+          "products": [
+            {
+              "_id": "699cd9481c508c5d5ece4d5d",
+              "name": "Chicken30734",
+              "amount": 12,
+              "price": 13310,
+              "manufacturer": "Google",
+              "notes": "JDTsTbcLurn9tCcLuTPug8Bk0XU8zPvfv5P1pkzSv0755Zm5wL8reEmgnrId8HlRyABhn2dw3l2J4lYwWckvIKNJzqQQVa7wdIyKqGVAF89ATvuOS4NzOuNlKHiMm3mo4QmOlnGPPULz3v1Otb88Jq6LOvoC6jKXiXkq5xJMKzgmcRQEQolUENMNhq3Dgm4wq3EBW0HbqoT0OUH6yYxfJsplp9UzATqgyBdBeFloKDWlKCVmzoVwe5zPIu",
+              "received": false
+            }
+          ],
+          "total_price": 13310,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:48:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9481c508c5d5ece4d82"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

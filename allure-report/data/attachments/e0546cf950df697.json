@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:48:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2802",
+    "etag": "W/\"af2-v4pxFXM6KZsW9pgopcVScxfmUPw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699cd9541c508c5d5ece5423",
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9531c508c5d5ece53a5",
+        "email": "Oleta20@yahoo.com",
+        "name": "Oda Ferry",
+        "country": "USA",
+        "city": "Port Domenica",
+        "street": "Herzog Hill",
+        "house": 35,
+        "flat": 962,
+        "phone": "+13758105487",
+        "createdOn": "2026-02-23T22:48:51.000Z",
+        "notes": "G0qpk24XGUw50u8OOoy4r9XTGar3Yr4KU70mLJdMNazNSYDn3ysbVJiQzbS04fru12kUY7JXG0Wkqz2cK3EceDJAgt1QBELJ9wY9BQF0F4Xi4G0Jaeck634eVnAVTlSmILLAO7974T1xhmqTl5tbEIW90vzMGIX8VGYBJ7xoQiM7Mra6QjXhC1YSDs7JXeiIGRzkYLSXW88dqpv1oh2KzI4VraJUsvPYU1ahVYOBt7iKpjdgRkz3NajWhu"
+      },
+      "products": [
+        {
+          "_id": "699cd9531c508c5d5ece53e1",
+          "name": "Chicken99012",
+          "amount": 141,
+          "price": 34403,
+          "manufacturer": "Google",
+          "notes": "OGAUA51CjB9asy9QboGXfi4YxLp9VskjaEloEgNEbatcdcLBSjYb9Ne0JsZ4OfDeoLxUf22LOvfsk7muQBR017rb6wP0gIwGO0mw6hElT3sAQgK6or7JMDA311m5qjdbdXAqu4IXQRovPA5DMdcJCDvY24K95N2wfs4JFmt63sGWY7YBGscNOctEhtMnRvRd02HDLfNCs1jeszJvZf3sEVmv4qftp1yWhHbQXwuMInquA7Wv4Qpv9t5vnY",
+          "received": false
+        },
+        {
+          "_id": "699cd9541c508c5d5ece5405",
+          "name": "Computer5867",
+          "amount": 663,
+          "price": 50539,
+          "manufacturer": "Apple",
+          "notes": "EEsrc6xBm0qpSKU1nN0FGRtSepDtJTKmYCLSeiepaUxtFvqWgnSzZVsnfcX502MwEZpsl4IN5euB9IU2BzL1DdhIvziqXwaKZk186YY6yNjkVRXORob95rGmEDn5kfITOOX9WvP2PTYjrX2lED18XdlXLJAPxi0eGAfT2nOEVYyXesCJNCcpizfINVQw4OKI2f4GbNOZ7IERsljwzU9mVnsRGTahIlT0PspbN99UtK5VgD58H23p2Ri3eU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84942,
+      "createdOn": "2026-02-23T22:48:52.000Z",
+      "comments": [
+        {
+          "text": "Fswz4wc6RkfDZZleqAmqEHXSzlEnuHuEYK0C3yJfUVdokhhyGnDE40nZ93kdfGK3xxuL2L5qoKZ",
+          "createdOn": "2026-02-23T22:48:52.000Z",
+          "_id": "699cd9541c508c5d5ece5463"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9531c508c5d5ece53a5",
+          "products": [
+            {
+              "_id": "699cd9531c508c5d5ece53e1",
+              "name": "Chicken99012",
+              "amount": 141,
+              "price": 34403,
+              "manufacturer": "Google",
+              "notes": "OGAUA51CjB9asy9QboGXfi4YxLp9VskjaEloEgNEbatcdcLBSjYb9Ne0JsZ4OfDeoLxUf22LOvfsk7muQBR017rb6wP0gIwGO0mw6hElT3sAQgK6or7JMDA311m5qjdbdXAqu4IXQRovPA5DMdcJCDvY24K95N2wfs4JFmt63sGWY7YBGscNOctEhtMnRvRd02HDLfNCs1jeszJvZf3sEVmv4qftp1yWhHbQXwuMInquA7Wv4Qpv9t5vnY",
+              "received": false
+            },
+            {
+              "_id": "699cd9541c508c5d5ece5405",
+              "name": "Computer5867",
+              "amount": 663,
+              "price": 50539,
+              "manufacturer": "Apple",
+              "notes": "EEsrc6xBm0qpSKU1nN0FGRtSepDtJTKmYCLSeiepaUxtFvqWgnSzZVsnfcX502MwEZpsl4IN5euB9IU2BzL1DdhIvziqXwaKZk186YY6yNjkVRXORob95rGmEDn5kfITOOX9WvP2PTYjrX2lED18XdlXLJAPxi0eGAfT2nOEVYyXesCJNCcpizfINVQw4OKI2f4GbNOZ7IERsljwzU9mVnsRGTahIlT0PspbN99UtK5VgD58H23p2Ri3eU",
+              "received": false
+            }
+          ],
+          "total_price": 84942,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:48:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

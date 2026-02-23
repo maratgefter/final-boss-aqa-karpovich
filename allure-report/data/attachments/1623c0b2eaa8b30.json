@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:49:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-yuUqxmZaFFyNumpqD6bxOXwf6y8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd96e1c508c5d5ece6573",
+        "email": "Fleta_Cruickshank96@gmail.com",
+        "name": "Cary Batz",
+        "country": "Germany",
+        "city": "Fritschburgh",
+        "street": "E Church Street",
+        "house": 42,
+        "flat": 806,
+        "phone": "+18339738564",
+        "createdOn": "2026-02-23T22:49:18.000Z",
+        "notes": "eqcQqfY67XA2vbhWXfRjEk1jmRf67yMPs7VHvUhX71EmjqxzC3dXzjHBgnTfnrLbfTgFFRHsIvYupmHMXCuapanK4xbu6MYAf8i7aUdWkTDeiUDfJORs5nsiaSfPBvUq94Bejm1szmIeCmWs6Ly4DDs5cGZOOsbbcDyJeL02ESIYOt6ZzpaPf9oEG6IGKGx9CI8YkYcz5lrnbUPL2qwh8lJujE6CvV3vsbx7tHpjPWqXeEv7augW9Z7m3k"
+      },
+      "products": [
+        {
+          "_id": "699cd9701c508c5d5ece66e2",
+          "name": "Shirt15770",
+          "amount": 702,
+          "price": 9388,
+          "manufacturer": "Google",
+          "notes": "YxINjHiVnBcF8mPGoNtkS4oLkeScAKtlXZ2NP1XBwfrpmYpfTMNH1QKuojyvNIqIKS1KeTF0Xzqx3ZcTrRwdG48BHVd67seCdcDd6JmtE01V2IKGY0WaMzazlGE0SfeSlgo0AAtSTvo6xaDcHiEH26AgQ6BQNRcWXUPWNWe0tV7vkybrl3PlaQXlvga4rmg84ATUUKrc5VptDbpves35YFZnIao07NJcSU8kVVvK0lOnOCJJcuIiOTjSPa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9388,
+      "createdOn": "2026-02-23T22:49:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd96e1c508c5d5ece6573",
+          "products": [
+            {
+              "_id": "699cd9701c508c5d5ece66e2",
+              "name": "Shirt15770",
+              "amount": 702,
+              "price": 9388,
+              "manufacturer": "Google",
+              "notes": "YxINjHiVnBcF8mPGoNtkS4oLkeScAKtlXZ2NP1XBwfrpmYpfTMNH1QKuojyvNIqIKS1KeTF0Xzqx3ZcTrRwdG48BHVd67seCdcDd6JmtE01V2IKGY0WaMzazlGE0SfeSlgo0AAtSTvo6xaDcHiEH26AgQ6BQNRcWXUPWNWe0tV7vkybrl3PlaQXlvga4rmg84ATUUKrc5VptDbpves35YFZnIao07NJcSU8kVVvK0lOnOCJJcuIiOTjSPa",
+              "received": false
+            }
+          ],
+          "total_price": 9388,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:49:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9731c508c5d5ece685f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

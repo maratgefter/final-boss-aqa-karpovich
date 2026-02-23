@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:50:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-yeXjzaG22Z9BUkjEdRxKYWyYs/4\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9a21c508c5d5ece8acc",
+        "email": "Joanne_Hermiston96@hotmail.com",
+        "name": "Anika Cartwright",
+        "country": "Germany",
+        "city": "West Lorimouth",
+        "street": "Fernando Common",
+        "house": 19,
+        "flat": 845,
+        "phone": "+13893234551",
+        "createdOn": "2026-02-23T22:50:10.000Z",
+        "notes": "KiBA9O7U0fbA4eEbCgWQxha7GtzufGVLnjDiYGIBMXEbtevj4fZkx5SsUZtWq53yCIxqHNqPiBo81o4Sb4UcpZjlY4ST8Ui2J2UPGNjiNk7h7RO9APeOK0WuMQfs14V9WqVvpXxH0NxffIJkeuzz31zVji0oQ5d97il9pLcmdev2EZ4MtBx3UNB8ukAYB1OvLtxI98sCWhdTZWQyOq9712YnC5u8UpDOe5RJw3ptOsng1cBPK616E08yxY"
+      },
+      "products": [
+        {
+          "_id": "699cd9a41c508c5d5ece8c45",
+          "name": "Computer62103",
+          "amount": 739,
+          "price": 39418,
+          "manufacturer": "Apple",
+          "notes": "ZhxR0KPZJsDv284fJhNoqMDLLQ1qWr1OiwbNNQQGlfMnnDcMeFxgFi4u7kpKh5rhoNf310vqHE4bqCLB96CVrLYVMldvUJjP7UKUZa94fKv6aFPyT9xYCIpSnRupm7zkVI9t89ZjVE8zQPznHTAH4J9gHVwELJndWrBpcWamJbyU9iuM07H5vN20KzOT8NTmqz6cwU0ilqw3UR6EQCGF8wCNtULwj6k9XVpVcyS8bpuwvAkswAEjQe8IdI",
+          "received": false
+        },
+        {
+          "_id": "699cd9a51c508c5d5ece8c7d",
+          "name": "Ball18618",
+          "amount": 225,
+          "price": 79941,
+          "manufacturer": "Samsung",
+          "notes": "DgLg6fE9mRlvfaZeXysw1tM8b4YHPT8escO7ljoOBULT6M2j0KT300en8048ios5hZts8krWlLzSbpMc3FOYzIcvj6ATohr0elbyMbLUnsqFh2A5qnOHP19lDpDohSh9gJVScGft6dgw920kShNOLGuovrdR3ajknqCkn3G68WX8naeHBeP3oh0IjK51u2m0ekFFamIa1fXinRHLSwaE1j7XymrqR6rZQSiEHFq7JhJfYbhakvcoNLDeHz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 119359,
+      "createdOn": "2026-02-23T22:50:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9a21c508c5d5ece8acc",
+          "products": [
+            {
+              "_id": "699cd9a41c508c5d5ece8c45",
+              "name": "Computer62103",
+              "amount": 739,
+              "price": 39418,
+              "manufacturer": "Apple",
+              "notes": "ZhxR0KPZJsDv284fJhNoqMDLLQ1qWr1OiwbNNQQGlfMnnDcMeFxgFi4u7kpKh5rhoNf310vqHE4bqCLB96CVrLYVMldvUJjP7UKUZa94fKv6aFPyT9xYCIpSnRupm7zkVI9t89ZjVE8zQPznHTAH4J9gHVwELJndWrBpcWamJbyU9iuM07H5vN20KzOT8NTmqz6cwU0ilqw3UR6EQCGF8wCNtULwj6k9XVpVcyS8bpuwvAkswAEjQe8IdI",
+              "received": false
+            },
+            {
+              "_id": "699cd9a51c508c5d5ece8c7d",
+              "name": "Ball18618",
+              "amount": 225,
+              "price": 79941,
+              "manufacturer": "Samsung",
+              "notes": "DgLg6fE9mRlvfaZeXysw1tM8b4YHPT8escO7ljoOBULT6M2j0KT300en8048ios5hZts8krWlLzSbpMc3FOYzIcvj6ATohr0elbyMbLUnsqFh2A5qnOHP19lDpDohSh9gJVScGft6dgw920kShNOLGuovrdR3ajknqCkn3G68WX8naeHBeP3oh0IjK51u2m0ekFFamIa1fXinRHLSwaE1j7XymrqR6rZQSiEHFq7JhJfYbhakvcoNLDeHz",
+              "received": false
+            }
+          ],
+          "total_price": 119359,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:50:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9a51c508c5d5ece8cb1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:49:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-RG3MGUo/amsvr5QcNPk3/xWjHvw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9731c508c5d5ece6873",
+        "email": "Kaia64@hotmail.com",
+        "name": "Mortimer Bechtelar",
+        "country": "Great Britain",
+        "city": "West Okeytown",
+        "street": "Mathilde Viaduct",
+        "house": 22,
+        "flat": 890,
+        "phone": "+18414975913",
+        "createdOn": "2026-02-23T22:49:23.000Z",
+        "notes": "KZo9wPurTvV1JHMkTst2fe6uk1YpmhFgSDVTMnglF1SgZFLTiZk5AZxh4tItmRD2yfOKJaSIDj3ekxlLuf8Uxe02FP5C0RHkNI6wLCkkX5fDh3DsJCV2QsCKwkgbhqJ5pBfoQ43V7v7sIoVvBUCMcEnZsKktacJc19eO6QTnIjOmF9LvnbtRXcyvVHI2jpEJYOsE6IqEV1CGZ54l2jiAsU0RrZkBecYKfpQEqhSneiLyqpVIkil93BVA26"
+      },
+      "products": [
+        {
+          "_id": "699cd9761c508c5d5ece69f4",
+          "name": "Bike72846",
+          "amount": 718,
+          "price": 27790,
+          "manufacturer": "Sony",
+          "notes": "wTv14PSLhAagQWuRU8nLU2B8QvIKmjOzhmVPxpT2YRz0mmE99V78fGtkgqLY821K7ev8MTXtcs0wlqD0TE5nAxKVMRQGyGF1oPFoiQw4fRgde2YmrX2SK2hAKMWJs3I6yngdLckzuVqThxazkXzsfDxK9krUOtlDgxvKCav8sWAtw1irxiY1RbESXS3mlwVZvMnocjjnQn4qguaxVLc16PD2YIvPhNpZVkEHzz8aTje5XdzWkps90vbI1p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27790,
+      "createdOn": "2026-02-23T22:49:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9731c508c5d5ece6873",
+          "products": [
+            {
+              "_id": "699cd9761c508c5d5ece69f4",
+              "name": "Bike72846",
+              "amount": 718,
+              "price": 27790,
+              "manufacturer": "Sony",
+              "notes": "wTv14PSLhAagQWuRU8nLU2B8QvIKmjOzhmVPxpT2YRz0mmE99V78fGtkgqLY821K7ev8MTXtcs0wlqD0TE5nAxKVMRQGyGF1oPFoiQw4fRgde2YmrX2SK2hAKMWJs3I6yngdLckzuVqThxazkXzsfDxK9krUOtlDgxvKCav8sWAtw1irxiY1RbESXS3mlwVZvMnocjjnQn4qguaxVLc16PD2YIvPhNpZVkEHzz8aTje5XdzWkps90vbI1p",
+              "received": false
+            }
+          ],
+          "total_price": 27790,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:49:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9771c508c5d5ece6b78"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

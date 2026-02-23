@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:49:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2815",
+    "etag": "W/\"aff-9GKDYGx+fEYT9EotNbepJCbsFHI\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699cd96c1c508c5d5ece63e9",
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd96a1c508c5d5ece635b",
+        "email": "Joanny_Baumbach@hotmail.com",
+        "name": "Bailey Dietrich",
+        "country": "Germany",
+        "city": "East Madilyn",
+        "street": "S Center Street",
+        "house": 32,
+        "flat": 801,
+        "phone": "+18228308201",
+        "createdOn": "2026-02-23T22:49:14.000Z",
+        "notes": "DE3Prlow79IxvMVdskrSF5sQVJImOiVwZbFd6xIs47mKh9Do84Fl9ltYDlJKYHkMFJuWDR33baL2SSAGLZNsshsx0MZ8IADjJWdmzonZ9mrCgMvlocnejeSbf0HLZ8ze5EL6gbntTra6QLQLInBUE156vPO33amJKso7GvaqRcRNXPbtfhKs4t9YgzPovTkoxAkrCYl5GAi5laNiTJcZDtYjkXIJzQhim2JOXdQdsM4rsPdtW4lFcPjiFN"
+      },
+      "products": [
+        {
+          "_id": "699cd96c1c508c5d5ece636d",
+          "name": "Pizza39656",
+          "amount": 152,
+          "price": 38717,
+          "manufacturer": "Samsung",
+          "notes": "FU442tzaXxutTfsjF4oWFDOaXPfYL9hD43wRUor7ly7fl4QNLFLUoMMc5fFfKTYGX22ONgvrOBCDztfQpElIdY6B0tCbsQhC4cNV2tV49ReSlE2eENStu1SBaLVVftVSowZXsiLO5C1rYlXrciLpyTTk4MskN6uQiIkG7Fyw9pp4TMSdyEFfpzDpQiymvUh1OO739oG4YRkhEz7bzhHmbofPf0WaK027CmAbROZxYi97phyDEcnMBcP3o0",
+          "received": false
+        },
+        {
+          "_id": "699cd96c1c508c5d5ece639b",
+          "name": "Hat57478",
+          "amount": 168,
+          "price": 17443,
+          "manufacturer": "Apple",
+          "notes": "ClI9tG5HvoGrOwLZw4iiv95k3acTTZxaNPZFy6EPhD2bBCFy0UQblnyYncRCVdEoFv7g6HXBghnpdEe1RyxJG2vIJMABRpRx25yF74eF1X6CsCD50ET0KLJEBi5CpmivsSTxkUZ4OncYQzIMmgh8CfakUOIJmFL4RHt0CyYu3huamKSJgjJwr0ZWK8PGvi2L5S4R78cJnEh7iSqkCVPR2J6BubbuiGnIuXSP398djINrVzVs2FKZwyz0J6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56160,
+      "createdOn": "2026-02-23T22:49:16.000Z",
+      "comments": [
+        {
+          "text": "EkrxmjGKNrymX735Fcyf2LUBLZoqqkrQIjppesF3szHuwW0X14uYgVUybscEhleUwoYA2zEWA4g",
+          "createdOn": "2026-02-23T22:49:17.000Z",
+          "_id": "699cd96e1c508c5d5ece6564"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd96a1c508c5d5ece635b",
+          "products": [
+            {
+              "_id": "699cd96c1c508c5d5ece636d",
+              "name": "Pizza39656",
+              "amount": 152,
+              "price": 38717,
+              "manufacturer": "Samsung",
+              "notes": "FU442tzaXxutTfsjF4oWFDOaXPfYL9hD43wRUor7ly7fl4QNLFLUoMMc5fFfKTYGX22ONgvrOBCDztfQpElIdY6B0tCbsQhC4cNV2tV49ReSlE2eENStu1SBaLVVftVSowZXsiLO5C1rYlXrciLpyTTk4MskN6uQiIkG7Fyw9pp4TMSdyEFfpzDpQiymvUh1OO739oG4YRkhEz7bzhHmbofPf0WaK027CmAbROZxYi97phyDEcnMBcP3o0",
+              "received": false
+            },
+            {
+              "_id": "699cd96c1c508c5d5ece639b",
+              "name": "Hat57478",
+              "amount": 168,
+              "price": 17443,
+              "manufacturer": "Apple",
+              "notes": "ClI9tG5HvoGrOwLZw4iiv95k3acTTZxaNPZFy6EPhD2bBCFy0UQblnyYncRCVdEoFv7g6HXBghnpdEe1RyxJG2vIJMABRpRx25yF74eF1X6CsCD50ET0KLJEBi5CpmivsSTxkUZ4OncYQzIMmgh8CfakUOIJmFL4RHt0CyYu3huamKSJgjJwr0ZWK8PGvi2L5S4R78cJnEh7iSqkCVPR2J6BubbuiGnIuXSP398djINrVzVs2FKZwyz0J6",
+              "received": false
+            }
+          ],
+          "total_price": 56160,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:49:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

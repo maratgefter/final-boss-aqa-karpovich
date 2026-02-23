@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:49:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-RGody94ShmmqbaWwdyBUTT2IVBY\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9731c508c5d5ece6871",
+        "email": "Jayden_Kiehn@gmail.com",
+        "name": "Kayli Gutkowski",
+        "country": "Belarus",
+        "city": "Princestad",
+        "street": "Maple Street",
+        "house": 26,
+        "flat": 974,
+        "phone": "+17652303575",
+        "createdOn": "2026-02-23T22:49:23.000Z",
+        "notes": "jrAqdCopk66LzCkj4r0HFf6sYN3Tfht6u5pcTPOrVKF5iHU5Q2mJFIVejiBQxllRI2aFSYsuX3IeFyYj4Fcppdzc6L514zqrMg5yxhP6P49PsZUiBVd2wVM1QVMON9NVRw4NgQCFGO5AtfjiEvRxRpDQIKsZX7S82IHhxNxuWfnnNLreMu25PyvOsLO91IYu2uWOQ5clbO6WU3wDThr14yyCy1lJZSDf1W4KXSdBNYgZQPj3rBdFLVmeoF"
+      },
+      "products": [
+        {
+          "_id": "699cd9761c508c5d5ece69f7",
+          "name": "Soap39399",
+          "amount": 583,
+          "price": 92782,
+          "manufacturer": "Tesla",
+          "notes": "XXuKBn9BZYKubwAOZNWtS0C8GoQJJi3eK9JyUrmXaCVeWRTrW05SVpW7csVEhvUIrk8GKhHho1I1VYbvZpTgcShGEFoBmxDJASWDCE5UoP72QnvyE0e8UjLrHXlna2u1N1dhi1ucRhB1CYAgCSvpV2lFPe7mxgo7dHFbyS8LyxV9iPhb1G9S7AnPsNUnPof2tXLxYCXtI8lVeG9SWc2EWmNtJMn0sMWR9uUg6GrjBJ0O5SCvrzcakCoTKG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92782,
+      "createdOn": "2026-02-23T22:49:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9731c508c5d5ece6871",
+          "products": [
+            {
+              "_id": "699cd9761c508c5d5ece69f7",
+              "name": "Soap39399",
+              "amount": 583,
+              "price": 92782,
+              "manufacturer": "Tesla",
+              "notes": "XXuKBn9BZYKubwAOZNWtS0C8GoQJJi3eK9JyUrmXaCVeWRTrW05SVpW7csVEhvUIrk8GKhHho1I1VYbvZpTgcShGEFoBmxDJASWDCE5UoP72QnvyE0e8UjLrHXlna2u1N1dhi1ucRhB1CYAgCSvpV2lFPe7mxgo7dHFbyS8LyxV9iPhb1G9S7AnPsNUnPof2tXLxYCXtI8lVeG9SWc2EWmNtJMn0sMWR9uUg6GrjBJ0O5SCvrzcakCoTKG",
+              "received": false
+            }
+          ],
+          "total_price": 92782,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:49:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9771c508c5d5ece6b7a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

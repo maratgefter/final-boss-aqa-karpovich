@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:52:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3429",
+    "etag": "W/\"d65-HCB+deZV8K57TrFGuwMlfOzF940\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cda1f1c508c5d5ecee89d",
+        "email": "Garret84@gmail.com",
+        "name": "Ulises Blanda",
+        "country": "France",
+        "city": "New Bonnie",
+        "street": "Marquardt Court",
+        "house": 32,
+        "flat": 168,
+        "phone": "+15723069157",
+        "createdOn": "2026-02-23T22:52:15.000Z",
+        "notes": "Be0RPIi4m5D0WaeN2K0tP6VxbPPfbcJstxCZK2nf2UUNudQ9twoWDTlBHale0kBXC48MGJ3IK7PCYZCxI2QzPfIQVcvlNn3xXayOPYWBzfbSAasYrKQWhc7jKusPh66TMEAY5tJJwKinVyadEfKGTi10pNo61ODlbImjsmR7d4F6m4Y71hqqQSh7eOZwPP3KluxxJDpwkHUeETN0ZqFCrUnaEebzmpuEcsuzcWhUzv8hTUt4dqZIB2959k"
+      },
+      "products": [
+        {
+          "_id": "699cda231c508c5d5eceecc2",
+          "name": "Computer43347",
+          "amount": 214,
+          "price": 37118,
+          "manufacturer": "Microsoft",
+          "notes": "5SBO1gehUHsemY5HvUxcbWIDUfjsxJgBAj4KIdr9DPTPy7v4MKiyEQg3Vjc3DmqduOvJEzyvkUNM7aZBco3wtoSjy1bJMlw9DC6Jk8g0Fuj60unespwB9D6UFrKRcFjZLjxGEa4Opd86tW6kyPalWiTO8g1CKhk0qf2fH87GV1pIxdhb2h8C9wai3TNDbErvFbiKUWG4dM1AQmLSxewiVDGr3yHZ51e0pXVK5Ag7rrqxgkcIkAsAFQ4mJl",
+          "received": false
+        },
+        {
+          "_id": "699cda251c508c5d5eceee43",
+          "name": "Towels180",
+          "amount": 679,
+          "price": 24233,
+          "manufacturer": "Microsoft",
+          "notes": "7YR5JQNE1LPbHgQ7aTMdJj6HbeS0CXJwKHpu4aGMwXiKJbvVr4XYe1YehiJi7TgXHi1EgTrGOgjBpKodzvXUnFDuLmyDxSskmGr8NhA5Z39LpgJavXFj1kbikwipZXeIRbF8IxaFwrH0KoN6e80Y9oDxqOgRX60j7roZmXEjScMbvk2f9dj06zK74klA5ELWhm837dSjQmPz1qE208WEHgm2Fcqe7K5RIE3XR1wPJUhDCgeqhjcXeDkuMU",
+          "received": false
+        },
+        {
+          "_id": "699cda271c508c5d5eceefc2",
+          "name": "Fish32175",
+          "amount": 140,
+          "price": 39104,
+          "manufacturer": "Tesla",
+          "notes": "1beLaS9xeq07HalPFSOYWLFPwDLRuxWZaLaBWbDkxNFMQ2AkkChuHhXYvqG2RTNBbAajaVaw5J09ngp0qChyvlnqBtCepSApC6rx4qvbWiYoTXyvHhMDVEjbv5CtyXbku5wJ1JdZDPKtR9ewEsyEhUqWDinVBQvy6rOILgkQgsL8Y429vt8ENh8UCRfHexzD6uOemu1l70mPWbV0a5pzzhZBhdztAWGgwPiTLI5mEgnLUBIvFsf6vBExyU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100455,
+      "createdOn": "2026-02-23T22:52:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cda1f1c508c5d5ecee89d",
+          "products": [
+            {
+              "_id": "699cda231c508c5d5eceecc2",
+              "name": "Computer43347",
+              "amount": 214,
+              "price": 37118,
+              "manufacturer": "Microsoft",
+              "notes": "5SBO1gehUHsemY5HvUxcbWIDUfjsxJgBAj4KIdr9DPTPy7v4MKiyEQg3Vjc3DmqduOvJEzyvkUNM7aZBco3wtoSjy1bJMlw9DC6Jk8g0Fuj60unespwB9D6UFrKRcFjZLjxGEa4Opd86tW6kyPalWiTO8g1CKhk0qf2fH87GV1pIxdhb2h8C9wai3TNDbErvFbiKUWG4dM1AQmLSxewiVDGr3yHZ51e0pXVK5Ag7rrqxgkcIkAsAFQ4mJl",
+              "received": false
+            },
+            {
+              "_id": "699cda251c508c5d5eceee43",
+              "name": "Towels180",
+              "amount": 679,
+              "price": 24233,
+              "manufacturer": "Microsoft",
+              "notes": "7YR5JQNE1LPbHgQ7aTMdJj6HbeS0CXJwKHpu4aGMwXiKJbvVr4XYe1YehiJi7TgXHi1EgTrGOgjBpKodzvXUnFDuLmyDxSskmGr8NhA5Z39LpgJavXFj1kbikwipZXeIRbF8IxaFwrH0KoN6e80Y9oDxqOgRX60j7roZmXEjScMbvk2f9dj06zK74klA5ELWhm837dSjQmPz1qE208WEHgm2Fcqe7K5RIE3XR1wPJUhDCgeqhjcXeDkuMU",
+              "received": false
+            },
+            {
+              "_id": "699cda271c508c5d5eceefc2",
+              "name": "Fish32175",
+              "amount": 140,
+              "price": 39104,
+              "manufacturer": "Tesla",
+              "notes": "1beLaS9xeq07HalPFSOYWLFPwDLRuxWZaLaBWbDkxNFMQ2AkkChuHhXYvqG2RTNBbAajaVaw5J09ngp0qChyvlnqBtCepSApC6rx4qvbWiYoTXyvHhMDVEjbv5CtyXbku5wJ1JdZDPKtR9ewEsyEhUqWDinVBQvy6rOILgkQgsL8Y429vt8ENh8UCRfHexzD6uOemu1l70mPWbV0a5pzzhZBhdztAWGgwPiTLI5mEgnLUBIvFsf6vBExyU",
+              "received": false
+            }
+          ],
+          "total_price": 100455,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:52:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cda2a1c508c5d5ecef010"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

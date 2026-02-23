@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:50:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2671",
+    "etag": "W/\"a6f-ZTNQX6XlLHTymo960X4GvFVKgOE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9a61c508c5d5ece8cdd",
+        "email": "Art_Mante-Prohaska@yahoo.com",
+        "name": "Rylan Parker",
+        "country": "Great Britain",
+        "city": "Kelleyfield",
+        "street": "Alphonso Harbors",
+        "house": 12,
+        "flat": 370,
+        "phone": "+17427043885",
+        "createdOn": "2026-02-23T22:50:14.000Z",
+        "notes": "UlLvmMSmX00CbtaoWxCXDRFzeTKWJO8rtB8wp0qkMZmW9ORXfxOMmms8Sdi6LJfvcBfDwq9jZcYxQnyIM95IM9wiTj0jw6sKSj55byZMAXibhka8bGvkIJQwo5NVEGPGoR0qtC4FFpuXnkXJV25mI9ghMw7djArIveG6xkBulS9QfmCQ988yCT0H1L7d8kCkGUoHR2Yqg8vKYKgzV2mEX2tlswLJfQduy6eabzaHjuXjHiS9lnH7um06Bu"
+      },
+      "products": [
+        {
+          "_id": "699cd9a61c508c5d5ece8cf5",
+          "name": "Cheese59179",
+          "amount": 138,
+          "price": 77371,
+          "manufacturer": "Amazon",
+          "notes": "EcAjfh6CGnofA6kyg13gxTOmDFxTb9L17OmxDL2BqeZ5mVEX0qQTvxgGyCZVOqBuum6p8pTu68qkzwSJGuPRsEp3RVWtmtioEXhfmjqNXhnleFSPljRy8KcqZZfGOizLOkIxuB2h58xrR4uiH57DhqdnlNxSK7L261qrL0mbF0r7HYLFZ2UjFsmIB02K3wMpnsNwDZtfXfFK06Mms6nzBXPIOehmjT3MiBUc0qJijkoBCJsZ4mn70n2mA2",
+          "received": false
+        },
+        {
+          "_id": "699cd9a71c508c5d5ece8d3a",
+          "name": "Keyboard73208",
+          "amount": 929,
+          "price": 30966,
+          "manufacturer": "Sony",
+          "notes": "hguJNNeXZYzvt9Chgi49u3d8j8WxNafpbeB1amoAYahnI2OrtNqT6RqjiE4659nwiXv249cJZGe9zIYeyEepIssZmg7MDxMqMuJVk6SBgYEQYDq5Xd0gii1VprxpzUoYQCNXDjbwyPJBblVNxcpklXiJjTD0k5SqqHFwyDIomkWD9X9xKzwUqwf9mBhTjVGDwphLB3UdthejG7POu1oBV9LwxsA5mB2beaCVrqMc3qrN6IG2f4FK9g2QcU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108337,
+      "createdOn": "2026-02-23T22:50:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9a61c508c5d5ece8cdd",
+          "products": [
+            {
+              "_id": "699cd9a61c508c5d5ece8cf5",
+              "name": "Cheese59179",
+              "amount": 138,
+              "price": 77371,
+              "manufacturer": "Amazon",
+              "notes": "EcAjfh6CGnofA6kyg13gxTOmDFxTb9L17OmxDL2BqeZ5mVEX0qQTvxgGyCZVOqBuum6p8pTu68qkzwSJGuPRsEp3RVWtmtioEXhfmjqNXhnleFSPljRy8KcqZZfGOizLOkIxuB2h58xrR4uiH57DhqdnlNxSK7L261qrL0mbF0r7HYLFZ2UjFsmIB02K3wMpnsNwDZtfXfFK06Mms6nzBXPIOehmjT3MiBUc0qJijkoBCJsZ4mn70n2mA2",
+              "received": false
+            },
+            {
+              "_id": "699cd9a71c508c5d5ece8d3a",
+              "name": "Keyboard73208",
+              "amount": 929,
+              "price": 30966,
+              "manufacturer": "Sony",
+              "notes": "hguJNNeXZYzvt9Chgi49u3d8j8WxNafpbeB1amoAYahnI2OrtNqT6RqjiE4659nwiXv249cJZGe9zIYeyEepIssZmg7MDxMqMuJVk6SBgYEQYDq5Xd0gii1VprxpzUoYQCNXDjbwyPJBblVNxcpklXiJjTD0k5SqqHFwyDIomkWD9X9xKzwUqwf9mBhTjVGDwphLB3UdthejG7POu1oBV9LwxsA5mB2beaCVrqMc3qrN6IG2f4FK9g2QcU",
+              "received": false
+            }
+          ],
+          "total_price": 108337,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:50:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd9a71c508c5d5ece8d6d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

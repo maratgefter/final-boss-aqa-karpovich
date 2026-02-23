@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:49:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-32qf+omUWJw3HH/AEP4OtJvucEE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9641c508c5d5ece5e09",
+        "email": "Bennett.Hamill-Berge18@gmail.com",
+        "name": "Tracey Dicki",
+        "country": "France",
+        "city": "Keiraville",
+        "street": "College Avenue",
+        "house": 28,
+        "flat": 735,
+        "phone": "+19274306663",
+        "createdOn": "2026-02-23T22:49:08.000Z",
+        "notes": "rX6koBMyrFMahiZOFIJhVW1e7L2fgPaSV1NhsSXAYa3d9eXassIAwCQ5gXJknZCLi2XWl20D4FT6r5e9pex8sXw6Iw1iKjLBG45qwHhqfwZojqQY6vxwtyJQYE08mNz4yK9aj0m9ZchrQnROdOpJv4Aoibn45jEqGUG5iqr2U9FbmEoV8FzRtFRGixmmHdfahuYt9TboLMqzg3hknghVsjzGL0pS2MQq7dizkdXWPmJc0q1PpjBTETeg1V"
+      },
+      "products": [
+        {
+          "_id": "699cd9691c508c5d5ece6208",
+          "name": "Computer28766",
+          "amount": 372,
+          "price": 77750,
+          "manufacturer": "Apple",
+          "notes": "e1AOVpv4niRpY30zp1Z6LUQhJe2jqYKJx93DwUnecaUk6sa8W1nEApNdO3o1a098eaStC3OHkSDLcw75TrjZPubZzeX1Ah0EVt53qfYT5fSY1gyPmZwXYl5At8SLQtu48BE3RbZPEfQK4iscDZKOpBMjgRDW0NSnVdlzLdS6a2l9JYOc5aornJHnVkOb7Rj61DsKjMsjL2teFhryBr5wTE4jt6LjiNur3RCS4DZTMZJdGApYlvgHvTE2tC",
+          "received": false
+        },
+        {
+          "_id": "699cd96b1c508c5d5ece6364",
+          "name": "Shirt51214",
+          "amount": 19,
+          "price": 35093,
+          "manufacturer": "Xiaomi",
+          "notes": "4G9z9mL5CzLb5Zr0Ko0aaGlWc5nUwhHIVULxeEngXE6lNhJp9MyTo9PHOxZzASfMic6fiyrAunqmjamIsFj9fZanQFFhGJkrlWk30Ca3cnGxMdYO6bey6L4LmP9dEqCxedcWuQm5xHYtbfCzMpEWsxuYhII2caPLumPopSr08CCqPhDNuvWi8OFodjkJNVBdPThg7r9Shh9AGoaB0mAzYrxWd5J6M5HDksulY758PReaXFb0GFW2MqFA8d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112843,
+      "createdOn": "2026-02-23T22:49:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9641c508c5d5ece5e09",
+          "products": [
+            {
+              "_id": "699cd9691c508c5d5ece6208",
+              "name": "Computer28766",
+              "amount": 372,
+              "price": 77750,
+              "manufacturer": "Apple",
+              "notes": "e1AOVpv4niRpY30zp1Z6LUQhJe2jqYKJx93DwUnecaUk6sa8W1nEApNdO3o1a098eaStC3OHkSDLcw75TrjZPubZzeX1Ah0EVt53qfYT5fSY1gyPmZwXYl5At8SLQtu48BE3RbZPEfQK4iscDZKOpBMjgRDW0NSnVdlzLdS6a2l9JYOc5aornJHnVkOb7Rj61DsKjMsjL2teFhryBr5wTE4jt6LjiNur3RCS4DZTMZJdGApYlvgHvTE2tC",
+              "received": false
+            },
+            {
+              "_id": "699cd96b1c508c5d5ece6364",
+              "name": "Shirt51214",
+              "amount": 19,
+              "price": 35093,
+              "manufacturer": "Xiaomi",
+              "notes": "4G9z9mL5CzLb5Zr0Ko0aaGlWc5nUwhHIVULxeEngXE6lNhJp9MyTo9PHOxZzASfMic6fiyrAunqmjamIsFj9fZanQFFhGJkrlWk30Ca3cnGxMdYO6bey6L4LmP9dEqCxedcWuQm5xHYtbfCzMpEWsxuYhII2caPLumPopSr08CCqPhDNuvWi8OFodjkJNVBdPThg7r9Shh9AGoaB0mAzYrxWd5J6M5HDksulY758PReaXFb0GFW2MqFA8d",
+              "received": false
+            }
+          ],
+          "total_price": 112843,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:49:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699cd96c1c508c5d5ece6393"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

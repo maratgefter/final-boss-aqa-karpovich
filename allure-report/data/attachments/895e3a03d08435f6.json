@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 23 Feb 2026 22:48:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-1lwzKsbvhaRbbfl3tfgMHO/GJjk\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699cd9541c508c5d5ece5433",
+      "status": "Draft",
+      "customer": {
+        "_id": "699cd9531c508c5d5ece53e6",
+        "email": "Josefa_Thompson49@gmail.com",
+        "name": "Lorena Hickle",
+        "country": "USA",
+        "city": "Sheldonshire",
+        "street": "Klocko Parkway",
+        "house": 30,
+        "flat": 426,
+        "phone": "+13898186425",
+        "createdOn": "2026-02-23T22:48:51.000Z",
+        "notes": "3ugRFz9RqMmX19LpFVL1aPVZp1kFSlhpYZbGVTnptoDol3Z6FZj2Pl7JebOTsgnQ0NdSlLonmplZNJ7pM1M44gWAO3ICw2KZojUuKlPgtUnls14fESDSaWMfdY8Vg80VGKekI1MseDj3CCdjbLHBZFi9w3fw2VbJPZaTTgZC8nEK0LBuTiZeoJ4Oi0OkKYTy9Uj4qYBFCdbgpTc9rXjK65LKSDRHc7sym0UpjWRhLmwQtUVTTARQ1fEyFs"
+      },
+      "products": [
+        {
+          "_id": "699cd9541c508c5d5ece540b",
+          "name": "Towels33343",
+          "amount": 103,
+          "price": 68736,
+          "manufacturer": "Sony",
+          "notes": "AiToy041BciOxccONIASBY5HB1GYa08jNqqCHdsRYDelbqMt5q9SkVkvmziLR3EWfg2NvzreBvfAYjGSnMfEBddToM7W6zcthaZ5VhoP4jTgYzUMC0nTZFRBZ7NGX1fLShc4BVLsO34WxUDhMiVex3fLSIBSRbBddIW3wzWU0V6Gyx4OFrlGuQMhuijbrdTOxdch6uqoMLkqExjxJp9pTwHRizA8if2Z299qe6CWom9DXZw5Ir7KX3Vmsl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68736,
+      "createdOn": "2026-02-23T22:48:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699cd9531c508c5d5ece53e6",
+          "products": [
+            {
+              "_id": "699cd9541c508c5d5ece540b",
+              "name": "Towels33343",
+              "amount": 103,
+              "price": 68736,
+              "manufacturer": "Sony",
+              "notes": "AiToy041BciOxccONIASBY5HB1GYa08jNqqCHdsRYDelbqMt5q9SkVkvmziLR3EWfg2NvzreBvfAYjGSnMfEBddToM7W6zcthaZ5VhoP4jTgYzUMC0nTZFRBZ7NGX1fLShc4BVLsO34WxUDhMiVex3fLSIBSRbBddIW3wzWU0V6Gyx4OFrlGuQMhuijbrdTOxdch6uqoMLkqExjxJp9pTwHRizA8if2Z299qe6CWom9DXZw5Ir7KX3Vmsl",
+              "received": false
+            }
+          ],
+          "total_price": 68736,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:48:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699cd9531c508c5d5ece53e6",
+          "products": [
+            {
+              "_id": "699cd9541c508c5d5ece540b",
+              "name": "Towels33343",
+              "amount": 103,
+              "price": 68736,
+              "manufacturer": "Sony",
+              "notes": "AiToy041BciOxccONIASBY5HB1GYa08jNqqCHdsRYDelbqMt5q9SkVkvmziLR3EWfg2NvzreBvfAYjGSnMfEBddToM7W6zcthaZ5VhoP4jTgYzUMC0nTZFRBZ7NGX1fLShc4BVLsO34WxUDhMiVex3fLSIBSRbBddIW3wzWU0V6Gyx4OFrlGuQMhuijbrdTOxdch6uqoMLkqExjxJp9pTwHRizA8if2Z299qe6CWom9DXZw5Ir7KX3Vmsl",
+              "received": false
+            }
+          ],
+          "total_price": 68736,
+          "delivery": null,
+          "changedOn": "2026-02-23T22:48:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
