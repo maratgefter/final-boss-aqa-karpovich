@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:41:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4079",
+    "etag": "W/\"fef-gMeDVvDd9R9vf3RNIVZXWO+Ekog\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699e28fb1c508c5d5ecfec6e",
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28f91c508c5d5ecfebac",
+        "email": "June38@yahoo.com",
+        "name": "Imogene Pouros",
+        "country": "Germany",
+        "city": "Heaneyview",
+        "street": "Stamm Inlet",
+        "house": 42,
+        "flat": 942,
+        "phone": "+18173925286",
+        "createdOn": "2026-02-24T22:40:57.000Z",
+        "notes": "f4uzzEHbWNSQRBA3Owx8t9grmNKO0jzh1qqezRXojHim9J2sQzlKrtPQ14S57QHi9W4EL0sUZyMn0HL88qTeoLQbZEq5At6J6im5thOCGG5aI2njCvNpJHZJTEpqY6YicLz1ynhjaJSCEfeS2qY9OqbfD0RhaebGxpEvdXnE4wxwDF6646B4RsjVcPTlMlULyqSZ8kZnuTqvVgdnCYLUEyHKKmMNBlGzuV1UNLnZjI5h4Rzo2SVBAI12Og"
+      },
+      "products": [
+        {
+          "_id": "699e28fa1c508c5d5ecfebe8",
+          "name": "Soap99369",
+          "amount": 77,
+          "price": 33849,
+          "manufacturer": "Tesla",
+          "notes": "wH4vPAF8pS9MH7q3ov5q9NOajxQcp5YcTZqwV8gMhigApc9AauOqo4ElEFkwVqrVKXLCBKmtBCGn665eMPHwubI6GEG71aJvLGUIv7Xb7xUQ0uOAYufXjz683onogswMzs7vZ3nlfy3YGWI9ifCrDoIvvWtiWtjOB4KBFNggl21Ne3hlL4YoYRPHlf1uWDNjTAalNp7MwE42wjwKc1yU4f1SfbuosCZieFJrm1J30IGhtpfaLWV3bZm42g",
+          "received": false
+        },
+        {
+          "_id": "699e28fb1c508c5d5ecfec17",
+          "name": "Bike77003",
+          "amount": 69,
+          "price": 30149,
+          "manufacturer": "Samsung",
+          "notes": "XO7keklMaMiE354BZLmxKcdR9v4q7fFQJUpZP3cHtxbARO81ESPnK98aAUtKFEJEijPAXlKZhDQpsFoZB70N3mNjI0uoA14x7zhkH8nHmu4vuI1Hg1EB4PW3xQgHTcqAYhQsqlacEdjf6zy13orEowauUG5yrzV0oeOri1C6UaFUKu7zaYig67ehKgKhOUOo4ywUwbpHdvQkfB2lYw6Id44FMEHgRUtDhMGVbn17Xw4jeChasm5dzO2TvZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Heaneyview",
+          "street": "Stamm Inlet",
+          "house": 42,
+          "flat": 942
+        },
+        "finalDate": "2026-02-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 63998,
+      "createdOn": "2026-02-24T22:40:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28f91c508c5d5ecfebac",
+          "products": [
+            {
+              "_id": "699e28fa1c508c5d5ecfebe8",
+              "name": "Soap99369",
+              "amount": 77,
+              "price": 33849,
+              "manufacturer": "Tesla",
+              "notes": "wH4vPAF8pS9MH7q3ov5q9NOajxQcp5YcTZqwV8gMhigApc9AauOqo4ElEFkwVqrVKXLCBKmtBCGn665eMPHwubI6GEG71aJvLGUIv7Xb7xUQ0uOAYufXjz683onogswMzs7vZ3nlfy3YGWI9ifCrDoIvvWtiWtjOB4KBFNggl21Ne3hlL4YoYRPHlf1uWDNjTAalNp7MwE42wjwKc1yU4f1SfbuosCZieFJrm1J30IGhtpfaLWV3bZm42g",
+              "received": false
+            },
+            {
+              "_id": "699e28fb1c508c5d5ecfec17",
+              "name": "Bike77003",
+              "amount": 69,
+              "price": 30149,
+              "manufacturer": "Samsung",
+              "notes": "XO7keklMaMiE354BZLmxKcdR9v4q7fFQJUpZP3cHtxbARO81ESPnK98aAUtKFEJEijPAXlKZhDQpsFoZB70N3mNjI0uoA14x7zhkH8nHmu4vuI1Hg1EB4PW3xQgHTcqAYhQsqlacEdjf6zy13orEowauUG5yrzV0oeOri1C6UaFUKu7zaYig67ehKgKhOUOo4ywUwbpHdvQkfB2lYw6Id44FMEHgRUtDhMGVbn17Xw4jeChasm5dzO2TvZ",
+              "received": false
+            }
+          ],
+          "total_price": 63998,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Heaneyview",
+              "street": "Stamm Inlet",
+              "house": 42,
+              "flat": 942
+            },
+            "finalDate": "2026-02-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-24T22:41:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699e28f91c508c5d5ecfebac",
+          "products": [
+            {
+              "_id": "699e28fa1c508c5d5ecfebe8",
+              "name": "Soap99369",
+              "amount": 77,
+              "price": 33849,
+              "manufacturer": "Tesla",
+              "notes": "wH4vPAF8pS9MH7q3ov5q9NOajxQcp5YcTZqwV8gMhigApc9AauOqo4ElEFkwVqrVKXLCBKmtBCGn665eMPHwubI6GEG71aJvLGUIv7Xb7xUQ0uOAYufXjz683onogswMzs7vZ3nlfy3YGWI9ifCrDoIvvWtiWtjOB4KBFNggl21Ne3hlL4YoYRPHlf1uWDNjTAalNp7MwE42wjwKc1yU4f1SfbuosCZieFJrm1J30IGhtpfaLWV3bZm42g",
+              "received": false
+            },
+            {
+              "_id": "699e28fb1c508c5d5ecfec17",
+              "name": "Bike77003",
+              "amount": 69,
+              "price": 30149,
+              "manufacturer": "Samsung",
+              "notes": "XO7keklMaMiE354BZLmxKcdR9v4q7fFQJUpZP3cHtxbARO81ESPnK98aAUtKFEJEijPAXlKZhDQpsFoZB70N3mNjI0uoA14x7zhkH8nHmu4vuI1Hg1EB4PW3xQgHTcqAYhQsqlacEdjf6zy13orEowauUG5yrzV0oeOri1C6UaFUKu7zaYig67ehKgKhOUOo4ywUwbpHdvQkfB2lYw6Id44FMEHgRUtDhMGVbn17Xw4jeChasm5dzO2TvZ",
+              "received": false
+            }
+          ],
+          "total_price": 63998,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:40:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

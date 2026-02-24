@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:39:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-PwaUvJ7h97Ksxji7yZPalMlnQkI\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28971c508c5d5ecfabb0",
+        "email": "Adrain.Barton@gmail.com",
+        "name": "Ramona Muller",
+        "country": "Canada",
+        "city": "Edytheboro",
+        "street": "Crown Street",
+        "house": 20,
+        "flat": 171,
+        "phone": "+14116239088",
+        "createdOn": "2026-02-24T22:39:19.000Z",
+        "notes": "4CmBSHngYlnjUyQfwqUzNnYuUv0pidHExhL0BFonInrbFW0U6qqDvDaP2BLbA12Ik37nUQu3mvqiYUcqMSlhXCGxHTXmh9EUBGqgoXVLul2XtE9n0M3CeUF9Tzso2BEtEcQuExghe4OsisA7R6oyRXdl7mGnCsPIzkKIKWFhAnmqaTGEzvQUyu6E51Nype5xJyb9cxxKcM1bXevBMrgxSSmkO6VK05WbW0fXEEHNTxNC8tC3yfVS4effG4"
+      },
+      "products": [
+        {
+          "_id": "699e28971c508c5d5ecfabcd",
+          "name": "Fish99552",
+          "amount": 556,
+          "price": 11107,
+          "manufacturer": "Microsoft",
+          "notes": "z0h2m5kGbwiKMrbgWTEBIkCqEY50sTTubLhAFns0oQB9DTAR9vgI7Iy2AJewBt3dUyz3K5YZwyPBgAVfuntTHZksOfhBdcL6RXzP7rlTzylNoKXMAV5HvAQQ31HnTNo5IrhCB4VHK3CFg0YlzaDX9U6nqyuwEuwlpOfBLqmKu2jBUqKXThbThB0CWi5ebKhiGRb8hhnDx2DoKLusFT3vxd4QDtWQUKQE9LyXzEdvRjq6HlymV59wT0zLJi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11107,
+      "createdOn": "2026-02-24T22:39:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28971c508c5d5ecfabb0",
+          "products": [
+            {
+              "_id": "699e28971c508c5d5ecfabcd",
+              "name": "Fish99552",
+              "amount": 556,
+              "price": 11107,
+              "manufacturer": "Microsoft",
+              "notes": "z0h2m5kGbwiKMrbgWTEBIkCqEY50sTTubLhAFns0oQB9DTAR9vgI7Iy2AJewBt3dUyz3K5YZwyPBgAVfuntTHZksOfhBdcL6RXzP7rlTzylNoKXMAV5HvAQQ31HnTNo5IrhCB4VHK3CFg0YlzaDX9U6nqyuwEuwlpOfBLqmKu2jBUqKXThbThB0CWi5ebKhiGRb8hhnDx2DoKLusFT3vxd4QDtWQUKQE9LyXzEdvRjq6HlymV59wT0zLJi",
+              "received": false
+            }
+          ],
+          "total_price": 11107,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:39:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28971c508c5d5ecfabe7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

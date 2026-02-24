@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:40:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-wH9ZFqUriDRJELGxlLK0xrLMB7s\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28bd1c508c5d5ecfc11a",
+        "email": "Wilber_Marks@gmail.com",
+        "name": "Tanya Funk",
+        "country": "Russia",
+        "city": "Lake Ettieberg",
+        "street": "DuBuque Flats",
+        "house": 18,
+        "flat": 68,
+        "phone": "+15763197358",
+        "createdOn": "2026-02-24T22:39:57.000Z",
+        "notes": "hJV7Dz240M4IP5mA5Ct1LBO57eBRwaCGvGGVmX1pGugKycwlRN8wPoktc281zjCaq139azQReeVIPuj2ehmMrmDss3B7S4tKUqvv2S49Yb2jkHPI5AmzxFJ1eUyL8YmKTlNmZ2Mjw25xFSIBfK3iBRtZGVScwhp3kowFjrpeeNR0KFupTUoOTwbz6a9tg4RoUdej6WE7L94F1kVgQ7pqQg6VJadBWy2eLWGDSmArQJOb8Rrn9eK0toMuxv"
+      },
+      "products": [
+        {
+          "_id": "699e28bd1c508c5d5ecfc154",
+          "name": "Table30930",
+          "amount": 713,
+          "price": 8830,
+          "manufacturer": "Apple",
+          "notes": "K8r7GOnZrrmU7C3Kw6PjJDOHeoH5vIeueyLdTad71wKujp7H53oCOzsMtCjGe0EO2MW0ZGcjHEPOuNeioPGzmu2FNefnnF8MQZ8ZTfW9HXckCF8bPGiouOlIy783kIiWzIVAfI29wsqty3XoWMUFBRDfues42oQPhIr5hPtUt97pNntwvSFaX3Eq6F12WaohgdgOy649LCgXN0JlGRMhCZoPNZQDr3qqjMHh50qIw3hzNjGBAIm6iz1t13",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8830,
+      "createdOn": "2026-02-24T22:39:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28bd1c508c5d5ecfc11a",
+          "products": [
+            {
+              "_id": "699e28bd1c508c5d5ecfc154",
+              "name": "Table30930",
+              "amount": 713,
+              "price": 8830,
+              "manufacturer": "Apple",
+              "notes": "K8r7GOnZrrmU7C3Kw6PjJDOHeoH5vIeueyLdTad71wKujp7H53oCOzsMtCjGe0EO2MW0ZGcjHEPOuNeioPGzmu2FNefnnF8MQZ8ZTfW9HXckCF8bPGiouOlIy783kIiWzIVAfI29wsqty3XoWMUFBRDfues42oQPhIr5hPtUt97pNntwvSFaX3Eq6F12WaohgdgOy649LCgXN0JlGRMhCZoPNZQDr3qqjMHh50qIw3hzNjGBAIm6iz1t13",
+              "received": false
+            }
+          ],
+          "total_price": 8830,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:39:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28bf1c508c5d5ecfc2e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

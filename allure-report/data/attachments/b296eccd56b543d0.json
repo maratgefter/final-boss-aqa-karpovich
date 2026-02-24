@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:40:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-ra9nc3xxzBvpm3oXI1/ZqdSiZaM\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28c21c508c5d5ecfc491",
+        "email": "Flavie.Thompson85@hotmail.com",
+        "name": "Travon Hudson",
+        "country": "USA",
+        "city": "Altenwerthtown",
+        "street": "Arnaldo Hills",
+        "house": 47,
+        "flat": 246,
+        "phone": "+17412530420",
+        "createdOn": "2026-02-24T22:40:02.000Z",
+        "notes": "BfF1qhSJdZyasdfwTjyoSCTjyesXExOu4Ii4CoJQ1xqzRGzuQtSEd3Y2mg1xoaqxo0qrhxVLT5hjdpk5Ak2TZZSLs1IKla2XAWztNi5z7nRJtinpGAsD6resUIme5EqJkexHveh7Ta0zb0vMQe91EMbuX0pEX8JRP6mUMp5DafR9RMNUbs9LiUWwMLEGCPh63ZTXxM5a94oJUoubIqIXWLJsbu3pI9tnKneQlTZPmBosSokTiBAJRG3LZe"
+      },
+      "products": [
+        {
+          "_id": "699e28c41c508c5d5ecfc621",
+          "name": "Pizza94273",
+          "amount": 703,
+          "price": 93916,
+          "manufacturer": "Tesla",
+          "notes": "jKvXaIUYzmHSn1GRs3U5NatezYqSGTOmDpIfJFFkEGkVhJHElHw6sNKoNrGcIFAWrk8qT3nT1vJdi1PI4t1PJZQ4JCKITxVumRm26D7TDZZm7QMGBPSnJYTQ3ejCeomLVU3E3y5AjyH5AVhcfppREEWyMPaxDlEGmcgsPpDeF6uZPHfbItdRlKH2paVtR6oGc9Q4Yg0WeicHCmQogcgromyQeFCwTgn2IhlaT9Fs16jOYHkI3owxXGLE0g",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93916,
+      "createdOn": "2026-02-24T22:40:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28c21c508c5d5ecfc491",
+          "products": [
+            {
+              "_id": "699e28c41c508c5d5ecfc621",
+              "name": "Pizza94273",
+              "amount": 703,
+              "price": 93916,
+              "manufacturer": "Tesla",
+              "notes": "jKvXaIUYzmHSn1GRs3U5NatezYqSGTOmDpIfJFFkEGkVhJHElHw6sNKoNrGcIFAWrk8qT3nT1vJdi1PI4t1PJZQ4JCKITxVumRm26D7TDZZm7QMGBPSnJYTQ3ejCeomLVU3E3y5AjyH5AVhcfppREEWyMPaxDlEGmcgsPpDeF6uZPHfbItdRlKH2paVtR6oGc9Q4Yg0WeicHCmQogcgromyQeFCwTgn2IhlaT9Fs16jOYHkI3owxXGLE0g",
+              "received": false
+            }
+          ],
+          "total_price": 93916,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:40:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28c61c508c5d5ecfc7ac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

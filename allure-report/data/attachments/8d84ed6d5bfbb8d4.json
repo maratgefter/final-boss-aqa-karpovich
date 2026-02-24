@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:42:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2676",
+    "etag": "W/\"a74-meT0UNSDxn4ydLViBK6eFzhxcNY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e295c1c508c5d5ed03593",
+        "email": "Jake.Leannon-Fritsch69@gmail.com",
+        "name": "Avery Macejkovic",
+        "country": "Belarus",
+        "city": "North Lisafort",
+        "street": "Walsh Burg",
+        "house": 37,
+        "flat": 891,
+        "phone": "+15439754930",
+        "createdOn": "2026-02-24T22:42:36.000Z",
+        "notes": "JrpeOtcL6a8qRfveFUeKKOuKg7nD4ON4DBuGWGGtuJ447fhsIZDPMSlwdQQS02JHCAfKXemCKnOITXBXTSG6vspVMs75cotUh8aNRLxLhcxJ5xXGskIAOBPBK1GfnrF7pxOaFwgnpECD1BPfRsxBNRJuzyr7fppxmi5P88TakQ6L8NSU9pTYJzQwlhJGp5p1YL7OEeVmHqKoiUlcIJ3rmaHzeJPOhpQRSgeKaTT9pgrSnhEIxYvdyL8F33"
+      },
+      "products": [
+        {
+          "_id": "699e295c1c508c5d5ed035c1",
+          "name": "Chair93582",
+          "amount": 592,
+          "price": 69203,
+          "manufacturer": "Microsoft",
+          "notes": "IVJRNGmhTV7llajxAyM9mMlYhOUQn04mFM4jJAtyYLzRYEgYf9bD1jfJ8AfKwNMYaZTW6aNRIqanX3QvGsQ1jOaCCze0DDeJkvFDuiF9XO8S85y6sfUYRo426gh93bpCM2DG3IJFTEjoxqgxptnWZSPLSMhPZUmb2m4bA75snXNT9sot6lBg3Y0j6hWzjyTalQIhd3vmSkMyeGyiQTcZZZI8uEvYMl3sm5rKnr43RFMHTl7dIHe16u2z4R",
+          "received": false
+        },
+        {
+          "_id": "699e295e1c508c5d5ed03755",
+          "name": "Computer47300",
+          "amount": 924,
+          "price": 69391,
+          "manufacturer": "Tesla",
+          "notes": "4gbakq3bnsIN85wMvcpS1NsdekQTfJQUFcrt52zBUJr2uW4aIznwt39v0CBFmdpKQtrnmxU3WixKtoJ5oqmAJTYmkaOh3kGrDkhEax9r0ZaKCdlWsyDcJUpYCJCEPRT0XIdhcebJJCZ5vbnhaK1ffS28dKCgpaT2C0fUykbda3Fpqpvs4DhVb3B9jQWVK2wuaotUwyX9BJET7VPtuNia6j1dG8v0NN9n2G06ZNjnOge8PWGtRisX7HNZUG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 138594,
+      "createdOn": "2026-02-24T22:42:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e295c1c508c5d5ed03593",
+          "products": [
+            {
+              "_id": "699e295c1c508c5d5ed035c1",
+              "name": "Chair93582",
+              "amount": 592,
+              "price": 69203,
+              "manufacturer": "Microsoft",
+              "notes": "IVJRNGmhTV7llajxAyM9mMlYhOUQn04mFM4jJAtyYLzRYEgYf9bD1jfJ8AfKwNMYaZTW6aNRIqanX3QvGsQ1jOaCCze0DDeJkvFDuiF9XO8S85y6sfUYRo426gh93bpCM2DG3IJFTEjoxqgxptnWZSPLSMhPZUmb2m4bA75snXNT9sot6lBg3Y0j6hWzjyTalQIhd3vmSkMyeGyiQTcZZZI8uEvYMl3sm5rKnr43RFMHTl7dIHe16u2z4R",
+              "received": false
+            },
+            {
+              "_id": "699e295e1c508c5d5ed03755",
+              "name": "Computer47300",
+              "amount": 924,
+              "price": 69391,
+              "manufacturer": "Tesla",
+              "notes": "4gbakq3bnsIN85wMvcpS1NsdekQTfJQUFcrt52zBUJr2uW4aIznwt39v0CBFmdpKQtrnmxU3WixKtoJ5oqmAJTYmkaOh3kGrDkhEax9r0ZaKCdlWsyDcJUpYCJCEPRT0XIdhcebJJCZ5vbnhaK1ffS28dKCgpaT2C0fUykbda3Fpqpvs4DhVb3B9jQWVK2wuaotUwyX9BJET7VPtuNia6j1dG8v0NN9n2G06ZNjnOge8PWGtRisX7HNZUG",
+              "received": false
+            }
+          ],
+          "total_price": 138594,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:42:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e29601c508c5d5ed0390b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

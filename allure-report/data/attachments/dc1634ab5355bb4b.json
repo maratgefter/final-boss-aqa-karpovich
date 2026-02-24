@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:40:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2639",
+    "etag": "W/\"a4f-wlFnVmYPOo+bgqwqTLtETnbtEtk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28bd1c508c5d5ecfc10a",
+        "email": "Easton66@yahoo.com",
+        "name": "Lazaro Ortiz",
+        "country": "Russia",
+        "city": "South Keith",
+        "street": "Gordon Street",
+        "house": 50,
+        "flat": 216,
+        "phone": "+14489919849",
+        "createdOn": "2026-02-24T22:39:57.000Z",
+        "notes": "w3N4eLn8lnDrpmAdPnvKmmyaQyXD7aSyw71HJXB8XI6jH6YdzRNZGgPW9NJtWIeaaTNigseHcvSeSiMryCmWhcMY1WjnzVU4Qd3JZMWzRZ2o58M3cIEgbjbKmay3QuChR2Vr3DbeUOOhwEOV71Qt98oVVzhNGc1d2IDTyFwFD9U0hiEYxM7sNUXMVEe7kKGnm3c3wz9sNynUCwj7GIHjwUr4w3u6hZWtTAmLxm9Es6kFBkqPgTHaQ7I5WL"
+      },
+      "products": [
+        {
+          "_id": "699e28bd1c508c5d5ecfc139",
+          "name": "Car55901",
+          "amount": 380,
+          "price": 75039,
+          "manufacturer": "Amazon",
+          "notes": "B7mN1t0OrtH9bx8IipCiMV9aLmG7GNubfQrath8PiHV5T7k5jPcxPlkZ4rk82rB7OTaqW4Z30sWAEADWPqI8NHC3febh7KMqh9iKB1YwVPTMIqwjBjPPrkVdbBqwP8E8FaMd30czF2QacV21pbuKYjgr0KHfhSpszCDcmE0JmKVITxdhltgKozp6nXCqC5lxyohtwygjIPjqxZn6Lmp3y6cvklToVkkfY7KolG0ttKUO0VyJbqYE44z6I8",
+          "received": false
+        },
+        {
+          "_id": "699e28bd1c508c5d5ecfc157",
+          "name": "Soap52321",
+          "amount": 461,
+          "price": 54735,
+          "manufacturer": "Tesla",
+          "notes": "WJZvTtT7OZYC9r87zV9DsAepBS3DOThxEi4RPjTYUuCAcqwkd6D570hN2LTHSR1nKxAMRMn2EAoj2jZht6N0yMAlJVPWzNkdHdRV89b35PexnyxGTXR2rsXrnmPVWMRD7S4f4E8aFIbUopDRbQgRcIGuw9QsP5xHPK2slGDA2raJ8XAkiGqgiaXARx0vjz786wWsii7cNuQGtqNu8TKT9LsoDJ7K9zHEYDQm4GwDQxVMPECTuWC97ysMVG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129774,
+      "createdOn": "2026-02-24T22:39:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28bd1c508c5d5ecfc10a",
+          "products": [
+            {
+              "_id": "699e28bd1c508c5d5ecfc139",
+              "name": "Car55901",
+              "amount": 380,
+              "price": 75039,
+              "manufacturer": "Amazon",
+              "notes": "B7mN1t0OrtH9bx8IipCiMV9aLmG7GNubfQrath8PiHV5T7k5jPcxPlkZ4rk82rB7OTaqW4Z30sWAEADWPqI8NHC3febh7KMqh9iKB1YwVPTMIqwjBjPPrkVdbBqwP8E8FaMd30czF2QacV21pbuKYjgr0KHfhSpszCDcmE0JmKVITxdhltgKozp6nXCqC5lxyohtwygjIPjqxZn6Lmp3y6cvklToVkkfY7KolG0ttKUO0VyJbqYE44z6I8",
+              "received": false
+            },
+            {
+              "_id": "699e28bd1c508c5d5ecfc157",
+              "name": "Soap52321",
+              "amount": 461,
+              "price": 54735,
+              "manufacturer": "Tesla",
+              "notes": "WJZvTtT7OZYC9r87zV9DsAepBS3DOThxEi4RPjTYUuCAcqwkd6D570hN2LTHSR1nKxAMRMn2EAoj2jZht6N0yMAlJVPWzNkdHdRV89b35PexnyxGTXR2rsXrnmPVWMRD7S4f4E8aFIbUopDRbQgRcIGuw9QsP5xHPK2slGDA2raJ8XAkiGqgiaXARx0vjz786wWsii7cNuQGtqNu8TKT9LsoDJ7K9zHEYDQm4GwDQxVMPECTuWC97ysMVG",
+              "received": false
+            }
+          ],
+          "total_price": 129774,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:39:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28bf1c508c5d5ecfc2e9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

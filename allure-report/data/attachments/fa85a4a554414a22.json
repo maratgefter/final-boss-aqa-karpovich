@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:43:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-RNyDB4aFid8bsSXhGlQ9zj6nk70\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699e297e1c508c5d5ed05096",
+      "status": "Draft",
+      "customer": {
+        "_id": "699e29711c508c5d5ed0463a",
+        "email": "Delphia_Treutel50@yahoo.com",
+        "name": "Stan Hand",
+        "country": "Canada",
+        "city": "Stellaburgh",
+        "street": "Rippin Port",
+        "house": 12,
+        "flat": 814,
+        "phone": "+13689924201",
+        "createdOn": "2026-02-24T22:42:57.000Z",
+        "notes": "9GHL4yvZPdN0iCNUeTXPcK8hga8RlHYCmqBGQWRtlGRrocOH9Zik1fS53xDdXRjqWqgE1hGvLWklVviFLIHPXNuDOXMcMzk2B0mG66v2sqCLLUj7JML44z37ypCDnVlX3hD5Ru71Q3QWpU1WFzxqqTUjtVUXSlG385sGwsY0nknYz54pTlVBNAOOpYbcj0SDvj5bY21edcsgshshjeC8RJgw48u0VsAdo4HOvJlU8QYBwoSBEMfFd5yxRp"
+      },
+      "products": [
+        {
+          "_id": "699e297a1c508c5d5ed04d7f",
+          "name": "Tuna98913",
+          "amount": 627,
+          "price": 45559,
+          "manufacturer": "Tesla",
+          "notes": "a15D0A3x913TNA0m0oYXbCDPzsEztZXnOCxjPK3FL0IndW7IUZP8H703ciwibhaSiiC3jqxaZ3otOJtpOu5TSIctfe2VBvudXRIkzf71mtNlC9SFfgHqG2zs8vzZrgVeQr9EQPS4DOTdXpMAGFUZemuE70hKhK7ksuwowMTB8c6DhGRKVrjfibAHUIv76qtwFZXUUe6diBfDu15JvSdROUhLCnQcahCffPDqy8u1j6XhGrjeE30jZyjv8P",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Stellaburgh",
+          "street": "Rippin Port",
+          "house": 12,
+          "flat": 814
+        },
+        "finalDate": "2026-02-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 45559,
+      "createdOn": "2026-02-24T22:43:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e29711c508c5d5ed0463a",
+          "products": [
+            {
+              "_id": "699e297a1c508c5d5ed04d7f",
+              "name": "Tuna98913",
+              "amount": 627,
+              "price": 45559,
+              "manufacturer": "Tesla",
+              "notes": "a15D0A3x913TNA0m0oYXbCDPzsEztZXnOCxjPK3FL0IndW7IUZP8H703ciwibhaSiiC3jqxaZ3otOJtpOu5TSIctfe2VBvudXRIkzf71mtNlC9SFfgHqG2zs8vzZrgVeQr9EQPS4DOTdXpMAGFUZemuE70hKhK7ksuwowMTB8c6DhGRKVrjfibAHUIv76qtwFZXUUe6diBfDu15JvSdROUhLCnQcahCffPDqy8u1j6XhGrjeE30jZyjv8P",
+              "received": false
+            }
+          ],
+          "total_price": 45559,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Stellaburgh",
+              "street": "Rippin Port",
+              "house": 12,
+              "flat": 814
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-24T22:43:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699e29711c508c5d5ed0463a",
+          "products": [
+            {
+              "_id": "699e297a1c508c5d5ed04d7f",
+              "name": "Tuna98913",
+              "amount": 627,
+              "price": 45559,
+              "manufacturer": "Tesla",
+              "notes": "a15D0A3x913TNA0m0oYXbCDPzsEztZXnOCxjPK3FL0IndW7IUZP8H703ciwibhaSiiC3jqxaZ3otOJtpOu5TSIctfe2VBvudXRIkzf71mtNlC9SFfgHqG2zs8vzZrgVeQr9EQPS4DOTdXpMAGFUZemuE70hKhK7ksuwowMTB8c6DhGRKVrjfibAHUIv76qtwFZXUUe6diBfDu15JvSdROUhLCnQcahCffPDqy8u1j6XhGrjeE30jZyjv8P",
+              "received": false
+            }
+          ],
+          "total_price": 45559,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:43:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

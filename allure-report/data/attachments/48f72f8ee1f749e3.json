@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:39:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-V8DEDgrBNBjxtlMXWj1n2OBzCh4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28bd1c508c5d5ecfc107",
+        "email": "Antonietta15@hotmail.com",
+        "name": "Precious Balistreri",
+        "country": "Great Britain",
+        "city": "Mistyborough",
+        "street": "Poplar Avenue",
+        "house": 50,
+        "flat": 207,
+        "phone": "+16218005167",
+        "createdOn": "2026-02-24T22:39:57.000Z",
+        "notes": "fZEe5DpmJvQPmkvYI0AfqVTbu5soy6M5jq1ueZcCC9ipzA5mbFiYaejJqALIwZzT19WS9mEG9eAsFmyPE5zUf4LCQTIHhYKUJlQXwDOTaawt9g1JCvon7DTlx869tcAGteGoFaLMRVdJNB4hNajhUT9dmJ1rxkCwbyaQuV47YdJ99k2aDvgsAPfCmhtrCEJYLeyI2EJUGGCqo48GDNiUdEsyzKebWg3ncxvKGmC0FivnBsaR5e2G1CH5Ov"
+      },
+      "products": [
+        {
+          "_id": "699e28bd1c508c5d5ecfc133",
+          "name": "Hat28379",
+          "amount": 100,
+          "price": 83879,
+          "manufacturer": "Tesla",
+          "notes": "GKUTZl8rGaYGf0UaMRI7tiKen25brviad4oB79hi2n3d6b2u5TMnXf3Bh6ASsHFoz6Ytz6Dqoffs0aoIP8SKlbwFJ86rXkVAFmbHDQZ5c8EiOucreON444VDrLFerGhszAt8iL8snLIelkqVvZf4rT5o1TVusVfJvzpDTaheoN9rgZjGNqW61I68sjBBEXZWNhkDJLskYM1fnk2fl3pZUGXbrs9pyGUFT2heR16i73YyZLmQ1wdPF8H9Fu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83879,
+      "createdOn": "2026-02-24T22:39:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28bd1c508c5d5ecfc107",
+          "products": [
+            {
+              "_id": "699e28bd1c508c5d5ecfc133",
+              "name": "Hat28379",
+              "amount": 100,
+              "price": 83879,
+              "manufacturer": "Tesla",
+              "notes": "GKUTZl8rGaYGf0UaMRI7tiKen25brviad4oB79hi2n3d6b2u5TMnXf3Bh6ASsHFoz6Ytz6Dqoffs0aoIP8SKlbwFJ86rXkVAFmbHDQZ5c8EiOucreON444VDrLFerGhszAt8iL8snLIelkqVvZf4rT5o1TVusVfJvzpDTaheoN9rgZjGNqW61I68sjBBEXZWNhkDJLskYM1fnk2fl3pZUGXbrs9pyGUFT2heR16i73YyZLmQ1wdPF8H9Fu",
+              "received": false
+            }
+          ],
+          "total_price": 83879,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:39:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28bf1c508c5d5ecfc2c3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:43:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-41J8kCFyLun5Qf02UK7N4gO7Oo8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699e29921c508c5d5ed061e8",
+      "status": "Draft",
+      "customer": {
+        "_id": "699e298a1c508c5d5ed058ea",
+        "email": "Izaiah_Erdman@yahoo.com",
+        "name": "Andres Langworth",
+        "country": "USA",
+        "city": "Eldridgeboro",
+        "street": "Zieme Extensions",
+        "house": 13,
+        "flat": 123,
+        "phone": "+13576699186",
+        "createdOn": "2026-02-24T22:43:22.000Z",
+        "notes": "jO0TV8KW7UakN8usTEVkv5GTpqIvdsQubkFN5M8pRHQx4jskQJuuMEKLWgMbjN9j42MPZBmB2ttyRz6zqYqOxw7DxUBVDWoQCC5oM3FQDeTE6YqZTHpeUPksnylAVfWWbEeUKtyp4X9JQgZFlyrXIz5RFzqRd47SIw4JMo3v8gAUgMwlUUM7ascxEVn9kp5bGNQBF6Q7MLVHDfOWQ2gX1gFGaZ01N3VdPLFF4a20uhnVi3o0IdRvVHaxeF"
+      },
+      "products": [
+        {
+          "_id": "699e298f1c508c5d5ed05be4",
+          "name": "Tuna75384",
+          "amount": 623,
+          "price": 16128,
+          "manufacturer": "Microsoft",
+          "notes": "Wgs0RsX8Q3nXY65PaUMurFxTlhipyd7XDfacVwA83P16IL4P6ShbzGnWNKUepMC5iukrSzKlpMvbL7CyXq4gqKms7QmJgb3tGNYkd9ylvYzDOGcYN95JgvZsa2qaGzIPlM6iSGYvCLAASMnBmDdg399T5JesxWDncFKxLHSinHhh5zI7WHLevOmOoNMrFqk91xLIxGzQFBd57fqTDIQfzzJN7e5soNPe6tIRIua2Dmfb1iU3eVGER4LGI0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Eldridgeboro",
+          "street": "Zieme Extensions",
+          "house": 13,
+          "flat": 123
+        },
+        "finalDate": "2026-02-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 16128,
+      "createdOn": "2026-02-24T22:43:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e298a1c508c5d5ed058ea",
+          "products": [
+            {
+              "_id": "699e298f1c508c5d5ed05be4",
+              "name": "Tuna75384",
+              "amount": 623,
+              "price": 16128,
+              "manufacturer": "Microsoft",
+              "notes": "Wgs0RsX8Q3nXY65PaUMurFxTlhipyd7XDfacVwA83P16IL4P6ShbzGnWNKUepMC5iukrSzKlpMvbL7CyXq4gqKms7QmJgb3tGNYkd9ylvYzDOGcYN95JgvZsa2qaGzIPlM6iSGYvCLAASMnBmDdg399T5JesxWDncFKxLHSinHhh5zI7WHLevOmOoNMrFqk91xLIxGzQFBd57fqTDIQfzzJN7e5soNPe6tIRIua2Dmfb1iU3eVGER4LGI0",
+              "received": false
+            }
+          ],
+          "total_price": 16128,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Eldridgeboro",
+              "street": "Zieme Extensions",
+              "house": 13,
+              "flat": 123
+            },
+            "finalDate": "2026-02-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-24T22:43:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699e298a1c508c5d5ed058ea",
+          "products": [
+            {
+              "_id": "699e298f1c508c5d5ed05be4",
+              "name": "Tuna75384",
+              "amount": 623,
+              "price": 16128,
+              "manufacturer": "Microsoft",
+              "notes": "Wgs0RsX8Q3nXY65PaUMurFxTlhipyd7XDfacVwA83P16IL4P6ShbzGnWNKUepMC5iukrSzKlpMvbL7CyXq4gqKms7QmJgb3tGNYkd9ylvYzDOGcYN95JgvZsa2qaGzIPlM6iSGYvCLAASMnBmDdg399T5JesxWDncFKxLHSinHhh5zI7WHLevOmOoNMrFqk91xLIxGzQFBd57fqTDIQfzzJN7e5soNPe6tIRIua2Dmfb1iU3eVGER4LGI0",
+              "received": false
+            }
+          ],
+          "total_price": 16128,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:43:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

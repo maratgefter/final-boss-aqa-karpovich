@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 24 Feb 2026 22:39:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-hzxqpa/1zXCXuplFHMhCChM47Tg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699e28a21c508c5d5ecfb108",
+        "email": "Lamont_Wehner73@yahoo.com",
+        "name": "Aurelio Bednar",
+        "country": "Ukraine",
+        "city": "Miami Beach",
+        "street": "Doyle Expressway",
+        "house": 12,
+        "flat": 28,
+        "phone": "+15692943776",
+        "createdOn": "2026-02-24T22:39:30.000Z",
+        "notes": "0BqAReRkqfJqxmkZWBRUEPkPsMpfruBoGjlgbBkMsvfdUpQ6tlvB2Ht9SDREcZK9dIKLmBHbTroiMhGfBaYI3f4hQTleR266TPiNBGHnjeZ1EVkHnTRW7MYSzCR4hFhWW1iLLPsqwpPisPxejDJLGU24ZE0vGnftpqeaUOxF9Z9ZNcuIE2lrsRCCauARPW7oMbegFxEP87UKN4iEKhn1SIRs20GEmTMtLPGK2tvujHPYRDjcwS9X1B2GPr"
+      },
+      "products": [
+        {
+          "_id": "699e28a21c508c5d5ecfb14b",
+          "name": "Keyboard45133",
+          "amount": 378,
+          "price": 37147,
+          "manufacturer": "Microsoft",
+          "notes": "J7gSLlI7hAejFw3LxwcWGANxYH96Nfms4NO160rZD7mvLtI8EKYweHJLRPNJ5juUwIUsk0iAV2TuI55CLUfArLSIDu6k9sYHToA1ftRCRMIXk12dpfqPDS16yNeeMBo11kNaSOcFDEjhZcCwl41qAVQI1ImTWOpEYJZZjb9FF9AmpNK1jUHH7FPli8cdo5GeEMoTctzNxmC5b2WFrkZ8fiVQkOlpvYsz17iMRhEW61OKNglqlZQSZjmCBB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37147,
+      "createdOn": "2026-02-24T22:39:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699e28a21c508c5d5ecfb108",
+          "products": [
+            {
+              "_id": "699e28a21c508c5d5ecfb14b",
+              "name": "Keyboard45133",
+              "amount": 378,
+              "price": 37147,
+              "manufacturer": "Microsoft",
+              "notes": "J7gSLlI7hAejFw3LxwcWGANxYH96Nfms4NO160rZD7mvLtI8EKYweHJLRPNJ5juUwIUsk0iAV2TuI55CLUfArLSIDu6k9sYHToA1ftRCRMIXk12dpfqPDS16yNeeMBo11kNaSOcFDEjhZcCwl41qAVQI1ImTWOpEYJZZjb9FF9AmpNK1jUHH7FPli8cdo5GeEMoTctzNxmC5b2WFrkZ8fiVQkOlpvYsz17iMRhEW61OKNglqlZQSZjmCBB",
+              "received": false
+            }
+          ],
+          "total_price": 37147,
+          "delivery": null,
+          "changedOn": "2026-02-24T22:39:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699e28a41c508c5d5ecfb2c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
