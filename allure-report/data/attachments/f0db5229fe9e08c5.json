@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:41:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3432",
+    "etag": "W/\"d68-rKMmp+fUKUhGBzu75ztPEjjiT4c\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a851c508c5d5ed1559d",
+        "email": "Zachery.Turcotte@gmail.com",
+        "name": "Mattie Schuster",
+        "country": "USA",
+        "city": "Port Chasitycester",
+        "street": "S Lincoln Street",
+        "house": 8,
+        "flat": 967,
+        "phone": "+12065483136",
+        "createdOn": "2026-02-25T22:41:09.000Z",
+        "notes": "YXwfDieLlGnXmyxJH8kCjDCJPGlUboDWLyTx1yBHjqJgqqd5fdBM5ho6IGQPunkKiC3rRebsLuRlDAA8Rm8ftJdOpZbWZWDctINuzlT9bisAmm5uNnnglMMrgA58TcDNHjSXiY84CaJY9M7q2cYxDAd3huusCkI2QeKQUym0ymZuvoKDVxBefK0HJ4FXdSNiRAP2PkNRb1jBQp1hZLZkTNgEFLZ8e6LA9pt7aeK2spnqaV7HkpLjAmwTle"
+      },
+      "products": [
+        {
+          "_id": "699f7a851c508c5d5ed155bd",
+          "name": "Chair37033",
+          "amount": 988,
+          "price": 60415,
+          "manufacturer": "Amazon",
+          "notes": "mJ2rRMOy1CjNZltgVfD8o3jK1D6Fvnlb65jMvTje7xJkN6J8rP1gZyOM7IlH56cwZsK42JcnP65BjYnlZUM6CVrGbS5aQYG0rI1mswQt3wlMvW9EXiGNuWdhbIEMz7HfjLJYnEKFuKTqMgkJcV3iYBsHiT3n1NFxmbD3pIpxmgawRiu2vbWnWxN3Rsag56PnCceEO3pC3tm3GYTw1ga3zW1O1nfEMOJ1qtt2MOkDqYEzjAUfC2eaTD3qQm",
+          "received": false
+        },
+        {
+          "_id": "699f7a861c508c5d5ed155f5",
+          "name": "Shirt55695",
+          "amount": 100,
+          "price": 6014,
+          "manufacturer": "Samsung",
+          "notes": "gEXIADbMzqmqykEJbVFiyYVN7Sk12p15F14XQAexGjVdLSZcSxz2DQDPPfWHhmt8MahP4VoNifUqX6Gg5xaDJIx1ik26x4JgOype07nEQjXqy1IsphJiMUgH5DqKAPmz0rk9bHnTOeWHkmdSESKcwvadap5EZm32gH0XLbW661uPOhlejYK7Sy2SK1f39425HucVa03ijWDrIpBhAi6kp7zizbL99UpBWGoofEewzAtRuASYapUsRkip7h",
+          "received": false
+        },
+        {
+          "_id": "699f7a861c508c5d5ed15617",
+          "name": "Shirt72184",
+          "amount": 722,
+          "price": 47752,
+          "manufacturer": "Xiaomi",
+          "notes": "Qh38ucIGzJYUptii5YYoMjuuD7hcpDwZHpfuTtSdIDTMoVDy0rrMIqZ2GGUY1bbil8UJff5fSgOZ1Nz03Vso4GK8wRDGu0fXXQdTTYfcrHS8hr8gCy9B8ZcaBuCyrMXSk7XKqgS545Rwj3lopPrm7nOubnVpPjT94iTHClavmw2Tx2dHF4VdvC8Ut0HkHqk4Xksuo6pYFodow9guliMVT2WAaV2wIWYJkUkaq8WbPgAfbNVIrXvFsoyQum",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114181,
+      "createdOn": "2026-02-25T22:41:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a851c508c5d5ed1559d",
+          "products": [
+            {
+              "_id": "699f7a851c508c5d5ed155bd",
+              "name": "Chair37033",
+              "amount": 988,
+              "price": 60415,
+              "manufacturer": "Amazon",
+              "notes": "mJ2rRMOy1CjNZltgVfD8o3jK1D6Fvnlb65jMvTje7xJkN6J8rP1gZyOM7IlH56cwZsK42JcnP65BjYnlZUM6CVrGbS5aQYG0rI1mswQt3wlMvW9EXiGNuWdhbIEMz7HfjLJYnEKFuKTqMgkJcV3iYBsHiT3n1NFxmbD3pIpxmgawRiu2vbWnWxN3Rsag56PnCceEO3pC3tm3GYTw1ga3zW1O1nfEMOJ1qtt2MOkDqYEzjAUfC2eaTD3qQm",
+              "received": false
+            },
+            {
+              "_id": "699f7a861c508c5d5ed155f5",
+              "name": "Shirt55695",
+              "amount": 100,
+              "price": 6014,
+              "manufacturer": "Samsung",
+              "notes": "gEXIADbMzqmqykEJbVFiyYVN7Sk12p15F14XQAexGjVdLSZcSxz2DQDPPfWHhmt8MahP4VoNifUqX6Gg5xaDJIx1ik26x4JgOype07nEQjXqy1IsphJiMUgH5DqKAPmz0rk9bHnTOeWHkmdSESKcwvadap5EZm32gH0XLbW661uPOhlejYK7Sy2SK1f39425HucVa03ijWDrIpBhAi6kp7zizbL99UpBWGoofEewzAtRuASYapUsRkip7h",
+              "received": false
+            },
+            {
+              "_id": "699f7a861c508c5d5ed15617",
+              "name": "Shirt72184",
+              "amount": 722,
+              "price": 47752,
+              "manufacturer": "Xiaomi",
+              "notes": "Qh38ucIGzJYUptii5YYoMjuuD7hcpDwZHpfuTtSdIDTMoVDy0rrMIqZ2GGUY1bbil8UJff5fSgOZ1Nz03Vso4GK8wRDGu0fXXQdTTYfcrHS8hr8gCy9B8ZcaBuCyrMXSk7XKqgS545Rwj3lopPrm7nOubnVpPjT94iTHClavmw2Tx2dHF4VdvC8Ut0HkHqk4Xksuo6pYFodow9guliMVT2WAaV2wIWYJkUkaq8WbPgAfbNVIrXvFsoyQum",
+              "received": false
+            }
+          ],
+          "total_price": 114181,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:41:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a871c508c5d5ed15657"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-d51tGmKh4k4l1j6EOt6wu58MoSA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a1e1c508c5d5ed10d9f",
+        "email": "Maiya.Nader@gmail.com",
+        "name": "Tremayne Dickens",
+        "country": "Great Britain",
+        "city": "North Teresa",
+        "street": "Afton Causeway",
+        "house": 12,
+        "flat": 321,
+        "phone": "+19553956940",
+        "createdOn": "2026-02-25T22:39:26.000Z",
+        "notes": "6j3jXP75ZI8YVOrjiZGn7O0CqiCsQj8l21QUuxVBLi8z8Y0VGNNu0q16H7PkBipyt2T8l7ntfXBLzZpYhoj2wAeLCUDg91Pvg1B5AugZnYAT9dNmZXn440ayDbIlo5EHjXrjgy93gcYlxisB879tpY3ZkZ1Az0KI1h822oqDIP4vlMa3CYsxBVA9uTmqQyvYF4fzEufsFqYzdMeSVCgMj8SRgjjvnLmO7Tmkiz17IAISqe64jgEHvg02e1"
+      },
+      "products": [
+        {
+          "_id": "699f7a1e1c508c5d5ed10dc9",
+          "name": "Bacon85406",
+          "amount": 353,
+          "price": 3076,
+          "manufacturer": "Apple",
+          "notes": "PMyK0sko3fs6CreOuX9H8NxFV1oA3GsySFpf3JyA4GOi8gVi4yaQkE6QcddUeJ9UrsHScaTwzGwEio7W5INVbeTzwJxh5NUNeACWd7na5Qb1wtzsEEm9qCVTIwMGo2DxPYopQ7mH3pni6k6njYm0JvLewc0UgnJueUv4p24FImqwoKEzF486ks5U4ijRcFXqCjiijoOInji0tefNcNmHkhxGWAaXL6gUDlShuFbRPvNQyx9h5P2Znasm54",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3076,
+      "createdOn": "2026-02-25T22:39:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a1e1c508c5d5ed10d9f",
+          "products": [
+            {
+              "_id": "699f7a1e1c508c5d5ed10dc9",
+              "name": "Bacon85406",
+              "amount": 353,
+              "price": 3076,
+              "manufacturer": "Apple",
+              "notes": "PMyK0sko3fs6CreOuX9H8NxFV1oA3GsySFpf3JyA4GOi8gVi4yaQkE6QcddUeJ9UrsHScaTwzGwEio7W5INVbeTzwJxh5NUNeACWd7na5Qb1wtzsEEm9qCVTIwMGo2DxPYopQ7mH3pni6k6njYm0JvLewc0UgnJueUv4p24FImqwoKEzF486ks5U4ijRcFXqCjiijoOInji0tefNcNmHkhxGWAaXL6gUDlShuFbRPvNQyx9h5P2Znasm54",
+              "received": false
+            }
+          ],
+          "total_price": 3076,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a1f1c508c5d5ed10e03"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

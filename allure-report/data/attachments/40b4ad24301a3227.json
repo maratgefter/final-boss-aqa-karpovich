@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-YpegOh6GFvnDPLTt69GvM8UukkM\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a1e1c508c5d5ed10dbc",
+        "email": "Gracie_Kemmer98@hotmail.com",
+        "name": "Elinore Block",
+        "country": "USA",
+        "city": "Candaceburgh",
+        "street": "W 14th Street",
+        "house": 13,
+        "flat": 977,
+        "phone": "+19196988155",
+        "createdOn": "2026-02-25T22:39:26.000Z",
+        "notes": "L2CuyYi9MG7L8EYUewYVu65XiS8Ofj90f1mPwYxlg2TAE633guCYCtp1G0T9ioDLRlkkq0oaF25WOBJ0KUWAKF2RbrHMsMHAChGyBMehQ0og9xUM9fJ3PSR95Swg17dzf31M5CrKNgwegnieHQkipb2OzJY7SDT7Nihwry9r9fLbyB0udeqWuvKEyFZ8iS2l8Wkr9FWdh7cLXHbcIGjSLa8cGgfpv8G54LxSsEZlANxOKMfTO8JaFCripM"
+      },
+      "products": [
+        {
+          "_id": "699f7a1e1c508c5d5ed10ddc",
+          "name": "Fish26667",
+          "amount": 630,
+          "price": 54134,
+          "manufacturer": "Samsung",
+          "notes": "kFM2PLxvajVRNNCNW1ZJPtr0IzzBR7qSBj9OILVHqR2QZN4xPGI9tES61bPRVhHKYJA7MdCKquRwDiROJt1FyKqAoKUA89WBraYDVITaQ9z9IkJxqcGi1HFDCLpp5t0oVcIEZtpJ4MQbjksQmLc1qBKJQb8WVqFAZkNXOtrbWjpRuPAySWorcRk6D3UII3QsNnKWgXKTMMwro0RX4Di7bq5FzVeU3lwhM67ShI8Dbth85RoLxapu7AbP7J",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54134,
+      "createdOn": "2026-02-25T22:39:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a1e1c508c5d5ed10dbc",
+          "products": [
+            {
+              "_id": "699f7a1e1c508c5d5ed10ddc",
+              "name": "Fish26667",
+              "amount": 630,
+              "price": 54134,
+              "manufacturer": "Samsung",
+              "notes": "kFM2PLxvajVRNNCNW1ZJPtr0IzzBR7qSBj9OILVHqR2QZN4xPGI9tES61bPRVhHKYJA7MdCKquRwDiROJt1FyKqAoKUA89WBraYDVITaQ9z9IkJxqcGi1HFDCLpp5t0oVcIEZtpJ4MQbjksQmLc1qBKJQb8WVqFAZkNXOtrbWjpRuPAySWorcRk6D3UII3QsNnKWgXKTMMwro0RX4Di7bq5FzVeU3lwhM67ShI8Dbth85RoLxapu7AbP7J",
+              "received": false
+            }
+          ],
+          "total_price": 54134,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a1f1c508c5d5ed10e05"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

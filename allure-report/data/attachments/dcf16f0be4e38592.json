@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:40:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-a/6no7Ao+Xx75qMpWqs6S1TZKHg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a3e1c508c5d5ed121ba",
+        "email": "Paul88@hotmail.com",
+        "name": "Harrison Kautzer",
+        "country": "Great Britain",
+        "city": "North Demariochester",
+        "street": "Wuckert Forge",
+        "house": 31,
+        "flat": 11,
+        "phone": "+16305234709",
+        "createdOn": "2026-02-25T22:39:58.000Z",
+        "notes": "s0VnOXl1m1XFzeEoeC2bogX3glIuEYkIeVmbVu2tmIqJxzo9kCz7AxyMgcmmBBjkLIMxOzF1fL35jqkumuuduJ2x1Tqt8Ep20IgMaEp1zAetS6P57Wkf29U2E46dLpWzGc3gt8bYASHfNc0twEvTnV1z0Sjk1RZDskQtgcinP0f6DS0pZ9gMFDUqoFmdzHQQ6CLchvBz0gJcGYw6VOBvUJseGkYuWP2pXLpPQbElWgR0rSfqc2pTEv5cAg"
+      },
+      "products": [
+        {
+          "_id": "699f7a3e1c508c5d5ed121d5",
+          "name": "Chips39809",
+          "amount": 56,
+          "price": 30771,
+          "manufacturer": "Amazon",
+          "notes": "6aFKCeCyERabzFOOdr8p2WPTgo8W5ccoC1fYaTKmz3BV4x9QsjmP2lnWShbfnsjBAcZeBPO4Guz5b0qRDlYeLV8uedpIxqK9FhRerLEfy6xFYOwAPevThtLTxR4kgyoNxK5XrgxHURRYS1z6LdG8UPJhEV3buwxT6R6aNEmAOjcaa0KPhvxcUl8ltsyGlS1tCPAPqjGhKMpZAALb9GykAe9T90sfWpuA1OU1cJBnfJmAuKgwSr6RfpSC6h",
+          "received": false
+        },
+        {
+          "_id": "699f7a401c508c5d5ed12376",
+          "name": "Table98087",
+          "amount": 163,
+          "price": 74839,
+          "manufacturer": "Sony",
+          "notes": "8AnUuwTInFpdE3mfOEWnKeAk2MC7m4iMcIeGRmz2VlOli32SQdAlDcIpKtYElFmzsuFsbw3GDCG3l8D7ejmjSfsutbZ5A5psNbYcnoiYMtnMWud7lvtsih5iqDr0R70tAk76uOVeOqufHdkh0gtHJHm6AgmWUiXfs3uUGXzGNddzrR6EoDxIhudypJxiazwpTqX8Nw5ZTtdr5afIuzzCi8oW3rBoW2L7dc7M4rWVzbo3YQleUBguUg4wKG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105610,
+      "createdOn": "2026-02-25T22:40:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a3e1c508c5d5ed121ba",
+          "products": [
+            {
+              "_id": "699f7a3e1c508c5d5ed121d5",
+              "name": "Chips39809",
+              "amount": 56,
+              "price": 30771,
+              "manufacturer": "Amazon",
+              "notes": "6aFKCeCyERabzFOOdr8p2WPTgo8W5ccoC1fYaTKmz3BV4x9QsjmP2lnWShbfnsjBAcZeBPO4Guz5b0qRDlYeLV8uedpIxqK9FhRerLEfy6xFYOwAPevThtLTxR4kgyoNxK5XrgxHURRYS1z6LdG8UPJhEV3buwxT6R6aNEmAOjcaa0KPhvxcUl8ltsyGlS1tCPAPqjGhKMpZAALb9GykAe9T90sfWpuA1OU1cJBnfJmAuKgwSr6RfpSC6h",
+              "received": false
+            },
+            {
+              "_id": "699f7a401c508c5d5ed12376",
+              "name": "Table98087",
+              "amount": 163,
+              "price": 74839,
+              "manufacturer": "Sony",
+              "notes": "8AnUuwTInFpdE3mfOEWnKeAk2MC7m4iMcIeGRmz2VlOli32SQdAlDcIpKtYElFmzsuFsbw3GDCG3l8D7ejmjSfsutbZ5A5psNbYcnoiYMtnMWud7lvtsih5iqDr0R70tAk76uOVeOqufHdkh0gtHJHm6AgmWUiXfs3uUGXzGNddzrR6EoDxIhudypJxiazwpTqX8Nw5ZTtdr5afIuzzCi8oW3rBoW2L7dc7M4rWVzbo3YQleUBguUg4wKG",
+              "received": false
+            }
+          ],
+          "total_price": 105610,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:40:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a441c508c5d5ed126a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

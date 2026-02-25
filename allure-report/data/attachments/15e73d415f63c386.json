@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:40:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4786",
+    "etag": "W/\"12b2-v2HvlPQktNjR6V5Watye/wcTY/4\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699f7a681c508c5d5ed140c3",
+      "status": "Received",
+      "customer": {
+        "_id": "699f7a5c1c508c5d5ed13772",
+        "email": "Durward.Langworth@yahoo.com",
+        "name": "Theo Reinger",
+        "country": "Russia",
+        "city": "Hackettstad",
+        "street": "E North Street",
+        "house": 30,
+        "flat": 227,
+        "phone": "+19124102068",
+        "createdOn": "2026-02-25T22:40:28.000Z",
+        "notes": "M2ignx6UuheRP01XCpi5Hr3dEteFTmi1bAc32SzpmOkXaOpT6lPyrlH8KWQLeF5CAM39YiwwU5miTismCcOWJFUVHo3J5BW8IWlYRyNpB9dURJ9Nm2pGSM99ZGXXloKczncdbdrbLr8okYJo93Q6ao4m9Uqt6l9HIhfykRiNXhP5rOOSmhtVtEnYYlDL8Sw5XSvIK0gJ04Y9pxWUHg3fkE2KRPK5CcOu1MvFAqv6XayNvVvgIpy0uoR8Uy"
+      },
+      "products": [
+        {
+          "_id": "699f7a621c508c5d5ed13c16",
+          "name": "Car36861",
+          "amount": 379,
+          "price": 13070,
+          "manufacturer": "Apple",
+          "notes": "mjNmbhrXWeTu7xCQ1vLnU4lpsPSy66abDgAf3YdOnn9IENqAhybnSDBdI5zjdaOBsiArFI2ghUbZcZh87DPiycA2Nui2XVzjrvYRXYB9vUl5EkqsbnRMz0cnCxgTu0R7s18o23q9gIJHwdghIMkyUooiwECmcu1VgRqKpx1D0KHXmZMnkeciwA9YaG02FYTI6tCm955qFPXECo5xUSrtU0nNuGX8Jr5iv4cqjKUueXDFRULxLucjt4VfkL",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Hackettstad",
+          "street": "E North Street",
+          "house": 30,
+          "flat": 227
+        },
+        "finalDate": "2026-03-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 13070,
+      "createdOn": "2026-02-25T22:40:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "699f7a5c1c508c5d5ed13772",
+          "products": [
+            {
+              "_id": "699f7a621c508c5d5ed13c16",
+              "name": "Car36861",
+              "amount": 379,
+              "price": 13070,
+              "manufacturer": "Apple",
+              "notes": "mjNmbhrXWeTu7xCQ1vLnU4lpsPSy66abDgAf3YdOnn9IENqAhybnSDBdI5zjdaOBsiArFI2ghUbZcZh87DPiycA2Nui2XVzjrvYRXYB9vUl5EkqsbnRMz0cnCxgTu0R7s18o23q9gIJHwdghIMkyUooiwECmcu1VgRqKpx1D0KHXmZMnkeciwA9YaG02FYTI6tCm955qFPXECo5xUSrtU0nNuGX8Jr5iv4cqjKUueXDFRULxLucjt4VfkL",
+              "received": true
+            }
+          ],
+          "total_price": 13070,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hackettstad",
+              "street": "E North Street",
+              "house": 30,
+              "flat": 227
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-25T22:40:48.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "699f7a5c1c508c5d5ed13772",
+          "products": [
+            {
+              "_id": "699f7a621c508c5d5ed13c16",
+              "name": "Car36861",
+              "amount": 379,
+              "price": 13070,
+              "manufacturer": "Apple",
+              "notes": "mjNmbhrXWeTu7xCQ1vLnU4lpsPSy66abDgAf3YdOnn9IENqAhybnSDBdI5zjdaOBsiArFI2ghUbZcZh87DPiycA2Nui2XVzjrvYRXYB9vUl5EkqsbnRMz0cnCxgTu0R7s18o23q9gIJHwdghIMkyUooiwECmcu1VgRqKpx1D0KHXmZMnkeciwA9YaG02FYTI6tCm955qFPXECo5xUSrtU0nNuGX8Jr5iv4cqjKUueXDFRULxLucjt4VfkL",
+              "received": false
+            }
+          ],
+          "total_price": 13070,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hackettstad",
+              "street": "E North Street",
+              "house": 30,
+              "flat": 227
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-25T22:40:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7a5c1c508c5d5ed13772",
+          "products": [
+            {
+              "_id": "699f7a621c508c5d5ed13c16",
+              "name": "Car36861",
+              "amount": 379,
+              "price": 13070,
+              "manufacturer": "Apple",
+              "notes": "mjNmbhrXWeTu7xCQ1vLnU4lpsPSy66abDgAf3YdOnn9IENqAhybnSDBdI5zjdaOBsiArFI2ghUbZcZh87DPiycA2Nui2XVzjrvYRXYB9vUl5EkqsbnRMz0cnCxgTu0R7s18o23q9gIJHwdghIMkyUooiwECmcu1VgRqKpx1D0KHXmZMnkeciwA9YaG02FYTI6tCm955qFPXECo5xUSrtU0nNuGX8Jr5iv4cqjKUueXDFRULxLucjt4VfkL",
+              "received": false
+            }
+          ],
+          "total_price": 13070,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hackettstad",
+              "street": "E North Street",
+              "house": 30,
+              "flat": 227
+            },
+            "finalDate": "2026-03-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-25T22:40:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7a5c1c508c5d5ed13772",
+          "products": [
+            {
+              "_id": "699f7a621c508c5d5ed13c16",
+              "name": "Car36861",
+              "amount": 379,
+              "price": 13070,
+              "manufacturer": "Apple",
+              "notes": "mjNmbhrXWeTu7xCQ1vLnU4lpsPSy66abDgAf3YdOnn9IENqAhybnSDBdI5zjdaOBsiArFI2ghUbZcZh87DPiycA2Nui2XVzjrvYRXYB9vUl5EkqsbnRMz0cnCxgTu0R7s18o23q9gIJHwdghIMkyUooiwECmcu1VgRqKpx1D0KHXmZMnkeciwA9YaG02FYTI6tCm955qFPXECo5xUSrtU0nNuGX8Jr5iv4cqjKUueXDFRULxLucjt4VfkL",
+              "received": false
+            }
+          ],
+          "total_price": 13070,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:40:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

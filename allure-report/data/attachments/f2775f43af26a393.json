@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:40:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-fSul0szhJLZMYHKu5mR8MXn9mDc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a4c1c508c5d5ed12c0a",
+        "email": "Clinton85@gmail.com",
+        "name": "Caterina Marvin",
+        "country": "Belarus",
+        "city": "Fort Viviane",
+        "street": "Mohr Ridge",
+        "house": 4,
+        "flat": 106,
+        "phone": "+12555604505",
+        "createdOn": "2026-02-25T22:40:12.000Z",
+        "notes": "IWd9JNJfhg2BYazD5YLBZBgFkEGLGEUk7PjzJXqaPZ0s0dBIWerMflgDDJxYlPVqK7WCwJmW936D4cgZ4HuDRgb2LmgEu57eMufciwW8sOp4IZqDfDKgZRxRkUITSwt0BcJtgeJvu7ApkdO8piJXP05mIySaBRKuQBSbUsqn9n3Vz9cNBgr798xECMVcEMDqhVnsVLzaBG9rnRjmIIzZPxt67UNOdzMdgKCWTUtDImfzobBOX7hK4SGUuk"
+      },
+      "products": [
+        {
+          "_id": "699f7a4d1c508c5d5ed12c4e",
+          "name": "Bike22585",
+          "amount": 373,
+          "price": 49716,
+          "manufacturer": "Amazon",
+          "notes": "ZAItQ8UIccGpmmeCPOT6pK67cMR64mCzIy3uf746plkHfjybqIDKREezizxpqYaoWknJgukGKev6XF4y1chAcwq03FZlxOn0XsvK22ngpMOWlR7ferE9DzJu1xBABjfjFntiId9eN0nvEb6WgDTGtALLyXAMF3ulrhplHgNvPbHCN95mytjBhneDmhrvDlmY5SaNIuwgwsMwTJaWngeXtNRbSAqrTBqheV002eIvClhyIRqlqXD5Q8QvLL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49716,
+      "createdOn": "2026-02-25T22:40:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a4c1c508c5d5ed12c0a",
+          "products": [
+            {
+              "_id": "699f7a4d1c508c5d5ed12c4e",
+              "name": "Bike22585",
+              "amount": 373,
+              "price": 49716,
+              "manufacturer": "Amazon",
+              "notes": "ZAItQ8UIccGpmmeCPOT6pK67cMR64mCzIy3uf746plkHfjybqIDKREezizxpqYaoWknJgukGKev6XF4y1chAcwq03FZlxOn0XsvK22ngpMOWlR7ferE9DzJu1xBABjfjFntiId9eN0nvEb6WgDTGtALLyXAMF3ulrhplHgNvPbHCN95mytjBhneDmhrvDlmY5SaNIuwgwsMwTJaWngeXtNRbSAqrTBqheV002eIvClhyIRqlqXD5Q8QvLL",
+              "received": false
+            }
+          ],
+          "total_price": 49716,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:40:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a4f1c508c5d5ed12e02"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

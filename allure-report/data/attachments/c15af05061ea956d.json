@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-9oCHkD9z2AWCWmDTUP56xGgl5QU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a261c508c5d5ed11216",
+        "email": "Deron.Glover@hotmail.com",
+        "name": "Lydia Sauer",
+        "country": "France",
+        "city": "Lake Darrylburgh",
+        "street": "E 6th Avenue",
+        "house": 7,
+        "flat": 279,
+        "phone": "+14309045345",
+        "createdOn": "2026-02-25T22:39:34.000Z",
+        "notes": "Jfr0fKihZC8IcAAIbUuM9dS671iSzTD0xsjqju6JDxhWW621stUEF9ssLF8zBjG2mS8rozOiCZbsrDFDFBsqa9QEr0FF7JyJGcCXZoVT0aKzDBxfFDcdtoQ16q7cK7wYFexKLvJQK95NSfGcMYrN468nQD2H3B5V4kCpZ4zjfxOjft0WAC4aeFZy8gqMw4EoICeXX2bbZBQQ9EDKXbQcieKHPWRZSotTlLvV7nsM02ryfNWdOabfSVXKFb"
+      },
+      "products": [
+        {
+          "_id": "699f7a261c508c5d5ed1123c",
+          "name": "Keyboard50378",
+          "amount": 214,
+          "price": 4091,
+          "manufacturer": "Amazon",
+          "notes": "D5nc4mGEbHoQPXKT3rgICdKfrM8r2rrpqZqoyXO9VX9s9Y1ZxAxRp7zlOoQQR8MTw418V482adtV2v3PcfEXWTCTUgUXXU0cMIMjWnyarphJZzslik5nfTwz7qrgHQvJQ1zVz50cDfDH76dpORMlNPCgZwARUk5GkUgyEHvdfanc0stkHvzwsNLGUyFuOUBI9SVUGBkc9LBEqBVgMBi6DXj7TL49FLv1iRWylViPgmJFSluKjCddFi0j5r",
+          "received": false
+        },
+        {
+          "_id": "699f7a261c508c5d5ed11256",
+          "name": "Chair96013",
+          "amount": 0,
+          "price": 96678,
+          "manufacturer": "Tesla",
+          "notes": "yfYvjWi7jD97Avdg1HQyV2duuvebiTLnMLoG7dd7m75XBD5e8Ssa4ZL4o4ZOdJeuZABpJ2a1g5VWpOf8Yndhu0c161lw4k9iGm7ytHUnDlnJQ91KUzt5bC4OWst4E8O3IA5RNwep8RsCMtKrLELHQ3paavZYpoNXgV7HOrwE8aICluq2nWEkpIh60rCI46B7I0A1VH86gRI1zUuQmooXpzoweRH1SqajAUHjg290DK3FQEUHOan2LPKPw9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100769,
+      "createdOn": "2026-02-25T22:39:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a261c508c5d5ed11216",
+          "products": [
+            {
+              "_id": "699f7a261c508c5d5ed1123c",
+              "name": "Keyboard50378",
+              "amount": 214,
+              "price": 4091,
+              "manufacturer": "Amazon",
+              "notes": "D5nc4mGEbHoQPXKT3rgICdKfrM8r2rrpqZqoyXO9VX9s9Y1ZxAxRp7zlOoQQR8MTw418V482adtV2v3PcfEXWTCTUgUXXU0cMIMjWnyarphJZzslik5nfTwz7qrgHQvJQ1zVz50cDfDH76dpORMlNPCgZwARUk5GkUgyEHvdfanc0stkHvzwsNLGUyFuOUBI9SVUGBkc9LBEqBVgMBi6DXj7TL49FLv1iRWylViPgmJFSluKjCddFi0j5r",
+              "received": false
+            },
+            {
+              "_id": "699f7a261c508c5d5ed11256",
+              "name": "Chair96013",
+              "amount": 0,
+              "price": 96678,
+              "manufacturer": "Tesla",
+              "notes": "yfYvjWi7jD97Avdg1HQyV2duuvebiTLnMLoG7dd7m75XBD5e8Ssa4ZL4o4ZOdJeuZABpJ2a1g5VWpOf8Yndhu0c161lw4k9iGm7ytHUnDlnJQ91KUzt5bC4OWst4E8O3IA5RNwep8RsCMtKrLELHQ3paavZYpoNXgV7HOrwE8aICluq2nWEkpIh60rCI46B7I0A1VH86gRI1zUuQmooXpzoweRH1SqajAUHjg290DK3FQEUHOan2LPKPw9",
+              "received": false
+            }
+          ],
+          "total_price": 100769,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a271c508c5d5ed11291"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

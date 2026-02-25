@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-lW2Tnro3hKQ5f9ppsuPLVzDeEjs\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a361c508c5d5ed11c82",
+        "email": "Kristofer83@hotmail.com",
+        "name": "Rashad Hamill",
+        "country": "Great Britain",
+        "city": "Lake Dandre",
+        "street": "Turcotte Grove",
+        "house": 46,
+        "flat": 523,
+        "phone": "+13278074531",
+        "createdOn": "2026-02-25T22:39:50.000Z",
+        "notes": "VpNSZ8lg0gV6yfFfojZrmSjU7Nt4ZObpXGq99wJ917PGzPAcqD3kQLOMiCLR1UR4SDlIRTyFkG3CWaBXal6B4rIo5pO5JZ9COUO807rfkmLW0IC1TDQPpbvmn8XV5eNG9HIcw5w1KNUSLCZqpC5xelrVayI5A4c0diKlbwF1TlM4ucW29tQiFaEDfspDCzFFXO0d3V0y6jlKUIEnSnHVmYnNyHqON6WGvqsZalFBkwW23dtGP0nYQGT4Lt"
+      },
+      "products": [
+        {
+          "_id": "699f7a371c508c5d5ed11cb2",
+          "name": "Gloves63308",
+          "amount": 238,
+          "price": 83267,
+          "manufacturer": "Sony",
+          "notes": "jDNMbDB26QC1wdkWkXnKUQx2IJbNtim8rQ9N9KR3OSuIPh2jsmZTFaKDsqKl6PVb3uA6uFNgDXuTpia2atGUNKqhbYwZTt9VOLqjziEhe1ZV99W7P6uq6VZJAbolRpcAHDlFFAw4VjufJc3yHspLXMJpirQvObRL1YHuSGs23Ll3OkCgIUMJxNGZrSJsbGNTYxpLUTQkUElwoFBuJncw0yt1lUxjNWofRhWl1qJXPIxUtQzl2cJ70eDBUL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83267,
+      "createdOn": "2026-02-25T22:39:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a361c508c5d5ed11c82",
+          "products": [
+            {
+              "_id": "699f7a371c508c5d5ed11cb2",
+              "name": "Gloves63308",
+              "amount": 238,
+              "price": 83267,
+              "manufacturer": "Sony",
+              "notes": "jDNMbDB26QC1wdkWkXnKUQx2IJbNtim8rQ9N9KR3OSuIPh2jsmZTFaKDsqKl6PVb3uA6uFNgDXuTpia2atGUNKqhbYwZTt9VOLqjziEhe1ZV99W7P6uq6VZJAbolRpcAHDlFFAw4VjufJc3yHspLXMJpirQvObRL1YHuSGs23Ll3OkCgIUMJxNGZrSJsbGNTYxpLUTQkUElwoFBuJncw0yt1lUxjNWofRhWl1qJXPIxUtQzl2cJ70eDBUL",
+              "received": false
+            }
+          ],
+          "total_price": 83267,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a391c508c5d5ed11e50"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

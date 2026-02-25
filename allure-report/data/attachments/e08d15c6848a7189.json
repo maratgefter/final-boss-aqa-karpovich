@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2949",
+    "etag": "W/\"b85-r5YvEHaJ4CeK3Xjx3x2XyGgNc2U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699f7a361c508c5d5ed11c75",
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a2f1c508c5d5ed1178f",
+        "email": "Adam.Bradtke@yahoo.com",
+        "name": "Donnell Murphy",
+        "country": "Belarus",
+        "city": "West Chauncey",
+        "street": "Waverley Road",
+        "house": 45,
+        "flat": 268,
+        "phone": "+12349651842",
+        "createdOn": "2026-02-25T22:39:43.000Z",
+        "notes": "9zwDnovUmQP7zO3q5uz0TCMwXVp2l3GfxxRTDIX1mHOfo9vjtmWCqTBastiBBC55HiEldgolzAaTIwdI8hh0sCxiwK3yHfsj9CyWeYGGz8hwx1QAoQ0iS7cIGTZJfoCEoBbmivPyyWtxFKy9s3FLvnK8zqNC7IBogqwpZt6aEyhV1qZgrkBRlemYDQFwHJT9nC4QlESgyi6e4DTfuGnbUNHLZ8ibIlzbeH8DOwE1Oye53FYzG9ZfvB6ZOg"
+      },
+      "products": [
+        {
+          "_id": "699f7a321c508c5d5ed11aa2",
+          "name": "Bike4674",
+          "amount": 583,
+          "price": 45321,
+          "manufacturer": "Google",
+          "notes": "3iVKMzonBwbnPLni8P4aItrwPwB9j97uoJCEcnDVc4AqJu9gJsROGh0h3Lln7hDLKHn8Kc4DzKIJf97t3i4z4u9EdR6TO9lsgOLCFqWMvcbMSZHBVRKe5r9rzimh5ZezJ9G9hmydBYMO8dAqBUVvozAiGIqEoBlaelAmYItTIy7qWqiPyYv0MRPeAi4NLysFfbGGBxJv3L3fh8b5InkTEOKyiobI80TboS0rtsvcXyvCj3a2MoNKKLT93N",
+          "received": false
+        },
+        {
+          "_id": "699f7a341c508c5d5ed11ac1",
+          "name": "Fish47457",
+          "amount": 335,
+          "price": 72774,
+          "manufacturer": "Microsoft",
+          "notes": "MZHdJrnFxXzKF6NFxtX3fwACpatmvVjEPvx01w7NXEj7xZgHhaaxVUSV3QILl6fb0yeSliIKqiFQrN4fnZ2grYuEdkYZZFwbrN8g2KAz4SjRvQ8rVsRUDbpgvzvAWp8RPmEl40zuiXiLRRua1m4NfyQC5YhXEC4KQ1AKgeYvBVlDmfC8RfxrhptmysMbJaNF7yIgwhKcybIMBEDuvXiT0XWjbCr9DkVEkdPsiD2mI1td82RHPgHOO8fXE1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 118095,
+      "createdOn": "2026-02-25T22:39:50.000Z",
+      "comments": [
+        {
+          "text": "<script>3dJ3bldL4PCYhSi994cPLpxbg08GQ0d1Aql7r8M2URbENkKKVKJBPriM73PlAJA99LcncMKMTzRtcIo3FcZWYYlA9XZgbzw6nAWBYGFyqMmeN7SSVOwDnFVWIfvih8FM7YoZ23VCMGFcUwEjt3htP1M22YFDwNHrQNmg0Oqgeq3lrxeoYMl6xUPXcedaSFhBztMy0HXh >",
+          "createdOn": "2026-02-25T22:39:51.000Z",
+          "_id": "699f7a371c508c5d5ed11ca5"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a2f1c508c5d5ed1178f",
+          "products": [
+            {
+              "_id": "699f7a321c508c5d5ed11aa2",
+              "name": "Bike4674",
+              "amount": 583,
+              "price": 45321,
+              "manufacturer": "Google",
+              "notes": "3iVKMzonBwbnPLni8P4aItrwPwB9j97uoJCEcnDVc4AqJu9gJsROGh0h3Lln7hDLKHn8Kc4DzKIJf97t3i4z4u9EdR6TO9lsgOLCFqWMvcbMSZHBVRKe5r9rzimh5ZezJ9G9hmydBYMO8dAqBUVvozAiGIqEoBlaelAmYItTIy7qWqiPyYv0MRPeAi4NLysFfbGGBxJv3L3fh8b5InkTEOKyiobI80TboS0rtsvcXyvCj3a2MoNKKLT93N",
+              "received": false
+            },
+            {
+              "_id": "699f7a341c508c5d5ed11ac1",
+              "name": "Fish47457",
+              "amount": 335,
+              "price": 72774,
+              "manufacturer": "Microsoft",
+              "notes": "MZHdJrnFxXzKF6NFxtX3fwACpatmvVjEPvx01w7NXEj7xZgHhaaxVUSV3QILl6fb0yeSliIKqiFQrN4fnZ2grYuEdkYZZFwbrN8g2KAz4SjRvQ8rVsRUDbpgvzvAWp8RPmEl40zuiXiLRRua1m4NfyQC5YhXEC4KQ1AKgeYvBVlDmfC8RfxrhptmysMbJaNF7yIgwhKcybIMBEDuvXiT0XWjbCr9DkVEkdPsiD2mI1td82RHPgHOO8fXE1",
+              "received": false
+            }
+          ],
+          "total_price": 118095,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

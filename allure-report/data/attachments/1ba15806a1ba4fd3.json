@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:43:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5413",
+    "etag": "W/\"1525-BtlQE+G1WNiAa9280j0W/abaS58\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699f7b1c1c508c5d5ed1c606",
+      "status": "In Process",
+      "customer": {
+        "_id": "699f7b1a1c508c5d5ed1c58b",
+        "email": "Garrick.Hartmann85@hotmail.com",
+        "name": "Filomena Farrell",
+        "country": "France",
+        "city": "Tressafort",
+        "street": "Metz Shoals",
+        "house": 25,
+        "flat": 945,
+        "phone": "+16722223920",
+        "createdOn": "2026-02-25T22:43:38.000Z",
+        "notes": "ePm7aWbyMC0sZRYY4FEJy3j2PaC0Rf3ZSxaVyCXN42GoxD62wRnEWbZtrYaxvfHg8PZny4pPNqqIeEnBbkt9BsbqRpw9viAOcIrZhpCxoqd920XM3Y74MPHzqJk3nBzKEchSGnYdhmDIpv0PSc0mD7p9QxBMlxueooUgJNQcV6gdtkui02pCMnl82fttu8m8rRDF3LViE1USgl6h2q4sNSdXlIj74QQdWiyQeb1UYhg6GrHeg7JaWT7Au8"
+      },
+      "products": [
+        {
+          "_id": "699f7b1b1c508c5d5ed1c5b8",
+          "name": "Chicken37849",
+          "amount": 771,
+          "price": 36206,
+          "manufacturer": "Tesla",
+          "notes": "jfq5W5kmdtnheXZQRjmYxiEhre3WAIGU8meogjWeRVP5Kpt5OGEffqhpX5uW9UoS2KQZnTrUXV9b5PP3uae9SMgFNa9KzioFX4y0684pk6ZBKUZzVRR1e1kUBTpALq0RxkuzHWXn5dpuEWFJgzRM4wuDN0hVZqps3Ce5vCYDI2D13J6v6MBFonHcJyDFcWKDr8qdKO1ZhJPCbQcsu01mWfT8QMqlX5AbrvnXJKfw8J3z5tCbKgWvYBh87u",
+          "received": false
+        },
+        {
+          "_id": "699f7b1b1c508c5d5ed1c5df",
+          "name": "Chips7220",
+          "amount": 279,
+          "price": 67406,
+          "manufacturer": "Tesla",
+          "notes": "ahKTwYnhVpkprtc55Ng1X06akwRcvp94sX20vFruTM5ESPCl5twgmDJbmFNwKNFSo3sSyH0MCV9fz8QMuLuFseAJG1ZdbpicuFub91cEvPh9kxzGIzuydOW5hmsNkziemlScnTOLfxd5nWAqy5pirn2Gv9NIeBs4yBXOzPC1lr12hlKjs56j9E3ZG2qNNe0BCrsp4dx6WkjtNITgsOoa0LJcy5fU7ZClorIwnwa63IUQ948bl0IJ8Fqsb6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Tressafort",
+          "street": "Metz Shoals",
+          "house": 25,
+          "flat": 945
+        },
+        "finalDate": "2026-02-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 103612,
+      "createdOn": "2026-02-25T22:43:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "699f7b1a1c508c5d5ed1c58b",
+          "products": [
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5b8",
+              "name": "Chicken37849",
+              "amount": 771,
+              "price": 36206,
+              "manufacturer": "Tesla",
+              "notes": "jfq5W5kmdtnheXZQRjmYxiEhre3WAIGU8meogjWeRVP5Kpt5OGEffqhpX5uW9UoS2KQZnTrUXV9b5PP3uae9SMgFNa9KzioFX4y0684pk6ZBKUZzVRR1e1kUBTpALq0RxkuzHWXn5dpuEWFJgzRM4wuDN0hVZqps3Ce5vCYDI2D13J6v6MBFonHcJyDFcWKDr8qdKO1ZhJPCbQcsu01mWfT8QMqlX5AbrvnXJKfw8J3z5tCbKgWvYBh87u",
+              "received": false
+            },
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5df",
+              "name": "Chips7220",
+              "amount": 279,
+              "price": 67406,
+              "manufacturer": "Tesla",
+              "notes": "ahKTwYnhVpkprtc55Ng1X06akwRcvp94sX20vFruTM5ESPCl5twgmDJbmFNwKNFSo3sSyH0MCV9fz8QMuLuFseAJG1ZdbpicuFub91cEvPh9kxzGIzuydOW5hmsNkziemlScnTOLfxd5nWAqy5pirn2Gv9NIeBs4yBXOzPC1lr12hlKjs56j9E3ZG2qNNe0BCrsp4dx6WkjtNITgsOoa0LJcy5fU7ZClorIwnwa63IUQ948bl0IJ8Fqsb6",
+              "received": false
+            }
+          ],
+          "total_price": 103612,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Tressafort",
+              "street": "Metz Shoals",
+              "house": 25,
+              "flat": 945
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-25T22:43:54.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7b1a1c508c5d5ed1c58b",
+          "products": [
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5b8",
+              "name": "Chicken37849",
+              "amount": 771,
+              "price": 36206,
+              "manufacturer": "Tesla",
+              "notes": "jfq5W5kmdtnheXZQRjmYxiEhre3WAIGU8meogjWeRVP5Kpt5OGEffqhpX5uW9UoS2KQZnTrUXV9b5PP3uae9SMgFNa9KzioFX4y0684pk6ZBKUZzVRR1e1kUBTpALq0RxkuzHWXn5dpuEWFJgzRM4wuDN0hVZqps3Ce5vCYDI2D13J6v6MBFonHcJyDFcWKDr8qdKO1ZhJPCbQcsu01mWfT8QMqlX5AbrvnXJKfw8J3z5tCbKgWvYBh87u",
+              "received": false
+            },
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5df",
+              "name": "Chips7220",
+              "amount": 279,
+              "price": 67406,
+              "manufacturer": "Tesla",
+              "notes": "ahKTwYnhVpkprtc55Ng1X06akwRcvp94sX20vFruTM5ESPCl5twgmDJbmFNwKNFSo3sSyH0MCV9fz8QMuLuFseAJG1ZdbpicuFub91cEvPh9kxzGIzuydOW5hmsNkziemlScnTOLfxd5nWAqy5pirn2Gv9NIeBs4yBXOzPC1lr12hlKjs56j9E3ZG2qNNe0BCrsp4dx6WkjtNITgsOoa0LJcy5fU7ZClorIwnwa63IUQ948bl0IJ8Fqsb6",
+              "received": false
+            }
+          ],
+          "total_price": 103612,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Tressafort",
+              "street": "Metz Shoals",
+              "house": 25,
+              "flat": 945
+            },
+            "finalDate": "2026-02-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-02-25T22:43:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7b1a1c508c5d5ed1c58b",
+          "products": [
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5b8",
+              "name": "Chicken37849",
+              "amount": 771,
+              "price": 36206,
+              "manufacturer": "Tesla",
+              "notes": "jfq5W5kmdtnheXZQRjmYxiEhre3WAIGU8meogjWeRVP5Kpt5OGEffqhpX5uW9UoS2KQZnTrUXV9b5PP3uae9SMgFNa9KzioFX4y0684pk6ZBKUZzVRR1e1kUBTpALq0RxkuzHWXn5dpuEWFJgzRM4wuDN0hVZqps3Ce5vCYDI2D13J6v6MBFonHcJyDFcWKDr8qdKO1ZhJPCbQcsu01mWfT8QMqlX5AbrvnXJKfw8J3z5tCbKgWvYBh87u",
+              "received": false
+            },
+            {
+              "_id": "699f7b1b1c508c5d5ed1c5df",
+              "name": "Chips7220",
+              "amount": 279,
+              "price": 67406,
+              "manufacturer": "Tesla",
+              "notes": "ahKTwYnhVpkprtc55Ng1X06akwRcvp94sX20vFruTM5ESPCl5twgmDJbmFNwKNFSo3sSyH0MCV9fz8QMuLuFseAJG1ZdbpicuFub91cEvPh9kxzGIzuydOW5hmsNkziemlScnTOLfxd5nWAqy5pirn2Gv9NIeBs4yBXOzPC1lr12hlKjs56j9E3ZG2qNNe0BCrsp4dx6WkjtNITgsOoa0LJcy5fU7ZClorIwnwa63IUQ948bl0IJ8Fqsb6",
+              "received": false
+            }
+          ],
+          "total_price": 103612,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:43:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

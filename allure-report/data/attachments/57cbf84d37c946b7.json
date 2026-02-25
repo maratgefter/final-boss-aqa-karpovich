@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:40:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-o0cOE0K6jyYl0ZlXg1nqcqeQF3A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a4b1c508c5d5ed12ba5",
+        "email": "Brad20@yahoo.com",
+        "name": "Leonor Hammes",
+        "country": "Great Britain",
+        "city": "Port Albinaport",
+        "street": "Conn Motorway",
+        "house": 40,
+        "flat": 747,
+        "phone": "+18834579431",
+        "createdOn": "2026-02-25T22:40:11.000Z",
+        "notes": "jUQ8NFxOR9V28thsrsUVGvLxzeLRUvVGtTNEmAGYn2O1Xj4uIMdMTqMZDI9BUWdaEtKWlxXLoSRk9H9hrHclXhYBDsuRg5YB6BmuvEkgmWzfWSgl3tz827QYIW34bAL7U4ORJMScpZPSdOEQPskqOvo1xIrZ2JcBAIQfIp8kBgjz4I2QsoK4o2cwpmMVmTwPIymrJ74RdfYfcYfMlJ0Y520HzE3owUiImHnXwmWs91xso4C98nVvrB1UiP"
+      },
+      "products": [
+        {
+          "_id": "699f7a4c1c508c5d5ed12be1",
+          "name": "Gloves83665",
+          "amount": 601,
+          "price": 60949,
+          "manufacturer": "Samsung",
+          "notes": "19QdYnL08IqEQmVZKqovABSQ4oa8Ay0XJrwpc0FtmvyTTysWuLG6iMD5K6nMyT7rC00sGxrQXk5NxCEcRg8n1IdxKc97iFK1L1vlHRJ8FIQiwvOD8EHWuRcrMtIZ7w9tr2T3UjLEry7iZGdUsAcLnW5nxEHvrS5gBmSB1HRrb5zumlSOAehwCjv8d1CuiglyYvktzV61lgI7texCPi7iAD7R1QVNs3m8eEhGgTW9c5yrpzd4XWFpndxNr6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60949,
+      "createdOn": "2026-02-25T22:40:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a4b1c508c5d5ed12ba5",
+          "products": [
+            {
+              "_id": "699f7a4c1c508c5d5ed12be1",
+              "name": "Gloves83665",
+              "amount": 601,
+              "price": 60949,
+              "manufacturer": "Samsung",
+              "notes": "19QdYnL08IqEQmVZKqovABSQ4oa8Ay0XJrwpc0FtmvyTTysWuLG6iMD5K6nMyT7rC00sGxrQXk5NxCEcRg8n1IdxKc97iFK1L1vlHRJ8FIQiwvOD8EHWuRcrMtIZ7w9tr2T3UjLEry7iZGdUsAcLnW5nxEHvrS5gBmSB1HRrb5zumlSOAehwCjv8d1CuiglyYvktzV61lgI7texCPi7iAD7R1QVNs3m8eEhGgTW9c5yrpzd4XWFpndxNr6",
+              "received": false
+            }
+          ],
+          "total_price": 60949,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:40:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a4c1c508c5d5ed12c08"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

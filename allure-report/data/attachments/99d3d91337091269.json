@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:41:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3431",
+    "etag": "W/\"d67-ncNwvaR7PPlUZuGQ+KpnGVD5MC0\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a861c508c5d5ed15615",
+        "email": "Carmen.Towne@hotmail.com",
+        "name": "Lucius Paucek",
+        "country": "Great Britain",
+        "city": "West Royville",
+        "street": "Rosalind Gateway",
+        "house": 3,
+        "flat": 212,
+        "phone": "+18875734818",
+        "createdOn": "2026-02-25T22:41:10.000Z",
+        "notes": "B7CYiKD6R0bx7XfXlQVXBlYY8xNmEmmUdkNtBS72QjDUdh6pWwDll6DzEuSmUeOj21BsR8a0vQ5w5PLEYt1XHKEGAHhPmC0dBWKhZgIxYffIbwJwY7s2DxnML3ZsyITyHbEZiHFhw4Lg4vZAB4rJwJg2yrqUNEZaRhYsOW8eD9eqzcHXA1bMIdFVqWmJJL5W7rwGnKwhaEjPZIr2mbSkc7PXVcIkyRzk9GaaVwsZmvdp7cfaTevNfkgUds"
+      },
+      "products": [
+        {
+          "_id": "699f7a871c508c5d5ed1563d",
+          "name": "Shoes52359",
+          "amount": 779,
+          "price": 64563,
+          "manufacturer": "Google",
+          "notes": "psJrW0FydzCPbFHzEECOy6aGNRRLbOugp0zeN0DTO3ryrx8c3mhH9KPnPM58Zv2kpeRjrWN1ATL9JiHcYYXTKMF8FiwIJvdahQ3n8hX5f4G9dGbGE9sTelfoDhiTtF5iuRCs8ylNj6JD2OjnWIaSUTH74hahCm9uE5eF6ThtBJcK7ltquHrRarW2gTU8rgta92420wBd1evIeaY3RjZ1K1w6mBfEuJt8ns6qSkpRs3x2KG5zyWaR8KbPXC",
+          "received": false
+        },
+        {
+          "_id": "699f7a871c508c5d5ed1567b",
+          "name": "Pizza23367",
+          "amount": 493,
+          "price": 26344,
+          "manufacturer": "Amazon",
+          "notes": "mnuM3y08MFvkaF3wm7oNrShnnLw0dAcbjKMeCvIOjuyzJ5bcBGloRK4QT6idVcRL36mhXN4bzacYaqlhsHRCty0oCBhv6ufWMMNp8bEwgn2WuMVB2FFPPqOw1dXoACAHaIrANrIogLOc0mtoPauQi3dmJEI4GahHHsP742bPlD40togPfOYNXC8uDNgLHEIrWESIEs9frKRcxgm7Owp3ZyibYPtEb0qtOTwaBethR8X2GO9gN5OMgNqWWu",
+          "received": false
+        },
+        {
+          "_id": "699f7a881c508c5d5ed156c9",
+          "name": "Mouse48082",
+          "amount": 141,
+          "price": 44695,
+          "manufacturer": "Tesla",
+          "notes": "aTD0Wp8vF6r0FU5G93uvwQCy5UxRSyP4382eruyQGiXk0Tb6d7G14z6z8KDxYFUSuiCWFaoRio6CyHPZcUiNXpHkXeT8KtXS2fcivDPicVmNAeQnICF5HOnQaXUR2b91B0phGg83sLhm1YbUpFKE64SA5SejDAoIJ6nLlNbsC3Wmx2jxAaIknapUKqgpjuM491D28FbWGdaXiRLU4d0K7mHMRLWAQnfp9YUazrhYtocxh2ObaXFs8hvTXv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 135602,
+      "createdOn": "2026-02-25T22:41:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a861c508c5d5ed15615",
+          "products": [
+            {
+              "_id": "699f7a871c508c5d5ed1563d",
+              "name": "Shoes52359",
+              "amount": 779,
+              "price": 64563,
+              "manufacturer": "Google",
+              "notes": "psJrW0FydzCPbFHzEECOy6aGNRRLbOugp0zeN0DTO3ryrx8c3mhH9KPnPM58Zv2kpeRjrWN1ATL9JiHcYYXTKMF8FiwIJvdahQ3n8hX5f4G9dGbGE9sTelfoDhiTtF5iuRCs8ylNj6JD2OjnWIaSUTH74hahCm9uE5eF6ThtBJcK7ltquHrRarW2gTU8rgta92420wBd1evIeaY3RjZ1K1w6mBfEuJt8ns6qSkpRs3x2KG5zyWaR8KbPXC",
+              "received": false
+            },
+            {
+              "_id": "699f7a871c508c5d5ed1567b",
+              "name": "Pizza23367",
+              "amount": 493,
+              "price": 26344,
+              "manufacturer": "Amazon",
+              "notes": "mnuM3y08MFvkaF3wm7oNrShnnLw0dAcbjKMeCvIOjuyzJ5bcBGloRK4QT6idVcRL36mhXN4bzacYaqlhsHRCty0oCBhv6ufWMMNp8bEwgn2WuMVB2FFPPqOw1dXoACAHaIrANrIogLOc0mtoPauQi3dmJEI4GahHHsP742bPlD40togPfOYNXC8uDNgLHEIrWESIEs9frKRcxgm7Owp3ZyibYPtEb0qtOTwaBethR8X2GO9gN5OMgNqWWu",
+              "received": false
+            },
+            {
+              "_id": "699f7a881c508c5d5ed156c9",
+              "name": "Mouse48082",
+              "amount": 141,
+              "price": 44695,
+              "manufacturer": "Tesla",
+              "notes": "aTD0Wp8vF6r0FU5G93uvwQCy5UxRSyP4382eruyQGiXk0Tb6d7G14z6z8KDxYFUSuiCWFaoRio6CyHPZcUiNXpHkXeT8KtXS2fcivDPicVmNAeQnICF5HOnQaXUR2b91B0phGg83sLhm1YbUpFKE64SA5SejDAoIJ6nLlNbsC3Wmx2jxAaIknapUKqgpjuM491D28FbWGdaXiRLU4d0K7mHMRLWAQnfp9YUazrhYtocxh2ObaXFs8hvTXv",
+              "received": false
+            }
+          ],
+          "total_price": 135602,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:41:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a921c508c5d5ed16047"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

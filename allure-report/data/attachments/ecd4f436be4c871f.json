@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:39:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3886",
+    "etag": "W/\"f2e-N4nT2LcNqnIKWD1VXxZj1qReZp8\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "699f7a2c1c508c5d5ed1155d",
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a2b1c508c5d5ed11504",
+        "email": "Santina_Blick38@yahoo.com",
+        "name": "Verla Oberbrunner",
+        "country": "Belarus",
+        "city": "Hicksville",
+        "street": "Quigley Hollow",
+        "house": 13,
+        "flat": 532,
+        "phone": "+16003367752",
+        "createdOn": "2026-02-25T22:39:39.000Z",
+        "notes": "9TMzZS9fHT5tAstdlaDV9ZuvP198chg1yJYZSoGS2e1BeE6xXE0Hh6fUT4iZRtAZMNK0OdYjTYWjkImVDoE5AtL9BKWOiT27ZPhH5dB0yu0P8vZ56V4a5BPMuqTwLPBOcQbE2WJRXltHu6muAhZYML45PRQAE1hLyxORg4G9ukdz4DscmEhidTM1sUUcGTeRxsLbZmgIjzCxNUC4SMNQCt5h4Xm90LAyaHHsT8Epp0mJgHiNFBWLtugJPM"
+      },
+      "products": [
+        {
+          "_id": "699f7a2c1c508c5d5ed11532",
+          "name": "Pizza83029",
+          "amount": 758,
+          "price": 17172,
+          "manufacturer": "Sony",
+          "notes": "kJDJ2Fr9gEXgdFrTx8kQjNBlvjUkugilIMBRg7NgnGJXhxa8IeHoXkZJN7aNsKOEisdfUlPUkOBz0vaE1VojIP4JfdNsQuf7Zz2R5onT9vtPYSvLy8XPUervyKvPRwDEP89gbUg72HahsfyK9IRCc1eOIevKrZ6XyP0nQrJuJNV5k3O34Lg8zaGZKQT8U0g4GUAXxvSd82wyLAMwPyeFl1HsWUEMUhLRM26v5hNO5BgVNWWrLswVaGqU9u",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17172,
+      "createdOn": "2026-02-25T22:39:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a2b1c508c5d5ed11504",
+          "products": [
+            {
+              "_id": "699f7a2c1c508c5d5ed11532",
+              "name": "Pizza83029",
+              "amount": 758,
+              "price": 17172,
+              "manufacturer": "Sony",
+              "notes": "kJDJ2Fr9gEXgdFrTx8kQjNBlvjUkugilIMBRg7NgnGJXhxa8IeHoXkZJN7aNsKOEisdfUlPUkOBz0vaE1VojIP4JfdNsQuf7Zz2R5onT9vtPYSvLy8XPUervyKvPRwDEP89gbUg72HahsfyK9IRCc1eOIevKrZ6XyP0nQrJuJNV5k3O34Lg8zaGZKQT8U0g4GUAXxvSd82wyLAMwPyeFl1HsWUEMUhLRM26v5hNO5BgVNWWrLswVaGqU9u",
+              "received": false
+            }
+          ],
+          "total_price": 17172,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:41.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7a2b1c508c5d5ed11504",
+          "products": [
+            {
+              "_id": "699f7a2c1c508c5d5ed11532",
+              "name": "Pizza83029",
+              "amount": 758,
+              "price": 17172,
+              "manufacturer": "Sony",
+              "notes": "kJDJ2Fr9gEXgdFrTx8kQjNBlvjUkugilIMBRg7NgnGJXhxa8IeHoXkZJN7aNsKOEisdfUlPUkOBz0vaE1VojIP4JfdNsQuf7Zz2R5onT9vtPYSvLy8XPUervyKvPRwDEP89gbUg72HahsfyK9IRCc1eOIevKrZ6XyP0nQrJuJNV5k3O34Lg8zaGZKQT8U0g4GUAXxvSd82wyLAMwPyeFl1HsWUEMUhLRM26v5hNO5BgVNWWrLswVaGqU9u",
+              "received": false
+            }
+          ],
+          "total_price": 17172,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "699f7a2b1c508c5d5ed11504",
+          "products": [
+            {
+              "_id": "699f7a2c1c508c5d5ed11532",
+              "name": "Pizza83029",
+              "amount": 758,
+              "price": 17172,
+              "manufacturer": "Sony",
+              "notes": "kJDJ2Fr9gEXgdFrTx8kQjNBlvjUkugilIMBRg7NgnGJXhxa8IeHoXkZJN7aNsKOEisdfUlPUkOBz0vaE1VojIP4JfdNsQuf7Zz2R5onT9vtPYSvLy8XPUervyKvPRwDEP89gbUg72HahsfyK9IRCc1eOIevKrZ6XyP0nQrJuJNV5k3O34Lg8zaGZKQT8U0g4GUAXxvSd82wyLAMwPyeFl1HsWUEMUhLRM26v5hNO5BgVNWWrLswVaGqU9u",
+              "received": false
+            }
+          ],
+          "total_price": 17172,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:39:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

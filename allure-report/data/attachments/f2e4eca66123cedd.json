@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 25 Feb 2026 22:40:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-SWNFC7UVAbtrdv4tOYjuiSzA2rY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "699f7a6d1c508c5d5ed145b7",
+        "email": "Carlee_Bogisich@hotmail.com",
+        "name": "Estevan Spinka",
+        "country": "Great Britain",
+        "city": "North Bradly",
+        "street": "N Broadway",
+        "house": 42,
+        "flat": 730,
+        "phone": "+18422516510",
+        "createdOn": "2026-02-25T22:40:45.000Z",
+        "notes": "h8f5RKsgVoB5oA8xQtWvAe7U4rHrC5HzOAyU14M5IQ59pxiYZJ9BEFGeh0Cu4aFOwA0NxS4wTIhIuoH7zqTi3NOKGJkSvh3bsAssLVao627b4YXdv1pj08z937d8Cg3gmTmjgSlNuoEkMpPsWLjRo7blBXpzhFSUv5zbrBQHCS1gIXFBizmCyIwIT08INJ7w6gFUh0Cy2vvnT2xQC7M9bxnUpsqIonOYKpANorciAMZD0ou3F82ZkiJvYf"
+      },
+      "products": [
+        {
+          "_id": "699f7a6f1c508c5d5ed145dc",
+          "name": "Chips15714",
+          "amount": 174,
+          "price": 85770,
+          "manufacturer": "Apple",
+          "notes": "Rrlo67sRrA1kmCsEYKhQw6qQDrH6VJtKItPm6MyNF794VElvryW8J00AsLXnECNhktEjTo37oIFi0ZE9s9J59HFhORwjpkPEJp0BjZzfKyK3lNUeMB0LfvA9NmCnCPXA4YnUMlGXEFdi95byeLg5luB9Kx6QeEYyc3oiX5F8TsGGpT1gzkQTfNYb6I9RKJumFnJmJlVPwz8Sp5SrudNFBdxtRVUqGfftvkovpn1rhtfwBDIkwRusFAbi0l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85770,
+      "createdOn": "2026-02-25T22:40:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "699f7a6d1c508c5d5ed145b7",
+          "products": [
+            {
+              "_id": "699f7a6f1c508c5d5ed145dc",
+              "name": "Chips15714",
+              "amount": 174,
+              "price": 85770,
+              "manufacturer": "Apple",
+              "notes": "Rrlo67sRrA1kmCsEYKhQw6qQDrH6VJtKItPm6MyNF794VElvryW8J00AsLXnECNhktEjTo37oIFi0ZE9s9J59HFhORwjpkPEJp0BjZzfKyK3lNUeMB0LfvA9NmCnCPXA4YnUMlGXEFdi95byeLg5luB9Kx6QeEYyc3oiX5F8TsGGpT1gzkQTfNYb6I9RKJumFnJmJlVPwz8Sp5SrudNFBdxtRVUqGfftvkovpn1rhtfwBDIkwRusFAbi0l",
+              "received": false
+            }
+          ],
+          "total_price": 85770,
+          "delivery": null,
+          "changedOn": "2026-02-25T22:40:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953333",
+            "username": "student7@gmail.com",
+            "firstName": "Torrey",
+            "lastName": "Bechtelar",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "699f7a6f1c508c5d5ed1460e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
